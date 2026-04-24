@@ -10,6 +10,8 @@
 - `localStorage` 기반 학습 상태 저장
 - mp3가 없을 때 Web Speech API(`vi-VN`) 음성 fallback
 
+- 기본 포함 데이터셋 규모: 레슨 6개, 단어 60개, 문장 48개
+
 ## 2) 폴더 구조
 ```text
 .
