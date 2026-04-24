@@ -43,6 +43,7 @@ class VietnameseA1App {
       settings: { speechRate: 0.95, autoShowMeaning: true, autoPlay: false }
     };
     this.settings = { ...this.state.settings, ...this.loadLocal('settings', {}) };
+    this.healTried = false;
 
     this.bindGlobalEvents();
     this.bootstrap();
@@ -58,7 +59,9 @@ class VietnameseA1App {
       this.state.lessonId = data.lessons?.[0]?.lessonId || null;
       this.render();
     } catch (e) {
-      this.renderError(`JSON 로딩 실패: ${e.message}. 정적 서버로 실행하고 README 경로를 확인해주세요.`);
+      const healed = await this.tryRecoverFromCacheIssue();
+      if (healed) return;
+      this.renderError(`JSON 로딩 실패: ${e.message}. 설정 > 복구 버튼으로 캐시를 초기화해보세요.`, true);
     }
   }
 
@@ -155,6 +158,7 @@ class VietnameseA1App {
     if (type === 'orderSubmit') return this.submitOrder();
     if (type === 'matchPick') return this.matchPick(payload, el.dataset.side);
     if (type === 'reviewWrong') return this.startWrongReview();
+    if (type === 'recoverCache') return this.recoverAndReload();
     if (type === 'resetLocal') return this.resetLocal();
   }
 
@@ -417,7 +421,7 @@ class VietnameseA1App {
       <label>음성 속도 ${this.settings.speechRate.toFixed(2)}</label><input type="range" min="0.6" max="1.2" step="0.05" value="${this.settings.speechRate}" data-change="speechRate" />
       <label><input type="checkbox" ${this.settings.autoShowMeaning ? 'checked' : ''} data-change="autoShowMeaning" /> 자동 뜻 보이기</label><br>
       <label><input type="checkbox" ${this.settings.autoPlay ? 'checked' : ''} data-change="autoPlay" /> 카드 넘김 자동 재생</label>
-      <div class="controls"><button class="bad" data-action="resetLocal">학습기록 초기화</button></div></div>
+      <div class="controls"><button class="bad" data-action="resetLocal">학습기록 초기화</button><button class="warn" data-action="recoverCache">오류 복구(캐시 초기화)</button></div></div>
       <div class="card"><h3>JSON 로딩 상태</h3><p class="small">경로: ${this.state.loadedPath}</p><p class="small">lessons ${c.lessons.length}, vocab ${c.vocab.length}, sentence ${c.sentence.length}, dialogues ${c.dialogues.length}, grammar ${c.grammar.length}, pronunciation ${c.pronunciation.length}, quizSeeds ${c.seeds.length}</p></div></section>`;
   }
 
@@ -699,8 +703,43 @@ class VietnameseA1App {
   }
 
   saveLocal(key, value) { localStorage.setItem(this.storagePrefix + key, JSON.stringify(value)); }
+  async tryRecoverFromCacheIssue() {
+    if (this.healTried) return false;
+    this.healTried = true;
+    try {
+      await this.clearBrowserCaches();
+      const { data, path } = await this.fetchJson();
+      this.state.data = data;
+      this.state.loadedPath = path;
+      this.state.flat = this.flattenData(data.lessons || []);
+      this.state.lessonId = data.lessons?.[0]?.lessonId || null;
+      this.state.message = '캐시 복구를 완료했어요. 다시 시작합니다! 🐳';
+      this.render();
+      return true;
+    } catch {
+      return false;
+    }
+  }
+
+  async recoverAndReload() {
+    this.renderLoading('브라우저 캐시와 서비스워커를 정리하는 중...');
+    await this.clearBrowserCaches();
+    location.reload();
+  }
+
+  async clearBrowserCaches() {
+    if ('caches' in window) {
+      const keys = await caches.keys();
+      await Promise.all(keys.map((k) => caches.delete(k)));
+    }
+    if ('serviceWorker' in navigator) {
+      const regs = await navigator.serviceWorker.getRegistrations();
+      await Promise.all(regs.map((r) => r.unregister()));
+    }
+  }
+
   renderLoading(msg) { this.appEl.innerHTML = `<div class="card">${msg}</div>`; }
-  renderError(msg) { this.appEl.innerHTML = `<div class="card"><h3>앗! 문제가 생겼어요.</h3><p>${msg}</p></div>`; }
+  renderError(msg, canRecover = false) { this.appEl.innerHTML = `<div class="card"><h3>앗! 문제가 생겼어요.</h3><p>${msg}</p>${canRecover ? '<button class="warn" data-action="recoverCache">오류 복구 실행</button>' : ''}</div>`; this.bindRenderedEvents(); }
 }
 
 window.addEventListener('DOMContentLoaded', () => new VietnameseA1App());
