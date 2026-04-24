@@ -45,7 +45,7 @@ class VietnameseA1App {
   }
 
   async fetchJson() {
-    const paths = ['./vietnamese_a1_lessons_1_6_starter.json', './data/vietnamese_a1_lessons_1_6_starter.json'];
+    const paths = ['./vietnamese_a1_to_opic_im1_starter.json', './data/vietnamese_a1_to_opic_im1_starter.json', './vietnamese_a1_lessons_1_6_starter.json', './data/vietnamese_a1_lessons_1_6_starter.json'];
     let lastErr;
     for (const path of paths) {
       try {

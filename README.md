@@ -18,6 +18,7 @@
 ├─ app.js
 ├─ sw.js
 ├─ manifest.webmanifest
+├─ vietnamese_a1_to_opic_im1_starter.json
 ├─ vietnamese_a1_lessons_1_6_starter.json
 └─ README.md
 ```
@@ -37,10 +38,14 @@
 5. 배포 URL 예시: `https://dalmook.github.io/vietnam_class3/`
 
 > 경로 안정성을 위해 JSON 로딩은 아래 순서로 시도합니다.
-> 1) `./vietnamese_a1_lessons_1_6_starter.json`  
-> 2) `./data/vietnamese_a1_lessons_1_6_starter.json`
+> 1) `./vietnamese_a1_to_opic_im1_starter.json`  
+> 2) `./data/vietnamese_a1_to_opic_im1_starter.json`  
+> 3) `./vietnamese_a1_lessons_1_6_starter.json`  
+> 4) `./data/vietnamese_a1_lessons_1_6_starter.json`
 
 ## 5) JSON 데이터 구조 설명
+
+기본 포함 데이터셋 `vietnamese_a1_to_opic_im1_starter.json`은 **기초 인사 → 자기소개 → 일상 루틴 → 취미 → 여행/길찾기 → 집/동네(OPIC IM1 주제)** 순서로 설계되어 있습니다.
 이 앱은 **기존 JSON 구조를 변경하지 않고** 읽어서 사용합니다.
 - `lessons[]`
   - `vocabCards[]`
