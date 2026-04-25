@@ -44,6 +44,8 @@ class VietnameseA1App {
     };
     this.settings = { ...this.state.settings, ...this.loadLocal('settings', {}) };
     this.healTried = false;
+    this.audioUnlocked = false;
+    this.ensureStorageHealth();
 
     this.bindGlobalEvents();
     this.bootstrap();
@@ -100,6 +102,7 @@ class VietnameseA1App {
 
   bindGlobalEvents() {
     document.querySelector('.bottom-nav').addEventListener('click', (e) => {
+      this.ensureAudioUnlocked();
       const tab = e.target.closest('[data-tab]');
       if (!tab) return;
       this.state.tab = tab.dataset.tab;
@@ -114,7 +117,10 @@ class VietnameseA1App {
 
   bindRenderedEvents() {
     this.appEl.querySelectorAll('[data-action]').forEach((node) => {
-      node.addEventListener('click', () => this.handleAction(node.dataset.action, node));
+      node.addEventListener('click', () => {
+        this.ensureAudioUnlocked();
+        this.handleAction(node.dataset.action, node);
+      });
     });
     this.appEl.querySelectorAll('[data-change]').forEach((node) => {
       node.addEventListener('change', () => this.handleChange(node.dataset.change, node));
@@ -159,6 +165,7 @@ class VietnameseA1App {
     if (type === 'matchPick') return this.matchPick(payload, el.dataset.side);
     if (type === 'reviewWrong') return this.startWrongReview();
     if (type === 'recoverCache') return this.recoverAndReload();
+    if (type === 'audioTest') return this.playAudio('', 'xin chào, đây là kiểm tra âm thanh');
     if (type === 'resetLocal') return this.resetLocal();
   }
 
@@ -352,12 +359,11 @@ class VietnameseA1App {
     const answer = isMeaning ? (item.meaningKo || item.textKo) : (item.term || item.textVi);
     const options = this.sampleOptions(answer, isMeaning ? 'ko' : 'vi');
     const pronunciation = item.term || item.textVi;
-    if (this.state.quizMode === 'listen' && !this.state.quiz.answered) setTimeout(() => this.playAudio(item.audioSrc || '', pronunciation), 80);
     return `<div class="card quiz-card">
-      <div class="row"><span class="badge">문항 ${this.state.quiz.i + 1}</span><button data-action="speak:${item.audioSrc || ''}" data-text="${pronunciation}">🔊 다시 듣기</button></div>
-      <h3>${this.state.quizMode === 'listen' ? '듣고 정답 고르기' : prompt}</h3>
+      <div class="quiz-head"><span class="badge">문항 ${this.state.quiz.i + 1}</span><button data-action="speak:${item.audioSrc || ''}" data-text="${pronunciation}">🔊 듣기</button></div>
+      <h3>${this.state.quizMode === 'listen' ? '먼저 듣고 정답 고르기' : prompt}</h3>
       <p class="small">정답 시 +10 XP · 연속 정답 보너스 +2 XP</p>
-      ${options.map((o) => `<button class="quiz-option ${this.state.quiz.picked === o ? 'choice-selected' : ''}" data-action="pickOption:${this.escapeAttr(o)}" ${this.state.quiz.answered ? 'disabled' : ''}>${o}</button>`).join('')}
+      <div class="quiz-options">${options.map((o) => `<button class="quiz-option ${this.state.quiz.picked === o ? 'choice-selected' : ''}" data-action="pickOption:${this.escapeAttr(o)}" ${this.state.quiz.answered ? 'disabled' : ''}>${o}</button>`).join('')}</div>
       <p class="quiz-feedback">${this.state.quiz.feedback}</p>
       <button data-action="nextQuiz" ${this.state.quiz.answered ? '' : 'disabled'}>다음 문항</button>
     </div>`;
@@ -421,7 +427,7 @@ class VietnameseA1App {
       <label>음성 속도 ${this.settings.speechRate.toFixed(2)}</label><input type="range" min="0.6" max="1.2" step="0.05" value="${this.settings.speechRate}" data-change="speechRate" />
       <label><input type="checkbox" ${this.settings.autoShowMeaning ? 'checked' : ''} data-change="autoShowMeaning" /> 자동 뜻 보이기</label><br>
       <label><input type="checkbox" ${this.settings.autoPlay ? 'checked' : ''} data-change="autoPlay" /> 카드 넘김 자동 재생</label>
-      <div class="controls"><button class="bad" data-action="resetLocal">학습기록 초기화</button><button class="warn" data-action="recoverCache">오류 복구(캐시 초기화)</button></div></div>
+      <div class="controls"><button data-action="audioTest">🔊 음성 테스트</button><button class="bad" data-action="resetLocal">학습기록 초기화</button><button class="warn" data-action="recoverCache">오류 복구(캐시 초기화)</button></div></div>
       <div class="card"><h3>JSON 로딩 상태</h3><p class="small">경로: ${this.state.loadedPath}</p><p class="small">lessons ${c.lessons.length}, vocab ${c.vocab.length}, sentence ${c.sentence.length}, dialogues ${c.dialogues.length}, grammar ${c.grammar.length}, pronunciation ${c.pronunciation.length}, quizSeeds ${c.seeds.length}</p></div></section>`;
   }
 
@@ -604,7 +610,9 @@ class VietnameseA1App {
         const audio = new Audio(src);
         await audio.play();
         return;
-      } catch (_) {}
+      } catch (_) {
+        // fallback to TTS below
+      }
     }
     if ('speechSynthesis' in window) {
       const u = new SpeechSynthesisUtterance(fallbackText || 'xin chào');
@@ -612,7 +620,10 @@ class VietnameseA1App {
       u.rate = this.settings.speechRate;
       speechSynthesis.cancel();
       speechSynthesis.speak(u);
+      return;
     }
+    this.state.quiz.feedback = '브라우저 음성 권한/자동재생 정책으로 소리가 막혔을 수 있어요.';
+    this.render();
   }
 
   repeatSpeak(text, n) {
@@ -703,6 +714,32 @@ class VietnameseA1App {
   }
 
   saveLocal(key, value) { localStorage.setItem(this.storagePrefix + key, JSON.stringify(value)); }
+
+  ensureStorageHealth() {
+    const versionKey = this.storagePrefix + 'schema_version';
+    const currentVersion = '2026-04-ui-audio-1';
+    const stored = localStorage.getItem(versionKey);
+    if (!stored) {
+      localStorage.setItem(versionKey, currentVersion);
+      return;
+    }
+    if (stored !== currentVersion) {
+      // keep progress, but clear transient quiz flags that can cause browser-specific odd behavior
+      localStorage.removeItem(this.storagePrefix + 'settings');
+      localStorage.setItem(versionKey, currentVersion);
+    }
+  }
+
+  ensureAudioUnlocked() {
+    if (this.audioUnlocked) return;
+    this.audioUnlocked = true;
+    if ('speechSynthesis' in window) {
+      const u = new SpeechSynthesisUtterance(' ');
+      u.volume = 0;
+      speechSynthesis.speak(u);
+      speechSynthesis.cancel();
+    }
+  }
   async tryRecoverFromCacheIssue() {
     if (this.healTried) return false;
     this.healTried = true;
