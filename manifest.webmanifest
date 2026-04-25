@@ -1,0 +1,9 @@
+{
+  "name": "베트남어 단어장",
+  "short_name": "베트남어 A1",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#f5f8ff",
+  "theme_color": "#5d6dff",
+  "icons": []
+}
