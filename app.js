@@ -945,6 +945,7 @@ class VietnameseA1App {
     if (!src) return '';
     const phraseMap = {
       'xin chao': '씬 짜오',
+      'ban co khoe khong': '반 꼬 쾌 콩',
       'toi ten la': '또이 뗀 라',
       'han quoc': '한 꾸옥',
       'nguoi han quoc': '응어이 한 꾸옥',
@@ -961,7 +962,9 @@ class VietnameseA1App {
       'nguoi': '응어이', 'han': '한', 'quoc': '꾸옥', 'dang': '당', 'hoc': '혹',
       'tieng': '띠엥', 'viet': '비엣', 'se': '세', 'di': '디', 'ha': '하', 'noi': '노이',
       'vi': '비', 'vay': '버이', 'muon': '무온', 'noi': '노이', 'tot': '똣', 'hon': '헌',
-      'ban': '반', 'khoe': '퀘', 'khong': '콩', 'cam': '깜', 'on': '언'
+      'ban': '반', 'co': '꼬', 'khoe': '쾌', 'khong': '콩', 'cam': '깜', 'on': '언',
+      'toi': '또이', 'chu': '쭈', 'nhat': '녓', 'thu': '트', 'mot': '못', 'hai': '하이', 'ba': '바',
+      'bon': '본', 'nam': '남', 'sau': '사우', 'bay': '버이', 'tam': '땀', 'chin': '찐', 'muoi': '므어이'
     };
     const normalized = this.normalizeVi(src);
     if (phraseMap[normalized]) return phraseMap[normalized];
@@ -972,7 +975,7 @@ class VietnameseA1App {
       const bi = [words[i], words[i + 1]].filter(Boolean).join(' ');
       if (phraseMap[tri]) { out.push(phraseMap[tri]); i += 2; continue; }
       if (phraseMap[bi]) { out.push(phraseMap[bi]); i += 1; continue; }
-      out.push(wordMap[words[i]] || this.hangulPron(words[i]).replace(/\\s+/g, ''));
+      out.push(wordMap[words[i]] || words[i]);
     }
     return out.join(' ');
   }
