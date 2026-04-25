@@ -513,6 +513,7 @@ class VietnameseA1App {
       <div class="card-tap-zone" data-action="toggleCardReveal">
         <div class="vi-big">${c.term}</div>
         <div class="pron-tip ${show ? '' : 'hidden'}">뜻: ${c.meaningKo}</div>
+        <p class="small pron-line ${show ? '' : 'hidden'}">발음 느낌: ${this.hangulPronNatural(c.term)}</p>
         ${show && c.example ? `<p class="small">예문: ${c.example}<br>${c.exampleMeaningKo || ''}</p>` : ''}
         <p class="small tap-hint">${show ? '카드를 탭하면 뜻을 숨길 수 있어요' : '카드를 탭하면 뜻이 보여요'}</p>
       </div>
@@ -544,6 +545,7 @@ class VietnameseA1App {
       <div class="card-tap-zone" data-action="toggleCardReveal">
         <div class="vi-big">${c.textVi}</div>
         <div class="pron-tip ${show ? '' : 'hidden'}">뜻: ${c.textKo}</div>
+        <p class="small pron-line ${show ? '' : 'hidden'}">발음 느낌: ${this.hangulPronNatural(c.textVi)}</p>
         <p class="small tap-hint">${show ? '카드를 탭하면 해석을 숨깁니다' : '카드를 탭하면 해석이 보여요'}</p>
       </div>
       <div class="controls action-grid compact audio-controls">
@@ -936,6 +938,54 @@ class VietnameseA1App {
 
     const syllables = cleaned.split(/\\s+/).filter(Boolean).slice(0, 8);
     return syllables.map((s) => this.syllableToKo(s)).join(' ');
+  }
+
+  hangulPronNatural(text) {
+    const src = (text || '').trim();
+    if (!src) return '';
+    const phraseMap = {
+      'xin chao': '씬 짜오',
+      'toi ten la': '또이 뗀 라',
+      'han quoc': '한 꾸옥',
+      'nguoi han quoc': '응어이 한 꾸옥',
+      'tieng viet': '띠엥 비엣',
+      'ha noi': '하 노이',
+      'vi vay': '비 버이',
+      'toi la': '또이 라',
+      'toi dang': '또이 당',
+      'toi se': '또이 세',
+      'toi muon': '또이 무온'
+    };
+    const wordMap = {
+      'xin': '씬', 'chao': '짜오', 'toi': '또이', 'ten': '뗀', 'la': '라',
+      'nguoi': '응어이', 'han': '한', 'quoc': '꾸옥', 'dang': '당', 'hoc': '혹',
+      'tieng': '띠엥', 'viet': '비엣', 'se': '세', 'di': '디', 'ha': '하', 'noi': '노이',
+      'vi': '비', 'vay': '버이', 'muon': '무온', 'noi': '노이', 'tot': '똣', 'hon': '헌',
+      'ban': '반', 'khoe': '퀘', 'khong': '콩', 'cam': '깜', 'on': '언'
+    };
+    const normalized = this.normalizeVi(src);
+    if (phraseMap[normalized]) return phraseMap[normalized];
+    const words = normalized.split(/\\s+/).filter(Boolean);
+    const out = [];
+    for (let i = 0; i < words.length; i += 1) {
+      const tri = [words[i], words[i + 1], words[i + 2]].filter(Boolean).join(' ');
+      const bi = [words[i], words[i + 1]].filter(Boolean).join(' ');
+      if (phraseMap[tri]) { out.push(phraseMap[tri]); i += 2; continue; }
+      if (phraseMap[bi]) { out.push(phraseMap[bi]); i += 1; continue; }
+      out.push(wordMap[words[i]] || this.hangulPron(words[i]).replace(/\\s+/g, ''));
+    }
+    return out.join(' ');
+  }
+
+  normalizeVi(text) {
+    return text
+      .toLowerCase()
+      .normalize('NFD')
+      .replace(/[\\u0300-\\u036f]/g, '')
+      .replace(/đ/g, 'd')
+      .replace(/[^a-z0-9\\s]/g, ' ')
+      .replace(/\\s+/g, ' ')
+      .trim();
   }
 
   syllableToKo(s) {

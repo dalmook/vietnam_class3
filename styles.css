@@ -40,6 +40,7 @@ article .controls button { flex: 1 1 120px; }
 .icon-btn.active { background: #5d6dff; color: #fff; border-color: #5d6dff; }
 .card-tap-zone { border-radius: 16px; padding: 4px 2px; cursor: pointer; }
 .tap-hint { margin: 4px 0 0; color: #7b86a7; }
+.pron-line { margin: 8px 2px 0; color: #4c5a84; font-weight: 600; }
 .audio-controls { margin-top: 10px; }
 .nav-controls {
   margin-top: 18px;
