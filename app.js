@@ -907,8 +907,14 @@ class VietnameseA1App {
       const u = new SpeechSynthesisUtterance(fallbackText || 'xin chào');
       u.lang = 'vi-VN';
       u.rate = this.settings.speechRate;
-      speechSynthesis.cancel();
-      speechSynthesis.speak(u);
+      await new Promise((resolve) => {
+        const fallbackMs = Math.max(900, (fallbackText || '').length * 110);
+        const timer = setTimeout(resolve, fallbackMs);
+        u.onend = () => { clearTimeout(timer); resolve(); };
+        u.onerror = () => { clearTimeout(timer); resolve(); };
+        speechSynthesis.cancel();
+        speechSynthesis.speak(u);
+      });
       return true;
     }
     this.state.quiz.feedback = '브라우저 음성 권한/자동재생 정책으로 소리가 막혔을 수 있어요.';
@@ -922,7 +928,7 @@ class VietnameseA1App {
     for (let i = 0; i < n; i += 1) {
       const ok = await this.playAudio(audioSrc, text);
       if (!ok) break;
-      if (!audioSrc) await new Promise((r) => setTimeout(r, 350));
+      await new Promise((r) => setTimeout(r, 220));
     }
   }
 
