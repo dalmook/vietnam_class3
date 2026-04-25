@@ -303,6 +303,7 @@ class VietnameseA1App {
     this.settings = { ...this.state.settings, ...this.loadLocal('settings', {}) };
     this.healTried = false;
     this.audioUnlocked = false;
+    this.effect = null;
     this.ensureStorageHealth();
 
     this.bindGlobalEvents();
@@ -397,6 +398,7 @@ class VietnameseA1App {
       settings: () => this.renderSettings()
     };
     view[this.state.tab]?.();
+    this.injectFloatingUI();
     this.bindRenderedEvents();
   }
 
@@ -726,10 +728,12 @@ class VietnameseA1App {
       this.state.quiz.bestStreak = Math.max(this.state.quiz.bestStreak, this.state.quiz.streak);
       this.state.quiz.xp += 10 + Math.min(10, this.state.quiz.streak * 2);
       this.state.quiz.feedback = `정답! 🐳 +${10 + Math.min(10, this.state.quiz.streak * 2)}XP`;
+      this.triggerEffect('success', '정답! 🐳🎉');
       this.saveLocal('best_streak', this.state.quiz.bestStreak);
     } else {
       this.state.quiz.streak = 0;
       this.state.quiz.feedback = `오답! 정답: ${answer} · 한 번 더 들으면 됩니다!`;
+      this.triggerEffect('warn', '한 번 더 들으면 됩니다 🙂');
       this.state.quiz.wrong.push(item.id);
       if (!this.wrongAnswers.includes(item.id)) this.wrongAnswers.push(item.id);
       this.saveLocal('wrongAnswers', this.wrongAnswers);
@@ -829,6 +833,8 @@ class VietnameseA1App {
     if (value === 'wrong') p.wrongCount = (p.wrongCount || 0) + 1;
     p.lastStudiedAt = new Date().toISOString();
     this.progress[id] = p;
+    if (value === 'known') this.triggerEffect('success', '좋아요! 기억했어요 ✨');
+    if (value === 'unknown' || value === 'difficult') this.triggerEffect('warn', '괜찮아요, 반복하면 됩니다 💪');
     this.saveLocal('progress', this.progress);
     if (rerender) this.render();
   }
@@ -1017,6 +1023,33 @@ class VietnameseA1App {
   }
 
   saveLocal(key, value) { localStorage.setItem(this.storagePrefix + key, JSON.stringify(value)); }
+
+  triggerEffect(type, text) {
+    this.effect = { type, text, at: Date.now() };
+    setTimeout(() => {
+      if (this.effect && Date.now() - this.effect.at > 1400) {
+        this.effect = null;
+        this.injectFloatingUI();
+      }
+    }, 1500);
+  }
+
+  injectFloatingUI() {
+    let root = document.getElementById('fx-root');
+    if (!root) {
+      root = document.createElement('div');
+      root.id = 'fx-root';
+      document.body.appendChild(root);
+    }
+    if (!this.effect) {
+      root.innerHTML = '';
+      return;
+    }
+    const confetti = this.effect.type === 'success'
+      ? '<div class=\"wow-confetti\">🎉 ✨ 🐳 ✨ 🎉</div>'
+      : '';
+    root.innerHTML = `<div class=\"wow-toast ${this.effect.type}\">${this.effect.text}</div>${confetti}`;
+  }
 
   ensureStorageHealth() {
     const versionKey = this.storagePrefix + 'schema_version';

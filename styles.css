@@ -10,11 +10,12 @@
   --shadow: 0 10px 25px rgba(31, 42, 68, 0.12);
 }
 * { box-sizing: border-box; }
-body { margin: 0; font-family: "Pretendard", "Noto Sans KR", system-ui, sans-serif; background: linear-gradient(180deg, #f8fbff, #eef3ff); color: var(--ink); }
+body { margin: 0; font-family: "Pretendard", "Noto Sans KR", system-ui, sans-serif; background: radial-gradient(circle at 30% 10%, #ffffff, #eef3ff 50%, #e8efff 100%); color: var(--ink); }
 .app-shell { max-width: 460px; min-height: 100vh; margin: 0 auto; padding: 12px 14px 90px; }
 .app-header h1 { margin: 6px 0 2px; font-size: 1.4rem; }
 .app-header p { margin: 0 0 12px; color: var(--muted); }
-.card { background: var(--card); border-radius: 24px; box-shadow: var(--shadow); padding: 18px; margin-bottom: 14px; }
+.card { background: var(--card); border-radius: 24px; box-shadow: var(--shadow); padding: 18px; margin-bottom: 14px; border: 1px solid #ecf0ff; transition: transform .18s ease, box-shadow .18s ease; }
+.card:active { transform: scale(0.995); box-shadow: 0 8px 18px rgba(31,42,68,.12); }
 .grid-2 { display: grid; grid-template-columns: repeat(2, 1fr); gap: 10px; }
 .stat { min-height: 96px; }
 .stat strong { font-size: 1.2rem; display: block; margin-top: 4px; }
@@ -56,6 +57,19 @@ button:disabled { opacity: .5; cursor: not-allowed; }
 .quiz-feedback { min-height: 24px; font-weight: 700; color: #3e4ba8; }
 .small { font-size: .85rem; color: var(--muted); }
 .notice { padding: 10px; border-radius: 12px; background: #eef9ff; color: #2d5870; }
+.wow-toast {
+  position: fixed; top: 14px; left: 50%; transform: translateX(-50%);
+  z-index: 9999; padding: 10px 14px; border-radius: 999px; color: #fff;
+  font-weight: 800; box-shadow: 0 8px 20px rgba(0,0,0,.18); animation: pop .25s ease;
+}
+.wow-toast.success { background: linear-gradient(90deg, #4a56f0, #11b7a3); }
+.wow-toast.warn { background: linear-gradient(90deg, #ff8f70, #ffb36b); }
+.wow-confetti {
+  position: fixed; top: 52px; left: 50%; transform: translateX(-50%);
+  z-index: 9998; font-size: 1.2rem; animation: floatAway .9s ease forwards;
+}
+@keyframes pop { from { opacity: 0; transform: translateX(-50%) translateY(-8px);} to { opacity: 1; transform: translateX(-50%) translateY(0);} }
+@keyframes floatAway { from { opacity: 1; transform: translateX(-50%) translateY(0);} to { opacity: 0; transform: translateX(-50%) translateY(-18px);} }
 @media (min-width: 768px) { .app-shell { padding-top: 24px; } }
 @media (max-width: 430px) {
   .action-grid { grid-template-columns: 1fr; }
