@@ -269,6 +269,7 @@ class VietnameseA1App {
       studyMode: 'vocab',
       quizMode: 'meaning',
       lessonId: null,
+      quizLessonFilter: 'all',
       cardIndex: 0,
       sentenceIndex: 0,
       dialogueIndex: 0,
@@ -433,6 +434,7 @@ class VietnameseA1App {
 
   handleChange(action, el) {
     if (action === 'lesson') { this.state.lessonId = el.value; this.resetStudyIndexes(); }
+    if (action === 'quizLesson') this.state.quizLessonFilter = el.value;
     if (action === 'grammarFilter') this.state.grammarLessonFilter = el.value;
     if (action === 'searchInput') this.state.searchQuery = el.value;
     if (action === 'speechRate') this.settings.speechRate = Number(el.value);
@@ -590,12 +592,13 @@ class VietnameseA1App {
   renderQuiz() {
     const modes = [['meaning', 'A 뜻 맞추기'], ['vi', 'B 베트남어 맞추기'], ['flip', 'C 카드 뒤집기'], ['listen', 'D 듣기'], ['order', 'E 순서 맞추기'], ['tone', 'F 성조 구분'], ['match', 'G 매칭'], ['wrong', 'H 오답복습']];
     const chooser = `<div class="card controls">${modes.map(([k, v]) => `<button data-action="quizMode:${k}" class="${this.state.quizMode === k ? 'primary' : ''}">${v}</button>`).join('')}</div>`;
+    const filterCard = `<div class="card"><label class="small">퀴즈 범위</label><select data-change="quizLesson"><option value="all" ${this.state.quizLessonFilter==='all'?'selected':''}>전체 레슨 통합</option>${this.state.flat.lessons.map((l)=>`<option value="${l.lessonId}" ${this.state.quizLessonFilter===l.lessonId?'selected':''}>${l.unitLabel} · ${l.titleKo}</option>`).join('')}</select></div>`;
     const hero = this.renderQuizHero();
     if (this.state.quizMode === 'wrong') {
-      this.appEl.innerHTML = `<section class="fade">${chooser}${hero}<div class="card"><p>저장된 오답 ${this.wrongAnswers.length}개</p><button class="primary" data-action="reviewWrong">오답만 다시 풀기</button></div>${this.renderQuizCore()}</section>`;
+      this.appEl.innerHTML = `<section class="fade">${chooser}${filterCard}${hero}<div class="card"><p>저장된 오답 ${this.wrongAnswers.length}개</p><button class="primary" data-action="reviewWrong">오답만 다시 풀기</button></div>${this.renderQuizCore()}</section>`;
       return;
     }
-    this.appEl.innerHTML = `<section class="fade">${chooser}${hero}${this.renderQuizCore()}</section>`;
+    this.appEl.innerHTML = `<section class="fade">${chooser}${filterCard}${hero}${this.renderQuizCore()}</section>`;
   }
 
   renderQuizHero() {
@@ -707,16 +710,17 @@ class VietnameseA1App {
   }
 
   setupQuizQueue() {
-    const base = this.shuffle([...this.state.flat.vocab, ...this.state.flat.sentence]).slice(0, 12);
+    const base = this.shuffle(this.getQuizPoolByFilter()).slice(0, 12);
+    const safeQueue = base.length ? base : this.shuffle([...this.state.flat.vocab, ...this.state.flat.sentence]).slice(0, 8);
     this.state.quiz = {
       ...this.state.quiz,
-      queue: base,
+      queue: safeQueue,
       i: 0,
       score: 0,
       xp: 0,
       streak: 0,
       bestStreak: this.loadLocal('best_streak', 0),
-      goalCorrect: Math.max(8, Math.floor(base.length * 0.75)),
+      goalCorrect: Math.max(3, Math.floor(safeQueue.length * 0.75)),
       wrong: [],
       phase: 'ready',
       feedback: '',
@@ -1073,10 +1077,17 @@ class VietnameseA1App {
   }
 
   sampleOptions(answer, type) {
+    const quizPool = this.getQuizPoolByFilter();
     const pool = type === 'ko'
-      ? [...new Set([...this.state.flat.vocab.map((x) => x.meaningKo), ...this.state.flat.sentence.map((x) => x.textKo)].filter(Boolean))]
-      : [...new Set([...this.state.flat.vocab.map((x) => x.term), ...this.state.flat.sentence.map((x) => x.textVi)].filter(Boolean))];
+      ? [...new Set(quizPool.map((x) => x.meaningKo || x.textKo).filter(Boolean))]
+      : [...new Set(quizPool.map((x) => x.term || x.textVi).filter(Boolean))];
     return this.shuffle([answer, ...this.shuffle(pool.filter((x) => x !== answer)).slice(0, 3)]);
+  }
+
+  getQuizPoolByFilter() {
+    const all = [...this.state.flat.vocab, ...this.state.flat.sentence];
+    if (this.state.quizLessonFilter === 'all') return all;
+    return all.filter((x) => x.lessonId === this.state.quizLessonFilter);
   }
 
   shuffle(arr) { return [...arr].sort(() => Math.random() - 0.5); }
