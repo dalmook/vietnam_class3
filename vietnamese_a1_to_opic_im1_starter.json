@@ -204,6 +204,126 @@
           "audioSrc": "",
           "sourcePage": 11,
           "reviewNeeded": false
+        },
+        {
+          "id": "l1-v-19",
+          "term": "trời ơi",
+          "meaningKo": "세상에!",
+          "example": "Trời ơi, đông quá!",
+          "exampleMeaningKo": "세상에, 너무 붐벼요!",
+          "audioSrc": "",
+          "sourcePage": 11,
+          "reviewNeeded": false
+        },
+        {
+          "id": "l1-v-20",
+          "term": "ôi chao",
+          "meaningKo": "어머나!",
+          "example": "Ôi chao, đẹp quá!",
+          "exampleMeaningKo": "어머나, 정말 예뻐요!",
+          "audioSrc": "",
+          "sourcePage": 11,
+          "reviewNeeded": false
+        },
+        {
+          "id": "l1-v-21",
+          "term": "chao ôi",
+          "meaningKo": "아이고/이런",
+          "example": "Chao ôi, tôi quên mất.",
+          "exampleMeaningKo": "아이고, 깜빡했어요.",
+          "audioSrc": "",
+          "sourcePage": 11,
+          "reviewNeeded": false
+        },
+        {
+          "id": "l1-v-22",
+          "term": "ây da",
+          "meaningKo": "아야/앗!",
+          "example": "Ây da, đau quá!",
+          "exampleMeaningKo": "앗, 너무 아파요!",
+          "audioSrc": "",
+          "sourcePage": 11,
+          "reviewNeeded": false
+        },
+        {
+          "id": "l1-v-23",
+          "term": "ái chà",
+          "meaningKo": "오호/이야",
+          "example": "Ái chà, hay đấy!",
+          "exampleMeaningKo": "오호, 괜찮은데요!",
+          "audioSrc": "",
+          "sourcePage": 11,
+          "reviewNeeded": false
+        },
+        {
+          "id": "l1-v-24",
+          "term": "a lô",
+          "meaningKo": "여보세요",
+          "example": "A lô, bạn nghe rõ không?",
+          "exampleMeaningKo": "여보세요, 잘 들려요?",
+          "audioSrc": "",
+          "sourcePage": 11,
+          "reviewNeeded": false
+        },
+        {
+          "id": "l1-v-25",
+          "term": "ủa",
+          "meaningKo": "어?/어라",
+          "example": "Ủa, sao bạn ở đây?",
+          "exampleMeaningKo": "어? 왜 여기 있어요?",
+          "audioSrc": "",
+          "sourcePage": 11,
+          "reviewNeeded": false
+        },
+        {
+          "id": "l1-v-26",
+          "term": "hả",
+          "meaningKo": "뭐라고?",
+          "example": "Hả, bạn nói gì cơ?",
+          "exampleMeaningKo": "뭐라고요, 뭐라고 했어요?",
+          "audioSrc": "",
+          "sourcePage": 11,
+          "reviewNeeded": false
+        },
+        {
+          "id": "l1-v-27",
+          "term": "ơ kìa",
+          "meaningKo": "어 저기 봐",
+          "example": "Ơ kìa, xe đến rồi!",
+          "exampleMeaningKo": "어 저기 봐요, 버스 왔어요!",
+          "audioSrc": "",
+          "sourcePage": 11,
+          "reviewNeeded": false
+        },
+        {
+          "id": "l1-v-28",
+          "term": "ôi thôi",
+          "meaningKo": "아이고야",
+          "example": "Ôi thôi, trễ mất rồi.",
+          "exampleMeaningKo": "아이고야, 늦어버렸네요.",
+          "audioSrc": "",
+          "sourcePage": 11,
+          "reviewNeeded": false
+        },
+        {
+          "id": "l1-v-29",
+          "term": "than ôi",
+          "meaningKo": "아아/슬프다",
+          "example": "Than ôi, tiếc quá.",
+          "exampleMeaningKo": "아아, 너무 아쉽다.",
+          "audioSrc": "",
+          "sourcePage": 11,
+          "reviewNeeded": false
+        },
+        {
+          "id": "l1-v-30",
+          "term": "nhé",
+          "meaningKo": "~해줘/알겠지",
+          "example": "Đi cùng mình nhé.",
+          "exampleMeaningKo": "같이 가줘요, 알겠죠?",
+          "audioSrc": "",
+          "sourcePage": 11,
+          "reviewNeeded": false
         }
       ],
       "sentenceCards": [
@@ -267,6 +387,54 @@
           "id": "l1-s-08",
           "textVi": "Hẹn gặp lại vào ngày mai.",
           "textKo": "내일 다시 만나요.",
+          "audioSrc": "",
+          "sourcePage": 12,
+          "reviewNeeded": false
+        },
+        {
+          "id": "l1-s-09",
+          "textVi": "Trời ơi, hôm nay nóng quá!",
+          "textKo": "세상에, 오늘 너무 덥네요!",
+          "audioSrc": "",
+          "sourcePage": 12,
+          "reviewNeeded": false
+        },
+        {
+          "id": "l1-s-10",
+          "textVi": "A lô, mình nghe rõ rồi nhé.",
+          "textKo": "여보세요, 이제 잘 들려요.",
+          "audioSrc": "",
+          "sourcePage": 12,
+          "reviewNeeded": false
+        },
+        {
+          "id": "l1-s-11",
+          "textVi": "Ủa, sao lại nhanh thế?",
+          "textKo": "어라, 왜 이렇게 빠르죠?",
+          "audioSrc": "",
+          "sourcePage": 12,
+          "reviewNeeded": false
+        },
+        {
+          "id": "l1-s-12",
+          "textVi": "Ái chà, phát âm của bạn tốt ghê!",
+          "textKo": "오호, 발음이 정말 좋네요!",
+          "audioSrc": "",
+          "sourcePage": 12,
+          "reviewNeeded": false
+        },
+        {
+          "id": "l1-s-13",
+          "textVi": "Ây da, tôi nói sai rồi.",
+          "textKo": "앗, 제가 잘못 말했어요.",
+          "audioSrc": "",
+          "sourcePage": 12,
+          "reviewNeeded": false
+        },
+        {
+          "id": "l1-s-14",
+          "textVi": "Đi chậm thôi nhé!",
+          "textKo": "천천히 가요, 알겠죠!",
           "audioSrc": "",
           "sourcePage": 12,
           "reviewNeeded": false
