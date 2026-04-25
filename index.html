@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>베트남어 단어장</title>
+    <link rel="stylesheet" href="./styles.css" />
+    <link rel="manifest" href="./manifest.webmanifest" />
+  </head>
+  <body>
+    <div class="app-shell">
+      <header class="app-header">
+        <h1>베트남어 단어장</h1>
+        <p>A1 듣기·말하기 1~6과</p>
+      </header>
+
+      <main id="app" aria-live="polite"></main>
+
+      <nav class="bottom-nav" aria-label="주요 탭">
+        <button data-tab="home" class="tab-btn active" aria-label="홈">🏠<span>홈</span></button>
+        <button data-tab="study" class="tab-btn" aria-label="학습">📘<span>학습</span></button>
+        <button data-tab="quiz" class="tab-btn" aria-label="퀴즈">🧠<span>퀴즈</span></button>
+        <button data-tab="search" class="tab-btn" aria-label="검색">🔎<span>검색</span></button>
+        <button data-tab="bookmark" class="tab-btn" aria-label="북마크">⭐<span>북마크</span></button>
+        <button data-tab="settings" class="tab-btn" aria-label="설정">⚙️<span>설정</span></button>
+      </nav>
+    </div>
+
+    <template id="message-template">
+      <div class="msg"></div>
+    </template>
+
+    <script src="./app.js"></script>
+  </body>
+</html>
