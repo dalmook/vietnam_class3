@@ -303,6 +303,7 @@ class VietnameseA1App {
     this.healTried = false;
     this.audioUnlocked = false;
     this.effect = null;
+    this.sfxCtx = null;
     this.ensureStorageHealth();
 
     this.bindGlobalEvents();
@@ -720,11 +721,14 @@ class VietnameseA1App {
       this.state.quiz.xp += 10 + Math.min(10, this.state.quiz.streak * 2);
       this.state.quiz.feedback = `정답! 🐳 +${10 + Math.min(10, this.state.quiz.streak * 2)}XP`;
       this.triggerEffect('success', '정답! 🐳🎉');
+      this.playFeedbackSound('correct');
+      this.playAudio(item.audioSrc || '', item.term || item.textVi || '');
       this.saveLocal('best_streak', this.state.quiz.bestStreak);
     } else {
       this.state.quiz.streak = 0;
       this.state.quiz.feedback = `오답! 정답: ${answer} · 한 번 더 들으면 됩니다!`;
       this.triggerEffect('warn', '한 번 더 들으면 됩니다 🙂');
+      this.playFeedbackSound('wrong');
       this.state.quiz.wrong.push(item.id);
       if (!this.wrongAnswers.includes(item.id)) this.wrongAnswers.push(item.id);
       this.saveLocal('wrongAnswers', this.wrongAnswers);
@@ -782,6 +786,9 @@ class VietnameseA1App {
       round.matchedIds.push(round.selectedLeftId);
       this.state.quiz.xp += 6;
       this.state.quiz.feedback = `매칭 성공! +6XP (${round.matchedIds.length}/${round.pairs.length})`;
+      this.playFeedbackSound('correct');
+      const solvedPair = round.pairs.find((x) => x.id === round.selectedLeftId);
+      if (solvedPair?.left) this.playAudio('', solvedPair.left);
       if (round.matchedIds.length === round.pairs.length) {
         round.completed = true;
         this.state.quiz.score += 1;
@@ -795,6 +802,7 @@ class VietnameseA1App {
     } else {
       this.state.quiz.streak = 0;
       this.state.quiz.feedback = '짝이 맞지 않아요. 다시 시도해보세요.';
+      this.playFeedbackSound('wrong');
     }
     round.selectedLeftId = '';
     round.selectedRightId = '';
@@ -1153,6 +1161,32 @@ class VietnameseA1App {
       speechSynthesis.speak(u);
       speechSynthesis.cancel();
     }
+  }
+
+  playFeedbackSound(kind = 'correct') {
+    const Ctx = window.AudioContext || window.webkitAudioContext;
+    if (!Ctx) return;
+    if (!this.sfxCtx) this.sfxCtx = new Ctx();
+    const ctx = this.sfxCtx;
+    if (ctx.state === 'suspended') ctx.resume().catch(() => {});
+
+    const now = ctx.currentTime + 0.01;
+    const notes = kind === 'correct'
+      ? [523.25, 659.25]
+      : [392.0, 349.23];
+    notes.forEach((freq, idx) => {
+      const osc = ctx.createOscillator();
+      const gain = ctx.createGain();
+      osc.type = 'sine';
+      osc.frequency.value = freq;
+      gain.gain.setValueAtTime(0.0001, now + idx * 0.12);
+      gain.gain.exponentialRampToValueAtTime(0.055, now + idx * 0.12 + 0.015);
+      gain.gain.exponentialRampToValueAtTime(0.0001, now + idx * 0.12 + 0.2);
+      osc.connect(gain);
+      gain.connect(ctx.destination);
+      osc.start(now + idx * 0.12);
+      osc.stop(now + idx * 0.12 + 0.22);
+    });
   }
   async tryRecoverFromCacheIssue() {
     if (this.healTried) return false;
