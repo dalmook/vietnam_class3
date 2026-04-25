@@ -240,7 +240,7 @@ class VietnameseA1App {
     return `<article class="card fade">
       <div class="row"><span class="badge">${idx + 1} / ${cards.length}</span>${c.sourcePage ? `<span class="badge">p.${c.sourcePage}</span>` : ''}</div>
       <div class="vi-big">${c.term}</div>
-      <div class="pron-tip">발음팁: ${this.pronHint(lesson, c.term)}</div>
+      <div class="pron-tip">한글발음: ${this.hangulPron(c.term)}</div>
       <div class="ko ${this.settings.autoShowMeaning ? '' : 'hidden'}">${c.meaningKo}</div>
       ${c.example ? `<p class="small">예문: ${c.example}<br>${c.exampleMeaningKo || ''}</p>` : ''}
       <div class="controls">
@@ -266,7 +266,7 @@ class VietnameseA1App {
     return `<article class="card fade">
       <div class="row"><span class="badge">${idx + 1} / ${cards.length}</span>${c.sourcePage ? `<span class="badge">p.${c.sourcePage}</span>` : ''}</div>
       <div class="vi-big">${c.textVi}</div>
-      <div class="pron-tip">발음팁: 문장을 끊어 읽기 + 마지막 성조 분명히</div>
+      <div class="pron-tip">한글발음: ${this.hangulPron(c.textVi)}</div>
       <div class="ko ${this.settings.autoShowMeaning ? '' : 'hidden'}">${c.textKo}</div>
       <div class="controls">
         <button class="primary" data-action="speak:${c.audioSrc || ''}" data-text="${c.textVi}">듣기</button>
@@ -637,10 +637,72 @@ class VietnameseA1App {
     tick();
   }
 
-  pronHint(lesson, text) {
-    const t = this.normalize(text || '');
-    const p = (lesson.pronunciationTargets || []).find((x) => t.includes(this.normalize((x.text || '').split('/')[0])));
-    return p?.hintKo || '성조를 또렷하게, 음절을 천천히 분리해서 읽어보세요.';
+  hangulPron(text) {
+    if (!text) return '';
+    const dict = {
+      'xin chào': '신 짜오',
+      'cảm ơn': '깜 언',
+      'xin lỗi': '신 로이',
+      'tạm biệt': '땀 비엣',
+      'không': '콩',
+      'vâng': '벙',
+      'chào buổi sáng': '짜오 부오이 상',
+      'chào buổi tối': '짜오 부오이 또이',
+      'rẽ trái': '제 짜이',
+      'rẽ phải': '제 파이',
+      'đi thẳng': '디 탕',
+      'căn hộ': '깐 허',
+      'nhà bếp': '냐 뱁',
+      'phòng khách': '퐁 캇',
+      'công viên': '꽁 비엔'
+    };
+    const raw = text.toLowerCase().trim();
+    if (dict[raw]) return dict[raw];
+
+    const cleaned = raw
+      .replaceAll('đ', 'd')
+      .replaceAll('ph', 'f')
+      .replaceAll('th', 't')
+      .replaceAll('tr', 'ch')
+      .replaceAll('ch', 'j')
+      .replaceAll('nh', 'ny')
+      .replaceAll('ngh', 'ng')
+      .replaceAll('ng', 'ng')
+      .replaceAll('kh', 'k')
+      .replaceAll('qu', 'kw')
+      .normalize('NFD')
+      .replace(/[\u0300-\u036f]/g, '');
+
+    const syllables = cleaned.split(/\\s+/).filter(Boolean).slice(0, 8);
+    return syllables.map((s) => this.syllableToKo(s)).join(' ');
+  }
+
+  syllableToKo(s) {
+    let out = s;
+    const rep = [
+      ['uyen', '우옌'], ['uong', '우엉'], ['uoc', '우억'], ['anh', '앙'], ['ong', '옹'],
+      ['ang', '앙'], ['inh', '잉'], ['ien', '이엔'], ['ieu', '이우'], ['ao', '아오'],
+      ['ai', '아이'], ['oi', '오이'], ['ua', '우아'], ['uo', '우어'], ['eu', '에우'],
+      ['au', '아우'], ['ia', '이아'], ['a', '아'], ['e', '에'], ['i', '이'], ['o', '오'], ['u', '우'], ['y', '이']
+    ];
+    rep.forEach(([k, v]) => { out = out.replaceAll(k, v); });
+    out = out
+      .replace(/ng/g, '응')
+      .replace(/ny/g, '니')
+      .replace(/j/g, '쯔')
+      .replace(/f/g, '프')
+      .replace(/d/g, '드')
+      .replace(/k/g, '크')
+      .replace(/t/g, '트')
+      .replace(/b/g, '브')
+      .replace(/m/g, '므')
+      .replace(/n/g, '느')
+      .replace(/h/g, '흐')
+      .replace(/r/g, '르')
+      .replace(/l/g, '르')
+      .replace(/v/g, '브')
+      .replace(/x/g, '스');
+    return out;
   }
 
   rotateIndex(index, delta, len) {

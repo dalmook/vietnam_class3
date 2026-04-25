@@ -124,6 +124,86 @@
           "audioSrc": "",
           "sourcePage": 11,
           "reviewNeeded": false
+        },
+        {
+          "id": "l1-v-11",
+          "term": "chào buổi sáng",
+          "meaningKo": "좋은 아침",
+          "example": "Chào buổi sáng, bạn nhé.",
+          "exampleMeaningKo": "좋은 아침이에요.",
+          "audioSrc": "",
+          "sourcePage": 11,
+          "reviewNeeded": false
+        },
+        {
+          "id": "l1-v-12",
+          "term": "chào buổi tối",
+          "meaningKo": "좋은 저녁",
+          "example": "Chào buổi tối, cả nhà.",
+          "exampleMeaningKo": "좋은 저녁입니다, 여러분.",
+          "audioSrc": "",
+          "sourcePage": 11,
+          "reviewNeeded": false
+        },
+        {
+          "id": "l1-v-13",
+          "term": "hẹn gặp",
+          "meaningKo": "다시 만나요",
+          "example": "Hẹn gặp bạn sau.",
+          "exampleMeaningKo": "이따 다시 봐요.",
+          "audioSrc": "",
+          "sourcePage": 11,
+          "reviewNeeded": false
+        },
+        {
+          "id": "l1-v-14",
+          "term": "mời",
+          "meaningKo": "권하다/초대하다",
+          "example": "Mời bạn vào nhà.",
+          "exampleMeaningKo": "집에 들어오세요.",
+          "audioSrc": "",
+          "sourcePage": 11,
+          "reviewNeeded": false
+        },
+        {
+          "id": "l1-v-15",
+          "term": "xin phép",
+          "meaningKo": "실례합니다",
+          "example": "Xin phép, tôi ra ngoài một chút.",
+          "exampleMeaningKo": "실례합니다, 잠시 나갈게요.",
+          "audioSrc": "",
+          "sourcePage": 11,
+          "reviewNeeded": false
+        },
+        {
+          "id": "l1-v-16",
+          "term": "được rồi",
+          "meaningKo": "좋아요/됐어요",
+          "example": "Được rồi, bắt đầu nhé.",
+          "exampleMeaningKo": "좋아요, 시작해요.",
+          "audioSrc": "",
+          "sourcePage": 11,
+          "reviewNeeded": false
+        },
+        {
+          "id": "l1-v-17",
+          "term": "chúc ngủ ngon",
+          "meaningKo": "안녕히 주무세요",
+          "example": "Chúc ngủ ngon nhé.",
+          "exampleMeaningKo": "안녕히 주무세요.",
+          "audioSrc": "",
+          "sourcePage": 11,
+          "reviewNeeded": false
+        },
+        {
+          "id": "l1-v-18",
+          "term": "thông cảm",
+          "meaningKo": "이해해주세요",
+          "example": "Mong bạn thông cảm.",
+          "exampleMeaningKo": "이해 부탁드려요.",
+          "audioSrc": "",
+          "sourcePage": 11,
+          "reviewNeeded": false
         }
       ],
       "sentenceCards": [
@@ -404,6 +484,86 @@
           "audioSrc": "",
           "sourcePage": 21,
           "reviewNeeded": false
+        },
+        {
+          "id": "l2-v-11",
+          "term": "địa chỉ",
+          "meaningKo": "주소",
+          "example": "Địa chỉ của bạn ở đâu?",
+          "exampleMeaningKo": "주소가 어디예요?",
+          "audioSrc": "",
+          "sourcePage": 21,
+          "reviewNeeded": false
+        },
+        {
+          "id": "l2-v-12",
+          "term": "số điện thoại",
+          "meaningKo": "전화번호",
+          "example": "Cho tôi xin số điện thoại.",
+          "exampleMeaningKo": "전화번호 알려주세요.",
+          "audioSrc": "",
+          "sourcePage": 21,
+          "reviewNeeded": false
+        },
+        {
+          "id": "l2-v-13",
+          "term": "email",
+          "meaningKo": "이메일",
+          "example": "Email của tôi là...",
+          "exampleMeaningKo": "제 이메일은 ... 입니다.",
+          "audioSrc": "",
+          "sourcePage": 21,
+          "reviewNeeded": false
+        },
+        {
+          "id": "l2-v-14",
+          "term": "đồng nghiệp",
+          "meaningKo": "동료",
+          "example": "Anh ấy là đồng nghiệp của tôi.",
+          "exampleMeaningKo": "그는 제 동료예요.",
+          "audioSrc": "",
+          "sourcePage": 21,
+          "reviewNeeded": false
+        },
+        {
+          "id": "l2-v-15",
+          "term": "trưởng nhóm",
+          "meaningKo": "팀장",
+          "example": "Chị ấy là trưởng nhóm.",
+          "exampleMeaningKo": "그녀는 팀장이에요.",
+          "audioSrc": "",
+          "sourcePage": 21,
+          "reviewNeeded": false
+        },
+        {
+          "id": "l2-v-16",
+          "term": "thực tập sinh",
+          "meaningKo": "인턴",
+          "example": "Tôi là thực tập sinh mới.",
+          "exampleMeaningKo": "저는 새 인턴입니다.",
+          "audioSrc": "",
+          "sourcePage": 21,
+          "reviewNeeded": false
+        },
+        {
+          "id": "l2-v-17",
+          "term": "họ",
+          "meaningKo": "성(姓)",
+          "example": "Họ của bạn là gì?",
+          "exampleMeaningKo": "성은 뭐예요?",
+          "audioSrc": "",
+          "sourcePage": 21,
+          "reviewNeeded": false
+        },
+        {
+          "id": "l2-v-18",
+          "term": "giới thiệu",
+          "meaningKo": "소개하다",
+          "example": "Tôi xin giới thiệu bản thân.",
+          "exampleMeaningKo": "자기소개 드리겠습니다.",
+          "audioSrc": "",
+          "sourcePage": 21,
+          "reviewNeeded": false
         }
       ],
       "sentenceCards": [
@@ -678,6 +838,86 @@
           "meaningKo": "잠자리에 들다",
           "example": "Tôi đi ngủ lúc 11 giờ.",
           "exampleMeaningKo": "11시에 자요.",
+          "audioSrc": "",
+          "sourcePage": 31,
+          "reviewNeeded": false
+        },
+        {
+          "id": "l3-v-11",
+          "term": "đi học",
+          "meaningKo": "등교/수업가다",
+          "example": "Tôi đi học buổi tối.",
+          "exampleMeaningKo": "저는 저녁에 수업 가요.",
+          "audioSrc": "",
+          "sourcePage": 31,
+          "reviewNeeded": false
+        },
+        {
+          "id": "l3-v-12",
+          "term": "tắm",
+          "meaningKo": "샤워하다",
+          "example": "Tôi tắm sau khi tập thể dục.",
+          "exampleMeaningKo": "운동 후 샤워해요.",
+          "audioSrc": "",
+          "sourcePage": 31,
+          "reviewNeeded": false
+        },
+        {
+          "id": "l3-v-13",
+          "term": "ăn sáng",
+          "meaningKo": "아침 먹다",
+          "example": "Bạn ăn sáng lúc mấy giờ?",
+          "exampleMeaningKo": "몇 시에 아침 먹어요?",
+          "audioSrc": "",
+          "sourcePage": 31,
+          "reviewNeeded": false
+        },
+        {
+          "id": "l3-v-14",
+          "term": "uống nước",
+          "meaningKo": "물 마시다",
+          "example": "Nhớ uống nước nhé.",
+          "exampleMeaningKo": "물 마시는 거 잊지 마요.",
+          "audioSrc": "",
+          "sourcePage": 31,
+          "reviewNeeded": false
+        },
+        {
+          "id": "l3-v-15",
+          "term": "làm việc nhà",
+          "meaningKo": "집안일하다",
+          "example": "Cuối tuần tôi làm việc nhà.",
+          "exampleMeaningKo": "주말에 집안일해요.",
+          "audioSrc": "",
+          "sourcePage": 31,
+          "reviewNeeded": false
+        },
+        {
+          "id": "l3-v-16",
+          "term": "xem tin tức",
+          "meaningKo": "뉴스 보다",
+          "example": "Tối tôi xem tin tức.",
+          "exampleMeaningKo": "저녁에 뉴스 봐요.",
+          "audioSrc": "",
+          "sourcePage": 31,
+          "reviewNeeded": false
+        },
+        {
+          "id": "l3-v-17",
+          "term": "đi siêu thị",
+          "meaningKo": "마트 가다",
+          "example": "Tôi đi siêu thị mỗi thứ 7.",
+          "exampleMeaningKo": "매주 토요일 마트 가요.",
+          "audioSrc": "",
+          "sourcePage": 31,
+          "reviewNeeded": false
+        },
+        {
+          "id": "l3-v-18",
+          "term": "nghỉ trưa",
+          "meaningKo": "점심 휴식",
+          "example": "Tôi nghỉ trưa 30 phút.",
+          "exampleMeaningKo": "점심에 30분 쉬어요.",
           "audioSrc": "",
           "sourcePage": 31,
           "reviewNeeded": false
@@ -958,6 +1198,86 @@
           "audioSrc": "",
           "sourcePage": 41,
           "reviewNeeded": false
+        },
+        {
+          "id": "l4-v-11",
+          "term": "chơi game",
+          "meaningKo": "게임하다",
+          "example": "Em trai tôi thích chơi game.",
+          "exampleMeaningKo": "남동생은 게임을 좋아해요.",
+          "audioSrc": "",
+          "sourcePage": 41,
+          "reviewNeeded": false
+        },
+        {
+          "id": "l4-v-12",
+          "term": "đi dã ngoại",
+          "meaningKo": "소풍 가다",
+          "example": "Cuối tuần chúng tôi đi dã ngoại.",
+          "exampleMeaningKo": "주말에 소풍 가요.",
+          "audioSrc": "",
+          "sourcePage": 41,
+          "reviewNeeded": false
+        },
+        {
+          "id": "l4-v-13",
+          "term": "vẽ tranh",
+          "meaningKo": "그림 그리다",
+          "example": "Cô ấy thích vẽ tranh.",
+          "exampleMeaningKo": "그녀는 그림 그리기를 좋아해요.",
+          "audioSrc": "",
+          "sourcePage": 41,
+          "reviewNeeded": false
+        },
+        {
+          "id": "l4-v-14",
+          "term": "trồng cây",
+          "meaningKo": "식물 기르기",
+          "example": "Mẹ tôi thích trồng cây.",
+          "exampleMeaningKo": "엄마는 식물 키우기를 좋아해요.",
+          "audioSrc": "",
+          "sourcePage": 41,
+          "reviewNeeded": false
+        },
+        {
+          "id": "l4-v-15",
+          "term": "đánh cầu lông",
+          "meaningKo": "배드민턴 치다",
+          "example": "Tôi đánh cầu lông mỗi tối.",
+          "exampleMeaningKo": "매일 저녁 배드민턴 쳐요.",
+          "audioSrc": "",
+          "sourcePage": 41,
+          "reviewNeeded": false
+        },
+        {
+          "id": "l4-v-16",
+          "term": "đi bộ",
+          "meaningKo": "걷기",
+          "example": "Đi bộ giúp cơ thể khỏe hơn.",
+          "exampleMeaningKo": "걷기는 건강에 좋아요.",
+          "audioSrc": "",
+          "sourcePage": 41,
+          "reviewNeeded": false
+        },
+        {
+          "id": "l4-v-17",
+          "term": "tham gia",
+          "meaningKo": "참여하다",
+          "example": "Tôi tham gia câu lạc bộ sách.",
+          "exampleMeaningKo": "독서모임에 참여해요.",
+          "audioSrc": "",
+          "sourcePage": 41,
+          "reviewNeeded": false
+        },
+        {
+          "id": "l4-v-18",
+          "term": "thư giãn",
+          "meaningKo": "휴식하다",
+          "example": "Nghe nhạc giúp tôi thư giãn.",
+          "exampleMeaningKo": "음악 듣기는 저를 편안하게 해요.",
+          "audioSrc": "",
+          "sourcePage": 41,
+          "reviewNeeded": false
         }
       ],
       "sentenceCards": [
@@ -1232,6 +1552,86 @@
           "meaningKo": "예약하다",
           "example": "Tôi muốn đặt phòng trước.",
           "exampleMeaningKo": "미리 방을 예약하고 싶어요.",
+          "audioSrc": "",
+          "sourcePage": 51,
+          "reviewNeeded": false
+        },
+        {
+          "id": "l5-v-11",
+          "term": "bến xe",
+          "meaningKo": "버스터미널",
+          "example": "Bến xe ở phía trước.",
+          "exampleMeaningKo": "버스터미널은 앞쪽에 있어요.",
+          "audioSrc": "",
+          "sourcePage": 51,
+          "reviewNeeded": false
+        },
+        {
+          "id": "l5-v-12",
+          "term": "đường một chiều",
+          "meaningKo": "일방통행",
+          "example": "Đây là đường một chiều.",
+          "exampleMeaningKo": "여긴 일방통행로예요.",
+          "audioSrc": "",
+          "sourcePage": 51,
+          "reviewNeeded": false
+        },
+        {
+          "id": "l5-v-13",
+          "term": "qua đường",
+          "meaningKo": "길 건너다",
+          "example": "Bạn qua đường cẩn thận nhé.",
+          "exampleMeaningKo": "길 건널 때 조심하세요.",
+          "audioSrc": "",
+          "sourcePage": 51,
+          "reviewNeeded": false
+        },
+        {
+          "id": "l5-v-14",
+          "term": "ngã ba",
+          "meaningKo": "삼거리",
+          "example": "Rẽ trái ở ngã ba.",
+          "exampleMeaningKo": "삼거리에서 좌회전하세요.",
+          "audioSrc": "",
+          "sourcePage": 51,
+          "reviewNeeded": false
+        },
+        {
+          "id": "l5-v-15",
+          "term": "giao thông",
+          "meaningKo": "교통",
+          "example": "Giờ này giao thông đông lắm.",
+          "exampleMeaningKo": "이 시간 교통이 많이 막혀요.",
+          "audioSrc": "",
+          "sourcePage": 51,
+          "reviewNeeded": false
+        },
+        {
+          "id": "l5-v-16",
+          "term": "bản chỉ dẫn",
+          "meaningKo": "안내판",
+          "example": "Làm ơn xem bản chỉ dẫn.",
+          "exampleMeaningKo": "안내판을 봐 주세요.",
+          "audioSrc": "",
+          "sourcePage": 51,
+          "reviewNeeded": false
+        },
+        {
+          "id": "l5-v-17",
+          "term": "đi taxi",
+          "meaningKo": "택시 타다",
+          "example": "Tôi đi taxi đến khách sạn.",
+          "exampleMeaningKo": "택시 타고 호텔에 가요.",
+          "audioSrc": "",
+          "sourcePage": 51,
+          "reviewNeeded": false
+        },
+        {
+          "id": "l5-v-18",
+          "term": "hành lý",
+          "meaningKo": "짐/수하물",
+          "example": "Hành lý của tôi hơi nặng.",
+          "exampleMeaningKo": "제 짐이 좀 무거워요.",
           "audioSrc": "",
           "sourcePage": 51,
           "reviewNeeded": false
@@ -1510,6 +1910,86 @@
           "meaningKo": "안전하다",
           "example": "Tôi thích khu vực an toàn.",
           "exampleMeaningKo": "저는 안전한 지역을 좋아해요.",
+          "audioSrc": "",
+          "sourcePage": 61,
+          "reviewNeeded": false
+        },
+        {
+          "id": "l6-v-11",
+          "term": "phòng ngủ",
+          "meaningKo": "침실",
+          "example": "Phòng ngủ của tôi khá nhỏ.",
+          "exampleMeaningKo": "제 침실은 꽤 작아요.",
+          "audioSrc": "",
+          "sourcePage": 61,
+          "reviewNeeded": false
+        },
+        {
+          "id": "l6-v-12",
+          "term": "nhà tắm",
+          "meaningKo": "욕실",
+          "example": "Nhà tắm ở bên phải.",
+          "exampleMeaningKo": "욕실은 오른쪽에 있어요.",
+          "audioSrc": "",
+          "sourcePage": 61,
+          "reviewNeeded": false
+        },
+        {
+          "id": "l6-v-13",
+          "term": "bãi đỗ xe",
+          "meaningKo": "주차장",
+          "example": "Tòa nhà có bãi đỗ xe lớn.",
+          "exampleMeaningKo": "건물에 큰 주차장이 있어요.",
+          "audioSrc": "",
+          "sourcePage": 61,
+          "reviewNeeded": false
+        },
+        {
+          "id": "l6-v-14",
+          "term": "thang máy",
+          "meaningKo": "엘리베이터",
+          "example": "Thang máy đang sửa.",
+          "exampleMeaningKo": "엘리베이터 수리 중이에요.",
+          "audioSrc": "",
+          "sourcePage": 61,
+          "reviewNeeded": false
+        },
+        {
+          "id": "l6-v-15",
+          "term": "bảo vệ",
+          "meaningKo": "경비원",
+          "example": "Chú bảo vệ rất thân thiện.",
+          "exampleMeaningKo": "경비 아저씨가 친절해요.",
+          "audioSrc": "",
+          "sourcePage": 61,
+          "reviewNeeded": false
+        },
+        {
+          "id": "l6-v-16",
+          "term": "khu dân cư",
+          "meaningKo": "주거지역",
+          "example": "Đây là khu dân cư yên tĩnh.",
+          "exampleMeaningKo": "여긴 조용한 주거지역이에요.",
+          "audioSrc": "",
+          "sourcePage": 61,
+          "reviewNeeded": false
+        },
+        {
+          "id": "l6-v-17",
+          "term": "tiền thuê nhà",
+          "meaningKo": "월세/임대료",
+          "example": "Tiền thuê nhà tháng này tăng rồi.",
+          "exampleMeaningKo": "이번 달 월세가 올랐어요.",
+          "audioSrc": "",
+          "sourcePage": 61,
+          "reviewNeeded": false
+        },
+        {
+          "id": "l6-v-18",
+          "term": "trang trí",
+          "meaningKo": "꾸미다",
+          "example": "Tôi thích trang trí phòng bằng cây xanh.",
+          "exampleMeaningKo": "저는 식물로 방 꾸미는 걸 좋아해요.",
           "audioSrc": "",
           "sourcePage": 61,
           "reviewNeeded": false
