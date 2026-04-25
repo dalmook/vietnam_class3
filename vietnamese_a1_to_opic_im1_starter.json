@@ -127,7 +127,7 @@
         },
         {
           "id": "l0-v-11",
-          "term": "1 - một",
+          "term": "một",
           "meaningKo": "숫자 1",
           "example": "một người",
           "exampleMeaningKo": "한 사람",
@@ -137,7 +137,7 @@
         },
         {
           "id": "l0-v-12",
-          "term": "2 - hai",
+          "term": "hai",
           "meaningKo": "숫자 2",
           "example": "hai bạn",
           "exampleMeaningKo": "두 친구",
@@ -147,7 +147,7 @@
         },
         {
           "id": "l0-v-13",
-          "term": "3 - ba",
+          "term": "ba",
           "meaningKo": "숫자 3",
           "example": "ba cuốn sách",
           "exampleMeaningKo": "책 세 권",
@@ -157,7 +157,7 @@
         },
         {
           "id": "l0-v-14",
-          "term": "4 - bốn",
+          "term": "bốn",
           "meaningKo": "숫자 4",
           "example": "bốn giờ",
           "exampleMeaningKo": "4시",
@@ -167,7 +167,7 @@
         },
         {
           "id": "l0-v-15",
-          "term": "5 - năm",
+          "term": "năm",
           "meaningKo": "숫자 5",
           "example": "năm phút",
           "exampleMeaningKo": "5분",
@@ -177,7 +177,7 @@
         },
         {
           "id": "l0-v-16",
-          "term": "6 - sáu",
+          "term": "sáu",
           "meaningKo": "숫자 6",
           "example": "sáu ngày",
           "exampleMeaningKo": "6일",
@@ -187,7 +187,7 @@
         },
         {
           "id": "l0-v-17",
-          "term": "7 - bảy",
+          "term": "bảy",
           "meaningKo": "숫자 7",
           "example": "bảy tuần",
           "exampleMeaningKo": "7주",
@@ -197,7 +197,7 @@
         },
         {
           "id": "l0-v-18",
-          "term": "8 - tám",
+          "term": "tám",
           "meaningKo": "숫자 8",
           "example": "tám tháng",
           "exampleMeaningKo": "8개월",
@@ -207,7 +207,7 @@
         },
         {
           "id": "l0-v-19",
-          "term": "9 - chín",
+          "term": "chín",
           "meaningKo": "숫자 9",
           "example": "chín giờ",
           "exampleMeaningKo": "9시",
@@ -217,7 +217,7 @@
         },
         {
           "id": "l0-v-20",
-          "term": "10 - mười",
+          "term": "mười",
           "meaningKo": "숫자 10",
           "example": "mười câu",
           "exampleMeaningKo": "열 문장",
