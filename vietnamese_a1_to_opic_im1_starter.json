@@ -38,7 +38,7 @@
           "meaningKo": "모음 a(아)",
           "example": "a",
           "exampleMeaningKo": "아",
-          "audioSrc": "/audio/l0/l0-v-01.mp3",
+          "audioSrc": "",
           "sourcePage": 1,
           "reviewNeeded": false
         },
@@ -48,7 +48,7 @@
           "meaningKo": "짧은 ă(아̆)",
           "example": "ăn",
           "exampleMeaningKo": "먹다",
-          "audioSrc": "/audio/l0/l0-v-02.mp3",
+          "audioSrc": "",
           "sourcePage": 1,
           "reviewNeeded": false
         },
@@ -118,7 +118,7 @@
           "meaningKo": "모음 ơ(어)",
           "example": "mở",
           "exampleMeaningKo": "열다",
-          "audioSrc": "/audio/l0/l0-v-09.mp3",
+          "audioSrc": "",
           "sourcePage": 1,
           "reviewNeeded": false
         },
