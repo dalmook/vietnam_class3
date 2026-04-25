@@ -75,6 +75,8 @@ button:disabled { opacity: .5; cursor: not-allowed; }
 .quiz-options { display: grid; gap: 10px; margin: 10px 0; }
 .quiz-option { width: 100%; text-align: center; margin-bottom: 0; border: 1.5px solid #4d56e8; background: #fff; }
 .choice-selected { outline: 2px solid var(--pri); background: #dfe5ff; }
+.match-option { min-height: 52px; }
+.match-done { background: #e6f8ee; border-color: #28a56a; color: #1e7f52; }
 .quiz-feedback { min-height: 24px; font-weight: 700; color: #3e4ba8; }
 .small { font-size: .85rem; color: var(--muted); }
 .notice { padding: 10px; border-radius: 12px; background: #eef9ff; color: #2d5870; }
