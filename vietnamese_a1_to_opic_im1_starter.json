@@ -10,6 +10,372 @@
   },
   "lessons": [
     {
+      "lessonId": "l0",
+      "unitLabel": "Bài 0",
+      "titleKo": "기초 준비: 자음·모음·숫자",
+      "titleVi": "Phần chuẩn bị: phụ âm, nguyên âm, số đếm",
+      "pageRange": "0-9",
+      "goals": [
+        "자음/모음 익히기",
+        "숫자 0~20 읽기"
+      ],
+      "topicOverview": "정식 레슨 전 발음 기초와 숫자를 빠르게 익히는 단계",
+      "cultureTopics": [
+        "발음 훈련",
+        "숫자 읽기"
+      ],
+      "vocabCards": [
+        {
+          "id": "l0-v-01",
+          "term": "a",
+          "meaningKo": "모음 a(아)",
+          "example": "a",
+          "exampleMeaningKo": "아",
+          "audioSrc": "",
+          "sourcePage": 1,
+          "reviewNeeded": false
+        },
+        {
+          "id": "l0-v-02",
+          "term": "ă",
+          "meaningKo": "짧은 ă(아̆)",
+          "example": "ăn",
+          "exampleMeaningKo": "먹다",
+          "audioSrc": "",
+          "sourcePage": 1,
+          "reviewNeeded": false
+        },
+        {
+          "id": "l0-v-03",
+          "term": "â",
+          "meaningKo": "중앙모음 â(어̆)",
+          "example": "ân",
+          "exampleMeaningKo": "은혜",
+          "audioSrc": "",
+          "sourcePage": 1,
+          "reviewNeeded": false
+        },
+        {
+          "id": "l0-v-04",
+          "term": "e",
+          "meaningKo": "모음 e(에)",
+          "example": "em",
+          "exampleMeaningKo": "동생/나(하칭)",
+          "audioSrc": "",
+          "sourcePage": 1,
+          "reviewNeeded": false
+        },
+        {
+          "id": "l0-v-05",
+          "term": "ê",
+          "meaningKo": "모음 ê(에이)",
+          "example": "đêm",
+          "exampleMeaningKo": "밤",
+          "audioSrc": "",
+          "sourcePage": 1,
+          "reviewNeeded": false
+        },
+        {
+          "id": "l0-v-06",
+          "term": "o",
+          "meaningKo": "모음 o(오)",
+          "example": "to",
+          "exampleMeaningKo": "크다",
+          "audioSrc": "",
+          "sourcePage": 1,
+          "reviewNeeded": false
+        },
+        {
+          "id": "l0-v-07",
+          "term": "ô",
+          "meaningKo": "모음 ô(오우)",
+          "example": "tốt",
+          "exampleMeaningKo": "좋다",
+          "audioSrc": "",
+          "sourcePage": 1,
+          "reviewNeeded": false
+        },
+        {
+          "id": "l0-v-08",
+          "term": "ơ",
+          "meaningKo": "모음 ơ(어)",
+          "example": "mở",
+          "exampleMeaningKo": "열다",
+          "audioSrc": "",
+          "sourcePage": 1,
+          "reviewNeeded": false
+        },
+        {
+          "id": "l0-v-09",
+          "term": "u",
+          "meaningKo": "모음 u(우)",
+          "example": "tu",
+          "exampleMeaningKo": "수행하다",
+          "audioSrc": "",
+          "sourcePage": 1,
+          "reviewNeeded": false
+        },
+        {
+          "id": "l0-v-10",
+          "term": "ư",
+          "meaningKo": "모음 ư(으-우 중간)",
+          "example": "thư",
+          "exampleMeaningKo": "편지",
+          "audioSrc": "",
+          "sourcePage": 1,
+          "reviewNeeded": false
+        },
+        {
+          "id": "l0-v-11",
+          "term": "1 - một",
+          "meaningKo": "숫자 1",
+          "example": "một người",
+          "exampleMeaningKo": "한 사람",
+          "audioSrc": "",
+          "sourcePage": 2,
+          "reviewNeeded": false
+        },
+        {
+          "id": "l0-v-12",
+          "term": "2 - hai",
+          "meaningKo": "숫자 2",
+          "example": "hai bạn",
+          "exampleMeaningKo": "두 친구",
+          "audioSrc": "",
+          "sourcePage": 2,
+          "reviewNeeded": false
+        },
+        {
+          "id": "l0-v-13",
+          "term": "3 - ba",
+          "meaningKo": "숫자 3",
+          "example": "ba cuốn sách",
+          "exampleMeaningKo": "책 세 권",
+          "audioSrc": "",
+          "sourcePage": 2,
+          "reviewNeeded": false
+        },
+        {
+          "id": "l0-v-14",
+          "term": "4 - bốn",
+          "meaningKo": "숫자 4",
+          "example": "bốn giờ",
+          "exampleMeaningKo": "4시",
+          "audioSrc": "",
+          "sourcePage": 2,
+          "reviewNeeded": false
+        },
+        {
+          "id": "l0-v-15",
+          "term": "5 - năm",
+          "meaningKo": "숫자 5",
+          "example": "năm phút",
+          "exampleMeaningKo": "5분",
+          "audioSrc": "",
+          "sourcePage": 2,
+          "reviewNeeded": false
+        },
+        {
+          "id": "l0-v-16",
+          "term": "6 - sáu",
+          "meaningKo": "숫자 6",
+          "example": "sáu ngày",
+          "exampleMeaningKo": "6일",
+          "audioSrc": "",
+          "sourcePage": 2,
+          "reviewNeeded": false
+        },
+        {
+          "id": "l0-v-17",
+          "term": "7 - bảy",
+          "meaningKo": "숫자 7",
+          "example": "bảy tuần",
+          "exampleMeaningKo": "7주",
+          "audioSrc": "",
+          "sourcePage": 2,
+          "reviewNeeded": false
+        },
+        {
+          "id": "l0-v-18",
+          "term": "8 - tám",
+          "meaningKo": "숫자 8",
+          "example": "tám tháng",
+          "exampleMeaningKo": "8개월",
+          "audioSrc": "",
+          "sourcePage": 2,
+          "reviewNeeded": false
+        },
+        {
+          "id": "l0-v-19",
+          "term": "9 - chín",
+          "meaningKo": "숫자 9",
+          "example": "chín giờ",
+          "exampleMeaningKo": "9시",
+          "audioSrc": "",
+          "sourcePage": 2,
+          "reviewNeeded": false
+        },
+        {
+          "id": "l0-v-20",
+          "term": "10 - mười",
+          "meaningKo": "숫자 10",
+          "example": "mười câu",
+          "exampleMeaningKo": "열 문장",
+          "audioSrc": "",
+          "sourcePage": 2,
+          "reviewNeeded": false
+        }
+      ],
+      "sentenceCards": [
+        {
+          "id": "l0-s-01",
+          "textVi": "a - ă - â",
+          "textKo": "a/ă/â 모음 구분 연습",
+          "audioSrc": "",
+          "sourcePage": 3,
+          "reviewNeeded": false
+        },
+        {
+          "id": "l0-s-02",
+          "textVi": "e - ê",
+          "textKo": "e/ê 모음 구분 연습",
+          "audioSrc": "",
+          "sourcePage": 3,
+          "reviewNeeded": false
+        },
+        {
+          "id": "l0-s-03",
+          "textVi": "o - ô - ơ",
+          "textKo": "o/ô/ơ 모음 구분 연습",
+          "audioSrc": "",
+          "sourcePage": 3,
+          "reviewNeeded": false
+        },
+        {
+          "id": "l0-s-04",
+          "textVi": "u - ư",
+          "textKo": "u/ư 모음 구분 연습",
+          "audioSrc": "",
+          "sourcePage": 3,
+          "reviewNeeded": false
+        },
+        {
+          "id": "l0-s-05",
+          "textVi": "Một, hai, ba, bốn, năm",
+          "textKo": "1,2,3,4,5 읽기",
+          "audioSrc": "",
+          "sourcePage": 4,
+          "reviewNeeded": false
+        },
+        {
+          "id": "l0-s-06",
+          "textVi": "Sáu, bảy, tám, chín, mười",
+          "textKo": "6,7,8,9,10 읽기",
+          "audioSrc": "",
+          "sourcePage": 4,
+          "reviewNeeded": false
+        }
+      ],
+      "dialogues": [
+        {
+          "id": "l0-d-01",
+          "title": "숫자 확인 미니 대화",
+          "audioSrc": "",
+          "sourcePage": 5,
+          "lines": [
+            {
+              "speaker": "A",
+              "vi": "Bạn đọc số này nhé: 1 2 3.",
+              "ko": "이 숫자 읽어보세요: 1 2 3."
+            },
+            {
+              "speaker": "B",
+              "vi": "Một, hai, ba.",
+              "ko": "못, 하이, 바."
+            },
+            {
+              "speaker": "A",
+              "vi": "Tốt lắm!",
+              "ko": "아주 좋아요!"
+            }
+          ],
+          "reviewNeeded": false
+        }
+      ],
+      "grammarPoints": [
+        {
+          "id": "l0-g-01",
+          "title": "베트남어 기본 문자",
+          "pattern": "a ă â e ê i o ô ơ u ư y",
+          "sourcePage": 6,
+          "reviewNeeded": false
+        },
+        {
+          "id": "l0-g-02",
+          "title": "숫자 읽기 기초",
+          "pattern": "một ~ mười",
+          "sourcePage": 6,
+          "reviewNeeded": false
+        }
+      ],
+      "pronunciationTargets": [
+        {
+          "id": "l0-p-01",
+          "text": "a/ă/â",
+          "hintKo": "입 벌림 정도와 길이 차이를 구분",
+          "audioSrc": "",
+          "sourcePage": 7,
+          "reviewNeeded": false
+        },
+        {
+          "id": "l0-p-02",
+          "text": "o/ô/ơ",
+          "hintKo": "입술 모양과 입 벌림 차이를 확인",
+          "audioSrc": "",
+          "sourcePage": 7,
+          "reviewNeeded": false
+        },
+        {
+          "id": "l0-p-03",
+          "text": "u/ư",
+          "hintKo": "혀 위치를 바꿔 반복 연습",
+          "audioSrc": "",
+          "sourcePage": 7,
+          "reviewNeeded": false
+        }
+      ],
+      "quizSeeds": [
+        {
+          "id": "l0-q-01",
+          "type": "sound-match",
+          "prompt": "모음과 예시 매칭",
+          "answerSet": [
+            "a-아",
+            "ă-짧은 아",
+            "â-어̆",
+            "ơ-어"
+          ],
+          "sourcePage": 8,
+          "reviewNeeded": false
+        },
+        {
+          "id": "l0-q-02",
+          "type": "match-term",
+          "prompt": "숫자 매칭",
+          "answerSet": [
+            "một-1",
+            "hai-2",
+            "ba-3",
+            "mười-10"
+          ],
+          "sourcePage": 8,
+          "reviewNeeded": false
+        }
+      ],
+      "unlockCondition": "none",
+      "reviewNeeded": false
+    },
+    {
       "lessonId": "l1",
       "unitLabel": "Bài 1",
       "titleKo": "인사와 기본 표현",

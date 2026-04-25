@@ -512,8 +512,7 @@ class VietnameseA1App {
       </div>
       <div class="card-tap-zone" data-action="toggleCardReveal">
         <div class="vi-big">${c.term}</div>
-        <div class="pron-tip">한글발음: ${this.hangulPron(c.term)}</div>
-        <div class="ko ${show ? '' : 'hidden'}">${c.meaningKo}</div>
+        <div class="pron-tip ${show ? '' : 'hidden'}">뜻: ${c.meaningKo}</div>
         ${show && c.example ? `<p class="small">예문: ${c.example}<br>${c.exampleMeaningKo || ''}</p>` : ''}
         <p class="small tap-hint">${show ? '카드를 탭하면 뜻을 숨길 수 있어요' : '카드를 탭하면 뜻이 보여요'}</p>
       </div>
@@ -544,8 +543,7 @@ class VietnameseA1App {
       </div>
       <div class="card-tap-zone" data-action="toggleCardReveal">
         <div class="vi-big">${c.textVi}</div>
-        <div class="pron-tip">한글발음: ${this.hangulPron(c.textVi)}</div>
-        <div class="ko ${show ? '' : 'hidden'}">${c.textKo}</div>
+        <div class="pron-tip ${show ? '' : 'hidden'}">뜻: ${c.textKo}</div>
         <p class="small tap-hint">${show ? '카드를 탭하면 해석을 숨깁니다' : '카드를 탭하면 해석이 보여요'}</p>
       </div>
       <div class="controls action-grid compact audio-controls">
