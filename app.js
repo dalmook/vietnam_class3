@@ -418,7 +418,7 @@ class VietnameseA1App {
     if (type === 'search') return this.runSearch();
     if (type === 'jump') return this.jumpToItem(payload);
     if (type === 'speak') return this.playAudio(payload, el.dataset.text || 'xin chào');
-    if (type === 'repeatSpeak') return this.repeatSpeak(el.dataset.text, 3);
+    if (type === 'repeatSpeak') return this.repeatSpeak({ text: el.dataset.text, audioSrc: el.dataset.audio || '' }, 3);
     if (type === 'startQuiz') { this.setupQuizQueue(); this.state.quiz.phase = 'playing'; return this.render(); }
     if (type === 'nextQuiz') return this.nextQuiz();
     if (type === 'pickOption') return this.pickQuizOption(payload);
@@ -521,7 +521,7 @@ class VietnameseA1App {
       </div>
       <div class="controls action-grid compact audio-controls">
         <button class="primary" data-action="speak:${c.audioSrc || ''}" data-text="${c.term}">듣기</button>
-        <button class="warn" data-action="repeatSpeak" data-text="${c.term}">3회 반복</button>
+        <button class="warn" data-action="repeatSpeak" data-text="${c.term}" data-audio="${c.audioSrc || ''}">3회 반복</button>
       </div>
       <div class="controls nav-controls"><button data-action="shift:-1">◀ 이전</button><button data-action="shift:1">다음 ▶</button></div>
     </article>`;
@@ -552,7 +552,7 @@ class VietnameseA1App {
       </div>
       <div class="controls action-grid compact audio-controls">
         <button class="primary" data-action="speak:${c.audioSrc || ''}" data-text="${c.textVi}">듣기</button>
-        <button class="warn" data-action="repeatSpeak" data-text="${c.textVi}">3번 반복 듣기</button>
+        <button class="warn" data-action="repeatSpeak" data-text="${c.textVi}" data-audio="${c.audioSrc || ''}">3번 반복 듣기</button>
       </div>
       <div class="controls nav-controls"><button data-action="shift:-1">◀ 이전</button><button data-action="shift:1">다음 ▶</button></div>
     </article>`;
@@ -585,7 +585,7 @@ class VietnameseA1App {
       <span class="badge">성조/모음 타겟 ${idx + 1}/${list.length}</span>
       <div class="vi-big">${t.text}</div>
       <p class="ko">${t.hintKo}</p>
-      <div class="controls"><button class="primary" data-action="speak:${t.audioSrc || ''}" data-text="${t.text}">듣기</button><button class="warn" data-action="repeatSpeak" data-text="${t.text}">3회 반복</button><button data-action="shift:1">다음</button></div>
+      <div class="controls"><button class="primary" data-action="speak:${t.audioSrc || ''}" data-text="${t.text}">듣기</button><button class="warn" data-action="repeatSpeak" data-text="${t.text}" data-audio="${t.audioSrc || ''}">3회 반복</button><button data-action="shift:1">다음</button></div>
     </article>`;
   }
 
@@ -892,8 +892,13 @@ class VietnameseA1App {
     if (src) {
       try {
         const audio = new Audio(src);
-        await audio.play();
-        return;
+        audio.playbackRate = Math.max(0.6, Math.min(1.6, Number(this.settings.speechRate || 1)));
+        await new Promise((resolve, reject) => {
+          audio.onended = resolve;
+          audio.onerror = reject;
+          audio.play().catch(reject);
+        });
+        return true;
       } catch (_) {
         // fallback to TTS below
       }
@@ -904,21 +909,21 @@ class VietnameseA1App {
       u.rate = this.settings.speechRate;
       speechSynthesis.cancel();
       speechSynthesis.speak(u);
-      return;
+      return true;
     }
     this.state.quiz.feedback = '브라우저 음성 권한/자동재생 정책으로 소리가 막혔을 수 있어요.';
     this.render();
+    return false;
   }
 
-  repeatSpeak(text, n) {
-    let i = 0;
-    const tick = () => {
-      if (i >= n) return;
-      i += 1;
-      this.playAudio('', text);
-      setTimeout(tick, 1200);
-    };
-    tick();
+  async repeatSpeak(payload, n) {
+    const text = payload?.text || '';
+    const audioSrc = payload?.audioSrc || '';
+    for (let i = 0; i < n; i += 1) {
+      const ok = await this.playAudio(audioSrc, text);
+      if (!ok) break;
+      if (!audioSrc) await new Promise((r) => setTimeout(r, 350));
+    }
   }
 
   hangulPron(text) {
