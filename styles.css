@@ -30,6 +30,16 @@ body { margin: 0; font-family: "Pretendard", "Noto Sans KR", system-ui, sans-ser
 article .controls button { flex: 1 1 120px; }
 .action-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 10px; }
 .action-grid button { width: 100%; }
+.compact { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+.card-top { justify-content: space-between; align-items: flex-start; }
+.icon-actions { display: flex; gap: 8px; }
+.icon-btn {
+  min-height: 36px; width: 36px; padding: 0; border-radius: 50%;
+  background: #eef2ff; border: 1px solid #dbe2ff; font-size: 1rem;
+}
+.icon-btn.active { background: #5d6dff; color: #fff; border-color: #5d6dff; }
+.card-tap-zone { border-radius: 16px; padding: 4px 2px; cursor: pointer; }
+.tap-hint { margin: 4px 0 0; color: #7b86a7; }
 button { min-height: 44px; border: 0; border-radius: 13px; padding: 10px 12px; font-weight: 700; cursor: pointer; background: #edf1ff; color: var(--ink); }
 button.primary { background: var(--pri); color: #fff; }
 button.good { background: #d8f8e8; }
@@ -73,6 +83,8 @@ button:disabled { opacity: .5; cursor: not-allowed; }
 @media (min-width: 768px) { .app-shell { padding-top: 24px; } }
 @media (max-width: 430px) {
   .action-grid { grid-template-columns: 1fr; }
+  .compact { grid-template-columns: 1fr; }
   .action-grid button { min-height: 46px; }
   .quiz-card { padding: 16px; }
+  .icon-btn { min-height: 34px; width: 34px; }
 }

@@ -280,6 +280,7 @@ class VietnameseA1App {
       searchQuery: '',
       searchResults: [],
       message: '오늘은 10개만 외워볼까요? 🐳',
+      revealMeaning: true,
       quiz: {
         queue: [],
         i: 0,
@@ -411,6 +412,7 @@ class VietnameseA1App {
     if (type === 'mark') return this.markItem(payload, el.dataset.value);
     if (type === 'bookmark') return this.toggleBookmark(payload);
     if (type === 'toggleMeaning') return el.closest('.card').querySelector('.ko')?.classList.toggle('hidden');
+    if (type === 'toggleCardReveal') { this.state.revealMeaning = !this.state.revealMeaning; return this.render(); }
     if (type === 'toggleKo') return this.appEl.querySelectorAll('.ko-line').forEach((x) => x.classList.toggle('hidden'));
     if (type === 'search') return this.runSearch();
     if (type === 'jump') return this.jumpToItem(payload);
@@ -497,21 +499,27 @@ class VietnameseA1App {
     const idx = this.clampIndex(this.state.cardIndex, cards.length);
     this.state.cardIndex = idx;
     const c = cards[idx];
+    const stat = this.progress[c.id] || {};
+    const show = this.state.revealMeaning;
     return `<article class="card fade">
-      <div class="row"><span class="badge">${idx + 1} / ${cards.length}</span>${c.sourcePage ? `<span class="badge">p.${c.sourcePage}</span>` : ''}</div>
-      <div class="vi-big">${c.term}</div>
-      <div class="pron-tip">한글발음: ${this.hangulPron(c.term)}</div>
-      <div class="ko ${this.settings.autoShowMeaning ? '' : 'hidden'}">${c.meaningKo}</div>
-      ${c.example ? `<p class="small">예문: ${c.example}<br>${c.exampleMeaningKo || ''}</p>` : ''}
-      <div class="controls action-grid">
+      <div class="row card-top">
+        <div class="row"><span class="badge">${idx + 1} / ${cards.length}</span>${c.sourcePage ? `<span class="badge">p.${c.sourcePage}</span>` : ''}</div>
+        <div class="icon-actions">
+          <button class="icon-btn ${stat.known ? 'active' : ''}" aria-label="알아요" data-action="mark:${c.id}" data-value="known">✅</button>
+          <button class="icon-btn ${stat.known === false ? 'active' : ''}" aria-label="몰라요" data-action="mark:${c.id}" data-value="unknown">❓</button>
+          <button class="icon-btn ${this.bookmarks.includes(c.id) ? 'active' : ''}" aria-label="북마크" data-action="bookmark:${c.id}">⭐</button>
+        </div>
+      </div>
+      <div class="card-tap-zone" data-action="toggleCardReveal">
+        <div class="vi-big">${c.term}</div>
+        <div class="pron-tip">한글발음: ${this.hangulPron(c.term)}</div>
+        <div class="ko ${show ? '' : 'hidden'}">${c.meaningKo}</div>
+        ${show && c.example ? `<p class="small">예문: ${c.example}<br>${c.exampleMeaningKo || ''}</p>` : ''}
+        <p class="small tap-hint">${show ? '카드를 탭하면 뜻을 숨길 수 있어요' : '카드를 탭하면 뜻이 보여요'}</p>
+      </div>
+      <div class="controls action-grid compact">
         <button class="primary" data-action="speak:${c.audioSrc || ''}" data-text="${c.term}">듣기</button>
         <button class="warn" data-action="repeatSpeak" data-text="${c.term}">3회 반복</button>
-        <button data-action="toggleMeaning">뜻 토글</button>
-      </div>
-      <div class="controls action-grid">
-        <button class="good" data-action="mark:${c.id}" data-value="known">알아요</button>
-        <button class="bad" data-action="mark:${c.id}" data-value="unknown">몰라요</button>
-        <button data-action="bookmark:${c.id}">${this.bookmarks.includes(c.id) ? '북마크 해제' : '북마크'}</button>
       </div>
       <div class="controls"><button data-action="shift:-1">◀ 이전</button><button data-action="shift:1">다음 ▶</button></div>
     </article>`;
@@ -523,21 +531,28 @@ class VietnameseA1App {
     const idx = this.clampIndex(this.state.sentenceIndex, cards.length);
     this.state.sentenceIndex = idx;
     const c = cards[idx];
+    const stat = this.progress[c.id] || {};
+    const show = this.state.revealMeaning;
     return `<article class="card fade">
-      <div class="row"><span class="badge">${idx + 1} / ${cards.length}</span>${c.sourcePage ? `<span class="badge">p.${c.sourcePage}</span>` : ''}</div>
-      <div class="vi-big">${c.textVi}</div>
-      <div class="pron-tip">한글발음: ${this.hangulPron(c.textVi)}</div>
-      <div class="ko ${this.settings.autoShowMeaning ? '' : 'hidden'}">${c.textKo}</div>
-      <div class="controls action-grid">
+      <div class="row card-top">
+        <div class="row"><span class="badge">${idx + 1} / ${cards.length}</span>${c.sourcePage ? `<span class="badge">p.${c.sourcePage}</span>` : ''}</div>
+        <div class="icon-actions">
+          <button class="icon-btn ${stat.known ? 'active' : ''}" aria-label="외움" data-action="mark:${c.id}" data-value="known">✅</button>
+          <button class="icon-btn ${stat.difficult ? 'active' : ''}" aria-label="어려움" data-action="mark:${c.id}" data-value="difficult">🔥</button>
+          <button class="icon-btn ${this.bookmarks.includes(c.id) ? 'active' : ''}" aria-label="북마크" data-action="bookmark:${c.id}">⭐</button>
+        </div>
+      </div>
+      <div class="card-tap-zone" data-action="toggleCardReveal">
+        <div class="vi-big">${c.textVi}</div>
+        <div class="pron-tip">한글발음: ${this.hangulPron(c.textVi)}</div>
+        <div class="ko ${show ? '' : 'hidden'}">${c.textKo}</div>
+        <p class="small tap-hint">${show ? '카드를 탭하면 해석을 숨깁니다' : '카드를 탭하면 해석이 보여요'}</p>
+      </div>
+      <div class="controls action-grid compact">
         <button class="primary" data-action="speak:${c.audioSrc || ''}" data-text="${c.textVi}">듣기</button>
         <button class="warn" data-action="repeatSpeak" data-text="${c.textVi}">3번 반복 듣기</button>
-        <button data-action="toggleMeaning">해석 토글</button>
       </div>
-      <div class="controls action-grid">
-        <button class="good" data-action="mark:${c.id}" data-value="known">외움</button>
-        <button class="bad" data-action="mark:${c.id}" data-value="difficult">어려움</button>
-        <button data-action="shift:1">다음</button>
-      </div>
+      <div class="controls"><button data-action="shift:-1">◀ 이전</button><button data-action="shift:1">다음 ▶</button></div>
     </article>`;
   }
 
@@ -816,6 +831,7 @@ class VietnameseA1App {
     if (this.state.studyMode === 'sentence') this.state.sentenceIndex = this.rotateIndex(this.state.sentenceIndex, delta, (lesson.sentenceCards || []).length);
     if (this.state.studyMode === 'dialogue') this.state.dialogueIndex = this.rotateIndex(this.state.dialogueIndex, delta, (lesson.dialogues || []).length);
     if (this.state.studyMode === 'pronunciation') this.state.pronIndex = this.rotateIndex(this.state.pronIndex, delta, (lesson.pronunciationTargets || []).length);
+    this.state.revealMeaning = this.settings.autoShowMeaning;
 
     if (this.settings.autoPlay) {
       const item = this.currentCardItem();
@@ -984,6 +1000,7 @@ class VietnameseA1App {
     this.state.sentenceIndex = 0;
     this.state.dialogueIndex = 0;
     this.state.pronIndex = 0;
+    this.state.revealMeaning = this.settings.autoShowMeaning;
   }
 
   resetLocal() {
