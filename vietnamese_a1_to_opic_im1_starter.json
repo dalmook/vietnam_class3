@@ -1,0 +1,2693 @@
+{
+  "meta": {
+    "version": "1.0.0",
+    "title": "Vietnamese A1 to OPIC IM1 Starter",
+    "description": "기초 단어부터 OPIC IM1 수준의 일상/주제 문장까지 단계형 데이터셋",
+    "sourceNotes": [
+      "Wikibooks Vietnamese Greetings/Common phrases/Numbers 기반 기초 표현 참조",
+      "OPIC IM1 빈출 주제(자기소개/일상/취미/집/여행) 커리큘럼 구성"
+    ]
+  },
+  "lessons": [
+    {
+      "lessonId": "l0",
+      "unitLabel": "Bài 0",
+      "titleKo": "기초 준비: 자음·모음·숫자",
+      "titleVi": "Phần chuẩn bị: phụ âm, nguyên âm, số đếm",
+      "pageRange": "0-9",
+      "goals": [
+        "자음/모음 익히기",
+        "숫자 0~20 읽기"
+      ],
+      "topicOverview": "정식 레슨 전 발음 기초와 숫자를 빠르게 익히는 단계",
+      "cultureTopics": [
+        "발음 훈련",
+        "숫자 읽기"
+      ],
+      "vocabCards": [
+        {
+          "id": "l0-v-01",
+          "term": "a",
+          "meaningKo": "모음 a(아)",
+          "example": "a",
+          "exampleMeaningKo": "아",
+          "audioSrc": "",
+          "sourcePage": 1,
+          "reviewNeeded": false
+        },
+        {
+          "id": "l0-v-02",
+          "term": "ă",
+          "meaningKo": "짧은 ă(아̆)",
+          "example": "ăn",
+          "exampleMeaningKo": "먹다",
+          "audioSrc": "",
+          "sourcePage": 1,
+          "reviewNeeded": false
+        },
+        {
+          "id": "l0-v-03",
+          "term": "â",
+          "meaningKo": "중앙모음 â(어̆)",
+          "example": "ân",
+          "exampleMeaningKo": "은혜",
+          "audioSrc": "",
+          "sourcePage": 1,
+          "reviewNeeded": false
+        },
+        {
+          "id": "l0-v-04",
+          "term": "e",
+          "meaningKo": "모음 e(에)",
+          "example": "em",
+          "exampleMeaningKo": "동생/나(하칭)",
+          "audioSrc": "",
+          "sourcePage": 1,
+          "reviewNeeded": false
+        },
+        {
+          "id": "l0-v-05",
+          "term": "ê",
+          "meaningKo": "모음 ê(에이)",
+          "example": "đêm",
+          "exampleMeaningKo": "밤",
+          "audioSrc": "",
+          "sourcePage": 1,
+          "reviewNeeded": false
+        },
+        {
+          "id": "l0-v-06",
+          "term": "o",
+          "meaningKo": "모음 o(오)",
+          "example": "to",
+          "exampleMeaningKo": "크다",
+          "audioSrc": "",
+          "sourcePage": 1,
+          "reviewNeeded": false
+        },
+        {
+          "id": "l0-v-07",
+          "term": "ô",
+          "meaningKo": "모음 ô(오우)",
+          "example": "tốt",
+          "exampleMeaningKo": "좋다",
+          "audioSrc": "",
+          "sourcePage": 1,
+          "reviewNeeded": false
+        },
+        {
+          "id": "l0-v-08",
+          "term": "ơ",
+          "meaningKo": "모음 ơ(어)",
+          "example": "mở",
+          "exampleMeaningKo": "열다",
+          "audioSrc": "",
+          "sourcePage": 1,
+          "reviewNeeded": false
+        },
+        {
+          "id": "l0-v-09",
+          "term": "u",
+          "meaningKo": "모음 u(우)",
+          "example": "tu",
+          "exampleMeaningKo": "수행하다",
+          "audioSrc": "",
+          "sourcePage": 1,
+          "reviewNeeded": false
+        },
+        {
+          "id": "l0-v-10",
+          "term": "ư",
+          "meaningKo": "모음 ư(으-우 중간)",
+          "example": "thư",
+          "exampleMeaningKo": "편지",
+          "audioSrc": "",
+          "sourcePage": 1,
+          "reviewNeeded": false
+        },
+        {
+          "id": "l0-v-11",
+          "term": "1 - một",
+          "meaningKo": "숫자 1",
+          "example": "một người",
+          "exampleMeaningKo": "한 사람",
+          "audioSrc": "",
+          "sourcePage": 2,
+          "reviewNeeded": false
+        },
+        {
+          "id": "l0-v-12",
+          "term": "2 - hai",
+          "meaningKo": "숫자 2",
+          "example": "hai bạn",
+          "exampleMeaningKo": "두 친구",
+          "audioSrc": "",
+          "sourcePage": 2,
+          "reviewNeeded": false
+        },
+        {
+          "id": "l0-v-13",
+          "term": "3 - ba",
+          "meaningKo": "숫자 3",
+          "example": "ba cuốn sách",
+          "exampleMeaningKo": "책 세 권",
+          "audioSrc": "",
+          "sourcePage": 2,
+          "reviewNeeded": false
+        },
+        {
+          "id": "l0-v-14",
+          "term": "4 - bốn",
+          "meaningKo": "숫자 4",
+          "example": "bốn giờ",
+          "exampleMeaningKo": "4시",
+          "audioSrc": "",
+          "sourcePage": 2,
+          "reviewNeeded": false
+        },
+        {
+          "id": "l0-v-15",
+          "term": "5 - năm",
+          "meaningKo": "숫자 5",
+          "example": "năm phút",
+          "exampleMeaningKo": "5분",
+          "audioSrc": "",
+          "sourcePage": 2,
+          "reviewNeeded": false
+        },
+        {
+          "id": "l0-v-16",
+          "term": "6 - sáu",
+          "meaningKo": "숫자 6",
+          "example": "sáu ngày",
+          "exampleMeaningKo": "6일",
+          "audioSrc": "",
+          "sourcePage": 2,
+          "reviewNeeded": false
+        },
+        {
+          "id": "l0-v-17",
+          "term": "7 - bảy",
+          "meaningKo": "숫자 7",
+          "example": "bảy tuần",
+          "exampleMeaningKo": "7주",
+          "audioSrc": "",
+          "sourcePage": 2,
+          "reviewNeeded": false
+        },
+        {
+          "id": "l0-v-18",
+          "term": "8 - tám",
+          "meaningKo": "숫자 8",
+          "example": "tám tháng",
+          "exampleMeaningKo": "8개월",
+          "audioSrc": "",
+          "sourcePage": 2,
+          "reviewNeeded": false
+        },
+        {
+          "id": "l0-v-19",
+          "term": "9 - chín",
+          "meaningKo": "숫자 9",
+          "example": "chín giờ",
+          "exampleMeaningKo": "9시",
+          "audioSrc": "",
+          "sourcePage": 2,
+          "reviewNeeded": false
+        },
+        {
+          "id": "l0-v-20",
+          "term": "10 - mười",
+          "meaningKo": "숫자 10",
+          "example": "mười câu",
+          "exampleMeaningKo": "열 문장",
+          "audioSrc": "",
+          "sourcePage": 2,
+          "reviewNeeded": false
+        }
+      ],
+      "sentenceCards": [
+        {
+          "id": "l0-s-01",
+          "textVi": "a - ă - â",
+          "textKo": "a/ă/â 모음 구분 연습",
+          "audioSrc": "",
+          "sourcePage": 3,
+          "reviewNeeded": false
+        },
+        {
+          "id": "l0-s-02",
+          "textVi": "e - ê",
+          "textKo": "e/ê 모음 구분 연습",
+          "audioSrc": "",
+          "sourcePage": 3,
+          "reviewNeeded": false
+        },
+        {
+          "id": "l0-s-03",
+          "textVi": "o - ô - ơ",
+          "textKo": "o/ô/ơ 모음 구분 연습",
+          "audioSrc": "",
+          "sourcePage": 3,
+          "reviewNeeded": false
+        },
+        {
+          "id": "l0-s-04",
+          "textVi": "u - ư",
+          "textKo": "u/ư 모음 구분 연습",
+          "audioSrc": "",
+          "sourcePage": 3,
+          "reviewNeeded": false
+        },
+        {
+          "id": "l0-s-05",
+          "textVi": "Một, hai, ba, bốn, năm",
+          "textKo": "1,2,3,4,5 읽기",
+          "audioSrc": "",
+          "sourcePage": 4,
+          "reviewNeeded": false
+        },
+        {
+          "id": "l0-s-06",
+          "textVi": "Sáu, bảy, tám, chín, mười",
+          "textKo": "6,7,8,9,10 읽기",
+          "audioSrc": "",
+          "sourcePage": 4,
+          "reviewNeeded": false
+        }
+      ],
+      "dialogues": [
+        {
+          "id": "l0-d-01",
+          "title": "숫자 확인 미니 대화",
+          "audioSrc": "",
+          "sourcePage": 5,
+          "lines": [
+            {
+              "speaker": "A",
+              "vi": "Bạn đọc số này nhé: 1 2 3.",
+              "ko": "이 숫자 읽어보세요: 1 2 3."
+            },
+            {
+              "speaker": "B",
+              "vi": "Một, hai, ba.",
+              "ko": "못, 하이, 바."
+            },
+            {
+              "speaker": "A",
+              "vi": "Tốt lắm!",
+              "ko": "아주 좋아요!"
+            }
+          ],
+          "reviewNeeded": false
+        }
+      ],
+      "grammarPoints": [
+        {
+          "id": "l0-g-01",
+          "title": "베트남어 기본 문자",
+          "pattern": "a ă â e ê i o ô ơ u ư y",
+          "sourcePage": 6,
+          "reviewNeeded": false
+        },
+        {
+          "id": "l0-g-02",
+          "title": "숫자 읽기 기초",
+          "pattern": "một ~ mười",
+          "sourcePage": 6,
+          "reviewNeeded": false
+        }
+      ],
+      "pronunciationTargets": [
+        {
+          "id": "l0-p-01",
+          "text": "a/ă/â",
+          "hintKo": "입 벌림 정도와 길이 차이를 구분",
+          "audioSrc": "",
+          "sourcePage": 7,
+          "reviewNeeded": false
+        },
+        {
+          "id": "l0-p-02",
+          "text": "o/ô/ơ",
+          "hintKo": "입술 모양과 입 벌림 차이를 확인",
+          "audioSrc": "",
+          "sourcePage": 7,
+          "reviewNeeded": false
+        },
+        {
+          "id": "l0-p-03",
+          "text": "u/ư",
+          "hintKo": "혀 위치를 바꿔 반복 연습",
+          "audioSrc": "",
+          "sourcePage": 7,
+          "reviewNeeded": false
+        }
+      ],
+      "quizSeeds": [
+        {
+          "id": "l0-q-01",
+          "type": "sound-match",
+          "prompt": "모음과 예시 매칭",
+          "answerSet": [
+            "a-아",
+            "ă-짧은 아",
+            "â-어̆",
+            "ơ-어"
+          ],
+          "sourcePage": 8,
+          "reviewNeeded": false
+        },
+        {
+          "id": "l0-q-02",
+          "type": "match-term",
+          "prompt": "숫자 매칭",
+          "answerSet": [
+            "một-1",
+            "hai-2",
+            "ba-3",
+            "mười-10"
+          ],
+          "sourcePage": 8,
+          "reviewNeeded": false
+        }
+      ],
+      "unlockCondition": "none",
+      "reviewNeeded": false
+    },
+    {
+      "lessonId": "l1",
+      "unitLabel": "Bài 1",
+      "titleKo": "인사와 기본 표현",
+      "titleVi": "Chào hỏi cơ bản",
+      "pageRange": "1-10",
+      "goals": [
+        "인사하기",
+        "감사/사과 표현"
+      ],
+      "topicOverview": "기본 인사와 공손 표현",
+      "cultureTopics": [
+        "일상 대화",
+        "예의 표현"
+      ],
+      "vocabCards": [
+        {
+          "id": "l1-v-01",
+          "term": "xin chào",
+          "meaningKo": "안녕하세요",
+          "example": "Xin chào, tôi là Min.",
+          "exampleMeaningKo": "안녕하세요, 저는 민이에요.",
+          "audioSrc": "",
+          "sourcePage": 11,
+          "reviewNeeded": false
+        },
+        {
+          "id": "l1-v-02",
+          "term": "cảm ơn",
+          "meaningKo": "감사합니다",
+          "example": "Cảm ơn bạn nhiều.",
+          "exampleMeaningKo": "정말 고마워요.",
+          "audioSrc": "",
+          "sourcePage": 11,
+          "reviewNeeded": false
+        },
+        {
+          "id": "l1-v-03",
+          "term": "xin lỗi",
+          "meaningKo": "죄송합니다",
+          "example": "Xin lỗi, tôi đến muộn.",
+          "exampleMeaningKo": "죄송해요, 늦었어요.",
+          "audioSrc": "",
+          "sourcePage": 11,
+          "reviewNeeded": false
+        },
+        {
+          "id": "l1-v-04",
+          "term": "tạm biệt",
+          "meaningKo": "안녕히 가세요/계세요",
+          "example": "Tạm biệt, hẹn gặp lại.",
+          "exampleMeaningKo": "안녕, 또 봐요.",
+          "audioSrc": "",
+          "sourcePage": 11,
+          "reviewNeeded": false
+        },
+        {
+          "id": "l1-v-05",
+          "term": "vâng",
+          "meaningKo": "네(공손)",
+          "example": "Vâng, em hiểu rồi.",
+          "exampleMeaningKo": "네, 이해했어요.",
+          "audioSrc": "",
+          "sourcePage": 11,
+          "reviewNeeded": false
+        },
+        {
+          "id": "l1-v-06",
+          "term": "không",
+          "meaningKo": "아니요/아니다",
+          "example": "Không, tôi không biết.",
+          "exampleMeaningKo": "아니요, 몰라요.",
+          "audioSrc": "",
+          "sourcePage": 11,
+          "reviewNeeded": false
+        },
+        {
+          "id": "l1-v-07",
+          "term": "chúc mừng",
+          "meaningKo": "축하합니다",
+          "example": "Chúc mừng sinh nhật bạn.",
+          "exampleMeaningKo": "생일 축하해요.",
+          "audioSrc": "",
+          "sourcePage": 11,
+          "reviewNeeded": false
+        },
+        {
+          "id": "l1-v-08",
+          "term": "không sao",
+          "meaningKo": "괜찮아요",
+          "example": "Không sao đâu.",
+          "exampleMeaningKo": "괜찮아요.",
+          "audioSrc": "",
+          "sourcePage": 11,
+          "reviewNeeded": false
+        },
+        {
+          "id": "l1-v-09",
+          "term": "hẹn gặp lại",
+          "meaningKo": "또 만나요",
+          "example": "Hẹn gặp lại ngày mai.",
+          "exampleMeaningKo": "내일 또 봐요.",
+          "audioSrc": "",
+          "sourcePage": 11,
+          "reviewNeeded": false
+        },
+        {
+          "id": "l1-v-10",
+          "term": "rất vui",
+          "meaningKo": "매우 기쁘다",
+          "example": "Rất vui được gặp bạn.",
+          "exampleMeaningKo": "만나서 매우 기뻐요.",
+          "audioSrc": "",
+          "sourcePage": 11,
+          "reviewNeeded": false
+        },
+        {
+          "id": "l1-v-11",
+          "term": "chào buổi sáng",
+          "meaningKo": "좋은 아침",
+          "example": "Chào buổi sáng, bạn nhé.",
+          "exampleMeaningKo": "좋은 아침이에요.",
+          "audioSrc": "",
+          "sourcePage": 11,
+          "reviewNeeded": false
+        },
+        {
+          "id": "l1-v-12",
+          "term": "chào buổi tối",
+          "meaningKo": "좋은 저녁",
+          "example": "Chào buổi tối, cả nhà.",
+          "exampleMeaningKo": "좋은 저녁입니다, 여러분.",
+          "audioSrc": "",
+          "sourcePage": 11,
+          "reviewNeeded": false
+        },
+        {
+          "id": "l1-v-13",
+          "term": "hẹn gặp",
+          "meaningKo": "다시 만나요",
+          "example": "Hẹn gặp bạn sau.",
+          "exampleMeaningKo": "이따 다시 봐요.",
+          "audioSrc": "",
+          "sourcePage": 11,
+          "reviewNeeded": false
+        },
+        {
+          "id": "l1-v-14",
+          "term": "mời",
+          "meaningKo": "권하다/초대하다",
+          "example": "Mời bạn vào nhà.",
+          "exampleMeaningKo": "집에 들어오세요.",
+          "audioSrc": "",
+          "sourcePage": 11,
+          "reviewNeeded": false
+        },
+        {
+          "id": "l1-v-15",
+          "term": "xin phép",
+          "meaningKo": "실례합니다",
+          "example": "Xin phép, tôi ra ngoài một chút.",
+          "exampleMeaningKo": "실례합니다, 잠시 나갈게요.",
+          "audioSrc": "",
+          "sourcePage": 11,
+          "reviewNeeded": false
+        },
+        {
+          "id": "l1-v-16",
+          "term": "được rồi",
+          "meaningKo": "좋아요/됐어요",
+          "example": "Được rồi, bắt đầu nhé.",
+          "exampleMeaningKo": "좋아요, 시작해요.",
+          "audioSrc": "",
+          "sourcePage": 11,
+          "reviewNeeded": false
+        },
+        {
+          "id": "l1-v-17",
+          "term": "chúc ngủ ngon",
+          "meaningKo": "안녕히 주무세요",
+          "example": "Chúc ngủ ngon nhé.",
+          "exampleMeaningKo": "안녕히 주무세요.",
+          "audioSrc": "",
+          "sourcePage": 11,
+          "reviewNeeded": false
+        },
+        {
+          "id": "l1-v-18",
+          "term": "thông cảm",
+          "meaningKo": "이해해주세요",
+          "example": "Mong bạn thông cảm.",
+          "exampleMeaningKo": "이해 부탁드려요.",
+          "audioSrc": "",
+          "sourcePage": 11,
+          "reviewNeeded": false
+        },
+        {
+          "id": "l1-v-19",
+          "term": "trời ơi",
+          "meaningKo": "세상에!",
+          "example": "Trời ơi, đông quá!",
+          "exampleMeaningKo": "세상에, 너무 붐벼요!",
+          "audioSrc": "",
+          "sourcePage": 11,
+          "reviewNeeded": false
+        },
+        {
+          "id": "l1-v-20",
+          "term": "ôi chao",
+          "meaningKo": "어머나!",
+          "example": "Ôi chao, đẹp quá!",
+          "exampleMeaningKo": "어머나, 정말 예뻐요!",
+          "audioSrc": "",
+          "sourcePage": 11,
+          "reviewNeeded": false
+        },
+        {
+          "id": "l1-v-21",
+          "term": "chao ôi",
+          "meaningKo": "아이고/이런",
+          "example": "Chao ôi, tôi quên mất.",
+          "exampleMeaningKo": "아이고, 깜빡했어요.",
+          "audioSrc": "",
+          "sourcePage": 11,
+          "reviewNeeded": false
+        },
+        {
+          "id": "l1-v-22",
+          "term": "ây da",
+          "meaningKo": "아야/앗!",
+          "example": "Ây da, đau quá!",
+          "exampleMeaningKo": "앗, 너무 아파요!",
+          "audioSrc": "",
+          "sourcePage": 11,
+          "reviewNeeded": false
+        },
+        {
+          "id": "l1-v-23",
+          "term": "ái chà",
+          "meaningKo": "오호/이야",
+          "example": "Ái chà, hay đấy!",
+          "exampleMeaningKo": "오호, 괜찮은데요!",
+          "audioSrc": "",
+          "sourcePage": 11,
+          "reviewNeeded": false
+        },
+        {
+          "id": "l1-v-24",
+          "term": "a lô",
+          "meaningKo": "여보세요",
+          "example": "A lô, bạn nghe rõ không?",
+          "exampleMeaningKo": "여보세요, 잘 들려요?",
+          "audioSrc": "",
+          "sourcePage": 11,
+          "reviewNeeded": false
+        },
+        {
+          "id": "l1-v-25",
+          "term": "ủa",
+          "meaningKo": "어?/어라",
+          "example": "Ủa, sao bạn ở đây?",
+          "exampleMeaningKo": "어? 왜 여기 있어요?",
+          "audioSrc": "",
+          "sourcePage": 11,
+          "reviewNeeded": false
+        },
+        {
+          "id": "l1-v-26",
+          "term": "hả",
+          "meaningKo": "뭐라고?",
+          "example": "Hả, bạn nói gì cơ?",
+          "exampleMeaningKo": "뭐라고요, 뭐라고 했어요?",
+          "audioSrc": "",
+          "sourcePage": 11,
+          "reviewNeeded": false
+        },
+        {
+          "id": "l1-v-27",
+          "term": "ơ kìa",
+          "meaningKo": "어 저기 봐",
+          "example": "Ơ kìa, xe đến rồi!",
+          "exampleMeaningKo": "어 저기 봐요, 버스 왔어요!",
+          "audioSrc": "",
+          "sourcePage": 11,
+          "reviewNeeded": false
+        },
+        {
+          "id": "l1-v-28",
+          "term": "ôi thôi",
+          "meaningKo": "아이고야",
+          "example": "Ôi thôi, trễ mất rồi.",
+          "exampleMeaningKo": "아이고야, 늦어버렸네요.",
+          "audioSrc": "",
+          "sourcePage": 11,
+          "reviewNeeded": false
+        },
+        {
+          "id": "l1-v-29",
+          "term": "than ôi",
+          "meaningKo": "아아/슬프다",
+          "example": "Than ôi, tiếc quá.",
+          "exampleMeaningKo": "아아, 너무 아쉽다.",
+          "audioSrc": "",
+          "sourcePage": 11,
+          "reviewNeeded": false
+        },
+        {
+          "id": "l1-v-30",
+          "term": "nhé",
+          "meaningKo": "~해줘/알겠지",
+          "example": "Đi cùng mình nhé.",
+          "exampleMeaningKo": "같이 가줘요, 알겠죠?",
+          "audioSrc": "",
+          "sourcePage": 11,
+          "reviewNeeded": false
+        }
+      ],
+      "sentenceCards": [
+        {
+          "id": "l1-s-01",
+          "textVi": "Xin chào, bạn khoẻ không?",
+          "textKo": "안녕하세요, 잘 지내요?",
+          "audioSrc": "",
+          "sourcePage": 12,
+          "reviewNeeded": false
+        },
+        {
+          "id": "l1-s-02",
+          "textVi": "Cảm ơn, tôi khoẻ.",
+          "textKo": "고마워요, 잘 지내요.",
+          "audioSrc": "",
+          "sourcePage": 12,
+          "reviewNeeded": false
+        },
+        {
+          "id": "l1-s-03",
+          "textVi": "Xin lỗi, tôi chưa hiểu.",
+          "textKo": "죄송해요, 아직 이해 못했어요.",
+          "audioSrc": "",
+          "sourcePage": 12,
+          "reviewNeeded": false
+        },
+        {
+          "id": "l1-s-04",
+          "textVi": "Tạm biệt, hẹn gặp lại nhé.",
+          "textKo": "안녕, 다음에 봐요.",
+          "audioSrc": "",
+          "sourcePage": 12,
+          "reviewNeeded": false
+        },
+        {
+          "id": "l1-s-05",
+          "textVi": "Rất vui được gặp bạn hôm nay.",
+          "textKo": "오늘 만나서 매우 반가워요.",
+          "audioSrc": "",
+          "sourcePage": 12,
+          "reviewNeeded": false
+        },
+        {
+          "id": "l1-s-06",
+          "textVi": "Không sao, bạn nói lại nhé.",
+          "textKo": "괜찮아요, 다시 말해 주세요.",
+          "audioSrc": "",
+          "sourcePage": 12,
+          "reviewNeeded": false
+        },
+        {
+          "id": "l1-s-07",
+          "textVi": "Cảm ơn vì đã giúp tôi.",
+          "textKo": "도와줘서 고마워요.",
+          "audioSrc": "",
+          "sourcePage": 12,
+          "reviewNeeded": false
+        },
+        {
+          "id": "l1-s-08",
+          "textVi": "Hẹn gặp lại vào ngày mai.",
+          "textKo": "내일 다시 만나요.",
+          "audioSrc": "",
+          "sourcePage": 12,
+          "reviewNeeded": false
+        },
+        {
+          "id": "l1-s-09",
+          "textVi": "Trời ơi, hôm nay nóng quá!",
+          "textKo": "세상에, 오늘 너무 덥네요!",
+          "audioSrc": "",
+          "sourcePage": 12,
+          "reviewNeeded": false
+        },
+        {
+          "id": "l1-s-10",
+          "textVi": "A lô, mình nghe rõ rồi nhé.",
+          "textKo": "여보세요, 이제 잘 들려요.",
+          "audioSrc": "",
+          "sourcePage": 12,
+          "reviewNeeded": false
+        },
+        {
+          "id": "l1-s-11",
+          "textVi": "Ủa, sao lại nhanh thế?",
+          "textKo": "어라, 왜 이렇게 빠르죠?",
+          "audioSrc": "",
+          "sourcePage": 12,
+          "reviewNeeded": false
+        },
+        {
+          "id": "l1-s-12",
+          "textVi": "Ái chà, phát âm của bạn tốt ghê!",
+          "textKo": "오호, 발음이 정말 좋네요!",
+          "audioSrc": "",
+          "sourcePage": 12,
+          "reviewNeeded": false
+        },
+        {
+          "id": "l1-s-13",
+          "textVi": "Ây da, tôi nói sai rồi.",
+          "textKo": "앗, 제가 잘못 말했어요.",
+          "audioSrc": "",
+          "sourcePage": 12,
+          "reviewNeeded": false
+        },
+        {
+          "id": "l1-s-14",
+          "textVi": "Đi chậm thôi nhé!",
+          "textKo": "천천히 가요, 알겠죠!",
+          "audioSrc": "",
+          "sourcePage": 12,
+          "reviewNeeded": false
+        }
+      ],
+      "dialogues": [
+        {
+          "id": "l1-d-01",
+          "title": "첫 만남",
+          "audioSrc": "",
+          "sourcePage": 13,
+          "lines": [
+            {
+              "speaker": "An",
+              "vi": "Xin chào!",
+              "ko": "안녕하세요!"
+            },
+            {
+              "speaker": "Min",
+              "vi": "Xin chào, bạn khoẻ không?",
+              "ko": "안녕하세요, 잘 지내요?"
+            },
+            {
+              "speaker": "An",
+              "vi": "Mình khoẻ, cảm ơn.",
+              "ko": "저는 잘 지내요, 고마워요."
+            },
+            {
+              "speaker": "Min",
+              "vi": "Tạm biệt nhé!",
+              "ko": "안녕!"
+            }
+          ],
+          "reviewNeeded": false
+        }
+      ],
+      "grammarPoints": [
+        {
+          "id": "l1-g-01",
+          "title": "의문문 기본",
+          "pattern": "... không?",
+          "sourcePage": 14,
+          "reviewNeeded": false
+        },
+        {
+          "id": "l1-g-02",
+          "title": "자기소개",
+          "pattern": "Tôi là + 이름",
+          "sourcePage": 14,
+          "reviewNeeded": false
+        }
+      ],
+      "pronunciationTargets": [
+        {
+          "id": "l1-p-01",
+          "text": "ma/má/mà/mả/mã/mạ",
+          "hintKo": "6성조 대비해서 듣기",
+          "audioSrc": "",
+          "sourcePage": 15,
+          "reviewNeeded": false
+        },
+        {
+          "id": "l1-p-02",
+          "text": "khỏe",
+          "hintKo": "hỏe 부분 성조 주의",
+          "audioSrc": "",
+          "sourcePage": 15,
+          "reviewNeeded": false
+        }
+      ],
+      "quizSeeds": [
+        {
+          "id": "l1-q-01",
+          "type": "tone-identification",
+          "prompt": "ma 계열 성조 구분",
+          "answerSet": [
+            "ma",
+            "má",
+            "mà",
+            "mả",
+            "mã",
+            "mạ"
+          ],
+          "sourcePage": 16,
+          "reviewNeeded": false
+        },
+        {
+          "id": "l1-q-02",
+          "type": "match-term",
+          "prompt": "인사 표현 연결",
+          "answerSet": [
+            "xin chào-안녕하세요",
+            "cảm ơn-감사합니다",
+            "xin lỗi-죄송합니다"
+          ],
+          "sourcePage": 16,
+          "reviewNeeded": false
+        }
+      ],
+      "unlockCondition": "complete-previous",
+      "reviewNeeded": false
+    },
+    {
+      "lessonId": "l2",
+      "unitLabel": "Bài 2",
+      "titleKo": "자기소개",
+      "titleVi": "Giới thiệu bản thân",
+      "pageRange": "11-20",
+      "goals": [
+        "이름/국적 말하기",
+        "직업 말하기"
+      ],
+      "topicOverview": "이름·국적·직업을 자연스럽게 말하기",
+      "cultureTopics": [
+        "일상 대화",
+        "예의 표현"
+      ],
+      "vocabCards": [
+        {
+          "id": "l2-v-01",
+          "term": "tên",
+          "meaningKo": "이름",
+          "example": "Tên tôi là Jisu.",
+          "exampleMeaningKo": "제 이름은 지수예요.",
+          "audioSrc": "",
+          "sourcePage": 21,
+          "reviewNeeded": false
+        },
+        {
+          "id": "l2-v-02",
+          "term": "quốc tịch",
+          "meaningKo": "국적",
+          "example": "Quốc tịch của bạn là gì?",
+          "exampleMeaningKo": "당신 국적이 뭐예요?",
+          "audioSrc": "",
+          "sourcePage": 21,
+          "reviewNeeded": false
+        },
+        {
+          "id": "l2-v-03",
+          "term": "nghề nghiệp",
+          "meaningKo": "직업",
+          "example": "Nghề nghiệp của bạn là gì?",
+          "exampleMeaningKo": "직업이 뭐예요?",
+          "audioSrc": "",
+          "sourcePage": 21,
+          "reviewNeeded": false
+        },
+        {
+          "id": "l2-v-04",
+          "term": "sinh viên",
+          "meaningKo": "대학생",
+          "example": "Tôi là sinh viên.",
+          "exampleMeaningKo": "저는 대학생입니다.",
+          "audioSrc": "",
+          "sourcePage": 21,
+          "reviewNeeded": false
+        },
+        {
+          "id": "l2-v-05",
+          "term": "nhân viên văn phòng",
+          "meaningKo": "회사원",
+          "example": "Chị ấy là nhân viên văn phòng.",
+          "exampleMeaningKo": "그녀는 회사원이에요.",
+          "audioSrc": "",
+          "sourcePage": 21,
+          "reviewNeeded": false
+        },
+        {
+          "id": "l2-v-06",
+          "term": "giáo viên",
+          "meaningKo": "선생님",
+          "example": "Anh ấy là giáo viên.",
+          "exampleMeaningKo": "그는 선생님이에요.",
+          "audioSrc": "",
+          "sourcePage": 21,
+          "reviewNeeded": false
+        },
+        {
+          "id": "l2-v-07",
+          "term": "tuổi",
+          "meaningKo": "나이",
+          "example": "Bạn bao nhiêu tuổi?",
+          "exampleMeaningKo": "몇 살이에요?",
+          "audioSrc": "",
+          "sourcePage": 21,
+          "reviewNeeded": false
+        },
+        {
+          "id": "l2-v-08",
+          "term": "quê quán",
+          "meaningKo": "고향",
+          "example": "Quê quán của bạn ở đâu?",
+          "exampleMeaningKo": "고향이 어디예요?",
+          "audioSrc": "",
+          "sourcePage": 21,
+          "reviewNeeded": false
+        },
+        {
+          "id": "l2-v-09",
+          "term": "độc thân",
+          "meaningKo": "미혼",
+          "example": "Tôi còn độc thân.",
+          "exampleMeaningKo": "저는 아직 미혼이에요.",
+          "audioSrc": "",
+          "sourcePage": 21,
+          "reviewNeeded": false
+        },
+        {
+          "id": "l2-v-10",
+          "term": "kinh nghiệm",
+          "meaningKo": "경험",
+          "example": "Tôi có kinh nghiệm 3 năm.",
+          "exampleMeaningKo": "3년 경력이 있어요.",
+          "audioSrc": "",
+          "sourcePage": 21,
+          "reviewNeeded": false
+        },
+        {
+          "id": "l2-v-11",
+          "term": "địa chỉ",
+          "meaningKo": "주소",
+          "example": "Địa chỉ của bạn ở đâu?",
+          "exampleMeaningKo": "주소가 어디예요?",
+          "audioSrc": "",
+          "sourcePage": 21,
+          "reviewNeeded": false
+        },
+        {
+          "id": "l2-v-12",
+          "term": "số điện thoại",
+          "meaningKo": "전화번호",
+          "example": "Cho tôi xin số điện thoại.",
+          "exampleMeaningKo": "전화번호 알려주세요.",
+          "audioSrc": "",
+          "sourcePage": 21,
+          "reviewNeeded": false
+        },
+        {
+          "id": "l2-v-13",
+          "term": "email",
+          "meaningKo": "이메일",
+          "example": "Email của tôi là...",
+          "exampleMeaningKo": "제 이메일은 ... 입니다.",
+          "audioSrc": "",
+          "sourcePage": 21,
+          "reviewNeeded": false
+        },
+        {
+          "id": "l2-v-14",
+          "term": "đồng nghiệp",
+          "meaningKo": "동료",
+          "example": "Anh ấy là đồng nghiệp của tôi.",
+          "exampleMeaningKo": "그는 제 동료예요.",
+          "audioSrc": "",
+          "sourcePage": 21,
+          "reviewNeeded": false
+        },
+        {
+          "id": "l2-v-15",
+          "term": "trưởng nhóm",
+          "meaningKo": "팀장",
+          "example": "Chị ấy là trưởng nhóm.",
+          "exampleMeaningKo": "그녀는 팀장이에요.",
+          "audioSrc": "",
+          "sourcePage": 21,
+          "reviewNeeded": false
+        },
+        {
+          "id": "l2-v-16",
+          "term": "thực tập sinh",
+          "meaningKo": "인턴",
+          "example": "Tôi là thực tập sinh mới.",
+          "exampleMeaningKo": "저는 새 인턴입니다.",
+          "audioSrc": "",
+          "sourcePage": 21,
+          "reviewNeeded": false
+        },
+        {
+          "id": "l2-v-17",
+          "term": "họ",
+          "meaningKo": "성(姓)",
+          "example": "Họ của bạn là gì?",
+          "exampleMeaningKo": "성은 뭐예요?",
+          "audioSrc": "",
+          "sourcePage": 21,
+          "reviewNeeded": false
+        },
+        {
+          "id": "l2-v-18",
+          "term": "giới thiệu",
+          "meaningKo": "소개하다",
+          "example": "Tôi xin giới thiệu bản thân.",
+          "exampleMeaningKo": "자기소개 드리겠습니다.",
+          "audioSrc": "",
+          "sourcePage": 21,
+          "reviewNeeded": false
+        }
+      ],
+      "sentenceCards": [
+        {
+          "id": "l2-s-01",
+          "textVi": "Tên tôi là Hana.",
+          "textKo": "제 이름은 하나예요.",
+          "audioSrc": "",
+          "sourcePage": 22,
+          "reviewNeeded": false
+        },
+        {
+          "id": "l2-s-02",
+          "textVi": "Tôi là người Hàn Quốc.",
+          "textKo": "저는 한국 사람이에요.",
+          "audioSrc": "",
+          "sourcePage": 22,
+          "reviewNeeded": false
+        },
+        {
+          "id": "l2-s-03",
+          "textVi": "Tôi làm việc ở công ty IT.",
+          "textKo": "저는 IT 회사에서 일해요.",
+          "audioSrc": "",
+          "sourcePage": 22,
+          "reviewNeeded": false
+        },
+        {
+          "id": "l2-s-04",
+          "textVi": "Rất vui được gặp bạn.",
+          "textKo": "만나서 반가워요.",
+          "audioSrc": "",
+          "sourcePage": 22,
+          "reviewNeeded": false
+        },
+        {
+          "id": "l2-s-05",
+          "textVi": "Tôi 27 tuổi và sống ở Seoul.",
+          "textKo": "저는 27살이고 서울에 살아요.",
+          "audioSrc": "",
+          "sourcePage": 22,
+          "reviewNeeded": false
+        },
+        {
+          "id": "l2-s-06",
+          "textVi": "Quê quán của tôi ở Busan.",
+          "textKo": "제 고향은 부산이에요.",
+          "audioSrc": "",
+          "sourcePage": 22,
+          "reviewNeeded": false
+        },
+        {
+          "id": "l2-s-07",
+          "textVi": "Tôi có ba năm kinh nghiệm làm việc.",
+          "textKo": "저는 3년 근무 경험이 있어요.",
+          "audioSrc": "",
+          "sourcePage": 22,
+          "reviewNeeded": false
+        },
+        {
+          "id": "l2-s-08",
+          "textVi": "Rất mong được hợp tác với bạn.",
+          "textKo": "함께 일하게 되어 기대돼요.",
+          "audioSrc": "",
+          "sourcePage": 22,
+          "reviewNeeded": false
+        }
+      ],
+      "dialogues": [
+        {
+          "id": "l2-d-01",
+          "title": "자기소개 대화",
+          "audioSrc": "",
+          "sourcePage": 23,
+          "lines": [
+            {
+              "speaker": "Lan",
+              "vi": "Tên bạn là gì?",
+              "ko": "당신 이름이 뭐예요?"
+            },
+            {
+              "speaker": "Hana",
+              "vi": "Tên tôi là Hana.",
+              "ko": "제 이름은 하나예요."
+            },
+            {
+              "speaker": "Lan",
+              "vi": "Bạn làm nghề gì?",
+              "ko": "무슨 일 하세요?"
+            },
+            {
+              "speaker": "Hana",
+              "vi": "Tôi là nhân viên văn phòng.",
+              "ko": "저는 회사원이에요."
+            }
+          ],
+          "reviewNeeded": false
+        }
+      ],
+      "grammarPoints": [
+        {
+          "id": "l2-g-01",
+          "title": "소유 표현",
+          "pattern": "của + 명사",
+          "sourcePage": 24,
+          "reviewNeeded": false
+        },
+        {
+          "id": "l2-g-02",
+          "title": "직업 말하기",
+          "pattern": "Tôi là + 직업",
+          "sourcePage": 24,
+          "reviewNeeded": false
+        }
+      ],
+      "pronunciationTargets": [
+        {
+          "id": "l2-p-01",
+          "text": "người",
+          "hintKo": "ng- 소리 부드럽게",
+          "audioSrc": "",
+          "sourcePage": 25,
+          "reviewNeeded": false
+        },
+        {
+          "id": "l2-p-02",
+          "text": "nghề nghiệp",
+          "hintKo": "ngh 발음 구분",
+          "audioSrc": "",
+          "sourcePage": 25,
+          "reviewNeeded": false
+        }
+      ],
+      "quizSeeds": [
+        {
+          "id": "l2-q-01",
+          "type": "match-term",
+          "prompt": "직업 연결",
+          "answerSet": [
+            "sinh viên-대학생",
+            "giáo viên-선생님",
+            "nhân viên văn phòng-회사원"
+          ],
+          "sourcePage": 26,
+          "reviewNeeded": false
+        },
+        {
+          "id": "l2-q-02",
+          "type": "pattern-variation",
+          "prompt": "이름 묻기 표현",
+          "answerSet": [
+            "Tên bạn là gì?",
+            "Bạn tên là gì?",
+            "Cho mình hỏi tên bạn?"
+          ],
+          "sourcePage": 26,
+          "reviewNeeded": false
+        }
+      ],
+      "unlockCondition": "complete-previous",
+      "reviewNeeded": false
+    },
+    {
+      "lessonId": "l3",
+      "unitLabel": "Bài 3",
+      "titleKo": "일상 루틴",
+      "titleVi": "Sinh hoạt hằng ngày",
+      "pageRange": "21-30",
+      "goals": [
+        "시간/일과 말하기",
+        "빈도 표현"
+      ],
+      "topicOverview": "출근 전후 일상과 시간 말하기",
+      "cultureTopics": [
+        "일상 대화",
+        "예의 표현"
+      ],
+      "vocabCards": [
+        {
+          "id": "l3-v-01",
+          "term": "buổi sáng",
+          "meaningKo": "아침",
+          "example": "Buổi sáng tôi tập thể dục.",
+          "exampleMeaningKo": "아침에 운동해요.",
+          "audioSrc": "",
+          "sourcePage": 31,
+          "reviewNeeded": false
+        },
+        {
+          "id": "l3-v-02",
+          "term": "đi làm",
+          "meaningKo": "출근하다",
+          "example": "Tôi đi làm lúc 8 giờ.",
+          "exampleMeaningKo": "8시에 출근해요.",
+          "audioSrc": "",
+          "sourcePage": 31,
+          "reviewNeeded": false
+        },
+        {
+          "id": "l3-v-03",
+          "term": "ăn trưa",
+          "meaningKo": "점심 먹다",
+          "example": "Tôi ăn trưa với đồng nghiệp.",
+          "exampleMeaningKo": "동료와 점심 먹어요.",
+          "audioSrc": "",
+          "sourcePage": 31,
+          "reviewNeeded": false
+        },
+        {
+          "id": "l3-v-04",
+          "term": "tan làm",
+          "meaningKo": "퇴근하다",
+          "example": "Tôi tan làm lúc 6 giờ.",
+          "exampleMeaningKo": "6시에 퇴근해요.",
+          "audioSrc": "",
+          "sourcePage": 31,
+          "reviewNeeded": false
+        },
+        {
+          "id": "l3-v-05",
+          "term": "thường",
+          "meaningKo": "보통",
+          "example": "Tôi thường dậy sớm.",
+          "exampleMeaningKo": "저는 보통 일찍 일어나요.",
+          "audioSrc": "",
+          "sourcePage": 31,
+          "reviewNeeded": false
+        },
+        {
+          "id": "l3-v-06",
+          "term": "thỉnh thoảng",
+          "meaningKo": "가끔",
+          "example": "Thỉnh thoảng tôi uống cà phê.",
+          "exampleMeaningKo": "가끔 커피 마셔요.",
+          "audioSrc": "",
+          "sourcePage": 31,
+          "reviewNeeded": false
+        },
+        {
+          "id": "l3-v-07",
+          "term": "dậy sớm",
+          "meaningKo": "일찍 일어나다",
+          "example": "Tôi cố gắng dậy sớm mỗi ngày.",
+          "exampleMeaningKo": "매일 일찍 일어나려고 해요.",
+          "audioSrc": "",
+          "sourcePage": 31,
+          "reviewNeeded": false
+        },
+        {
+          "id": "l3-v-08",
+          "term": "nấu ăn",
+          "meaningKo": "요리하다",
+          "example": "Buổi tối tôi nấu ăn ở nhà.",
+          "exampleMeaningKo": "저녁에 집에서 요리해요.",
+          "audioSrc": "",
+          "sourcePage": 31,
+          "reviewNeeded": false
+        },
+        {
+          "id": "l3-v-09",
+          "term": "làm bài tập",
+          "meaningKo": "숙제하다",
+          "example": "Tôi làm bài tập tiếng Việt.",
+          "exampleMeaningKo": "베트남어 숙제를 해요.",
+          "audioSrc": "",
+          "sourcePage": 31,
+          "reviewNeeded": false
+        },
+        {
+          "id": "l3-v-10",
+          "term": "đi ngủ",
+          "meaningKo": "잠자리에 들다",
+          "example": "Tôi đi ngủ lúc 11 giờ.",
+          "exampleMeaningKo": "11시에 자요.",
+          "audioSrc": "",
+          "sourcePage": 31,
+          "reviewNeeded": false
+        },
+        {
+          "id": "l3-v-11",
+          "term": "đi học",
+          "meaningKo": "등교/수업가다",
+          "example": "Tôi đi học buổi tối.",
+          "exampleMeaningKo": "저는 저녁에 수업 가요.",
+          "audioSrc": "",
+          "sourcePage": 31,
+          "reviewNeeded": false
+        },
+        {
+          "id": "l3-v-12",
+          "term": "tắm",
+          "meaningKo": "샤워하다",
+          "example": "Tôi tắm sau khi tập thể dục.",
+          "exampleMeaningKo": "운동 후 샤워해요.",
+          "audioSrc": "",
+          "sourcePage": 31,
+          "reviewNeeded": false
+        },
+        {
+          "id": "l3-v-13",
+          "term": "ăn sáng",
+          "meaningKo": "아침 먹다",
+          "example": "Bạn ăn sáng lúc mấy giờ?",
+          "exampleMeaningKo": "몇 시에 아침 먹어요?",
+          "audioSrc": "",
+          "sourcePage": 31,
+          "reviewNeeded": false
+        },
+        {
+          "id": "l3-v-14",
+          "term": "uống nước",
+          "meaningKo": "물 마시다",
+          "example": "Nhớ uống nước nhé.",
+          "exampleMeaningKo": "물 마시는 거 잊지 마요.",
+          "audioSrc": "",
+          "sourcePage": 31,
+          "reviewNeeded": false
+        },
+        {
+          "id": "l3-v-15",
+          "term": "làm việc nhà",
+          "meaningKo": "집안일하다",
+          "example": "Cuối tuần tôi làm việc nhà.",
+          "exampleMeaningKo": "주말에 집안일해요.",
+          "audioSrc": "",
+          "sourcePage": 31,
+          "reviewNeeded": false
+        },
+        {
+          "id": "l3-v-16",
+          "term": "xem tin tức",
+          "meaningKo": "뉴스 보다",
+          "example": "Tối tôi xem tin tức.",
+          "exampleMeaningKo": "저녁에 뉴스 봐요.",
+          "audioSrc": "",
+          "sourcePage": 31,
+          "reviewNeeded": false
+        },
+        {
+          "id": "l3-v-17",
+          "term": "đi siêu thị",
+          "meaningKo": "마트 가다",
+          "example": "Tôi đi siêu thị mỗi thứ 7.",
+          "exampleMeaningKo": "매주 토요일 마트 가요.",
+          "audioSrc": "",
+          "sourcePage": 31,
+          "reviewNeeded": false
+        },
+        {
+          "id": "l3-v-18",
+          "term": "nghỉ trưa",
+          "meaningKo": "점심 휴식",
+          "example": "Tôi nghỉ trưa 30 phút.",
+          "exampleMeaningKo": "점심에 30분 쉬어요.",
+          "audioSrc": "",
+          "sourcePage": 31,
+          "reviewNeeded": false
+        }
+      ],
+      "sentenceCards": [
+        {
+          "id": "l3-s-01",
+          "textVi": "Buổi sáng tôi dậy lúc 6 giờ.",
+          "textKo": "아침 6시에 일어나요.",
+          "audioSrc": "",
+          "sourcePage": 32,
+          "reviewNeeded": false
+        },
+        {
+          "id": "l3-s-02",
+          "textVi": "Tôi thường học tiếng Việt sau giờ làm.",
+          "textKo": "퇴근 후 베트남어를 보통 공부해요.",
+          "audioSrc": "",
+          "sourcePage": 32,
+          "reviewNeeded": false
+        },
+        {
+          "id": "l3-s-03",
+          "textVi": "Cuối tuần tôi nghỉ ngơi ở nhà.",
+          "textKo": "주말엔 집에서 쉬어요.",
+          "audioSrc": "",
+          "sourcePage": 32,
+          "reviewNeeded": false
+        },
+        {
+          "id": "l3-s-04",
+          "textVi": "Hôm nay tôi bận, nhưng vẫn học 30 phút.",
+          "textKo": "오늘 바쁘지만 30분은 공부해요.",
+          "audioSrc": "",
+          "sourcePage": 32,
+          "reviewNeeded": false
+        },
+        {
+          "id": "l3-s-05",
+          "textVi": "Sau khi tan làm, tôi đi tập gym.",
+          "textKo": "퇴근 후 헬스장에 가요.",
+          "audioSrc": "",
+          "sourcePage": 32,
+          "reviewNeeded": false
+        },
+        {
+          "id": "l3-s-06",
+          "textVi": "Tôi thường ăn sáng bằng bánh mì.",
+          "textKo": "저는 보통 아침으로 빵을 먹어요.",
+          "audioSrc": "",
+          "sourcePage": 32,
+          "reviewNeeded": false
+        },
+        {
+          "id": "l3-s-07",
+          "textVi": "Tối nay tôi phải làm thêm một chút.",
+          "textKo": "오늘 밤은 조금 더 일해야 해요.",
+          "audioSrc": "",
+          "sourcePage": 32,
+          "reviewNeeded": false
+        },
+        {
+          "id": "l3-s-08",
+          "textVi": "Ngày nào tôi cũng học từ vựng mới.",
+          "textKo": "매일 새로운 단어를 공부해요.",
+          "audioSrc": "",
+          "sourcePage": 32,
+          "reviewNeeded": false
+        }
+      ],
+      "dialogues": [
+        {
+          "id": "l3-d-01",
+          "title": "하루 루틴",
+          "audioSrc": "",
+          "sourcePage": 33,
+          "lines": [
+            {
+              "speaker": "Mai",
+              "vi": "Bạn dậy lúc mấy giờ?",
+              "ko": "몇 시에 일어나요?"
+            },
+            {
+              "speaker": "Jin",
+              "vi": "Tôi dậy lúc 6 giờ.",
+              "ko": "저는 6시에 일어나요."
+            },
+            {
+              "speaker": "Mai",
+              "vi": "Sau giờ làm bạn làm gì?",
+              "ko": "퇴근 후 뭐 해요?"
+            },
+            {
+              "speaker": "Jin",
+              "vi": "Tôi học tiếng Việt khoảng 30 phút.",
+              "ko": "베트남어를 30분 정도 공부해요."
+            }
+          ],
+          "reviewNeeded": false
+        }
+      ],
+      "grammarPoints": [
+        {
+          "id": "l3-g-01",
+          "title": "빈도부사 위치",
+          "pattern": "thường/thỉnh thoảng + 동사",
+          "sourcePage": 34,
+          "reviewNeeded": false
+        },
+        {
+          "id": "l3-g-02",
+          "title": "시간 표현",
+          "pattern": "lúc + 숫자 + giờ",
+          "sourcePage": 34,
+          "reviewNeeded": false
+        }
+      ],
+      "pronunciationTargets": [
+        {
+          "id": "l3-p-01",
+          "text": "thường",
+          "hintKo": "ươ 소리 길게",
+          "audioSrc": "",
+          "sourcePage": 35,
+          "reviewNeeded": false
+        },
+        {
+          "id": "l3-p-02",
+          "text": "giờ",
+          "hintKo": "dấu hỏi 성조 확인",
+          "audioSrc": "",
+          "sourcePage": 35,
+          "reviewNeeded": false
+        }
+      ],
+      "quizSeeds": [
+        {
+          "id": "l3-q-01",
+          "type": "time-readout",
+          "prompt": "시간 읽기",
+          "answerSet": [
+            "sáu giờ",
+            "tám giờ rưỡi",
+            "mười giờ kém mười phút"
+          ],
+          "sourcePage": 36,
+          "reviewNeeded": false
+        },
+        {
+          "id": "l3-q-02",
+          "type": "weekday-match",
+          "prompt": "요일 매칭",
+          "answerSet": [
+            "thứ 2-월요일",
+            "thứ 6-금요일",
+            "chủ nhật-일요일"
+          ],
+          "sourcePage": 36,
+          "reviewNeeded": false
+        }
+      ],
+      "unlockCondition": "complete-previous",
+      "reviewNeeded": false
+    },
+    {
+      "lessonId": "l4",
+      "unitLabel": "Bài 4",
+      "titleKo": "취미와 여가",
+      "titleVi": "Sở thích và giải trí",
+      "pageRange": "31-40",
+      "goals": [
+        "취미 묻고 답하기",
+        "이유 설명"
+      ],
+      "topicOverview": "취미를 말하고 상대 취미에 반응하기",
+      "cultureTopics": [
+        "일상 대화",
+        "예의 표현"
+      ],
+      "vocabCards": [
+        {
+          "id": "l4-v-01",
+          "term": "sở thích",
+          "meaningKo": "취미",
+          "example": "Sở thích của bạn là gì?",
+          "exampleMeaningKo": "취미가 뭐예요?",
+          "audioSrc": "",
+          "sourcePage": 41,
+          "reviewNeeded": false
+        },
+        {
+          "id": "l4-v-02",
+          "term": "đọc sách",
+          "meaningKo": "독서",
+          "example": "Tôi thích đọc sách.",
+          "exampleMeaningKo": "독서를 좋아해요.",
+          "audioSrc": "",
+          "sourcePage": 41,
+          "reviewNeeded": false
+        },
+        {
+          "id": "l4-v-03",
+          "term": "xem phim",
+          "meaningKo": "영화 보기",
+          "example": "Cuối tuần tôi xem phim.",
+          "exampleMeaningKo": "주말에 영화 봐요.",
+          "audioSrc": "",
+          "sourcePage": 41,
+          "reviewNeeded": false
+        },
+        {
+          "id": "l4-v-04",
+          "term": "nghe nhạc",
+          "meaningKo": "음악 듣기",
+          "example": "Tôi nghe nhạc mỗi tối.",
+          "exampleMeaningKo": "매일 저녁 음악 들어요.",
+          "audioSrc": "",
+          "sourcePage": 41,
+          "reviewNeeded": false
+        },
+        {
+          "id": "l4-v-05",
+          "term": "chạy bộ",
+          "meaningKo": "달리기",
+          "example": "Tôi chạy bộ để khoẻ hơn.",
+          "exampleMeaningKo": "더 건강해지려고 달려요.",
+          "audioSrc": "",
+          "sourcePage": 41,
+          "reviewNeeded": false
+        },
+        {
+          "id": "l4-v-06",
+          "term": "thú vị",
+          "meaningKo": "흥미롭다",
+          "example": "Bộ phim này rất thú vị.",
+          "exampleMeaningKo": "이 영화 정말 흥미로워요.",
+          "audioSrc": "",
+          "sourcePage": 41,
+          "reviewNeeded": false
+        },
+        {
+          "id": "l4-v-07",
+          "term": "du lịch",
+          "meaningKo": "여행",
+          "example": "Tôi thích du lịch cùng bạn bè.",
+          "exampleMeaningKo": "친구들과 여행을 좋아해요.",
+          "audioSrc": "",
+          "sourcePage": 41,
+          "reviewNeeded": false
+        },
+        {
+          "id": "l4-v-08",
+          "term": "chụp ảnh",
+          "meaningKo": "사진 찍기",
+          "example": "Cô ấy thích chụp ảnh phong cảnh.",
+          "exampleMeaningKo": "그녀는 풍경 사진 찍는 걸 좋아해요.",
+          "audioSrc": "",
+          "sourcePage": 41,
+          "reviewNeeded": false
+        },
+        {
+          "id": "l4-v-09",
+          "term": "nấu ăn",
+          "meaningKo": "요리",
+          "example": "Nấu ăn là sở thích mới của tôi.",
+          "exampleMeaningKo": "요리는 제 새로운 취미예요.",
+          "audioSrc": "",
+          "sourcePage": 41,
+          "reviewNeeded": false
+        },
+        {
+          "id": "l4-v-10",
+          "term": "tập yoga",
+          "meaningKo": "요가하다",
+          "example": "Mẹ tôi tập yoga mỗi sáng.",
+          "exampleMeaningKo": "엄마는 매일 아침 요가해요.",
+          "audioSrc": "",
+          "sourcePage": 41,
+          "reviewNeeded": false
+        },
+        {
+          "id": "l4-v-11",
+          "term": "chơi game",
+          "meaningKo": "게임하다",
+          "example": "Em trai tôi thích chơi game.",
+          "exampleMeaningKo": "남동생은 게임을 좋아해요.",
+          "audioSrc": "",
+          "sourcePage": 41,
+          "reviewNeeded": false
+        },
+        {
+          "id": "l4-v-12",
+          "term": "đi dã ngoại",
+          "meaningKo": "소풍 가다",
+          "example": "Cuối tuần chúng tôi đi dã ngoại.",
+          "exampleMeaningKo": "주말에 소풍 가요.",
+          "audioSrc": "",
+          "sourcePage": 41,
+          "reviewNeeded": false
+        },
+        {
+          "id": "l4-v-13",
+          "term": "vẽ tranh",
+          "meaningKo": "그림 그리다",
+          "example": "Cô ấy thích vẽ tranh.",
+          "exampleMeaningKo": "그녀는 그림 그리기를 좋아해요.",
+          "audioSrc": "",
+          "sourcePage": 41,
+          "reviewNeeded": false
+        },
+        {
+          "id": "l4-v-14",
+          "term": "trồng cây",
+          "meaningKo": "식물 기르기",
+          "example": "Mẹ tôi thích trồng cây.",
+          "exampleMeaningKo": "엄마는 식물 키우기를 좋아해요.",
+          "audioSrc": "",
+          "sourcePage": 41,
+          "reviewNeeded": false
+        },
+        {
+          "id": "l4-v-15",
+          "term": "đánh cầu lông",
+          "meaningKo": "배드민턴 치다",
+          "example": "Tôi đánh cầu lông mỗi tối.",
+          "exampleMeaningKo": "매일 저녁 배드민턴 쳐요.",
+          "audioSrc": "",
+          "sourcePage": 41,
+          "reviewNeeded": false
+        },
+        {
+          "id": "l4-v-16",
+          "term": "đi bộ",
+          "meaningKo": "걷기",
+          "example": "Đi bộ giúp cơ thể khỏe hơn.",
+          "exampleMeaningKo": "걷기는 건강에 좋아요.",
+          "audioSrc": "",
+          "sourcePage": 41,
+          "reviewNeeded": false
+        },
+        {
+          "id": "l4-v-17",
+          "term": "tham gia",
+          "meaningKo": "참여하다",
+          "example": "Tôi tham gia câu lạc bộ sách.",
+          "exampleMeaningKo": "독서모임에 참여해요.",
+          "audioSrc": "",
+          "sourcePage": 41,
+          "reviewNeeded": false
+        },
+        {
+          "id": "l4-v-18",
+          "term": "thư giãn",
+          "meaningKo": "휴식하다",
+          "example": "Nghe nhạc giúp tôi thư giãn.",
+          "exampleMeaningKo": "음악 듣기는 저를 편안하게 해요.",
+          "audioSrc": "",
+          "sourcePage": 41,
+          "reviewNeeded": false
+        }
+      ],
+      "sentenceCards": [
+        {
+          "id": "l4-s-01",
+          "textVi": "Sở thích của tôi là nghe nhạc và chạy bộ.",
+          "textKo": "제 취미는 음악 듣기와 달리기예요.",
+          "audioSrc": "",
+          "sourcePage": 42,
+          "reviewNeeded": false
+        },
+        {
+          "id": "l4-s-02",
+          "textVi": "Tôi thích phim Việt vì dễ hiểu.",
+          "textKo": "이해하기 쉬워서 베트남 영화를 좋아해요.",
+          "audioSrc": "",
+          "sourcePage": 42,
+          "reviewNeeded": false
+        },
+        {
+          "id": "l4-s-03",
+          "textVi": "Bạn có hay đọc sách không?",
+          "textKo": "책 자주 읽어요?",
+          "audioSrc": "",
+          "sourcePage": 42,
+          "reviewNeeded": false
+        },
+        {
+          "id": "l4-s-04",
+          "textVi": "Tôi không giỏi hát nhưng tôi thích karaoke.",
+          "textKo": "노래는 잘 못하지만 노래방은 좋아해요.",
+          "audioSrc": "",
+          "sourcePage": 42,
+          "reviewNeeded": false
+        },
+        {
+          "id": "l4-s-05",
+          "textVi": "Cuối tuần tôi hay đi cà phê với bạn.",
+          "textKo": "주말에 친구와 카페에 자주 가요.",
+          "audioSrc": "",
+          "sourcePage": 42,
+          "reviewNeeded": false
+        },
+        {
+          "id": "l4-s-06",
+          "textVi": "Tôi thích hoạt động ngoài trời vì rất vui.",
+          "textKo": "야외활동이 즐거워서 좋아해요.",
+          "audioSrc": "",
+          "sourcePage": 42,
+          "reviewNeeded": false
+        },
+        {
+          "id": "l4-s-07",
+          "textVi": "Khi rảnh, tôi học nhảy cơ bản.",
+          "textKo": "시간 나면 기초 댄스를 배워요.",
+          "audioSrc": "",
+          "sourcePage": 42,
+          "reviewNeeded": false
+        },
+        {
+          "id": "l4-s-08",
+          "textVi": "Sở thích giúp tôi giảm căng thẳng.",
+          "textKo": "취미는 스트레스를 줄여줘요.",
+          "audioSrc": "",
+          "sourcePage": 42,
+          "reviewNeeded": false
+        }
+      ],
+      "dialogues": [
+        {
+          "id": "l4-d-01",
+          "title": "취미 대화",
+          "audioSrc": "",
+          "sourcePage": 43,
+          "lines": [
+            {
+              "speaker": "Nam",
+              "vi": "Sở thích của bạn là gì?",
+              "ko": "취미가 뭐예요?"
+            },
+            {
+              "speaker": "Su",
+              "vi": "Tôi thích chạy bộ. Còn bạn?",
+              "ko": "저는 달리기 좋아해요. 당신은요?"
+            },
+            {
+              "speaker": "Nam",
+              "vi": "Tôi thích xem phim ở nhà.",
+              "ko": "저는 집에서 영화 보는 걸 좋아해요."
+            },
+            {
+              "speaker": "Su",
+              "vi": "Hay quá, cuối tuần đi xem nhé!",
+              "ko": "좋네요, 주말에 보러 가요!"
+            }
+          ],
+          "reviewNeeded": false
+        }
+      ],
+      "grammarPoints": [
+        {
+          "id": "l4-g-01",
+          "title": "좋아하다",
+          "pattern": "thích + 동사/명사",
+          "sourcePage": 44,
+          "reviewNeeded": false
+        },
+        {
+          "id": "l4-g-02",
+          "title": "이유 말하기",
+          "pattern": "vì + 이유",
+          "sourcePage": 44,
+          "reviewNeeded": false
+        }
+      ],
+      "pronunciationTargets": [
+        {
+          "id": "l4-p-01",
+          "text": "thích",
+          "hintKo": "ch 받침 또렷하게",
+          "audioSrc": "",
+          "sourcePage": 45,
+          "reviewNeeded": false
+        },
+        {
+          "id": "l4-p-02",
+          "text": "giải trí",
+          "hintKo": "dấu hỏi/ dấu sắc 구분",
+          "audioSrc": "",
+          "sourcePage": 45,
+          "reviewNeeded": false
+        }
+      ],
+      "quizSeeds": [
+        {
+          "id": "l4-q-01",
+          "type": "match-term",
+          "prompt": "취미 연결",
+          "answerSet": [
+            "đọc sách-독서",
+            "xem phim-영화 보기",
+            "nghe nhạc-음악 듣기"
+          ],
+          "sourcePage": 46,
+          "reviewNeeded": false
+        },
+        {
+          "id": "l4-q-02",
+          "type": "sound-match",
+          "prompt": "유사 소리 구분",
+          "answerSet": [
+            "thích-thik",
+            "sở-sơ",
+            "nhạc-nhạt"
+          ],
+          "sourcePage": 46,
+          "reviewNeeded": false
+        }
+      ],
+      "unlockCondition": "complete-previous",
+      "reviewNeeded": false
+    },
+    {
+      "lessonId": "l5",
+      "unitLabel": "Bài 5",
+      "titleKo": "여행/길찾기",
+      "titleVi": "Du lịch và chỉ đường",
+      "pageRange": "41-50",
+      "goals": [
+        "이동 수단",
+        "위치/방향 표현"
+      ],
+      "topicOverview": "여행 상황에서 길 묻고 답하기",
+      "cultureTopics": [
+        "일상 대화",
+        "예의 표현"
+      ],
+      "vocabCards": [
+        {
+          "id": "l5-v-01",
+          "term": "sân bay",
+          "meaningKo": "공항",
+          "example": "Tôi đến sân bay lúc 7 giờ.",
+          "exampleMeaningKo": "7시에 공항에 도착해요.",
+          "audioSrc": "",
+          "sourcePage": 51,
+          "reviewNeeded": false
+        },
+        {
+          "id": "l5-v-02",
+          "term": "khách sạn",
+          "meaningKo": "호텔",
+          "example": "Khách sạn này gần biển.",
+          "exampleMeaningKo": "이 호텔은 바다 근처예요.",
+          "audioSrc": "",
+          "sourcePage": 51,
+          "reviewNeeded": false
+        },
+        {
+          "id": "l5-v-03",
+          "term": "bản đồ",
+          "meaningKo": "지도",
+          "example": "Bạn có bản đồ không?",
+          "exampleMeaningKo": "지도 있어요?",
+          "audioSrc": "",
+          "sourcePage": 51,
+          "reviewNeeded": false
+        },
+        {
+          "id": "l5-v-04",
+          "term": "rẽ trái",
+          "meaningKo": "좌회전하다",
+          "example": "Đi thẳng rồi rẽ trái.",
+          "exampleMeaningKo": "직진 후 왼쪽으로 도세요.",
+          "audioSrc": "",
+          "sourcePage": 51,
+          "reviewNeeded": false
+        },
+        {
+          "id": "l5-v-05",
+          "term": "rẽ phải",
+          "meaningKo": "우회전하다",
+          "example": "Rẽ phải ở ngã tư.",
+          "exampleMeaningKo": "사거리에서 오른쪽으로 도세요.",
+          "audioSrc": "",
+          "sourcePage": 51,
+          "reviewNeeded": false
+        },
+        {
+          "id": "l5-v-06",
+          "term": "gần/xa",
+          "meaningKo": "가깝다/멀다",
+          "example": "Nhà ga khá xa.",
+          "exampleMeaningKo": "역이 꽤 멀어요.",
+          "audioSrc": "",
+          "sourcePage": 51,
+          "reviewNeeded": false
+        },
+        {
+          "id": "l5-v-07",
+          "term": "nhà ga",
+          "meaningKo": "역",
+          "example": "Nhà ga ở gần trung tâm.",
+          "exampleMeaningKo": "역은 시내 중심 근처예요.",
+          "audioSrc": "",
+          "sourcePage": 51,
+          "reviewNeeded": false
+        },
+        {
+          "id": "l5-v-08",
+          "term": "xe buýt",
+          "meaningKo": "버스",
+          "example": "Tôi đi xe buýt đến sân bay.",
+          "exampleMeaningKo": "버스로 공항에 가요.",
+          "audioSrc": "",
+          "sourcePage": 51,
+          "reviewNeeded": false
+        },
+        {
+          "id": "l5-v-09",
+          "term": "vé",
+          "meaningKo": "표/티켓",
+          "example": "Cho tôi mua hai vé.",
+          "exampleMeaningKo": "표 두 장 주세요.",
+          "audioSrc": "",
+          "sourcePage": 51,
+          "reviewNeeded": false
+        },
+        {
+          "id": "l5-v-10",
+          "term": "đặt phòng",
+          "meaningKo": "예약하다",
+          "example": "Tôi muốn đặt phòng trước.",
+          "exampleMeaningKo": "미리 방을 예약하고 싶어요.",
+          "audioSrc": "",
+          "sourcePage": 51,
+          "reviewNeeded": false
+        },
+        {
+          "id": "l5-v-11",
+          "term": "bến xe",
+          "meaningKo": "버스터미널",
+          "example": "Bến xe ở phía trước.",
+          "exampleMeaningKo": "버스터미널은 앞쪽에 있어요.",
+          "audioSrc": "",
+          "sourcePage": 51,
+          "reviewNeeded": false
+        },
+        {
+          "id": "l5-v-12",
+          "term": "đường một chiều",
+          "meaningKo": "일방통행",
+          "example": "Đây là đường một chiều.",
+          "exampleMeaningKo": "여긴 일방통행로예요.",
+          "audioSrc": "",
+          "sourcePage": 51,
+          "reviewNeeded": false
+        },
+        {
+          "id": "l5-v-13",
+          "term": "qua đường",
+          "meaningKo": "길 건너다",
+          "example": "Bạn qua đường cẩn thận nhé.",
+          "exampleMeaningKo": "길 건널 때 조심하세요.",
+          "audioSrc": "",
+          "sourcePage": 51,
+          "reviewNeeded": false
+        },
+        {
+          "id": "l5-v-14",
+          "term": "ngã ba",
+          "meaningKo": "삼거리",
+          "example": "Rẽ trái ở ngã ba.",
+          "exampleMeaningKo": "삼거리에서 좌회전하세요.",
+          "audioSrc": "",
+          "sourcePage": 51,
+          "reviewNeeded": false
+        },
+        {
+          "id": "l5-v-15",
+          "term": "giao thông",
+          "meaningKo": "교통",
+          "example": "Giờ này giao thông đông lắm.",
+          "exampleMeaningKo": "이 시간 교통이 많이 막혀요.",
+          "audioSrc": "",
+          "sourcePage": 51,
+          "reviewNeeded": false
+        },
+        {
+          "id": "l5-v-16",
+          "term": "bản chỉ dẫn",
+          "meaningKo": "안내판",
+          "example": "Làm ơn xem bản chỉ dẫn.",
+          "exampleMeaningKo": "안내판을 봐 주세요.",
+          "audioSrc": "",
+          "sourcePage": 51,
+          "reviewNeeded": false
+        },
+        {
+          "id": "l5-v-17",
+          "term": "đi taxi",
+          "meaningKo": "택시 타다",
+          "example": "Tôi đi taxi đến khách sạn.",
+          "exampleMeaningKo": "택시 타고 호텔에 가요.",
+          "audioSrc": "",
+          "sourcePage": 51,
+          "reviewNeeded": false
+        },
+        {
+          "id": "l5-v-18",
+          "term": "hành lý",
+          "meaningKo": "짐/수하물",
+          "example": "Hành lý của tôi hơi nặng.",
+          "exampleMeaningKo": "제 짐이 좀 무거워요.",
+          "audioSrc": "",
+          "sourcePage": 51,
+          "reviewNeeded": false
+        }
+      ],
+      "sentenceCards": [
+        {
+          "id": "l5-s-01",
+          "textVi": "Từ đây đến chợ bao xa?",
+          "textKo": "여기서 시장까지 얼마나 멀어요?",
+          "audioSrc": "",
+          "sourcePage": 52,
+          "reviewNeeded": false
+        },
+        {
+          "id": "l5-s-02",
+          "textVi": "Bạn đi thẳng rồi rẽ trái ở đèn đỏ.",
+          "textKo": "직진 후 신호등에서 좌회전하세요.",
+          "audioSrc": "",
+          "sourcePage": 52,
+          "reviewNeeded": false
+        },
+        {
+          "id": "l5-s-03",
+          "textVi": "Tôi muốn đặt phòng khách sạn hai đêm.",
+          "textKo": "호텔 2박 예약하고 싶어요.",
+          "audioSrc": "",
+          "sourcePage": 52,
+          "reviewNeeded": false
+        },
+        {
+          "id": "l5-s-04",
+          "textVi": "Tàu khởi hành lúc 9 giờ sáng.",
+          "textKo": "기차는 오전 9시에 출발해요.",
+          "audioSrc": "",
+          "sourcePage": 52,
+          "reviewNeeded": false
+        },
+        {
+          "id": "l5-s-05",
+          "textVi": "Bạn có thể chỉ đường đến khách sạn không?",
+          "textKo": "호텔 가는 길 알려주실 수 있나요?",
+          "audioSrc": "",
+          "sourcePage": 52,
+          "reviewNeeded": false
+        },
+        {
+          "id": "l5-s-06",
+          "textVi": "Tôi bị lạc, bạn giúp tôi với.",
+          "textKo": "길을 잃었어요, 도와주세요.",
+          "audioSrc": "",
+          "sourcePage": 52,
+          "reviewNeeded": false
+        },
+        {
+          "id": "l5-s-07",
+          "textVi": "Xe buýt số 5 đi đến chợ Bến Thành.",
+          "textKo": "5번 버스는 벤탄시장에 가요.",
+          "audioSrc": "",
+          "sourcePage": 52,
+          "reviewNeeded": false
+        },
+        {
+          "id": "l5-s-08",
+          "textVi": "Tôi cần một phòng yên tĩnh cho hai người.",
+          "textKo": "2인용 조용한 방이 필요해요.",
+          "audioSrc": "",
+          "sourcePage": 52,
+          "reviewNeeded": false
+        }
+      ],
+      "dialogues": [
+        {
+          "id": "l5-d-01",
+          "title": "길 묻기",
+          "audioSrc": "",
+          "sourcePage": 53,
+          "lines": [
+            {
+              "speaker": "Min",
+              "vi": "Xin lỗi, bưu điện ở đâu?",
+              "ko": "실례합니다, 우체국이 어디예요?"
+            },
+            {
+              "speaker": "Hoa",
+              "vi": "Bạn đi thẳng khoảng 200 mét.",
+              "ko": "약 200미터 직진하세요."
+            },
+            {
+              "speaker": "Min",
+              "vi": "Sau đó thì sao?",
+              "ko": "그 다음은요?"
+            },
+            {
+              "speaker": "Hoa",
+              "vi": "Rẽ phải, bưu điện ở bên trái.",
+              "ko": "우회전하면 왼쪽에 있어요."
+            }
+          ],
+          "reviewNeeded": false
+        }
+      ],
+      "grammarPoints": [
+        {
+          "id": "l5-g-01",
+          "title": "위치 묻기",
+          "pattern": "... ở đâu?",
+          "sourcePage": 54,
+          "reviewNeeded": false
+        },
+        {
+          "id": "l5-g-02",
+          "title": "거리 묻기",
+          "pattern": "... bao xa?",
+          "sourcePage": 54,
+          "reviewNeeded": false
+        }
+      ],
+      "pronunciationTargets": [
+        {
+          "id": "l5-p-01",
+          "text": "trái/phải",
+          "hintKo": "tr/ch 구분",
+          "audioSrc": "",
+          "sourcePage": 55,
+          "reviewNeeded": false
+        },
+        {
+          "id": "l5-p-02",
+          "text": "ngã tư",
+          "hintKo": "ngã 성조 주의",
+          "audioSrc": "",
+          "sourcePage": 55,
+          "reviewNeeded": false
+        }
+      ],
+      "quizSeeds": [
+        {
+          "id": "l5-q-01",
+          "type": "order-dialogue",
+          "prompt": "길 묻기 순서",
+          "answerSet": [
+            "Xin lỗi, bưu điện ở đâu?",
+            "Bạn đi thẳng khoảng 200 mét.",
+            "Sau đó thì sao?",
+            "Rẽ phải, bưu điện ở bên trái."
+          ],
+          "sourcePage": 56,
+          "reviewNeeded": false
+        },
+        {
+          "id": "l5-q-02",
+          "type": "match-term",
+          "prompt": "방향 표현 연결",
+          "answerSet": [
+            "rẽ trái-좌회전",
+            "rẽ phải-우회전",
+            "đi thẳng-직진"
+          ],
+          "sourcePage": 56,
+          "reviewNeeded": false
+        }
+      ],
+      "unlockCondition": "complete-previous",
+      "reviewNeeded": false
+    },
+    {
+      "lessonId": "l6",
+      "unitLabel": "Bài 6",
+      "titleKo": "OPIC IM1 주제: 집과 동네",
+      "titleVi": "Nhà và khu phố",
+      "pageRange": "51-60",
+      "goals": [
+        "집 소개하기",
+        "동네 편의시설 말하기"
+      ],
+      "topicOverview": "OPIC IM1 빈출 주제인 집/동네 묘사",
+      "cultureTopics": [
+        "일상 대화",
+        "예의 표현"
+      ],
+      "vocabCards": [
+        {
+          "id": "l6-v-01",
+          "term": "căn hộ",
+          "meaningKo": "아파트(주거)",
+          "example": "Tôi sống trong căn hộ nhỏ.",
+          "exampleMeaningKo": "저는 작은 아파트에 살아요.",
+          "audioSrc": "",
+          "sourcePage": 61,
+          "reviewNeeded": false
+        },
+        {
+          "id": "l6-v-02",
+          "term": "phòng khách",
+          "meaningKo": "거실",
+          "example": "Phòng khách nhà tôi khá rộng.",
+          "exampleMeaningKo": "우리 집 거실은 꽤 넓어요.",
+          "audioSrc": "",
+          "sourcePage": 61,
+          "reviewNeeded": false
+        },
+        {
+          "id": "l6-v-03",
+          "term": "nhà bếp",
+          "meaningKo": "주방",
+          "example": "Mẹ tôi thích nấu ăn trong nhà bếp.",
+          "exampleMeaningKo": "엄마는 주방에서 요리하는 걸 좋아해요.",
+          "audioSrc": "",
+          "sourcePage": 61,
+          "reviewNeeded": false
+        },
+        {
+          "id": "l6-v-04",
+          "term": "siêu thị",
+          "meaningKo": "마트",
+          "example": "Siêu thị gần nhà rất tiện.",
+          "exampleMeaningKo": "집 근처 마트가 매우 편리해요.",
+          "audioSrc": "",
+          "sourcePage": 61,
+          "reviewNeeded": false
+        },
+        {
+          "id": "l6-v-05",
+          "term": "công viên",
+          "meaningKo": "공원",
+          "example": "Buổi tối tôi đi dạo ở công viên.",
+          "exampleMeaningKo": "저녁에 공원 산책해요.",
+          "audioSrc": "",
+          "sourcePage": 61,
+          "reviewNeeded": false
+        },
+        {
+          "id": "l6-v-06",
+          "term": "yên tĩnh",
+          "meaningKo": "조용하다",
+          "example": "Khu này khá yên tĩnh.",
+          "exampleMeaningKo": "이 동네는 꽤 조용해요.",
+          "audioSrc": "",
+          "sourcePage": 61,
+          "reviewNeeded": false
+        },
+        {
+          "id": "l6-v-07",
+          "term": "ban công",
+          "meaningKo": "발코니",
+          "example": "Nhà tôi có ban công nhỏ.",
+          "exampleMeaningKo": "우리 집엔 작은 발코니가 있어요.",
+          "audioSrc": "",
+          "sourcePage": 61,
+          "reviewNeeded": false
+        },
+        {
+          "id": "l6-v-08",
+          "term": "hàng xóm",
+          "meaningKo": "이웃",
+          "example": "Hàng xóm của tôi rất thân thiện.",
+          "exampleMeaningKo": "우리 이웃은 매우 친절해요.",
+          "audioSrc": "",
+          "sourcePage": 61,
+          "reviewNeeded": false
+        },
+        {
+          "id": "l6-v-09",
+          "term": "tiện nghi",
+          "meaningKo": "편의시설",
+          "example": "Khu này có nhiều tiện nghi.",
+          "exampleMeaningKo": "이 지역은 편의시설이 많아요.",
+          "audioSrc": "",
+          "sourcePage": 61,
+          "reviewNeeded": false
+        },
+        {
+          "id": "l6-v-10",
+          "term": "an toàn",
+          "meaningKo": "안전하다",
+          "example": "Tôi thích khu vực an toàn.",
+          "exampleMeaningKo": "저는 안전한 지역을 좋아해요.",
+          "audioSrc": "",
+          "sourcePage": 61,
+          "reviewNeeded": false
+        },
+        {
+          "id": "l6-v-11",
+          "term": "phòng ngủ",
+          "meaningKo": "침실",
+          "example": "Phòng ngủ của tôi khá nhỏ.",
+          "exampleMeaningKo": "제 침실은 꽤 작아요.",
+          "audioSrc": "",
+          "sourcePage": 61,
+          "reviewNeeded": false
+        },
+        {
+          "id": "l6-v-12",
+          "term": "nhà tắm",
+          "meaningKo": "욕실",
+          "example": "Nhà tắm ở bên phải.",
+          "exampleMeaningKo": "욕실은 오른쪽에 있어요.",
+          "audioSrc": "",
+          "sourcePage": 61,
+          "reviewNeeded": false
+        },
+        {
+          "id": "l6-v-13",
+          "term": "bãi đỗ xe",
+          "meaningKo": "주차장",
+          "example": "Tòa nhà có bãi đỗ xe lớn.",
+          "exampleMeaningKo": "건물에 큰 주차장이 있어요.",
+          "audioSrc": "",
+          "sourcePage": 61,
+          "reviewNeeded": false
+        },
+        {
+          "id": "l6-v-14",
+          "term": "thang máy",
+          "meaningKo": "엘리베이터",
+          "example": "Thang máy đang sửa.",
+          "exampleMeaningKo": "엘리베이터 수리 중이에요.",
+          "audioSrc": "",
+          "sourcePage": 61,
+          "reviewNeeded": false
+        },
+        {
+          "id": "l6-v-15",
+          "term": "bảo vệ",
+          "meaningKo": "경비원",
+          "example": "Chú bảo vệ rất thân thiện.",
+          "exampleMeaningKo": "경비 아저씨가 친절해요.",
+          "audioSrc": "",
+          "sourcePage": 61,
+          "reviewNeeded": false
+        },
+        {
+          "id": "l6-v-16",
+          "term": "khu dân cư",
+          "meaningKo": "주거지역",
+          "example": "Đây là khu dân cư yên tĩnh.",
+          "exampleMeaningKo": "여긴 조용한 주거지역이에요.",
+          "audioSrc": "",
+          "sourcePage": 61,
+          "reviewNeeded": false
+        },
+        {
+          "id": "l6-v-17",
+          "term": "tiền thuê nhà",
+          "meaningKo": "월세/임대료",
+          "example": "Tiền thuê nhà tháng này tăng rồi.",
+          "exampleMeaningKo": "이번 달 월세가 올랐어요.",
+          "audioSrc": "",
+          "sourcePage": 61,
+          "reviewNeeded": false
+        },
+        {
+          "id": "l6-v-18",
+          "term": "trang trí",
+          "meaningKo": "꾸미다",
+          "example": "Tôi thích trang trí phòng bằng cây xanh.",
+          "exampleMeaningKo": "저는 식물로 방 꾸미는 걸 좋아해요.",
+          "audioSrc": "",
+          "sourcePage": 61,
+          "reviewNeeded": false
+        }
+      ],
+      "sentenceCards": [
+        {
+          "id": "l6-s-01",
+          "textVi": "Tôi sống ở căn hộ gần công viên.",
+          "textKo": "저는 공원 근처 아파트에 살아요.",
+          "audioSrc": "",
+          "sourcePage": 62,
+          "reviewNeeded": false
+        },
+        {
+          "id": "l6-s-02",
+          "textVi": "Nhà tôi có hai phòng ngủ và một phòng khách.",
+          "textKo": "우리 집은 침실 2개와 거실 1개가 있어요.",
+          "audioSrc": "",
+          "sourcePage": 62,
+          "reviewNeeded": false
+        },
+        {
+          "id": "l6-s-03",
+          "textVi": "Cuối tuần tôi thường dọn dẹp nhà cửa.",
+          "textKo": "주말에 보통 집 청소를 해요.",
+          "audioSrc": "",
+          "sourcePage": 62,
+          "reviewNeeded": false
+        },
+        {
+          "id": "l6-s-04",
+          "textVi": "Khu phố của tôi an toàn và yên tĩnh.",
+          "textKo": "우리 동네는 안전하고 조용해요.",
+          "audioSrc": "",
+          "sourcePage": 62,
+          "reviewNeeded": false
+        },
+        {
+          "id": "l6-s-05",
+          "textVi": "Tôi thích ở nhà vì không gian rất ấm cúng.",
+          "textKo": "저는 집이 아늑해서 집에 있는 걸 좋아해요.",
+          "audioSrc": "",
+          "sourcePage": 62,
+          "reviewNeeded": false
+        },
+        {
+          "id": "l6-s-06",
+          "textVi": "Gần nhà tôi có quán cà phê mở 24 giờ.",
+          "textKo": "집 근처에 24시간 카페가 있어요.",
+          "audioSrc": "",
+          "sourcePage": 62,
+          "reviewNeeded": false
+        },
+        {
+          "id": "l6-s-07",
+          "textVi": "Buổi tối khu phố khá yên tĩnh và sạch sẽ.",
+          "textKo": "저녁에 동네가 꽤 조용하고 깨끗해요.",
+          "audioSrc": "",
+          "sourcePage": 62,
+          "reviewNeeded": false
+        },
+        {
+          "id": "l6-s-08",
+          "textVi": "Nếu có thời gian, tôi sẽ trang trí lại phòng ngủ.",
+          "textKo": "시간이 되면 침실을 다시 꾸밀 거예요.",
+          "audioSrc": "",
+          "sourcePage": 62,
+          "reviewNeeded": false
+        }
+      ],
+      "dialogues": [
+        {
+          "id": "l6-d-01",
+          "title": "집 소개",
+          "audioSrc": "",
+          "sourcePage": 63,
+          "lines": [
+            {
+              "speaker": "Huy",
+              "vi": "Bạn sống ở đâu?",
+              "ko": "어디에 살아요?"
+            },
+            {
+              "speaker": "Yuna",
+              "vi": "Tôi sống ở căn hộ gần ga tàu điện.",
+              "ko": "저는 지하철역 근처 아파트에 살아요."
+            },
+            {
+              "speaker": "Huy",
+              "vi": "Khu đó có tiện không?",
+              "ko": "그 동네 편리해요?"
+            },
+            {
+              "speaker": "Yuna",
+              "vi": "Có, gần siêu thị và công viên.",
+              "ko": "네, 마트랑 공원이 가까워요."
+            }
+          ],
+          "reviewNeeded": false
+        }
+      ],
+      "grammarPoints": [
+        {
+          "id": "l6-g-01",
+          "title": "존재 표현",
+          "pattern": "có + 명사",
+          "sourcePage": 64,
+          "reviewNeeded": false
+        },
+        {
+          "id": "l6-g-02",
+          "title": "형용사 나열",
+          "pattern": "A và B",
+          "sourcePage": 64,
+          "reviewNeeded": false
+        }
+      ],
+      "pronunciationTargets": [
+        {
+          "id": "l6-p-01",
+          "text": "yên tĩnh",
+          "hintKo": "성조 두 개 연결 연습",
+          "audioSrc": "",
+          "sourcePage": 65,
+          "reviewNeeded": false
+        },
+        {
+          "id": "l6-p-02",
+          "text": "khu phố",
+          "hintKo": "kh 소리 분명하게",
+          "audioSrc": "",
+          "sourcePage": 65,
+          "reviewNeeded": false
+        }
+      ],
+      "quizSeeds": [
+        {
+          "id": "l6-q-01",
+          "type": "pattern-variation",
+          "prompt": "집 소개 문장",
+          "answerSet": [
+            "Tôi sống ở căn hộ gần công viên.",
+            "Nhà tôi ở gần siêu thị.",
+            "Khu tôi ở khá yên tĩnh."
+          ],
+          "sourcePage": 66,
+          "reviewNeeded": false
+        },
+        {
+          "id": "l6-q-02",
+          "type": "match-term",
+          "prompt": "집 구성 연결",
+          "answerSet": [
+            "phòng khách-거실",
+            "nhà bếp-주방",
+            "căn hộ-아파트"
+          ],
+          "sourcePage": 66,
+          "reviewNeeded": false
+        }
+      ],
+      "unlockCondition": "complete-previous",
+      "reviewNeeded": false
+    }
+  ]
+}
