@@ -517,11 +517,11 @@ class VietnameseA1App {
         ${show && c.example ? `<p class="small">예문: ${c.example}<br>${c.exampleMeaningKo || ''}</p>` : ''}
         <p class="small tap-hint">${show ? '카드를 탭하면 뜻을 숨길 수 있어요' : '카드를 탭하면 뜻이 보여요'}</p>
       </div>
-      <div class="controls action-grid compact">
+      <div class="controls action-grid compact audio-controls">
         <button class="primary" data-action="speak:${c.audioSrc || ''}" data-text="${c.term}">듣기</button>
         <button class="warn" data-action="repeatSpeak" data-text="${c.term}">3회 반복</button>
       </div>
-      <div class="controls"><button data-action="shift:-1">◀ 이전</button><button data-action="shift:1">다음 ▶</button></div>
+      <div class="controls nav-controls"><button data-action="shift:-1">◀ 이전</button><button data-action="shift:1">다음 ▶</button></div>
     </article>`;
   }
 
@@ -548,11 +548,11 @@ class VietnameseA1App {
         <div class="ko ${show ? '' : 'hidden'}">${c.textKo}</div>
         <p class="small tap-hint">${show ? '카드를 탭하면 해석을 숨깁니다' : '카드를 탭하면 해석이 보여요'}</p>
       </div>
-      <div class="controls action-grid compact">
+      <div class="controls action-grid compact audio-controls">
         <button class="primary" data-action="speak:${c.audioSrc || ''}" data-text="${c.textVi}">듣기</button>
         <button class="warn" data-action="repeatSpeak" data-text="${c.textVi}">3번 반복 듣기</button>
       </div>
-      <div class="controls"><button data-action="shift:-1">◀ 이전</button><button data-action="shift:1">다음 ▶</button></div>
+      <div class="controls nav-controls"><button data-action="shift:-1">◀ 이전</button><button data-action="shift:1">다음 ▶</button></div>
     </article>`;
   }
 
