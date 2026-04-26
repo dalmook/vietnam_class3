@@ -1,9 +1,19 @@
 {
   "name": "베트남어 단어장",
-  "short_name": "베트남어 A1",
+  "short_name": "베트남어",
+  "description": "A1부터 OPIc IM1까지 학습하는 베트남어 단어장",
   "start_url": "./index.html",
+  "scope": "./",
   "display": "standalone",
   "background_color": "#f5f8ff",
   "theme_color": "#5d6dff",
-  "icons": []
+  "orientation": "portrait",
+  "icons": [
+    {
+      "src": "./icons/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
 }

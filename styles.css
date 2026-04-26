@@ -139,3 +139,47 @@ button:disabled { opacity: .5; cursor: not-allowed; }
   .match-title { font-size: 1.25rem; }
   .match-col .match-option { font-size: 1rem; padding: 8px; }
 }
+
+.pwa-update-banner {
+  position: fixed;
+  left: 50%;
+  bottom: 78px;
+  transform: translateX(-50%);
+  width: min(430px, calc(100vw - 20px));
+  background: rgba(255, 255, 255, 0.98);
+  border: 1px solid #dfe6ff;
+  border-radius: 18px;
+  box-shadow: 0 14px 30px rgba(32, 50, 108, 0.18);
+  padding: 14px;
+  z-index: 9997;
+}
+.pwa-update-banner h3 { margin: 0 0 6px; font-size: 1rem; }
+.pwa-update-banner p { margin: 0 0 10px; color: var(--muted); font-size: 0.88rem; }
+.pwa-update-banner .controls { justify-content: flex-end; }
+.pwa-update-banner button { min-height: 40px; }
+
+.offline-badge {
+  position: fixed;
+  left: 50%;
+  top: 10px;
+  transform: translateX(-50%);
+  width: min(420px, calc(100vw - 24px));
+  background: #1f2a44;
+  color: #fff;
+  border-radius: 999px;
+  padding: 9px 14px;
+  font-size: 0.8rem;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+  z-index: 9996;
+  text-align: center;
+}
+
+.settings-actions .cache-reset-btn {
+  background: #fff3dc;
+  border: 1px solid #ffd7a6;
+}
+
+.settings-actions .progress-reset-btn {
+  background: #ffe4e8;
+  border: 1px solid #ffbec8;
+}
