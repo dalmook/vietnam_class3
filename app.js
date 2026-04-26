@@ -256,6 +256,8 @@ const PRON_KO_MAP = {
   'à': '아',
   'ạ': '아',};
 
+let deferredInstallPrompt = null;
+
 class VietnameseA1App {
   constructor() {
     this.appEl = document.getElementById('app');
@@ -306,10 +308,12 @@ class VietnameseA1App {
     this.sfxCtx = null;
     this.swReloading = false;
     this.pendingSWRegistration = null;
+    this.isStandalone = window.matchMedia('(display-mode: standalone)').matches || window.navigator.standalone === true;
     this.ensureStorageHealth();
 
     this.bindGlobalEvents();
     this.setupPwaUI();
+    this.bindInstallPromptEvents();
     this.setupServiceWorkerRegistration();
     this.bindNetworkStatusEvents();
     this.bootstrap();
@@ -327,7 +331,7 @@ class VietnameseA1App {
     } catch (e) {
       const healed = await this.tryRecoverFromCacheIssue();
       if (healed) return;
-      this.renderError(`JSON 로딩 실패: ${e.message}. 설정 > 복구 버튼으로 캐시를 초기화해보세요.`, true);
+      this.renderError(`JSON 로딩 실패: ${e.message}. 설정 > 앱 캐시 초기화로 서비스워커/캐시를 정리해보세요.`, true);
     }
   }
 
@@ -707,7 +711,8 @@ class VietnameseA1App {
       <label>음성 속도 ${this.settings.speechRate.toFixed(2)}</label><input type="range" min="0.6" max="1.2" step="0.05" value="${this.settings.speechRate}" data-change="speechRate" />
       <label><input type="checkbox" ${this.settings.autoShowMeaning ? 'checked' : ''} data-change="autoShowMeaning" /> 자동 뜻 보이기</label><br>
       <label><input type="checkbox" ${this.settings.autoPlay ? 'checked' : ''} data-change="autoPlay" /> 카드 넘김 자동 재생</label>
-      <p class="small">앱 캐시 초기화는 오프라인 파일(서비스워커/캐시 저장소) 정리, 학습 기록 초기화는 진도/북마크/오답 데이터를 삭제합니다.</p>
+      <p class="small">앱 캐시 초기화: Service Worker/Cache Storage를 삭제하고 새로고침합니다.</p>
+      <p class="small">학습 기록 초기화: localStorage의 진도/북마크/오답 기록을 삭제합니다.</p>
       <div class="controls settings-actions"><button data-action="audioTest">🔊 음성 테스트</button><button class="warn cache-reset-btn" data-action="recoverCache">앱 캐시 초기화</button><button class="bad progress-reset-btn" data-action="resetLocal">학습 기록 초기화</button></div></div>
       <div class="card"><h3>JSON 로딩 상태</h3><p class="small">경로: ${this.state.loadedPath}</p><p class="small">lessons ${c.lessons.length}, vocab ${c.vocab.length}, sentence ${c.sentence.length}, dialogues ${c.dialogues.length}, grammar ${c.grammar.length}, pronunciation ${c.pronunciation.length}, quizSeeds ${c.seeds.length}</p></div></section>`;
   }
@@ -969,12 +974,25 @@ class VietnameseA1App {
   }
 
   setupPwaUI() {
+    if (!document.getElementById('pwa-install-banner')) {
+      const install = document.createElement('aside');
+      install.id = 'pwa-install-banner';
+      install.className = 'pwa-install-banner hidden';
+      install.setAttribute('role', 'status');
+      install.innerHTML = `<h3>앱처럼 설치해서 공부해요</h3>
+        <p>홈 화면에 추가하면 주소창 없이 바로 열고, 일부 학습자료는 오프라인에서도 볼 수 있어요.</p>
+        <p class="small hidden" id="pwa-ios-helper">iPhone은 Safari 공유 버튼에서 ‘홈 화면에 추가’를 눌러주세요.</p>
+        <div class="pwa-banner-actions"><button class="pwa-primary-btn" id="pwa-install-now">앱 설치하기</button><button class="pwa-secondary-btn" id="pwa-install-later">나중에</button></div>`;
+      document.body.appendChild(install);
+      install.querySelector('#pwa-install-now')?.addEventListener('click', () => this.promptInstallApp());
+      install.querySelector('#pwa-install-later')?.addEventListener('click', () => this.hideInstallBanner());
+    }
     if (!document.getElementById('pwa-update-banner')) {
       const update = document.createElement('aside');
       update.id = 'pwa-update-banner';
       update.className = 'pwa-update-banner hidden';
       update.setAttribute('role', 'status');
-      update.innerHTML = `<h3>새 학습 콘텐츠가 있어요</h3><p>최신 단어장/음성/화면을 적용하려면 업데이트해 주세요.</p><div class="controls"><button class="primary" id="pwa-update-now">지금 업데이트</button><button id="pwa-update-later">나중에</button></div>`;
+      update.innerHTML = `<h3>새 학습 콘텐츠가 있어요</h3><p>최신 단어장/음성/화면을 적용하려면 업데이트해 주세요.</p><div class="pwa-banner-actions"><button class="pwa-primary-btn" id="pwa-update-now">지금 업데이트</button><button class="pwa-secondary-btn" id="pwa-update-later">나중에</button></div>`;
       document.body.appendChild(update);
       update.querySelector('#pwa-update-now')?.addEventListener('click', () => this.applyWaitingServiceWorker());
       update.querySelector('#pwa-update-later')?.addEventListener('click', () => this.hideUpdateBanner());
@@ -986,7 +1004,65 @@ class VietnameseA1App {
       badge.textContent = '오프라인 모드입니다. 저장된 학습자료로 복습할 수 있어요.';
       document.body.appendChild(badge);
     }
+    this.refreshInstallBannerState();
     this.updateNetworkBadge();
+  }
+
+  bindInstallPromptEvents() {
+    window.addEventListener('beforeinstallprompt', (event) => {
+      event.preventDefault();
+      deferredInstallPrompt = event;
+      this.refreshInstallBannerState();
+    });
+
+    window.addEventListener('appinstalled', () => {
+      deferredInstallPrompt = null;
+      this.isStandalone = true;
+      this.hideInstallBanner();
+    });
+  }
+
+  isIosSafari() {
+    const ua = window.navigator.userAgent || '';
+    const isiOS = /iPad|iPhone|iPod/.test(ua);
+    const isSafari = /Safari/.test(ua) && !/CriOS|FxiOS|EdgiOS|OPiOS/.test(ua);
+    return isiOS && isSafari;
+  }
+
+  refreshInstallBannerState() {
+    const banner = document.getElementById('pwa-install-banner');
+    if (!banner) return;
+    const iosHelper = document.getElementById('pwa-ios-helper');
+    const isStandalone = window.matchMedia('(display-mode: standalone)').matches || window.navigator.standalone === true || this.isStandalone;
+    if (isStandalone) {
+      this.hideInstallBanner();
+      return;
+    }
+
+    const canPromptInstall = !!deferredInstallPrompt;
+    const showIosHint = !canPromptInstall && this.isIosSafari();
+    banner.classList.toggle('hidden', !canPromptInstall && !showIosHint);
+    if (iosHelper) iosHelper.classList.toggle('hidden', !showIosHint);
+  }
+
+  async promptInstallApp() {
+    if (!deferredInstallPrompt) {
+      this.refreshInstallBannerState();
+      return;
+    }
+    const promptEvent = deferredInstallPrompt;
+    deferredInstallPrompt = null;
+    await promptEvent.prompt();
+    await promptEvent.userChoice;
+    this.hideInstallBanner();
+  }
+
+  showInstallBanner() {
+    document.getElementById('pwa-install-banner')?.classList.remove('hidden');
+  }
+
+  hideInstallBanner() {
+    document.getElementById('pwa-install-banner')?.classList.add('hidden');
   }
 
   bindNetworkStatusEvents() {

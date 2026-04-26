@@ -1,19 +1,32 @@
 {
+  "id": "/vietnam_class3/",
   "name": "베트남어 단어장",
   "short_name": "베트남어",
   "description": "A1부터 OPIc IM1까지 학습하는 베트남어 단어장",
-  "start_url": "./index.html",
-  "scope": "./",
+  "start_url": "/vietnam_class3/",
+  "scope": "/vietnam_class3/",
   "display": "standalone",
+  "orientation": "portrait",
   "background_color": "#f5f8ff",
   "theme_color": "#5d6dff",
-  "orientation": "portrait",
   "icons": [
     {
-      "src": "./icons/icon.svg",
-      "sizes": "any",
-      "type": "image/svg+xml",
-      "purpose": "any maskable"
+      "src": "/vietnam_class3/icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/vietnam_class3/icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/vietnam_class3/icons/maskable-icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
     }
   ]
 }
