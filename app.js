@@ -295,10 +295,7 @@ class VietnameseA1App {
         feedback: '',
         answered: false,
         picked: '',
-        orderPool: [],
-        orderSelected: [],
-        matchPairs: [],
-        pairPick: []
+        matchingRound: null
       },
       settings: { speechRate: 0.95, autoShowMeaning: true, autoPlay: false }
     };
@@ -306,6 +303,7 @@ class VietnameseA1App {
     this.healTried = false;
     this.audioUnlocked = false;
     this.effect = null;
+    this.sfxCtx = null;
     this.ensureStorageHealth();
 
     this.bindGlobalEvents();
@@ -422,9 +420,6 @@ class VietnameseA1App {
     if (type === 'startQuiz') { this.setupQuizQueue(); this.state.quiz.phase = 'playing'; return this.render(); }
     if (type === 'nextQuiz') return this.nextQuiz();
     if (type === 'pickOption') return this.pickQuizOption(payload);
-    if (type === 'flipResult') return this.flipQuizResult(payload);
-    if (type === 'orderPick') return this.pickOrder(payload);
-    if (type === 'orderSubmit') return this.submitOrder();
     if (type === 'matchPick') return this.matchPick(payload, el.dataset.side);
     if (type === 'reviewWrong') return this.startWrongReview();
     if (type === 'recoverCache') return this.recoverAndReload();
@@ -590,7 +585,11 @@ class VietnameseA1App {
   }
 
   renderQuiz() {
-    const modes = [['meaning', 'A 뜻 맞추기'], ['vi', 'B 베트남어 맞추기'], ['flip', 'C 카드 뒤집기'], ['listen', 'D 듣기'], ['order', 'E 순서 맞추기'], ['tone', 'F 성조 구분'], ['match', 'G 매칭'], ['wrong', 'H 오답복습']];
+    const modes = [['meaning', 'A 뜻 맞추기'], ['vi', 'B 베트남어 맞추기'], ['listen', 'C 듣기'], ['match', 'D 매칭'], ['wrong', 'E 오답복습']];
+    if (this.state.quizMode === 'match' && this.state.quiz.phase === 'playing') {
+      this.appEl.innerHTML = `<section class="fade match-screen-wrap">${this.renderMatch()}</section>`;
+      return;
+    }
     const chooser = `<div class="card controls">${modes.map(([k, v]) => `<button data-action="quizMode:${k}" class="${this.state.quizMode === k ? 'primary' : ''}">${v}</button>`).join('')}</div>`;
     const filterCard = `<div class="card"><label class="small">퀴즈 범위</label><select data-change="quizLesson"><option value="all" ${this.state.quizLessonFilter==='all'?'selected':''}>전체 레슨 통합</option>${this.state.flat.lessons.map((l)=>`<option value="${l.lessonId}" ${this.state.quizLessonFilter===l.lessonId?'selected':''}>${l.unitLabel} · ${l.titleKo}</option>`).join('')}</select></div>`;
     const hero = this.renderQuizHero();
@@ -624,9 +623,6 @@ class VietnameseA1App {
       return `<div class="card"><h3>${success ? '미션 성공! 🎉' : '한 번 더 도전!'}</h3><p>정답 ${q.score} / ${total} · 정답률 ${rate}% · XP ${q.xp}</p><p class="small">최고 연속 정답 ${q.bestStreak}</p><button class="primary" data-action="startQuiz">다시 풀기</button></div>`;
     }
     if (['meaning', 'vi', 'listen'].includes(this.state.quizMode)) return this.renderMcq(item);
-    if (this.state.quizMode === 'flip') return this.renderFlip(item);
-    if (this.state.quizMode === 'order') return this.renderOrder();
-    if (this.state.quizMode === 'tone') return this.renderTone();
     if (this.state.quizMode === 'match') return this.renderMatch();
     return '<div class="card">퀴즈 준비 중</div>';
   }
@@ -647,44 +643,37 @@ class VietnameseA1App {
     </div>`;
   }
 
-  renderFlip(item) {
-    return `<div class="card quiz-card"><h3>${item.term || item.textVi}</h3><p class="small">먼저 스스로 뜻을 떠올리세요.</p>
-      <button data-action="toggleMeaning">정답 보기</button><div class="ko hidden">${item.meaningKo || item.textKo}</div>
-      <div class="controls"><button class="good" data-action="flipResult:correct">맞음(+8 XP)</button><button class="bad" data-action="flipResult:wrong">틀림</button></div>
-      <p>${this.state.quiz.feedback}</p></div>`;
-  }
-
-  renderOrder() {
-    const seed = this.state.flat.seeds.find((s) => s.type === 'order-dialogue') || { answerSet: [] };
-    if (!this.state.quiz.orderPool.length) this.state.quiz.orderPool = this.shuffle([...seed.answerSet]);
-    return `<div class="card quiz-card"><h3>순서 맞추기</h3><p class="small">클릭한 순서로 아래에 쌓입니다.</p>
-      ${this.state.quiz.orderPool.map((line) => `<button class="quiz-option" data-action="orderPick:${this.escapeAttr(line)}">${line}</button>`).join('')}
-      <p>선택: ${this.state.quiz.orderSelected.join(' → ')}</p>
-      <button class="primary" data-action="orderSubmit">제출</button>
-      <button data-action="nextQuiz">다음</button>
-      <p class="quiz-feedback">${this.state.quiz.feedback}</p></div>`;
-  }
-
-  renderTone() {
-    const seed = this.state.flat.seeds.find((s) => s.type === 'tone-identification');
-    const options = seed?.answerSet || ['ma', 'má', 'mà', 'mả', 'mã', 'mạ'];
-    const ask = options[Math.floor(Math.random() * options.length)];
-    return `<div class="card quiz-card"><h3>성조 구분 퀴즈</h3><div class="vi-big">${ask}</div>
-      <p class="small">먼저 듣고 같은 성조를 골라보세요.</p>
-      <button class="primary" data-action="speak:" data-text="${ask}">🔊 듣기</button>
-      ${options.map((o) => `<button class="quiz-option" data-action="pickOption:${this.escapeAttr(o)}">${o}</button>`).join('')}
-      <p class="quiz-feedback">${this.state.quiz.feedback}</p><button data-action="nextQuiz">다음</button></div>`;
-  }
-
   renderMatch() {
-    const seed = this.state.flat.seeds.find((s) => ['match-term', 'sound-match', 'weekday-match'].includes(s.type));
-    const pairs = (seed?.answerSet || []).map((x) => x.split('-'));
-    if (!this.state.quiz.matchPairs.length) this.state.quiz.matchPairs = this.shuffle([...pairs]);
-    const left = this.state.quiz.matchPairs.map((p) => p[0]);
-    const right = this.shuffle(this.state.quiz.matchPairs.map((p) => p[1]));
-    return `<div class="card quiz-card"><h3>매칭 퀴즈</h3>
-      <div class="grid-2"><div>${left.map((v) => `<button class="quiz-option" data-side="left" data-action="matchPick:${this.escapeAttr(v)}">${v}</button>`).join('')}</div><div>${right.map((v) => `<button class="quiz-option" data-side="right" data-action="matchPick:${this.escapeAttr(v)}">${v}</button>`).join('')}</div></div>
-      <p class="quiz-feedback">${this.state.quiz.feedback}</p><button data-action="nextQuiz">다음</button></div>`;
+    const round = this.getOrCreateMatchingRound();
+    const leftButtons = round.leftOrder.map((card) => {
+      const selected = round.selectedLeftId === card.id;
+      const matched = round.matchedIds.includes(card.id);
+      return `<button class="quiz-option match-option ${selected ? 'choice-selected' : ''} ${matched ? 'match-done' : ''}" data-side="left" data-action="matchPick:${this.escapeAttr(card.id)}" ${matched ? 'disabled' : ''}>${card.left}</button>`;
+    }).join('');
+    const rightButtons = round.rightOrder.map((card) => {
+      const selected = round.selectedRightId === card.id;
+      const matched = round.matchedIds.includes(card.id);
+      return `<button class="quiz-option match-option ${selected ? 'choice-selected' : ''} ${matched ? 'match-done' : ''}" data-side="right" data-action="matchPick:${this.escapeAttr(card.id)}" ${matched ? 'disabled' : ''}>${card.right}</button>`;
+    }).join('');
+    const solved = round.matchedIds.length;
+    const total = round.pairs.length;
+    return `<div class="match-stage">
+      <div class="match-top">
+        <div class="badge">문항 ${this.state.quiz.i + 1}</div>
+        <div class="match-progress"><span style="width:${Math.round((solved / Math.max(total, 1)) * 100)}%"></span></div>
+        <div class="badge">XP ${this.state.quiz.xp}</div>
+      </div>
+      <h2 class="match-title">의미가 일치하는 단어끼리 짝을 지으세요</h2>
+      <p class="small match-sub">매칭 ${solved}/${total} · 시도 ${round.attempts}회</p>
+      <div class="match-grid">
+        <div class="match-col">${leftButtons}</div>
+        <div class="match-col">${rightButtons}</div>
+      </div>
+      <div class="match-bottom">
+        <p class="quiz-feedback">${this.state.quiz.feedback}</p>
+        <button class="primary match-confirm" data-action="nextQuiz" ${round.completed ? '' : 'disabled'}>확인</button>
+      </div>
+    </div>`;
   }
 
   renderSearch() {
@@ -726,10 +715,7 @@ class VietnameseA1App {
       feedback: '',
       answered: false,
       picked: '',
-      orderPool: [],
-      orderSelected: [],
-      matchPairs: [],
-      pairPick: []
+      matchingRound: null
     };
   }
 
@@ -737,8 +723,7 @@ class VietnameseA1App {
     const item = this.state.quiz.queue[this.state.quiz.i];
     if (!item || this.state.quiz.answered) return;
     let answer = this.state.quizMode === 'vi' ? (item.term || item.textVi) : (item.meaningKo || item.textKo);
-    if (this.state.quizMode === 'tone') answer = value;
-    const ok = this.state.quizMode === 'tone' ? true : value === answer;
+    const ok = value === answer;
     this.state.quiz.answered = true;
     this.state.quiz.picked = value;
     if (ok) {
@@ -748,11 +733,14 @@ class VietnameseA1App {
       this.state.quiz.xp += 10 + Math.min(10, this.state.quiz.streak * 2);
       this.state.quiz.feedback = `정답! 🐳 +${10 + Math.min(10, this.state.quiz.streak * 2)}XP`;
       this.triggerEffect('success', '정답! 🐳🎉');
+      this.playFeedbackSound('correct');
+      this.playAudio(item.audioSrc || '', item.term || item.textVi || '');
       this.saveLocal('best_streak', this.state.quiz.bestStreak);
     } else {
       this.state.quiz.streak = 0;
       this.state.quiz.feedback = `오답! 정답: ${answer} · 한 번 더 들으면 됩니다!`;
       this.triggerEffect('warn', '한 번 더 들으면 됩니다 🙂');
+      this.playFeedbackSound('wrong');
       this.state.quiz.wrong.push(item.id);
       if (!this.wrongAnswers.includes(item.id)) this.wrongAnswers.push(item.id);
       this.saveLocal('wrongAnswers', this.wrongAnswers);
@@ -761,52 +749,75 @@ class VietnameseA1App {
     this.render();
   }
 
-  flipQuizResult(result) {
-    const item = this.state.quiz.queue[this.state.quiz.i];
-    const ok = result === 'correct';
-    if (ok) {
-      this.state.quiz.score += 1;
-      this.state.quiz.streak += 1;
-      this.state.quiz.xp += 8;
-      this.state.quiz.feedback = '좋아요! +8XP';
-    } else {
-      this.state.quiz.streak = 0;
-      this.state.quiz.feedback = '다음 카드에서 복수해요!';
-      if (!this.wrongAnswers.includes(item.id)) this.wrongAnswers.push(item.id);
-      this.saveLocal('wrongAnswers', this.wrongAnswers);
-    }
-    this.nextQuiz();
-  }
-
-  pickOrder(text) {
-    if (!this.state.quiz.orderSelected.includes(text)) this.state.quiz.orderSelected.push(text);
-    this.render();
-  }
-
-  submitOrder() {
-    const seed = this.state.flat.seeds.find((s) => s.type === 'order-dialogue');
-    const ok = JSON.stringify(seed?.answerSet || []) === JSON.stringify(this.state.quiz.orderSelected);
-    if (ok) {
-      this.state.quiz.score += 1;
-      this.state.quiz.xp += 14;
-      this.state.quiz.feedback = '순서 완벽! +14XP 🎉';
-    } else this.state.quiz.feedback = '순서를 다시 확인해볼까요?';
-    this.render();
+  getOrCreateMatchingRound() {
+    const current = this.state.quiz.matchingRound;
+    if (current?.questionIndex === this.state.quiz.i) return current;
+    const pool = this.shuffle(this.getQuizPoolByFilter())
+      .filter((x) => (x.term || x.textVi) && (x.meaningKo || x.textKo))
+      .slice(0, 5)
+      .map((x, idx) => ({
+        id: `m${idx}`,
+        left: x.term || x.textVi,
+        right: x.meaningKo || x.textKo,
+        sourceId: x.id
+      }));
+    const pairs = pool.length ? pool : this.shuffle([...this.state.flat.vocab, ...this.state.flat.sentence]).slice(0, 5).map((x, idx) => ({
+      id: `m${idx}`,
+      left: x.term || x.textVi,
+      right: x.meaningKo || x.textKo,
+      sourceId: x.id
+    })).filter((x) => x.left && x.right);
+    this.state.quiz.matchingRound = {
+      questionIndex: this.state.quiz.i,
+      pairs,
+      leftOrder: this.shuffle([...pairs]),
+      rightOrder: this.shuffle([...pairs]),
+      matchedIds: [],
+      selectedLeftId: '',
+      selectedRightId: '',
+      attempts: 0,
+      completed: false
+    };
+    return this.state.quiz.matchingRound;
   }
 
   matchPick(value, side) {
-    this.state.quiz.pairPick.push({ value, side });
-    if (this.state.quiz.pairPick.length < 2) return;
-    const [a, b] = this.state.quiz.pairPick.slice(-2);
-    const key1 = `${a.value}-${b.value}`;
-    const key2 = `${b.value}-${a.value}`;
-    const seed = this.state.flat.seeds.find((s) => ['match-term', 'sound-match', 'weekday-match'].includes(s.type));
-    const ok = (seed?.answerSet || []).includes(key1) || (seed?.answerSet || []).includes(key2);
+    const round = this.getOrCreateMatchingRound();
+    if (round.completed) return;
+    if (side === 'left') round.selectedLeftId = value;
+    if (side === 'right') round.selectedRightId = value;
+    if (!round.selectedLeftId || !round.selectedRightId) return this.render();
+    if (round.matchedIds.includes(round.selectedLeftId) || round.matchedIds.includes(round.selectedRightId)) {
+      round.selectedLeftId = '';
+      round.selectedRightId = '';
+      return this.render();
+    }
+    round.attempts += 1;
+    const ok = round.selectedLeftId === round.selectedRightId;
     if (ok) {
-      this.state.quiz.score += 1;
-      this.state.quiz.xp += 12;
-      this.state.quiz.feedback = '매칭 성공! +12XP';
-    } else this.state.quiz.feedback = '아쉽지만 다시!';
+      round.matchedIds.push(round.selectedLeftId);
+      this.state.quiz.xp += 6;
+      this.state.quiz.feedback = `매칭 성공! +6XP (${round.matchedIds.length}/${round.pairs.length})`;
+      this.playFeedbackSound('correct');
+      const solvedPair = round.pairs.find((x) => x.id === round.selectedLeftId);
+      if (solvedPair?.left) this.playAudio('', solvedPair.left);
+      if (round.matchedIds.length === round.pairs.length) {
+        round.completed = true;
+        this.state.quiz.score += 1;
+        this.state.quiz.streak += 1;
+        const bonus = 10 + Math.min(8, Math.max(0, round.pairs.length - round.attempts));
+        this.state.quiz.xp += bonus;
+        this.state.quiz.bestStreak = Math.max(this.state.quiz.bestStreak, this.state.quiz.streak);
+        this.state.quiz.feedback = `라운드 클리어! +${bonus}XP 보너스 🎉`;
+        this.saveLocal('best_streak', this.state.quiz.bestStreak);
+      }
+    } else {
+      this.state.quiz.streak = 0;
+      this.state.quiz.feedback = '짝이 맞지 않아요. 다시 시도해보세요.';
+      this.playFeedbackSound('wrong');
+    }
+    round.selectedLeftId = '';
+    round.selectedRightId = '';
     this.render();
   }
 
@@ -815,10 +826,7 @@ class VietnameseA1App {
     this.state.quiz.feedback = '';
     this.state.quiz.answered = false;
     this.state.quiz.picked = '';
-    this.state.quiz.orderSelected = [];
-    this.state.quiz.orderPool = [];
-    this.state.quiz.matchPairs = [];
-    this.state.quiz.pairPick = [];
+    this.state.quiz.matchingRound = null;
     this.render();
   }
 
@@ -1165,6 +1173,32 @@ class VietnameseA1App {
       speechSynthesis.speak(u);
       speechSynthesis.cancel();
     }
+  }
+
+  playFeedbackSound(kind = 'correct') {
+    const Ctx = window.AudioContext || window.webkitAudioContext;
+    if (!Ctx) return;
+    if (!this.sfxCtx) this.sfxCtx = new Ctx();
+    const ctx = this.sfxCtx;
+    if (ctx.state === 'suspended') ctx.resume().catch(() => {});
+
+    const now = ctx.currentTime + 0.01;
+    const notes = kind === 'correct'
+      ? [523.25, 659.25]
+      : [392.0, 349.23];
+    notes.forEach((freq, idx) => {
+      const osc = ctx.createOscillator();
+      const gain = ctx.createGain();
+      osc.type = 'sine';
+      osc.frequency.value = freq;
+      gain.gain.setValueAtTime(0.0001, now + idx * 0.12);
+      gain.gain.exponentialRampToValueAtTime(0.055, now + idx * 0.12 + 0.015);
+      gain.gain.exponentialRampToValueAtTime(0.0001, now + idx * 0.12 + 0.2);
+      osc.connect(gain);
+      gain.connect(ctx.destination);
+      osc.start(now + idx * 0.12);
+      osc.stop(now + idx * 0.12 + 0.22);
+    });
   }
   async tryRecoverFromCacheIssue() {
     if (this.healTried) return false;
