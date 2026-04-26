@@ -838,6 +838,9 @@ class VietnameseA1App {
     this.state.quiz.answered = false;
     this.state.quiz.picked = '';
     this.state.quiz.matchingRound = null;
+    if (this.state.quiz.i >= this.state.quiz.queue.length) {
+      this.state.quiz.phase = 'ready';
+    }
     this.render();
   }
 
