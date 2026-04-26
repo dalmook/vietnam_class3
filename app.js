@@ -522,9 +522,15 @@ class VietnameseA1App {
         ${show && c.example ? `<p class="small">예문: ${c.example}<br>${c.exampleMeaningKo || ''}</p>` : ''}
         <p class="small tap-hint">${show ? '카드를 탭하면 뜻을 숨길 수 있어요' : '카드를 탭하면 뜻이 보여요'}</p>
       </div>
-      <div class="controls action-grid compact audio-controls">
-        <button class="primary" data-action="speak:${c.audioSrc || ''}" data-text="${c.term}">듣기</button>
-        <button class="warn" data-action="repeatSpeak" data-text="${c.term}" data-audio="${c.audioSrc || ''}">3회 반복</button>
+      <div class="audio-button-grid audio-controls">
+        <button class="audio-square-btn primary" data-action="speak:${c.audioSrc || ''}" data-text="${c.term}">
+          <span class="audio-icon">🔊</span>
+          <span>듣기</span>
+        </button>
+        <button class="audio-square-btn" data-action="repeatSpeak" data-text="${c.term}" data-audio="${c.audioSrc || ''}">
+          <span class="audio-icon">🔁</span>
+          <span>3회</span>
+        </button>
       </div>
       <div class="controls nav-controls"><button data-action="shift:-1">◀ 이전</button><button data-action="shift:1">다음 ▶</button></div>
     </article>`;
@@ -554,9 +560,15 @@ class VietnameseA1App {
         <div class="${show ? '' : 'hidden'}">${pronGuide}</div>
         <p class="small tap-hint">${show ? '카드를 탭하면 해석을 숨깁니다' : '카드를 탭하면 해석이 보여요'}</p>
       </div>
-      <div class="controls action-grid compact audio-controls">
-        <button class="primary" data-action="speak:${c.audioSrc || ''}" data-text="${c.textVi}">듣기</button>
-        <button class="warn" data-action="repeatSpeak" data-text="${c.textVi}" data-audio="${c.audioSrc || ''}">3번 반복 듣기</button>
+      <div class="audio-button-grid audio-controls">
+        <button class="audio-square-btn primary" data-action="speak:${c.audioSrc || ''}" data-text="${c.textVi}">
+          <span class="audio-icon">🔊</span>
+          <span>듣기</span>
+        </button>
+        <button class="audio-square-btn" data-action="repeatSpeak" data-text="${c.textVi}" data-audio="${c.audioSrc || ''}">
+          <span class="audio-icon">🔁</span>
+          <span>3회</span>
+        </button>
       </div>
       <div class="controls nav-controls"><button data-action="shift:-1">◀ 이전</button><button data-action="shift:1">다음 ▶</button></div>
     </article>`;
@@ -586,11 +598,11 @@ class VietnameseA1App {
     this.state.pronIndex = idx;
     const t = list[idx];
     const fallbackHint = t.hintKo ? `<p class="ko">${this.escapeHtml(t.hintKo)}</p>` : '';
+    const hasRomanizedPron = /[A-Za-zÀ-ỹà-ỹ]/.test(t.pronKo || '');
     const pronBlocks = [
-      ['발음 느낌', t.pronKo || this.hangulPronNatural(t.text), 'pron-main'],
+      ['발음 느낌', t.pronKo && !hasRomanizedPron ? t.pronKo : this.hangulPronNatural(t.text), 'pron-main'],
       ['입모양', t.mouthKo, 'pron-note'],
-      ['성조/억양', t.toneKo, 'pron-note'],
-      ['연습 방법', t.practiceKo, 'pron-shadowing']
+      ['성조/억양', t.toneKo, 'pron-note']
     ].filter(([, content]) => content);
     return `<article class="card fade">
       <span class="badge">성조/모음 타겟 ${idx + 1}/${list.length}</span>
@@ -599,7 +611,17 @@ class VietnameseA1App {
       <div class="pron-target-grid">
         ${pronBlocks.map(([label, content, klass]) => `<div class="pron-info-card ${klass}"><div class="pron-label">${label}</div><div>${this.escapeHtml(content)}</div></div>`).join('')}
       </div>
-      <div class="controls"><button class="primary" data-action="speak:${t.audioSrc || ''}" data-text="${t.text}">듣기</button><button class="warn" data-action="repeatSpeak" data-text="${t.text}" data-audio="${t.audioSrc || ''}">3회 반복</button><button data-action="shift:1">다음</button></div>
+      <div class="audio-button-grid audio-controls">
+        <button class="audio-square-btn primary" data-action="speak:${t.audioSrc || ''}" data-text="${t.text}">
+          <span class="audio-icon">🔊</span>
+          <span>듣기</span>
+        </button>
+        <button class="audio-square-btn" data-action="repeatSpeak" data-text="${t.text}" data-audio="${t.audioSrc || ''}">
+          <span class="audio-icon">🔁</span>
+          <span>3회</span>
+        </button>
+      </div>
+      <div class="controls nav-controls"><button data-action="shift:1">다음</button></div>
     </article>`;
   }
 
@@ -1196,7 +1218,7 @@ class VietnameseA1App {
       const bi = [words[i], words[i + 1]].filter(Boolean).join(' ');
       if (phraseMap[tri]) { out.push(phraseMap[tri]); i += 2; continue; }
       if (phraseMap[bi]) { out.push(phraseMap[bi]); i += 1; continue; }
-      out.push(wordMap[words[i]] || words[i]);
+      out.push(wordMap[words[i]] || this.syllableToKo(words[i]));
     }
     return out.join(' ');
   }
@@ -1319,14 +1341,19 @@ class VietnameseA1App {
   }
 
   renderPronGuide(item, originalText, opts = {}) {
-    const mainPron = item.pronKo || this.hangulPronNatural(originalText);
-    const chunks = Array.isArray(item.pronChunks) ? item.pronChunks.join(' · ') : (item.pronChunks || '');
+    const hasRomanized = /[A-Za-zÀ-ỹà-ỹ]/.test(item.pronKo || '');
+    const mainPron = item.pronKo && !hasRomanized ? item.pronKo : this.hangulPronNatural(originalText);
+    let chunks = Array.isArray(item.pronChunks) ? item.pronChunks.join(' · ') : (item.pronChunks || '');
+    if (chunks && /=[^·]*[A-Za-zÀ-ỹà-ỹ]/.test(chunks)) {
+      const left = this.normalizeVi(originalText || '').split(/\s+/).filter(Boolean);
+      const right = String(mainPron).split(/\s+/).filter(Boolean);
+      chunks = left.map((word, idx) => `${word}=${right[idx] || right[right.length - 1] || ''}`).join(' · ');
+    }
     const compactClass = opts.compact ? 'pron-guide compact' : 'pron-guide';
     return `<div class="${compactClass}">
       <div class="pron-main"><div class="pron-label">발음 느낌</div><div>${this.escapeHtml(mainPron)}</div></div>
-      ${item.pronNoteKo ? `<div class="pron-note"><div class="pron-label">발음 팁</div><div>${this.escapeHtml(item.pronNoteKo)}</div></div>` : ''}
       ${chunks ? `<div class="pron-chunks"><div class="pron-label">덩어리 연습</div><div>${this.escapeHtml(chunks)}</div></div>` : ''}
-      ${item.shadowingTipKo ? `<div class="pron-shadowing"><div class="pron-label">따라 말하기</div><div>${this.escapeHtml(item.shadowingTipKo)}</div></div>` : ''}
+      ${item.pronNoteKo ? `<div class="pron-note"><div class="pron-label">발음 팁</div><div>${this.escapeHtml(item.pronNoteKo)}</div></div>` : ''}
     </div>`;
   }
 

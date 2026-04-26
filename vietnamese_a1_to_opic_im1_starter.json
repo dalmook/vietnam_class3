@@ -42,11 +42,10 @@
           "sourcePage": 1,
           "reviewNeeded": false,
           "pronKo": "a",
-          "pronNoteKo": "a는 하노이 기준으로 음절을 짧게 또렷하게 말하고, 끝소리는 부드럽게 연결해 주세요.",
+          "pronNoteKo": "a는 'a'을(를) 짧고 또렷하게 내고 끝음을 짧게 닫아 마무리하세요.",
           "pronChunks": [
             "a=a"
-          ],
-          "shadowingTipKo": "오디오를 먼저 1회 듣고, 덩어리마다 2회씩 따라 말한 뒤 마지막에 한 번에 이어 말하세요."
+          ]
         },
         {
           "id": "l0-v-02",
@@ -58,11 +57,10 @@
           "sourcePage": 1,
           "reviewNeeded": false,
           "pronKo": "a",
-          "pronNoteKo": "ă는 하노이 기준으로 음절을 짧게 또렷하게 말하고, 끝소리는 부드럽게 연결해 주세요.",
+          "pronNoteKo": "ă는 'a'을(를) 짧고 또렷하게 내고 마지막 소리를 부드럽게 이어 말하세요.",
           "pronChunks": [
             "a=a"
-          ],
-          "shadowingTipKo": "오디오를 먼저 1회 듣고, 덩어리마다 2회씩 따라 말한 뒤 마지막에 한 번에 이어 말하세요."
+          ]
         },
         {
           "id": "l0-v-03",
@@ -74,11 +72,10 @@
           "sourcePage": 1,
           "reviewNeeded": false,
           "pronKo": "a",
-          "pronNoteKo": "â는 하노이 기준으로 음절을 짧게 또렷하게 말하고, 끝소리는 부드럽게 연결해 주세요.",
+          "pronNoteKo": "â는 'a'을(를) 짧고 또렷하게 내고 마지막 음절은 힘을 빼고 자연스럽게 정리하세요.",
           "pronChunks": [
             "a=a"
-          ],
-          "shadowingTipKo": "오디오를 먼저 1회 듣고, 덩어리마다 2회씩 따라 말한 뒤 마지막에 한 번에 이어 말하세요."
+          ]
         },
         {
           "id": "l0-v-04",
@@ -90,11 +87,10 @@
           "sourcePage": 1,
           "reviewNeeded": false,
           "pronKo": "e",
-          "pronNoteKo": "e는 하노이 기준으로 음절을 짧게 또렷하게 말하고, 끝소리는 부드럽게 연결해 주세요.",
+          "pronNoteKo": "e는 'e'을(를) 짧고 또렷하게 내고 끝을 낮게 내리며 정리하세요.",
           "pronChunks": [
             "e=e"
-          ],
-          "shadowingTipKo": "오디오를 먼저 1회 듣고, 덩어리마다 2회씩 따라 말한 뒤 마지막에 한 번에 이어 말하세요."
+          ]
         },
         {
           "id": "l0-v-05",
@@ -106,11 +102,10 @@
           "sourcePage": 1,
           "reviewNeeded": false,
           "pronKo": "e",
-          "pronNoteKo": "ê는 하노이 기준으로 음절을 짧게 또렷하게 말하고, 끝소리는 부드럽게 연결해 주세요.",
+          "pronNoteKo": "ê는 'e'을(를) 짧고 또렷하게 내고 끝음을 짧게 닫아 마무리하세요.",
           "pronChunks": [
             "e=e"
-          ],
-          "shadowingTipKo": "오디오를 먼저 1회 듣고, 덩어리마다 2회씩 따라 말한 뒤 마지막에 한 번에 이어 말하세요."
+          ]
         },
         {
           "id": "l0-v-06",
@@ -122,11 +117,10 @@
           "sourcePage": 1,
           "reviewNeeded": false,
           "pronKo": "i",
-          "pronNoteKo": "i는 하노이 기준으로 음절을 짧게 또렷하게 말하고, 끝소리는 부드럽게 연결해 주세요.",
+          "pronNoteKo": "i는 'i'을(를) 짧고 또렷하게 내고 마지막 소리를 부드럽게 이어 말하세요.",
           "pronChunks": [
             "i=i"
-          ],
-          "shadowingTipKo": "오디오를 먼저 1회 듣고, 덩어리마다 2회씩 따라 말한 뒤 마지막에 한 번에 이어 말하세요."
+          ]
         },
         {
           "id": "l0-v-07",
@@ -138,11 +132,10 @@
           "sourcePage": 1,
           "reviewNeeded": false,
           "pronKo": "o",
-          "pronNoteKo": "o는 하노이 기준으로 음절을 짧게 또렷하게 말하고, 끝소리는 부드럽게 연결해 주세요.",
+          "pronNoteKo": "o는 'o'을(를) 짧고 또렷하게 내고 마지막 음절은 힘을 빼고 자연스럽게 정리하세요.",
           "pronChunks": [
             "o=o"
-          ],
-          "shadowingTipKo": "오디오를 먼저 1회 듣고, 덩어리마다 2회씩 따라 말한 뒤 마지막에 한 번에 이어 말하세요."
+          ]
         },
         {
           "id": "l0-v-08",
@@ -154,11 +147,10 @@
           "sourcePage": 1,
           "reviewNeeded": false,
           "pronKo": "o",
-          "pronNoteKo": "ô는 하노이 기준으로 음절을 짧게 또렷하게 말하고, 끝소리는 부드럽게 연결해 주세요.",
+          "pronNoteKo": "ô는 'o'을(를) 짧고 또렷하게 내고 끝을 낮게 내리며 정리하세요.",
           "pronChunks": [
             "o=o"
-          ],
-          "shadowingTipKo": "오디오를 먼저 1회 듣고, 덩어리마다 2회씩 따라 말한 뒤 마지막에 한 번에 이어 말하세요."
+          ]
         },
         {
           "id": "l0-v-09",
@@ -170,11 +162,10 @@
           "sourcePage": 1,
           "reviewNeeded": false,
           "pronKo": "o",
-          "pronNoteKo": "ơ는 하노이 기준으로 음절을 짧게 또렷하게 말하고, 끝소리는 부드럽게 연결해 주세요.",
+          "pronNoteKo": "ơ는 'o'을(를) 짧고 또렷하게 내고 끝음을 짧게 닫아 마무리하세요.",
           "pronChunks": [
             "o=o"
-          ],
-          "shadowingTipKo": "오디오를 먼저 1회 듣고, 덩어리마다 2회씩 따라 말한 뒤 마지막에 한 번에 이어 말하세요."
+          ]
         },
         {
           "id": "l0-v-10",
@@ -186,11 +177,10 @@
           "sourcePage": 1,
           "reviewNeeded": false,
           "pronKo": "u",
-          "pronNoteKo": "u는 하노이 기준으로 음절을 짧게 또렷하게 말하고, 끝소리는 부드럽게 연결해 주세요.",
+          "pronNoteKo": "u는 'u'을(를) 짧고 또렷하게 내고 끝음을 짧게 닫아 마무리하세요.",
           "pronChunks": [
             "u=u"
-          ],
-          "shadowingTipKo": "오디오를 먼저 1회 듣고, 덩어리마다 2회씩 따라 말한 뒤 마지막에 한 번에 이어 말하세요."
+          ]
         },
         {
           "id": "l0-v-11",
@@ -202,11 +192,10 @@
           "sourcePage": 1,
           "reviewNeeded": false,
           "pronKo": "u",
-          "pronNoteKo": "ư는 하노이 기준으로 음절을 짧게 또렷하게 말하고, 끝소리는 부드럽게 연결해 주세요.",
+          "pronNoteKo": "ư는 'u'을(를) 짧고 또렷하게 내고 마지막 소리를 부드럽게 이어 말하세요.",
           "pronChunks": [
             "u=u"
-          ],
-          "shadowingTipKo": "오디오를 먼저 1회 듣고, 덩어리마다 2회씩 따라 말한 뒤 마지막에 한 번에 이어 말하세요."
+          ]
         },
         {
           "id": "l0-v-12",
@@ -218,11 +207,10 @@
           "sourcePage": 1,
           "reviewNeeded": false,
           "pronKo": "y",
-          "pronNoteKo": "y는 하노이 기준으로 음절을 짧게 또렷하게 말하고, 끝소리는 부드럽게 연결해 주세요.",
+          "pronNoteKo": "y는 'y'을(를) 짧고 또렷하게 내고 마지막 음절은 힘을 빼고 자연스럽게 정리하세요.",
           "pronChunks": [
             "y=y"
-          ],
-          "shadowingTipKo": "오디오를 먼저 1회 듣고, 덩어리마다 2회씩 따라 말한 뒤 마지막에 한 번에 이어 말하세요."
+          ]
         },
         {
           "id": "l0-v-13",
@@ -234,11 +222,10 @@
           "sourcePage": 2,
           "reviewNeeded": false,
           "pronKo": "콩",
-          "pronNoteKo": "không는 하노이 기준으로 음절을 짧게 또렷하게 말하고, 끝소리는 부드럽게 연결해 주세요.",
+          "pronNoteKo": "không는 '콩'을(를) 짧고 또렷하게 내고 끝을 낮게 내리며 정리하세요.",
           "pronChunks": [
             "khong=콩"
-          ],
-          "shadowingTipKo": "오디오를 먼저 1회 듣고, 덩어리마다 2회씩 따라 말한 뒤 마지막에 한 번에 이어 말하세요."
+          ]
         },
         {
           "id": "l0-v-14",
@@ -250,11 +237,10 @@
           "sourcePage": 2,
           "reviewNeeded": false,
           "pronKo": "못",
-          "pronNoteKo": "một는 하노이 기준으로 음절을 짧게 또렷하게 말하고, 끝소리는 부드럽게 연결해 주세요.",
+          "pronNoteKo": "một는 '못'을(를) 짧고 또렷하게 내고 끝음을 짧게 닫아 마무리하세요.",
           "pronChunks": [
             "mot=못"
-          ],
-          "shadowingTipKo": "오디오를 먼저 1회 듣고, 덩어리마다 2회씩 따라 말한 뒤 마지막에 한 번에 이어 말하세요."
+          ]
         },
         {
           "id": "l0-v-15",
@@ -266,11 +252,10 @@
           "sourcePage": 2,
           "reviewNeeded": false,
           "pronKo": "하이",
-          "pronNoteKo": "hai는 하노이 기준으로 음절을 짧게 또렷하게 말하고, 끝소리는 부드럽게 연결해 주세요.",
+          "pronNoteKo": "hai는 '하이'을(를) 짧고 또렷하게 내고 마지막 소리를 부드럽게 이어 말하세요.",
           "pronChunks": [
             "hai=하이"
-          ],
-          "shadowingTipKo": "오디오를 먼저 1회 듣고, 덩어리마다 2회씩 따라 말한 뒤 마지막에 한 번에 이어 말하세요."
+          ]
         },
         {
           "id": "l0-v-16",
@@ -282,11 +267,10 @@
           "sourcePage": 2,
           "reviewNeeded": false,
           "pronKo": "바",
-          "pronNoteKo": "ba는 하노이 기준으로 음절을 짧게 또렷하게 말하고, 끝소리는 부드럽게 연결해 주세요.",
+          "pronNoteKo": "ba는 '바'을(를) 짧고 또렷하게 내고 마지막 음절은 힘을 빼고 자연스럽게 정리하세요.",
           "pronChunks": [
             "ba=바"
-          ],
-          "shadowingTipKo": "오디오를 먼저 1회 듣고, 덩어리마다 2회씩 따라 말한 뒤 마지막에 한 번에 이어 말하세요."
+          ]
         },
         {
           "id": "l0-v-17",
@@ -298,11 +282,10 @@
           "sourcePage": 2,
           "reviewNeeded": false,
           "pronKo": "본",
-          "pronNoteKo": "bốn는 하노이 기준으로 음절을 짧게 또렷하게 말하고, 끝소리는 부드럽게 연결해 주세요.",
+          "pronNoteKo": "bốn는 '본'을(를) 짧고 또렷하게 내고 끝을 낮게 내리며 정리하세요.",
           "pronChunks": [
             "bon=본"
-          ],
-          "shadowingTipKo": "오디오를 먼저 1회 듣고, 덩어리마다 2회씩 따라 말한 뒤 마지막에 한 번에 이어 말하세요."
+          ]
         },
         {
           "id": "l0-v-18",
@@ -314,11 +297,10 @@
           "sourcePage": 2,
           "reviewNeeded": false,
           "pronKo": "남",
-          "pronNoteKo": "năm는 하노이 기준으로 음절을 짧게 또렷하게 말하고, 끝소리는 부드럽게 연결해 주세요.",
+          "pronNoteKo": "năm는 '남'을(를) 짧고 또렷하게 내고 끝음을 짧게 닫아 마무리하세요.",
           "pronChunks": [
             "nam=남"
-          ],
-          "shadowingTipKo": "오디오를 먼저 1회 듣고, 덩어리마다 2회씩 따라 말한 뒤 마지막에 한 번에 이어 말하세요."
+          ]
         },
         {
           "id": "l0-v-19",
@@ -330,11 +312,10 @@
           "sourcePage": 2,
           "reviewNeeded": false,
           "pronKo": "사우",
-          "pronNoteKo": "sáu는 하노이 기준으로 음절을 짧게 또렷하게 말하고, 끝소리는 부드럽게 연결해 주세요.",
+          "pronNoteKo": "sáu는 '사우'을(를) 짧고 또렷하게 내고 마지막 소리를 부드럽게 이어 말하세요.",
           "pronChunks": [
             "sau=사우"
-          ],
-          "shadowingTipKo": "오디오를 먼저 1회 듣고, 덩어리마다 2회씩 따라 말한 뒤 마지막에 한 번에 이어 말하세요."
+          ]
         },
         {
           "id": "l0-v-20",
@@ -346,11 +327,10 @@
           "sourcePage": 2,
           "reviewNeeded": false,
           "pronKo": "버이",
-          "pronNoteKo": "bảy는 하노이 기준으로 음절을 짧게 또렷하게 말하고, 끝소리는 부드럽게 연결해 주세요.",
+          "pronNoteKo": "bảy는 '버이'을(를) 짧고 또렷하게 내고 마지막 소리를 부드럽게 이어 말하세요.",
           "pronChunks": [
             "bay=버이"
-          ],
-          "shadowingTipKo": "오디오를 먼저 1회 듣고, 덩어리마다 2회씩 따라 말한 뒤 마지막에 한 번에 이어 말하세요."
+          ]
         },
         {
           "id": "l0-v-21",
@@ -362,11 +342,10 @@
           "sourcePage": 2,
           "reviewNeeded": false,
           "pronKo": "땀",
-          "pronNoteKo": "tám는 하노이 기준으로 음절을 짧게 또렷하게 말하고, 끝소리는 부드럽게 연결해 주세요.",
+          "pronNoteKo": "tám는 '땀'을(를) 짧고 또렷하게 내고 마지막 음절은 힘을 빼고 자연스럽게 정리하세요.",
           "pronChunks": [
             "tam=땀"
-          ],
-          "shadowingTipKo": "오디오를 먼저 1회 듣고, 덩어리마다 2회씩 따라 말한 뒤 마지막에 한 번에 이어 말하세요."
+          ]
         },
         {
           "id": "l0-v-22",
@@ -378,11 +357,10 @@
           "sourcePage": 2,
           "reviewNeeded": false,
           "pronKo": "찐",
-          "pronNoteKo": "chín는 하노이 기준으로 음절을 짧게 또렷하게 말하고, 끝소리는 부드럽게 연결해 주세요.",
+          "pronNoteKo": "chín는 '찐'을(를) 짧고 또렷하게 내고 끝을 낮게 내리며 정리하세요.",
           "pronChunks": [
             "chin=찐"
-          ],
-          "shadowingTipKo": "오디오를 먼저 1회 듣고, 덩어리마다 2회씩 따라 말한 뒤 마지막에 한 번에 이어 말하세요."
+          ]
         },
         {
           "id": "l0-v-23",
@@ -394,11 +372,10 @@
           "sourcePage": 2,
           "reviewNeeded": false,
           "pronKo": "므어이",
-          "pronNoteKo": "mười는 하노이 기준으로 음절을 짧게 또렷하게 말하고, 끝소리는 부드럽게 연결해 주세요.",
+          "pronNoteKo": "mười는 '므어이'을(를) 짧고 또렷하게 내고 끝음을 짧게 닫아 마무리하세요.",
           "pronChunks": [
             "muoi=므어이"
-          ],
-          "shadowingTipKo": "오디오를 먼저 1회 듣고, 덩어리마다 2회씩 따라 말한 뒤 마지막에 한 번에 이어 말하세요."
+          ]
         },
         {
           "id": "l0-v-24",
@@ -410,12 +387,11 @@
           "sourcePage": 2,
           "reviewNeeded": false,
           "pronKo": "므어이 못",
-          "pronNoteKo": "mười một는 하노이 기준으로 음절을 짧게 또렷하게 말하고, 끝소리는 부드럽게 연결해 주세요.",
+          "pronNoteKo": "mười một는 앞부분은 끊지 말고 가볍게 붙여서 시작한 뒤 '못'은 마지막 소리를 부드럽게 이어 말하세요.",
           "pronChunks": [
             "muoi=므어이",
             "mot=못"
-          ],
-          "shadowingTipKo": "오디오를 먼저 1회 듣고, 덩어리마다 2회씩 따라 말한 뒤 마지막에 한 번에 이어 말하세요."
+          ]
         },
         {
           "id": "l0-v-25",
@@ -427,12 +403,11 @@
           "sourcePage": 2,
           "reviewNeeded": false,
           "pronKo": "므어이 하이",
-          "pronNoteKo": "mười hai는 하노이 기준으로 음절을 짧게 또렷하게 말하고, 끝소리는 부드럽게 연결해 주세요.",
+          "pronNoteKo": "mười hai는 처음 소리를 과하게 세게 내지 말고 '하이'은 마지막 음절은 힘을 빼고 자연스럽게 정리하세요.",
           "pronChunks": [
             "muoi=므어이",
             "hai=하이"
-          ],
-          "shadowingTipKo": "오디오를 먼저 1회 듣고, 덩어리마다 2회씩 따라 말한 뒤 마지막에 한 번에 이어 말하세요."
+          ]
         },
         {
           "id": "l0-v-26",
@@ -444,12 +419,11 @@
           "sourcePage": 2,
           "reviewNeeded": false,
           "pronKo": "므어이 바",
-          "pronNoteKo": "mười ba는 하노이 기준으로 음절을 짧게 또렷하게 말하고, 끝소리는 부드럽게 연결해 주세요.",
+          "pronNoteKo": "mười ba는 첫 음절을 또렷하게 시작하고 '바'은 끝을 낮게 내리며 정리하세요.",
           "pronChunks": [
             "muoi=므어이",
             "ba=바"
-          ],
-          "shadowingTipKo": "오디오를 먼저 1회 듣고, 덩어리마다 2회씩 따라 말한 뒤 마지막에 한 번에 이어 말하세요."
+          ]
         },
         {
           "id": "l0-v-27",
@@ -461,12 +435,11 @@
           "sourcePage": 2,
           "reviewNeeded": false,
           "pronKo": "므어이 본",
-          "pronNoteKo": "mười bốn는 하노이 기준으로 음절을 짧게 또렷하게 말하고, 끝소리는 부드럽게 연결해 주세요.",
+          "pronNoteKo": "mười bốn는 첫 소리를 짧게 잡고 '본'은 끝음을 짧게 닫아 마무리하세요.",
           "pronChunks": [
             "muoi=므어이",
             "bon=본"
-          ],
-          "shadowingTipKo": "오디오를 먼저 1회 듣고, 덩어리마다 2회씩 따라 말한 뒤 마지막에 한 번에 이어 말하세요."
+          ]
         },
         {
           "id": "l0-v-28",
@@ -478,12 +451,11 @@
           "sourcePage": 2,
           "reviewNeeded": false,
           "pronKo": "므어이 람",
-          "pronNoteKo": "mười lăm는 하노이 기준으로 음절을 짧게 또렷하게 말하고, 끝소리는 부드럽게 연결해 주세요.",
+          "pronNoteKo": "mười lăm는 앞부분은 끊지 말고 가볍게 붙여서 시작한 뒤 '람'은 마지막 소리를 부드럽게 이어 말하세요.",
           "pronChunks": [
             "muoi=므어이",
             "lam=람"
-          ],
-          "shadowingTipKo": "오디오를 먼저 1회 듣고, 덩어리마다 2회씩 따라 말한 뒤 마지막에 한 번에 이어 말하세요."
+          ]
         },
         {
           "id": "l0-v-29",
@@ -495,12 +467,11 @@
           "sourcePage": 2,
           "reviewNeeded": false,
           "pronKo": "므어이 사우",
-          "pronNoteKo": "mười sáu는 하노이 기준으로 음절을 짧게 또렷하게 말하고, 끝소리는 부드럽게 연결해 주세요.",
+          "pronNoteKo": "mười sáu는 처음 소리를 과하게 세게 내지 말고 '사우'은 마지막 음절은 힘을 빼고 자연스럽게 정리하세요.",
           "pronChunks": [
             "muoi=므어이",
             "sau=사우"
-          ],
-          "shadowingTipKo": "오디오를 먼저 1회 듣고, 덩어리마다 2회씩 따라 말한 뒤 마지막에 한 번에 이어 말하세요."
+          ]
         },
         {
           "id": "l0-v-30",
@@ -512,12 +483,11 @@
           "sourcePage": 2,
           "reviewNeeded": false,
           "pronKo": "므어이 버이",
-          "pronNoteKo": "mười bảy는 하노이 기준으로 음절을 짧게 또렷하게 말하고, 끝소리는 부드럽게 연결해 주세요.",
+          "pronNoteKo": "mười bảy는 처음 소리를 과하게 세게 내지 말고 '버이'은 마지막 음절은 힘을 빼고 자연스럽게 정리하세요.",
           "pronChunks": [
             "muoi=므어이",
             "bay=버이"
-          ],
-          "shadowingTipKo": "오디오를 먼저 1회 듣고, 덩어리마다 2회씩 따라 말한 뒤 마지막에 한 번에 이어 말하세요."
+          ]
         },
         {
           "id": "l0-v-31",
@@ -529,12 +499,11 @@
           "sourcePage": 2,
           "reviewNeeded": false,
           "pronKo": "므어이 땀",
-          "pronNoteKo": "mười tám는 하노이 기준으로 음절을 짧게 또렷하게 말하고, 끝소리는 부드럽게 연결해 주세요.",
+          "pronNoteKo": "mười tám는 첫 음절을 또렷하게 시작하고 '땀'은 끝을 낮게 내리며 정리하세요.",
           "pronChunks": [
             "muoi=므어이",
             "tam=땀"
-          ],
-          "shadowingTipKo": "오디오를 먼저 1회 듣고, 덩어리마다 2회씩 따라 말한 뒤 마지막에 한 번에 이어 말하세요."
+          ]
         },
         {
           "id": "l0-v-32",
@@ -546,12 +515,11 @@
           "sourcePage": 2,
           "reviewNeeded": false,
           "pronKo": "므어이 찐",
-          "pronNoteKo": "mười chín는 하노이 기준으로 음절을 짧게 또렷하게 말하고, 끝소리는 부드럽게 연결해 주세요.",
+          "pronNoteKo": "mười chín는 첫 소리를 짧게 잡고 '찐'은 끝음을 짧게 닫아 마무리하세요.",
           "pronChunks": [
             "muoi=므어이",
             "chin=찐"
-          ],
-          "shadowingTipKo": "오디오를 먼저 1회 듣고, 덩어리마다 2회씩 따라 말한 뒤 마지막에 한 번에 이어 말하세요."
+          ]
         },
         {
           "id": "l0-v-33",
@@ -563,12 +531,11 @@
           "sourcePage": 2,
           "reviewNeeded": false,
           "pronKo": "하이 므어이",
-          "pronNoteKo": "hai mươi는 하노이 기준으로 음절을 짧게 또렷하게 말하고, 끝소리는 부드럽게 연결해 주세요.",
+          "pronNoteKo": "hai mươi는 앞부분은 끊지 말고 가볍게 붙여서 시작한 뒤 '므어이'은 마지막 소리를 부드럽게 이어 말하세요.",
           "pronChunks": [
             "hai=하이",
             "muoi=므어이"
-          ],
-          "shadowingTipKo": "오디오를 먼저 1회 듣고, 덩어리마다 2회씩 따라 말한 뒤 마지막에 한 번에 이어 말하세요."
+          ]
         },
         {
           "id": "l0-v-34",
@@ -580,12 +547,11 @@
           "sourcePage": 2,
           "reviewNeeded": false,
           "pronKo": "하이 므어이 못",
-          "pronNoteKo": "hai mươi mốt는 하노이 기준으로 음절을 짧게 또렷하게 말하고, 끝소리는 부드럽게 연결해 주세요.",
+          "pronNoteKo": "hai mươi mốt는 처음 소리를 과하게 세게 내지 말고 '못'은 마지막 음절은 힘을 빼고 자연스럽게 정리하세요.",
           "pronChunks": [
             "hai muoi=하이 므어이",
             "mot=못"
-          ],
-          "shadowingTipKo": "오디오를 먼저 1회 듣고, 덩어리마다 2회씩 따라 말한 뒤 마지막에 한 번에 이어 말하세요."
+          ]
         },
         {
           "id": "l0-v-35",
@@ -597,12 +563,11 @@
           "sourcePage": 2,
           "reviewNeeded": false,
           "pronKo": "하이 므어이 하이",
-          "pronNoteKo": "hai mươi hai는 하노이 기준으로 음절을 짧게 또렷하게 말하고, 끝소리는 부드럽게 연결해 주세요.",
+          "pronNoteKo": "hai mươi hai는 첫 음절을 또렷하게 시작하고 '하이'은 끝을 낮게 내리며 정리하세요.",
           "pronChunks": [
             "hai muoi=하이 므어이",
             "hai=하이"
-          ],
-          "shadowingTipKo": "오디오를 먼저 1회 듣고, 덩어리마다 2회씩 따라 말한 뒤 마지막에 한 번에 이어 말하세요."
+          ]
         },
         {
           "id": "l0-v-36",
@@ -614,12 +579,11 @@
           "sourcePage": 2,
           "reviewNeeded": false,
           "pronKo": "하이 므어이 바",
-          "pronNoteKo": "hai mươi ba는 하노이 기준으로 음절을 짧게 또렷하게 말하고, 끝소리는 부드럽게 연결해 주세요.",
+          "pronNoteKo": "hai mươi ba는 첫 소리를 짧게 잡고 '바'은 끝음을 짧게 닫아 마무리하세요.",
           "pronChunks": [
             "hai muoi=하이 므어이",
             "ba=바"
-          ],
-          "shadowingTipKo": "오디오를 먼저 1회 듣고, 덩어리마다 2회씩 따라 말한 뒤 마지막에 한 번에 이어 말하세요."
+          ]
         },
         {
           "id": "l0-v-37",
@@ -631,12 +595,11 @@
           "sourcePage": 2,
           "reviewNeeded": false,
           "pronKo": "하이 므어이 본",
-          "pronNoteKo": "hai mươi bốn는 하노이 기준으로 음절을 짧게 또렷하게 말하고, 끝소리는 부드럽게 연결해 주세요.",
+          "pronNoteKo": "hai mươi bốn는 앞부분은 끊지 말고 가볍게 붙여서 시작한 뒤 '본'은 마지막 소리를 부드럽게 이어 말하세요.",
           "pronChunks": [
             "hai muoi=하이 므어이",
             "bon=본"
-          ],
-          "shadowingTipKo": "오디오를 먼저 1회 듣고, 덩어리마다 2회씩 따라 말한 뒤 마지막에 한 번에 이어 말하세요."
+          ]
         },
         {
           "id": "l0-v-38",
@@ -648,12 +611,11 @@
           "sourcePage": 2,
           "reviewNeeded": false,
           "pronKo": "하이 므어이 람",
-          "pronNoteKo": "hai mươi lăm는 하노이 기준으로 음절을 짧게 또렷하게 말하고, 끝소리는 부드럽게 연결해 주세요.",
+          "pronNoteKo": "hai mươi lăm는 처음 소리를 과하게 세게 내지 말고 '람'은 마지막 음절은 힘을 빼고 자연스럽게 정리하세요.",
           "pronChunks": [
             "hai muoi=하이 므어이",
             "lam=람"
-          ],
-          "shadowingTipKo": "오디오를 먼저 1회 듣고, 덩어리마다 2회씩 따라 말한 뒤 마지막에 한 번에 이어 말하세요."
+          ]
         },
         {
           "id": "l0-v-39",
@@ -665,12 +627,11 @@
           "sourcePage": 2,
           "reviewNeeded": false,
           "pronKo": "바 므어이",
-          "pronNoteKo": "ba mươi는 하노이 기준으로 음절을 짧게 또렷하게 말하고, 끝소리는 부드럽게 연결해 주세요.",
+          "pronNoteKo": "ba mươi는 첫 음절을 또렷하게 시작하고 '므어이'은 끝을 낮게 내리며 정리하세요.",
           "pronChunks": [
             "ba=바",
             "muoi=므어이"
-          ],
-          "shadowingTipKo": "오디오를 먼저 1회 듣고, 덩어리마다 2회씩 따라 말한 뒤 마지막에 한 번에 이어 말하세요."
+          ]
         },
         {
           "id": "l0-v-40",
@@ -682,12 +643,11 @@
           "sourcePage": 2,
           "reviewNeeded": false,
           "pronKo": "본 므어이",
-          "pronNoteKo": "bốn mươi는 하노이 기준으로 음절을 짧게 또렷하게 말하고, 끝소리는 부드럽게 연결해 주세요.",
+          "pronNoteKo": "bốn mươi는 첫 음절을 또렷하게 시작하고 '므어이'은 끝을 낮게 내리며 정리하세요.",
           "pronChunks": [
             "bon=본",
             "muoi=므어이"
-          ],
-          "shadowingTipKo": "오디오를 먼저 1회 듣고, 덩어리마다 2회씩 따라 말한 뒤 마지막에 한 번에 이어 말하세요."
+          ]
         },
         {
           "id": "l0-v-41",
@@ -699,12 +659,11 @@
           "sourcePage": 2,
           "reviewNeeded": false,
           "pronKo": "남 므어이",
-          "pronNoteKo": "năm mươi는 하노이 기준으로 음절을 짧게 또렷하게 말하고, 끝소리는 부드럽게 연결해 주세요.",
+          "pronNoteKo": "năm mươi는 첫 소리를 짧게 잡고 '므어이'은 끝음을 짧게 닫아 마무리하세요.",
           "pronChunks": [
             "nam=남",
             "muoi=므어이"
-          ],
-          "shadowingTipKo": "오디오를 먼저 1회 듣고, 덩어리마다 2회씩 따라 말한 뒤 마지막에 한 번에 이어 말하세요."
+          ]
         },
         {
           "id": "l0-v-42",
@@ -716,12 +675,11 @@
           "sourcePage": 2,
           "reviewNeeded": false,
           "pronKo": "사우 므어이",
-          "pronNoteKo": "sáu mươi는 하노이 기준으로 음절을 짧게 또렷하게 말하고, 끝소리는 부드럽게 연결해 주세요.",
+          "pronNoteKo": "sáu mươi는 앞부분은 끊지 말고 가볍게 붙여서 시작한 뒤 '므어이'은 마지막 소리를 부드럽게 이어 말하세요.",
           "pronChunks": [
             "sau=사우",
             "muoi=므어이"
-          ],
-          "shadowingTipKo": "오디오를 먼저 1회 듣고, 덩어리마다 2회씩 따라 말한 뒤 마지막에 한 번에 이어 말하세요."
+          ]
         },
         {
           "id": "l0-v-43",
@@ -733,12 +691,11 @@
           "sourcePage": 2,
           "reviewNeeded": false,
           "pronKo": "버이 므어이",
-          "pronNoteKo": "bảy mươi는 하노이 기준으로 음절을 짧게 또렷하게 말하고, 끝소리는 부드럽게 연결해 주세요.",
+          "pronNoteKo": "bảy mươi는 처음 소리를 과하게 세게 내지 말고 '므어이'은 마지막 음절은 힘을 빼고 자연스럽게 정리하세요.",
           "pronChunks": [
             "bay=버이",
             "muoi=므어이"
-          ],
-          "shadowingTipKo": "오디오를 먼저 1회 듣고, 덩어리마다 2회씩 따라 말한 뒤 마지막에 한 번에 이어 말하세요."
+          ]
         },
         {
           "id": "l0-v-44",
@@ -750,12 +707,11 @@
           "sourcePage": 2,
           "reviewNeeded": false,
           "pronKo": "땀 므어이",
-          "pronNoteKo": "tám mươi는 하노이 기준으로 음절을 짧게 또렷하게 말하고, 끝소리는 부드럽게 연결해 주세요.",
+          "pronNoteKo": "tám mươi는 첫 음절을 또렷하게 시작하고 '므어이'은 끝을 낮게 내리며 정리하세요.",
           "pronChunks": [
             "tam=땀",
             "muoi=므어이"
-          ],
-          "shadowingTipKo": "오디오를 먼저 1회 듣고, 덩어리마다 2회씩 따라 말한 뒤 마지막에 한 번에 이어 말하세요."
+          ]
         },
         {
           "id": "l0-v-45",
@@ -767,12 +723,11 @@
           "sourcePage": 2,
           "reviewNeeded": false,
           "pronKo": "찐 므어이",
-          "pronNoteKo": "chín mươi는 하노이 기준으로 음절을 짧게 또렷하게 말하고, 끝소리는 부드럽게 연결해 주세요.",
+          "pronNoteKo": "chín mươi는 첫 소리를 짧게 잡고 '므어이'은 끝음을 짧게 닫아 마무리하세요.",
           "pronChunks": [
             "chin=찐",
             "muoi=므어이"
-          ],
-          "shadowingTipKo": "오디오를 먼저 1회 듣고, 덩어리마다 2회씩 따라 말한 뒤 마지막에 한 번에 이어 말하세요."
+          ]
         },
         {
           "id": "l0-v-46",
@@ -784,12 +739,11 @@
           "sourcePage": 2,
           "reviewNeeded": false,
           "pronKo": "못 tram",
-          "pronNoteKo": "một trăm는 하노이 기준으로 음절을 짧게 또렷하게 말하고, 끝소리는 부드럽게 연결해 주세요.",
+          "pronNoteKo": "một trăm는 앞부분은 끊지 말고 가볍게 붙여서 시작한 뒤 'tram'은 마지막 소리를 부드럽게 이어 말하세요.",
           "pronChunks": [
             "mot=못",
             "tram=tram"
-          ],
-          "shadowingTipKo": "오디오를 먼저 1회 듣고, 덩어리마다 2회씩 따라 말한 뒤 마지막에 한 번에 이어 말하세요."
+          ]
         },
         {
           "id": "l0-v-47",
@@ -801,12 +755,11 @@
           "sourcePage": 2,
           "reviewNeeded": false,
           "pronKo": "못 nghin",
-          "pronNoteKo": "một nghìn는 하노이 기준으로 음절을 짧게 또렷하게 말하고, 끝소리는 부드럽게 연결해 주세요.",
+          "pronNoteKo": "một nghìn는 처음 소리를 과하게 세게 내지 말고 'nghin'은 마지막 음절은 힘을 빼고 자연스럽게 정리하세요.",
           "pronChunks": [
             "mot=못",
             "nghin=nghin"
-          ],
-          "shadowingTipKo": "오디오를 먼저 1회 듣고, 덩어리마다 2회씩 따라 말한 뒤 마지막에 한 번에 이어 말하세요."
+          ]
         },
         {
           "id": "l0-v-48",
@@ -818,12 +771,11 @@
           "sourcePage": 2,
           "reviewNeeded": false,
           "pronKo": "므어이 nghin",
-          "pronNoteKo": "mười nghìn는 하노이 기준으로 음절을 짧게 또렷하게 말하고, 끝소리는 부드럽게 연결해 주세요.",
+          "pronNoteKo": "mười nghìn는 첫 음절을 또렷하게 시작하고 'nghin'은 끝을 낮게 내리며 정리하세요.",
           "pronChunks": [
             "muoi=므어이",
             "nghin=nghin"
-          ],
-          "shadowingTipKo": "오디오를 먼저 1회 듣고, 덩어리마다 2회씩 따라 말한 뒤 마지막에 한 번에 이어 말하세요."
+          ]
         },
         {
           "id": "l0-v-49",
@@ -835,12 +787,11 @@
           "sourcePage": 2,
           "reviewNeeded": false,
           "pronKo": "못 tram nghin",
-          "pronNoteKo": "một trăm nghìn는 하노이 기준으로 음절을 짧게 또렷하게 말하고, 끝소리는 부드럽게 연결해 주세요.",
+          "pronNoteKo": "một trăm nghìn는 첫 소리를 짧게 잡고 'nghin'은 끝음을 짧게 닫아 마무리하세요.",
           "pronChunks": [
-            "mot tram=못 tram",
-            "nghin=nghin"
-          ],
-          "shadowingTipKo": "오디오를 먼저 1회 듣고, 덩어리마다 2회씩 따라 말한 뒤 마지막에 한 번에 이어 말하세요."
+            "mot tram=못",
+            "nghin=tram"
+          ]
         },
         {
           "id": "l0-v-50",
@@ -852,12 +803,11 @@
           "sourcePage": 2,
           "reviewNeeded": false,
           "pronKo": "못 trieu",
-          "pronNoteKo": "một triệu는 하노이 기준으로 음절을 짧게 또렷하게 말하고, 끝소리는 부드럽게 연결해 주세요.",
+          "pronNoteKo": "một triệu는 첫 소리를 짧게 잡고 'trieu'은 끝음을 짧게 닫아 마무리하세요.",
           "pronChunks": [
             "mot=못",
             "trieu=trieu"
-          ],
-          "shadowingTipKo": "오디오를 먼저 1회 듣고, 덩어리마다 2회씩 따라 말한 뒤 마지막에 한 번에 이어 말하세요."
+          ]
         }
       ],
       "sentenceCards": [
@@ -869,12 +819,11 @@
           "sourcePage": 3,
           "reviewNeeded": false,
           "pronKo": "a a a",
-          "pronNoteKo": "문장 첫 덩어리는 또렷하게 시작하고, 핵심 단어는 성조를 살려 말한 뒤 문장 끝 억양을 자연스럽게 마무리하세요.",
+          "pronNoteKo": "a - ă - â는 앞부분은 끊지 말고 가볍게 붙여서 시작한 뒤 'a'은 마지막 소리를 부드럽게 이어 말하세요.",
           "pronChunks": [
-            "a a=a a",
+            "a a=a",
             "a=a"
-          ],
-          "shadowingTipKo": "2~4개 덩어리로 끊어 따라 말한 뒤, 속도를 조금 올려 한 문장으로 이어 말하세요."
+          ]
         },
         {
           "id": "l0-s-02",
@@ -884,12 +833,11 @@
           "sourcePage": 3,
           "reviewNeeded": false,
           "pronKo": "e e i",
-          "pronNoteKo": "문장 첫 덩어리는 또렷하게 시작하고, 핵심 단어는 성조를 살려 말한 뒤 문장 끝 억양을 자연스럽게 마무리하세요.",
+          "pronNoteKo": "e - ê - i는 처음 소리를 과하게 세게 내지 말고 'i'은 마지막 음절은 힘을 빼고 자연스럽게 정리하세요.",
           "pronChunks": [
-            "e e=e e",
-            "i=i"
-          ],
-          "shadowingTipKo": "2~4개 덩어리로 끊어 따라 말한 뒤, 속도를 조금 올려 한 문장으로 이어 말하세요."
+            "e e=e",
+            "i=e"
+          ]
         },
         {
           "id": "l0-s-03",
@@ -899,12 +847,11 @@
           "sourcePage": 3,
           "reviewNeeded": false,
           "pronKo": "o o o",
-          "pronNoteKo": "문장 첫 덩어리는 또렷하게 시작하고, 핵심 단어는 성조를 살려 말한 뒤 문장 끝 억양을 자연스럽게 마무리하세요.",
+          "pronNoteKo": "o - ô - ơ는 첫 음절을 또렷하게 시작하고 'o'은 끝을 낮게 내리며 정리하세요.",
           "pronChunks": [
-            "o o=o o",
+            "o o=o",
             "o=o"
-          ],
-          "shadowingTipKo": "2~4개 덩어리로 끊어 따라 말한 뒤, 속도를 조금 올려 한 문장으로 이어 말하세요."
+          ]
         },
         {
           "id": "l0-s-04",
@@ -914,12 +861,11 @@
           "sourcePage": 3,
           "reviewNeeded": false,
           "pronKo": "u u y",
-          "pronNoteKo": "문장 첫 덩어리는 또렷하게 시작하고, 핵심 단어는 성조를 살려 말한 뒤 문장 끝 억양을 자연스럽게 마무리하세요.",
+          "pronNoteKo": "u - ư - y는 첫 소리를 짧게 잡고 'y'은 끝음을 짧게 닫아 마무리하세요.",
           "pronChunks": [
-            "u u=u u",
-            "y=y"
-          ],
-          "shadowingTipKo": "2~4개 덩어리로 끊어 따라 말한 뒤, 속도를 조금 올려 한 문장으로 이어 말하세요."
+            "u u=u",
+            "y=u"
+          ]
         },
         {
           "id": "l0-s-05",
@@ -929,13 +875,12 @@
           "sourcePage": 4,
           "reviewNeeded": false,
           "pronKo": "못 하이 바 본 남",
-          "pronNoteKo": "문장 첫 덩어리는 또렷하게 시작하고, 핵심 단어는 성조를 살려 말한 뒤 문장 끝 억양을 자연스럽게 마무리하세요.",
+          "pronNoteKo": "Một, hai, ba, bốn, năm.는 앞부분은 끊지 말고 가볍게 붙여서 시작한 뒤 '남'은 마지막 소리를 부드럽게 이어 말하세요.",
           "pronChunks": [
             "mot hai=못 하이",
             "ba bon=바 본",
             "nam=남"
-          ],
-          "shadowingTipKo": "2~4개 덩어리로 끊어 따라 말한 뒤, 속도를 조금 올려 한 문장으로 이어 말하세요."
+          ]
         },
         {
           "id": "l0-s-06",
@@ -945,13 +890,12 @@
           "sourcePage": 4,
           "reviewNeeded": false,
           "pronKo": "사우 버이 땀 찐 므어이",
-          "pronNoteKo": "문장 첫 덩어리는 또렷하게 시작하고, 핵심 단어는 성조를 살려 말한 뒤 문장 끝 억양을 자연스럽게 마무리하세요.",
+          "pronNoteKo": "Sáu, bảy, tám, chín, mười.는 처음 소리를 과하게 세게 내지 말고 '므어이'은 마지막 음절은 힘을 빼고 자연스럽게 정리하세요.",
           "pronChunks": [
             "sau bay=사우 버이",
             "tam chin=땀 찐",
             "muoi=므어이"
-          ],
-          "shadowingTipKo": "2~4개 덩어리로 끊어 따라 말한 뒤, 속도를 조금 올려 한 문장으로 이어 말하세요."
+          ]
         },
         {
           "id": "l0-s-07",
@@ -961,13 +905,12 @@
           "sourcePage": 4,
           "reviewNeeded": false,
           "pronKo": "므어이 못 므어이 하이 므어이 바",
-          "pronNoteKo": "문장 첫 덩어리는 또렷하게 시작하고, 핵심 단어는 성조를 살려 말한 뒤 문장 끝 억양을 자연스럽게 마무리하세요.",
+          "pronNoteKo": "Mười một, mười hai, mười ba.는 첫 음절을 또렷하게 시작하고 '바'은 끝을 낮게 내리며 정리하세요.",
           "pronChunks": [
             "muoi mot=므어이 못",
             "muoi hai=므어이 하이",
             "muoi ba=므어이 바"
-          ],
-          "shadowingTipKo": "2~4개 덩어리로 끊어 따라 말한 뒤, 속도를 조금 올려 한 문장으로 이어 말하세요."
+          ]
         },
         {
           "id": "l0-s-08",
@@ -977,13 +920,12 @@
           "sourcePage": 4,
           "reviewNeeded": false,
           "pronKo": "하이 므어이 바 므어이 본 므어이",
-          "pronNoteKo": "문장 첫 덩어리는 또렷하게 시작하고, 핵심 단어는 성조를 살려 말한 뒤 문장 끝 억양을 자연스럽게 마무리하세요.",
+          "pronNoteKo": "Hai mươi, ba mươi, bốn mươi.는 첫 소리를 짧게 잡고 '므어이'은 끝음을 짧게 닫아 마무리하세요.",
           "pronChunks": [
             "hai muoi=하이 므어이",
             "ba muoi=바 므어이",
             "bon muoi=본 므어이"
-          ],
-          "shadowingTipKo": "2~4개 덩어리로 끊어 따라 말한 뒤, 속도를 조금 올려 한 문장으로 이어 말하세요."
+          ]
         },
         {
           "id": "l0-s-09",
@@ -993,13 +935,12 @@
           "sourcePage": 4,
           "reviewNeeded": false,
           "pronKo": "cai nay 남 므어이 nghin dong",
-          "pronNoteKo": "문장 첫 덩어리는 또렷하게 시작하고, 핵심 단어는 성조를 살려 말한 뒤 문장 끝 억양을 자연스럽게 마무리하세요.",
+          "pronNoteKo": "Cái này năm mươi nghìn đồng.는 앞부분은 끊지 말고 가볍게 붙여서 시작한 뒤 'dong'은 마지막 소리를 부드럽게 이어 말하세요.",
           "pronChunks": [
-            "cai nay=cai nay",
+            "cai nay=cai",
             "nam muoi=남 므어이",
-            "nghin dong=nghin dong"
-          ],
-          "shadowingTipKo": "2~4개 덩어리로 끊어 따라 말한 뒤, 속도를 조금 올려 한 문장으로 이어 말하세요."
+            "nghin dong=남"
+          ]
         },
         {
           "id": "l0-s-10",
@@ -1009,14 +950,13 @@
           "sourcePage": 4,
           "reviewNeeded": false,
           "pronKo": "so dien thoai cua 또이 라 콩 못 하이 바 본 남 사우 버이 땀 찐",
-          "pronNoteKo": "문장 첫 덩어리는 또렷하게 시작하고, 핵심 단어는 성조를 살려 말한 뒤 문장 끝 억양을 자연스럽게 마무리하세요.",
+          "pronNoteKo": "Số điện thoại của tôi là không một hai ba bốn năm sáu bảy tám chín.는 앞부분은 끊지 말고 가볍게 붙여서 시작한 뒤 '찐'은 마지막 소리를 부드럽게 이어 말하세요.",
           "pronChunks": [
-            "so dien thoai=so dien thoai",
-            "cua toi la=cua 또이 라",
+            "so dien thoai=so",
+            "cua toi la=dien",
             "khong mot hai=콩 못 하이",
-            "ba bon nam=바 본 남 / sau bay tam chin=사우 버이 땀 찐"
-          ],
-          "shadowingTipKo": "2~4개 덩어리로 끊어 따라 말한 뒤, 속도를 조금 올려 한 문장으로 이어 말하세요."
+            "ba bon nam=cua"
+          ]
         }
       ],
       "dialogues": [
@@ -1078,8 +1018,7 @@
           "reviewNeeded": false,
           "pronKo": "ma ma ma ma ma ma",
           "mouthKo": "입술을 과하게 힘주지 말고, 자음 시작을 가볍게 낸 뒤 모음을 길게 열어 소리 내세요.",
-          "toneKo": "하노이 기준 성조를 의식해 음의 높낮이를 분명히 하고, 끝은 급하게 끊지 말고 짧게 정리하세요.",
-          "practiceKo": "오디오를 듣고 같은 속도로 3회 반복한 뒤, 마지막 1회는 끊지 않고 자연스럽게 말하세요."
+          "toneKo": "하노이 기준 성조를 의식해 음의 높낮이를 분명히 하고, 끝은 급하게 끊지 말고 짧게 정리하세요."
         },
         {
           "id": "l0-p-02",
@@ -1090,8 +1029,7 @@
           "reviewNeeded": false,
           "pronKo": "a a a o o o u u",
           "mouthKo": "입술을 과하게 힘주지 말고, 자음 시작을 가볍게 낸 뒤 모음을 길게 열어 소리 내세요.",
-          "toneKo": "하노이 기준 성조를 의식해 음의 높낮이를 분명히 하고, 끝은 급하게 끊지 말고 짧게 정리하세요.",
-          "practiceKo": "오디오를 듣고 같은 속도로 3회 반복한 뒤, 마지막 1회는 끊지 않고 자연스럽게 말하세요."
+          "toneKo": "하노이 기준 성조를 의식해 음의 높낮이를 분명히 하고, 끝은 급하게 끊지 말고 짧게 정리하세요."
         }
       ],
       "quizSeeds": [
@@ -1152,12 +1090,11 @@
           "sourcePage": 20,
           "reviewNeeded": false,
           "pronKo": "씬 짜오",
-          "pronNoteKo": "xin chào는 하노이 기준으로 음절을 짧게 또렷하게 말하고, 끝소리는 부드럽게 연결해 주세요.",
+          "pronNoteKo": "xin chào는 앞부분은 끊지 말고 가볍게 붙여서 시작한 뒤 '짜오'은 마지막 소리를 부드럽게 이어 말하세요.",
           "pronChunks": [
             "xin=씬",
             "chao=짜오"
-          ],
-          "shadowingTipKo": "오디오를 먼저 1회 듣고, 덩어리마다 2회씩 따라 말한 뒤 마지막에 한 번에 이어 말하세요."
+          ]
         },
         {
           "id": "l1-v-02",
@@ -1169,12 +1106,11 @@
           "sourcePage": 20,
           "reviewNeeded": false,
           "pronKo": "짜오 반",
-          "pronNoteKo": "chào bạn는 하노이 기준으로 음절을 짧게 또렷하게 말하고, 끝소리는 부드럽게 연결해 주세요.",
+          "pronNoteKo": "chào bạn는 처음 소리를 과하게 세게 내지 말고 '반'은 마지막 음절은 힘을 빼고 자연스럽게 정리하세요.",
           "pronChunks": [
             "chao=짜오",
             "ban=반"
-          ],
-          "shadowingTipKo": "오디오를 먼저 1회 듣고, 덩어리마다 2회씩 따라 말한 뒤 마지막에 한 번에 이어 말하세요."
+          ]
         },
         {
           "id": "l1-v-03",
@@ -1186,12 +1122,11 @@
           "sourcePage": 20,
           "reviewNeeded": false,
           "pronKo": "깜 언",
-          "pronNoteKo": "cảm ơn는 하노이 기준으로 음절을 짧게 또렷하게 말하고, 끝소리는 부드럽게 연결해 주세요.",
+          "pronNoteKo": "cảm ơn는 첫 음절을 또렷하게 시작하고 '언'은 끝을 낮게 내리며 정리하세요.",
           "pronChunks": [
             "cam=깜",
             "on=언"
-          ],
-          "shadowingTipKo": "오디오를 먼저 1회 듣고, 덩어리마다 2회씩 따라 말한 뒤 마지막에 한 번에 이어 말하세요."
+          ]
         },
         {
           "id": "l1-v-04",
@@ -1203,12 +1138,11 @@
           "sourcePage": 20,
           "reviewNeeded": false,
           "pronKo": "씬 loi",
-          "pronNoteKo": "xin lỗi는 하노이 기준으로 음절을 짧게 또렷하게 말하고, 끝소리는 부드럽게 연결해 주세요.",
+          "pronNoteKo": "xin lỗi는 첫 소리를 짧게 잡고 'loi'은 끝음을 짧게 닫아 마무리하세요.",
           "pronChunks": [
             "xin=씬",
             "loi=loi"
-          ],
-          "shadowingTipKo": "오디오를 먼저 1회 듣고, 덩어리마다 2회씩 따라 말한 뒤 마지막에 한 번에 이어 말하세요."
+          ]
         },
         {
           "id": "l1-v-05",
@@ -1220,12 +1154,11 @@
           "sourcePage": 20,
           "reviewNeeded": false,
           "pronKo": "땀 biet",
-          "pronNoteKo": "tạm biệt는 하노이 기준으로 음절을 짧게 또렷하게 말하고, 끝소리는 부드럽게 연결해 주세요.",
+          "pronNoteKo": "tạm biệt는 앞부분은 끊지 말고 가볍게 붙여서 시작한 뒤 'biet'은 마지막 소리를 부드럽게 이어 말하세요.",
           "pronChunks": [
             "tam=땀",
             "biet=biet"
-          ],
-          "shadowingTipKo": "오디오를 먼저 1회 듣고, 덩어리마다 2회씩 따라 말한 뒤 마지막에 한 번에 이어 말하세요."
+          ]
         },
         {
           "id": "l1-v-06",
@@ -1237,12 +1170,11 @@
           "sourcePage": 20,
           "reviewNeeded": false,
           "pronKo": "hen gap lai",
-          "pronNoteKo": "hẹn gặp lại는 하노이 기준으로 음절을 짧게 또렷하게 말하고, 끝소리는 부드럽게 연결해 주세요.",
+          "pronNoteKo": "hẹn gặp lại는 처음 소리를 과하게 세게 내지 말고 'lai'은 마지막 음절은 힘을 빼고 자연스럽게 정리하세요.",
           "pronChunks": [
-            "hen gap=hen gap",
-            "lai=lai"
-          ],
-          "shadowingTipKo": "오디오를 먼저 1회 듣고, 덩어리마다 2회씩 따라 말한 뒤 마지막에 한 번에 이어 말하세요."
+            "hen gap=hen",
+            "lai=gap"
+          ]
         },
         {
           "id": "l1-v-07",
@@ -1254,11 +1186,10 @@
           "sourcePage": 20,
           "reviewNeeded": false,
           "pronKo": "vang",
-          "pronNoteKo": "vâng는 하노이 기준으로 음절을 짧게 또렷하게 말하고, 끝소리는 부드럽게 연결해 주세요.",
+          "pronNoteKo": "vâng는 'vang'을(를) 짧고 또렷하게 내고 끝을 낮게 내리며 정리하세요.",
           "pronChunks": [
             "vang=vang"
-          ],
-          "shadowingTipKo": "오디오를 먼저 1회 듣고, 덩어리마다 2회씩 따라 말한 뒤 마지막에 한 번에 이어 말하세요."
+          ]
         },
         {
           "id": "l1-v-08",
@@ -1270,11 +1201,10 @@
           "sourcePage": 20,
           "reviewNeeded": false,
           "pronKo": "콩",
-          "pronNoteKo": "không는 하노이 기준으로 음절을 짧게 또렷하게 말하고, 끝소리는 부드럽게 연결해 주세요.",
+          "pronNoteKo": "không는 '콩'을(를) 짧고 또렷하게 내고 끝음을 짧게 닫아 마무리하세요.",
           "pronChunks": [
             "khong=콩"
-          ],
-          "shadowingTipKo": "오디오를 먼저 1회 듣고, 덩어리마다 2회씩 따라 말한 뒤 마지막에 한 번에 이어 말하세요."
+          ]
         },
         {
           "id": "l1-v-09",
@@ -1286,12 +1216,11 @@
           "sourcePage": 20,
           "reviewNeeded": false,
           "pronKo": "콩 sao",
-          "pronNoteKo": "không sao는 하노이 기준으로 음절을 짧게 또렷하게 말하고, 끝소리는 부드럽게 연결해 주세요.",
+          "pronNoteKo": "không sao는 앞부분은 끊지 말고 가볍게 붙여서 시작한 뒤 'sao'은 마지막 소리를 부드럽게 이어 말하세요.",
           "pronChunks": [
             "khong=콩",
             "sao=sao"
-          ],
-          "shadowingTipKo": "오디오를 먼저 1회 듣고, 덩어리마다 2회씩 따라 말한 뒤 마지막에 한 번에 이어 말하세요."
+          ]
         },
         {
           "id": "l1-v-10",
@@ -1303,12 +1232,11 @@
           "sourcePage": 20,
           "reviewNeeded": false,
           "pronKo": "젓 부이 드억 gap 반",
-          "pronNoteKo": "rất vui được gặp bạn는 하노이 기준으로 음절을 짧게 또렷하게 말하고, 끝소리는 부드럽게 연결해 주세요.",
+          "pronNoteKo": "rất vui được gặp bạn는 앞부분은 끊지 말고 가볍게 붙여서 시작한 뒤 '반'은 마지막 소리를 부드럽게 이어 말하세요.",
           "pronChunks": [
             "rat vui=젓 부이",
-            "duoc gap=드억 gap / ban=반"
-          ],
-          "shadowingTipKo": "오디오를 먼저 1회 듣고, 덩어리마다 2회씩 따라 말한 뒤 마지막에 한 번에 이어 말하세요."
+            "duoc gap=부이"
+          ]
         }
       ],
       "sentenceCards": [
@@ -1320,13 +1248,12 @@
           "sourcePage": 21,
           "reviewNeeded": false,
           "pronKo": "씬 짜오 반 쾌 콩",
-          "pronNoteKo": "문장 첫 덩어리는 또렷하게 시작하고, 핵심 단어는 성조를 살려 말한 뒤 문장 끝 억양을 자연스럽게 마무리하세요.",
+          "pronNoteKo": "Xin chào, bạn khỏe không?는 처음 소리를 과하게 세게 내지 말고 '콩'은 마지막 음절은 힘을 빼고 자연스럽게 정리하세요.",
           "pronChunks": [
             "xin chao=씬 짜오",
             "ban khoe=반 쾌",
             "khong=콩"
-          ],
-          "shadowingTipKo": "2~4개 덩어리로 끊어 따라 말한 뒤, 속도를 조금 올려 한 문장으로 이어 말하세요."
+          ]
         },
         {
           "id": "l1-s-02",
@@ -1336,12 +1263,11 @@
           "sourcePage": 21,
           "reviewNeeded": false,
           "pronKo": "또이 쾌 깜 언",
-          "pronNoteKo": "문장 첫 덩어리는 또렷하게 시작하고, 핵심 단어는 성조를 살려 말한 뒤 문장 끝 억양을 자연스럽게 마무리하세요.",
+          "pronNoteKo": "Tôi khỏe, cảm ơn.는 첫 음절을 또렷하게 시작하고 '언'은 끝을 낮게 내리며 정리하세요.",
           "pronChunks": [
             "toi khoe=또이 쾌",
             "cam on=깜 언"
-          ],
-          "shadowingTipKo": "2~4개 덩어리로 끊어 따라 말한 뒤, 속도를 조금 올려 한 문장으로 이어 말하세요."
+          ]
         },
         {
           "id": "l1-s-03",
@@ -1351,13 +1277,12 @@
           "sourcePage": 21,
           "reviewNeeded": false,
           "pronKo": "젓 부이 드억 gap 반",
-          "pronNoteKo": "문장 첫 덩어리는 또렷하게 시작하고, 핵심 단어는 성조를 살려 말한 뒤 문장 끝 억양을 자연스럽게 마무리하세요.",
+          "pronNoteKo": "Rất vui được gặp bạn.는 첫 소리를 짧게 잡고 '반'은 끝음을 짧게 닫아 마무리하세요.",
           "pronChunks": [
             "rat vui=젓 부이",
-            "duoc gap=드억 gap",
+            "duoc gap=부이",
             "ban=반"
-          ],
-          "shadowingTipKo": "2~4개 덩어리로 끊어 따라 말한 뒤, 속도를 조금 올려 한 문장으로 이어 말하세요."
+          ]
         },
         {
           "id": "l1-s-04",
@@ -1367,13 +1292,12 @@
           "sourcePage": 21,
           "reviewNeeded": false,
           "pronKo": "씬 loi 또이 콩 hieu",
-          "pronNoteKo": "문장 첫 덩어리는 또렷하게 시작하고, 핵심 단어는 성조를 살려 말한 뒤 문장 끝 억양을 자연스럽게 마무리하세요.",
+          "pronNoteKo": "Xin lỗi, tôi không hiểu.는 앞부분은 끊지 말고 가볍게 붙여서 시작한 뒤 'hieu'은 마지막 소리를 부드럽게 이어 말하세요.",
           "pronChunks": [
-            "xin loi=씬 loi",
+            "xin loi=씬",
             "toi khong=또이 콩",
-            "hieu=hieu"
-          ],
-          "shadowingTipKo": "2~4개 덩어리로 끊어 따라 말한 뒤, 속도를 조금 올려 한 문장으로 이어 말하세요."
+            "hieu=또이"
+          ]
         },
         {
           "id": "l1-s-05",
@@ -1383,13 +1307,12 @@
           "sourcePage": 21,
           "reviewNeeded": false,
           "pronKo": "반 노이 cham 드억 콩",
-          "pronNoteKo": "문장 첫 덩어리는 또렷하게 시작하고, 핵심 단어는 성조를 살려 말한 뒤 문장 끝 억양을 자연스럽게 마무리하세요.",
+          "pronNoteKo": "Bạn nói chậm được không?는 처음 소리를 과하게 세게 내지 말고 '콩'은 마지막 음절은 힘을 빼고 자연스럽게 정리하세요.",
           "pronChunks": [
             "ban noi=반 노이",
-            "cham duoc=cham 드억",
+            "cham duoc=노이",
             "khong=콩"
-          ],
-          "shadowingTipKo": "2~4개 덩어리로 끊어 따라 말한 뒤, 속도를 조금 올려 한 문장으로 이어 말하세요."
+          ]
         },
         {
           "id": "l1-s-06",
@@ -1399,13 +1322,12 @@
           "sourcePage": 21,
           "reviewNeeded": false,
           "pronKo": "땀 biet hen gap lai",
-          "pronNoteKo": "문장 첫 덩어리는 또렷하게 시작하고, 핵심 단어는 성조를 살려 말한 뒤 문장 끝 억양을 자연스럽게 마무리하세요.",
+          "pronNoteKo": "Tạm biệt, hẹn gặp lại.는 첫 음절을 또렷하게 시작하고 'lai'은 끝을 낮게 내리며 정리하세요.",
           "pronChunks": [
-            "tam biet=땀 biet",
-            "hen gap=hen gap",
-            "lai=lai"
-          ],
-          "shadowingTipKo": "2~4개 덩어리로 끊어 따라 말한 뒤, 속도를 조금 올려 한 문장으로 이어 말하세요."
+            "tam biet=땀",
+            "hen gap=biet",
+            "lai=hen"
+          ]
         }
       ],
       "dialogues": [
@@ -1460,8 +1382,7 @@
           "reviewNeeded": false,
           "pronKo": "씬 짜오",
           "mouthKo": "입술을 과하게 힘주지 말고, 자음 시작을 가볍게 낸 뒤 모음을 길게 열어 소리 내세요.",
-          "toneKo": "하노이 기준 성조를 의식해 음의 높낮이를 분명히 하고, 끝은 급하게 끊지 말고 짧게 정리하세요.",
-          "practiceKo": "오디오를 듣고 같은 속도로 3회 반복한 뒤, 마지막 1회는 끊지 않고 자연스럽게 말하세요."
+          "toneKo": "하노이 기준 성조를 의식해 음의 높낮이를 분명히 하고, 끝은 급하게 끊지 말고 짧게 정리하세요."
         },
         {
           "id": "l1-p-02",
@@ -1472,8 +1393,7 @@
           "reviewNeeded": false,
           "pronKo": "씬 짜오 반 쾌 콩",
           "mouthKo": "입술을 과하게 힘주지 말고, 자음 시작을 가볍게 낸 뒤 모음을 길게 열어 소리 내세요.",
-          "toneKo": "하노이 기준 성조를 의식해 음의 높낮이를 분명히 하고, 끝은 급하게 끊지 말고 짧게 정리하세요.",
-          "practiceKo": "오디오를 듣고 같은 속도로 3회 반복한 뒤, 마지막 1회는 끊지 않고 자연스럽게 말하세요."
+          "toneKo": "하노이 기준 성조를 의식해 음의 높낮이를 분명히 하고, 끝은 급하게 끊지 말고 짧게 정리하세요."
         }
       ],
       "quizSeeds": [
@@ -1531,11 +1451,10 @@
           "sourcePage": 30,
           "reviewNeeded": false,
           "pronKo": "뗀",
-          "pronNoteKo": "tên는 하노이 기준으로 음절을 짧게 또렷하게 말하고, 끝소리는 부드럽게 연결해 주세요.",
+          "pronNoteKo": "tên는 '뗀'을(를) 짧고 또렷하게 내고 마지막 음절은 힘을 빼고 자연스럽게 정리하세요.",
           "pronChunks": [
             "ten=뗀"
-          ],
-          "shadowingTipKo": "오디오를 먼저 1회 듣고, 덩어리마다 2회씩 따라 말한 뒤 마지막에 한 번에 이어 말하세요."
+          ]
         },
         {
           "id": "l2-v-02",
@@ -1547,12 +1466,11 @@
           "sourcePage": 30,
           "reviewNeeded": false,
           "pronKo": "ho 뗀",
-          "pronNoteKo": "họ tên는 하노이 기준으로 음절을 짧게 또렷하게 말하고, 끝소리는 부드럽게 연결해 주세요.",
+          "pronNoteKo": "họ tên는 첫 음절을 또렷하게 시작하고 '뗀'은 끝을 낮게 내리며 정리하세요.",
           "pronChunks": [
             "ho=ho",
             "ten=뗀"
-          ],
-          "shadowingTipKo": "오디오를 먼저 1회 듣고, 덩어리마다 2회씩 따라 말한 뒤 마지막에 한 번에 이어 말하세요."
+          ]
         },
         {
           "id": "l2-v-03",
@@ -1564,12 +1482,11 @@
           "sourcePage": 30,
           "reviewNeeded": false,
           "pronKo": "꾸옥 tich",
-          "pronNoteKo": "quốc tịch는 하노이 기준으로 음절을 짧게 또렷하게 말하고, 끝소리는 부드럽게 연결해 주세요.",
+          "pronNoteKo": "quốc tịch는 첫 소리를 짧게 잡고 'tich'은 끝음을 짧게 닫아 마무리하세요.",
           "pronChunks": [
             "quoc=꾸옥",
             "tich=tich"
-          ],
-          "shadowingTipKo": "오디오를 먼저 1회 듣고, 덩어리마다 2회씩 따라 말한 뒤 마지막에 한 번에 이어 말하세요."
+          ]
         },
         {
           "id": "l2-v-04",
@@ -1581,12 +1498,11 @@
           "sourcePage": 30,
           "reviewNeeded": false,
           "pronKo": "nghe nghiep",
-          "pronNoteKo": "nghề nghiệp는 하노이 기준으로 음절을 짧게 또렷하게 말하고, 끝소리는 부드럽게 연결해 주세요.",
+          "pronNoteKo": "nghề nghiệp는 앞부분은 끊지 말고 가볍게 붙여서 시작한 뒤 'nghiep'은 마지막 소리를 부드럽게 이어 말하세요.",
           "pronChunks": [
             "nghe=nghe",
             "nghiep=nghiep"
-          ],
-          "shadowingTipKo": "오디오를 먼저 1회 듣고, 덩어리마다 2회씩 따라 말한 뒤 마지막에 한 번에 이어 말하세요."
+          ]
         },
         {
           "id": "l2-v-05",
@@ -1598,12 +1514,11 @@
           "sourcePage": 30,
           "reviewNeeded": false,
           "pronKo": "nhan vien van phong",
-          "pronNoteKo": "nhân viên văn phòng는 하노이 기준으로 음절을 짧게 또렷하게 말하고, 끝소리는 부드럽게 연결해 주세요.",
+          "pronNoteKo": "nhân viên văn phòng는 처음 소리를 과하게 세게 내지 말고 'phong'은 마지막 음절은 힘을 빼고 자연스럽게 정리하세요.",
           "pronChunks": [
-            "nhan vien=nhan vien",
-            "van phong=van phong"
-          ],
-          "shadowingTipKo": "오디오를 먼저 1회 듣고, 덩어리마다 2회씩 따라 말한 뒤 마지막에 한 번에 이어 말하세요."
+            "nhan vien=nhan",
+            "van phong=vien"
+          ]
         },
         {
           "id": "l2-v-06",
@@ -1615,12 +1530,11 @@
           "sourcePage": 30,
           "reviewNeeded": false,
           "pronKo": "cong ty",
-          "pronNoteKo": "công ty는 하노이 기준으로 음절을 짧게 또렷하게 말하고, 끝소리는 부드럽게 연결해 주세요.",
+          "pronNoteKo": "công ty는 첫 음절을 또렷하게 시작하고 'ty'은 끝을 낮게 내리며 정리하세요.",
           "pronChunks": [
             "cong=cong",
             "ty=ty"
-          ],
-          "shadowingTipKo": "오디오를 먼저 1회 듣고, 덩어리마다 2회씩 따라 말한 뒤 마지막에 한 번에 이어 말하세요."
+          ]
         },
         {
           "id": "l2-v-07",
@@ -1632,11 +1546,10 @@
           "sourcePage": 30,
           "reviewNeeded": false,
           "pronKo": "tuoi",
-          "pronNoteKo": "tuổi는 하노이 기준으로 음절을 짧게 또렷하게 말하고, 끝소리는 부드럽게 연결해 주세요.",
+          "pronNoteKo": "tuổi는 'tuoi'을(를) 짧고 또렷하게 내고 끝음을 짧게 닫아 마무리하세요.",
           "pronChunks": [
             "tuoi=tuoi"
-          ],
-          "shadowingTipKo": "오디오를 먼저 1회 듣고, 덩어리마다 2회씩 따라 말한 뒤 마지막에 한 번에 이어 말하세요."
+          ]
         },
         {
           "id": "l2-v-08",
@@ -1648,12 +1561,11 @@
           "sourcePage": 30,
           "reviewNeeded": false,
           "pronKo": "que quan",
-          "pronNoteKo": "quê quán는 하노이 기준으로 음절을 짧게 또렷하게 말하고, 끝소리는 부드럽게 연결해 주세요.",
+          "pronNoteKo": "quê quán는 앞부분은 끊지 말고 가볍게 붙여서 시작한 뒤 'quan'은 마지막 소리를 부드럽게 이어 말하세요.",
           "pronChunks": [
             "que=que",
             "quan=quan"
-          ],
-          "shadowingTipKo": "오디오를 먼저 1회 듣고, 덩어리마다 2회씩 따라 말한 뒤 마지막에 한 번에 이어 말하세요."
+          ]
         },
         {
           "id": "l2-v-09",
@@ -1665,12 +1577,11 @@
           "sourcePage": 30,
           "reviewNeeded": false,
           "pronKo": "dia 찌",
-          "pronNoteKo": "địa chỉ는 하노이 기준으로 음절을 짧게 또렷하게 말하고, 끝소리는 부드럽게 연결해 주세요.",
+          "pronNoteKo": "địa chỉ는 처음 소리를 과하게 세게 내지 말고 '찌'은 마지막 음절은 힘을 빼고 자연스럽게 정리하세요.",
           "pronChunks": [
             "dia=dia",
             "chi=찌"
-          ],
-          "shadowingTipKo": "오디오를 먼저 1회 듣고, 덩어리마다 2회씩 따라 말한 뒤 마지막에 한 번에 이어 말하세요."
+          ]
         },
         {
           "id": "l2-v-10",
@@ -1682,12 +1593,11 @@
           "sourcePage": 30,
           "reviewNeeded": false,
           "pronKo": "so dien thoai",
-          "pronNoteKo": "số điện thoại는 하노이 기준으로 음절을 짧게 또렷하게 말하고, 끝소리는 부드럽게 연결해 주세요.",
+          "pronNoteKo": "số điện thoại는 처음 소리를 과하게 세게 내지 말고 'thoai'은 마지막 음절은 힘을 빼고 자연스럽게 정리하세요.",
           "pronChunks": [
-            "so dien=so dien",
-            "thoai=thoai"
-          ],
-          "shadowingTipKo": "오디오를 먼저 1회 듣고, 덩어리마다 2회씩 따라 말한 뒤 마지막에 한 번에 이어 말하세요."
+            "so dien=so",
+            "thoai=dien"
+          ]
         }
       ],
       "sentenceCards": [
@@ -1699,12 +1609,11 @@
           "sourcePage": 31,
           "reviewNeeded": false,
           "pronKo": "또이 뗀 라 sungmook",
-          "pronNoteKo": "문장 첫 덩어리는 또렷하게 시작하고, 핵심 단어는 성조를 살려 말한 뒤 문장 끝 억양을 자연스럽게 마무리하세요.",
+          "pronNoteKo": "Tôi tên là Sungmook.는 첫 음절을 또렷하게 시작하고 'sungmook'은 끝을 낮게 내리며 정리하세요.",
           "pronChunks": [
             "toi ten=또이 뗀",
-            "la sungmook=라 sungmook"
-          ],
-          "shadowingTipKo": "2~4개 덩어리로 끊어 따라 말한 뒤, 속도를 조금 올려 한 문장으로 이어 말하세요."
+            "la sungmook=뗀"
+          ]
         },
         {
           "id": "l2-s-02",
@@ -1714,13 +1623,12 @@
           "sourcePage": 31,
           "reviewNeeded": false,
           "pronKo": "또이 라 응어이 한 꾸옥",
-          "pronNoteKo": "문장 첫 덩어리는 또렷하게 시작하고, 핵심 단어는 성조를 살려 말한 뒤 문장 끝 억양을 자연스럽게 마무리하세요.",
+          "pronNoteKo": "Tôi là người Hàn Quốc.는 첫 소리를 짧게 잡고 '꾸옥'은 끝음을 짧게 닫아 마무리하세요.",
           "pronChunks": [
             "toi la=또이 라",
             "nguoi han=응어이 한",
             "quoc=꾸옥"
-          ],
-          "shadowingTipKo": "2~4개 덩어리로 끊어 따라 말한 뒤, 속도를 조금 올려 한 문장으로 이어 말하세요."
+          ]
         },
         {
           "id": "l2-s-03",
@@ -1730,13 +1638,12 @@
           "sourcePage": 31,
           "reviewNeeded": false,
           "pronKo": "또이 라 nhan vien van phong",
-          "pronNoteKo": "문장 첫 덩어리는 또렷하게 시작하고, 핵심 단어는 성조를 살려 말한 뒤 문장 끝 억양을 자연스럽게 마무리하세요.",
+          "pronNoteKo": "Tôi là nhân viên văn phòng.는 앞부분은 끊지 말고 가볍게 붙여서 시작한 뒤 'phong'은 마지막 소리를 부드럽게 이어 말하세요.",
           "pronChunks": [
             "toi la=또이 라",
-            "nhan vien=nhan vien",
-            "van phong=van phong"
-          ],
-          "shadowingTipKo": "2~4개 덩어리로 끊어 따라 말한 뒤, 속도를 조금 올려 한 문장으로 이어 말하세요."
+            "nhan vien=라",
+            "van phong=nhan"
+          ]
         },
         {
           "id": "l2-s-04",
@@ -1746,13 +1653,12 @@
           "sourcePage": 31,
           "reviewNeeded": false,
           "pronKo": "또이 song o 한 꾸옥",
-          "pronNoteKo": "문장 첫 덩어리는 또렷하게 시작하고, 핵심 단어는 성조를 살려 말한 뒤 문장 끝 억양을 자연스럽게 마무리하세요.",
+          "pronNoteKo": "Tôi sống ở Hàn Quốc.는 처음 소리를 과하게 세게 내지 말고 '꾸옥'은 마지막 음절은 힘을 빼고 자연스럽게 정리하세요.",
           "pronChunks": [
-            "toi song=또이 song",
-            "o han=o 한",
+            "toi song=또이",
+            "o han=song",
             "quoc=꾸옥"
-          ],
-          "shadowingTipKo": "2~4개 덩어리로 끊어 따라 말한 뒤, 속도를 조금 올려 한 문장으로 이어 말하세요."
+          ]
         },
         {
           "id": "l2-s-05",
@@ -1762,13 +1668,12 @@
           "sourcePage": 31,
           "reviewNeeded": false,
           "pronKo": "또이 혹 띠엥 비엣 moi ngay",
-          "pronNoteKo": "문장 첫 덩어리는 또렷하게 시작하고, 핵심 단어는 성조를 살려 말한 뒤 문장 끝 억양을 자연스럽게 마무리하세요.",
+          "pronNoteKo": "Tôi học tiếng Việt mỗi ngày.는 첫 음절을 또렷하게 시작하고 'ngay'은 끝을 낮게 내리며 정리하세요.",
           "pronChunks": [
             "toi hoc=또이 혹",
             "tieng viet=띠엥 비엣",
-            "moi ngay=moi ngay"
-          ],
-          "shadowingTipKo": "2~4개 덩어리로 끊어 따라 말한 뒤, 속도를 조금 올려 한 문장으로 이어 말하세요."
+            "moi ngay=띠엥"
+          ]
         },
         {
           "id": "l2-s-06",
@@ -1778,13 +1683,12 @@
           "sourcePage": 31,
           "reviewNeeded": false,
           "pronKo": "또이 무온 song o 하 노이 trong tuong lai",
-          "pronNoteKo": "문장 첫 덩어리는 또렷하게 시작하고, 핵심 단어는 성조를 살려 말한 뒤 문장 끝 억양을 자연스럽게 마무리하세요.",
+          "pronNoteKo": "Tôi muốn sống ở Hà Nội trong tương lai.는 첫 소리를 짧게 잡고 'lai'은 끝음을 짧게 닫아 마무리하세요.",
           "pronChunks": [
-            "toi muon song=또이 무온 song",
-            "o ha noi=o 하 노이",
-            "trong tuong lai=trong tuong lai"
-          ],
-          "shadowingTipKo": "2~4개 덩어리로 끊어 따라 말한 뒤, 속도를 조금 올려 한 문장으로 이어 말하세요."
+            "toi muon song=또이",
+            "o ha noi=무온",
+            "trong tuong lai=song"
+          ]
         },
         {
           "id": "l2-s-07",
@@ -1794,13 +1698,12 @@
           "sourcePage": 31,
           "reviewNeeded": false,
           "pronKo": "젓 mong 드억 줍 do",
-          "pronNoteKo": "문장 첫 덩어리는 또렷하게 시작하고, 핵심 단어는 성조를 살려 말한 뒤 문장 끝 억양을 자연스럽게 마무리하세요.",
+          "pronNoteKo": "Rất mong được giúp đỡ.는 앞부분은 끊지 말고 가볍게 붙여서 시작한 뒤 'do'은 마지막 소리를 부드럽게 이어 말하세요.",
           "pronChunks": [
-            "rat mong=젓 mong",
+            "rat mong=젓",
             "duoc giup=드억 줍",
-            "do=do"
-          ],
-          "shadowingTipKo": "2~4개 덩어리로 끊어 따라 말한 뒤, 속도를 조금 올려 한 문장으로 이어 말하세요."
+            "do=드억"
+          ]
         }
       ],
       "dialogues": [
@@ -1855,8 +1758,7 @@
           "reviewNeeded": false,
           "pronKo": "뗀",
           "mouthKo": "입술을 과하게 힘주지 말고, 자음 시작을 가볍게 낸 뒤 모음을 길게 열어 소리 내세요.",
-          "toneKo": "하노이 기준 성조를 의식해 음의 높낮이를 분명히 하고, 끝은 급하게 끊지 말고 짧게 정리하세요.",
-          "practiceKo": "오디오를 듣고 같은 속도로 3회 반복한 뒤, 마지막 1회는 끊지 않고 자연스럽게 말하세요."
+          "toneKo": "하노이 기준 성조를 의식해 음의 높낮이를 분명히 하고, 끝은 급하게 끊지 말고 짧게 정리하세요."
         },
         {
           "id": "l2-p-02",
@@ -1867,8 +1769,7 @@
           "reviewNeeded": false,
           "pronKo": "또이 뗀 라 sungmook",
           "mouthKo": "입술을 과하게 힘주지 말고, 자음 시작을 가볍게 낸 뒤 모음을 길게 열어 소리 내세요.",
-          "toneKo": "하노이 기준 성조를 의식해 음의 높낮이를 분명히 하고, 끝은 급하게 끊지 말고 짧게 정리하세요.",
-          "practiceKo": "오디오를 듣고 같은 속도로 3회 반복한 뒤, 마지막 1회는 끊지 않고 자연스럽게 말하세요."
+          "toneKo": "하노이 기준 성조를 의식해 음의 높낮이를 분명히 하고, 끝은 급하게 끊지 말고 짧게 정리하세요."
         }
       ],
       "quizSeeds": [
@@ -1925,12 +1826,11 @@
           "sourcePage": 40,
           "reviewNeeded": false,
           "pronKo": "gia dinh",
-          "pronNoteKo": "gia đình는 하노이 기준으로 음절을 짧게 또렷하게 말하고, 끝소리는 부드럽게 연결해 주세요.",
+          "pronNoteKo": "gia đình는 첫 음절을 또렷하게 시작하고 'dinh'은 끝을 낮게 내리며 정리하세요.",
           "pronChunks": [
             "gia=gia",
             "dinh=dinh"
-          ],
-          "shadowingTipKo": "오디오를 먼저 1회 듣고, 덩어리마다 2회씩 따라 말한 뒤 마지막에 한 번에 이어 말하세요."
+          ]
         },
         {
           "id": "l3-v-02",
@@ -1942,11 +1842,10 @@
           "sourcePage": 40,
           "reviewNeeded": false,
           "pronKo": "보",
-          "pronNoteKo": "bố는 하노이 기준으로 음절을 짧게 또렷하게 말하고, 끝소리는 부드럽게 연결해 주세요.",
+          "pronNoteKo": "bố는 '보'을(를) 짧고 또렷하게 내고 끝음을 짧게 닫아 마무리하세요.",
           "pronChunks": [
             "bo=보"
-          ],
-          "shadowingTipKo": "오디오를 먼저 1회 듣고, 덩어리마다 2회씩 따라 말한 뒤 마지막에 한 번에 이어 말하세요."
+          ]
         },
         {
           "id": "l3-v-03",
@@ -1958,11 +1857,10 @@
           "sourcePage": 40,
           "reviewNeeded": false,
           "pronKo": "me",
-          "pronNoteKo": "mẹ는 하노이 기준으로 음절을 짧게 또렷하게 말하고, 끝소리는 부드럽게 연결해 주세요.",
+          "pronNoteKo": "mẹ는 'me'을(를) 짧고 또렷하게 내고 마지막 소리를 부드럽게 이어 말하세요.",
           "pronChunks": [
             "me=me"
-          ],
-          "shadowingTipKo": "오디오를 먼저 1회 듣고, 덩어리마다 2회씩 따라 말한 뒤 마지막에 한 번에 이어 말하세요."
+          ]
         },
         {
           "id": "l3-v-04",
@@ -1974,11 +1872,10 @@
           "sourcePage": 40,
           "reviewNeeded": false,
           "pronKo": "vo",
-          "pronNoteKo": "vợ는 하노이 기준으로 음절을 짧게 또렷하게 말하고, 끝소리는 부드럽게 연결해 주세요.",
+          "pronNoteKo": "vợ는 'vo'을(를) 짧고 또렷하게 내고 마지막 음절은 힘을 빼고 자연스럽게 정리하세요.",
           "pronChunks": [
             "vo=vo"
-          ],
-          "shadowingTipKo": "오디오를 먼저 1회 듣고, 덩어리마다 2회씩 따라 말한 뒤 마지막에 한 번에 이어 말하세요."
+          ]
         },
         {
           "id": "l3-v-05",
@@ -1990,11 +1887,10 @@
           "sourcePage": 40,
           "reviewNeeded": false,
           "pronKo": "chong",
-          "pronNoteKo": "chồng는 하노이 기준으로 음절을 짧게 또렷하게 말하고, 끝소리는 부드럽게 연결해 주세요.",
+          "pronNoteKo": "chồng는 'chong'을(를) 짧고 또렷하게 내고 끝을 낮게 내리며 정리하세요.",
           "pronChunks": [
             "chong=chong"
-          ],
-          "shadowingTipKo": "오디오를 먼저 1회 듣고, 덩어리마다 2회씩 따라 말한 뒤 마지막에 한 번에 이어 말하세요."
+          ]
         },
         {
           "id": "l3-v-06",
@@ -2006,12 +1902,11 @@
           "sourcePage": 40,
           "reviewNeeded": false,
           "pronKo": "con gai",
-          "pronNoteKo": "con gái는 하노이 기준으로 음절을 짧게 또렷하게 말하고, 끝소리는 부드럽게 연결해 주세요.",
+          "pronNoteKo": "con gái는 첫 소리를 짧게 잡고 'gai'은 끝음을 짧게 닫아 마무리하세요.",
           "pronChunks": [
             "con=con",
             "gai=gai"
-          ],
-          "shadowingTipKo": "오디오를 먼저 1회 듣고, 덩어리마다 2회씩 따라 말한 뒤 마지막에 한 번에 이어 말하세요."
+          ]
         },
         {
           "id": "l3-v-07",
@@ -2023,12 +1918,11 @@
           "sourcePage": 40,
           "reviewNeeded": false,
           "pronKo": "똣 bung",
-          "pronNoteKo": "tốt bụng는 하노이 기준으로 음절을 짧게 또렷하게 말하고, 끝소리는 부드럽게 연결해 주세요.",
+          "pronNoteKo": "tốt bụng는 앞부분은 끊지 말고 가볍게 붙여서 시작한 뒤 'bung'은 마지막 소리를 부드럽게 이어 말하세요.",
           "pronChunks": [
             "tot=똣",
             "bung=bung"
-          ],
-          "shadowingTipKo": "오디오를 먼저 1회 듣고, 덩어리마다 2회씩 따라 말한 뒤 마지막에 한 번에 이어 말하세요."
+          ]
         },
         {
           "id": "l3-v-08",
@@ -2040,12 +1934,11 @@
           "sourcePage": 40,
           "reviewNeeded": false,
           "pronKo": "부이 tinh",
-          "pronNoteKo": "vui tính는 하노이 기준으로 음절을 짧게 또렷하게 말하고, 끝소리는 부드럽게 연결해 주세요.",
+          "pronNoteKo": "vui tính는 처음 소리를 과하게 세게 내지 말고 'tinh'은 마지막 음절은 힘을 빼고 자연스럽게 정리하세요.",
           "pronChunks": [
             "vui=부이",
             "tinh=tinh"
-          ],
-          "shadowingTipKo": "오디오를 먼저 1회 듣고, 덩어리마다 2회씩 따라 말한 뒤 마지막에 한 번에 이어 말하세요."
+          ]
         },
         {
           "id": "l3-v-09",
@@ -2057,11 +1950,10 @@
           "sourcePage": 40,
           "reviewNeeded": false,
           "pronKo": "cao",
-          "pronNoteKo": "cao는 하노이 기준으로 음절을 짧게 또렷하게 말하고, 끝소리는 부드럽게 연결해 주세요.",
+          "pronNoteKo": "cao는 'cao'을(를) 짧고 또렷하게 내고 끝을 낮게 내리며 정리하세요.",
           "pronChunks": [
             "cao=cao"
-          ],
-          "shadowingTipKo": "오디오를 먼저 1회 듣고, 덩어리마다 2회씩 따라 말한 뒤 마지막에 한 번에 이어 말하세요."
+          ]
         },
         {
           "id": "l3-v-10",
@@ -2073,11 +1965,10 @@
           "sourcePage": 40,
           "reviewNeeded": false,
           "pronKo": "녀",
-          "pronNoteKo": "nhỏ는 하노이 기준으로 음절을 짧게 또렷하게 말하고, 끝소리는 부드럽게 연결해 주세요.",
+          "pronNoteKo": "nhỏ는 '녀'을(를) 짧고 또렷하게 내고 끝을 낮게 내리며 정리하세요.",
           "pronChunks": [
             "nho=녀"
-          ],
-          "shadowingTipKo": "오디오를 먼저 1회 듣고, 덩어리마다 2회씩 따라 말한 뒤 마지막에 한 번에 이어 말하세요."
+          ]
         }
       ],
       "sentenceCards": [
@@ -2089,13 +1980,12 @@
           "sourcePage": 41,
           "reviewNeeded": false,
           "pronKo": "gia dinh 또이 꼬 본 응어이",
-          "pronNoteKo": "문장 첫 덩어리는 또렷하게 시작하고, 핵심 단어는 성조를 살려 말한 뒤 문장 끝 억양을 자연스럽게 마무리하세요.",
+          "pronNoteKo": "Gia đình tôi có bốn người.는 첫 소리를 짧게 잡고 '응어이'은 끝음을 짧게 닫아 마무리하세요.",
           "pronChunks": [
-            "gia dinh=gia dinh",
+            "gia dinh=gia",
             "toi co=또이 꼬",
             "bon nguoi=본 응어이"
-          ],
-          "shadowingTipKo": "2~4개 덩어리로 끊어 따라 말한 뒤, 속도를 조금 올려 한 문장으로 이어 말하세요."
+          ]
         },
         {
           "id": "l3-s-02",
@@ -2105,13 +1995,12 @@
           "sourcePage": 41,
           "reviewNeeded": false,
           "pronKo": "또이 꼬 하이 con gai",
-          "pronNoteKo": "문장 첫 덩어리는 또렷하게 시작하고, 핵심 단어는 성조를 살려 말한 뒤 문장 끝 억양을 자연스럽게 마무리하세요.",
+          "pronNoteKo": "Tôi có hai con gái.는 앞부분은 끊지 말고 가볍게 붙여서 시작한 뒤 'gai'은 마지막 소리를 부드럽게 이어 말하세요.",
           "pronChunks": [
             "toi co=또이 꼬",
-            "hai con=하이 con",
-            "gai=gai"
-          ],
-          "shadowingTipKo": "2~4개 덩어리로 끊어 따라 말한 뒤, 속도를 조금 올려 한 문장으로 이어 말하세요."
+            "hai con=꼬",
+            "gai=하이"
+          ]
         },
         {
           "id": "l3-s-03",
@@ -2121,12 +2010,11 @@
           "sourcePage": 41,
           "reviewNeeded": false,
           "pronKo": "보 또이 젓 hien",
-          "pronNoteKo": "문장 첫 덩어리는 또렷하게 시작하고, 핵심 단어는 성조를 살려 말한 뒤 문장 끝 억양을 자연스럽게 마무리하세요.",
+          "pronNoteKo": "Bố tôi rất hiền.는 처음 소리를 과하게 세게 내지 말고 'hien'은 마지막 음절은 힘을 빼고 자연스럽게 정리하세요.",
           "pronChunks": [
             "bo toi=보 또이",
-            "rat hien=젓 hien"
-          ],
-          "shadowingTipKo": "2~4개 덩어리로 끊어 따라 말한 뒤, 속도를 조금 올려 한 문장으로 이어 말하세요."
+            "rat hien=또이"
+          ]
         },
         {
           "id": "l3-s-04",
@@ -2136,13 +2024,12 @@
           "sourcePage": 41,
           "reviewNeeded": false,
           "pronKo": "me 또이 젓 똣 bung",
-          "pronNoteKo": "문장 첫 덩어리는 또렷하게 시작하고, 핵심 단어는 성조를 살려 말한 뒤 문장 끝 억양을 자연스럽게 마무리하세요.",
+          "pronNoteKo": "Mẹ tôi rất tốt bụng.는 첫 음절을 또렷하게 시작하고 'bung'은 끝을 낮게 내리며 정리하세요.",
           "pronChunks": [
-            "me toi=me 또이",
+            "me toi=me",
             "rat tot=젓 똣",
-            "bung=bung"
-          ],
-          "shadowingTipKo": "2~4개 덩어리로 끊어 따라 말한 뒤, 속도를 조금 올려 한 문장으로 이어 말하세요."
+            "bung=젓"
+          ]
         },
         {
           "id": "l3-s-05",
@@ -2152,13 +2039,12 @@
           "sourcePage": 41,
           "reviewNeeded": false,
           "pronKo": "con gai 또이 con 녀 nhung 젓 당 yeu",
-          "pronNoteKo": "문장 첫 덩어리는 또렷하게 시작하고, 핵심 단어는 성조를 살려 말한 뒤 문장 끝 억양을 자연스럽게 마무리하세요.",
+          "pronNoteKo": "Con gái tôi còn nhỏ nhưng rất đáng yêu.는 첫 소리를 짧게 잡고 'yeu'은 끝음을 짧게 닫아 마무리하세요.",
           "pronChunks": [
-            "con gai toi=con gai 또이",
-            "con nho nhung=con 녀 nhung",
-            "rat dang yeu=젓 당 yeu"
-          ],
-          "shadowingTipKo": "2~4개 덩어리로 끊어 따라 말한 뒤, 속도를 조금 올려 한 문장으로 이어 말하세요."
+            "con gai toi=con",
+            "con nho nhung=gai",
+            "rat dang yeu=또이"
+          ]
         },
         {
           "id": "l3-s-06",
@@ -2168,14 +2054,13 @@
           "sourcePage": 41,
           "reviewNeeded": false,
           "pronKo": "또이 thuong 디 choi voi gia dinh vao cuoi tuan",
-          "pronNoteKo": "문장 첫 덩어리는 또렷하게 시작하고, 핵심 단어는 성조를 살려 말한 뒤 문장 끝 억양을 자연스럽게 마무리하세요.",
+          "pronNoteKo": "Tôi thường đi chơi với gia đình vào cuối tuần.는 앞부분은 끊지 말고 가볍게 붙여서 시작한 뒤 'tuan'은 마지막 소리를 부드럽게 이어 말하세요.",
           "pronChunks": [
-            "toi thuong di=또이 thuong 디",
-            "choi voi gia=choi voi gia",
-            "dinh vao cuoi=dinh vao cuoi",
-            "tuan=tuan"
-          ],
-          "shadowingTipKo": "2~4개 덩어리로 끊어 따라 말한 뒤, 속도를 조금 올려 한 문장으로 이어 말하세요."
+            "toi thuong di=또이",
+            "choi voi gia=thuong",
+            "dinh vao cuoi=디",
+            "tuan=choi"
+          ]
         }
       ],
       "dialogues": [
@@ -2230,8 +2115,7 @@
           "reviewNeeded": false,
           "pronKo": "gia dinh",
           "mouthKo": "입술을 과하게 힘주지 말고, 자음 시작을 가볍게 낸 뒤 모음을 길게 열어 소리 내세요.",
-          "toneKo": "하노이 기준 성조를 의식해 음의 높낮이를 분명히 하고, 끝은 급하게 끊지 말고 짧게 정리하세요.",
-          "practiceKo": "오디오를 듣고 같은 속도로 3회 반복한 뒤, 마지막 1회는 끊지 않고 자연스럽게 말하세요."
+          "toneKo": "하노이 기준 성조를 의식해 음의 높낮이를 분명히 하고, 끝은 급하게 끊지 말고 짧게 정리하세요."
         },
         {
           "id": "l3-p-02",
@@ -2242,8 +2126,7 @@
           "reviewNeeded": false,
           "pronKo": "gia dinh 또이 꼬 본 응어이",
           "mouthKo": "입술을 과하게 힘주지 말고, 자음 시작을 가볍게 낸 뒤 모음을 길게 열어 소리 내세요.",
-          "toneKo": "하노이 기준 성조를 의식해 음의 높낮이를 분명히 하고, 끝은 급하게 끊지 말고 짧게 정리하세요.",
-          "practiceKo": "오디오를 듣고 같은 속도로 3회 반복한 뒤, 마지막 1회는 끊지 않고 자연스럽게 말하세요."
+          "toneKo": "하노이 기준 성조를 의식해 음의 높낮이를 분명히 하고, 끝은 급하게 끊지 말고 짧게 정리하세요."
         }
       ],
       "quizSeeds": [
@@ -2300,12 +2183,11 @@
           "sourcePage": 50,
           "reviewNeeded": false,
           "pronKo": "thuc day",
-          "pronNoteKo": "thức dậy는 하노이 기준으로 음절을 짧게 또렷하게 말하고, 끝소리는 부드럽게 연결해 주세요.",
+          "pronNoteKo": "thức dậy는 첫 소리를 짧게 잡고 'day'은 끝음을 짧게 닫아 마무리하세요.",
           "pronChunks": [
             "thuc=thuc",
             "day=day"
-          ],
-          "shadowingTipKo": "오디오를 먼저 1회 듣고, 덩어리마다 2회씩 따라 말한 뒤 마지막에 한 번에 이어 말하세요."
+          ]
         },
         {
           "id": "l4-v-02",
@@ -2317,12 +2199,11 @@
           "sourcePage": 50,
           "reviewNeeded": false,
           "pronKo": "디 람",
-          "pronNoteKo": "đi làm는 하노이 기준으로 음절을 짧게 또렷하게 말하고, 끝소리는 부드럽게 연결해 주세요.",
+          "pronNoteKo": "đi làm는 앞부분은 끊지 말고 가볍게 붙여서 시작한 뒤 '람'은 마지막 소리를 부드럽게 이어 말하세요.",
           "pronChunks": [
             "di=디",
             "lam=람"
-          ],
-          "shadowingTipKo": "오디오를 먼저 1회 듣고, 덩어리마다 2회씩 따라 말한 뒤 마지막에 한 번에 이어 말하세요."
+          ]
         },
         {
           "id": "l4-v-03",
@@ -2334,12 +2215,11 @@
           "sourcePage": 50,
           "reviewNeeded": false,
           "pronKo": "안 상",
-          "pronNoteKo": "ăn sáng는 하노이 기준으로 음절을 짧게 또렷하게 말하고, 끝소리는 부드럽게 연결해 주세요.",
+          "pronNoteKo": "ăn sáng는 처음 소리를 과하게 세게 내지 말고 '상'은 마지막 음절은 힘을 빼고 자연스럽게 정리하세요.",
           "pronChunks": [
             "an=안",
             "sang=상"
-          ],
-          "shadowingTipKo": "오디오를 먼저 1회 듣고, 덩어리마다 2회씩 따라 말한 뒤 마지막에 한 번에 이어 말하세요."
+          ]
         },
         {
           "id": "l4-v-04",
@@ -2351,12 +2231,11 @@
           "sourcePage": 50,
           "reviewNeeded": false,
           "pronKo": "안 쯔어",
-          "pronNoteKo": "ăn trưa는 하노이 기준으로 음절을 짧게 또렷하게 말하고, 끝소리는 부드럽게 연결해 주세요.",
+          "pronNoteKo": "ăn trưa는 첫 음절을 또렷하게 시작하고 '쯔어'은 끝을 낮게 내리며 정리하세요.",
           "pronChunks": [
             "an=안",
             "trua=쯔어"
-          ],
-          "shadowingTipKo": "오디오를 먼저 1회 듣고, 덩어리마다 2회씩 따라 말한 뒤 마지막에 한 번에 이어 말하세요."
+          ]
         },
         {
           "id": "l4-v-05",
@@ -2368,12 +2247,11 @@
           "sourcePage": 50,
           "reviewNeeded": false,
           "pronKo": "ve 냐",
-          "pronNoteKo": "về nhà는 하노이 기준으로 음절을 짧게 또렷하게 말하고, 끝소리는 부드럽게 연결해 주세요.",
+          "pronNoteKo": "về nhà는 첫 소리를 짧게 잡고 '냐'은 끝음을 짧게 닫아 마무리하세요.",
           "pronChunks": [
             "ve=ve",
             "nha=냐"
-          ],
-          "shadowingTipKo": "오디오를 먼저 1회 듣고, 덩어리마다 2회씩 따라 말한 뒤 마지막에 한 번에 이어 말하세요."
+          ]
         },
         {
           "id": "l4-v-06",
@@ -2385,11 +2263,10 @@
           "sourcePage": 50,
           "reviewNeeded": false,
           "pronKo": "혹",
-          "pronNoteKo": "học는 하노이 기준으로 음절을 짧게 또렷하게 말하고, 끝소리는 부드럽게 연결해 주세요.",
+          "pronNoteKo": "học는 '혹'을(를) 짧고 또렷하게 내고 마지막 소리를 부드럽게 이어 말하세요.",
           "pronChunks": [
             "hoc=혹"
-          ],
-          "shadowingTipKo": "오디오를 먼저 1회 듣고, 덩어리마다 2회씩 따라 말한 뒤 마지막에 한 번에 이어 말하세요."
+          ]
         },
         {
           "id": "l4-v-07",
@@ -2401,12 +2278,11 @@
           "sourcePage": 50,
           "reviewNeeded": false,
           "pronKo": "moi ngay",
-          "pronNoteKo": "mỗi ngày는 하노이 기준으로 음절을 짧게 또렷하게 말하고, 끝소리는 부드럽게 연결해 주세요.",
+          "pronNoteKo": "mỗi ngày는 처음 소리를 과하게 세게 내지 말고 'ngay'은 마지막 음절은 힘을 빼고 자연스럽게 정리하세요.",
           "pronChunks": [
             "moi=moi",
             "ngay=ngay"
-          ],
-          "shadowingTipKo": "오디오를 먼저 1회 듣고, 덩어리마다 2회씩 따라 말한 뒤 마지막에 한 번에 이어 말하세요."
+          ]
         },
         {
           "id": "l4-v-08",
@@ -2418,11 +2294,10 @@
           "sourcePage": 50,
           "reviewNeeded": false,
           "pronKo": "thuong",
-          "pronNoteKo": "thường는 하노이 기준으로 음절을 짧게 또렷하게 말하고, 끝소리는 부드럽게 연결해 주세요.",
+          "pronNoteKo": "thường는 'thuong'을(를) 짧고 또렷하게 내고 끝을 낮게 내리며 정리하세요.",
           "pronChunks": [
             "thuong=thuong"
-          ],
-          "shadowingTipKo": "오디오를 먼저 1회 듣고, 덩어리마다 2회씩 따라 말한 뒤 마지막에 한 번에 이어 말하세요."
+          ]
         },
         {
           "id": "l4-v-09",
@@ -2434,12 +2309,11 @@
           "sourcePage": 50,
           "reviewNeeded": false,
           "pronKo": "doi khi",
-          "pronNoteKo": "đôi khi는 하노이 기준으로 음절을 짧게 또렷하게 말하고, 끝소리는 부드럽게 연결해 주세요.",
+          "pronNoteKo": "đôi khi는 첫 소리를 짧게 잡고 'khi'은 끝음을 짧게 닫아 마무리하세요.",
           "pronChunks": [
             "doi=doi",
             "khi=khi"
-          ],
-          "shadowingTipKo": "오디오를 먼저 1회 듣고, 덩어리마다 2회씩 따라 말한 뒤 마지막에 한 번에 이어 말하세요."
+          ]
         },
         {
           "id": "l4-v-10",
@@ -2451,12 +2325,11 @@
           "sourcePage": 50,
           "reviewNeeded": false,
           "pronKo": "nghi ngoi",
-          "pronNoteKo": "nghỉ ngơi는 하노이 기준으로 음절을 짧게 또렷하게 말하고, 끝소리는 부드럽게 연결해 주세요.",
+          "pronNoteKo": "nghỉ ngơi는 첫 소리를 짧게 잡고 'ngoi'은 끝음을 짧게 닫아 마무리하세요.",
           "pronChunks": [
             "nghi=nghi",
             "ngoi=ngoi"
-          ],
-          "shadowingTipKo": "오디오를 먼저 1회 듣고, 덩어리마다 2회씩 따라 말한 뒤 마지막에 한 번에 이어 말하세요."
+          ]
         }
       ],
       "sentenceCards": [
@@ -2468,13 +2341,12 @@
           "sourcePage": 51,
           "reviewNeeded": false,
           "pronKo": "buoi 상 또이 thuc day luc 사우 gio",
-          "pronNoteKo": "문장 첫 덩어리는 또렷하게 시작하고, 핵심 단어는 성조를 살려 말한 뒤 문장 끝 억양을 자연스럽게 마무리하세요.",
+          "pronNoteKo": "Buổi sáng, tôi thức dậy lúc sáu giờ.는 앞부분은 끊지 말고 가볍게 붙여서 시작한 뒤 'gio'은 마지막 소리를 부드럽게 이어 말하세요.",
           "pronChunks": [
-            "buoi sang toi=buoi 상 또이",
-            "thuc day luc=thuc day luc",
-            "sau gio=사우 gio"
-          ],
-          "shadowingTipKo": "2~4개 덩어리로 끊어 따라 말한 뒤, 속도를 조금 올려 한 문장으로 이어 말하세요."
+            "buoi sang toi=buoi",
+            "thuc day luc=상",
+            "sau gio=또이"
+          ]
         },
         {
           "id": "l4-s-02",
@@ -2484,13 +2356,12 @@
           "sourcePage": 51,
           "reviewNeeded": false,
           "pronKo": "또이 thuong 디 람 luc 땀 gio",
-          "pronNoteKo": "문장 첫 덩어리는 또렷하게 시작하고, 핵심 단어는 성조를 살려 말한 뒤 문장 끝 억양을 자연스럽게 마무리하세요.",
+          "pronNoteKo": "Tôi thường đi làm lúc tám giờ.는 처음 소리를 과하게 세게 내지 말고 'gio'은 마지막 음절은 힘을 빼고 자연스럽게 정리하세요.",
           "pronChunks": [
-            "toi thuong di=또이 thuong 디",
-            "lam luc tam=람 luc 땀",
-            "gio=gio"
-          ],
-          "shadowingTipKo": "2~4개 덩어리로 끊어 따라 말한 뒤, 속도를 조금 올려 한 문장으로 이어 말하세요."
+            "toi thuong di=또이",
+            "lam luc tam=thuong",
+            "gio=디"
+          ]
         },
         {
           "id": "l4-s-03",
@@ -2500,13 +2371,12 @@
           "sourcePage": 51,
           "reviewNeeded": false,
           "pronKo": "사우 gio 람 또이 혹 띠엥 비엣",
-          "pronNoteKo": "문장 첫 덩어리는 또렷하게 시작하고, 핵심 단어는 성조를 살려 말한 뒤 문장 끝 억양을 자연스럽게 마무리하세요.",
+          "pronNoteKo": "Sau giờ làm, tôi học tiếng Việt.는 첫 음절을 또렷하게 시작하고 '비엣'은 끝을 낮게 내리며 정리하세요.",
           "pronChunks": [
-            "sau gio lam=사우 gio 람",
+            "sau gio lam=사우",
             "toi hoc tieng=또이 혹 띠엥",
             "viet=비엣"
-          ],
-          "shadowingTipKo": "2~4개 덩어리로 끊어 따라 말한 뒤, 속도를 조금 올려 한 문장으로 이어 말하세요."
+          ]
         },
         {
           "id": "l4-s-04",
@@ -2516,13 +2386,12 @@
           "sourcePage": 51,
           "reviewNeeded": false,
           "pronKo": "또이 혹 바 므어이 phut moi ngay",
-          "pronNoteKo": "문장 첫 덩어리는 또렷하게 시작하고, 핵심 단어는 성조를 살려 말한 뒤 문장 끝 억양을 자연스럽게 마무리하세요.",
+          "pronNoteKo": "Tôi học ba mươi phút mỗi ngày.는 첫 소리를 짧게 잡고 'ngay'은 끝음을 짧게 닫아 마무리하세요.",
           "pronChunks": [
             "toi hoc ba=또이 혹 바",
-            "muoi phut moi=므어이 phut moi",
-            "ngay=ngay"
-          ],
-          "shadowingTipKo": "2~4개 덩어리로 끊어 따라 말한 뒤, 속도를 조금 올려 한 문장으로 이어 말하세요."
+            "muoi phut moi=혹",
+            "ngay=바"
+          ]
         },
         {
           "id": "l4-s-05",
@@ -2532,13 +2401,12 @@
           "sourcePage": 51,
           "reviewNeeded": false,
           "pronKo": "cuoi tuan 또이 nghi ngoi voi gia dinh",
-          "pronNoteKo": "문장 첫 덩어리는 또렷하게 시작하고, 핵심 단어는 성조를 살려 말한 뒤 문장 끝 억양을 자연스럽게 마무리하세요.",
+          "pronNoteKo": "Cuối tuần, tôi nghỉ ngơi với gia đình.는 앞부분은 끊지 말고 가볍게 붙여서 시작한 뒤 'dinh'은 마지막 소리를 부드럽게 이어 말하세요.",
           "pronChunks": [
-            "cuoi tuan toi=cuoi tuan 또이",
-            "nghi ngoi voi=nghi ngoi voi",
-            "gia dinh=gia dinh"
-          ],
-          "shadowingTipKo": "2~4개 덩어리로 끊어 따라 말한 뒤, 속도를 조금 올려 한 문장으로 이어 말하세요."
+            "cuoi tuan toi=cuoi",
+            "nghi ngoi voi=tuan",
+            "gia dinh=또이"
+          ]
         },
         {
           "id": "l4-s-06",
@@ -2548,13 +2416,12 @@
           "sourcePage": 51,
           "reviewNeeded": false,
           "pronKo": "또이 반 nhung 또이 thich 혹 띠엥 비엣",
-          "pronNoteKo": "문장 첫 덩어리는 또렷하게 시작하고, 핵심 단어는 성조를 살려 말한 뒤 문장 끝 억양을 자연스럽게 마무리하세요.",
+          "pronNoteKo": "Tôi bận nhưng tôi thích học tiếng Việt.는 처음 소리를 과하게 세게 내지 말고 '비엣'은 마지막 음절은 힘을 빼고 자연스럽게 정리하세요.",
           "pronChunks": [
-            "toi ban nhung=또이 반 nhung",
-            "toi thich hoc=또이 thich 혹",
+            "toi ban nhung=또이",
+            "toi thich hoc=반",
             "tieng viet=띠엥 비엣"
-          ],
-          "shadowingTipKo": "2~4개 덩어리로 끊어 따라 말한 뒤, 속도를 조금 올려 한 문장으로 이어 말하세요."
+          ]
         }
       ],
       "dialogues": [
@@ -2609,8 +2476,7 @@
           "reviewNeeded": false,
           "pronKo": "thuc day",
           "mouthKo": "입술을 과하게 힘주지 말고, 자음 시작을 가볍게 낸 뒤 모음을 길게 열어 소리 내세요.",
-          "toneKo": "하노이 기준 성조를 의식해 음의 높낮이를 분명히 하고, 끝은 급하게 끊지 말고 짧게 정리하세요.",
-          "practiceKo": "오디오를 듣고 같은 속도로 3회 반복한 뒤, 마지막 1회는 끊지 않고 자연스럽게 말하세요."
+          "toneKo": "하노이 기준 성조를 의식해 음의 높낮이를 분명히 하고, 끝은 급하게 끊지 말고 짧게 정리하세요."
         },
         {
           "id": "l4-p-02",
@@ -2621,8 +2487,7 @@
           "reviewNeeded": false,
           "pronKo": "buoi 상 또이 thuc day luc 사우 gio",
           "mouthKo": "입술을 과하게 힘주지 말고, 자음 시작을 가볍게 낸 뒤 모음을 길게 열어 소리 내세요.",
-          "toneKo": "하노이 기준 성조를 의식해 음의 높낮이를 분명히 하고, 끝은 급하게 끊지 말고 짧게 정리하세요.",
-          "practiceKo": "오디오를 듣고 같은 속도로 3회 반복한 뒤, 마지막 1회는 끊지 않고 자연스럽게 말하세요."
+          "toneKo": "하노이 기준 성조를 의식해 음의 높낮이를 분명히 하고, 끝은 급하게 끊지 말고 짧게 정리하세요."
         }
       ],
       "quizSeeds": [
@@ -2680,12 +2545,11 @@
           "sourcePage": 60,
           "reviewNeeded": false,
           "pronKo": "may gio",
-          "pronNoteKo": "mấy giờ는 하노이 기준으로 음절을 짧게 또렷하게 말하고, 끝소리는 부드럽게 연결해 주세요.",
+          "pronNoteKo": "mấy giờ는 앞부분은 끊지 말고 가볍게 붙여서 시작한 뒤 'gio'은 마지막 소리를 부드럽게 이어 말하세요.",
           "pronChunks": [
             "may=may",
             "gio=gio"
-          ],
-          "shadowingTipKo": "오디오를 먼저 1회 듣고, 덩어리마다 2회씩 따라 말한 뒤 마지막에 한 번에 이어 말하세요."
+          ]
         },
         {
           "id": "l5-v-02",
@@ -2697,12 +2561,11 @@
           "sourcePage": 60,
           "reviewNeeded": false,
           "pronKo": "버이 gio",
-          "pronNoteKo": "bây giờ는 하노이 기준으로 음절을 짧게 또렷하게 말하고, 끝소리는 부드럽게 연결해 주세요.",
+          "pronNoteKo": "bây giờ는 처음 소리를 과하게 세게 내지 말고 'gio'은 마지막 음절은 힘을 빼고 자연스럽게 정리하세요.",
           "pronChunks": [
             "bay=버이",
             "gio=gio"
-          ],
-          "shadowingTipKo": "오디오를 먼저 1회 듣고, 덩어리마다 2회씩 따라 말한 뒤 마지막에 한 번에 이어 말하세요."
+          ]
         },
         {
           "id": "l5-v-03",
@@ -2714,11 +2577,10 @@
           "sourcePage": 60,
           "reviewNeeded": false,
           "pronKo": "luc",
-          "pronNoteKo": "lúc는 하노이 기준으로 음절을 짧게 또렷하게 말하고, 끝소리는 부드럽게 연결해 주세요.",
+          "pronNoteKo": "lúc는 'luc'을(를) 짧고 또렷하게 내고 끝을 낮게 내리며 정리하세요.",
           "pronChunks": [
             "luc=luc"
-          ],
-          "shadowingTipKo": "오디오를 먼저 1회 듣고, 덩어리마다 2회씩 따라 말한 뒤 마지막에 한 번에 이어 말하세요."
+          ]
         },
         {
           "id": "l5-v-04",
@@ -2730,12 +2592,11 @@
           "sourcePage": 60,
           "reviewNeeded": false,
           "pronKo": "hom nay",
-          "pronNoteKo": "hôm nay는 하노이 기준으로 음절을 짧게 또렷하게 말하고, 끝소리는 부드럽게 연결해 주세요.",
+          "pronNoteKo": "hôm nay는 첫 소리를 짧게 잡고 'nay'은 끝음을 짧게 닫아 마무리하세요.",
           "pronChunks": [
             "hom=hom",
             "nay=nay"
-          ],
-          "shadowingTipKo": "오디오를 먼저 1회 듣고, 덩어리마다 2회씩 따라 말한 뒤 마지막에 한 번에 이어 말하세요."
+          ]
         },
         {
           "id": "l5-v-05",
@@ -2747,12 +2608,11 @@
           "sourcePage": 60,
           "reviewNeeded": false,
           "pronKo": "ngay mai",
-          "pronNoteKo": "ngày mai는 하노이 기준으로 음절을 짧게 또렷하게 말하고, 끝소리는 부드럽게 연결해 주세요.",
+          "pronNoteKo": "ngày mai는 앞부분은 끊지 말고 가볍게 붙여서 시작한 뒤 'mai'은 마지막 소리를 부드럽게 이어 말하세요.",
           "pronChunks": [
             "ngay=ngay",
             "mai=mai"
-          ],
-          "shadowingTipKo": "오디오를 먼저 1회 듣고, 덩어리마다 2회씩 따라 말한 뒤 마지막에 한 번에 이어 말하세요."
+          ]
         },
         {
           "id": "l5-v-06",
@@ -2764,12 +2624,11 @@
           "sourcePage": 60,
           "reviewNeeded": false,
           "pronKo": "hom qua",
-          "pronNoteKo": "hôm qua는 하노이 기준으로 음절을 짧게 또렷하게 말하고, 끝소리는 부드럽게 연결해 주세요.",
+          "pronNoteKo": "hôm qua는 처음 소리를 과하게 세게 내지 말고 'qua'은 마지막 음절은 힘을 빼고 자연스럽게 정리하세요.",
           "pronChunks": [
             "hom=hom",
             "qua=qua"
-          ],
-          "shadowingTipKo": "오디오를 먼저 1회 듣고, 덩어리마다 2회씩 따라 말한 뒤 마지막에 한 번에 이어 말하세요."
+          ]
         },
         {
           "id": "l5-v-07",
@@ -2781,12 +2640,11 @@
           "sourcePage": 60,
           "reviewNeeded": false,
           "pronKo": "트 하이",
-          "pronNoteKo": "thứ hai는 하노이 기준으로 음절을 짧게 또렷하게 말하고, 끝소리는 부드럽게 연결해 주세요.",
+          "pronNoteKo": "thứ hai는 첫 음절을 또렷하게 시작하고 '하이'은 끝을 낮게 내리며 정리하세요.",
           "pronChunks": [
             "thu=트",
             "hai=하이"
-          ],
-          "shadowingTipKo": "오디오를 먼저 1회 듣고, 덩어리마다 2회씩 따라 말한 뒤 마지막에 한 번에 이어 말하세요."
+          ]
         },
         {
           "id": "l5-v-08",
@@ -2798,12 +2656,11 @@
           "sourcePage": 60,
           "reviewNeeded": false,
           "pronKo": "쭈 녓",
-          "pronNoteKo": "chủ nhật는 하노이 기준으로 음절을 짧게 또렷하게 말하고, 끝소리는 부드럽게 연결해 주세요.",
+          "pronNoteKo": "chủ nhật는 첫 소리를 짧게 잡고 '녓'은 끝음을 짧게 닫아 마무리하세요.",
           "pronChunks": [
             "chu=쭈",
             "nhat=녓"
-          ],
-          "shadowingTipKo": "오디오를 먼저 1회 듣고, 덩어리마다 2회씩 따라 말한 뒤 마지막에 한 번에 이어 말하세요."
+          ]
         },
         {
           "id": "l5-v-09",
@@ -2815,12 +2672,11 @@
           "sourcePage": 60,
           "reviewNeeded": false,
           "pronKo": "cuoc hen",
-          "pronNoteKo": "cuộc hẹn는 하노이 기준으로 음절을 짧게 또렷하게 말하고, 끝소리는 부드럽게 연결해 주세요.",
+          "pronNoteKo": "cuộc hẹn는 앞부분은 끊지 말고 가볍게 붙여서 시작한 뒤 'hen'은 마지막 소리를 부드럽게 이어 말하세요.",
           "pronChunks": [
             "cuoc=cuoc",
             "hen=hen"
-          ],
-          "shadowingTipKo": "오디오를 먼저 1회 듣고, 덩어리마다 2회씩 따라 말한 뒤 마지막에 한 번에 이어 말하세요."
+          ]
         },
         {
           "id": "l5-v-10",
@@ -2832,12 +2688,11 @@
           "sourcePage": 60,
           "reviewNeeded": false,
           "pronKo": "tu den",
-          "pronNoteKo": "từ...đến...는 하노이 기준으로 음절을 짧게 또렷하게 말하고, 끝소리는 부드럽게 연결해 주세요.",
+          "pronNoteKo": "từ...đến...는 앞부분은 끊지 말고 가볍게 붙여서 시작한 뒤 'den'은 마지막 소리를 부드럽게 이어 말하세요.",
           "pronChunks": [
             "tu=tu",
             "den=den"
-          ],
-          "shadowingTipKo": "오디오를 먼저 1회 듣고, 덩어리마다 2회씩 따라 말한 뒤 마지막에 한 번에 이어 말하세요."
+          ]
         }
       ],
       "sentenceCards": [
@@ -2849,13 +2704,12 @@
           "sourcePage": 61,
           "reviewNeeded": false,
           "pronKo": "버이 gio 라 땀 gio",
-          "pronNoteKo": "문장 첫 덩어리는 또렷하게 시작하고, 핵심 단어는 성조를 살려 말한 뒤 문장 끝 억양을 자연스럽게 마무리하세요.",
+          "pronNoteKo": "Bây giờ là tám giờ.는 처음 소리를 과하게 세게 내지 말고 'gio'은 마지막 음절은 힘을 빼고 자연스럽게 정리하세요.",
           "pronChunks": [
-            "bay gio=버이 gio",
+            "bay gio=버이",
             "la tam=라 땀",
-            "gio=gio"
-          ],
-          "shadowingTipKo": "2~4개 덩어리로 끊어 따라 말한 뒤, 속도를 조금 올려 한 문장으로 이어 말하세요."
+            "gio=라"
+          ]
         },
         {
           "id": "l5-s-02",
@@ -2865,13 +2719,12 @@
           "sourcePage": 61,
           "reviewNeeded": false,
           "pronKo": "hom nay 라 트 버이",
-          "pronNoteKo": "문장 첫 덩어리는 또렷하게 시작하고, 핵심 단어는 성조를 살려 말한 뒤 문장 끝 억양을 자연스럽게 마무리하세요.",
+          "pronNoteKo": "Hôm nay là thứ bảy.는 첫 음절을 또렷하게 시작하고 '버이'은 끝을 낮게 내리며 정리하세요.",
           "pronChunks": [
-            "hom nay=hom nay",
+            "hom nay=hom",
             "la thu=라 트",
             "bay=버이"
-          ],
-          "shadowingTipKo": "2~4개 덩어리로 끊어 따라 말한 뒤, 속도를 조금 올려 한 문장으로 이어 말하세요."
+          ]
         },
         {
           "id": "l5-s-03",
@@ -2881,13 +2734,12 @@
           "sourcePage": 61,
           "reviewNeeded": false,
           "pronKo": "ngay mai 또이 꼬 cuoc hen",
-          "pronNoteKo": "문장 첫 덩어리는 또렷하게 시작하고, 핵심 단어는 성조를 살려 말한 뒤 문장 끝 억양을 자연스럽게 마무리하세요.",
+          "pronNoteKo": "Ngày mai tôi có cuộc hẹn.는 첫 소리를 짧게 잡고 'hen'은 끝음을 짧게 닫아 마무리하세요.",
           "pronChunks": [
-            "ngay mai=ngay mai",
+            "ngay mai=ngay",
             "toi co=또이 꼬",
-            "cuoc hen=cuoc hen"
-          ],
-          "shadowingTipKo": "2~4개 덩어리로 끊어 따라 말한 뒤, 속도를 조금 올려 한 문장으로 이어 말하세요."
+            "cuoc hen=또이"
+          ]
         },
         {
           "id": "l5-s-04",
@@ -2897,13 +2749,12 @@
           "sourcePage": 61,
           "reviewNeeded": false,
           "pronKo": "또이 혹 tu 땀 gio den 찐 gio",
-          "pronNoteKo": "문장 첫 덩어리는 또렷하게 시작하고, 핵심 단어는 성조를 살려 말한 뒤 문장 끝 억양을 자연스럽게 마무리하세요.",
+          "pronNoteKo": "Tôi học từ tám giờ đến chín giờ.는 앞부분은 끊지 말고 가볍게 붙여서 시작한 뒤 'gio'은 마지막 소리를 부드럽게 이어 말하세요.",
           "pronChunks": [
-            "toi hoc tu=또이 혹 tu",
-            "tam gio den=땀 gio den",
-            "chin gio=찐 gio"
-          ],
-          "shadowingTipKo": "2~4개 덩어리로 끊어 따라 말한 뒤, 속도를 조금 올려 한 문장으로 이어 말하세요."
+            "toi hoc tu=또이",
+            "tam gio den=혹",
+            "chin gio=tu"
+          ]
         },
         {
           "id": "l5-s-05",
@@ -2913,13 +2764,12 @@
           "sourcePage": 61,
           "reviewNeeded": false,
           "pronKo": "반 ranh luc may gio",
-          "pronNoteKo": "문장 첫 덩어리는 또렷하게 시작하고, 핵심 단어는 성조를 살려 말한 뒤 문장 끝 억양을 자연스럽게 마무리하세요.",
+          "pronNoteKo": "Bạn rảnh lúc mấy giờ?는 처음 소리를 과하게 세게 내지 말고 'gio'은 마지막 음절은 힘을 빼고 자연스럽게 정리하세요.",
           "pronChunks": [
-            "ban ranh=반 ranh",
-            "luc may=luc may",
-            "gio=gio"
-          ],
-          "shadowingTipKo": "2~4개 덩어리로 끊어 따라 말한 뒤, 속도를 조금 올려 한 문장으로 이어 말하세요."
+            "ban ranh=반",
+            "luc may=ranh",
+            "gio=luc"
+          ]
         },
         {
           "id": "l5-s-06",
@@ -2929,13 +2779,12 @@
           "sourcePage": 61,
           "reviewNeeded": false,
           "pronKo": "또이 ranh vao buoi 또이",
-          "pronNoteKo": "문장 첫 덩어리는 또렷하게 시작하고, 핵심 단어는 성조를 살려 말한 뒤 문장 끝 억양을 자연스럽게 마무리하세요.",
+          "pronNoteKo": "Tôi rảnh vào buổi tối.는 첫 음절을 또렷하게 시작하고 '또이'은 끝을 낮게 내리며 정리하세요.",
           "pronChunks": [
-            "toi ranh=또이 ranh",
-            "vao buoi=vao buoi",
+            "toi ranh=또이",
+            "vao buoi=ranh",
             "toi=또이"
-          ],
-          "shadowingTipKo": "2~4개 덩어리로 끊어 따라 말한 뒤, 속도를 조금 올려 한 문장으로 이어 말하세요."
+          ]
         }
       ],
       "dialogues": [
@@ -2990,8 +2839,7 @@
           "reviewNeeded": false,
           "pronKo": "may gio",
           "mouthKo": "입술을 과하게 힘주지 말고, 자음 시작을 가볍게 낸 뒤 모음을 길게 열어 소리 내세요.",
-          "toneKo": "하노이 기준 성조를 의식해 음의 높낮이를 분명히 하고, 끝은 급하게 끊지 말고 짧게 정리하세요.",
-          "practiceKo": "오디오를 듣고 같은 속도로 3회 반복한 뒤, 마지막 1회는 끊지 않고 자연스럽게 말하세요."
+          "toneKo": "하노이 기준 성조를 의식해 음의 높낮이를 분명히 하고, 끝은 급하게 끊지 말고 짧게 정리하세요."
         },
         {
           "id": "l5-p-02",
@@ -3002,8 +2850,7 @@
           "reviewNeeded": false,
           "pronKo": "버이 gio 라 땀 gio",
           "mouthKo": "입술을 과하게 힘주지 말고, 자음 시작을 가볍게 낸 뒤 모음을 길게 열어 소리 내세요.",
-          "toneKo": "하노이 기준 성조를 의식해 음의 높낮이를 분명히 하고, 끝은 급하게 끊지 말고 짧게 정리하세요.",
-          "practiceKo": "오디오를 듣고 같은 속도로 3회 반복한 뒤, 마지막 1회는 끊지 않고 자연스럽게 말하세요."
+          "toneKo": "하노이 기준 성조를 의식해 음의 높낮이를 분명히 하고, 끝은 급하게 끊지 말고 짧게 정리하세요."
         }
       ],
       "quizSeeds": [
@@ -3060,12 +2907,11 @@
           "sourcePage": 70,
           "reviewNeeded": false,
           "pronKo": "so thich",
-          "pronNoteKo": "sở thích는 하노이 기준으로 음절을 짧게 또렷하게 말하고, 끝소리는 부드럽게 연결해 주세요.",
+          "pronNoteKo": "sở thích는 처음 소리를 과하게 세게 내지 말고 'thich'은 마지막 음절은 힘을 빼고 자연스럽게 정리하세요.",
           "pronChunks": [
             "so=so",
             "thich=thich"
-          ],
-          "shadowingTipKo": "오디오를 먼저 1회 듣고, 덩어리마다 2회씩 따라 말한 뒤 마지막에 한 번에 이어 말하세요."
+          ]
         },
         {
           "id": "l6-v-02",
@@ -3077,12 +2923,11 @@
           "sourcePage": 70,
           "reviewNeeded": false,
           "pronKo": "nghe nhac",
-          "pronNoteKo": "nghe nhạc는 하노이 기준으로 음절을 짧게 또렷하게 말하고, 끝소리는 부드럽게 연결해 주세요.",
+          "pronNoteKo": "nghe nhạc는 첫 음절을 또렷하게 시작하고 'nhac'은 끝을 낮게 내리며 정리하세요.",
           "pronChunks": [
             "nghe=nghe",
             "nhac=nhac"
-          ],
-          "shadowingTipKo": "오디오를 먼저 1회 듣고, 덩어리마다 2회씩 따라 말한 뒤 마지막에 한 번에 이어 말하세요."
+          ]
         },
         {
           "id": "l6-v-03",
@@ -3094,12 +2939,11 @@
           "sourcePage": 70,
           "reviewNeeded": false,
           "pronKo": "xem phim",
-          "pronNoteKo": "xem phim는 하노이 기준으로 음절을 짧게 또렷하게 말하고, 끝소리는 부드럽게 연결해 주세요.",
+          "pronNoteKo": "xem phim는 첫 소리를 짧게 잡고 'phim'은 끝음을 짧게 닫아 마무리하세요.",
           "pronChunks": [
             "xem=xem",
             "phim=phim"
-          ],
-          "shadowingTipKo": "오디오를 먼저 1회 듣고, 덩어리마다 2회씩 따라 말한 뒤 마지막에 한 번에 이어 말하세요."
+          ]
         },
         {
           "id": "l6-v-04",
@@ -3111,12 +2955,11 @@
           "sourcePage": 70,
           "reviewNeeded": false,
           "pronKo": "doc sach",
-          "pronNoteKo": "đọc sách는 하노이 기준으로 음절을 짧게 또렷하게 말하고, 끝소리는 부드럽게 연결해 주세요.",
+          "pronNoteKo": "đọc sách는 앞부분은 끊지 말고 가볍게 붙여서 시작한 뒤 'sach'은 마지막 소리를 부드럽게 이어 말하세요.",
           "pronChunks": [
             "doc=doc",
             "sach=sach"
-          ],
-          "shadowingTipKo": "오디오를 먼저 1회 듣고, 덩어리마다 2회씩 따라 말한 뒤 마지막에 한 번에 이어 말하세요."
+          ]
         },
         {
           "id": "l6-v-05",
@@ -3128,12 +2971,11 @@
           "sourcePage": 70,
           "reviewNeeded": false,
           "pronKo": "choi game",
-          "pronNoteKo": "chơi game는 하노이 기준으로 음절을 짧게 또렷하게 말하고, 끝소리는 부드럽게 연결해 주세요.",
+          "pronNoteKo": "chơi game는 처음 소리를 과하게 세게 내지 말고 'game'은 마지막 음절은 힘을 빼고 자연스럽게 정리하세요.",
           "pronChunks": [
             "choi=choi",
             "game=game"
-          ],
-          "shadowingTipKo": "오디오를 먼저 1회 듣고, 덩어리마다 2회씩 따라 말한 뒤 마지막에 한 번에 이어 말하세요."
+          ]
         },
         {
           "id": "l6-v-06",
@@ -3145,12 +2987,11 @@
           "sourcePage": 70,
           "reviewNeeded": false,
           "pronKo": "디 보",
-          "pronNoteKo": "đi bộ는 하노이 기준으로 음절을 짧게 또렷하게 말하고, 끝소리는 부드럽게 연결해 주세요.",
+          "pronNoteKo": "đi bộ는 첫 음절을 또렷하게 시작하고 '보'은 끝을 낮게 내리며 정리하세요.",
           "pronChunks": [
             "di=디",
             "bo=보"
-          ],
-          "shadowingTipKo": "오디오를 먼저 1회 듣고, 덩어리마다 2회씩 따라 말한 뒤 마지막에 한 번에 이어 말하세요."
+          ]
         },
         {
           "id": "l6-v-07",
@@ -3162,12 +3003,11 @@
           "sourcePage": 70,
           "reviewNeeded": false,
           "pronKo": "chay 보",
-          "pronNoteKo": "chạy bộ는 하노이 기준으로 음절을 짧게 또렷하게 말하고, 끝소리는 부드럽게 연결해 주세요.",
+          "pronNoteKo": "chạy bộ는 첫 소리를 짧게 잡고 '보'은 끝음을 짧게 닫아 마무리하세요.",
           "pronChunks": [
             "chay=chay",
             "bo=보"
-          ],
-          "shadowingTipKo": "오디오를 먼저 1회 듣고, 덩어리마다 2회씩 따라 말한 뒤 마지막에 한 번에 이어 말하세요."
+          ]
         },
         {
           "id": "l6-v-08",
@@ -3179,12 +3019,11 @@
           "sourcePage": 70,
           "reviewNeeded": false,
           "pronKo": "nau 안",
-          "pronNoteKo": "nấu ăn는 하노이 기준으로 음절을 짧게 또렷하게 말하고, 끝소리는 부드럽게 연결해 주세요.",
+          "pronNoteKo": "nấu ăn는 앞부분은 끊지 말고 가볍게 붙여서 시작한 뒤 '안'은 마지막 소리를 부드럽게 이어 말하세요.",
           "pronChunks": [
             "nau=nau",
             "an=안"
-          ],
-          "shadowingTipKo": "오디오를 먼저 1회 듣고, 덩어리마다 2회씩 따라 말한 뒤 마지막에 한 번에 이어 말하세요."
+          ]
         },
         {
           "id": "l6-v-09",
@@ -3196,12 +3035,11 @@
           "sourcePage": 70,
           "reviewNeeded": false,
           "pronKo": "트 비",
-          "pronNoteKo": "thú vị는 하노이 기준으로 음절을 짧게 또렷하게 말하고, 끝소리는 부드럽게 연결해 주세요.",
+          "pronNoteKo": "thú vị는 처음 소리를 과하게 세게 내지 말고 '비'은 마지막 음절은 힘을 빼고 자연스럽게 정리하세요.",
           "pronChunks": [
             "thu=트",
             "vi=비"
-          ],
-          "shadowingTipKo": "오디오를 먼저 1회 듣고, 덩어리마다 2회씩 따라 말한 뒤 마지막에 한 번에 이어 말하세요."
+          ]
         },
         {
           "id": "l6-v-10",
@@ -3213,12 +3051,11 @@
           "sourcePage": 70,
           "reviewNeeded": false,
           "pronKo": "트 gian",
-          "pronNoteKo": "thư giãn는 하노이 기준으로 음절을 짧게 또렷하게 말하고, 끝소리는 부드럽게 연결해 주세요.",
+          "pronNoteKo": "thư giãn는 처음 소리를 과하게 세게 내지 말고 'gian'은 마지막 음절은 힘을 빼고 자연스럽게 정리하세요.",
           "pronChunks": [
             "thu=트",
             "gian=gian"
-          ],
-          "shadowingTipKo": "오디오를 먼저 1회 듣고, 덩어리마다 2회씩 따라 말한 뒤 마지막에 한 번에 이어 말하세요."
+          ]
         }
       ],
       "sentenceCards": [
@@ -3230,13 +3067,12 @@
           "sourcePage": 71,
           "reviewNeeded": false,
           "pronKo": "so thich cua 또이 라 nghe nhac",
-          "pronNoteKo": "문장 첫 덩어리는 또렷하게 시작하고, 핵심 단어는 성조를 살려 말한 뒤 문장 끝 억양을 자연스럽게 마무리하세요.",
+          "pronNoteKo": "Sở thích của tôi là nghe nhạc.는 첫 음절을 또렷하게 시작하고 'nhac'은 끝을 낮게 내리며 정리하세요.",
           "pronChunks": [
-            "so thich cua=so thich cua",
-            "toi la nghe=또이 라 nghe",
-            "nhac=nhac"
-          ],
-          "shadowingTipKo": "2~4개 덩어리로 끊어 따라 말한 뒤, 속도를 조금 올려 한 문장으로 이어 말하세요."
+            "so thich cua=so",
+            "toi la nghe=thich",
+            "nhac=cua"
+          ]
         },
         {
           "id": "l6-s-02",
@@ -3246,13 +3082,12 @@
           "sourcePage": 71,
           "reviewNeeded": false,
           "pronKo": "또이 thich xem phim 비 no 트 비",
-          "pronNoteKo": "문장 첫 덩어리는 또렷하게 시작하고, 핵심 단어는 성조를 살려 말한 뒤 문장 끝 억양을 자연스럽게 마무리하세요.",
+          "pronNoteKo": "Tôi thích xem phim vì nó thú vị.는 첫 소리를 짧게 잡고 '비'은 끝음을 짧게 닫아 마무리하세요.",
           "pronChunks": [
-            "toi thich xem=또이 thich xem",
-            "phim vi no=phim 비 no",
+            "toi thich xem=또이",
+            "phim vi no=thich",
             "thu vi=트 비"
-          ],
-          "shadowingTipKo": "2~4개 덩어리로 끊어 따라 말한 뒤, 속도를 조금 올려 한 문장으로 이어 말하세요."
+          ]
         },
         {
           "id": "l6-s-03",
@@ -3262,13 +3097,12 @@
           "sourcePage": 71,
           "reviewNeeded": false,
           "pronKo": "khi ranh 또이 thuong doc sach",
-          "pronNoteKo": "문장 첫 덩어리는 또렷하게 시작하고, 핵심 단어는 성조를 살려 말한 뒤 문장 끝 억양을 자연스럽게 마무리하세요.",
+          "pronNoteKo": "Khi rảnh, tôi thường đọc sách.는 앞부분은 끊지 말고 가볍게 붙여서 시작한 뒤 'sach'은 마지막 소리를 부드럽게 이어 말하세요.",
           "pronChunks": [
-            "khi ranh=khi ranh",
-            "toi thuong=또이 thuong",
-            "doc sach=doc sach"
-          ],
-          "shadowingTipKo": "2~4개 덩어리로 끊어 따라 말한 뒤, 속도를 조금 올려 한 문장으로 이어 말하세요."
+            "khi ranh=khi",
+            "toi thuong=ranh",
+            "doc sach=또이"
+          ]
         },
         {
           "id": "l6-s-04",
@@ -3278,13 +3112,12 @@
           "sourcePage": 71,
           "reviewNeeded": false,
           "pronKo": "cuoi tuan 또이 디 보 voi gia dinh",
-          "pronNoteKo": "문장 첫 덩어리는 또렷하게 시작하고, 핵심 단어는 성조를 살려 말한 뒤 문장 끝 억양을 자연스럽게 마무리하세요.",
+          "pronNoteKo": "Cuối tuần, tôi đi bộ với gia đình.는 처음 소리를 과하게 세게 내지 말고 'dinh'은 마지막 음절은 힘을 빼고 자연스럽게 정리하세요.",
           "pronChunks": [
-            "cuoi tuan toi=cuoi tuan 또이",
-            "di bo voi=디 보 voi",
-            "gia dinh=gia dinh"
-          ],
-          "shadowingTipKo": "2~4개 덩어리로 끊어 따라 말한 뒤, 속도를 조금 올려 한 문장으로 이어 말하세요."
+            "cuoi tuan toi=cuoi",
+            "di bo voi=tuan",
+            "gia dinh=또이"
+          ]
         },
         {
           "id": "l6-s-05",
@@ -3294,13 +3127,12 @@
           "sourcePage": 71,
           "reviewNeeded": false,
           "pronKo": "nghe nhac 줍 또이 트 gian",
-          "pronNoteKo": "문장 첫 덩어리는 또렷하게 시작하고, 핵심 단어는 성조를 살려 말한 뒤 문장 끝 억양을 자연스럽게 마무리하세요.",
+          "pronNoteKo": "Nghe nhạc giúp tôi thư giãn.는 첫 음절을 또렷하게 시작하고 'gian'은 끝을 낮게 내리며 정리하세요.",
           "pronChunks": [
-            "nghe nhac=nghe nhac",
+            "nghe nhac=nghe",
             "giup toi=줍 또이",
-            "thu gian=트 gian"
-          ],
-          "shadowingTipKo": "2~4개 덩어리로 끊어 따라 말한 뒤, 속도를 조금 올려 한 문장으로 이어 말하세요."
+            "thu gian=줍"
+          ]
         },
         {
           "id": "l6-s-06",
@@ -3310,13 +3142,12 @@
           "sourcePage": 71,
           "reviewNeeded": false,
           "pronKo": "또이 무온 트 못 so thich moi",
-          "pronNoteKo": "문장 첫 덩어리는 또렷하게 시작하고, 핵심 단어는 성조를 살려 말한 뒤 문장 끝 억양을 자연스럽게 마무리하세요.",
+          "pronNoteKo": "Tôi muốn thử một sở thích mới.는 첫 소리를 짧게 잡고 'moi'은 끝음을 짧게 닫아 마무리하세요.",
           "pronChunks": [
             "toi muon thu=또이 무온 트",
-            "mot so thich=못 so thich",
-            "moi=moi"
-          ],
-          "shadowingTipKo": "2~4개 덩어리로 끊어 따라 말한 뒤, 속도를 조금 올려 한 문장으로 이어 말하세요."
+            "mot so thich=무온",
+            "moi=트"
+          ]
         }
       ],
       "dialogues": [
@@ -3371,8 +3202,7 @@
           "reviewNeeded": false,
           "pronKo": "so thich",
           "mouthKo": "입술을 과하게 힘주지 말고, 자음 시작을 가볍게 낸 뒤 모음을 길게 열어 소리 내세요.",
-          "toneKo": "하노이 기준 성조를 의식해 음의 높낮이를 분명히 하고, 끝은 급하게 끊지 말고 짧게 정리하세요.",
-          "practiceKo": "오디오를 듣고 같은 속도로 3회 반복한 뒤, 마지막 1회는 끊지 않고 자연스럽게 말하세요."
+          "toneKo": "하노이 기준 성조를 의식해 음의 높낮이를 분명히 하고, 끝은 급하게 끊지 말고 짧게 정리하세요."
         },
         {
           "id": "l6-p-02",
@@ -3383,8 +3213,7 @@
           "reviewNeeded": false,
           "pronKo": "so thich cua 또이 라 nghe nhac",
           "mouthKo": "입술을 과하게 힘주지 말고, 자음 시작을 가볍게 낸 뒤 모음을 길게 열어 소리 내세요.",
-          "toneKo": "하노이 기준 성조를 의식해 음의 높낮이를 분명히 하고, 끝은 급하게 끊지 말고 짧게 정리하세요.",
-          "practiceKo": "오디오를 듣고 같은 속도로 3회 반복한 뒤, 마지막 1회는 끊지 않고 자연스럽게 말하세요."
+          "toneKo": "하노이 기준 성조를 의식해 음의 높낮이를 분명히 하고, 끝은 급하게 끊지 말고 짧게 정리하세요."
         }
       ],
       "quizSeeds": [
@@ -3442,11 +3271,10 @@
           "sourcePage": 80,
           "reviewNeeded": false,
           "pronKo": "퍼",
-          "pronNoteKo": "phở는 하노이 기준으로 음절을 짧게 또렷하게 말하고, 끝소리는 부드럽게 연결해 주세요.",
+          "pronNoteKo": "phở는 '퍼'을(를) 짧고 또렷하게 내고 끝을 낮게 내리며 정리하세요.",
           "pronChunks": [
             "pho=퍼"
-          ],
-          "shadowingTipKo": "오디오를 먼저 1회 듣고, 덩어리마다 2회씩 따라 말한 뒤 마지막에 한 번에 이어 말하세요."
+          ]
         },
         {
           "id": "l7-v-02",
@@ -3458,12 +3286,11 @@
           "sourcePage": 80,
           "reviewNeeded": false,
           "pronKo": "bun cha",
-          "pronNoteKo": "bún chả는 하노이 기준으로 음절을 짧게 또렷하게 말하고, 끝소리는 부드럽게 연결해 주세요.",
+          "pronNoteKo": "bún chả는 첫 소리를 짧게 잡고 'cha'은 끝음을 짧게 닫아 마무리하세요.",
           "pronChunks": [
             "bun=bun",
             "cha=cha"
-          ],
-          "shadowingTipKo": "오디오를 먼저 1회 듣고, 덩어리마다 2회씩 따라 말한 뒤 마지막에 한 번에 이어 말하세요."
+          ]
         },
         {
           "id": "l7-v-03",
@@ -3475,12 +3302,11 @@
           "sourcePage": 80,
           "reviewNeeded": false,
           "pronKo": "반 미",
-          "pronNoteKo": "bánh mì는 하노이 기준으로 음절을 짧게 또렷하게 말하고, 끝소리는 부드럽게 연결해 주세요.",
+          "pronNoteKo": "bánh mì는 앞부분은 끊지 말고 가볍게 붙여서 시작한 뒤 '미'은 마지막 소리를 부드럽게 이어 말하세요.",
           "pronChunks": [
             "banh=반",
             "mi=미"
-          ],
-          "shadowingTipKo": "오디오를 먼저 1회 듣고, 덩어리마다 2회씩 따라 말한 뒤 마지막에 한 번에 이어 말하세요."
+          ]
         },
         {
           "id": "l7-v-04",
@@ -3492,12 +3318,11 @@
           "sourcePage": 80,
           "reviewNeeded": false,
           "pronKo": "ca phe sua da",
-          "pronNoteKo": "cà phê sữa đá는 하노이 기준으로 음절을 짧게 또렷하게 말하고, 끝소리는 부드럽게 연결해 주세요.",
+          "pronNoteKo": "cà phê sữa đá는 처음 소리를 과하게 세게 내지 말고 'da'은 마지막 음절은 힘을 빼고 자연스럽게 정리하세요.",
           "pronChunks": [
-            "ca phe=ca phe",
-            "sua da=sua da"
-          ],
-          "shadowingTipKo": "오디오를 먼저 1회 듣고, 덩어리마다 2회씩 따라 말한 뒤 마지막에 한 번에 이어 말하세요."
+            "ca phe=ca",
+            "sua da=phe"
+          ]
         },
         {
           "id": "l7-v-05",
@@ -3509,12 +3334,11 @@
           "sourcePage": 80,
           "reviewNeeded": false,
           "pronKo": "nuoc loc",
-          "pronNoteKo": "nước lọc는 하노이 기준으로 음절을 짧게 또렷하게 말하고, 끝소리는 부드럽게 연결해 주세요.",
+          "pronNoteKo": "nước lọc는 첫 음절을 또렷하게 시작하고 'loc'은 끝을 낮게 내리며 정리하세요.",
           "pronChunks": [
             "nuoc=nuoc",
             "loc=loc"
-          ],
-          "shadowingTipKo": "오디오를 먼저 1회 듣고, 덩어리마다 2회씩 따라 말한 뒤 마지막에 한 번에 이어 말하세요."
+          ]
         },
         {
           "id": "l7-v-06",
@@ -3526,11 +3350,10 @@
           "sourcePage": 80,
           "reviewNeeded": false,
           "pronKo": "응온",
-          "pronNoteKo": "ngon는 하노이 기준으로 음절을 짧게 또렷하게 말하고, 끝소리는 부드럽게 연결해 주세요.",
+          "pronNoteKo": "ngon는 '응온'을(를) 짧고 또렷하게 내고 끝음을 짧게 닫아 마무리하세요.",
           "pronChunks": [
             "ngon=응온"
-          ],
-          "shadowingTipKo": "오디오를 먼저 1회 듣고, 덩어리마다 2회씩 따라 말한 뒤 마지막에 한 번에 이어 말하세요."
+          ]
         },
         {
           "id": "l7-v-07",
@@ -3542,11 +3365,10 @@
           "sourcePage": 80,
           "reviewNeeded": false,
           "pronKo": "cay",
-          "pronNoteKo": "cay는 하노이 기준으로 음절을 짧게 또렷하게 말하고, 끝소리는 부드럽게 연결해 주세요.",
+          "pronNoteKo": "cay는 'cay'을(를) 짧고 또렷하게 내고 마지막 소리를 부드럽게 이어 말하세요.",
           "pronChunks": [
             "cay=cay"
-          ],
-          "shadowingTipKo": "오디오를 먼저 1회 듣고, 덩어리마다 2회씩 따라 말한 뒤 마지막에 한 번에 이어 말하세요."
+          ]
         },
         {
           "id": "l7-v-08",
@@ -3558,11 +3380,10 @@
           "sourcePage": 80,
           "reviewNeeded": false,
           "pronKo": "ngot",
-          "pronNoteKo": "ngọt는 하노이 기준으로 음절을 짧게 또렷하게 말하고, 끝소리는 부드럽게 연결해 주세요.",
+          "pronNoteKo": "ngọt는 'ngot'을(를) 짧고 또렷하게 내고 마지막 음절은 힘을 빼고 자연스럽게 정리하세요.",
           "pronChunks": [
             "ngot=ngot"
-          ],
-          "shadowingTipKo": "오디오를 먼저 1회 듣고, 덩어리마다 2회씩 따라 말한 뒤 마지막에 한 번에 이어 말하세요."
+          ]
         },
         {
           "id": "l7-v-09",
@@ -3574,12 +3395,11 @@
           "sourcePage": 80,
           "reviewNeeded": false,
           "pronKo": "cho 또이",
-          "pronNoteKo": "cho tôi는 하노이 기준으로 음절을 짧게 또렷하게 말하고, 끝소리는 부드럽게 연결해 주세요.",
+          "pronNoteKo": "cho tôi는 첫 음절을 또렷하게 시작하고 '또이'은 끝을 낮게 내리며 정리하세요.",
           "pronChunks": [
             "cho=cho",
             "toi=또이"
-          ],
-          "shadowingTipKo": "오디오를 먼저 1회 듣고, 덩어리마다 2회씩 따라 말한 뒤 마지막에 한 번에 이어 말하세요."
+          ]
         },
         {
           "id": "l7-v-10",
@@ -3591,12 +3411,11 @@
           "sourcePage": 80,
           "reviewNeeded": false,
           "pronKo": "tinh tien",
-          "pronNoteKo": "tính tiền는 하노이 기준으로 음절을 짧게 또렷하게 말하고, 끝소리는 부드럽게 연결해 주세요.",
+          "pronNoteKo": "tính tiền는 첫 음절을 또렷하게 시작하고 'tien'은 끝을 낮게 내리며 정리하세요.",
           "pronChunks": [
             "tinh=tinh",
             "tien=tien"
-          ],
-          "shadowingTipKo": "오디오를 먼저 1회 듣고, 덩어리마다 2회씩 따라 말한 뒤 마지막에 한 번에 이어 말하세요."
+          ]
         }
       ],
       "sentenceCards": [
@@ -3608,12 +3427,11 @@
           "sourcePage": 81,
           "reviewNeeded": false,
           "pronKo": "또이 무온 안 퍼",
-          "pronNoteKo": "문장 첫 덩어리는 또렷하게 시작하고, 핵심 단어는 성조를 살려 말한 뒤 문장 끝 억양을 자연스럽게 마무리하세요.",
+          "pronNoteKo": "Tôi muốn ăn phở.는 첫 소리를 짧게 잡고 '퍼'은 끝음을 짧게 닫아 마무리하세요.",
           "pronChunks": [
             "toi muon=또이 무온",
             "an pho=안 퍼"
-          ],
-          "shadowingTipKo": "2~4개 덩어리로 끊어 따라 말한 뒤, 속도를 조금 올려 한 문장으로 이어 말하세요."
+          ]
         },
         {
           "id": "l7-s-02",
@@ -3623,13 +3441,12 @@
           "sourcePage": 81,
           "reviewNeeded": false,
           "pronKo": "cho 또이 못 bat 퍼 보",
-          "pronNoteKo": "문장 첫 덩어리는 또렷하게 시작하고, 핵심 단어는 성조를 살려 말한 뒤 문장 끝 억양을 자연스럽게 마무리하세요.",
+          "pronNoteKo": "Cho tôi một bát phở bò.는 앞부분은 끊지 말고 가볍게 붙여서 시작한 뒤 '보'은 마지막 소리를 부드럽게 이어 말하세요.",
           "pronChunks": [
-            "cho toi=cho 또이",
-            "mot bat=못 bat",
+            "cho toi=cho",
+            "mot bat=또이",
             "pho bo=퍼 보"
-          ],
-          "shadowingTipKo": "2~4개 덩어리로 끊어 따라 말한 뒤, 속도를 조금 올려 한 문장으로 이어 말하세요."
+          ]
         },
         {
           "id": "l7-s-03",
@@ -3639,13 +3456,12 @@
           "sourcePage": 81,
           "reviewNeeded": false,
           "pronKo": "cho 또이 못 ly ca phe sua da",
-          "pronNoteKo": "문장 첫 덩어리는 또렷하게 시작하고, 핵심 단어는 성조를 살려 말한 뒤 문장 끝 억양을 자연스럽게 마무리하세요.",
+          "pronNoteKo": "Cho tôi một ly cà phê sữa đá.는 처음 소리를 과하게 세게 내지 말고 'da'은 마지막 음절은 힘을 빼고 자연스럽게 정리하세요.",
           "pronChunks": [
-            "cho toi mot=cho 또이 못",
-            "ly ca phe=ly ca phe",
-            "sua da=sua da"
-          ],
-          "shadowingTipKo": "2~4개 덩어리로 끊어 따라 말한 뒤, 속도를 조금 올려 한 문장으로 이어 말하세요."
+            "cho toi mot=cho",
+            "ly ca phe=또이",
+            "sua da=못"
+          ]
         },
         {
           "id": "l7-s-04",
@@ -3655,12 +3471,11 @@
           "sourcePage": 81,
           "reviewNeeded": false,
           "pronKo": "mon nay 젓 응온",
-          "pronNoteKo": "문장 첫 덩어리는 또렷하게 시작하고, 핵심 단어는 성조를 살려 말한 뒤 문장 끝 억양을 자연스럽게 마무리하세요.",
+          "pronNoteKo": "Món này rất ngon.는 첫 음절을 또렷하게 시작하고 '응온'은 끝을 낮게 내리며 정리하세요.",
           "pronChunks": [
-            "mon nay=mon nay",
+            "mon nay=mon",
             "rat ngon=젓 응온"
-          ],
-          "shadowingTipKo": "2~4개 덩어리로 끊어 따라 말한 뒤, 속도를 조금 올려 한 문장으로 이어 말하세요."
+          ]
         },
         {
           "id": "l7-s-05",
@@ -3670,12 +3485,11 @@
           "sourcePage": 81,
           "reviewNeeded": false,
           "pronKo": "mon nay hoi cay",
-          "pronNoteKo": "문장 첫 덩어리는 또렷하게 시작하고, 핵심 단어는 성조를 살려 말한 뒤 문장 끝 억양을 자연스럽게 마무리하세요.",
+          "pronNoteKo": "Món này hơi cay.는 첫 소리를 짧게 잡고 'cay'은 끝음을 짧게 닫아 마무리하세요.",
           "pronChunks": [
-            "mon nay=mon nay",
-            "hoi cay=hoi cay"
-          ],
-          "shadowingTipKo": "2~4개 덩어리로 끊어 따라 말한 뒤, 속도를 조금 올려 한 문장으로 이어 말하세요."
+            "mon nay=mon",
+            "hoi cay=nay"
+          ]
         },
         {
           "id": "l7-s-06",
@@ -3685,12 +3499,11 @@
           "sourcePage": 81,
           "reviewNeeded": false,
           "pronKo": "cho 또이 tinh tien",
-          "pronNoteKo": "문장 첫 덩어리는 또렷하게 시작하고, 핵심 단어는 성조를 살려 말한 뒤 문장 끝 억양을 자연스럽게 마무리하세요.",
+          "pronNoteKo": "Cho tôi tính tiền.는 앞부분은 끊지 말고 가볍게 붙여서 시작한 뒤 'tien'은 마지막 소리를 부드럽게 이어 말하세요.",
           "pronChunks": [
-            "cho toi=cho 또이",
-            "tinh tien=tinh tien"
-          ],
-          "shadowingTipKo": "2~4개 덩어리로 끊어 따라 말한 뒤, 속도를 조금 올려 한 문장으로 이어 말하세요."
+            "cho toi=cho",
+            "tinh tien=또이"
+          ]
         }
       ],
       "dialogues": [
@@ -3745,8 +3558,7 @@
           "reviewNeeded": false,
           "pronKo": "퍼",
           "mouthKo": "입술을 과하게 힘주지 말고, 자음 시작을 가볍게 낸 뒤 모음을 길게 열어 소리 내세요.",
-          "toneKo": "하노이 기준 성조를 의식해 음의 높낮이를 분명히 하고, 끝은 급하게 끊지 말고 짧게 정리하세요.",
-          "practiceKo": "오디오를 듣고 같은 속도로 3회 반복한 뒤, 마지막 1회는 끊지 않고 자연스럽게 말하세요."
+          "toneKo": "하노이 기준 성조를 의식해 음의 높낮이를 분명히 하고, 끝은 급하게 끊지 말고 짧게 정리하세요."
         },
         {
           "id": "l7-p-02",
@@ -3757,8 +3569,7 @@
           "reviewNeeded": false,
           "pronKo": "또이 무온 안 퍼",
           "mouthKo": "입술을 과하게 힘주지 말고, 자음 시작을 가볍게 낸 뒤 모음을 길게 열어 소리 내세요.",
-          "toneKo": "하노이 기준 성조를 의식해 음의 높낮이를 분명히 하고, 끝은 급하게 끊지 말고 짧게 정리하세요.",
-          "practiceKo": "오디오를 듣고 같은 속도로 3회 반복한 뒤, 마지막 1회는 끊지 않고 자연스럽게 말하세요."
+          "toneKo": "하노이 기준 성조를 의식해 음의 높낮이를 분명히 하고, 끝은 급하게 끊지 말고 짧게 정리하세요."
         }
       ],
       "quizSeeds": [
@@ -3816,12 +3627,11 @@
           "sourcePage": 90,
           "reviewNeeded": false,
           "pronKo": "bao nhieu tien",
-          "pronNoteKo": "bao nhiêu tiền는 하노이 기준으로 음절을 짧게 또렷하게 말하고, 끝소리는 부드럽게 연결해 주세요.",
+          "pronNoteKo": "bao nhiêu tiền는 첫 소리를 짧게 잡고 'tien'은 끝음을 짧게 닫아 마무리하세요.",
           "pronChunks": [
-            "bao nhieu=bao nhieu",
-            "tien=tien"
-          ],
-          "shadowingTipKo": "오디오를 먼저 1회 듣고, 덩어리마다 2회씩 따라 말한 뒤 마지막에 한 번에 이어 말하세요."
+            "bao nhieu=bao",
+            "tien=nhieu"
+          ]
         },
         {
           "id": "l8-v-02",
@@ -3833,11 +3643,10 @@
           "sourcePage": 90,
           "reviewNeeded": false,
           "pronKo": "dat",
-          "pronNoteKo": "đắt는 하노이 기준으로 음절을 짧게 또렷하게 말하고, 끝소리는 부드럽게 연결해 주세요.",
+          "pronNoteKo": "đắt는 'dat'을(를) 짧고 또렷하게 내고 마지막 소리를 부드럽게 이어 말하세요.",
           "pronChunks": [
             "dat=dat"
-          ],
-          "shadowingTipKo": "오디오를 먼저 1회 듣고, 덩어리마다 2회씩 따라 말한 뒤 마지막에 한 번에 이어 말하세요."
+          ]
         },
         {
           "id": "l8-v-03",
@@ -3849,11 +3658,10 @@
           "sourcePage": 90,
           "reviewNeeded": false,
           "pronKo": "re",
-          "pronNoteKo": "rẻ는 하노이 기준으로 음절을 짧게 또렷하게 말하고, 끝소리는 부드럽게 연결해 주세요.",
+          "pronNoteKo": "rẻ는 're'을(를) 짧고 또렷하게 내고 마지막 음절은 힘을 빼고 자연스럽게 정리하세요.",
           "pronChunks": [
             "re=re"
-          ],
-          "shadowingTipKo": "오디오를 먼저 1회 듣고, 덩어리마다 2회씩 따라 말한 뒤 마지막에 한 번에 이어 말하세요."
+          ]
         },
         {
           "id": "l8-v-04",
@@ -3865,12 +3673,11 @@
           "sourcePage": 90,
           "reviewNeeded": false,
           "pronKo": "giam gia",
-          "pronNoteKo": "giảm giá는 하노이 기준으로 음절을 짧게 또렷하게 말하고, 끝소리는 부드럽게 연결해 주세요.",
+          "pronNoteKo": "giảm giá는 첫 음절을 또렷하게 시작하고 'gia'은 끝을 낮게 내리며 정리하세요.",
           "pronChunks": [
             "giam=giam",
             "gia=gia"
-          ],
-          "shadowingTipKo": "오디오를 먼저 1회 듣고, 덩어리마다 2회씩 따라 말한 뒤 마지막에 한 번에 이어 말하세요."
+          ]
         },
         {
           "id": "l8-v-05",
@@ -3882,11 +3689,10 @@
           "sourcePage": 90,
           "reviewNeeded": false,
           "pronKo": "mua",
-          "pronNoteKo": "mua는 하노이 기준으로 음절을 짧게 또렷하게 말하고, 끝소리는 부드럽게 연결해 주세요.",
+          "pronNoteKo": "mua는 'mua'을(를) 짧고 또렷하게 내고 끝음을 짧게 닫아 마무리하세요.",
           "pronChunks": [
             "mua=mua"
-          ],
-          "shadowingTipKo": "오디오를 먼저 1회 듣고, 덩어리마다 2회씩 따라 말한 뒤 마지막에 한 번에 이어 말하세요."
+          ]
         },
         {
           "id": "l8-v-06",
@@ -3898,11 +3704,10 @@
           "sourcePage": 90,
           "reviewNeeded": false,
           "pronKo": "반",
-          "pronNoteKo": "bán는 하노이 기준으로 음절을 짧게 또렷하게 말하고, 끝소리는 부드럽게 연결해 주세요.",
+          "pronNoteKo": "bán는 '반'을(를) 짧고 또렷하게 내고 마지막 소리를 부드럽게 이어 말하세요.",
           "pronChunks": [
             "ban=반"
-          ],
-          "shadowingTipKo": "오디오를 먼저 1회 듣고, 덩어리마다 2회씩 따라 말한 뒤 마지막에 한 번에 이어 말하세요."
+          ]
         },
         {
           "id": "l8-v-07",
@@ -3914,12 +3719,11 @@
           "sourcePage": 90,
           "reviewNeeded": false,
           "pronKo": "cai nay",
-          "pronNoteKo": "cái này는 하노이 기준으로 음절을 짧게 또렷하게 말하고, 끝소리는 부드럽게 연결해 주세요.",
+          "pronNoteKo": "cái này는 처음 소리를 과하게 세게 내지 말고 'nay'은 마지막 음절은 힘을 빼고 자연스럽게 정리하세요.",
           "pronChunks": [
             "cai=cai",
             "nay=nay"
-          ],
-          "shadowingTipKo": "오디오를 먼저 1회 듣고, 덩어리마다 2회씩 따라 말한 뒤 마지막에 한 번에 이어 말하세요."
+          ]
         },
         {
           "id": "l8-v-08",
@@ -3931,12 +3735,11 @@
           "sourcePage": 90,
           "reviewNeeded": false,
           "pronKo": "cai kia",
-          "pronNoteKo": "cái kia는 하노이 기준으로 음절을 짧게 또렷하게 말하고, 끝소리는 부드럽게 연결해 주세요.",
+          "pronNoteKo": "cái kia는 첫 음절을 또렷하게 시작하고 'kia'은 끝을 낮게 내리며 정리하세요.",
           "pronChunks": [
             "cai=cai",
             "kia=kia"
-          ],
-          "shadowingTipKo": "오디오를 먼저 1회 듣고, 덩어리마다 2회씩 따라 말한 뒤 마지막에 한 번에 이어 말하세요."
+          ]
         },
         {
           "id": "l8-v-09",
@@ -3948,12 +3751,11 @@
           "sourcePage": 90,
           "reviewNeeded": false,
           "pronKo": "kich 꼬",
-          "pronNoteKo": "kích cỡ는 하노이 기준으로 음절을 짧게 또렷하게 말하고, 끝소리는 부드럽게 연결해 주세요.",
+          "pronNoteKo": "kích cỡ는 첫 소리를 짧게 잡고 '꼬'은 끝음을 짧게 닫아 마무리하세요.",
           "pronChunks": [
             "kich=kich",
             "co=꼬"
-          ],
-          "shadowingTipKo": "오디오를 먼저 1회 듣고, 덩어리마다 2회씩 따라 말한 뒤 마지막에 한 번에 이어 말하세요."
+          ]
         },
         {
           "id": "l8-v-10",
@@ -3965,11 +3767,10 @@
           "sourcePage": 90,
           "reviewNeeded": false,
           "pronKo": "mau",
-          "pronNoteKo": "màu는 하노이 기준으로 음절을 짧게 또렷하게 말하고, 끝소리는 부드럽게 연결해 주세요.",
+          "pronNoteKo": "màu는 'mau'을(를) 짧고 또렷하게 내고 끝음을 짧게 닫아 마무리하세요.",
           "pronChunks": [
             "mau=mau"
-          ],
-          "shadowingTipKo": "오디오를 먼저 1회 듣고, 덩어리마다 2회씩 따라 말한 뒤 마지막에 한 번에 이어 말하세요."
+          ]
         }
       ],
       "sentenceCards": [
@@ -3981,13 +3782,12 @@
           "sourcePage": 91,
           "reviewNeeded": false,
           "pronKo": "cai nay bao nhieu tien",
-          "pronNoteKo": "문장 첫 덩어리는 또렷하게 시작하고, 핵심 단어는 성조를 살려 말한 뒤 문장 끝 억양을 자연스럽게 마무리하세요.",
+          "pronNoteKo": "Cái này bao nhiêu tiền?는 앞부분은 끊지 말고 가볍게 붙여서 시작한 뒤 'tien'은 마지막 소리를 부드럽게 이어 말하세요.",
           "pronChunks": [
-            "cai nay=cai nay",
-            "bao nhieu=bao nhieu",
-            "tien=tien"
-          ],
-          "shadowingTipKo": "2~4개 덩어리로 끊어 따라 말한 뒤, 속도를 조금 올려 한 문장으로 이어 말하세요."
+            "cai nay=cai",
+            "bao nhieu=nay",
+            "tien=bao"
+          ]
         },
         {
           "id": "l8-s-02",
@@ -3997,13 +3797,12 @@
           "sourcePage": 91,
           "reviewNeeded": false,
           "pronKo": "cai nay 남 므어이 nghin dong",
-          "pronNoteKo": "문장 첫 덩어리는 또렷하게 시작하고, 핵심 단어는 성조를 살려 말한 뒤 문장 끝 억양을 자연스럽게 마무리하세요.",
+          "pronNoteKo": "Cái này năm mươi nghìn đồng.는 처음 소리를 과하게 세게 내지 말고 'dong'은 마지막 음절은 힘을 빼고 자연스럽게 정리하세요.",
           "pronChunks": [
-            "cai nay=cai nay",
+            "cai nay=cai",
             "nam muoi=남 므어이",
-            "nghin dong=nghin dong"
-          ],
-          "shadowingTipKo": "2~4개 덩어리로 끊어 따라 말한 뒤, 속도를 조금 올려 한 문장으로 이어 말하세요."
+            "nghin dong=남"
+          ]
         },
         {
           "id": "l8-s-03",
@@ -4013,13 +3812,12 @@
           "sourcePage": 91,
           "reviewNeeded": false,
           "pronKo": "dat qua giam gia 드억 콩",
-          "pronNoteKo": "문장 첫 덩어리는 또렷하게 시작하고, 핵심 단어는 성조를 살려 말한 뒤 문장 끝 억양을 자연스럽게 마무리하세요.",
+          "pronNoteKo": "Đắt quá. Giảm giá được không?는 첫 음절을 또렷하게 시작하고 '콩'은 끝을 낮게 내리며 정리하세요.",
           "pronChunks": [
-            "dat qua=dat qua",
-            "giam gia=giam gia",
+            "dat qua=dat",
+            "giam gia=qua",
             "duoc khong=드억 콩"
-          ],
-          "shadowingTipKo": "2~4개 덩어리로 끊어 따라 말한 뒤, 속도를 조금 올려 한 문장으로 이어 말하세요."
+          ]
         },
         {
           "id": "l8-s-04",
@@ -4029,13 +3827,12 @@
           "sourcePage": 91,
           "reviewNeeded": false,
           "pronKo": "또이 무온 mua cai nay",
-          "pronNoteKo": "문장 첫 덩어리는 또렷하게 시작하고, 핵심 단어는 성조를 살려 말한 뒤 문장 끝 억양을 자연스럽게 마무리하세요.",
+          "pronNoteKo": "Tôi muốn mua cái này.는 첫 소리를 짧게 잡고 'nay'은 끝음을 짧게 닫아 마무리하세요.",
           "pronChunks": [
             "toi muon=또이 무온",
-            "mua cai=mua cai",
-            "nay=nay"
-          ],
-          "shadowingTipKo": "2~4개 덩어리로 끊어 따라 말한 뒤, 속도를 조금 올려 한 문장으로 이어 말하세요."
+            "mua cai=무온",
+            "nay=mua"
+          ]
         },
         {
           "id": "l8-s-05",
@@ -4045,13 +3842,12 @@
           "sourcePage": 91,
           "reviewNeeded": false,
           "pronKo": "반 꼬 mau khac 콩",
-          "pronNoteKo": "문장 첫 덩어리는 또렷하게 시작하고, 핵심 단어는 성조를 살려 말한 뒤 문장 끝 억양을 자연스럽게 마무리하세요.",
+          "pronNoteKo": "Bạn có màu khác không?는 앞부분은 끊지 말고 가볍게 붙여서 시작한 뒤 '콩'은 마지막 소리를 부드럽게 이어 말하세요.",
           "pronChunks": [
             "ban co=반 꼬",
-            "mau khac=mau khac",
+            "mau khac=꼬",
             "khong=콩"
-          ],
-          "shadowingTipKo": "2~4개 덩어리로 끊어 따라 말한 뒤, 속도를 조금 올려 한 문장으로 이어 말하세요."
+          ]
         },
         {
           "id": "l8-s-06",
@@ -4061,12 +3857,11 @@
           "sourcePage": 91,
           "reviewNeeded": false,
           "pronKo": "또이 찌 xem thoi",
-          "pronNoteKo": "문장 첫 덩어리는 또렷하게 시작하고, 핵심 단어는 성조를 살려 말한 뒤 문장 끝 억양을 자연스럽게 마무리하세요.",
+          "pronNoteKo": "Tôi chỉ xem thôi.는 처음 소리를 과하게 세게 내지 말고 'thoi'은 마지막 음절은 힘을 빼고 자연스럽게 정리하세요.",
           "pronChunks": [
             "toi chi=또이 찌",
-            "xem thoi=xem thoi"
-          ],
-          "shadowingTipKo": "2~4개 덩어리로 끊어 따라 말한 뒤, 속도를 조금 올려 한 문장으로 이어 말하세요."
+            "xem thoi=찌"
+          ]
         }
       ],
       "dialogues": [
@@ -4121,8 +3916,7 @@
           "reviewNeeded": false,
           "pronKo": "bao nhieu tien",
           "mouthKo": "입술을 과하게 힘주지 말고, 자음 시작을 가볍게 낸 뒤 모음을 길게 열어 소리 내세요.",
-          "toneKo": "하노이 기준 성조를 의식해 음의 높낮이를 분명히 하고, 끝은 급하게 끊지 말고 짧게 정리하세요.",
-          "practiceKo": "오디오를 듣고 같은 속도로 3회 반복한 뒤, 마지막 1회는 끊지 않고 자연스럽게 말하세요."
+          "toneKo": "하노이 기준 성조를 의식해 음의 높낮이를 분명히 하고, 끝은 급하게 끊지 말고 짧게 정리하세요."
         },
         {
           "id": "l8-p-02",
@@ -4133,8 +3927,7 @@
           "reviewNeeded": false,
           "pronKo": "cai nay bao nhieu tien",
           "mouthKo": "입술을 과하게 힘주지 말고, 자음 시작을 가볍게 낸 뒤 모음을 길게 열어 소리 내세요.",
-          "toneKo": "하노이 기준 성조를 의식해 음의 높낮이를 분명히 하고, 끝은 급하게 끊지 말고 짧게 정리하세요.",
-          "practiceKo": "오디오를 듣고 같은 속도로 3회 반복한 뒤, 마지막 1회는 끊지 않고 자연스럽게 말하세요."
+          "toneKo": "하노이 기준 성조를 의식해 음의 높낮이를 분명히 하고, 끝은 급하게 끊지 말고 짧게 정리하세요."
         }
       ],
       "quizSeeds": [
@@ -4192,12 +3985,11 @@
           "sourcePage": 100,
           "reviewNeeded": false,
           "pronKo": "o dau",
-          "pronNoteKo": "ở đâu는 하노이 기준으로 음절을 짧게 또렷하게 말하고, 끝소리는 부드럽게 연결해 주세요.",
+          "pronNoteKo": "ở đâu는 앞부분은 끊지 말고 가볍게 붙여서 시작한 뒤 'dau'은 마지막 소리를 부드럽게 이어 말하세요.",
           "pronChunks": [
             "o=o",
             "dau=dau"
-          ],
-          "shadowingTipKo": "오디오를 먼저 1회 듣고, 덩어리마다 2회씩 따라 말한 뒤 마지막에 한 번에 이어 말하세요."
+          ]
         },
         {
           "id": "l9-v-02",
@@ -4209,12 +4001,11 @@
           "sourcePage": 100,
           "reviewNeeded": false,
           "pronKo": "디 thang",
-          "pronNoteKo": "đi thẳng는 하노이 기준으로 음절을 짧게 또렷하게 말하고, 끝소리는 부드럽게 연결해 주세요.",
+          "pronNoteKo": "đi thẳng는 처음 소리를 과하게 세게 내지 말고 'thang'은 마지막 음절은 힘을 빼고 자연스럽게 정리하세요.",
           "pronChunks": [
             "di=디",
             "thang=thang"
-          ],
-          "shadowingTipKo": "오디오를 먼저 1회 듣고, 덩어리마다 2회씩 따라 말한 뒤 마지막에 한 번에 이어 말하세요."
+          ]
         },
         {
           "id": "l9-v-03",
@@ -4226,12 +4017,11 @@
           "sourcePage": 100,
           "reviewNeeded": false,
           "pronKo": "re trai",
-          "pronNoteKo": "rẽ trái는 하노이 기준으로 음절을 짧게 또렷하게 말하고, 끝소리는 부드럽게 연결해 주세요.",
+          "pronNoteKo": "rẽ trái는 첫 음절을 또렷하게 시작하고 'trai'은 끝을 낮게 내리며 정리하세요.",
           "pronChunks": [
             "re=re",
             "trai=trai"
-          ],
-          "shadowingTipKo": "오디오를 먼저 1회 듣고, 덩어리마다 2회씩 따라 말한 뒤 마지막에 한 번에 이어 말하세요."
+          ]
         },
         {
           "id": "l9-v-04",
@@ -4243,12 +4033,11 @@
           "sourcePage": 100,
           "reviewNeeded": false,
           "pronKo": "re phai",
-          "pronNoteKo": "rẽ phải는 하노이 기준으로 음절을 짧게 또렷하게 말하고, 끝소리는 부드럽게 연결해 주세요.",
+          "pronNoteKo": "rẽ phải는 첫 소리를 짧게 잡고 'phai'은 끝음을 짧게 닫아 마무리하세요.",
           "pronChunks": [
             "re=re",
             "phai=phai"
-          ],
-          "shadowingTipKo": "오디오를 먼저 1회 듣고, 덩어리마다 2회씩 따라 말한 뒤 마지막에 한 번에 이어 말하세요."
+          ]
         },
         {
           "id": "l9-v-05",
@@ -4260,11 +4049,10 @@
           "sourcePage": 100,
           "reviewNeeded": false,
           "pronKo": "gan",
-          "pronNoteKo": "gần는 하노이 기준으로 음절을 짧게 또렷하게 말하고, 끝소리는 부드럽게 연결해 주세요.",
+          "pronNoteKo": "gần는 'gan'을(를) 짧고 또렷하게 내고 마지막 소리를 부드럽게 이어 말하세요.",
           "pronChunks": [
             "gan=gan"
-          ],
-          "shadowingTipKo": "오디오를 먼저 1회 듣고, 덩어리마다 2회씩 따라 말한 뒤 마지막에 한 번에 이어 말하세요."
+          ]
         },
         {
           "id": "l9-v-06",
@@ -4276,11 +4064,10 @@
           "sourcePage": 100,
           "reviewNeeded": false,
           "pronKo": "xa",
-          "pronNoteKo": "xa는 하노이 기준으로 음절을 짧게 또렷하게 말하고, 끝소리는 부드럽게 연결해 주세요.",
+          "pronNoteKo": "xa는 'xa'을(를) 짧고 또렷하게 내고 마지막 음절은 힘을 빼고 자연스럽게 정리하세요.",
           "pronChunks": [
             "xa=xa"
-          ],
-          "shadowingTipKo": "오디오를 먼저 1회 듣고, 덩어리마다 2회씩 따라 말한 뒤 마지막에 한 번에 이어 말하세요."
+          ]
         },
         {
           "id": "l9-v-07",
@@ -4292,11 +4079,10 @@
           "sourcePage": 100,
           "reviewNeeded": false,
           "pronKo": "taxi",
-          "pronNoteKo": "taxi는 하노이 기준으로 음절을 짧게 또렷하게 말하고, 끝소리는 부드럽게 연결해 주세요.",
+          "pronNoteKo": "taxi는 'taxi'을(를) 짧고 또렷하게 내고 끝을 낮게 내리며 정리하세요.",
           "pronChunks": [
             "taxi=taxi"
-          ],
-          "shadowingTipKo": "오디오를 먼저 1회 듣고, 덩어리마다 2회씩 따라 말한 뒤 마지막에 한 번에 이어 말하세요."
+          ]
         },
         {
           "id": "l9-v-08",
@@ -4308,12 +4094,11 @@
           "sourcePage": 100,
           "reviewNeeded": false,
           "pronKo": "xe buyt",
-          "pronNoteKo": "xe buýt는 하노이 기준으로 음절을 짧게 또렷하게 말하고, 끝소리는 부드럽게 연결해 주세요.",
+          "pronNoteKo": "xe buýt는 첫 소리를 짧게 잡고 'buyt'은 끝음을 짧게 닫아 마무리하세요.",
           "pronChunks": [
             "xe=xe",
             "buyt=buyt"
-          ],
-          "shadowingTipKo": "오디오를 먼저 1회 듣고, 덩어리마다 2회씩 따라 말한 뒤 마지막에 한 번에 이어 말하세요."
+          ]
         },
         {
           "id": "l9-v-09",
@@ -4325,12 +4110,11 @@
           "sourcePage": 100,
           "reviewNeeded": false,
           "pronKo": "xe may",
-          "pronNoteKo": "xe máy는 하노이 기준으로 음절을 짧게 또렷하게 말하고, 끝소리는 부드럽게 연결해 주세요.",
+          "pronNoteKo": "xe máy는 앞부분은 끊지 말고 가볍게 붙여서 시작한 뒤 'may'은 마지막 소리를 부드럽게 이어 말하세요.",
           "pronChunks": [
             "xe=xe",
             "may=may"
-          ],
-          "shadowingTipKo": "오디오를 먼저 1회 듣고, 덩어리마다 2회씩 따라 말한 뒤 마지막에 한 번에 이어 말하세요."
+          ]
         },
         {
           "id": "l9-v-10",
@@ -4342,12 +4126,11 @@
           "sourcePage": 100,
           "reviewNeeded": false,
           "pronKo": "ho hoan kiem",
-          "pronNoteKo": "Hồ Hoàn Kiếm는 하노이 기준으로 음절을 짧게 또렷하게 말하고, 끝소리는 부드럽게 연결해 주세요.",
+          "pronNoteKo": "Hồ Hoàn Kiếm는 앞부분은 끊지 말고 가볍게 붙여서 시작한 뒤 'kiem'은 마지막 소리를 부드럽게 이어 말하세요.",
           "pronChunks": [
-            "ho hoan=ho hoan",
-            "kiem=kiem"
-          ],
-          "shadowingTipKo": "오디오를 먼저 1회 듣고, 덩어리마다 2회씩 따라 말한 뒤 마지막에 한 번에 이어 말하세요."
+            "ho hoan=ho",
+            "kiem=hoan"
+          ]
         }
       ],
       "sentenceCards": [
@@ -4359,13 +4142,12 @@
           "sourcePage": 101,
           "reviewNeeded": false,
           "pronKo": "cho 또이 hoi 냐 hang o dau",
-          "pronNoteKo": "문장 첫 덩어리는 또렷하게 시작하고, 핵심 단어는 성조를 살려 말한 뒤 문장 끝 억양을 자연스럽게 마무리하세요.",
+          "pronNoteKo": "Cho tôi hỏi, nhà hàng ở đâu?는 처음 소리를 과하게 세게 내지 말고 'dau'은 마지막 음절은 힘을 빼고 자연스럽게 정리하세요.",
           "pronChunks": [
-            "cho toi hoi=cho 또이 hoi",
-            "nha hang o=냐 hang o",
-            "dau=dau"
-          ],
-          "shadowingTipKo": "2~4개 덩어리로 끊어 따라 말한 뒤, 속도를 조금 올려 한 문장으로 이어 말하세요."
+            "cho toi hoi=cho",
+            "nha hang o=또이",
+            "dau=hoi"
+          ]
         },
         {
           "id": "l9-s-02",
@@ -4375,13 +4157,12 @@
           "sourcePage": 101,
           "reviewNeeded": false,
           "pronKo": "반 디 thang 조이 re phai",
-          "pronNoteKo": "문장 첫 덩어리는 또렷하게 시작하고, 핵심 단어는 성조를 살려 말한 뒤 문장 끝 억양을 자연스럽게 마무리하세요.",
+          "pronNoteKo": "Bạn đi thẳng rồi rẽ phải.는 첫 음절을 또렷하게 시작하고 'phai'은 끝을 낮게 내리며 정리하세요.",
           "pronChunks": [
             "ban di=반 디",
-            "thang roi=thang 조이",
-            "re phai=re phai"
-          ],
-          "shadowingTipKo": "2~4개 덩어리로 끊어 따라 말한 뒤, 속도를 조금 올려 한 문장으로 이어 말하세요."
+            "thang roi=디",
+            "re phai=thang"
+          ]
         },
         {
           "id": "l9-s-03",
@@ -4391,13 +4172,12 @@
           "sourcePage": 101,
           "reviewNeeded": false,
           "pronKo": "tu day den ho hoan kiem bao xa",
-          "pronNoteKo": "문장 첫 덩어리는 또렷하게 시작하고, 핵심 단어는 성조를 살려 말한 뒤 문장 끝 억양을 자연스럽게 마무리하세요.",
+          "pronNoteKo": "Từ đây đến Hồ Hoàn Kiếm bao xa?는 첫 소리를 짧게 잡고 'xa'은 끝음을 짧게 닫아 마무리하세요.",
           "pronChunks": [
-            "tu day den=tu day den",
-            "ho hoan kiem=ho hoan kiem",
-            "bao xa=bao xa"
-          ],
-          "shadowingTipKo": "2~4개 덩어리로 끊어 따라 말한 뒤, 속도를 조금 올려 한 문장으로 이어 말하세요."
+            "tu day den=tu",
+            "ho hoan kiem=day",
+            "bao xa=den"
+          ]
         },
         {
           "id": "l9-s-04",
@@ -4407,13 +4187,12 @@
           "sourcePage": 101,
           "reviewNeeded": false,
           "pronKo": "또이 무온 디 den san 버이",
-          "pronNoteKo": "문장 첫 덩어리는 또렷하게 시작하고, 핵심 단어는 성조를 살려 말한 뒤 문장 끝 억양을 자연스럽게 마무리하세요.",
+          "pronNoteKo": "Tôi muốn đi đến sân bay.는 앞부분은 끊지 말고 가볍게 붙여서 시작한 뒤 '버이'은 마지막 소리를 부드럽게 이어 말하세요.",
           "pronChunks": [
             "toi muon=또이 무온",
-            "di den=디 den",
-            "san bay=san 버이"
-          ],
-          "shadowingTipKo": "2~4개 덩어리로 끊어 따라 말한 뒤, 속도를 조금 올려 한 문장으로 이어 말하세요."
+            "di den=무온",
+            "san bay=디"
+          ]
         },
         {
           "id": "l9-s-05",
@@ -4423,13 +4202,12 @@
           "sourcePage": 101,
           "reviewNeeded": false,
           "pronKo": "또이 디 taxi 비 no tien",
-          "pronNoteKo": "문장 첫 덩어리는 또렷하게 시작하고, 핵심 단어는 성조를 살려 말한 뒤 문장 끝 억양을 자연스럽게 마무리하세요.",
+          "pronNoteKo": "Tôi đi taxi vì nó tiện.는 처음 소리를 과하게 세게 내지 말고 'tien'은 마지막 음절은 힘을 빼고 자연스럽게 정리하세요.",
           "pronChunks": [
             "toi di=또이 디",
-            "taxi vi=taxi 비",
-            "no tien=no tien"
-          ],
-          "shadowingTipKo": "2~4개 덩어리로 끊어 따라 말한 뒤, 속도를 조금 올려 한 문장으로 이어 말하세요."
+            "taxi vi=디",
+            "no tien=taxi"
+          ]
         },
         {
           "id": "l9-s-06",
@@ -4439,13 +4217,12 @@
           "sourcePage": 101,
           "reviewNeeded": false,
           "pronKo": "o 하 노이 giao thong hoi dong",
-          "pronNoteKo": "문장 첫 덩어리는 또렷하게 시작하고, 핵심 단어는 성조를 살려 말한 뒤 문장 끝 억양을 자연스럽게 마무리하세요.",
+          "pronNoteKo": "Ở Hà Nội, giao thông hơi đông.는 첫 음절을 또렷하게 시작하고 'dong'은 끝을 낮게 내리며 정리하세요.",
           "pronChunks": [
-            "o ha noi=o 하 노이",
-            "giao thong hoi=giao thong hoi",
-            "dong=dong"
-          ],
-          "shadowingTipKo": "2~4개 덩어리로 끊어 따라 말한 뒤, 속도를 조금 올려 한 문장으로 이어 말하세요."
+            "o ha noi=o",
+            "giao thong hoi=하",
+            "dong=노이"
+          ]
         }
       ],
       "dialogues": [
@@ -4500,8 +4277,7 @@
           "reviewNeeded": false,
           "pronKo": "o dau",
           "mouthKo": "입술을 과하게 힘주지 말고, 자음 시작을 가볍게 낸 뒤 모음을 길게 열어 소리 내세요.",
-          "toneKo": "하노이 기준 성조를 의식해 음의 높낮이를 분명히 하고, 끝은 급하게 끊지 말고 짧게 정리하세요.",
-          "practiceKo": "오디오를 듣고 같은 속도로 3회 반복한 뒤, 마지막 1회는 끊지 않고 자연스럽게 말하세요."
+          "toneKo": "하노이 기준 성조를 의식해 음의 높낮이를 분명히 하고, 끝은 급하게 끊지 말고 짧게 정리하세요."
         },
         {
           "id": "l9-p-02",
@@ -4512,8 +4288,7 @@
           "reviewNeeded": false,
           "pronKo": "cho 또이 hoi 냐 hang o dau",
           "mouthKo": "입술을 과하게 힘주지 말고, 자음 시작을 가볍게 낸 뒤 모음을 길게 열어 소리 내세요.",
-          "toneKo": "하노이 기준 성조를 의식해 음의 높낮이를 분명히 하고, 끝은 급하게 끊지 말고 짧게 정리하세요.",
-          "practiceKo": "오디오를 듣고 같은 속도로 3회 반복한 뒤, 마지막 1회는 끊지 않고 자연스럽게 말하세요."
+          "toneKo": "하노이 기준 성조를 의식해 음의 높낮이를 분명히 하고, 끝은 급하게 끊지 말고 짧게 정리하세요."
         }
       ],
       "quizSeeds": [
@@ -4570,11 +4345,10 @@
           "sourcePage": 110,
           "reviewNeeded": false,
           "pronKo": "냐",
-          "pronNoteKo": "nhà는 하노이 기준으로 음절을 짧게 또렷하게 말하고, 끝소리는 부드럽게 연결해 주세요.",
+          "pronNoteKo": "nhà는 '냐'을(를) 짧고 또렷하게 내고 마지막 소리를 부드럽게 이어 말하세요.",
           "pronChunks": [
             "nha=냐"
-          ],
-          "shadowingTipKo": "오디오를 먼저 1회 듣고, 덩어리마다 2회씩 따라 말한 뒤 마지막에 한 번에 이어 말하세요."
+          ]
         },
         {
           "id": "l10-v-02",
@@ -4586,12 +4360,11 @@
           "sourcePage": 110,
           "reviewNeeded": false,
           "pronKo": "can ho",
-          "pronNoteKo": "căn hộ는 하노이 기준으로 음절을 짧게 또렷하게 말하고, 끝소리는 부드럽게 연결해 주세요.",
+          "pronNoteKo": "căn hộ는 처음 소리를 과하게 세게 내지 말고 'ho'은 마지막 음절은 힘을 빼고 자연스럽게 정리하세요.",
           "pronChunks": [
             "can=can",
             "ho=ho"
-          ],
-          "shadowingTipKo": "오디오를 먼저 1회 듣고, 덩어리마다 2회씩 따라 말한 뒤 마지막에 한 번에 이어 말하세요."
+          ]
         },
         {
           "id": "l10-v-03",
@@ -4603,12 +4376,11 @@
           "sourcePage": 110,
           "reviewNeeded": false,
           "pronKo": "phong khach",
-          "pronNoteKo": "phòng khách는 하노이 기준으로 음절을 짧게 또렷하게 말하고, 끝소리는 부드럽게 연결해 주세요.",
+          "pronNoteKo": "phòng khách는 첫 음절을 또렷하게 시작하고 'khach'은 끝을 낮게 내리며 정리하세요.",
           "pronChunks": [
             "phong=phong",
             "khach=khach"
-          ],
-          "shadowingTipKo": "오디오를 먼저 1회 듣고, 덩어리마다 2회씩 따라 말한 뒤 마지막에 한 번에 이어 말하세요."
+          ]
         },
         {
           "id": "l10-v-04",
@@ -4620,12 +4392,11 @@
           "sourcePage": 110,
           "reviewNeeded": false,
           "pronKo": "phong ngu",
-          "pronNoteKo": "phòng ngủ는 하노이 기준으로 음절을 짧게 또렷하게 말하고, 끝소리는 부드럽게 연결해 주세요.",
+          "pronNoteKo": "phòng ngủ는 첫 소리를 짧게 잡고 'ngu'은 끝음을 짧게 닫아 마무리하세요.",
           "pronChunks": [
             "phong=phong",
             "ngu=ngu"
-          ],
-          "shadowingTipKo": "오디오를 먼저 1회 듣고, 덩어리마다 2회씩 따라 말한 뒤 마지막에 한 번에 이어 말하세요."
+          ]
         },
         {
           "id": "l10-v-05",
@@ -4637,12 +4408,11 @@
           "sourcePage": 110,
           "reviewNeeded": false,
           "pronKo": "냐 bep",
-          "pronNoteKo": "nhà bếp는 하노이 기준으로 음절을 짧게 또렷하게 말하고, 끝소리는 부드럽게 연결해 주세요.",
+          "pronNoteKo": "nhà bếp는 앞부분은 끊지 말고 가볍게 붙여서 시작한 뒤 'bep'은 마지막 소리를 부드럽게 이어 말하세요.",
           "pronChunks": [
             "nha=냐",
             "bep=bep"
-          ],
-          "shadowingTipKo": "오디오를 먼저 1회 듣고, 덩어리마다 2회씩 따라 말한 뒤 마지막에 한 번에 이어 말하세요."
+          ]
         },
         {
           "id": "l10-v-06",
@@ -4654,12 +4424,11 @@
           "sourcePage": 110,
           "reviewNeeded": false,
           "pronKo": "반 cong",
-          "pronNoteKo": "ban công는 하노이 기준으로 음절을 짧게 또렷하게 말하고, 끝소리는 부드럽게 연결해 주세요.",
+          "pronNoteKo": "ban công는 처음 소리를 과하게 세게 내지 말고 'cong'은 마지막 음절은 힘을 빼고 자연스럽게 정리하세요.",
           "pronChunks": [
             "ban=반",
             "cong=cong"
-          ],
-          "shadowingTipKo": "오디오를 먼저 1회 듣고, 덩어리마다 2회씩 따라 말한 뒤 마지막에 한 번에 이어 말하세요."
+          ]
         },
         {
           "id": "l10-v-07",
@@ -4671,12 +4440,11 @@
           "sourcePage": 110,
           "reviewNeeded": false,
           "pronKo": "sieu thi",
-          "pronNoteKo": "siêu thị는 하노이 기준으로 음절을 짧게 또렷하게 말하고, 끝소리는 부드럽게 연결해 주세요.",
+          "pronNoteKo": "siêu thị는 첫 음절을 또렷하게 시작하고 'thi'은 끝을 낮게 내리며 정리하세요.",
           "pronChunks": [
             "sieu=sieu",
             "thi=thi"
-          ],
-          "shadowingTipKo": "오디오를 먼저 1회 듣고, 덩어리마다 2회씩 따라 말한 뒤 마지막에 한 번에 이어 말하세요."
+          ]
         },
         {
           "id": "l10-v-08",
@@ -4688,12 +4456,11 @@
           "sourcePage": 110,
           "reviewNeeded": false,
           "pronKo": "cong vien",
-          "pronNoteKo": "công viên는 하노이 기준으로 음절을 짧게 또렷하게 말하고, 끝소리는 부드럽게 연결해 주세요.",
+          "pronNoteKo": "công viên는 첫 소리를 짧게 잡고 'vien'은 끝음을 짧게 닫아 마무리하세요.",
           "pronChunks": [
             "cong=cong",
             "vien=vien"
-          ],
-          "shadowingTipKo": "오디오를 먼저 1회 듣고, 덩어리마다 2회씩 따라 말한 뒤 마지막에 한 번에 이어 말하세요."
+          ]
         },
         {
           "id": "l10-v-09",
@@ -4705,12 +4472,11 @@
           "sourcePage": 110,
           "reviewNeeded": false,
           "pronKo": "yen tinh",
-          "pronNoteKo": "yên tĩnh는 하노이 기준으로 음절을 짧게 또렷하게 말하고, 끝소리는 부드럽게 연결해 주세요.",
+          "pronNoteKo": "yên tĩnh는 앞부분은 끊지 말고 가볍게 붙여서 시작한 뒤 'tinh'은 마지막 소리를 부드럽게 이어 말하세요.",
           "pronChunks": [
             "yen=yen",
             "tinh=tinh"
-          ],
-          "shadowingTipKo": "오디오를 먼저 1회 듣고, 덩어리마다 2회씩 따라 말한 뒤 마지막에 한 번에 이어 말하세요."
+          ]
         },
         {
           "id": "l10-v-10",
@@ -4722,12 +4488,11 @@
           "sourcePage": 110,
           "reviewNeeded": false,
           "pronKo": "tien loi",
-          "pronNoteKo": "tiện lợi는 하노이 기준으로 음절을 짧게 또렷하게 말하고, 끝소리는 부드럽게 연결해 주세요.",
+          "pronNoteKo": "tiện lợi는 앞부분은 끊지 말고 가볍게 붙여서 시작한 뒤 'loi'은 마지막 소리를 부드럽게 이어 말하세요.",
           "pronChunks": [
             "tien=tien",
             "loi=loi"
-          ],
-          "shadowingTipKo": "오디오를 먼저 1회 듣고, 덩어리마다 2회씩 따라 말한 뒤 마지막에 한 번에 이어 말하세요."
+          ]
         }
       ],
       "sentenceCards": [
@@ -4739,13 +4504,12 @@
           "sourcePage": 111,
           "reviewNeeded": false,
           "pronKo": "또이 song o 못 can ho gan seoul",
-          "pronNoteKo": "문장 첫 덩어리는 또렷하게 시작하고, 핵심 단어는 성조를 살려 말한 뒤 문장 끝 억양을 자연스럽게 마무리하세요.",
+          "pronNoteKo": "Tôi sống ở một căn hộ gần Seoul.는 처음 소리를 과하게 세게 내지 말고 'seoul'은 마지막 음절은 힘을 빼고 자연스럽게 정리하세요.",
           "pronChunks": [
-            "toi song o=또이 song o",
-            "mot can ho=못 can ho",
-            "gan seoul=gan seoul"
-          ],
-          "shadowingTipKo": "2~4개 덩어리로 끊어 따라 말한 뒤, 속도를 조금 올려 한 문장으로 이어 말하세요."
+            "toi song o=또이",
+            "mot can ho=song",
+            "gan seoul=o"
+          ]
         },
         {
           "id": "l10-s-02",
@@ -4755,13 +4519,12 @@
           "sourcePage": 111,
           "reviewNeeded": false,
           "pronKo": "냐 또이 콩 lon nhung 젓 tien loi",
-          "pronNoteKo": "문장 첫 덩어리는 또렷하게 시작하고, 핵심 단어는 성조를 살려 말한 뒤 문장 끝 억양을 자연스럽게 마무리하세요.",
+          "pronNoteKo": "Nhà tôi không lớn nhưng rất tiện lợi.는 첫 음절을 또렷하게 시작하고 'loi'은 끝을 낮게 내리며 정리하세요.",
           "pronChunks": [
             "nha toi khong=냐 또이 콩",
-            "lon nhung rat=lon nhung 젓",
-            "tien loi=tien loi"
-          ],
-          "shadowingTipKo": "2~4개 덩어리로 끊어 따라 말한 뒤, 속도를 조금 올려 한 문장으로 이어 말하세요."
+            "lon nhung rat=또이",
+            "tien loi=콩"
+          ]
         },
         {
           "id": "l10-s-03",
@@ -4771,13 +4534,12 @@
           "sourcePage": 111,
           "reviewNeeded": false,
           "pronKo": "gan 냐 또이 꼬 sieu thi va cong vien",
-          "pronNoteKo": "문장 첫 덩어리는 또렷하게 시작하고, 핵심 단어는 성조를 살려 말한 뒤 문장 끝 억양을 자연스럽게 마무리하세요.",
+          "pronNoteKo": "Gần nhà tôi có siêu thị và công viên.는 첫 소리를 짧게 잡고 'vien'은 끝음을 짧게 닫아 마무리하세요.",
           "pronChunks": [
-            "gan nha toi=gan 냐 또이",
-            "co sieu thi=꼬 sieu thi",
-            "va cong vien=va cong vien"
-          ],
-          "shadowingTipKo": "2~4개 덩어리로 끊어 따라 말한 뒤, 속도를 조금 올려 한 문장으로 이어 말하세요."
+            "gan nha toi=gan",
+            "co sieu thi=냐",
+            "va cong vien=또이"
+          ]
         },
         {
           "id": "l10-s-04",
@@ -4787,13 +4549,12 @@
           "sourcePage": 111,
           "reviewNeeded": false,
           "pronKo": "khu 퍼 cua 또이 yen tinh",
-          "pronNoteKo": "문장 첫 덩어리는 또렷하게 시작하고, 핵심 단어는 성조를 살려 말한 뒤 문장 끝 억양을 자연스럽게 마무리하세요.",
+          "pronNoteKo": "Khu phố của tôi yên tĩnh.는 앞부분은 끊지 말고 가볍게 붙여서 시작한 뒤 'tinh'은 마지막 소리를 부드럽게 이어 말하세요.",
           "pronChunks": [
-            "khu pho=khu 퍼",
-            "cua toi=cua 또이",
-            "yen tinh=yen tinh"
-          ],
-          "shadowingTipKo": "2~4개 덩어리로 끊어 따라 말한 뒤, 속도를 조금 올려 한 문장으로 이어 말하세요."
+            "khu pho=khu",
+            "cua toi=퍼",
+            "yen tinh=cua"
+          ]
         },
         {
           "id": "l10-s-05",
@@ -4803,13 +4564,12 @@
           "sourcePage": 111,
           "reviewNeeded": false,
           "pronKo": "또이 thich 냐 또이 비 no am ap",
-          "pronNoteKo": "문장 첫 덩어리는 또렷하게 시작하고, 핵심 단어는 성조를 살려 말한 뒤 문장 끝 억양을 자연스럽게 마무리하세요.",
+          "pronNoteKo": "Tôi thích nhà tôi vì nó ấm áp.는 처음 소리를 과하게 세게 내지 말고 'ap'은 마지막 음절은 힘을 빼고 자연스럽게 정리하세요.",
           "pronChunks": [
-            "toi thich nha=또이 thich 냐",
-            "toi vi no=또이 비 no",
-            "am ap=am ap"
-          ],
-          "shadowingTipKo": "2~4개 덩어리로 끊어 따라 말한 뒤, 속도를 조금 올려 한 문장으로 이어 말하세요."
+            "toi thich nha=또이",
+            "toi vi no=thich",
+            "am ap=냐"
+          ]
         },
         {
           "id": "l10-s-06",
@@ -4819,13 +4579,12 @@
           "sourcePage": 111,
           "reviewNeeded": false,
           "pronKo": "trong tuong lai 또이 무온 song o 하 노이",
-          "pronNoteKo": "문장 첫 덩어리는 또렷하게 시작하고, 핵심 단어는 성조를 살려 말한 뒤 문장 끝 억양을 자연스럽게 마무리하세요.",
+          "pronNoteKo": "Trong tương lai, tôi muốn sống ở Hà Nội.는 첫 음절을 또렷하게 시작하고 '노이'은 끝을 낮게 내리며 정리하세요.",
           "pronChunks": [
-            "trong tuong lai=trong tuong lai",
-            "toi muon song=또이 무온 song",
-            "o ha noi=o 하 노이"
-          ],
-          "shadowingTipKo": "2~4개 덩어리로 끊어 따라 말한 뒤, 속도를 조금 올려 한 문장으로 이어 말하세요."
+            "trong tuong lai=trong",
+            "toi muon song=tuong",
+            "o ha noi=lai"
+          ]
         }
       ],
       "dialogues": [
@@ -4880,8 +4639,7 @@
           "reviewNeeded": false,
           "pronKo": "냐",
           "mouthKo": "입술을 과하게 힘주지 말고, 자음 시작을 가볍게 낸 뒤 모음을 길게 열어 소리 내세요.",
-          "toneKo": "하노이 기준 성조를 의식해 음의 높낮이를 분명히 하고, 끝은 급하게 끊지 말고 짧게 정리하세요.",
-          "practiceKo": "오디오를 듣고 같은 속도로 3회 반복한 뒤, 마지막 1회는 끊지 않고 자연스럽게 말하세요."
+          "toneKo": "하노이 기준 성조를 의식해 음의 높낮이를 분명히 하고, 끝은 급하게 끊지 말고 짧게 정리하세요."
         },
         {
           "id": "l10-p-02",
@@ -4892,8 +4650,7 @@
           "reviewNeeded": false,
           "pronKo": "또이 song o 못 can ho gan seoul",
           "mouthKo": "입술을 과하게 힘주지 말고, 자음 시작을 가볍게 낸 뒤 모음을 길게 열어 소리 내세요.",
-          "toneKo": "하노이 기준 성조를 의식해 음의 높낮이를 분명히 하고, 끝은 급하게 끊지 말고 짧게 정리하세요.",
-          "practiceKo": "오디오를 듣고 같은 속도로 3회 반복한 뒤, 마지막 1회는 끊지 않고 자연스럽게 말하세요."
+          "toneKo": "하노이 기준 성조를 의식해 음의 높낮이를 분명히 하고, 끝은 급하게 끊지 말고 짧게 정리하세요."
         }
       ],
       "quizSeeds": [
@@ -4951,12 +4708,11 @@
           "sourcePage": 120,
           "reviewNeeded": false,
           "pronKo": "du lich",
-          "pronNoteKo": "du lịch는 하노이 기준으로 음절을 짧게 또렷하게 말하고, 끝소리는 부드럽게 연결해 주세요.",
+          "pronNoteKo": "du lịch는 처음 소리를 과하게 세게 내지 말고 'lich'은 마지막 음절은 힘을 빼고 자연스럽게 정리하세요.",
           "pronChunks": [
             "du=du",
             "lich=lich"
-          ],
-          "shadowingTipKo": "오디오를 먼저 1회 듣고, 덩어리마다 2회씩 따라 말한 뒤 마지막에 한 번에 이어 말하세요."
+          ]
         },
         {
           "id": "l11-v-02",
@@ -4968,12 +4724,11 @@
           "sourcePage": 120,
           "reviewNeeded": false,
           "pronKo": "san 버이",
-          "pronNoteKo": "sân bay는 하노이 기준으로 음절을 짧게 또렷하게 말하고, 끝소리는 부드럽게 연결해 주세요.",
+          "pronNoteKo": "sân bay는 첫 음절을 또렷하게 시작하고 '버이'은 끝을 낮게 내리며 정리하세요.",
           "pronChunks": [
             "san=san",
             "bay=버이"
-          ],
-          "shadowingTipKo": "오디오를 먼저 1회 듣고, 덩어리마다 2회씩 따라 말한 뒤 마지막에 한 번에 이어 말하세요."
+          ]
         },
         {
           "id": "l11-v-03",
@@ -4985,12 +4740,11 @@
           "sourcePage": 120,
           "reviewNeeded": false,
           "pronKo": "khach san",
-          "pronNoteKo": "khách sạn는 하노이 기준으로 음절을 짧게 또렷하게 말하고, 끝소리는 부드럽게 연결해 주세요.",
+          "pronNoteKo": "khách sạn는 첫 소리를 짧게 잡고 'san'은 끝음을 짧게 닫아 마무리하세요.",
           "pronChunks": [
             "khach=khach",
             "san=san"
-          ],
-          "shadowingTipKo": "오디오를 먼저 1회 듣고, 덩어리마다 2회씩 따라 말한 뒤 마지막에 한 번에 이어 말하세요."
+          ]
         },
         {
           "id": "l11-v-04",
@@ -5002,12 +4756,11 @@
           "sourcePage": 120,
           "reviewNeeded": false,
           "pronKo": "ho 찌에우",
-          "pronNoteKo": "hộ chiếu는 하노이 기준으로 음절을 짧게 또렷하게 말하고, 끝소리는 부드럽게 연결해 주세요.",
+          "pronNoteKo": "hộ chiếu는 앞부분은 끊지 말고 가볍게 붙여서 시작한 뒤 '찌에우'은 마지막 소리를 부드럽게 이어 말하세요.",
           "pronChunks": [
             "ho=ho",
             "chieu=찌에우"
-          ],
-          "shadowingTipKo": "오디오를 먼저 1회 듣고, 덩어리마다 2회씩 따라 말한 뒤 마지막에 한 번에 이어 말하세요."
+          ]
         },
         {
           "id": "l11-v-05",
@@ -5019,12 +4772,11 @@
           "sourcePage": 120,
           "reviewNeeded": false,
           "pronKo": "dat phong",
-          "pronNoteKo": "đặt phòng는 하노이 기준으로 음절을 짧게 또렷하게 말하고, 끝소리는 부드럽게 연결해 주세요.",
+          "pronNoteKo": "đặt phòng는 처음 소리를 과하게 세게 내지 말고 'phong'은 마지막 음절은 힘을 빼고 자연스럽게 정리하세요.",
           "pronChunks": [
             "dat=dat",
             "phong=phong"
-          ],
-          "shadowingTipKo": "오디오를 먼저 1회 듣고, 덩어리마다 2회씩 따라 말한 뒤 마지막에 한 번에 이어 말하세요."
+          ]
         },
         {
           "id": "l11-v-06",
@@ -5036,12 +4788,11 @@
           "sourcePage": 120,
           "reviewNeeded": false,
           "pronKo": "nhan phong",
-          "pronNoteKo": "nhận phòng는 하노이 기준으로 음절을 짧게 또렷하게 말하고, 끝소리는 부드럽게 연결해 주세요.",
+          "pronNoteKo": "nhận phòng는 첫 음절을 또렷하게 시작하고 'phong'은 끝을 낮게 내리며 정리하세요.",
           "pronChunks": [
             "nhan=nhan",
             "phong=phong"
-          ],
-          "shadowingTipKo": "오디오를 먼저 1회 듣고, 덩어리마다 2회씩 따라 말한 뒤 마지막에 한 번에 이어 말하세요."
+          ]
         },
         {
           "id": "l11-v-07",
@@ -5053,12 +4804,11 @@
           "sourcePage": 120,
           "reviewNeeded": false,
           "pronKo": "tra phong",
-          "pronNoteKo": "trả phòng는 하노이 기준으로 음절을 짧게 또렷하게 말하고, 끝소리는 부드럽게 연결해 주세요.",
+          "pronNoteKo": "trả phòng는 첫 소리를 짧게 잡고 'phong'은 끝음을 짧게 닫아 마무리하세요.",
           "pronChunks": [
             "tra=tra",
             "phong=phong"
-          ],
-          "shadowingTipKo": "오디오를 먼저 1회 듣고, 덩어리마다 2회씩 따라 말한 뒤 마지막에 한 번에 이어 말하세요."
+          ]
         },
         {
           "id": "l11-v-08",
@@ -5070,12 +4820,11 @@
           "sourcePage": 120,
           "reviewNeeded": false,
           "pronKo": "hanh ly",
-          "pronNoteKo": "hành lý는 하노이 기준으로 음절을 짧게 또렷하게 말하고, 끝소리는 부드럽게 연결해 주세요.",
+          "pronNoteKo": "hành lý는 앞부분은 끊지 말고 가볍게 붙여서 시작한 뒤 'ly'은 마지막 소리를 부드럽게 이어 말하세요.",
           "pronChunks": [
             "hanh=hanh",
             "ly=ly"
-          ],
-          "shadowingTipKo": "오디오를 먼저 1회 듣고, 덩어리마다 2회씩 따라 말한 뒤 마지막에 한 번에 이어 말하세요."
+          ]
         },
         {
           "id": "l11-v-09",
@@ -5087,11 +4836,10 @@
           "sourcePage": 120,
           "reviewNeeded": false,
           "pronKo": "ve",
-          "pronNoteKo": "vé는 하노이 기준으로 음절을 짧게 또렷하게 말하고, 끝소리는 부드럽게 연결해 주세요.",
+          "pronNoteKo": "vé는 've'을(를) 짧고 또렷하게 내고 마지막 음절은 힘을 빼고 자연스럽게 정리하세요.",
           "pronChunks": [
             "ve=ve"
-          ],
-          "shadowingTipKo": "오디오를 먼저 1회 듣고, 덩어리마다 2회씩 따라 말한 뒤 마지막에 한 번에 이어 말하세요."
+          ]
         },
         {
           "id": "l11-v-10",
@@ -5103,12 +4851,11 @@
           "sourcePage": 120,
           "reviewNeeded": false,
           "pronKo": "바 ngay",
-          "pronNoteKo": "ba ngày는 하노이 기준으로 음절을 짧게 또렷하게 말하고, 끝소리는 부드럽게 연결해 주세요.",
+          "pronNoteKo": "ba ngày는 처음 소리를 과하게 세게 내지 말고 'ngay'은 마지막 음절은 힘을 빼고 자연스럽게 정리하세요.",
           "pronChunks": [
             "ba=바",
             "ngay=ngay"
-          ],
-          "shadowingTipKo": "오디오를 먼저 1회 듣고, 덩어리마다 2회씩 따라 말한 뒤 마지막에 한 번에 이어 말하세요."
+          ]
         }
       ],
       "sentenceCards": [
@@ -5120,13 +4867,12 @@
           "sourcePage": 121,
           "reviewNeeded": false,
           "pronKo": "또이 thich 디 du lich voi gia dinh",
-          "pronNoteKo": "문장 첫 덩어리는 또렷하게 시작하고, 핵심 단어는 성조를 살려 말한 뒤 문장 끝 억양을 자연스럽게 마무리하세요.",
+          "pronNoteKo": "Tôi thích đi du lịch với gia đình.는 첫 음절을 또렷하게 시작하고 'dinh'은 끝을 낮게 내리며 정리하세요.",
           "pronChunks": [
-            "toi thich di=또이 thich 디",
-            "du lich voi=du lich voi",
-            "gia dinh=gia dinh"
-          ],
-          "shadowingTipKo": "2~4개 덩어리로 끊어 따라 말한 뒤, 속도를 조금 올려 한 문장으로 이어 말하세요."
+            "toi thich di=또이",
+            "du lich voi=thich",
+            "gia dinh=디"
+          ]
         },
         {
           "id": "l11-s-02",
@@ -5136,13 +4882,12 @@
           "sourcePage": 121,
           "reviewNeeded": false,
           "pronKo": "또이 무온 디 하 노이 vao 남 사우",
-          "pronNoteKo": "문장 첫 덩어리는 또렷하게 시작하고, 핵심 단어는 성조를 살려 말한 뒤 문장 끝 억양을 자연스럽게 마무리하세요.",
+          "pronNoteKo": "Tôi muốn đi Hà Nội vào năm sau.는 첫 소리를 짧게 잡고 '사우'은 끝음을 짧게 닫아 마무리하세요.",
           "pronChunks": [
             "toi muon di=또이 무온 디",
-            "ha noi vao=하 노이 vao",
+            "ha noi vao=무온",
             "nam sau=남 사우"
-          ],
-          "shadowingTipKo": "2~4개 덩어리로 끊어 따라 말한 뒤, 속도를 조금 올려 한 문장으로 이어 말하세요."
+          ]
         },
         {
           "id": "l11-s-03",
@@ -5152,13 +4897,12 @@
           "sourcePage": 121,
           "reviewNeeded": false,
           "pronKo": "또이 da dat phong 조이",
-          "pronNoteKo": "문장 첫 덩어리는 또렷하게 시작하고, 핵심 단어는 성조를 살려 말한 뒤 문장 끝 억양을 자연스럽게 마무리하세요.",
+          "pronNoteKo": "Tôi đã đặt phòng rồi.는 앞부분은 끊지 말고 가볍게 붙여서 시작한 뒤 '조이'은 마지막 소리를 부드럽게 이어 말하세요.",
           "pronChunks": [
-            "toi da=또이 da",
-            "dat phong=dat phong",
+            "toi da=또이",
+            "dat phong=da",
             "roi=조이"
-          ],
-          "shadowingTipKo": "2~4개 덩어리로 끊어 따라 말한 뒤, 속도를 조금 올려 한 문장으로 이어 말하세요."
+          ]
         },
         {
           "id": "l11-s-04",
@@ -5168,12 +4912,11 @@
           "sourcePage": 121,
           "reviewNeeded": false,
           "pronKo": "또이 무온 nhan phong",
-          "pronNoteKo": "문장 첫 덩어리는 또렷하게 시작하고, 핵심 단어는 성조를 살려 말한 뒤 문장 끝 억양을 자연스럽게 마무리하세요.",
+          "pronNoteKo": "Tôi muốn nhận phòng.는 처음 소리를 과하게 세게 내지 말고 'phong'은 마지막 음절은 힘을 빼고 자연스럽게 정리하세요.",
           "pronChunks": [
             "toi muon=또이 무온",
-            "nhan phong=nhan phong"
-          ],
-          "shadowingTipKo": "2~4개 덩어리로 끊어 따라 말한 뒤, 속도를 조금 올려 한 문장으로 이어 말하세요."
+            "nhan phong=무온"
+          ]
         },
         {
           "id": "l11-s-05",
@@ -5183,13 +4926,12 @@
           "sourcePage": 121,
           "reviewNeeded": false,
           "pronKo": "또이 o 하 노이 바 ngay",
-          "pronNoteKo": "문장 첫 덩어리는 또렷하게 시작하고, 핵심 단어는 성조를 살려 말한 뒤 문장 끝 억양을 자연스럽게 마무리하세요.",
+          "pronNoteKo": "Tôi ở Hà Nội ba ngày.는 첫 음절을 또렷하게 시작하고 'ngay'은 끝을 낮게 내리며 정리하세요.",
           "pronChunks": [
-            "toi o=또이 o",
+            "toi o=또이",
             "ha noi=하 노이",
-            "ba ngay=바 ngay"
-          ],
-          "shadowingTipKo": "2~4개 덩어리로 끊어 따라 말한 뒤, 속도를 조금 올려 한 문장으로 이어 말하세요."
+            "ba ngay=하"
+          ]
         },
         {
           "id": "l11-s-06",
@@ -5199,13 +4941,12 @@
           "sourcePage": 121,
           "reviewNeeded": false,
           "pronKo": "chuyen 디 nay 젓 트 비",
-          "pronNoteKo": "문장 첫 덩어리는 또렷하게 시작하고, 핵심 단어는 성조를 살려 말한 뒤 문장 끝 억양을 자연스럽게 마무리하세요.",
+          "pronNoteKo": "Chuyến đi này rất thú vị.는 첫 소리를 짧게 잡고 '비'은 끝음을 짧게 닫아 마무리하세요.",
           "pronChunks": [
-            "chuyen di=chuyen 디",
-            "nay rat=nay 젓",
+            "chuyen di=chuyen",
+            "nay rat=디",
             "thu vi=트 비"
-          ],
-          "shadowingTipKo": "2~4개 덩어리로 끊어 따라 말한 뒤, 속도를 조금 올려 한 문장으로 이어 말하세요."
+          ]
         }
       ],
       "dialogues": [
@@ -5260,8 +5001,7 @@
           "reviewNeeded": false,
           "pronKo": "du lich",
           "mouthKo": "입술을 과하게 힘주지 말고, 자음 시작을 가볍게 낸 뒤 모음을 길게 열어 소리 내세요.",
-          "toneKo": "하노이 기준 성조를 의식해 음의 높낮이를 분명히 하고, 끝은 급하게 끊지 말고 짧게 정리하세요.",
-          "practiceKo": "오디오를 듣고 같은 속도로 3회 반복한 뒤, 마지막 1회는 끊지 않고 자연스럽게 말하세요."
+          "toneKo": "하노이 기준 성조를 의식해 음의 높낮이를 분명히 하고, 끝은 급하게 끊지 말고 짧게 정리하세요."
         },
         {
           "id": "l11-p-02",
@@ -5272,8 +5012,7 @@
           "reviewNeeded": false,
           "pronKo": "또이 thich 디 du lich voi gia dinh",
           "mouthKo": "입술을 과하게 힘주지 말고, 자음 시작을 가볍게 낸 뒤 모음을 길게 열어 소리 내세요.",
-          "toneKo": "하노이 기준 성조를 의식해 음의 높낮이를 분명히 하고, 끝은 급하게 끊지 말고 짧게 정리하세요.",
-          "practiceKo": "오디오를 듣고 같은 속도로 3회 반복한 뒤, 마지막 1회는 끊지 않고 자연스럽게 말하세요."
+          "toneKo": "하노이 기준 성조를 의식해 음의 높낮이를 분명히 하고, 끝은 급하게 끊지 말고 짧게 정리하세요."
         }
       ],
       "quizSeeds": [
@@ -5330,11 +5069,10 @@
           "sourcePage": 130,
           "reviewNeeded": false,
           "pronKo": "met",
-          "pronNoteKo": "mệt는 하노이 기준으로 음절을 짧게 또렷하게 말하고, 끝소리는 부드럽게 연결해 주세요.",
+          "pronNoteKo": "mệt는 'met'을(를) 짧고 또렷하게 내고 끝을 낮게 내리며 정리하세요.",
           "pronChunks": [
             "met=met"
-          ],
-          "shadowingTipKo": "오디오를 먼저 1회 듣고, 덩어리마다 2회씩 따라 말한 뒤 마지막에 한 번에 이어 말하세요."
+          ]
         },
         {
           "id": "l12-v-02",
@@ -5346,12 +5084,11 @@
           "sourcePage": 130,
           "reviewNeeded": false,
           "pronKo": "dau dau",
-          "pronNoteKo": "đau đầu는 하노이 기준으로 음절을 짧게 또렷하게 말하고, 끝소리는 부드럽게 연결해 주세요.",
+          "pronNoteKo": "đau đầu는 첫 소리를 짧게 잡고 'dau'은 끝음을 짧게 닫아 마무리하세요.",
           "pronChunks": [
             "dau=dau",
             "dau=dau"
-          ],
-          "shadowingTipKo": "오디오를 먼저 1회 듣고, 덩어리마다 2회씩 따라 말한 뒤 마지막에 한 번에 이어 말하세요."
+          ]
         },
         {
           "id": "l12-v-03",
@@ -5363,12 +5100,11 @@
           "sourcePage": 130,
           "reviewNeeded": false,
           "pronKo": "dau bung",
-          "pronNoteKo": "đau bụng는 하노이 기준으로 음절을 짧게 또렷하게 말하고, 끝소리는 부드럽게 연결해 주세요.",
+          "pronNoteKo": "đau bụng는 앞부분은 끊지 말고 가볍게 붙여서 시작한 뒤 'bung'은 마지막 소리를 부드럽게 이어 말하세요.",
           "pronChunks": [
             "dau=dau",
             "bung=bung"
-          ],
-          "shadowingTipKo": "오디오를 먼저 1회 듣고, 덩어리마다 2회씩 따라 말한 뒤 마지막에 한 번에 이어 말하세요."
+          ]
         },
         {
           "id": "l12-v-04",
@@ -5380,11 +5116,10 @@
           "sourcePage": 130,
           "reviewNeeded": false,
           "pronKo": "sot",
-          "pronNoteKo": "sốt는 하노이 기준으로 음절을 짧게 또렷하게 말하고, 끝소리는 부드럽게 연결해 주세요.",
+          "pronNoteKo": "sốt는 'sot'을(를) 짧고 또렷하게 내고 마지막 음절은 힘을 빼고 자연스럽게 정리하세요.",
           "pronChunks": [
             "sot=sot"
-          ],
-          "shadowingTipKo": "오디오를 먼저 1회 듣고, 덩어리마다 2회씩 따라 말한 뒤 마지막에 한 번에 이어 말하세요."
+          ]
         },
         {
           "id": "l12-v-05",
@@ -5396,12 +5131,11 @@
           "sourcePage": 130,
           "reviewNeeded": false,
           "pronKo": "benh vien",
-          "pronNoteKo": "bệnh viện는 하노이 기준으로 음절을 짧게 또렷하게 말하고, 끝소리는 부드럽게 연결해 주세요.",
+          "pronNoteKo": "bệnh viện는 첫 음절을 또렷하게 시작하고 'vien'은 끝을 낮게 내리며 정리하세요.",
           "pronChunks": [
             "benh=benh",
             "vien=vien"
-          ],
-          "shadowingTipKo": "오디오를 먼저 1회 듣고, 덩어리마다 2회씩 따라 말한 뒤 마지막에 한 번에 이어 말하세요."
+          ]
         },
         {
           "id": "l12-v-06",
@@ -5413,12 +5147,11 @@
           "sourcePage": 130,
           "reviewNeeded": false,
           "pronKo": "냐 thuoc",
-          "pronNoteKo": "nhà thuốc는 하노이 기준으로 음절을 짧게 또렷하게 말하고, 끝소리는 부드럽게 연결해 주세요.",
+          "pronNoteKo": "nhà thuốc는 첫 소리를 짧게 잡고 'thuoc'은 끝음을 짧게 닫아 마무리하세요.",
           "pronChunks": [
             "nha=냐",
             "thuoc=thuoc"
-          ],
-          "shadowingTipKo": "오디오를 먼저 1회 듣고, 덩어리마다 2회씩 따라 말한 뒤 마지막에 한 번에 이어 말하세요."
+          ]
         },
         {
           "id": "l12-v-07",
@@ -5430,11 +5163,10 @@
           "sourcePage": 130,
           "reviewNeeded": false,
           "pronKo": "thuoc",
-          "pronNoteKo": "thuốc는 하노이 기준으로 음절을 짧게 또렷하게 말하고, 끝소리는 부드럽게 연결해 주세요.",
+          "pronNoteKo": "thuốc는 'thuoc'을(를) 짧고 또렷하게 내고 마지막 소리를 부드럽게 이어 말하세요.",
           "pronChunks": [
             "thuoc=thuoc"
-          ],
-          "shadowingTipKo": "오디오를 먼저 1회 듣고, 덩어리마다 2회씩 따라 말한 뒤 마지막에 한 번에 이어 말하세요."
+          ]
         },
         {
           "id": "l12-v-08",
@@ -5446,12 +5178,11 @@
           "sourcePage": 130,
           "reviewNeeded": false,
           "pronKo": "bac si",
-          "pronNoteKo": "bác sĩ는 하노이 기준으로 음절을 짧게 또렷하게 말하고, 끝소리는 부드럽게 연결해 주세요.",
+          "pronNoteKo": "bác sĩ는 처음 소리를 과하게 세게 내지 말고 'si'은 마지막 음절은 힘을 빼고 자연스럽게 정리하세요.",
           "pronChunks": [
             "bac=bac",
             "si=si"
-          ],
-          "shadowingTipKo": "오디오를 먼저 1회 듣고, 덩어리마다 2회씩 따라 말한 뒤 마지막에 한 번에 이어 말하세요."
+          ]
         },
         {
           "id": "l12-v-09",
@@ -5463,12 +5194,11 @@
           "sourcePage": 130,
           "reviewNeeded": false,
           "pronKo": "nghi ngoi",
-          "pronNoteKo": "nghỉ ngơi는 하노이 기준으로 음절을 짧게 또렷하게 말하고, 끝소리는 부드럽게 연결해 주세요.",
+          "pronNoteKo": "nghỉ ngơi는 첫 음절을 또렷하게 시작하고 'ngoi'은 끝을 낮게 내리며 정리하세요.",
           "pronChunks": [
             "nghi=nghi",
             "ngoi=ngoi"
-          ],
-          "shadowingTipKo": "오디오를 먼저 1회 듣고, 덩어리마다 2회씩 따라 말한 뒤 마지막에 한 번에 이어 말하세요."
+          ]
         },
         {
           "id": "l12-v-10",
@@ -5480,12 +5210,11 @@
           "sourcePage": 130,
           "reviewNeeded": false,
           "pronKo": "우옹 nuoc",
-          "pronNoteKo": "uống nước는 하노이 기준으로 음절을 짧게 또렷하게 말하고, 끝소리는 부드럽게 연결해 주세요.",
+          "pronNoteKo": "uống nước는 첫 음절을 또렷하게 시작하고 'nuoc'은 끝을 낮게 내리며 정리하세요.",
           "pronChunks": [
             "uong=우옹",
             "nuoc=nuoc"
-          ],
-          "shadowingTipKo": "오디오를 먼저 1회 듣고, 덩어리마다 2회씩 따라 말한 뒤 마지막에 한 번에 이어 말하세요."
+          ]
         }
       ],
       "sentenceCards": [
@@ -5497,13 +5226,12 @@
           "sourcePage": 131,
           "reviewNeeded": false,
           "pronKo": "또이 hoi met hom nay",
-          "pronNoteKo": "문장 첫 덩어리는 또렷하게 시작하고, 핵심 단어는 성조를 살려 말한 뒤 문장 끝 억양을 자연스럽게 마무리하세요.",
+          "pronNoteKo": "Tôi hơi mệt hôm nay.는 첫 소리를 짧게 잡고 'nay'은 끝음을 짧게 닫아 마무리하세요.",
           "pronChunks": [
-            "toi hoi=또이 hoi",
-            "met hom=met hom",
-            "nay=nay"
-          ],
-          "shadowingTipKo": "2~4개 덩어리로 끊어 따라 말한 뒤, 속도를 조금 올려 한 문장으로 이어 말하세요."
+            "toi hoi=또이",
+            "met hom=hoi",
+            "nay=met"
+          ]
         },
         {
           "id": "l12-s-02",
@@ -5513,12 +5241,11 @@
           "sourcePage": 131,
           "reviewNeeded": false,
           "pronKo": "또이 bi dau dau",
-          "pronNoteKo": "문장 첫 덩어리는 또렷하게 시작하고, 핵심 단어는 성조를 살려 말한 뒤 문장 끝 억양을 자연스럽게 마무리하세요.",
+          "pronNoteKo": "Tôi bị đau đầu.는 앞부분은 끊지 말고 가볍게 붙여서 시작한 뒤 'dau'은 마지막 소리를 부드럽게 이어 말하세요.",
           "pronChunks": [
-            "toi bi=또이 bi",
-            "dau dau=dau dau"
-          ],
-          "shadowingTipKo": "2~4개 덩어리로 끊어 따라 말한 뒤, 속도를 조금 올려 한 문장으로 이어 말하세요."
+            "toi bi=또이",
+            "dau dau=bi"
+          ]
         },
         {
           "id": "l12-s-03",
@@ -5528,12 +5255,11 @@
           "sourcePage": 131,
           "reviewNeeded": false,
           "pronKo": "또이 무온 mua thuoc",
-          "pronNoteKo": "문장 첫 덩어리는 또렷하게 시작하고, 핵심 단어는 성조를 살려 말한 뒤 문장 끝 억양을 자연스럽게 마무리하세요.",
+          "pronNoteKo": "Tôi muốn mua thuốc.는 처음 소리를 과하게 세게 내지 말고 'thuoc'은 마지막 음절은 힘을 빼고 자연스럽게 정리하세요.",
           "pronChunks": [
             "toi muon=또이 무온",
-            "mua thuoc=mua thuoc"
-          ],
-          "shadowingTipKo": "2~4개 덩어리로 끊어 따라 말한 뒤, 속도를 조금 올려 한 문장으로 이어 말하세요."
+            "mua thuoc=무온"
+          ]
         },
         {
           "id": "l12-s-04",
@@ -5543,12 +5269,11 @@
           "sourcePage": 131,
           "reviewNeeded": false,
           "pronKo": "냐 thuoc o dau",
-          "pronNoteKo": "문장 첫 덩어리는 또렷하게 시작하고, 핵심 단어는 성조를 살려 말한 뒤 문장 끝 억양을 자연스럽게 마무리하세요.",
+          "pronNoteKo": "Nhà thuốc ở đâu?는 첫 음절을 또렷하게 시작하고 'dau'은 끝을 낮게 내리며 정리하세요.",
           "pronChunks": [
-            "nha thuoc=냐 thuoc",
-            "o dau=o dau"
-          ],
-          "shadowingTipKo": "2~4개 덩어리로 끊어 따라 말한 뒤, 속도를 조금 올려 한 문장으로 이어 말하세요."
+            "nha thuoc=냐",
+            "o dau=thuoc"
+          ]
         },
         {
           "id": "l12-s-05",
@@ -5558,13 +5283,12 @@
           "sourcePage": 131,
           "reviewNeeded": false,
           "pronKo": "또이 can gap bac si",
-          "pronNoteKo": "문장 첫 덩어리는 또렷하게 시작하고, 핵심 단어는 성조를 살려 말한 뒤 문장 끝 억양을 자연스럽게 마무리하세요.",
+          "pronNoteKo": "Tôi cần gặp bác sĩ.는 첫 소리를 짧게 잡고 'si'은 끝음을 짧게 닫아 마무리하세요.",
           "pronChunks": [
-            "toi can=또이 can",
-            "gap bac=gap bac",
-            "si=si"
-          ],
-          "shadowingTipKo": "2~4개 덩어리로 끊어 따라 말한 뒤, 속도를 조금 올려 한 문장으로 이어 말하세요."
+            "toi can=또이",
+            "gap bac=can",
+            "si=gap"
+          ]
         },
         {
           "id": "l12-s-06",
@@ -5574,13 +5298,12 @@
           "sourcePage": 131,
           "reviewNeeded": false,
           "pronKo": "또이 세 nghi ngoi o 냐",
-          "pronNoteKo": "문장 첫 덩어리는 또렷하게 시작하고, 핵심 단어는 성조를 살려 말한 뒤 문장 끝 억양을 자연스럽게 마무리하세요.",
+          "pronNoteKo": "Tôi sẽ nghỉ ngơi ở nhà.는 앞부분은 끊지 말고 가볍게 붙여서 시작한 뒤 '냐'은 마지막 소리를 부드럽게 이어 말하세요.",
           "pronChunks": [
             "toi se=또이 세",
-            "nghi ngoi=nghi ngoi",
-            "o nha=o 냐"
-          ],
-          "shadowingTipKo": "2~4개 덩어리로 끊어 따라 말한 뒤, 속도를 조금 올려 한 문장으로 이어 말하세요."
+            "nghi ngoi=세",
+            "o nha=nghi"
+          ]
         }
       ],
       "dialogues": [
@@ -5635,8 +5358,7 @@
           "reviewNeeded": false,
           "pronKo": "met",
           "mouthKo": "입술을 과하게 힘주지 말고, 자음 시작을 가볍게 낸 뒤 모음을 길게 열어 소리 내세요.",
-          "toneKo": "하노이 기준 성조를 의식해 음의 높낮이를 분명히 하고, 끝은 급하게 끊지 말고 짧게 정리하세요.",
-          "practiceKo": "오디오를 듣고 같은 속도로 3회 반복한 뒤, 마지막 1회는 끊지 않고 자연스럽게 말하세요."
+          "toneKo": "하노이 기준 성조를 의식해 음의 높낮이를 분명히 하고, 끝은 급하게 끊지 말고 짧게 정리하세요."
         },
         {
           "id": "l12-p-02",
@@ -5647,8 +5369,7 @@
           "reviewNeeded": false,
           "pronKo": "또이 hoi met hom nay",
           "mouthKo": "입술을 과하게 힘주지 말고, 자음 시작을 가볍게 낸 뒤 모음을 길게 열어 소리 내세요.",
-          "toneKo": "하노이 기준 성조를 의식해 음의 높낮이를 분명히 하고, 끝은 급하게 끊지 말고 짧게 정리하세요.",
-          "practiceKo": "오디오를 듣고 같은 속도로 3회 반복한 뒤, 마지막 1회는 끊지 않고 자연스럽게 말하세요."
+          "toneKo": "하노이 기준 성조를 의식해 음의 높낮이를 분명히 하고, 끝은 급하게 끊지 말고 짧게 정리하세요."
         }
       ],
       "quizSeeds": [
@@ -5705,11 +5426,10 @@
           "sourcePage": 140,
           "reviewNeeded": false,
           "pronKo": "da",
-          "pronNoteKo": "đã는 하노이 기준으로 음절을 짧게 또렷하게 말하고, 끝소리는 부드럽게 연결해 주세요.",
+          "pronNoteKo": "đã는 'da'을(를) 짧고 또렷하게 내고 끝음을 짧게 닫아 마무리하세요.",
           "pronChunks": [
             "da=da"
-          ],
-          "shadowingTipKo": "오디오를 먼저 1회 듣고, 덩어리마다 2회씩 따라 말한 뒤 마지막에 한 번에 이어 말하세요."
+          ]
         },
         {
           "id": "l13-v-02",
@@ -5721,11 +5441,10 @@
           "sourcePage": 140,
           "reviewNeeded": false,
           "pronKo": "조이",
-          "pronNoteKo": "rồi는 하노이 기준으로 음절을 짧게 또렷하게 말하고, 끝소리는 부드럽게 연결해 주세요.",
+          "pronNoteKo": "rồi는 '조이'을(를) 짧고 또렷하게 내고 마지막 소리를 부드럽게 이어 말하세요.",
           "pronChunks": [
             "roi=조이"
-          ],
-          "shadowingTipKo": "오디오를 먼저 1회 듣고, 덩어리마다 2회씩 따라 말한 뒤 마지막에 한 번에 이어 말하세요."
+          ]
         },
         {
           "id": "l13-v-03",
@@ -5737,12 +5456,11 @@
           "sourcePage": 140,
           "reviewNeeded": false,
           "pronKo": "남 ngoai",
-          "pronNoteKo": "năm ngoái는 하노이 기준으로 음절을 짧게 또렷하게 말하고, 끝소리는 부드럽게 연결해 주세요.",
+          "pronNoteKo": "năm ngoái는 처음 소리를 과하게 세게 내지 말고 'ngoai'은 마지막 음절은 힘을 빼고 자연스럽게 정리하세요.",
           "pronChunks": [
             "nam=남",
             "ngoai=ngoai"
-          ],
-          "shadowingTipKo": "오디오를 먼저 1회 듣고, 덩어리마다 2회씩 따라 말한 뒤 마지막에 한 번에 이어 말하세요."
+          ]
         },
         {
           "id": "l13-v-04",
@@ -5754,12 +5472,11 @@
           "sourcePage": 140,
           "reviewNeeded": false,
           "pronKo": "tuan truoc",
-          "pronNoteKo": "tuần trước는 하노이 기준으로 음절을 짧게 또렷하게 말하고, 끝소리는 부드럽게 연결해 주세요.",
+          "pronNoteKo": "tuần trước는 첫 음절을 또렷하게 시작하고 'truoc'은 끝을 낮게 내리며 정리하세요.",
           "pronChunks": [
             "tuan=tuan",
             "truoc=truoc"
-          ],
-          "shadowingTipKo": "오디오를 먼저 1회 듣고, 덩어리마다 2회씩 따라 말한 뒤 마지막에 한 번에 이어 말하세요."
+          ]
         },
         {
           "id": "l13-v-05",
@@ -5771,12 +5488,11 @@
           "sourcePage": 140,
           "reviewNeeded": false,
           "pronKo": "lan dau",
-          "pronNoteKo": "lần đầu는 하노이 기준으로 음절을 짧게 또렷하게 말하고, 끝소리는 부드럽게 연결해 주세요.",
+          "pronNoteKo": "lần đầu는 첫 소리를 짧게 잡고 'dau'은 끝음을 짧게 닫아 마무리하세요.",
           "pronChunks": [
             "lan=lan",
             "dau=dau"
-          ],
-          "shadowingTipKo": "오디오를 먼저 1회 듣고, 덩어리마다 2회씩 따라 말한 뒤 마지막에 한 번에 이어 말하세요."
+          ]
         },
         {
           "id": "l13-v-06",
@@ -5788,12 +5504,11 @@
           "sourcePage": 140,
           "reviewNeeded": false,
           "pronKo": "luc dau",
-          "pronNoteKo": "lúc đầu는 하노이 기준으로 음절을 짧게 또렷하게 말하고, 끝소리는 부드럽게 연결해 주세요.",
+          "pronNoteKo": "lúc đầu는 앞부분은 끊지 말고 가볍게 붙여서 시작한 뒤 'dau'은 마지막 소리를 부드럽게 이어 말하세요.",
           "pronChunks": [
             "luc=luc",
             "dau=dau"
-          ],
-          "shadowingTipKo": "오디오를 먼저 1회 듣고, 덩어리마다 2회씩 따라 말한 뒤 마지막에 한 번에 이어 말하세요."
+          ]
         },
         {
           "id": "l13-v-07",
@@ -5805,12 +5520,11 @@
           "sourcePage": 140,
           "reviewNeeded": false,
           "pronKo": "사우 do",
-          "pronNoteKo": "sau đó는 하노이 기준으로 음절을 짧게 또렷하게 말하고, 끝소리는 부드럽게 연결해 주세요.",
+          "pronNoteKo": "sau đó는 처음 소리를 과하게 세게 내지 말고 'do'은 마지막 음절은 힘을 빼고 자연스럽게 정리하세요.",
           "pronChunks": [
             "sau=사우",
             "do=do"
-          ],
-          "shadowingTipKo": "오디오를 먼저 1회 듣고, 덩어리마다 2회씩 따라 말한 뒤 마지막에 한 번에 이어 말하세요."
+          ]
         },
         {
           "id": "l13-v-08",
@@ -5822,12 +5536,11 @@
           "sourcePage": 140,
           "reviewNeeded": false,
           "pronKo": "ky niem",
-          "pronNoteKo": "kỷ niệm는 하노이 기준으로 음절을 짧게 또렷하게 말하고, 끝소리는 부드럽게 연결해 주세요.",
+          "pronNoteKo": "kỷ niệm는 첫 음절을 또렷하게 시작하고 'niem'은 끝을 낮게 내리며 정리하세요.",
           "pronChunks": [
             "ky=ky",
             "niem=niem"
-          ],
-          "shadowingTipKo": "오디오를 먼저 1회 듣고, 덩어리마다 2회씩 따라 말한 뒤 마지막에 한 번에 이어 말하세요."
+          ]
         },
         {
           "id": "l13-v-09",
@@ -5839,11 +5552,10 @@
           "sourcePage": 140,
           "reviewNeeded": false,
           "pronKo": "부이",
-          "pronNoteKo": "vui는 하노이 기준으로 음절을 짧게 또렷하게 말하고, 끝소리는 부드럽게 연결해 주세요.",
+          "pronNoteKo": "vui는 '부이'을(를) 짧고 또렷하게 내고 끝음을 짧게 닫아 마무리하세요.",
           "pronChunks": [
             "vui=부이"
-          ],
-          "shadowingTipKo": "오디오를 먼저 1회 듣고, 덩어리마다 2회씩 따라 말한 뒤 마지막에 한 번에 이어 말하세요."
+          ]
         },
         {
           "id": "l13-v-10",
@@ -5855,11 +5567,10 @@
           "sourcePage": 140,
           "reviewNeeded": false,
           "pronKo": "kho",
-          "pronNoteKo": "khó는 하노이 기준으로 음절을 짧게 또렷하게 말하고, 끝소리는 부드럽게 연결해 주세요.",
+          "pronNoteKo": "khó는 'kho'을(를) 짧고 또렷하게 내고 끝음을 짧게 닫아 마무리하세요.",
           "pronChunks": [
             "kho=kho"
-          ],
-          "shadowingTipKo": "오디오를 먼저 1회 듣고, 덩어리마다 2회씩 따라 말한 뒤 마지막에 한 번에 이어 말하세요."
+          ]
         }
       ],
       "sentenceCards": [
@@ -5871,13 +5582,12 @@
           "sourcePage": 141,
           "reviewNeeded": false,
           "pronKo": "남 ngoai 또이 bat dau 혹 띠엥 비엣",
-          "pronNoteKo": "문장 첫 덩어리는 또렷하게 시작하고, 핵심 단어는 성조를 살려 말한 뒤 문장 끝 억양을 자연스럽게 마무리하세요.",
+          "pronNoteKo": "Năm ngoái, tôi bắt đầu học tiếng Việt.는 앞부분은 끊지 말고 가볍게 붙여서 시작한 뒤 '비엣'은 마지막 소리를 부드럽게 이어 말하세요.",
           "pronChunks": [
-            "nam ngoai toi=남 ngoai 또이",
-            "bat dau hoc=bat dau 혹",
+            "nam ngoai toi=남",
+            "bat dau hoc=ngoai",
             "tieng viet=띠엥 비엣"
-          ],
-          "shadowingTipKo": "2~4개 덩어리로 끊어 따라 말한 뒤, 속도를 조금 올려 한 문장으로 이어 말하세요."
+          ]
         },
         {
           "id": "l13-s-02",
@@ -5887,13 +5597,12 @@
           "sourcePage": 141,
           "reviewNeeded": false,
           "pronKo": "luc dau phat am 젓 kho",
-          "pronNoteKo": "문장 첫 덩어리는 또렷하게 시작하고, 핵심 단어는 성조를 살려 말한 뒤 문장 끝 억양을 자연스럽게 마무리하세요.",
+          "pronNoteKo": "Lúc đầu, phát âm rất khó.는 처음 소리를 과하게 세게 내지 말고 'kho'은 마지막 음절은 힘을 빼고 자연스럽게 정리하세요.",
           "pronChunks": [
-            "luc dau=luc dau",
-            "phat am=phat am",
-            "rat kho=젓 kho"
-          ],
-          "shadowingTipKo": "2~4개 덩어리로 끊어 따라 말한 뒤, 속도를 조금 올려 한 문장으로 이어 말하세요."
+            "luc dau=luc",
+            "phat am=dau",
+            "rat kho=phat"
+          ]
         },
         {
           "id": "l13-s-03",
@@ -5903,13 +5612,12 @@
           "sourcePage": 141,
           "reviewNeeded": false,
           "pronKo": "사우 do 또이 luyen tap moi ngay",
-          "pronNoteKo": "문장 첫 덩어리는 또렷하게 시작하고, 핵심 단어는 성조를 살려 말한 뒤 문장 끝 억양을 자연스럽게 마무리하세요.",
+          "pronNoteKo": "Sau đó, tôi luyện tập mỗi ngày.는 첫 음절을 또렷하게 시작하고 'ngay'은 끝을 낮게 내리며 정리하세요.",
           "pronChunks": [
-            "sau do toi=사우 do 또이",
-            "luyen tap moi=luyen tap moi",
-            "ngay=ngay"
-          ],
-          "shadowingTipKo": "2~4개 덩어리로 끊어 따라 말한 뒤, 속도를 조금 올려 한 문장으로 이어 말하세요."
+            "sau do toi=사우",
+            "luyen tap moi=do",
+            "ngay=또이"
+          ]
         },
         {
           "id": "l13-s-04",
@@ -5919,13 +5627,12 @@
           "sourcePage": 141,
           "reviewNeeded": false,
           "pronKo": "또이 da 안 퍼 o 하 노이",
-          "pronNoteKo": "문장 첫 덩어리는 또렷하게 시작하고, 핵심 단어는 성조를 살려 말한 뒤 문장 끝 억양을 자연스럽게 마무리하세요.",
+          "pronNoteKo": "Tôi đã ăn phở ở Hà Nội.는 첫 소리를 짧게 잡고 '노이'은 끝음을 짧게 닫아 마무리하세요.",
           "pronChunks": [
-            "toi da an=또이 da 안",
-            "pho o ha=퍼 o 하",
+            "toi da an=또이",
+            "pho o ha=da",
             "noi=노이"
-          ],
-          "shadowingTipKo": "2~4개 덩어리로 끊어 따라 말한 뒤, 속도를 조금 올려 한 문장으로 이어 말하세요."
+          ]
         },
         {
           "id": "l13-s-05",
@@ -5935,13 +5642,12 @@
           "sourcePage": 141,
           "reviewNeeded": false,
           "pronKo": "trai nghiem do 젓 부이",
-          "pronNoteKo": "문장 첫 덩어리는 또렷하게 시작하고, 핵심 단어는 성조를 살려 말한 뒤 문장 끝 억양을 자연스럽게 마무리하세요.",
+          "pronNoteKo": "Trải nghiệm đó rất vui.는 앞부분은 끊지 말고 가볍게 붙여서 시작한 뒤 '부이'은 마지막 소리를 부드럽게 이어 말하세요.",
           "pronChunks": [
-            "trai nghiem=trai nghiem",
-            "do rat=do 젓",
+            "trai nghiem=trai",
+            "do rat=nghiem",
             "vui=부이"
-          ],
-          "shadowingTipKo": "2~4개 덩어리로 끊어 따라 말한 뒤, 속도를 조금 올려 한 문장으로 이어 말하세요."
+          ]
         },
         {
           "id": "l13-s-06",
@@ -5951,13 +5657,12 @@
           "sourcePage": 141,
           "reviewNeeded": false,
           "pronKo": "버이 gio 또이 꼬 the 짜오 hoi don gian",
-          "pronNoteKo": "문장 첫 덩어리는 또렷하게 시작하고, 핵심 단어는 성조를 살려 말한 뒤 문장 끝 억양을 자연스럽게 마무리하세요.",
+          "pronNoteKo": "Bây giờ, tôi có thể chào hỏi đơn giản.는 처음 소리를 과하게 세게 내지 말고 'gian'은 마지막 음절은 힘을 빼고 자연스럽게 정리하세요.",
           "pronChunks": [
-            "bay gio toi=버이 gio 또이",
-            "co the chao=꼬 the 짜오",
-            "hoi don gian=hoi don gian"
-          ],
-          "shadowingTipKo": "2~4개 덩어리로 끊어 따라 말한 뒤, 속도를 조금 올려 한 문장으로 이어 말하세요."
+            "bay gio toi=버이",
+            "co the chao=gio",
+            "hoi don gian=또이"
+          ]
         }
       ],
       "dialogues": [
@@ -6019,8 +5724,7 @@
           "reviewNeeded": false,
           "pronKo": "da",
           "mouthKo": "입술을 과하게 힘주지 말고, 자음 시작을 가볍게 낸 뒤 모음을 길게 열어 소리 내세요.",
-          "toneKo": "하노이 기준 성조를 의식해 음의 높낮이를 분명히 하고, 끝은 급하게 끊지 말고 짧게 정리하세요.",
-          "practiceKo": "오디오를 듣고 같은 속도로 3회 반복한 뒤, 마지막 1회는 끊지 않고 자연스럽게 말하세요."
+          "toneKo": "하노이 기준 성조를 의식해 음의 높낮이를 분명히 하고, 끝은 급하게 끊지 말고 짧게 정리하세요."
         },
         {
           "id": "l13-p-02",
@@ -6031,8 +5735,7 @@
           "reviewNeeded": false,
           "pronKo": "남 ngoai 또이 bat dau 혹 띠엥 비엣",
           "mouthKo": "입술을 과하게 힘주지 말고, 자음 시작을 가볍게 낸 뒤 모음을 길게 열어 소리 내세요.",
-          "toneKo": "하노이 기준 성조를 의식해 음의 높낮이를 분명히 하고, 끝은 급하게 끊지 말고 짧게 정리하세요.",
-          "practiceKo": "오디오를 듣고 같은 속도로 3회 반복한 뒤, 마지막 1회는 끊지 않고 자연스럽게 말하세요."
+          "toneKo": "하노이 기준 성조를 의식해 음의 높낮이를 분명히 하고, 끝은 급하게 끊지 말고 짧게 정리하세요."
         }
       ],
       "quizSeeds": [
@@ -6090,11 +5793,10 @@
           "sourcePage": 150,
           "reviewNeeded": false,
           "pronKo": "세",
-          "pronNoteKo": "sẽ는 하노이 기준으로 음절을 짧게 또렷하게 말하고, 끝소리는 부드럽게 연결해 주세요.",
+          "pronNoteKo": "sẽ는 '세'을(를) 짧고 또렷하게 내고 마지막 소리를 부드럽게 이어 말하세요.",
           "pronChunks": [
             "se=세"
-          ],
-          "shadowingTipKo": "오디오를 먼저 1회 듣고, 덩어리마다 2회씩 따라 말한 뒤 마지막에 한 번에 이어 말하세요."
+          ]
         },
         {
           "id": "l14-v-02",
@@ -6106,11 +5808,10 @@
           "sourcePage": 150,
           "reviewNeeded": false,
           "pronKo": "무온",
-          "pronNoteKo": "muốn는 하노이 기준으로 음절을 짧게 또렷하게 말하고, 끝소리는 부드럽게 연결해 주세요.",
+          "pronNoteKo": "muốn는 '무온'을(를) 짧고 또렷하게 내고 마지막 음절은 힘을 빼고 자연스럽게 정리하세요.",
           "pronChunks": [
             "muon=무온"
-          ],
-          "shadowingTipKo": "오디오를 먼저 1회 듣고, 덩어리마다 2회씩 따라 말한 뒤 마지막에 한 번에 이어 말하세요."
+          ]
         },
         {
           "id": "l14-v-03",
@@ -6122,12 +5823,11 @@
           "sourcePage": 150,
           "reviewNeeded": false,
           "pronKo": "du dinh",
-          "pronNoteKo": "dự định는 하노이 기준으로 음절을 짧게 또렷하게 말하고, 끝소리는 부드럽게 연결해 주세요.",
+          "pronNoteKo": "dự định는 첫 음절을 또렷하게 시작하고 'dinh'은 끝을 낮게 내리며 정리하세요.",
           "pronChunks": [
             "du=du",
             "dinh=dinh"
-          ],
-          "shadowingTipKo": "오디오를 먼저 1회 듣고, 덩어리마다 2회씩 따라 말한 뒤 마지막에 한 번에 이어 말하세요."
+          ]
         },
         {
           "id": "l14-v-04",
@@ -6139,12 +5839,11 @@
           "sourcePage": 150,
           "reviewNeeded": false,
           "pronKo": "trong tuong lai",
-          "pronNoteKo": "trong tương lai는 하노이 기준으로 음절을 짧게 또렷하게 말하고, 끝소리는 부드럽게 연결해 주세요.",
+          "pronNoteKo": "trong tương lai는 첫 소리를 짧게 잡고 'lai'은 끝음을 짧게 닫아 마무리하세요.",
           "pronChunks": [
-            "trong tuong=trong tuong",
-            "lai=lai"
-          ],
-          "shadowingTipKo": "오디오를 먼저 1회 듣고, 덩어리마다 2회씩 따라 말한 뒤 마지막에 한 번에 이어 말하세요."
+            "trong tuong=trong",
+            "lai=tuong"
+          ]
         },
         {
           "id": "l14-v-05",
@@ -6156,11 +5855,10 @@
           "sourcePage": 150,
           "reviewNeeded": false,
           "pronKo": "비",
-          "pronNoteKo": "vì는 하노이 기준으로 음절을 짧게 또렷하게 말하고, 끝소리는 부드럽게 연결해 주세요.",
+          "pronNoteKo": "vì는 '비'을(를) 짧고 또렷하게 내고 마지막 소리를 부드럽게 이어 말하세요.",
           "pronChunks": [
             "vi=비"
-          ],
-          "shadowingTipKo": "오디오를 먼저 1회 듣고, 덩어리마다 2회씩 따라 말한 뒤 마지막에 한 번에 이어 말하세요."
+          ]
         },
         {
           "id": "l14-v-06",
@@ -6172,11 +5870,10 @@
           "sourcePage": 150,
           "reviewNeeded": false,
           "pronKo": "nen",
-          "pronNoteKo": "nên는 하노이 기준으로 음절을 짧게 또렷하게 말하고, 끝소리는 부드럽게 연결해 주세요.",
+          "pronNoteKo": "nên는 'nen'을(를) 짧고 또렷하게 내고 마지막 음절은 힘을 빼고 자연스럽게 정리하세요.",
           "pronChunks": [
             "nen=nen"
-          ],
-          "shadowingTipKo": "오디오를 먼저 1회 듣고, 덩어리마다 2회씩 따라 말한 뒤 마지막에 한 번에 이어 말하세요."
+          ]
         },
         {
           "id": "l14-v-07",
@@ -6188,12 +5885,11 @@
           "sourcePage": 150,
           "reviewNeeded": false,
           "pronKo": "똣 헌",
-          "pronNoteKo": "tốt hơn는 하노이 기준으로 음절을 짧게 또렷하게 말하고, 끝소리는 부드럽게 연결해 주세요.",
+          "pronNoteKo": "tốt hơn는 첫 음절을 또렷하게 시작하고 '헌'은 끝을 낮게 내리며 정리하세요.",
           "pronChunks": [
             "tot=똣",
             "hon=헌"
-          ],
-          "shadowingTipKo": "오디오를 먼저 1회 듣고, 덩어리마다 2회씩 따라 말한 뒤 마지막에 한 번에 이어 말하세요."
+          ]
         },
         {
           "id": "l14-v-08",
@@ -6205,12 +5901,11 @@
           "sourcePage": 150,
           "reviewNeeded": false,
           "pronKo": "꼬 gang",
-          "pronNoteKo": "cố gắng는 하노이 기준으로 음절을 짧게 또렷하게 말하고, 끝소리는 부드럽게 연결해 주세요.",
+          "pronNoteKo": "cố gắng는 첫 소리를 짧게 잡고 'gang'은 끝음을 짧게 닫아 마무리하세요.",
           "pronChunks": [
             "co=꼬",
             "gang=gang"
-          ],
-          "shadowingTipKo": "오디오를 먼저 1회 듣고, 덩어리마다 2회씩 따라 말한 뒤 마지막에 한 번에 이어 말하세요."
+          ]
         },
         {
           "id": "l14-v-09",
@@ -6222,12 +5917,11 @@
           "sourcePage": 150,
           "reviewNeeded": false,
           "pronKo": "muc tieu",
-          "pronNoteKo": "mục tiêu는 하노이 기준으로 음절을 짧게 또렷하게 말하고, 끝소리는 부드럽게 연결해 주세요.",
+          "pronNoteKo": "mục tiêu는 앞부분은 끊지 말고 가볍게 붙여서 시작한 뒤 'tieu'은 마지막 소리를 부드럽게 이어 말하세요.",
           "pronChunks": [
             "muc=muc",
             "tieu=tieu"
-          ],
-          "shadowingTipKo": "오디오를 먼저 1회 듣고, 덩어리마다 2회씩 따라 말한 뒤 마지막에 한 번에 이어 말하세요."
+          ]
         },
         {
           "id": "l14-v-10",
@@ -6239,12 +5933,11 @@
           "sourcePage": 150,
           "reviewNeeded": false,
           "pronKo": "tu tin",
-          "pronNoteKo": "tự tin는 하노이 기준으로 음절을 짧게 또렷하게 말하고, 끝소리는 부드럽게 연결해 주세요.",
+          "pronNoteKo": "tự tin는 앞부분은 끊지 말고 가볍게 붙여서 시작한 뒤 'tin'은 마지막 소리를 부드럽게 이어 말하세요.",
           "pronChunks": [
             "tu=tu",
             "tin=tin"
-          ],
-          "shadowingTipKo": "오디오를 먼저 1회 듣고, 덩어리마다 2회씩 따라 말한 뒤 마지막에 한 번에 이어 말하세요."
+          ]
         }
       ],
       "sentenceCards": [
@@ -6256,13 +5949,12 @@
           "sourcePage": 151,
           "reviewNeeded": false,
           "pronKo": "남 사우 또이 세 디 하 노이",
-          "pronNoteKo": "문장 첫 덩어리는 또렷하게 시작하고, 핵심 단어는 성조를 살려 말한 뒤 문장 끝 억양을 자연스럽게 마무리하세요.",
+          "pronNoteKo": "Năm sau, tôi sẽ đi Hà Nội.는 처음 소리를 과하게 세게 내지 말고 '노이'은 마지막 음절은 힘을 빼고 자연스럽게 정리하세요.",
           "pronChunks": [
             "nam sau toi=남 사우 또이",
             "se di ha=세 디 하",
             "noi=노이"
-          ],
-          "shadowingTipKo": "2~4개 덩어리로 끊어 따라 말한 뒤, 속도를 조금 올려 한 문장으로 이어 말하세요."
+          ]
         },
         {
           "id": "l14-s-02",
@@ -6272,13 +5964,12 @@
           "sourcePage": 151,
           "reviewNeeded": false,
           "pronKo": "또이 무온 노이 띠엥 비엣 똣 헌",
-          "pronNoteKo": "문장 첫 덩어리는 또렷하게 시작하고, 핵심 단어는 성조를 살려 말한 뒤 문장 끝 억양을 자연스럽게 마무리하세요.",
+          "pronNoteKo": "Tôi muốn nói tiếng Việt tốt hơn.는 첫 음절을 또렷하게 시작하고 '헌'은 끝을 낮게 내리며 정리하세요.",
           "pronChunks": [
             "toi muon noi=또이 무온 노이",
             "tieng viet tot=띠엥 비엣 똣",
             "hon=헌"
-          ],
-          "shadowingTipKo": "2~4개 덩어리로 끊어 따라 말한 뒤, 속도를 조금 올려 한 문장으로 이어 말하세요."
+          ]
         },
         {
           "id": "l14-s-03",
@@ -6288,14 +5979,13 @@
           "sourcePage": 151,
           "reviewNeeded": false,
           "pronKo": "또이 혹 띠엥 비엣 비 또이 무온 song o 하 노이",
-          "pronNoteKo": "문장 첫 덩어리는 또렷하게 시작하고, 핵심 단어는 성조를 살려 말한 뒤 문장 끝 억양을 자연스럽게 마무리하세요.",
+          "pronNoteKo": "Tôi học tiếng Việt vì tôi muốn sống ở Hà Nội.는 첫 소리를 짧게 잡고 '노이'은 끝음을 짧게 닫아 마무리하세요.",
           "pronChunks": [
             "toi hoc tieng=또이 혹 띠엥",
             "viet vi toi=비엣 비 또이",
-            "muon song o=무온 song o",
+            "muon song o=띠엥",
             "ha noi=하 노이"
-          ],
-          "shadowingTipKo": "2~4개 덩어리로 끊어 따라 말한 뒤, 속도를 조금 올려 한 문장으로 이어 말하세요."
+          ]
         },
         {
           "id": "l14-s-04",
@@ -6305,13 +5995,12 @@
           "sourcePage": 151,
           "reviewNeeded": false,
           "pronKo": "또이 반 nen 또이 혹 vao buoi 또이",
-          "pronNoteKo": "문장 첫 덩어리는 또렷하게 시작하고, 핵심 단어는 성조를 살려 말한 뒤 문장 끝 억양을 자연스럽게 마무리하세요.",
+          "pronNoteKo": "Tôi bận nên tôi học vào buổi tối.는 앞부분은 끊지 말고 가볍게 붙여서 시작한 뒤 '또이'은 마지막 소리를 부드럽게 이어 말하세요.",
           "pronChunks": [
-            "toi ban nen=또이 반 nen",
-            "toi hoc vao=또이 혹 vao",
-            "buoi toi=buoi 또이"
-          ],
-          "shadowingTipKo": "2~4개 덩어리로 끊어 따라 말한 뒤, 속도를 조금 올려 한 문장으로 이어 말하세요."
+            "toi ban nen=또이",
+            "toi hoc vao=반",
+            "buoi toi=nen"
+          ]
         },
         {
           "id": "l14-s-05",
@@ -6321,13 +6010,12 @@
           "sourcePage": 151,
           "reviewNeeded": false,
           "pronKo": "muc tieu cua 또이 라 opic im1",
-          "pronNoteKo": "문장 첫 덩어리는 또렷하게 시작하고, 핵심 단어는 성조를 살려 말한 뒤 문장 끝 억양을 자연스럽게 마무리하세요.",
+          "pronNoteKo": "Mục tiêu của tôi là OPIC IM1.는 처음 소리를 과하게 세게 내지 말고 'im1'은 마지막 음절은 힘을 빼고 자연스럽게 정리하세요.",
           "pronChunks": [
-            "muc tieu cua=muc tieu cua",
-            "toi la opic=또이 라 opic",
-            "im1=im1"
-          ],
-          "shadowingTipKo": "2~4개 덩어리로 끊어 따라 말한 뒤, 속도를 조금 올려 한 문장으로 이어 말하세요."
+            "muc tieu cua=muc",
+            "toi la opic=tieu",
+            "im1=cua"
+          ]
         },
         {
           "id": "l14-s-06",
@@ -6337,13 +6025,12 @@
           "sourcePage": 151,
           "reviewNeeded": false,
           "pronKo": "또이 세 꼬 gang moi ngay",
-          "pronNoteKo": "문장 첫 덩어리는 또렷하게 시작하고, 핵심 단어는 성조를 살려 말한 뒤 문장 끝 억양을 자연스럽게 마무리하세요.",
+          "pronNoteKo": "Tôi sẽ cố gắng mỗi ngày.는 첫 음절을 또렷하게 시작하고 'ngay'은 끝을 낮게 내리며 정리하세요.",
           "pronChunks": [
             "toi se=또이 세",
-            "co gang=꼬 gang",
-            "moi ngay=moi ngay"
-          ],
-          "shadowingTipKo": "2~4개 덩어리로 끊어 따라 말한 뒤, 속도를 조금 올려 한 문장으로 이어 말하세요."
+            "co gang=세",
+            "moi ngay=꼬"
+          ]
         }
       ],
       "dialogues": [
@@ -6405,8 +6092,7 @@
           "reviewNeeded": false,
           "pronKo": "세",
           "mouthKo": "입술을 과하게 힘주지 말고, 자음 시작을 가볍게 낸 뒤 모음을 길게 열어 소리 내세요.",
-          "toneKo": "하노이 기준 성조를 의식해 음의 높낮이를 분명히 하고, 끝은 급하게 끊지 말고 짧게 정리하세요.",
-          "practiceKo": "오디오를 듣고 같은 속도로 3회 반복한 뒤, 마지막 1회는 끊지 않고 자연스럽게 말하세요."
+          "toneKo": "하노이 기준 성조를 의식해 음의 높낮이를 분명히 하고, 끝은 급하게 끊지 말고 짧게 정리하세요."
         },
         {
           "id": "l14-p-02",
@@ -6417,8 +6103,7 @@
           "reviewNeeded": false,
           "pronKo": "남 사우 또이 세 디 하 노이",
           "mouthKo": "입술을 과하게 힘주지 말고, 자음 시작을 가볍게 낸 뒤 모음을 길게 열어 소리 내세요.",
-          "toneKo": "하노이 기준 성조를 의식해 음의 높낮이를 분명히 하고, 끝은 급하게 끊지 말고 짧게 정리하세요.",
-          "practiceKo": "오디오를 듣고 같은 속도로 3회 반복한 뒤, 마지막 1회는 끊지 않고 자연스럽게 말하세요."
+          "toneKo": "하노이 기준 성조를 의식해 음의 높낮이를 분명히 하고, 끝은 급하게 끊지 말고 짧게 정리하세요."
         }
       ],
       "quizSeeds": [
@@ -6476,12 +6161,11 @@
           "sourcePage": 160,
           "reviewNeeded": false,
           "pronKo": "gioi thieu",
-          "pronNoteKo": "giới thiệu는 하노이 기준으로 음절을 짧게 또렷하게 말하고, 끝소리는 부드럽게 연결해 주세요.",
+          "pronNoteKo": "giới thiệu는 처음 소리를 과하게 세게 내지 말고 'thieu'은 마지막 음절은 힘을 빼고 자연스럽게 정리하세요.",
           "pronChunks": [
             "gioi=gioi",
             "thieu=thieu"
-          ],
-          "shadowingTipKo": "오디오를 먼저 1회 듣고, 덩어리마다 2회씩 따라 말한 뒤 마지막에 한 번에 이어 말하세요."
+          ]
         },
         {
           "id": "l15-v-02",
@@ -6493,12 +6177,11 @@
           "sourcePage": 160,
           "reviewNeeded": false,
           "pronKo": "cau hoi",
-          "pronNoteKo": "câu hỏi는 하노이 기준으로 음절을 짧게 또렷하게 말하고, 끝소리는 부드럽게 연결해 주세요.",
+          "pronNoteKo": "câu hỏi는 첫 음절을 또렷하게 시작하고 'hoi'은 끝을 낮게 내리며 정리하세요.",
           "pronChunks": [
             "cau=cau",
             "hoi=hoi"
-          ],
-          "shadowingTipKo": "오디오를 먼저 1회 듣고, 덩어리마다 2회씩 따라 말한 뒤 마지막에 한 번에 이어 말하세요."
+          ]
         },
         {
           "id": "l15-v-03",
@@ -6510,12 +6193,11 @@
           "sourcePage": 160,
           "reviewNeeded": false,
           "pronKo": "tra loi",
-          "pronNoteKo": "trả lời는 하노이 기준으로 음절을 짧게 또렷하게 말하고, 끝소리는 부드럽게 연결해 주세요.",
+          "pronNoteKo": "trả lời는 첫 소리를 짧게 잡고 'loi'은 끝음을 짧게 닫아 마무리하세요.",
           "pronChunks": [
             "tra=tra",
             "loi=loi"
-          ],
-          "shadowingTipKo": "오디오를 먼저 1회 듣고, 덩어리마다 2회씩 따라 말한 뒤 마지막에 한 번에 이어 말하세요."
+          ]
         },
         {
           "id": "l15-v-04",
@@ -6527,12 +6209,11 @@
           "sourcePage": 160,
           "reviewNeeded": false,
           "pronKo": "쭈 de",
-          "pronNoteKo": "chủ đề는 하노이 기준으로 음절을 짧게 또렷하게 말하고, 끝소리는 부드럽게 연결해 주세요.",
+          "pronNoteKo": "chủ đề는 앞부분은 끊지 말고 가볍게 붙여서 시작한 뒤 'de'은 마지막 소리를 부드럽게 이어 말하세요.",
           "pronChunks": [
             "chu=쭈",
             "de=de"
-          ],
-          "shadowingTipKo": "오디오를 먼저 1회 듣고, 덩어리마다 2회씩 따라 말한 뒤 마지막에 한 번에 이어 말하세요."
+          ]
         },
         {
           "id": "l15-v-05",
@@ -6544,12 +6225,11 @@
           "sourcePage": 160,
           "reviewNeeded": false,
           "pronKo": "kinh nghiem",
-          "pronNoteKo": "kinh nghiệm는 하노이 기준으로 음절을 짧게 또렷하게 말하고, 끝소리는 부드럽게 연결해 주세요.",
+          "pronNoteKo": "kinh nghiệm는 처음 소리를 과하게 세게 내지 말고 'nghiem'은 마지막 음절은 힘을 빼고 자연스럽게 정리하세요.",
           "pronChunks": [
             "kinh=kinh",
             "nghiem=nghiem"
-          ],
-          "shadowingTipKo": "오디오를 먼저 1회 듣고, 덩어리마다 2회씩 따라 말한 뒤 마지막에 한 번에 이어 말하세요."
+          ]
         },
         {
           "id": "l15-v-06",
@@ -6561,12 +6241,11 @@
           "sourcePage": 160,
           "reviewNeeded": false,
           "pronKo": "y kien",
-          "pronNoteKo": "ý kiến는 하노이 기준으로 음절을 짧게 또렷하게 말하고, 끝소리는 부드럽게 연결해 주세요.",
+          "pronNoteKo": "ý kiến는 첫 음절을 또렷하게 시작하고 'kien'은 끝을 낮게 내리며 정리하세요.",
           "pronChunks": [
             "y=y",
             "kien=kien"
-          ],
-          "shadowingTipKo": "오디오를 먼저 1회 듣고, 덩어리마다 2회씩 따라 말한 뒤 마지막에 한 번에 이어 말하세요."
+          ]
         },
         {
           "id": "l15-v-07",
@@ -6578,12 +6257,11 @@
           "sourcePage": 160,
           "reviewNeeded": false,
           "pronKo": "ly do",
-          "pronNoteKo": "lý do는 하노이 기준으로 음절을 짧게 또렷하게 말하고, 끝소리는 부드럽게 연결해 주세요.",
+          "pronNoteKo": "lý do는 첫 소리를 짧게 잡고 'do'은 끝음을 짧게 닫아 마무리하세요.",
           "pronChunks": [
             "ly=ly",
             "do=do"
-          ],
-          "shadowingTipKo": "오디오를 먼저 1회 듣고, 덩어리마다 2회씩 따라 말한 뒤 마지막에 한 번에 이어 말하세요."
+          ]
         },
         {
           "id": "l15-v-08",
@@ -6595,12 +6273,11 @@
           "sourcePage": 160,
           "reviewNeeded": false,
           "pronKo": "비 du",
-          "pronNoteKo": "ví dụ는 하노이 기준으로 음절을 짧게 또렷하게 말하고, 끝소리는 부드럽게 연결해 주세요.",
+          "pronNoteKo": "ví dụ는 앞부분은 끊지 말고 가볍게 붙여서 시작한 뒤 'du'은 마지막 소리를 부드럽게 이어 말하세요.",
           "pronChunks": [
             "vi=비",
             "du=du"
-          ],
-          "shadowingTipKo": "오디오를 먼저 1회 듣고, 덩어리마다 2회씩 따라 말한 뒤 마지막에 한 번에 이어 말하세요."
+          ]
         },
         {
           "id": "l15-v-09",
@@ -6612,12 +6289,11 @@
           "sourcePage": 160,
           "reviewNeeded": false,
           "pronKo": "cuoi cung",
-          "pronNoteKo": "cuối cùng는 하노이 기준으로 음절을 짧게 또렷하게 말하고, 끝소리는 부드럽게 연결해 주세요.",
+          "pronNoteKo": "cuối cùng는 처음 소리를 과하게 세게 내지 말고 'cung'은 마지막 음절은 힘을 빼고 자연스럽게 정리하세요.",
           "pronChunks": [
             "cuoi=cuoi",
             "cung=cung"
-          ],
-          "shadowingTipKo": "오디오를 먼저 1회 듣고, 덩어리마다 2회씩 따라 말한 뒤 마지막에 한 번에 이어 말하세요."
+          ]
         },
         {
           "id": "l15-v-10",
@@ -6629,12 +6305,11 @@
           "sourcePage": 160,
           "reviewNeeded": false,
           "pronKo": "don gian",
-          "pronNoteKo": "đơn giản는 하노이 기준으로 음절을 짧게 또렷하게 말하고, 끝소리는 부드럽게 연결해 주세요.",
+          "pronNoteKo": "đơn giản는 처음 소리를 과하게 세게 내지 말고 'gian'은 마지막 음절은 힘을 빼고 자연스럽게 정리하세요.",
           "pronChunks": [
             "don=don",
             "gian=gian"
-          ],
-          "shadowingTipKo": "오디오를 먼저 1회 듣고, 덩어리마다 2회씩 따라 말한 뒤 마지막에 한 번에 이어 말하세요."
+          ]
         }
       ],
       "sentenceCards": [
@@ -6646,14 +6321,13 @@
           "sourcePage": 161,
           "reviewNeeded": false,
           "pronKo": "씬 짜오 또이 뗀 라 sungmook 또이 den tu 한 꾸옥 또이 라 nhan vien van phong gan day 또이 혹 띠엥 비엣 비 또이 무온 song o 하 노이 trong tuong lai",
-          "pronNoteKo": "문장 첫 덩어리는 또렷하게 시작하고, 핵심 단어는 성조를 살려 말한 뒤 문장 끝 억양을 자연스럽게 마무리하세요.",
+          "pronNoteKo": "Xin chào. Tôi tên là Sungmook. Tôi đến từ Hàn Quốc. Tôi là nhân viên văn phòng. Gần đây, tôi học tiếng Việt vì tôi muốn sống ở Hà Nội trong tương lai.는 첫 음절을 또렷하게 시작하고 'lai'은 끝을 낮게 내리며 정리하세요.",
           "pronChunks": [
             "xin chao toi=씬 짜오 또이",
-            "ten la sungmook=뗀 라 sungmook",
-            "toi den tu=또이 den tu",
-            "han quoc toi=한 꾸옥 또이 / la nhan vien van phong gan day toi hoc tieng viet vi toi muon song o ha noi trong tuong lai=라 nhan vien van phong gan day 또이 혹 띠엥 비엣 비 또이 무온 song o 하 노이 trong tuong lai"
-          ],
-          "shadowingTipKo": "2~4개 덩어리로 끊어 따라 말한 뒤, 속도를 조금 올려 한 문장으로 이어 말하세요."
+            "ten la sungmook=짜오",
+            "toi den tu=또이",
+            "han quoc toi=뗀"
+          ]
         },
         {
           "id": "l15-s-02",
@@ -6663,14 +6337,13 @@
           "sourcePage": 161,
           "reviewNeeded": false,
           "pronKo": "gia dinh 또이 꼬 본 응어이 또이 꼬 하이 con gai cuoi tuan 또이 thuong 디 choi voi gia dinh",
-          "pronNoteKo": "문장 첫 덩어리는 또렷하게 시작하고, 핵심 단어는 성조를 살려 말한 뒤 문장 끝 억양을 자연스럽게 마무리하세요.",
+          "pronNoteKo": "Gia đình tôi có bốn người. Tôi có hai con gái. Cuối tuần, tôi thường đi chơi với gia đình.는 첫 소리를 짧게 잡고 'dinh'은 끝음을 짧게 닫아 마무리하세요.",
           "pronChunks": [
-            "gia dinh toi=gia dinh 또이",
+            "gia dinh toi=gia",
             "co bon nguoi=꼬 본 응어이",
             "toi co hai=또이 꼬 하이",
-            "con gai cuoi=con gai cuoi / tuan toi thuong di choi voi gia dinh=tuan 또이 thuong 디 choi voi gia dinh"
-          ],
-          "shadowingTipKo": "2~4개 덩어리로 끊어 따라 말한 뒤, 속도를 조금 올려 한 문장으로 이어 말하세요."
+            "con gai cuoi=꼬"
+          ]
         },
         {
           "id": "l15-s-03",
@@ -6680,14 +6353,13 @@
           "sourcePage": 161,
           "reviewNeeded": false,
           "pronKo": "못 ngay cua 또이 kha 반 buoi 상 또이 디 람 사우 gio 람 또이 혹 띠엥 비엣 바 므어이 phut",
-          "pronNoteKo": "문장 첫 덩어리는 또렷하게 시작하고, 핵심 단어는 성조를 살려 말한 뒤 문장 끝 억양을 자연스럽게 마무리하세요.",
+          "pronNoteKo": "Một ngày của tôi khá bận. Buổi sáng tôi đi làm. Sau giờ làm, tôi học tiếng Việt ba mươi phút.는 앞부분은 끊지 말고 가볍게 붙여서 시작한 뒤 'phut'은 마지막 소리를 부드럽게 이어 말하세요.",
           "pronChunks": [
-            "mot ngay cua=못 ngay cua",
-            "toi kha ban=또이 kha 반",
-            "buoi sang toi=buoi 상 또이",
-            "di lam sau=디 람 사우 / gio lam toi hoc tieng viet ba muoi phut=gio 람 또이 혹 띠엥 비엣 바 므어이 phut"
-          ],
-          "shadowingTipKo": "2~4개 덩어리로 끊어 따라 말한 뒤, 속도를 조금 올려 한 문장으로 이어 말하세요."
+            "mot ngay cua=못",
+            "toi kha ban=ngay",
+            "buoi sang toi=cua",
+            "di lam sau=또이"
+          ]
         },
         {
           "id": "l15-s-04",
@@ -6697,14 +6369,13 @@
           "sourcePage": 161,
           "reviewNeeded": false,
           "pronKo": "so thich cua 또이 라 nghe nhac khi ranh 또이 nghe nhac 비 no 줍 또이 트 gian",
-          "pronNoteKo": "문장 첫 덩어리는 또렷하게 시작하고, 핵심 단어는 성조를 살려 말한 뒤 문장 끝 억양을 자연스럽게 마무리하세요.",
+          "pronNoteKo": "Sở thích của tôi là nghe nhạc. Khi rảnh, tôi nghe nhạc vì nó giúp tôi thư giãn.는 처음 소리를 과하게 세게 내지 말고 'gian'은 마지막 음절은 힘을 빼고 자연스럽게 정리하세요.",
           "pronChunks": [
-            "so thich cua=so thich cua",
-            "toi la nghe=또이 라 nghe",
-            "nhac khi ranh=nhac khi ranh",
-            "toi nghe nhac=또이 nghe nhac / vi no giup toi thu gian=비 no 줍 또이 트 gian"
-          ],
-          "shadowingTipKo": "2~4개 덩어리로 끊어 따라 말한 뒤, 속도를 조금 올려 한 문장으로 이어 말하세요."
+            "so thich cua=so",
+            "toi la nghe=thich",
+            "nhac khi ranh=cua",
+            "toi nghe nhac=또이"
+          ]
         },
         {
           "id": "l15-s-05",
@@ -6714,14 +6385,13 @@
           "sourcePage": 161,
           "reviewNeeded": false,
           "pronKo": "또이 thich 안 퍼 퍼 젓 응온 va 콩 qua cay khi 디 하 노이 또이 무온 안 퍼 보",
-          "pronNoteKo": "문장 첫 덩어리는 또렷하게 시작하고, 핵심 단어는 성조를 살려 말한 뒤 문장 끝 억양을 자연스럽게 마무리하세요.",
+          "pronNoteKo": "Tôi thích ăn phở. Phở rất ngon và không quá cay. Khi đi Hà Nội, tôi muốn ăn phở bò.는 첫 음절을 또렷하게 시작하고 '보'은 끝을 낮게 내리며 정리하세요.",
           "pronChunks": [
-            "toi thich an=또이 thich 안",
+            "toi thich an=또이",
             "pho pho rat=퍼 퍼 젓",
-            "ngon va khong=응온 va 콩",
-            "qua cay khi=qua cay khi / di ha noi toi muon an pho bo=디 하 노이 또이 무온 안 퍼 보"
-          ],
-          "shadowingTipKo": "2~4개 덩어리로 끊어 따라 말한 뒤, 속도를 조금 올려 한 문장으로 이어 말하세요."
+            "ngon va khong=안",
+            "qua cay khi=퍼"
+          ]
         },
         {
           "id": "l15-s-06",
@@ -6731,14 +6401,13 @@
           "sourcePage": 161,
           "reviewNeeded": false,
           "pronKo": "냐 또이 콩 lon nhung 젓 tien loi gan 냐 꼬 sieu thi va cong vien 또이 thich khu nay 비 no yen tinh",
-          "pronNoteKo": "문장 첫 덩어리는 또렷하게 시작하고, 핵심 단어는 성조를 살려 말한 뒤 문장 끝 억양을 자연스럽게 마무리하세요.",
+          "pronNoteKo": "Nhà tôi không lớn nhưng rất tiện lợi. Gần nhà có siêu thị và công viên. Tôi thích khu này vì nó yên tĩnh.는 첫 소리를 짧게 잡고 'tinh'은 끝음을 짧게 닫아 마무리하세요.",
           "pronChunks": [
             "nha toi khong=냐 또이 콩",
-            "lon nhung rat=lon nhung 젓",
-            "tien loi gan=tien loi gan",
-            "nha co sieu=냐 꼬 sieu / thi va cong vien toi thich khu nay vi no yen tinh=thi va cong vien 또이 thich khu nay 비 no yen tinh"
-          ],
-          "shadowingTipKo": "2~4개 덩어리로 끊어 따라 말한 뒤, 속도를 조금 올려 한 문장으로 이어 말하세요."
+            "lon nhung rat=또이",
+            "tien loi gan=콩",
+            "nha co sieu=lon"
+          ]
         },
         {
           "id": "l15-s-07",
@@ -6748,14 +6417,13 @@
           "sourcePage": 161,
           "reviewNeeded": false,
           "pronKo": "남 ngoai 또이 bat dau 혹 띠엥 비엣 luc dau phat am 젓 kho nhung 버이 gio 또이 꼬 the 짜오 hoi don gian",
-          "pronNoteKo": "문장 첫 덩어리는 또렷하게 시작하고, 핵심 단어는 성조를 살려 말한 뒤 문장 끝 억양을 자연스럽게 마무리하세요.",
+          "pronNoteKo": "Năm ngoái, tôi bắt đầu học tiếng Việt. Lúc đầu, phát âm rất khó, nhưng bây giờ tôi có thể chào hỏi đơn giản.는 앞부분은 끊지 말고 가볍게 붙여서 시작한 뒤 'gian'은 마지막 소리를 부드럽게 이어 말하세요.",
           "pronChunks": [
-            "nam ngoai toi=남 ngoai 또이",
-            "bat dau hoc=bat dau 혹",
-            "tieng viet luc=띠엥 비엣 luc",
-            "dau phat am=dau phat am / rat kho nhung bay gio toi co the chao hoi don gian=젓 kho nhung 버이 gio 또이 꼬 the 짜오 hoi don gian"
-          ],
-          "shadowingTipKo": "2~4개 덩어리로 끊어 따라 말한 뒤, 속도를 조금 올려 한 문장으로 이어 말하세요."
+            "nam ngoai toi=남",
+            "bat dau hoc=ngoai",
+            "tieng viet luc=또이",
+            "dau phat am=bat"
+          ]
         },
         {
           "id": "l15-s-08",
@@ -6765,14 +6433,13 @@
           "sourcePage": 161,
           "reviewNeeded": false,
           "pronKo": "trong tuong lai 또이 무온 song o 하 노이 비 버이 또이 세 혹 띠엥 비엣 moi ngay",
-          "pronNoteKo": "문장 첫 덩어리는 또렷하게 시작하고, 핵심 단어는 성조를 살려 말한 뒤 문장 끝 억양을 자연스럽게 마무리하세요.",
+          "pronNoteKo": "Trong tương lai, tôi muốn sống ở Hà Nội. Vì vậy, tôi sẽ học tiếng Việt mỗi ngày.는 처음 소리를 과하게 세게 내지 말고 'ngay'은 마지막 음절은 힘을 빼고 자연스럽게 정리하세요.",
           "pronChunks": [
-            "trong tuong lai=trong tuong lai",
-            "toi muon song=또이 무온 song",
-            "o ha noi=o 하 노이",
-            "vi vay toi=비 버이 또이 / se hoc tieng viet moi ngay=세 혹 띠엥 비엣 moi ngay"
-          ],
-          "shadowingTipKo": "2~4개 덩어리로 끊어 따라 말한 뒤, 속도를 조금 올려 한 문장으로 이어 말하세요."
+            "trong tuong lai=trong",
+            "toi muon song=tuong",
+            "o ha noi=lai",
+            "vi vay toi=또이"
+          ]
         }
       ],
       "dialogues": [
@@ -6867,8 +6534,7 @@
           "reviewNeeded": false,
           "pronKo": "gioi thieu",
           "mouthKo": "입술을 과하게 힘주지 말고, 자음 시작을 가볍게 낸 뒤 모음을 길게 열어 소리 내세요.",
-          "toneKo": "하노이 기준 성조를 의식해 음의 높낮이를 분명히 하고, 끝은 급하게 끊지 말고 짧게 정리하세요.",
-          "practiceKo": "오디오를 듣고 같은 속도로 3회 반복한 뒤, 마지막 1회는 끊지 않고 자연스럽게 말하세요."
+          "toneKo": "하노이 기준 성조를 의식해 음의 높낮이를 분명히 하고, 끝은 급하게 끊지 말고 짧게 정리하세요."
         },
         {
           "id": "l15-p-02",
@@ -6879,8 +6545,7 @@
           "reviewNeeded": false,
           "pronKo": "씬 짜오 또이 뗀 라 sungmook 또이 den tu 한 꾸옥 또이 라 nhan vien van phong gan day 또이 혹 띠엥 비엣 비 또이 무온 song o 하 노이 trong tuong lai",
           "mouthKo": "입술을 과하게 힘주지 말고, 자음 시작을 가볍게 낸 뒤 모음을 길게 열어 소리 내세요.",
-          "toneKo": "하노이 기준 성조를 의식해 음의 높낮이를 분명히 하고, 끝은 급하게 끊지 말고 짧게 정리하세요.",
-          "practiceKo": "오디오를 듣고 같은 속도로 3회 반복한 뒤, 마지막 1회는 끊지 않고 자연스럽게 말하세요."
+          "toneKo": "하노이 기준 성조를 의식해 음의 높낮이를 분명히 하고, 끝은 급하게 끊지 말고 짧게 정리하세요."
         }
       ],
       "quizSeeds": [
