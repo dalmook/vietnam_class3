@@ -271,7 +271,7 @@ class VietnameseA1App {
       studyMode: 'vocab',
       quizMode: 'meaning',
       lessonId: null,
-      quizLessonFilter: 'all',
+      quizLessonFilter: null,
       cardIndex: 0,
       sentenceIndex: 0,
       dialogueIndex: 0,
@@ -297,6 +297,8 @@ class VietnameseA1App {
         feedback: '',
         answered: false,
         picked: '',
+        options: [],
+        optionKey: '',
         matchingRound: null
       },
       settings: { speechRate: 0.95, autoShowMeaning: true, autoPlay: false }
@@ -327,6 +329,7 @@ class VietnameseA1App {
       this.state.loadedPath = path;
       this.state.flat = this.flattenData(data.lessons || []);
       this.state.lessonId = data.lessons?.[0]?.lessonId || null;
+      this.state.quizLessonFilter = data.lessons?.[0]?.lessonId || 'all';
       this.render();
     } catch (e) {
       const healed = await this.tryRecoverFromCacheIssue();
@@ -423,7 +426,13 @@ class VietnameseA1App {
     if (type === 'jump') return this.jumpToItem(payload);
     if (type === 'speak') return this.playAudio(payload, el.dataset.text || 'xin chào');
     if (type === 'repeatSpeak') return this.repeatSpeak({ text: el.dataset.text, audioSrc: el.dataset.audio || '' }, 3);
-    if (type === 'startQuiz') { this.setupQuizQueue(); this.state.quiz.phase = 'playing'; return this.render(); }
+    if (type === 'startQuiz') {
+      this.setupQuizQueue();
+      this.state.quiz.phase = 'playing';
+      this.render();
+      this.playListenPromptIfNeeded();
+      return;
+    }
     if (type === 'exitQuiz') { this.state.quiz.phase = 'ready'; this.state.quiz.feedback = ''; return this.render(); }
     if (type === 'nextQuiz') return this.nextQuiz();
     if (type === 'pickOption') return this.pickQuizOption(payload);
@@ -682,7 +691,13 @@ class VietnameseA1App {
     const isMeaning = this.state.quizMode === 'meaning' || this.state.quizMode === 'listen';
     const prompt = this.state.quizMode === 'vi' ? (item.meaningKo || item.textKo) : (item.term || item.textVi);
     const answer = isMeaning ? (item.meaningKo || item.textKo) : (item.term || item.textVi);
-    const options = this.sampleOptions(answer, isMeaning ? 'ko' : 'vi');
+    const optionType = isMeaning ? 'ko' : 'vi';
+    const optionKey = `${this.state.quiz.i}:${this.state.quizMode}:${item.id || ''}:${answer}`;
+    if (this.state.quiz.optionKey !== optionKey || !Array.isArray(this.state.quiz.options) || !this.state.quiz.options.length) {
+      this.state.quiz.options = this.sampleOptions(answer, optionType);
+      this.state.quiz.optionKey = optionKey;
+    }
+    const options = this.state.quiz.options;
     const pronunciation = item.term || item.textVi;
     return `<div class="match-stage">
       <div class="match-top">
@@ -778,6 +793,8 @@ class VietnameseA1App {
       feedback: '',
       answered: false,
       picked: '',
+      options: [],
+      optionKey: '',
       matchingRound: null
     };
   }
@@ -894,6 +911,14 @@ class VietnameseA1App {
       this.state.quiz.phase = 'ready';
     }
     this.render();
+    this.playListenPromptIfNeeded();
+  }
+
+  playListenPromptIfNeeded() {
+    if (this.state.quizMode !== 'listen' || this.state.quiz.phase !== 'playing') return;
+    const item = this.state.quiz.queue[this.state.quiz.i];
+    if (!item) return;
+    this.playAudio(item.audioSrc || '', item.term || item.textVi || item.text || '');
   }
 
   startWrongReview() {
