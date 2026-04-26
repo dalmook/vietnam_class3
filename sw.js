@@ -5,7 +5,6 @@ const CORE_ASSETS = [
   './styles.css',
   './app.js',
   './manifest.webmanifest',
-  './vietnamese_a1_to_opic_im1_starter.json',
   './vietnamese_a1_lessons_1_6_starter.json'
 ];
 
