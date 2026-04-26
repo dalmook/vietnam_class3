@@ -586,6 +586,10 @@ class VietnameseA1App {
 
   renderQuiz() {
     const modes = [['meaning', 'A 뜻 맞추기'], ['vi', 'B 베트남어 맞추기'], ['listen', 'C 듣기'], ['match', 'D 매칭'], ['wrong', 'E 오답복습']];
+    if (this.state.quizMode === 'match' && this.state.quiz.phase === 'playing') {
+      this.appEl.innerHTML = `<section class="fade match-screen-wrap">${this.renderMatch()}</section>`;
+      return;
+    }
     const chooser = `<div class="card controls">${modes.map(([k, v]) => `<button data-action="quizMode:${k}" class="${this.state.quizMode === k ? 'primary' : ''}">${v}</button>`).join('')}</div>`;
     const filterCard = `<div class="card"><label class="small">퀴즈 범위</label><select data-change="quizLesson"><option value="all" ${this.state.quizLessonFilter==='all'?'selected':''}>전체 레슨 통합</option>${this.state.flat.lessons.map((l)=>`<option value="${l.lessonId}" ${this.state.quizLessonFilter===l.lessonId?'selected':''}>${l.unitLabel} · ${l.titleKo}</option>`).join('')}</select></div>`;
     const hero = this.renderQuizHero();
@@ -653,14 +657,22 @@ class VietnameseA1App {
     }).join('');
     const solved = round.matchedIds.length;
     const total = round.pairs.length;
-    return `<div class="card quiz-card">
-      <h3>실전 매칭 퀴즈</h3>
-      <p class="small">왼쪽 베트남어와 오른쪽 한국어 뜻을 모두 연결하세요.</p>
-      <div class="progress"><span style="width:${Math.round((solved / Math.max(total, 1)) * 100)}%"></span></div>
-      <p class="small">매칭 ${solved}/${total} · 시도 ${round.attempts}회</p>
-      <div class="grid-2"><div>${leftButtons}</div><div>${rightButtons}</div></div>
-      <p class="quiz-feedback">${this.state.quiz.feedback}</p>
-      <button data-action="nextQuiz" ${round.completed ? '' : 'disabled'}>다음 문항</button>
+    return `<div class="match-stage">
+      <div class="match-top">
+        <div class="badge">문항 ${this.state.quiz.i + 1}</div>
+        <div class="match-progress"><span style="width:${Math.round((solved / Math.max(total, 1)) * 100)}%"></span></div>
+        <div class="badge">XP ${this.state.quiz.xp}</div>
+      </div>
+      <h2 class="match-title">의미가 일치하는 단어끼리 짝을 지으세요</h2>
+      <p class="small match-sub">매칭 ${solved}/${total} · 시도 ${round.attempts}회</p>
+      <div class="match-grid">
+        <div class="match-col">${leftButtons}</div>
+        <div class="match-col">${rightButtons}</div>
+      </div>
+      <div class="match-bottom">
+        <p class="quiz-feedback">${this.state.quiz.feedback}</p>
+        <button class="primary match-confirm" data-action="nextQuiz" ${round.completed ? '' : 'disabled'}>확인</button>
+      </div>
     </div>`;
   }
 
@@ -742,14 +754,14 @@ class VietnameseA1App {
     if (current?.questionIndex === this.state.quiz.i) return current;
     const pool = this.shuffle(this.getQuizPoolByFilter())
       .filter((x) => (x.term || x.textVi) && (x.meaningKo || x.textKo))
-      .slice(0, 6)
+      .slice(0, 5)
       .map((x, idx) => ({
         id: `m${idx}`,
         left: x.term || x.textVi,
         right: x.meaningKo || x.textKo,
         sourceId: x.id
       }));
-    const pairs = pool.length ? pool : this.shuffle([...this.state.flat.vocab, ...this.state.flat.sentence]).slice(0, 6).map((x, idx) => ({
+    const pairs = pool.length ? pool : this.shuffle([...this.state.flat.vocab, ...this.state.flat.sentence]).slice(0, 5).map((x, idx) => ({
       id: `m${idx}`,
       left: x.term || x.textVi,
       right: x.meaningKo || x.textKo,
