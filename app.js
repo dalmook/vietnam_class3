@@ -481,7 +481,9 @@ class VietnameseA1App {
   renderStudy() {
     const lesson = this.currentLesson();
     if (!lesson) return this.renderError('레슨을 찾을 수 없습니다.');
-    const tabs = ['vocab', 'sentence', 'dialogue', 'grammar', 'pronunciation'].map((m) => `<button data-action="studyMode:${m}" class="${this.state.studyMode === m ? 'primary' : ''}">${({ vocab: '단어장', sentence: '문장', dialogue: '회화', grammar: '문법', pronunciation: '발음' })[m]}</button>`).join('');
+    const tabs = ['vocab', 'sentence', 'dialogue', 'grammar', 'pronunciation']
+      .map((m) => `<button data-action="studyMode:${m}" class="mode-pill ${this.state.studyMode === m ? 'active' : ''}">${({ vocab: '단어장', sentence: '문장', dialogue: '회화', grammar: '문법', pronunciation: '발음' })[m]}</button>`)
+      .join('');
 
     let body = '';
     if (this.state.studyMode === 'vocab') body = this.renderVocab(lesson);
@@ -491,8 +493,13 @@ class VietnameseA1App {
     if (this.state.studyMode === 'pronunciation') body = this.renderPronunciation(lesson);
 
     this.appEl.innerHTML = `<section class="fade">
-      <div class="card"><label class="small">레슨 선택</label><select data-change="lesson">${this.state.flat.lessons.map((l) => `<option value="${l.lessonId}" ${l.lessonId === this.state.lessonId ? 'selected' : ''}>${l.unitLabel} · ${l.titleKo}</option>`).join('')}</select></div>
-      <div class="card controls">${tabs}</div>
+      <div class="card study-toolbar">
+        <div class="lesson-compact-select">
+          <label class="small">레슨</label>
+          <select data-change="lesson">${this.state.flat.lessons.map((l) => `<option value="${l.lessonId}" ${l.lessonId === this.state.lessonId ? 'selected' : ''}>${l.unitLabel} · ${l.titleKo}</option>`).join('')}</select>
+        </div>
+        <div class="mode-pills">${tabs}</div>
+      </div>
       ${body}
     </section>`;
   }
@@ -506,28 +513,31 @@ class VietnameseA1App {
     const stat = this.progress[c.id] || {};
     const show = this.state.revealMeaning;
     const pronGuide = this.renderPronGuide(c, c.term);
-    return `<article class="card fade">
+    return `<article class="card fade study-card">
       <div class="row card-top">
-        <div class="row"><span class="badge">${idx + 1} / ${cards.length}</span>${c.sourcePage ? `<span class="badge">p.${c.sourcePage}</span>` : ''}</div>
+        <div class="row compact-card-meta"><span class="badge">${idx + 1} / ${cards.length}</span>${c.sourcePage ? `<span class="badge">p.${c.sourcePage}</span>` : ''}</div>
         <div class="icon-actions">
           <button class="icon-btn ${stat.known ? 'active' : ''}" aria-label="알아요" data-action="mark:${c.id}" data-value="known">✅</button>
           <button class="icon-btn ${stat.known === false ? 'active' : ''}" aria-label="몰라요" data-action="mark:${c.id}" data-value="unknown">❓</button>
           <button class="icon-btn ${this.bookmarks.includes(c.id) ? 'active' : ''}" aria-label="북마크" data-action="bookmark:${c.id}">⭐</button>
         </div>
       </div>
-      <div class="card-tap-zone" data-action="toggleCardReveal">
+      <div class="card-tap-zone study-card-body" data-action="toggleCardReveal">
         <div class="vi-big">${c.term}</div>
         <div class="pron-tip ${show ? '' : 'hidden'}">뜻: ${c.meaningKo}</div>
         <div class="${show ? '' : 'hidden'}">${pronGuide}</div>
-        ${show && c.example ? `<p class="small">예문: ${c.example}<br>${c.exampleMeaningKo || ''}</p>` : ''}
+        ${show && c.example ? `<details class="example-fold" onclick="event.stopPropagation()">
+          <summary>예문 보기</summary>
+          <p class="small">${c.example}<br>${c.exampleMeaningKo || ''}</p>
+        </details>` : ''}
         <p class="small tap-hint">${show ? '카드를 탭하면 뜻을 숨길 수 있어요' : '카드를 탭하면 뜻이 보여요'}</p>
       </div>
-      <div class="audio-button-grid audio-controls">
+      <div class="audio-button-grid audio-controls study-card-actions">
         <button class="audio-square-btn primary" data-action="speak:${c.audioSrc || ''}" data-text="${c.term}">
           <span class="audio-icon">🔊</span>
           <span>듣기</span>
         </button>
-        <button class="audio-square-btn" data-action="repeatSpeak" data-text="${c.term}" data-audio="${c.audioSrc || ''}">
+        <button class="audio-square-btn" data-action="repeatSpeak:${c.audioSrc || ''}" data-text="${c.term}" data-audio="${c.audioSrc || ''}">
           <span class="audio-icon">🔁</span>
           <span>3회</span>
         </button>
@@ -545,27 +555,27 @@ class VietnameseA1App {
     const stat = this.progress[c.id] || {};
     const show = this.state.revealMeaning;
     const pronGuide = this.renderPronGuide(c, c.textVi, { compact: true });
-    return `<article class="card fade">
+    return `<article class="card fade study-card">
       <div class="row card-top">
-        <div class="row"><span class="badge">${idx + 1} / ${cards.length}</span>${c.sourcePage ? `<span class="badge">p.${c.sourcePage}</span>` : ''}</div>
+        <div class="row compact-card-meta"><span class="badge">${idx + 1} / ${cards.length}</span>${c.sourcePage ? `<span class="badge">p.${c.sourcePage}</span>` : ''}</div>
         <div class="icon-actions">
           <button class="icon-btn ${stat.known ? 'active' : ''}" aria-label="외움" data-action="mark:${c.id}" data-value="known">✅</button>
           <button class="icon-btn ${stat.difficult ? 'active' : ''}" aria-label="어려움" data-action="mark:${c.id}" data-value="difficult">🔥</button>
           <button class="icon-btn ${this.bookmarks.includes(c.id) ? 'active' : ''}" aria-label="북마크" data-action="bookmark:${c.id}">⭐</button>
         </div>
       </div>
-      <div class="card-tap-zone" data-action="toggleCardReveal">
+      <div class="card-tap-zone study-card-body" data-action="toggleCardReveal">
         <div class="vi-big">${c.textVi}</div>
         <div class="pron-tip ${show ? '' : 'hidden'}">뜻: ${c.textKo}</div>
         <div class="${show ? '' : 'hidden'}">${pronGuide}</div>
         <p class="small tap-hint">${show ? '카드를 탭하면 해석을 숨깁니다' : '카드를 탭하면 해석이 보여요'}</p>
       </div>
-      <div class="audio-button-grid audio-controls">
+      <div class="audio-button-grid audio-controls study-card-actions">
         <button class="audio-square-btn primary" data-action="speak:${c.audioSrc || ''}" data-text="${c.textVi}">
           <span class="audio-icon">🔊</span>
           <span>듣기</span>
         </button>
-        <button class="audio-square-btn" data-action="repeatSpeak" data-text="${c.textVi}" data-audio="${c.audioSrc || ''}">
+        <button class="audio-square-btn" data-action="repeatSpeak:${c.audioSrc || ''}" data-text="${c.textVi}" data-audio="${c.audioSrc || ''}">
           <span class="audio-icon">🔁</span>
           <span>3회</span>
         </button>
@@ -604,24 +614,24 @@ class VietnameseA1App {
       ['입모양', t.mouthKo, 'pron-note'],
       ['성조/억양', t.toneKo, 'pron-note']
     ].filter(([, content]) => content);
-    return `<article class="card fade">
+    return `<article class="card fade study-card">
       <span class="badge">성조/모음 타겟 ${idx + 1}/${list.length}</span>
       <div class="vi-big">${t.text}</div>
       ${fallbackHint}
       <div class="pron-target-grid">
         ${pronBlocks.map(([label, content, klass]) => `<div class="pron-info-card ${klass}"><div class="pron-label">${label}</div><div>${this.escapeHtml(content)}</div></div>`).join('')}
       </div>
-      <div class="audio-button-grid audio-controls">
+      <div class="audio-button-grid audio-controls study-card-actions">
         <button class="audio-square-btn primary" data-action="speak:${t.audioSrc || ''}" data-text="${t.text}">
           <span class="audio-icon">🔊</span>
           <span>듣기</span>
         </button>
-        <button class="audio-square-btn" data-action="repeatSpeak" data-text="${t.text}" data-audio="${t.audioSrc || ''}">
+        <button class="audio-square-btn" data-action="repeatSpeak:${t.audioSrc || ''}" data-text="${t.text}" data-audio="${t.audioSrc || ''}">
           <span class="audio-icon">🔁</span>
           <span>3회</span>
         </button>
       </div>
-      <div class="controls nav-controls"><button data-action="shift:1">다음</button></div>
+      <div class="controls nav-controls"><button data-action="shift:-1">◀ 이전</button><button data-action="shift:1">다음 ▶</button></div>
     </article>`;
   }
 
@@ -1396,7 +1406,7 @@ class VietnameseA1App {
 
   ensureStorageHealth() {
     const versionKey = this.storagePrefix + 'schema_version';
-    const currentVersion = '2026-04-ui-audio-1';
+    const currentVersion = '2026-04-ui-audio-2';
     const stored = localStorage.getItem(versionKey);
     if (!stored) {
       localStorage.setItem(versionKey, currentVersion);
