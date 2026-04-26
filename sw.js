@@ -1,9 +1,8 @@
-const APP_VERSION = '2026-04-26-01';
+const APP_VERSION = '2026-04-26-pwa-install-1';
 const CORE_CACHE = `vietnam-class3-core-${APP_VERSION}`;
 const DATA_CACHE = `vietnam-class3-data-${APP_VERSION}`;
 const AUDIO_CACHE = `vietnam-class3-audio-${APP_VERSION}`;
 const IMAGE_CACHE = `vietnam-class3-image-${APP_VERSION}`;
-const RUNTIME_CACHE = `vietnam-class3-runtime-${APP_VERSION}`;
 
 const CORE_ASSETS = [
   './',
@@ -11,8 +10,7 @@ const CORE_ASSETS = [
   './styles.css',
   './app.js',
   './manifest.webmanifest',
-  './vietnamese_a1_to_opic_im1_starter.json',
-  './icons/icon.svg'
+  './vietnamese_a1_to_opic_im1_starter.json'
 ];
 
 async function safePrecache() {
@@ -20,48 +18,36 @@ async function safePrecache() {
   await Promise.all(
     CORE_ASSETS.map(async (asset) => {
       try {
-        const res = await fetch(asset, { cache: 'no-store' });
-        if (!res.ok) {
-          console.warn('[SW] precache skipped:', asset, res.status);
-          return;
+        const response = await fetch(asset, { cache: 'no-store' });
+        if (response.ok) {
+          await cache.put(asset, response.clone());
         }
-        await cache.put(asset, res.clone());
       } catch (error) {
-        console.warn('[SW] precache failed:', asset, error);
+        console.warn('[SW] safePrecache skipped:', asset, error);
       }
     })
   );
 }
 
-async function trimCache(cacheName, maxEntries) {
-  const cache = await caches.open(cacheName);
-  const keys = await cache.keys();
-  if (keys.length <= maxEntries) return;
-  const overflow = keys.length - maxEntries;
-  for (let i = 0; i < overflow; i += 1) {
-    await cache.delete(keys[i]);
-  }
-}
-
-async function networkFirst(request, cacheName, fallbackRequest) {
+async function networkFirst(request, cacheName, fallbackUrl) {
   const cache = await caches.open(cacheName);
   try {
-    const fresh = await fetch(request);
-    if (fresh && fresh.ok) {
-      await cache.put(request, fresh.clone());
+    const response = await fetch(request);
+    if (response && response.ok) {
+      await cache.put(request, response.clone());
     }
-    return fresh;
-  } catch (error) {
+    return response;
+  } catch {
     const cached = await cache.match(request);
     if (cached) return cached;
-    if (fallbackRequest) {
-      return (await caches.match(fallbackRequest)) || (await caches.match('./index.html'));
+    if (fallbackUrl) {
+      return (await caches.match(fallbackUrl)) || (await caches.match('./index.html')) || new Response('<h1>Offline</h1>', { headers: { 'Content-Type': 'text/html; charset=utf-8' } });
     }
     return new Response('Offline', { status: 503, statusText: 'Offline' });
   }
 }
 
-async function cacheFirst(request, cacheName, maxEntries) {
+async function cacheFirst(request, cacheName) {
   const cache = await caches.open(cacheName);
   const cached = await cache.match(request);
   if (cached) return cached;
@@ -70,23 +56,20 @@ async function cacheFirst(request, cacheName, maxEntries) {
     const response = await fetch(request);
     if (response && response.ok) {
       await cache.put(request, response.clone());
-      if (typeof maxEntries === 'number') {
-        await trimCache(cacheName, maxEntries);
-      }
     }
     return response;
-  } catch (error) {
+  } catch {
     return new Response('Offline', { status: 503, statusText: 'Offline' });
   }
 }
 
 async function staleWhileRevalidate(request) {
-  const cache = await caches.open(RUNTIME_CACHE);
+  const cache = await caches.open(CORE_CACHE);
   const cached = await cache.match(request);
   const networkPromise = fetch(request)
-    .then((response) => {
+    .then(async (response) => {
       if (response && response.ok) {
-        cache.put(request, response.clone());
+        await cache.put(request, response.clone());
       }
       return response;
     })
@@ -96,28 +79,30 @@ async function staleWhileRevalidate(request) {
     networkPromise.catch(() => null);
     return cached;
   }
+
   const fresh = await networkPromise;
   if (fresh) return fresh;
+
   return new Response('Offline', { status: 503, statusText: 'Offline' });
 }
 
 self.addEventListener('install', (event) => {
   event.waitUntil(
-    safePrecache().finally(() => self.skipWaiting())
+    safePrecache().then(() => self.skipWaiting())
   );
 });
 
 self.addEventListener('activate', (event) => {
-  const keep = new Set([CORE_CACHE, DATA_CACHE, AUDIO_CACHE, IMAGE_CACHE, RUNTIME_CACHE]);
+  const keepCaches = new Set([CORE_CACHE, DATA_CACHE, AUDIO_CACHE, IMAGE_CACHE]);
   event.waitUntil(
     caches.keys()
-      .then((keys) => Promise.all(keys.map((key) => (keep.has(key) ? Promise.resolve() : caches.delete(key)))))
+      .then((keys) => Promise.all(keys.map((key) => (keepCaches.has(key) ? Promise.resolve() : caches.delete(key)))))
       .then(() => self.clients.claim())
   );
 });
 
 self.addEventListener('message', (event) => {
-  if (event.data?.type === 'SKIP_WAITING') {
+  if (event.data && event.data.type === 'SKIP_WAITING') {
     self.skipWaiting();
   }
 });
@@ -127,45 +112,51 @@ self.addEventListener('fetch', (event) => {
   if (request.method !== 'GET') return;
 
   const url = new URL(request.url);
-  const pathname = url.pathname.toLowerCase();
+  const path = url.pathname.toLowerCase();
 
   if (request.mode === 'navigate') {
     event.respondWith(networkFirst(request, CORE_CACHE, './index.html'));
     return;
   }
 
-  if (pathname.endsWith('.json')) {
+  if (path.endsWith('.json')) {
     event.respondWith(networkFirst(request, DATA_CACHE));
     return;
   }
 
-  const isAudio = pathname.includes('/audio/') || pathname.endsWith('.mp3') || pathname.endsWith('.wav');
+  const isAudio = request.destination === 'audio' || path.endsWith('.mp3') || path.endsWith('.wav') || path.includes('/audio/');
   if (isAudio) {
-    event.respondWith(cacheFirst(request, AUDIO_CACHE, 600));
+    event.respondWith(cacheFirst(request, AUDIO_CACHE));
     return;
   }
 
-  const destination = request.destination;
-  const isImage = destination === 'image'
-    || pathname.endsWith('.png')
-    || pathname.endsWith('.jpg')
-    || pathname.endsWith('.jpeg')
-    || pathname.endsWith('.svg')
-    || pathname.endsWith('.webp')
-    || pathname.endsWith('.ico');
+  const isImage = request.destination === 'image'
+    || path.endsWith('.png')
+    || path.endsWith('.jpg')
+    || path.endsWith('.jpeg')
+    || path.endsWith('.svg')
+    || path.endsWith('.webp')
+    || path.endsWith('.ico');
 
   if (isImage) {
-    event.respondWith(cacheFirst(request, IMAGE_CACHE, 200));
+    event.respondWith(cacheFirst(request, IMAGE_CACHE));
     return;
   }
 
-  const isStaticAsset = pathname.endsWith('.js') || pathname.endsWith('.css') || pathname.endsWith('.webmanifest');
-  if (isStaticAsset) {
+  const isStatic = path.endsWith('.js') || path.endsWith('.css') || path.endsWith('.webmanifest');
+  if (isStatic) {
     event.respondWith(staleWhileRevalidate(request));
     return;
   }
 
   event.respondWith(
-    caches.match(request).then((cached) => cached || fetch(request).catch(() => caches.match('./index.html')))
+    fetch(request).catch(async () => {
+      const cached = await caches.match(request);
+      if (cached) return cached;
+      if (request.mode === 'navigate') {
+        return (await caches.match('./index.html')) || new Response('<h1>Offline</h1>', { headers: { 'Content-Type': 'text/html; charset=utf-8' } });
+      }
+      return new Response('Offline', { status: 503, statusText: 'Offline' });
+    })
   );
 });
