@@ -1353,16 +1353,9 @@ class VietnameseA1App {
   renderPronGuide(item, originalText, opts = {}) {
     const hasRomanized = /[A-Za-zÀ-ỹà-ỹ]/.test(item.pronKo || '');
     const mainPron = item.pronKo && !hasRomanized ? item.pronKo : this.hangulPronNatural(originalText);
-    let chunks = Array.isArray(item.pronChunks) ? item.pronChunks.join(' · ') : (item.pronChunks || '');
-    if (chunks && /=[^·]*[A-Za-zÀ-ỹà-ỹ]/.test(chunks)) {
-      const left = this.normalizeVi(originalText || '').split(/\s+/).filter(Boolean);
-      const right = String(mainPron).split(/\s+/).filter(Boolean);
-      chunks = left.map((word, idx) => `${word}=${right[idx] || right[right.length - 1] || ''}`).join(' · ');
-    }
     const compactClass = opts.compact ? 'pron-guide compact' : 'pron-guide';
     return `<div class="${compactClass}">
       <div class="pron-main"><div class="pron-label">발음 느낌</div><div>${this.escapeHtml(mainPron)}</div></div>
-      ${chunks ? `<div class="pron-chunks"><div class="pron-label">덩어리 연습</div><div>${this.escapeHtml(chunks)}</div></div>` : ''}
       ${item.pronNoteKo ? `<div class="pron-note"><div class="pron-label">발음 팁</div><div>${this.escapeHtml(item.pronNoteKo)}</div></div>` : ''}
     </div>`;
   }

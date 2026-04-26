@@ -138,12 +138,6 @@ article .controls button { flex: 1 1 120px; }
   font-size: .78rem;
   padding: 6px 8px;
 }
-.pron-note > div:last-child {
-  display: -webkit-box;
-  -webkit-line-clamp: 2;
-  -webkit-box-orient: vertical;
-  overflow: hidden;
-}
 .pron-chunks {
   background: #f3f1ff;
   color: #4b3f86;
