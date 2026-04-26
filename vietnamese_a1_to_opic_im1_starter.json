@@ -1,8 +1,8 @@
 {
   "meta": {
-    "version": "2.0.0",
+    "version": "2.0.1-pron-clean",
     "title": "Vietnamese A1 to OPIC IM1 Complete Starter",
-    "description": "완전 기초 학습자용 베트남어 문자·발음·숫자부터 OPIC IM1 말하기 답변까지 이어지는 단계형 데이터셋",
+    "description": "완전 기초 학습자용 베트남어 문자·발음·숫자부터 OPIC IM1 말하기 답변까지 이어지는 단계형 데이터셋 (발음 느낌/덩어리/발음팁 정비본)",
     "targetLevel": "Absolute Beginner → OPIC IM1",
     "dialectNote": "하노이/북부 기준 표현을 우선 사용하되, 전국적으로 통하는 기본 표현 중심으로 구성",
     "audioPolicy": "신규/전체 항목의 audioSrc는 빈 문자열로 두었으며, Google Cloud TTS 생성 스크립트가 /audio/{lessonId}/{itemId}.mp3 형태로 자동 채우는 것을 전제로 함",
@@ -11,7 +11,9 @@
       "사용자 요청에 따라 기초 단계부터 IM1까지 필요한 주제 전체를 하나의 JSON으로 재구성",
       "MP3 중복 생성을 피하기 위해 생성 스크립트에서 로컬 파일 존재 여부를 확인하는 방식 권장"
     ],
-    "createdAt": "2026-04-25"
+    "createdAt": "2026-04-25",
+    "pronunciationCleanupNote": "pronKo/pronChunks의 한글·로마자 혼합을 정리하고, pronNoteKo를 항목별 발음 포인트 중심으로 재작성함. shadowingTipKo/practiceKo는 사용하지 않음.",
+    "updatedAt": "2026-04-26"
   },
   "lessons": [
     {
@@ -41,10 +43,10 @@
           "audioSrc": "",
           "sourcePage": 1,
           "reviewNeeded": false,
-          "pronKo": "a",
-          "pronNoteKo": "a는 'a'을(를) 짧고 또렷하게 내고 끝음을 짧게 닫아 마무리하세요.",
+          "pronKo": "아",
+          "pronNoteKo": "a는 입을 편하게 열고 ‘아’를 짧고 깨끗하게 내세요.",
           "pronChunks": [
-            "a=a"
+            "a=아"
           ]
         },
         {
@@ -56,10 +58,10 @@
           "audioSrc": "",
           "sourcePage": 1,
           "reviewNeeded": false,
-          "pronKo": "a",
-          "pronNoteKo": "ă는 'a'을(를) 짧고 또렷하게 내고 마지막 소리를 부드럽게 이어 말하세요.",
+          "pronKo": "아",
+          "pronNoteKo": "ă는 a보다 짧게 끊는 소리입니다. ‘아’를 길게 끌지 말고 바로 닫아 주세요.",
           "pronChunks": [
-            "a=a"
+            "ă=아"
           ]
         },
         {
@@ -71,10 +73,10 @@
           "audioSrc": "/audio/l0/l0-v-03.mp3",
           "sourcePage": 1,
           "reviewNeeded": false,
-          "pronKo": "a",
-          "pronNoteKo": "â는 'a'을(를) 짧고 또렷하게 내고 마지막 음절은 힘을 빼고 자연스럽게 정리하세요.",
+          "pronKo": "어",
+          "pronNoteKo": "â는 ‘아’보다 안쪽의 짧은 ‘어’에 가깝습니다. 입을 크게 벌리지 마세요.",
           "pronChunks": [
-            "a=a"
+            "â=어"
           ]
         },
         {
@@ -86,10 +88,10 @@
           "audioSrc": "/audio/l0/l0-v-04.mp3",
           "sourcePage": 1,
           "reviewNeeded": false,
-          "pronKo": "e",
-          "pronNoteKo": "e는 'e'을(를) 짧고 또렷하게 내고 끝을 낮게 내리며 정리하세요.",
+          "pronKo": "에",
+          "pronNoteKo": "e는 ‘에’를 짧게 내되, 입을 너무 크게 벌리지 마세요.",
           "pronChunks": [
-            "e=e"
+            "e=에"
           ]
         },
         {
@@ -101,10 +103,10 @@
           "audioSrc": "/audio/l0/l0-v-05.mp3",
           "sourcePage": 1,
           "reviewNeeded": false,
-          "pronKo": "e",
-          "pronNoteKo": "ê는 'e'을(를) 짧고 또렷하게 내고 끝음을 짧게 닫아 마무리하세요.",
+          "pronKo": "에",
+          "pronNoteKo": "ê는 e보다 입을 조금 더 좁히고 ‘에’ 소리를 또렷하게 내세요.",
           "pronChunks": [
-            "e=e"
+            "ê=에"
           ]
         },
         {
@@ -116,10 +118,10 @@
           "audioSrc": "/audio/l0/l0-v-06.mp3",
           "sourcePage": 1,
           "reviewNeeded": false,
-          "pronKo": "i",
-          "pronNoteKo": "i는 'i'을(를) 짧고 또렷하게 내고 마지막 소리를 부드럽게 이어 말하세요.",
+          "pronKo": "이",
+          "pronNoteKo": "i는 ‘이’를 짧고 얇게 내세요.",
           "pronChunks": [
-            "i=i"
+            "i=이"
           ]
         },
         {
@@ -131,10 +133,10 @@
           "audioSrc": "/audio/l0/l0-v-07.mp3",
           "sourcePage": 1,
           "reviewNeeded": false,
-          "pronKo": "o",
-          "pronNoteKo": "o는 'o'을(를) 짧고 또렷하게 내고 마지막 음절은 힘을 빼고 자연스럽게 정리하세요.",
+          "pronKo": "오",
+          "pronNoteKo": "o는 입술을 살짝 둥글게 해 ‘오’로 내세요.",
           "pronChunks": [
-            "o=o"
+            "o=오"
           ]
         },
         {
@@ -146,10 +148,10 @@
           "audioSrc": "/audio/l0/l0-v-08.mp3",
           "sourcePage": 1,
           "reviewNeeded": false,
-          "pronKo": "o",
-          "pronNoteKo": "ô는 'o'을(를) 짧고 또렷하게 내고 끝을 낮게 내리며 정리하세요.",
+          "pronKo": "오",
+          "pronNoteKo": "ô는 입술을 둥글게 모아 짧은 ‘오’로 내세요.",
           "pronChunks": [
-            "o=o"
+            "ô=오"
           ]
         },
         {
@@ -161,10 +163,10 @@
           "audioSrc": "",
           "sourcePage": 1,
           "reviewNeeded": false,
-          "pronKo": "o",
-          "pronNoteKo": "ơ는 'o'을(를) 짧고 또렷하게 내고 끝음을 짧게 닫아 마무리하세요.",
+          "pronKo": "어",
+          "pronNoteKo": "ơ는 입을 덜 둥글게 하고 ‘어’에 가깝게 편하게 내세요.",
           "pronChunks": [
-            "o=o"
+            "ơ=어"
           ]
         },
         {
@@ -176,10 +178,10 @@
           "audioSrc": "/audio/l0/l0-v-10.mp3",
           "sourcePage": 1,
           "reviewNeeded": false,
-          "pronKo": "u",
-          "pronNoteKo": "u는 'u'을(를) 짧고 또렷하게 내고 끝음을 짧게 닫아 마무리하세요.",
+          "pronKo": "우",
+          "pronNoteKo": "u는 입술을 둥글게 모아 ‘우’로 짧게 내세요.",
           "pronChunks": [
-            "u=u"
+            "u=우"
           ]
         },
         {
@@ -191,10 +193,10 @@
           "audioSrc": "/audio/l0/l0-v-11.mp3",
           "sourcePage": 1,
           "reviewNeeded": false,
-          "pronKo": "u",
-          "pronNoteKo": "ư는 'u'을(를) 짧고 또렷하게 내고 마지막 소리를 부드럽게 이어 말하세요.",
+          "pronKo": "으",
+          "pronNoteKo": "ư는 한국어 ‘으’와 ‘우’ 사이 느낌입니다. 입술을 너무 둥글게 만들지 마세요.",
           "pronChunks": [
-            "u=u"
+            "ư=으"
           ]
         },
         {
@@ -206,10 +208,10 @@
           "audioSrc": "/audio/l0/l0-v-12.mp3",
           "sourcePage": 1,
           "reviewNeeded": false,
-          "pronKo": "y",
-          "pronNoteKo": "y는 'y'을(를) 짧고 또렷하게 내고 마지막 음절은 힘을 빼고 자연스럽게 정리하세요.",
+          "pronKo": "이",
+          "pronNoteKo": "y는 짧은 ‘이’로 처리하면 됩니다. 앞뒤 소리에 붙여 자연스럽게 말하세요.",
           "pronChunks": [
-            "y=y"
+            "y=이"
           ]
         },
         {
@@ -222,9 +224,9 @@
           "sourcePage": 2,
           "reviewNeeded": false,
           "pronKo": "콩",
-          "pronNoteKo": "không는 '콩'을(를) 짧고 또렷하게 내고 끝을 낮게 내리며 정리하세요.",
+          "pronNoteKo": "không은 ‘콩’처럼 짧게 닫고, 질문 문장에서는 끝을 너무 길게 끌지 마세요.",
           "pronChunks": [
-            "khong=콩"
+            "không=콩"
           ]
         },
         {
@@ -237,9 +239,9 @@
           "sourcePage": 2,
           "reviewNeeded": false,
           "pronKo": "못",
-          "pronNoteKo": "một는 '못'을(를) 짧고 또렷하게 내고 끝음을 짧게 닫아 마무리하세요.",
+          "pronNoteKo": "마지막 받침은 길게 끌지 말고 짧게 닫아 주세요. 무거운 성조는 짧고 낮게 눌러 끝냅니다.",
           "pronChunks": [
-            "mot=못"
+            "một=못"
           ]
         },
         {
@@ -252,7 +254,7 @@
           "sourcePage": 2,
           "reviewNeeded": false,
           "pronKo": "하이",
-          "pronNoteKo": "hai는 '하이'을(를) 짧고 또렷하게 내고 마지막 소리를 부드럽게 이어 말하세요.",
+          "pronNoteKo": "성조가 없는 음절은 높낮이를 과하게 만들지 말고 평평하고 짧게 말하세요.",
           "pronChunks": [
             "hai=하이"
           ]
@@ -267,7 +269,7 @@
           "sourcePage": 2,
           "reviewNeeded": false,
           "pronKo": "바",
-          "pronNoteKo": "ba는 '바'을(를) 짧고 또렷하게 내고 마지막 음절은 힘을 빼고 자연스럽게 정리하세요.",
+          "pronNoteKo": "성조가 없는 음절은 높낮이를 과하게 만들지 말고 평평하고 짧게 말하세요.",
           "pronChunks": [
             "ba=바"
           ]
@@ -282,9 +284,9 @@
           "sourcePage": 2,
           "reviewNeeded": false,
           "pronKo": "본",
-          "pronNoteKo": "bốn는 '본'을(를) 짧고 또렷하게 내고 끝을 낮게 내리며 정리하세요.",
+          "pronNoteKo": "마지막 m/n 받침은 입을 닫거나 혀를 붙인 채 짧게 마무리하세요. 올림 성조는 끝을 살짝 위로 올립니다.",
           "pronChunks": [
-            "bon=본"
+            "bốn=본"
           ]
         },
         {
@@ -297,9 +299,9 @@
           "sourcePage": 2,
           "reviewNeeded": false,
           "pronKo": "남",
-          "pronNoteKo": "năm는 '남'을(를) 짧고 또렷하게 내고 끝음을 짧게 닫아 마무리하세요.",
+          "pronNoteKo": "마지막 m/n 받침은 입을 닫거나 혀를 붙인 채 짧게 마무리하세요. 성조가 없는 음절은 높낮이를 과하게 만들지 말고 평평하고 짧게 말하세요.",
           "pronChunks": [
-            "nam=남"
+            "năm=남"
           ]
         },
         {
@@ -312,9 +314,9 @@
           "sourcePage": 2,
           "reviewNeeded": false,
           "pronKo": "사우",
-          "pronNoteKo": "sáu는 '사우'을(를) 짧고 또렷하게 내고 마지막 소리를 부드럽게 이어 말하세요.",
+          "pronNoteKo": "올림 성조는 끝을 살짝 위로 올립니다.",
           "pronChunks": [
-            "sau=사우"
+            "sáu=사우"
           ]
         },
         {
@@ -327,9 +329,9 @@
           "sourcePage": 2,
           "reviewNeeded": false,
           "pronKo": "버이",
-          "pronNoteKo": "bảy는 '버이'을(를) 짧고 또렷하게 내고 마지막 소리를 부드럽게 이어 말하세요.",
+          "pronNoteKo": "물음 성조는 중간을 살짝 꺾는 느낌으로 말합니다.",
           "pronChunks": [
-            "bay=버이"
+            "bảy=버이"
           ]
         },
         {
@@ -342,9 +344,9 @@
           "sourcePage": 2,
           "reviewNeeded": false,
           "pronKo": "땀",
-          "pronNoteKo": "tám는 '땀'을(를) 짧고 또렷하게 내고 마지막 음절은 힘을 빼고 자연스럽게 정리하세요.",
+          "pronNoteKo": "마지막 m/n 받침은 입을 닫거나 혀를 붙인 채 짧게 마무리하세요. 올림 성조는 끝을 살짝 위로 올립니다.",
           "pronChunks": [
-            "tam=땀"
+            "tám=땀"
           ]
         },
         {
@@ -357,9 +359,9 @@
           "sourcePage": 2,
           "reviewNeeded": false,
           "pronKo": "찐",
-          "pronNoteKo": "chín는 '찐'을(를) 짧고 또렷하게 내고 끝을 낮게 내리며 정리하세요.",
+          "pronNoteKo": "ch는 ‘ㅉ’에 가깝게 시작하고, 뒤 모음으로 바로 붙여 말하세요. 마지막 m/n 받침은 입을 닫거나 혀를 붙인 채 짧게 마무리하세요.",
           "pronChunks": [
-            "chin=찐"
+            "chín=찐"
           ]
         },
         {
@@ -372,9 +374,9 @@
           "sourcePage": 2,
           "reviewNeeded": false,
           "pronKo": "므어이",
-          "pronNoteKo": "mười는 '므어이'을(를) 짧고 또렷하게 내고 끝음을 짧게 닫아 마무리하세요.",
+          "pronNoteKo": "mười/mươi는 ‘므어이’로 부드럽게 이어 말하고, 뒤 숫자는 한 박자 짧게 붙여 주세요.",
           "pronChunks": [
-            "muoi=므어이"
+            "mười=므어이"
           ]
         },
         {
@@ -387,10 +389,9 @@
           "sourcePage": 2,
           "reviewNeeded": false,
           "pronKo": "므어이 못",
-          "pronNoteKo": "mười một는 앞부분은 끊지 말고 가볍게 붙여서 시작한 뒤 '못'은 마지막 소리를 부드럽게 이어 말하세요.",
+          "pronNoteKo": "mười/mươi는 ‘므어이’로 부드럽게 이어 말하고, 뒤 숫자는 한 박자 짧게 붙여 주세요.",
           "pronChunks": [
-            "muoi=므어이",
-            "mot=못"
+            "mười một=므어이 못"
           ]
         },
         {
@@ -403,10 +404,9 @@
           "sourcePage": 2,
           "reviewNeeded": false,
           "pronKo": "므어이 하이",
-          "pronNoteKo": "mười hai는 처음 소리를 과하게 세게 내지 말고 '하이'은 마지막 음절은 힘을 빼고 자연스럽게 정리하세요.",
+          "pronNoteKo": "mười/mươi는 ‘므어이’로 부드럽게 이어 말하고, 뒤 숫자는 한 박자 짧게 붙여 주세요.",
           "pronChunks": [
-            "muoi=므어이",
-            "hai=하이"
+            "mười hai=므어이 하이"
           ]
         },
         {
@@ -419,10 +419,9 @@
           "sourcePage": 2,
           "reviewNeeded": false,
           "pronKo": "므어이 바",
-          "pronNoteKo": "mười ba는 첫 음절을 또렷하게 시작하고 '바'은 끝을 낮게 내리며 정리하세요.",
+          "pronNoteKo": "mười/mươi는 ‘므어이’로 부드럽게 이어 말하고, 뒤 숫자는 한 박자 짧게 붙여 주세요.",
           "pronChunks": [
-            "muoi=므어이",
-            "ba=바"
+            "mười ba=므어이 바"
           ]
         },
         {
@@ -435,10 +434,9 @@
           "sourcePage": 2,
           "reviewNeeded": false,
           "pronKo": "므어이 본",
-          "pronNoteKo": "mười bốn는 첫 소리를 짧게 잡고 '본'은 끝음을 짧게 닫아 마무리하세요.",
+          "pronNoteKo": "mười/mươi는 ‘므어이’로 부드럽게 이어 말하고, 뒤 숫자는 한 박자 짧게 붙여 주세요.",
           "pronChunks": [
-            "muoi=므어이",
-            "bon=본"
+            "mười bốn=므어이 본"
           ]
         },
         {
@@ -451,10 +449,9 @@
           "sourcePage": 2,
           "reviewNeeded": false,
           "pronKo": "므어이 람",
-          "pronNoteKo": "mười lăm는 앞부분은 끊지 말고 가볍게 붙여서 시작한 뒤 '람'은 마지막 소리를 부드럽게 이어 말하세요.",
+          "pronNoteKo": "mười/mươi는 ‘므어이’로 부드럽게 이어 말하고, 뒤 숫자는 한 박자 짧게 붙여 주세요.",
           "pronChunks": [
-            "muoi=므어이",
-            "lam=람"
+            "mười lăm=므어이 람"
           ]
         },
         {
@@ -467,10 +464,9 @@
           "sourcePage": 2,
           "reviewNeeded": false,
           "pronKo": "므어이 사우",
-          "pronNoteKo": "mười sáu는 처음 소리를 과하게 세게 내지 말고 '사우'은 마지막 음절은 힘을 빼고 자연스럽게 정리하세요.",
+          "pronNoteKo": "mười/mươi는 ‘므어이’로 부드럽게 이어 말하고, 뒤 숫자는 한 박자 짧게 붙여 주세요.",
           "pronChunks": [
-            "muoi=므어이",
-            "sau=사우"
+            "mười sáu=므어이 사우"
           ]
         },
         {
@@ -483,10 +479,9 @@
           "sourcePage": 2,
           "reviewNeeded": false,
           "pronKo": "므어이 버이",
-          "pronNoteKo": "mười bảy는 처음 소리를 과하게 세게 내지 말고 '버이'은 마지막 음절은 힘을 빼고 자연스럽게 정리하세요.",
+          "pronNoteKo": "mười/mươi는 ‘므어이’로 부드럽게 이어 말하고, 뒤 숫자는 한 박자 짧게 붙여 주세요.",
           "pronChunks": [
-            "muoi=므어이",
-            "bay=버이"
+            "mười bảy=므어이 버이"
           ]
         },
         {
@@ -499,10 +494,9 @@
           "sourcePage": 2,
           "reviewNeeded": false,
           "pronKo": "므어이 땀",
-          "pronNoteKo": "mười tám는 첫 음절을 또렷하게 시작하고 '땀'은 끝을 낮게 내리며 정리하세요.",
+          "pronNoteKo": "mười/mươi는 ‘므어이’로 부드럽게 이어 말하고, 뒤 숫자는 한 박자 짧게 붙여 주세요.",
           "pronChunks": [
-            "muoi=므어이",
-            "tam=땀"
+            "mười tám=므어이 땀"
           ]
         },
         {
@@ -515,10 +509,9 @@
           "sourcePage": 2,
           "reviewNeeded": false,
           "pronKo": "므어이 찐",
-          "pronNoteKo": "mười chín는 첫 소리를 짧게 잡고 '찐'은 끝음을 짧게 닫아 마무리하세요.",
+          "pronNoteKo": "mười/mươi는 ‘므어이’로 부드럽게 이어 말하고, 뒤 숫자는 한 박자 짧게 붙여 주세요.",
           "pronChunks": [
-            "muoi=므어이",
-            "chin=찐"
+            "mười chín=므어이 찐"
           ]
         },
         {
@@ -531,10 +524,9 @@
           "sourcePage": 2,
           "reviewNeeded": false,
           "pronKo": "하이 므어이",
-          "pronNoteKo": "hai mươi는 앞부분은 끊지 말고 가볍게 붙여서 시작한 뒤 '므어이'은 마지막 소리를 부드럽게 이어 말하세요.",
+          "pronNoteKo": "mười/mươi는 ‘므어이’로 부드럽게 이어 말하고, 뒤 숫자는 한 박자 짧게 붙여 주세요.",
           "pronChunks": [
-            "hai=하이",
-            "muoi=므어이"
+            "hai mươi=하이 므어이"
           ]
         },
         {
@@ -547,10 +539,11 @@
           "sourcePage": 2,
           "reviewNeeded": false,
           "pronKo": "하이 므어이 못",
-          "pronNoteKo": "hai mươi mốt는 처음 소리를 과하게 세게 내지 말고 '못'은 마지막 음절은 힘을 빼고 자연스럽게 정리하세요.",
+          "pronNoteKo": "mười/mươi는 ‘므어이’로 부드럽게 이어 말하고, 뒤 숫자는 한 박자 짧게 붙여 주세요.",
           "pronChunks": [
-            "hai muoi=하이 므어이",
-            "mot=못"
+            "hai=하이",
+            "mươi=므어이",
+            "mốt=못"
           ]
         },
         {
@@ -563,9 +556,10 @@
           "sourcePage": 2,
           "reviewNeeded": false,
           "pronKo": "하이 므어이 하이",
-          "pronNoteKo": "hai mươi hai는 첫 음절을 또렷하게 시작하고 '하이'은 끝을 낮게 내리며 정리하세요.",
+          "pronNoteKo": "mười/mươi는 ‘므어이’로 부드럽게 이어 말하고, 뒤 숫자는 한 박자 짧게 붙여 주세요.",
           "pronChunks": [
-            "hai muoi=하이 므어이",
+            "hai=하이",
+            "mươi=므어이",
             "hai=하이"
           ]
         },
@@ -579,9 +573,10 @@
           "sourcePage": 2,
           "reviewNeeded": false,
           "pronKo": "하이 므어이 바",
-          "pronNoteKo": "hai mươi ba는 첫 소리를 짧게 잡고 '바'은 끝음을 짧게 닫아 마무리하세요.",
+          "pronNoteKo": "mười/mươi는 ‘므어이’로 부드럽게 이어 말하고, 뒤 숫자는 한 박자 짧게 붙여 주세요.",
           "pronChunks": [
-            "hai muoi=하이 므어이",
+            "hai=하이",
+            "mươi=므어이",
             "ba=바"
           ]
         },
@@ -595,10 +590,11 @@
           "sourcePage": 2,
           "reviewNeeded": false,
           "pronKo": "하이 므어이 본",
-          "pronNoteKo": "hai mươi bốn는 앞부분은 끊지 말고 가볍게 붙여서 시작한 뒤 '본'은 마지막 소리를 부드럽게 이어 말하세요.",
+          "pronNoteKo": "mười/mươi는 ‘므어이’로 부드럽게 이어 말하고, 뒤 숫자는 한 박자 짧게 붙여 주세요.",
           "pronChunks": [
-            "hai muoi=하이 므어이",
-            "bon=본"
+            "hai=하이",
+            "mươi=므어이",
+            "bốn=본"
           ]
         },
         {
@@ -611,10 +607,11 @@
           "sourcePage": 2,
           "reviewNeeded": false,
           "pronKo": "하이 므어이 람",
-          "pronNoteKo": "hai mươi lăm는 처음 소리를 과하게 세게 내지 말고 '람'은 마지막 음절은 힘을 빼고 자연스럽게 정리하세요.",
+          "pronNoteKo": "mười/mươi는 ‘므어이’로 부드럽게 이어 말하고, 뒤 숫자는 한 박자 짧게 붙여 주세요.",
           "pronChunks": [
-            "hai muoi=하이 므어이",
-            "lam=람"
+            "hai=하이",
+            "mươi=므어이",
+            "lăm=람"
           ]
         },
         {
@@ -627,10 +624,9 @@
           "sourcePage": 2,
           "reviewNeeded": false,
           "pronKo": "바 므어이",
-          "pronNoteKo": "ba mươi는 첫 음절을 또렷하게 시작하고 '므어이'은 끝을 낮게 내리며 정리하세요.",
+          "pronNoteKo": "mười/mươi는 ‘므어이’로 부드럽게 이어 말하고, 뒤 숫자는 한 박자 짧게 붙여 주세요.",
           "pronChunks": [
-            "ba=바",
-            "muoi=므어이"
+            "ba mươi=바 므어이"
           ]
         },
         {
@@ -643,10 +639,9 @@
           "sourcePage": 2,
           "reviewNeeded": false,
           "pronKo": "본 므어이",
-          "pronNoteKo": "bốn mươi는 첫 음절을 또렷하게 시작하고 '므어이'은 끝을 낮게 내리며 정리하세요.",
+          "pronNoteKo": "mười/mươi는 ‘므어이’로 부드럽게 이어 말하고, 뒤 숫자는 한 박자 짧게 붙여 주세요.",
           "pronChunks": [
-            "bon=본",
-            "muoi=므어이"
+            "bốn mươi=본 므어이"
           ]
         },
         {
@@ -659,10 +654,9 @@
           "sourcePage": 2,
           "reviewNeeded": false,
           "pronKo": "남 므어이",
-          "pronNoteKo": "năm mươi는 첫 소리를 짧게 잡고 '므어이'은 끝음을 짧게 닫아 마무리하세요.",
+          "pronNoteKo": "mười/mươi는 ‘므어이’로 부드럽게 이어 말하고, 뒤 숫자는 한 박자 짧게 붙여 주세요.",
           "pronChunks": [
-            "nam=남",
-            "muoi=므어이"
+            "năm mươi=남 므어이"
           ]
         },
         {
@@ -675,10 +669,9 @@
           "sourcePage": 2,
           "reviewNeeded": false,
           "pronKo": "사우 므어이",
-          "pronNoteKo": "sáu mươi는 앞부분은 끊지 말고 가볍게 붙여서 시작한 뒤 '므어이'은 마지막 소리를 부드럽게 이어 말하세요.",
+          "pronNoteKo": "mười/mươi는 ‘므어이’로 부드럽게 이어 말하고, 뒤 숫자는 한 박자 짧게 붙여 주세요.",
           "pronChunks": [
-            "sau=사우",
-            "muoi=므어이"
+            "sáu mươi=사우 므어이"
           ]
         },
         {
@@ -691,10 +684,9 @@
           "sourcePage": 2,
           "reviewNeeded": false,
           "pronKo": "버이 므어이",
-          "pronNoteKo": "bảy mươi는 처음 소리를 과하게 세게 내지 말고 '므어이'은 마지막 음절은 힘을 빼고 자연스럽게 정리하세요.",
+          "pronNoteKo": "mười/mươi는 ‘므어이’로 부드럽게 이어 말하고, 뒤 숫자는 한 박자 짧게 붙여 주세요.",
           "pronChunks": [
-            "bay=버이",
-            "muoi=므어이"
+            "bảy mươi=버이 므어이"
           ]
         },
         {
@@ -707,10 +699,9 @@
           "sourcePage": 2,
           "reviewNeeded": false,
           "pronKo": "땀 므어이",
-          "pronNoteKo": "tám mươi는 첫 음절을 또렷하게 시작하고 '므어이'은 끝을 낮게 내리며 정리하세요.",
+          "pronNoteKo": "mười/mươi는 ‘므어이’로 부드럽게 이어 말하고, 뒤 숫자는 한 박자 짧게 붙여 주세요.",
           "pronChunks": [
-            "tam=땀",
-            "muoi=므어이"
+            "tám mươi=땀 므어이"
           ]
         },
         {
@@ -723,10 +714,9 @@
           "sourcePage": 2,
           "reviewNeeded": false,
           "pronKo": "찐 므어이",
-          "pronNoteKo": "chín mươi는 첫 소리를 짧게 잡고 '므어이'은 끝음을 짧게 닫아 마무리하세요.",
+          "pronNoteKo": "mười/mươi는 ‘므어이’로 부드럽게 이어 말하고, 뒤 숫자는 한 박자 짧게 붙여 주세요.",
           "pronChunks": [
-            "chin=찐",
-            "muoi=므어이"
+            "chín mươi=찐 므어이"
           ]
         },
         {
@@ -738,11 +728,10 @@
           "audioSrc": "/audio/l0/l0-v-46.mp3",
           "sourcePage": 2,
           "reviewNeeded": false,
-          "pronKo": "못 tram",
-          "pronNoteKo": "một trăm는 앞부분은 끊지 말고 가볍게 붙여서 시작한 뒤 'tram'은 마지막 소리를 부드럽게 이어 말하세요.",
+          "pronKo": "못 짬",
+          "pronNoteKo": "trăm은 ‘짬’에 가깝게 짧게 말합니다. r을 굴리거나 ‘트람’처럼 길게 끌지 마세요.",
           "pronChunks": [
-            "mot=못",
-            "tram=tram"
+            "một trăm=못 짬"
           ]
         },
         {
@@ -754,11 +743,10 @@
           "audioSrc": "/audio/l0/l0-v-47.mp3",
           "sourcePage": 2,
           "reviewNeeded": false,
-          "pronKo": "못 nghin",
-          "pronNoteKo": "một nghìn는 처음 소리를 과하게 세게 내지 말고 'nghin'은 마지막 음절은 힘을 빼고 자연스럽게 정리하세요.",
+          "pronKo": "못 응인",
+          "pronNoteKo": "nghìn은 ‘응인’처럼 코로 시작해 짧게 닫습니다. ‘그힌’처럼 g 소리를 앞에 붙이지 마세요.",
           "pronChunks": [
-            "mot=못",
-            "nghin=nghin"
+            "một nghìn=못 응인"
           ]
         },
         {
@@ -770,11 +758,10 @@
           "audioSrc": "/audio/l0/l0-v-48.mp3",
           "sourcePage": 2,
           "reviewNeeded": false,
-          "pronKo": "므어이 nghin",
-          "pronNoteKo": "mười nghìn는 첫 음절을 또렷하게 시작하고 'nghin'은 끝을 낮게 내리며 정리하세요.",
+          "pronKo": "므어이 응인",
+          "pronNoteKo": "nghìn은 ‘응인’처럼 코로 시작해 짧게 닫습니다. ‘그힌’처럼 g 소리를 앞에 붙이지 마세요.",
           "pronChunks": [
-            "muoi=므어이",
-            "nghin=nghin"
+            "mười nghìn=므어이 응인"
           ]
         },
         {
@@ -786,11 +773,12 @@
           "audioSrc": "/audio/l0/l0-v-49.mp3",
           "sourcePage": 2,
           "reviewNeeded": false,
-          "pronKo": "못 tram nghin",
-          "pronNoteKo": "một trăm nghìn는 첫 소리를 짧게 잡고 'nghin'은 끝음을 짧게 닫아 마무리하세요.",
+          "pronKo": "못 짬 응인",
+          "pronNoteKo": "nghìn은 ‘응인’처럼 코로 시작해 짧게 닫습니다. ‘그힌’처럼 g 소리를 앞에 붙이지 마세요.",
           "pronChunks": [
-            "mot tram=못",
-            "nghin=tram"
+            "một=못",
+            "trăm=짬",
+            "nghìn=응인"
           ]
         },
         {
@@ -802,11 +790,10 @@
           "audioSrc": "/audio/l0/l0-v-50.mp3",
           "sourcePage": 2,
           "reviewNeeded": false,
-          "pronKo": "못 trieu",
-          "pronNoteKo": "một triệu는 첫 소리를 짧게 잡고 'trieu'은 끝음을 짧게 닫아 마무리하세요.",
+          "pronKo": "못 찌에우",
+          "pronNoteKo": "triệu는 ‘찌에우’에 가깝게 이어 말합니다. 끝을 길게 빼지 말고 가볍게 마무리하세요.",
           "pronChunks": [
-            "mot=못",
-            "trieu=trieu"
+            "một triệu=못 찌에우"
           ]
         }
       ],
@@ -818,11 +805,12 @@
           "audioSrc": "/audio/l0/l0-s-01.mp3",
           "sourcePage": 3,
           "reviewNeeded": false,
-          "pronKo": "a a a",
-          "pronNoteKo": "a - ă - â는 앞부분은 끊지 말고 가볍게 붙여서 시작한 뒤 'a'은 마지막 소리를 부드럽게 이어 말하세요.",
+          "pronKo": "아 아 어",
+          "pronNoteKo": "모음 차이를 듣는 연습입니다. 입 모양과 길이를 조금씩 바꾸되, 각 소리를 짧게 끊어 비교하세요.",
           "pronChunks": [
-            "a a=a",
-            "a=a"
+            "a=아",
+            "ă=아",
+            "â=어"
           ]
         },
         {
@@ -832,11 +820,12 @@
           "audioSrc": "/audio/l0/l0-s-02.mp3",
           "sourcePage": 3,
           "reviewNeeded": false,
-          "pronKo": "e e i",
-          "pronNoteKo": "e - ê - i는 처음 소리를 과하게 세게 내지 말고 'i'은 마지막 음절은 힘을 빼고 자연스럽게 정리하세요.",
+          "pronKo": "에 에 이",
+          "pronNoteKo": "모음 차이를 듣는 연습입니다. 입 모양과 길이를 조금씩 바꾸되, 각 소리를 짧게 끊어 비교하세요.",
           "pronChunks": [
-            "e e=e",
-            "i=e"
+            "e=에",
+            "ê=에",
+            "i=이"
           ]
         },
         {
@@ -846,11 +835,12 @@
           "audioSrc": "/audio/l0/l0-s-03.mp3",
           "sourcePage": 3,
           "reviewNeeded": false,
-          "pronKo": "o o o",
-          "pronNoteKo": "o - ô - ơ는 첫 음절을 또렷하게 시작하고 'o'은 끝을 낮게 내리며 정리하세요.",
+          "pronKo": "오 오 어",
+          "pronNoteKo": "모음 차이를 듣는 연습입니다. 입 모양과 길이를 조금씩 바꾸되, 각 소리를 짧게 끊어 비교하세요.",
           "pronChunks": [
-            "o o=o",
-            "o=o"
+            "o=오",
+            "ô=오",
+            "ơ=어"
           ]
         },
         {
@@ -860,11 +850,12 @@
           "audioSrc": "/audio/l0/l0-s-04.mp3",
           "sourcePage": 3,
           "reviewNeeded": false,
-          "pronKo": "u u y",
-          "pronNoteKo": "u - ư - y는 첫 소리를 짧게 잡고 'y'은 끝음을 짧게 닫아 마무리하세요.",
+          "pronKo": "우 으 이",
+          "pronNoteKo": "모음 차이를 듣는 연습입니다. 입 모양과 길이를 조금씩 바꾸되, 각 소리를 짧게 끊어 비교하세요.",
           "pronChunks": [
-            "u u=u",
-            "y=u"
+            "u=우",
+            "ư=으",
+            "y=이"
           ]
         },
         {
@@ -875,11 +866,11 @@
           "sourcePage": 4,
           "reviewNeeded": false,
           "pronKo": "못 하이 바 본 남",
-          "pronNoteKo": "Một, hai, ba, bốn, năm.는 앞부분은 끊지 말고 가볍게 붙여서 시작한 뒤 '남'은 마지막 소리를 부드럽게 이어 말하세요.",
+          "pronNoteKo": "마지막 m/n 받침은 입을 닫거나 혀를 붙인 채 짧게 마무리하세요.",
           "pronChunks": [
-            "mot hai=못 하이",
-            "ba bon=바 본",
-            "nam=남"
+            "Một hai=못 하이",
+            "ba bốn=바 본",
+            "năm=남"
           ]
         },
         {
@@ -890,11 +881,11 @@
           "sourcePage": 4,
           "reviewNeeded": false,
           "pronKo": "사우 버이 땀 찐 므어이",
-          "pronNoteKo": "Sáu, bảy, tám, chín, mười.는 처음 소리를 과하게 세게 내지 말고 '므어이'은 마지막 음절은 힘을 빼고 자연스럽게 정리하세요.",
+          "pronNoteKo": "mười/mươi는 ‘므어이’로 부드럽게 이어 말하고, 뒤 숫자는 한 박자 짧게 붙여 주세요.",
           "pronChunks": [
-            "sau bay=사우 버이",
-            "tam chin=땀 찐",
-            "muoi=므어이"
+            "Sáu bảy=사우 버이",
+            "tám chín=땀 찐",
+            "mười=므어이"
           ]
         },
         {
@@ -905,11 +896,11 @@
           "sourcePage": 4,
           "reviewNeeded": false,
           "pronKo": "므어이 못 므어이 하이 므어이 바",
-          "pronNoteKo": "Mười một, mười hai, mười ba.는 첫 음절을 또렷하게 시작하고 '바'은 끝을 낮게 내리며 정리하세요.",
+          "pronNoteKo": "mười/mươi는 ‘므어이’로 부드럽게 이어 말하고, 뒤 숫자는 한 박자 짧게 붙여 주세요.",
           "pronChunks": [
-            "muoi mot=므어이 못",
-            "muoi hai=므어이 하이",
-            "muoi ba=므어이 바"
+            "Mười một=므어이 못",
+            "mười hai=므어이 하이",
+            "mười ba=므어이 바"
           ]
         },
         {
@@ -920,11 +911,11 @@
           "sourcePage": 4,
           "reviewNeeded": false,
           "pronKo": "하이 므어이 바 므어이 본 므어이",
-          "pronNoteKo": "Hai mươi, ba mươi, bốn mươi.는 첫 소리를 짧게 잡고 '므어이'은 끝음을 짧게 닫아 마무리하세요.",
+          "pronNoteKo": "mười/mươi는 ‘므어이’로 부드럽게 이어 말하고, 뒤 숫자는 한 박자 짧게 붙여 주세요.",
           "pronChunks": [
-            "hai muoi=하이 므어이",
-            "ba muoi=바 므어이",
-            "bon muoi=본 므어이"
+            "Hai mươi=하이 므어이",
+            "ba mươi=바 므어이",
+            "bốn mươi=본 므어이"
           ]
         },
         {
@@ -934,12 +925,12 @@
           "audioSrc": "/audio/l0/l0-s-09.mp3",
           "sourcePage": 4,
           "reviewNeeded": false,
-          "pronKo": "cai nay 남 므어이 nghin dong",
-          "pronNoteKo": "Cái này năm mươi nghìn đồng.는 앞부분은 끊지 말고 가볍게 붙여서 시작한 뒤 'dong'은 마지막 소리를 부드럽게 이어 말하세요.",
+          "pronKo": "까이 나이 남 므어이 응인 동",
+          "pronNoteKo": "nghìn은 ‘응인’처럼 코로 시작해 짧게 닫습니다. ‘그힌’처럼 g 소리를 앞에 붙이지 마세요.",
           "pronChunks": [
-            "cai nay=cai",
-            "nam muoi=남 므어이",
-            "nghin dong=남"
+            "Cái này=까이 나이",
+            "năm mươi=남 므어이",
+            "nghìn đồng=응인 동"
           ]
         },
         {
@@ -949,13 +940,13 @@
           "audioSrc": "/audio/l0/l0-s-10.mp3",
           "sourcePage": 4,
           "reviewNeeded": false,
-          "pronKo": "so dien thoai cua 또이 라 콩 못 하이 바 본 남 사우 버이 땀 찐",
-          "pronNoteKo": "Số điện thoại của tôi là không một hai ba bốn năm sáu bảy tám chín.는 앞부분은 끊지 말고 가볍게 붙여서 시작한 뒤 '찐'은 마지막 소리를 부드럽게 이어 말하세요.",
+          "pronKo": "쏘 디엔 토아이 꾸아 또이 라 콩 못 하이 바 본 남 사우 버이 땀 찐",
+          "pronNoteKo": "không은 ‘콩’처럼 짧게 닫고, 질문 문장에서는 끝을 너무 길게 끌지 마세요.",
           "pronChunks": [
-            "so dien thoai=so",
-            "cua toi la=dien",
-            "khong mot hai=콩 못 하이",
-            "ba bon nam=cua"
+            "Số điện thoại của=쏘 디엔 토아이 꾸아",
+            "tôi là không một=또이 라 콩 못",
+            "hai ba bốn năm=하이 바 본 남",
+            "sáu bảy tám chín=사우 버이 땀 찐"
           ]
         }
       ],
@@ -1016,9 +1007,9 @@
           "audioSrc": "/audio/l0/l0-p-01.mp3",
           "sourcePage": 7,
           "reviewNeeded": false,
-          "pronKo": "ma ma ma ma ma ma",
-          "mouthKo": "입술을 과하게 힘주지 말고, 자음 시작을 가볍게 낸 뒤 모음을 길게 열어 소리 내세요.",
-          "toneKo": "하노이 기준 성조를 의식해 음의 높낮이를 분명히 하고, 끝은 급하게 끊지 말고 짧게 정리하세요."
+          "pronKo": "어 어 어 어 어 어",
+          "mouthKo": "입술과 턱에 힘을 빼고, 각 음절의 모음을 짧고 또렷하게 비교해 보세요.",
+          "toneKo": "성조가 여러 개 섞여 있으니 한 톤으로 평평하게 읽지 말고, 각 덩어리의 높낮이를 분리해 주세요."
         },
         {
           "id": "l0-p-02",
@@ -1027,9 +1018,9 @@
           "audioSrc": "/audio/l0/l0-p-02.mp3",
           "sourcePage": 7,
           "reviewNeeded": false,
-          "pronKo": "a a a o o o u u",
-          "mouthKo": "입술을 과하게 힘주지 말고, 자음 시작을 가볍게 낸 뒤 모음을 길게 열어 소리 내세요.",
-          "toneKo": "하노이 기준 성조를 의식해 음의 높낮이를 분명히 하고, 끝은 급하게 끊지 말고 짧게 정리하세요."
+          "pronKo": "아 아 어 오 오 어 우 으",
+          "mouthKo": "입술과 턱에 힘을 빼고, 각 음절의 모음을 짧고 또렷하게 비교해 보세요.",
+          "toneKo": "성조가 없는 음절은 높낮이를 과하게 만들지 말고 평평하고 짧게 말하세요."
         }
       ],
       "quizSeeds": [
@@ -1090,10 +1081,9 @@
           "sourcePage": 20,
           "reviewNeeded": false,
           "pronKo": "씬 짜오",
-          "pronNoteKo": "xin chào는 앞부분은 끊지 말고 가볍게 붙여서 시작한 뒤 '짜오'은 마지막 소리를 부드럽게 이어 말하세요.",
+          "pronNoteKo": "x는 ‘ㅆ/ㅅ’처럼 가볍게 시작하고, 뒤 모음을 길게 끌지 마세요. 내림 성조는 끝을 낮게 떨어뜨립니다.",
           "pronChunks": [
-            "xin=씬",
-            "chao=짜오"
+            "xin chào=씬 짜오"
           ]
         },
         {
@@ -1106,10 +1096,9 @@
           "sourcePage": 20,
           "reviewNeeded": false,
           "pronKo": "짜오 반",
-          "pronNoteKo": "chào bạn는 처음 소리를 과하게 세게 내지 말고 '반'은 마지막 음절은 힘을 빼고 자연스럽게 정리하세요.",
+          "pronNoteKo": "ch는 ‘ㅉ’에 가깝게 시작하고, 뒤 모음으로 바로 붙여 말하세요. 마지막 m/n 받침은 입을 닫거나 혀를 붙인 채 짧게 마무리하세요.",
           "pronChunks": [
-            "chao=짜오",
-            "ban=반"
+            "chào bạn=짜오 반"
           ]
         },
         {
@@ -1122,10 +1111,9 @@
           "sourcePage": 20,
           "reviewNeeded": false,
           "pronKo": "깜 언",
-          "pronNoteKo": "cảm ơn는 첫 음절을 또렷하게 시작하고 '언'은 끝을 낮게 내리며 정리하세요.",
+          "pronNoteKo": "마지막 m/n 받침은 입을 닫거나 혀를 붙인 채 짧게 마무리하세요. 물음 성조는 중간을 살짝 꺾는 느낌으로 말합니다.",
           "pronChunks": [
-            "cam=깜",
-            "on=언"
+            "cảm ơn=깜 언"
           ]
         },
         {
@@ -1137,11 +1125,10 @@
           "audioSrc": "/audio/l1/l1-v-04.mp3",
           "sourcePage": 20,
           "reviewNeeded": false,
-          "pronKo": "씬 loi",
-          "pronNoteKo": "xin lỗi는 첫 소리를 짧게 잡고 'loi'은 끝음을 짧게 닫아 마무리하세요.",
+          "pronKo": "씬 로이",
+          "pronNoteKo": "x는 ‘ㅆ/ㅅ’처럼 가볍게 시작하고, 뒤 모음을 길게 끌지 마세요. 꺾임 성조는 중간에 살짝 흔들어 올리는 느낌입니다.",
           "pronChunks": [
-            "xin=씬",
-            "loi=loi"
+            "xin lỗi=씬 로이"
           ]
         },
         {
@@ -1153,11 +1140,10 @@
           "audioSrc": "/audio/l1/l1-v-05.mp3",
           "sourcePage": 20,
           "reviewNeeded": false,
-          "pronKo": "땀 biet",
-          "pronNoteKo": "tạm biệt는 앞부분은 끊지 말고 가볍게 붙여서 시작한 뒤 'biet'은 마지막 소리를 부드럽게 이어 말하세요.",
+          "pronKo": "땀 비엣",
+          "pronNoteKo": "마지막 받침은 길게 끌지 말고 짧게 닫아 주세요. 무거운 성조는 짧고 낮게 눌러 끝냅니다.",
           "pronChunks": [
-            "tam=땀",
-            "biet=biet"
+            "tạm biệt=땀 비엣"
           ]
         },
         {
@@ -1169,11 +1155,12 @@
           "audioSrc": "/audio/l1/l1-v-06.mp3",
           "sourcePage": 20,
           "reviewNeeded": false,
-          "pronKo": "hen gap lai",
-          "pronNoteKo": "hẹn gặp lại는 처음 소리를 과하게 세게 내지 말고 'lai'은 마지막 음절은 힘을 빼고 자연스럽게 정리하세요.",
+          "pronKo": "헨 갑 라이",
+          "pronNoteKo": "무거운 성조는 짧고 낮게 눌러 끝냅니다.",
           "pronChunks": [
-            "hen gap=hen",
-            "lai=gap"
+            "hẹn=헨",
+            "gặp=갑",
+            "lại=라이"
           ]
         },
         {
@@ -1185,10 +1172,10 @@
           "audioSrc": "/audio/l1/l1-v-07.mp3",
           "sourcePage": 20,
           "reviewNeeded": false,
-          "pronKo": "vang",
-          "pronNoteKo": "vâng는 'vang'을(를) 짧고 또렷하게 내고 끝을 낮게 내리며 정리하세요.",
+          "pronKo": "벙",
+          "pronNoteKo": "v는 한국어 ㅂ보다 입술을 가볍게 붙였다 떼는 느낌입니다. 너무 강하게 터뜨리지 마세요. 끝의 콧소리 받침을 살리되, 뒤에 모음을 덧붙이지 마세요.",
           "pronChunks": [
-            "vang=vang"
+            "vâng=벙"
           ]
         },
         {
@@ -1201,9 +1188,9 @@
           "sourcePage": 20,
           "reviewNeeded": false,
           "pronKo": "콩",
-          "pronNoteKo": "không는 '콩'을(를) 짧고 또렷하게 내고 끝음을 짧게 닫아 마무리하세요.",
+          "pronNoteKo": "không은 ‘콩’처럼 짧게 닫고, 질문 문장에서는 끝을 너무 길게 끌지 마세요.",
           "pronChunks": [
-            "khong=콩"
+            "không=콩"
           ]
         },
         {
@@ -1215,11 +1202,10 @@
           "audioSrc": "/audio/l1/l1-v-09.mp3",
           "sourcePage": 20,
           "reviewNeeded": false,
-          "pronKo": "콩 sao",
-          "pronNoteKo": "không sao는 앞부분은 끊지 말고 가볍게 붙여서 시작한 뒤 'sao'은 마지막 소리를 부드럽게 이어 말하세요.",
+          "pronKo": "콩 싸오",
+          "pronNoteKo": "không은 ‘콩’처럼 짧게 닫고, 질문 문장에서는 끝을 너무 길게 끌지 마세요.",
           "pronChunks": [
-            "khong=콩",
-            "sao=sao"
+            "không sao=콩 싸오"
           ]
         },
         {
@@ -1231,11 +1217,12 @@
           "audioSrc": "/audio/l1/l1-v-10.mp3",
           "sourcePage": 20,
           "reviewNeeded": false,
-          "pronKo": "젓 부이 드억 gap 반",
-          "pronNoteKo": "rất vui được gặp bạn는 앞부분은 끊지 말고 가볍게 붙여서 시작한 뒤 '반'은 마지막 소리를 부드럽게 이어 말하세요.",
+          "pronKo": "젓 부이 드억 갑 반",
+          "pronNoteKo": "r은 하노이식으로 ‘ㅈ’에 가깝게 들릴 수 있어요. 혀를 굴리기보다 짧게 시작하세요.",
           "pronChunks": [
-            "rat vui=젓 부이",
-            "duoc gap=부이"
+            "rất vui=젓 부이",
+            "được gặp=드억 갑",
+            "bạn=반"
           ]
         }
       ],
@@ -1248,11 +1235,11 @@
           "sourcePage": 21,
           "reviewNeeded": false,
           "pronKo": "씬 짜오 반 쾌 콩",
-          "pronNoteKo": "Xin chào, bạn khỏe không?는 처음 소리를 과하게 세게 내지 말고 '콩'은 마지막 음절은 힘을 빼고 자연스럽게 정리하세요.",
+          "pronNoteKo": "không은 ‘콩’처럼 짧게 닫고, 질문 문장에서는 끝을 너무 길게 끌지 마세요.",
           "pronChunks": [
-            "xin chao=씬 짜오",
-            "ban khoe=반 쾌",
-            "khong=콩"
+            "Xin chào=씬 짜오",
+            "bạn khỏe=반 쾌",
+            "không=콩"
           ]
         },
         {
@@ -1263,10 +1250,12 @@
           "sourcePage": 21,
           "reviewNeeded": false,
           "pronKo": "또이 쾌 깜 언",
-          "pronNoteKo": "Tôi khỏe, cảm ơn.는 첫 음절을 또렷하게 시작하고 '언'은 끝을 낮게 내리며 정리하세요.",
+          "pronNoteKo": "kh는 세게 긁는 소리가 아니라 ‘ㅋ’에 바람을 살짝 얹는 정도로 내세요. 마지막 m/n 받침은 입을 닫거나 혀를 붙인 채 짧게 마무리하세요.",
           "pronChunks": [
-            "toi khoe=또이 쾌",
-            "cam on=깜 언"
+            "Tôi=또이",
+            "khỏe=쾌",
+            "cảm=깜",
+            "ơn=언"
           ]
         },
         {
@@ -1276,12 +1265,12 @@
           "audioSrc": "/audio/l1/l1-s-03.mp3",
           "sourcePage": 21,
           "reviewNeeded": false,
-          "pronKo": "젓 부이 드억 gap 반",
-          "pronNoteKo": "Rất vui được gặp bạn.는 첫 소리를 짧게 잡고 '반'은 끝음을 짧게 닫아 마무리하세요.",
+          "pronKo": "젓 부이 드억 갑 반",
+          "pronNoteKo": "r은 하노이식으로 ‘ㅈ’에 가깝게 들릴 수 있어요. 혀를 굴리기보다 짧게 시작하세요.",
           "pronChunks": [
-            "rat vui=젓 부이",
-            "duoc gap=부이",
-            "ban=반"
+            "Rất vui=젓 부이",
+            "được gặp=드억 갑",
+            "bạn=반"
           ]
         },
         {
@@ -1291,12 +1280,12 @@
           "audioSrc": "/audio/l1/l1-s-04.mp3",
           "sourcePage": 21,
           "reviewNeeded": false,
-          "pronKo": "씬 loi 또이 콩 hieu",
-          "pronNoteKo": "Xin lỗi, tôi không hiểu.는 앞부분은 끊지 말고 가볍게 붙여서 시작한 뒤 'hieu'은 마지막 소리를 부드럽게 이어 말하세요.",
+          "pronKo": "씬 로이 또이 콩 히에우",
+          "pronNoteKo": "không은 ‘콩’처럼 짧게 닫고, 질문 문장에서는 끝을 너무 길게 끌지 마세요.",
           "pronChunks": [
-            "xin loi=씬",
-            "toi khong=또이 콩",
-            "hieu=또이"
+            "Xin lỗi=씬 로이",
+            "tôi không=또이 콩",
+            "hiểu=히에우"
           ]
         },
         {
@@ -1306,12 +1295,12 @@
           "audioSrc": "/audio/l1/l1-s-05.mp3",
           "sourcePage": 21,
           "reviewNeeded": false,
-          "pronKo": "반 노이 cham 드억 콩",
-          "pronNoteKo": "Bạn nói chậm được không?는 처음 소리를 과하게 세게 내지 말고 '콩'은 마지막 음절은 힘을 빼고 자연스럽게 정리하세요.",
+          "pronKo": "반 노이 쩜 드억 콩",
+          "pronNoteKo": "không은 ‘콩’처럼 짧게 닫고, 질문 문장에서는 끝을 너무 길게 끌지 마세요.",
           "pronChunks": [
-            "ban noi=반 노이",
-            "cham duoc=노이",
-            "khong=콩"
+            "Bạn nói=반 노이",
+            "chậm được=쩜 드억",
+            "không=콩"
           ]
         },
         {
@@ -1321,12 +1310,12 @@
           "audioSrc": "/audio/l1/l1-s-06.mp3",
           "sourcePage": 21,
           "reviewNeeded": false,
-          "pronKo": "땀 biet hen gap lai",
-          "pronNoteKo": "Tạm biệt, hẹn gặp lại.는 첫 음절을 또렷하게 시작하고 'lai'은 끝을 낮게 내리며 정리하세요.",
+          "pronKo": "땀 비엣 헨 갑 라이",
+          "pronNoteKo": "무거운 성조는 짧고 낮게 눌러 끝냅니다.",
           "pronChunks": [
-            "tam biet=땀",
-            "hen gap=biet",
-            "lai=hen"
+            "Tạm biệt=땀 비엣",
+            "hẹn gặp=헨 갑",
+            "lại=라이"
           ]
         }
       ],
@@ -1381,8 +1370,8 @@
           "sourcePage": 24,
           "reviewNeeded": false,
           "pronKo": "씬 짜오",
-          "mouthKo": "입술을 과하게 힘주지 말고, 자음 시작을 가볍게 낸 뒤 모음을 길게 열어 소리 내세요.",
-          "toneKo": "하노이 기준 성조를 의식해 음의 높낮이를 분명히 하고, 끝은 급하게 끊지 말고 짧게 정리하세요."
+          "mouthKo": "x는 ‘ㅆ/ㅅ’처럼 가볍게 시작하고, 뒤 모음을 길게 끌지 마세요.",
+          "toneKo": "내림 성조는 끝을 낮게 떨어뜨립니다."
         },
         {
           "id": "l1-p-02",
@@ -1392,8 +1381,8 @@
           "sourcePage": 24,
           "reviewNeeded": false,
           "pronKo": "씬 짜오 반 쾌 콩",
-          "mouthKo": "입술을 과하게 힘주지 말고, 자음 시작을 가볍게 낸 뒤 모음을 길게 열어 소리 내세요.",
-          "toneKo": "하노이 기준 성조를 의식해 음의 높낮이를 분명히 하고, 끝은 급하게 끊지 말고 짧게 정리하세요."
+          "mouthKo": "x는 ‘ㅆ/ㅅ’처럼 가볍게 시작하고, 뒤 모음을 길게 끌지 마세요.",
+          "toneKo": "성조가 여러 개 섞여 있으니 한 톤으로 평평하게 읽지 말고, 각 덩어리의 높낮이를 분리해 주세요."
         }
       ],
       "quizSeeds": [
@@ -1451,9 +1440,9 @@
           "sourcePage": 30,
           "reviewNeeded": false,
           "pronKo": "뗀",
-          "pronNoteKo": "tên는 '뗀'을(를) 짧고 또렷하게 내고 마지막 음절은 힘을 빼고 자연스럽게 정리하세요.",
+          "pronNoteKo": "마지막 m/n 받침은 입을 닫거나 혀를 붙인 채 짧게 마무리하세요. 성조가 없는 음절은 높낮이를 과하게 만들지 말고 평평하고 짧게 말하세요.",
           "pronChunks": [
-            "ten=뗀"
+            "tên=뗀"
           ]
         },
         {
@@ -1465,11 +1454,10 @@
           "audioSrc": "/audio/l2/l2-v-02.mp3",
           "sourcePage": 30,
           "reviewNeeded": false,
-          "pronKo": "ho 뗀",
-          "pronNoteKo": "họ tên는 첫 음절을 또렷하게 시작하고 '뗀'은 끝을 낮게 내리며 정리하세요.",
+          "pronKo": "호 뗀",
+          "pronNoteKo": "마지막 m/n 받침은 입을 닫거나 혀를 붙인 채 짧게 마무리하세요. 무거운 성조는 짧고 낮게 눌러 끝냅니다.",
           "pronChunks": [
-            "ho=ho",
-            "ten=뗀"
+            "họ tên=호 뗀"
           ]
         },
         {
@@ -1481,11 +1469,10 @@
           "audioSrc": "/audio/l2/l2-v-03.mp3",
           "sourcePage": 30,
           "reviewNeeded": false,
-          "pronKo": "꾸옥 tich",
-          "pronNoteKo": "quốc tịch는 첫 소리를 짧게 잡고 'tich'은 끝음을 짧게 닫아 마무리하세요.",
+          "pronKo": "꾸옥 띡",
+          "pronNoteKo": "qu는 입술을 둥글게 모아 ‘꾸/꽈’처럼 시작하면 자연스럽습니다. 올림 성조는 끝을 살짝 위로 올립니다 / 무거운 성조는 짧고 낮게 눌러 끝냅니다.",
           "pronChunks": [
-            "quoc=꾸옥",
-            "tich=tich"
+            "quốc tịch=꾸옥 띡"
           ]
         },
         {
@@ -1497,11 +1484,10 @@
           "audioSrc": "/audio/l2/l2-v-04.mp3",
           "sourcePage": 30,
           "reviewNeeded": false,
-          "pronKo": "nghe nghiep",
-          "pronNoteKo": "nghề nghiệp는 앞부분은 끊지 말고 가볍게 붙여서 시작한 뒤 'nghiep'은 마지막 소리를 부드럽게 이어 말하세요.",
+          "pronKo": "응에 응이엡",
+          "pronNoteKo": "ngh는 ‘응’으로 시작한다는 느낌으로, 목에 힘을 주지 말고 코로 가볍게 이어 주세요. 마지막 받침은 길게 끌지 말고 짧게 닫아 주세요.",
           "pronChunks": [
-            "nghe=nghe",
-            "nghiep=nghiep"
+            "nghề nghiệp=응에 응이엡"
           ]
         },
         {
@@ -1513,11 +1499,13 @@
           "audioSrc": "/audio/l2/l2-v-05.mp3",
           "sourcePage": 30,
           "reviewNeeded": false,
-          "pronKo": "nhan vien van phong",
-          "pronNoteKo": "nhân viên văn phòng는 처음 소리를 과하게 세게 내지 말고 'phong'은 마지막 음절은 힘을 빼고 자연스럽게 정리하세요.",
+          "pronKo": "년 비엔 반 퐁",
+          "pronNoteKo": "nh는 ‘냐/녜’ 계열처럼 혀를 입천장에 가볍게 붙였다 떼는 느낌으로 시작하세요. 끝의 콧소리 받침을 살리되, 뒤에 모음을 덧붙이지 마세요.",
           "pronChunks": [
-            "nhan vien=nhan",
-            "van phong=vien"
+            "nhân=년",
+            "viên=비엔",
+            "văn=반",
+            "phòng=퐁"
           ]
         },
         {
@@ -1529,11 +1517,10 @@
           "audioSrc": "/audio/l2/l2-v-06.mp3",
           "sourcePage": 30,
           "reviewNeeded": false,
-          "pronKo": "cong ty",
-          "pronNoteKo": "công ty는 첫 음절을 또렷하게 시작하고 'ty'은 끝을 낮게 내리며 정리하세요.",
+          "pronKo": "꽁 띠",
+          "pronNoteKo": "성조가 없는 음절은 높낮이를 과하게 만들지 말고 평평하고 짧게 말하세요.",
           "pronChunks": [
-            "cong=cong",
-            "ty=ty"
+            "công ty=꽁 띠"
           ]
         },
         {
@@ -1545,10 +1532,10 @@
           "audioSrc": "/audio/l2/l2-v-07.mp3",
           "sourcePage": 30,
           "reviewNeeded": false,
-          "pronKo": "tuoi",
-          "pronNoteKo": "tuổi는 'tuoi'을(를) 짧고 또렷하게 내고 끝음을 짧게 닫아 마무리하세요.",
+          "pronKo": "뚜오이",
+          "pronNoteKo": "물음 성조는 중간을 살짝 꺾는 느낌으로 말합니다.",
           "pronChunks": [
-            "tuoi=tuoi"
+            "tuổi=뚜오이"
           ]
         },
         {
@@ -1560,11 +1547,10 @@
           "audioSrc": "/audio/l2/l2-v-08.mp3",
           "sourcePage": 30,
           "reviewNeeded": false,
-          "pronKo": "que quan",
-          "pronNoteKo": "quê quán는 앞부분은 끊지 말고 가볍게 붙여서 시작한 뒤 'quan'은 마지막 소리를 부드럽게 이어 말하세요.",
+          "pronKo": "꾸에 꽌",
+          "pronNoteKo": "qu는 입술을 둥글게 모아 ‘꾸/꽈’처럼 시작하면 자연스럽습니다. 마지막 m/n 받침은 입을 닫거나 혀를 붙인 채 짧게 마무리하세요.",
           "pronChunks": [
-            "que=que",
-            "quan=quan"
+            "quê quán=꾸에 꽌"
           ]
         },
         {
@@ -1576,11 +1562,10 @@
           "audioSrc": "/audio/l2/l2-v-09.mp3",
           "sourcePage": 30,
           "reviewNeeded": false,
-          "pronKo": "dia 찌",
-          "pronNoteKo": "địa chỉ는 처음 소리를 과하게 세게 내지 말고 '찌'은 마지막 음절은 힘을 빼고 자연스럽게 정리하세요.",
+          "pronKo": "디아 찌",
+          "pronNoteKo": "đ는 한국어 ‘ㄷ/ㄸ’에 가깝게 짧게 치고 바로 다음 모음으로 넘어가세요. 무거운 성조는 짧고 낮게 눌러 끝냅니다 / 물음 성조는 중간을 살짝 꺾는 느낌으로 말합니다.",
           "pronChunks": [
-            "dia=dia",
-            "chi=찌"
+            "địa chỉ=디아 찌"
           ]
         },
         {
@@ -1592,11 +1577,12 @@
           "audioSrc": "/audio/l2/l2-v-10.mp3",
           "sourcePage": 30,
           "reviewNeeded": false,
-          "pronKo": "so dien thoai",
-          "pronNoteKo": "số điện thoại는 처음 소리를 과하게 세게 내지 말고 'thoai'은 마지막 음절은 힘을 빼고 자연스럽게 정리하세요.",
+          "pronKo": "쏘 디엔 토아이",
+          "pronNoteKo": "đ는 한국어 ‘ㄷ/ㄸ’에 가깝게 짧게 치고 바로 다음 모음으로 넘어가세요.",
           "pronChunks": [
-            "so dien=so",
-            "thoai=dien"
+            "số=쏘",
+            "điện=디엔",
+            "thoại=토아이"
           ]
         }
       ],
@@ -1608,11 +1594,13 @@
           "audioSrc": "/audio/l2/l2-s-01.mp3",
           "sourcePage": 31,
           "reviewNeeded": false,
-          "pronKo": "또이 뗀 라 sungmook",
-          "pronNoteKo": "Tôi tên là Sungmook.는 첫 음절을 또렷하게 시작하고 'sungmook'은 끝을 낮게 내리며 정리하세요.",
+          "pronKo": "또이 뗀 라 성묵",
+          "pronNoteKo": "내림 성조는 끝을 낮게 떨어뜨립니다.",
           "pronChunks": [
-            "toi ten=또이 뗀",
-            "la sungmook=뗀"
+            "Tôi=또이",
+            "tên=뗀",
+            "là=라",
+            "Sungmook=성묵"
           ]
         },
         {
@@ -1623,11 +1611,11 @@
           "sourcePage": 31,
           "reviewNeeded": false,
           "pronKo": "또이 라 응어이 한 꾸옥",
-          "pronNoteKo": "Tôi là người Hàn Quốc.는 첫 소리를 짧게 잡고 '꾸옥'은 끝음을 짧게 닫아 마무리하세요.",
+          "pronNoteKo": "ng는 단어 앞에서도 ‘응’처럼 시작합니다. 처음에 짧은 ‘으’를 붙이는 느낌이면 따라 하기 쉬워요.",
           "pronChunks": [
-            "toi la=또이 라",
-            "nguoi han=응어이 한",
-            "quoc=꾸옥"
+            "Tôi là=또이 라",
+            "người Hàn=응어이 한",
+            "Quốc=꾸옥"
           ]
         },
         {
@@ -1637,12 +1625,12 @@
           "audioSrc": "/audio/l2/l2-s-03.mp3",
           "sourcePage": 31,
           "reviewNeeded": false,
-          "pronKo": "또이 라 nhan vien van phong",
-          "pronNoteKo": "Tôi là nhân viên văn phòng.는 앞부분은 끊지 말고 가볍게 붙여서 시작한 뒤 'phong'은 마지막 소리를 부드럽게 이어 말하세요.",
+          "pronKo": "또이 라 년 비엔 반 퐁",
+          "pronNoteKo": "nh는 ‘냐/녜’ 계열처럼 혀를 입천장에 가볍게 붙였다 떼는 느낌으로 시작하세요.",
           "pronChunks": [
-            "toi la=또이 라",
-            "nhan vien=라",
-            "van phong=nhan"
+            "Tôi là=또이 라",
+            "nhân viên=년 비엔",
+            "văn phòng=반 퐁"
           ]
         },
         {
@@ -1652,12 +1640,12 @@
           "audioSrc": "/audio/l2/l2-s-04.mp3",
           "sourcePage": 31,
           "reviewNeeded": false,
-          "pronKo": "또이 song o 한 꾸옥",
-          "pronNoteKo": "Tôi sống ở Hàn Quốc.는 처음 소리를 과하게 세게 내지 말고 '꾸옥'은 마지막 음절은 힘을 빼고 자연스럽게 정리하세요.",
+          "pronKo": "또이 쏭 오 한 꾸옥",
+          "pronNoteKo": "qu는 입술을 둥글게 모아 ‘꾸/꽈’처럼 시작하면 자연스럽습니다.",
           "pronChunks": [
-            "toi song=또이",
-            "o han=song",
-            "quoc=꾸옥"
+            "Tôi sống=또이 쏭",
+            "ở Hàn=오 한",
+            "Quốc=꾸옥"
           ]
         },
         {
@@ -1667,12 +1655,12 @@
           "audioSrc": "/audio/l2/l2-s-05.mp3",
           "sourcePage": 31,
           "reviewNeeded": false,
-          "pronKo": "또이 혹 띠엥 비엣 moi ngay",
-          "pronNoteKo": "Tôi học tiếng Việt mỗi ngày.는 첫 음절을 또렷하게 시작하고 'ngay'은 끝을 낮게 내리며 정리하세요.",
+          "pronKo": "또이 혹 띠엥 비엣 모이 응아이",
+          "pronNoteKo": "v는 한국어 ㅂ보다 입술을 가볍게 붙였다 떼는 느낌입니다. 너무 강하게 터뜨리지 마세요.",
           "pronChunks": [
-            "toi hoc=또이 혹",
-            "tieng viet=띠엥 비엣",
-            "moi ngay=띠엥"
+            "Tôi học=또이 혹",
+            "tiếng Việt=띠엥 비엣",
+            "mỗi ngày=모이 응아이"
           ]
         },
         {
@@ -1682,12 +1670,12 @@
           "audioSrc": "/audio/l2/l2-s-06.mp3",
           "sourcePage": 31,
           "reviewNeeded": false,
-          "pronKo": "또이 무온 song o 하 노이 trong tuong lai",
-          "pronNoteKo": "Tôi muốn sống ở Hà Nội trong tương lai.는 첫 소리를 짧게 잡고 'lai'은 끝음을 짧게 닫아 마무리하세요.",
+          "pronKo": "또이 무온 쏭 오 어 오이 쯔오ㅇ 뜨엉 라이",
+          "pronNoteKo": "tr은 북부식으로 ‘쯔/찌’에 가깝게 짧게 시작하면 됩니다. 너무 굴리지 마세요.",
           "pronChunks": [
-            "toi muon song=또이",
-            "o ha noi=무온",
-            "trong tuong lai=song"
+            "Tôi muốn sống=또이 무온 쏭",
+            "ở Hà Nội=오 어 오이",
+            "trong tương lai=쯔오ㅇ 뜨엉 라이"
           ]
         },
         {
@@ -1697,12 +1685,12 @@
           "audioSrc": "/audio/l2/l2-s-07.mp3",
           "sourcePage": 31,
           "reviewNeeded": false,
-          "pronKo": "젓 mong 드억 줍 do",
-          "pronNoteKo": "Rất mong được giúp đỡ.는 앞부분은 끊지 말고 가볍게 붙여서 시작한 뒤 'do'은 마지막 소리를 부드럽게 이어 말하세요.",
+          "pronKo": "젓 오ㅇ 드억 줍 도",
+          "pronNoteKo": "r은 하노이식으로 ‘ㅈ’에 가깝게 들릴 수 있어요. 혀를 굴리기보다 짧게 시작하세요.",
           "pronChunks": [
-            "rat mong=젓",
-            "duoc giup=드억 줍",
-            "do=드억"
+            "Rất mong=젓 오ㅇ",
+            "được giúp=드억 줍",
+            "đỡ=도"
           ]
         }
       ],
@@ -1757,8 +1745,8 @@
           "sourcePage": 34,
           "reviewNeeded": false,
           "pronKo": "뗀",
-          "mouthKo": "입술을 과하게 힘주지 말고, 자음 시작을 가볍게 낸 뒤 모음을 길게 열어 소리 내세요.",
-          "toneKo": "하노이 기준 성조를 의식해 음의 높낮이를 분명히 하고, 끝은 급하게 끊지 말고 짧게 정리하세요."
+          "mouthKo": "입술과 턱에 힘을 빼고, 각 음절의 모음을 짧고 또렷하게 비교해 보세요.",
+          "toneKo": "성조가 없는 음절은 높낮이를 과하게 만들지 말고 평평하고 짧게 말하세요."
         },
         {
           "id": "l2-p-02",
@@ -1767,9 +1755,9 @@
           "audioSrc": "/audio/l2/l2-p-02.mp3",
           "sourcePage": 34,
           "reviewNeeded": false,
-          "pronKo": "또이 뗀 라 sungmook",
-          "mouthKo": "입술을 과하게 힘주지 말고, 자음 시작을 가볍게 낸 뒤 모음을 길게 열어 소리 내세요.",
-          "toneKo": "하노이 기준 성조를 의식해 음의 높낮이를 분명히 하고, 끝은 급하게 끊지 말고 짧게 정리하세요."
+          "pronKo": "또이 뗀 라 성묵",
+          "mouthKo": "입술과 턱에 힘을 빼고, 각 음절의 모음을 짧고 또렷하게 비교해 보세요.",
+          "toneKo": "내림 성조는 끝을 낮게 떨어뜨립니다."
         }
       ],
       "quizSeeds": [
@@ -1825,11 +1813,10 @@
           "audioSrc": "/audio/l3/l3-v-01.mp3",
           "sourcePage": 40,
           "reviewNeeded": false,
-          "pronKo": "gia dinh",
-          "pronNoteKo": "gia đình는 첫 음절을 또렷하게 시작하고 'dinh'은 끝을 낮게 내리며 정리하세요.",
+          "pronKo": "자 딘",
+          "pronNoteKo": "gi는 북부식으로 ‘지/자’ 계열에 가깝습니다. 영어 g처럼 세게 내지 마세요. 끝의 콧소리 받침을 살리되, 뒤에 모음을 덧붙이지 마세요.",
           "pronChunks": [
-            "gia=gia",
-            "dinh=dinh"
+            "gia đình=자 딘"
           ]
         },
         {
@@ -1842,9 +1829,9 @@
           "sourcePage": 40,
           "reviewNeeded": false,
           "pronKo": "보",
-          "pronNoteKo": "bố는 '보'을(를) 짧고 또렷하게 내고 끝음을 짧게 닫아 마무리하세요.",
+          "pronNoteKo": "올림 성조는 끝을 살짝 위로 올립니다.",
           "pronChunks": [
-            "bo=보"
+            "bố=보"
           ]
         },
         {
@@ -1856,10 +1843,10 @@
           "audioSrc": "/audio/l3/l3-v-03.mp3",
           "sourcePage": 40,
           "reviewNeeded": false,
-          "pronKo": "me",
-          "pronNoteKo": "mẹ는 'me'을(를) 짧고 또렷하게 내고 마지막 소리를 부드럽게 이어 말하세요.",
+          "pronKo": "메",
+          "pronNoteKo": "무거운 성조는 짧고 낮게 눌러 끝냅니다.",
           "pronChunks": [
-            "me=me"
+            "mẹ=메"
           ]
         },
         {
@@ -1871,10 +1858,10 @@
           "audioSrc": "/audio/l3/l3-v-04.mp3",
           "sourcePage": 40,
           "reviewNeeded": false,
-          "pronKo": "vo",
-          "pronNoteKo": "vợ는 'vo'을(를) 짧고 또렷하게 내고 마지막 음절은 힘을 빼고 자연스럽게 정리하세요.",
+          "pronKo": "버",
+          "pronNoteKo": "v는 한국어 ㅂ보다 입술을 가볍게 붙였다 떼는 느낌입니다. 너무 강하게 터뜨리지 마세요. 무거운 성조는 짧고 낮게 눌러 끝냅니다.",
           "pronChunks": [
-            "vo=vo"
+            "vợ=버"
           ]
         },
         {
@@ -1886,10 +1873,10 @@
           "audioSrc": "/audio/l3/l3-v-05.mp3",
           "sourcePage": 40,
           "reviewNeeded": false,
-          "pronKo": "chong",
-          "pronNoteKo": "chồng는 'chong'을(를) 짧고 또렷하게 내고 끝을 낮게 내리며 정리하세요.",
+          "pronKo": "쫑",
+          "pronNoteKo": "ch는 ‘ㅉ’에 가깝게 시작하고, 뒤 모음으로 바로 붙여 말하세요. 끝의 콧소리 받침을 살리되, 뒤에 모음을 덧붙이지 마세요.",
           "pronChunks": [
-            "chong=chong"
+            "chồng=쫑"
           ]
         },
         {
@@ -1901,11 +1888,10 @@
           "audioSrc": "/audio/l3/l3-v-06.mp3",
           "sourcePage": 40,
           "reviewNeeded": false,
-          "pronKo": "con gai",
-          "pronNoteKo": "con gái는 첫 소리를 짧게 잡고 'gai'은 끝음을 짧게 닫아 마무리하세요.",
+          "pronKo": "꼰 가이",
+          "pronNoteKo": "올림 성조는 끝을 살짝 위로 올립니다.",
           "pronChunks": [
-            "con=con",
-            "gai=gai"
+            "con gái=꼰 가이"
           ]
         },
         {
@@ -1917,11 +1903,10 @@
           "audioSrc": "/audio/l3/l3-v-07.mp3",
           "sourcePage": 40,
           "reviewNeeded": false,
-          "pronKo": "똣 bung",
-          "pronNoteKo": "tốt bụng는 앞부분은 끊지 말고 가볍게 붙여서 시작한 뒤 'bung'은 마지막 소리를 부드럽게 이어 말하세요.",
+          "pronKo": "똣 붕",
+          "pronNoteKo": "끝의 콧소리 받침을 살리되, 뒤에 모음을 덧붙이지 마세요. 올림 성조는 끝을 살짝 위로 올립니다 / 무거운 성조는 짧고 낮게 눌러 끝냅니다.",
           "pronChunks": [
-            "tot=똣",
-            "bung=bung"
+            "tốt bụng=똣 붕"
           ]
         },
         {
@@ -1933,11 +1918,10 @@
           "audioSrc": "/audio/l3/l3-v-08.mp3",
           "sourcePage": 40,
           "reviewNeeded": false,
-          "pronKo": "부이 tinh",
-          "pronNoteKo": "vui tính는 처음 소리를 과하게 세게 내지 말고 'tinh'은 마지막 음절은 힘을 빼고 자연스럽게 정리하세요.",
+          "pronKo": "부이 띤",
+          "pronNoteKo": "v는 한국어 ㅂ보다 입술을 가볍게 붙였다 떼는 느낌입니다. 너무 강하게 터뜨리지 마세요. 끝의 콧소리 받침을 살리되, 뒤에 모음을 덧붙이지 마세요.",
           "pronChunks": [
-            "vui=부이",
-            "tinh=tinh"
+            "vui tính=부이 띤"
           ]
         },
         {
@@ -1949,10 +1933,10 @@
           "audioSrc": "/audio/l3/l3-v-09.mp3",
           "sourcePage": 40,
           "reviewNeeded": false,
-          "pronKo": "cao",
-          "pronNoteKo": "cao는 'cao'을(를) 짧고 또렷하게 내고 끝을 낮게 내리며 정리하세요.",
+          "pronKo": "까오",
+          "pronNoteKo": "성조가 없는 음절은 높낮이를 과하게 만들지 말고 평평하고 짧게 말하세요.",
           "pronChunks": [
-            "cao=cao"
+            "cao=까오"
           ]
         },
         {
@@ -1964,10 +1948,10 @@
           "audioSrc": "/audio/l3/l3-v-10.mp3",
           "sourcePage": 40,
           "reviewNeeded": false,
-          "pronKo": "녀",
-          "pronNoteKo": "nhỏ는 '녀'을(를) 짧고 또렷하게 내고 끝을 낮게 내리며 정리하세요.",
+          "pronKo": "뇨",
+          "pronNoteKo": "nh는 ‘냐/녜’ 계열처럼 혀를 입천장에 가볍게 붙였다 떼는 느낌으로 시작하세요. 물음 성조는 중간을 살짝 꺾는 느낌으로 말합니다.",
           "pronChunks": [
-            "nho=녀"
+            "nhỏ=뇨"
           ]
         }
       ],
@@ -1979,12 +1963,12 @@
           "audioSrc": "/audio/l3/l3-s-01.mp3",
           "sourcePage": 41,
           "reviewNeeded": false,
-          "pronKo": "gia dinh 또이 꼬 본 응어이",
-          "pronNoteKo": "Gia đình tôi có bốn người.는 첫 소리를 짧게 잡고 '응어이'은 끝음을 짧게 닫아 마무리하세요.",
+          "pronKo": "자 딘 또이 오 본 응어이",
+          "pronNoteKo": "gi는 북부식으로 ‘지/자’ 계열에 가깝습니다. 영어 g처럼 세게 내지 마세요.",
           "pronChunks": [
-            "gia dinh=gia",
-            "toi co=또이 꼬",
-            "bon nguoi=본 응어이"
+            "Gia đình=자 딘",
+            "tôi có=또이 오",
+            "bốn người=본 응어이"
           ]
         },
         {
@@ -1994,12 +1978,12 @@
           "audioSrc": "/audio/l3/l3-s-02.mp3",
           "sourcePage": 41,
           "reviewNeeded": false,
-          "pronKo": "또이 꼬 하이 con gai",
-          "pronNoteKo": "Tôi có hai con gái.는 앞부분은 끊지 말고 가볍게 붙여서 시작한 뒤 'gai'은 마지막 소리를 부드럽게 이어 말하세요.",
+          "pronKo": "또이 오 하이 꼰 가이",
+          "pronNoteKo": "올림 성조는 끝을 살짝 위로 올립니다.",
           "pronChunks": [
-            "toi co=또이 꼬",
-            "hai con=꼬",
-            "gai=하이"
+            "Tôi có=또이 오",
+            "hai con=하이 꼰",
+            "gái=가이"
           ]
         },
         {
@@ -2009,11 +1993,13 @@
           "audioSrc": "/audio/l3/l3-s-03.mp3",
           "sourcePage": 41,
           "reviewNeeded": false,
-          "pronKo": "보 또이 젓 hien",
-          "pronNoteKo": "Bố tôi rất hiền.는 처음 소리를 과하게 세게 내지 말고 'hien'은 마지막 음절은 힘을 빼고 자연스럽게 정리하세요.",
+          "pronKo": "보 또이 젓 히엔",
+          "pronNoteKo": "r은 하노이식으로 ‘ㅈ’에 가깝게 들릴 수 있어요. 혀를 굴리기보다 짧게 시작하세요. 마지막 m/n 받침은 입을 닫거나 혀를 붙인 채 짧게 마무리하세요.",
           "pronChunks": [
-            "bo toi=보 또이",
-            "rat hien=또이"
+            "Bố=보",
+            "tôi=또이",
+            "rất=젓",
+            "hiền=히엔"
           ]
         },
         {
@@ -2023,12 +2009,12 @@
           "audioSrc": "/audio/l3/l3-s-04.mp3",
           "sourcePage": 41,
           "reviewNeeded": false,
-          "pronKo": "me 또이 젓 똣 bung",
-          "pronNoteKo": "Mẹ tôi rất tốt bụng.는 첫 음절을 또렷하게 시작하고 'bung'은 끝을 낮게 내리며 정리하세요.",
+          "pronKo": "메 또이 젓 똣 붕",
+          "pronNoteKo": "r은 하노이식으로 ‘ㅈ’에 가깝게 들릴 수 있어요. 혀를 굴리기보다 짧게 시작하세요.",
           "pronChunks": [
-            "me toi=me",
-            "rat tot=젓 똣",
-            "bung=젓"
+            "Mẹ tôi=메 또이",
+            "rất tốt=젓 똣",
+            "bụng=붕"
           ]
         },
         {
@@ -2038,12 +2024,12 @@
           "audioSrc": "/audio/l3/l3-s-05.mp3",
           "sourcePage": 41,
           "reviewNeeded": false,
-          "pronKo": "con gai 또이 con 녀 nhung 젓 당 yeu",
-          "pronNoteKo": "Con gái tôi còn nhỏ nhưng rất đáng yêu.는 첫 소리를 짧게 잡고 'yeu'은 끝음을 짧게 닫아 마무리하세요.",
+          "pronKo": "꼰 가이 또이 꼰 뇨 능 젓 당 이에우",
+          "pronNoteKo": "nh는 ‘냐/녜’ 계열처럼 혀를 입천장에 가볍게 붙였다 떼는 느낌으로 시작하세요.",
           "pronChunks": [
-            "con gai toi=con",
-            "con nho nhung=gai",
-            "rat dang yeu=또이"
+            "Con gái tôi=꼰 가이 또이",
+            "còn nhỏ nhưng=꼰 뇨 능",
+            "rất đáng yêu=젓 당 이에우"
           ]
         },
         {
@@ -2053,13 +2039,13 @@
           "audioSrc": "/audio/l3/l3-s-06.mp3",
           "sourcePage": 41,
           "reviewNeeded": false,
-          "pronKo": "또이 thuong 디 choi voi gia dinh vao cuoi tuan",
-          "pronNoteKo": "Tôi thường đi chơi với gia đình vào cuối tuần.는 앞부분은 끊지 말고 가볍게 붙여서 시작한 뒤 'tuan'은 마지막 소리를 부드럽게 이어 말하세요.",
+          "pronKo": "또이 트엉 디 쩌이 버이 자 딘 아오 꾸오이 뚜언",
+          "pronNoteKo": "th는 영어 th가 아니라 한국어 ‘ㅌ’에 가깝게 짧고 가볍게 시작하세요.",
           "pronChunks": [
-            "toi thuong di=또이",
-            "choi voi gia=thuong",
-            "dinh vao cuoi=디",
-            "tuan=choi"
+            "Tôi thường đi=또이 트엉 디",
+            "chơi với gia=쩌이 버이 자",
+            "đình vào cuối=딘 아오 꾸오이",
+            "tuần=뚜언"
           ]
         }
       ],
@@ -2113,9 +2099,9 @@
           "audioSrc": "/audio/l3/l3-p-01.mp3",
           "sourcePage": 44,
           "reviewNeeded": false,
-          "pronKo": "gia dinh",
-          "mouthKo": "입술을 과하게 힘주지 말고, 자음 시작을 가볍게 낸 뒤 모음을 길게 열어 소리 내세요.",
-          "toneKo": "하노이 기준 성조를 의식해 음의 높낮이를 분명히 하고, 끝은 급하게 끊지 말고 짧게 정리하세요."
+          "pronKo": "자 딘",
+          "mouthKo": "gi는 북부식으로 ‘지/자’ 계열에 가깝습니다. 영어 g처럼 세게 내지 마세요.",
+          "toneKo": "내림 성조는 끝을 낮게 떨어뜨립니다."
         },
         {
           "id": "l3-p-02",
@@ -2124,9 +2110,9 @@
           "audioSrc": "/audio/l3/l3-p-02.mp3",
           "sourcePage": 44,
           "reviewNeeded": false,
-          "pronKo": "gia dinh 또이 꼬 본 응어이",
-          "mouthKo": "입술을 과하게 힘주지 말고, 자음 시작을 가볍게 낸 뒤 모음을 길게 열어 소리 내세요.",
-          "toneKo": "하노이 기준 성조를 의식해 음의 높낮이를 분명히 하고, 끝은 급하게 끊지 말고 짧게 정리하세요."
+          "pronKo": "자 딘 또이 오 본 응어이",
+          "mouthKo": "gi는 북부식으로 ‘지/자’ 계열에 가깝습니다. 영어 g처럼 세게 내지 마세요.",
+          "toneKo": "내림 성조는 끝을 낮게 떨어뜨립니다 / 올림 성조는 끝을 살짝 위로 올립니다."
         }
       ],
       "quizSeeds": [
@@ -2182,11 +2168,10 @@
           "audioSrc": "/audio/l4/l4-v-01.mp3",
           "sourcePage": 50,
           "reviewNeeded": false,
-          "pronKo": "thuc day",
-          "pronNoteKo": "thức dậy는 첫 소리를 짧게 잡고 'day'은 끝음을 짧게 닫아 마무리하세요.",
+          "pronKo": "특 저이",
+          "pronNoteKo": "th는 영어 th가 아니라 한국어 ‘ㅌ’에 가깝게 짧고 가볍게 시작하세요. 올림 성조는 끝을 살짝 위로 올립니다 / 무거운 성조는 짧고 낮게 눌러 끝냅니다.",
           "pronChunks": [
-            "thuc=thuc",
-            "day=day"
+            "thức dậy=특 저이"
           ]
         },
         {
@@ -2198,11 +2183,10 @@
           "audioSrc": "/audio/l4/l4-v-02.mp3",
           "sourcePage": 50,
           "reviewNeeded": false,
-          "pronKo": "디 람",
-          "pronNoteKo": "đi làm는 앞부분은 끊지 말고 가볍게 붙여서 시작한 뒤 '람'은 마지막 소리를 부드럽게 이어 말하세요.",
+          "pronKo": "디 어ㅁ",
+          "pronNoteKo": "đ는 한국어 ‘ㄷ/ㄸ’에 가깝게 짧게 치고 바로 다음 모음으로 넘어가세요. 마지막 m/n 받침은 입을 닫거나 혀를 붙인 채 짧게 마무리하세요.",
           "pronChunks": [
-            "di=디",
-            "lam=람"
+            "đi làm=디 어ㅁ"
           ]
         },
         {
@@ -2214,11 +2198,10 @@
           "audioSrc": "/audio/l4/l4-v-03.mp3",
           "sourcePage": 50,
           "reviewNeeded": false,
-          "pronKo": "안 상",
-          "pronNoteKo": "ăn sáng는 처음 소리를 과하게 세게 내지 말고 '상'은 마지막 음절은 힘을 빼고 자연스럽게 정리하세요.",
+          "pronKo": "안 쌍",
+          "pronNoteKo": "끝의 콧소리 받침을 살리되, 뒤에 모음을 덧붙이지 마세요. 올림 성조는 끝을 살짝 위로 올립니다.",
           "pronChunks": [
-            "an=안",
-            "sang=상"
+            "ăn sáng=안 쌍"
           ]
         },
         {
@@ -2231,10 +2214,9 @@
           "sourcePage": 50,
           "reviewNeeded": false,
           "pronKo": "안 쯔어",
-          "pronNoteKo": "ăn trưa는 첫 음절을 또렷하게 시작하고 '쯔어'은 끝을 낮게 내리며 정리하세요.",
+          "pronNoteKo": "tr은 북부식으로 ‘쯔/찌’에 가깝게 짧게 시작하면 됩니다. 너무 굴리지 마세요. 성조가 없는 음절은 높낮이를 과하게 만들지 말고 평평하고 짧게 말하세요.",
           "pronChunks": [
-            "an=안",
-            "trua=쯔어"
+            "ăn trưa=안 쯔어"
           ]
         },
         {
@@ -2246,11 +2228,10 @@
           "audioSrc": "/audio/l4/l4-v-05.mp3",
           "sourcePage": 50,
           "reviewNeeded": false,
-          "pronKo": "ve 냐",
-          "pronNoteKo": "về nhà는 첫 소리를 짧게 잡고 '냐'은 끝음을 짧게 닫아 마무리하세요.",
+          "pronKo": "베 냐",
+          "pronNoteKo": "v는 한국어 ㅂ보다 입술을 가볍게 붙였다 떼는 느낌입니다. 너무 강하게 터뜨리지 마세요. 내림 성조는 끝을 낮게 떨어뜨립니다.",
           "pronChunks": [
-            "ve=ve",
-            "nha=냐"
+            "về nhà=베 냐"
           ]
         },
         {
@@ -2263,9 +2244,9 @@
           "sourcePage": 50,
           "reviewNeeded": false,
           "pronKo": "혹",
-          "pronNoteKo": "học는 '혹'을(를) 짧고 또렷하게 내고 마지막 소리를 부드럽게 이어 말하세요.",
+          "pronNoteKo": "마지막 받침은 길게 끌지 말고 짧게 닫아 주세요. 무거운 성조는 짧고 낮게 눌러 끝냅니다.",
           "pronChunks": [
-            "hoc=혹"
+            "học=혹"
           ]
         },
         {
@@ -2277,11 +2258,10 @@
           "audioSrc": "/audio/l4/l4-v-07.mp3",
           "sourcePage": 50,
           "reviewNeeded": false,
-          "pronKo": "moi ngay",
-          "pronNoteKo": "mỗi ngày는 처음 소리를 과하게 세게 내지 말고 'ngay'은 마지막 음절은 힘을 빼고 자연스럽게 정리하세요.",
+          "pronKo": "모이 응아이",
+          "pronNoteKo": "ng는 단어 앞에서도 ‘응’처럼 시작합니다. 처음에 짧은 ‘으’를 붙이는 느낌이면 따라 하기 쉬워요. 꺾임 성조는 중간에 살짝 흔들어 올리는 느낌입니다 / 내림 성조는 끝을 낮게 떨어뜨립니다.",
           "pronChunks": [
-            "moi=moi",
-            "ngay=ngay"
+            "mỗi ngày=모이 응아이"
           ]
         },
         {
@@ -2293,10 +2273,10 @@
           "audioSrc": "/audio/l4/l4-v-08.mp3",
           "sourcePage": 50,
           "reviewNeeded": false,
-          "pronKo": "thuong",
-          "pronNoteKo": "thường는 'thuong'을(를) 짧고 또렷하게 내고 끝을 낮게 내리며 정리하세요.",
+          "pronKo": "트엉",
+          "pronNoteKo": "th는 영어 th가 아니라 한국어 ‘ㅌ’에 가깝게 짧고 가볍게 시작하세요. 끝의 콧소리 받침을 살리되, 뒤에 모음을 덧붙이지 마세요.",
           "pronChunks": [
-            "thuong=thuong"
+            "thường=트엉"
           ]
         },
         {
@@ -2308,11 +2288,10 @@
           "audioSrc": "/audio/l4/l4-v-09.mp3",
           "sourcePage": 50,
           "reviewNeeded": false,
-          "pronKo": "doi khi",
-          "pronNoteKo": "đôi khi는 첫 소리를 짧게 잡고 'khi'은 끝음을 짧게 닫아 마무리하세요.",
+          "pronKo": "도이 키",
+          "pronNoteKo": "đ는 한국어 ‘ㄷ/ㄸ’에 가깝게 짧게 치고 바로 다음 모음으로 넘어가세요. 성조가 없는 음절은 높낮이를 과하게 만들지 말고 평평하고 짧게 말하세요.",
           "pronChunks": [
-            "doi=doi",
-            "khi=khi"
+            "đôi khi=도이 키"
           ]
         },
         {
@@ -2324,11 +2303,10 @@
           "audioSrc": "/audio/l4/l4-v-10.mp3",
           "sourcePage": 50,
           "reviewNeeded": false,
-          "pronKo": "nghi ngoi",
-          "pronNoteKo": "nghỉ ngơi는 첫 소리를 짧게 잡고 'ngoi'은 끝음을 짧게 닫아 마무리하세요.",
+          "pronKo": "응이 응어이",
+          "pronNoteKo": "ngh는 ‘응’으로 시작한다는 느낌으로, 목에 힘을 주지 말고 코로 가볍게 이어 주세요. 물음 성조는 중간을 살짝 꺾는 느낌으로 말합니다.",
           "pronChunks": [
-            "nghi=nghi",
-            "ngoi=ngoi"
+            "nghỉ ngơi=응이 응어이"
           ]
         }
       ],
@@ -2340,12 +2318,13 @@
           "audioSrc": "/audio/l4/l4-s-01.mp3",
           "sourcePage": 51,
           "reviewNeeded": false,
-          "pronKo": "buoi 상 또이 thuc day luc 사우 gio",
-          "pronNoteKo": "Buổi sáng, tôi thức dậy lúc sáu giờ.는 앞부분은 끊지 말고 가볍게 붙여서 시작한 뒤 'gio'은 마지막 소리를 부드럽게 이어 말하세요.",
+          "pronKo": "부오이 쌍 또이 특 저이 룩 사우 저",
+          "pronNoteKo": "th는 영어 th가 아니라 한국어 ‘ㅌ’에 가깝게 짧고 가볍게 시작하세요.",
           "pronChunks": [
-            "buoi sang toi=buoi",
-            "thuc day luc=상",
-            "sau gio=또이"
+            "Buổi sáng=부오이 쌍",
+            "tôi thức=또이 특",
+            "dậy lúc=저이 룩",
+            "sáu giờ=사우 저"
           ]
         },
         {
@@ -2355,12 +2334,13 @@
           "audioSrc": "/audio/l4/l4-s-02.mp3",
           "sourcePage": 51,
           "reviewNeeded": false,
-          "pronKo": "또이 thuong 디 람 luc 땀 gio",
-          "pronNoteKo": "Tôi thường đi làm lúc tám giờ.는 처음 소리를 과하게 세게 내지 말고 'gio'은 마지막 음절은 힘을 빼고 자연스럽게 정리하세요.",
+          "pronKo": "또이 트엉 디 어ㅁ 룩 땀 저",
+          "pronNoteKo": "th는 영어 th가 아니라 한국어 ‘ㅌ’에 가깝게 짧고 가볍게 시작하세요.",
           "pronChunks": [
-            "toi thuong di=또이",
-            "lam luc tam=thuong",
-            "gio=디"
+            "Tôi thường=또이 트엉",
+            "đi làm=디 어ㅁ",
+            "lúc tám=룩 땀",
+            "giờ=저"
           ]
         },
         {
@@ -2370,12 +2350,13 @@
           "audioSrc": "/audio/l4/l4-s-03.mp3",
           "sourcePage": 51,
           "reviewNeeded": false,
-          "pronKo": "사우 gio 람 또이 혹 띠엥 비엣",
-          "pronNoteKo": "Sau giờ làm, tôi học tiếng Việt.는 첫 음절을 또렷하게 시작하고 '비엣'은 끝을 낮게 내리며 정리하세요.",
+          "pronKo": "싸우 저 어ㅁ 또이 혹 띠엥 비엣",
+          "pronNoteKo": "gi는 북부식으로 ‘지/자’ 계열에 가깝습니다. 영어 g처럼 세게 내지 마세요.",
           "pronChunks": [
-            "sau gio lam=사우",
-            "toi hoc tieng=또이 혹 띠엥",
-            "viet=비엣"
+            "Sau giờ=싸우 저",
+            "làm tôi=어ㅁ 또이",
+            "học tiếng=혹 띠엥",
+            "Việt=비엣"
           ]
         },
         {
@@ -2385,12 +2366,13 @@
           "audioSrc": "/audio/l4/l4-s-04.mp3",
           "sourcePage": 51,
           "reviewNeeded": false,
-          "pronKo": "또이 혹 바 므어이 phut moi ngay",
-          "pronNoteKo": "Tôi học ba mươi phút mỗi ngày.는 첫 소리를 짧게 잡고 'ngay'은 끝음을 짧게 닫아 마무리하세요.",
+          "pronKo": "또이 혹 바 므어이 풋 모이 응아이",
+          "pronNoteKo": "mười/mươi는 ‘므어이’로 부드럽게 이어 말하고, 뒤 숫자는 한 박자 짧게 붙여 주세요.",
           "pronChunks": [
-            "toi hoc ba=또이 혹 바",
-            "muoi phut moi=혹",
-            "ngay=바"
+            "Tôi học=또이 혹",
+            "ba mươi=바 므어이",
+            "phút mỗi=풋 모이",
+            "ngày=응아이"
           ]
         },
         {
@@ -2400,12 +2382,13 @@
           "audioSrc": "/audio/l4/l4-s-05.mp3",
           "sourcePage": 51,
           "reviewNeeded": false,
-          "pronKo": "cuoi tuan 또이 nghi ngoi voi gia dinh",
-          "pronNoteKo": "Cuối tuần, tôi nghỉ ngơi với gia đình.는 앞부분은 끊지 말고 가볍게 붙여서 시작한 뒤 'dinh'은 마지막 소리를 부드럽게 이어 말하세요.",
+          "pronKo": "꾸오이 뚜언 또이 응이 응어이 버이 자 딘",
+          "pronNoteKo": "ngh는 ‘응’으로 시작한다는 느낌으로, 목에 힘을 주지 말고 코로 가볍게 이어 주세요.",
           "pronChunks": [
-            "cuoi tuan toi=cuoi",
-            "nghi ngoi voi=tuan",
-            "gia dinh=또이"
+            "Cuối tuần=꾸오이 뚜언",
+            "tôi nghỉ=또이 응이",
+            "ngơi với=응어이 버이",
+            "gia đình=자 딘"
           ]
         },
         {
@@ -2415,12 +2398,13 @@
           "audioSrc": "/audio/l4/l4-s-06.mp3",
           "sourcePage": 51,
           "reviewNeeded": false,
-          "pronKo": "또이 반 nhung 또이 thich 혹 띠엥 비엣",
-          "pronNoteKo": "Tôi bận nhưng tôi thích học tiếng Việt.는 처음 소리를 과하게 세게 내지 말고 '비엣'은 마지막 음절은 힘을 빼고 자연스럽게 정리하세요.",
+          "pronKo": "또이 번 능 또이 틱 혹 띠엥 비엣",
+          "pronNoteKo": "nh는 ‘냐/녜’ 계열처럼 혀를 입천장에 가볍게 붙였다 떼는 느낌으로 시작하세요.",
           "pronChunks": [
-            "toi ban nhung=또이",
-            "toi thich hoc=반",
-            "tieng viet=띠엥 비엣"
+            "Tôi bận=또이 번",
+            "nhưng tôi=능 또이",
+            "thích học=틱 혹",
+            "tiếng Việt=띠엥 비엣"
           ]
         }
       ],
@@ -2474,9 +2458,9 @@
           "audioSrc": "/audio/l4/l4-p-01.mp3",
           "sourcePage": 54,
           "reviewNeeded": false,
-          "pronKo": "thuc day",
-          "mouthKo": "입술을 과하게 힘주지 말고, 자음 시작을 가볍게 낸 뒤 모음을 길게 열어 소리 내세요.",
-          "toneKo": "하노이 기준 성조를 의식해 음의 높낮이를 분명히 하고, 끝은 급하게 끊지 말고 짧게 정리하세요."
+          "pronKo": "특 저이",
+          "mouthKo": "th는 영어 th가 아니라 한국어 ‘ㅌ’에 가깝게 짧고 가볍게 시작하세요.",
+          "toneKo": "올림 성조는 끝을 살짝 위로 올립니다 / 무거운 성조는 짧고 낮게 눌러 끝냅니다."
         },
         {
           "id": "l4-p-02",
@@ -2485,9 +2469,9 @@
           "audioSrc": "/audio/l4/l4-p-02.mp3",
           "sourcePage": 54,
           "reviewNeeded": false,
-          "pronKo": "buoi 상 또이 thuc day luc 사우 gio",
-          "mouthKo": "입술을 과하게 힘주지 말고, 자음 시작을 가볍게 낸 뒤 모음을 길게 열어 소리 내세요.",
-          "toneKo": "하노이 기준 성조를 의식해 음의 높낮이를 분명히 하고, 끝은 급하게 끊지 말고 짧게 정리하세요."
+          "pronKo": "부오이 쌍 또이 특 저이 룩 사우 저",
+          "mouthKo": "th는 영어 th가 아니라 한국어 ‘ㅌ’에 가깝게 짧고 가볍게 시작하세요.",
+          "toneKo": "성조가 여러 개 섞여 있으니 한 톤으로 평평하게 읽지 말고, 각 덩어리의 높낮이를 분리해 주세요."
         }
       ],
       "quizSeeds": [
@@ -2544,11 +2528,10 @@
           "audioSrc": "/audio/l5/l5-v-01.mp3",
           "sourcePage": 60,
           "reviewNeeded": false,
-          "pronKo": "may gio",
-          "pronNoteKo": "mấy giờ는 앞부분은 끊지 말고 가볍게 붙여서 시작한 뒤 'gio'은 마지막 소리를 부드럽게 이어 말하세요.",
+          "pronKo": "머이 저",
+          "pronNoteKo": "gi는 북부식으로 ‘지/자’ 계열에 가깝습니다. 영어 g처럼 세게 내지 마세요. 올림 성조는 끝을 살짝 위로 올립니다 / 내림 성조는 끝을 낮게 떨어뜨립니다.",
           "pronChunks": [
-            "may=may",
-            "gio=gio"
+            "mấy giờ=머이 저"
           ]
         },
         {
@@ -2560,11 +2543,10 @@
           "audioSrc": "/audio/l5/l5-v-02.mp3",
           "sourcePage": 60,
           "reviewNeeded": false,
-          "pronKo": "버이 gio",
-          "pronNoteKo": "bây giờ는 처음 소리를 과하게 세게 내지 말고 'gio'은 마지막 음절은 힘을 빼고 자연스럽게 정리하세요.",
+          "pronKo": "어이 저",
+          "pronNoteKo": "gi는 북부식으로 ‘지/자’ 계열에 가깝습니다. 영어 g처럼 세게 내지 마세요. 내림 성조는 끝을 낮게 떨어뜨립니다.",
           "pronChunks": [
-            "bay=버이",
-            "gio=gio"
+            "bây giờ=어이 저"
           ]
         },
         {
@@ -2576,10 +2558,10 @@
           "audioSrc": "/audio/l5/l5-v-03.mp3",
           "sourcePage": 60,
           "reviewNeeded": false,
-          "pronKo": "luc",
-          "pronNoteKo": "lúc는 'luc'을(를) 짧고 또렷하게 내고 끝을 낮게 내리며 정리하세요.",
+          "pronKo": "룩",
+          "pronNoteKo": "마지막 받침은 길게 끌지 말고 짧게 닫아 주세요. 올림 성조는 끝을 살짝 위로 올립니다.",
           "pronChunks": [
-            "luc=luc"
+            "lúc=룩"
           ]
         },
         {
@@ -2591,11 +2573,10 @@
           "audioSrc": "/audio/l5/l5-v-04.mp3",
           "sourcePage": 60,
           "reviewNeeded": false,
-          "pronKo": "hom nay",
-          "pronNoteKo": "hôm nay는 첫 소리를 짧게 잡고 'nay'은 끝음을 짧게 닫아 마무리하세요.",
+          "pronKo": "오ㅁ 나이",
+          "pronNoteKo": "성조가 없는 음절은 높낮이를 과하게 만들지 말고 평평하고 짧게 말하세요.",
           "pronChunks": [
-            "hom=hom",
-            "nay=nay"
+            "hôm nay=오ㅁ 나이"
           ]
         },
         {
@@ -2607,11 +2588,10 @@
           "audioSrc": "/audio/l5/l5-v-05.mp3",
           "sourcePage": 60,
           "reviewNeeded": false,
-          "pronKo": "ngay mai",
-          "pronNoteKo": "ngày mai는 앞부분은 끊지 말고 가볍게 붙여서 시작한 뒤 'mai'은 마지막 소리를 부드럽게 이어 말하세요.",
+          "pronKo": "응아이 마이",
+          "pronNoteKo": "ng는 단어 앞에서도 ‘응’처럼 시작합니다. 처음에 짧은 ‘으’를 붙이는 느낌이면 따라 하기 쉬워요. 내림 성조는 끝을 낮게 떨어뜨립니다.",
           "pronChunks": [
-            "ngay=ngay",
-            "mai=mai"
+            "ngày mai=응아이 마이"
           ]
         },
         {
@@ -2623,11 +2603,10 @@
           "audioSrc": "/audio/l5/l5-v-06.mp3",
           "sourcePage": 60,
           "reviewNeeded": false,
-          "pronKo": "hom qua",
-          "pronNoteKo": "hôm qua는 처음 소리를 과하게 세게 내지 말고 'qua'은 마지막 음절은 힘을 빼고 자연스럽게 정리하세요.",
+          "pronKo": "오ㅁ 꽈",
+          "pronNoteKo": "qu는 입술을 둥글게 모아 ‘꾸/꽈’처럼 시작하면 자연스럽습니다. 성조가 없는 음절은 높낮이를 과하게 만들지 말고 평평하고 짧게 말하세요.",
           "pronChunks": [
-            "hom=hom",
-            "qua=qua"
+            "hôm qua=오ㅁ 꽈"
           ]
         },
         {
@@ -2640,10 +2619,9 @@
           "sourcePage": 60,
           "reviewNeeded": false,
           "pronKo": "트 하이",
-          "pronNoteKo": "thứ hai는 첫 음절을 또렷하게 시작하고 '하이'은 끝을 낮게 내리며 정리하세요.",
+          "pronNoteKo": "th는 영어 th가 아니라 한국어 ‘ㅌ’에 가깝게 짧고 가볍게 시작하세요. 올림 성조는 끝을 살짝 위로 올립니다.",
           "pronChunks": [
-            "thu=트",
-            "hai=하이"
+            "thứ hai=트 하이"
           ]
         },
         {
@@ -2656,10 +2634,9 @@
           "sourcePage": 60,
           "reviewNeeded": false,
           "pronKo": "쭈 녓",
-          "pronNoteKo": "chủ nhật는 첫 소리를 짧게 잡고 '녓'은 끝음을 짧게 닫아 마무리하세요.",
+          "pronNoteKo": "ch는 ‘ㅉ’에 가깝게 시작하고, 뒤 모음으로 바로 붙여 말하세요. 마지막 받침은 길게 끌지 말고 짧게 닫아 주세요.",
           "pronChunks": [
-            "chu=쭈",
-            "nhat=녓"
+            "chủ nhật=쭈 녓"
           ]
         },
         {
@@ -2671,11 +2648,10 @@
           "audioSrc": "/audio/l5/l5-v-09.mp3",
           "sourcePage": 60,
           "reviewNeeded": false,
-          "pronKo": "cuoc hen",
-          "pronNoteKo": "cuộc hẹn는 앞부분은 끊지 말고 가볍게 붙여서 시작한 뒤 'hen'은 마지막 소리를 부드럽게 이어 말하세요.",
+          "pronKo": "으어ㄱ 헨",
+          "pronNoteKo": "마지막 m/n 받침은 입을 닫거나 혀를 붙인 채 짧게 마무리하세요. 무거운 성조는 짧고 낮게 눌러 끝냅니다.",
           "pronChunks": [
-            "cuoc=cuoc",
-            "hen=hen"
+            "cuộc hẹn=으어ㄱ 헨"
           ]
         },
         {
@@ -2687,11 +2663,10 @@
           "audioSrc": "/audio/l5/l5-v-10.mp3",
           "sourcePage": 60,
           "reviewNeeded": false,
-          "pronKo": "tu den",
-          "pronNoteKo": "từ...đến...는 앞부분은 끊지 말고 가볍게 붙여서 시작한 뒤 'den'은 마지막 소리를 부드럽게 이어 말하세요.",
+          "pronKo": "뜨 덴",
+          "pronNoteKo": "đ는 한국어 ‘ㄷ/ㄸ’에 가깝게 짧게 치고 바로 다음 모음으로 넘어가세요. 마지막 m/n 받침은 입을 닫거나 혀를 붙인 채 짧게 마무리하세요.",
           "pronChunks": [
-            "tu=tu",
-            "den=den"
+            "từ đến=뜨 덴"
           ]
         }
       ],
@@ -2703,12 +2678,12 @@
           "audioSrc": "/audio/l5/l5-s-01.mp3",
           "sourcePage": 61,
           "reviewNeeded": false,
-          "pronKo": "버이 gio 라 땀 gio",
-          "pronNoteKo": "Bây giờ là tám giờ.는 처음 소리를 과하게 세게 내지 말고 'gio'은 마지막 음절은 힘을 빼고 자연스럽게 정리하세요.",
+          "pronKo": "어이 저 라 땀 저",
+          "pronNoteKo": "gi는 북부식으로 ‘지/자’ 계열에 가깝습니다. 영어 g처럼 세게 내지 마세요.",
           "pronChunks": [
-            "bay gio=버이",
-            "la tam=라 땀",
-            "gio=라"
+            "Bây giờ=어이 저",
+            "là tám=라 땀",
+            "giờ=저"
           ]
         },
         {
@@ -2718,12 +2693,12 @@
           "audioSrc": "/audio/l5/l5-s-02.mp3",
           "sourcePage": 61,
           "reviewNeeded": false,
-          "pronKo": "hom nay 라 트 버이",
-          "pronNoteKo": "Hôm nay là thứ bảy.는 첫 음절을 또렷하게 시작하고 '버이'은 끝을 낮게 내리며 정리하세요.",
+          "pronKo": "오ㅁ 나이 라 트 버이",
+          "pronNoteKo": "th는 영어 th가 아니라 한국어 ‘ㅌ’에 가깝게 짧고 가볍게 시작하세요.",
           "pronChunks": [
-            "hom nay=hom",
-            "la thu=라 트",
-            "bay=버이"
+            "Hôm nay=오ㅁ 나이",
+            "là thứ=라 트",
+            "bảy=버이"
           ]
         },
         {
@@ -2733,12 +2708,12 @@
           "audioSrc": "/audio/l5/l5-s-03.mp3",
           "sourcePage": 61,
           "reviewNeeded": false,
-          "pronKo": "ngay mai 또이 꼬 cuoc hen",
-          "pronNoteKo": "Ngày mai tôi có cuộc hẹn.는 첫 소리를 짧게 잡고 'hen'은 끝음을 짧게 닫아 마무리하세요.",
+          "pronKo": "응아이 마이 또이 오 으어ㄱ 헨",
+          "pronNoteKo": "ng는 단어 앞에서도 ‘응’처럼 시작합니다. 처음에 짧은 ‘으’를 붙이는 느낌이면 따라 하기 쉬워요.",
           "pronChunks": [
-            "ngay mai=ngay",
-            "toi co=또이 꼬",
-            "cuoc hen=또이"
+            "Ngày mai=응아이 마이",
+            "tôi có=또이 오",
+            "cuộc hẹn=으어ㄱ 헨"
           ]
         },
         {
@@ -2748,12 +2723,13 @@
           "audioSrc": "/audio/l5/l5-s-04.mp3",
           "sourcePage": 61,
           "reviewNeeded": false,
-          "pronKo": "또이 혹 tu 땀 gio den 찐 gio",
-          "pronNoteKo": "Tôi học từ tám giờ đến chín giờ.는 앞부분은 끊지 말고 가볍게 붙여서 시작한 뒤 'gio'은 마지막 소리를 부드럽게 이어 말하세요.",
+          "pronKo": "또이 혹 뜨 땀 저 덴 찐 저",
+          "pronNoteKo": "gi는 북부식으로 ‘지/자’ 계열에 가깝습니다. 영어 g처럼 세게 내지 마세요.",
           "pronChunks": [
-            "toi hoc tu=또이",
-            "tam gio den=혹",
-            "chin gio=tu"
+            "Tôi học=또이 혹",
+            "từ tám=뜨 땀",
+            "giờ đến=저 덴",
+            "chín giờ=찐 저"
           ]
         },
         {
@@ -2763,12 +2739,12 @@
           "audioSrc": "/audio/l5/l5-s-05.mp3",
           "sourcePage": 61,
           "reviewNeeded": false,
-          "pronKo": "반 ranh luc may gio",
-          "pronNoteKo": "Bạn rảnh lúc mấy giờ?는 처음 소리를 과하게 세게 내지 말고 'gio'은 마지막 음절은 힘을 빼고 자연스럽게 정리하세요.",
+          "pronKo": "반 잔 룩 머이 저",
+          "pronNoteKo": "r은 하노이식으로 ‘ㅈ’에 가깝게 들릴 수 있어요. 혀를 굴리기보다 짧게 시작하세요.",
           "pronChunks": [
-            "ban ranh=반",
-            "luc may=ranh",
-            "gio=luc"
+            "Bạn rảnh=반 잔",
+            "lúc mấy=룩 머이",
+            "giờ=저"
           ]
         },
         {
@@ -2778,12 +2754,12 @@
           "audioSrc": "/audio/l5/l5-s-06.mp3",
           "sourcePage": 61,
           "reviewNeeded": false,
-          "pronKo": "또이 ranh vao buoi 또이",
-          "pronNoteKo": "Tôi rảnh vào buổi tối.는 첫 음절을 또렷하게 시작하고 '또이'은 끝을 낮게 내리며 정리하세요.",
+          "pronKo": "또이 잔 아오 부오이 또이",
+          "pronNoteKo": "r은 하노이식으로 ‘ㅈ’에 가깝게 들릴 수 있어요. 혀를 굴리기보다 짧게 시작하세요.",
           "pronChunks": [
-            "toi ranh=또이",
-            "vao buoi=ranh",
-            "toi=또이"
+            "Tôi rảnh=또이 잔",
+            "vào buổi=아오 부오이",
+            "tối=또이"
           ]
         }
       ],
@@ -2837,9 +2813,9 @@
           "audioSrc": "/audio/l5/l5-p-01.mp3",
           "sourcePage": 64,
           "reviewNeeded": false,
-          "pronKo": "may gio",
-          "mouthKo": "입술을 과하게 힘주지 말고, 자음 시작을 가볍게 낸 뒤 모음을 길게 열어 소리 내세요.",
-          "toneKo": "하노이 기준 성조를 의식해 음의 높낮이를 분명히 하고, 끝은 급하게 끊지 말고 짧게 정리하세요."
+          "pronKo": "머이 저",
+          "mouthKo": "gi는 북부식으로 ‘지/자’ 계열에 가깝습니다. 영어 g처럼 세게 내지 마세요.",
+          "toneKo": "올림 성조는 끝을 살짝 위로 올립니다 / 내림 성조는 끝을 낮게 떨어뜨립니다."
         },
         {
           "id": "l5-p-02",
@@ -2848,9 +2824,9 @@
           "audioSrc": "/audio/l5/l5-p-02.mp3",
           "sourcePage": 64,
           "reviewNeeded": false,
-          "pronKo": "버이 gio 라 땀 gio",
-          "mouthKo": "입술을 과하게 힘주지 말고, 자음 시작을 가볍게 낸 뒤 모음을 길게 열어 소리 내세요.",
-          "toneKo": "하노이 기준 성조를 의식해 음의 높낮이를 분명히 하고, 끝은 급하게 끊지 말고 짧게 정리하세요."
+          "pronKo": "어이 저 라 땀 저",
+          "mouthKo": "gi는 북부식으로 ‘지/자’ 계열에 가깝습니다. 영어 g처럼 세게 내지 마세요.",
+          "toneKo": "내림 성조는 끝을 낮게 떨어뜨립니다 / 올림 성조는 끝을 살짝 위로 올립니다."
         }
       ],
       "quizSeeds": [
@@ -2906,11 +2882,10 @@
           "audioSrc": "/audio/l6/l6-v-01.mp3",
           "sourcePage": 70,
           "reviewNeeded": false,
-          "pronKo": "so thich",
-          "pronNoteKo": "sở thích는 처음 소리를 과하게 세게 내지 말고 'thich'은 마지막 음절은 힘을 빼고 자연스럽게 정리하세요.",
+          "pronKo": "써 틱",
+          "pronNoteKo": "th는 영어 th가 아니라 한국어 ‘ㅌ’에 가깝게 짧고 가볍게 시작하세요. 물음 성조는 중간을 살짝 꺾는 느낌으로 말합니다 / 올림 성조는 끝을 살짝 위로 올립니다.",
           "pronChunks": [
-            "so=so",
-            "thich=thich"
+            "sở thích=써 틱"
           ]
         },
         {
@@ -2922,11 +2897,10 @@
           "audioSrc": "/audio/l6/l6-v-02.mp3",
           "sourcePage": 70,
           "reviewNeeded": false,
-          "pronKo": "nghe nhac",
-          "pronNoteKo": "nghe nhạc는 첫 음절을 또렷하게 시작하고 'nhac'은 끝을 낮게 내리며 정리하세요.",
+          "pronKo": "응에 냑",
+          "pronNoteKo": "ngh는 ‘응’으로 시작한다는 느낌으로, 목에 힘을 주지 말고 코로 가볍게 이어 주세요. 마지막 받침은 길게 끌지 말고 짧게 닫아 주세요.",
           "pronChunks": [
-            "nghe=nghe",
-            "nhac=nhac"
+            "nghe nhạc=응에 냑"
           ]
         },
         {
@@ -2938,11 +2912,10 @@
           "audioSrc": "/audio/l6/l6-v-03.mp3",
           "sourcePage": 70,
           "reviewNeeded": false,
-          "pronKo": "xem phim",
-          "pronNoteKo": "xem phim는 첫 소리를 짧게 잡고 'phim'은 끝음을 짧게 닫아 마무리하세요.",
+          "pronKo": "쎔 핌",
+          "pronNoteKo": "x는 ‘ㅆ/ㅅ’처럼 가볍게 시작하고, 뒤 모음을 길게 끌지 마세요. 마지막 m/n 받침은 입을 닫거나 혀를 붙인 채 짧게 마무리하세요.",
           "pronChunks": [
-            "xem=xem",
-            "phim=phim"
+            "xem phim=쎔 핌"
           ]
         },
         {
@@ -2954,11 +2927,10 @@
           "audioSrc": "/audio/l6/l6-v-04.mp3",
           "sourcePage": 70,
           "reviewNeeded": false,
-          "pronKo": "doc sach",
-          "pronNoteKo": "đọc sách는 앞부분은 끊지 말고 가볍게 붙여서 시작한 뒤 'sach'은 마지막 소리를 부드럽게 이어 말하세요.",
+          "pronKo": "독 싸익",
+          "pronNoteKo": "đ는 한국어 ‘ㄷ/ㄸ’에 가깝게 짧게 치고 바로 다음 모음으로 넘어가세요. 무거운 성조는 짧고 낮게 눌러 끝냅니다 / 올림 성조는 끝을 살짝 위로 올립니다.",
           "pronChunks": [
-            "doc=doc",
-            "sach=sach"
+            "đọc sách=독 싸익"
           ]
         },
         {
@@ -2970,11 +2942,10 @@
           "audioSrc": "/audio/l6/l6-v-05.mp3",
           "sourcePage": 70,
           "reviewNeeded": false,
-          "pronKo": "choi game",
-          "pronNoteKo": "chơi game는 처음 소리를 과하게 세게 내지 말고 'game'은 마지막 음절은 힘을 빼고 자연스럽게 정리하세요.",
+          "pronKo": "쩌이 게임",
+          "pronNoteKo": "ch는 ‘ㅉ’에 가깝게 시작하고, 뒤 모음으로 바로 붙여 말하세요. 성조가 없는 음절은 높낮이를 과하게 만들지 말고 평평하고 짧게 말하세요.",
           "pronChunks": [
-            "choi=choi",
-            "game=game"
+            "chơi game=쩌이 게임"
           ]
         },
         {
@@ -2987,10 +2958,9 @@
           "sourcePage": 70,
           "reviewNeeded": false,
           "pronKo": "디 보",
-          "pronNoteKo": "đi bộ는 첫 음절을 또렷하게 시작하고 '보'은 끝을 낮게 내리며 정리하세요.",
+          "pronNoteKo": "đ는 한국어 ‘ㄷ/ㄸ’에 가깝게 짧게 치고 바로 다음 모음으로 넘어가세요. 무거운 성조는 짧고 낮게 눌러 끝냅니다.",
           "pronChunks": [
-            "di=디",
-            "bo=보"
+            "đi bộ=디 보"
           ]
         },
         {
@@ -3002,11 +2972,10 @@
           "audioSrc": "/audio/l6/l6-v-07.mp3",
           "sourcePage": 70,
           "reviewNeeded": false,
-          "pronKo": "chay 보",
-          "pronNoteKo": "chạy bộ는 첫 소리를 짧게 잡고 '보'은 끝음을 짧게 닫아 마무리하세요.",
+          "pronKo": "짜이 보",
+          "pronNoteKo": "ch는 ‘ㅉ’에 가깝게 시작하고, 뒤 모음으로 바로 붙여 말하세요. 무거운 성조는 짧고 낮게 눌러 끝냅니다.",
           "pronChunks": [
-            "chay=chay",
-            "bo=보"
+            "chạy bộ=짜이 보"
           ]
         },
         {
@@ -3018,11 +2987,10 @@
           "audioSrc": "/audio/l6/l6-v-08.mp3",
           "sourcePage": 70,
           "reviewNeeded": false,
-          "pronKo": "nau 안",
-          "pronNoteKo": "nấu ăn는 앞부분은 끊지 말고 가볍게 붙여서 시작한 뒤 '안'은 마지막 소리를 부드럽게 이어 말하세요.",
+          "pronKo": "너우 안",
+          "pronNoteKo": "마지막 m/n 받침은 입을 닫거나 혀를 붙인 채 짧게 마무리하세요. 올림 성조는 끝을 살짝 위로 올립니다.",
           "pronChunks": [
-            "nau=nau",
-            "an=안"
+            "nấu ăn=너우 안"
           ]
         },
         {
@@ -3034,11 +3002,10 @@
           "audioSrc": "/audio/l6/l6-v-09.mp3",
           "sourcePage": 70,
           "reviewNeeded": false,
-          "pronKo": "트 비",
-          "pronNoteKo": "thú vị는 처음 소리를 과하게 세게 내지 말고 '비'은 마지막 음절은 힘을 빼고 자연스럽게 정리하세요.",
+          "pronKo": "투 비",
+          "pronNoteKo": "th는 영어 th가 아니라 한국어 ‘ㅌ’에 가깝게 짧고 가볍게 시작하세요. 올림 성조는 끝을 살짝 위로 올립니다 / 무거운 성조는 짧고 낮게 눌러 끝냅니다.",
           "pronChunks": [
-            "thu=트",
-            "vi=비"
+            "thú vị=투 비"
           ]
         },
         {
@@ -3050,11 +3017,10 @@
           "audioSrc": "/audio/l6/l6-v-10.mp3",
           "sourcePage": 70,
           "reviewNeeded": false,
-          "pronKo": "트 gian",
-          "pronNoteKo": "thư giãn는 처음 소리를 과하게 세게 내지 말고 'gian'은 마지막 음절은 힘을 빼고 자연스럽게 정리하세요.",
+          "pronKo": "트 잔",
+          "pronNoteKo": "th는 영어 th가 아니라 한국어 ‘ㅌ’에 가깝게 짧고 가볍게 시작하세요. 마지막 m/n 받침은 입을 닫거나 혀를 붙인 채 짧게 마무리하세요.",
           "pronChunks": [
-            "thu=트",
-            "gian=gian"
+            "thư giãn=트 잔"
           ]
         }
       ],
@@ -3066,12 +3032,13 @@
           "audioSrc": "/audio/l6/l6-s-01.mp3",
           "sourcePage": 71,
           "reviewNeeded": false,
-          "pronKo": "so thich cua 또이 라 nghe nhac",
-          "pronNoteKo": "Sở thích của tôi là nghe nhạc.는 첫 음절을 또렷하게 시작하고 'nhac'은 끝을 낮게 내리며 정리하세요.",
+          "pronKo": "써 틱 꾸아 또이 라 응에 냑",
+          "pronNoteKo": "th는 영어 th가 아니라 한국어 ‘ㅌ’에 가깝게 짧고 가볍게 시작하세요.",
           "pronChunks": [
-            "so thich cua=so",
-            "toi la nghe=thich",
-            "nhac=cua"
+            "Sở thích=써 틱",
+            "của tôi=꾸아 또이",
+            "là nghe=라 응에",
+            "nhạc=냑"
           ]
         },
         {
@@ -3081,12 +3048,13 @@
           "audioSrc": "/audio/l6/l6-s-02.mp3",
           "sourcePage": 71,
           "reviewNeeded": false,
-          "pronKo": "또이 thich xem phim 비 no 트 비",
-          "pronNoteKo": "Tôi thích xem phim vì nó thú vị.는 첫 소리를 짧게 잡고 '비'은 끝음을 짧게 닫아 마무리하세요.",
+          "pronKo": "또이 틱 쎔 핌 비 노 투 비",
+          "pronNoteKo": "th는 영어 th가 아니라 한국어 ‘ㅌ’에 가깝게 짧고 가볍게 시작하세요.",
           "pronChunks": [
-            "toi thich xem=또이",
-            "phim vi no=thich",
-            "thu vi=트 비"
+            "Tôi thích=또이 틱",
+            "xem phim=쎔 핌",
+            "vì nó=비 노",
+            "thú vị=투 비"
           ]
         },
         {
@@ -3096,12 +3064,12 @@
           "audioSrc": "/audio/l6/l6-s-03.mp3",
           "sourcePage": 71,
           "reviewNeeded": false,
-          "pronKo": "khi ranh 또이 thuong doc sach",
-          "pronNoteKo": "Khi rảnh, tôi thường đọc sách.는 앞부분은 끊지 말고 가볍게 붙여서 시작한 뒤 'sach'은 마지막 소리를 부드럽게 이어 말하세요.",
+          "pronKo": "키 잔 또이 트엉 독 싸익",
+          "pronNoteKo": "kh는 세게 긁는 소리가 아니라 ‘ㅋ’에 바람을 살짝 얹는 정도로 내세요.",
           "pronChunks": [
-            "khi ranh=khi",
-            "toi thuong=ranh",
-            "doc sach=또이"
+            "Khi rảnh=키 잔",
+            "tôi thường=또이 트엉",
+            "đọc sách=독 싸익"
           ]
         },
         {
@@ -3111,12 +3079,13 @@
           "audioSrc": "/audio/l6/l6-s-04.mp3",
           "sourcePage": 71,
           "reviewNeeded": false,
-          "pronKo": "cuoi tuan 또이 디 보 voi gia dinh",
-          "pronNoteKo": "Cuối tuần, tôi đi bộ với gia đình.는 처음 소리를 과하게 세게 내지 말고 'dinh'은 마지막 음절은 힘을 빼고 자연스럽게 정리하세요.",
+          "pronKo": "꾸오이 뚜언 또이 디 보 버이 자 딘",
+          "pronNoteKo": "đ는 한국어 ‘ㄷ/ㄸ’에 가깝게 짧게 치고 바로 다음 모음으로 넘어가세요.",
           "pronChunks": [
-            "cuoi tuan toi=cuoi",
-            "di bo voi=tuan",
-            "gia dinh=또이"
+            "Cuối tuần=꾸오이 뚜언",
+            "tôi đi=또이 디",
+            "bộ với=보 버이",
+            "gia đình=자 딘"
           ]
         },
         {
@@ -3126,12 +3095,12 @@
           "audioSrc": "/audio/l6/l6-s-05.mp3",
           "sourcePage": 71,
           "reviewNeeded": false,
-          "pronKo": "nghe nhac 줍 또이 트 gian",
-          "pronNoteKo": "Nghe nhạc giúp tôi thư giãn.는 첫 음절을 또렷하게 시작하고 'gian'은 끝을 낮게 내리며 정리하세요.",
+          "pronKo": "응에 냑 줍 또이 트 잔",
+          "pronNoteKo": "ngh는 ‘응’으로 시작한다는 느낌으로, 목에 힘을 주지 말고 코로 가볍게 이어 주세요.",
           "pronChunks": [
-            "nghe nhac=nghe",
-            "giup toi=줍 또이",
-            "thu gian=줍"
+            "Nghe nhạc=응에 냑",
+            "giúp tôi=줍 또이",
+            "thư giãn=트 잔"
           ]
         },
         {
@@ -3141,12 +3110,13 @@
           "audioSrc": "/audio/l6/l6-s-06.mp3",
           "sourcePage": 71,
           "reviewNeeded": false,
-          "pronKo": "또이 무온 트 못 so thich moi",
-          "pronNoteKo": "Tôi muốn thử một sở thích mới.는 첫 소리를 짧게 잡고 'moi'은 끝음을 짧게 닫아 마무리하세요.",
+          "pronKo": "또이 무온 트 못 써 틱 머이",
+          "pronNoteKo": "th는 영어 th가 아니라 한국어 ‘ㅌ’에 가깝게 짧고 가볍게 시작하세요.",
           "pronChunks": [
-            "toi muon thu=또이 무온 트",
-            "mot so thich=무온",
-            "moi=트"
+            "Tôi muốn=또이 무온",
+            "thử một=트 못",
+            "sở thích=써 틱",
+            "mới=머이"
           ]
         }
       ],
@@ -3200,9 +3170,9 @@
           "audioSrc": "/audio/l6/l6-p-01.mp3",
           "sourcePage": 74,
           "reviewNeeded": false,
-          "pronKo": "so thich",
-          "mouthKo": "입술을 과하게 힘주지 말고, 자음 시작을 가볍게 낸 뒤 모음을 길게 열어 소리 내세요.",
-          "toneKo": "하노이 기준 성조를 의식해 음의 높낮이를 분명히 하고, 끝은 급하게 끊지 말고 짧게 정리하세요."
+          "pronKo": "써 틱",
+          "mouthKo": "th는 영어 th가 아니라 한국어 ‘ㅌ’에 가깝게 짧고 가볍게 시작하세요.",
+          "toneKo": "물음 성조는 중간을 살짝 꺾는 느낌으로 말합니다 / 올림 성조는 끝을 살짝 위로 올립니다."
         },
         {
           "id": "l6-p-02",
@@ -3211,9 +3181,9 @@
           "audioSrc": "/audio/l6/l6-p-02.mp3",
           "sourcePage": 74,
           "reviewNeeded": false,
-          "pronKo": "so thich cua 또이 라 nghe nhac",
-          "mouthKo": "입술을 과하게 힘주지 말고, 자음 시작을 가볍게 낸 뒤 모음을 길게 열어 소리 내세요.",
-          "toneKo": "하노이 기준 성조를 의식해 음의 높낮이를 분명히 하고, 끝은 급하게 끊지 말고 짧게 정리하세요."
+          "pronKo": "써 틱 꾸아 또이 라 응에 냑",
+          "mouthKo": "th는 영어 th가 아니라 한국어 ‘ㅌ’에 가깝게 짧고 가볍게 시작하세요.",
+          "toneKo": "성조가 여러 개 섞여 있으니 한 톤으로 평평하게 읽지 말고, 각 덩어리의 높낮이를 분리해 주세요."
         }
       ],
       "quizSeeds": [
@@ -3271,9 +3241,9 @@
           "sourcePage": 80,
           "reviewNeeded": false,
           "pronKo": "퍼",
-          "pronNoteKo": "phở는 '퍼'을(를) 짧고 또렷하게 내고 끝을 낮게 내리며 정리하세요.",
+          "pronNoteKo": "ph는 영어 f에 가까워요. ‘프’라고 세게 닫기보다 입술 사이로 바람을 살짝 내보내세요. 물음 성조는 중간을 살짝 꺾는 느낌으로 말합니다.",
           "pronChunks": [
-            "pho=퍼"
+            "phở=퍼"
           ]
         },
         {
@@ -3285,11 +3255,10 @@
           "audioSrc": "/audio/l7/l7-v-02.mp3",
           "sourcePage": 80,
           "reviewNeeded": false,
-          "pronKo": "bun cha",
-          "pronNoteKo": "bún chả는 첫 소리를 짧게 잡고 'cha'은 끝음을 짧게 닫아 마무리하세요.",
+          "pronKo": "분 짜",
+          "pronNoteKo": "ch는 ‘ㅉ’에 가깝게 시작하고, 뒤 모음으로 바로 붙여 말하세요. 올림 성조는 끝을 살짝 위로 올립니다 / 물음 성조는 중간을 살짝 꺾는 느낌으로 말합니다.",
           "pronChunks": [
-            "bun=bun",
-            "cha=cha"
+            "bún chả=분 짜"
           ]
         },
         {
@@ -3302,10 +3271,9 @@
           "sourcePage": 80,
           "reviewNeeded": false,
           "pronKo": "반 미",
-          "pronNoteKo": "bánh mì는 앞부분은 끊지 말고 가볍게 붙여서 시작한 뒤 '미'은 마지막 소리를 부드럽게 이어 말하세요.",
+          "pronNoteKo": "올림 성조는 끝을 살짝 위로 올립니다 / 내림 성조는 끝을 낮게 떨어뜨립니다.",
           "pronChunks": [
-            "banh=반",
-            "mi=미"
+            "bánh mì=반 미"
           ]
         },
         {
@@ -3317,11 +3285,13 @@
           "audioSrc": "/audio/l7/l7-v-04.mp3",
           "sourcePage": 80,
           "reviewNeeded": false,
-          "pronKo": "ca phe sua da",
-          "pronNoteKo": "cà phê sữa đá는 처음 소리를 과하게 세게 내지 말고 'da'은 마지막 음절은 힘을 빼고 자연스럽게 정리하세요.",
+          "pronKo": "까 페 쓰어 다",
+          "pronNoteKo": "ph는 영어 f에 가까워요. ‘프’라고 세게 닫기보다 입술 사이로 바람을 살짝 내보내세요.",
           "pronChunks": [
-            "ca phe=ca",
-            "sua da=phe"
+            "cà=까",
+            "phê=페",
+            "sữa=쓰어",
+            "đá=다"
           ]
         },
         {
@@ -3333,11 +3303,10 @@
           "audioSrc": "/audio/l7/l7-v-05.mp3",
           "sourcePage": 80,
           "reviewNeeded": false,
-          "pronKo": "nuoc loc",
-          "pronNoteKo": "nước lọc는 첫 음절을 또렷하게 시작하고 'loc'은 끝을 낮게 내리며 정리하세요.",
+          "pronKo": "느억 록",
+          "pronNoteKo": "마지막 받침은 길게 끌지 말고 짧게 닫아 주세요. 올림 성조는 끝을 살짝 위로 올립니다 / 무거운 성조는 짧고 낮게 눌러 끝냅니다.",
           "pronChunks": [
-            "nuoc=nuoc",
-            "loc=loc"
+            "nước lọc=느억 록"
           ]
         },
         {
@@ -3350,7 +3319,7 @@
           "sourcePage": 80,
           "reviewNeeded": false,
           "pronKo": "응온",
-          "pronNoteKo": "ngon는 '응온'을(를) 짧고 또렷하게 내고 끝음을 짧게 닫아 마무리하세요.",
+          "pronNoteKo": "ng는 단어 앞에서도 ‘응’처럼 시작합니다. 처음에 짧은 ‘으’를 붙이는 느낌이면 따라 하기 쉬워요. 마지막 m/n 받침은 입을 닫거나 혀를 붙인 채 짧게 마무리하세요.",
           "pronChunks": [
             "ngon=응온"
           ]
@@ -3364,10 +3333,10 @@
           "audioSrc": "/audio/l7/l7-v-07.mp3",
           "sourcePage": 80,
           "reviewNeeded": false,
-          "pronKo": "cay",
-          "pronNoteKo": "cay는 'cay'을(를) 짧고 또렷하게 내고 마지막 소리를 부드럽게 이어 말하세요.",
+          "pronKo": "까이",
+          "pronNoteKo": "성조가 없는 음절은 높낮이를 과하게 만들지 말고 평평하고 짧게 말하세요.",
           "pronChunks": [
-            "cay=cay"
+            "cay=까이"
           ]
         },
         {
@@ -3379,10 +3348,10 @@
           "audioSrc": "/audio/l7/l7-v-08.mp3",
           "sourcePage": 80,
           "reviewNeeded": false,
-          "pronKo": "ngot",
-          "pronNoteKo": "ngọt는 'ngot'을(를) 짧고 또렷하게 내고 마지막 음절은 힘을 빼고 자연스럽게 정리하세요.",
+          "pronKo": "응옷",
+          "pronNoteKo": "ng는 단어 앞에서도 ‘응’처럼 시작합니다. 처음에 짧은 ‘으’를 붙이는 느낌이면 따라 하기 쉬워요. 마지막 받침은 길게 끌지 말고 짧게 닫아 주세요.",
           "pronChunks": [
-            "ngot=ngot"
+            "ngọt=응옷"
           ]
         },
         {
@@ -3394,11 +3363,10 @@
           "audioSrc": "/audio/l7/l7-v-09.mp3",
           "sourcePage": 80,
           "reviewNeeded": false,
-          "pronKo": "cho 또이",
-          "pronNoteKo": "cho tôi는 첫 음절을 또렷하게 시작하고 '또이'은 끝을 낮게 내리며 정리하세요.",
+          "pronKo": "쩌 또이",
+          "pronNoteKo": "ch는 ‘ㅉ’에 가깝게 시작하고, 뒤 모음으로 바로 붙여 말하세요. 성조가 없는 음절은 높낮이를 과하게 만들지 말고 평평하고 짧게 말하세요.",
           "pronChunks": [
-            "cho=cho",
-            "toi=또이"
+            "cho tôi=쩌 또이"
           ]
         },
         {
@@ -3410,11 +3378,10 @@
           "audioSrc": "/audio/l7/l7-v-10.mp3",
           "sourcePage": 80,
           "reviewNeeded": false,
-          "pronKo": "tinh tien",
-          "pronNoteKo": "tính tiền는 첫 음절을 또렷하게 시작하고 'tien'은 끝을 낮게 내리며 정리하세요.",
+          "pronKo": "띤 띠엔",
+          "pronNoteKo": "마지막 m/n 받침은 입을 닫거나 혀를 붙인 채 짧게 마무리하세요. 올림 성조는 끝을 살짝 위로 올립니다 / 내림 성조는 끝을 낮게 떨어뜨립니다.",
           "pronChunks": [
-            "tinh=tinh",
-            "tien=tien"
+            "tính tiền=띤 띠엔"
           ]
         }
       ],
@@ -3427,10 +3394,12 @@
           "sourcePage": 81,
           "reviewNeeded": false,
           "pronKo": "또이 무온 안 퍼",
-          "pronNoteKo": "Tôi muốn ăn phở.는 첫 소리를 짧게 잡고 '퍼'은 끝음을 짧게 닫아 마무리하세요.",
+          "pronNoteKo": "ph는 영어 f에 가까워요. ‘프’라고 세게 닫기보다 입술 사이로 바람을 살짝 내보내세요.",
           "pronChunks": [
-            "toi muon=또이 무온",
-            "an pho=안 퍼"
+            "Tôi=또이",
+            "muốn=무온",
+            "ăn=안",
+            "phở=퍼"
           ]
         },
         {
@@ -3440,12 +3409,12 @@
           "audioSrc": "/audio/l7/l7-s-02.mp3",
           "sourcePage": 81,
           "reviewNeeded": false,
-          "pronKo": "cho 또이 못 bat 퍼 보",
-          "pronNoteKo": "Cho tôi một bát phở bò.는 앞부분은 끊지 말고 가볍게 붙여서 시작한 뒤 '보'은 마지막 소리를 부드럽게 이어 말하세요.",
+          "pronKo": "쩌 또이 못 밧 퍼 보",
+          "pronNoteKo": "ch는 ‘ㅉ’에 가깝게 시작하고, 뒤 모음으로 바로 붙여 말하세요.",
           "pronChunks": [
-            "cho toi=cho",
-            "mot bat=또이",
-            "pho bo=퍼 보"
+            "Cho tôi=쩌 또이",
+            "một bát=못 밧",
+            "phở bò=퍼 보"
           ]
         },
         {
@@ -3455,12 +3424,13 @@
           "audioSrc": "/audio/l7/l7-s-03.mp3",
           "sourcePage": 81,
           "reviewNeeded": false,
-          "pronKo": "cho 또이 못 ly ca phe sua da",
-          "pronNoteKo": "Cho tôi một ly cà phê sữa đá.는 처음 소리를 과하게 세게 내지 말고 'da'은 마지막 음절은 힘을 빼고 자연스럽게 정리하세요.",
+          "pronKo": "쩌 또이 못 리 까 페 쓰어 다",
+          "pronNoteKo": "ch는 ‘ㅉ’에 가깝게 시작하고, 뒤 모음으로 바로 붙여 말하세요.",
           "pronChunks": [
-            "cho toi mot=cho",
-            "ly ca phe=또이",
-            "sua da=못"
+            "Cho tôi=쩌 또이",
+            "một ly=못 리",
+            "cà phê=까 페",
+            "sữa đá=쓰어 다"
           ]
         },
         {
@@ -3470,11 +3440,13 @@
           "audioSrc": "/audio/l7/l7-s-04.mp3",
           "sourcePage": 81,
           "reviewNeeded": false,
-          "pronKo": "mon nay 젓 응온",
-          "pronNoteKo": "Món này rất ngon.는 첫 음절을 또렷하게 시작하고 '응온'은 끝을 낮게 내리며 정리하세요.",
+          "pronKo": "몬 나이 젓 응온",
+          "pronNoteKo": "r은 하노이식으로 ‘ㅈ’에 가깝게 들릴 수 있어요. 혀를 굴리기보다 짧게 시작하세요. 마지막 m/n 받침은 입을 닫거나 혀를 붙인 채 짧게 마무리하세요.",
           "pronChunks": [
-            "mon nay=mon",
-            "rat ngon=젓 응온"
+            "Món=몬",
+            "này=나이",
+            "rất=젓",
+            "ngon=응온"
           ]
         },
         {
@@ -3484,11 +3456,13 @@
           "audioSrc": "/audio/l7/l7-s-05.mp3",
           "sourcePage": 81,
           "reviewNeeded": false,
-          "pronKo": "mon nay hoi cay",
-          "pronNoteKo": "Món này hơi cay.는 첫 소리를 짧게 잡고 'cay'은 끝음을 짧게 닫아 마무리하세요.",
+          "pronKo": "몬 나이 허이 까이",
+          "pronNoteKo": "올림 성조는 끝을 살짝 위로 올립니다 / 내림 성조는 끝을 낮게 떨어뜨립니다.",
           "pronChunks": [
-            "mon nay=mon",
-            "hoi cay=nay"
+            "Món=몬",
+            "này=나이",
+            "hơi=허이",
+            "cay=까이"
           ]
         },
         {
@@ -3498,11 +3472,13 @@
           "audioSrc": "/audio/l7/l7-s-06.mp3",
           "sourcePage": 81,
           "reviewNeeded": false,
-          "pronKo": "cho 또이 tinh tien",
-          "pronNoteKo": "Cho tôi tính tiền.는 앞부분은 끊지 말고 가볍게 붙여서 시작한 뒤 'tien'은 마지막 소리를 부드럽게 이어 말하세요.",
+          "pronKo": "쩌 또이 띤 띠엔",
+          "pronNoteKo": "ch는 ‘ㅉ’에 가깝게 시작하고, 뒤 모음으로 바로 붙여 말하세요. 마지막 m/n 받침은 입을 닫거나 혀를 붙인 채 짧게 마무리하세요.",
           "pronChunks": [
-            "cho toi=cho",
-            "tinh tien=또이"
+            "Cho=쩌",
+            "tôi=또이",
+            "tính=띤",
+            "tiền=띠엔"
           ]
         }
       ],
@@ -3557,8 +3533,8 @@
           "sourcePage": 84,
           "reviewNeeded": false,
           "pronKo": "퍼",
-          "mouthKo": "입술을 과하게 힘주지 말고, 자음 시작을 가볍게 낸 뒤 모음을 길게 열어 소리 내세요.",
-          "toneKo": "하노이 기준 성조를 의식해 음의 높낮이를 분명히 하고, 끝은 급하게 끊지 말고 짧게 정리하세요."
+          "mouthKo": "ph는 영어 f에 가까워요. ‘프’라고 세게 닫기보다 입술 사이로 바람을 살짝 내보내세요.",
+          "toneKo": "물음 성조는 중간을 살짝 꺾는 느낌으로 말합니다."
         },
         {
           "id": "l7-p-02",
@@ -3568,8 +3544,8 @@
           "sourcePage": 84,
           "reviewNeeded": false,
           "pronKo": "또이 무온 안 퍼",
-          "mouthKo": "입술을 과하게 힘주지 말고, 자음 시작을 가볍게 낸 뒤 모음을 길게 열어 소리 내세요.",
-          "toneKo": "하노이 기준 성조를 의식해 음의 높낮이를 분명히 하고, 끝은 급하게 끊지 말고 짧게 정리하세요."
+          "mouthKo": "ph는 영어 f에 가까워요. ‘프’라고 세게 닫기보다 입술 사이로 바람을 살짝 내보내세요.",
+          "toneKo": "올림 성조는 끝을 살짝 위로 올립니다 / 물음 성조는 중간을 살짝 꺾는 느낌으로 말합니다."
         }
       ],
       "quizSeeds": [
@@ -3626,11 +3602,12 @@
           "audioSrc": "/audio/l8/l8-v-01.mp3",
           "sourcePage": 90,
           "reviewNeeded": false,
-          "pronKo": "bao nhieu tien",
-          "pronNoteKo": "bao nhiêu tiền는 첫 소리를 짧게 잡고 'tien'은 끝음을 짧게 닫아 마무리하세요.",
+          "pronKo": "바오 니에우 띠엔",
+          "pronNoteKo": "nh는 ‘냐/녜’ 계열처럼 혀를 입천장에 가볍게 붙였다 떼는 느낌으로 시작하세요. 마지막 m/n 받침은 입을 닫거나 혀를 붙인 채 짧게 마무리하세요.",
           "pronChunks": [
-            "bao nhieu=bao",
-            "tien=nhieu"
+            "bao=바오",
+            "nhiêu=니에우",
+            "tiền=띠엔"
           ]
         },
         {
@@ -3642,10 +3619,10 @@
           "audioSrc": "/audio/l8/l8-v-02.mp3",
           "sourcePage": 90,
           "reviewNeeded": false,
-          "pronKo": "dat",
-          "pronNoteKo": "đắt는 'dat'을(를) 짧고 또렷하게 내고 마지막 소리를 부드럽게 이어 말하세요.",
+          "pronKo": "닷",
+          "pronNoteKo": "đ는 한국어 ‘ㄷ/ㄸ’에 가깝게 짧게 치고 바로 다음 모음으로 넘어가세요. 마지막 받침은 길게 끌지 말고 짧게 닫아 주세요.",
           "pronChunks": [
-            "dat=dat"
+            "đắt=닷"
           ]
         },
         {
@@ -3657,10 +3634,10 @@
           "audioSrc": "/audio/l8/l8-v-03.mp3",
           "sourcePage": 90,
           "reviewNeeded": false,
-          "pronKo": "re",
-          "pronNoteKo": "rẻ는 're'을(를) 짧고 또렷하게 내고 마지막 음절은 힘을 빼고 자연스럽게 정리하세요.",
+          "pronKo": "제",
+          "pronNoteKo": "r은 하노이식으로 ‘ㅈ’에 가깝게 들릴 수 있어요. 혀를 굴리기보다 짧게 시작하세요. 물음 성조는 중간을 살짝 꺾는 느낌으로 말합니다.",
           "pronChunks": [
-            "re=re"
+            "rẻ=제"
           ]
         },
         {
@@ -3672,11 +3649,10 @@
           "audioSrc": "/audio/l8/l8-v-04.mp3",
           "sourcePage": 90,
           "reviewNeeded": false,
-          "pronKo": "giam gia",
-          "pronNoteKo": "giảm giá는 첫 음절을 또렷하게 시작하고 'gia'은 끝을 낮게 내리며 정리하세요.",
+          "pronKo": "잠 자",
+          "pronNoteKo": "gi는 북부식으로 ‘지/자’ 계열에 가깝습니다. 영어 g처럼 세게 내지 마세요. 물음 성조는 중간을 살짝 꺾는 느낌으로 말합니다 / 올림 성조는 끝을 살짝 위로 올립니다.",
           "pronChunks": [
-            "giam=giam",
-            "gia=gia"
+            "giảm giá=잠 자"
           ]
         },
         {
@@ -3688,10 +3664,10 @@
           "audioSrc": "/audio/l8/l8-v-05.mp3",
           "sourcePage": 90,
           "reviewNeeded": false,
-          "pronKo": "mua",
-          "pronNoteKo": "mua는 'mua'을(를) 짧고 또렷하게 내고 끝음을 짧게 닫아 마무리하세요.",
+          "pronKo": "무아",
+          "pronNoteKo": "성조가 없는 음절은 높낮이를 과하게 만들지 말고 평평하고 짧게 말하세요.",
           "pronChunks": [
-            "mua=mua"
+            "mua=무아"
           ]
         },
         {
@@ -3704,9 +3680,9 @@
           "sourcePage": 90,
           "reviewNeeded": false,
           "pronKo": "반",
-          "pronNoteKo": "bán는 '반'을(를) 짧고 또렷하게 내고 마지막 소리를 부드럽게 이어 말하세요.",
+          "pronNoteKo": "마지막 m/n 받침은 입을 닫거나 혀를 붙인 채 짧게 마무리하세요. 올림 성조는 끝을 살짝 위로 올립니다.",
           "pronChunks": [
-            "ban=반"
+            "bán=반"
           ]
         },
         {
@@ -3718,11 +3694,10 @@
           "audioSrc": "/audio/l8/l8-v-07.mp3",
           "sourcePage": 90,
           "reviewNeeded": false,
-          "pronKo": "cai nay",
-          "pronNoteKo": "cái này는 처음 소리를 과하게 세게 내지 말고 'nay'은 마지막 음절은 힘을 빼고 자연스럽게 정리하세요.",
+          "pronKo": "까이 나이",
+          "pronNoteKo": "올림 성조는 끝을 살짝 위로 올립니다 / 내림 성조는 끝을 낮게 떨어뜨립니다.",
           "pronChunks": [
-            "cai=cai",
-            "nay=nay"
+            "cái này=까이 나이"
           ]
         },
         {
@@ -3734,11 +3709,10 @@
           "audioSrc": "/audio/l8/l8-v-08.mp3",
           "sourcePage": 90,
           "reviewNeeded": false,
-          "pronKo": "cai kia",
-          "pronNoteKo": "cái kia는 첫 음절을 또렷하게 시작하고 'kia'은 끝을 낮게 내리며 정리하세요.",
+          "pronKo": "까이 끼아",
+          "pronNoteKo": "올림 성조는 끝을 살짝 위로 올립니다.",
           "pronChunks": [
-            "cai=cai",
-            "kia=kia"
+            "cái kia=까이 끼아"
           ]
         },
         {
@@ -3750,11 +3724,10 @@
           "audioSrc": "/audio/l8/l8-v-09.mp3",
           "sourcePage": 90,
           "reviewNeeded": false,
-          "pronKo": "kich 꼬",
-          "pronNoteKo": "kích cỡ는 첫 소리를 짧게 잡고 '꼬'은 끝음을 짧게 닫아 마무리하세요.",
+          "pronKo": "끼익 꺼",
+          "pronNoteKo": "올림 성조는 끝을 살짝 위로 올립니다 / 꺾임 성조는 중간에 살짝 흔들어 올리는 느낌입니다.",
           "pronChunks": [
-            "kich=kich",
-            "co=꼬"
+            "kích cỡ=끼익 꺼"
           ]
         },
         {
@@ -3766,10 +3739,10 @@
           "audioSrc": "/audio/l8/l8-v-10.mp3",
           "sourcePage": 90,
           "reviewNeeded": false,
-          "pronKo": "mau",
-          "pronNoteKo": "màu는 'mau'을(를) 짧고 또렷하게 내고 끝음을 짧게 닫아 마무리하세요.",
+          "pronKo": "마우",
+          "pronNoteKo": "내림 성조는 끝을 낮게 떨어뜨립니다.",
           "pronChunks": [
-            "mau=mau"
+            "màu=마우"
           ]
         }
       ],
@@ -3781,12 +3754,12 @@
           "audioSrc": "/audio/l8/l8-s-01.mp3",
           "sourcePage": 91,
           "reviewNeeded": false,
-          "pronKo": "cai nay bao nhieu tien",
-          "pronNoteKo": "Cái này bao nhiêu tiền?는 앞부분은 끊지 말고 가볍게 붙여서 시작한 뒤 'tien'은 마지막 소리를 부드럽게 이어 말하세요.",
+          "pronKo": "까이 나이 바오 니에우 띠엔",
+          "pronNoteKo": "nh는 ‘냐/녜’ 계열처럼 혀를 입천장에 가볍게 붙였다 떼는 느낌으로 시작하세요.",
           "pronChunks": [
-            "cai nay=cai",
-            "bao nhieu=nay",
-            "tien=bao"
+            "Cái này=까이 나이",
+            "bao nhiêu=바오 니에우",
+            "tiền=띠엔"
           ]
         },
         {
@@ -3796,12 +3769,12 @@
           "audioSrc": "/audio/l8/l8-s-02.mp3",
           "sourcePage": 91,
           "reviewNeeded": false,
-          "pronKo": "cai nay 남 므어이 nghin dong",
-          "pronNoteKo": "Cái này năm mươi nghìn đồng.는 처음 소리를 과하게 세게 내지 말고 'dong'은 마지막 음절은 힘을 빼고 자연스럽게 정리하세요.",
+          "pronKo": "까이 나이 남 므어이 응인 동",
+          "pronNoteKo": "nghìn은 ‘응인’처럼 코로 시작해 짧게 닫습니다. ‘그힌’처럼 g 소리를 앞에 붙이지 마세요.",
           "pronChunks": [
-            "cai nay=cai",
-            "nam muoi=남 므어이",
-            "nghin dong=남"
+            "Cái này=까이 나이",
+            "năm mươi=남 므어이",
+            "nghìn đồng=응인 동"
           ]
         },
         {
@@ -3811,12 +3784,12 @@
           "audioSrc": "/audio/l8/l8-s-03.mp3",
           "sourcePage": 91,
           "reviewNeeded": false,
-          "pronKo": "dat qua giam gia 드억 콩",
-          "pronNoteKo": "Đắt quá. Giảm giá được không?는 첫 음절을 또렷하게 시작하고 '콩'은 끝을 낮게 내리며 정리하세요.",
+          "pronKo": "닷 꽈 잠 자 드억 콩",
+          "pronNoteKo": "không은 ‘콩’처럼 짧게 닫고, 질문 문장에서는 끝을 너무 길게 끌지 마세요.",
           "pronChunks": [
-            "dat qua=dat",
-            "giam gia=qua",
-            "duoc khong=드억 콩"
+            "Đắt quá=닷 꽈",
+            "Giảm giá=잠 자",
+            "được không=드억 콩"
           ]
         },
         {
@@ -3826,12 +3799,12 @@
           "audioSrc": "/audio/l8/l8-s-04.mp3",
           "sourcePage": 91,
           "reviewNeeded": false,
-          "pronKo": "또이 무온 mua cai nay",
-          "pronNoteKo": "Tôi muốn mua cái này.는 첫 소리를 짧게 잡고 'nay'은 끝음을 짧게 닫아 마무리하세요.",
+          "pronKo": "또이 무온 무아 까이 나이",
+          "pronNoteKo": "올림 성조는 끝을 살짝 위로 올립니다 / 내림 성조는 끝을 낮게 떨어뜨립니다.",
           "pronChunks": [
-            "toi muon=또이 무온",
-            "mua cai=무온",
-            "nay=mua"
+            "Tôi muốn=또이 무온",
+            "mua cái=무아 까이",
+            "này=나이"
           ]
         },
         {
@@ -3841,12 +3814,12 @@
           "audioSrc": "/audio/l8/l8-s-05.mp3",
           "sourcePage": 91,
           "reviewNeeded": false,
-          "pronKo": "반 꼬 mau khac 콩",
-          "pronNoteKo": "Bạn có màu khác không?는 앞부분은 끊지 말고 가볍게 붙여서 시작한 뒤 '콩'은 마지막 소리를 부드럽게 이어 말하세요.",
+          "pronKo": "반 오 마우 칵 콩",
+          "pronNoteKo": "không은 ‘콩’처럼 짧게 닫고, 질문 문장에서는 끝을 너무 길게 끌지 마세요.",
           "pronChunks": [
-            "ban co=반 꼬",
-            "mau khac=꼬",
-            "khong=콩"
+            "Bạn có=반 오",
+            "màu khác=마우 칵",
+            "không=콩"
           ]
         },
         {
@@ -3856,11 +3829,13 @@
           "audioSrc": "/audio/l8/l8-s-06.mp3",
           "sourcePage": 91,
           "reviewNeeded": false,
-          "pronKo": "또이 찌 xem thoi",
-          "pronNoteKo": "Tôi chỉ xem thôi.는 처음 소리를 과하게 세게 내지 말고 'thoi'은 마지막 음절은 힘을 빼고 자연스럽게 정리하세요.",
+          "pronKo": "또이 찌 쎔 토이",
+          "pronNoteKo": "ch는 ‘ㅉ’에 가깝게 시작하고, 뒤 모음으로 바로 붙여 말하세요.",
           "pronChunks": [
-            "toi chi=또이 찌",
-            "xem thoi=찌"
+            "Tôi=또이",
+            "chỉ=찌",
+            "xem=쎔",
+            "thôi=토이"
           ]
         }
       ],
@@ -3914,9 +3889,9 @@
           "audioSrc": "/audio/l8/l8-p-01.mp3",
           "sourcePage": 94,
           "reviewNeeded": false,
-          "pronKo": "bao nhieu tien",
-          "mouthKo": "입술을 과하게 힘주지 말고, 자음 시작을 가볍게 낸 뒤 모음을 길게 열어 소리 내세요.",
-          "toneKo": "하노이 기준 성조를 의식해 음의 높낮이를 분명히 하고, 끝은 급하게 끊지 말고 짧게 정리하세요."
+          "pronKo": "바오 니에우 띠엔",
+          "mouthKo": "nh는 ‘냐/녜’ 계열처럼 혀를 입천장에 가볍게 붙였다 떼는 느낌으로 시작하세요.",
+          "toneKo": "내림 성조는 끝을 낮게 떨어뜨립니다."
         },
         {
           "id": "l8-p-02",
@@ -3925,9 +3900,9 @@
           "audioSrc": "/audio/l8/l8-p-02.mp3",
           "sourcePage": 94,
           "reviewNeeded": false,
-          "pronKo": "cai nay bao nhieu tien",
-          "mouthKo": "입술을 과하게 힘주지 말고, 자음 시작을 가볍게 낸 뒤 모음을 길게 열어 소리 내세요.",
-          "toneKo": "하노이 기준 성조를 의식해 음의 높낮이를 분명히 하고, 끝은 급하게 끊지 말고 짧게 정리하세요."
+          "pronKo": "까이 나이 바오 니에우 띠엔",
+          "mouthKo": "nh는 ‘냐/녜’ 계열처럼 혀를 입천장에 가볍게 붙였다 떼는 느낌으로 시작하세요.",
+          "toneKo": "올림 성조는 끝을 살짝 위로 올립니다 / 내림 성조는 끝을 낮게 떨어뜨립니다."
         }
       ],
       "quizSeeds": [
@@ -3984,11 +3959,10 @@
           "audioSrc": "/audio/l9/l9-v-01.mp3",
           "sourcePage": 100,
           "reviewNeeded": false,
-          "pronKo": "o dau",
-          "pronNoteKo": "ở đâu는 앞부분은 끊지 말고 가볍게 붙여서 시작한 뒤 'dau'은 마지막 소리를 부드럽게 이어 말하세요.",
+          "pronKo": "오 더우",
+          "pronNoteKo": "đ는 한국어 ‘ㄷ/ㄸ’에 가깝게 짧게 치고 바로 다음 모음으로 넘어가세요. 물음 성조는 중간을 살짝 꺾는 느낌으로 말합니다.",
           "pronChunks": [
-            "o=o",
-            "dau=dau"
+            "ở đâu=오 더우"
           ]
         },
         {
@@ -4000,11 +3974,10 @@
           "audioSrc": "/audio/l9/l9-v-02.mp3",
           "sourcePage": 100,
           "reviewNeeded": false,
-          "pronKo": "디 thang",
-          "pronNoteKo": "đi thẳng는 처음 소리를 과하게 세게 내지 말고 'thang'은 마지막 음절은 힘을 빼고 자연스럽게 정리하세요.",
+          "pronKo": "디 탕",
+          "pronNoteKo": "đ는 한국어 ‘ㄷ/ㄸ’에 가깝게 짧게 치고 바로 다음 모음으로 넘어가세요. 끝의 콧소리 받침을 살리되, 뒤에 모음을 덧붙이지 마세요.",
           "pronChunks": [
-            "di=디",
-            "thang=thang"
+            "đi thẳng=디 탕"
           ]
         },
         {
@@ -4016,11 +3989,10 @@
           "audioSrc": "/audio/l9/l9-v-03.mp3",
           "sourcePage": 100,
           "reviewNeeded": false,
-          "pronKo": "re trai",
-          "pronNoteKo": "rẽ trái는 첫 음절을 또렷하게 시작하고 'trai'은 끝을 낮게 내리며 정리하세요.",
+          "pronKo": "ㅈ에 짜이",
+          "pronNoteKo": "r은 하노이식으로 ‘ㅈ’에 가깝게 들릴 수 있어요. 혀를 굴리기보다 짧게 시작하세요. 꺾임 성조는 중간에 살짝 흔들어 올리는 느낌입니다 / 올림 성조는 끝을 살짝 위로 올립니다.",
           "pronChunks": [
-            "re=re",
-            "trai=trai"
+            "rẽ trái=ㅈ에 짜이"
           ]
         },
         {
@@ -4032,11 +4004,10 @@
           "audioSrc": "/audio/l9/l9-v-04.mp3",
           "sourcePage": 100,
           "reviewNeeded": false,
-          "pronKo": "re phai",
-          "pronNoteKo": "rẽ phải는 첫 소리를 짧게 잡고 'phai'은 끝음을 짧게 닫아 마무리하세요.",
+          "pronKo": "ㅈ에 파이",
+          "pronNoteKo": "r은 하노이식으로 ‘ㅈ’에 가깝게 들릴 수 있어요. 혀를 굴리기보다 짧게 시작하세요. 꺾임 성조는 중간에 살짝 흔들어 올리는 느낌입니다 / 물음 성조는 중간을 살짝 꺾는 느낌으로 말합니다.",
           "pronChunks": [
-            "re=re",
-            "phai=phai"
+            "rẽ phải=ㅈ에 파이"
           ]
         },
         {
@@ -4048,10 +4019,10 @@
           "audioSrc": "/audio/l9/l9-v-05.mp3",
           "sourcePage": 100,
           "reviewNeeded": false,
-          "pronKo": "gan",
-          "pronNoteKo": "gần는 'gan'을(를) 짧고 또렷하게 내고 마지막 소리를 부드럽게 이어 말하세요.",
+          "pronKo": "건",
+          "pronNoteKo": "마지막 m/n 받침은 입을 닫거나 혀를 붙인 채 짧게 마무리하세요. 내림 성조는 끝을 낮게 떨어뜨립니다.",
           "pronChunks": [
-            "gan=gan"
+            "gần=건"
           ]
         },
         {
@@ -4063,10 +4034,10 @@
           "audioSrc": "/audio/l9/l9-v-06.mp3",
           "sourcePage": 100,
           "reviewNeeded": false,
-          "pronKo": "xa",
-          "pronNoteKo": "xa는 'xa'을(를) 짧고 또렷하게 내고 마지막 음절은 힘을 빼고 자연스럽게 정리하세요.",
+          "pronKo": "싸",
+          "pronNoteKo": "x는 ‘ㅆ/ㅅ’처럼 가볍게 시작하고, 뒤 모음을 길게 끌지 마세요. 성조가 없는 음절은 높낮이를 과하게 만들지 말고 평평하고 짧게 말하세요.",
           "pronChunks": [
-            "xa=xa"
+            "xa=싸"
           ]
         },
         {
@@ -4078,10 +4049,10 @@
           "audioSrc": "/audio/l9/l9-v-07.mp3",
           "sourcePage": 100,
           "reviewNeeded": false,
-          "pronKo": "taxi",
-          "pronNoteKo": "taxi는 'taxi'을(를) 짧고 또렷하게 내고 끝을 낮게 내리며 정리하세요.",
+          "pronKo": "택시",
+          "pronNoteKo": "성조가 없는 음절은 높낮이를 과하게 만들지 말고 평평하고 짧게 말하세요.",
           "pronChunks": [
-            "taxi=taxi"
+            "taxi=택시"
           ]
         },
         {
@@ -4093,11 +4064,10 @@
           "audioSrc": "/audio/l9/l9-v-08.mp3",
           "sourcePage": 100,
           "reviewNeeded": false,
-          "pronKo": "xe buyt",
-          "pronNoteKo": "xe buýt는 첫 소리를 짧게 잡고 'buyt'은 끝음을 짧게 닫아 마무리하세요.",
+          "pronKo": "쎄 뷧",
+          "pronNoteKo": "x는 ‘ㅆ/ㅅ’처럼 가볍게 시작하고, 뒤 모음을 길게 끌지 마세요. 마지막 받침은 길게 끌지 말고 짧게 닫아 주세요.",
           "pronChunks": [
-            "xe=xe",
-            "buyt=buyt"
+            "xe buýt=쎄 뷧"
           ]
         },
         {
@@ -4109,11 +4079,10 @@
           "audioSrc": "/audio/l9/l9-v-09.mp3",
           "sourcePage": 100,
           "reviewNeeded": false,
-          "pronKo": "xe may",
-          "pronNoteKo": "xe máy는 앞부분은 끊지 말고 가볍게 붙여서 시작한 뒤 'may'은 마지막 소리를 부드럽게 이어 말하세요.",
+          "pronKo": "쎄 마이",
+          "pronNoteKo": "x는 ‘ㅆ/ㅅ’처럼 가볍게 시작하고, 뒤 모음을 길게 끌지 마세요. 올림 성조는 끝을 살짝 위로 올립니다.",
           "pronChunks": [
-            "xe=xe",
-            "may=may"
+            "xe máy=쎄 마이"
           ]
         },
         {
@@ -4125,11 +4094,12 @@
           "audioSrc": "/audio/l9/l9-v-10.mp3",
           "sourcePage": 100,
           "reviewNeeded": false,
-          "pronKo": "ho hoan kiem",
-          "pronNoteKo": "Hồ Hoàn Kiếm는 앞부분은 끊지 말고 가볍게 붙여서 시작한 뒤 'kiem'은 마지막 소리를 부드럽게 이어 말하세요.",
+          "pronKo": "호 호안 끼엠",
+          "pronNoteKo": "마지막 m/n 받침은 입을 닫거나 혀를 붙인 채 짧게 마무리하세요.",
           "pronChunks": [
-            "ho hoan=ho",
-            "kiem=hoan"
+            "Hồ=호",
+            "Hoàn=호안",
+            "Kiếm=끼엠"
           ]
         }
       ],
@@ -4141,12 +4111,13 @@
           "audioSrc": "/audio/l9/l9-s-01.mp3",
           "sourcePage": 101,
           "reviewNeeded": false,
-          "pronKo": "cho 또이 hoi 냐 hang o dau",
-          "pronNoteKo": "Cho tôi hỏi, nhà hàng ở đâu?는 처음 소리를 과하게 세게 내지 말고 'dau'은 마지막 음절은 힘을 빼고 자연스럽게 정리하세요.",
+          "pronKo": "쩌 또이 호이 냐 항 오 더우",
+          "pronNoteKo": "ch는 ‘ㅉ’에 가깝게 시작하고, 뒤 모음으로 바로 붙여 말하세요.",
           "pronChunks": [
-            "cho toi hoi=cho",
-            "nha hang o=또이",
-            "dau=hoi"
+            "Cho tôi=쩌 또이",
+            "hỏi nhà=호이 냐",
+            "hàng ở=항 오",
+            "đâu=더우"
           ]
         },
         {
@@ -4156,12 +4127,12 @@
           "audioSrc": "/audio/l9/l9-s-02.mp3",
           "sourcePage": 101,
           "reviewNeeded": false,
-          "pronKo": "반 디 thang 조이 re phai",
-          "pronNoteKo": "Bạn đi thẳng rồi rẽ phải.는 첫 음절을 또렷하게 시작하고 'phai'은 끝을 낮게 내리며 정리하세요.",
+          "pronKo": "반 디 탕 조이 ㅈ에 파이",
+          "pronNoteKo": "đ는 한국어 ‘ㄷ/ㄸ’에 가깝게 짧게 치고 바로 다음 모음으로 넘어가세요.",
           "pronChunks": [
-            "ban di=반 디",
-            "thang roi=디",
-            "re phai=thang"
+            "Bạn đi=반 디",
+            "thẳng rồi=탕 조이",
+            "rẽ phải=ㅈ에 파이"
           ]
         },
         {
@@ -4171,12 +4142,13 @@
           "audioSrc": "/audio/l9/l9-s-03.mp3",
           "sourcePage": 101,
           "reviewNeeded": false,
-          "pronKo": "tu day den ho hoan kiem bao xa",
-          "pronNoteKo": "Từ đây đến Hồ Hoàn Kiếm bao xa?는 첫 소리를 짧게 잡고 'xa'은 끝음을 짧게 닫아 마무리하세요.",
+          "pronKo": "뜨 더이 덴 호 호안 끼엠 바오 싸",
+          "pronNoteKo": "đ는 한국어 ‘ㄷ/ㄸ’에 가깝게 짧게 치고 바로 다음 모음으로 넘어가세요.",
           "pronChunks": [
-            "tu day den=tu",
-            "ho hoan kiem=day",
-            "bao xa=den"
+            "Từ đây=뜨 더이",
+            "đến Hồ=덴 호",
+            "Hoàn Kiếm=호안 끼엠",
+            "bao xa=바오 싸"
           ]
         },
         {
@@ -4186,12 +4158,12 @@
           "audioSrc": "/audio/l9/l9-s-04.mp3",
           "sourcePage": 101,
           "reviewNeeded": false,
-          "pronKo": "또이 무온 디 den san 버이",
-          "pronNoteKo": "Tôi muốn đi đến sân bay.는 앞부분은 끊지 말고 가볍게 붙여서 시작한 뒤 '버이'은 마지막 소리를 부드럽게 이어 말하세요.",
+          "pronKo": "또이 무온 디 덴 써ㄴ 바이",
+          "pronNoteKo": "đ는 한국어 ‘ㄷ/ㄸ’에 가깝게 짧게 치고 바로 다음 모음으로 넘어가세요.",
           "pronChunks": [
-            "toi muon=또이 무온",
-            "di den=무온",
-            "san bay=디"
+            "Tôi muốn=또이 무온",
+            "đi đến=디 덴",
+            "sân bay=써ㄴ 바이"
           ]
         },
         {
@@ -4201,12 +4173,12 @@
           "audioSrc": "/audio/l9/l9-s-05.mp3",
           "sourcePage": 101,
           "reviewNeeded": false,
-          "pronKo": "또이 디 taxi 비 no tien",
-          "pronNoteKo": "Tôi đi taxi vì nó tiện.는 처음 소리를 과하게 세게 내지 말고 'tien'은 마지막 음절은 힘을 빼고 자연스럽게 정리하세요.",
+          "pronKo": "또이 디 택시 비 노 띠엔",
+          "pronNoteKo": "đ는 한국어 ‘ㄷ/ㄸ’에 가깝게 짧게 치고 바로 다음 모음으로 넘어가세요.",
           "pronChunks": [
-            "toi di=또이 디",
-            "taxi vi=디",
-            "no tien=taxi"
+            "Tôi đi=또이 디",
+            "taxi vì=택시 비",
+            "nó tiện=노 띠엔"
           ]
         },
         {
@@ -4216,12 +4188,13 @@
           "audioSrc": "/audio/l9/l9-s-06.mp3",
           "sourcePage": 101,
           "reviewNeeded": false,
-          "pronKo": "o 하 노이 giao thong hoi dong",
-          "pronNoteKo": "Ở Hà Nội, giao thông hơi đông.는 첫 음절을 또렷하게 시작하고 'dong'은 끝을 낮게 내리며 정리하세요.",
+          "pronKo": "오 어 오이 자오 통 허이 동",
+          "pronNoteKo": "gi는 북부식으로 ‘지/자’ 계열에 가깝습니다. 영어 g처럼 세게 내지 마세요.",
           "pronChunks": [
-            "o ha noi=o",
-            "giao thong hoi=하",
-            "dong=노이"
+            "Ở Hà=오 어",
+            "Nội giao=오이 자오",
+            "thông hơi=통 허이",
+            "đông=동"
           ]
         }
       ],
@@ -4275,9 +4248,9 @@
           "audioSrc": "/audio/l9/l9-p-01.mp3",
           "sourcePage": 104,
           "reviewNeeded": false,
-          "pronKo": "o dau",
-          "mouthKo": "입술을 과하게 힘주지 말고, 자음 시작을 가볍게 낸 뒤 모음을 길게 열어 소리 내세요.",
-          "toneKo": "하노이 기준 성조를 의식해 음의 높낮이를 분명히 하고, 끝은 급하게 끊지 말고 짧게 정리하세요."
+          "pronKo": "오 더우",
+          "mouthKo": "đ는 한국어 ‘ㄷ/ㄸ’에 가깝게 짧게 치고 바로 다음 모음으로 넘어가세요.",
+          "toneKo": "물음 성조는 중간을 살짝 꺾는 느낌으로 말합니다."
         },
         {
           "id": "l9-p-02",
@@ -4286,9 +4259,9 @@
           "audioSrc": "/audio/l9/l9-p-02.mp3",
           "sourcePage": 104,
           "reviewNeeded": false,
-          "pronKo": "cho 또이 hoi 냐 hang o dau",
-          "mouthKo": "입술을 과하게 힘주지 말고, 자음 시작을 가볍게 낸 뒤 모음을 길게 열어 소리 내세요.",
-          "toneKo": "하노이 기준 성조를 의식해 음의 높낮이를 분명히 하고, 끝은 급하게 끊지 말고 짧게 정리하세요."
+          "pronKo": "쩌 또이 호이 냐 항 오 더우",
+          "mouthKo": "ch는 ‘ㅉ’에 가깝게 시작하고, 뒤 모음으로 바로 붙여 말하세요.",
+          "toneKo": "물음 성조는 중간을 살짝 꺾는 느낌으로 말합니다 / 내림 성조는 끝을 낮게 떨어뜨립니다."
         }
       ],
       "quizSeeds": [
@@ -4345,9 +4318,9 @@
           "sourcePage": 110,
           "reviewNeeded": false,
           "pronKo": "냐",
-          "pronNoteKo": "nhà는 '냐'을(를) 짧고 또렷하게 내고 마지막 소리를 부드럽게 이어 말하세요.",
+          "pronNoteKo": "nh는 ‘냐/녜’ 계열처럼 혀를 입천장에 가볍게 붙였다 떼는 느낌으로 시작하세요. 내림 성조는 끝을 낮게 떨어뜨립니다.",
           "pronChunks": [
-            "nha=냐"
+            "nhà=냐"
           ]
         },
         {
@@ -4359,11 +4332,10 @@
           "audioSrc": "/audio/l10/l10-v-02.mp3",
           "sourcePage": 110,
           "reviewNeeded": false,
-          "pronKo": "can ho",
-          "pronNoteKo": "căn hộ는 처음 소리를 과하게 세게 내지 말고 'ho'은 마지막 음절은 힘을 빼고 자연스럽게 정리하세요.",
+          "pronKo": "깐 호",
+          "pronNoteKo": "무거운 성조는 짧고 낮게 눌러 끝냅니다.",
           "pronChunks": [
-            "can=can",
-            "ho=ho"
+            "căn hộ=깐 호"
           ]
         },
         {
@@ -4375,11 +4347,10 @@
           "audioSrc": "/audio/l10/l10-v-03.mp3",
           "sourcePage": 110,
           "reviewNeeded": false,
-          "pronKo": "phong khach",
-          "pronNoteKo": "phòng khách는 첫 음절을 또렷하게 시작하고 'khach'은 끝을 낮게 내리며 정리하세요.",
+          "pronKo": "퐁 카익",
+          "pronNoteKo": "ph는 영어 f에 가까워요. ‘프’라고 세게 닫기보다 입술 사이로 바람을 살짝 내보내세요. 내림 성조는 끝을 낮게 떨어뜨립니다 / 올림 성조는 끝을 살짝 위로 올립니다.",
           "pronChunks": [
-            "phong=phong",
-            "khach=khach"
+            "phòng khách=퐁 카익"
           ]
         },
         {
@@ -4391,11 +4362,10 @@
           "audioSrc": "/audio/l10/l10-v-04.mp3",
           "sourcePage": 110,
           "reviewNeeded": false,
-          "pronKo": "phong ngu",
-          "pronNoteKo": "phòng ngủ는 첫 소리를 짧게 잡고 'ngu'은 끝음을 짧게 닫아 마무리하세요.",
+          "pronKo": "퐁 응우",
+          "pronNoteKo": "ph는 영어 f에 가까워요. ‘프’라고 세게 닫기보다 입술 사이로 바람을 살짝 내보내세요. 내림 성조는 끝을 낮게 떨어뜨립니다 / 물음 성조는 중간을 살짝 꺾는 느낌으로 말합니다.",
           "pronChunks": [
-            "phong=phong",
-            "ngu=ngu"
+            "phòng ngủ=퐁 응우"
           ]
         },
         {
@@ -4407,11 +4377,10 @@
           "audioSrc": "/audio/l10/l10-v-05.mp3",
           "sourcePage": 110,
           "reviewNeeded": false,
-          "pronKo": "냐 bep",
-          "pronNoteKo": "nhà bếp는 앞부분은 끊지 말고 가볍게 붙여서 시작한 뒤 'bep'은 마지막 소리를 부드럽게 이어 말하세요.",
+          "pronKo": "냐 벱",
+          "pronNoteKo": "nh는 ‘냐/녜’ 계열처럼 혀를 입천장에 가볍게 붙였다 떼는 느낌으로 시작하세요. 마지막 받침은 길게 끌지 말고 짧게 닫아 주세요.",
           "pronChunks": [
-            "nha=냐",
-            "bep=bep"
+            "nhà bếp=냐 벱"
           ]
         },
         {
@@ -4423,11 +4392,10 @@
           "audioSrc": "/audio/l10/l10-v-06.mp3",
           "sourcePage": 110,
           "reviewNeeded": false,
-          "pronKo": "반 cong",
-          "pronNoteKo": "ban công는 처음 소리를 과하게 세게 내지 말고 'cong'은 마지막 음절은 힘을 빼고 자연스럽게 정리하세요.",
+          "pronKo": "반 꽁",
+          "pronNoteKo": "끝의 콧소리 받침을 살리되, 뒤에 모음을 덧붙이지 마세요. 성조가 없는 음절은 높낮이를 과하게 만들지 말고 평평하고 짧게 말하세요.",
           "pronChunks": [
-            "ban=반",
-            "cong=cong"
+            "ban công=반 꽁"
           ]
         },
         {
@@ -4439,11 +4407,10 @@
           "audioSrc": "/audio/l10/l10-v-07.mp3",
           "sourcePage": 110,
           "reviewNeeded": false,
-          "pronKo": "sieu thi",
-          "pronNoteKo": "siêu thị는 첫 음절을 또렷하게 시작하고 'thi'은 끝을 낮게 내리며 정리하세요.",
+          "pronKo": "시에우 티",
+          "pronNoteKo": "th는 영어 th가 아니라 한국어 ‘ㅌ’에 가깝게 짧고 가볍게 시작하세요. 무거운 성조는 짧고 낮게 눌러 끝냅니다.",
           "pronChunks": [
-            "sieu=sieu",
-            "thi=thi"
+            "siêu thị=시에우 티"
           ]
         },
         {
@@ -4455,11 +4422,10 @@
           "audioSrc": "/audio/l10/l10-v-08.mp3",
           "sourcePage": 110,
           "reviewNeeded": false,
-          "pronKo": "cong vien",
-          "pronNoteKo": "công viên는 첫 소리를 짧게 잡고 'vien'은 끝음을 짧게 닫아 마무리하세요.",
+          "pronKo": "꽁 비엔",
+          "pronNoteKo": "v는 한국어 ㅂ보다 입술을 가볍게 붙였다 떼는 느낌입니다. 너무 강하게 터뜨리지 마세요. 마지막 m/n 받침은 입을 닫거나 혀를 붙인 채 짧게 마무리하세요.",
           "pronChunks": [
-            "cong=cong",
-            "vien=vien"
+            "công viên=꽁 비엔"
           ]
         },
         {
@@ -4471,11 +4437,10 @@
           "audioSrc": "/audio/l10/l10-v-09.mp3",
           "sourcePage": 110,
           "reviewNeeded": false,
-          "pronKo": "yen tinh",
-          "pronNoteKo": "yên tĩnh는 앞부분은 끊지 말고 가볍게 붙여서 시작한 뒤 'tinh'은 마지막 소리를 부드럽게 이어 말하세요.",
+          "pronKo": "이엔 띤",
+          "pronNoteKo": "끝의 콧소리 받침을 살리되, 뒤에 모음을 덧붙이지 마세요. 꺾임 성조는 중간에 살짝 흔들어 올리는 느낌입니다.",
           "pronChunks": [
-            "yen=yen",
-            "tinh=tinh"
+            "yên tĩnh=이엔 띤"
           ]
         },
         {
@@ -4487,11 +4452,10 @@
           "audioSrc": "/audio/l10/l10-v-10.mp3",
           "sourcePage": 110,
           "reviewNeeded": false,
-          "pronKo": "tien loi",
-          "pronNoteKo": "tiện lợi는 앞부분은 끊지 말고 가볍게 붙여서 시작한 뒤 'loi'은 마지막 소리를 부드럽게 이어 말하세요.",
+          "pronKo": "띠엔 러이",
+          "pronNoteKo": "무거운 성조는 짧고 낮게 눌러 끝냅니다.",
           "pronChunks": [
-            "tien=tien",
-            "loi=loi"
+            "tiện lợi=띠엔 러이"
           ]
         }
       ],
@@ -4503,12 +4467,13 @@
           "audioSrc": "/audio/l10/l10-s-01.mp3",
           "sourcePage": 111,
           "reviewNeeded": false,
-          "pronKo": "또이 song o 못 can ho gan seoul",
-          "pronNoteKo": "Tôi sống ở một căn hộ gần Seoul.는 처음 소리를 과하게 세게 내지 말고 'seoul'은 마지막 음절은 힘을 빼고 자연스럽게 정리하세요.",
+          "pronKo": "또이 쏭 오 못 깐 호 건 서울",
+          "pronNoteKo": "성조가 여러 개 섞여 있으니 한 톤으로 평평하게 읽지 말고, 각 덩어리의 높낮이를 분리해 주세요.",
           "pronChunks": [
-            "toi song o=또이",
-            "mot can ho=song",
-            "gan seoul=o"
+            "Tôi sống=또이 쏭",
+            "ở một=오 못",
+            "căn hộ=깐 호",
+            "gần Seoul=건 서울"
           ]
         },
         {
@@ -4518,12 +4483,13 @@
           "audioSrc": "/audio/l10/l10-s-02.mp3",
           "sourcePage": 111,
           "reviewNeeded": false,
-          "pronKo": "냐 또이 콩 lon nhung 젓 tien loi",
-          "pronNoteKo": "Nhà tôi không lớn nhưng rất tiện lợi.는 첫 음절을 또렷하게 시작하고 'loi'은 끝을 낮게 내리며 정리하세요.",
+          "pronKo": "냐 또이 콩 런 능 젓 띠엔 러이",
+          "pronNoteKo": "không은 ‘콩’처럼 짧게 닫고, 질문 문장에서는 끝을 너무 길게 끌지 마세요.",
           "pronChunks": [
-            "nha toi khong=냐 또이 콩",
-            "lon nhung rat=또이",
-            "tien loi=콩"
+            "Nhà tôi=냐 또이",
+            "không lớn=콩 런",
+            "nhưng rất=능 젓",
+            "tiện lợi=띠엔 러이"
           ]
         },
         {
@@ -4533,12 +4499,12 @@
           "audioSrc": "/audio/l10/l10-s-03.mp3",
           "sourcePage": 111,
           "reviewNeeded": false,
-          "pronKo": "gan 냐 또이 꼬 sieu thi va cong vien",
-          "pronNoteKo": "Gần nhà tôi có siêu thị và công viên.는 첫 소리를 짧게 잡고 'vien'은 끝음을 짧게 닫아 마무리하세요.",
+          "pronKo": "건 냐 또이 오 시에우 티 바 꽁 비엔",
+          "pronNoteKo": "nh는 ‘냐/녜’ 계열처럼 혀를 입천장에 가볍게 붙였다 떼는 느낌으로 시작하세요.",
           "pronChunks": [
-            "gan nha toi=gan",
-            "co sieu thi=냐",
-            "va cong vien=또이"
+            "Gần nhà tôi=건 냐 또이",
+            "có siêu thị=오 시에우 티",
+            "và công viên=바 꽁 비엔"
           ]
         },
         {
@@ -4548,12 +4514,12 @@
           "audioSrc": "/audio/l10/l10-s-04.mp3",
           "sourcePage": 111,
           "reviewNeeded": false,
-          "pronKo": "khu 퍼 cua 또이 yen tinh",
-          "pronNoteKo": "Khu phố của tôi yên tĩnh.는 앞부분은 끊지 말고 가볍게 붙여서 시작한 뒤 'tinh'은 마지막 소리를 부드럽게 이어 말하세요.",
+          "pronKo": "쿠 포 꾸아 또이 이엔 띤",
+          "pronNoteKo": "kh는 세게 긁는 소리가 아니라 ‘ㅋ’에 바람을 살짝 얹는 정도로 내세요.",
           "pronChunks": [
-            "khu pho=khu",
-            "cua toi=퍼",
-            "yen tinh=cua"
+            "Khu phố=쿠 포",
+            "của tôi=꾸아 또이",
+            "yên tĩnh=이엔 띤"
           ]
         },
         {
@@ -4563,12 +4529,13 @@
           "audioSrc": "/audio/l10/l10-s-05.mp3",
           "sourcePage": 111,
           "reviewNeeded": false,
-          "pronKo": "또이 thich 냐 또이 비 no am ap",
-          "pronNoteKo": "Tôi thích nhà tôi vì nó ấm áp.는 처음 소리를 과하게 세게 내지 말고 'ap'은 마지막 음절은 힘을 빼고 자연스럽게 정리하세요.",
+          "pronKo": "또이 틱 냐 또이 비 노 엄 압",
+          "pronNoteKo": "th는 영어 th가 아니라 한국어 ‘ㅌ’에 가깝게 짧고 가볍게 시작하세요.",
           "pronChunks": [
-            "toi thich nha=또이",
-            "toi vi no=thich",
-            "am ap=냐"
+            "Tôi thích=또이 틱",
+            "nhà tôi=냐 또이",
+            "vì nó=비 노",
+            "ấm áp=엄 압"
           ]
         },
         {
@@ -4578,12 +4545,12 @@
           "audioSrc": "/audio/l10/l10-s-06.mp3",
           "sourcePage": 111,
           "reviewNeeded": false,
-          "pronKo": "trong tuong lai 또이 무온 song o 하 노이",
-          "pronNoteKo": "Trong tương lai, tôi muốn sống ở Hà Nội.는 첫 음절을 또렷하게 시작하고 '노이'은 끝을 낮게 내리며 정리하세요.",
+          "pronKo": "쯔오ㅇ 뜨엉 라이 또이 무온 쏭 오 어 오이",
+          "pronNoteKo": "tr은 북부식으로 ‘쯔/찌’에 가깝게 짧게 시작하면 됩니다. 너무 굴리지 마세요.",
           "pronChunks": [
-            "trong tuong lai=trong",
-            "toi muon song=tuong",
-            "o ha noi=lai"
+            "Trong tương lai=쯔오ㅇ 뜨엉 라이",
+            "tôi muốn sống=또이 무온 쏭",
+            "ở Hà Nội=오 어 오이"
           ]
         }
       ],
@@ -4638,8 +4605,8 @@
           "sourcePage": 114,
           "reviewNeeded": false,
           "pronKo": "냐",
-          "mouthKo": "입술을 과하게 힘주지 말고, 자음 시작을 가볍게 낸 뒤 모음을 길게 열어 소리 내세요.",
-          "toneKo": "하노이 기준 성조를 의식해 음의 높낮이를 분명히 하고, 끝은 급하게 끊지 말고 짧게 정리하세요."
+          "mouthKo": "nh는 ‘냐/녜’ 계열처럼 혀를 입천장에 가볍게 붙였다 떼는 느낌으로 시작하세요.",
+          "toneKo": "내림 성조는 끝을 낮게 떨어뜨립니다."
         },
         {
           "id": "l10-p-02",
@@ -4648,9 +4615,9 @@
           "audioSrc": "/audio/l10/l10-p-02.mp3",
           "sourcePage": 114,
           "reviewNeeded": false,
-          "pronKo": "또이 song o 못 can ho gan seoul",
-          "mouthKo": "입술을 과하게 힘주지 말고, 자음 시작을 가볍게 낸 뒤 모음을 길게 열어 소리 내세요.",
-          "toneKo": "하노이 기준 성조를 의식해 음의 높낮이를 분명히 하고, 끝은 급하게 끊지 말고 짧게 정리하세요."
+          "pronKo": "또이 쏭 오 못 깐 호 건 서울",
+          "mouthKo": "입술과 턱에 힘을 빼고, 각 음절의 모음을 짧고 또렷하게 비교해 보세요.",
+          "toneKo": "성조가 여러 개 섞여 있으니 한 톤으로 평평하게 읽지 말고, 각 덩어리의 높낮이를 분리해 주세요."
         }
       ],
       "quizSeeds": [
@@ -4707,11 +4674,10 @@
           "audioSrc": "/audio/l11/l11-v-01.mp3",
           "sourcePage": 120,
           "reviewNeeded": false,
-          "pronKo": "du lich",
-          "pronNoteKo": "du lịch는 처음 소리를 과하게 세게 내지 말고 'lich'은 마지막 음절은 힘을 빼고 자연스럽게 정리하세요.",
+          "pronKo": "주 릭",
+          "pronNoteKo": "무거운 성조는 짧고 낮게 눌러 끝냅니다.",
           "pronChunks": [
-            "du=du",
-            "lich=lich"
+            "du lịch=주 릭"
           ]
         },
         {
@@ -4723,11 +4689,10 @@
           "audioSrc": "/audio/l11/l11-v-02.mp3",
           "sourcePage": 120,
           "reviewNeeded": false,
-          "pronKo": "san 버이",
-          "pronNoteKo": "sân bay는 첫 음절을 또렷하게 시작하고 '버이'은 끝을 낮게 내리며 정리하세요.",
+          "pronKo": "써ㄴ 바이",
+          "pronNoteKo": "성조가 없는 음절은 높낮이를 과하게 만들지 말고 평평하고 짧게 말하세요.",
           "pronChunks": [
-            "san=san",
-            "bay=버이"
+            "sân bay=써ㄴ 바이"
           ]
         },
         {
@@ -4739,11 +4704,10 @@
           "audioSrc": "/audio/l11/l11-v-03.mp3",
           "sourcePage": 120,
           "reviewNeeded": false,
-          "pronKo": "khach san",
-          "pronNoteKo": "khách sạn는 첫 소리를 짧게 잡고 'san'은 끝음을 짧게 닫아 마무리하세요.",
+          "pronKo": "카익 산",
+          "pronNoteKo": "kh는 세게 긁는 소리가 아니라 ‘ㅋ’에 바람을 살짝 얹는 정도로 내세요. 마지막 m/n 받침은 입을 닫거나 혀를 붙인 채 짧게 마무리하세요.",
           "pronChunks": [
-            "khach=khach",
-            "san=san"
+            "khách sạn=카익 산"
           ]
         },
         {
@@ -4755,11 +4719,10 @@
           "audioSrc": "/audio/l11/l11-v-04.mp3",
           "sourcePage": 120,
           "reviewNeeded": false,
-          "pronKo": "ho 찌에우",
-          "pronNoteKo": "hộ chiếu는 앞부분은 끊지 말고 가볍게 붙여서 시작한 뒤 '찌에우'은 마지막 소리를 부드럽게 이어 말하세요.",
+          "pronKo": "호 찌에우",
+          "pronNoteKo": "ch는 ‘ㅉ’에 가깝게 시작하고, 뒤 모음으로 바로 붙여 말하세요. 무거운 성조는 짧고 낮게 눌러 끝냅니다 / 올림 성조는 끝을 살짝 위로 올립니다.",
           "pronChunks": [
-            "ho=ho",
-            "chieu=찌에우"
+            "hộ chiếu=호 찌에우"
           ]
         },
         {
@@ -4771,11 +4734,10 @@
           "audioSrc": "/audio/l11/l11-v-05.mp3",
           "sourcePage": 120,
           "reviewNeeded": false,
-          "pronKo": "dat phong",
-          "pronNoteKo": "đặt phòng는 처음 소리를 과하게 세게 내지 말고 'phong'은 마지막 음절은 힘을 빼고 자연스럽게 정리하세요.",
+          "pronKo": "닷 퐁",
+          "pronNoteKo": "đ는 한국어 ‘ㄷ/ㄸ’에 가깝게 짧게 치고 바로 다음 모음으로 넘어가세요. 끝의 콧소리 받침을 살리되, 뒤에 모음을 덧붙이지 마세요.",
           "pronChunks": [
-            "dat=dat",
-            "phong=phong"
+            "đặt phòng=닷 퐁"
           ]
         },
         {
@@ -4787,11 +4749,10 @@
           "audioSrc": "/audio/l11/l11-v-06.mp3",
           "sourcePage": 120,
           "reviewNeeded": false,
-          "pronKo": "nhan phong",
-          "pronNoteKo": "nhận phòng는 첫 음절을 또렷하게 시작하고 'phong'은 끝을 낮게 내리며 정리하세요.",
+          "pronKo": "년 퐁",
+          "pronNoteKo": "nh는 ‘냐/녜’ 계열처럼 혀를 입천장에 가볍게 붙였다 떼는 느낌으로 시작하세요. 끝의 콧소리 받침을 살리되, 뒤에 모음을 덧붙이지 마세요.",
           "pronChunks": [
-            "nhan=nhan",
-            "phong=phong"
+            "nhận phòng=년 퐁"
           ]
         },
         {
@@ -4803,11 +4764,10 @@
           "audioSrc": "/audio/l11/l11-v-07.mp3",
           "sourcePage": 120,
           "reviewNeeded": false,
-          "pronKo": "tra phong",
-          "pronNoteKo": "trả phòng는 첫 소리를 짧게 잡고 'phong'은 끝음을 짧게 닫아 마무리하세요.",
+          "pronKo": "짜 퐁",
+          "pronNoteKo": "tr은 북부식으로 ‘쯔/찌’에 가깝게 짧게 시작하면 됩니다. 너무 굴리지 마세요. 끝의 콧소리 받침을 살리되, 뒤에 모음을 덧붙이지 마세요.",
           "pronChunks": [
-            "tra=tra",
-            "phong=phong"
+            "trả phòng=짜 퐁"
           ]
         },
         {
@@ -4819,11 +4779,10 @@
           "audioSrc": "/audio/l11/l11-v-08.mp3",
           "sourcePage": 120,
           "reviewNeeded": false,
-          "pronKo": "hanh ly",
-          "pronNoteKo": "hành lý는 앞부분은 끊지 말고 가볍게 붙여서 시작한 뒤 'ly'은 마지막 소리를 부드럽게 이어 말하세요.",
+          "pronKo": "한 리",
+          "pronNoteKo": "내림 성조는 끝을 낮게 떨어뜨립니다 / 올림 성조는 끝을 살짝 위로 올립니다.",
           "pronChunks": [
-            "hanh=hanh",
-            "ly=ly"
+            "hành lý=한 리"
           ]
         },
         {
@@ -4835,10 +4794,10 @@
           "audioSrc": "/audio/l11/l11-v-09.mp3",
           "sourcePage": 120,
           "reviewNeeded": false,
-          "pronKo": "ve",
-          "pronNoteKo": "vé는 've'을(를) 짧고 또렷하게 내고 마지막 음절은 힘을 빼고 자연스럽게 정리하세요.",
+          "pronKo": "베",
+          "pronNoteKo": "v는 한국어 ㅂ보다 입술을 가볍게 붙였다 떼는 느낌입니다. 너무 강하게 터뜨리지 마세요. 올림 성조는 끝을 살짝 위로 올립니다.",
           "pronChunks": [
-            "ve=ve"
+            "vé=베"
           ]
         },
         {
@@ -4850,11 +4809,10 @@
           "audioSrc": "/audio/l11/l11-v-10.mp3",
           "sourcePage": 120,
           "reviewNeeded": false,
-          "pronKo": "바 ngay",
-          "pronNoteKo": "ba ngày는 처음 소리를 과하게 세게 내지 말고 'ngay'은 마지막 음절은 힘을 빼고 자연스럽게 정리하세요.",
+          "pronKo": "바 응아이",
+          "pronNoteKo": "ng는 단어 앞에서도 ‘응’처럼 시작합니다. 처음에 짧은 ‘으’를 붙이는 느낌이면 따라 하기 쉬워요. 내림 성조는 끝을 낮게 떨어뜨립니다.",
           "pronChunks": [
-            "ba=바",
-            "ngay=ngay"
+            "ba ngày=바 응아이"
           ]
         }
       ],
@@ -4866,12 +4824,13 @@
           "audioSrc": "/audio/l11/l11-s-01.mp3",
           "sourcePage": 121,
           "reviewNeeded": false,
-          "pronKo": "또이 thich 디 du lich voi gia dinh",
-          "pronNoteKo": "Tôi thích đi du lịch với gia đình.는 첫 음절을 또렷하게 시작하고 'dinh'은 끝을 낮게 내리며 정리하세요.",
+          "pronKo": "또이 틱 디 주 릭 버이 자 딘",
+          "pronNoteKo": "th는 영어 th가 아니라 한국어 ‘ㅌ’에 가깝게 짧고 가볍게 시작하세요.",
           "pronChunks": [
-            "toi thich di=또이",
-            "du lich voi=thich",
-            "gia dinh=디"
+            "Tôi thích=또이 틱",
+            "đi du=디 주",
+            "lịch với=릭 버이",
+            "gia đình=자 딘"
           ]
         },
         {
@@ -4881,12 +4840,13 @@
           "audioSrc": "/audio/l11/l11-s-02.mp3",
           "sourcePage": 121,
           "reviewNeeded": false,
-          "pronKo": "또이 무온 디 하 노이 vao 남 사우",
-          "pronNoteKo": "Tôi muốn đi Hà Nội vào năm sau.는 첫 소리를 짧게 잡고 '사우'은 끝음을 짧게 닫아 마무리하세요.",
+          "pronKo": "또이 무온 디 어 오이 아오 남 싸우",
+          "pronNoteKo": "đ는 한국어 ‘ㄷ/ㄸ’에 가깝게 짧게 치고 바로 다음 모음으로 넘어가세요.",
           "pronChunks": [
-            "toi muon di=또이 무온 디",
-            "ha noi vao=무온",
-            "nam sau=남 사우"
+            "Tôi muốn=또이 무온",
+            "đi Hà=디 어",
+            "Nội vào=오이 아오",
+            "năm sau=남 싸우"
           ]
         },
         {
@@ -4896,12 +4856,12 @@
           "audioSrc": "/audio/l11/l11-s-03.mp3",
           "sourcePage": 121,
           "reviewNeeded": false,
-          "pronKo": "또이 da dat phong 조이",
-          "pronNoteKo": "Tôi đã đặt phòng rồi.는 앞부분은 끊지 말고 가볍게 붙여서 시작한 뒤 '조이'은 마지막 소리를 부드럽게 이어 말하세요.",
+          "pronKo": "또이 다 닷 퐁 조이",
+          "pronNoteKo": "đ는 한국어 ‘ㄷ/ㄸ’에 가깝게 짧게 치고 바로 다음 모음으로 넘어가세요.",
           "pronChunks": [
-            "toi da=또이",
-            "dat phong=da",
-            "roi=조이"
+            "Tôi đã=또이 다",
+            "đặt phòng=닷 퐁",
+            "rồi=조이"
           ]
         },
         {
@@ -4911,11 +4871,13 @@
           "audioSrc": "/audio/l11/l11-s-04.mp3",
           "sourcePage": 121,
           "reviewNeeded": false,
-          "pronKo": "또이 무온 nhan phong",
-          "pronNoteKo": "Tôi muốn nhận phòng.는 처음 소리를 과하게 세게 내지 말고 'phong'은 마지막 음절은 힘을 빼고 자연스럽게 정리하세요.",
+          "pronKo": "또이 무온 년 퐁",
+          "pronNoteKo": "nh는 ‘냐/녜’ 계열처럼 혀를 입천장에 가볍게 붙였다 떼는 느낌으로 시작하세요. 끝의 콧소리 받침을 살리되, 뒤에 모음을 덧붙이지 마세요.",
           "pronChunks": [
-            "toi muon=또이 무온",
-            "nhan phong=무온"
+            "Tôi=또이",
+            "muốn=무온",
+            "nhận=년",
+            "phòng=퐁"
           ]
         },
         {
@@ -4925,12 +4887,12 @@
           "audioSrc": "/audio/l11/l11-s-05.mp3",
           "sourcePage": 121,
           "reviewNeeded": false,
-          "pronKo": "또이 o 하 노이 바 ngay",
-          "pronNoteKo": "Tôi ở Hà Nội ba ngày.는 첫 음절을 또렷하게 시작하고 'ngay'은 끝을 낮게 내리며 정리하세요.",
+          "pronKo": "또이 오 어 오이 바 응아이",
+          "pronNoteKo": "ng는 단어 앞에서도 ‘응’처럼 시작합니다. 처음에 짧은 ‘으’를 붙이는 느낌이면 따라 하기 쉬워요.",
           "pronChunks": [
-            "toi o=또이",
-            "ha noi=하 노이",
-            "ba ngay=하"
+            "Tôi ở=또이 오",
+            "Hà Nội=어 오이",
+            "ba ngày=바 응아이"
           ]
         },
         {
@@ -4940,12 +4902,12 @@
           "audioSrc": "/audio/l11/l11-s-06.mp3",
           "sourcePage": 121,
           "reviewNeeded": false,
-          "pronKo": "chuyen 디 nay 젓 트 비",
-          "pronNoteKo": "Chuyến đi này rất thú vị.는 첫 소리를 짧게 잡고 '비'은 끝음을 짧게 닫아 마무리하세요.",
+          "pronKo": "쭈이엔 디 나이 젓 투 비",
+          "pronNoteKo": "ch는 ‘ㅉ’에 가깝게 시작하고, 뒤 모음으로 바로 붙여 말하세요.",
           "pronChunks": [
-            "chuyen di=chuyen",
-            "nay rat=디",
-            "thu vi=트 비"
+            "Chuyến đi=쭈이엔 디",
+            "này rất=나이 젓",
+            "thú vị=투 비"
           ]
         }
       ],
@@ -4999,9 +4961,9 @@
           "audioSrc": "/audio/l11/l11-p-01.mp3",
           "sourcePage": 124,
           "reviewNeeded": false,
-          "pronKo": "du lich",
-          "mouthKo": "입술을 과하게 힘주지 말고, 자음 시작을 가볍게 낸 뒤 모음을 길게 열어 소리 내세요.",
-          "toneKo": "하노이 기준 성조를 의식해 음의 높낮이를 분명히 하고, 끝은 급하게 끊지 말고 짧게 정리하세요."
+          "pronKo": "주 릭",
+          "mouthKo": "입술과 턱에 힘을 빼고, 각 음절의 모음을 짧고 또렷하게 비교해 보세요.",
+          "toneKo": "무거운 성조는 짧고 낮게 눌러 끝냅니다."
         },
         {
           "id": "l11-p-02",
@@ -5010,9 +4972,9 @@
           "audioSrc": "/audio/l11/l11-p-02.mp3",
           "sourcePage": 124,
           "reviewNeeded": false,
-          "pronKo": "또이 thich 디 du lich voi gia dinh",
-          "mouthKo": "입술을 과하게 힘주지 말고, 자음 시작을 가볍게 낸 뒤 모음을 길게 열어 소리 내세요.",
-          "toneKo": "하노이 기준 성조를 의식해 음의 높낮이를 분명히 하고, 끝은 급하게 끊지 말고 짧게 정리하세요."
+          "pronKo": "또이 틱 디 주 릭 버이 자 딘",
+          "mouthKo": "th는 영어 th가 아니라 한국어 ‘ㅌ’에 가깝게 짧고 가볍게 시작하세요.",
+          "toneKo": "성조가 여러 개 섞여 있으니 한 톤으로 평평하게 읽지 말고, 각 덩어리의 높낮이를 분리해 주세요."
         }
       ],
       "quizSeeds": [
@@ -5068,10 +5030,10 @@
           "audioSrc": "/audio/l12/l12-v-01.mp3",
           "sourcePage": 130,
           "reviewNeeded": false,
-          "pronKo": "met",
-          "pronNoteKo": "mệt는 'met'을(를) 짧고 또렷하게 내고 끝을 낮게 내리며 정리하세요.",
+          "pronKo": "멧",
+          "pronNoteKo": "마지막 받침은 길게 끌지 말고 짧게 닫아 주세요. 무거운 성조는 짧고 낮게 눌러 끝냅니다.",
           "pronChunks": [
-            "met=met"
+            "mệt=멧"
           ]
         },
         {
@@ -5083,11 +5045,10 @@
           "audioSrc": "/audio/l12/l12-v-02.mp3",
           "sourcePage": 130,
           "reviewNeeded": false,
-          "pronKo": "dau dau",
-          "pronNoteKo": "đau đầu는 첫 소리를 짧게 잡고 'dau'은 끝음을 짧게 닫아 마무리하세요.",
+          "pronKo": "다우 더우",
+          "pronNoteKo": "đ는 한국어 ‘ㄷ/ㄸ’에 가깝게 짧게 치고 바로 다음 모음으로 넘어가세요. 내림 성조는 끝을 낮게 떨어뜨립니다.",
           "pronChunks": [
-            "dau=dau",
-            "dau=dau"
+            "đau đầu=다우 더우"
           ]
         },
         {
@@ -5099,11 +5060,10 @@
           "audioSrc": "/audio/l12/l12-v-03.mp3",
           "sourcePage": 130,
           "reviewNeeded": false,
-          "pronKo": "dau bung",
-          "pronNoteKo": "đau bụng는 앞부분은 끊지 말고 가볍게 붙여서 시작한 뒤 'bung'은 마지막 소리를 부드럽게 이어 말하세요.",
+          "pronKo": "다우 붕",
+          "pronNoteKo": "đ는 한국어 ‘ㄷ/ㄸ’에 가깝게 짧게 치고 바로 다음 모음으로 넘어가세요. 끝의 콧소리 받침을 살리되, 뒤에 모음을 덧붙이지 마세요.",
           "pronChunks": [
-            "dau=dau",
-            "bung=bung"
+            "đau bụng=다우 붕"
           ]
         },
         {
@@ -5115,10 +5075,10 @@
           "audioSrc": "/audio/l12/l12-v-04.mp3",
           "sourcePage": 130,
           "reviewNeeded": false,
-          "pronKo": "sot",
-          "pronNoteKo": "sốt는 'sot'을(를) 짧고 또렷하게 내고 마지막 음절은 힘을 빼고 자연스럽게 정리하세요.",
+          "pronKo": "쏫",
+          "pronNoteKo": "마지막 받침은 길게 끌지 말고 짧게 닫아 주세요. 올림 성조는 끝을 살짝 위로 올립니다.",
           "pronChunks": [
-            "sot=sot"
+            "sốt=쏫"
           ]
         },
         {
@@ -5130,11 +5090,10 @@
           "audioSrc": "/audio/l12/l12-v-05.mp3",
           "sourcePage": 130,
           "reviewNeeded": false,
-          "pronKo": "benh vien",
-          "pronNoteKo": "bệnh viện는 첫 음절을 또렷하게 시작하고 'vien'은 끝을 낮게 내리며 정리하세요.",
+          "pronKo": "벤 비엔",
+          "pronNoteKo": "v는 한국어 ㅂ보다 입술을 가볍게 붙였다 떼는 느낌입니다. 너무 강하게 터뜨리지 마세요. 마지막 m/n 받침은 입을 닫거나 혀를 붙인 채 짧게 마무리하세요.",
           "pronChunks": [
-            "benh=benh",
-            "vien=vien"
+            "bệnh viện=벤 비엔"
           ]
         },
         {
@@ -5146,11 +5105,10 @@
           "audioSrc": "/audio/l12/l12-v-06.mp3",
           "sourcePage": 130,
           "reviewNeeded": false,
-          "pronKo": "냐 thuoc",
-          "pronNoteKo": "nhà thuốc는 첫 소리를 짧게 잡고 'thuoc'은 끝음을 짧게 닫아 마무리하세요.",
+          "pronKo": "냐 투옥",
+          "pronNoteKo": "nh는 ‘냐/녜’ 계열처럼 혀를 입천장에 가볍게 붙였다 떼는 느낌으로 시작하세요. 마지막 받침은 길게 끌지 말고 짧게 닫아 주세요.",
           "pronChunks": [
-            "nha=냐",
-            "thuoc=thuoc"
+            "nhà thuốc=냐 투옥"
           ]
         },
         {
@@ -5162,10 +5120,10 @@
           "audioSrc": "/audio/l12/l12-v-07.mp3",
           "sourcePage": 130,
           "reviewNeeded": false,
-          "pronKo": "thuoc",
-          "pronNoteKo": "thuốc는 'thuoc'을(를) 짧고 또렷하게 내고 마지막 소리를 부드럽게 이어 말하세요.",
+          "pronKo": "투옥",
+          "pronNoteKo": "th는 영어 th가 아니라 한국어 ‘ㅌ’에 가깝게 짧고 가볍게 시작하세요. 마지막 받침은 길게 끌지 말고 짧게 닫아 주세요.",
           "pronChunks": [
-            "thuoc=thuoc"
+            "thuốc=투옥"
           ]
         },
         {
@@ -5177,11 +5135,10 @@
           "audioSrc": "/audio/l12/l12-v-08.mp3",
           "sourcePage": 130,
           "reviewNeeded": false,
-          "pronKo": "bac si",
-          "pronNoteKo": "bác sĩ는 처음 소리를 과하게 세게 내지 말고 'si'은 마지막 음절은 힘을 빼고 자연스럽게 정리하세요.",
+          "pronKo": "박 씨",
+          "pronNoteKo": "올림 성조는 끝을 살짝 위로 올립니다 / 꺾임 성조는 중간에 살짝 흔들어 올리는 느낌입니다.",
           "pronChunks": [
-            "bac=bac",
-            "si=si"
+            "bác sĩ=박 씨"
           ]
         },
         {
@@ -5193,11 +5150,10 @@
           "audioSrc": "/audio/l12/l12-v-09.mp3",
           "sourcePage": 130,
           "reviewNeeded": false,
-          "pronKo": "nghi ngoi",
-          "pronNoteKo": "nghỉ ngơi는 첫 음절을 또렷하게 시작하고 'ngoi'은 끝을 낮게 내리며 정리하세요.",
+          "pronKo": "응이 응어이",
+          "pronNoteKo": "ngh는 ‘응’으로 시작한다는 느낌으로, 목에 힘을 주지 말고 코로 가볍게 이어 주세요. 물음 성조는 중간을 살짝 꺾는 느낌으로 말합니다.",
           "pronChunks": [
-            "nghi=nghi",
-            "ngoi=ngoi"
+            "nghỉ ngơi=응이 응어이"
           ]
         },
         {
@@ -5209,11 +5165,10 @@
           "audioSrc": "/audio/l12/l12-v-10.mp3",
           "sourcePage": 130,
           "reviewNeeded": false,
-          "pronKo": "우옹 nuoc",
-          "pronNoteKo": "uống nước는 첫 음절을 또렷하게 시작하고 'nuoc'은 끝을 낮게 내리며 정리하세요.",
+          "pronKo": "우옹 느억",
+          "pronNoteKo": "마지막 받침은 길게 끌지 말고 짧게 닫아 주세요. 올림 성조는 끝을 살짝 위로 올립니다.",
           "pronChunks": [
-            "uong=우옹",
-            "nuoc=nuoc"
+            "uống nước=우옹 느억"
           ]
         }
       ],
@@ -5225,12 +5180,12 @@
           "audioSrc": "/audio/l12/l12-s-01.mp3",
           "sourcePage": 131,
           "reviewNeeded": false,
-          "pronKo": "또이 hoi met hom nay",
-          "pronNoteKo": "Tôi hơi mệt hôm nay.는 첫 소리를 짧게 잡고 'nay'은 끝음을 짧게 닫아 마무리하세요.",
+          "pronKo": "또이 허이 멧 오ㅁ 나이",
+          "pronNoteKo": "무거운 성조는 짧고 낮게 눌러 끝냅니다.",
           "pronChunks": [
-            "toi hoi=또이",
-            "met hom=hoi",
-            "nay=met"
+            "Tôi hơi=또이 허이",
+            "mệt hôm=멧 오ㅁ",
+            "nay=나이"
           ]
         },
         {
@@ -5240,11 +5195,13 @@
           "audioSrc": "/audio/l12/l12-s-02.mp3",
           "sourcePage": 131,
           "reviewNeeded": false,
-          "pronKo": "또이 bi dau dau",
-          "pronNoteKo": "Tôi bị đau đầu.는 앞부분은 끊지 말고 가볍게 붙여서 시작한 뒤 'dau'은 마지막 소리를 부드럽게 이어 말하세요.",
+          "pronKo": "또이 비 다우 더우",
+          "pronNoteKo": "đ는 한국어 ‘ㄷ/ㄸ’에 가깝게 짧게 치고 바로 다음 모음으로 넘어가세요.",
           "pronChunks": [
-            "toi bi=또이",
-            "dau dau=bi"
+            "Tôi=또이",
+            "bị=비",
+            "đau=다우",
+            "đầu=더우"
           ]
         },
         {
@@ -5254,11 +5211,13 @@
           "audioSrc": "/audio/l12/l12-s-03.mp3",
           "sourcePage": 131,
           "reviewNeeded": false,
-          "pronKo": "또이 무온 mua thuoc",
-          "pronNoteKo": "Tôi muốn mua thuốc.는 처음 소리를 과하게 세게 내지 말고 'thuoc'은 마지막 음절은 힘을 빼고 자연스럽게 정리하세요.",
+          "pronKo": "또이 무온 무아 투옥",
+          "pronNoteKo": "th는 영어 th가 아니라 한국어 ‘ㅌ’에 가깝게 짧고 가볍게 시작하세요. 마지막 받침은 길게 끌지 말고 짧게 닫아 주세요.",
           "pronChunks": [
-            "toi muon=또이 무온",
-            "mua thuoc=무온"
+            "Tôi=또이",
+            "muốn=무온",
+            "mua=무아",
+            "thuốc=투옥"
           ]
         },
         {
@@ -5268,11 +5227,13 @@
           "audioSrc": "/audio/l12/l12-s-04.mp3",
           "sourcePage": 131,
           "reviewNeeded": false,
-          "pronKo": "냐 thuoc o dau",
-          "pronNoteKo": "Nhà thuốc ở đâu?는 첫 음절을 또렷하게 시작하고 'dau'은 끝을 낮게 내리며 정리하세요.",
+          "pronKo": "냐 투옥 오 더우",
+          "pronNoteKo": "nh는 ‘냐/녜’ 계열처럼 혀를 입천장에 가볍게 붙였다 떼는 느낌으로 시작하세요.",
           "pronChunks": [
-            "nha thuoc=냐",
-            "o dau=thuoc"
+            "Nhà=냐",
+            "thuốc=투옥",
+            "ở=오",
+            "đâu=더우"
           ]
         },
         {
@@ -5282,12 +5243,12 @@
           "audioSrc": "/audio/l12/l12-s-05.mp3",
           "sourcePage": 131,
           "reviewNeeded": false,
-          "pronKo": "또이 can gap bac si",
-          "pronNoteKo": "Tôi cần gặp bác sĩ.는 첫 소리를 짧게 잡고 'si'은 끝음을 짧게 닫아 마무리하세요.",
+          "pronKo": "또이 껀 갑 박 씨",
+          "pronNoteKo": "성조가 여러 개 섞여 있으니 한 톤으로 평평하게 읽지 말고, 각 덩어리의 높낮이를 분리해 주세요.",
           "pronChunks": [
-            "toi can=또이",
-            "gap bac=can",
-            "si=gap"
+            "Tôi cần=또이 껀",
+            "gặp bác=갑 박",
+            "sĩ=씨"
           ]
         },
         {
@@ -5297,12 +5258,12 @@
           "audioSrc": "/audio/l12/l12-s-06.mp3",
           "sourcePage": 131,
           "reviewNeeded": false,
-          "pronKo": "또이 세 nghi ngoi o 냐",
-          "pronNoteKo": "Tôi sẽ nghỉ ngơi ở nhà.는 앞부분은 끊지 말고 가볍게 붙여서 시작한 뒤 '냐'은 마지막 소리를 부드럽게 이어 말하세요.",
+          "pronKo": "또이 쎄 응이 응어이 오 냐",
+          "pronNoteKo": "ngh는 ‘응’으로 시작한다는 느낌으로, 목에 힘을 주지 말고 코로 가볍게 이어 주세요.",
           "pronChunks": [
-            "toi se=또이 세",
-            "nghi ngoi=세",
-            "o nha=nghi"
+            "Tôi sẽ=또이 쎄",
+            "nghỉ ngơi=응이 응어이",
+            "ở nhà=오 냐"
           ]
         }
       ],
@@ -5356,9 +5317,9 @@
           "audioSrc": "/audio/l12/l12-p-01.mp3",
           "sourcePage": 134,
           "reviewNeeded": false,
-          "pronKo": "met",
-          "mouthKo": "입술을 과하게 힘주지 말고, 자음 시작을 가볍게 낸 뒤 모음을 길게 열어 소리 내세요.",
-          "toneKo": "하노이 기준 성조를 의식해 음의 높낮이를 분명히 하고, 끝은 급하게 끊지 말고 짧게 정리하세요."
+          "pronKo": "멧",
+          "mouthKo": "입술과 턱에 힘을 빼고, 각 음절의 모음을 짧고 또렷하게 비교해 보세요.",
+          "toneKo": "무거운 성조는 짧고 낮게 눌러 끝냅니다."
         },
         {
           "id": "l12-p-02",
@@ -5367,9 +5328,9 @@
           "audioSrc": "/audio/l12/l12-p-02.mp3",
           "sourcePage": 134,
           "reviewNeeded": false,
-          "pronKo": "또이 hoi met hom nay",
-          "mouthKo": "입술을 과하게 힘주지 말고, 자음 시작을 가볍게 낸 뒤 모음을 길게 열어 소리 내세요.",
-          "toneKo": "하노이 기준 성조를 의식해 음의 높낮이를 분명히 하고, 끝은 급하게 끊지 말고 짧게 정리하세요."
+          "pronKo": "또이 허이 멧 오ㅁ 나이",
+          "mouthKo": "입술과 턱에 힘을 빼고, 각 음절의 모음을 짧고 또렷하게 비교해 보세요.",
+          "toneKo": "무거운 성조는 짧고 낮게 눌러 끝냅니다."
         }
       ],
       "quizSeeds": [
@@ -5425,10 +5386,10 @@
           "audioSrc": "/audio/l13/l13-v-01.mp3",
           "sourcePage": 140,
           "reviewNeeded": false,
-          "pronKo": "da",
-          "pronNoteKo": "đã는 'da'을(를) 짧고 또렷하게 내고 끝음을 짧게 닫아 마무리하세요.",
+          "pronKo": "다",
+          "pronNoteKo": "đ는 한국어 ‘ㄷ/ㄸ’에 가깝게 짧게 치고 바로 다음 모음으로 넘어가세요. 꺾임 성조는 중간에 살짝 흔들어 올리는 느낌입니다.",
           "pronChunks": [
-            "da=da"
+            "đã=다"
           ]
         },
         {
@@ -5441,9 +5402,9 @@
           "sourcePage": 140,
           "reviewNeeded": false,
           "pronKo": "조이",
-          "pronNoteKo": "rồi는 '조이'을(를) 짧고 또렷하게 내고 마지막 소리를 부드럽게 이어 말하세요.",
+          "pronNoteKo": "r은 하노이식으로 ‘ㅈ’에 가깝게 들릴 수 있어요. 혀를 굴리기보다 짧게 시작하세요. 내림 성조는 끝을 낮게 떨어뜨립니다.",
           "pronChunks": [
-            "roi=조이"
+            "rồi=조이"
           ]
         },
         {
@@ -5455,11 +5416,10 @@
           "audioSrc": "/audio/l13/l13-v-03.mp3",
           "sourcePage": 140,
           "reviewNeeded": false,
-          "pronKo": "남 ngoai",
-          "pronNoteKo": "năm ngoái는 처음 소리를 과하게 세게 내지 말고 'ngoai'은 마지막 음절은 힘을 빼고 자연스럽게 정리하세요.",
+          "pronKo": "남 응오아이",
+          "pronNoteKo": "ng는 단어 앞에서도 ‘응’처럼 시작합니다. 처음에 짧은 ‘으’를 붙이는 느낌이면 따라 하기 쉬워요. 올림 성조는 끝을 살짝 위로 올립니다.",
           "pronChunks": [
-            "nam=남",
-            "ngoai=ngoai"
+            "năm ngoái=남 응오아이"
           ]
         },
         {
@@ -5471,11 +5431,10 @@
           "audioSrc": "/audio/l13/l13-v-04.mp3",
           "sourcePage": 140,
           "reviewNeeded": false,
-          "pronKo": "tuan truoc",
-          "pronNoteKo": "tuần trước는 첫 음절을 또렷하게 시작하고 'truoc'은 끝을 낮게 내리며 정리하세요.",
+          "pronKo": "뚜언 쯔억",
+          "pronNoteKo": "tr은 북부식으로 ‘쯔/찌’에 가깝게 짧게 시작하면 됩니다. 너무 굴리지 마세요. 마지막 받침은 길게 끌지 말고 짧게 닫아 주세요.",
           "pronChunks": [
-            "tuan=tuan",
-            "truoc=truoc"
+            "tuần trước=뚜언 쯔억"
           ]
         },
         {
@@ -5487,11 +5446,10 @@
           "audioSrc": "/audio/l13/l13-v-05.mp3",
           "sourcePage": 140,
           "reviewNeeded": false,
-          "pronKo": "lan dau",
-          "pronNoteKo": "lần đầu는 첫 소리를 짧게 잡고 'dau'은 끝음을 짧게 닫아 마무리하세요.",
+          "pronKo": "런 더우",
+          "pronNoteKo": "đ는 한국어 ‘ㄷ/ㄸ’에 가깝게 짧게 치고 바로 다음 모음으로 넘어가세요. 내림 성조는 끝을 낮게 떨어뜨립니다.",
           "pronChunks": [
-            "lan=lan",
-            "dau=dau"
+            "lần đầu=런 더우"
           ]
         },
         {
@@ -5503,11 +5461,10 @@
           "audioSrc": "/audio/l13/l13-v-06.mp3",
           "sourcePage": 140,
           "reviewNeeded": false,
-          "pronKo": "luc dau",
-          "pronNoteKo": "lúc đầu는 앞부분은 끊지 말고 가볍게 붙여서 시작한 뒤 'dau'은 마지막 소리를 부드럽게 이어 말하세요.",
+          "pronKo": "룩 더우",
+          "pronNoteKo": "đ는 한국어 ‘ㄷ/ㄸ’에 가깝게 짧게 치고 바로 다음 모음으로 넘어가세요. 올림 성조는 끝을 살짝 위로 올립니다 / 내림 성조는 끝을 낮게 떨어뜨립니다.",
           "pronChunks": [
-            "luc=luc",
-            "dau=dau"
+            "lúc đầu=룩 더우"
           ]
         },
         {
@@ -5519,11 +5476,10 @@
           "audioSrc": "/audio/l13/l13-v-07.mp3",
           "sourcePage": 140,
           "reviewNeeded": false,
-          "pronKo": "사우 do",
-          "pronNoteKo": "sau đó는 처음 소리를 과하게 세게 내지 말고 'do'은 마지막 음절은 힘을 빼고 자연스럽게 정리하세요.",
+          "pronKo": "싸우 도",
+          "pronNoteKo": "đ는 한국어 ‘ㄷ/ㄸ’에 가깝게 짧게 치고 바로 다음 모음으로 넘어가세요. 올림 성조는 끝을 살짝 위로 올립니다.",
           "pronChunks": [
-            "sau=사우",
-            "do=do"
+            "sau đó=싸우 도"
           ]
         },
         {
@@ -5535,11 +5491,10 @@
           "audioSrc": "/audio/l13/l13-v-08.mp3",
           "sourcePage": 140,
           "reviewNeeded": false,
-          "pronKo": "ky niem",
-          "pronNoteKo": "kỷ niệm는 첫 음절을 또렷하게 시작하고 'niem'은 끝을 낮게 내리며 정리하세요.",
+          "pronKo": "끼 니엠",
+          "pronNoteKo": "마지막 m/n 받침은 입을 닫거나 혀를 붙인 채 짧게 마무리하세요. 물음 성조는 중간을 살짝 꺾는 느낌으로 말합니다 / 무거운 성조는 짧고 낮게 눌러 끝냅니다.",
           "pronChunks": [
-            "ky=ky",
-            "niem=niem"
+            "kỷ niệm=끼 니엠"
           ]
         },
         {
@@ -5552,7 +5507,7 @@
           "sourcePage": 140,
           "reviewNeeded": false,
           "pronKo": "부이",
-          "pronNoteKo": "vui는 '부이'을(를) 짧고 또렷하게 내고 끝음을 짧게 닫아 마무리하세요.",
+          "pronNoteKo": "v는 한국어 ㅂ보다 입술을 가볍게 붙였다 떼는 느낌입니다. 너무 강하게 터뜨리지 마세요. 성조가 없는 음절은 높낮이를 과하게 만들지 말고 평평하고 짧게 말하세요.",
           "pronChunks": [
             "vui=부이"
           ]
@@ -5566,10 +5521,10 @@
           "audioSrc": "/audio/l13/l13-v-10.mp3",
           "sourcePage": 140,
           "reviewNeeded": false,
-          "pronKo": "kho",
-          "pronNoteKo": "khó는 'kho'을(를) 짧고 또렷하게 내고 끝음을 짧게 닫아 마무리하세요.",
+          "pronKo": "코",
+          "pronNoteKo": "kh는 세게 긁는 소리가 아니라 ‘ㅋ’에 바람을 살짝 얹는 정도로 내세요. 올림 성조는 끝을 살짝 위로 올립니다.",
           "pronChunks": [
-            "kho=kho"
+            "khó=코"
           ]
         }
       ],
@@ -5581,12 +5536,13 @@
           "audioSrc": "/audio/l13/l13-s-01.mp3",
           "sourcePage": 141,
           "reviewNeeded": false,
-          "pronKo": "남 ngoai 또이 bat dau 혹 띠엥 비엣",
-          "pronNoteKo": "Năm ngoái, tôi bắt đầu học tiếng Việt.는 앞부분은 끊지 말고 가볍게 붙여서 시작한 뒤 '비엣'은 마지막 소리를 부드럽게 이어 말하세요.",
+          "pronKo": "남 응오아이 또이 밧 더우 혹 띠엥 비엣",
+          "pronNoteKo": "ng는 단어 앞에서도 ‘응’처럼 시작합니다. 처음에 짧은 ‘으’를 붙이는 느낌이면 따라 하기 쉬워요.",
           "pronChunks": [
-            "nam ngoai toi=남",
-            "bat dau hoc=ngoai",
-            "tieng viet=띠엥 비엣"
+            "Năm ngoái=남 응오아이",
+            "tôi bắt=또이 밧",
+            "đầu học=더우 혹",
+            "tiếng Việt=띠엥 비엣"
           ]
         },
         {
@@ -5596,12 +5552,12 @@
           "audioSrc": "/audio/l13/l13-s-02.mp3",
           "sourcePage": 141,
           "reviewNeeded": false,
-          "pronKo": "luc dau phat am 젓 kho",
-          "pronNoteKo": "Lúc đầu, phát âm rất khó.는 처음 소리를 과하게 세게 내지 말고 'kho'은 마지막 음절은 힘을 빼고 자연스럽게 정리하세요.",
+          "pronKo": "룩 더우 팟 엄 젓 코",
+          "pronNoteKo": "đ는 한국어 ‘ㄷ/ㄸ’에 가깝게 짧게 치고 바로 다음 모음으로 넘어가세요.",
           "pronChunks": [
-            "luc dau=luc",
-            "phat am=dau",
-            "rat kho=phat"
+            "Lúc đầu=룩 더우",
+            "phát âm=팟 엄",
+            "rất khó=젓 코"
           ]
         },
         {
@@ -5611,12 +5567,13 @@
           "audioSrc": "/audio/l13/l13-s-03.mp3",
           "sourcePage": 141,
           "reviewNeeded": false,
-          "pronKo": "사우 do 또이 luyen tap moi ngay",
-          "pronNoteKo": "Sau đó, tôi luyện tập mỗi ngày.는 첫 음절을 또렷하게 시작하고 'ngay'은 끝을 낮게 내리며 정리하세요.",
+          "pronKo": "싸우 도 또이 루이엔 떱 모이 응아이",
+          "pronNoteKo": "đ는 한국어 ‘ㄷ/ㄸ’에 가깝게 짧게 치고 바로 다음 모음으로 넘어가세요.",
           "pronChunks": [
-            "sau do toi=사우",
-            "luyen tap moi=do",
-            "ngay=또이"
+            "Sau đó=싸우 도",
+            "tôi luyện=또이 루이엔",
+            "tập mỗi=떱 모이",
+            "ngày=응아이"
           ]
         },
         {
@@ -5626,12 +5583,13 @@
           "audioSrc": "/audio/l13/l13-s-04.mp3",
           "sourcePage": 141,
           "reviewNeeded": false,
-          "pronKo": "또이 da 안 퍼 o 하 노이",
-          "pronNoteKo": "Tôi đã ăn phở ở Hà Nội.는 첫 소리를 짧게 잡고 '노이'은 끝음을 짧게 닫아 마무리하세요.",
+          "pronKo": "또이 다 안 퍼 오 어 오이",
+          "pronNoteKo": "đ는 한국어 ‘ㄷ/ㄸ’에 가깝게 짧게 치고 바로 다음 모음으로 넘어가세요.",
           "pronChunks": [
-            "toi da an=또이",
-            "pho o ha=da",
-            "noi=노이"
+            "Tôi đã=또이 다",
+            "ăn phở=안 퍼",
+            "ở Hà=오 어",
+            "Nội=오이"
           ]
         },
         {
@@ -5641,11 +5599,11 @@
           "audioSrc": "/audio/l13/l13-s-05.mp3",
           "sourcePage": 141,
           "reviewNeeded": false,
-          "pronKo": "trai nghiem do 젓 부이",
-          "pronNoteKo": "Trải nghiệm đó rất vui.는 앞부분은 끊지 말고 가볍게 붙여서 시작한 뒤 '부이'은 마지막 소리를 부드럽게 이어 말하세요.",
+          "pronKo": "짜이 응이엠 도 젓 부이",
+          "pronNoteKo": "tr은 북부식으로 ‘쯔/찌’에 가깝게 짧게 시작하면 됩니다. 너무 굴리지 마세요.",
           "pronChunks": [
-            "trai nghiem=trai",
-            "do rat=nghiem",
+            "Trải nghiệm=짜이 응이엠",
+            "đó rất=도 젓",
             "vui=부이"
           ]
         },
@@ -5656,12 +5614,12 @@
           "audioSrc": "/audio/l13/l13-s-06.mp3",
           "sourcePage": 141,
           "reviewNeeded": false,
-          "pronKo": "버이 gio 또이 꼬 the 짜오 hoi don gian",
-          "pronNoteKo": "Bây giờ, tôi có thể chào hỏi đơn giản.는 처음 소리를 과하게 세게 내지 말고 'gian'은 마지막 음절은 힘을 빼고 자연스럽게 정리하세요.",
+          "pronKo": "어이 저 또이 오 테 짜오 호이 던 잔",
+          "pronNoteKo": "gi는 북부식으로 ‘지/자’ 계열에 가깝습니다. 영어 g처럼 세게 내지 마세요.",
           "pronChunks": [
-            "bay gio toi=버이",
-            "co the chao=gio",
-            "hoi don gian=또이"
+            "Bây giờ tôi=어이 저 또이",
+            "có thể chào=오 테 짜오",
+            "hỏi đơn giản=호이 던 잔"
           ]
         }
       ],
@@ -5722,9 +5680,9 @@
           "audioSrc": "/audio/l13/l13-p-01.mp3",
           "sourcePage": 144,
           "reviewNeeded": false,
-          "pronKo": "da",
-          "mouthKo": "입술을 과하게 힘주지 말고, 자음 시작을 가볍게 낸 뒤 모음을 길게 열어 소리 내세요.",
-          "toneKo": "하노이 기준 성조를 의식해 음의 높낮이를 분명히 하고, 끝은 급하게 끊지 말고 짧게 정리하세요."
+          "pronKo": "다",
+          "mouthKo": "đ는 한국어 ‘ㄷ/ㄸ’에 가깝게 짧게 치고 바로 다음 모음으로 넘어가세요.",
+          "toneKo": "꺾임 성조는 중간에 살짝 흔들어 올리는 느낌입니다."
         },
         {
           "id": "l13-p-02",
@@ -5733,9 +5691,9 @@
           "audioSrc": "/audio/l13/l13-p-02.mp3",
           "sourcePage": 144,
           "reviewNeeded": false,
-          "pronKo": "남 ngoai 또이 bat dau 혹 띠엥 비엣",
-          "mouthKo": "입술을 과하게 힘주지 말고, 자음 시작을 가볍게 낸 뒤 모음을 길게 열어 소리 내세요.",
-          "toneKo": "하노이 기준 성조를 의식해 음의 높낮이를 분명히 하고, 끝은 급하게 끊지 말고 짧게 정리하세요."
+          "pronKo": "남 응오아이 또이 밧 더우 혹 띠엥 비엣",
+          "mouthKo": "ng는 단어 앞에서도 ‘응’처럼 시작합니다. 처음에 짧은 ‘으’를 붙이는 느낌이면 따라 하기 쉬워요.",
+          "toneKo": "성조가 여러 개 섞여 있으니 한 톤으로 평평하게 읽지 말고, 각 덩어리의 높낮이를 분리해 주세요."
         }
       ],
       "quizSeeds": [
@@ -5792,10 +5750,10 @@
           "audioSrc": "/audio/l14/l14-v-01.mp3",
           "sourcePage": 150,
           "reviewNeeded": false,
-          "pronKo": "세",
-          "pronNoteKo": "sẽ는 '세'을(를) 짧고 또렷하게 내고 마지막 소리를 부드럽게 이어 말하세요.",
+          "pronKo": "쎄",
+          "pronNoteKo": "꺾임 성조는 중간에 살짝 흔들어 올리는 느낌입니다.",
           "pronChunks": [
-            "se=세"
+            "sẽ=쎄"
           ]
         },
         {
@@ -5808,9 +5766,9 @@
           "sourcePage": 150,
           "reviewNeeded": false,
           "pronKo": "무온",
-          "pronNoteKo": "muốn는 '무온'을(를) 짧고 또렷하게 내고 마지막 음절은 힘을 빼고 자연스럽게 정리하세요.",
+          "pronNoteKo": "마지막 m/n 받침은 입을 닫거나 혀를 붙인 채 짧게 마무리하세요. 올림 성조는 끝을 살짝 위로 올립니다.",
           "pronChunks": [
-            "muon=무온"
+            "muốn=무온"
           ]
         },
         {
@@ -5822,11 +5780,10 @@
           "audioSrc": "/audio/l14/l14-v-03.mp3",
           "sourcePage": 150,
           "reviewNeeded": false,
-          "pronKo": "du dinh",
-          "pronNoteKo": "dự định는 첫 음절을 또렷하게 시작하고 'dinh'은 끝을 낮게 내리며 정리하세요.",
+          "pronKo": "즈 딘",
+          "pronNoteKo": "đ는 한국어 ‘ㄷ/ㄸ’에 가깝게 짧게 치고 바로 다음 모음으로 넘어가세요. 끝의 콧소리 받침을 살리되, 뒤에 모음을 덧붙이지 마세요.",
           "pronChunks": [
-            "du=du",
-            "dinh=dinh"
+            "dự định=즈 딘"
           ]
         },
         {
@@ -5838,11 +5795,12 @@
           "audioSrc": "/audio/l14/l14-v-04.mp3",
           "sourcePage": 150,
           "reviewNeeded": false,
-          "pronKo": "trong tuong lai",
-          "pronNoteKo": "trong tương lai는 첫 소리를 짧게 잡고 'lai'은 끝음을 짧게 닫아 마무리하세요.",
+          "pronKo": "쯔오ㅇ 뜨엉 라이",
+          "pronNoteKo": "tr은 북부식으로 ‘쯔/찌’에 가깝게 짧게 시작하면 됩니다. 너무 굴리지 마세요.",
           "pronChunks": [
-            "trong tuong=trong",
-            "lai=tuong"
+            "trong=쯔오ㅇ",
+            "tương=뜨엉",
+            "lai=라이"
           ]
         },
         {
@@ -5855,9 +5813,9 @@
           "sourcePage": 150,
           "reviewNeeded": false,
           "pronKo": "비",
-          "pronNoteKo": "vì는 '비'을(를) 짧고 또렷하게 내고 마지막 소리를 부드럽게 이어 말하세요.",
+          "pronNoteKo": "v는 한국어 ㅂ보다 입술을 가볍게 붙였다 떼는 느낌입니다. 너무 강하게 터뜨리지 마세요. 내림 성조는 끝을 낮게 떨어뜨립니다.",
           "pronChunks": [
-            "vi=비"
+            "vì=비"
           ]
         },
         {
@@ -5869,10 +5827,10 @@
           "audioSrc": "/audio/l14/l14-v-06.mp3",
           "sourcePage": 150,
           "reviewNeeded": false,
-          "pronKo": "nen",
-          "pronNoteKo": "nên는 'nen'을(를) 짧고 또렷하게 내고 마지막 음절은 힘을 빼고 자연스럽게 정리하세요.",
+          "pronKo": "넨",
+          "pronNoteKo": "마지막 m/n 받침은 입을 닫거나 혀를 붙인 채 짧게 마무리하세요. 성조가 없는 음절은 높낮이를 과하게 만들지 말고 평평하고 짧게 말하세요.",
           "pronChunks": [
-            "nen=nen"
+            "nên=넨"
           ]
         },
         {
@@ -5885,10 +5843,9 @@
           "sourcePage": 150,
           "reviewNeeded": false,
           "pronKo": "똣 헌",
-          "pronNoteKo": "tốt hơn는 첫 음절을 또렷하게 시작하고 '헌'은 끝을 낮게 내리며 정리하세요.",
+          "pronNoteKo": "마지막 m/n 받침은 입을 닫거나 혀를 붙인 채 짧게 마무리하세요. 올림 성조는 끝을 살짝 위로 올립니다.",
           "pronChunks": [
-            "tot=똣",
-            "hon=헌"
+            "tốt hơn=똣 헌"
           ]
         },
         {
@@ -5900,11 +5857,10 @@
           "audioSrc": "/audio/l14/l14-v-08.mp3",
           "sourcePage": 150,
           "reviewNeeded": false,
-          "pronKo": "꼬 gang",
-          "pronNoteKo": "cố gắng는 첫 소리를 짧게 잡고 'gang'은 끝음을 짧게 닫아 마무리하세요.",
+          "pronKo": "꼬 강",
+          "pronNoteKo": "끝의 콧소리 받침을 살리되, 뒤에 모음을 덧붙이지 마세요. 올림 성조는 끝을 살짝 위로 올립니다.",
           "pronChunks": [
-            "co=꼬",
-            "gang=gang"
+            "cố gắng=꼬 강"
           ]
         },
         {
@@ -5916,11 +5872,10 @@
           "audioSrc": "/audio/l14/l14-v-09.mp3",
           "sourcePage": 150,
           "reviewNeeded": false,
-          "pronKo": "muc tieu",
-          "pronNoteKo": "mục tiêu는 앞부분은 끊지 말고 가볍게 붙여서 시작한 뒤 'tieu'은 마지막 소리를 부드럽게 이어 말하세요.",
+          "pronKo": "묵 띠에우",
+          "pronNoteKo": "무거운 성조는 짧고 낮게 눌러 끝냅니다.",
           "pronChunks": [
-            "muc=muc",
-            "tieu=tieu"
+            "mục tiêu=묵 띠에우"
           ]
         },
         {
@@ -5932,11 +5887,10 @@
           "audioSrc": "/audio/l14/l14-v-10.mp3",
           "sourcePage": 150,
           "reviewNeeded": false,
-          "pronKo": "tu tin",
-          "pronNoteKo": "tự tin는 앞부분은 끊지 말고 가볍게 붙여서 시작한 뒤 'tin'은 마지막 소리를 부드럽게 이어 말하세요.",
+          "pronKo": "뜨 띤",
+          "pronNoteKo": "마지막 m/n 받침은 입을 닫거나 혀를 붙인 채 짧게 마무리하세요. 무거운 성조는 짧고 낮게 눌러 끝냅니다.",
           "pronChunks": [
-            "tu=tu",
-            "tin=tin"
+            "tự tin=뜨 띤"
           ]
         }
       ],
@@ -5948,12 +5902,13 @@
           "audioSrc": "/audio/l14/l14-s-01.mp3",
           "sourcePage": 151,
           "reviewNeeded": false,
-          "pronKo": "남 사우 또이 세 디 하 노이",
-          "pronNoteKo": "Năm sau, tôi sẽ đi Hà Nội.는 처음 소리를 과하게 세게 내지 말고 '노이'은 마지막 음절은 힘을 빼고 자연스럽게 정리하세요.",
+          "pronKo": "남 싸우 또이 쎄 디 어 오이",
+          "pronNoteKo": "đ는 한국어 ‘ㄷ/ㄸ’에 가깝게 짧게 치고 바로 다음 모음으로 넘어가세요.",
           "pronChunks": [
-            "nam sau toi=남 사우 또이",
-            "se di ha=세 디 하",
-            "noi=노이"
+            "Năm sau=남 싸우",
+            "tôi sẽ=또이 쎄",
+            "đi Hà=디 어",
+            "Nội=오이"
           ]
         },
         {
@@ -5964,11 +5919,12 @@
           "sourcePage": 151,
           "reviewNeeded": false,
           "pronKo": "또이 무온 노이 띠엥 비엣 똣 헌",
-          "pronNoteKo": "Tôi muốn nói tiếng Việt tốt hơn.는 첫 음절을 또렷하게 시작하고 '헌'은 끝을 낮게 내리며 정리하세요.",
+          "pronNoteKo": "v는 한국어 ㅂ보다 입술을 가볍게 붙였다 떼는 느낌입니다. 너무 강하게 터뜨리지 마세요.",
           "pronChunks": [
-            "toi muon noi=또이 무온 노이",
-            "tieng viet tot=띠엥 비엣 똣",
-            "hon=헌"
+            "Tôi muốn=또이 무온",
+            "nói tiếng=노이 띠엥",
+            "Việt tốt=비엣 똣",
+            "hơn=헌"
           ]
         },
         {
@@ -5978,13 +5934,13 @@
           "audioSrc": "/audio/l14/l14-s-03.mp3",
           "sourcePage": 151,
           "reviewNeeded": false,
-          "pronKo": "또이 혹 띠엥 비엣 비 또이 무온 song o 하 노이",
-          "pronNoteKo": "Tôi học tiếng Việt vì tôi muốn sống ở Hà Nội.는 첫 소리를 짧게 잡고 '노이'은 끝음을 짧게 닫아 마무리하세요.",
+          "pronKo": "또이 혹 띠엥 비엣 비 또이 무온 쏭 오 어 오이",
+          "pronNoteKo": "v는 한국어 ㅂ보다 입술을 가볍게 붙였다 떼는 느낌입니다. 너무 강하게 터뜨리지 마세요.",
           "pronChunks": [
-            "toi hoc tieng=또이 혹 띠엥",
-            "viet vi toi=비엣 비 또이",
-            "muon song o=띠엥",
-            "ha noi=하 노이"
+            "Tôi học tiếng=또이 혹 띠엥",
+            "Việt vì tôi=비엣 비 또이",
+            "muốn sống ở=무온 쏭 오",
+            "Hà Nội=어 오이"
           ]
         },
         {
@@ -5994,12 +5950,13 @@
           "audioSrc": "/audio/l14/l14-s-04.mp3",
           "sourcePage": 151,
           "reviewNeeded": false,
-          "pronKo": "또이 반 nen 또이 혹 vao buoi 또이",
-          "pronNoteKo": "Tôi bận nên tôi học vào buổi tối.는 앞부분은 끊지 말고 가볍게 붙여서 시작한 뒤 '또이'은 마지막 소리를 부드럽게 이어 말하세요.",
+          "pronKo": "또이 번 넨 또이 혹 아오 부오이 또이",
+          "pronNoteKo": "v는 한국어 ㅂ보다 입술을 가볍게 붙였다 떼는 느낌입니다. 너무 강하게 터뜨리지 마세요.",
           "pronChunks": [
-            "toi ban nen=또이",
-            "toi hoc vao=반",
-            "buoi toi=nen"
+            "Tôi bận=또이 번",
+            "nên tôi=넨 또이",
+            "học vào=혹 아오",
+            "buổi tối=부오이 또이"
           ]
         },
         {
@@ -6009,12 +5966,13 @@
           "audioSrc": "/audio/l14/l14-s-05.mp3",
           "sourcePage": 151,
           "reviewNeeded": false,
-          "pronKo": "muc tieu cua 또이 라 opic im1",
-          "pronNoteKo": "Mục tiêu của tôi là OPIC IM1.는 처음 소리를 과하게 세게 내지 말고 'im1'은 마지막 음절은 힘을 빼고 자연스럽게 정리하세요.",
+          "pronKo": "묵 띠에우 꾸아 또이 라 오픽 아이엠원",
+          "pronNoteKo": "성조가 여러 개 섞여 있으니 한 톤으로 평평하게 읽지 말고, 각 덩어리의 높낮이를 분리해 주세요.",
           "pronChunks": [
-            "muc tieu cua=muc",
-            "toi la opic=tieu",
-            "im1=cua"
+            "Mục tiêu=묵 띠에우",
+            "của tôi=꾸아 또이",
+            "là OPIC=라 오픽",
+            "IM1=아이엠원"
           ]
         },
         {
@@ -6024,12 +5982,12 @@
           "audioSrc": "/audio/l14/l14-s-06.mp3",
           "sourcePage": 151,
           "reviewNeeded": false,
-          "pronKo": "또이 세 꼬 gang moi ngay",
-          "pronNoteKo": "Tôi sẽ cố gắng mỗi ngày.는 첫 음절을 또렷하게 시작하고 'ngay'은 끝을 낮게 내리며 정리하세요.",
+          "pronKo": "또이 쎄 꼬 강 모이 응아이",
+          "pronNoteKo": "ng는 단어 앞에서도 ‘응’처럼 시작합니다. 처음에 짧은 ‘으’를 붙이는 느낌이면 따라 하기 쉬워요.",
           "pronChunks": [
-            "toi se=또이 세",
-            "co gang=세",
-            "moi ngay=꼬"
+            "Tôi sẽ=또이 쎄",
+            "cố gắng=꼬 강",
+            "mỗi ngày=모이 응아이"
           ]
         }
       ],
@@ -6090,9 +6048,9 @@
           "audioSrc": "/audio/l14/l14-p-01.mp3",
           "sourcePage": 154,
           "reviewNeeded": false,
-          "pronKo": "세",
-          "mouthKo": "입술을 과하게 힘주지 말고, 자음 시작을 가볍게 낸 뒤 모음을 길게 열어 소리 내세요.",
-          "toneKo": "하노이 기준 성조를 의식해 음의 높낮이를 분명히 하고, 끝은 급하게 끊지 말고 짧게 정리하세요."
+          "pronKo": "쎄",
+          "mouthKo": "입술과 턱에 힘을 빼고, 각 음절의 모음을 짧고 또렷하게 비교해 보세요.",
+          "toneKo": "꺾임 성조는 중간에 살짝 흔들어 올리는 느낌입니다."
         },
         {
           "id": "l14-p-02",
@@ -6101,9 +6059,9 @@
           "audioSrc": "/audio/l14/l14-p-02.mp3",
           "sourcePage": 154,
           "reviewNeeded": false,
-          "pronKo": "남 사우 또이 세 디 하 노이",
-          "mouthKo": "입술을 과하게 힘주지 말고, 자음 시작을 가볍게 낸 뒤 모음을 길게 열어 소리 내세요.",
-          "toneKo": "하노이 기준 성조를 의식해 음의 높낮이를 분명히 하고, 끝은 급하게 끊지 말고 짧게 정리하세요."
+          "pronKo": "남 싸우 또이 쎄 디 어 오이",
+          "mouthKo": "đ는 한국어 ‘ㄷ/ㄸ’에 가깝게 짧게 치고 바로 다음 모음으로 넘어가세요.",
+          "toneKo": "성조가 여러 개 섞여 있으니 한 톤으로 평평하게 읽지 말고, 각 덩어리의 높낮이를 분리해 주세요."
         }
       ],
       "quizSeeds": [
@@ -6160,11 +6118,10 @@
           "audioSrc": "/audio/l15/l15-v-01.mp3",
           "sourcePage": 160,
           "reviewNeeded": false,
-          "pronKo": "gioi thieu",
-          "pronNoteKo": "giới thiệu는 처음 소리를 과하게 세게 내지 말고 'thieu'은 마지막 음절은 힘을 빼고 자연스럽게 정리하세요.",
+          "pronKo": "저이 티에우",
+          "pronNoteKo": "gi는 북부식으로 ‘지/자’ 계열에 가깝습니다. 영어 g처럼 세게 내지 마세요. 올림 성조는 끝을 살짝 위로 올립니다 / 무거운 성조는 짧고 낮게 눌러 끝냅니다.",
           "pronChunks": [
-            "gioi=gioi",
-            "thieu=thieu"
+            "giới thiệu=저이 티에우"
           ]
         },
         {
@@ -6176,11 +6133,10 @@
           "audioSrc": "/audio/l15/l15-v-02.mp3",
           "sourcePage": 160,
           "reviewNeeded": false,
-          "pronKo": "cau hoi",
-          "pronNoteKo": "câu hỏi는 첫 음절을 또렷하게 시작하고 'hoi'은 끝을 낮게 내리며 정리하세요.",
+          "pronKo": "꺼우 호이",
+          "pronNoteKo": "물음 성조는 중간을 살짝 꺾는 느낌으로 말합니다.",
           "pronChunks": [
-            "cau=cau",
-            "hoi=hoi"
+            "câu hỏi=꺼우 호이"
           ]
         },
         {
@@ -6192,11 +6148,10 @@
           "audioSrc": "/audio/l15/l15-v-03.mp3",
           "sourcePage": 160,
           "reviewNeeded": false,
-          "pronKo": "tra loi",
-          "pronNoteKo": "trả lời는 첫 소리를 짧게 잡고 'loi'은 끝음을 짧게 닫아 마무리하세요.",
+          "pronKo": "짜 러이",
+          "pronNoteKo": "tr은 북부식으로 ‘쯔/찌’에 가깝게 짧게 시작하면 됩니다. 너무 굴리지 마세요. 물음 성조는 중간을 살짝 꺾는 느낌으로 말합니다 / 내림 성조는 끝을 낮게 떨어뜨립니다.",
           "pronChunks": [
-            "tra=tra",
-            "loi=loi"
+            "trả lời=짜 러이"
           ]
         },
         {
@@ -6208,11 +6163,10 @@
           "audioSrc": "/audio/l15/l15-v-04.mp3",
           "sourcePage": 160,
           "reviewNeeded": false,
-          "pronKo": "쭈 de",
-          "pronNoteKo": "chủ đề는 앞부분은 끊지 말고 가볍게 붙여서 시작한 뒤 'de'은 마지막 소리를 부드럽게 이어 말하세요.",
+          "pronKo": "쭈 데",
+          "pronNoteKo": "ch는 ‘ㅉ’에 가깝게 시작하고, 뒤 모음으로 바로 붙여 말하세요. 물음 성조는 중간을 살짝 꺾는 느낌으로 말합니다 / 내림 성조는 끝을 낮게 떨어뜨립니다.",
           "pronChunks": [
-            "chu=쭈",
-            "de=de"
+            "chủ đề=쭈 데"
           ]
         },
         {
@@ -6224,11 +6178,10 @@
           "audioSrc": "/audio/l15/l15-v-05.mp3",
           "sourcePage": 160,
           "reviewNeeded": false,
-          "pronKo": "kinh nghiem",
-          "pronNoteKo": "kinh nghiệm는 처음 소리를 과하게 세게 내지 말고 'nghiem'은 마지막 음절은 힘을 빼고 자연스럽게 정리하세요.",
+          "pronKo": "낀 응이엠",
+          "pronNoteKo": "ngh는 ‘응’으로 시작한다는 느낌으로, 목에 힘을 주지 말고 코로 가볍게 이어 주세요. 마지막 m/n 받침은 입을 닫거나 혀를 붙인 채 짧게 마무리하세요.",
           "pronChunks": [
-            "kinh=kinh",
-            "nghiem=nghiem"
+            "kinh nghiệm=낀 응이엠"
           ]
         },
         {
@@ -6240,11 +6193,10 @@
           "audioSrc": "/audio/l15/l15-v-06.mp3",
           "sourcePage": 160,
           "reviewNeeded": false,
-          "pronKo": "y kien",
-          "pronNoteKo": "ý kiến는 첫 음절을 또렷하게 시작하고 'kien'은 끝을 낮게 내리며 정리하세요.",
+          "pronKo": "이 끼엔",
+          "pronNoteKo": "마지막 m/n 받침은 입을 닫거나 혀를 붙인 채 짧게 마무리하세요. 올림 성조는 끝을 살짝 위로 올립니다.",
           "pronChunks": [
-            "y=y",
-            "kien=kien"
+            "ý kiến=이 끼엔"
           ]
         },
         {
@@ -6256,11 +6208,10 @@
           "audioSrc": "/audio/l15/l15-v-07.mp3",
           "sourcePage": 160,
           "reviewNeeded": false,
-          "pronKo": "ly do",
-          "pronNoteKo": "lý do는 첫 소리를 짧게 잡고 'do'은 끝음을 짧게 닫아 마무리하세요.",
+          "pronKo": "리 조",
+          "pronNoteKo": "올림 성조는 끝을 살짝 위로 올립니다.",
           "pronChunks": [
-            "ly=ly",
-            "do=do"
+            "lý do=리 조"
           ]
         },
         {
@@ -6272,11 +6223,10 @@
           "audioSrc": "/audio/l15/l15-v-08.mp3",
           "sourcePage": 160,
           "reviewNeeded": false,
-          "pronKo": "비 du",
-          "pronNoteKo": "ví dụ는 앞부분은 끊지 말고 가볍게 붙여서 시작한 뒤 'du'은 마지막 소리를 부드럽게 이어 말하세요.",
+          "pronKo": "비 주",
+          "pronNoteKo": "v는 한국어 ㅂ보다 입술을 가볍게 붙였다 떼는 느낌입니다. 너무 강하게 터뜨리지 마세요. 올림 성조는 끝을 살짝 위로 올립니다 / 무거운 성조는 짧고 낮게 눌러 끝냅니다.",
           "pronChunks": [
-            "vi=비",
-            "du=du"
+            "ví dụ=비 주"
           ]
         },
         {
@@ -6288,11 +6238,10 @@
           "audioSrc": "/audio/l15/l15-v-09.mp3",
           "sourcePage": 160,
           "reviewNeeded": false,
-          "pronKo": "cuoi cung",
-          "pronNoteKo": "cuối cùng는 처음 소리를 과하게 세게 내지 말고 'cung'은 마지막 음절은 힘을 빼고 자연스럽게 정리하세요.",
+          "pronKo": "꾸오이 꿍",
+          "pronNoteKo": "끝의 콧소리 받침을 살리되, 뒤에 모음을 덧붙이지 마세요. 올림 성조는 끝을 살짝 위로 올립니다 / 내림 성조는 끝을 낮게 떨어뜨립니다.",
           "pronChunks": [
-            "cuoi=cuoi",
-            "cung=cung"
+            "cuối cùng=꾸오이 꿍"
           ]
         },
         {
@@ -6304,11 +6253,10 @@
           "audioSrc": "/audio/l15/l15-v-10.mp3",
           "sourcePage": 160,
           "reviewNeeded": false,
-          "pronKo": "don gian",
-          "pronNoteKo": "đơn giản는 처음 소리를 과하게 세게 내지 말고 'gian'은 마지막 음절은 힘을 빼고 자연스럽게 정리하세요.",
+          "pronKo": "던 잔",
+          "pronNoteKo": "đ는 한국어 ‘ㄷ/ㄸ’에 가깝게 짧게 치고 바로 다음 모음으로 넘어가세요. 마지막 m/n 받침은 입을 닫거나 혀를 붙인 채 짧게 마무리하세요.",
           "pronChunks": [
-            "don=don",
-            "gian=gian"
+            "đơn giản=던 잔"
           ]
         }
       ],
@@ -6320,13 +6268,13 @@
           "audioSrc": "/audio/l15/l15-s-01.mp3",
           "sourcePage": 161,
           "reviewNeeded": false,
-          "pronKo": "씬 짜오 또이 뗀 라 sungmook 또이 den tu 한 꾸옥 또이 라 nhan vien van phong gan day 또이 혹 띠엥 비엣 비 또이 무온 song o 하 노이 trong tuong lai",
-          "pronNoteKo": "Xin chào. Tôi tên là Sungmook. Tôi đến từ Hàn Quốc. Tôi là nhân viên văn phòng. Gần đây, tôi học tiếng Việt vì tôi muốn sống ở Hà Nội trong tương lai.는 첫 음절을 또렷하게 시작하고 'lai'은 끝을 낮게 내리며 정리하세요.",
+          "pronKo": "씬 짜오 또이 뗀 라 성묵 또이 덴 뜨 한 꾸옥 또이 라 년 비엔 반 퐁 건 더이 또이 혹 띠엥 비엣 비 또이 무온 쏭 오 어 오이 쯔오ㅇ 뜨엉 라이",
+          "pronNoteKo": "x는 ‘ㅆ/ㅅ’처럼 가볍게 시작하고, 뒤 모음을 길게 끌지 마세요.",
           "pronChunks": [
-            "xin chao toi=씬 짜오 또이",
-            "ten la sungmook=짜오",
-            "toi den tu=또이",
-            "han quoc toi=뗀"
+            "Xin chào Tôi tên là Sungmook Tôi đến từ=씬 짜오 또이 뗀 라 성묵 또이 덴 뜨",
+            "Hàn Quốc Tôi là nhân viên văn phòng Gần=한 꾸옥 또이 라 년 비엔 반 퐁 건",
+            "đây tôi học tiếng Việt vì tôi muốn sống=더이 또이 혹 띠엥 비엣 비 또이 무온 쏭",
+            "ở Hà Nội trong tương lai=오 어 오이 쯔오ㅇ 뜨엉 라이"
           ]
         },
         {
@@ -6336,13 +6284,13 @@
           "audioSrc": "/audio/l15/l15-s-02.mp3",
           "sourcePage": 161,
           "reviewNeeded": false,
-          "pronKo": "gia dinh 또이 꼬 본 응어이 또이 꼬 하이 con gai cuoi tuan 또이 thuong 디 choi voi gia dinh",
-          "pronNoteKo": "Gia đình tôi có bốn người. Tôi có hai con gái. Cuối tuần, tôi thường đi chơi với gia đình.는 첫 소리를 짧게 잡고 'dinh'은 끝음을 짧게 닫아 마무리하세요.",
+          "pronKo": "자 딘 또이 오 본 응어이 또이 오 하이 꼰 가이 꾸오이 뚜언 또이 트엉 디 쩌이 버이 자 딘",
+          "pronNoteKo": "gi는 북부식으로 ‘지/자’ 계열에 가깝습니다. 영어 g처럼 세게 내지 마세요.",
           "pronChunks": [
-            "gia dinh toi=gia",
-            "co bon nguoi=꼬 본 응어이",
-            "toi co hai=또이 꼬 하이",
-            "con gai cuoi=꼬"
+            "Gia đình tôi có bốn=자 딘 또이 오 본",
+            "người Tôi có hai con=응어이 또이 오 하이 꼰",
+            "gái Cuối tuần tôi thường=가이 꾸오이 뚜언 또이 트엉",
+            "đi chơi với gia đình=디 쩌이 버이 자 딘"
           ]
         },
         {
@@ -6352,13 +6300,13 @@
           "audioSrc": "/audio/l15/l15-s-03.mp3",
           "sourcePage": 161,
           "reviewNeeded": false,
-          "pronKo": "못 ngay cua 또이 kha 반 buoi 상 또이 디 람 사우 gio 람 또이 혹 띠엥 비엣 바 므어이 phut",
-          "pronNoteKo": "Một ngày của tôi khá bận. Buổi sáng tôi đi làm. Sau giờ làm, tôi học tiếng Việt ba mươi phút.는 앞부분은 끊지 말고 가볍게 붙여서 시작한 뒤 'phut'은 마지막 소리를 부드럽게 이어 말하세요.",
+          "pronKo": "못 응아이 꾸아 또이 카 번 부오이 쌍 또이 디 어ㅁ 싸우 저 어ㅁ 또이 혹 띠엥 비엣 바 므어이 풋",
+          "pronNoteKo": "mười/mươi는 ‘므어이’로 부드럽게 이어 말하고, 뒤 숫자는 한 박자 짧게 붙여 주세요.",
           "pronChunks": [
-            "mot ngay cua=못",
-            "toi kha ban=ngay",
-            "buoi sang toi=cua",
-            "di lam sau=또이"
+            "Một ngày của tôi khá bận=못 응아이 꾸아 또이 카 번",
+            "Buổi sáng tôi đi làm Sau=부오이 쌍 또이 디 어ㅁ 싸우",
+            "giờ làm tôi học tiếng Việt=저 어ㅁ 또이 혹 띠엥 비엣",
+            "ba mươi phút=바 므어이 풋"
           ]
         },
         {
@@ -6368,13 +6316,13 @@
           "audioSrc": "/audio/l15/l15-s-04.mp3",
           "sourcePage": 161,
           "reviewNeeded": false,
-          "pronKo": "so thich cua 또이 라 nghe nhac khi ranh 또이 nghe nhac 비 no 줍 또이 트 gian",
-          "pronNoteKo": "Sở thích của tôi là nghe nhạc. Khi rảnh, tôi nghe nhạc vì nó giúp tôi thư giãn.는 처음 소리를 과하게 세게 내지 말고 'gian'은 마지막 음절은 힘을 빼고 자연스럽게 정리하세요.",
+          "pronKo": "써 틱 꾸아 또이 라 응에 냑 키 잔 또이 응에 냑 비 노 줍 또이 트 잔",
+          "pronNoteKo": "th는 영어 th가 아니라 한국어 ‘ㅌ’에 가깝게 짧고 가볍게 시작하세요.",
           "pronChunks": [
-            "so thich cua=so",
-            "toi la nghe=thich",
-            "nhac khi ranh=cua",
-            "toi nghe nhac=또이"
+            "Sở thích của tôi là=써 틱 꾸아 또이 라",
+            "nghe nhạc Khi rảnh tôi=응에 냑 키 잔 또이",
+            "nghe nhạc vì nó giúp=응에 냑 비 노 줍",
+            "tôi thư giãn=또이 트 잔"
           ]
         },
         {
@@ -6384,13 +6332,13 @@
           "audioSrc": "/audio/l15/l15-s-05.mp3",
           "sourcePage": 161,
           "reviewNeeded": false,
-          "pronKo": "또이 thich 안 퍼 퍼 젓 응온 va 콩 qua cay khi 디 하 노이 또이 무온 안 퍼 보",
-          "pronNoteKo": "Tôi thích ăn phở. Phở rất ngon và không quá cay. Khi đi Hà Nội, tôi muốn ăn phở bò.는 첫 음절을 또렷하게 시작하고 '보'은 끝을 낮게 내리며 정리하세요.",
+          "pronKo": "또이 틱 안 퍼 퍼 젓 응온 바 콩 꽈 까이 키 디 어 오이 또이 무온 안 퍼 보",
+          "pronNoteKo": "không은 ‘콩’처럼 짧게 닫고, 질문 문장에서는 끝을 너무 길게 끌지 마세요.",
           "pronChunks": [
-            "toi thich an=또이",
-            "pho pho rat=퍼 퍼 젓",
-            "ngon va khong=안",
-            "qua cay khi=퍼"
+            "Tôi thích ăn phở Phở=또이 틱 안 퍼 퍼",
+            "rất ngon và không quá=젓 응온 바 콩 꽈",
+            "cay Khi đi Hà Nội=까이 키 디 어 오이",
+            "tôi muốn ăn phở bò=또이 무온 안 퍼 보"
           ]
         },
         {
@@ -6400,13 +6348,13 @@
           "audioSrc": "/audio/l15/l15-s-06.mp3",
           "sourcePage": 161,
           "reviewNeeded": false,
-          "pronKo": "냐 또이 콩 lon nhung 젓 tien loi gan 냐 꼬 sieu thi va cong vien 또이 thich khu nay 비 no yen tinh",
-          "pronNoteKo": "Nhà tôi không lớn nhưng rất tiện lợi. Gần nhà có siêu thị và công viên. Tôi thích khu này vì nó yên tĩnh.는 첫 소리를 짧게 잡고 'tinh'은 끝음을 짧게 닫아 마무리하세요.",
+          "pronKo": "냐 또이 콩 런 능 젓 띠엔 러이 건 냐 오 시에우 티 바 꽁 비엔 또이 틱 쿠 나이 비 노 이엔 띤",
+          "pronNoteKo": "không은 ‘콩’처럼 짧게 닫고, 질문 문장에서는 끝을 너무 길게 끌지 마세요.",
           "pronChunks": [
-            "nha toi khong=냐 또이 콩",
-            "lon nhung rat=또이",
-            "tien loi gan=콩",
-            "nha co sieu=lon"
+            "Nhà tôi không lớn nhưng rất=냐 또이 콩 런 능 젓",
+            "tiện lợi Gần nhà có siêu=띠엔 러이 건 냐 오 시에우",
+            "thị và công viên Tôi thích=티 바 꽁 비엔 또이 틱",
+            "khu này vì nó yên tĩnh=쿠 나이 비 노 이엔 띤"
           ]
         },
         {
@@ -6416,13 +6364,13 @@
           "audioSrc": "/audio/l15/l15-s-07.mp3",
           "sourcePage": 161,
           "reviewNeeded": false,
-          "pronKo": "남 ngoai 또이 bat dau 혹 띠엥 비엣 luc dau phat am 젓 kho nhung 버이 gio 또이 꼬 the 짜오 hoi don gian",
-          "pronNoteKo": "Năm ngoái, tôi bắt đầu học tiếng Việt. Lúc đầu, phát âm rất khó, nhưng bây giờ tôi có thể chào hỏi đơn giản.는 앞부분은 끊지 말고 가볍게 붙여서 시작한 뒤 'gian'은 마지막 소리를 부드럽게 이어 말하세요.",
+          "pronKo": "남 응오아이 또이 밧 더우 혹 띠엥 비엣 룩 더우 팟 엄 젓 코 능 어이 저 또이 오 테 짜오 호이 던 잔",
+          "pronNoteKo": "ng는 단어 앞에서도 ‘응’처럼 시작합니다. 처음에 짧은 ‘으’를 붙이는 느낌이면 따라 하기 쉬워요.",
           "pronChunks": [
-            "nam ngoai toi=남",
-            "bat dau hoc=ngoai",
-            "tieng viet luc=또이",
-            "dau phat am=bat"
+            "Năm ngoái tôi bắt đầu học=남 응오아이 또이 밧 더우 혹",
+            "tiếng Việt Lúc đầu phát âm=띠엥 비엣 룩 더우 팟 엄",
+            "rất khó nhưng bây giờ tôi=젓 코 능 어이 저 또이",
+            "có thể chào hỏi đơn giản=오 테 짜오 호이 던 잔"
           ]
         },
         {
@@ -6432,13 +6380,13 @@
           "audioSrc": "/audio/l15/l15-s-08.mp3",
           "sourcePage": 161,
           "reviewNeeded": false,
-          "pronKo": "trong tuong lai 또이 무온 song o 하 노이 비 버이 또이 세 혹 띠엥 비엣 moi ngay",
-          "pronNoteKo": "Trong tương lai, tôi muốn sống ở Hà Nội. Vì vậy, tôi sẽ học tiếng Việt mỗi ngày.는 처음 소리를 과하게 세게 내지 말고 'ngay'은 마지막 음절은 힘을 빼고 자연스럽게 정리하세요.",
+          "pronKo": "쯔오ㅇ 뜨엉 라이 또이 무온 쏭 오 어 오이 비 버이 또이 쎄 혹 띠엥 비엣 모이 응아이",
+          "pronNoteKo": "tr은 북부식으로 ‘쯔/찌’에 가깝게 짧게 시작하면 됩니다. 너무 굴리지 마세요.",
           "pronChunks": [
-            "trong tuong lai=trong",
-            "toi muon song=tuong",
-            "o ha noi=lai",
-            "vi vay toi=또이"
+            "Trong tương lai tôi muốn=쯔오ㅇ 뜨엉 라이 또이 무온",
+            "sống ở Hà Nội Vì=쏭 오 어 오이 비",
+            "vậy tôi sẽ học tiếng=버이 또이 쎄 혹 띠엥",
+            "Việt mỗi ngày=비엣 모이 응아이"
           ]
         }
       ],
@@ -6532,9 +6480,9 @@
           "audioSrc": "/audio/l15/l15-p-01.mp3",
           "sourcePage": 164,
           "reviewNeeded": false,
-          "pronKo": "gioi thieu",
-          "mouthKo": "입술을 과하게 힘주지 말고, 자음 시작을 가볍게 낸 뒤 모음을 길게 열어 소리 내세요.",
-          "toneKo": "하노이 기준 성조를 의식해 음의 높낮이를 분명히 하고, 끝은 급하게 끊지 말고 짧게 정리하세요."
+          "pronKo": "저이 티에우",
+          "mouthKo": "gi는 북부식으로 ‘지/자’ 계열에 가깝습니다. 영어 g처럼 세게 내지 마세요.",
+          "toneKo": "올림 성조는 끝을 살짝 위로 올립니다 / 무거운 성조는 짧고 낮게 눌러 끝냅니다."
         },
         {
           "id": "l15-p-02",
@@ -6543,9 +6491,9 @@
           "audioSrc": "/audio/l15/l15-p-02.mp3",
           "sourcePage": 164,
           "reviewNeeded": false,
-          "pronKo": "씬 짜오 또이 뗀 라 sungmook 또이 den tu 한 꾸옥 또이 라 nhan vien van phong gan day 또이 혹 띠엥 비엣 비 또이 무온 song o 하 노이 trong tuong lai",
-          "mouthKo": "입술을 과하게 힘주지 말고, 자음 시작을 가볍게 낸 뒤 모음을 길게 열어 소리 내세요.",
-          "toneKo": "하노이 기준 성조를 의식해 음의 높낮이를 분명히 하고, 끝은 급하게 끊지 말고 짧게 정리하세요."
+          "pronKo": "씬 짜오 또이 뗀 라 성묵 또이 덴 뜨 한 꾸옥 또이 라 년 비엔 반 퐁 건 더이 또이 혹 띠엥 비엣 비 또이 무온 쏭 오 어 오이 쯔오ㅇ 뜨엉 라이",
+          "mouthKo": "x는 ‘ㅆ/ㅅ’처럼 가볍게 시작하고, 뒤 모음을 길게 끌지 마세요.",
+          "toneKo": "성조가 여러 개 섞여 있으니 한 톤으로 평평하게 읽지 말고, 각 덩어리의 높낮이를 분리해 주세요."
         }
       ],
       "quizSeeds": [
