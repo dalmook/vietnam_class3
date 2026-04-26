@@ -41,6 +41,34 @@
 - mp3 요청: 사용자가 재생한 파일부터 **CacheFirst** 런타임 캐시
 - 이미지 요청: **CacheFirst**
 
+## 발음 보조 데이터 구조 (JSON)
+
+### 1) `vocabCards`, `sentenceCards` 공통 발음 필드
+
+- `pronKo`: 한국어 학습자를 위한 발음 느낌(한글 근사 표기)
+- `pronNoteKo`: 하노이 기준에 가깝게 발음할 때의 짧은 팁
+- `pronChunks`: 덩어리 발음 연습용 배열(예: `"xin=씬"`, `"chào=짜오"`)
+- `shadowingTipKo`: 쉐도잉(따라 말하기) 안내 문구
+
+### 2) `pronunciationTargets` 발음 훈련 필드
+
+- `pronKo`: 타겟 표현의 발음 느낌
+- `mouthKo`: 입모양/혀 위치 중심 설명
+- `toneKo`: 성조/억양 중심 설명
+- `practiceKo`: 실제 반복 연습 지시문
+
+### 3) 작성 원칙
+
+- 하노이 기준 발음을 참고해 작성
+- 한글 표기는 정확한 음성학 기호가 아니라 **초보자용 발음 느낌** 제공 목적
+- 성조는 한글 표기로 완전 대체하지 않고 `pronNoteKo` / `toneKo` 설명으로 보완
+- 실제 학습 우선순위는 `audioSrc` mp3이며, 발음 텍스트는 보조 안내 용도
+
+### 4) 자동 변환 fallback 정책
+
+- JSON에 `pronKo`가 있으면 해당 값을 우선 표시
+- `pronKo`가 없으면 `app.js`의 `hangulPronNatural()` 자동 변환 값을 fallback으로 표시
+
 ## 새 버전 배포 방식
 
 1. `sw.js`의 `APP_VERSION` 증가
