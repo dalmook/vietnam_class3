@@ -304,9 +304,14 @@ class VietnameseA1App {
     this.audioUnlocked = false;
     this.effect = null;
     this.sfxCtx = null;
+    this.swReloading = false;
+    this.pendingSWRegistration = null;
     this.ensureStorageHealth();
 
     this.bindGlobalEvents();
+    this.setupPwaUI();
+    this.setupServiceWorkerRegistration();
+    this.bindNetworkStatusEvents();
     this.bootstrap();
   }
 
@@ -328,8 +333,7 @@ class VietnameseA1App {
 
   async fetchJson() {
     const paths = [
-      './vietnamese_a1_to_opic_im1_starter.json',
-      './data/vietnamese_a1_to_opic_im1_starter.json'
+      './vietnamese_a1_to_opic_im1_starter.json'
     ];
     let lastErr;
     for (const path of paths) {
@@ -703,7 +707,8 @@ class VietnameseA1App {
       <label>음성 속도 ${this.settings.speechRate.toFixed(2)}</label><input type="range" min="0.6" max="1.2" step="0.05" value="${this.settings.speechRate}" data-change="speechRate" />
       <label><input type="checkbox" ${this.settings.autoShowMeaning ? 'checked' : ''} data-change="autoShowMeaning" /> 자동 뜻 보이기</label><br>
       <label><input type="checkbox" ${this.settings.autoPlay ? 'checked' : ''} data-change="autoPlay" /> 카드 넘김 자동 재생</label>
-      <div class="controls"><button data-action="audioTest">🔊 음성 테스트</button><button class="bad" data-action="resetLocal">학습기록 초기화</button><button class="warn" data-action="recoverCache">오류 복구(캐시 초기화)</button></div></div>
+      <p class="small">앱 캐시 초기화는 오프라인 파일(서비스워커/캐시 저장소) 정리, 학습 기록 초기화는 진도/북마크/오답 데이터를 삭제합니다.</p>
+      <div class="controls settings-actions"><button data-action="audioTest">🔊 음성 테스트</button><button class="warn cache-reset-btn" data-action="recoverCache">앱 캐시 초기화</button><button class="bad progress-reset-btn" data-action="resetLocal">학습 기록 초기화</button></div></div>
       <div class="card"><h3>JSON 로딩 상태</h3><p class="small">경로: ${this.state.loadedPath}</p><p class="small">lessons ${c.lessons.length}, vocab ${c.vocab.length}, sentence ${c.sentence.length}, dialogues ${c.dialogues.length}, grammar ${c.grammar.length}, pronunciation ${c.pronunciation.length}, quizSeeds ${c.seeds.length}</p></div></section>`;
   }
 
@@ -908,7 +913,7 @@ class VietnameseA1App {
   }
 
   async playAudio(audioSrc, fallbackText) {
-    const src = (audioSrc || '').replace(/^\//, './');
+    const src = this.normalizeAudioSrc(audioSrc || '');
     if (src) {
       try {
         const audio = new Audio(src);
@@ -950,6 +955,99 @@ class VietnameseA1App {
       if (!ok) break;
       await new Promise((r) => setTimeout(r, 220));
     }
+  }
+
+  normalizeAudioSrc(audioSrc) {
+    const src = String(audioSrc || '').trim();
+    if (!src) return '';
+    if (/^https?:\/\//i.test(src)) return src;
+    if (src.startsWith('./')) return src;
+    if (src.startsWith('/audio/')) return `.${src}`;
+    if (src.startsWith('audio/')) return `./${src}`;
+    if (src.startsWith('/')) return `.${src}`;
+    return `./${src.replace(/^\.\//, '')}`;
+  }
+
+  setupPwaUI() {
+    if (!document.getElementById('pwa-update-banner')) {
+      const update = document.createElement('aside');
+      update.id = 'pwa-update-banner';
+      update.className = 'pwa-update-banner hidden';
+      update.setAttribute('role', 'status');
+      update.innerHTML = `<h3>새 학습 콘텐츠가 있어요</h3><p>최신 단어장/음성/화면을 적용하려면 업데이트해 주세요.</p><div class="controls"><button class="primary" id="pwa-update-now">지금 업데이트</button><button id="pwa-update-later">나중에</button></div>`;
+      document.body.appendChild(update);
+      update.querySelector('#pwa-update-now')?.addEventListener('click', () => this.applyWaitingServiceWorker());
+      update.querySelector('#pwa-update-later')?.addEventListener('click', () => this.hideUpdateBanner());
+    }
+    if (!document.getElementById('offline-badge')) {
+      const badge = document.createElement('div');
+      badge.id = 'offline-badge';
+      badge.className = 'offline-badge hidden';
+      badge.textContent = '오프라인 모드입니다. 저장된 학습자료로 복습할 수 있어요.';
+      document.body.appendChild(badge);
+    }
+    this.updateNetworkBadge();
+  }
+
+  bindNetworkStatusEvents() {
+    window.addEventListener('offline', () => this.updateNetworkBadge());
+    window.addEventListener('online', () => this.updateNetworkBadge());
+  }
+
+  updateNetworkBadge() {
+    const badge = document.getElementById('offline-badge');
+    if (!badge) return;
+    badge.classList.toggle('hidden', navigator.onLine);
+  }
+
+  showUpdateBanner() {
+    document.getElementById('pwa-update-banner')?.classList.remove('hidden');
+  }
+
+  hideUpdateBanner() {
+    document.getElementById('pwa-update-banner')?.classList.add('hidden');
+  }
+
+  async applyWaitingServiceWorker() {
+    const reg = this.pendingSWRegistration || (await navigator.serviceWorker.getRegistration('./'));
+    if (reg?.waiting) {
+      reg.waiting.postMessage({ type: 'SKIP_WAITING' });
+      this.hideUpdateBanner();
+    }
+  }
+
+  setupServiceWorkerRegistration() {
+    if (!('serviceWorker' in navigator)) return;
+    window.addEventListener('load', async () => {
+      try {
+        const registration = await navigator.serviceWorker.register('./sw.js');
+        this.pendingSWRegistration = registration;
+
+        const watchInstalling = (worker) => {
+          if (!worker) return;
+          worker.addEventListener('statechange', () => {
+            if (worker.state === 'installed' && navigator.serviceWorker.controller) {
+              this.showUpdateBanner();
+            }
+          });
+        };
+
+        watchInstalling(registration.installing);
+        registration.addEventListener('updatefound', () => watchInstalling(registration.installing));
+
+        if (registration.waiting && navigator.serviceWorker.controller) {
+          this.showUpdateBanner();
+        }
+      } catch (error) {
+        console.warn('서비스워커 등록 실패', error);
+      }
+    });
+
+    navigator.serviceWorker.addEventListener('controllerchange', () => {
+      if (this.swReloading) return;
+      this.swReloading = true;
+      window.location.reload();
+    });
   }
 
   hangulPron(text) {
@@ -1252,4 +1350,3 @@ class VietnameseA1App {
 }
 
 window.addEventListener('DOMContentLoaded', () => new VietnameseA1App());
-if ('serviceWorker' in navigator) window.addEventListener('load', () => navigator.serviceWorker.register('./sw.js').catch(() => {}));
