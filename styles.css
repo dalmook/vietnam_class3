@@ -41,6 +41,59 @@ article .controls button { flex: 1 1 120px; }
 .card-tap-zone { border-radius: 16px; padding: 4px 2px; cursor: pointer; }
 .tap-hint { margin: 4px 0 0; color: #7b86a7; }
 .pron-line { margin: 8px 2px 0; color: #4c5a84; font-weight: 600; }
+.pron-guide {
+  margin-top: 10px;
+  border: 1px solid #dfe5ff;
+  border-radius: 14px;
+  padding: 10px;
+  background: linear-gradient(180deg, #f7f9ff 0%, #f2f6ff 100%);
+  display: grid;
+  gap: 8px;
+}
+.pron-guide.compact {
+  max-height: 210px;
+  overflow-y: auto;
+}
+.pron-main,
+.pron-note,
+.pron-chunks,
+.pron-shadowing,
+.pron-info-card {
+  border-radius: 10px;
+  padding: 8px 10px;
+  line-height: 1.45;
+  white-space: pre-wrap;
+  word-break: keep-all;
+}
+.pron-main {
+  background: #eef1ff;
+  color: #3043a0;
+  font-size: 1.08rem;
+  font-weight: 800;
+}
+.pron-note { background: #eef9ff; color: #2b4d74; font-size: .86rem; }
+.pron-chunks { background: #f3f1ff; color: #4b3f86; font-size: .85rem; }
+.pron-shadowing { background: #f1f8ff; color: #3d4f7f; font-size: .85rem; }
+.pron-label {
+  display: inline-block;
+  font-size: .72rem;
+  font-weight: 800;
+  letter-spacing: .01em;
+  color: #5a6490;
+  margin-bottom: 4px;
+}
+.pron-target-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 8px;
+  margin: 8px 0 4px;
+}
+.pron-info-card {
+  border: 1px solid #dee6ff;
+  background: #f8f9ff;
+  color: #32425f;
+  font-size: .88rem;
+}
 .audio-controls { margin-top: 10px; }
 .nav-controls {
   margin-top: 18px;

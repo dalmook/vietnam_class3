@@ -505,6 +505,7 @@ class VietnameseA1App {
     const c = cards[idx];
     const stat = this.progress[c.id] || {};
     const show = this.state.revealMeaning;
+    const pronGuide = this.renderPronGuide(c, c.term);
     return `<article class="card fade">
       <div class="row card-top">
         <div class="row"><span class="badge">${idx + 1} / ${cards.length}</span>${c.sourcePage ? `<span class="badge">p.${c.sourcePage}</span>` : ''}</div>
@@ -517,7 +518,7 @@ class VietnameseA1App {
       <div class="card-tap-zone" data-action="toggleCardReveal">
         <div class="vi-big">${c.term}</div>
         <div class="pron-tip ${show ? '' : 'hidden'}">뜻: ${c.meaningKo}</div>
-        <p class="small pron-line ${show ? '' : 'hidden'}">발음 느낌: ${this.hangulPronNatural(c.term)}</p>
+        <div class="${show ? '' : 'hidden'}">${pronGuide}</div>
         ${show && c.example ? `<p class="small">예문: ${c.example}<br>${c.exampleMeaningKo || ''}</p>` : ''}
         <p class="small tap-hint">${show ? '카드를 탭하면 뜻을 숨길 수 있어요' : '카드를 탭하면 뜻이 보여요'}</p>
       </div>
@@ -537,6 +538,7 @@ class VietnameseA1App {
     const c = cards[idx];
     const stat = this.progress[c.id] || {};
     const show = this.state.revealMeaning;
+    const pronGuide = this.renderPronGuide(c, c.textVi, { compact: true });
     return `<article class="card fade">
       <div class="row card-top">
         <div class="row"><span class="badge">${idx + 1} / ${cards.length}</span>${c.sourcePage ? `<span class="badge">p.${c.sourcePage}</span>` : ''}</div>
@@ -549,7 +551,7 @@ class VietnameseA1App {
       <div class="card-tap-zone" data-action="toggleCardReveal">
         <div class="vi-big">${c.textVi}</div>
         <div class="pron-tip ${show ? '' : 'hidden'}">뜻: ${c.textKo}</div>
-        <p class="small pron-line ${show ? '' : 'hidden'}">발음 느낌: ${this.hangulPronNatural(c.textVi)}</p>
+        <div class="${show ? '' : 'hidden'}">${pronGuide}</div>
         <p class="small tap-hint">${show ? '카드를 탭하면 해석을 숨깁니다' : '카드를 탭하면 해석이 보여요'}</p>
       </div>
       <div class="controls action-grid compact audio-controls">
@@ -583,10 +585,20 @@ class VietnameseA1App {
     const idx = this.clampIndex(this.state.pronIndex, list.length);
     this.state.pronIndex = idx;
     const t = list[idx];
+    const fallbackHint = t.hintKo ? `<p class="ko">${this.escapeHtml(t.hintKo)}</p>` : '';
+    const pronBlocks = [
+      ['발음 느낌', t.pronKo || this.hangulPronNatural(t.text), 'pron-main'],
+      ['입모양', t.mouthKo, 'pron-note'],
+      ['성조/억양', t.toneKo, 'pron-note'],
+      ['연습 방법', t.practiceKo, 'pron-shadowing']
+    ].filter(([, content]) => content);
     return `<article class="card fade">
       <span class="badge">성조/모음 타겟 ${idx + 1}/${list.length}</span>
       <div class="vi-big">${t.text}</div>
-      <p class="ko">${t.hintKo}</p>
+      ${fallbackHint}
+      <div class="pron-target-grid">
+        ${pronBlocks.map(([label, content, klass]) => `<div class="pron-info-card ${klass}"><div class="pron-label">${label}</div><div>${this.escapeHtml(content)}</div></div>`).join('')}
+      </div>
       <div class="controls"><button class="primary" data-action="speak:${t.audioSrc || ''}" data-text="${t.text}">듣기</button><button class="warn" data-action="repeatSpeak" data-text="${t.text}" data-audio="${t.audioSrc || ''}">3회 반복</button><button data-action="shift:1">다음</button></div>
     </article>`;
   }
@@ -1297,6 +1309,26 @@ class VietnameseA1App {
 
   shuffle(arr) { return [...arr].sort(() => Math.random() - 0.5); }
   escapeAttr(s = '') { return String(s).replace(/"/g, '&quot;'); }
+  escapeHtml(s = '') {
+    return String(s)
+      .replace(/&/g, '&amp;')
+      .replace(/</g, '&lt;')
+      .replace(/>/g, '&gt;')
+      .replace(/"/g, '&quot;')
+      .replace(/'/g, '&#39;');
+  }
+
+  renderPronGuide(item, originalText, opts = {}) {
+    const mainPron = item.pronKo || this.hangulPronNatural(originalText);
+    const chunks = Array.isArray(item.pronChunks) ? item.pronChunks.join(' · ') : (item.pronChunks || '');
+    const compactClass = opts.compact ? 'pron-guide compact' : 'pron-guide';
+    return `<div class="${compactClass}">
+      <div class="pron-main"><div class="pron-label">발음 느낌</div><div>${this.escapeHtml(mainPron)}</div></div>
+      ${item.pronNoteKo ? `<div class="pron-note"><div class="pron-label">발음 팁</div><div>${this.escapeHtml(item.pronNoteKo)}</div></div>` : ''}
+      ${chunks ? `<div class="pron-chunks"><div class="pron-label">덩어리 연습</div><div>${this.escapeHtml(chunks)}</div></div>` : ''}
+      ${item.shadowingTipKo ? `<div class="pron-shadowing"><div class="pron-label">따라 말하기</div><div>${this.escapeHtml(item.shadowingTipKo)}</div></div>` : ''}
+    </div>`;
+  }
 
   loadLocal(key, fallback) {
     try {
