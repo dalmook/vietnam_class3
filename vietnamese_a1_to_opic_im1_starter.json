@@ -1,19 +1,21 @@
 {
   "meta": {
-    "version": "2.0.1-pron-clean",
+    "version": "2.1.0-early-core-plus",
     "title": "Vietnamese A1 to OPIC IM1 Complete Starter",
-    "description": "완전 기초 학습자용 베트남어 문자·발음·숫자부터 OPIC IM1 말하기 답변까지 이어지는 단계형 데이터셋 (발음 느낌/덩어리/발음팁 정비본)",
+    "description": "완전 기초 학습자용 베트남어 문자·발음·숫자부터 OPIC IM1 말하기 답변까지 이어지는 단계형 데이터셋 (발음 느낌/덩어리/발음팁 정비본) + 초반 필수 인칭대명사/호칭/핵심동사/의문사/지시어 보강본",
     "targetLevel": "Absolute Beginner → OPIC IM1",
     "dialectNote": "하노이/북부 기준 표현을 우선 사용하되, 전국적으로 통하는 기본 표현 중심으로 구성",
     "audioPolicy": "신규/전체 항목의 audioSrc는 빈 문자열로 두었으며, Google Cloud TTS 생성 스크립트가 /audio/{lessonId}/{itemId}.mp3 형태로 자동 채우는 것을 전제로 함",
     "sourceNotes": [
       "기존 vietnam_class3 앱의 lessons / vocabCards / sentenceCards / dialogues / grammarPoints / pronunciationTargets / quizSeeds 구조에 맞춤",
       "사용자 요청에 따라 기초 단계부터 IM1까지 필요한 주제 전체를 하나의 JSON으로 재구성",
-      "MP3 중복 생성을 피하기 위해 생성 스크립트에서 로컬 파일 존재 여부를 확인하는 방식 권장"
+      "MP3 중복 생성을 피하기 위해 생성 스크립트에서 로컬 파일 존재 여부를 확인하는 방식 권장",
+      "2026-04-26 초반 필수 학습 흐름 보강: l1 인칭대명사/호칭, l2 핵심 동사·의문사·지시어, l3 소유/함께 표현 추가."
     ],
     "createdAt": "2026-04-25",
     "pronunciationCleanupNote": "pronKo/pronChunks의 한글·로마자 혼합을 정리하고, pronNoteKo를 항목별 발음 포인트 중심으로 재작성함. shadowingTipKo/practiceKo는 사용하지 않음.",
-    "updatedAt": "2026-04-26"
+    "updatedAt": "2026-04-26",
+    "earlyCoreExpansionNote": "기존 항목은 유지하고, l1~l3 초반부에 인칭대명사·호칭·핵심동사·의문사·지시어·소유/함께 표현을 추가함. 신규 항목의 audioSrc는 TTS 생성용으로 빈 문자열 처리."
   },
   "lessons": [
     {
@@ -40,7 +42,7 @@
           "meaningKo": "모음 a(아)",
           "example": "a",
           "exampleMeaningKo": "아",
-          "audioSrc": "",
+          "audioSrc": "/audio/l0/l0-v-01.mp3",
           "sourcePage": 1,
           "reviewNeeded": false,
           "pronKo": "아",
@@ -55,7 +57,7 @@
           "meaningKo": "짧은 ă(아̆)",
           "example": "ăn",
           "exampleMeaningKo": "먹다",
-          "audioSrc": "",
+          "audioSrc": "/audio/l0/l0-v-02.mp3",
           "sourcePage": 1,
           "reviewNeeded": false,
           "pronKo": "아",
@@ -115,7 +117,7 @@
           "meaningKo": "모음 i(이)",
           "example": "đi",
           "exampleMeaningKo": "가다",
-          "audioSrc": "",
+          "audioSrc": "/audio/l0/l0-v-06.mp3",
           "sourcePage": 1,
           "reviewNeeded": false,
           "pronKo": "이",
@@ -160,7 +162,7 @@
           "meaningKo": "모음 ơ(어)",
           "example": "mở",
           "exampleMeaningKo": "열다",
-          "audioSrc": "",
+          "audioSrc": "/audio/l0/l0-v-09.mp3",
           "sourcePage": 1,
           "reviewNeeded": false,
           "pronKo": "어",
@@ -205,7 +207,7 @@
           "meaningKo": "모음 y(이)",
           "example": "mỹ",
           "exampleMeaningKo": "아름다운",
-          "audioSrc": "",
+          "audioSrc": "/audio/l0/l0-v-12.mp3",
           "sourcePage": 1,
           "reviewNeeded": false,
           "pronKo": "이",
@@ -1063,12 +1065,16 @@
       "goals": [
         "인사하기",
         "감사/사과 표현",
-        "짧게 안부 묻기"
+        "짧게 안부 묻기",
+        "인칭대명사/호칭 익히기",
+        "상대에 맞는 기본 호칭으로 인사하기"
       ],
       "topicOverview": "처음 만났을 때 바로 쓰는 생존 표현",
       "cultureTopics": [
         "예의 표현",
-        "호칭 감각"
+        "호칭 감각",
+        "베트남어 호칭은 나이/관계에 따라 달라짐",
+        "tôi/bạn은 초보 단계에서 가장 안전한 기본 조합"
       ],
       "vocabCards": [
         {
@@ -1224,6 +1230,204 @@
             "được gặp=드억 갑",
             "bạn=반"
           ]
+        },
+        {
+          "id": "l1-v-11",
+          "term": "tôi",
+          "meaningKo": "저/나",
+          "example": "Tôi khỏe.",
+          "exampleMeaningKo": "저는 잘 지내요.",
+          "audioSrc": "/audio/l1/l1-v-11.mp3",
+          "sourcePage": 20,
+          "reviewNeeded": false,
+          "pronKo": "또이",
+          "pronNoteKo": "tôi는 입을 둥글게 모아 ‘또이’처럼 짧게 말합니다. 문장 앞에서는 너무 세게 치지 마세요.",
+          "pronChunks": [
+            "tôi=또이"
+          ]
+        },
+        {
+          "id": "l1-v-12",
+          "term": "bạn",
+          "meaningKo": "당신/친구/상대방",
+          "example": "Bạn khỏe không?",
+          "exampleMeaningKo": "잘 지내요?",
+          "audioSrc": "/audio/l1/l1-v-12.mp3",
+          "sourcePage": 20,
+          "reviewNeeded": false,
+          "pronKo": "반",
+          "pronNoteKo": "bạn은 짧고 낮게 닫는 느낌입니다. 끝을 길게 끌지 말고 ‘반’으로 눌러 마무리하세요.",
+          "pronChunks": [
+            "bạn=반"
+          ]
+        },
+        {
+          "id": "l1-v-13",
+          "term": "mình",
+          "meaningKo": "나/우리(친근한 표현)",
+          "example": "Mình tên là Min.",
+          "exampleMeaningKo": "나는 민이라고 해.",
+          "audioSrc": "/audio/l1/l1-v-13.mp3",
+          "sourcePage": 20,
+          "reviewNeeded": false,
+          "pronKo": "민",
+          "pronNoteKo": "mình은 ‘민’을 낮게 떨어뜨리듯 말합니다. 친구 사이에서 부드럽게 쓰는 표현입니다.",
+          "pronChunks": [
+            "mình=민"
+          ]
+        },
+        {
+          "id": "l1-v-14",
+          "term": "anh",
+          "meaningKo": "형/오빠/남성 호칭",
+          "example": "Chào anh.",
+          "exampleMeaningKo": "안녕하세요, 형/오빠/선생님.",
+          "audioSrc": "/audio/l1/l1-v-14.mp3",
+          "sourcePage": 20,
+          "reviewNeeded": false,
+          "pronKo": "아잉",
+          "pronNoteKo": "anh은 ‘안’보다 ‘아잉’에 가깝게 코끝을 살려 말합니다. 한국어 ‘앙’처럼 너무 둥글게 만들지 마세요.",
+          "pronChunks": [
+            "anh=아잉"
+          ]
+        },
+        {
+          "id": "l1-v-15",
+          "term": "chị",
+          "meaningKo": "누나/언니/여성 호칭",
+          "example": "Chào chị.",
+          "exampleMeaningKo": "안녕하세요, 누나/언니/선생님.",
+          "audioSrc": "/audio/l1/l1-v-15.mp3",
+          "sourcePage": 20,
+          "reviewNeeded": false,
+          "pronKo": "찌",
+          "pronNoteKo": "chị는 ‘찌’를 짧고 낮게 눌러 말합니다. 끝에 ‘이’를 길게 붙이지 마세요.",
+          "pronChunks": [
+            "chị=찌"
+          ]
+        },
+        {
+          "id": "l1-v-16",
+          "term": "em",
+          "meaningKo": "동생/나(어린 쪽)",
+          "example": "Em cảm ơn.",
+          "exampleMeaningKo": "제가 감사합니다.",
+          "audioSrc": "/audio/l1/l1-v-16.mp3",
+          "sourcePage": 20,
+          "reviewNeeded": false,
+          "pronKo": "엠",
+          "pronNoteKo": "em은 입을 크게 벌리지 말고 짧은 ‘엠’으로 말합니다. 상대보다 어리거나 낮춰 말할 때 자주 씁니다.",
+          "pronChunks": [
+            "em=엠"
+          ]
+        },
+        {
+          "id": "l1-v-17",
+          "term": "cô",
+          "meaningKo": "여성 어른/선생님 호칭",
+          "example": "Chào cô.",
+          "exampleMeaningKo": "안녕하세요, 선생님/아주머니.",
+          "audioSrc": "/audio/l1/l1-v-17.mp3",
+          "sourcePage": 20,
+          "reviewNeeded": false,
+          "pronKo": "꼬",
+          "pronNoteKo": "cô는 입술을 둥글게 모아 ‘꼬’처럼 짧게 말합니다. 밝게 올리지 말고 평평하게 내세요.",
+          "pronChunks": [
+            "cô=꼬"
+          ]
+        },
+        {
+          "id": "l1-v-18",
+          "term": "chú",
+          "meaningKo": "남성 어른/아저씨 호칭",
+          "example": "Chào chú.",
+          "exampleMeaningKo": "안녕하세요, 아저씨.",
+          "audioSrc": "/audio/l1/l1-v-18.mp3",
+          "sourcePage": 20,
+          "reviewNeeded": false,
+          "pronKo": "쭈",
+          "pronNoteKo": "chú는 ‘쭈’에 가깝게 시작하고 끝을 살짝 올립니다. ‘추’보다 조금 더 단단하게 시작하세요.",
+          "pronChunks": [
+            "chú=쭈"
+          ]
+        },
+        {
+          "id": "l1-v-19",
+          "term": "ông",
+          "meaningKo": "남성 어르신/할아버지",
+          "example": "Chào ông.",
+          "exampleMeaningKo": "안녕하세요, 할아버지/선생님.",
+          "audioSrc": "/audio/l1/l1-v-19.mp3",
+          "sourcePage": 20,
+          "reviewNeeded": false,
+          "pronKo": "옹",
+          "pronNoteKo": "ông은 입술을 둥글게 모아 짧은 ‘옹’으로 닫습니다. 받침을 길게 끌지 마세요.",
+          "pronChunks": [
+            "ông=옹"
+          ]
+        },
+        {
+          "id": "l1-v-20",
+          "term": "bà",
+          "meaningKo": "여성 어르신/할머니",
+          "example": "Chào bà.",
+          "exampleMeaningKo": "안녕하세요, 할머니/선생님.",
+          "audioSrc": "/audio/l1/l1-v-20.mp3",
+          "sourcePage": 20,
+          "reviewNeeded": false,
+          "pronKo": "바",
+          "pronNoteKo": "bà는 낮게 떨어지는 성조입니다. ‘바’를 말한 뒤 끝을 살짝 내려 주세요.",
+          "pronChunks": [
+            "bà=바"
+          ]
+        },
+        {
+          "id": "l1-v-21",
+          "term": "chúng tôi",
+          "meaningKo": "저희/우리(듣는 사람 제외)",
+          "example": "Chúng tôi là người Hàn Quốc.",
+          "exampleMeaningKo": "저희는 한국 사람입니다.",
+          "audioSrc": "/audio/l1/l1-v-21.mp3",
+          "sourcePage": 20,
+          "reviewNeeded": false,
+          "pronKo": "쭝 또이",
+          "pronNoteKo": "chúng은 ‘쭝’처럼 짧게 닫고, tôi는 부드럽게 붙입니다. 둘 사이를 너무 길게 띄우지 마세요.",
+          "pronChunks": [
+            "chúng=쭝",
+            "tôi=또이"
+          ]
+        },
+        {
+          "id": "l1-v-22",
+          "term": "chúng ta",
+          "meaningKo": "우리(듣는 사람 포함)",
+          "example": "Chúng ta học tiếng Việt.",
+          "exampleMeaningKo": "우리는 베트남어를 공부합니다.",
+          "audioSrc": "/audio/l1/l1-v-22.mp3",
+          "sourcePage": 20,
+          "reviewNeeded": false,
+          "pronKo": "쭝 따",
+          "pronNoteKo": "chúng ta는 ‘우리 모두’ 느낌입니다. chúng은 짧게, ta는 평평하게 이어 말하세요.",
+          "pronChunks": [
+            "chúng=쭝",
+            "ta=따"
+          ]
+        },
+        {
+          "id": "l1-v-23",
+          "term": "các bạn",
+          "meaningKo": "여러분/너희들",
+          "example": "Các bạn khỏe không?",
+          "exampleMeaningKo": "여러분 잘 지내세요?",
+          "audioSrc": "/audio/l1/l1-v-23.mp3",
+          "sourcePage": 20,
+          "reviewNeeded": false,
+          "pronKo": "깍 반",
+          "pronNoteKo": "các은 ‘깍’처럼 짧게 끊고, bạn은 낮게 닫습니다. 단체에게 말할 때 편하게 씁니다.",
+          "pronChunks": [
+            "các=깍",
+            "bạn=반"
+          ]
         }
       ],
       "sentenceCards": [
@@ -1317,6 +1521,133 @@
             "hẹn gặp=헨 갑",
             "lại=라이"
           ]
+        },
+        {
+          "id": "l1-s-07",
+          "textVi": "Tôi là người Hàn Quốc.",
+          "textKo": "저는 한국 사람입니다.",
+          "audioSrc": "/audio/l1/l1-s-07.mp3",
+          "sourcePage": 21,
+          "reviewNeeded": false,
+          "pronKo": "또이 라 응어이 한 꾸옥",
+          "pronNoteKo": "tôi là는 한 덩어리처럼 가볍게 붙이고, Hàn Quốc은 ‘한 꾸옥’처럼 뒤를 또렷하게 닫습니다.",
+          "pronChunks": [
+            "Tôi là=또이 라",
+            "người Hàn Quốc=응어이 한 꾸옥"
+          ]
+        },
+        {
+          "id": "l1-s-08",
+          "textVi": "Bạn tên là gì?",
+          "textKo": "이름이 뭐예요?",
+          "audioSrc": "/audio/l1/l1-s-08.mp3",
+          "sourcePage": 21,
+          "reviewNeeded": false,
+          "pronKo": "반 뗀 라 지",
+          "pronNoteKo": "gì는 북부 기준 ‘지’에 가깝습니다. 질문 문장이지만 끝을 과하게 올리지 말고 짧게 마무리하세요.",
+          "pronChunks": [
+            "Bạn tên=반 뗀",
+            "là gì=라 지"
+          ]
+        },
+        {
+          "id": "l1-s-09",
+          "textVi": "Mình tên là Sungmook.",
+          "textKo": "나는 성묵이라고 해.",
+          "audioSrc": "/audio/l1/l1-s-09.mp3",
+          "sourcePage": 21,
+          "reviewNeeded": false,
+          "pronKo": "민 뗀 라 성묵",
+          "pronNoteKo": "mình은 친근한 ‘나’ 느낌입니다. 이름 앞까지 자연스럽게 이어 말하세요.",
+          "pronChunks": [
+            "Mình tên=민 뗀",
+            "là Sungmook=라 성묵"
+          ]
+        },
+        {
+          "id": "l1-s-10",
+          "textVi": "Chào anh, anh khỏe không?",
+          "textKo": "안녕하세요, 잘 지내세요? (남성에게)",
+          "audioSrc": "/audio/l1/l1-s-10.mp3",
+          "sourcePage": 21,
+          "reviewNeeded": false,
+          "pronKo": "짜오 아잉 아잉 쾌 콩",
+          "pronNoteKo": "anh은 ‘아잉’으로 코끝을 살리고, khỏe không은 ‘쾌 콩’처럼 짧게 붙여 말하세요.",
+          "pronChunks": [
+            "Chào anh=짜오 아잉",
+            "anh khỏe không=아잉 쾌 콩"
+          ]
+        },
+        {
+          "id": "l1-s-11",
+          "textVi": "Chào chị, chị khỏe không?",
+          "textKo": "안녕하세요, 잘 지내세요? (여성에게)",
+          "audioSrc": "/audio/l1/l1-s-11.mp3",
+          "sourcePage": 21,
+          "reviewNeeded": false,
+          "pronKo": "짜오 찌 찌 쾌 콩",
+          "pronNoteKo": "chị는 짧고 낮게 ‘찌’로 말합니다. 두 번 나와도 각각 또렷하게 짧게 처리하세요.",
+          "pronChunks": [
+            "Chào chị=짜오 찌",
+            "chị khỏe không=찌 쾌 콩"
+          ]
+        },
+        {
+          "id": "l1-s-12",
+          "textVi": "Em cảm ơn anh.",
+          "textKo": "감사합니다. (남성 윗사람에게)",
+          "audioSrc": "/audio/l1/l1-s-12.mp3",
+          "sourcePage": 21,
+          "reviewNeeded": false,
+          "pronKo": "엠 깜 언 아잉",
+          "pronNoteKo": "em은 짧게 시작하고, cảm ơn은 ‘깜 언’으로 두 음절을 분명히 나눠 말하세요.",
+          "pronChunks": [
+            "Em=엠",
+            "cảm ơn=깜 언",
+            "anh=아잉"
+          ]
+        },
+        {
+          "id": "l1-s-13",
+          "textVi": "Chúng tôi là người Hàn Quốc.",
+          "textKo": "저희는 한국 사람입니다.",
+          "audioSrc": "/audio/l1/l1-s-13.mp3",
+          "sourcePage": 21,
+          "reviewNeeded": false,
+          "pronKo": "쭝 또이 라 응어이 한 꾸옥",
+          "pronNoteKo": "chúng tôi는 듣는 사람을 포함하지 않는 ‘저희’입니다. chúng은 짧게 닫고 tôi로 이어 주세요.",
+          "pronChunks": [
+            "Chúng tôi=쭝 또이",
+            "là người Hàn Quốc=라 응어이 한 꾸옥"
+          ]
+        },
+        {
+          "id": "l1-s-14",
+          "textVi": "Chúng ta học tiếng Việt.",
+          "textKo": "우리는 베트남어를 공부합니다.",
+          "audioSrc": "/audio/l1/l1-s-14.mp3",
+          "sourcePage": 21,
+          "reviewNeeded": false,
+          "pronKo": "쭝 따 혹 띠엥 비엣",
+          "pronNoteKo": "chúng ta는 듣는 사람까지 포함하는 ‘우리’입니다. học은 ‘혹’처럼 짧게 닫으세요.",
+          "pronChunks": [
+            "Chúng ta=쭝 따",
+            "học tiếng Việt=혹 띠엥 비엣"
+          ]
+        },
+        {
+          "id": "l1-s-15",
+          "textVi": "Các bạn khỏe không?",
+          "textKo": "여러분 잘 지내세요?",
+          "audioSrc": "/audio/l1/l1-s-15.mp3",
+          "sourcePage": 21,
+          "reviewNeeded": false,
+          "pronKo": "깍 반 쾌 콩",
+          "pronNoteKo": "các bạn은 여러 명에게 말할 때 씁니다. các는 짧게 끊고 bạn으로 부드럽게 이어 주세요.",
+          "pronChunks": [
+            "Các bạn=깍 반",
+            "khỏe không=쾌 콩"
+          ]
         }
       ],
       "dialogues": [
@@ -1343,6 +1674,30 @@
             }
           ],
           "reviewNeeded": false
+        },
+        {
+          "id": "l1-d-02",
+          "title": "호칭으로 인사하기",
+          "audioSrc": "/audio/l1/l1-d-02.mp3",
+          "sourcePage": 22,
+          "lines": [
+            {
+              "speaker": "A",
+              "vi": "Chào chị, chị khỏe không?",
+              "ko": "안녕하세요, 잘 지내세요?"
+            },
+            {
+              "speaker": "B",
+              "vi": "Chị khỏe, cảm ơn em.",
+              "ko": "잘 지내요, 고마워요."
+            },
+            {
+              "speaker": "A",
+              "vi": "Em cũng khỏe.",
+              "ko": "저도 잘 지내요."
+            }
+          ],
+          "reviewNeeded": false
         }
       ],
       "grammarPoints": [
@@ -1357,6 +1712,20 @@
           "id": "l1-g-02",
           "title": "기본 패턴 2",
           "pattern": "Tôi khỏe, cảm ơn. → 저는 잘 지내요, 감사합니다.",
+          "sourcePage": 23,
+          "reviewNeeded": false
+        },
+        {
+          "id": "l1-g-03",
+          "title": "기본 인칭대명사",
+          "pattern": "tôi = 저 / bạn = 당신·상대 / mình = 나(친근) / chúng tôi = 저희 / chúng ta = 우리(상대 포함)",
+          "sourcePage": 23,
+          "reviewNeeded": false
+        },
+        {
+          "id": "l1-g-04",
+          "title": "베트남어 호칭 기초",
+          "pattern": "anh/chị/em/cô/chú/ông/bà는 나이·관계에 따라 쓰는 호칭이다. 초보자는 tôi + bạn으로 시작하고, 익숙해지면 호칭을 넓힌다.",
           "sourcePage": 23,
           "reviewNeeded": false
         }
@@ -1383,6 +1752,17 @@
           "pronKo": "씬 짜오 반 쾌 콩",
           "mouthKo": "x는 ‘ㅆ/ㅅ’처럼 가볍게 시작하고, 뒤 모음을 길게 끌지 마세요.",
           "toneKo": "성조가 여러 개 섞여 있으니 한 톤으로 평평하게 읽지 말고, 각 덩어리의 높낮이를 분리해 주세요."
+        },
+        {
+          "id": "l1-p-03",
+          "text": "tôi / bạn / mình / anh / chị / em",
+          "hintKo": "인칭대명사와 호칭을 짧게 구분해 읽기",
+          "audioSrc": "/audio/l1/l1-p-03.mp3",
+          "sourcePage": 24,
+          "reviewNeeded": false,
+          "pronKo": "또이 / 반 / 민 / 아잉 / 찌 / 엠",
+          "mouthKo": "anh은 ‘아잉’처럼 코끝을 살리고, chị는 짧고 낮은 ‘찌’로 닫습니다.",
+          "toneKo": "bạn, chị처럼 무거운 성조가 있는 말은 끝을 짧고 낮게 눌러 마무리하세요."
         }
       ],
       "quizSeeds": [
@@ -1408,6 +1788,21 @@
           ],
           "sourcePage": 25,
           "reviewNeeded": false
+        },
+        {
+          "id": "l1-q-03",
+          "type": "match-term",
+          "prompt": "인칭대명사와 호칭 매칭",
+          "answerSet": [
+            "tôi-저/나",
+            "bạn-당신/상대방",
+            "anh-남성 호칭",
+            "chị-여성 호칭",
+            "chúng tôi-저희",
+            "chúng ta-우리(상대 포함)"
+          ],
+          "sourcePage": 25,
+          "reviewNeeded": false
         }
       ],
       "unlockCondition": "complete-previous",
@@ -1422,12 +1817,16 @@
       "goals": [
         "이름/국적 말하기",
         "직업/나이 말하기",
-        "간단한 자기소개 완성"
+        "간단한 자기소개 완성",
+        "이다/있다/살다/공부하다 같은 핵심 동사 익히기",
+        "무엇/어디/누구/얼마 같은 기본 의문사 익히기",
+        "이것/저것/여기/거기 지시어 익히기"
       ],
       "topicOverview": "OPIC 첫 질문에 대비하는 자기소개",
       "cultureTopics": [
         "공손한 자기소개",
-        "기본 정보 묻기"
+        "기본 정보 묻기",
+        "초보 단계에서는 Tôi là..., Tôi có..., Tôi sống ở... 패턴을 먼저 고정한다"
       ],
       "vocabCards": [
         {
@@ -1584,6 +1983,386 @@
             "điện=디엔",
             "thoại=토아이"
           ]
+        },
+        {
+          "id": "l2-v-11",
+          "term": "là",
+          "meaningKo": "~이다",
+          "example": "Tôi là người Hàn Quốc.",
+          "exampleMeaningKo": "저는 한국 사람입니다.",
+          "audioSrc": "/audio/l2/l2-v-11.mp3",
+          "sourcePage": 30,
+          "reviewNeeded": false,
+          "pronKo": "라",
+          "pronNoteKo": "là는 낮게 떨어지는 ‘라’입니다. 문장 중간에서는 너무 강하게 말하지 말고 가볍게 연결하세요.",
+          "pronChunks": [
+            "là=라"
+          ]
+        },
+        {
+          "id": "l2-v-12",
+          "term": "có",
+          "meaningKo": "있다/가지고 있다",
+          "example": "Tôi có hai con gái.",
+          "exampleMeaningKo": "저는 딸이 둘 있습니다.",
+          "audioSrc": "/audio/l2/l2-v-12.mp3",
+          "sourcePage": 30,
+          "reviewNeeded": false,
+          "pronKo": "꼬",
+          "pronNoteKo": "có는 끝을 살짝 올리는 느낌입니다. ‘꼬’를 짧고 밝게 말하세요.",
+          "pronChunks": [
+            "có=꼬"
+          ]
+        },
+        {
+          "id": "l2-v-13",
+          "term": "người",
+          "meaningKo": "사람/~인",
+          "example": "người Hàn Quốc",
+          "exampleMeaningKo": "한국 사람",
+          "audioSrc": "/audio/l2/l2-v-13.mp3",
+          "sourcePage": 30,
+          "reviewNeeded": false,
+          "pronKo": "응어이",
+          "pronNoteKo": "người는 코로 시작하는 ‘응어이’에 가깝습니다. 앞에 ‘그’를 붙이지 마세요.",
+          "pronChunks": [
+            "người=응어이"
+          ]
+        },
+        {
+          "id": "l2-v-14",
+          "term": "Hàn Quốc",
+          "meaningKo": "한국",
+          "example": "Tôi là người Hàn Quốc.",
+          "exampleMeaningKo": "저는 한국 사람입니다.",
+          "audioSrc": "/audio/l2/l2-v-14.mp3",
+          "sourcePage": 30,
+          "reviewNeeded": false,
+          "pronKo": "한 꾸옥",
+          "pronNoteKo": "Quốc은 ‘꾸옥’처럼 입술을 둥글게 시작하고 끝을 짧게 닫습니다.",
+          "pronChunks": [
+            "Hàn=한",
+            "Quốc=꾸옥"
+          ]
+        },
+        {
+          "id": "l2-v-15",
+          "term": "Việt Nam",
+          "meaningKo": "베트남",
+          "example": "Tôi học tiếng Việt Nam.",
+          "exampleMeaningKo": "저는 베트남어를 공부합니다.",
+          "audioSrc": "/audio/l2/l2-v-15.mp3",
+          "sourcePage": 30,
+          "reviewNeeded": false,
+          "pronKo": "비엣 남",
+          "pronNoteKo": "Việt은 ‘비엣’처럼 짧게 닫고, Nam은 평평하게 이어 말하세요.",
+          "pronChunks": [
+            "Việt=비엣",
+            "Nam=남"
+          ]
+        },
+        {
+          "id": "l2-v-16",
+          "term": "sống",
+          "meaningKo": "살다",
+          "example": "Tôi sống ở Hàn Quốc.",
+          "exampleMeaningKo": "저는 한국에 살아요.",
+          "audioSrc": "/audio/l2/l2-v-16.mp3",
+          "sourcePage": 30,
+          "reviewNeeded": false,
+          "pronKo": "송",
+          "pronNoteKo": "sống은 ‘송’을 짧게 닫고 끝을 살짝 올립니다. ‘소옹’처럼 길게 끌지 마세요.",
+          "pronChunks": [
+            "sống=송"
+          ]
+        },
+        {
+          "id": "l2-v-17",
+          "term": "ở",
+          "meaningKo": "~에/살다의 위치 표시",
+          "example": "Tôi ở Hà Nội.",
+          "exampleMeaningKo": "저는 하노이에 있어요/살아요.",
+          "audioSrc": "/audio/l2/l2-v-17.mp3",
+          "sourcePage": 30,
+          "reviewNeeded": false,
+          "pronKo": "어",
+          "pronNoteKo": "ở는 ‘어’를 낮게 시작해 살짝 꺾는 느낌입니다. 단독으로 길게 끌지 마세요.",
+          "pronChunks": [
+            "ở=어"
+          ]
+        },
+        {
+          "id": "l2-v-18",
+          "term": "làm",
+          "meaningKo": "하다/일하다",
+          "example": "Tôi làm ở công ty.",
+          "exampleMeaningKo": "저는 회사에서 일합니다.",
+          "audioSrc": "/audio/l2/l2-v-18.mp3",
+          "sourcePage": 30,
+          "reviewNeeded": false,
+          "pronKo": "람",
+          "pronNoteKo": "làm은 낮게 떨어지는 ‘람’입니다. 문장 중간에서는 부드럽게 지나가듯 말하세요.",
+          "pronChunks": [
+            "làm=람"
+          ]
+        },
+        {
+          "id": "l2-v-19",
+          "term": "học",
+          "meaningKo": "공부하다/배우다",
+          "example": "Tôi học tiếng Việt.",
+          "exampleMeaningKo": "저는 베트남어를 공부합니다.",
+          "audioSrc": "/audio/l2/l2-v-19.mp3",
+          "sourcePage": 30,
+          "reviewNeeded": false,
+          "pronKo": "혹",
+          "pronNoteKo": "học은 짧고 낮게 닫는 소리입니다. ‘호옥’처럼 늘이지 말고 ‘혹’으로 마무리하세요.",
+          "pronChunks": [
+            "học=혹"
+          ]
+        },
+        {
+          "id": "l2-v-20",
+          "term": "thích",
+          "meaningKo": "좋아하다",
+          "example": "Tôi thích cà phê.",
+          "exampleMeaningKo": "저는 커피를 좋아합니다.",
+          "audioSrc": "/audio/l2/l2-v-20.mp3",
+          "sourcePage": 30,
+          "reviewNeeded": false,
+          "pronKo": "틱",
+          "pronNoteKo": "thích은 ‘틱’에 가깝게 짧게 말합니다. th를 세게 ‘트’로 만들지 마세요.",
+          "pronChunks": [
+            "thích=틱"
+          ]
+        },
+        {
+          "id": "l2-v-21",
+          "term": "muốn",
+          "meaningKo": "원하다/~하고 싶다",
+          "example": "Tôi muốn học tiếng Việt.",
+          "exampleMeaningKo": "저는 베트남어를 배우고 싶어요.",
+          "audioSrc": "/audio/l2/l2-v-21.mp3",
+          "sourcePage": 30,
+          "reviewNeeded": false,
+          "pronKo": "무온",
+          "pronNoteKo": "muốn은 ‘무온’을 한 번에 붙이고 끝을 살짝 올립니다. ‘무-온’으로 너무 끊지 마세요.",
+          "pronChunks": [
+            "muốn=무온"
+          ]
+        },
+        {
+          "id": "l2-v-22",
+          "term": "biết",
+          "meaningKo": "알다",
+          "example": "Tôi biết một chút tiếng Việt.",
+          "exampleMeaningKo": "저는 베트남어를 조금 알아요.",
+          "audioSrc": "/audio/l2/l2-v-22.mp3",
+          "sourcePage": 30,
+          "reviewNeeded": false,
+          "pronKo": "비엣",
+          "pronNoteKo": "biết은 ‘비엣’으로 짧게 닫습니다. 끝의 t 느낌을 길게 살리지 마세요.",
+          "pronChunks": [
+            "biết=비엣"
+          ]
+        },
+        {
+          "id": "l2-v-23",
+          "term": "hiểu",
+          "meaningKo": "이해하다",
+          "example": "Tôi hiểu rồi.",
+          "exampleMeaningKo": "이해했어요.",
+          "audioSrc": "/audio/l2/l2-v-23.mp3",
+          "sourcePage": 30,
+          "reviewNeeded": false,
+          "pronKo": "히에우",
+          "pronNoteKo": "hiểu는 ‘히에우’처럼 부드럽게 이어 말합니다. 물음 성조라 중간을 살짝 꺾는 느낌을 줍니다.",
+          "pronChunks": [
+            "hiểu=히에우"
+          ]
+        },
+        {
+          "id": "l2-v-24",
+          "term": "ai",
+          "meaningKo": "누구",
+          "example": "Bạn là ai?",
+          "exampleMeaningKo": "당신은 누구예요?",
+          "audioSrc": "/audio/l2/l2-v-24.mp3",
+          "sourcePage": 31,
+          "reviewNeeded": false,
+          "pronKo": "아이",
+          "pronNoteKo": "ai는 짧은 ‘아이’입니다. 질문 단어지만 끝을 과하게 올리지 않아도 됩니다.",
+          "pronChunks": [
+            "ai=아이"
+          ]
+        },
+        {
+          "id": "l2-v-25",
+          "term": "gì",
+          "meaningKo": "무엇/뭐",
+          "example": "Đây là gì?",
+          "exampleMeaningKo": "이것은 뭐예요?",
+          "audioSrc": "/audio/l2/l2-v-25.mp3",
+          "sourcePage": 31,
+          "reviewNeeded": false,
+          "pronKo": "지",
+          "pronNoteKo": "북부 기준 gì는 ‘지’에 가깝게 말합니다. 남부식 ‘이’와 다르게 시작 소리를 살려 주세요.",
+          "pronChunks": [
+            "gì=지"
+          ]
+        },
+        {
+          "id": "l2-v-26",
+          "term": "đâu",
+          "meaningKo": "어디",
+          "example": "Bạn ở đâu?",
+          "exampleMeaningKo": "어디에 있어요/살아요?",
+          "audioSrc": "/audio/l2/l2-v-26.mp3",
+          "sourcePage": 31,
+          "reviewNeeded": false,
+          "pronKo": "더우",
+          "pronNoteKo": "đâu는 ‘더우’처럼 시작합니다. đ는 한국어 ㄷ보다 조금 단단하게 누르듯 말하세요.",
+          "pronChunks": [
+            "đâu=더우"
+          ]
+        },
+        {
+          "id": "l2-v-27",
+          "term": "bao nhiêu",
+          "meaningKo": "얼마/몇",
+          "example": "Bạn bao nhiêu tuổi?",
+          "exampleMeaningKo": "몇 살이에요?",
+          "audioSrc": "/audio/l2/l2-v-27.mp3",
+          "sourcePage": 31,
+          "reviewNeeded": false,
+          "pronKo": "바오 니에우",
+          "pronNoteKo": "bao nhiêu는 두 덩어리로 말합니다. nhiêu는 ‘니에우’처럼 부드럽게 이어 주세요.",
+          "pronChunks": [
+            "bao=바오",
+            "nhiêu=니에우"
+          ]
+        },
+        {
+          "id": "l2-v-28",
+          "term": "khi nào",
+          "meaningKo": "언제",
+          "example": "Khi nào bạn đi?",
+          "exampleMeaningKo": "언제 가요?",
+          "audioSrc": "/audio/l2/l2-v-28.mp3",
+          "sourcePage": 31,
+          "reviewNeeded": false,
+          "pronKo": "키 나오",
+          "pronNoteKo": "khi는 ‘키’처럼 짧게, nào는 낮게 떨어지는 ‘나오’로 말합니다.",
+          "pronChunks": [
+            "khi=키",
+            "nào=나오"
+          ]
+        },
+        {
+          "id": "l2-v-29",
+          "term": "tại sao",
+          "meaningKo": "왜",
+          "example": "Tại sao bạn học tiếng Việt?",
+          "exampleMeaningKo": "왜 베트남어를 공부해요?",
+          "audioSrc": "/audio/l2/l2-v-29.mp3",
+          "sourcePage": 31,
+          "reviewNeeded": false,
+          "pronKo": "따이 사오",
+          "pronNoteKo": "tại는 짧고 낮게 닫고, sao는 가볍게 이어 말합니다. 이유를 물을 때 가장 기본 표현입니다.",
+          "pronChunks": [
+            "tại=따이",
+            "sao=사오"
+          ]
+        },
+        {
+          "id": "l2-v-30",
+          "term": "đây",
+          "meaningKo": "여기/이것",
+          "example": "Đây là điện thoại của tôi.",
+          "exampleMeaningKo": "이것은 제 전화기입니다.",
+          "audioSrc": "/audio/l2/l2-v-30.mp3",
+          "sourcePage": 31,
+          "reviewNeeded": false,
+          "pronKo": "더이",
+          "pronNoteKo": "đây는 ‘더이’처럼 시작합니다. 가까운 것/여기를 가리킬 때 씁니다.",
+          "pronChunks": [
+            "đây=더이"
+          ]
+        },
+        {
+          "id": "l2-v-31",
+          "term": "đó",
+          "meaningKo": "거기/그것",
+          "example": "Đó là công ty của tôi.",
+          "exampleMeaningKo": "그곳은 제 회사입니다.",
+          "audioSrc": "/audio/l2/l2-v-31.mp3",
+          "sourcePage": 31,
+          "reviewNeeded": false,
+          "pronKo": "도",
+          "pronNoteKo": "đó는 끝을 살짝 올리는 짧은 ‘도’입니다. 상대 쪽의 것/그것을 가리킬 때 씁니다.",
+          "pronChunks": [
+            "đó=도"
+          ]
+        },
+        {
+          "id": "l2-v-32",
+          "term": "này",
+          "meaningKo": "이~/이것의",
+          "example": "cái này",
+          "exampleMeaningKo": "이것",
+          "audioSrc": "/audio/l2/l2-v-32.mp3",
+          "sourcePage": 31,
+          "reviewNeeded": false,
+          "pronKo": "나이",
+          "pronNoteKo": "này는 낮게 떨어지는 ‘나이’입니다. 명사 뒤에 붙어 ‘이 ~’라는 뜻을 만듭니다.",
+          "pronChunks": [
+            "này=나이"
+          ]
+        },
+        {
+          "id": "l2-v-33",
+          "term": "kia",
+          "meaningKo": "저기/저것",
+          "example": "Kia là trường học.",
+          "exampleMeaningKo": "저기는 학교입니다.",
+          "audioSrc": "/audio/l2/l2-v-33.mp3",
+          "sourcePage": 31,
+          "reviewNeeded": false,
+          "pronKo": "끼아",
+          "pronNoteKo": "kia는 ‘끼아’를 평평하게 말합니다. 멀리 있는 것/저쪽을 가리킬 때 씁니다.",
+          "pronChunks": [
+            "kia=끼아"
+          ]
+        },
+        {
+          "id": "l2-v-34",
+          "term": "và",
+          "meaningKo": "그리고/~와",
+          "example": "tôi và bạn",
+          "exampleMeaningKo": "나와 당신",
+          "audioSrc": "/audio/l2/l2-v-34.mp3",
+          "sourcePage": 31,
+          "reviewNeeded": false,
+          "pronKo": "바",
+          "pronNoteKo": "và는 북부 기준 ‘바’에 가깝고 낮게 떨어집니다. 두 단어를 자연스럽게 연결하세요.",
+          "pronChunks": [
+            "và=바"
+          ]
+        },
+        {
+          "id": "l2-v-35",
+          "term": "cũng",
+          "meaningKo": "또한/~도",
+          "example": "Tôi cũng khỏe.",
+          "exampleMeaningKo": "저도 잘 지내요.",
+          "audioSrc": "/audio/l2/l2-v-35.mp3",
+          "sourcePage": 31,
+          "reviewNeeded": false,
+          "pronKo": "꿍",
+          "pronNoteKo": "cũng은 ‘꿍’처럼 짧게 닫고 중간을 살짝 꺾는 느낌입니다. ‘~도’라는 의미로 자주 씁니다.",
+          "pronChunks": [
+            "cũng=꿍"
+          ]
         }
       ],
       "sentenceCards": [
@@ -1692,6 +2471,163 @@
             "được giúp=드억 줍",
             "đỡ=도"
           ]
+        },
+        {
+          "id": "l2-s-08",
+          "textVi": "Bạn là ai?",
+          "textKo": "당신은 누구예요?",
+          "audioSrc": "/audio/l2/l2-s-08.mp3",
+          "sourcePage": 32,
+          "reviewNeeded": false,
+          "pronKo": "반 라 아이",
+          "pronNoteKo": "ai는 짧은 ‘아이’로 마무리합니다. 처음부터 끝까지 천천히 세 단어를 분리해 말하세요.",
+          "pronChunks": [
+            "Bạn=반",
+            "là=라",
+            "ai=아이"
+          ]
+        },
+        {
+          "id": "l2-s-09",
+          "textVi": "Đây là gì?",
+          "textKo": "이것은 뭐예요?",
+          "audioSrc": "/audio/l2/l2-s-09.mp3",
+          "sourcePage": 32,
+          "reviewNeeded": false,
+          "pronKo": "더이 라 지",
+          "pronNoteKo": "gì는 북부 기준 ‘지’에 가깝습니다. đây là를 한 덩어리처럼 붙여 말하세요.",
+          "pronChunks": [
+            "Đây là=더이 라",
+            "gì=지"
+          ]
+        },
+        {
+          "id": "l2-s-10",
+          "textVi": "Bạn ở đâu?",
+          "textKo": "어디에 있어요/살아요?",
+          "audioSrc": "/audio/l2/l2-s-10.mp3",
+          "sourcePage": 32,
+          "reviewNeeded": false,
+          "pronKo": "반 어 더우",
+          "pronNoteKo": "ở는 짧은 ‘어’, đâu는 ‘더우’로 시작합니다. 위치를 물을 때 바로 쓰는 문장입니다.",
+          "pronChunks": [
+            "Bạn ở=반 어",
+            "đâu=더우"
+          ]
+        },
+        {
+          "id": "l2-s-11",
+          "textVi": "Bạn bao nhiêu tuổi?",
+          "textKo": "몇 살이에요?",
+          "audioSrc": "/audio/l2/l2-s-11.mp3",
+          "sourcePage": 32,
+          "reviewNeeded": false,
+          "pronKo": "반 바오 니에우 뚜오이",
+          "pronNoteKo": "bao nhiêu는 ‘얼마/몇’입니다. tuổi는 ‘뚜오이’처럼 한 번에 이어 말하세요.",
+          "pronChunks": [
+            "Bạn=반",
+            "bao nhiêu=바오 니에우",
+            "tuổi=뚜오이"
+          ]
+        },
+        {
+          "id": "l2-s-12",
+          "textVi": "Tôi có hai con gái.",
+          "textKo": "저는 딸이 둘 있습니다.",
+          "audioSrc": "/audio/l2/l2-s-12.mp3",
+          "sourcePage": 32,
+          "reviewNeeded": false,
+          "pronKo": "또이 꼬 하이 꼰 가이",
+          "pronNoteKo": "có는 ‘있다/가지고 있다’입니다. hai con gái는 한 덩어리처럼 부드럽게 이어 말하세요.",
+          "pronChunks": [
+            "Tôi có=또이 꼬",
+            "hai con gái=하이 꼰 가이"
+          ]
+        },
+        {
+          "id": "l2-s-13",
+          "textVi": "Tôi sống ở Hàn Quốc.",
+          "textKo": "저는 한국에 살아요.",
+          "audioSrc": "/audio/l2/l2-s-13.mp3",
+          "sourcePage": 32,
+          "reviewNeeded": false,
+          "pronKo": "또이 송 어 한 꾸옥",
+          "pronNoteKo": "sống ở는 ‘송 어’처럼 짧게 붙입니다. Hàn Quốc은 뒤의 Quốc을 짧게 닫아 주세요.",
+          "pronChunks": [
+            "Tôi sống ở=또이 송 어",
+            "Hàn Quốc=한 꾸옥"
+          ]
+        },
+        {
+          "id": "l2-s-14",
+          "textVi": "Tôi muốn học tiếng Việt.",
+          "textKo": "저는 베트남어를 배우고 싶어요.",
+          "audioSrc": "/audio/l2/l2-s-14.mp3",
+          "sourcePage": 32,
+          "reviewNeeded": false,
+          "pronKo": "또이 무온 혹 띠엥 비엣",
+          "pronNoteKo": "muốn học은 ‘하고 싶다’의 핵심 조합입니다. học은 짧게 닫고 tiếng Việt으로 이어 주세요.",
+          "pronChunks": [
+            "Tôi muốn=또이 무온",
+            "học tiếng Việt=혹 띠엥 비엣"
+          ]
+        },
+        {
+          "id": "l2-s-15",
+          "textVi": "Tôi biết một chút tiếng Việt.",
+          "textKo": "저는 베트남어를 조금 알아요.",
+          "audioSrc": "/audio/l2/l2-s-15.mp3",
+          "sourcePage": 32,
+          "reviewNeeded": false,
+          "pronKo": "또이 비엣 못 쭛 띠엥 비엣",
+          "pronNoteKo": "một chút은 ‘조금’입니다. biết과 chút은 둘 다 끝을 짧게 닫아 주세요.",
+          "pronChunks": [
+            "Tôi biết=또이 비엣",
+            "một chút=못 쭛",
+            "tiếng Việt=띠엥 비엣"
+          ]
+        },
+        {
+          "id": "l2-s-16",
+          "textVi": "Tôi không hiểu.",
+          "textKo": "저는 이해하지 못했어요.",
+          "audioSrc": "/audio/l2/l2-s-16.mp3",
+          "sourcePage": 32,
+          "reviewNeeded": false,
+          "pronKo": "또이 콩 히에우",
+          "pronNoteKo": "không은 부정 표현입니다. hiểu는 ‘히에우’처럼 부드럽게 이어 말하세요.",
+          "pronChunks": [
+            "Tôi không=또이 콩",
+            "hiểu=히에우"
+          ]
+        },
+        {
+          "id": "l2-s-17",
+          "textVi": "Cái này là gì?",
+          "textKo": "이것은 뭐예요?",
+          "audioSrc": "/audio/l2/l2-s-17.mp3",
+          "sourcePage": 32,
+          "reviewNeeded": false,
+          "pronKo": "까이 나이 라 지",
+          "pronNoteKo": "cái này는 ‘이것’입니다. này는 낮게 떨어지므로 끝을 살짝 내려 주세요.",
+          "pronChunks": [
+            "Cái này=까이 나이",
+            "là gì=라 지"
+          ]
+        },
+        {
+          "id": "l2-s-18",
+          "textVi": "Tôi cũng học tiếng Việt.",
+          "textKo": "저도 베트남어를 공부합니다.",
+          "audioSrc": "/audio/l2/l2-s-18.mp3",
+          "sourcePage": 32,
+          "reviewNeeded": false,
+          "pronKo": "또이 꿍 혹 띠엥 비엣",
+          "pronNoteKo": "cũng은 ‘~도’라는 뜻입니다. 짧은 ‘꿍’으로 닫고 học으로 바로 이어 주세요.",
+          "pronChunks": [
+            "Tôi cũng=또이 꿍",
+            "học tiếng Việt=혹 띠엥 비엣"
+          ]
         }
       ],
       "dialogues": [
@@ -1718,6 +2654,35 @@
             }
           ],
           "reviewNeeded": false
+        },
+        {
+          "id": "l2-d-02",
+          "title": "자기소개와 기본 질문",
+          "audioSrc": "/audio/l2/l2-d-02.mp3",
+          "sourcePage": 32,
+          "lines": [
+            {
+              "speaker": "A",
+              "vi": "Bạn tên là gì?",
+              "ko": "이름이 뭐예요?"
+            },
+            {
+              "speaker": "B",
+              "vi": "Tôi tên là Sungmook.",
+              "ko": "제 이름은 성묵입니다."
+            },
+            {
+              "speaker": "A",
+              "vi": "Bạn ở đâu?",
+              "ko": "어디에 살아요?"
+            },
+            {
+              "speaker": "B",
+              "vi": "Tôi sống ở Hàn Quốc.",
+              "ko": "저는 한국에 살아요."
+            }
+          ],
+          "reviewNeeded": false
         }
       ],
       "grammarPoints": [
@@ -1732,6 +2697,41 @@
           "id": "l2-g-02",
           "title": "기본 패턴 2",
           "pattern": "Tôi là người Hàn Quốc. → 저는 한국 사람입니다.",
+          "sourcePage": 33,
+          "reviewNeeded": false
+        },
+        {
+          "id": "l2-g-03",
+          "title": "이다: A là B",
+          "pattern": "Tôi là người Hàn Quốc. / Đây là gì? / Bạn là ai?",
+          "sourcePage": 33,
+          "reviewNeeded": false
+        },
+        {
+          "id": "l2-g-04",
+          "title": "있다·가지고 있다: có",
+          "pattern": "Tôi có hai con gái. / Bạn có điện thoại không?",
+          "sourcePage": 33,
+          "reviewNeeded": false
+        },
+        {
+          "id": "l2-g-05",
+          "title": "위치: sống ở / ở đâu",
+          "pattern": "Tôi sống ở Hàn Quốc. / Bạn ở đâu?",
+          "sourcePage": 33,
+          "reviewNeeded": false
+        },
+        {
+          "id": "l2-g-06",
+          "title": "기본 의문사",
+          "pattern": "ai=누구, gì=무엇, đâu=어디, bao nhiêu=얼마/몇, khi nào=언제, tại sao=왜",
+          "sourcePage": 33,
+          "reviewNeeded": false
+        },
+        {
+          "id": "l2-g-07",
+          "title": "지시어 기초",
+          "pattern": "đây=이것/여기, đó=그것/거기, kia=저것/저기, cái này=이것",
           "sourcePage": 33,
           "reviewNeeded": false
         }
@@ -1758,6 +2758,28 @@
           "pronKo": "또이 뗀 라 성묵",
           "mouthKo": "입술과 턱에 힘을 빼고, 각 음절의 모음을 짧고 또렷하게 비교해 보세요.",
           "toneKo": "내림 성조는 끝을 낮게 떨어뜨립니다."
+        },
+        {
+          "id": "l2-p-03",
+          "text": "ai / gì / đâu / bao nhiêu",
+          "hintKo": "기본 의문사를 짧게 구분해 읽기",
+          "audioSrc": "/audio/l2/l2-p-03.mp3",
+          "sourcePage": 34,
+          "reviewNeeded": false,
+          "pronKo": "아이 / 지 / 더우 / 바오 니에우",
+          "mouthKo": "gì는 북부 기준 ‘지’에 가깝고, đâu는 입을 가볍게 열어 ‘더우’로 시작합니다.",
+          "toneKo": "의문사 자체를 과하게 올리지 말고 문장 전체 억양으로 질문 느낌을 만드세요."
+        },
+        {
+          "id": "l2-p-04",
+          "text": "là / có / sống / học / muốn",
+          "hintKo": "초반 핵심 동사를 짧게 반복",
+          "audioSrc": "/audio/l2/l2-p-04.mp3",
+          "sourcePage": 34,
+          "reviewNeeded": false,
+          "pronKo": "라 / 꼬 / 송 / 혹 / 무온",
+          "mouthKo": "học은 짧게 닫고, muốn은 ‘무온’을 한 번에 이어 말합니다.",
+          "toneKo": "có와 muốn은 끝을 살짝 올리는 느낌, là는 낮게 떨어지는 느낌을 의식하세요."
         }
       ],
       "quizSeeds": [
@@ -1783,6 +2805,35 @@
           ],
           "sourcePage": 35,
           "reviewNeeded": false
+        },
+        {
+          "id": "l2-q-03",
+          "type": "match-term",
+          "prompt": "기본 동사와 뜻 매칭",
+          "answerSet": [
+            "là-~이다",
+            "có-있다/가지고 있다",
+            "sống-살다",
+            "học-공부하다",
+            "muốn-원하다/~하고 싶다"
+          ],
+          "sourcePage": 35,
+          "reviewNeeded": false
+        },
+        {
+          "id": "l2-q-04",
+          "type": "match-term",
+          "prompt": "기본 의문사 매칭",
+          "answerSet": [
+            "ai-누구",
+            "gì-무엇",
+            "đâu-어디",
+            "bao nhiêu-얼마/몇",
+            "khi nào-언제",
+            "tại sao-왜"
+          ],
+          "sourcePage": 35,
+          "reviewNeeded": false
         }
       ],
       "unlockCondition": "complete-previous",
@@ -1796,7 +2847,8 @@
       "pageRange": "31-40",
       "goals": [
         "가족 소개하기",
-        "사람 성격/외모 말하기"
+        "사람 성격/외모 말하기",
+        "소유 표현 của와 함께 가족 소개하기"
       ],
       "topicOverview": "가족·사람을 짧은 문장으로 설명",
       "cultureTopics": [
@@ -1953,6 +3005,66 @@
           "pronChunks": [
             "nhỏ=뇨"
           ]
+        },
+        {
+          "id": "l3-v-11",
+          "term": "của",
+          "meaningKo": "~의",
+          "example": "gia đình của tôi",
+          "exampleMeaningKo": "나의 가족",
+          "audioSrc": "/audio/l3/l3-v-11.mp3",
+          "sourcePage": 40,
+          "reviewNeeded": false,
+          "pronKo": "꾸아",
+          "pronNoteKo": "của는 ‘꾸아’처럼 부드럽게 이어 말합니다. 소유를 나타내며 명사 뒤에 자주 붙습니다.",
+          "pronChunks": [
+            "của=꾸아"
+          ]
+        },
+        {
+          "id": "l3-v-12",
+          "term": "với",
+          "meaningKo": "~와/함께",
+          "example": "Tôi đi với gia đình.",
+          "exampleMeaningKo": "저는 가족과 함께 갑니다.",
+          "audioSrc": "/audio/l3/l3-v-12.mp3",
+          "sourcePage": 40,
+          "reviewNeeded": false,
+          "pronKo": "버이",
+          "pronNoteKo": "với는 북부 기준 ‘버이’에 가깝습니다. 끝을 살짝 꺾는 느낌으로 짧게 말하세요.",
+          "pronChunks": [
+            "với=버이"
+          ]
+        },
+        {
+          "id": "l3-v-13",
+          "term": "rất",
+          "meaningKo": "매우/아주",
+          "example": "Mẹ tôi rất tốt bụng.",
+          "exampleMeaningKo": "제 어머니는 매우 친절합니다.",
+          "audioSrc": "/audio/l3/l3-v-13.mp3",
+          "sourcePage": 40,
+          "reviewNeeded": false,
+          "pronKo": "젓",
+          "pronNoteKo": "rất은 ‘젓’처럼 짧게 닫습니다. 뒤의 형용사를 강조할 때 씁니다.",
+          "pronChunks": [
+            "rất=젓"
+          ]
+        },
+        {
+          "id": "l3-v-14",
+          "term": "còn",
+          "meaningKo": "아직/또한",
+          "example": "Con gái tôi còn nhỏ.",
+          "exampleMeaningKo": "제 딸은 아직 어려요.",
+          "audioSrc": "/audio/l3/l3-v-14.mp3",
+          "sourcePage": 40,
+          "reviewNeeded": false,
+          "pronKo": "꼰",
+          "pronNoteKo": "còn은 낮게 떨어지는 ‘꼰’입니다. 아직 어떤 상태가 이어진다는 느낌으로 씁니다.",
+          "pronChunks": [
+            "còn=꼰"
+          ]
         }
       ],
       "sentenceCards": [
@@ -2047,6 +3159,34 @@
             "đình vào cuối=딘 아오 꾸오이",
             "tuần=뚜언"
           ]
+        },
+        {
+          "id": "l3-s-07",
+          "textVi": "Đây là gia đình của tôi.",
+          "textKo": "이것은 제 가족입니다.",
+          "audioSrc": "/audio/l3/l3-s-07.mp3",
+          "sourcePage": 41,
+          "reviewNeeded": false,
+          "pronKo": "더이 라 자 딘 꾸아 또이",
+          "pronNoteKo": "của tôi는 ‘제/나의’입니다. của를 너무 세게 말하지 말고 tôi에 자연스럽게 붙이세요.",
+          "pronChunks": [
+            "Đây là=더이 라",
+            "gia đình của tôi=자 딘 꾸아 또이"
+          ]
+        },
+        {
+          "id": "l3-s-08",
+          "textVi": "Tôi sống với gia đình.",
+          "textKo": "저는 가족과 함께 살아요.",
+          "audioSrc": "/audio/l3/l3-s-08.mp3",
+          "sourcePage": 41,
+          "reviewNeeded": false,
+          "pronKo": "또이 송 버이 자 딘",
+          "pronNoteKo": "với는 ‘~와 함께’입니다. sống với를 짧게 붙여 말하면 자연스럽습니다.",
+          "pronChunks": [
+            "Tôi sống với=또이 송 버이",
+            "gia đình=자 딘"
+          ]
         }
       ],
       "dialogues": [
@@ -2088,6 +3228,20 @@
           "title": "기본 패턴 2",
           "pattern": "Tôi có hai con gái. → 저는 딸이 두 명 있습니다.",
           "sourcePage": 43,
+          "reviewNeeded": false
+        },
+        {
+          "id": "l3-g-03",
+          "title": "소유 표현: của",
+          "pattern": "A của tôi = 나의 A / gia đình của tôi = 나의 가족",
+          "sourcePage": 42,
+          "reviewNeeded": false
+        },
+        {
+          "id": "l3-g-04",
+          "title": "함께: với",
+          "pattern": "Tôi sống với gia đình. / Tôi đi với bạn.",
+          "sourcePage": 42,
           "reviewNeeded": false
         }
       ],
