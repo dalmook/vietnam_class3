@@ -89,12 +89,24 @@ button:disabled { opacity: .5; cursor: not-allowed; }
   gap: 8px;
 }
 .match-top { display: grid; grid-template-columns: auto 1fr auto; gap: 8px; align-items: center; }
+.match-close {
+  width: 38px;
+  min-height: 38px;
+  border-radius: 50%;
+  background: #e8eefc;
+  border: 1px solid #cfdaff;
+  font-size: 1.1rem;
+  color: #516096;
+  padding: 0;
+}
 .match-progress { height: 12px; background: #d8e0f0; border-radius: 999px; overflow: hidden; }
 .match-progress > span { display: block; height: 100%; background: linear-gradient(90deg, #8bcf5e, #6ab84a); }
 .match-title { margin: 4px 0 2px; font-size: 1.95rem; line-height: 1.25; }
 .match-sub { margin: 0 0 4px; }
 .match-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; min-height: 0; }
+.match-grid.single-col { grid-template-columns: 1fr; }
 .match-col { display: grid; grid-template-rows: repeat(5, minmax(0, 1fr)); gap: 10px; min-height: 0; }
+.match-col.option-col { grid-template-rows: repeat(4, minmax(0, 1fr)); }
 .match-col .match-option { min-height: 0; height: 100%; border-width: 2px; border-color: #c8d4ee; border-radius: 18px; background: #f9fbff; font-size: 1.05rem; }
 .match-col .choice-selected { background: #dfe7ff; border-color: #5d6dff; }
 .match-col .match-done { background: #e8f5ee; border-color: #8bbca1; color: #5f6f69; }

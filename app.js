@@ -418,6 +418,7 @@ class VietnameseA1App {
     if (type === 'speak') return this.playAudio(payload, el.dataset.text || 'xin chào');
     if (type === 'repeatSpeak') return this.repeatSpeak({ text: el.dataset.text, audioSrc: el.dataset.audio || '' }, 3);
     if (type === 'startQuiz') { this.setupQuizQueue(); this.state.quiz.phase = 'playing'; return this.render(); }
+    if (type === 'exitQuiz') { this.state.quiz.phase = 'ready'; this.state.quiz.feedback = ''; return this.render(); }
     if (type === 'nextQuiz') return this.nextQuiz();
     if (type === 'pickOption') return this.pickQuizOption(payload);
     if (type === 'matchPick') return this.matchPick(payload, el.dataset.side);
@@ -586,7 +587,7 @@ class VietnameseA1App {
 
   renderQuiz() {
     const modes = [['meaning', 'A 뜻 맞추기'], ['vi', 'B 베트남어 맞추기'], ['listen', 'C 듣기'], ['match', 'D 매칭'], ['wrong', 'E 오답복습']];
-    if (this.state.quizMode === 'match' && this.state.quiz.phase === 'playing') {
+    if (this.state.quiz.phase === 'playing') {
       this.appEl.innerHTML = `<section class="fade match-screen-wrap">${this.renderMatch()}</section>`;
       return;
     }
@@ -633,17 +634,27 @@ class VietnameseA1App {
     const answer = isMeaning ? (item.meaningKo || item.textKo) : (item.term || item.textVi);
     const options = this.sampleOptions(answer, isMeaning ? 'ko' : 'vi');
     const pronunciation = item.term || item.textVi;
-    return `<div class="card quiz-card">
-      <div class="quiz-head"><span class="badge">문항 ${this.state.quiz.i + 1}</span><button data-action="speak:${item.audioSrc || ''}" data-text="${pronunciation}">🔊 듣기</button></div>
-      <h3>${this.state.quizMode === 'listen' ? '먼저 듣고 정답 고르기' : prompt}</h3>
-      <p class="small">정답 시 +10 XP · 연속 정답 보너스 +2 XP</p>
-      <div class="quiz-options">${options.map((o) => `<button class="quiz-option ${this.state.quiz.picked === o ? 'choice-selected' : ''}" data-action="pickOption:${this.escapeAttr(o)}" ${this.state.quiz.answered ? 'disabled' : ''}>${o}</button>`).join('')}</div>
-      <p class="quiz-feedback">${this.state.quiz.feedback}</p>
-      <button data-action="nextQuiz" ${this.state.quiz.answered ? '' : 'disabled'}>다음 문항</button>
+    return `<div class="match-stage">
+      <div class="match-top">
+        <button class="match-close" data-action="exitQuiz" aria-label="퀴즈 종료">✕</button>
+        <div class="match-progress"><span style="width:${Math.round(((this.state.quiz.i) / Math.max(this.state.quiz.queue.length, 1)) * 100)}%"></span></div>
+        <button data-action="speak:${item.audioSrc || ''}" data-text="${pronunciation}">🔊</button>
+      </div>
+      <h2 class="match-title">${this.state.quizMode === 'listen' ? '먼저 듣고 정답을 고르세요' : prompt}</h2>
+      <p class="small match-sub">정답 시 +10 XP · 연속 정답 보너스 +2 XP</p>
+      <div class="match-grid single-col"><div class="match-col option-col">${options.map((o) => `<button class="quiz-option match-option ${this.state.quiz.picked === o ? 'choice-selected' : ''}" data-action="pickOption:${this.escapeAttr(o)}" ${this.state.quiz.answered ? 'disabled' : ''}>${o}</button>`).join('')}</div></div>
+      <div class="match-bottom">
+        <p class="quiz-feedback">${this.state.quiz.feedback}</p>
+        <button class="primary match-confirm" data-action="nextQuiz" ${this.state.quiz.answered ? '' : 'disabled'}>확인</button>
+      </div>
     </div>`;
   }
 
   renderMatch() {
+    if (this.state.quizMode !== 'match') {
+      const item = this.state.quiz.queue[this.state.quiz.i];
+      return item ? this.renderMcq(item) : '';
+    }
     const round = this.getOrCreateMatchingRound();
     const leftButtons = round.leftOrder.map((card) => {
       const selected = round.selectedLeftId === card.id;
@@ -659,7 +670,7 @@ class VietnameseA1App {
     const total = round.pairs.length;
     return `<div class="match-stage">
       <div class="match-top">
-        <div class="badge">문항 ${this.state.quiz.i + 1}</div>
+        <button class="match-close" data-action="exitQuiz" aria-label="퀴즈 종료">✕</button>
         <div class="match-progress"><span style="width:${Math.round((solved / Math.max(total, 1)) * 100)}%"></span></div>
         <div class="badge">XP ${this.state.quiz.xp}</div>
       </div>
