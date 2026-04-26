@@ -526,7 +526,7 @@ class VietnameseA1App {
         <div class="vi-big">${c.term}</div>
         <div class="pron-tip ${show ? '' : 'hidden'}">뜻: ${c.meaningKo}</div>
         <div class="${show ? '' : 'hidden'}">${pronGuide}</div>
-        ${show && c.example ? `<details class="example-fold" onclick="event.stopPropagation()">
+        ${show && c.example ? `<details class="example-fold" open onclick="event.stopPropagation()">
           <summary>예문 보기</summary>
           <p class="small">${c.example}<br>${c.exampleMeaningKo || ''}</p>
         </details>` : ''}
