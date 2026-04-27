@@ -1035,11 +1035,16 @@ class VietnameseA1App {
     const src = String(audioSrc || '').trim();
     if (!src) return '';
     if (/^https?:\/\//i.test(src)) return src;
-    if (src.startsWith('./')) return src;
-    if (src.startsWith('/audio/')) return `.${src}`;
-    if (src.startsWith('audio/')) return `./${src}`;
-    if (src.startsWith('/')) return `.${src}`;
-    return `./${src.replace(/^\.\//, '')}`;
+    const baseUrl = this.getAppBaseUrl();
+    if (src.startsWith('/')) return new URL(`.${src}`, baseUrl).href;
+    return new URL(src.replace(/^\.\//, ''), baseUrl).href;
+  }
+
+  getAppBaseUrl() {
+    const manifestHref = document.querySelector('link[rel="manifest"]')?.getAttribute('href') || './manifest.webmanifest';
+    const manifestUrl = new URL(manifestHref, window.location.href);
+    const manifestPath = manifestUrl.pathname.replace(/\/[^/]*$/, '/');
+    return `${window.location.origin}${manifestPath}`;
   }
 
   setupPwaUI() {
