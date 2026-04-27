@@ -443,7 +443,7 @@ class VietnameseA1App {
     if (type === 'nextQuiz') return this.nextQuiz();
     if (type === 'pickOption') return this.pickQuizOption(payload);
     if (type === 'matchPick') return this.matchPick(payload, el.dataset.side);
-    if (type === 'buildPick') return this.sentenceBuildPick(payload);
+    if (type === 'buildPick') return this.sentenceBuildPick(Number(payload), el.dataset.token || '');
     if (type === 'buildRemove') return this.sentenceBuildRemove(Number(payload));
     if (type === 'reviewWrong') return this.startWrongReview();
     if (type === 'recoverCache') return this.recoverAndReload();
@@ -773,9 +773,9 @@ class VietnameseA1App {
     }).join('');
     const bankButtons = round.bankOrder.map((token, idx) => {
       const used = round.usedBankIndexes.includes(idx);
-      return `<button class="quiz-option build-chip ${used ? 'match-done' : ''}" data-action="buildPick:${this.escapeAttr(token)}::${idx}" ${used || this.state.quiz.answered ? 'disabled' : ''}>${token}</button>`;
+      return `<button class="quiz-option build-chip ${used ? 'match-done' : ''}" data-action="buildPick:${idx}" data-token="${this.escapeAttr(token)}" ${used || this.state.quiz.answered ? 'disabled' : ''}>${token}</button>`;
     }).join('');
-    return `<div class="match-stage">
+    return `<div class="match-stage build-stage">
       <div class="match-top">
         <button class="match-close" data-action="exitQuiz" aria-label="퀴즈 종료">✕</button>
         <div class="match-progress"><span style="width:${progressWidth}%"></span></div>
@@ -931,13 +931,11 @@ class VietnameseA1App {
     return this.state.quiz.sentenceBuildRound;
   }
 
-  sentenceBuildPick(payload) {
+  sentenceBuildPick(bankIndex, token) {
     const item = this.state.quiz.queue[this.state.quiz.i];
     if (!item || this.state.quiz.answered) return;
-    const [token, idxText] = payload.split('::');
-    const bankIndex = Number(idxText);
     const round = this.getOrCreateSentenceBuildRound(item);
-    if (!Number.isInteger(bankIndex) || round.usedBankIndexes.includes(bankIndex)) return;
+    if (!Number.isInteger(bankIndex) || !token || round.usedBankIndexes.includes(bankIndex)) return;
     round.usedBankIndexes.push(bankIndex);
     round.selectedPicks.push({ token, bankIndex });
     this.state.quiz.feedback = '';
