@@ -19,6 +19,702 @@
   },
   "lessons": [
     {
+  "lessonId": "d1",
+  "unitLabel": "1일차",
+  "titleKo": "1일차: 의문사 기본",
+  "titleVi": "Từ để hỏi cơ bản",
+  "pageRange": "5-6",
+  "goals": [
+    "베트남어 기본 의문사 익히기",
+    "무엇/어느/어디/누구/언제/왜/어떻게/몇·얼마 묻기",
+    "짧은 질문 문장으로 말하기"
+  ],
+  "topicOverview": "기본 의문사를 활용해 일상 질문을 만드는 1일차 문법 학습",
+  "cultureTopics": [
+    "일상 질문 표현",
+    "베트남어 의문사 위치",
+    "하노이 기준 발음"
+  ],
+  "vocabCards": [
+    {
+      "id": "d1-v-01",
+      "term": "gì",
+      "meaningKo": "무엇/뭐",
+      "example": "Anh tên là gì?",
+      "exampleMeaningKo": "이름이 뭐예요?",
+      "audioSrc": "",
+      "sourcePage": 5,
+      "reviewNeeded": false,
+      "pronKo": "지",
+      "pronNoteKo": "gì는 북부 기준으로 ‘지’에 가깝게 발음합니다.",
+      "pronChunks": [
+        "gì=지"
+      ]
+    },
+    {
+      "id": "d1-v-02",
+      "term": "nào",
+      "meaningKo": "어느/어떤",
+      "example": "Chị là người nước nào?",
+      "exampleMeaningKo": "어느 나라 사람이에요?",
+      "audioSrc": "",
+      "sourcePage": 5,
+      "reviewNeeded": false,
+      "pronKo": "나오",
+      "pronNoteKo": "nào는 낮게 떨어지는 성조입니다. 끝을 살짝 내려 주세요.",
+      "pronChunks": [
+        "nào=나오"
+      ]
+    },
+    {
+      "id": "d1-v-03",
+      "term": "đâu",
+      "meaningKo": "어디",
+      "example": "Anh đang sống ở đâu?",
+      "exampleMeaningKo": "어디에 살고 있어요?",
+      "audioSrc": "",
+      "sourcePage": 5,
+      "reviewNeeded": false,
+      "pronKo": "더우",
+      "pronNoteKo": "đ는 한국어 ㄷ/ㄸ에 가깝게 시작하고, đâu는 ‘더우’처럼 짧게 말합니다.",
+      "pronChunks": [
+        "đâu=더우"
+      ]
+    },
+    {
+      "id": "d1-v-04",
+      "term": "ai",
+      "meaningKo": "누구",
+      "example": "Cô ấy là ai vậy?",
+      "exampleMeaningKo": "그녀는 누구예요?",
+      "audioSrc": "",
+      "sourcePage": 5,
+      "reviewNeeded": false,
+      "pronKo": "아이",
+      "pronNoteKo": "ai는 ‘아이’를 짧고 평평하게 발음합니다.",
+      "pronChunks": [
+        "ai=아이"
+      ]
+    },
+    {
+      "id": "d1-v-05",
+      "term": "khi nào",
+      "meaningKo": "언제",
+      "example": "Khi nào mọi người sẽ đi Việt Nam?",
+      "exampleMeaningKo": "모두 언제 베트남에 갈 거예요?",
+      "audioSrc": "",
+      "sourcePage": 5,
+      "reviewNeeded": false,
+      "pronKo": "키 나오",
+      "pronNoteKo": "khi는 ‘키’에 가깝고, nào는 끝을 낮게 떨어뜨립니다.",
+      "pronChunks": [
+        "khi=키",
+        "nào=나오"
+      ]
+    },
+    {
+      "id": "d1-v-06",
+      "term": "bao giờ",
+      "meaningKo": "언제",
+      "example": "Chị ấy đi công tác bao giờ?",
+      "exampleMeaningKo": "그녀는 언제 출장 가요?",
+      "audioSrc": "",
+      "sourcePage": 5,
+      "reviewNeeded": false,
+      "pronKo": "바오 저",
+      "pronNoteKo": "giờ는 북부 기준 ‘저’에 가깝습니다.",
+      "pronChunks": [
+        "bao=바오",
+        "giờ=저"
+      ]
+    },
+    {
+      "id": "d1-v-07",
+      "term": "lúc nào",
+      "meaningKo": "언제/어느 때",
+      "example": "Lúc nào bạn rảnh?",
+      "exampleMeaningKo": "언제 시간 돼요?",
+      "audioSrc": "",
+      "sourcePage": 5,
+      "reviewNeeded": false,
+      "pronKo": "룩 나오",
+      "pronNoteKo": "lúc은 짧게 닫고, nào는 낮게 떨어뜨립니다.",
+      "pronChunks": [
+        "lúc=룩",
+        "nào=나오"
+      ]
+    },
+    {
+      "id": "d1-v-08",
+      "term": "tại sao",
+      "meaningKo": "왜",
+      "example": "Tại sao em không nghe điện thoại?",
+      "exampleMeaningKo": "왜 전화 안 받아요?",
+      "audioSrc": "",
+      "sourcePage": 6,
+      "reviewNeeded": false,
+      "pronKo": "따이 사오",
+      "pronNoteKo": "tại는 낮고 짧게 누르고, sao는 평평하게 이어 말합니다.",
+      "pronChunks": [
+        "tại=따이",
+        "sao=사오"
+      ]
+    },
+    {
+      "id": "d1-v-09",
+      "term": "vì sao",
+      "meaningKo": "왜",
+      "example": "Vì sao bạn học tiếng Việt?",
+      "exampleMeaningKo": "왜 베트남어를 공부해요?",
+      "audioSrc": "",
+      "sourcePage": 6,
+      "reviewNeeded": false,
+      "pronKo": "비 사오",
+      "pronNoteKo": "vì는 북부 기준 ‘비’에 가깝고 낮게 떨어뜨립니다.",
+      "pronChunks": [
+        "vì=비",
+        "sao=사오"
+      ]
+    },
+    {
+      "id": "d1-v-10",
+      "term": "sao",
+      "meaningKo": "왜/어째서",
+      "example": "Sao anh ấy đi nhanh thế?",
+      "exampleMeaningKo": "왜 그 사람은 그렇게 빨리 가요?",
+      "audioSrc": "",
+      "sourcePage": 6,
+      "reviewNeeded": false,
+      "pronKo": "사오",
+      "pronNoteKo": "sao는 짧고 가볍게 말합니다. 회화에서는 tại sao보다 더 간단하게 들립니다.",
+      "pronChunks": [
+        "sao=사오"
+      ]
+    },
+    {
+      "id": "d1-v-11",
+      "term": "như thế nào",
+      "meaningKo": "어떻게/어떤 식으로",
+      "example": "Cái này làm như thế nào?",
+      "exampleMeaningKo": "이것은 어떻게 해요?",
+      "audioSrc": "",
+      "sourcePage": 6,
+      "reviewNeeded": false,
+      "pronKo": "뉴 테 나오",
+      "pronNoteKo": "như는 ‘뉴’에 가깝고, thế는 끝을 살짝 올립니다.",
+      "pronChunks": [
+        "như=뉴",
+        "thế=테",
+        "nào=나오"
+      ]
+    },
+    {
+      "id": "d1-v-12",
+      "term": "thế nào",
+      "meaningKo": "어떻게/어때",
+      "example": "Cái này mở thế nào?",
+      "exampleMeaningKo": "이것은 어떻게 열어요?",
+      "audioSrc": "",
+      "sourcePage": 6,
+      "reviewNeeded": false,
+      "pronKo": "테 나오",
+      "pronNoteKo": "thế nào는 방법이나 상태를 물을 때 자주 씁니다.",
+      "pronChunks": [
+        "thế=테",
+        "nào=나오"
+      ]
+    },
+    {
+      "id": "d1-v-13",
+      "term": "mấy",
+      "meaningKo": "몇",
+      "example": "Em dùng mấy cái điện thoại?",
+      "exampleMeaningKo": "너는 휴대폰 몇 대를 써?",
+      "audioSrc": "",
+      "sourcePage": 6,
+      "reviewNeeded": false,
+      "pronKo": "머이",
+      "pronNoteKo": "mấy는 수량을 물을 때 쓰며, 끝을 살짝 꺾는 느낌입니다.",
+      "pronChunks": [
+        "mấy=머이"
+      ]
+    },
+    {
+      "id": "d1-v-14",
+      "term": "bao nhiêu",
+      "meaningKo": "얼마나/몇",
+      "example": "Cái đấy bao nhiêu tiền vậy chị?",
+      "exampleMeaningKo": "저거 얼마예요, 언니?",
+      "audioSrc": "",
+      "sourcePage": 6,
+      "reviewNeeded": false,
+      "pronKo": "바오 니에우",
+      "pronNoteKo": "nhiêu는 ‘니에우’처럼 부드럽게 이어 말합니다.",
+      "pronChunks": [
+        "bao=바오",
+        "nhiêu=니에우"
+      ]
+    },
+    {
+      "id": "d1-v-15",
+      "term": "bao nhiêu tiền",
+      "meaningKo": "얼마예요",
+      "example": "Cái này bao nhiêu tiền?",
+      "exampleMeaningKo": "이거 얼마예요?",
+      "audioSrc": "",
+      "sourcePage": 6,
+      "reviewNeeded": false,
+      "pronKo": "바오 니에우 띠엔",
+      "pronNoteKo": "tiền은 ‘띠엔’처럼 또렷하게 말하고 끝을 낮게 떨어뜨립니다.",
+      "pronChunks": [
+        "bao nhiêu=바오 니에우",
+        "tiền=띠엔"
+      ]
+    }
+  ],
+  "sentenceCards": [
+    {
+      "id": "d1-s-01",
+      "textVi": "Anh tên là gì?",
+      "textKo": "이름이 뭐예요?",
+      "audioSrc": "",
+      "sourcePage": 5,
+      "reviewNeeded": false,
+      "pronKo": "아인 뗀 라 지",
+      "pronNoteKo": "gì는 북부 기준 ‘지’에 가깝습니다.",
+      "pronChunks": [
+        "Anh tên=아인 뗀",
+        "là gì=라 지"
+      ]
+    },
+    {
+      "id": "d1-s-02",
+      "textVi": "Đây là cái gì?",
+      "textKo": "이것은 무엇입니까?",
+      "audioSrc": "",
+      "sourcePage": 5,
+      "reviewNeeded": false,
+      "pronKo": "더이 라 까이 지",
+      "pronNoteKo": "Đây là는 한 덩어리처럼 자연스럽게 붙여 말합니다.",
+      "pronChunks": [
+        "Đây là=더이 라",
+        "cái gì=까이 지"
+      ]
+    },
+    {
+      "id": "d1-s-03",
+      "textVi": "Chị là người nước nào?",
+      "textKo": "어느 나라 사람이에요?",
+      "audioSrc": "",
+      "sourcePage": 5,
+      "reviewNeeded": false,
+      "pronKo": "찌 라 응어이 느억 나오",
+      "pronNoteKo": "người는 ‘응어이’처럼 시작하고, nào는 낮게 떨어뜨립니다.",
+      "pronChunks": [
+        "Chị là=찌 라",
+        "người nước=응어이 느억",
+        "nào=나오"
+      ]
+    },
+    {
+      "id": "d1-s-04",
+      "textVi": "Giữa Samsung và Iphone, em thích hãng nào?",
+      "textKo": "Samsung과 iPhone 중에 어떤 브랜드를 좋아해요?",
+      "audioSrc": "",
+      "sourcePage": 5,
+      "reviewNeeded": false,
+      "pronKo": "즈어 삼성 바 아이폰 엠 틱 항 나오",
+      "pronNoteKo": "và는 북부 기준 ‘바’에 가깝고, thích는 짧게 닫습니다.",
+      "pronChunks": [
+        "Giữa Samsung=즈어 삼성",
+        "và Iphone=바 아이폰",
+        "em thích=엠 틱",
+        "hãng nào=항 나오"
+      ]
+    },
+    {
+      "id": "d1-s-05",
+      "textVi": "Anh đang sống ở đâu?",
+      "textKo": "어디에 살고 있어요?",
+      "audioSrc": "",
+      "sourcePage": 5,
+      "reviewNeeded": false,
+      "pronKo": "아인 당 쏭 어 더우",
+      "pronNoteKo": "ở đâu는 ‘어 더우’처럼 짧게 붙여 말합니다.",
+      "pronChunks": [
+        "Anh đang=아인 당",
+        "sống ở=쏭 어",
+        "đâu=더우"
+      ]
+    },
+    {
+      "id": "d1-s-06",
+      "textVi": "Quán đó ở đâu?",
+      "textKo": "그 가게는 어디에 있어요?",
+      "audioSrc": "",
+      "sourcePage": 5,
+      "reviewNeeded": false,
+      "pronKo": "꽌 도 어 더우",
+      "pronNoteKo": "quán은 입술을 둥글게 모아 ‘꽌’처럼 시작합니다.",
+      "pronChunks": [
+        "Quán đó=꽌 도",
+        "ở đâu=어 더우"
+      ]
+    },
+    {
+      "id": "d1-s-07",
+      "textVi": "Cô ấy là ai vậy?",
+      "textKo": "그녀는 누구예요?",
+      "audioSrc": "",
+      "sourcePage": 5,
+      "reviewNeeded": false,
+      "pronKo": "꼬 어이 라 아이 버이",
+      "pronNoteKo": "ai는 ‘아이’를 짧게 말하고, vậy는 회화에서 질문 느낌을 부드럽게 만듭니다.",
+      "pronChunks": [
+        "Cô ấy=꼬 어이",
+        "là ai=라 아이",
+        "vậy=버이"
+      ]
+    },
+    {
+      "id": "d1-s-08",
+      "textVi": "Ai gửi cho tôi vậy?",
+      "textKo": "누가 저에게 보냈어요?",
+      "audioSrc": "",
+      "sourcePage": 5,
+      "reviewNeeded": false,
+      "pronKo": "아이 그이 쩌 또이 버이",
+      "pronNoteKo": "gửi는 북부 기준 ‘그이’에 가깝게 부드럽게 말합니다.",
+      "pronChunks": [
+        "Ai gửi=아이 그이",
+        "cho tôi=쩌 또이",
+        "vậy=버이"
+      ]
+    },
+    {
+      "id": "d1-s-09",
+      "textVi": "Khi nào mọi người sẽ đi Việt Nam?",
+      "textKo": "모두 언제 베트남에 갈 거예요?",
+      "audioSrc": "",
+      "sourcePage": 5,
+      "reviewNeeded": false,
+      "pronKo": "키 나오 모이 응어이 쎄 디 비엣 남",
+      "pronNoteKo": "sẽ는 미래 표현으로 ‘쎄’에 가깝게 발음합니다.",
+      "pronChunks": [
+        "Khi nào=키 나오",
+        "mọi người=모이 응어이",
+        "sẽ đi=쎄 디",
+        "Việt Nam=비엣 남"
+      ]
+    },
+    {
+      "id": "d1-s-10",
+      "textVi": "Chị ấy đi công tác bao giờ?",
+      "textKo": "그녀는 언제 출장 가요?",
+      "audioSrc": "",
+      "sourcePage": 5,
+      "reviewNeeded": false,
+      "pronKo": "찌 어이 디 꽁 딱 바오 저",
+      "pronNoteKo": "công tác는 ‘출장/업무 출장’이라는 표현입니다.",
+      "pronChunks": [
+        "Chị ấy=찌 어이",
+        "đi công tác=디 꽁 딱",
+        "bao giờ=바오 저"
+      ]
+    },
+    {
+      "id": "d1-s-11",
+      "textVi": "Tại sao em không nghe điện thoại?",
+      "textKo": "왜 전화 안 받아요?",
+      "audioSrc": "",
+      "sourcePage": 6,
+      "reviewNeeded": false,
+      "pronKo": "따이 사오 엠 콩 응에 디엔 토아이",
+      "pronNoteKo": "không은 ‘콩’처럼 짧게 닫고, nghe는 ‘응에’처럼 시작합니다.",
+      "pronChunks": [
+        "Tại sao=따이 사오",
+        "em không=엠 콩",
+        "nghe điện thoại=응에 디엔 토아이"
+      ]
+    },
+    {
+      "id": "d1-s-12",
+      "textVi": "Sao anh ấy đi nhanh thế?",
+      "textKo": "왜 그 사람은 그렇게 빨리 가요?",
+      "audioSrc": "",
+      "sourcePage": 6,
+      "reviewNeeded": false,
+      "pronKo": "사오 아인 어이 디 냐인 테",
+      "pronNoteKo": "nhanh은 ‘냐인’에 가깝고, thế는 끝을 살짝 올립니다.",
+      "pronChunks": [
+        "Sao anh ấy=사오 아인 어이",
+        "đi nhanh=디 냐인",
+        "thế=테"
+      ]
+    },
+    {
+      "id": "d1-s-13",
+      "textVi": "Cái này làm như thế nào?",
+      "textKo": "이것은 어떻게 해요?",
+      "audioSrc": "",
+      "sourcePage": 6,
+      "reviewNeeded": false,
+      "pronKo": "까이 나이 람 뉴 테 나오",
+      "pronNoteKo": "làm은 ‘람’처럼 낮게 떨어지고, như thế nào는 방법을 묻는 표현입니다.",
+      "pronChunks": [
+        "Cái này=까이 나이",
+        "làm=람",
+        "như thế nào=뉴 테 나오"
+      ]
+    },
+    {
+      "id": "d1-s-14",
+      "textVi": "Cái này mở thế nào?",
+      "textKo": "이것은 어떻게 열어요?",
+      "audioSrc": "",
+      "sourcePage": 6,
+      "reviewNeeded": false,
+      "pronKo": "까이 나이 머 테 나오",
+      "pronNoteKo": "mở는 ‘머’처럼 발음하고, thế nào는 ‘어떻게’라는 뜻입니다.",
+      "pronChunks": [
+        "Cái này=까이 나이",
+        "mở=머",
+        "thế nào=테 나오"
+      ]
+    },
+    {
+      "id": "d1-s-15",
+      "textVi": "Em dùng mấy cái điện thoại?",
+      "textKo": "너는 휴대폰 몇 대를 써?",
+      "audioSrc": "",
+      "sourcePage": 6,
+      "reviewNeeded": false,
+      "pronKo": "엠 중 머이 까이 디엔 토아이",
+      "pronNoteKo": "dùng은 북부 기준 ‘중’에 가깝고, mấy는 수량을 물을 때 씁니다.",
+      "pronChunks": [
+        "Em dùng=엠 중",
+        "mấy cái=머이 까이",
+        "điện thoại=디엔 토아이"
+      ]
+    },
+    {
+      "id": "d1-s-16",
+      "textVi": "Cái đấy bao nhiêu tiền vậy chị?",
+      "textKo": "저거 얼마예요, 언니?",
+      "audioSrc": "",
+      "sourcePage": 6,
+      "reviewNeeded": false,
+      "pronKo": "까이 더이 바오 니에우 띠엔 버이 찌",
+      "pronNoteKo": "bao nhiêu tiền은 가격을 물을 때 통째로 외우면 좋습니다.",
+      "pronChunks": [
+        "Cái đấy=까이 더이",
+        "bao nhiêu tiền=바오 니에우 띠엔",
+        "vậy chị=버이 찌"
+      ]
+    }
+  ],
+  "dialogues": [
+    {
+      "id": "d1-d-01",
+      "title": "의문사 기본 미니 대화",
+      "audioSrc": "",
+      "sourcePage": 6,
+      "lines": [
+        {
+          "speaker": "A",
+          "vi": "Anh tên là gì?",
+          "ko": "이름이 뭐예요?"
+        },
+        {
+          "speaker": "B",
+          "vi": "Tôi tên là Sungmook.",
+          "ko": "제 이름은 성묵입니다."
+        },
+        {
+          "speaker": "A",
+          "vi": "Anh đang sống ở đâu?",
+          "ko": "어디에 살고 있어요?"
+        },
+        {
+          "speaker": "B",
+          "vi": "Tôi sống ở Hàn Quốc.",
+          "ko": "저는 한국에 살고 있어요."
+        }
+      ],
+      "reviewNeeded": false
+    },
+    {
+      "id": "d1-d-02",
+      "title": "왜·어떻게·얼마 질문 미니 대화",
+      "audioSrc": "",
+      "sourcePage": 6,
+      "lines": [
+        {
+          "speaker": "A",
+          "vi": "Tại sao em học tiếng Việt?",
+          "ko": "왜 베트남어를 공부해요?"
+        },
+        {
+          "speaker": "B",
+          "vi": "Vì tôi muốn đi Hà Nội.",
+          "ko": "하노이에 가고 싶기 때문이에요."
+        },
+        {
+          "speaker": "A",
+          "vi": "Cái này bao nhiêu tiền?",
+          "ko": "이거 얼마예요?"
+        },
+        {
+          "speaker": "B",
+          "vi": "Cái này năm mươi nghìn đồng.",
+          "ko": "이것은 5만 동입니다."
+        }
+      ],
+      "reviewNeeded": false
+    }
+  ],
+  "grammarPoints": [
+    {
+      "id": "d1-g-01",
+      "title": "무엇 묻기: gì",
+      "pattern": "Anh tên là gì? / Đây là cái gì? → 이름이 뭐예요? / 이것은 무엇입니까?",
+      "sourcePage": 5,
+      "reviewNeeded": false
+    },
+    {
+      "id": "d1-g-02",
+      "title": "어느·어떤 묻기: nào",
+      "pattern": "Chị là người nước nào? / Em thích hãng nào? → 어느 나라 사람이에요? / 어떤 브랜드를 좋아해요?",
+      "sourcePage": 5,
+      "reviewNeeded": false
+    },
+    {
+      "id": "d1-g-03",
+      "title": "어디 묻기: đâu",
+      "pattern": "Anh đang sống ở đâu? / Quán đó ở đâu? → 어디에 살고 있어요? / 그 가게는 어디에 있어요?",
+      "sourcePage": 5,
+      "reviewNeeded": false
+    },
+    {
+      "id": "d1-g-04",
+      "title": "누구 묻기: ai",
+      "pattern": "Cô ấy là ai vậy? / Ai gửi cho tôi vậy? → 그녀는 누구예요? / 누가 저에게 보냈어요?",
+      "sourcePage": 5,
+      "reviewNeeded": false
+    },
+    {
+      "id": "d1-g-05",
+      "title": "언제 묻기: khi nào / bao giờ / lúc nào",
+      "pattern": "Khi nào mọi người sẽ đi Việt Nam? / Chị ấy đi công tác bao giờ? → 언제 베트남에 갈 거예요? / 언제 출장 가요?",
+      "sourcePage": 5,
+      "reviewNeeded": false
+    },
+    {
+      "id": "d1-g-06",
+      "title": "왜 묻기: tại sao / vì sao / sao",
+      "pattern": "Tại sao em không nghe điện thoại? / Sao anh ấy đi nhanh thế? → 왜 전화 안 받아요? / 왜 그렇게 빨리 가요?",
+      "sourcePage": 6,
+      "reviewNeeded": false
+    },
+    {
+      "id": "d1-g-07",
+      "title": "어떻게 묻기: như thế nào / thế nào",
+      "pattern": "Cái này làm như thế nào? / Cái này mở thế nào? → 이것은 어떻게 해요? / 이것은 어떻게 열어요?",
+      "sourcePage": 6,
+      "reviewNeeded": false
+    },
+    {
+      "id": "d1-g-08",
+      "title": "몇·얼마 묻기: mấy / bao nhiêu",
+      "pattern": "Em dùng mấy cái điện thoại? / Cái đấy bao nhiêu tiền vậy chị? → 휴대폰 몇 대를 써요? / 저거 얼마예요?",
+      "sourcePage": 6,
+      "reviewNeeded": false
+    }
+  ],
+  "pronunciationTargets": [
+    {
+      "id": "d1-p-01",
+      "text": "gì / nào / đâu / ai",
+      "hintKo": "기본 의문사를 짧게 구분해 읽기",
+      "audioSrc": "",
+      "sourcePage": 6,
+      "reviewNeeded": false,
+      "pronKo": "지 / 나오 / 더우 / 아이",
+      "mouthKo": "gì는 ‘지’, đâu는 ‘더우’처럼 짧게 말하고, ai는 평평하게 읽습니다.",
+      "toneKo": "의문사 자체를 과하게 올리지 말고 문장 전체 억양으로 질문 느낌을 만드세요."
+    },
+    {
+      "id": "d1-p-02",
+      "text": "khi nào / bao giờ / lúc nào",
+      "hintKo": "언제 표현 3개를 비교해서 읽기",
+      "audioSrc": "",
+      "sourcePage": 6,
+      "reviewNeeded": false,
+      "pronKo": "키 나오 / 바오 저 / 룩 나오",
+      "mouthKo": "giờ는 북부 기준 ‘저’에 가깝고, nào는 끝을 낮게 떨어뜨립니다.",
+      "toneKo": "nào의 내림 성조를 의식하면서 짧게 마무리하세요."
+    },
+    {
+      "id": "d1-p-03",
+      "text": "tại sao / vì sao / sao",
+      "hintKo": "왜 표현 3개를 짧게 반복",
+      "audioSrc": "",
+      "sourcePage": 6,
+      "reviewNeeded": false,
+      "pronKo": "따이 사오 / 비 사오 / 사오",
+      "mouthKo": "sao는 입을 너무 크게 벌리지 말고 가볍게 이어 말하세요.",
+      "toneKo": "tại와 vì는 낮게 떨어지는 느낌, sao는 평평하게 말합니다."
+    },
+    {
+      "id": "d1-p-04",
+      "text": "bao nhiêu tiền",
+      "hintKo": "가격 질문 표현을 통째로 반복",
+      "audioSrc": "",
+      "sourcePage": 6,
+      "reviewNeeded": false,
+      "pronKo": "바오 니에우 띠엔",
+      "mouthKo": "nhiêu는 ‘니에우’처럼 부드럽게, tiền은 ‘띠엔’처럼 또렷하게 말합니다.",
+      "toneKo": "tiền은 끝을 낮게 떨어뜨리는 느낌으로 짧게 마무리하세요."
+    }
+  ],
+  "quizSeeds": [
+    {
+      "id": "d1-q-01",
+      "type": "match-term",
+      "prompt": "1일차 의문사 뜻 매칭",
+      "answerSet": [
+        "gì-무엇/뭐",
+        "nào-어느/어떤",
+        "đâu-어디",
+        "ai-누구",
+        "khi nào-언제",
+        "tại sao-왜",
+        "như thế nào-어떻게",
+        "bao nhiêu-얼마나/몇"
+      ],
+      "sourcePage": 6,
+      "reviewNeeded": false
+    },
+    {
+      "id": "d1-q-02",
+      "type": "sentence-meaning",
+      "prompt": "1일차 의문사 문장 뜻 고르기",
+      "answerSet": [
+        "Anh tên là gì?-이름이 뭐예요?",
+        "Anh đang sống ở đâu?-어디에 살고 있어요?",
+        "Cô ấy là ai vậy?-그녀는 누구예요?",
+        "Tại sao em không nghe điện thoại?-왜 전화 안 받아요?",
+        "Cái này làm như thế nào?-이것은 어떻게 해요?",
+        "Cái đấy bao nhiêu tiền vậy chị?-저거 얼마예요, 언니?"
+      ],
+      "sourcePage": 6,
+      "reviewNeeded": false
+    }
+  ],
+  "unlockCondition": "complete-previous",
+  "reviewNeeded": false
+    },
+    {
       "lessonId": "l0",
       "unitLabel": "Bài 0",
       "titleKo": "기초 준비: 문자·성조·숫자",
@@ -7674,6 +8370,7 @@
           "sourcePage": 165,
           "reviewNeeded": false
         }
+        
       ],
       "unlockCondition": "complete-previous",
       "reviewNeeded": false
