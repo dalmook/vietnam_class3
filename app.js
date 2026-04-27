@@ -1100,11 +1100,7 @@ class VietnameseA1App {
         await new Promise((r) => setTimeout(r, 220));
       }
       if (!this.sentenceAutoplay.running || runToken !== this.sentenceAutoplay.token) break;
-      if (idx >= nowCards.length - 1) {
-        this.stopSentenceAutoplay();
-        break;
-      }
-      this.state.sentenceIndex = idx + 1;
+      this.state.sentenceIndex = (idx + 1) % nowCards.length;
       this.state.revealMeaning = this.settings.autoShowMeaning;
       this.render();
     }
@@ -1141,11 +1137,7 @@ class VietnameseA1App {
         await new Promise((r) => setTimeout(r, 220));
       }
       if (!this.vocabAutoplay.running || runToken !== this.vocabAutoplay.token) break;
-      if (idx >= nowCards.length - 1) {
-        this.stopVocabAutoplay();
-        break;
-      }
-      this.state.cardIndex = idx + 1;
+      this.state.cardIndex = (idx + 1) % nowCards.length;
       this.state.revealMeaning = this.settings.autoShowMeaning;
       this.render();
     }
