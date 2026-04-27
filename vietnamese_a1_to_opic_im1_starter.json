@@ -715,6 +715,1650 @@
   "reviewNeeded": false
     },
     {
+  "lessonId": "d1a",
+  "unitLabel": "1일차",
+  "titleKo": "1일차: 시제 부사",
+  "titleVi": "Phó từ chỉ thời gian",
+  "pageRange": "7",
+  "goals": [
+    "과거·현재·미래를 나타내는 기본 시제 부사 익히기",
+    "đã, đang, sẽ, sắp, định 등 핵심 표현 구분하기",
+    "예문 속 단어까지 함께 외워 짧은 문장 만들기"
+  ],
+  "topicOverview": "베트남어에서 과거, 현재, 미래를 표현할 때 자주 쓰는 시제 부사를 배우는 1일차 문법 학습",
+  "cultureTopics": [
+    "베트남어 시제 표현",
+    "완료 표현",
+    "일상 대화 속 시간 표현"
+  ],
+  "vocabCards": [
+    {
+      "id": "d1a-v-01",
+      "term": "đã",
+      "meaningKo": "이미/~했다, 과거 표시",
+      "example": "Tôi đã đi Nhật 3 lần.",
+      "exampleMeaningKo": "저는 일본에 세 번 갔습니다.",
+      "audioSrc": "",
+      "sourcePage": 7,
+      "reviewNeeded": false,
+      "pronKo": "다",
+      "pronNoteKo": "đ는 한국어 ㄷ/ㄸ에 가깝게 시작합니다. đã는 짧게 ‘다’처럼 말합니다.",
+      "pronChunks": [
+        "đã=다"
+      ]
+    },
+    {
+      "id": "d1a-v-02",
+      "term": "từng",
+      "meaningKo": "~한 적이 있다",
+      "example": "Em đã từng gặp anh ấy 1 lần.",
+      "exampleMeaningKo": "저는 그 사람을 한 번 만난 적이 있습니다.",
+      "audioSrc": "",
+      "sourcePage": 7,
+      "reviewNeeded": false,
+      "pronKo": "뜽",
+      "pronNoteKo": "từng은 경험을 말할 때 쓰며, ‘뜽’처럼 짧게 발음합니다.",
+      "pronChunks": [
+        "từng=뜽"
+      ]
+    },
+    {
+      "id": "d1a-v-03",
+      "term": "đã từng",
+      "meaningKo": "~한 적이 있었다",
+      "example": "Em đã từng gặp anh ấy 1 lần.",
+      "exampleMeaningKo": "저는 그 사람을 한 번 만난 적이 있습니다.",
+      "audioSrc": "",
+      "sourcePage": 7,
+      "reviewNeeded": false,
+      "pronKo": "다 뜽",
+      "pronNoteKo": "đã từng은 과거 경험을 강조할 때 통째로 외우면 좋습니다.",
+      "pronChunks": [
+        "đã=다",
+        "từng=뜽"
+      ]
+    },
+    {
+      "id": "d1a-v-04",
+      "term": "vừa",
+      "meaningKo": "막/방금",
+      "example": "Chị ấy vừa mới đến.",
+      "exampleMeaningKo": "그녀는 방금 도착했습니다.",
+      "audioSrc": "",
+      "sourcePage": 7,
+      "reviewNeeded": false,
+      "pronKo": "브어",
+      "pronNoteKo": "vừa는 북부 기준 ‘브어’에 가깝고, 방금 일어난 일을 말할 때 씁니다.",
+      "pronChunks": [
+        "vừa=브어"
+      ]
+    },
+    {
+      "id": "d1a-v-05",
+      "term": "mới",
+      "meaningKo": "막/방금/새로",
+      "example": "Chị ấy vừa mới đến.",
+      "exampleMeaningKo": "그녀는 방금 도착했습니다.",
+      "audioSrc": "",
+      "sourcePage": 7,
+      "reviewNeeded": false,
+      "pronKo": "머이",
+      "pronNoteKo": "mới는 ‘막 ~했다’라는 느낌으로 vừa와 함께 자주 씁니다.",
+      "pronChunks": [
+        "mới=머이"
+      ]
+    },
+    {
+      "id": "d1a-v-06",
+      "term": "vừa mới",
+      "meaningKo": "방금 막",
+      "example": "Chị ấy vừa mới đến.",
+      "exampleMeaningKo": "그녀는 방금 막 도착했습니다.",
+      "audioSrc": "",
+      "sourcePage": 7,
+      "reviewNeeded": false,
+      "pronKo": "브어 머이",
+      "pronNoteKo": "vừa mới는 ‘방금 막’이라는 뜻으로 회화에서 자주 쓰입니다.",
+      "pronChunks": [
+        "vừa=브어",
+        "mới=머이"
+      ]
+    },
+    {
+      "id": "d1a-v-07",
+      "term": "rồi",
+      "meaningKo": "이미/~했다, 완료",
+      "example": "Anh làm xong việc rồi.",
+      "exampleMeaningKo": "그는 일을 다 끝냈습니다.",
+      "audioSrc": "",
+      "sourcePage": 7,
+      "reviewNeeded": false,
+      "pronKo": "조이",
+      "pronNoteKo": "rồi는 문장 끝에서 완료 느낌을 만듭니다.",
+      "pronChunks": [
+        "rồi=조이"
+      ]
+    },
+    {
+      "id": "d1a-v-08",
+      "term": "xong",
+      "meaningKo": "끝나다/완료하다",
+      "example": "Anh làm xong việc rồi.",
+      "exampleMeaningKo": "그는 일을 다 끝냈습니다.",
+      "audioSrc": "",
+      "sourcePage": 7,
+      "reviewNeeded": false,
+      "pronKo": "쏭",
+      "pronNoteKo": "xong은 ‘완료하다’라는 뜻이고, làm xong은 ‘다 하다’입니다.",
+      "pronChunks": [
+        "xong=쏭"
+      ]
+    },
+    {
+      "id": "d1a-v-09",
+      "term": "đang",
+      "meaningKo": "~하고 있다",
+      "example": "Anh đang lái xe.",
+      "exampleMeaningKo": "그는 운전하고 있습니다.",
+      "audioSrc": "",
+      "sourcePage": 7,
+      "reviewNeeded": false,
+      "pronKo": "당",
+      "pronNoteKo": "đang은 현재 진행을 나타냅니다. 영어의 be -ing 느낌입니다.",
+      "pronChunks": [
+        "đang=당"
+      ]
+    },
+    {
+      "id": "d1a-v-10",
+      "term": "còn",
+      "meaningKo": "아직/여전히",
+      "example": "Chị ấy còn học đại học.",
+      "exampleMeaningKo": "그녀는 아직 대학교에 다닙니다.",
+      "audioSrc": "",
+      "sourcePage": 7,
+      "reviewNeeded": false,
+      "pronKo": "꼰",
+      "pronNoteKo": "còn은 ‘아직 남아 있다’는 느낌입니다.",
+      "pronChunks": [
+        "còn=꼰"
+      ]
+    },
+    {
+      "id": "d1a-v-11",
+      "term": "vẫn",
+      "meaningKo": "여전히/아직도",
+      "example": "Chị ấy vẫn đang học đại học.",
+      "exampleMeaningKo": "그녀는 아직도 대학교에서 공부하고 있습니다.",
+      "audioSrc": "",
+      "sourcePage": 7,
+      "reviewNeeded": false,
+      "pronKo": "번",
+      "pronNoteKo": "vẫn은 ‘여전히’라는 뜻으로, 계속되는 상태를 말할 때 씁니다.",
+      "pronChunks": [
+        "vẫn=번"
+      ]
+    },
+    {
+      "id": "d1a-v-12",
+      "term": "vẫn còn",
+      "meaningKo": "아직도/여전히",
+      "example": "Chị ấy vẫn còn học đại học.",
+      "exampleMeaningKo": "그녀는 아직도 대학교에 다닙니다.",
+      "audioSrc": "",
+      "sourcePage": 7,
+      "reviewNeeded": false,
+      "pronKo": "번 꼰",
+      "pronNoteKo": "vẫn còn은 ‘아직도 계속’이라는 뜻으로 외우면 좋습니다.",
+      "pronChunks": [
+        "vẫn=번",
+        "còn=꼰"
+      ]
+    },
+    {
+      "id": "d1a-v-13",
+      "term": "sẽ",
+      "meaningKo": "~할 것이다",
+      "example": "Tôi sẽ liên lạc với anh.",
+      "exampleMeaningKo": "저는 당신에게 연락할 것입니다.",
+      "audioSrc": "",
+      "sourcePage": 7,
+      "reviewNeeded": false,
+      "pronKo": "쎄",
+      "pronNoteKo": "sẽ는 미래를 나타내며, 계획이나 의지를 말할 때 씁니다.",
+      "pronChunks": [
+        "sẽ=쎄"
+      ]
+    },
+    {
+      "id": "d1a-v-14",
+      "term": "sắp",
+      "meaningKo": "곧 ~할 예정이다",
+      "example": "Em sắp đi Việt Nam công tác.",
+      "exampleMeaningKo": "저는 곧 베트남으로 출장 갈 예정입니다.",
+      "audioSrc": "",
+      "sourcePage": 7,
+      "reviewNeeded": false,
+      "pronKo": "쌉",
+      "pronNoteKo": "sắp은 가까운 미래를 말할 때 씁니다.",
+      "pronChunks": [
+        "sắp=쌉"
+      ]
+    },
+    {
+      "id": "d1a-v-15",
+      "term": "sắp sửa",
+      "meaningKo": "곧 막 ~하려고 하다",
+      "example": "Em sắp sửa đi Việt Nam công tác.",
+      "exampleMeaningKo": "저는 곧 베트남으로 출장 가려고 합니다.",
+      "audioSrc": "",
+      "sourcePage": 7,
+      "reviewNeeded": false,
+      "pronKo": "쌉 쓰어",
+      "pronNoteKo": "sắp sửa는 sắp보다 ‘곧 하려는 중’이라는 느낌이 조금 더 강합니다.",
+      "pronChunks": [
+        "sắp=쌉",
+        "sửa=쓰어"
+      ]
+    },
+    {
+      "id": "d1a-v-16",
+      "term": "định",
+      "meaningKo": "~하려고 하다/~할 생각이다",
+      "example": "Anh ấy định mua nhà vào năm nay.",
+      "exampleMeaningKo": "그는 올해 집을 사려고 합니다.",
+      "audioSrc": "",
+      "sourcePage": 7,
+      "reviewNeeded": false,
+      "pronKo": "딩",
+      "pronNoteKo": "định은 의도나 계획을 말할 때 씁니다.",
+      "pronChunks": [
+        "định=딩"
+      ]
+    },
+    {
+      "id": "d1a-v-17",
+      "term": "Tôi",
+      "meaningKo": "저/나",
+      "example": "Tôi đã đi Nhật 3 lần.",
+      "exampleMeaningKo": "저는 일본에 세 번 갔습니다.",
+      "audioSrc": "",
+      "sourcePage": 7,
+      "reviewNeeded": false,
+      "pronKo": "또이",
+      "pronNoteKo": "Tôi는 가장 기본적인 ‘저/나’ 표현입니다.",
+      "pronChunks": [
+        "Tôi=또이"
+      ]
+    },
+    {
+      "id": "d1a-v-18",
+      "term": "đi",
+      "meaningKo": "가다",
+      "example": "Tôi đã đi Nhật 3 lần.",
+      "exampleMeaningKo": "저는 일본에 세 번 갔습니다.",
+      "audioSrc": "",
+      "sourcePage": 7,
+      "reviewNeeded": false,
+      "pronKo": "디",
+      "pronNoteKo": "đi는 ‘가다’라는 가장 기본 동사입니다.",
+      "pronChunks": [
+        "đi=디"
+      ]
+    },
+    {
+      "id": "d1a-v-19",
+      "term": "Nhật",
+      "meaningKo": "일본",
+      "example": "Tôi đã đi Nhật 3 lần.",
+      "exampleMeaningKo": "저는 일본에 세 번 갔습니다.",
+      "audioSrc": "",
+      "sourcePage": 7,
+      "reviewNeeded": false,
+      "pronKo": "녓",
+      "pronNoteKo": "Nhật은 일본을 뜻합니다.",
+      "pronChunks": [
+        "Nhật=녓"
+      ]
+    },
+    {
+      "id": "d1a-v-20",
+      "term": "lần",
+      "meaningKo": "번/회",
+      "example": "3 lần",
+      "exampleMeaningKo": "세 번",
+      "audioSrc": "",
+      "sourcePage": 7,
+      "reviewNeeded": false,
+      "pronKo": "런",
+      "pronNoteKo": "lần은 횟수를 말할 때 씁니다.",
+      "pronChunks": [
+        "lần=런"
+      ]
+    },
+    {
+      "id": "d1a-v-21",
+      "term": "gặp",
+      "meaningKo": "만나다",
+      "example": "Em đã từng gặp anh ấy 1 lần.",
+      "exampleMeaningKo": "저는 그 사람을 한 번 만난 적이 있습니다.",
+      "audioSrc": "",
+      "sourcePage": 7,
+      "reviewNeeded": false,
+      "pronKo": "갑",
+      "pronNoteKo": "gặp은 ‘만나다’라는 뜻입니다.",
+      "pronChunks": [
+        "gặp=갑"
+      ]
+    },
+    {
+      "id": "d1a-v-22",
+      "term": "anh ấy",
+      "meaningKo": "그 남자/그 사람",
+      "example": "Anh ấy định mua nhà vào năm nay.",
+      "exampleMeaningKo": "그는 올해 집을 사려고 합니다.",
+      "audioSrc": "",
+      "sourcePage": 7,
+      "reviewNeeded": false,
+      "pronKo": "아인 어이",
+      "pronNoteKo": "anh ấy는 남성 3인칭 표현입니다.",
+      "pronChunks": [
+        "anh=아인",
+        "ấy=어이"
+      ]
+    },
+    {
+      "id": "d1a-v-23",
+      "term": "chị ấy",
+      "meaningKo": "그 여자/그녀",
+      "example": "Chị ấy vừa mới đến.",
+      "exampleMeaningKo": "그녀는 방금 도착했습니다.",
+      "audioSrc": "",
+      "sourcePage": 7,
+      "reviewNeeded": false,
+      "pronKo": "찌 어이",
+      "pronNoteKo": "chị ấy는 여성 3인칭 표현입니다.",
+      "pronChunks": [
+        "chị=찌",
+        "ấy=어이"
+      ]
+    },
+    {
+      "id": "d1a-v-24",
+      "term": "đến",
+      "meaningKo": "오다/도착하다",
+      "example": "Chị ấy vừa mới đến.",
+      "exampleMeaningKo": "그녀는 방금 도착했습니다.",
+      "audioSrc": "",
+      "sourcePage": 7,
+      "reviewNeeded": false,
+      "pronKo": "덴",
+      "pronNoteKo": "đến은 ‘오다/도착하다’라는 뜻입니다.",
+      "pronChunks": [
+        "đến=덴"
+      ]
+    },
+    {
+      "id": "d1a-v-25",
+      "term": "làm",
+      "meaningKo": "하다/일하다",
+      "example": "Anh làm xong việc rồi.",
+      "exampleMeaningKo": "그는 일을 다 끝냈습니다.",
+      "audioSrc": "",
+      "sourcePage": 7,
+      "reviewNeeded": false,
+      "pronKo": "람",
+      "pronNoteKo": "làm은 ‘하다’라는 뜻의 기본 동사입니다.",
+      "pronChunks": [
+        "làm=람"
+      ]
+    },
+    {
+      "id": "d1a-v-26",
+      "term": "việc",
+      "meaningKo": "일/업무",
+      "example": "Anh làm xong việc rồi.",
+      "exampleMeaningKo": "그는 일을 다 끝냈습니다.",
+      "audioSrc": "",
+      "sourcePage": 7,
+      "reviewNeeded": false,
+      "pronKo": "비엑",
+      "pronNoteKo": "việc은 ‘일/업무’라는 뜻입니다.",
+      "pronChunks": [
+        "việc=비엑"
+      ]
+    },
+    {
+      "id": "d1a-v-27",
+      "term": "lái xe",
+      "meaningKo": "운전하다",
+      "example": "Anh đang lái xe.",
+      "exampleMeaningKo": "그는 운전하고 있습니다.",
+      "audioSrc": "",
+      "sourcePage": 7,
+      "reviewNeeded": false,
+      "pronKo": "라이 세",
+      "pronNoteKo": "lái xe는 ‘운전하다’라는 표현입니다.",
+      "pronChunks": [
+        "lái=라이",
+        "xe=세"
+      ]
+    },
+    {
+      "id": "d1a-v-28",
+      "term": "học",
+      "meaningKo": "공부하다/배우다",
+      "example": "Chị ấy vẫn đang học đại học.",
+      "exampleMeaningKo": "그녀는 아직도 대학교에서 공부하고 있습니다.",
+      "audioSrc": "",
+      "sourcePage": 7,
+      "reviewNeeded": false,
+      "pronKo": "혹",
+      "pronNoteKo": "học은 공부하다, 배우다라는 뜻입니다.",
+      "pronChunks": [
+        "học=혹"
+      ]
+    },
+    {
+      "id": "d1a-v-29",
+      "term": "đại học",
+      "meaningKo": "대학교",
+      "example": "Chị ấy vẫn đang học đại học.",
+      "exampleMeaningKo": "그녀는 아직도 대학교에서 공부하고 있습니다.",
+      "audioSrc": "",
+      "sourcePage": 7,
+      "reviewNeeded": false,
+      "pronKo": "다이 혹",
+      "pronNoteKo": "đại học은 대학교라는 뜻입니다.",
+      "pronChunks": [
+        "đại=다이",
+        "học=혹"
+      ]
+    },
+    {
+      "id": "d1a-v-30",
+      "term": "liên lạc",
+      "meaningKo": "연락하다",
+      "example": "Tôi sẽ liên lạc với anh.",
+      "exampleMeaningKo": "저는 당신에게 연락할 것입니다.",
+      "audioSrc": "",
+      "sourcePage": 7,
+      "reviewNeeded": false,
+      "pronKo": "리엔 락",
+      "pronNoteKo": "liên lạc은 ‘연락하다’라는 표현입니다.",
+      "pronChunks": [
+        "liên=리엔",
+        "lạc=락"
+      ]
+    },
+    {
+      "id": "d1a-v-31",
+      "term": "với",
+      "meaningKo": "~와/에게",
+      "example": "Tôi sẽ liên lạc với anh.",
+      "exampleMeaningKo": "저는 당신에게 연락할 것입니다.",
+      "audioSrc": "",
+      "sourcePage": 7,
+      "reviewNeeded": false,
+      "pronKo": "버이",
+      "pronNoteKo": "với는 ‘~와/에게’라는 연결 표현입니다.",
+      "pronChunks": [
+        "với=버이"
+      ]
+    },
+    {
+      "id": "d1a-v-32",
+      "term": "công tác",
+      "meaningKo": "출장/업무 출장",
+      "example": "Em sắp đi Việt Nam công tác.",
+      "exampleMeaningKo": "저는 곧 베트남으로 출장 갈 예정입니다.",
+      "audioSrc": "",
+      "sourcePage": 7,
+      "reviewNeeded": false,
+      "pronKo": "꽁 딱",
+      "pronNoteKo": "công tác은 출장이나 업무를 뜻합니다.",
+      "pronChunks": [
+        "công=꽁",
+        "tác=딱"
+      ]
+    },
+    {
+      "id": "d1a-v-33",
+      "term": "mua",
+      "meaningKo": "사다/구매하다",
+      "example": "Anh ấy định mua nhà vào năm nay.",
+      "exampleMeaningKo": "그는 올해 집을 사려고 합니다.",
+      "audioSrc": "",
+      "sourcePage": 7,
+      "reviewNeeded": false,
+      "pronKo": "무아",
+      "pronNoteKo": "mua는 ‘사다’라는 뜻입니다.",
+      "pronChunks": [
+        "mua=무아"
+      ]
+    },
+    {
+      "id": "d1a-v-34",
+      "term": "nhà",
+      "meaningKo": "집",
+      "example": "Anh ấy định mua nhà vào năm nay.",
+      "exampleMeaningKo": "그는 올해 집을 사려고 합니다.",
+      "audioSrc": "",
+      "sourcePage": 7,
+      "reviewNeeded": false,
+      "pronKo": "냐",
+      "pronNoteKo": "nhà는 집이라는 뜻입니다.",
+      "pronChunks": [
+        "nhà=냐"
+      ]
+    },
+    {
+      "id": "d1a-v-35",
+      "term": "năm nay",
+      "meaningKo": "올해",
+      "example": "Anh ấy định mua nhà vào năm nay.",
+      "exampleMeaningKo": "그는 올해 집을 사려고 합니다.",
+      "audioSrc": "",
+      "sourcePage": 7,
+      "reviewNeeded": false,
+      "pronKo": "남 나이",
+      "pronNoteKo": "năm nay는 올해라는 뜻입니다.",
+      "pronChunks": [
+        "năm=남",
+        "nay=나이"
+      ]
+    }
+  ],
+  "sentenceCards": [
+    {
+      "id": "d1a-s-01",
+      "textVi": "Tôi đã đi Nhật 3 lần.",
+      "textKo": "저는 일본에 세 번 갔습니다.",
+      "audioSrc": "",
+      "sourcePage": 7,
+      "reviewNeeded": false,
+      "pronKo": "또이 다 디 녓 바 런",
+      "pronNoteKo": "đã는 과거 표시, 3 lần은 세 번이라는 뜻입니다.",
+      "pronChunks": [
+        "Tôi đã=또이 다",
+        "đi Nhật=디 녓",
+        "3 lần=바 런"
+      ]
+    },
+    {
+      "id": "d1a-s-02",
+      "textVi": "Em đã từng gặp anh ấy 1 lần.",
+      "textKo": "저는 그 사람을 한 번 만난 적이 있습니다.",
+      "audioSrc": "",
+      "sourcePage": 7,
+      "reviewNeeded": false,
+      "pronKo": "엠 다 뜽 갑 아인 어이 못 런",
+      "pronNoteKo": "đã từng은 경험을 말할 때 쓰는 표현입니다.",
+      "pronChunks": [
+        "Em đã từng=엠 다 뜽",
+        "gặp anh ấy=갑 아인 어이",
+        "1 lần=못 런"
+      ]
+    },
+    {
+      "id": "d1a-s-03",
+      "textVi": "Chị ấy vừa mới đến.",
+      "textKo": "그녀는 방금 도착했습니다.",
+      "audioSrc": "",
+      "sourcePage": 7,
+      "reviewNeeded": false,
+      "pronKo": "찌 어이 브어 머이 덴",
+      "pronNoteKo": "vừa mới는 ‘방금 막’이라는 뜻입니다.",
+      "pronChunks": [
+        "Chị ấy=찌 어이",
+        "vừa mới=브어 머이",
+        "đến=덴"
+      ]
+    },
+    {
+      "id": "d1a-s-04",
+      "textVi": "Anh làm xong việc rồi.",
+      "textKo": "그는 일을 다 끝냈습니다.",
+      "audioSrc": "",
+      "sourcePage": 7,
+      "reviewNeeded": false,
+      "pronKo": "아인 람 쏭 비엑 조이",
+      "pronNoteKo": "xong rồi는 완료를 나타내는 표현입니다.",
+      "pronChunks": [
+        "Anh làm=아인 람",
+        "xong việc=쏭 비엑",
+        "rồi=조이"
+      ]
+    },
+    {
+      "id": "d1a-s-05",
+      "textVi": "Anh đang lái xe.",
+      "textKo": "그는 운전하고 있습니다.",
+      "audioSrc": "",
+      "sourcePage": 7,
+      "reviewNeeded": false,
+      "pronKo": "아인 당 라이 세",
+      "pronNoteKo": "đang은 현재 진행을 나타냅니다.",
+      "pronChunks": [
+        "Anh đang=아인 당",
+        "lái xe=라이 세"
+      ]
+    },
+    {
+      "id": "d1a-s-06",
+      "textVi": "Chị ấy vẫn đang học đại học.",
+      "textKo": "그녀는 아직도 대학교에서 공부하고 있습니다.",
+      "audioSrc": "",
+      "sourcePage": 7,
+      "reviewNeeded": false,
+      "pronKo": "찌 어이 번 당 혹 다이 혹",
+      "pronNoteKo": "vẫn đang은 ‘여전히 ~하고 있다’라는 뜻입니다.",
+      "pronChunks": [
+        "Chị ấy=찌 어이",
+        "vẫn đang=번 당",
+        "học đại học=혹 다이 혹"
+      ]
+    },
+    {
+      "id": "d1a-s-07",
+      "textVi": "Tôi sẽ liên lạc với anh.",
+      "textKo": "저는 당신에게 연락할 것입니다.",
+      "audioSrc": "",
+      "sourcePage": 7,
+      "reviewNeeded": false,
+      "pronKo": "또이 쎄 리엔 락 버이 아인",
+      "pronNoteKo": "sẽ는 미래 계획을 말할 때 씁니다.",
+      "pronChunks": [
+        "Tôi sẽ=또이 쎄",
+        "liên lạc=리엔 락",
+        "với anh=버이 아인"
+      ]
+    },
+    {
+      "id": "d1a-s-08",
+      "textVi": "Em sắp đi Việt Nam công tác.",
+      "textKo": "저는 곧 베트남으로 출장 갈 예정입니다.",
+      "audioSrc": "",
+      "sourcePage": 7,
+      "reviewNeeded": false,
+      "pronKo": "엠 쌉 디 비엣 남 꽁 딱",
+      "pronNoteKo": "sắp은 가까운 미래를 나타냅니다.",
+      "pronChunks": [
+        "Em sắp=엠 쌉",
+        "đi Việt Nam=디 비엣 남",
+        "công tác=꽁 딱"
+      ]
+    },
+    {
+      "id": "d1a-s-09",
+      "textVi": "Anh ấy định mua nhà vào năm nay.",
+      "textKo": "그는 올해 집을 사려고 합니다.",
+      "audioSrc": "",
+      "sourcePage": 7,
+      "reviewNeeded": false,
+      "pronKo": "아인 어이 딩 무아 냐 바오 남 나이",
+      "pronNoteKo": "định은 ‘~하려고 하다’라는 의도를 말합니다.",
+      "pronChunks": [
+        "Anh ấy định=아인 어이 딩",
+        "mua nhà=무아 냐",
+        "vào năm nay=바오 남 나이"
+      ]
+    }
+  ],
+  "dialogues": [
+    {
+      "id": "d1a-d-01",
+      "title": "과거 경험 말하기",
+      "audioSrc": "",
+      "sourcePage": 7,
+      "lines": [
+        {
+          "speaker": "A",
+          "vi": "Bạn đã đi Nhật chưa?",
+          "ko": "일본에 가본 적 있어요?"
+        },
+        {
+          "speaker": "B",
+          "vi": "Tôi đã đi Nhật 3 lần.",
+          "ko": "저는 일본에 세 번 갔습니다."
+        },
+        {
+          "speaker": "A",
+          "vi": "Bạn đã từng gặp anh ấy chưa?",
+          "ko": "그 사람을 만난 적 있어요?"
+        },
+        {
+          "speaker": "B",
+          "vi": "Em đã từng gặp anh ấy 1 lần.",
+          "ko": "저는 그 사람을 한 번 만난 적이 있습니다."
+        }
+      ],
+      "reviewNeeded": false
+    },
+    {
+      "id": "d1a-d-02",
+      "title": "현재와 미래 말하기",
+      "audioSrc": "",
+      "sourcePage": 7,
+      "lines": [
+        {
+          "speaker": "A",
+          "vi": "Anh đang làm gì?",
+          "ko": "지금 뭐 하고 있어요?"
+        },
+        {
+          "speaker": "B",
+          "vi": "Anh đang lái xe.",
+          "ko": "운전하고 있어요."
+        },
+        {
+          "speaker": "A",
+          "vi": "Khi nào em đi Việt Nam?",
+          "ko": "언제 베트남에 가요?"
+        },
+        {
+          "speaker": "B",
+          "vi": "Em sắp đi Việt Nam công tác.",
+          "ko": "저는 곧 베트남으로 출장 갈 예정입니다."
+        }
+      ],
+      "reviewNeeded": false
+    }
+  ],
+  "grammarPoints": [
+    {
+      "id": "d1a-g-01",
+      "title": "과거 표시: đã",
+      "pattern": "Tôi đã đi Nhật 3 lần. → 저는 일본에 세 번 갔습니다.",
+      "sourcePage": 7,
+      "reviewNeeded": false
+    },
+    {
+      "id": "d1a-g-02",
+      "title": "경험 표현: đã từng",
+      "pattern": "Em đã từng gặp anh ấy 1 lần. → 저는 그 사람을 한 번 만난 적이 있습니다.",
+      "sourcePage": 7,
+      "reviewNeeded": false
+    },
+    {
+      "id": "d1a-g-03",
+      "title": "방금 일어난 일: vừa mới",
+      "pattern": "Chị ấy vừa mới đến. → 그녀는 방금 도착했습니다.",
+      "sourcePage": 7,
+      "reviewNeeded": false
+    },
+    {
+      "id": "d1a-g-04",
+      "title": "완료 표현: xong ... rồi",
+      "pattern": "Anh làm xong việc rồi. → 그는 일을 다 끝냈습니다.",
+      "sourcePage": 7,
+      "reviewNeeded": false
+    },
+    {
+      "id": "d1a-g-05",
+      "title": "현재 진행: đang",
+      "pattern": "Anh đang lái xe. → 그는 운전하고 있습니다.",
+      "sourcePage": 7,
+      "reviewNeeded": false
+    },
+    {
+      "id": "d1a-g-06",
+      "title": "계속되는 상태: vẫn đang",
+      "pattern": "Chị ấy vẫn đang học đại học. → 그녀는 아직도 대학교에서 공부하고 있습니다.",
+      "sourcePage": 7,
+      "reviewNeeded": false
+    },
+    {
+      "id": "d1a-g-07",
+      "title": "미래 표현: sẽ",
+      "pattern": "Tôi sẽ liên lạc với anh. → 저는 당신에게 연락할 것입니다.",
+      "sourcePage": 7,
+      "reviewNeeded": false
+    },
+    {
+      "id": "d1a-g-08",
+      "title": "가까운 미래: sắp",
+      "pattern": "Em sắp đi Việt Nam công tác. → 저는 곧 베트남으로 출장 갈 예정입니다.",
+      "sourcePage": 7,
+      "reviewNeeded": false
+    },
+    {
+      "id": "d1a-g-09",
+      "title": "계획·의도: định",
+      "pattern": "Anh ấy định mua nhà vào năm nay. → 그는 올해 집을 사려고 합니다.",
+      "sourcePage": 7,
+      "reviewNeeded": false
+    }
+  ],
+  "pronunciationTargets": [
+    {
+      "id": "d1a-p-01",
+      "text": "đã / từng / rồi / xong",
+      "hintKo": "과거·완료 표현을 짧게 구분해서 읽기",
+      "audioSrc": "",
+      "sourcePage": 7,
+      "reviewNeeded": false,
+      "pronKo": "다 / 뜽 / 조이 / 쏭",
+      "mouthKo": "đ는 ㄷ/ㄸ처럼 시작하고, xong은 짧게 닫아 주세요.",
+      "toneKo": "rồi는 끝을 낮게 떨어뜨리고, từng은 무겁게 누르는 느낌입니다."
+    },
+    {
+      "id": "d1a-p-02",
+      "text": "đang / vẫn đang / vẫn còn",
+      "hintKo": "현재 진행과 계속 상태 표현 읽기",
+      "audioSrc": "",
+      "sourcePage": 7,
+      "reviewNeeded": false,
+      "pronKo": "당 / 번 당 / 번 꼰",
+      "mouthKo": "vẫn은 ‘번’에 가깝고, đang은 짧게 ‘당’으로 말합니다.",
+      "toneKo": "vẫn은 살짝 꺾이는 느낌, đang은 평평하게 말합니다."
+    },
+    {
+      "id": "d1a-p-03",
+      "text": "sẽ / sắp / sắp sửa / định",
+      "hintKo": "미래·계획 표현을 반복해서 읽기",
+      "audioSrc": "",
+      "sourcePage": 7,
+      "reviewNeeded": false,
+      "pronKo": "쎄 / 쌉 / 쌉 쓰어 / 딩",
+      "mouthKo": "sắp은 짧게 닫고, định은 끝을 낮고 짧게 마무리합니다.",
+      "toneKo": "sẽ는 살짝 흔들리는 성조, sắp은 올라가는 성조입니다."
+    }
+  ],
+  "quizSeeds": [
+    {
+      "id": "d1a-q-01",
+      "type": "match-term",
+      "prompt": "1일차 시제 부사 뜻 매칭",
+      "answerSet": [
+        "đã-이미/~했다",
+        "đã từng-~한 적이 있다",
+        "vừa mới-방금 막",
+        "xong-끝나다/완료하다",
+        "rồi-이미/~했다",
+        "đang-~하고 있다",
+        "vẫn-여전히",
+        "sẽ-~할 것이다",
+        "sắp-곧 ~할 예정이다",
+        "định-~하려고 하다"
+      ],
+      "sourcePage": 7,
+      "reviewNeeded": false
+    },
+    {
+      "id": "d1a-q-02",
+      "type": "sentence-meaning",
+      "prompt": "1일차 시제 부사 문장 뜻 고르기",
+      "answerSet": [
+        "Tôi đã đi Nhật 3 lần.-저는 일본에 세 번 갔습니다.",
+        "Em đã từng gặp anh ấy 1 lần.-저는 그 사람을 한 번 만난 적이 있습니다.",
+        "Chị ấy vừa mới đến.-그녀는 방금 도착했습니다.",
+        "Anh làm xong việc rồi.-그는 일을 다 끝냈습니다.",
+        "Anh đang lái xe.-그는 운전하고 있습니다.",
+        "Tôi sẽ liên lạc với anh.-저는 당신에게 연락할 것입니다.",
+        "Em sắp đi Việt Nam công tác.-저는 곧 베트남으로 출장 갈 예정입니다.",
+        "Anh ấy định mua nhà vào năm nay.-그는 올해 집을 사려고 합니다."
+      ],
+      "sourcePage": 7,
+      "reviewNeeded": false
+    }
+  ],
+  "unlockCondition": "complete-previous",
+  "reviewNeeded": false
+    },
+    {
+  "lessonId": "d1b",
+  "unitLabel": "1일차",
+  "titleKo": "1일차: 정도 부사",
+  "titleVi": "Phó từ chỉ mức độ",
+  "pageRange": "15",
+  "goals": [
+    "정도를 나타내는 기본 부사 익히기",
+    "rất, quá, vô cùng, cực kỳ, khá, hơi, không ... lắm 구분하기",
+    "예문 속 형용사와 명사까지 함께 외워 표현 확장하기"
+  ],
+  "topicOverview": "매우, 너무, 꽤, 조금, 별로 등 정도를 나타내는 베트남어 부사를 배우는 1일차 문법 학습",
+  "cultureTopics": [
+    "감정과 평가 표현",
+    "외모·날씨·맛 표현",
+    "회화에서 자주 쓰는 강조 표현"
+  ],
+  "vocabCards": [
+    {
+      "id": "d1b-v-01",
+      "term": "rất",
+      "meaningKo": "매우/아주",
+      "example": "Bạn gái tôi rất xinh đẹp.",
+      "exampleMeaningKo": "제 여자친구는 매우 예쁩니다.",
+      "audioSrc": "",
+      "sourcePage": 15,
+      "reviewNeeded": false,
+      "pronKo": "젓",
+      "pronNoteKo": "rất은 북부 기준 ‘젓’에 가깝고, 형용사 앞에서 ‘매우’라는 뜻입니다.",
+      "pronChunks": [
+        "rất=젓"
+      ]
+    },
+    {
+      "id": "d1b-v-02",
+      "term": "quá",
+      "meaningKo": "너무/매우",
+      "example": "Đôi giày này quá xấu.",
+      "exampleMeaningKo": "이 신발은 너무 못생겼습니다.",
+      "audioSrc": "",
+      "sourcePage": 15,
+      "reviewNeeded": false,
+      "pronKo": "꽈",
+      "pronNoteKo": "quá는 감탄이나 강한 평가에 자주 씁니다.",
+      "pronChunks": [
+        "quá=꽈"
+      ]
+    },
+    {
+      "id": "d1b-v-03",
+      "term": "vô cùng",
+      "meaningKo": "굉장히/매우/극도로",
+      "example": "Anh ấy đã hoàn thành vô cùng xuất sắc.",
+      "exampleMeaningKo": "그는 매우 훌륭하게 완성했습니다.",
+      "audioSrc": "",
+      "sourcePage": 15,
+      "reviewNeeded": false,
+      "pronKo": "보 꿍",
+      "pronNoteKo": "vô cùng은 강한 강조 표현으로, ‘굉장히’에 가깝습니다.",
+      "pronChunks": [
+        "vô=보",
+        "cùng=꿍"
+      ]
+    },
+    {
+      "id": "d1b-v-04",
+      "term": "cực kỳ",
+      "meaningKo": "극히/엄청/매우",
+      "example": "Lần này tôi thi cực kỳ tốt.",
+      "exampleMeaningKo": "이번에 저는 시험을 매우 잘 봤습니다.",
+      "audioSrc": "",
+      "sourcePage": 15,
+      "reviewNeeded": false,
+      "pronKo": "끅 끼",
+      "pronNoteKo": "cực kỳ는 rất보다 더 강하게 강조하는 표현입니다.",
+      "pronChunks": [
+        "cực=끅",
+        "kỳ=끼"
+      ]
+    },
+    {
+      "id": "d1b-v-05",
+      "term": "khá",
+      "meaningKo": "꽤/상당히",
+      "example": "Dạo này em khá bận rộn.",
+      "exampleMeaningKo": "요즘 저는 꽤 바쁩니다.",
+      "audioSrc": "",
+      "sourcePage": 15,
+      "reviewNeeded": false,
+      "pronKo": "카",
+      "pronNoteKo": "khá는 너무 강하지 않은 ‘꽤/상당히’ 느낌입니다.",
+      "pronChunks": [
+        "khá=카"
+      ]
+    },
+    {
+      "id": "d1b-v-06",
+      "term": "hơi",
+      "meaningKo": "조금/약간",
+      "example": "Hôm nay trời hơi lạnh.",
+      "exampleMeaningKo": "오늘 날씨가 조금 춥습니다.",
+      "audioSrc": "",
+      "sourcePage": 15,
+      "reviewNeeded": false,
+      "pronKo": "허이",
+      "pronNoteKo": "hơi는 ‘조금/약간’이라는 뜻으로 부드럽게 말할 때 좋습니다.",
+      "pronChunks": [
+        "hơi=허이"
+      ]
+    },
+    {
+      "id": "d1b-v-07",
+      "term": "không ... lắm",
+      "meaningKo": "별로 ~하지 않다",
+      "example": "Món này không ngon lắm.",
+      "exampleMeaningKo": "이 음식은 별로 맛있지 않습니다.",
+      "audioSrc": "",
+      "sourcePage": 15,
+      "reviewNeeded": false,
+      "pronKo": "콩 ... 람",
+      "pronNoteKo": "không ... lắm은 ‘별로 ~하지 않다’라는 부드러운 부정 표현입니다.",
+      "pronChunks": [
+        "không=콩",
+        "lắm=람"
+      ]
+    },
+    {
+      "id": "d1b-v-08",
+      "term": "bạn gái",
+      "meaningKo": "여자친구",
+      "example": "Bạn gái tôi rất xinh đẹp.",
+      "exampleMeaningKo": "제 여자친구는 매우 예쁩니다.",
+      "audioSrc": "",
+      "sourcePage": 15,
+      "reviewNeeded": false,
+      "pronKo": "반 가이",
+      "pronNoteKo": "bạn gái는 여자친구라는 뜻입니다.",
+      "pronChunks": [
+        "bạn=반",
+        "gái=가이"
+      ]
+    },
+    {
+      "id": "d1b-v-09",
+      "term": "tôi",
+      "meaningKo": "저/나",
+      "example": "Bạn gái tôi rất xinh đẹp.",
+      "exampleMeaningKo": "제 여자친구는 매우 예쁩니다.",
+      "audioSrc": "",
+      "sourcePage": 15,
+      "reviewNeeded": false,
+      "pronKo": "또이",
+      "pronNoteKo": "tôi는 가장 기본적인 ‘저/나’ 표현입니다.",
+      "pronChunks": [
+        "tôi=또이"
+      ]
+    },
+    {
+      "id": "d1b-v-10",
+      "term": "xinh đẹp",
+      "meaningKo": "예쁘다/아름답다",
+      "example": "Bạn gái tôi rất xinh đẹp.",
+      "exampleMeaningKo": "제 여자친구는 매우 예쁩니다.",
+      "audioSrc": "",
+      "sourcePage": 15,
+      "reviewNeeded": false,
+      "pronKo": "씬 뎁",
+      "pronNoteKo": "xinh đẹp은 예쁘다, 아름답다라는 뜻입니다.",
+      "pronChunks": [
+        "xinh=씬",
+        "đẹp=뎁"
+      ]
+    },
+    {
+      "id": "d1b-v-11",
+      "term": "đôi giày",
+      "meaningKo": "신발 한 켤레",
+      "example": "Đôi giày này quá xấu.",
+      "exampleMeaningKo": "이 신발은 너무 못생겼습니다.",
+      "audioSrc": "",
+      "sourcePage": 15,
+      "reviewNeeded": false,
+      "pronKo": "도이 자이",
+      "pronNoteKo": "đôi giày는 신발 한 켤레라는 뜻입니다.",
+      "pronChunks": [
+        "đôi=도이",
+        "giày=자이"
+      ]
+    },
+    {
+      "id": "d1b-v-12",
+      "term": "này",
+      "meaningKo": "이/이것",
+      "example": "Đôi giày này quá xấu.",
+      "exampleMeaningKo": "이 신발은 너무 못생겼습니다.",
+      "audioSrc": "",
+      "sourcePage": 15,
+      "reviewNeeded": false,
+      "pronKo": "나이",
+      "pronNoteKo": "này는 가까운 것을 가리키는 ‘이’라는 뜻입니다.",
+      "pronChunks": [
+        "này=나이"
+      ]
+    },
+    {
+      "id": "d1b-v-13",
+      "term": "xấu",
+      "meaningKo": "못생긴/나쁜",
+      "example": "Đôi giày này quá xấu.",
+      "exampleMeaningKo": "이 신발은 너무 못생겼습니다.",
+      "audioSrc": "",
+      "sourcePage": 15,
+      "reviewNeeded": false,
+      "pronKo": "싸우",
+      "pronNoteKo": "xấu는 못생긴, 나쁜이라는 뜻입니다.",
+      "pronChunks": [
+        "xấu=싸우"
+      ]
+    },
+    {
+      "id": "d1b-v-14",
+      "term": "anh ấy",
+      "meaningKo": "그 남자/그 사람",
+      "example": "Anh ấy đã hoàn thành vô cùng xuất sắc.",
+      "exampleMeaningKo": "그는 매우 훌륭하게 완성했습니다.",
+      "audioSrc": "",
+      "sourcePage": 15,
+      "reviewNeeded": false,
+      "pronKo": "아인 어이",
+      "pronNoteKo": "anh ấy는 남성 3인칭 표현입니다.",
+      "pronChunks": [
+        "anh=아인",
+        "ấy=어이"
+      ]
+    },
+    {
+      "id": "d1b-v-15",
+      "term": "hoàn thành",
+      "meaningKo": "완성하다/완료하다",
+      "example": "Anh ấy đã hoàn thành vô cùng xuất sắc.",
+      "exampleMeaningKo": "그는 매우 훌륭하게 완성했습니다.",
+      "audioSrc": "",
+      "sourcePage": 15,
+      "reviewNeeded": false,
+      "pronKo": "호안 타인",
+      "pronNoteKo": "hoàn thành은 일을 완성하다, 완료하다라는 뜻입니다.",
+      "pronChunks": [
+        "hoàn=호안",
+        "thành=타인"
+      ]
+    },
+    {
+      "id": "d1b-v-16",
+      "term": "xuất sắc",
+      "meaningKo": "뛰어난/훌륭한",
+      "example": "Anh ấy đã hoàn thành vô cùng xuất sắc.",
+      "exampleMeaningKo": "그는 매우 훌륭하게 완성했습니다.",
+      "audioSrc": "",
+      "sourcePage": 15,
+      "reviewNeeded": false,
+      "pronKo": "쑤엇 싹",
+      "pronNoteKo": "xuất sắc은 매우 훌륭하다, 뛰어나다라는 뜻입니다.",
+      "pronChunks": [
+        "xuất=쑤엇",
+        "sắc=싹"
+      ]
+    },
+    {
+      "id": "d1b-v-17",
+      "term": "lần này",
+      "meaningKo": "이번/이번에는",
+      "example": "Lần này tôi thi cực kỳ tốt.",
+      "exampleMeaningKo": "이번에 저는 시험을 매우 잘 봤습니다.",
+      "audioSrc": "",
+      "sourcePage": 15,
+      "reviewNeeded": false,
+      "pronKo": "런 나이",
+      "pronNoteKo": "lần này는 이번, 이번에는이라는 뜻입니다.",
+      "pronChunks": [
+        "lần=런",
+        "này=나이"
+      ]
+    },
+    {
+      "id": "d1b-v-18",
+      "term": "thi",
+      "meaningKo": "시험 보다",
+      "example": "Lần này tôi thi cực kỳ tốt.",
+      "exampleMeaningKo": "이번에 저는 시험을 매우 잘 봤습니다.",
+      "audioSrc": "",
+      "sourcePage": 15,
+      "reviewNeeded": false,
+      "pronKo": "티",
+      "pronNoteKo": "thi는 시험을 보다라는 뜻입니다.",
+      "pronChunks": [
+        "thi=티"
+      ]
+    },
+    {
+      "id": "d1b-v-19",
+      "term": "tốt",
+      "meaningKo": "좋다/잘하다",
+      "example": "Lần này tôi thi cực kỳ tốt.",
+      "exampleMeaningKo": "이번에 저는 시험을 매우 잘 봤습니다.",
+      "audioSrc": "",
+      "sourcePage": 15,
+      "reviewNeeded": false,
+      "pronKo": "똣",
+      "pronNoteKo": "tốt은 좋다, 잘하다는 뜻입니다.",
+      "pronChunks": [
+        "tốt=똣"
+      ]
+    },
+    {
+      "id": "d1b-v-20",
+      "term": "dạo này",
+      "meaningKo": "요즘",
+      "example": "Dạo này em khá bận rộn.",
+      "exampleMeaningKo": "요즘 저는 꽤 바쁩니다.",
+      "audioSrc": "",
+      "sourcePage": 15,
+      "reviewNeeded": false,
+      "pronKo": "자오 나이",
+      "pronNoteKo": "dạo này는 요즘이라는 뜻입니다.",
+      "pronChunks": [
+        "dạo=자오",
+        "này=나이"
+      ]
+    },
+    {
+      "id": "d1b-v-21",
+      "term": "bận rộn",
+      "meaningKo": "바쁜",
+      "example": "Dạo này em khá bận rộn.",
+      "exampleMeaningKo": "요즘 저는 꽤 바쁩니다.",
+      "audioSrc": "",
+      "sourcePage": 15,
+      "reviewNeeded": false,
+      "pronKo": "번 존",
+      "pronNoteKo": "bận rộn은 바쁘다는 뜻입니다.",
+      "pronChunks": [
+        "bận=번",
+        "rộn=존"
+      ]
+    },
+    {
+      "id": "d1b-v-22",
+      "term": "hôm nay",
+      "meaningKo": "오늘",
+      "example": "Hôm nay trời hơi lạnh.",
+      "exampleMeaningKo": "오늘 날씨가 조금 춥습니다.",
+      "audioSrc": "",
+      "sourcePage": 15,
+      "reviewNeeded": false,
+      "pronKo": "홈 나이",
+      "pronNoteKo": "hôm nay는 오늘이라는 뜻입니다.",
+      "pronChunks": [
+        "hôm=홈",
+        "nay=나이"
+      ]
+    },
+    {
+      "id": "d1b-v-23",
+      "term": "trời",
+      "meaningKo": "하늘/날씨",
+      "example": "Hôm nay trời hơi lạnh.",
+      "exampleMeaningKo": "오늘 날씨가 조금 춥습니다.",
+      "audioSrc": "",
+      "sourcePage": 15,
+      "reviewNeeded": false,
+      "pronKo": "쩌이",
+      "pronNoteKo": "trời는 하늘이나 날씨를 말할 때 씁니다.",
+      "pronChunks": [
+        "trời=쩌이"
+      ]
+    },
+    {
+      "id": "d1b-v-24",
+      "term": "lạnh",
+      "meaningKo": "춥다/차갑다",
+      "example": "Hôm nay trời hơi lạnh.",
+      "exampleMeaningKo": "오늘 날씨가 조금 춥습니다.",
+      "audioSrc": "",
+      "sourcePage": 15,
+      "reviewNeeded": false,
+      "pronKo": "라잉",
+      "pronNoteKo": "lạnh은 춥다, 차갑다는 뜻입니다.",
+      "pronChunks": [
+        "lạnh=라잉"
+      ]
+    },
+    {
+      "id": "d1b-v-25",
+      "term": "món",
+      "meaningKo": "요리/음식",
+      "example": "Món này không ngon lắm.",
+      "exampleMeaningKo": "이 음식은 별로 맛있지 않습니다.",
+      "audioSrc": "",
+      "sourcePage": 15,
+      "reviewNeeded": false,
+      "pronKo": "몬",
+      "pronNoteKo": "món은 음식이나 요리를 말할 때 씁니다.",
+      "pronChunks": [
+        "món=몬"
+      ]
+    },
+    {
+      "id": "d1b-v-26",
+      "term": "ngon",
+      "meaningKo": "맛있다",
+      "example": "Món này không ngon lắm.",
+      "exampleMeaningKo": "이 음식은 별로 맛있지 않습니다.",
+      "audioSrc": "",
+      "sourcePage": 15,
+      "reviewNeeded": false,
+      "pronKo": "응온",
+      "pronNoteKo": "ngon은 맛있다는 뜻입니다.",
+      "pronChunks": [
+        "ngon=응온"
+      ]
+    },
+    {
+      "id": "d1b-v-27",
+      "term": "không ngon lắm",
+      "meaningKo": "별로 맛있지 않다",
+      "example": "Món này không ngon lắm.",
+      "exampleMeaningKo": "이 음식은 별로 맛있지 않습니다.",
+      "audioSrc": "",
+      "sourcePage": 15,
+      "reviewNeeded": false,
+      "pronKo": "콩 응온 람",
+      "pronNoteKo": "không ngon lắm은 음식을 평가할 때 부드럽게 말하는 표현입니다.",
+      "pronChunks": [
+        "không=콩",
+        "ngon=응온",
+        "lắm=람"
+      ]
+    }
+  ],
+  "sentenceCards": [
+    {
+      "id": "d1b-s-01",
+      "textVi": "Bạn gái tôi rất xinh đẹp.",
+      "textKo": "제 여자친구는 매우 예쁩니다.",
+      "audioSrc": "",
+      "sourcePage": 15,
+      "reviewNeeded": false,
+      "pronKo": "반 가이 또이 젓 씬 뎁",
+      "pronNoteKo": "rất은 ‘매우’라는 뜻이고, xinh đẹp은 예쁘다는 뜻입니다.",
+      "pronChunks": [
+        "Bạn gái tôi=반 가이 또이",
+        "rất=젓",
+        "xinh đẹp=씬 뎁"
+      ]
+    },
+    {
+      "id": "d1b-s-02",
+      "textVi": "Đôi giày này quá xấu.",
+      "textKo": "이 신발은 너무 못생겼습니다.",
+      "audioSrc": "",
+      "sourcePage": 15,
+      "reviewNeeded": false,
+      "pronKo": "도이 자이 나이 꽈 싸우",
+      "pronNoteKo": "quá는 ‘너무’라는 강한 정도 표현입니다.",
+      "pronChunks": [
+        "Đôi giày này=도이 자이 나이",
+        "quá=꽈",
+        "xấu=싸우"
+      ]
+    },
+    {
+      "id": "d1b-s-03",
+      "textVi": "Anh ấy đã hoàn thành vô cùng xuất sắc.",
+      "textKo": "그는 매우 훌륭하게 완성했습니다.",
+      "audioSrc": "",
+      "sourcePage": 15,
+      "reviewNeeded": false,
+      "pronKo": "아인 어이 다 호안 타인 보 꿍 쑤엇 싹",
+      "pronNoteKo": "vô cùng은 강한 강조 표현이고, xuất sắc은 훌륭하다는 뜻입니다.",
+      "pronChunks": [
+        "Anh ấy đã=아인 어이 다",
+        "hoàn thành=호안 타인",
+        "vô cùng xuất sắc=보 꿍 쑤엇 싹"
+      ]
+    },
+    {
+      "id": "d1b-s-04",
+      "textVi": "Lần này tôi thi cực kỳ tốt.",
+      "textKo": "이번에 저는 시험을 매우 잘 봤습니다.",
+      "audioSrc": "",
+      "sourcePage": 15,
+      "reviewNeeded": false,
+      "pronKo": "런 나이 또이 티 끅 끼 똣",
+      "pronNoteKo": "cực kỳ는 ‘엄청/매우’라는 강한 강조 표현입니다.",
+      "pronChunks": [
+        "Lần này=런 나이",
+        "tôi thi=또이 티",
+        "cực kỳ tốt=끅 끼 똣"
+      ]
+    },
+    {
+      "id": "d1b-s-05",
+      "textVi": "Dạo này em khá bận rộn.",
+      "textKo": "요즘 저는 꽤 바쁩니다.",
+      "audioSrc": "",
+      "sourcePage": 15,
+      "reviewNeeded": false,
+      "pronKo": "자오 나이 엠 카 번 존",
+      "pronNoteKo": "khá는 ‘꽤/상당히’라는 뜻입니다.",
+      "pronChunks": [
+        "Dạo này=자오 나이",
+        "em khá=엠 카",
+        "bận rộn=번 존"
+      ]
+    },
+    {
+      "id": "d1b-s-06",
+      "textVi": "Hôm nay trời hơi lạnh.",
+      "textKo": "오늘 날씨가 조금 춥습니다.",
+      "audioSrc": "",
+      "sourcePage": 15,
+      "reviewNeeded": false,
+      "pronKo": "홈 나이 쩌이 허이 라잉",
+      "pronNoteKo": "hơi는 ‘조금/약간’이라는 뜻입니다.",
+      "pronChunks": [
+        "Hôm nay=홈 나이",
+        "trời hơi=쩌이 허이",
+        "lạnh=라잉"
+      ]
+    },
+    {
+      "id": "d1b-s-07",
+      "textVi": "Món này không ngon lắm.",
+      "textKo": "이 음식은 별로 맛있지 않습니다.",
+      "audioSrc": "",
+      "sourcePage": 15,
+      "reviewNeeded": false,
+      "pronKo": "몬 나이 콩 응온 람",
+      "pronNoteKo": "không ... lắm은 ‘별로 ~하지 않다’라는 표현입니다.",
+      "pronChunks": [
+        "Món này=몬 나이",
+        "không ngon=콩 응온",
+        "lắm=람"
+      ]
+    }
+  ],
+  "dialogues": [
+    {
+      "id": "d1b-d-01",
+      "title": "정도 부사로 상태 말하기",
+      "audioSrc": "",
+      "sourcePage": 15,
+      "lines": [
+        {
+          "speaker": "A",
+          "vi": "Dạo này em thế nào?",
+          "ko": "요즘 어때요?"
+        },
+        {
+          "speaker": "B",
+          "vi": "Dạo này em khá bận rộn.",
+          "ko": "요즘 저는 꽤 바쁩니다."
+        },
+        {
+          "speaker": "A",
+          "vi": "Hôm nay trời có lạnh không?",
+          "ko": "오늘 날씨가 춥나요?"
+        },
+        {
+          "speaker": "B",
+          "vi": "Hôm nay trời hơi lạnh.",
+          "ko": "오늘 날씨가 조금 춥습니다."
+        }
+      ],
+      "reviewNeeded": false
+    },
+    {
+      "id": "d1b-d-02",
+      "title": "정도 부사로 평가 말하기",
+      "audioSrc": "",
+      "sourcePage": 15,
+      "lines": [
+        {
+          "speaker": "A",
+          "vi": "Món này ngon không?",
+          "ko": "이 음식 맛있어요?"
+        },
+        {
+          "speaker": "B",
+          "vi": "Món này không ngon lắm.",
+          "ko": "이 음식은 별로 맛있지 않습니다."
+        },
+        {
+          "speaker": "A",
+          "vi": "Lần này bạn thi thế nào?",
+          "ko": "이번에 시험 어땠어요?"
+        },
+        {
+          "speaker": "B",
+          "vi": "Lần này tôi thi cực kỳ tốt.",
+          "ko": "이번에 저는 시험을 매우 잘 봤습니다."
+        }
+      ],
+      "reviewNeeded": false
+    }
+  ],
+  "grammarPoints": [
+    {
+      "id": "d1b-g-01",
+      "title": "매우/아주: rất",
+      "pattern": "Bạn gái tôi rất xinh đẹp. → 제 여자친구는 매우 예쁩니다.",
+      "sourcePage": 15,
+      "reviewNeeded": false
+    },
+    {
+      "id": "d1b-g-02",
+      "title": "너무/매우: quá",
+      "pattern": "Đôi giày này quá xấu. → 이 신발은 너무 못생겼습니다.",
+      "sourcePage": 15,
+      "reviewNeeded": false
+    },
+    {
+      "id": "d1b-g-03",
+      "title": "굉장히/극도로: vô cùng",
+      "pattern": "Anh ấy đã hoàn thành vô cùng xuất sắc. → 그는 매우 훌륭하게 완성했습니다.",
+      "sourcePage": 15,
+      "reviewNeeded": false
+    },
+    {
+      "id": "d1b-g-04",
+      "title": "엄청/매우: cực kỳ",
+      "pattern": "Lần này tôi thi cực kỳ tốt. → 이번에 저는 시험을 매우 잘 봤습니다.",
+      "sourcePage": 15,
+      "reviewNeeded": false
+    },
+    {
+      "id": "d1b-g-05",
+      "title": "꽤/상당히: khá",
+      "pattern": "Dạo này em khá bận rộn. → 요즘 저는 꽤 바쁩니다.",
+      "sourcePage": 15,
+      "reviewNeeded": false
+    },
+    {
+      "id": "d1b-g-06",
+      "title": "조금/약간: hơi",
+      "pattern": "Hôm nay trời hơi lạnh. → 오늘 날씨가 조금 춥습니다.",
+      "sourcePage": 15,
+      "reviewNeeded": false
+    },
+    {
+      "id": "d1b-g-07",
+      "title": "별로 ~하지 않다: không ... lắm",
+      "pattern": "Món này không ngon lắm. → 이 음식은 별로 맛있지 않습니다.",
+      "sourcePage": 15,
+      "reviewNeeded": false
+    }
+  ],
+  "pronunciationTargets": [
+    {
+      "id": "d1b-p-01",
+      "text": "rất / quá / vô cùng / cực kỳ",
+      "hintKo": "강한 강조 표현 4개를 비교해서 읽기",
+      "audioSrc": "",
+      "sourcePage": 15,
+      "reviewNeeded": false,
+      "pronKo": "젓 / 꽈 / 보 꿍 / 끅 끼",
+      "mouthKo": "quá는 입을 둥글게 시작하고, cực kỳ는 각 음절을 짧게 끊어 주세요.",
+      "toneKo": "강조 표현이라고 해서 너무 길게 끌지 말고 짧고 또렷하게 말합니다."
+    },
+    {
+      "id": "d1b-p-02",
+      "text": "khá / hơi / không ... lắm",
+      "hintKo": "중간·약한 정도 표현을 비교해서 읽기",
+      "audioSrc": "",
+      "sourcePage": 15,
+      "reviewNeeded": false,
+      "pronKo": "카 / 허이 / 콩 ... 람",
+      "mouthKo": "khá는 ‘카’처럼 바람을 살짝 내고, hơi는 부드럽게 이어 말합니다.",
+      "toneKo": "không ... lắm은 부드러운 부정이라 문장 전체를 너무 강하게 말하지 않습니다."
+    },
+    {
+      "id": "d1b-p-03",
+      "text": "xinh đẹp / xấu / tốt / lạnh / ngon",
+      "hintKo": "예문 속 핵심 형용사 반복",
+      "audioSrc": "",
+      "sourcePage": 15,
+      "reviewNeeded": false,
+      "pronKo": "씬 뎁 / 싸우 / 똣 / 라잉 / 응온",
+      "mouthKo": "ngon은 ‘응온’처럼 ng 시작 소리를 살리고, lạnh은 끝을 짧게 닫습니다.",
+      "toneKo": "형용사 앞에 정도 부사를 붙여 한 덩어리로 읽어 보세요."
+    }
+  ],
+  "quizSeeds": [
+    {
+      "id": "d1b-q-01",
+      "type": "match-term",
+      "prompt": "1일차 정도 부사 뜻 매칭",
+      "answerSet": [
+        "rất-매우/아주",
+        "quá-너무/매우",
+        "vô cùng-굉장히/매우",
+        "cực kỳ-극히/엄청/매우",
+        "khá-꽤/상당히",
+        "hơi-조금/약간",
+        "không ... lắm-별로 ~하지 않다"
+      ],
+      "sourcePage": 15,
+      "reviewNeeded": false
+    },
+    {
+      "id": "d1b-q-02",
+      "type": "match-term",
+      "prompt": "1일차 정도 부사 예문 단어 매칭",
+      "answerSet": [
+        "xinh đẹp-예쁘다/아름답다",
+        "đôi giày-신발 한 켤레",
+        "xấu-못생긴/나쁜",
+        "hoàn thành-완성하다/완료하다",
+        "xuất sắc-뛰어난/훌륭한",
+        "thi-시험 보다",
+        "tốt-좋다/잘하다",
+        "dạo này-요즘",
+        "bận rộn-바쁜",
+        "hôm nay-오늘",
+        "trời-날씨/하늘",
+        "lạnh-춥다/차갑다",
+        "món-요리/음식",
+        "ngon-맛있다"
+      ],
+      "sourcePage": 15,
+      "reviewNeeded": false
+    },
+    {
+      "id": "d1b-q-03",
+      "type": "sentence-meaning",
+      "prompt": "1일차 정도 부사 문장 뜻 고르기",
+      "answerSet": [
+        "Bạn gái tôi rất xinh đẹp.-제 여자친구는 매우 예쁩니다.",
+        "Đôi giày này quá xấu.-이 신발은 너무 못생겼습니다.",
+        "Anh ấy đã hoàn thành vô cùng xuất sắc.-그는 매우 훌륭하게 완성했습니다.",
+        "Lần này tôi thi cực kỳ tốt.-이번에 저는 시험을 매우 잘 봤습니다.",
+        "Dạo này em khá bận rộn.-요즘 저는 꽤 바쁩니다.",
+        "Hôm nay trời hơi lạnh.-오늘 날씨가 조금 춥습니다.",
+        "Món này không ngon lắm.-이 음식은 별로 맛있지 않습니다."
+      ],
+      "sourcePage": 15,
+      "reviewNeeded": false
+    }
+  ],
+  "unlockCondition": "complete-previous",
+  "reviewNeeded": false
+    },
+    {
       "lessonId": "l0",
       "unitLabel": "Bài 0",
       "titleKo": "기초 준비: 문자·성조·숫자",
