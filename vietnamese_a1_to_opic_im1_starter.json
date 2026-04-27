@@ -2359,6 +2359,4090 @@
   "reviewNeeded": false
     },
     {
+  "lessonId": "d1note",
+  "unitLabel": "1일차",
+  "titleKo": "1일차: 학습노트",
+  "titleVi": "Ghi chú học tập ngày 1",
+  "pageRange": "1일차 학습노트",
+  "goals": [
+    "기초 인사 표현을 익히기",
+    "의문사로 질문 문장 만들기",
+    "숫자와 가격 표현 익히기",
+    "시제 부사와 정도 부사로 문장 확장하기",
+    "예문 속 기본 단어를 함께 외우기"
+  ],
+  "topicOverview": "1일차 수업에서 나온 인사, 의문사, 숫자, 시제 부사, 정도 부사, 기본 생활 단어를 한 번에 복습하는 통합 학습노트",
+  "cultureTopics": [
+    "베트남어 기본 인사",
+    "카페와 일상 질문",
+    "전화번호와 가격 말하기",
+    "하노이 기준 기초 발음",
+    "일상 대화에서 자주 쓰는 부사"
+  ],
+  "vocabCards": [
+    {
+      "id": "d1note-v-001",
+      "term": "Xin chào",
+      "meaningKo": "안녕하세요",
+      "example": "Xin chào.",
+      "exampleMeaningKo": "안녕하세요.",
+      "audioSrc": "",
+      "sourcePage": 1,
+      "reviewNeeded": false,
+      "pronKo": "씬 짜오",
+      "pronNoteKo": "가장 기본적인 인사 표현입니다.",
+      "pronChunks": [
+        "Xin=씬",
+        "chào=짜오"
+      ]
+    },
+    {
+      "id": "d1note-v-002",
+      "term": "Chào anh",
+      "meaningKo": "오빠/형/남성에게 하는 안녕하세요",
+      "example": "Em chào anh.",
+      "exampleMeaningKo": "안녕하세요, 형/오빠.",
+      "audioSrc": "",
+      "sourcePage": 1,
+      "reviewNeeded": false,
+      "pronKo": "짜오 아인",
+      "pronNoteKo": "상대가 남성이고 나보다 나이가 많을 때 자주 씁니다.",
+      "pronChunks": [
+        "Chào=짜오",
+        "anh=아인"
+      ]
+    },
+    {
+      "id": "d1note-v-003",
+      "term": "Chào chị",
+      "meaningKo": "언니/누나/여성에게 하는 안녕하세요",
+      "example": "Em chào chị.",
+      "exampleMeaningKo": "안녕하세요, 언니/누나.",
+      "audioSrc": "",
+      "sourcePage": 1,
+      "reviewNeeded": false,
+      "pronKo": "짜오 찌",
+      "pronNoteKo": "상대가 여성이고 나보다 나이가 많을 때 씁니다.",
+      "pronChunks": [
+        "Chào=짜오",
+        "chị=찌"
+      ]
+    },
+    {
+      "id": "d1note-v-004",
+      "term": "Chào em",
+      "meaningKo": "동생/어린 사람에게 하는 안녕",
+      "example": "Anh chào em.",
+      "exampleMeaningKo": "안녕.",
+      "audioSrc": "",
+      "sourcePage": 1,
+      "reviewNeeded": false,
+      "pronKo": "짜오 엠",
+      "pronNoteKo": "상대가 나보다 어리거나 친근한 대상일 때 씁니다.",
+      "pronChunks": [
+        "Chào=짜오",
+        "em=엠"
+      ]
+    },
+    {
+      "id": "d1note-v-005",
+      "term": "Tạm biệt",
+      "meaningKo": "안녕히 가세요/안녕히 계세요",
+      "example": "Tạm biệt.",
+      "exampleMeaningKo": "안녕히 가세요.",
+      "audioSrc": "",
+      "sourcePage": 1,
+      "reviewNeeded": false,
+      "pronKo": "땀 비엣",
+      "pronNoteKo": "헤어질 때 쓰는 기본 표현입니다.",
+      "pronChunks": [
+        "Tạm=땀",
+        "biệt=비엣"
+      ]
+    },
+    {
+      "id": "d1note-v-006",
+      "term": "Hẹn gặp lại",
+      "meaningKo": "다시 만나요",
+      "example": "Hẹn gặp lại.",
+      "exampleMeaningKo": "다시 만나요.",
+      "audioSrc": "",
+      "sourcePage": 1,
+      "reviewNeeded": false,
+      "pronKo": "헨 갑 라이",
+      "pronNoteKo": "다음 만남을 기약할 때 씁니다.",
+      "pronChunks": [
+        "Hẹn=헨",
+        "gặp=갑",
+        "lại=라이"
+      ]
+    },
+    {
+      "id": "d1note-v-007",
+      "term": "Cảm ơn",
+      "meaningKo": "감사합니다",
+      "example": "Cảm ơn em.",
+      "exampleMeaningKo": "고마워요.",
+      "audioSrc": "",
+      "sourcePage": 1,
+      "reviewNeeded": false,
+      "pronKo": "깜 언",
+      "pronNoteKo": "Cám ơn이라고도 씁니다.",
+      "pronChunks": [
+        "Cảm=깜",
+        "ơn=언"
+      ]
+    },
+    {
+      "id": "d1note-v-008",
+      "term": "Xin lỗi",
+      "meaningKo": "미안합니다/죄송합니다",
+      "example": "Xin lỗi.",
+      "exampleMeaningKo": "죄송합니다.",
+      "audioSrc": "",
+      "sourcePage": 1,
+      "reviewNeeded": false,
+      "pronKo": "씬 로이",
+      "pronNoteKo": "사과할 때 쓰는 기본 표현입니다.",
+      "pronChunks": [
+        "Xin=씬",
+        "lỗi=로이"
+      ]
+    },
+    {
+      "id": "d1note-v-009",
+      "term": "tôi",
+      "meaningKo": "저/나",
+      "example": "Tôi uống cà phê.",
+      "exampleMeaningKo": "저는 커피를 마십니다.",
+      "audioSrc": "",
+      "sourcePage": 1,
+      "reviewNeeded": false,
+      "pronKo": "또이",
+      "pronNoteKo": "가장 기본적인 1인칭 표현입니다.",
+      "pronChunks": [
+        "tôi=또이"
+      ]
+    },
+    {
+      "id": "d1note-v-010",
+      "term": "anh",
+      "meaningKo": "형/오빠/남성 상대/당신",
+      "example": "Anh làm gì?",
+      "exampleMeaningKo": "무엇을 해요?",
+      "audioSrc": "",
+      "sourcePage": 1,
+      "reviewNeeded": false,
+      "pronKo": "아인",
+      "pronNoteKo": "남성에게 쓰는 호칭이자 2인칭처럼도 씁니다.",
+      "pronChunks": [
+        "anh=아인"
+      ]
+    },
+    {
+      "id": "d1note-v-011",
+      "term": "chị",
+      "meaningKo": "누나/언니/여성 상대",
+      "example": "Em cảm ơn chị.",
+      "exampleMeaningKo": "언니/누나 감사합니다.",
+      "audioSrc": "",
+      "sourcePage": 1,
+      "reviewNeeded": false,
+      "pronKo": "찌",
+      "pronNoteKo": "여성에게 쓰는 호칭입니다.",
+      "pronChunks": [
+        "chị=찌"
+      ]
+    },
+    {
+      "id": "d1note-v-012",
+      "term": "em",
+      "meaningKo": "동생/어린 사람/저",
+      "example": "Em chào anh.",
+      "exampleMeaningKo": "안녕하세요, 형/오빠.",
+      "audioSrc": "",
+      "sourcePage": 1,
+      "reviewNeeded": false,
+      "pronKo": "엠",
+      "pronNoteKo": "나보다 어린 사람을 부르거나, 자신을 낮춰 말할 때 씁니다.",
+      "pronChunks": [
+        "em=엠"
+      ]
+    },
+    {
+      "id": "d1note-v-013",
+      "term": "cô",
+      "meaningKo": "선생님/아주머니/여성 호칭",
+      "example": "Chào cô.",
+      "exampleMeaningKo": "안녕하세요, 선생님.",
+      "audioSrc": "",
+      "sourcePage": 1,
+      "reviewNeeded": false,
+      "pronKo": "꼬",
+      "pronNoteKo": "선생님이나 어른 여성에게 쓸 수 있는 호칭입니다.",
+      "pronChunks": [
+        "cô=꼬"
+      ]
+    },
+    {
+      "id": "d1note-v-014",
+      "term": "bạn",
+      "meaningKo": "친구/당신",
+      "example": "Tôi uống cà phê với bạn.",
+      "exampleMeaningKo": "저는 친구와 커피를 마십니다.",
+      "audioSrc": "",
+      "sourcePage": 1,
+      "reviewNeeded": false,
+      "pronKo": "반",
+      "pronNoteKo": "친구라는 뜻도 있고, 비교적 중립적인 2인칭으로도 씁니다.",
+      "pronChunks": [
+        "bạn=반"
+      ]
+    },
+    {
+      "id": "d1note-v-015",
+      "term": "anh ấy",
+      "meaningKo": "그 남자/그 사람",
+      "example": "Anh ấy đã từng đi Việt Nam.",
+      "exampleMeaningKo": "그는 베트남에 가본 적이 있습니다.",
+      "audioSrc": "",
+      "sourcePage": 1,
+      "reviewNeeded": false,
+      "pronKo": "아인 어이",
+      "pronNoteKo": "남성 3인칭 표현입니다.",
+      "pronChunks": [
+        "anh=아인",
+        "ấy=어이"
+      ]
+    },
+    {
+      "id": "d1note-v-016",
+      "term": "chị ấy",
+      "meaningKo": "그 여자/그녀",
+      "example": "Chị ấy vừa mới đến.",
+      "exampleMeaningKo": "그녀는 방금 도착했습니다.",
+      "audioSrc": "",
+      "sourcePage": 1,
+      "reviewNeeded": false,
+      "pronKo": "찌 어이",
+      "pronNoteKo": "여성 3인칭 표현입니다.",
+      "pronChunks": [
+        "chị=찌",
+        "ấy=어이"
+      ]
+    },
+    {
+      "id": "d1note-v-017",
+      "term": "em ấy",
+      "meaningKo": "그 동생/그 어린 사람",
+      "example": "Em ấy học tiếng Việt.",
+      "exampleMeaningKo": "그 아이는 베트남어를 공부합니다.",
+      "audioSrc": "",
+      "sourcePage": 1,
+      "reviewNeeded": false,
+      "pronKo": "엠 어이",
+      "pronNoteKo": "나보다 어린 사람을 가리킬 때 씁니다.",
+      "pronChunks": [
+        "em=엠",
+        "ấy=어이"
+      ]
+    },
+    {
+      "id": "d1note-v-018",
+      "term": "gì",
+      "meaningKo": "무엇/뭐",
+      "example": "Anh uống gì?",
+      "exampleMeaningKo": "무엇을 마셔요?",
+      "audioSrc": "",
+      "sourcePage": 1,
+      "reviewNeeded": false,
+      "pronKo": "지",
+      "pronNoteKo": "북부 기준으로 gì는 ‘지’에 가깝습니다.",
+      "pronChunks": [
+        "gì=지"
+      ]
+    },
+    {
+      "id": "d1note-v-019",
+      "term": "ai",
+      "meaningKo": "누구",
+      "example": "Ai uống cà phê?",
+      "exampleMeaningKo": "누가 커피를 마셔요?",
+      "audioSrc": "",
+      "sourcePage": 1,
+      "reviewNeeded": false,
+      "pronKo": "아이",
+      "pronNoteKo": "사람을 물을 때 씁니다.",
+      "pronChunks": [
+        "ai=아이"
+      ]
+    },
+    {
+      "id": "d1note-v-020",
+      "term": "ở đâu",
+      "meaningKo": "어디에서/어디에",
+      "example": "Anh sống ở đâu?",
+      "exampleMeaningKo": "어디에 살아요?",
+      "audioSrc": "",
+      "sourcePage": 1,
+      "reviewNeeded": false,
+      "pronKo": "어 더우",
+      "pronNoteKo": "장소를 물을 때 씁니다.",
+      "pronChunks": [
+        "ở=어",
+        "đâu=더우"
+      ]
+    },
+    {
+      "id": "d1note-v-021",
+      "term": "nào",
+      "meaningKo": "어느/어떤",
+      "example": "Anh uống cà phê ở Starbucks nào?",
+      "exampleMeaningKo": "어느 스타벅스에서 커피를 마셔요?",
+      "audioSrc": "",
+      "sourcePage": 1,
+      "reviewNeeded": false,
+      "pronKo": "나오",
+      "pronNoteKo": "선택지를 물을 때 씁니다.",
+      "pronChunks": [
+        "nào=나오"
+      ]
+    },
+    {
+      "id": "d1note-v-022",
+      "term": "khi nào",
+      "meaningKo": "언제",
+      "example": "Khóa học này khi nào bắt đầu?",
+      "exampleMeaningKo": "이 수업은 언제 시작해요?",
+      "audioSrc": "",
+      "sourcePage": 1,
+      "reviewNeeded": false,
+      "pronKo": "키 나오",
+      "pronNoteKo": "시간을 물을 때 쓰는 기본 표현입니다.",
+      "pronChunks": [
+        "khi=키",
+        "nào=나오"
+      ]
+    },
+    {
+      "id": "d1note-v-023",
+      "term": "bao giờ",
+      "meaningKo": "언제",
+      "example": "Anh uống cà phê khi nào / bao giờ?",
+      "exampleMeaningKo": "언제 커피를 마셔요?",
+      "audioSrc": "",
+      "sourcePage": 1,
+      "reviewNeeded": false,
+      "pronKo": "바오 저",
+      "pronNoteKo": "khi nào와 비슷하게 시간을 물을 때 씁니다.",
+      "pronChunks": [
+        "bao=바오",
+        "giờ=저"
+      ]
+    },
+    {
+      "id": "d1note-v-024",
+      "term": "tại sao",
+      "meaningKo": "왜",
+      "example": "Tại sao anh uống cà phê Starbucks?",
+      "exampleMeaningKo": "왜 스타벅스 커피를 마셔요?",
+      "audioSrc": "",
+      "sourcePage": 1,
+      "reviewNeeded": false,
+      "pronKo": "따이 사오",
+      "pronNoteKo": "이유를 물을 때 씁니다.",
+      "pronChunks": [
+        "tại=따이",
+        "sao=사오"
+      ]
+    },
+    {
+      "id": "d1note-v-025",
+      "term": "vì sao",
+      "meaningKo": "왜",
+      "example": "Vì sao anh học tiếng Việt?",
+      "exampleMeaningKo": "왜 베트남어를 공부해요?",
+      "audioSrc": "",
+      "sourcePage": 1,
+      "reviewNeeded": false,
+      "pronKo": "비 사오",
+      "pronNoteKo": "tại sao와 비슷한 이유 질문 표현입니다.",
+      "pronChunks": [
+        "vì=비",
+        "sao=사오"
+      ]
+    },
+    {
+      "id": "d1note-v-026",
+      "term": "sao",
+      "meaningKo": "왜/어째서",
+      "example": "Sao anh uống cà phê Starbucks?",
+      "exampleMeaningKo": "왜 스타벅스 커피를 마셔요?",
+      "audioSrc": "",
+      "sourcePage": 1,
+      "reviewNeeded": false,
+      "pronKo": "사오",
+      "pronNoteKo": "회화에서 짧고 자연스럽게 많이 씁니다.",
+      "pronChunks": [
+        "sao=사오"
+      ]
+    },
+    {
+      "id": "d1note-v-027",
+      "term": "bao nhiêu",
+      "meaningKo": "얼마나/몇",
+      "example": "Số điện thoại của em là bao nhiêu?",
+      "exampleMeaningKo": "전화번호가 어떻게 돼요?",
+      "audioSrc": "",
+      "sourcePage": 1,
+      "reviewNeeded": false,
+      "pronKo": "바오 니에우",
+      "pronNoteKo": "가격, 수량, 번호 등을 물을 때 씁니다.",
+      "pronChunks": [
+        "bao=바오",
+        "nhiêu=니에우"
+      ]
+    },
+    {
+      "id": "d1note-v-028",
+      "term": "mấy",
+      "meaningKo": "몇",
+      "example": "Anh dùng mấy cái điện thoại?",
+      "exampleMeaningKo": "휴대폰 몇 개를 써요?",
+      "audioSrc": "",
+      "sourcePage": 1,
+      "reviewNeeded": false,
+      "pronKo": "머이",
+      "pronNoteKo": "작은 수량이나 일상적인 개수를 물을 때 자주 씁니다.",
+      "pronChunks": [
+        "mấy=머이"
+      ]
+    },
+    {
+      "id": "d1note-v-029",
+      "term": "thế nào",
+      "meaningKo": "어때/어떻게",
+      "example": "Dạo này em thế nào?",
+      "exampleMeaningKo": "요즘 어때요?",
+      "audioSrc": "",
+      "sourcePage": 1,
+      "reviewNeeded": false,
+      "pronKo": "테 나오",
+      "pronNoteKo": "상태나 방법을 물을 때 씁니다.",
+      "pronChunks": [
+        "thế=테",
+        "nào=나오"
+      ]
+    },
+    {
+      "id": "d1note-v-030",
+      "term": "uống",
+      "meaningKo": "마시다",
+      "example": "Tôi uống cà phê.",
+      "exampleMeaningKo": "저는 커피를 마십니다.",
+      "audioSrc": "",
+      "sourcePage": 1,
+      "reviewNeeded": false,
+      "pronKo": "우옹",
+      "pronNoteKo": "음료를 마실 때 쓰는 기본 동사입니다.",
+      "pronChunks": [
+        "uống=우옹"
+      ]
+    },
+    {
+      "id": "d1note-v-031",
+      "term": "cà phê",
+      "meaningKo": "커피",
+      "example": "Tôi uống cà phê.",
+      "exampleMeaningKo": "저는 커피를 마십니다.",
+      "audioSrc": "",
+      "sourcePage": 1,
+      "reviewNeeded": false,
+      "pronKo": "까 페",
+      "pronNoteKo": "베트남에서도 매우 자주 쓰는 단어입니다.",
+      "pronChunks": [
+        "cà=까",
+        "phê=페"
+      ]
+    },
+    {
+      "id": "d1note-v-032",
+      "term": "với",
+      "meaningKo": "~와/함께",
+      "example": "Tôi uống cà phê với bạn.",
+      "exampleMeaningKo": "저는 친구와 커피를 마십니다.",
+      "audioSrc": "",
+      "sourcePage": 1,
+      "reviewNeeded": false,
+      "pronKo": "버이",
+      "pronNoteKo": "함께하는 대상을 말할 때 씁니다.",
+      "pronChunks": [
+        "với=버이"
+      ]
+    },
+    {
+      "id": "d1note-v-033",
+      "term": "lúc",
+      "meaningKo": "~시에/~때",
+      "example": "Tôi uống cà phê lúc 2 giờ.",
+      "exampleMeaningKo": "저는 2시에 커피를 마십니다.",
+      "audioSrc": "",
+      "sourcePage": 1,
+      "reviewNeeded": false,
+      "pronKo": "룩",
+      "pronNoteKo": "구체적인 시간을 말할 때 씁니다.",
+      "pronChunks": [
+        "lúc=룩"
+      ]
+    },
+    {
+      "id": "d1note-v-034",
+      "term": "giờ",
+      "meaningKo": "시/시간",
+      "example": "lúc 2 giờ",
+      "exampleMeaningKo": "2시에",
+      "audioSrc": "",
+      "sourcePage": 1,
+      "reviewNeeded": false,
+      "pronKo": "저",
+      "pronNoteKo": "시간을 말할 때 쓰는 단어입니다.",
+      "pronChunks": [
+        "giờ=저"
+      ]
+    },
+    {
+      "id": "d1note-v-035",
+      "term": "người",
+      "meaningKo": "사람",
+      "example": "Anh là người nước nào?",
+      "exampleMeaningKo": "어느 나라 사람이에요?",
+      "audioSrc": "",
+      "sourcePage": 1,
+      "reviewNeeded": false,
+      "pronKo": "응어이",
+      "pronNoteKo": "사람을 뜻하는 기본 명사입니다.",
+      "pronChunks": [
+        "người=응어이"
+      ]
+    },
+    {
+      "id": "d1note-v-036",
+      "term": "nước",
+      "meaningKo": "나라/물",
+      "example": "Anh là người nước nào?",
+      "exampleMeaningKo": "어느 나라 사람이에요?",
+      "audioSrc": "",
+      "sourcePage": 1,
+      "reviewNeeded": false,
+      "pronKo": "느억",
+      "pronNoteKo": "문맥에 따라 나라 또는 물이라는 뜻입니다.",
+      "pronChunks": [
+        "nước=느억"
+      ]
+    },
+    {
+      "id": "d1note-v-037",
+      "term": "Hàn Quốc",
+      "meaningKo": "한국",
+      "example": "Tôi là người Hàn Quốc.",
+      "exampleMeaningKo": "저는 한국 사람입니다.",
+      "audioSrc": "",
+      "sourcePage": 1,
+      "reviewNeeded": false,
+      "pronKo": "한 꾸옥",
+      "pronNoteKo": "한국을 뜻합니다.",
+      "pronChunks": [
+        "Hàn=한",
+        "Quốc=꾸옥"
+      ]
+    },
+    {
+      "id": "d1note-v-038",
+      "term": "Việt Nam",
+      "meaningKo": "베트남",
+      "example": "Tôi đi Việt Nam.",
+      "exampleMeaningKo": "저는 베트남에 갑니다.",
+      "audioSrc": "",
+      "sourcePage": 1,
+      "reviewNeeded": false,
+      "pronKo": "비엣 남",
+      "pronNoteKo": "베트남을 뜻합니다.",
+      "pronChunks": [
+        "Việt=비엣",
+        "Nam=남"
+      ]
+    },
+    {
+      "id": "d1note-v-039",
+      "term": "Nhật Bản",
+      "meaningKo": "일본",
+      "example": "Tôi đã đi Nhật ba lần.",
+      "exampleMeaningKo": "저는 일본에 세 번 갔습니다.",
+      "audioSrc": "",
+      "sourcePage": 1,
+      "reviewNeeded": false,
+      "pronKo": "녓 반",
+      "pronNoteKo": "짧게 Nhật이라고도 많이 말합니다.",
+      "pronChunks": [
+        "Nhật=녓",
+        "Bản=반"
+      ]
+    },
+    {
+      "id": "d1note-v-040",
+      "term": "rất vui được gặp anh",
+      "meaningKo": "만나서 매우 반갑습니다",
+      "example": "Em cũng rất vui được gặp anh.",
+      "exampleMeaningKo": "저도 만나서 매우 반갑습니다.",
+      "audioSrc": "",
+      "sourcePage": 1,
+      "reviewNeeded": false,
+      "pronKo": "젓 부이 드억 갑 아인",
+      "pronNoteKo": "처음 만났을 때 쓰기 좋은 표현입니다.",
+      "pronChunks": [
+        "rất vui=젓 부이",
+        "được gặp=드억 갑",
+        "anh=아인"
+      ]
+    },
+    {
+      "id": "d1note-v-041",
+      "term": "tên",
+      "meaningKo": "이름",
+      "example": "Anh tên là gì ạ?",
+      "exampleMeaningKo": "이름이 무엇인가요?",
+      "audioSrc": "",
+      "sourcePage": 1,
+      "reviewNeeded": false,
+      "pronKo": "뗀",
+      "pronNoteKo": "이름을 물을 때 쓰는 단어입니다.",
+      "pronChunks": [
+        "tên=뗀"
+      ]
+    },
+    {
+      "id": "d1note-v-042",
+      "term": "ạ",
+      "meaningKo": "공손 표현",
+      "example": "Anh tên là gì ạ?",
+      "exampleMeaningKo": "이름이 무엇인가요?",
+      "audioSrc": "",
+      "sourcePage": 1,
+      "reviewNeeded": false,
+      "pronKo": "아",
+      "pronNoteKo": "문장 끝에 붙여 공손한 느낌을 만듭니다.",
+      "pronChunks": [
+        "ạ=아"
+      ]
+    },
+    {
+      "id": "d1note-v-043",
+      "term": "sống",
+      "meaningKo": "살다",
+      "example": "Anh đang sống ở đâu?",
+      "exampleMeaningKo": "어디에 살고 있어요?",
+      "audioSrc": "",
+      "sourcePage": 1,
+      "reviewNeeded": false,
+      "pronKo": "쏭",
+      "pronNoteKo": "거주를 말할 때 씁니다.",
+      "pronChunks": [
+        "sống=쏭"
+      ]
+    },
+    {
+      "id": "d1note-v-044",
+      "term": "làm việc",
+      "meaningKo": "일하다",
+      "example": "Em làm việc ở đâu?",
+      "exampleMeaningKo": "어디에서 일해요?",
+      "audioSrc": "",
+      "sourcePage": 1,
+      "reviewNeeded": false,
+      "pronKo": "람 비엑",
+      "pronNoteKo": "làm은 하다, việc은 일입니다.",
+      "pronChunks": [
+        "làm=람",
+        "việc=비엑"
+      ]
+    },
+    {
+      "id": "d1note-v-045",
+      "term": "nghề",
+      "meaningKo": "직업",
+      "example": "Em làm nghề gì?",
+      "exampleMeaningKo": "직업이 뭐예요?",
+      "audioSrc": "",
+      "sourcePage": 1,
+      "reviewNeeded": false,
+      "pronKo": "응에",
+      "pronNoteKo": "nghe와 헷갈리기 쉬우니 구분해서 외우면 좋습니다.",
+      "pronChunks": [
+        "nghề=응에"
+      ]
+    },
+    {
+      "id": "d1note-v-046",
+      "term": "dạy",
+      "meaningKo": "가르치다",
+      "example": "Em dạy tiếng Việt.",
+      "exampleMeaningKo": "저는 베트남어를 가르칩니다.",
+      "audioSrc": "",
+      "sourcePage": 1,
+      "reviewNeeded": false,
+      "pronKo": "자이",
+      "pronNoteKo": "가르치다는 뜻입니다.",
+      "pronChunks": [
+        "dạy=자이"
+      ]
+    },
+    {
+      "id": "d1note-v-047",
+      "term": "giáo viên",
+      "meaningKo": "교사/선생님",
+      "example": "Em là giáo viên dạy tiếng Việt.",
+      "exampleMeaningKo": "저는 베트남어를 가르치는 선생님입니다.",
+      "audioSrc": "",
+      "sourcePage": 1,
+      "reviewNeeded": false,
+      "pronKo": "자오 비엔",
+      "pronNoteKo": "직업으로서의 교사를 뜻합니다.",
+      "pronChunks": [
+        "giáo=자오",
+        "viên=비엔"
+      ]
+    },
+    {
+      "id": "d1note-v-048",
+      "term": "tiếng Việt",
+      "meaningKo": "베트남어",
+      "example": "Tôi học tiếng Việt.",
+      "exampleMeaningKo": "저는 베트남어를 공부합니다.",
+      "audioSrc": "",
+      "sourcePage": 1,
+      "reviewNeeded": false,
+      "pronKo": "띠엥 비엣",
+      "pronNoteKo": "언어 이름 앞에는 tiếng을 붙입니다.",
+      "pronChunks": [
+        "tiếng=띠엥",
+        "Việt=비엣"
+      ]
+    },
+    {
+      "id": "d1note-v-049",
+      "term": "tiếng Hàn",
+      "meaningKo": "한국어",
+      "example": "Tôi học tiếng Hàn.",
+      "exampleMeaningKo": "저는 한국어를 공부합니다.",
+      "audioSrc": "",
+      "sourcePage": 1,
+      "reviewNeeded": false,
+      "pronKo": "띠엥 한",
+      "pronNoteKo": "한국어를 뜻합니다.",
+      "pronChunks": [
+        "tiếng=띠엥",
+        "Hàn=한"
+      ]
+    },
+    {
+      "id": "d1note-v-050",
+      "term": "tiếng Anh",
+      "meaningKo": "영어",
+      "example": "Tôi học tiếng Anh.",
+      "exampleMeaningKo": "저는 영어를 공부합니다.",
+      "audioSrc": "",
+      "sourcePage": 1,
+      "reviewNeeded": false,
+      "pronKo": "띠엥 아인",
+      "pronNoteKo": "영어를 뜻합니다.",
+      "pronChunks": [
+        "tiếng=띠엥",
+        "Anh=아인"
+      ]
+    },
+    {
+      "id": "d1note-v-051",
+      "term": "khóa học",
+      "meaningKo": "수업/강좌",
+      "example": "Khóa học này khi nào bắt đầu?",
+      "exampleMeaningKo": "이 수업은 언제 시작해요?",
+      "audioSrc": "",
+      "sourcePage": 1,
+      "reviewNeeded": false,
+      "pronKo": "콰 혹",
+      "pronNoteKo": "학습 과정이나 강좌를 뜻합니다.",
+      "pronChunks": [
+        "khóa=콰",
+        "học=혹"
+      ]
+    },
+    {
+      "id": "d1note-v-052",
+      "term": "bắt đầu",
+      "meaningKo": "시작하다",
+      "example": "Khóa học này bắt đầu khi nào?",
+      "exampleMeaningKo": "이 수업은 언제 시작해요?",
+      "audioSrc": "",
+      "sourcePage": 1,
+      "reviewNeeded": false,
+      "pronKo": "밧 더우",
+      "pronNoteKo": "bắt đầu + 동사 형태로도 자주 씁니다.",
+      "pronChunks": [
+        "bắt=밧",
+        "đầu=더우"
+      ]
+    },
+    {
+      "id": "d1note-v-053",
+      "term": "số điện thoại",
+      "meaningKo": "전화번호",
+      "example": "Số điện thoại của em là bao nhiêu?",
+      "exampleMeaningKo": "전화번호가 어떻게 돼요?",
+      "audioSrc": "",
+      "sourcePage": 1,
+      "reviewNeeded": false,
+      "pronKo": "소 디엔 토아이",
+      "pronNoteKo": "số는 번호, điện thoại는 전화입니다.",
+      "pronChunks": [
+        "số=소",
+        "điện thoại=디엔 토아이"
+      ]
+    },
+    {
+      "id": "d1note-v-054",
+      "term": "email",
+      "meaningKo": "이메일",
+      "example": "Email của em là gì?",
+      "exampleMeaningKo": "이메일이 뭐예요?",
+      "audioSrc": "",
+      "sourcePage": 1,
+      "reviewNeeded": false,
+      "pronKo": "이메일",
+      "pronNoteKo": "외래어처럼 사용합니다.",
+      "pronChunks": [
+        "email=이메일"
+      ]
+    },
+    {
+      "id": "d1note-v-055",
+      "term": "của",
+      "meaningKo": "~의",
+      "example": "Email của em là gì?",
+      "exampleMeaningKo": "너의 이메일은 뭐야?",
+      "audioSrc": "",
+      "sourcePage": 1,
+      "reviewNeeded": false,
+      "pronKo": "꾸어",
+      "pronNoteKo": "소유를 나타내는 표현입니다.",
+      "pronChunks": [
+        "của=꾸어"
+      ]
+    },
+    {
+      "id": "d1note-v-056",
+      "term": "đi du lịch",
+      "meaningKo": "여행 가다",
+      "example": "Tôi đi du lịch.",
+      "exampleMeaningKo": "저는 여행을 갑니다.",
+      "audioSrc": "",
+      "sourcePage": 1,
+      "reviewNeeded": false,
+      "pronKo": "디 주 릭",
+      "pronNoteKo": "여행을 말할 때 자주 씁니다.",
+      "pronChunks": [
+        "đi=디",
+        "du lịch=주 릭"
+      ]
+    },
+    {
+      "id": "d1note-v-057",
+      "term": "đi công tác",
+      "meaningKo": "출장 가다",
+      "example": "Tôi sẽ đi công tác Việt Nam.",
+      "exampleMeaningKo": "저는 베트남으로 출장 갈 것입니다.",
+      "audioSrc": "",
+      "sourcePage": 1,
+      "reviewNeeded": false,
+      "pronKo": "디 꽁 딱",
+      "pronNoteKo": "업무상 이동, 출장을 말합니다.",
+      "pronChunks": [
+        "đi=디",
+        "công tác=꽁 딱"
+      ]
+    },
+    {
+      "id": "d1note-v-058",
+      "term": "nghe",
+      "meaningKo": "듣다",
+      "example": "Tôi nghe tiếng Việt.",
+      "exampleMeaningKo": "저는 베트남어를 듣습니다.",
+      "audioSrc": "",
+      "sourcePage": 1,
+      "reviewNeeded": false,
+      "pronKo": "응에",
+      "pronNoteKo": "nghe는 듣다, nghề는 직업입니다.",
+      "pronChunks": [
+        "nghe=응에"
+      ]
+    },
+    {
+      "id": "d1note-v-059",
+      "term": "không nghe",
+      "meaningKo": "듣지 않다",
+      "example": "Tôi không nghe điện thoại.",
+      "exampleMeaningKo": "저는 전화를 받지 않습니다.",
+      "audioSrc": "",
+      "sourcePage": 1,
+      "reviewNeeded": false,
+      "pronKo": "콩 응에",
+      "pronNoteKo": "không은 부정 표현입니다.",
+      "pronChunks": [
+        "không=콩",
+        "nghe=응에"
+      ]
+    },
+    {
+      "id": "d1note-v-060",
+      "term": "điện thoại",
+      "meaningKo": "전화/휴대폰",
+      "example": "Điện thoại Samsung đẹp.",
+      "exampleMeaningKo": "삼성 휴대폰은 예쁩니다.",
+      "audioSrc": "",
+      "sourcePage": 1,
+      "reviewNeeded": false,
+      "pronKo": "디엔 토아이",
+      "pronNoteKo": "전화 또는 휴대폰을 뜻합니다.",
+      "pronChunks": [
+        "điện=디엔",
+        "thoại=토아이"
+      ]
+    },
+    {
+      "id": "d1note-v-061",
+      "term": "đẹp",
+      "meaningKo": "예쁘다/아름답다/멋지다",
+      "example": "Điện thoại Samsung đẹp.",
+      "exampleMeaningKo": "삼성 휴대폰은 예쁩니다.",
+      "audioSrc": "",
+      "sourcePage": 1,
+      "reviewNeeded": false,
+      "pronKo": "뎁",
+      "pronNoteKo": "사람, 물건, 풍경에 모두 쓸 수 있습니다.",
+      "pronChunks": [
+        "đẹp=뎁"
+      ]
+    },
+    {
+      "id": "d1note-v-062",
+      "term": "xấu",
+      "meaningKo": "못생기다/나쁘다",
+      "example": "Không xấu.",
+      "exampleMeaningKo": "못생기지 않았습니다.",
+      "audioSrc": "",
+      "sourcePage": 1,
+      "reviewNeeded": false,
+      "pronKo": "싸우",
+      "pronNoteKo": "외모나 상태가 좋지 않을 때 씁니다.",
+      "pronChunks": [
+        "xấu=싸우"
+      ]
+    },
+    {
+      "id": "d1note-v-063",
+      "term": "mở",
+      "meaningKo": "열다",
+      "example": "Mở trang 15.",
+      "exampleMeaningKo": "15페이지를 여세요.",
+      "audioSrc": "",
+      "sourcePage": 1,
+      "reviewNeeded": false,
+      "pronKo": "머",
+      "pronNoteKo": "문, 책, 앱 등을 열 때 씁니다.",
+      "pronChunks": [
+        "mở=머"
+      ]
+    },
+    {
+      "id": "d1note-v-064",
+      "term": "trang",
+      "meaningKo": "페이지",
+      "example": "Mở trang 15.",
+      "exampleMeaningKo": "15페이지를 여세요.",
+      "audioSrc": "",
+      "sourcePage": 1,
+      "reviewNeeded": false,
+      "pronKo": "짱",
+      "pronNoteKo": "책이나 문서의 페이지를 뜻합니다.",
+      "pronChunks": [
+        "trang=짱"
+      ]
+    },
+    {
+      "id": "d1note-v-065",
+      "term": "đồ ăn",
+      "meaningKo": "음식",
+      "example": "Đồ ăn Việt Nam ngon.",
+      "exampleMeaningKo": "베트남 음식은 맛있습니다.",
+      "audioSrc": "",
+      "sourcePage": 1,
+      "reviewNeeded": false,
+      "pronKo": "도 안",
+      "pronNoteKo": "먹는 것을 통틀어 말할 때 씁니다.",
+      "pronChunks": [
+        "đồ=도",
+        "ăn=안"
+      ]
+    },
+    {
+      "id": "d1note-v-066",
+      "term": "ngon",
+      "meaningKo": "맛있다",
+      "example": "Đồ ăn Việt Nam ngon.",
+      "exampleMeaningKo": "베트남 음식은 맛있습니다.",
+      "audioSrc": "",
+      "sourcePage": 1,
+      "reviewNeeded": false,
+      "pronKo": "응온",
+      "pronNoteKo": "음식 맛을 말할 때 가장 기본 표현입니다.",
+      "pronChunks": [
+        "ngon=응온"
+      ]
+    },
+    {
+      "id": "d1note-v-067",
+      "term": "phở",
+      "meaningKo": "쌀국수",
+      "example": "Tôi ăn phở.",
+      "exampleMeaningKo": "저는 쌀국수를 먹습니다.",
+      "audioSrc": "",
+      "sourcePage": 1,
+      "reviewNeeded": false,
+      "pronKo": "퍼",
+      "pronNoteKo": "베트남 대표 음식입니다.",
+      "pronChunks": [
+        "phở=퍼"
+      ]
+    },
+    {
+      "id": "d1note-v-068",
+      "term": "bún chả",
+      "meaningKo": "분짜",
+      "example": "Tôi ăn bún chả.",
+      "exampleMeaningKo": "저는 분짜를 먹습니다.",
+      "audioSrc": "",
+      "sourcePage": 1,
+      "reviewNeeded": false,
+      "pronKo": "분 짜",
+      "pronNoteKo": "하노이에서 유명한 음식입니다.",
+      "pronChunks": [
+        "bún=분",
+        "chả=짜"
+      ]
+    },
+    {
+      "id": "d1note-v-069",
+      "term": "ăn",
+      "meaningKo": "먹다",
+      "example": "Tôi ăn cơm.",
+      "exampleMeaningKo": "저는 밥을 먹습니다.",
+      "audioSrc": "",
+      "sourcePage": 1,
+      "reviewNeeded": false,
+      "pronKo": "안",
+      "pronNoteKo": "먹다라는 기본 동사입니다.",
+      "pronChunks": [
+        "ăn=안"
+      ]
+    },
+    {
+      "id": "d1note-v-070",
+      "term": "cơm",
+      "meaningKo": "밥",
+      "example": "Tôi ăn cơm.",
+      "exampleMeaningKo": "저는 밥을 먹습니다.",
+      "audioSrc": "",
+      "sourcePage": 1,
+      "reviewNeeded": false,
+      "pronKo": "껌",
+      "pronNoteKo": "밥 또는 식사를 뜻합니다.",
+      "pronChunks": [
+        "cơm=껌"
+      ]
+    },
+    {
+      "id": "d1note-v-071",
+      "term": "đồng",
+      "meaningKo": "동, 베트남 화폐 단위",
+      "example": "Cái đấy 50 nghìn đồng.",
+      "exampleMeaningKo": "저것은 5만 동입니다.",
+      "audioSrc": "",
+      "sourcePage": 1,
+      "reviewNeeded": false,
+      "pronKo": "동",
+      "pronNoteKo": "베트남 돈 단위입니다.",
+      "pronChunks": [
+        "đồng=동"
+      ]
+    },
+    {
+      "id": "d1note-v-072",
+      "term": "nghìn",
+      "meaningKo": "천",
+      "example": "50 nghìn đồng.",
+      "exampleMeaningKo": "5만 동.",
+      "audioSrc": "",
+      "sourcePage": 1,
+      "reviewNeeded": false,
+      "pronKo": "응인",
+      "pronNoteKo": "1,000 단위입니다.",
+      "pronChunks": [
+        "nghìn=응인"
+      ]
+    },
+    {
+      "id": "d1note-v-073",
+      "term": "triệu",
+      "meaningKo": "백만",
+      "example": "50 triệu.",
+      "exampleMeaningKo": "5천만.",
+      "audioSrc": "",
+      "sourcePage": 1,
+      "reviewNeeded": false,
+      "pronKo": "찌에우",
+      "pronNoteKo": "1,000,000 단위입니다.",
+      "pronChunks": [
+        "triệu=찌에우"
+      ]
+    },
+    {
+      "id": "d1note-v-074",
+      "term": "tỉ",
+      "meaningKo": "십억",
+      "example": "1 tỉ.",
+      "exampleMeaningKo": "10억.",
+      "audioSrc": "",
+      "sourcePage": 1,
+      "reviewNeeded": false,
+      "pronKo": "띠",
+      "pronNoteKo": "1,000,000,000 단위입니다.",
+      "pronChunks": [
+        "tỉ=띠"
+      ]
+    },
+    {
+      "id": "d1note-v-075",
+      "term": "phẩy",
+      "meaningKo": "소수점/쉼표",
+      "example": "1,5 đọc là một phẩy năm.",
+      "exampleMeaningKo": "1.5는 một phẩy năm이라고 읽습니다.",
+      "audioSrc": "",
+      "sourcePage": 1,
+      "reviewNeeded": false,
+      "pronKo": "퍼이",
+      "pronNoteKo": "소수점을 읽을 때 씁니다.",
+      "pronChunks": [
+        "phẩy=퍼이"
+      ]
+    },
+    {
+      "id": "d1note-v-076",
+      "term": "nhân viên",
+      "meaningKo": "직원",
+      "example": "Bao nhiêu nhân viên?",
+      "exampleMeaningKo": "직원이 몇 명이에요?",
+      "audioSrc": "",
+      "sourcePage": 1,
+      "reviewNeeded": false,
+      "pronKo": "년 비엔",
+      "pronNoteKo": "회사 직원, 종업원을 뜻합니다.",
+      "pronChunks": [
+        "nhân=년",
+        "viên=비엔"
+      ]
+    },
+    {
+      "id": "d1note-v-077",
+      "term": "cái",
+      "meaningKo": "개, 사물 분류사",
+      "example": "Tôi dùng 1 cái điện thoại.",
+      "exampleMeaningKo": "저는 휴대폰 한 개를 씁니다.",
+      "audioSrc": "",
+      "sourcePage": 1,
+      "reviewNeeded": false,
+      "pronKo": "까이",
+      "pronNoteKo": "물건을 셀 때 자주 쓰는 분류사입니다.",
+      "pronChunks": [
+        "cái=까이"
+      ]
+    },
+    {
+      "id": "d1note-v-078",
+      "term": "dùng",
+      "meaningKo": "사용하다/쓰다",
+      "example": "Anh dùng mấy cái điện thoại?",
+      "exampleMeaningKo": "휴대폰 몇 개를 써요?",
+      "audioSrc": "",
+      "sourcePage": 1,
+      "reviewNeeded": false,
+      "pronKo": "중",
+      "pronNoteKo": "물건이나 서비스를 사용할 때 씁니다.",
+      "pronChunks": [
+        "dùng=중"
+      ]
+    },
+    {
+      "id": "d1note-v-079",
+      "term": "đã",
+      "meaningKo": "이미/~했다",
+      "example": "Tôi đã đi Việt Nam.",
+      "exampleMeaningKo": "저는 베트남에 갔습니다.",
+      "audioSrc": "",
+      "sourcePage": 1,
+      "reviewNeeded": false,
+      "pronKo": "다",
+      "pronNoteKo": "과거 또는 완료를 나타냅니다.",
+      "pronChunks": [
+        "đã=다"
+      ]
+    },
+    {
+      "id": "d1note-v-080",
+      "term": "đang",
+      "meaningKo": "~하고 있다",
+      "example": "Tôi đang đi Việt Nam.",
+      "exampleMeaningKo": "저는 베트남에 가고 있습니다.",
+      "audioSrc": "",
+      "sourcePage": 1,
+      "reviewNeeded": false,
+      "pronKo": "당",
+      "pronNoteKo": "현재 진행을 나타냅니다.",
+      "pronChunks": [
+        "đang=당"
+      ]
+    },
+    {
+      "id": "d1note-v-081",
+      "term": "sẽ",
+      "meaningKo": "~할 것이다",
+      "example": "Tôi sẽ đi Việt Nam.",
+      "exampleMeaningKo": "저는 베트남에 갈 것입니다.",
+      "audioSrc": "",
+      "sourcePage": 1,
+      "reviewNeeded": false,
+      "pronKo": "쎄",
+      "pronNoteKo": "미래 표현입니다.",
+      "pronChunks": [
+        "sẽ=쎄"
+      ]
+    },
+    {
+      "id": "d1note-v-082",
+      "term": "ngày mai",
+      "meaningKo": "내일",
+      "example": "Ngày mai tôi sẽ đi Việt Nam.",
+      "exampleMeaningKo": "내일 저는 베트남에 갈 것입니다.",
+      "audioSrc": "",
+      "sourcePage": 1,
+      "reviewNeeded": false,
+      "pronKo": "응아이 마이",
+      "pronNoteKo": "미래 문장과 자주 함께 씁니다.",
+      "pronChunks": [
+        "ngày=응아이",
+        "mai=마이"
+      ]
+    },
+    {
+      "id": "d1note-v-083",
+      "term": "hôm qua",
+      "meaningKo": "어제",
+      "example": "Hôm qua tôi đã đi Việt Nam.",
+      "exampleMeaningKo": "어제 저는 베트남에 갔습니다.",
+      "audioSrc": "",
+      "sourcePage": 1,
+      "reviewNeeded": false,
+      "pronKo": "홈 꽈",
+      "pronNoteKo": "과거 문장과 자주 함께 씁니다.",
+      "pronChunks": [
+        "hôm=홈",
+        "qua=꽈"
+      ]
+    },
+    {
+      "id": "d1note-v-084",
+      "term": "học",
+      "meaningKo": "공부하다/배우다",
+      "example": "Tôi học tiếng Việt.",
+      "exampleMeaningKo": "저는 베트남어를 공부합니다.",
+      "audioSrc": "",
+      "sourcePage": 1,
+      "reviewNeeded": false,
+      "pronKo": "혹",
+      "pronNoteKo": "공부하다, 배우다라는 기본 동사입니다.",
+      "pronChunks": [
+        "học=혹"
+      ]
+    },
+    {
+      "id": "d1note-v-085",
+      "term": "ba lần",
+      "meaningKo": "세 번",
+      "example": "Tôi đã đi Nhật ba lần.",
+      "exampleMeaningKo": "저는 일본에 세 번 갔습니다.",
+      "audioSrc": "",
+      "sourcePage": 1,
+      "reviewNeeded": false,
+      "pronKo": "바 런",
+      "pronNoteKo": "lần은 횟수를 나타냅니다.",
+      "pronChunks": [
+        "ba=바",
+        "lần=런"
+      ]
+    },
+    {
+      "id": "d1note-v-086",
+      "term": "lái xe",
+      "meaningKo": "운전하다",
+      "example": "Anh đang lái xe.",
+      "exampleMeaningKo": "그는 운전하고 있습니다.",
+      "audioSrc": "",
+      "sourcePage": 1,
+      "reviewNeeded": false,
+      "pronKo": "라이 세",
+      "pronNoteKo": "차나 오토바이를 운전할 때 씁니다.",
+      "pronChunks": [
+        "lái=라이",
+        "xe=세"
+      ]
+    },
+    {
+      "id": "d1note-v-087",
+      "term": "xe ô tô",
+      "meaningKo": "자동차",
+      "example": "Tôi lái xe ô tô.",
+      "exampleMeaningKo": "저는 자동차를 운전합니다.",
+      "audioSrc": "",
+      "sourcePage": 1,
+      "reviewNeeded": false,
+      "pronKo": "세 오 또",
+      "pronNoteKo": "자동차를 뜻합니다.",
+      "pronChunks": [
+        "xe=세",
+        "ô tô=오 또"
+      ]
+    },
+    {
+      "id": "d1note-v-088",
+      "term": "xe máy",
+      "meaningKo": "오토바이",
+      "example": "Tôi lái xe máy.",
+      "exampleMeaningKo": "저는 오토바이를 운전합니다.",
+      "audioSrc": "",
+      "sourcePage": 1,
+      "reviewNeeded": false,
+      "pronKo": "세 마이",
+      "pronNoteKo": "베트남 일상에서 매우 자주 쓰는 단어입니다.",
+      "pronChunks": [
+        "xe=세",
+        "máy=마이"
+      ]
+    },
+    {
+      "id": "d1note-v-089",
+      "term": "từng",
+      "meaningKo": "~한 적이 있다",
+      "example": "Tôi đã từng ăn sầu riêng.",
+      "exampleMeaningKo": "저는 두리안을 먹어본 적이 있습니다.",
+      "audioSrc": "",
+      "sourcePage": 1,
+      "reviewNeeded": false,
+      "pronKo": "뜽",
+      "pronNoteKo": "경험을 말할 때 씁니다.",
+      "pronChunks": [
+        "từng=뜽"
+      ]
+    },
+    {
+      "id": "d1note-v-090",
+      "term": "sầu riêng",
+      "meaningKo": "두리안",
+      "example": "Tôi đã từng ăn sầu riêng.",
+      "exampleMeaningKo": "저는 두리안을 먹어본 적이 있습니다.",
+      "audioSrc": "",
+      "sourcePage": 1,
+      "reviewNeeded": false,
+      "pronKo": "서우 지엥",
+      "pronNoteKo": "두리안을 뜻합니다.",
+      "pronChunks": [
+        "sầu=서우",
+        "riêng=지엥"
+      ]
+    },
+    {
+      "id": "d1note-v-091",
+      "term": "tiếng Trung Quốc",
+      "meaningKo": "중국어",
+      "example": "Tôi đã từng học tiếng Trung Quốc.",
+      "exampleMeaningKo": "저는 중국어를 배운 적이 있습니다.",
+      "audioSrc": "",
+      "sourcePage": 1,
+      "reviewNeeded": false,
+      "pronKo": "띠엥 쭝 꾸옥",
+      "pronNoteKo": "짧게 tiếng Trung이라고도 합니다.",
+      "pronChunks": [
+        "tiếng=띠엥",
+        "Trung Quốc=쭝 꾸옥"
+      ]
+    },
+    {
+      "id": "d1note-v-092",
+      "term": "cũng",
+      "meaningKo": "또한/도",
+      "example": "Tôi cũng đã từng học tiếng Trung.",
+      "exampleMeaningKo": "저도 중국어를 배운 적이 있습니다.",
+      "audioSrc": "",
+      "sourcePage": 1,
+      "reviewNeeded": false,
+      "pronKo": "꿍",
+      "pronNoteKo": "~도/~또한이라는 뜻입니다.",
+      "pronChunks": [
+        "cũng=꿍"
+      ]
+    },
+    {
+      "id": "d1note-v-093",
+      "term": "vợ chồng",
+      "meaningKo": "부부",
+      "example": "Vợ chồng tôi đã từng đi du lịch Thái Lan 2 lần.",
+      "exampleMeaningKo": "저희 부부는 태국에 두 번 여행 간 적이 있습니다.",
+      "audioSrc": "",
+      "sourcePage": 1,
+      "reviewNeeded": false,
+      "pronKo": "버 쫑",
+      "pronNoteKo": "아내와 남편, 부부를 뜻합니다.",
+      "pronChunks": [
+        "vợ=버",
+        "chồng=쫑"
+      ]
+    },
+    {
+      "id": "d1note-v-094",
+      "term": "Thái Lan",
+      "meaningKo": "태국",
+      "example": "Tôi đã từng đi du lịch Thái Lan.",
+      "exampleMeaningKo": "저는 태국에 여행 간 적이 있습니다.",
+      "audioSrc": "",
+      "sourcePage": 1,
+      "reviewNeeded": false,
+      "pronKo": "타이 란",
+      "pronNoteKo": "태국을 뜻합니다.",
+      "pronChunks": [
+        "Thái=타이",
+        "Lan=란"
+      ]
+    },
+    {
+      "id": "d1note-v-095",
+      "term": "Mỹ",
+      "meaningKo": "미국",
+      "example": "Tôi đã từng đi công tác ở Mỹ.",
+      "exampleMeaningKo": "저는 미국으로 출장 간 적이 있습니다.",
+      "audioSrc": "",
+      "sourcePage": 1,
+      "reviewNeeded": false,
+      "pronKo": "미",
+      "pronNoteKo": "미국을 뜻합니다.",
+      "pronChunks": [
+        "Mỹ=미"
+      ]
+    },
+    {
+      "id": "d1note-v-096",
+      "term": "Thượng Hải",
+      "meaningKo": "상하이",
+      "example": "Tôi đã từng sống ở Thượng Hải.",
+      "exampleMeaningKo": "저는 상하이에 살아본 적이 있습니다.",
+      "audioSrc": "",
+      "sourcePage": 1,
+      "reviewNeeded": false,
+      "pronKo": "트엉 하이",
+      "pronNoteKo": "상하이를 뜻합니다.",
+      "pronChunks": [
+        "Thượng=트엉",
+        "Hải=하이"
+      ]
+    },
+    {
+      "id": "d1note-v-097",
+      "term": "vừa mới",
+      "meaningKo": "방금 막",
+      "example": "Chị ấy vừa mới đến.",
+      "exampleMeaningKo": "그녀는 방금 도착했습니다.",
+      "audioSrc": "",
+      "sourcePage": 1,
+      "reviewNeeded": false,
+      "pronKo": "브어 머이",
+      "pronNoteKo": "방금 일어난 일을 말할 때 씁니다.",
+      "pronChunks": [
+        "vừa=브어",
+        "mới=머이"
+      ]
+    },
+    {
+      "id": "d1note-v-098",
+      "term": "đến",
+      "meaningKo": "오다/도착하다",
+      "example": "Tôi vừa mới đến công ty.",
+      "exampleMeaningKo": "저는 방금 회사에 도착했습니다.",
+      "audioSrc": "",
+      "sourcePage": 1,
+      "reviewNeeded": false,
+      "pronKo": "덴",
+      "pronNoteKo": "어딘가에 오거나 도착할 때 씁니다.",
+      "pronChunks": [
+        "đến=덴"
+      ]
+    },
+    {
+      "id": "d1note-v-099",
+      "term": "công ty",
+      "meaningKo": "회사",
+      "example": "Tôi vừa mới đến công ty.",
+      "exampleMeaningKo": "저는 방금 회사에 도착했습니다.",
+      "audioSrc": "",
+      "sourcePage": 1,
+      "reviewNeeded": false,
+      "pronKo": "꽁 띠",
+      "pronNoteKo": "회사를 뜻합니다.",
+      "pronChunks": [
+        "công=꽁",
+        "ty=띠"
+      ]
+    },
+    {
+      "id": "d1note-v-100",
+      "term": "ăn sáng",
+      "meaningKo": "아침을 먹다",
+      "example": "Tôi ăn sáng.",
+      "exampleMeaningKo": "저는 아침을 먹습니다.",
+      "audioSrc": "",
+      "sourcePage": 1,
+      "reviewNeeded": false,
+      "pronKo": "안 상",
+      "pronNoteKo": "sáng은 아침입니다.",
+      "pronChunks": [
+        "ăn=안",
+        "sáng=상"
+      ]
+    },
+    {
+      "id": "d1note-v-101",
+      "term": "ăn trưa",
+      "meaningKo": "점심을 먹다",
+      "example": "Tôi vừa mới ăn trưa.",
+      "exampleMeaningKo": "저는 방금 점심을 먹었습니다.",
+      "audioSrc": "",
+      "sourcePage": 1,
+      "reviewNeeded": false,
+      "pronKo": "안 쯔어",
+      "pronNoteKo": "trưa는 점심/낮입니다.",
+      "pronChunks": [
+        "ăn=안",
+        "trưa=쯔어"
+      ]
+    },
+    {
+      "id": "d1note-v-102",
+      "term": "ăn tối",
+      "meaningKo": "저녁을 먹다",
+      "example": "Tôi ăn tối.",
+      "exampleMeaningKo": "저는 저녁을 먹습니다.",
+      "audioSrc": "",
+      "sourcePage": 1,
+      "reviewNeeded": false,
+      "pronKo": "안 또이",
+      "pronNoteKo": "tối는 저녁/밤입니다.",
+      "pronChunks": [
+        "ăn=안",
+        "tối=또이"
+      ]
+    },
+    {
+      "id": "d1note-v-103",
+      "term": "ăn đêm",
+      "meaningKo": "야식 먹다",
+      "example": "Tôi ăn đêm.",
+      "exampleMeaningKo": "저는 야식을 먹습니다.",
+      "audioSrc": "",
+      "sourcePage": 1,
+      "reviewNeeded": false,
+      "pronKo": "안 뎀",
+      "pronNoteKo": "đêm은 밤입니다.",
+      "pronChunks": [
+        "ăn=안",
+        "đêm=뎀"
+      ]
+    },
+    {
+      "id": "d1note-v-104",
+      "term": "trà chiều",
+      "meaningKo": "오후 차",
+      "example": "Tôi uống trà chiều.",
+      "exampleMeaningKo": "저는 오후 차를 마십니다.",
+      "audioSrc": "",
+      "sourcePage": 1,
+      "reviewNeeded": false,
+      "pronKo": "짜 찌에우",
+      "pronNoteKo": "chiều는 오후입니다.",
+      "pronChunks": [
+        "trà=짜",
+        "chiều=찌에우"
+      ]
+    },
+    {
+      "id": "d1note-v-105",
+      "term": "buồn ngủ",
+      "meaningKo": "졸리다",
+      "example": "Tôi buồn ngủ.",
+      "exampleMeaningKo": "저는 졸립니다.",
+      "audioSrc": "",
+      "sourcePage": 1,
+      "reviewNeeded": false,
+      "pronKo": "부온 응우",
+      "pronNoteKo": "졸릴 때 쓰는 표현입니다.",
+      "pronChunks": [
+        "buồn=부온",
+        "ngủ=응우"
+      ]
+    },
+    {
+      "id": "d1note-v-106",
+      "term": "tiếp tục",
+      "meaningKo": "계속하다",
+      "example": "Tôi tiếp tục học tiếng Việt.",
+      "exampleMeaningKo": "저는 계속 베트남어를 공부합니다.",
+      "audioSrc": "",
+      "sourcePage": 1,
+      "reviewNeeded": false,
+      "pronKo": "띠엡 뚝",
+      "pronNoteKo": "하던 일을 이어서 할 때 씁니다.",
+      "pronChunks": [
+        "tiếp=띠엡",
+        "tục=뚝"
+      ]
+    },
+    {
+      "id": "d1note-v-107",
+      "term": "xong",
+      "meaningKo": "끝나다/완료하다",
+      "example": "Tôi đã làm xong rồi.",
+      "exampleMeaningKo": "저는 다 끝냈습니다.",
+      "audioSrc": "",
+      "sourcePage": 1,
+      "reviewNeeded": false,
+      "pronKo": "쏭",
+      "pronNoteKo": "완료를 나타내는 핵심 단어입니다.",
+      "pronChunks": [
+        "xong=쏭"
+      ]
+    },
+    {
+      "id": "d1note-v-108",
+      "term": "rồi",
+      "meaningKo": "이미/~했다",
+      "example": "Tôi đã ăn xong rồi.",
+      "exampleMeaningKo": "저는 다 먹었습니다.",
+      "audioSrc": "",
+      "sourcePage": 1,
+      "reviewNeeded": false,
+      "pronKo": "조이",
+      "pronNoteKo": "문장 끝에서 완료 느낌을 줍니다.",
+      "pronChunks": [
+        "rồi=조이"
+      ]
+    },
+    {
+      "id": "d1note-v-109",
+      "term": "vẫn còn",
+      "meaningKo": "아직도/여전히",
+      "example": "Tôi vẫn còn học tiếng Việt.",
+      "exampleMeaningKo": "저는 아직도 베트남어를 공부합니다.",
+      "audioSrc": "",
+      "sourcePage": 1,
+      "reviewNeeded": false,
+      "pronKo": "번 꼰",
+      "pronNoteKo": "계속되는 상태를 나타냅니다.",
+      "pronChunks": [
+        "vẫn=번",
+        "còn=꼰"
+      ]
+    },
+    {
+      "id": "d1note-v-110",
+      "term": "đại học",
+      "meaningKo": "대학교",
+      "example": "Chị ấy vẫn còn đang học đại học.",
+      "exampleMeaningKo": "그녀는 아직도 대학교에서 공부하고 있습니다.",
+      "audioSrc": "",
+      "sourcePage": 1,
+      "reviewNeeded": false,
+      "pronKo": "다이 혹",
+      "pronNoteKo": "대학교를 뜻합니다.",
+      "pronChunks": [
+        "đại=다이",
+        "học=혹"
+      ]
+    },
+    {
+      "id": "d1note-v-111",
+      "term": "độc thân",
+      "meaningKo": "미혼/싱글",
+      "example": "Tôi vẫn còn đang độc thân.",
+      "exampleMeaningKo": "저는 아직도 싱글입니다.",
+      "audioSrc": "",
+      "sourcePage": 1,
+      "reviewNeeded": false,
+      "pronKo": "독 턴",
+      "pronNoteKo": "혼자, 미혼 상태를 말합니다.",
+      "pronChunks": [
+        "độc=독",
+        "thân=턴"
+      ]
+    },
+    {
+      "id": "d1note-v-112",
+      "term": "bây giờ",
+      "meaningKo": "지금",
+      "example": "Bây giờ vẫn đang là trưa.",
+      "exampleMeaningKo": "지금은 아직 점심시간입니다.",
+      "audioSrc": "",
+      "sourcePage": 1,
+      "reviewNeeded": false,
+      "pronKo": "버이 저",
+      "pronNoteKo": "현재 시간을 말할 때 씁니다.",
+      "pronChunks": [
+        "bây=버이",
+        "giờ=저"
+      ]
+    },
+    {
+      "id": "d1note-v-113",
+      "term": "giờ nghỉ trưa",
+      "meaningKo": "점심 휴식 시간",
+      "example": "Bây giờ là giờ nghỉ trưa.",
+      "exampleMeaningKo": "지금은 점심 휴식 시간입니다.",
+      "audioSrc": "",
+      "sourcePage": 1,
+      "reviewNeeded": false,
+      "pronKo": "저 응이 쯔어",
+      "pronNoteKo": "nghỉ는 쉬다, trưa는 점심/낮입니다.",
+      "pronChunks": [
+        "giờ=저",
+        "nghỉ=응이",
+        "trưa=쯔어"
+      ]
+    },
+    {
+      "id": "d1note-v-114",
+      "term": "giờ làm việc",
+      "meaningKo": "근무 시간",
+      "example": "Bây giờ là giờ làm việc.",
+      "exampleMeaningKo": "지금은 근무 시간입니다.",
+      "audioSrc": "",
+      "sourcePage": 1,
+      "reviewNeeded": false,
+      "pronKo": "저 람 비엑",
+      "pronNoteKo": "회사 생활에서 자주 쓸 수 있는 표현입니다.",
+      "pronChunks": [
+        "giờ=저",
+        "làm việc=람 비엑"
+      ]
+    },
+    {
+      "id": "d1note-v-115",
+      "term": "sắp sửa",
+      "meaningKo": "곧 ~하려고 하다",
+      "example": "Tôi sắp sửa tan làm.",
+      "exampleMeaningKo": "저는 곧 퇴근하려고 합니다.",
+      "audioSrc": "",
+      "sourcePage": 1,
+      "reviewNeeded": false,
+      "pronKo": "쌉 쓰어",
+      "pronNoteKo": "가까운 미래의 예정된 행동을 말합니다.",
+      "pronChunks": [
+        "sắp=쌉",
+        "sửa=쓰어"
+      ]
+    },
+    {
+      "id": "d1note-v-116",
+      "term": "tan làm",
+      "meaningKo": "퇴근하다",
+      "example": "Tôi sắp sửa tan làm.",
+      "exampleMeaningKo": "저는 곧 퇴근하려고 합니다.",
+      "audioSrc": "",
+      "sourcePage": 1,
+      "reviewNeeded": false,
+      "pronKo": "딴 람",
+      "pronNoteKo": "회사에서 일을 마치고 나갈 때 씁니다.",
+      "pronChunks": [
+        "tan=딴",
+        "làm=람"
+      ]
+    },
+    {
+      "id": "d1note-v-117",
+      "term": "tan học",
+      "meaningKo": "수업이 끝나다/하교하다",
+      "example": "Tôi sắp sửa tan học.",
+      "exampleMeaningKo": "저는 곧 수업이 끝납니다.",
+      "audioSrc": "",
+      "sourcePage": 1,
+      "reviewNeeded": false,
+      "pronKo": "딴 혹",
+      "pronNoteKo": "학교나 수업이 끝날 때 씁니다.",
+      "pronChunks": [
+        "tan=딴",
+        "học=혹"
+      ]
+    },
+    {
+      "id": "d1note-v-118",
+      "term": "về nhà",
+      "meaningKo": "집에 돌아가다",
+      "example": "Tôi về nhà.",
+      "exampleMeaningKo": "저는 집에 갑니다.",
+      "audioSrc": "",
+      "sourcePage": 1,
+      "reviewNeeded": false,
+      "pronKo": "베 냐",
+      "pronNoteKo": "집으로 돌아갈 때는 về nhà를 씁니다.",
+      "pronChunks": [
+        "về=베",
+        "nhà=냐"
+      ]
+    },
+    {
+      "id": "d1note-v-119",
+      "term": "đến nhà bạn",
+      "meaningKo": "친구 집에 가다/도착하다",
+      "example": "Tôi đến nhà bạn.",
+      "exampleMeaningKo": "저는 친구 집에 갑니다.",
+      "audioSrc": "",
+      "sourcePage": 1,
+      "reviewNeeded": false,
+      "pronKo": "덴 냐 반",
+      "pronNoteKo": "đến은 도착하다, nhà bạn은 친구 집입니다.",
+      "pronChunks": [
+        "đến=덴",
+        "nhà bạn=냐 반"
+      ]
+    },
+    {
+      "id": "d1note-v-120",
+      "term": "mua",
+      "meaningKo": "사다/구매하다",
+      "example": "Tôi sắp sửa mua nhà.",
+      "exampleMeaningKo": "저는 곧 집을 사려고 합니다.",
+      "audioSrc": "",
+      "sourcePage": 1,
+      "reviewNeeded": false,
+      "pronKo": "무아",
+      "pronNoteKo": "물건을 살 때 씁니다.",
+      "pronChunks": [
+        "mua=무아"
+      ]
+    },
+    {
+      "id": "d1note-v-121",
+      "term": "bán",
+      "meaningKo": "팔다",
+      "example": "Tôi định bán nhà.",
+      "exampleMeaningKo": "저는 집을 팔려고 합니다.",
+      "audioSrc": "",
+      "sourcePage": 1,
+      "reviewNeeded": false,
+      "pronKo": "반",
+      "pronNoteKo": "판매하다라는 뜻입니다.",
+      "pronChunks": [
+        "bán=반"
+      ]
+    },
+    {
+      "id": "d1note-v-122",
+      "term": "định",
+      "meaningKo": "~하려고 하다/~할 생각이다",
+      "example": "Tôi định học tiếng Việt.",
+      "exampleMeaningKo": "저는 베트남어를 공부하려고 합니다.",
+      "audioSrc": "",
+      "sourcePage": 1,
+      "reviewNeeded": false,
+      "pronKo": "딩",
+      "pronNoteKo": "의도나 계획을 말할 때 씁니다.",
+      "pronChunks": [
+        "định=딩"
+      ]
+    },
+    {
+      "id": "d1note-v-123",
+      "term": "cuối tuần này",
+      "meaningKo": "이번 주말",
+      "example": "Cuối tuần này anh định làm gì?",
+      "exampleMeaningKo": "이번 주말에 무엇을 할 예정이에요?",
+      "audioSrc": "",
+      "sourcePage": 1,
+      "reviewNeeded": false,
+      "pronKo": "꾸오이 뚜언 나이",
+      "pronNoteKo": "주말 계획을 말할 때 자주 씁니다.",
+      "pronChunks": [
+        "cuối tuần=꾸오이 뚜언",
+        "này=나이"
+      ]
+    },
+    {
+      "id": "d1note-v-124",
+      "term": "công viên",
+      "meaningKo": "공원",
+      "example": "Anh định đi công viên.",
+      "exampleMeaningKo": "그는 공원에 가려고 합니다.",
+      "audioSrc": "",
+      "sourcePage": 1,
+      "reviewNeeded": false,
+      "pronKo": "꽁 비엔",
+      "pronNoteKo": "공원을 뜻합니다.",
+      "pronChunks": [
+        "công=꽁",
+        "viên=비엔"
+      ]
+    },
+    {
+      "id": "d1note-v-125",
+      "term": "thứ bảy",
+      "meaningKo": "토요일",
+      "example": "Thứ bảy anh sẽ đi làm.",
+      "exampleMeaningKo": "토요일에 그는 출근할 것입니다.",
+      "audioSrc": "",
+      "sourcePage": 1,
+      "reviewNeeded": false,
+      "pronKo": "트 바이",
+      "pronNoteKo": "토요일을 뜻합니다.",
+      "pronChunks": [
+        "thứ=트",
+        "bảy=바이"
+      ]
+    },
+    {
+      "id": "d1note-v-126",
+      "term": "bạn gái",
+      "meaningKo": "여자친구",
+      "example": "Bạn gái của tôi rất xinh đẹp.",
+      "exampleMeaningKo": "제 여자친구는 매우 예쁩니다.",
+      "audioSrc": "",
+      "sourcePage": 1,
+      "reviewNeeded": false,
+      "pronKo": "반 가이",
+      "pronNoteKo": "여자친구를 뜻합니다.",
+      "pronChunks": [
+        "bạn=반",
+        "gái=가이"
+      ]
+    },
+    {
+      "id": "d1note-v-127",
+      "term": "bạn trai",
+      "meaningKo": "남자친구",
+      "example": "Bạn trai của tôi rất đẹp trai.",
+      "exampleMeaningKo": "제 남자친구는 매우 잘생겼습니다.",
+      "audioSrc": "",
+      "sourcePage": 1,
+      "reviewNeeded": false,
+      "pronKo": "반 짜이",
+      "pronNoteKo": "남자친구를 뜻합니다.",
+      "pronChunks": [
+        "bạn=반",
+        "trai=짜이"
+      ]
+    },
+    {
+      "id": "d1note-v-128",
+      "term": "gia đình",
+      "meaningKo": "가족",
+      "example": "Gia đình của tôi.",
+      "exampleMeaningKo": "제 가족.",
+      "audioSrc": "",
+      "sourcePage": 1,
+      "reviewNeeded": false,
+      "pronKo": "자 딩",
+      "pronNoteKo": "가족을 뜻합니다.",
+      "pronChunks": [
+        "gia=자",
+        "đình=딩"
+      ]
+    },
+    {
+      "id": "d1note-v-129",
+      "term": "vợ",
+      "meaningKo": "아내",
+      "example": "Vợ của tôi rất đẹp.",
+      "exampleMeaningKo": "제 아내는 매우 예쁩니다.",
+      "audioSrc": "",
+      "sourcePage": 1,
+      "reviewNeeded": false,
+      "pronKo": "버",
+      "pronNoteKo": "아내를 뜻합니다.",
+      "pronChunks": [
+        "vợ=버"
+      ]
+    },
+    {
+      "id": "d1note-v-130",
+      "term": "chồng",
+      "meaningKo": "남편",
+      "example": "Chồng của tôi rất đẹp trai.",
+      "exampleMeaningKo": "제 남편은 매우 잘생겼습니다.",
+      "audioSrc": "",
+      "sourcePage": 1,
+      "reviewNeeded": false,
+      "pronKo": "쫑",
+      "pronNoteKo": "남편을 뜻합니다.",
+      "pronChunks": [
+        "chồng=쫑"
+      ]
+    },
+    {
+      "id": "d1note-v-131",
+      "term": "con trai",
+      "meaningKo": "아들/남자아이",
+      "example": "Con trai của tôi rất đẹp trai.",
+      "exampleMeaningKo": "제 아들은 매우 잘생겼습니다.",
+      "audioSrc": "",
+      "sourcePage": 1,
+      "reviewNeeded": false,
+      "pronKo": "꼰 짜이",
+      "pronNoteKo": "아들 또는 남자아이를 뜻합니다.",
+      "pronChunks": [
+        "con=꼰",
+        "trai=짜이"
+      ]
+    },
+    {
+      "id": "d1note-v-132",
+      "term": "con gái",
+      "meaningKo": "딸/여자아이",
+      "example": "Con gái của tôi rất xinh đẹp.",
+      "exampleMeaningKo": "제 딸은 매우 예쁩니다.",
+      "audioSrc": "",
+      "sourcePage": 1,
+      "reviewNeeded": false,
+      "pronKo": "꼰 가이",
+      "pronNoteKo": "딸 또는 여자아이를 뜻합니다.",
+      "pronChunks": [
+        "con=꼰",
+        "gái=가이"
+      ]
+    },
+    {
+      "id": "d1note-v-133",
+      "term": "xinh đẹp",
+      "meaningKo": "예쁘다/아름답다",
+      "example": "Bạn gái của tôi rất xinh đẹp.",
+      "exampleMeaningKo": "제 여자친구는 매우 예쁩니다.",
+      "audioSrc": "",
+      "sourcePage": 1,
+      "reviewNeeded": false,
+      "pronKo": "씬 뎁",
+      "pronNoteKo": "사람의 외모를 칭찬할 때 자주 씁니다.",
+      "pronChunks": [
+        "xinh=씬",
+        "đẹp=뎁"
+      ]
+    },
+    {
+      "id": "d1note-v-134",
+      "term": "đẹp trai",
+      "meaningKo": "잘생기다",
+      "example": "Chồng của tôi rất đẹp trai.",
+      "exampleMeaningKo": "제 남편은 매우 잘생겼습니다.",
+      "audioSrc": "",
+      "sourcePage": 1,
+      "reviewNeeded": false,
+      "pronKo": "뎁 짜이",
+      "pronNoteKo": "남성 외모를 칭찬할 때 씁니다.",
+      "pronChunks": [
+        "đẹp=뎁",
+        "trai=짜이"
+      ]
+    },
+    {
+      "id": "d1note-v-135",
+      "term": "rất",
+      "meaningKo": "매우/아주",
+      "example": "Tiếng Việt rất dễ.",
+      "exampleMeaningKo": "베트남어는 매우 쉽습니다.",
+      "audioSrc": "",
+      "sourcePage": 1,
+      "reviewNeeded": false,
+      "pronKo": "젓",
+      "pronNoteKo": "형용사 앞에서 정도를 강조합니다.",
+      "pronChunks": [
+        "rất=젓"
+      ]
+    },
+    {
+      "id": "d1note-v-136",
+      "term": "quá",
+      "meaningKo": "너무/매우",
+      "example": "Cái đấy quá đắt.",
+      "exampleMeaningKo": "저것은 너무 비쌉니다.",
+      "audioSrc": "",
+      "sourcePage": 1,
+      "reviewNeeded": false,
+      "pronKo": "꽈",
+      "pronNoteKo": "감탄이나 강한 평가에 자주 씁니다.",
+      "pronChunks": [
+        "quá=꽈"
+      ]
+    },
+    {
+      "id": "d1note-v-137",
+      "term": "vô cùng",
+      "meaningKo": "굉장히/매우",
+      "example": "Vợ của tôi vô cùng đẹp.",
+      "exampleMeaningKo": "제 아내는 굉장히 예쁩니다.",
+      "audioSrc": "",
+      "sourcePage": 1,
+      "reviewNeeded": false,
+      "pronKo": "보 꿍",
+      "pronNoteKo": "강한 정도 표현입니다.",
+      "pronChunks": [
+        "vô=보",
+        "cùng=꿍"
+      ]
+    },
+    {
+      "id": "d1note-v-138",
+      "term": "cực kỳ",
+      "meaningKo": "극히/엄청/매우",
+      "example": "Lần này tôi thi cực kỳ tốt.",
+      "exampleMeaningKo": "이번에 저는 시험을 매우 잘 봤습니다.",
+      "audioSrc": "",
+      "sourcePage": 1,
+      "reviewNeeded": false,
+      "pronKo": "끅 끼",
+      "pronNoteKo": "rất보다 더 강한 강조 표현입니다.",
+      "pronChunks": [
+        "cực=끅",
+        "kỳ=끼"
+      ]
+    },
+    {
+      "id": "d1note-v-139",
+      "term": "khá",
+      "meaningKo": "꽤/상당히",
+      "example": "Dạo này tôi khá mệt.",
+      "exampleMeaningKo": "요즘 저는 꽤 피곤합니다.",
+      "audioSrc": "",
+      "sourcePage": 1,
+      "reviewNeeded": false,
+      "pronKo": "카",
+      "pronNoteKo": "중간 정도의 강조 표현입니다.",
+      "pronChunks": [
+        "khá=카"
+      ]
+    },
+    {
+      "id": "d1note-v-140",
+      "term": "hơi",
+      "meaningKo": "조금/약간",
+      "example": "Điện thoại của tôi rất đẹp nhưng hơi đắt.",
+      "exampleMeaningKo": "제 휴대폰은 매우 예쁘지만 조금 비쌉니다.",
+      "audioSrc": "",
+      "sourcePage": 1,
+      "reviewNeeded": false,
+      "pronKo": "허이",
+      "pronNoteKo": "약한 정도를 나타냅니다.",
+      "pronChunks": [
+        "hơi=허이"
+      ]
+    },
+    {
+      "id": "d1note-v-141",
+      "term": "không ... lắm",
+      "meaningKo": "별로 ~하지 않다",
+      "example": "Dạo này tôi không bận lắm.",
+      "exampleMeaningKo": "요즘 저는 별로 바쁘지 않습니다.",
+      "audioSrc": "",
+      "sourcePage": 1,
+      "reviewNeeded": false,
+      "pronKo": "콩 ... 람",
+      "pronNoteKo": "부드러운 부정 표현입니다.",
+      "pronChunks": [
+        "không=콩",
+        "lắm=람"
+      ]
+    },
+    {
+      "id": "d1note-v-142",
+      "term": "đắt",
+      "meaningKo": "비싸다",
+      "example": "Cái đấy khá đắt.",
+      "exampleMeaningKo": "저것은 꽤 비쌉니다.",
+      "audioSrc": "",
+      "sourcePage": 1,
+      "reviewNeeded": false,
+      "pronKo": "닷",
+      "pronNoteKo": "가격이 비쌀 때 씁니다.",
+      "pronChunks": [
+        "đắt=닷"
+      ]
+    },
+    {
+      "id": "d1note-v-143",
+      "term": "rẻ",
+      "meaningKo": "싸다",
+      "example": "Cái này khá rẻ.",
+      "exampleMeaningKo": "이것은 꽤 쌉니다.",
+      "audioSrc": "",
+      "sourcePage": 1,
+      "reviewNeeded": false,
+      "pronKo": "제",
+      "pronNoteKo": "가격이 쌀 때 씁니다.",
+      "pronChunks": [
+        "rẻ=제"
+      ]
+    },
+    {
+      "id": "d1note-v-144",
+      "term": "tệ",
+      "meaningKo": "나쁘다/별로다",
+      "example": "Món này tệ.",
+      "exampleMeaningKo": "이 음식은 별로입니다.",
+      "audioSrc": "",
+      "sourcePage": 1,
+      "reviewNeeded": false,
+      "pronKo": "떼",
+      "pronNoteKo": "품질이나 상태가 좋지 않을 때 씁니다.",
+      "pronChunks": [
+        "tệ=떼"
+      ]
+    },
+    {
+      "id": "d1note-v-145",
+      "term": "tốt",
+      "meaningKo": "좋다/잘하다",
+      "example": "Tôi thi cực kỳ tốt.",
+      "exampleMeaningKo": "저는 시험을 매우 잘 봤습니다.",
+      "audioSrc": "",
+      "sourcePage": 1,
+      "reviewNeeded": false,
+      "pronKo": "똣",
+      "pronNoteKo": "좋다, 잘하다는 뜻입니다.",
+      "pronChunks": [
+        "tốt=똣"
+      ]
+    },
+    {
+      "id": "d1note-v-146",
+      "term": "nói",
+      "meaningKo": "말하다",
+      "example": "Anh nói hơi nhanh.",
+      "exampleMeaningKo": "당신은 말을 조금 빨리 합니다.",
+      "audioSrc": "",
+      "sourcePage": 1,
+      "reviewNeeded": false,
+      "pronKo": "노이",
+      "pronNoteKo": "말하다라는 기본 동사입니다.",
+      "pronChunks": [
+        "nói=노이"
+      ]
+    },
+    {
+      "id": "d1note-v-147",
+      "term": "nhanh",
+      "meaningKo": "빠르다",
+      "example": "Anh nói hơi nhanh.",
+      "exampleMeaningKo": "당신은 말을 조금 빨리 합니다.",
+      "audioSrc": "",
+      "sourcePage": 1,
+      "reviewNeeded": false,
+      "pronKo": "냐인",
+      "pronNoteKo": "속도가 빠를 때 씁니다.",
+      "pronChunks": [
+        "nhanh=냐인"
+      ]
+    },
+    {
+      "id": "d1note-v-148",
+      "term": "chậm",
+      "meaningKo": "느리다",
+      "example": "Anh ăn quá chậm.",
+      "exampleMeaningKo": "당신은 너무 느리게 먹습니다.",
+      "audioSrc": "",
+      "sourcePage": 1,
+      "reviewNeeded": false,
+      "pronKo": "쩜",
+      "pronNoteKo": "속도가 느릴 때 씁니다.",
+      "pronChunks": [
+        "chậm=쩜"
+      ]
+    },
+    {
+      "id": "d1note-v-149",
+      "term": "trời",
+      "meaningKo": "날씨/하늘",
+      "example": "Trời hơi lạnh.",
+      "exampleMeaningKo": "날씨가 조금 춥습니다.",
+      "audioSrc": "",
+      "sourcePage": 1,
+      "reviewNeeded": false,
+      "pronKo": "쩌이",
+      "pronNoteKo": "날씨를 말할 때 자주 씁니다.",
+      "pronChunks": [
+        "trời=쩌이"
+      ]
+    },
+    {
+      "id": "d1note-v-150",
+      "term": "lạnh",
+      "meaningKo": "춥다/차갑다",
+      "example": "Trời hơi lạnh.",
+      "exampleMeaningKo": "날씨가 조금 춥습니다.",
+      "audioSrc": "",
+      "sourcePage": 1,
+      "reviewNeeded": false,
+      "pronKo": "라잉",
+      "pronNoteKo": "날씨나 온도가 차가울 때 씁니다.",
+      "pronChunks": [
+        "lạnh=라잉"
+      ]
+    },
+    {
+      "id": "d1note-v-151",
+      "term": "nóng",
+      "meaningKo": "덥다/뜨겁다",
+      "example": "Trời nóng.",
+      "exampleMeaningKo": "날씨가 덥습니다.",
+      "audioSrc": "",
+      "sourcePage": 1,
+      "reviewNeeded": false,
+      "pronKo": "농",
+      "pronNoteKo": "덥거나 뜨거울 때 씁니다.",
+      "pronChunks": [
+        "nóng=농"
+      ]
+    },
+    {
+      "id": "d1note-v-152",
+      "term": "món",
+      "meaningKo": "음식/요리",
+      "example": "Món này không ngon lắm.",
+      "exampleMeaningKo": "이 음식은 별로 맛있지 않습니다.",
+      "audioSrc": "",
+      "sourcePage": 1,
+      "reviewNeeded": false,
+      "pronKo": "몬",
+      "pronNoteKo": "요리 하나를 가리킬 때 씁니다.",
+      "pronChunks": [
+        "món=몬"
+      ]
+    },
+    {
+      "id": "d1note-v-153",
+      "term": "bận rộn",
+      "meaningKo": "바쁘다",
+      "example": "Dạo này tôi không bận lắm.",
+      "exampleMeaningKo": "요즘 저는 별로 바쁘지 않습니다.",
+      "audioSrc": "",
+      "sourcePage": 1,
+      "reviewNeeded": false,
+      "pronKo": "번 존",
+      "pronNoteKo": "bận만 써도 바쁘다는 뜻입니다.",
+      "pronChunks": [
+        "bận=번",
+        "rộn=존"
+      ]
+    },
+    {
+      "id": "d1note-v-154",
+      "term": "hôm nay",
+      "meaningKo": "오늘",
+      "example": "Hôm nay trời hơi lạnh.",
+      "exampleMeaningKo": "오늘 날씨가 조금 춥습니다.",
+      "audioSrc": "",
+      "sourcePage": 1,
+      "reviewNeeded": false,
+      "pronKo": "홈 나이",
+      "pronNoteKo": "오늘을 뜻합니다.",
+      "pronChunks": [
+        "hôm=홈",
+        "nay=나이"
+      ]
+    },
+    {
+      "id": "d1note-v-155",
+      "term": "dạo này",
+      "meaningKo": "요즘",
+      "example": "Dạo này tôi khá mệt.",
+      "exampleMeaningKo": "요즘 저는 꽤 피곤합니다.",
+      "audioSrc": "",
+      "sourcePage": 1,
+      "reviewNeeded": false,
+      "pronKo": "자오 나이",
+      "pronNoteKo": "요즘 상태를 말할 때 씁니다.",
+      "pronChunks": [
+        "dạo=자오",
+        "này=나이"
+      ]
+    },
+    {
+      "id": "d1note-v-156",
+      "term": "mệt",
+      "meaningKo": "피곤하다",
+      "example": "Dạo này tôi khá mệt.",
+      "exampleMeaningKo": "요즘 저는 꽤 피곤합니다.",
+      "audioSrc": "",
+      "sourcePage": 1,
+      "reviewNeeded": false,
+      "pronKo": "멧",
+      "pronNoteKo": "몸이 피곤할 때 씁니다.",
+      "pronChunks": [
+        "mệt=멧"
+      ]
+    },
+    {
+      "id": "d1note-v-157",
+      "term": "dễ",
+      "meaningKo": "쉽다",
+      "example": "Tiếng Việt rất dễ.",
+      "exampleMeaningKo": "베트남어는 매우 쉽습니다.",
+      "audioSrc": "",
+      "sourcePage": 1,
+      "reviewNeeded": false,
+      "pronKo": "제",
+      "pronNoteKo": "쉽다는 뜻입니다.",
+      "pronChunks": [
+        "dễ=제"
+      ]
+    },
+    {
+      "id": "d1note-v-158",
+      "term": "khó",
+      "meaningKo": "어렵다",
+      "example": "Tiếng Việt rất khó nhưng vô cùng thú vị.",
+      "exampleMeaningKo": "베트남어는 매우 어렵지만 굉장히 재미있습니다.",
+      "audioSrc": "",
+      "sourcePage": 1,
+      "reviewNeeded": false,
+      "pronKo": "코",
+      "pronNoteKo": "어렵다는 뜻입니다.",
+      "pronChunks": [
+        "khó=코"
+      ]
+    },
+    {
+      "id": "d1note-v-159",
+      "term": "nhưng",
+      "meaningKo": "하지만",
+      "example": "Tiếng Việt rất khó nhưng vô cùng thú vị.",
+      "exampleMeaningKo": "베트남어는 매우 어렵지만 굉장히 재미있습니다.",
+      "audioSrc": "",
+      "sourcePage": 1,
+      "reviewNeeded": false,
+      "pronKo": "능",
+      "pronNoteKo": "반대 내용을 연결할 때 씁니다.",
+      "pronChunks": [
+        "nhưng=능"
+      ]
+    },
+    {
+      "id": "d1note-v-160",
+      "term": "thú vị",
+      "meaningKo": "재미있다/흥미롭다",
+      "example": "Tiếng Việt rất khó nhưng vô cùng thú vị.",
+      "exampleMeaningKo": "베트남어는 매우 어렵지만 굉장히 재미있습니다.",
+      "audioSrc": "",
+      "sourcePage": 1,
+      "reviewNeeded": false,
+      "pronKo": "투 비",
+      "pronNoteKo": "흥미롭고 재미있다는 뜻입니다.",
+      "pronChunks": [
+        "thú=투",
+        "vị=비"
+      ]
+    }
+  ],
+  "sentenceCards": [
+    {
+      "id": "d1note-s-001",
+      "textVi": "Xin chào.",
+      "textKo": "안녕하세요.",
+      "audioSrc": "",
+      "sourcePage": 1,
+      "reviewNeeded": false,
+      "pronKo": "씬 짜오",
+      "pronNoteKo": "기본 인사 표현입니다.",
+      "pronChunks": [
+        "Xin=씬",
+        "chào=짜오"
+      ]
+    },
+    {
+      "id": "d1note-s-002",
+      "textVi": "Em chào anh.",
+      "textKo": "안녕하세요, 형/오빠.",
+      "audioSrc": "",
+      "sourcePage": 1,
+      "reviewNeeded": false,
+      "pronKo": "엠 짜오 아인",
+      "pronNoteKo": "남성 어른에게 인사할 때 씁니다.",
+      "pronChunks": [
+        "Em=엠",
+        "chào anh=짜오 아인"
+      ]
+    },
+    {
+      "id": "d1note-s-003",
+      "textVi": "Em chào chị.",
+      "textKo": "안녕하세요, 언니/누나.",
+      "audioSrc": "",
+      "sourcePage": 1,
+      "reviewNeeded": false,
+      "pronKo": "엠 짜오 찌",
+      "pronNoteKo": "여성 어른에게 인사할 때 씁니다.",
+      "pronChunks": [
+        "Em=엠",
+        "chào chị=짜오 찌"
+      ]
+    },
+    {
+      "id": "d1note-s-004",
+      "textVi": "Tạm biệt.",
+      "textKo": "안녕히 가세요.",
+      "audioSrc": "",
+      "sourcePage": 1,
+      "reviewNeeded": false,
+      "pronKo": "땀 비엣",
+      "pronNoteKo": "헤어질 때 씁니다.",
+      "pronChunks": [
+        "Tạm=땀",
+        "biệt=비엣"
+      ]
+    },
+    {
+      "id": "d1note-s-005",
+      "textVi": "Hẹn gặp lại.",
+      "textKo": "다시 만나요.",
+      "audioSrc": "",
+      "sourcePage": 1,
+      "reviewNeeded": false,
+      "pronKo": "헨 갑 라이",
+      "pronNoteKo": "다음 만남을 기약할 때 씁니다.",
+      "pronChunks": [
+        "Hẹn=헨",
+        "gặp lại=갑 라이"
+      ]
+    },
+    {
+      "id": "d1note-s-006",
+      "textVi": "Cảm ơn em.",
+      "textKo": "고마워요.",
+      "audioSrc": "",
+      "sourcePage": 1,
+      "reviewNeeded": false,
+      "pronKo": "깜 언 엠",
+      "pronNoteKo": "상대가 어린 사람일 때 자연스럽습니다.",
+      "pronChunks": [
+        "Cảm ơn=깜 언",
+        "em=엠"
+      ]
+    },
+    {
+      "id": "d1note-s-007",
+      "textVi": "Em cảm ơn chị ạ.",
+      "textKo": "언니/누나 감사합니다.",
+      "audioSrc": "",
+      "sourcePage": 1,
+      "reviewNeeded": false,
+      "pronKo": "엠 깜 언 찌 아",
+      "pronNoteKo": "ạ를 붙이면 더 공손합니다.",
+      "pronChunks": [
+        "Em=엠",
+        "cảm ơn chị=깜 언 찌",
+        "ạ=아"
+      ]
+    },
+    {
+      "id": "d1note-s-008",
+      "textVi": "Xin lỗi.",
+      "textKo": "죄송합니다.",
+      "audioSrc": "",
+      "sourcePage": 1,
+      "reviewNeeded": false,
+      "pronKo": "씬 로이",
+      "pronNoteKo": "사과 표현입니다.",
+      "pronChunks": [
+        "Xin=씬",
+        "lỗi=로이"
+      ]
+    },
+    {
+      "id": "d1note-s-009",
+      "textVi": "Anh làm gì?",
+      "textKo": "무엇을 해요?",
+      "audioSrc": "",
+      "sourcePage": 1,
+      "reviewNeeded": false,
+      "pronKo": "아인 람 지",
+      "pronNoteKo": "làm gì는 무엇을 하냐는 뜻입니다.",
+      "pronChunks": [
+        "Anh=아인",
+        "làm gì=람 지"
+      ]
+    },
+    {
+      "id": "d1note-s-010",
+      "textVi": "Anh uống gì?",
+      "textKo": "무엇을 마셔요?",
+      "audioSrc": "",
+      "sourcePage": 1,
+      "reviewNeeded": false,
+      "pronKo": "아인 우옹 지",
+      "pronNoteKo": "마시는 것을 물을 때 씁니다.",
+      "pronChunks": [
+        "Anh=아인",
+        "uống gì=우옹 지"
+      ]
+    },
+    {
+      "id": "d1note-s-011",
+      "textVi": "Tôi uống cà phê.",
+      "textKo": "저는 커피를 마십니다.",
+      "audioSrc": "",
+      "sourcePage": 1,
+      "reviewNeeded": false,
+      "pronKo": "또이 우옹 까 페",
+      "pronNoteKo": "가장 기본적인 주어+동사+목적어 문장입니다.",
+      "pronChunks": [
+        "Tôi=또이",
+        "uống=우옹",
+        "cà phê=까 페"
+      ]
+    },
+    {
+      "id": "d1note-s-012",
+      "textVi": "Tôi uống cà phê với bạn.",
+      "textKo": "저는 친구와 커피를 마십니다.",
+      "audioSrc": "",
+      "sourcePage": 1,
+      "reviewNeeded": false,
+      "pronKo": "또이 우옹 까 페 버이 반",
+      "pronNoteKo": "với bạn은 친구와 함께라는 뜻입니다.",
+      "pronChunks": [
+        "Tôi uống cà phê=또이 우옹 까 페",
+        "với bạn=버이 반"
+      ]
+    },
+    {
+      "id": "d1note-s-013",
+      "textVi": "Anh uống cà phê với bạn ở đâu?",
+      "textKo": "친구와 어디에서 커피를 마셔요?",
+      "audioSrc": "",
+      "sourcePage": 1,
+      "reviewNeeded": false,
+      "pronKo": "아인 우옹 까 페 버이 반 어 더우",
+      "pronNoteKo": "ở đâu는 장소 질문입니다.",
+      "pronChunks": [
+        "Anh uống cà phê=아인 우옹 까 페",
+        "với bạn=버이 반",
+        "ở đâu=어 더우"
+      ]
+    },
+    {
+      "id": "d1note-s-014",
+      "textVi": "Tôi uống cà phê với bạn ở Starbucks.",
+      "textKo": "저는 친구와 스타벅스에서 커피를 마십니다.",
+      "audioSrc": "",
+      "sourcePage": 1,
+      "reviewNeeded": false,
+      "pronKo": "또이 우옹 까 페 버이 반 어 스타벅스",
+      "pronNoteKo": "장소를 뒤에 붙여 문장을 확장합니다.",
+      "pronChunks": [
+        "Tôi uống cà phê=또이 우옹 까 페",
+        "với bạn=버이 반",
+        "ở Starbucks=어 스타벅스"
+      ]
+    },
+    {
+      "id": "d1note-s-015",
+      "textVi": "Tôi uống cà phê với bạn ở Starbucks lúc 2 giờ.",
+      "textKo": "저는 2시에 친구와 스타벅스에서 커피를 마십니다.",
+      "audioSrc": "",
+      "sourcePage": 1,
+      "reviewNeeded": false,
+      "pronKo": "또이 우옹 까 페 버이 반 어 스타벅스 룩 하이 저",
+      "pronNoteKo": "lúc 2 giờ는 2시에라는 뜻입니다.",
+      "pronChunks": [
+        "Tôi uống cà phê=또이 우옹 까 페",
+        "ở Starbucks=어 스타벅스",
+        "lúc 2 giờ=룩 하이 저"
+      ]
+    },
+    {
+      "id": "d1note-s-016",
+      "textVi": "Anh là người nước nào?",
+      "textKo": "어느 나라 사람이에요?",
+      "audioSrc": "",
+      "sourcePage": 1,
+      "reviewNeeded": false,
+      "pronKo": "아인 라 응어이 느억 나오",
+      "pronNoteKo": "국적을 물을 때 쓰는 기본 문장입니다.",
+      "pronChunks": [
+        "Anh là=아인 라",
+        "người nước nào=응어이 느억 나오"
+      ]
+    },
+    {
+      "id": "d1note-s-017",
+      "textVi": "Tôi là người Hàn Quốc.",
+      "textKo": "저는 한국 사람입니다.",
+      "audioSrc": "",
+      "sourcePage": 1,
+      "reviewNeeded": false,
+      "pronKo": "또이 라 응어이 한 꾸옥",
+      "pronNoteKo": "국적을 답하는 문장입니다.",
+      "pronChunks": [
+        "Tôi là=또이 라",
+        "người Hàn Quốc=응어이 한 꾸옥"
+      ]
+    },
+    {
+      "id": "d1note-s-018",
+      "textVi": "Em cũng rất vui được gặp anh.",
+      "textKo": "저도 만나서 매우 반갑습니다.",
+      "audioSrc": "",
+      "sourcePage": 1,
+      "reviewNeeded": false,
+      "pronKo": "엠 꿍 젓 부이 드억 갑 아인",
+      "pronNoteKo": "처음 만났을 때 쓰기 좋습니다.",
+      "pronChunks": [
+        "Em cũng=엠 꿍",
+        "rất vui=젓 부이",
+        "được gặp anh=드억 갑 아인"
+      ]
+    },
+    {
+      "id": "d1note-s-019",
+      "textVi": "Anh tên là gì ạ?",
+      "textKo": "이름이 무엇인가요?",
+      "audioSrc": "",
+      "sourcePage": 1,
+      "reviewNeeded": false,
+      "pronKo": "아인 뗀 라 지 아",
+      "pronNoteKo": "이름을 공손하게 물을 때 씁니다.",
+      "pronChunks": [
+        "Anh tên=아인 뗀",
+        "là gì=라 지",
+        "ạ=아"
+      ]
+    },
+    {
+      "id": "d1note-s-020",
+      "textVi": "Anh đang sống ở đâu?",
+      "textKo": "어디에 살고 있어요?",
+      "audioSrc": "",
+      "sourcePage": 1,
+      "reviewNeeded": false,
+      "pronKo": "아인 당 쏭 어 더우",
+      "pronNoteKo": "거주지를 물을 때 씁니다.",
+      "pronChunks": [
+        "Anh đang sống=아인 당 쏭",
+        "ở đâu=어 더우"
+      ]
+    },
+    {
+      "id": "d1note-s-021",
+      "textVi": "Em làm việc ở đâu?",
+      "textKo": "어디에서 일해요?",
+      "audioSrc": "",
+      "sourcePage": 1,
+      "reviewNeeded": false,
+      "pronKo": "엠 람 비엑 어 더우",
+      "pronNoteKo": "근무지를 물을 때 씁니다.",
+      "pronChunks": [
+        "Em làm việc=엠 람 비엑",
+        "ở đâu=어 더우"
+      ]
+    },
+    {
+      "id": "d1note-s-022",
+      "textVi": "Em làm nghề gì?",
+      "textKo": "직업이 뭐예요?",
+      "audioSrc": "",
+      "sourcePage": 1,
+      "reviewNeeded": false,
+      "pronKo": "엠 람 응에 지",
+      "pronNoteKo": "직업을 물을 때 씁니다.",
+      "pronChunks": [
+        "Em làm nghề=엠 람 응에",
+        "gì=지"
+      ]
+    },
+    {
+      "id": "d1note-s-023",
+      "textVi": "Em dạy tiếng Việt.",
+      "textKo": "저는 베트남어를 가르칩니다.",
+      "audioSrc": "",
+      "sourcePage": 1,
+      "reviewNeeded": false,
+      "pronKo": "엠 자이 띠엥 비엣",
+      "pronNoteKo": "dạy는 가르치다입니다.",
+      "pronChunks": [
+        "Em dạy=엠 자이",
+        "tiếng Việt=띠엥 비엣"
+      ]
+    },
+    {
+      "id": "d1note-s-024",
+      "textVi": "Em là giáo viên dạy tiếng Việt.",
+      "textKo": "저는 베트남어를 가르치는 선생님입니다.",
+      "audioSrc": "",
+      "sourcePage": 1,
+      "reviewNeeded": false,
+      "pronKo": "엠 라 자오 비엔 자이 띠엥 비엣",
+      "pronNoteKo": "직업을 자세히 말하는 문장입니다.",
+      "pronChunks": [
+        "Em là giáo viên=엠 라 자오 비엔",
+        "dạy tiếng Việt=자이 띠엥 비엣"
+      ]
+    },
+    {
+      "id": "d1note-s-025",
+      "textVi": "Khóa học này khi nào bắt đầu?",
+      "textKo": "이 수업은 언제 시작해요?",
+      "audioSrc": "",
+      "sourcePage": 1,
+      "reviewNeeded": false,
+      "pronKo": "콰 혹 나이 키 나오 밧 더우",
+      "pronNoteKo": "khi nào의 위치가 중간에 온 문장입니다.",
+      "pronChunks": [
+        "Khóa học này=콰 혹 나이",
+        "khi nào=키 나오",
+        "bắt đầu=밧 더우"
+      ]
+    },
+    {
+      "id": "d1note-s-026",
+      "textVi": "Khóa học này bắt đầu khi nào?",
+      "textKo": "이 수업은 언제 시작해요?",
+      "audioSrc": "",
+      "sourcePage": 1,
+      "reviewNeeded": false,
+      "pronKo": "콰 혹 나이 밧 더우 키 나오",
+      "pronNoteKo": "khi nào가 문장 끝에 와도 자연스럽습니다.",
+      "pronChunks": [
+        "Khóa học này=콰 혹 나이",
+        "bắt đầu=밧 더우",
+        "khi nào=키 나오"
+      ]
+    },
+    {
+      "id": "d1note-s-027",
+      "textVi": "Số điện thoại của em là bao nhiêu?",
+      "textKo": "전화번호가 어떻게 돼요?",
+      "audioSrc": "",
+      "sourcePage": 1,
+      "reviewNeeded": false,
+      "pronKo": "소 디엔 토아이 꾸어 엠 라 바오 니에우",
+      "pronNoteKo": "전화번호를 물을 때 쓰는 자연스러운 표현입니다.",
+      "pronChunks": [
+        "Số điện thoại=소 디엔 토아이",
+        "của em=꾸어 엠",
+        "là bao nhiêu=라 바오 니에우"
+      ]
+    },
+    {
+      "id": "d1note-s-028",
+      "textVi": "Email của em là gì?",
+      "textKo": "이메일이 뭐예요?",
+      "audioSrc": "",
+      "sourcePage": 1,
+      "reviewNeeded": false,
+      "pronKo": "이메일 꾸어 엠 라 지",
+      "pronNoteKo": "이메일 주소를 물을 때 씁니다.",
+      "pronChunks": [
+        "Email của em=이메일 꾸어 엠",
+        "là gì=라 지"
+      ]
+    },
+    {
+      "id": "d1note-s-029",
+      "textVi": "Anh dùng mấy cái điện thoại?",
+      "textKo": "휴대폰 몇 개를 써요?",
+      "audioSrc": "",
+      "sourcePage": 1,
+      "reviewNeeded": false,
+      "pronKo": "아인 중 머이 까이 디엔 토아이",
+      "pronNoteKo": "mấy cái는 몇 개라는 뜻입니다.",
+      "pronChunks": [
+        "Anh dùng=아인 중",
+        "mấy cái=머이 까이",
+        "điện thoại=디엔 토아이"
+      ]
+    },
+    {
+      "id": "d1note-s-030",
+      "textVi": "Tôi dùng 1 cái điện thoại.",
+      "textKo": "저는 휴대폰 한 개를 씁니다.",
+      "audioSrc": "",
+      "sourcePage": 1,
+      "reviewNeeded": false,
+      "pronKo": "또이 중 못 까이 디엔 토아이",
+      "pronNoteKo": "물건 개수를 말하는 문장입니다.",
+      "pronChunks": [
+        "Tôi dùng=또이 중",
+        "1 cái=못 까이",
+        "điện thoại=디엔 토아이"
+      ]
+    },
+    {
+      "id": "d1note-s-031",
+      "textVi": "Cái đấy 50 nghìn đồng.",
+      "textKo": "저것은 5만 동입니다.",
+      "audioSrc": "",
+      "sourcePage": 1,
+      "reviewNeeded": false,
+      "pronKo": "까이 더이 남므어이 응인 동",
+      "pronNoteKo": "가격을 말하는 기초 문장입니다.",
+      "pronChunks": [
+        "Cái đấy=까이 더이",
+        "50 nghìn đồng=남므어이 응인 동"
+      ]
+    },
+    {
+      "id": "d1note-s-032",
+      "textVi": "Tôi đi Việt Nam.",
+      "textKo": "저는 베트남에 갑니다.",
+      "audioSrc": "",
+      "sourcePage": 1,
+      "reviewNeeded": false,
+      "pronKo": "또이 디 비엣 남",
+      "pronNoteKo": "기본 현재/일반 동작 문장입니다.",
+      "pronChunks": [
+        "Tôi đi=또이 디",
+        "Việt Nam=비엣 남"
+      ]
+    },
+    {
+      "id": "d1note-s-033",
+      "textVi": "Tôi sẽ đi Việt Nam.",
+      "textKo": "저는 베트남에 갈 것입니다.",
+      "audioSrc": "",
+      "sourcePage": 1,
+      "reviewNeeded": false,
+      "pronKo": "또이 쎄 디 비엣 남",
+      "pronNoteKo": "sẽ는 미래를 나타냅니다.",
+      "pronChunks": [
+        "Tôi sẽ=또이 쎄",
+        "đi Việt Nam=디 비엣 남"
+      ]
+    },
+    {
+      "id": "d1note-s-034",
+      "textVi": "Tôi đang đi Việt Nam.",
+      "textKo": "저는 베트남에 가고 있습니다.",
+      "audioSrc": "",
+      "sourcePage": 1,
+      "reviewNeeded": false,
+      "pronKo": "또이 당 디 비엣 남",
+      "pronNoteKo": "đang은 현재 진행입니다.",
+      "pronChunks": [
+        "Tôi đang=또이 당",
+        "đi Việt Nam=디 비엣 남"
+      ]
+    },
+    {
+      "id": "d1note-s-035",
+      "textVi": "Tôi đã đi Việt Nam.",
+      "textKo": "저는 베트남에 갔습니다.",
+      "audioSrc": "",
+      "sourcePage": 1,
+      "reviewNeeded": false,
+      "pronKo": "또이 다 디 비엣 남",
+      "pronNoteKo": "đã는 과거/완료를 나타냅니다.",
+      "pronChunks": [
+        "Tôi đã=또이 다",
+        "đi Việt Nam=디 비엣 남"
+      ]
+    },
+    {
+      "id": "d1note-s-036",
+      "textVi": "Ngày mai tôi sẽ đi Việt Nam.",
+      "textKo": "내일 저는 베트남에 갈 것입니다.",
+      "audioSrc": "",
+      "sourcePage": 1,
+      "reviewNeeded": false,
+      "pronKo": "응아이 마이 또이 쎄 디 비엣 남",
+      "pronNoteKo": "ngày mai와 sẽ는 미래 표현입니다.",
+      "pronChunks": [
+        "Ngày mai=응아이 마이",
+        "tôi sẽ đi=또이 쎄 디",
+        "Việt Nam=비엣 남"
+      ]
+    },
+    {
+      "id": "d1note-s-037",
+      "textVi": "Hôm qua tôi đã đi Việt Nam.",
+      "textKo": "어제 저는 베트남에 갔습니다.",
+      "audioSrc": "",
+      "sourcePage": 1,
+      "reviewNeeded": false,
+      "pronKo": "홈 꽈 또이 다 디 비엣 남",
+      "pronNoteKo": "hôm qua와 đã는 과거 표현입니다.",
+      "pronChunks": [
+        "Hôm qua=홈 꽈",
+        "tôi đã đi=또이 다 디",
+        "Việt Nam=비엣 남"
+      ]
+    },
+    {
+      "id": "d1note-s-038",
+      "textVi": "Tôi đã đi Nhật ba lần.",
+      "textKo": "저는 일본에 세 번 갔습니다.",
+      "audioSrc": "",
+      "sourcePage": 1,
+      "reviewNeeded": false,
+      "pronKo": "또이 다 디 녓 바 런",
+      "pronNoteKo": "ba lần은 세 번입니다.",
+      "pronChunks": [
+        "Tôi đã đi Nhật=또이 다 디 녓",
+        "ba lần=바 런"
+      ]
+    },
+    {
+      "id": "d1note-s-039",
+      "textVi": "Anh đã đi Nhật mấy lần?",
+      "textKo": "일본에 몇 번 갔어요?",
+      "audioSrc": "",
+      "sourcePage": 1,
+      "reviewNeeded": false,
+      "pronKo": "아인 다 디 녓 머이 런",
+      "pronNoteKo": "횟수를 물을 때 mấy lần을 씁니다.",
+      "pronChunks": [
+        "Anh đã đi Nhật=아인 다 디 녓",
+        "mấy lần=머이 런"
+      ]
+    },
+    {
+      "id": "d1note-s-040",
+      "textVi": "Anh ấy đã từng đi Việt Nam.",
+      "textKo": "그는 베트남에 가본 적이 있습니다.",
+      "audioSrc": "",
+      "sourcePage": 1,
+      "reviewNeeded": false,
+      "pronKo": "아인 어이 다 뜽 디 비엣 남",
+      "pronNoteKo": "đã từng은 경험 표현입니다.",
+      "pronChunks": [
+        "Anh ấy đã từng=아인 어이 다 뜽",
+        "đi Việt Nam=디 비엣 남"
+      ]
+    },
+    {
+      "id": "d1note-s-041",
+      "textVi": "Tôi đã từng ăn sầu riêng.",
+      "textKo": "저는 두리안을 먹어본 적이 있습니다.",
+      "audioSrc": "",
+      "sourcePage": 1,
+      "reviewNeeded": false,
+      "pronKo": "또이 다 뜽 안 서우 지엥",
+      "pronNoteKo": "먹어본 경험을 말하는 문장입니다.",
+      "pronChunks": [
+        "Tôi đã từng ăn=또이 다 뜽 안",
+        "sầu riêng=서우 지엥"
+      ]
+    },
+    {
+      "id": "d1note-s-042",
+      "textVi": "Anh đã từng làm việc ở Việt Nam.",
+      "textKo": "베트남에서 일해본 적이 있어요?",
+      "audioSrc": "",
+      "sourcePage": 1,
+      "reviewNeeded": false,
+      "pronKo": "아인 다 뜽 람 비엑 어 비엣 남",
+      "pronNoteKo": "근무 경험을 물을 때 쓸 수 있습니다.",
+      "pronChunks": [
+        "Anh đã từng=아인 다 뜽",
+        "làm việc=람 비엑",
+        "ở Việt Nam=어 비엣 남"
+      ]
+    },
+    {
+      "id": "d1note-s-043",
+      "textVi": "Tôi đã từng học tiếng Trung Quốc.",
+      "textKo": "저는 중국어를 배운 적이 있습니다.",
+      "audioSrc": "",
+      "sourcePage": 1,
+      "reviewNeeded": false,
+      "pronKo": "또이 다 뜽 혹 띠엥 쭝 꾸옥",
+      "pronNoteKo": "학습 경험을 말할 때 씁니다.",
+      "pronChunks": [
+        "Tôi đã từng học=또이 다 뜽 혹",
+        "tiếng Trung Quốc=띠엥 쭝 꾸옥"
+      ]
+    },
+    {
+      "id": "d1note-s-044",
+      "textVi": "Vợ chồng tôi đã từng đi du lịch Thái Lan 2 lần.",
+      "textKo": "저희 부부는 태국에 두 번 여행 간 적이 있습니다.",
+      "audioSrc": "",
+      "sourcePage": 1,
+      "reviewNeeded": false,
+      "pronKo": "버 쫑 또이 다 뜽 디 주 릭 타이 란 하이 런",
+      "pronNoteKo": "가족 경험을 말하는 긴 문장입니다.",
+      "pronChunks": [
+        "Vợ chồng tôi=버 쫑 또이",
+        "đã từng đi du lịch=다 뜽 디 주 릭",
+        "Thái Lan 2 lần=타이 란 하이 런"
+      ]
+    },
+    {
+      "id": "d1note-s-045",
+      "textVi": "Tôi đã từng đi công tác ở Mỹ.",
+      "textKo": "저는 미국으로 출장 간 적이 있습니다.",
+      "audioSrc": "",
+      "sourcePage": 1,
+      "reviewNeeded": false,
+      "pronKo": "또이 다 뜽 디 꽁 딱 어 미",
+      "pronNoteKo": "출장 경험을 말하는 문장입니다.",
+      "pronChunks": [
+        "Tôi đã từng=또이 다 뜽",
+        "đi công tác=디 꽁 딱",
+        "ở Mỹ=어 미"
+      ]
+    },
+    {
+      "id": "d1note-s-046",
+      "textVi": "Tôi đã từng sống ở Thượng Hải.",
+      "textKo": "저는 상하이에 살아본 적이 있습니다.",
+      "audioSrc": "",
+      "sourcePage": 1,
+      "reviewNeeded": false,
+      "pronKo": "또이 다 뜽 쏭 어 트엉 하이",
+      "pronNoteKo": "거주 경험을 말하는 문장입니다.",
+      "pronChunks": [
+        "Tôi đã từng sống=또이 다 뜽 쏭",
+        "ở Thượng Hải=어 트엉 하이"
+      ]
+    },
+    {
+      "id": "d1note-s-047",
+      "textVi": "Chị ấy vừa mới đến.",
+      "textKo": "그녀는 방금 도착했습니다.",
+      "audioSrc": "",
+      "sourcePage": 1,
+      "reviewNeeded": false,
+      "pronKo": "찌 어이 브어 머이 덴",
+      "pronNoteKo": "vừa mới는 방금 막이라는 뜻입니다.",
+      "pronChunks": [
+        "Chị ấy=찌 어이",
+        "vừa mới=브어 머이",
+        "đến=덴"
+      ]
+    },
+    {
+      "id": "d1note-s-048",
+      "textVi": "Tôi vừa mới uống cà phê.",
+      "textKo": "저는 방금 커피를 마셨습니다.",
+      "audioSrc": "",
+      "sourcePage": 1,
+      "reviewNeeded": false,
+      "pronKo": "또이 브어 머이 우옹 까 페",
+      "pronNoteKo": "방금 한 행동을 말합니다.",
+      "pronChunks": [
+        "Tôi vừa mới=또이 브어 머이",
+        "uống cà phê=우옹 까 페"
+      ]
+    },
+    {
+      "id": "d1note-s-049",
+      "textVi": "Tôi vừa mới học tiếng Việt.",
+      "textKo": "저는 방금 베트남어를 공부했습니다.",
+      "audioSrc": "",
+      "sourcePage": 1,
+      "reviewNeeded": false,
+      "pronKo": "또이 브어 머이 혹 띠엥 비엣",
+      "pronNoteKo": "방금 공부한 일을 말합니다.",
+      "pronChunks": [
+        "Tôi vừa mới=또이 브어 머이",
+        "học tiếng Việt=혹 띠엥 비엣"
+      ]
+    },
+    {
+      "id": "d1note-s-050",
+      "textVi": "Tôi vừa mới bắt đầu học tiếng Việt.",
+      "textKo": "저는 방금 베트남어 공부를 시작했습니다.",
+      "audioSrc": "",
+      "sourcePage": 1,
+      "reviewNeeded": false,
+      "pronKo": "또이 브어 머이 밧 더우 혹 띠엥 비엣",
+      "pronNoteKo": "bắt đầu + 동사 구조입니다.",
+      "pronChunks": [
+        "Tôi vừa mới=또이 브어 머이",
+        "bắt đầu học=밧 더우 혹",
+        "tiếng Việt=띠엥 비엣"
+      ]
+    },
+    {
+      "id": "d1note-s-051",
+      "textVi": "Tôi vừa mới ăn trưa.",
+      "textKo": "저는 방금 점심을 먹었습니다.",
+      "audioSrc": "",
+      "sourcePage": 1,
+      "reviewNeeded": false,
+      "pronKo": "또이 브어 머이 안 쯔어",
+      "pronNoteKo": "식사 직후에 쓸 수 있습니다.",
+      "pronChunks": [
+        "Tôi vừa mới=또이 브어 머이",
+        "ăn trưa=안 쯔어"
+      ]
+    },
+    {
+      "id": "d1note-s-052",
+      "textVi": "Tôi vừa mới đến công ty.",
+      "textKo": "저는 방금 회사에 도착했습니다.",
+      "audioSrc": "",
+      "sourcePage": 1,
+      "reviewNeeded": false,
+      "pronKo": "또이 브어 머이 덴 꽁 띠",
+      "pronNoteKo": "회사에 막 도착했을 때 씁니다.",
+      "pronChunks": [
+        "Tôi vừa mới=또이 브어 머이",
+        "đến công ty=덴 꽁 띠"
+      ]
+    },
+    {
+      "id": "d1note-s-053",
+      "textVi": "Tôi đã làm xong rồi.",
+      "textKo": "저는 다 끝냈습니다.",
+      "audioSrc": "",
+      "sourcePage": 1,
+      "reviewNeeded": false,
+      "pronKo": "또이 다 람 쏭 조이",
+      "pronNoteKo": "xong rồi는 완료 표현입니다.",
+      "pronChunks": [
+        "Tôi đã làm=또이 다 람",
+        "xong rồi=쏭 조이"
+      ]
+    },
+    {
+      "id": "d1note-s-054",
+      "textVi": "Tôi đã ăn xong rồi.",
+      "textKo": "저는 다 먹었습니다.",
+      "audioSrc": "",
+      "sourcePage": 1,
+      "reviewNeeded": false,
+      "pronKo": "또이 다 안 쏭 조이",
+      "pronNoteKo": "식사를 다 끝냈을 때 씁니다.",
+      "pronChunks": [
+        "Tôi đã ăn=또이 다 안",
+        "xong rồi=쏭 조이"
+      ]
+    },
+    {
+      "id": "d1note-s-055",
+      "textVi": "Tôi đã học xong rồi.",
+      "textKo": "저는 공부를 다 끝냈습니다.",
+      "audioSrc": "",
+      "sourcePage": 1,
+      "reviewNeeded": false,
+      "pronKo": "또이 다 혹 쏭 조이",
+      "pronNoteKo": "학습 완료 표현입니다.",
+      "pronChunks": [
+        "Tôi đã học=또이 다 혹",
+        "xong rồi=쏭 조이"
+      ]
+    },
+    {
+      "id": "d1note-s-056",
+      "textVi": "Anh đang làm việc ở công ty.",
+      "textKo": "그는 회사에서 일하고 있습니다.",
+      "audioSrc": "",
+      "sourcePage": 1,
+      "reviewNeeded": false,
+      "pronKo": "아인 당 람 비엑 어 꽁 띠",
+      "pronNoteKo": "현재 진행 문장입니다.",
+      "pronChunks": [
+        "Anh đang=아인 당",
+        "làm việc=람 비엑",
+        "ở công ty=어 꽁 띠"
+      ]
+    },
+    {
+      "id": "d1note-s-057",
+      "textVi": "Tôi vẫn còn học tiếng Việt.",
+      "textKo": "저는 아직도 베트남어를 공부합니다.",
+      "audioSrc": "",
+      "sourcePage": 1,
+      "reviewNeeded": false,
+      "pronKo": "또이 번 꼰 혹 띠엥 비엣",
+      "pronNoteKo": "vẫn còn은 아직도라는 뜻입니다.",
+      "pronChunks": [
+        "Tôi vẫn còn=또이 번 꼰",
+        "học tiếng Việt=혹 띠엥 비엣"
+      ]
+    },
+    {
+      "id": "d1note-s-058",
+      "textVi": "Chị ấy vẫn còn đang học đại học.",
+      "textKo": "그녀는 아직도 대학교에서 공부하고 있습니다.",
+      "audioSrc": "",
+      "sourcePage": 1,
+      "reviewNeeded": false,
+      "pronKo": "찌 어이 번 꼰 당 혹 다이 혹",
+      "pronNoteKo": "계속되는 현재 상태를 말합니다.",
+      "pronChunks": [
+        "Chị ấy=찌 어이",
+        "vẫn còn đang=번 꼰 당",
+        "học đại học=혹 다이 혹"
+      ]
+    },
+    {
+      "id": "d1note-s-059",
+      "textVi": "Tôi vẫn còn đang độc thân.",
+      "textKo": "저는 아직도 싱글입니다.",
+      "audioSrc": "",
+      "sourcePage": 1,
+      "reviewNeeded": false,
+      "pronKo": "또이 번 꼰 당 독 턴",
+      "pronNoteKo": "상태가 계속됨을 말합니다.",
+      "pronChunks": [
+        "Tôi vẫn còn đang=또이 번 꼰 당",
+        "độc thân=독 턴"
+      ]
+    },
+    {
+      "id": "d1note-s-060",
+      "textVi": "Bây giờ vẫn đang là trưa.",
+      "textKo": "지금은 아직 점심시간입니다.",
+      "audioSrc": "",
+      "sourcePage": 1,
+      "reviewNeeded": false,
+      "pronKo": "버이 저 번 당 라 쯔어",
+      "pronNoteKo": "현재 시간 상태를 말하는 문장입니다.",
+      "pronChunks": [
+        "Bây giờ=버이 저",
+        "vẫn đang là=번 당 라",
+        "trưa=쯔어"
+      ]
+    },
+    {
+      "id": "d1note-s-061",
+      "textVi": "Tôi sẽ đi công tác Việt Nam.",
+      "textKo": "저는 베트남으로 출장 갈 것입니다.",
+      "audioSrc": "",
+      "sourcePage": 1,
+      "reviewNeeded": false,
+      "pronKo": "또이 쎄 디 꽁 딱 비엣 남",
+      "pronNoteKo": "sẽ는 미래 표현입니다.",
+      "pronChunks": [
+        "Tôi sẽ=또이 쎄",
+        "đi công tác=디 꽁 딱",
+        "Việt Nam=비엣 남"
+      ]
+    },
+    {
+      "id": "d1note-s-062",
+      "textVi": "Tôi sắp đi công tác Việt Nam.",
+      "textKo": "저는 곧 베트남으로 출장 갑니다.",
+      "audioSrc": "",
+      "sourcePage": 1,
+      "reviewNeeded": false,
+      "pronKo": "또이 쌉 디 꽁 딱 비엣 남",
+      "pronNoteKo": "sắp은 가까운 미래를 나타냅니다.",
+      "pronChunks": [
+        "Tôi sắp=또이 쌉",
+        "đi công tác=디 꽁 딱",
+        "Việt Nam=비엣 남"
+      ]
+    },
+    {
+      "id": "d1note-s-063",
+      "textVi": "Tôi sắp sửa tan làm.",
+      "textKo": "저는 곧 퇴근하려고 합니다.",
+      "audioSrc": "",
+      "sourcePage": 1,
+      "reviewNeeded": false,
+      "pronKo": "또이 쌉 쓰어 딴 람",
+      "pronNoteKo": "퇴근 직전에 쓸 수 있습니다.",
+      "pronChunks": [
+        "Tôi sắp sửa=또이 쌉 쓰어",
+        "tan làm=딴 람"
+      ]
+    },
+    {
+      "id": "d1note-s-064",
+      "textVi": "Anh sắp sửa làm gì?",
+      "textKo": "곧 무엇을 하려고 해요?",
+      "audioSrc": "",
+      "sourcePage": 1,
+      "reviewNeeded": false,
+      "pronKo": "아인 쌉 쓰어 람 지",
+      "pronNoteKo": "가까운 계획을 물을 때 씁니다.",
+      "pronChunks": [
+        "Anh sắp sửa=아인 쌉 쓰어",
+        "làm gì=람 지"
+      ]
+    },
+    {
+      "id": "d1note-s-065",
+      "textVi": "Tôi sắp sửa học tiếng Việt ở nhà.",
+      "textKo": "저는 곧 집에서 베트남어를 공부하려고 합니다.",
+      "audioSrc": "",
+      "sourcePage": 1,
+      "reviewNeeded": false,
+      "pronKo": "또이 쌉 쓰어 혹 띠엥 비엣 어 냐",
+      "pronNoteKo": "장소까지 포함한 미래 계획 문장입니다.",
+      "pronChunks": [
+        "Tôi sắp sửa=또이 쌉 쓰어",
+        "học tiếng Việt=혹 띠엥 비엣",
+        "ở nhà=어 냐"
+      ]
+    },
+    {
+      "id": "d1note-s-066",
+      "textVi": "Tôi sắp sửa mua nhà.",
+      "textKo": "저는 곧 집을 사려고 합니다.",
+      "audioSrc": "",
+      "sourcePage": 1,
+      "reviewNeeded": false,
+      "pronKo": "또이 쌉 쓰어 무아 냐",
+      "pronNoteKo": "구매 계획을 말합니다.",
+      "pronChunks": [
+        "Tôi sắp sửa=또이 쌉 쓰어",
+        "mua nhà=무아 냐"
+      ]
+    },
+    {
+      "id": "d1note-s-067",
+      "textVi": "Tôi sắp sửa bán nhà.",
+      "textKo": "저는 곧 집을 팔려고 합니다.",
+      "audioSrc": "",
+      "sourcePage": 1,
+      "reviewNeeded": false,
+      "pronKo": "또이 쌉 쓰어 반 냐",
+      "pronNoteKo": "판매 계획을 말합니다.",
+      "pronChunks": [
+        "Tôi sắp sửa=또이 쌉 쓰어",
+        "bán nhà=반 냐"
+      ]
+    },
+    {
+      "id": "d1note-s-068",
+      "textVi": "Tôi định học tiếng Việt.",
+      "textKo": "저는 베트남어를 공부하려고 합니다.",
+      "audioSrc": "",
+      "sourcePage": 1,
+      "reviewNeeded": false,
+      "pronKo": "또이 딩 혹 띠엥 비엣",
+      "pronNoteKo": "định은 의도나 계획입니다.",
+      "pronChunks": [
+        "Tôi định=또이 딩",
+        "học tiếng Việt=혹 띠엥 비엣"
+      ]
+    },
+    {
+      "id": "d1note-s-069",
+      "textVi": "Cuối tuần này anh định làm gì?",
+      "textKo": "이번 주말에 무엇을 할 예정이에요?",
+      "audioSrc": "",
+      "sourcePage": 1,
+      "reviewNeeded": false,
+      "pronKo": "꾸오이 뚜언 나이 아인 딩 람 지",
+      "pronNoteKo": "주말 계획을 묻는 문장입니다.",
+      "pronChunks": [
+        "Cuối tuần này=꾸오이 뚜언 나이",
+        "anh định=아인 딩",
+        "làm gì=람 지"
+      ]
+    },
+    {
+      "id": "d1note-s-070",
+      "textVi": "Anh định đi Busan.",
+      "textKo": "그는 부산에 가려고 합니다.",
+      "audioSrc": "",
+      "sourcePage": 1,
+      "reviewNeeded": false,
+      "pronKo": "아인 딩 디 부산",
+      "pronNoteKo": "도시 이름을 붙여 계획을 말합니다.",
+      "pronChunks": [
+        "Anh định=아인 딩",
+        "đi Busan=디 부산"
+      ]
+    },
+    {
+      "id": "d1note-s-071",
+      "textVi": "Thứ bảy anh sẽ đi làm.",
+      "textKo": "토요일에 그는 출근할 것입니다.",
+      "audioSrc": "",
+      "sourcePage": 1,
+      "reviewNeeded": false,
+      "pronKo": "트 바이 아인 쎄 디 람",
+      "pronNoteKo": "요일과 미래 표현을 함께 씁니다.",
+      "pronChunks": [
+        "Thứ bảy=트 바이",
+        "anh sẽ=아인 쎄",
+        "đi làm=디 람"
+      ]
+    },
+    {
+      "id": "d1note-s-072",
+      "textVi": "Bạn gái của tôi rất xinh đẹp.",
+      "textKo": "제 여자친구는 매우 예쁩니다.",
+      "audioSrc": "",
+      "sourcePage": 1,
+      "reviewNeeded": false,
+      "pronKo": "반 가이 꾸어 또이 젓 씬 뎁",
+      "pronNoteKo": "của tôi는 나의라는 뜻입니다.",
+      "pronChunks": [
+        "Bạn gái của tôi=반 가이 꾸어 또이",
+        "rất xinh đẹp=젓 씬 뎁"
+      ]
+    },
+    {
+      "id": "d1note-s-073",
+      "textVi": "Vợ của tôi rất đẹp.",
+      "textKo": "제 아내는 매우 예쁩니다.",
+      "audioSrc": "",
+      "sourcePage": 1,
+      "reviewNeeded": false,
+      "pronKo": "버 꾸어 또이 젓 뎁",
+      "pronNoteKo": "가족을 소개할 때 쓸 수 있습니다.",
+      "pronChunks": [
+        "Vợ của tôi=버 꾸어 또이",
+        "rất đẹp=젓 뎁"
+      ]
+    },
+    {
+      "id": "d1note-s-074",
+      "textVi": "Chồng của tôi rất đẹp trai.",
+      "textKo": "제 남편은 매우 잘생겼습니다.",
+      "audioSrc": "",
+      "sourcePage": 1,
+      "reviewNeeded": false,
+      "pronKo": "쫑 꾸어 또이 젓 뎁 짜이",
+      "pronNoteKo": "đẹp trai는 잘생겼다는 뜻입니다.",
+      "pronChunks": [
+        "Chồng của tôi=쫑 꾸어 또이",
+        "rất đẹp trai=젓 뎁 짜이"
+      ]
+    },
+    {
+      "id": "d1note-s-075",
+      "textVi": "Con gái của tôi rất xinh đẹp.",
+      "textKo": "제 딸은 매우 예쁩니다.",
+      "audioSrc": "",
+      "sourcePage": 1,
+      "reviewNeeded": false,
+      "pronKo": "꼰 가이 꾸어 또이 젓 씬 뎁",
+      "pronNoteKo": "가족 소개 문장입니다.",
+      "pronChunks": [
+        "Con gái của tôi=꼰 가이 꾸어 또이",
+        "rất xinh đẹp=젓 씬 뎁"
+      ]
+    },
+    {
+      "id": "d1note-s-076",
+      "textVi": "Cái này khá rẻ.",
+      "textKo": "이것은 꽤 쌉니다.",
+      "audioSrc": "",
+      "sourcePage": 1,
+      "reviewNeeded": false,
+      "pronKo": "까이 나이 카 제",
+      "pronNoteKo": "khá는 꽤라는 뜻입니다.",
+      "pronChunks": [
+        "Cái này=까이 나이",
+        "khá rẻ=카 제"
+      ]
+    },
+    {
+      "id": "d1note-s-077",
+      "textVi": "Cái đấy khá đắt.",
+      "textKo": "저것은 꽤 비쌉니다.",
+      "audioSrc": "",
+      "sourcePage": 1,
+      "reviewNeeded": false,
+      "pronKo": "까이 더이 카 닷",
+      "pronNoteKo": "가격 평가 표현입니다.",
+      "pronChunks": [
+        "Cái đấy=까이 더이",
+        "khá đắt=카 닷"
+      ]
+    },
+    {
+      "id": "d1note-s-078",
+      "textVi": "Điện thoại của tôi rất đẹp nhưng hơi đắt.",
+      "textKo": "제 휴대폰은 매우 예쁘지만 조금 비쌉니다.",
+      "audioSrc": "",
+      "sourcePage": 1,
+      "reviewNeeded": false,
+      "pronKo": "디엔 토아이 꾸어 또이 젓 뎁 능 허이 닷",
+      "pronNoteKo": "nhưng은 하지만, hơi는 조금입니다.",
+      "pronChunks": [
+        "Điện thoại của tôi=디엔 토아이 꾸어 또이",
+        "rất đẹp=젓 뎁",
+        "nhưng hơi đắt=능 허이 닷"
+      ]
+    },
+    {
+      "id": "d1note-s-079",
+      "textVi": "Anh nói hơi nhanh.",
+      "textKo": "당신은 말을 조금 빨리 합니다.",
+      "audioSrc": "",
+      "sourcePage": 1,
+      "reviewNeeded": false,
+      "pronKo": "아인 노이 허이 냐인",
+      "pronNoteKo": "말 속도를 표현할 때 씁니다.",
+      "pronChunks": [
+        "Anh nói=아인 노이",
+        "hơi nhanh=허이 냐인"
+      ]
+    },
+    {
+      "id": "d1note-s-080",
+      "textVi": "Anh ăn quá chậm.",
+      "textKo": "당신은 너무 느리게 먹습니다.",
+      "audioSrc": "",
+      "sourcePage": 1,
+      "reviewNeeded": false,
+      "pronKo": "아인 안 꽈 쩜",
+      "pronNoteKo": "quá는 너무라는 뜻입니다.",
+      "pronChunks": [
+        "Anh ăn=아인 안",
+        "quá chậm=꽈 쩜"
+      ]
+    },
+    {
+      "id": "d1note-s-081",
+      "textVi": "Hôm nay trời hơi lạnh.",
+      "textKo": "오늘 날씨가 조금 춥습니다.",
+      "audioSrc": "",
+      "sourcePage": 1,
+      "reviewNeeded": false,
+      "pronKo": "홈 나이 쩌이 허이 라잉",
+      "pronNoteKo": "날씨 표현입니다.",
+      "pronChunks": [
+        "Hôm nay=홈 나이",
+        "trời hơi lạnh=쩌이 허이 라잉"
+      ]
+    },
+    {
+      "id": "d1note-s-082",
+      "textVi": "Món này không ngon lắm.",
+      "textKo": "이 음식은 별로 맛있지 않습니다.",
+      "audioSrc": "",
+      "sourcePage": 1,
+      "reviewNeeded": false,
+      "pronKo": "몬 나이 콩 응온 람",
+      "pronNoteKo": "không ... lắm은 별로 ~하지 않다입니다.",
+      "pronChunks": [
+        "Món này=몬 나이",
+        "không ngon lắm=콩 응온 람"
+      ]
+    },
+    {
+      "id": "d1note-s-083",
+      "textVi": "Dạo này tôi không bận lắm.",
+      "textKo": "요즘 저는 별로 바쁘지 않습니다.",
+      "audioSrc": "",
+      "sourcePage": 1,
+      "reviewNeeded": false,
+      "pronKo": "자오 나이 또이 콩 번 람",
+      "pronNoteKo": "요즘 상태를 말하는 문장입니다.",
+      "pronChunks": [
+        "Dạo này=자오 나이",
+        "tôi không bận lắm=또이 콩 번 람"
+      ]
+    },
+    {
+      "id": "d1note-s-084",
+      "textVi": "Vợ của tôi vô cùng đẹp.",
+      "textKo": "제 아내는 굉장히 예쁩니다.",
+      "audioSrc": "",
+      "sourcePage": 1,
+      "reviewNeeded": false,
+      "pronKo": "버 꾸어 또이 보 꿍 뎁",
+      "pronNoteKo": "vô cùng은 강한 정도 표현입니다.",
+      "pronChunks": [
+        "Vợ của tôi=버 꾸어 또이",
+        "vô cùng đẹp=보 꿍 뎁"
+      ]
+    },
+    {
+      "id": "d1note-s-085",
+      "textVi": "Dạo này tôi khá mệt.",
+      "textKo": "요즘 저는 꽤 피곤합니다.",
+      "audioSrc": "",
+      "sourcePage": 1,
+      "reviewNeeded": false,
+      "pronKo": "자오 나이 또이 카 멧",
+      "pronNoteKo": "피곤 상태를 말합니다.",
+      "pronChunks": [
+        "Dạo này=자오 나이",
+        "tôi khá mệt=또이 카 멧"
+      ]
+    },
+    {
+      "id": "d1note-s-086",
+      "textVi": "Tiếng Việt rất dễ.",
+      "textKo": "베트남어는 매우 쉽습니다.",
+      "audioSrc": "",
+      "sourcePage": 1,
+      "reviewNeeded": false,
+      "pronKo": "띠엥 비엣 젓 제",
+      "pronNoteKo": "언어 난이도를 말할 때 씁니다.",
+      "pronChunks": [
+        "Tiếng Việt=띠엥 비엣",
+        "rất dễ=젓 제"
+      ]
+    },
+    {
+      "id": "d1note-s-087",
+      "textVi": "Tiếng Việt rất khó nhưng vô cùng thú vị.",
+      "textKo": "베트남어는 매우 어렵지만 굉장히 재미있습니다.",
+      "audioSrc": "",
+      "sourcePage": 1,
+      "reviewNeeded": false,
+      "pronKo": "띠엥 비엣 젓 코 능 보 꿍 투 비",
+      "pronNoteKo": "nhưng으로 반대 내용을 연결합니다.",
+      "pronChunks": [
+        "Tiếng Việt rất khó=띠엥 비엣 젓 코",
+        "nhưng=능",
+        "vô cùng thú vị=보 꿍 투 비"
+      ]
+    }
+  ],
+  "dialogues": [
+    {
+      "id": "d1note-d-01",
+      "title": "커피 마시기 질문 확장",
+      "audioSrc": "",
+      "sourcePage": 1,
+      "lines": [
+        {
+          "speaker": "A",
+          "vi": "Anh uống gì?",
+          "ko": "무엇을 마셔요?"
+        },
+        {
+          "speaker": "B",
+          "vi": "Tôi uống cà phê.",
+          "ko": "저는 커피를 마십니다."
+        },
+        {
+          "speaker": "A",
+          "vi": "Anh uống cà phê với ai?",
+          "ko": "누구와 커피를 마셔요?"
+        },
+        {
+          "speaker": "B",
+          "vi": "Tôi uống cà phê với bạn.",
+          "ko": "저는 친구와 커피를 마십니다."
+        }
+      ],
+      "reviewNeeded": false
+    },
+    {
+      "id": "d1note-d-02",
+      "title": "경험 말하기",
+      "audioSrc": "",
+      "sourcePage": 1,
+      "lines": [
+        {
+          "speaker": "A",
+          "vi": "Anh đã đi Nhật mấy lần?",
+          "ko": "일본에 몇 번 갔어요?"
+        },
+        {
+          "speaker": "B",
+          "vi": "Tôi đã đi Nhật ba lần.",
+          "ko": "저는 일본에 세 번 갔습니다."
+        },
+        {
+          "speaker": "A",
+          "vi": "Anh đã từng ăn sầu riêng chưa?",
+          "ko": "두리안을 먹어본 적 있어요?"
+        },
+        {
+          "speaker": "B",
+          "vi": "Tôi đã từng ăn sầu riêng.",
+          "ko": "저는 두리안을 먹어본 적이 있습니다."
+        }
+      ],
+      "reviewNeeded": false
+    },
+    {
+      "id": "d1note-d-03",
+      "title": "요즘 상태 말하기",
+      "audioSrc": "",
+      "sourcePage": 1,
+      "lines": [
+        {
+          "speaker": "A",
+          "vi": "Dạo này em thế nào?",
+          "ko": "요즘 어때요?"
+        },
+        {
+          "speaker": "B",
+          "vi": "Dạo này tôi khá mệt.",
+          "ko": "요즘 저는 꽤 피곤합니다."
+        },
+        {
+          "speaker": "A",
+          "vi": "Tiếng Việt thế nào?",
+          "ko": "베트남어는 어때요?"
+        },
+        {
+          "speaker": "B",
+          "vi": "Tiếng Việt rất khó nhưng vô cùng thú vị.",
+          "ko": "베트남어는 매우 어렵지만 굉장히 재미있습니다."
+        }
+      ],
+      "reviewNeeded": false
+    }
+  ],
+  "grammarPoints": [
+    {
+      "id": "d1note-g-01",
+      "title": "기본 인사",
+      "pattern": "Xin chào. / Tạm biệt. / Hẹn gặp lại. / Cảm ơn. / Xin lỗi.",
+      "sourcePage": 1,
+      "reviewNeeded": false
+    },
+    {
+      "id": "d1note-g-02",
+      "title": "기본 문장 구조",
+      "pattern": "Tôi + 동사 + 목적어 → Tôi uống cà phê.",
+      "sourcePage": 1,
+      "reviewNeeded": false
+    },
+    {
+      "id": "d1note-g-03",
+      "title": "의문사 질문",
+      "pattern": "gì / ai / ở đâu / khi nào / tại sao / bao nhiêu / mấy / thế nào",
+      "sourcePage": 1,
+      "reviewNeeded": false
+    },
+    {
+      "id": "d1note-g-04",
+      "title": "장소와 시간 붙이기",
+      "pattern": "Tôi uống cà phê với bạn ở Starbucks lúc 2 giờ.",
+      "sourcePage": 1,
+      "reviewNeeded": false
+    },
+    {
+      "id": "d1note-g-05",
+      "title": "과거·현재·미래",
+      "pattern": "đã = ~했다 / đang = ~하고 있다 / sẽ = ~할 것이다",
+      "sourcePage": 1,
+      "reviewNeeded": false
+    },
+    {
+      "id": "d1note-g-06",
+      "title": "경험 표현",
+      "pattern": "đã từng + 동사 → Tôi đã từng ăn sầu riêng.",
+      "sourcePage": 1,
+      "reviewNeeded": false
+    },
+    {
+      "id": "d1note-g-07",
+      "title": "방금 막",
+      "pattern": "vừa mới + 동사 → Tôi vừa mới uống cà phê.",
+      "sourcePage": 1,
+      "reviewNeeded": false
+    },
+    {
+      "id": "d1note-g-08",
+      "title": "완료 표현",
+      "pattern": "đã + 동사 + xong rồi → Tôi đã học xong rồi.",
+      "sourcePage": 1,
+      "reviewNeeded": false
+    },
+    {
+      "id": "d1note-g-09",
+      "title": "아직도/여전히",
+      "pattern": "vẫn còn / vẫn đang → Tôi vẫn còn học tiếng Việt.",
+      "sourcePage": 1,
+      "reviewNeeded": false
+    },
+    {
+      "id": "d1note-g-10",
+      "title": "계획·의도",
+      "pattern": "sắp / sắp sửa / định → Tôi định học tiếng Việt.",
+      "sourcePage": 1,
+      "reviewNeeded": false
+    },
+    {
+      "id": "d1note-g-11",
+      "title": "소유 표현",
+      "pattern": "A của tôi = 나의 A → điện thoại của tôi",
+      "sourcePage": 1,
+      "reviewNeeded": false
+    },
+    {
+      "id": "d1note-g-12",
+      "title": "정도 부사",
+      "pattern": "rất / quá / vô cùng / cực kỳ / khá / hơi / không ... lắm",
+      "sourcePage": 1,
+      "reviewNeeded": false
+    }
+  ],
+  "pronunciationTargets": [
+    {
+      "id": "d1note-p-01",
+      "text": "nghe / nghề",
+      "hintKo": "듣다와 직업 발음 구분",
+      "audioSrc": "",
+      "sourcePage": 1,
+      "reviewNeeded": false,
+      "pronKo": "응에 / 응에",
+      "mouthKo": "둘 다 비슷하게 들리지만 성조가 다릅니다.",
+      "toneKo": "nghe는 평평하게, nghề는 낮게 떨어지는 느낌입니다."
+    },
+    {
+      "id": "d1note-p-02",
+      "text": "cá / khá",
+      "hintKo": "ㄲ 계열과 kh 바람소리 구분",
+      "audioSrc": "",
+      "sourcePage": 1,
+      "reviewNeeded": false,
+      "pronKo": "까 / 카",
+      "mouthKo": "khá는 숨을 더 내보내며 ‘카’처럼 발음합니다.",
+      "toneKo": "khá는 올라가는 성조입니다."
+    },
+    {
+      "id": "d1note-p-03",
+      "text": "bạn / bận / bán / bàn",
+      "hintKo": "비슷한 소리의 성조 구분",
+      "audioSrc": "",
+      "sourcePage": 1,
+      "reviewNeeded": false,
+      "pronKo": "반 / 번 / 반 / 반",
+      "mouthKo": "모음과 성조 차이를 함께 연습합니다.",
+      "toneKo": "bạn은 무겁게, bán은 올라가고, bàn은 낮게 떨어집니다."
+    },
+    {
+      "id": "d1note-p-04",
+      "text": "đã / đang / sẽ / sắp / định",
+      "hintKo": "시제와 계획 표현 읽기",
+      "audioSrc": "",
+      "sourcePage": 1,
+      "reviewNeeded": false,
+      "pronKo": "다 / 당 / 쎄 / 쌉 / 딩",
+      "mouthKo": "đ는 ㄷ/ㄸ처럼 시작합니다.",
+      "toneKo": "sẽ는 흔들리는 성조, sắp은 올라가는 성조입니다."
+    },
+    {
+      "id": "d1note-p-05",
+      "text": "rất / quá / khá / hơi / lắm",
+      "hintKo": "정도 부사 읽기",
+      "audioSrc": "",
+      "sourcePage": 1,
+      "reviewNeeded": false,
+      "pronKo": "젓 / 꽈 / 카 / 허이 / 람",
+      "mouthKo": "짧고 또렷하게 발음합니다.",
+      "toneKo": "강조 표현이지만 너무 길게 끌지 않습니다."
+    }
+  ],
+  "quizSeeds": [
+    {
+      "id": "d1note-q-01",
+      "type": "match-term",
+      "prompt": "1일차 기본 인사 뜻 매칭",
+      "answerSet": [
+        "Xin chào-안녕하세요",
+        "Tạm biệt-안녕히 가세요",
+        "Hẹn gặp lại-다시 만나요",
+        "Cảm ơn-감사합니다",
+        "Xin lỗi-죄송합니다"
+      ],
+      "sourcePage": 1,
+      "reviewNeeded": false
+    },
+    {
+      "id": "d1note-q-02",
+      "type": "match-term",
+      "prompt": "1일차 의문사 뜻 매칭",
+      "answerSet": [
+        "gì-무엇",
+        "ai-누구",
+        "ở đâu-어디에",
+        "nào-어느/어떤",
+        "khi nào-언제",
+        "bao giờ-언제",
+        "tại sao-왜",
+        "bao nhiêu-얼마나/몇",
+        "mấy-몇",
+        "thế nào-어때/어떻게"
+      ],
+      "sourcePage": 1,
+      "reviewNeeded": false
+    },
+    {
+      "id": "d1note-q-03",
+      "type": "match-term",
+      "prompt": "1일차 시제 부사 뜻 매칭",
+      "answerSet": [
+        "đã-~했다",
+        "đang-~하고 있다",
+        "sẽ-~할 것이다",
+        "đã từng-~한 적이 있다",
+        "vừa mới-방금 막",
+        "xong rồi-다 끝났다",
+        "vẫn còn-아직도",
+        "sắp sửa-곧 ~하려고 하다",
+        "định-~하려고 하다"
+      ],
+      "sourcePage": 1,
+      "reviewNeeded": false
+    },
+    {
+      "id": "d1note-q-04",
+      "type": "match-term",
+      "prompt": "1일차 정도 부사 뜻 매칭",
+      "answerSet": [
+        "rất-매우",
+        "quá-너무",
+        "vô cùng-굉장히",
+        "cực kỳ-엄청/매우",
+        "khá-꽤",
+        "hơi-조금",
+        "không ... lắm-별로 ~하지 않다"
+      ],
+      "sourcePage": 1,
+      "reviewNeeded": false
+    },
+    {
+      "id": "d1note-q-05",
+      "type": "sentence-meaning",
+      "prompt": "1일차 문장 뜻 고르기",
+      "answerSet": [
+        "Tôi uống cà phê.-저는 커피를 마십니다.",
+        "Anh là người nước nào?-어느 나라 사람이에요?",
+        "Tôi là người Hàn Quốc.-저는 한국 사람입니다.",
+        "Anh đang sống ở đâu?-어디에 살고 있어요?",
+        "Số điện thoại của em là bao nhiêu?-전화번호가 어떻게 돼요?",
+        "Tôi đã đi Nhật ba lần.-저는 일본에 세 번 갔습니다.",
+        "Tôi vừa mới ăn trưa.-저는 방금 점심을 먹었습니다.",
+        "Tôi định học tiếng Việt.-저는 베트남어를 공부하려고 합니다.",
+        "Dạo này tôi khá mệt.-요즘 저는 꽤 피곤합니다.",
+        "Tiếng Việt rất khó nhưng vô cùng thú vị.-베트남어는 매우 어렵지만 굉장히 재미있습니다."
+      ],
+      "sourcePage": 1,
+      "reviewNeeded": false
+    }
+  ],
+  "unlockCondition": "complete-previous",
+  "reviewNeeded": false
+    },
+    {
       "lessonId": "l0",
       "unitLabel": "Bài 0",
       "titleKo": "기초 준비: 문자·성조·숫자",
