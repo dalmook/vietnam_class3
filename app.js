@@ -1007,7 +1007,7 @@ class VietnameseA1App {
   }
 
   async playAudio(audioSrc, fallbackText, options = {}) {
-    const { lang = 'vi-VN', allowAudio = true } = options;
+    const { lang = 'vi-VN', allowAudio = true, minDurationMs = 0 } = options;
     const src = this.normalizeAudioSrc(audioSrc || '');
     if (src && allowAudio) {
       try {
@@ -1028,10 +1028,28 @@ class VietnameseA1App {
       u.lang = lang;
       u.rate = this.settings.speechRate;
       await new Promise((resolve) => {
-        const fallbackMs = Math.max(900, (fallbackText || '').length * 110);
-        const timer = setTimeout(resolve, fallbackMs);
-        u.onend = () => { clearTimeout(timer); resolve(); };
-        u.onerror = () => {};
+        const estimatedMs = this.estimateTtsDuration(fallbackText || '', lang);
+        const requiredMs = Math.max(minDurationMs || 0, estimatedMs);
+        let eventDone = false;
+        let minDone = false;
+        const settle = () => {
+          if (eventDone && minDone) resolve();
+        };
+        const minTimer = setTimeout(() => {
+          minDone = true;
+          settle();
+        }, requiredMs);
+        const maxTimer = setTimeout(() => {
+          eventDone = true;
+          settle();
+        }, requiredMs + 4000);
+        const onFinish = () => {
+          eventDone = true;
+          clearTimeout(maxTimer);
+          settle();
+        };
+        u.onend = onFinish;
+        u.onerror = onFinish;
         speechSynthesis.cancel();
         speechSynthesis.speak(u);
       });
@@ -1149,6 +1167,15 @@ class VietnameseA1App {
   stopStudyAutoplay() {
     this.stopSentenceAutoplay();
     this.stopVocabAutoplay();
+  }
+
+  estimateTtsDuration(text, lang = 'vi-VN') {
+    const base = String(text || '').trim();
+    if (!base) return 700;
+    const langBonus = /^ko/i.test(lang) ? 1.28 : 1.05;
+    const rate = Math.max(0.6, Number(this.settings.speechRate || 1));
+    const perChar = 120 * langBonus;
+    return Math.max(1200, Math.round((base.length * perChar) / rate));
   }
 
   normalizeAudioSrc(audioSrc) {
