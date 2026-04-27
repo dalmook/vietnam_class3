@@ -92,11 +92,26 @@ article .controls button { flex: 1 1 120px; }
   background: #f9fbff;
   padding: 6px 8px;
 }
-.example-fold summary {
-  cursor: pointer;
+.example-head {
   font-size: .8rem;
   font-weight: 700;
   color: #4f5fa5;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 6px;
+}
+.example-play-btn {
+  width: 22px;
+  height: 22px;
+  min-height: 22px;
+  border-radius: 50%;
+  padding: 0;
+  border: 1px solid #cfd8ff;
+  background: #eef3ff;
+  color: #3d4d9e;
+  font-size: .72rem;
+  line-height: 1;
 }
 .example-fold p {
   margin: 8px 0 2px;
