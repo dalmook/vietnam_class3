@@ -522,6 +522,9 @@ class VietnameseA1App {
     const stat = this.progress[c.id] || {};
     const show = this.state.revealMeaning;
     const pronGuide = this.renderPronGuide(c, c.term);
+    const exampleSpeakBtn = show && c.example
+      ? `<button class="example-play-btn" type="button" data-action="speak:" data-text="${this.escapeAttr(c.example)}" aria-label="예문 듣기" onclick="event.preventDefault();event.stopPropagation()">▶</button>`
+      : '';
     return `<article class="card fade study-card">
       <div class="row card-top">
         <div class="row compact-card-meta"><span class="badge">${idx + 1} / ${cards.length}</span>${c.sourcePage ? `<span class="badge">p.${c.sourcePage}</span>` : ''}</div>
@@ -536,7 +539,7 @@ class VietnameseA1App {
         <div class="pron-tip ${show ? '' : 'hidden'}">뜻: ${c.meaningKo}</div>
         <div class="${show ? '' : 'hidden'}">${pronGuide}</div>
         ${show && c.example ? `<details class="example-fold" open onclick="event.stopPropagation()">
-          <summary>예문 보기</summary>
+          <summary>예문 보기 ${exampleSpeakBtn}</summary>
           <p class="small">${c.example}<br>${c.exampleMeaningKo || ''}</p>
         </details>` : ''}
         <p class="small tap-hint">${show ? '카드를 탭하면 뜻을 숨길 수 있어요' : '카드를 탭하면 뜻이 보여요'}</p>
