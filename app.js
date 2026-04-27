@@ -310,7 +310,6 @@ class VietnameseA1App {
     this.sfxCtx = null;
     this.swReloading = false;
     this.pendingSWRegistration = null;
-    this.audioCache = { total: 0, done: 0, running: false, lastError: '' };
     this.isStandalone = window.matchMedia('(display-mode: standalone)').matches || window.navigator.standalone === true;
     this.ensureStorageHealth();
 
@@ -331,7 +330,6 @@ class VietnameseA1App {
       this.state.flat = this.flattenData(data.lessons || []);
       this.state.lessonId = data.lessons?.[0]?.lessonId || null;
       this.state.quizLessonFilter = data.lessons?.[0]?.lessonId || 'all';
-      this.initAudioCacheStatus();
       this.render();
     } catch (e) {
       const healed = await this.tryRecoverFromCacheIssue();
@@ -442,7 +440,6 @@ class VietnameseA1App {
     if (type === 'reviewWrong') return this.startWrongReview();
     if (type === 'recoverCache') return this.recoverAndReload();
     if (type === 'audioTest') return this.playAudio('', 'xin chào, đây là kiểm tra âm thanh');
-    if (type === 'cacheAllAudio') return this.cacheAllAudioAssets();
     if (type === 'resetLocal') return this.resetLocal();
   }
 
@@ -769,17 +766,13 @@ class VietnameseA1App {
 
   renderSettings() {
     const c = this.state.flat;
-    const cacheMeta = this.audioCache.total
-      ? `MP3 캐시 ${this.audioCache.done}/${this.audioCache.total}`
-      : 'MP3 캐시 상태를 계산하는 중...';
     this.appEl.innerHTML = `<section class="fade"><div class="card"><h3>설정</h3>
       <label>음성 속도 ${this.settings.speechRate.toFixed(2)}</label><input type="range" min="0.6" max="1.2" step="0.05" value="${this.settings.speechRate}" data-change="speechRate" />
       <label><input type="checkbox" ${this.settings.autoShowMeaning ? 'checked' : ''} data-change="autoShowMeaning" /> 자동 뜻 보이기</label><br>
       <label><input type="checkbox" ${this.settings.autoPlay ? 'checked' : ''} data-change="autoPlay" /> 카드 넘김 자동 재생</label>
       <p class="small">앱 캐시 초기화: Service Worker/Cache Storage를 삭제하고 새로고침합니다.</p>
-      <p class="small">${cacheMeta}${this.audioCache.lastError ? ` · 오류: ${this.audioCache.lastError}` : ''}</p>
       <p class="small">학습 기록 초기화: localStorage의 진도/북마크/오답 기록을 삭제합니다.</p>
-      <div class="controls settings-actions"><button data-action="audioTest">🔊 음성 테스트</button><button data-action="cacheAllAudio">${this.audioCache.running ? 'MP3 캐시 다운로드 중...' : 'MP3 전체 캐시 다운로드'}</button><button class="warn cache-reset-btn" data-action="recoverCache">앱 캐시 초기화</button><button class="bad progress-reset-btn" data-action="resetLocal">학습 기록 초기화</button></div></div>
+      <div class="controls settings-actions"><button data-action="audioTest">🔊 음성 테스트</button><button class="warn cache-reset-btn" data-action="recoverCache">앱 캐시 초기화</button><button class="bad progress-reset-btn" data-action="resetLocal">학습 기록 초기화</button></div></div>
       <div class="card"><h3>JSON 로딩 상태</h3><p class="small">경로: ${this.state.loadedPath}</p><p class="small">lessons ${c.lessons.length}, vocab ${c.vocab.length}, sentence ${c.sentence.length}, dialogues ${c.dialogues.length}, grammar ${c.grammar.length}, pronunciation ${c.pronunciation.length}, quizSeeds ${c.seeds.length}</p></div></section>`;
   }
 
@@ -994,16 +987,20 @@ class VietnameseA1App {
   }
 
   async playAudio(audioSrc, fallbackText) {
-    const src = String(audioSrc || '').trim();
+    const src = this.normalizeAudioSrc(audioSrc || '');
     if (src) {
-      const candidates = this.buildAudioCandidates(src);
-      for (const candidate of candidates) {
-        const ok = await this.tryPlayAudioUrl(candidate);
-        if (ok) return true;
+      try {
+        const audio = new Audio(src);
+        audio.playbackRate = Math.max(0.6, Math.min(1.6, Number(this.settings.speechRate || 1)));
+        await new Promise((resolve, reject) => {
+          audio.onended = resolve;
+          audio.onerror = reject;
+          audio.play().catch(reject);
+        });
+        return true;
+      } catch (_) {
+        // fallback to TTS below
       }
-      this.state.quiz.feedback = 'MP3 재생 실패: 파일 경로나 캐시 상태를 확인해 주세요.';
-      this.render();
-      return false;
     }
     if ('speechSynthesis' in window) {
       const u = new SpeechSynthesisUtterance(fallbackText || 'xin chào');
@@ -1041,34 +1038,6 @@ class VietnameseA1App {
     const baseUrl = this.getAppBaseUrl();
     if (src.startsWith('/')) return new URL(`.${src}`, baseUrl).href;
     return new URL(src.replace(/^\.\//, ''), baseUrl).href;
-  }
-
-  buildAudioCandidates(audioSrc) {
-    const src = String(audioSrc || '').trim();
-    if (!src) return [];
-    const baseUrl = this.getAppBaseUrl();
-    const candidates = [this.normalizeAudioSrc(src)];
-    if (src.startsWith('/audio/')) {
-      candidates.push(new URL(src.slice(1), baseUrl).href);
-      candidates.push(new URL(src, window.location.origin).href);
-    }
-    return [...new Set(candidates)];
-  }
-
-  async tryPlayAudioUrl(url) {
-    try {
-      const audio = new Audio(url);
-      audio.preload = 'auto';
-      audio.playbackRate = Math.max(0.6, Math.min(1.6, Number(this.settings.speechRate || 1)));
-      await new Promise((resolve, reject) => {
-        audio.onended = resolve;
-        audio.onerror = reject;
-        audio.play().catch(reject);
-      });
-      return true;
-    } catch {
-      return false;
-    }
   }
 
   getAppBaseUrl() {
@@ -1419,72 +1388,6 @@ class VietnameseA1App {
       <div class="pron-main"><div class="pron-label">발음 느낌</div><div>${this.escapeHtml(mainPron)}</div></div>
       ${item.pronNoteKo ? `<div class="pron-note"><div class="pron-label">발음 팁</div><div>${this.escapeHtml(item.pronNoteKo)}</div></div>` : ''}
     </div>`;
-  }
-
-  collectAudioSources() {
-    const pools = [
-      ...(this.state.flat.vocab || []),
-      ...(this.state.flat.sentence || []),
-      ...(this.state.flat.pronunciation || []),
-      ...(this.state.flat.dialogues || [])
-    ];
-    return [...new Set(pools.map((item) => (item.audioSrc || '').trim()).filter(Boolean))];
-  }
-
-  async initAudioCacheStatus() {
-    if (!('caches' in window)) return;
-    const sources = this.collectAudioSources();
-    this.audioCache.total = sources.length;
-    try {
-      const keys = await caches.keys();
-      const audioCacheKey = keys.find((key) => key.includes('vietnam-class3-audio-'));
-      if (!audioCacheKey) return;
-      const cache = await caches.open(audioCacheKey);
-      let done = 0;
-      for (const src of sources) {
-        const req = new Request(this.normalizeAudioSrc(src));
-        if (await cache.match(req)) done += 1;
-      }
-      this.audioCache.done = done;
-      if (this.state.tab === 'settings') this.render();
-    } catch (e) {
-      this.audioCache.lastError = e.message || '캐시 조회 실패';
-    }
-  }
-
-  async cacheAllAudioAssets() {
-    if (!('caches' in window) || this.audioCache.running) return;
-    const sources = this.collectAudioSources();
-    this.audioCache.total = sources.length;
-    this.audioCache.done = 0;
-    this.audioCache.running = true;
-    this.audioCache.lastError = '';
-    this.render();
-    try {
-      const keys = await caches.keys();
-      const audioCacheKey = keys.find((key) => key.includes('vietnam-class3-audio-')) || 'vietnam-class3-audio-manual';
-      const cache = await caches.open(audioCacheKey);
-      for (let i = 0; i < sources.length; i += 1) {
-        const url = this.normalizeAudioSrc(sources[i]);
-        try {
-          const req = new Request(url);
-          if (!(await cache.match(req))) {
-            const res = await fetch(req, { cache: 'reload' });
-            if (res.ok) await cache.put(req, res.clone());
-          }
-          this.audioCache.done = i + 1;
-        } catch {
-          this.audioCache.done = i + 1;
-        }
-        if (this.state.tab === 'settings' && i % 8 === 0) this.render();
-      }
-      this.state.message = 'MP3 캐시 다운로드가 완료됐어요.';
-    } catch (e) {
-      this.audioCache.lastError = e.message || 'MP3 캐시 다운로드 실패';
-    } finally {
-      this.audioCache.running = false;
-      this.render();
-    }
   }
 
   loadLocal(key, fallback) {
