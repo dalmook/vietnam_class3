@@ -661,7 +661,7 @@ class VietnameseA1App {
   renderQuiz() {
     const modes = [['meaning', 'A 뜻 맞추기'], ['vi', 'B 베트남어 맞추기'], ['listen', 'C 듣기'], ['match', 'D 매칭'], ['build', 'E 문장 만들기'], ['wrong', 'F 오답복습']];
     if (this.state.quiz.phase === 'playing') {
-      this.appEl.innerHTML = `<section class="fade match-screen-wrap">${this.renderMatch()}</section>`;
+      this.appEl.innerHTML = `<section class="fade match-screen-wrap">${this.renderQuizCore()}</section>`;
       return;
     }
     const chooser = `<div class="card controls">${modes.map(([k, v]) => `<button data-action="quizMode:${k}" class="${this.state.quizMode === k ? 'primary' : ''}">${v}</button>`).join('')}</div>`;
@@ -731,10 +731,7 @@ class VietnameseA1App {
   }
 
   renderMatch() {
-    if (this.state.quizMode !== 'match') {
-      const item = this.state.quiz.queue[this.state.quiz.i];
-      return item ? this.renderMcq(item) : '';
-    }
+    if (this.state.quizMode !== 'match') return '';
     const round = this.getOrCreateMatchingRound();
     const leftButtons = round.leftOrder.map((card) => {
       const selected = round.selectedLeftId === card.id;
