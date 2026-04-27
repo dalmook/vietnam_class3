@@ -301,13 +301,14 @@ class VietnameseA1App {
         optionKey: '',
         matchingRound: null
       },
-      settings: { speechRate: 0.95, autoShowMeaning: true, autoPlay: false }
+      settings: { speechRate: 0.95, autoShowMeaning: true, autoPlay: false, sentenceRepeatCount: 1 }
     };
     this.settings = { ...this.state.settings, ...this.loadLocal('settings', {}) };
     this.healTried = false;
     this.audioUnlocked = false;
     this.effect = null;
     this.sfxCtx = null;
+    this.sentenceAutoplay = { running: false, token: 0 };
     this.swReloading = false;
     this.pendingSWRegistration = null;
     this.isStandalone = window.matchMedia('(display-mode: standalone)').matches || window.navigator.standalone === true;
@@ -373,6 +374,7 @@ class VietnameseA1App {
       this.ensureAudioUnlocked();
       const tab = e.target.closest('[data-tab]');
       if (!tab) return;
+      if (this.sentenceAutoplay.running && tab.dataset.tab !== 'study') this.stopSentenceAutoplay();
       this.state.tab = tab.dataset.tab;
       this.render();
     });
@@ -413,8 +415,8 @@ class VietnameseA1App {
 
   handleAction(action, el) {
     const [type, payload] = action.split(':');
-    if (type === 'openLesson') { this.state.lessonId = payload; this.resetStudyIndexes(); this.state.tab = 'study'; return this.render(); }
-    if (type === 'studyMode') { this.state.studyMode = payload; return this.render(); }
+    if (type === 'openLesson') { this.stopSentenceAutoplay(); this.state.lessonId = payload; this.resetStudyIndexes(); this.state.tab = 'study'; return this.render(); }
+    if (type === 'studyMode') { if (payload !== 'sentence') this.stopSentenceAutoplay(); this.state.studyMode = payload; return this.render(); }
     if (type === 'quizMode') { this.state.quizMode = payload; this.setupQuizQueue(); return this.render(); }
     if (type === 'shift') return this.shiftCard(Number(payload));
     if (type === 'mark') return this.markItem(payload, el.dataset.value);
@@ -426,6 +428,7 @@ class VietnameseA1App {
     if (type === 'jump') return this.jumpToItem(payload);
     if (type === 'speak') return this.playAudio(payload, el.dataset.text || 'xin chào');
     if (type === 'repeatSpeak') return this.repeatSpeak({ text: el.dataset.text, audioSrc: el.dataset.audio || '' }, 3);
+    if (type === 'toggleSentenceAutoplay') return this.toggleSentenceAutoplay();
     if (type === 'startQuiz') {
       this.setupQuizQueue();
       this.state.quiz.phase = 'playing';
@@ -444,13 +447,14 @@ class VietnameseA1App {
   }
 
   handleChange(action, el) {
-    if (action === 'lesson') { this.state.lessonId = el.value; this.resetStudyIndexes(); }
+    if (action === 'lesson') { this.stopSentenceAutoplay(); this.state.lessonId = el.value; this.resetStudyIndexes(); }
     if (action === 'quizLesson') this.state.quizLessonFilter = el.value;
     if (action === 'grammarFilter') this.state.grammarLessonFilter = el.value;
     if (action === 'searchInput') this.state.searchQuery = el.value;
     if (action === 'speechRate') this.settings.speechRate = Number(el.value);
     if (action === 'autoShowMeaning') this.settings.autoShowMeaning = el.checked;
     if (action === 'autoPlay') this.settings.autoPlay = el.checked;
+    if (action === 'sentenceRepeatCount') this.settings.sentenceRepeatCount = Math.max(1, Math.min(10, Number(el.value) || 1));
     this.saveLocal('settings', this.settings);
     this.render();
   }
@@ -574,6 +578,7 @@ class VietnameseA1App {
           <button class="icon-btn ${stat.known ? 'active' : ''}" aria-label="외움" data-action="mark:${c.id}" data-value="known">✅</button>
           <button class="icon-btn ${stat.difficult ? 'active' : ''}" aria-label="어려움" data-action="mark:${c.id}" data-value="difficult">🔥</button>
           <button class="icon-btn ${this.bookmarks.includes(c.id) ? 'active' : ''}" aria-label="북마크" data-action="bookmark:${c.id}">⭐</button>
+          <button class="icon-btn ${this.sentenceAutoplay.running ? 'active' : ''}" aria-label="문장 연속 듣기" data-action="toggleSentenceAutoplay">${this.sentenceAutoplay.running ? '⏹️' : '⏯️'}</button>
         </div>
       </div>
       <div class="card-tap-zone study-card-body" data-action="toggleCardReveal">
@@ -771,6 +776,7 @@ class VietnameseA1App {
     const c = this.state.flat;
     this.appEl.innerHTML = `<section class="fade"><div class="card"><h3>설정</h3>
       <label>음성 속도 ${this.settings.speechRate.toFixed(2)}</label><input type="range" min="0.6" max="1.2" step="0.05" value="${this.settings.speechRate}" data-change="speechRate" />
+      <label>문장 카드 반복 횟수</label><input type="number" min="1" max="10" step="1" value="${this.settings.sentenceRepeatCount || 1}" data-change="sentenceRepeatCount" />
       <label><input type="checkbox" ${this.settings.autoShowMeaning ? 'checked' : ''} data-change="autoShowMeaning" /> 자동 뜻 보이기</label><br>
       <label><input type="checkbox" ${this.settings.autoPlay ? 'checked' : ''} data-change="autoPlay" /> 카드 넘김 자동 재생</label>
       <p class="small">앱 캐시 초기화: Service Worker/Cache Storage를 삭제하고 새로고침합니다.</p>
@@ -989,9 +995,10 @@ class VietnameseA1App {
     this.render();
   }
 
-  async playAudio(audioSrc, fallbackText) {
+  async playAudio(audioSrc, fallbackText, options = {}) {
+    const { lang = 'vi-VN', allowAudio = true } = options;
     const src = this.normalizeAudioSrc(audioSrc || '');
-    if (src) {
+    if (src && allowAudio) {
       try {
         const audio = new Audio(src);
         audio.playbackRate = Math.max(0.6, Math.min(1.6, Number(this.settings.speechRate || 1)));
@@ -1007,7 +1014,7 @@ class VietnameseA1App {
     }
     if ('speechSynthesis' in window) {
       const u = new SpeechSynthesisUtterance(fallbackText || 'xin chào');
-      u.lang = 'vi-VN';
+      u.lang = lang;
       u.rate = this.settings.speechRate;
       await new Promise((resolve) => {
         const fallbackMs = Math.max(900, (fallbackText || '').length * 110);
@@ -1032,6 +1039,52 @@ class VietnameseA1App {
       if (!ok) break;
       await new Promise((r) => setTimeout(r, 220));
     }
+  }
+
+  async toggleSentenceAutoplay() {
+    if (this.sentenceAutoplay.running) {
+      this.stopSentenceAutoplay();
+      this.render();
+      return;
+    }
+    const lesson = this.currentLesson();
+    const cards = lesson?.sentenceCards || [];
+    if (!cards.length || this.state.studyMode !== 'sentence') return;
+    this.sentenceAutoplay.running = true;
+    this.sentenceAutoplay.token += 1;
+    const runToken = this.sentenceAutoplay.token;
+    this.render();
+    while (this.sentenceAutoplay.running && runToken === this.sentenceAutoplay.token) {
+      const nowLesson = this.currentLesson();
+      const nowCards = nowLesson?.sentenceCards || [];
+      const idx = this.clampIndex(this.state.sentenceIndex, nowCards.length);
+      const card = nowCards[idx];
+      if (!card) break;
+      const repeatCount = Math.max(1, Math.min(10, Number(this.settings.sentenceRepeatCount || 1)));
+      for (let i = 0; i < repeatCount; i += 1) {
+        if (!this.sentenceAutoplay.running || runToken !== this.sentenceAutoplay.token) break;
+        await this.playAudio(card.audioSrc || '', card.textVi || '', { lang: 'vi-VN', allowAudio: true });
+        if (!this.sentenceAutoplay.running || runToken !== this.sentenceAutoplay.token) break;
+        await new Promise((r) => setTimeout(r, 180));
+        await this.playAudio('', card.textKo || '', { lang: 'ko-KR', allowAudio: false });
+        await new Promise((r) => setTimeout(r, 220));
+      }
+      if (!this.sentenceAutoplay.running || runToken !== this.sentenceAutoplay.token) break;
+      if (idx >= nowCards.length - 1) {
+        this.stopSentenceAutoplay();
+        break;
+      }
+      this.state.sentenceIndex = idx + 1;
+      this.state.revealMeaning = this.settings.autoShowMeaning;
+      this.render();
+    }
+    this.render();
+  }
+
+  stopSentenceAutoplay() {
+    this.sentenceAutoplay.running = false;
+    this.sentenceAutoplay.token += 1;
+    if ('speechSynthesis' in window) speechSynthesis.cancel();
   }
 
   normalizeAudioSrc(audioSrc) {
