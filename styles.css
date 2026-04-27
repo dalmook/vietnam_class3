@@ -434,3 +434,34 @@ button:disabled { opacity: .5; cursor: not-allowed; }
   background: #ffe4e8;
   border: 1px solid #ffbec8;
 }
+
+.setting-field {
+  margin: 12px 0 10px;
+  padding: 10px;
+  border-radius: 14px;
+  border: 1px solid #dfe6ff;
+  background: #f8faff;
+}
+
+.setting-field label {
+  display: block;
+  font-weight: 800;
+  margin-bottom: 8px;
+}
+
+.setting-input-row {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.setting-number-input {
+  flex: 1;
+  min-height: 48px;
+  border-radius: 12px;
+  border: 1px solid #c9d4ff;
+  background: #fff;
+  padding: 10px 14px;
+  font-size: 1.1rem;
+  font-weight: 700;
+}
