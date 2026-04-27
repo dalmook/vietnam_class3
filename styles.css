@@ -92,13 +92,13 @@ article .controls button { flex: 1 1 120px; }
   background: #f9fbff;
   padding: 6px 8px;
 }
-.example-fold summary {
-  cursor: pointer;
+.example-head {
   font-size: .8rem;
   font-weight: 700;
   color: #4f5fa5;
-  display: inline-flex;
+  display: flex;
   align-items: center;
+  justify-content: space-between;
   gap: 6px;
 }
 .example-play-btn {

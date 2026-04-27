@@ -523,7 +523,7 @@ class VietnameseA1App {
     const show = this.state.revealMeaning;
     const pronGuide = this.renderPronGuide(c, c.term);
     const exampleSpeakBtn = show && c.example
-      ? `<button class="example-play-btn" type="button" data-action="speak:" data-text="${this.escapeAttr(c.example)}" aria-label="예문 듣기" onclick="event.preventDefault();event.stopPropagation()">▶</button>`
+      ? `<button class="example-play-btn" type="button" data-action="speak:" data-text="${this.escapeAttr(c.example)}" aria-label="예문 듣기" onclick="event.stopPropagation()">▶</button>`
       : '';
     return `<article class="card fade study-card">
       <div class="row card-top">
@@ -538,10 +538,10 @@ class VietnameseA1App {
         <div class="vi-big">${c.term}</div>
         <div class="pron-tip ${show ? '' : 'hidden'}">뜻: ${c.meaningKo}</div>
         <div class="${show ? '' : 'hidden'}">${pronGuide}</div>
-        ${show && c.example ? `<details class="example-fold" open onclick="event.stopPropagation()">
-          <summary>예문 보기 ${exampleSpeakBtn}</summary>
+        ${show && c.example ? `<div class="example-fold" onclick="event.stopPropagation()">
+          <div class="example-head">예문 보기 ${exampleSpeakBtn}</div>
           <p class="small">${c.example}<br>${c.exampleMeaningKo || ''}</p>
-        </details>` : ''}
+        </div>` : ''}
         <p class="small tap-hint">${show ? '카드를 탭하면 뜻을 숨길 수 있어요' : '카드를 탭하면 뜻이 보여요'}</p>
       </div>
       <div class="audio-button-grid audio-controls study-card-actions">
