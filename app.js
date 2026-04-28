@@ -377,6 +377,7 @@ class VietnameseA1App {
       const tab = e.target.closest('[data-tab]');
       if (!tab) return;
       if (tab.dataset.tab !== 'study') this.stopStudyAutoplay();
+      if (tab.dataset.tab === 'quiz') this.syncQuizLessonFilterToCurrentLesson();
       this.state.tab = tab.dataset.tab;
       this.render();
     });
@@ -452,7 +453,12 @@ class VietnameseA1App {
   }
 
   handleChange(action, el) {
-    if (action === 'lesson') { this.stopStudyAutoplay(); this.state.lessonId = el.value; this.resetStudyIndexes(); }
+    if (action === 'lesson') {
+      this.stopStudyAutoplay();
+      this.state.lessonId = el.value;
+      this.syncQuizLessonFilterToCurrentLesson();
+      this.resetStudyIndexes();
+    }
     if (action === 'quizLesson') this.state.quizLessonFilter = el.value;
     if (action === 'grammarFilter') this.state.grammarLessonFilter = el.value;
     if (action === 'searchInput') this.state.searchQuery = el.value;
@@ -858,6 +864,7 @@ class VietnameseA1App {
     const item = this.state.quiz.queue[this.state.quiz.i];
     if (!item || this.state.quiz.answered) return;
     let answer = this.state.quizMode === 'vi' ? (item.term || item.textVi) : (item.meaningKo || item.textKo);
+    const vietnameseAnswer = item.term || item.textVi || '';
     const ok = value === answer;
     this.state.quiz.answered = true;
     this.state.quiz.picked = value;
@@ -869,13 +876,14 @@ class VietnameseA1App {
       this.state.quiz.feedback = `정답! 🐳 +${10 + Math.min(10, this.state.quiz.streak * 2)}XP`;
       this.triggerEffect('success', '정답! 🐳🎉');
       this.playFeedbackSound('correct');
-      this.playAudio(item.audioSrc || '', item.term || item.textVi || '');
+      this.playAudio(item.audioSrc || '', vietnameseAnswer);
       this.saveLocal('best_streak', this.state.quiz.bestStreak);
     } else {
       this.state.quiz.streak = 0;
       this.state.quiz.feedback = `오답! 정답: ${answer} · 한 번 더 들으면 됩니다!`;
       this.triggerEffect('warn', '한 번 더 들으면 됩니다 🙂');
       this.playFeedbackSound('wrong');
+      this.playAudio(item.audioSrc || '', vietnameseAnswer);
       this.state.quiz.wrong.push(item.id);
       if (!this.wrongAnswers.includes(item.id)) this.wrongAnswers.push(item.id);
       this.saveLocal('wrongAnswers', this.wrongAnswers);
@@ -952,12 +960,14 @@ class VietnameseA1App {
         this.state.quiz.feedback = `정답! 문장 완성 +${gain}XP`;
         this.triggerEffect('success', '문장 완성! 🧩');
         this.playFeedbackSound('correct');
+        this.playAudio(item.audioSrc || '', round.answerTokens.join(' '));
         this.saveLocal('best_streak', this.state.quiz.bestStreak);
       } else {
         this.state.quiz.streak = 0;
         this.state.quiz.feedback = `아쉬워요! 정답: ${round.answerTokens.join(' ')}`;
         this.triggerEffect('warn', '순서를 다시 익혀봐요 💪');
         this.playFeedbackSound('wrong');
+        this.playAudio(item.audioSrc || '', round.answerTokens.join(' '));
         if (item.id && !this.wrongAnswers.includes(item.id)) this.wrongAnswers.push(item.id);
         this.saveLocal('wrongAnswers', this.wrongAnswers);
       }
@@ -1605,6 +1615,17 @@ class VietnameseA1App {
     const all = [...this.state.flat.vocab, ...this.state.flat.sentence];
     if (this.state.quizLessonFilter === 'all') return all;
     return all.filter((x) => x.lessonId === this.state.quizLessonFilter);
+  }
+
+  syncQuizLessonFilterToCurrentLesson() {
+    const lessonIds = new Set((this.state.flat.lessons || []).map((x) => x.lessonId));
+    if (this.state.lessonId && lessonIds.has(this.state.lessonId)) {
+      this.state.quizLessonFilter = this.state.lessonId;
+      return;
+    }
+    if (this.state.quizLessonFilter !== 'all' && !lessonIds.has(this.state.quizLessonFilter)) {
+      this.state.quizLessonFilter = this.state.flat.lessons?.[0]?.lessonId || 'all';
+    }
   }
 
   shuffle(arr) { return [...arr].sort(() => Math.random() - 0.5); }
