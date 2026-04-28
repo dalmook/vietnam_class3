@@ -19,6 +19,2184 @@
   },
   "lessons": [
     {
+  "lessonId": "d2d",
+  "unitLabel": "2일차",
+  "titleKo": "2일차: Yes/No 의문문",
+  "titleVi": "Câu hỏi Yes/No",
+  "pageRange": "9-10",
+  "goals": [
+    "베트남어 Yes/No 질문 구조 익히기",
+    "(có) ... không? 질문과 대답 연습하기",
+    "(đã) ... chưa? 완료 질문과 대답 연습하기",
+    "phải không, đúng không, à, hả, chứ, hay 구조 구분하기"
+  ],
+  "topicOverview": "베트남어에서 예/아니오로 대답하는 질문을 만드는 기본 패턴을 배우는 2일차 문법 학습",
+  "cultureTopics": [
+    "일상 대화 질문",
+    "공손한 대답",
+    "확인 질문",
+    "선택 질문"
+  ],
+  "vocabCards": [
+    {
+      "id": "d2d-v-001",
+      "term": "có ... không?",
+      "meaningKo": "~하나요? / ~입니까?",
+      "example": "Anh có ăn không?",
+      "exampleMeaningKo": "당신은 먹나요?",
+      "audioSrc": "",
+      "sourcePage": 9,
+      "reviewNeeded": false,
+      "pronKo": "꼬 ... 콩",
+      "pronNoteKo": "가장 기본적인 Yes/No 질문 구조입니다. có는 생략되기도 합니다.",
+      "pronChunks": [
+        "có=꼬",
+        "không=콩"
+      ]
+    },
+    {
+      "id": "d2d-v-002",
+      "term": "không",
+      "meaningKo": "아니다 / 안 하다 / 아니요",
+      "example": "Không. Anh không ăn.",
+      "exampleMeaningKo": "아니요. 저는 먹지 않습니다.",
+      "audioSrc": "",
+      "sourcePage": 9,
+      "reviewNeeded": false,
+      "pronKo": "콩",
+      "pronNoteKo": "부정문과 부정 대답에 모두 씁니다.",
+      "pronChunks": [
+        "không=콩"
+      ]
+    },
+    {
+      "id": "d2d-v-003",
+      "term": "đã ... chưa?",
+      "meaningKo": "이미 ~했나요?",
+      "example": "Anh đã ăn chưa?",
+      "exampleMeaningKo": "당신은 이미 먹었나요?",
+      "audioSrc": "",
+      "sourcePage": 9,
+      "reviewNeeded": false,
+      "pronKo": "다 ... 쯔어",
+      "pronNoteKo": "완료 여부를 물을 때 쓰는 질문입니다.",
+      "pronChunks": [
+        "đã=다",
+        "chưa=쯔어"
+      ]
+    },
+    {
+      "id": "d2d-v-004",
+      "term": "rồi",
+      "meaningKo": "이미 / ~했다",
+      "example": "Rồi. Anh ăn rồi.",
+      "exampleMeaningKo": "네, 이미 먹었습니다.",
+      "audioSrc": "",
+      "sourcePage": 9,
+      "reviewNeeded": false,
+      "pronKo": "조이",
+      "pronNoteKo": "이미 완료했을 때 대답으로 씁니다.",
+      "pronChunks": [
+        "rồi=조이"
+      ]
+    },
+    {
+      "id": "d2d-v-005",
+      "term": "chưa",
+      "meaningKo": "아직 / 아직 안 했다",
+      "example": "Chưa. Anh chưa ăn.",
+      "exampleMeaningKo": "아니요. 아직 먹지 않았습니다.",
+      "audioSrc": "",
+      "sourcePage": 9,
+      "reviewNeeded": false,
+      "pronKo": "쯔어",
+      "pronNoteKo": "아직 하지 않았다는 뜻입니다.",
+      "pronChunks": [
+        "chưa=쯔어"
+      ]
+    },
+    {
+      "id": "d2d-v-006",
+      "term": "phải không?",
+      "meaningKo": "맞죠? / 그렇죠?",
+      "example": "Anh dùng AI phải không?",
+      "exampleMeaningKo": "당신은 AI를 쓰죠?",
+      "audioSrc": "",
+      "sourcePage": 9,
+      "reviewNeeded": false,
+      "pronKo": "파이 콩",
+      "pronNoteKo": "상대에게 확인할 때 쓰는 표현입니다.",
+      "pronChunks": [
+        "phải=파이",
+        "không=콩"
+      ]
+    },
+    {
+      "id": "d2d-v-007",
+      "term": "đúng không?",
+      "meaningKo": "맞죠? / 그렇죠?",
+      "example": "Anh dùng AI đúng không?",
+      "exampleMeaningKo": "당신은 AI를 쓰죠?",
+      "audioSrc": "",
+      "sourcePage": 9,
+      "reviewNeeded": false,
+      "pronKo": "둥 콩",
+      "pronNoteKo": "phải không과 비슷하게 확인 질문에 씁니다.",
+      "pronChunks": [
+        "đúng=둥",
+        "không=콩"
+      ]
+    },
+    {
+      "id": "d2d-v-008",
+      "term": "phải rồi",
+      "meaningKo": "맞아요 / 그렇습니다",
+      "example": "Phải rồi.",
+      "exampleMeaningKo": "맞아요.",
+      "audioSrc": "",
+      "sourcePage": 9,
+      "reviewNeeded": false,
+      "pronKo": "파이 조이",
+      "pronNoteKo": "상대의 확인 질문에 긍정으로 답할 때 씁니다.",
+      "pronChunks": [
+        "phải=파이",
+        "rồi=조이"
+      ]
+    },
+    {
+      "id": "d2d-v-009",
+      "term": "đúng rồi",
+      "meaningKo": "맞아요 / 그렇습니다",
+      "example": "Đúng rồi.",
+      "exampleMeaningKo": "맞아요.",
+      "audioSrc": "",
+      "sourcePage": 9,
+      "reviewNeeded": false,
+      "pronKo": "둥 조이",
+      "pronNoteKo": "정답이나 사실 확인에 자주 씁니다.",
+      "pronChunks": [
+        "đúng=둥",
+        "rồi=조이"
+      ]
+    },
+    {
+      "id": "d2d-v-010",
+      "term": "không phải",
+      "meaningKo": "아닙니다",
+      "example": "Không phải.",
+      "exampleMeaningKo": "아닙니다.",
+      "audioSrc": "",
+      "sourcePage": 9,
+      "reviewNeeded": false,
+      "pronKo": "콩 파이",
+      "pronNoteKo": "정체나 사실이 아니라고 말할 때 씁니다.",
+      "pronChunks": [
+        "không=콩",
+        "phải=파이"
+      ]
+    },
+    {
+      "id": "d2d-v-011",
+      "term": "không đúng",
+      "meaningKo": "맞지 않습니다",
+      "example": "Không đúng.",
+      "exampleMeaningKo": "맞지 않습니다.",
+      "audioSrc": "",
+      "sourcePage": 9,
+      "reviewNeeded": false,
+      "pronKo": "콩 둥",
+      "pronNoteKo": "상대 말이 틀렸다고 할 때 씁니다.",
+      "pronChunks": [
+        "không=콩",
+        "đúng=둥"
+      ]
+    },
+    {
+      "id": "d2d-v-012",
+      "term": "à?",
+      "meaningKo": "~야? / ~인가요?",
+      "example": "Em dùng AI à?",
+      "exampleMeaningKo": "너 AI 써?",
+      "audioSrc": "",
+      "sourcePage": 9,
+      "reviewNeeded": false,
+      "pronKo": "아",
+      "pronNoteKo": "문장 끝에 붙여 가볍게 확인하는 질문을 만듭니다.",
+      "pronChunks": [
+        "à=아"
+      ]
+    },
+    {
+      "id": "d2d-v-013",
+      "term": "hả?",
+      "meaningKo": "~야? / ~라고?",
+      "example": "Em dùng AI hả?",
+      "exampleMeaningKo": "너 AI 써?",
+      "audioSrc": "",
+      "sourcePage": 9,
+      "reviewNeeded": false,
+      "pronKo": "하",
+      "pronNoteKo": "친근한 말투에서 많이 씁니다.",
+      "pronChunks": [
+        "hả=하"
+      ]
+    },
+    {
+      "id": "d2d-v-014",
+      "term": "ạ?",
+      "meaningKo": "공손한 질문 어미",
+      "example": "Em dùng AI ạ?",
+      "exampleMeaningKo": "AI 쓰세요?",
+      "audioSrc": "",
+      "sourcePage": 9,
+      "reviewNeeded": false,
+      "pronKo": "아",
+      "pronNoteKo": "공손한 느낌을 줍니다.",
+      "pronChunks": [
+        "ạ=아"
+      ]
+    },
+    {
+      "id": "d2d-v-015",
+      "term": "vâng",
+      "meaningKo": "네",
+      "example": "Vâng.",
+      "exampleMeaningKo": "네.",
+      "audioSrc": "",
+      "sourcePage": 9,
+      "reviewNeeded": false,
+      "pronKo": "벙",
+      "pronNoteKo": "북부에서 공손하게 ‘네’라고 할 때 자주 씁니다.",
+      "pronChunks": [
+        "vâng=벙"
+      ]
+    },
+    {
+      "id": "d2d-v-016",
+      "term": "dạ",
+      "meaningKo": "네 / 예",
+      "example": "Dạ.",
+      "exampleMeaningKo": "네.",
+      "audioSrc": "",
+      "sourcePage": 9,
+      "reviewNeeded": false,
+      "pronKo": "자",
+      "pronNoteKo": "공손한 대답입니다. 남부에서도 많이 씁니다.",
+      "pronChunks": [
+        "dạ=자"
+      ]
+    },
+    {
+      "id": "d2d-v-017",
+      "term": "chứ?",
+      "meaningKo": "~할 수 있죠? / 그렇죠?",
+      "example": "Chị uống được bia chứ?",
+      "exampleMeaningKo": "누나/언니는 맥주 마실 수 있죠?",
+      "audioSrc": "",
+      "sourcePage": 10,
+      "reviewNeeded": false,
+      "pronKo": "쯔",
+      "pronNoteKo": "상대가 그럴 것이라고 기대하며 확인할 때 씁니다.",
+      "pronChunks": [
+        "chứ=쯔"
+      ]
+    },
+    {
+      "id": "d2d-v-018",
+      "term": "được",
+      "meaningKo": "가능하다 / 할 수 있다",
+      "example": "Chị uống được bia chứ?",
+      "exampleMeaningKo": "맥주 마실 수 있죠?",
+      "audioSrc": "",
+      "sourcePage": 10,
+      "reviewNeeded": false,
+      "pronKo": "드억",
+      "pronNoteKo": "가능 여부를 말할 때 씁니다.",
+      "pronChunks": [
+        "được=드억"
+      ]
+    },
+    {
+      "id": "d2d-v-019",
+      "term": "bia",
+      "meaningKo": "맥주",
+      "example": "Chị uống được bia chứ?",
+      "exampleMeaningKo": "맥주 마실 수 있죠?",
+      "audioSrc": "",
+      "sourcePage": 10,
+      "reviewNeeded": false,
+      "pronKo": "비아",
+      "pronNoteKo": "맥주를 뜻합니다.",
+      "pronChunks": [
+        "bia=비아"
+      ]
+    },
+    {
+      "id": "d2d-v-020",
+      "term": "hay",
+      "meaningKo": "또는 / 아니면",
+      "example": "Em thích cái này hay cái kia?",
+      "exampleMeaningKo": "너는 이것이 좋아, 아니면 저것이 좋아?",
+      "audioSrc": "",
+      "sourcePage": 10,
+      "reviewNeeded": false,
+      "pronKo": "하이",
+      "pronNoteKo": "둘 중 하나를 고르는 선택 질문에 씁니다.",
+      "pronChunks": [
+        "hay=하이"
+      ]
+    },
+    {
+      "id": "d2d-v-021",
+      "term": "hay không?",
+      "meaningKo": "~인지 아닌지 / ~하나요?",
+      "example": "Em có đồng ý hay không?",
+      "exampleMeaningKo": "너는 동의하니, 아니니?",
+      "audioSrc": "",
+      "sourcePage": 10,
+      "reviewNeeded": false,
+      "pronKo": "하이 콩",
+      "pronNoteKo": "선택형 Yes/No 느낌입니다. ‘할 건지 안 할 건지’처럼 분명히 묻습니다.",
+      "pronChunks": [
+        "hay=하이",
+        "không=콩"
+      ]
+    },
+    {
+      "id": "d2d-v-022",
+      "term": "đồng ý",
+      "meaningKo": "동의하다",
+      "example": "Em có đồng ý hay không?",
+      "exampleMeaningKo": "너는 동의하니, 아니니?",
+      "audioSrc": "",
+      "sourcePage": 10,
+      "reviewNeeded": false,
+      "pronKo": "동 이",
+      "pronNoteKo": "동의하다라는 뜻입니다.",
+      "pronChunks": [
+        "đồng=동",
+        "ý=이"
+      ]
+    },
+    {
+      "id": "d2d-v-023",
+      "term": "cái này",
+      "meaningKo": "이것",
+      "example": "Em thích cái này hay cái kia?",
+      "exampleMeaningKo": "너는 이것이 좋아, 아니면 저것이 좋아?",
+      "audioSrc": "",
+      "sourcePage": 10,
+      "reviewNeeded": false,
+      "pronKo": "까이 나이",
+      "pronNoteKo": "가까운 물건을 가리킵니다.",
+      "pronChunks": [
+        "cái=까이",
+        "này=나이"
+      ]
+    },
+    {
+      "id": "d2d-v-024",
+      "term": "cái kia",
+      "meaningKo": "저것",
+      "example": "Em thích cái này hay cái kia?",
+      "exampleMeaningKo": "너는 이것이 좋아, 아니면 저것이 좋아?",
+      "audioSrc": "",
+      "sourcePage": 10,
+      "reviewNeeded": false,
+      "pronKo": "까이 끼아",
+      "pronNoteKo": "멀리 있는 물건을 가리킵니다.",
+      "pronChunks": [
+        "cái=까이",
+        "kia=끼아"
+      ]
+    }
+  ],
+  "sentenceCards": [
+    {
+      "id": "d2d-s-001",
+      "textVi": "Anh có ăn không?",
+      "textKo": "당신은 먹나요?",
+      "audioSrc": "",
+      "sourcePage": 9,
+      "reviewNeeded": false,
+      "pronKo": "아인 꼬 안 콩",
+      "pronNoteKo": "có ... không 구조의 기본 질문입니다.",
+      "pronChunks": [
+        "Anh=아인",
+        "có ăn không=꼬 안 콩"
+      ]
+    },
+    {
+      "id": "d2d-s-002",
+      "textVi": "Có. Anh có ăn.",
+      "textKo": "네. 저는 먹습니다.",
+      "audioSrc": "",
+      "sourcePage": 9,
+      "reviewNeeded": false,
+      "pronKo": "꼬 아인 꼬 안",
+      "pronNoteKo": "긍정 대답입니다.",
+      "pronChunks": [
+        "Có=꼬",
+        "Anh có ăn=아인 꼬 안"
+      ]
+    },
+    {
+      "id": "d2d-s-003",
+      "textVi": "Không. Anh không ăn.",
+      "textKo": "아니요. 저는 먹지 않습니다.",
+      "audioSrc": "",
+      "sourcePage": 9,
+      "reviewNeeded": false,
+      "pronKo": "콩 아인 콩 안",
+      "pronNoteKo": "부정 대답입니다.",
+      "pronChunks": [
+        "Không=콩",
+        "Anh không ăn=아인 콩 안"
+      ]
+    },
+    {
+      "id": "d2d-s-004",
+      "textVi": "Anh đã ăn chưa?",
+      "textKo": "당신은 이미 먹었나요?",
+      "audioSrc": "",
+      "sourcePage": 9,
+      "reviewNeeded": false,
+      "pronKo": "아인 다 안 쯔어",
+      "pronNoteKo": "완료 여부를 물을 때 씁니다.",
+      "pronChunks": [
+        "Anh đã ăn=아인 다 안",
+        "chưa=쯔어"
+      ]
+    },
+    {
+      "id": "d2d-s-005",
+      "textVi": "Rồi. Anh ăn rồi.",
+      "textKo": "네. 저는 이미 먹었습니다.",
+      "audioSrc": "",
+      "sourcePage": 9,
+      "reviewNeeded": false,
+      "pronKo": "조이 아인 안 조이",
+      "pronNoteKo": "이미 했다는 긍정 대답입니다.",
+      "pronChunks": [
+        "Rồi=조이",
+        "Anh ăn rồi=아인 안 조이"
+      ]
+    },
+    {
+      "id": "d2d-s-006",
+      "textVi": "Chưa. Anh chưa ăn.",
+      "textKo": "아니요. 저는 아직 먹지 않았습니다.",
+      "audioSrc": "",
+      "sourcePage": 9,
+      "reviewNeeded": false,
+      "pronKo": "쯔어 아인 쯔어 안",
+      "pronNoteKo": "아직 하지 않았다는 대답입니다.",
+      "pronChunks": [
+        "Chưa=쯔어",
+        "Anh chưa ăn=아인 쯔어 안"
+      ]
+    },
+    {
+      "id": "d2d-s-007",
+      "textVi": "Anh dùng AI phải không?",
+      "textKo": "당신은 AI를 쓰죠?",
+      "audioSrc": "",
+      "sourcePage": 9,
+      "reviewNeeded": false,
+      "pronKo": "아인 중 에이아이 파이 콩",
+      "pronNoteKo": "확인 질문입니다.",
+      "pronChunks": [
+        "Anh dùng AI=아인 중 에이아이",
+        "phải không=파이 콩"
+      ]
+    },
+    {
+      "id": "d2d-s-008",
+      "textVi": "Ừ. Phải rồi. Đúng rồi.",
+      "textKo": "응. 맞아. 맞습니다.",
+      "audioSrc": "",
+      "sourcePage": 9,
+      "reviewNeeded": false,
+      "pronKo": "으 파이 조이 둥 조이",
+      "pronNoteKo": "친근한 긍정 대답과 확인 대답입니다.",
+      "pronChunks": [
+        "Ừ=으",
+        "Phải rồi=파이 조이",
+        "Đúng rồi=둥 조이"
+      ]
+    },
+    {
+      "id": "d2d-s-009",
+      "textVi": "Không. Không phải. Không đúng.",
+      "textKo": "아니요. 아닙니다. 맞지 않습니다.",
+      "audioSrc": "",
+      "sourcePage": 9,
+      "reviewNeeded": false,
+      "pronKo": "콩 콩 파이 콩 둥",
+      "pronNoteKo": "부정 확인 대답입니다.",
+      "pronChunks": [
+        "Không=콩",
+        "Không phải=콩 파이",
+        "Không đúng=콩 둥"
+      ]
+    },
+    {
+      "id": "d2d-s-010",
+      "textVi": "Em dùng AI à?",
+      "textKo": "너 AI 써?",
+      "audioSrc": "",
+      "sourcePage": 9,
+      "reviewNeeded": false,
+      "pronKo": "엠 중 에이아이 아",
+      "pronNoteKo": "문장 끝에 à를 붙여 가벼운 질문을 만듭니다.",
+      "pronChunks": [
+        "Em dùng AI=엠 중 에이아이",
+        "à=아"
+      ]
+    },
+    {
+      "id": "d2d-s-011",
+      "textVi": "Vâng. Dạ. Phải rồi ạ. Đúng rồi ạ.",
+      "textKo": "네. 네. 맞습니다. 맞습니다.",
+      "audioSrc": "",
+      "sourcePage": 9,
+      "reviewNeeded": false,
+      "pronKo": "벙 자 파이 조이 아 둥 조이 아",
+      "pronNoteKo": "공손한 긍정 대답입니다.",
+      "pronChunks": [
+        "Vâng=벙",
+        "Dạ=자",
+        "Phải rồi ạ=파이 조이 아",
+        "Đúng rồi ạ=둥 조이 아"
+      ]
+    },
+    {
+      "id": "d2d-s-012",
+      "textVi": "Không ạ. Không phải ạ. Không đúng ạ.",
+      "textKo": "아니요. 아닙니다. 맞지 않습니다.",
+      "audioSrc": "",
+      "sourcePage": 9,
+      "reviewNeeded": false,
+      "pronKo": "콩 아 콩 파이 아 콩 둥 아",
+      "pronNoteKo": "공손한 부정 대답입니다.",
+      "pronChunks": [
+        "Không ạ=콩 아",
+        "Không phải ạ=콩 파이 아",
+        "Không đúng ạ=콩 둥 아"
+      ]
+    },
+    {
+      "id": "d2d-s-013",
+      "textVi": "Chị uống được bia chứ?",
+      "textKo": "언니/누나는 맥주 마실 수 있죠?",
+      "audioSrc": "",
+      "sourcePage": 10,
+      "reviewNeeded": false,
+      "pronKo": "찌 우옹 드억 비아 쯔",
+      "pronNoteKo": "chứ는 상대가 그렇다고 기대하며 확인하는 느낌입니다.",
+      "pronChunks": [
+        "Chị uống được bia=찌 우옹 드억 비아",
+        "chứ=쯔"
+      ]
+    },
+    {
+      "id": "d2d-s-014",
+      "textVi": "Ừ.",
+      "textKo": "응.",
+      "audioSrc": "",
+      "sourcePage": 10,
+      "reviewNeeded": false,
+      "pronKo": "으",
+      "pronNoteKo": "친근한 긍정 대답입니다.",
+      "pronChunks": [
+        "Ừ=으"
+      ]
+    },
+    {
+      "id": "d2d-s-015",
+      "textVi": "Không.",
+      "textKo": "아니요.",
+      "audioSrc": "",
+      "sourcePage": 10,
+      "reviewNeeded": false,
+      "pronKo": "콩",
+      "pronNoteKo": "부정 대답입니다.",
+      "pronChunks": [
+        "Không=콩"
+      ]
+    },
+    {
+      "id": "d2d-s-016",
+      "textVi": "Em thích cái này hay cái kia?",
+      "textKo": "너는 이것이 좋아, 아니면 저것이 좋아?",
+      "audioSrc": "",
+      "sourcePage": 10,
+      "reviewNeeded": false,
+      "pronKo": "엠 틱 까이 나이 하이 까이 끼아",
+      "pronNoteKo": "hay는 선택 질문에 씁니다.",
+      "pronChunks": [
+        "Em thích=엠 틱",
+        "cái này=까이 나이",
+        "hay=하이",
+        "cái kia=까이 끼아"
+      ]
+    },
+    {
+      "id": "d2d-s-017",
+      "textVi": "Em thích cái này.",
+      "textKo": "저는 이것이 좋아요.",
+      "audioSrc": "",
+      "sourcePage": 10,
+      "reviewNeeded": false,
+      "pronKo": "엠 틱 까이 나이",
+      "pronNoteKo": "선택 질문에 대한 대답입니다.",
+      "pronChunks": [
+        "Em thích=엠 틱",
+        "cái này=까이 나이"
+      ]
+    },
+    {
+      "id": "d2d-s-018",
+      "textVi": "Em có đồng ý hay không?",
+      "textKo": "너는 동의하니, 아니니?",
+      "audioSrc": "",
+      "sourcePage": 10,
+      "reviewNeeded": false,
+      "pronKo": "엠 꼬 동 이 하이 콩",
+      "pronNoteKo": "hay không은 할지 말지 분명히 묻는 느낌입니다.",
+      "pronChunks": [
+        "Em có đồng ý=엠 꼬 동 이",
+        "hay không=하이 콩"
+      ]
+    },
+    {
+      "id": "d2d-s-019",
+      "textVi": "Vâng. Dạ.",
+      "textKo": "네. 예.",
+      "audioSrc": "",
+      "sourcePage": 10,
+      "reviewNeeded": false,
+      "pronKo": "벙 자",
+      "pronNoteKo": "공손한 긍정 대답입니다.",
+      "pronChunks": [
+        "Vâng=벙",
+        "Dạ=자"
+      ]
+    },
+    {
+      "id": "d2d-s-020",
+      "textVi": "Em không.",
+      "textKo": "저는 아닙니다 / 동의하지 않습니다.",
+      "audioSrc": "",
+      "sourcePage": 10,
+      "reviewNeeded": false,
+      "pronKo": "엠 콩",
+      "pronNoteKo": "짧은 부정 대답입니다.",
+      "pronChunks": [
+        "Em=엠",
+        "không=콩"
+      ]
+    }
+  ],
+  "dialogues": [
+    {
+      "id": "d2d-d-01",
+      "title": "밥 먹었어요?",
+      "audioSrc": "",
+      "sourcePage": 9,
+      "lines": [
+        {
+          "speaker": "A",
+          "vi": "Anh đã ăn chưa?",
+          "ko": "밥 먹었어요?"
+        },
+        {
+          "speaker": "B",
+          "vi": "Rồi. Anh ăn rồi.",
+          "ko": "네. 먹었어요."
+        },
+        {
+          "speaker": "A",
+          "vi": "Em có uống cà phê không?",
+          "ko": "커피 마셔요?"
+        },
+        {
+          "speaker": "B",
+          "vi": "Không. Em không uống cà phê.",
+          "ko": "아니요. 저는 커피를 마시지 않아요."
+        }
+      ],
+      "reviewNeeded": false
+    },
+    {
+      "id": "d2d-d-02",
+      "title": "AI 쓰죠?",
+      "audioSrc": "",
+      "sourcePage": 9,
+      "lines": [
+        {
+          "speaker": "A",
+          "vi": "Anh dùng AI phải không?",
+          "ko": "당신은 AI를 쓰죠?"
+        },
+        {
+          "speaker": "B",
+          "vi": "Đúng rồi. Anh dùng AI.",
+          "ko": "맞아요. 저는 AI를 씁니다."
+        },
+        {
+          "speaker": "A",
+          "vi": "Em dùng AI à?",
+          "ko": "너도 AI 써?"
+        },
+        {
+          "speaker": "B",
+          "vi": "Vâng. Em dùng AI ạ.",
+          "ko": "네. 저는 AI를 씁니다."
+        }
+      ],
+      "reviewNeeded": false
+    },
+    {
+      "id": "d2d-d-03",
+      "title": "이거 좋아, 저거 좋아?",
+      "audioSrc": "",
+      "sourcePage": 10,
+      "lines": [
+        {
+          "speaker": "A",
+          "vi": "Em thích cái này hay cái kia?",
+          "ko": "너는 이것이 좋아, 아니면 저것이 좋아?"
+        },
+        {
+          "speaker": "B",
+          "vi": "Em thích cái này.",
+          "ko": "저는 이것이 좋아요."
+        },
+        {
+          "speaker": "A",
+          "vi": "Em có đồng ý hay không?",
+          "ko": "너는 동의하니, 아니니?"
+        },
+        {
+          "speaker": "B",
+          "vi": "Dạ. Em đồng ý.",
+          "ko": "네. 저는 동의합니다."
+        }
+      ],
+      "reviewNeeded": false
+    }
+  ],
+  "grammarPoints": [
+    {
+      "id": "d2d-g-01",
+      "title": "기본 Yes/No 질문",
+      "pattern": "(có) + 동사/형용사 + không? → Anh có ăn không?",
+      "sourcePage": 9,
+      "reviewNeeded": false
+    },
+    {
+      "id": "d2d-g-02",
+      "title": "완료 여부 질문",
+      "pattern": "(đã) + 동사 + chưa? → Anh đã ăn chưa?",
+      "sourcePage": 9,
+      "reviewNeeded": false
+    },
+    {
+      "id": "d2d-g-03",
+      "title": "확인 질문",
+      "pattern": "문장 + phải không? / đúng không? → Anh dùng AI phải không?",
+      "sourcePage": 9,
+      "reviewNeeded": false
+    },
+    {
+      "id": "d2d-g-04",
+      "title": "짧은 확인 질문",
+      "pattern": "문장 + à? / hả? / ạ? → Em dùng AI à?",
+      "sourcePage": 9,
+      "reviewNeeded": false
+    },
+    {
+      "id": "d2d-g-05",
+      "title": "기대 확인 질문",
+      "pattern": "문장 + chứ? → Chị uống được bia chứ?",
+      "sourcePage": 10,
+      "reviewNeeded": false
+    },
+    {
+      "id": "d2d-g-06",
+      "title": "선택 질문",
+      "pattern": "A hay B? → Em thích cái này hay cái kia?",
+      "sourcePage": 10,
+      "reviewNeeded": false
+    },
+    {
+      "id": "d2d-g-07",
+      "title": "할지 말지 묻기",
+      "pattern": "có + 동사 + hay không? → Em có đồng ý hay không?",
+      "sourcePage": 10,
+      "reviewNeeded": false
+    }
+  ],
+  "pronunciationTargets": [
+    {
+      "id": "d2d-p-01",
+      "text": "có / không / chưa / rồi",
+      "hintKo": "Yes/No 질문 핵심 단어",
+      "audioSrc": "",
+      "sourcePage": 9,
+      "reviewNeeded": false,
+      "pronKo": "꼬 / 콩 / 쯔어 / 조이",
+      "mouthKo": "không은 짧게 ‘콩’처럼 말합니다.",
+      "toneKo": "chưa는 평평하게, rồi는 끝을 낮게 떨어뜨립니다."
+    },
+    {
+      "id": "d2d-p-02",
+      "text": "phải không / đúng không / không phải / không đúng",
+      "hintKo": "맞다/아니다 확인 표현",
+      "audioSrc": "",
+      "sourcePage": 9,
+      "reviewNeeded": false,
+      "pronKo": "파이 콩 / 둥 콩 / 콩 파이 / 콩 둥",
+      "mouthKo": "phải의 ph는 ㅍ에 가깝고, đúng은 ㄷ/ㄸ로 시작합니다.",
+      "toneKo": "확인 질문은 문장 끝을 살짝 올리면 자연스럽습니다."
+    },
+    {
+      "id": "d2d-p-03",
+      "text": "à / hả / ạ / chứ / hay",
+      "hintKo": "문장 끝 질문 어미와 선택 표현",
+      "audioSrc": "",
+      "sourcePage": 10,
+      "reviewNeeded": false,
+      "pronKo": "아 / 하 / 아 / 쯔 / 하이",
+      "mouthKo": "짧은 소리라 문장 끝에서 또렷하게 말합니다.",
+      "toneKo": "ạ는 공손하게 낮고 부드럽게 마무리합니다."
+    }
+  ],
+  "quizSeeds": [
+    {
+      "id": "d2d-q-01",
+      "type": "match-term",
+      "prompt": "2일차 Yes/No 의문문 뜻 매칭",
+      "answerSet": [
+        "có ... không?-~하나요?",
+        "đã ... chưa?-이미 ~했나요?",
+        "rồi-이미 했다",
+        "chưa-아직 안 했다",
+        "phải không?-맞죠?",
+        "đúng không?-맞죠?",
+        "à?-~야?",
+        "chứ?-그렇죠?",
+        "hay-또는/아니면",
+        "hay không?-할지 말지"
+      ],
+      "sourcePage": 10,
+      "reviewNeeded": false
+    },
+    {
+      "id": "d2d-q-02",
+      "type": "sentence-meaning",
+      "prompt": "2일차 Yes/No 의문문 문장 뜻 고르기",
+      "answerSet": [
+        "Anh có ăn không?-당신은 먹나요?",
+        "Anh đã ăn chưa?-당신은 이미 먹었나요?",
+        "Anh dùng AI phải không?-당신은 AI를 쓰죠?",
+        "Em dùng AI à?-너 AI 써?",
+        "Chị uống được bia chứ?-맥주 마실 수 있죠?",
+        "Em thích cái này hay cái kia?-이것이 좋아, 아니면 저것이 좋아?",
+        "Em có đồng ý hay không?-동의하니, 아니니?"
+      ],
+      "sourcePage": 10,
+      "reviewNeeded": false
+    }
+  ],
+  "unlockCondition": "complete-previous",
+  "reviewNeeded": false
+    },
+    {
+  "lessonId": "d2e",
+  "unitLabel": "2일차",
+  "titleKo": "2일차: 종별사",
+  "titleVi": "Danh từ chỉ đơn vị",
+  "pageRange": "14",
+  "goals": [
+    "베트남어 물건 세는 단위 익히기",
+    "cái, con, quyển, đôi, tờ 등 기본 종별사 구분하기",
+    "숫자 + 종별사 + 명사 구조 익히기",
+    "일상 물건과 음식 수량 표현 말하기"
+  ],
+  "topicOverview": "베트남어에서 물건, 동물, 책, 신발, 음식, 음료 등을 셀 때 쓰는 종별사를 배우는 2일차 문법 학습",
+  "cultureTopics": [
+    "베트남어 수량 표현",
+    "물건 세는 방법",
+    "음식 주문 표현",
+    "생활 물건 표현"
+  ],
+  "vocabCards": [
+    {
+      "id": "d2e-v-001",
+      "term": "cái",
+      "meaningKo": "개 / 일반 사물 종별사",
+      "example": "1 cái ô tô",
+      "exampleMeaningKo": "자동차 한 대",
+      "audioSrc": "",
+      "sourcePage": 14,
+      "reviewNeeded": false,
+      "pronKo": "까이",
+      "pronNoteKo": "가장 넓게 쓰이는 일반 사물 종별사입니다.",
+      "pronChunks": [
+        "cái=까이"
+      ]
+    },
+    {
+      "id": "d2e-v-002",
+      "term": "chiếc",
+      "meaningKo": "개 / 대 / 일반 사물 종별사",
+      "example": "1 chiếc ô tô",
+      "exampleMeaningKo": "자동차 한 대",
+      "audioSrc": "",
+      "sourcePage": 14,
+      "reviewNeeded": false,
+      "pronKo": "찌엑",
+      "pronNoteKo": "cái보다 조금 더 구체적으로 물건 하나를 셀 때 씁니다.",
+      "pronChunks": [
+        "chiếc=찌엑"
+      ]
+    },
+    {
+      "id": "d2e-v-003",
+      "term": "đồng hồ",
+      "meaningKo": "시계",
+      "example": "1 cái đồng hồ",
+      "exampleMeaningKo": "시계 하나",
+      "audioSrc": "",
+      "sourcePage": 14,
+      "reviewNeeded": false,
+      "pronKo": "동 호",
+      "pronNoteKo": "cái 또는 chiếc과 함께 셀 수 있습니다.",
+      "pronChunks": [
+        "đồng=동",
+        "hồ=호"
+      ]
+    },
+    {
+      "id": "d2e-v-004",
+      "term": "máy tính",
+      "meaningKo": "컴퓨터 / 계산기",
+      "example": "1 cái máy tính",
+      "exampleMeaningKo": "컴퓨터 한 대",
+      "audioSrc": "",
+      "sourcePage": 14,
+      "reviewNeeded": false,
+      "pronKo": "마이 띵",
+      "pronNoteKo": "문맥에 따라 컴퓨터 또는 계산기입니다.",
+      "pronChunks": [
+        "máy=마이",
+        "tính=띵"
+      ]
+    },
+    {
+      "id": "d2e-v-005",
+      "term": "ô tô",
+      "meaningKo": "자동차",
+      "example": "1 cái ô tô",
+      "exampleMeaningKo": "자동차 한 대",
+      "audioSrc": "",
+      "sourcePage": 14,
+      "reviewNeeded": false,
+      "pronKo": "오 또",
+      "pronNoteKo": "자동차를 뜻합니다.",
+      "pronChunks": [
+        "ô=오",
+        "tô=또"
+      ]
+    },
+    {
+      "id": "d2e-v-006",
+      "term": "con",
+      "meaningKo": "마리 / 동물 종별사",
+      "example": "3 con mèo",
+      "exampleMeaningKo": "고양이 세 마리",
+      "audioSrc": "",
+      "sourcePage": 14,
+      "reviewNeeded": false,
+      "pronKo": "꼰",
+      "pronNoteKo": "동물을 셀 때 주로 씁니다.",
+      "pronChunks": [
+        "con=꼰"
+      ]
+    },
+    {
+      "id": "d2e-v-007",
+      "term": "mèo",
+      "meaningKo": "고양이",
+      "example": "3 con mèo",
+      "exampleMeaningKo": "고양이 세 마리",
+      "audioSrc": "",
+      "sourcePage": 14,
+      "reviewNeeded": false,
+      "pronKo": "메오",
+      "pronNoteKo": "고양이를 뜻합니다.",
+      "pronChunks": [
+        "mèo=메오"
+      ]
+    },
+    {
+      "id": "d2e-v-008",
+      "term": "chó",
+      "meaningKo": "개",
+      "example": "2 con chó",
+      "exampleMeaningKo": "개 두 마리",
+      "audioSrc": "",
+      "sourcePage": 14,
+      "reviewNeeded": false,
+      "pronKo": "쪼",
+      "pronNoteKo": "개를 뜻합니다.",
+      "pronChunks": [
+        "chó=쪼"
+      ]
+    },
+    {
+      "id": "d2e-v-009",
+      "term": "lợn",
+      "meaningKo": "돼지",
+      "example": "1 con lợn",
+      "exampleMeaningKo": "돼지 한 마리",
+      "audioSrc": "",
+      "sourcePage": 14,
+      "reviewNeeded": false,
+      "pronKo": "런",
+      "pronNoteKo": "돼지를 뜻합니다.",
+      "pronChunks": [
+        "lợn=런"
+      ]
+    },
+    {
+      "id": "d2e-v-010",
+      "term": "quyển",
+      "meaningKo": "권 / 책 종별사",
+      "example": "21 quyển sách",
+      "exampleMeaningKo": "책 스물한 권",
+      "audioSrc": "",
+      "sourcePage": 14,
+      "reviewNeeded": false,
+      "pronKo": "꾸이엔",
+      "pronNoteKo": "책, 공책, 만화책 등을 셀 때 씁니다.",
+      "pronChunks": [
+        "quyển=꾸이엔"
+      ]
+    },
+    {
+      "id": "d2e-v-011",
+      "term": "sách",
+      "meaningKo": "책",
+      "example": "21 quyển sách",
+      "exampleMeaningKo": "책 스물한 권",
+      "audioSrc": "",
+      "sourcePage": 14,
+      "reviewNeeded": false,
+      "pronKo": "삭",
+      "pronNoteKo": "책을 뜻합니다.",
+      "pronChunks": [
+        "sách=삭"
+      ]
+    },
+    {
+      "id": "d2e-v-012",
+      "term": "vở",
+      "meaningKo": "공책",
+      "example": "2 quyển vở",
+      "exampleMeaningKo": "공책 두 권",
+      "audioSrc": "",
+      "sourcePage": 14,
+      "reviewNeeded": false,
+      "pronKo": "버",
+      "pronNoteKo": "공책을 뜻합니다.",
+      "pronChunks": [
+        "vở=버"
+      ]
+    },
+    {
+      "id": "d2e-v-013",
+      "term": "truyện tranh",
+      "meaningKo": "만화책",
+      "example": "3 quyển truyện tranh",
+      "exampleMeaningKo": "만화책 세 권",
+      "audioSrc": "",
+      "sourcePage": 14,
+      "reviewNeeded": false,
+      "pronKo": "쭈이엔 짜잉",
+      "pronNoteKo": "truyện은 이야기, tranh은 그림입니다.",
+      "pronChunks": [
+        "truyện=쭈이엔",
+        "tranh=짜잉"
+      ]
+    },
+    {
+      "id": "d2e-v-014",
+      "term": "đôi",
+      "meaningKo": "켤레 / 쌍",
+      "example": "95 đôi giày",
+      "exampleMeaningKo": "신발 아흔다섯 켤레",
+      "audioSrc": "",
+      "sourcePage": 14,
+      "reviewNeeded": false,
+      "pronKo": "도이",
+      "pronNoteKo": "신발, 양말, 젓가락처럼 짝이 있는 것을 셀 때 씁니다.",
+      "pronChunks": [
+        "đôi=도이"
+      ]
+    },
+    {
+      "id": "d2e-v-015",
+      "term": "giày",
+      "meaningKo": "신발",
+      "example": "95 đôi giày",
+      "exampleMeaningKo": "신발 아흔다섯 켤레",
+      "audioSrc": "",
+      "sourcePage": 14,
+      "reviewNeeded": false,
+      "pronKo": "자이",
+      "pronNoteKo": "신발을 뜻합니다.",
+      "pronChunks": [
+        "giày=자이"
+      ]
+    },
+    {
+      "id": "d2e-v-016",
+      "term": "tất",
+      "meaningKo": "양말",
+      "example": "2 đôi tất",
+      "exampleMeaningKo": "양말 두 켤레",
+      "audioSrc": "",
+      "sourcePage": 14,
+      "reviewNeeded": false,
+      "pronKo": "떳",
+      "pronNoteKo": "양말을 뜻합니다.",
+      "pronChunks": [
+        "tất=떳"
+      ]
+    },
+    {
+      "id": "d2e-v-017",
+      "term": "đũa",
+      "meaningKo": "젓가락",
+      "example": "1 đôi đũa",
+      "exampleMeaningKo": "젓가락 한 쌍",
+      "audioSrc": "",
+      "sourcePage": 14,
+      "reviewNeeded": false,
+      "pronKo": "두아",
+      "pronNoteKo": "젓가락을 뜻합니다.",
+      "pronChunks": [
+        "đũa=두아"
+      ]
+    },
+    {
+      "id": "d2e-v-018",
+      "term": "tờ",
+      "meaningKo": "장 / 종이류 종별사",
+      "example": "101 tờ tạp chí",
+      "exampleMeaningKo": "잡지 101장",
+      "audioSrc": "",
+      "sourcePage": 14,
+      "reviewNeeded": false,
+      "pronKo": "떠",
+      "pronNoteKo": "종이, 신문, 잡지처럼 납작한 종이류를 셀 때 씁니다.",
+      "pronChunks": [
+        "tờ=떠"
+      ]
+    },
+    {
+      "id": "d2e-v-019",
+      "term": "giấy",
+      "meaningKo": "종이",
+      "example": "1 tờ giấy",
+      "exampleMeaningKo": "종이 한 장",
+      "audioSrc": "",
+      "sourcePage": 14,
+      "reviewNeeded": false,
+      "pronKo": "저이",
+      "pronNoteKo": "종이를 뜻합니다.",
+      "pronChunks": [
+        "giấy=저이"
+      ]
+    },
+    {
+      "id": "d2e-v-020",
+      "term": "báo",
+      "meaningKo": "신문",
+      "example": "2 tờ báo",
+      "exampleMeaningKo": "신문 두 장",
+      "audioSrc": "",
+      "sourcePage": 14,
+      "reviewNeeded": false,
+      "pronKo": "바오",
+      "pronNoteKo": "신문을 뜻합니다.",
+      "pronChunks": [
+        "báo=바오"
+      ]
+    },
+    {
+      "id": "d2e-v-021",
+      "term": "tạp chí",
+      "meaningKo": "잡지",
+      "example": "101 tờ tạp chí",
+      "exampleMeaningKo": "잡지 101장",
+      "audioSrc": "",
+      "sourcePage": 14,
+      "reviewNeeded": false,
+      "pronKo": "땁 찌",
+      "pronNoteKo": "잡지를 뜻합니다.",
+      "pronChunks": [
+        "tạp=땁",
+        "chí=찌"
+      ]
+    },
+    {
+      "id": "d2e-v-022",
+      "term": "bức",
+      "meaningKo": "장 / 그림·사진 종별사",
+      "example": "2 bức tranh",
+      "exampleMeaningKo": "그림 두 장",
+      "audioSrc": "",
+      "sourcePage": 14,
+      "reviewNeeded": false,
+      "pronKo": "븍",
+      "pronNoteKo": "사진, 그림, 벽 등을 셀 때 씁니다.",
+      "pronChunks": [
+        "bức=븍"
+      ]
+    },
+    {
+      "id": "d2e-v-023",
+      "term": "ảnh",
+      "meaningKo": "사진",
+      "example": "1 bức ảnh",
+      "exampleMeaningKo": "사진 한 장",
+      "audioSrc": "",
+      "sourcePage": 14,
+      "reviewNeeded": false,
+      "pronKo": "아잉",
+      "pronNoteKo": "사진을 뜻합니다.",
+      "pronChunks": [
+        "ảnh=아잉"
+      ]
+    },
+    {
+      "id": "d2e-v-024",
+      "term": "tranh",
+      "meaningKo": "그림",
+      "example": "2 bức tranh",
+      "exampleMeaningKo": "그림 두 장",
+      "audioSrc": "",
+      "sourcePage": 14,
+      "reviewNeeded": false,
+      "pronKo": "짜잉",
+      "pronNoteKo": "그림을 뜻합니다.",
+      "pronChunks": [
+        "tranh=짜잉"
+      ]
+    },
+    {
+      "id": "d2e-v-025",
+      "term": "tường",
+      "meaningKo": "벽",
+      "example": "1 bức tường",
+      "exampleMeaningKo": "벽 하나",
+      "audioSrc": "",
+      "sourcePage": 14,
+      "reviewNeeded": false,
+      "pronKo": "뜨엉",
+      "pronNoteKo": "벽을 뜻합니다.",
+      "pronChunks": [
+        "tường=뜨엉"
+      ]
+    },
+    {
+      "id": "d2e-v-026",
+      "term": "quả",
+      "meaningKo": "개 / 과일 종별사",
+      "example": "34 quả đào",
+      "exampleMeaningKo": "복숭아 서른네 개",
+      "audioSrc": "",
+      "sourcePage": 14,
+      "reviewNeeded": false,
+      "pronKo": "꽈",
+      "pronNoteKo": "과일이나 둥근 물건을 셀 때 씁니다.",
+      "pronChunks": [
+        "quả=꽈"
+      ]
+    },
+    {
+      "id": "d2e-v-027",
+      "term": "táo",
+      "meaningKo": "사과",
+      "example": "3 quả táo",
+      "exampleMeaningKo": "사과 세 개",
+      "audioSrc": "",
+      "sourcePage": 14,
+      "reviewNeeded": false,
+      "pronKo": "따오",
+      "pronNoteKo": "사과를 뜻합니다.",
+      "pronChunks": [
+        "táo=따오"
+      ]
+    },
+    {
+      "id": "d2e-v-028",
+      "term": "cam",
+      "meaningKo": "오렌지",
+      "example": "2 quả cam",
+      "exampleMeaningKo": "오렌지 두 개",
+      "audioSrc": "",
+      "sourcePage": 14,
+      "reviewNeeded": false,
+      "pronKo": "깜",
+      "pronNoteKo": "오렌지를 뜻합니다.",
+      "pronChunks": [
+        "cam=깜"
+      ]
+    },
+    {
+      "id": "d2e-v-029",
+      "term": "đào",
+      "meaningKo": "복숭아",
+      "example": "34 quả đào",
+      "exampleMeaningKo": "복숭아 서른네 개",
+      "audioSrc": "",
+      "sourcePage": 14,
+      "reviewNeeded": false,
+      "pronKo": "다오",
+      "pronNoteKo": "복숭아를 뜻합니다.",
+      "pronChunks": [
+        "đào=다오"
+      ]
+    },
+    {
+      "id": "d2e-v-030",
+      "term": "bộ",
+      "meaningKo": "벌 / 세트",
+      "example": "5 bộ quần áo",
+      "exampleMeaningKo": "옷 다섯 벌",
+      "audioSrc": "",
+      "sourcePage": 14,
+      "reviewNeeded": false,
+      "pronKo": "보",
+      "pronNoteKo": "옷 한 벌, 세트 구성 물건을 셀 때 씁니다.",
+      "pronChunks": [
+        "bộ=보"
+      ]
+    },
+    {
+      "id": "d2e-v-031",
+      "term": "quần áo",
+      "meaningKo": "옷",
+      "example": "5 bộ quần áo",
+      "exampleMeaningKo": "옷 다섯 벌",
+      "audioSrc": "",
+      "sourcePage": 14,
+      "reviewNeeded": false,
+      "pronKo": "꾸언 아오",
+      "pronNoteKo": "옷을 뜻합니다.",
+      "pronChunks": [
+        "quần=꾸언",
+        "áo=아오"
+      ]
+    },
+    {
+      "id": "d2e-v-032",
+      "term": "bàn ghế",
+      "meaningKo": "책상과 의자 / 가구 세트",
+      "example": "1 bộ bàn ghế",
+      "exampleMeaningKo": "책상·의자 한 세트",
+      "audioSrc": "",
+      "sourcePage": 14,
+      "reviewNeeded": false,
+      "pronKo": "반 게",
+      "pronNoteKo": "bàn은 책상, ghế는 의자입니다.",
+      "pronChunks": [
+        "bàn=반",
+        "ghế=게"
+      ]
+    },
+    {
+      "id": "d2e-v-033",
+      "term": "phim",
+      "meaningKo": "영화",
+      "example": "1 bộ phim",
+      "exampleMeaningKo": "영화 한 편",
+      "audioSrc": "",
+      "sourcePage": 14,
+      "reviewNeeded": false,
+      "pronKo": "핌",
+      "pronNoteKo": "영화를 뜻합니다.",
+      "pronChunks": [
+        "phim=핌"
+      ]
+    },
+    {
+      "id": "d2e-v-034",
+      "term": "cốc",
+      "meaningKo": "컵 / 잔",
+      "example": "1 cốc sữa",
+      "exampleMeaningKo": "우유 한 컵",
+      "audioSrc": "",
+      "sourcePage": 14,
+      "reviewNeeded": false,
+      "pronKo": "꼭",
+      "pronNoteKo": "컵 단위 음료를 셀 때 씁니다.",
+      "pronChunks": [
+        "cốc=꼭"
+      ]
+    },
+    {
+      "id": "d2e-v-035",
+      "term": "trà",
+      "meaningKo": "차",
+      "example": "1 cốc trà",
+      "exampleMeaningKo": "차 한 컵",
+      "audioSrc": "",
+      "sourcePage": 14,
+      "reviewNeeded": false,
+      "pronKo": "짜",
+      "pronNoteKo": "차를 뜻합니다.",
+      "pronChunks": [
+        "trà=짜"
+      ]
+    },
+    {
+      "id": "d2e-v-036",
+      "term": "cà phê",
+      "meaningKo": "커피",
+      "example": "1 cốc cà phê",
+      "exampleMeaningKo": "커피 한 컵",
+      "audioSrc": "",
+      "sourcePage": 14,
+      "reviewNeeded": false,
+      "pronKo": "까 페",
+      "pronNoteKo": "커피를 뜻합니다.",
+      "pronChunks": [
+        "cà=까",
+        "phê=페"
+      ]
+    },
+    {
+      "id": "d2e-v-037",
+      "term": "trà sữa",
+      "meaningKo": "밀크티",
+      "example": "1 cốc trà sữa",
+      "exampleMeaningKo": "밀크티 한 컵",
+      "audioSrc": "",
+      "sourcePage": 14,
+      "reviewNeeded": false,
+      "pronKo": "짜 쓰어",
+      "pronNoteKo": "trà는 차, sữa는 우유입니다.",
+      "pronChunks": [
+        "trà=짜",
+        "sữa=쓰어"
+      ]
+    },
+    {
+      "id": "d2e-v-038",
+      "term": "sữa",
+      "meaningKo": "우유",
+      "example": "1 cốc sữa",
+      "exampleMeaningKo": "우유 한 컵",
+      "audioSrc": "",
+      "sourcePage": 14,
+      "reviewNeeded": false,
+      "pronKo": "쓰어",
+      "pronNoteKo": "우유를 뜻합니다.",
+      "pronChunks": [
+        "sữa=쓰어"
+      ]
+    },
+    {
+      "id": "d2e-v-039",
+      "term": "chén",
+      "meaningKo": "잔 / 작은 그릇",
+      "example": "5 chén soju",
+      "exampleMeaningKo": "소주 다섯 잔",
+      "audioSrc": "",
+      "sourcePage": 14,
+      "reviewNeeded": false,
+      "pronKo": "쩬",
+      "pronNoteKo": "술잔이나 작은 잔을 셀 때 쓸 수 있습니다.",
+      "pronChunks": [
+        "chén=쩬"
+      ]
+    },
+    {
+      "id": "d2e-v-040",
+      "term": "rượu",
+      "meaningKo": "술",
+      "example": "1 chén rượu",
+      "exampleMeaningKo": "술 한 잔",
+      "audioSrc": "",
+      "sourcePage": 14,
+      "reviewNeeded": false,
+      "pronKo": "즈어우",
+      "pronNoteKo": "술을 뜻합니다.",
+      "pronChunks": [
+        "rượu=즈어우"
+      ]
+    },
+    {
+      "id": "d2e-v-041",
+      "term": "nước",
+      "meaningKo": "물",
+      "example": "1 chén nước",
+      "exampleMeaningKo": "물 한 잔",
+      "audioSrc": "",
+      "sourcePage": 14,
+      "reviewNeeded": false,
+      "pronKo": "느억",
+      "pronNoteKo": "물 또는 나라라는 뜻이 있습니다.",
+      "pronChunks": [
+        "nước=느억"
+      ]
+    },
+    {
+      "id": "d2e-v-042",
+      "term": "chai",
+      "meaningKo": "병",
+      "example": "10 chai bia",
+      "exampleMeaningKo": "맥주 열 병",
+      "audioSrc": "",
+      "sourcePage": 14,
+      "reviewNeeded": false,
+      "pronKo": "짜이",
+      "pronNoteKo": "병 단위로 셀 때 씁니다.",
+      "pronChunks": [
+        "chai=짜이"
+      ]
+    },
+    {
+      "id": "d2e-v-043",
+      "term": "bia",
+      "meaningKo": "맥주",
+      "example": "10 chai bia",
+      "exampleMeaningKo": "맥주 열 병",
+      "audioSrc": "",
+      "sourcePage": 14,
+      "reviewNeeded": false,
+      "pronKo": "비아",
+      "pronNoteKo": "맥주를 뜻합니다.",
+      "pronChunks": [
+        "bia=비아"
+      ]
+    },
+    {
+      "id": "d2e-v-044",
+      "term": "dầu gội",
+      "meaningKo": "샴푸",
+      "example": "1 chai dầu gội",
+      "exampleMeaningKo": "샴푸 한 병",
+      "audioSrc": "",
+      "sourcePage": 14,
+      "reviewNeeded": false,
+      "pronKo": "저우 고이",
+      "pronNoteKo": "샴푸를 뜻합니다.",
+      "pronChunks": [
+        "dầu=저우",
+        "gội=고이"
+      ]
+    },
+    {
+      "id": "d2e-v-045",
+      "term": "nước mắm",
+      "meaningKo": "느억맘 / 피시소스",
+      "example": "1 chai nước mắm",
+      "exampleMeaningKo": "느억맘 한 병",
+      "audioSrc": "",
+      "sourcePage": 14,
+      "reviewNeeded": false,
+      "pronKo": "느억 맘",
+      "pronNoteKo": "베트남 생선 소스입니다.",
+      "pronChunks": [
+        "nước=느억",
+        "mắm=맘"
+      ]
+    },
+    {
+      "id": "d2e-v-046",
+      "term": "bát",
+      "meaningKo": "그릇 / 사발",
+      "example": "2 bát cơm",
+      "exampleMeaningKo": "밥 두 그릇",
+      "audioSrc": "",
+      "sourcePage": 14,
+      "reviewNeeded": false,
+      "pronKo": "밧",
+      "pronNoteKo": "밥, 국, 수프 등을 그릇 단위로 셀 때 씁니다.",
+      "pronChunks": [
+        "bát=밧"
+      ]
+    },
+    {
+      "id": "d2e-v-047",
+      "term": "cơm",
+      "meaningKo": "밥",
+      "example": "2 bát cơm",
+      "exampleMeaningKo": "밥 두 그릇",
+      "audioSrc": "",
+      "sourcePage": 14,
+      "reviewNeeded": false,
+      "pronKo": "껌",
+      "pronNoteKo": "밥 또는 식사를 뜻합니다.",
+      "pronChunks": [
+        "cơm=껌"
+      ]
+    },
+    {
+      "id": "d2e-v-048",
+      "term": "canh",
+      "meaningKo": "국",
+      "example": "1 bát canh",
+      "exampleMeaningKo": "국 한 그릇",
+      "audioSrc": "",
+      "sourcePage": 14,
+      "reviewNeeded": false,
+      "pronKo": "까잉",
+      "pronNoteKo": "국을 뜻합니다.",
+      "pronChunks": [
+        "canh=까잉"
+      ]
+    },
+    {
+      "id": "d2e-v-049",
+      "term": "súp",
+      "meaningKo": "수프",
+      "example": "1 bát súp",
+      "exampleMeaningKo": "수프 한 그릇",
+      "audioSrc": "",
+      "sourcePage": 14,
+      "reviewNeeded": false,
+      "pronKo": "숩",
+      "pronNoteKo": "수프를 뜻합니다.",
+      "pronChunks": [
+        "súp=숩"
+      ]
+    },
+    {
+      "id": "d2e-v-050",
+      "term": "hộp",
+      "meaningKo": "상자 / 박스",
+      "example": "1 hộp quà",
+      "exampleMeaningKo": "선물 한 상자",
+      "audioSrc": "",
+      "sourcePage": 14,
+      "reviewNeeded": false,
+      "pronKo": "홉",
+      "pronNoteKo": "상자나 박스 단위로 셀 때 씁니다.",
+      "pronChunks": [
+        "hộp=홉"
+      ]
+    },
+    {
+      "id": "d2e-v-051",
+      "term": "quà",
+      "meaningKo": "선물",
+      "example": "1 hộp quà",
+      "exampleMeaningKo": "선물 한 상자",
+      "audioSrc": "",
+      "sourcePage": 14,
+      "reviewNeeded": false,
+      "pronKo": "꽈",
+      "pronNoteKo": "선물을 뜻합니다.",
+      "pronChunks": [
+        "quà=꽈"
+      ]
+    },
+    {
+      "id": "d2e-v-052",
+      "term": "bánh",
+      "meaningKo": "빵 / 과자 / 케이크류",
+      "example": "1 hộp bánh",
+      "exampleMeaningKo": "과자 한 상자",
+      "audioSrc": "",
+      "sourcePage": 14,
+      "reviewNeeded": false,
+      "pronKo": "바잉",
+      "pronNoteKo": "빵, 과자, 케이크류를 넓게 말할 때 씁니다.",
+      "pronChunks": [
+        "bánh=바잉"
+      ]
+    },
+    {
+      "id": "d2e-v-053",
+      "term": "gói",
+      "meaningKo": "봉지 / 팩",
+      "example": "30 gói mì tôm",
+      "exampleMeaningKo": "라면 서른 봉지",
+      "audioSrc": "",
+      "sourcePage": 14,
+      "reviewNeeded": false,
+      "pronKo": "고이",
+      "pronNoteKo": "봉지 단위로 셀 때 씁니다.",
+      "pronChunks": [
+        "gói=고이"
+      ]
+    },
+    {
+      "id": "d2e-v-054",
+      "term": "kẹo",
+      "meaningKo": "사탕",
+      "example": "1 gói kẹo",
+      "exampleMeaningKo": "사탕 한 봉지",
+      "audioSrc": "",
+      "sourcePage": 14,
+      "reviewNeeded": false,
+      "pronKo": "깨오",
+      "pronNoteKo": "사탕을 뜻합니다.",
+      "pronChunks": [
+        "kẹo=깨오"
+      ]
+    },
+    {
+      "id": "d2e-v-055",
+      "term": "mì tôm",
+      "meaningKo": "라면 / 인스턴트 면",
+      "example": "30 gói mì tôm",
+      "exampleMeaningKo": "라면 서른 봉지",
+      "audioSrc": "",
+      "sourcePage": 14,
+      "reviewNeeded": false,
+      "pronKo": "미 똠",
+      "pronNoteKo": "베트남식 라면 표현입니다.",
+      "pronChunks": [
+        "mì=미",
+        "tôm=똠"
+      ]
+    },
+    {
+      "id": "d2e-v-056",
+      "term": "bim bim",
+      "meaningKo": "과자 / 스낵",
+      "example": "2 gói bim bim",
+      "exampleMeaningKo": "스낵 두 봉지",
+      "audioSrc": "",
+      "sourcePage": 14,
+      "reviewNeeded": false,
+      "pronKo": "빔 빔",
+      "pronNoteKo": "스낵 과자를 뜻하는 구어 표현입니다.",
+      "pronChunks": [
+        "bim bim=빔 빔"
+      ]
+    }
+  ],
+  "sentenceCards": [
+    {
+      "id": "d2e-s-001",
+      "textVi": "Tôi có 1 cái ô tô.",
+      "textKo": "저는 자동차 한 대가 있습니다.",
+      "audioSrc": "",
+      "sourcePage": 14,
+      "reviewNeeded": false,
+      "pronKo": "또이 꼬 못 까이 오 또",
+      "pronNoteKo": "숫자 + 종별사 + 명사 구조입니다.",
+      "pronChunks": [
+        "Tôi có=또이 꼬",
+        "1 cái ô tô=못 까이 오 또"
+      ]
+    },
+    {
+      "id": "d2e-s-002",
+      "textVi": "Nhà tôi có 3 con mèo.",
+      "textKo": "제 집에는 고양이 세 마리가 있습니다.",
+      "audioSrc": "",
+      "sourcePage": 14,
+      "reviewNeeded": false,
+      "pronKo": "냐 또이 꼬 바 꼰 메오",
+      "pronNoteKo": "동물은 con으로 셉니다.",
+      "pronChunks": [
+        "Nhà tôi có=냐 또이 꼬",
+        "3 con mèo=바 꼰 메오"
+      ]
+    },
+    {
+      "id": "d2e-s-003",
+      "textVi": "Tôi đọc 21 quyển sách.",
+      "textKo": "저는 책 스물한 권을 읽습니다.",
+      "audioSrc": "",
+      "sourcePage": 14,
+      "reviewNeeded": false,
+      "pronKo": "또이 독 하이 므어이 못 꾸이엔 삭",
+      "pronNoteKo": "책은 quyển으로 셉니다.",
+      "pronChunks": [
+        "Tôi đọc=또이 독",
+        "21 quyển sách=하이 므어이 못 꾸이엔 삭"
+      ]
+    },
+    {
+      "id": "d2e-s-004",
+      "textVi": "Cửa hàng có 95 đôi giày.",
+      "textKo": "가게에는 신발 아흔다섯 켤레가 있습니다.",
+      "audioSrc": "",
+      "sourcePage": 14,
+      "reviewNeeded": false,
+      "pronKo": "끄어 항 꼬 찐 므어이 남 도이 자이",
+      "pronNoteKo": "신발은 đôi로 셉니다.",
+      "pronChunks": [
+        "Cửa hàng có=끄어 항 꼬",
+        "95 đôi giày=찐 므어이 남 도이 자이"
+      ]
+    },
+    {
+      "id": "d2e-s-005",
+      "textVi": "Tôi mua 101 tờ tạp chí.",
+      "textKo": "저는 잡지 101장을 삽니다.",
+      "audioSrc": "",
+      "sourcePage": 14,
+      "reviewNeeded": false,
+      "pronKo": "또이 무아 못 짬 린 못 떠 땁 찌",
+      "pronNoteKo": "종이류는 tờ로 셉니다.",
+      "pronChunks": [
+        "Tôi mua=또이 무아",
+        "101 tờ tạp chí=못 짬 린 못 떠 땁 찌"
+      ]
+    },
+    {
+      "id": "d2e-s-006",
+      "textVi": "Tôi có 2 bức tranh.",
+      "textKo": "저는 그림 두 장이 있습니다.",
+      "audioSrc": "",
+      "sourcePage": 14,
+      "reviewNeeded": false,
+      "pronKo": "또이 꼬 하이 븍 짜잉",
+      "pronNoteKo": "그림은 bức로 셉니다.",
+      "pronChunks": [
+        "Tôi có=또이 꼬",
+        "2 bức tranh=하이 븍 짜잉"
+      ]
+    },
+    {
+      "id": "d2e-s-007",
+      "textVi": "Tôi ăn 34 quả đào.",
+      "textKo": "저는 복숭아 서른네 개를 먹습니다.",
+      "audioSrc": "",
+      "sourcePage": 14,
+      "reviewNeeded": false,
+      "pronKo": "또이 안 바 므어이 뜨 꽈 다오",
+      "pronNoteKo": "과일은 quả로 셉니다.",
+      "pronChunks": [
+        "Tôi ăn=또이 안",
+        "34 quả đào=바 므어이 뜨 꽈 다오"
+      ]
+    },
+    {
+      "id": "d2e-s-008",
+      "textVi": "Tôi mua 5 bộ quần áo.",
+      "textKo": "저는 옷 다섯 벌을 삽니다.",
+      "audioSrc": "",
+      "sourcePage": 14,
+      "reviewNeeded": false,
+      "pronKo": "또이 무아 남 보 꾸언 아오",
+      "pronNoteKo": "옷 한 벌은 bộ quần áo입니다.",
+      "pronChunks": [
+        "Tôi mua=또이 무아",
+        "5 bộ quần áo=남 보 꾸언 아오"
+      ]
+    },
+    {
+      "id": "d2e-s-009",
+      "textVi": "Tôi uống 1 cốc sữa.",
+      "textKo": "저는 우유 한 컵을 마십니다.",
+      "audioSrc": "",
+      "sourcePage": 14,
+      "reviewNeeded": false,
+      "pronKo": "또이 우옹 못 꼭 쓰어",
+      "pronNoteKo": "컵 단위 음료는 cốc을 씁니다.",
+      "pronChunks": [
+        "Tôi uống=또이 우옹",
+        "1 cốc sữa=못 꼭 쓰어"
+      ]
+    },
+    {
+      "id": "d2e-s-010",
+      "textVi": "Anh ấy uống 5 chén soju.",
+      "textKo": "그는 소주 다섯 잔을 마십니다.",
+      "audioSrc": "",
+      "sourcePage": 14,
+      "reviewNeeded": false,
+      "pronKo": "아인 어이 우옹 남 쩬 소주",
+      "pronNoteKo": "작은 잔 단위는 chén을 쓸 수 있습니다.",
+      "pronChunks": [
+        "Anh ấy uống=아인 어이 우옹",
+        "5 chén soju=남 쩬 소주"
+      ]
+    },
+    {
+      "id": "d2e-s-011",
+      "textVi": "Tôi mua 10 chai bia.",
+      "textKo": "저는 맥주 열 병을 삽니다.",
+      "audioSrc": "",
+      "sourcePage": 14,
+      "reviewNeeded": false,
+      "pronKo": "또이 무아 므어이 짜이 비아",
+      "pronNoteKo": "병 단위는 chai입니다.",
+      "pronChunks": [
+        "Tôi mua=또이 무아",
+        "10 chai bia=므어이 짜이 비아"
+      ]
+    },
+    {
+      "id": "d2e-s-012",
+      "textVi": "Tôi ăn 2 bát cơm.",
+      "textKo": "저는 밥 두 그릇을 먹습니다.",
+      "audioSrc": "",
+      "sourcePage": 14,
+      "reviewNeeded": false,
+      "pronKo": "또이 안 하이 밧 껌",
+      "pronNoteKo": "밥, 국, 수프는 bát으로 셀 수 있습니다.",
+      "pronChunks": [
+        "Tôi ăn=또이 안",
+        "2 bát cơm=하이 밧 껌"
+      ]
+    },
+    {
+      "id": "d2e-s-013",
+      "textVi": "Tôi có 1 hộp quà.",
+      "textKo": "저는 선물 한 상자가 있습니다.",
+      "audioSrc": "",
+      "sourcePage": 14,
+      "reviewNeeded": false,
+      "pronKo": "또이 꼬 못 홉 꽈",
+      "pronNoteKo": "상자 단위는 hộp입니다.",
+      "pronChunks": [
+        "Tôi có=또이 꼬",
+        "1 hộp quà=못 홉 꽈"
+      ]
+    },
+    {
+      "id": "d2e-s-014",
+      "textVi": "Tôi mua 30 gói mì tôm.",
+      "textKo": "저는 라면 서른 봉지를 삽니다.",
+      "audioSrc": "",
+      "sourcePage": 14,
+      "reviewNeeded": false,
+      "pronKo": "또이 무아 바 므어이 고이 미 똠",
+      "pronNoteKo": "봉지 단위는 gói입니다.",
+      "pronChunks": [
+        "Tôi mua=또이 무아",
+        "30 gói mì tôm=바 므어이 고이 미 똠"
+      ]
+    }
+  ],
+  "dialogues": [
+    {
+      "id": "d2e-d-01",
+      "title": "가게에서 수량 말하기",
+      "audioSrc": "",
+      "sourcePage": 14,
+      "lines": [
+        {
+          "speaker": "A",
+          "vi": "Anh mua gì?",
+          "ko": "무엇을 사요?"
+        },
+        {
+          "speaker": "B",
+          "vi": "Tôi mua 1 cốc cà phê và 2 bát cơm.",
+          "ko": "저는 커피 한 컵과 밥 두 그릇을 삽니다."
+        },
+        {
+          "speaker": "A",
+          "vi": "Anh mua mấy chai bia?",
+          "ko": "맥주 몇 병을 사요?"
+        },
+        {
+          "speaker": "B",
+          "vi": "Tôi mua 10 chai bia.",
+          "ko": "저는 맥주 열 병을 삽니다."
+        }
+      ],
+      "reviewNeeded": false
+    },
+    {
+      "id": "d2e-d-02",
+      "title": "물건 세기",
+      "audioSrc": "",
+      "sourcePage": 14,
+      "lines": [
+        {
+          "speaker": "A",
+          "vi": "Nhà anh có mấy con mèo?",
+          "ko": "집에 고양이가 몇 마리 있어요?"
+        },
+        {
+          "speaker": "B",
+          "vi": "Nhà tôi có 3 con mèo.",
+          "ko": "제 집에는 고양이 세 마리가 있습니다."
+        },
+        {
+          "speaker": "A",
+          "vi": "Anh có mấy quyển sách?",
+          "ko": "책이 몇 권 있어요?"
+        },
+        {
+          "speaker": "B",
+          "vi": "Tôi có 21 quyển sách.",
+          "ko": "저는 책 스물한 권이 있습니다."
+        }
+      ],
+      "reviewNeeded": false
+    }
+  ],
+  "grammarPoints": [
+    {
+      "id": "d2e-g-01",
+      "title": "기본 수량 구조",
+      "pattern": "숫자 + 종별사 + 명사 → 3 con mèo",
+      "sourcePage": 14,
+      "reviewNeeded": false
+    },
+    {
+      "id": "d2e-g-02",
+      "title": "일반 사물",
+      "pattern": "cái / chiếc → 1 cái ô tô, 1 chiếc đồng hồ",
+      "sourcePage": 14,
+      "reviewNeeded": false
+    },
+    {
+      "id": "d2e-g-03",
+      "title": "동물",
+      "pattern": "con → 3 con mèo, 2 con chó",
+      "sourcePage": 14,
+      "reviewNeeded": false
+    },
+    {
+      "id": "d2e-g-04",
+      "title": "책과 종이류",
+      "pattern": "quyển = 권 / tờ = 장 → 21 quyển sách, 1 tờ giấy",
+      "sourcePage": 14,
+      "reviewNeeded": false
+    },
+    {
+      "id": "d2e-g-05",
+      "title": "짝이 있는 물건",
+      "pattern": "đôi → 1 đôi giày, 1 đôi đũa",
+      "sourcePage": 14,
+      "reviewNeeded": false
+    },
+    {
+      "id": "d2e-g-06",
+      "title": "음료와 음식 단위",
+      "pattern": "cốc / chén / chai / bát → 1 cốc sữa, 10 chai bia, 2 bát cơm",
+      "sourcePage": 14,
+      "reviewNeeded": false
+    },
+    {
+      "id": "d2e-g-07",
+      "title": "상자와 봉지",
+      "pattern": "hộp / gói → 1 hộp quà, 30 gói mì tôm",
+      "sourcePage": 14,
+      "reviewNeeded": false
+    }
+  ],
+  "pronunciationTargets": [
+    {
+      "id": "d2e-p-01",
+      "text": "cái / chiếc / con / quyển / đôi",
+      "hintKo": "기본 종별사 5개",
+      "audioSrc": "",
+      "sourcePage": 14,
+      "reviewNeeded": false,
+      "pronKo": "까이 / 찌엑 / 꼰 / 꾸이엔 / 도이",
+      "mouthKo": "chiếc은 짧게 닫고, quyển은 입을 둥글게 시작합니다.",
+      "toneKo": "종별사는 숫자 뒤에서 짧고 또렷하게 말합니다."
+    },
+    {
+      "id": "d2e-p-02",
+      "text": "tờ / bức / quả / bộ / cốc / chén / chai / bát / hộp / gói",
+      "hintKo": "생활 단위 종별사",
+      "audioSrc": "",
+      "sourcePage": 14,
+      "reviewNeeded": false,
+      "pronKo": "떠 / 븍 / 꽈 / 보 / 꼭 / 쩬 / 짜이 / 밧 / 홉 / 고이",
+      "mouthKo": "짧은 단어가 많으니 한 음절씩 또렷하게 발음합니다.",
+      "toneKo": "bát, hộp은 짧게 닫는 느낌입니다."
+    },
+    {
+      "id": "d2e-p-03",
+      "text": "3 con mèo / 21 quyển sách / 10 chai bia / 2 bát cơm",
+      "hintKo": "숫자 + 종별사 + 명사 구조",
+      "audioSrc": "",
+      "sourcePage": 14,
+      "reviewNeeded": false,
+      "pronKo": "바 꼰 메오 / 하이 므어이 못 꾸이엔 삭 / 므어이 짜이 비아 / 하이 밧 껌",
+      "mouthKo": "숫자와 종별사를 끊지 말고 한 덩어리로 읽어 보세요.",
+      "toneKo": "수량 표현은 리듬감 있게 반복하면 잘 외워집니다."
+    }
+  ],
+  "quizSeeds": [
+    {
+      "id": "d2e-q-01",
+      "type": "match-term",
+      "prompt": "2일차 종별사 뜻 매칭",
+      "answerSet": [
+        "cái-일반 사물",
+        "chiếc-일반 사물",
+        "con-동물",
+        "quyển-책/권",
+        "đôi-켤레/쌍",
+        "tờ-종이류/장",
+        "bức-사진·그림/장",
+        "quả-과일/개",
+        "bộ-벌/세트",
+        "cốc-컵",
+        "chén-잔",
+        "chai-병",
+        "bát-그릇",
+        "hộp-상자",
+        "gói-봉지"
+      ],
+      "sourcePage": 14,
+      "reviewNeeded": false
+    },
+    {
+      "id": "d2e-q-02",
+      "type": "match-term",
+      "prompt": "2일차 종별사 예시 매칭",
+      "answerSet": [
+        "1 cái ô tô-자동차 한 대",
+        "3 con mèo-고양이 세 마리",
+        "21 quyển sách-책 스물한 권",
+        "95 đôi giày-신발 아흔다섯 켤레",
+        "101 tờ tạp chí-잡지 101장",
+        "2 bức tranh-그림 두 장",
+        "34 quả đào-복숭아 서른네 개",
+        "5 bộ quần áo-옷 다섯 벌",
+        "1 cốc sữa-우유 한 컵",
+        "10 chai bia-맥주 열 병",
+        "2 bát cơm-밥 두 그릇",
+        "30 gói mì tôm-라면 서른 봉지"
+      ],
+      "sourcePage": 14,
+      "reviewNeeded": false
+    },
+    {
+      "id": "d2e-q-03",
+      "type": "sentence-meaning",
+      "prompt": "2일차 종별사 문장 뜻 고르기",
+      "answerSet": [
+        "Tôi có 1 cái ô tô.-저는 자동차 한 대가 있습니다.",
+        "Nhà tôi có 3 con mèo.-제 집에는 고양이 세 마리가 있습니다.",
+        "Tôi đọc 21 quyển sách.-저는 책 스물한 권을 읽습니다.",
+        "Tôi uống 1 cốc sữa.-저는 우유 한 컵을 마십니다.",
+        "Tôi mua 10 chai bia.-저는 맥주 열 병을 삽니다.",
+        "Tôi ăn 2 bát cơm.-저는 밥 두 그릇을 먹습니다.",
+        "Tôi mua 30 gói mì tôm.-저는 라면 서른 봉지를 삽니다."
+      ],
+      "sourcePage": 14,
+      "reviewNeeded": false
+    }
+  ],
+  "unlockCondition": "complete-previous",
+  "reviewNeeded": false
+    },
+    {
   "lessonId": "d2a",
   "unitLabel": "2일차",
   "titleKo": "2일차: 동사",
