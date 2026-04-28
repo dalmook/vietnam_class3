@@ -377,6 +377,7 @@ class VietnameseA1App {
       const tab = e.target.closest('[data-tab]');
       if (!tab) return;
       if (tab.dataset.tab !== 'study') this.stopStudyAutoplay();
+      if (tab.dataset.tab === 'quiz') this.syncQuizLessonFilterToCurrentLesson();
       this.state.tab = tab.dataset.tab;
       this.render();
     });
@@ -452,7 +453,12 @@ class VietnameseA1App {
   }
 
   handleChange(action, el) {
-    if (action === 'lesson') { this.stopStudyAutoplay(); this.state.lessonId = el.value; this.resetStudyIndexes(); }
+    if (action === 'lesson') {
+      this.stopStudyAutoplay();
+      this.state.lessonId = el.value;
+      this.syncQuizLessonFilterToCurrentLesson();
+      this.resetStudyIndexes();
+    }
     if (action === 'quizLesson') this.state.quizLessonFilter = el.value;
     if (action === 'grammarFilter') this.state.grammarLessonFilter = el.value;
     if (action === 'searchInput') this.state.searchQuery = el.value;
@@ -1609,6 +1615,17 @@ class VietnameseA1App {
     const all = [...this.state.flat.vocab, ...this.state.flat.sentence];
     if (this.state.quizLessonFilter === 'all') return all;
     return all.filter((x) => x.lessonId === this.state.quizLessonFilter);
+  }
+
+  syncQuizLessonFilterToCurrentLesson() {
+    const lessonIds = new Set((this.state.flat.lessons || []).map((x) => x.lessonId));
+    if (this.state.lessonId && lessonIds.has(this.state.lessonId)) {
+      this.state.quizLessonFilter = this.state.lessonId;
+      return;
+    }
+    if (this.state.quizLessonFilter !== 'all' && !lessonIds.has(this.state.quizLessonFilter)) {
+      this.state.quizLessonFilter = this.state.flat.lessons?.[0]?.lessonId || 'all';
+    }
   }
 
   shuffle(arr) { return [...arr].sort(() => Math.random() - 0.5); }
