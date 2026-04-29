@@ -472,7 +472,7 @@ class VietnameseA1App {
     if (action === 'grammarFilter') this.state.grammarLessonFilter = el.value;
     if (action === 'searchInput') {
       this.state.searchQuery = el.value;
-      if (live) return this.runSearch();
+      if (live) return this.runSearch({ live: true });
     }
     if (action === 'speechRate') this.settings.speechRate = Number(el.value);
     if (action === 'autoShowMeaning') this.settings.autoShowMeaning = el.checked;
@@ -810,9 +810,13 @@ class VietnameseA1App {
     </div>`;
   }
 
+  renderSearchResults() {
+    return this.state.searchResults.map((r) => `<div class="card list-item"><span class="badge">${r.lessonTitle}</span><h3>${r.term || r.textVi}</h3><p>${r.meaningKo || r.textKo || ''}</p><button data-action="jump:${r.id}">바로 학습</button></div>`).join('');
+  }
+
   renderSearch() {
     this.appEl.innerHTML = `<section class="fade"><div class="card"><input class="input" data-change="searchInput" value="${this.state.searchQuery}" placeholder="베트남어/한국어 검색 (예: khoe, khỏe)" /><button class="primary" data-action="search">검색</button></div>
-      ${this.state.searchResults.map((r) => `<div class="card list-item"><span class="badge">${r.lessonTitle}</span><h3>${r.term || r.textVi}</h3><p>${r.meaningKo || r.textKo || ''}</p><button data-action="jump:${r.id}">바로 학습</button></div>`).join('')}</section>`;
+      <div id="search-results">${this.renderSearchResults()}</div></section>`;
   }
 
   renderBookmark() {
@@ -1105,11 +1109,16 @@ class VietnameseA1App {
     this.render();
   }
 
-  runSearch() {
+  runSearch(options = {}) {
+    const { live = false } = options;
     const q = this.normalize(this.state.searchQuery.trim());
     const list = [...this.state.flat.vocab, ...this.state.flat.sentence];
     this.state.searchResults = list.filter((x) => this.normalize(x.term || x.textVi || '').includes(q) || (x.meaningKo || x.textKo || '').toLowerCase().includes(this.state.searchQuery.toLowerCase())).slice(0, 60);
-    this.render();
+    if (!live) return this.render();
+    const container = this.appEl.querySelector('#search-results');
+    if (!container || this.state.tab !== 'search') return this.render();
+    container.innerHTML = this.renderSearchResults();
+    this.bindRenderedEvents();
   }
 
   jumpToItem(id) {
