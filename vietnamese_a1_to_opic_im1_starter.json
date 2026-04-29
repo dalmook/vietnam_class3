@@ -19,6 +19,1143 @@
   },
   "lessons": [
     {
+  "lessonId": "d3a",
+  "unitLabel": "3일차",
+  "titleKo": "3일차: 접속사",
+  "titleVi": "Liên từ",
+  "pageRange": "11",
+  "goals": [
+    "베트남어 기본 접속사 và, hoặc, nhưng, nên 익히기",
+    "이유, 결과, 조건, 목적을 연결하는 문장 만들기",
+    "Mặc dù ... nhưng ..., Nếu ... thì ... 같은 긴 연결 구조 이해하기",
+    "OPIc 답변에서 짧은 문장을 자연스럽게 이어 말하기"
+  ],
+  "topicOverview": "베트남어 문장을 길고 자연스럽게 만들기 위한 접속사 학습입니다. 그리고, 또는, 하지만, 그래서, 왜냐하면, 만약, ~하기 위해서 같은 기본 연결 표현을 익힙니다.",
+  "cultureTopics": [
+    "일상 대화에서 이유 말하기",
+    "OPIc 답변 길게 만들기",
+    "조건과 결과 말하기",
+    "목적 표현하기",
+    "동시에 하는 행동 말하기"
+  ],
+  "vocabCards": [
+    {
+      "id": "d3a-v-001",
+      "term": "và",
+      "meaningKo": "그리고 / 와 / 과",
+      "example": "Tôi ăn cơm và uống nước.",
+      "exampleMeaningKo": "저는 밥을 먹고 물을 마십니다.",
+      "audioSrc": "",
+      "sourcePage": 11,
+      "reviewNeeded": false,
+      "pronKo": "바",
+      "pronNoteKo": "가장 기본적인 연결어입니다. 단어와 단어, 문장과 문장을 연결합니다.",
+      "pronChunks": [
+        "và=바"
+      ]
+    },
+    {
+      "id": "d3a-v-002",
+      "term": "hoặc",
+      "meaningKo": "또는 / 아니면",
+      "example": "Tôi uống cà phê hoặc trà.",
+      "exampleMeaningKo": "저는 커피 또는 차를 마십니다.",
+      "audioSrc": "",
+      "sourcePage": 11,
+      "reviewNeeded": false,
+      "pronKo": "호억",
+      "pronNoteKo": "둘 중 하나를 말할 때 씁니다.",
+      "pronChunks": [
+        "hoặc=호억"
+      ]
+    },
+    {
+      "id": "d3a-v-003",
+      "term": "hoặc là",
+      "meaningKo": "또는 / 아니면",
+      "example": "Tôi đi công ty hoặc là ở nhà.",
+      "exampleMeaningKo": "저는 회사에 가거나 집에 있습니다.",
+      "audioSrc": "",
+      "sourcePage": 11,
+      "reviewNeeded": false,
+      "pronKo": "호억 라",
+      "pronNoteKo": "hoặc과 비슷하지만 조금 더 풀어서 말하는 느낌입니다.",
+      "pronChunks": [
+        "hoặc=호억",
+        "là=라"
+      ]
+    },
+    {
+      "id": "d3a-v-004",
+      "term": "nhưng",
+      "meaningKo": "하지만 / 그런데",
+      "example": "Tôi thích cà phê nhưng tôi không uống nhiều.",
+      "exampleMeaningKo": "저는 커피를 좋아하지만 많이 마시지는 않습니다.",
+      "audioSrc": "",
+      "sourcePage": 11,
+      "reviewNeeded": false,
+      "pronKo": "능",
+      "pronNoteKo": "앞 문장과 반대되는 내용을 말할 때 씁니다.",
+      "pronChunks": [
+        "nhưng=능"
+      ]
+    },
+    {
+      "id": "d3a-v-005",
+      "term": "Mặc dù ... nhưng ...",
+      "meaningKo": "비록 ~하지만 / ~에도 불구하고",
+      "example": "Mặc dù tôi bận nhưng tôi học tiếng Việt.",
+      "exampleMeaningKo": "저는 바쁘지만 베트남어를 공부합니다.",
+      "audioSrc": "",
+      "sourcePage": 11,
+      "reviewNeeded": false,
+      "pronKo": "막 주 ... 능",
+      "pronNoteKo": "양보 표현입니다. 초보자는 ‘~하지만’으로 먼저 이해하면 됩니다.",
+      "pronChunks": [
+        "Mặc dù=막 주",
+        "nhưng=능"
+      ]
+    },
+    {
+      "id": "d3a-v-006",
+      "term": "Tuy ... nhưng ...",
+      "meaningKo": "비록 ~하지만",
+      "example": "Tuy trời mưa nhưng tôi đi làm.",
+      "exampleMeaningKo": "비가 오지만 저는 출근합니다.",
+      "audioSrc": "",
+      "sourcePage": 11,
+      "reviewNeeded": false,
+      "pronKo": "뚜이 ... 능",
+      "pronNoteKo": "Mặc dù ... nhưng ... 과 비슷한 구조입니다.",
+      "pronChunks": [
+        "Tuy=뚜이",
+        "nhưng=능"
+      ]
+    },
+    {
+      "id": "d3a-v-007",
+      "term": "nên",
+      "meaningKo": "그래서 / 그러므로",
+      "example": "Tôi mệt nên tôi ngủ sớm.",
+      "exampleMeaningKo": "저는 피곤해서 일찍 잡니다.",
+      "audioSrc": "",
+      "sourcePage": 11,
+      "reviewNeeded": false,
+      "pronKo": "넨",
+      "pronNoteKo": "앞 문장의 결과를 뒤에 말할 때 씁니다.",
+      "pronChunks": [
+        "nên=넨"
+      ]
+    },
+    {
+      "id": "d3a-v-008",
+      "term": "vì",
+      "meaningKo": "왜냐하면 / ~때문에",
+      "example": "Tôi học tiếng Việt vì tôi muốn đi Việt Nam.",
+      "exampleMeaningKo": "저는 베트남에 가고 싶어서 베트남어를 공부합니다.",
+      "audioSrc": "",
+      "sourcePage": 11,
+      "reviewNeeded": false,
+      "pronKo": "비",
+      "pronNoteKo": "이유를 말할 때 가장 기본으로 씁니다.",
+      "pronChunks": [
+        "vì=비"
+      ]
+    },
+    {
+      "id": "d3a-v-009",
+      "term": "tại vì",
+      "meaningKo": "왜냐하면 / ~때문에",
+      "example": "Tôi không đi vì tôi bận.",
+      "exampleMeaningKo": "저는 바빠서 가지 않습니다.",
+      "audioSrc": "",
+      "sourcePage": 11,
+      "reviewNeeded": false,
+      "pronKo": "따이 비",
+      "pronNoteKo": "vì보다 조금 더 분명하게 이유를 말하는 느낌입니다.",
+      "pronChunks": [
+        "tại=따이",
+        "vì=비"
+      ]
+    },
+    {
+      "id": "d3a-v-010",
+      "term": "bởi vì",
+      "meaningKo": "왜냐하면 / ~때문에",
+      "example": "Tôi thích phở bởi vì phở rất ngon.",
+      "exampleMeaningKo": "쌀국수가 매우 맛있기 때문에 저는 쌀국수를 좋아합니다.",
+      "audioSrc": "",
+      "sourcePage": 11,
+      "reviewNeeded": false,
+      "pronKo": "버이 비",
+      "pronNoteKo": "이유 설명에 쓰는 표현입니다.",
+      "pronChunks": [
+        "bởi=버이",
+        "vì=비"
+      ]
+    },
+    {
+      "id": "d3a-v-011",
+      "term": "vì ... nên ...",
+      "meaningKo": "~때문에 그래서 ...",
+      "example": "Vì tôi bận nên tôi không đi.",
+      "exampleMeaningKo": "저는 바쁘기 때문에 가지 않습니다.",
+      "audioSrc": "",
+      "sourcePage": 11,
+      "reviewNeeded": false,
+      "pronKo": "비 ... 넨",
+      "pronNoteKo": "이유와 결과를 한 문장으로 연결합니다.",
+      "pronChunks": [
+        "vì=비",
+        "nên=넨"
+      ]
+    },
+    {
+      "id": "d3a-v-012",
+      "term": "Nếu ... thì ...",
+      "meaningKo": "만약 ~하면 ...",
+      "example": "Nếu trời mưa thì tôi ở nhà.",
+      "exampleMeaningKo": "만약 비가 오면 저는 집에 있습니다.",
+      "audioSrc": "",
+      "sourcePage": 11,
+      "reviewNeeded": false,
+      "pronKo": "네우 ... 티",
+      "pronNoteKo": "조건문입니다. thì는 생략되기도 합니다.",
+      "pronChunks": [
+        "Nếu=네우",
+        "thì=티"
+      ]
+    },
+    {
+      "id": "d3a-v-013",
+      "term": "thì",
+      "meaningKo": "그러면 / ~라면 / 은·는",
+      "example": "Nếu rảnh thì tôi học tiếng Việt.",
+      "exampleMeaningKo": "시간이 있으면 저는 베트남어를 공부합니다.",
+      "audioSrc": "",
+      "sourcePage": 11,
+      "reviewNeeded": false,
+      "pronKo": "티",
+      "pronNoteKo": "조건 결과를 받을 때 자주 씁니다. 문맥에 따라 은/는 느낌도 있습니다.",
+      "pronChunks": [
+        "thì=티"
+      ]
+    },
+    {
+      "id": "d3a-v-014",
+      "term": "để",
+      "meaningKo": "~하기 위해서",
+      "example": "Tôi học tiếng Việt để đi Việt Nam.",
+      "exampleMeaningKo": "저는 베트남에 가기 위해 베트남어를 공부합니다.",
+      "audioSrc": "",
+      "sourcePage": 11,
+      "reviewNeeded": false,
+      "pronKo": "데",
+      "pronNoteKo": "목적을 말할 때 씁니다.",
+      "pronChunks": [
+        "để=데"
+      ]
+    },
+    {
+      "id": "d3a-v-015",
+      "term": "nhằm mục đích",
+      "meaningKo": "~을 목적으로 / ~하기 위한 목적으로",
+      "example": "Tôi học tiếng Việt nhằm mục đích thi OPIc.",
+      "exampleMeaningKo": "저는 OPIc 시험을 목적으로 베트남어를 공부합니다.",
+      "audioSrc": "",
+      "sourcePage": 11,
+      "reviewNeeded": false,
+      "pronKo": "냠 묵 딕",
+      "pronNoteKo": "để보다 딱딱하고 공식적인 목적 표현입니다.",
+      "pronChunks": [
+        "nhằm=냠",
+        "mục đích=묵 딕"
+      ]
+    },
+    {
+      "id": "d3a-v-016",
+      "term": "lúc",
+      "meaningKo": "~할 때",
+      "example": "Lúc tôi ăn cơm, tôi xem YouTube.",
+      "exampleMeaningKo": "밥 먹을 때 저는 유튜브를 봅니다.",
+      "audioSrc": "",
+      "sourcePage": 11,
+      "reviewNeeded": false,
+      "pronKo": "룩",
+      "pronNoteKo": "시간의 순간을 말할 때 씁니다.",
+      "pronChunks": [
+        "lúc=룩"
+      ]
+    },
+    {
+      "id": "d3a-v-017",
+      "term": "trong lúc",
+      "meaningKo": "~하는 동안",
+      "example": "Trong lúc tôi học, tôi nghe nhạc.",
+      "exampleMeaningKo": "공부하는 동안 저는 음악을 듣습니다.",
+      "audioSrc": "",
+      "sourcePage": 11,
+      "reviewNeeded": false,
+      "pronKo": "쫑 룩",
+      "pronNoteKo": "어떤 행동이 진행되는 동안을 말합니다.",
+      "pronChunks": [
+        "trong=쫑",
+        "lúc=룩"
+      ]
+    },
+    {
+      "id": "d3a-v-018",
+      "term": "khi",
+      "meaningKo": "~할 때",
+      "example": "Khi tôi rảnh, tôi học tiếng Việt.",
+      "exampleMeaningKo": "시간이 있을 때 저는 베트남어를 공부합니다.",
+      "audioSrc": "",
+      "sourcePage": 11,
+      "reviewNeeded": false,
+      "pronKo": "키",
+      "pronNoteKo": "lúc과 비슷하게 ‘~할 때’라는 뜻입니다.",
+      "pronChunks": [
+        "khi=키"
+      ]
+    },
+    {
+      "id": "d3a-v-019",
+      "term": "trong khi",
+      "meaningKo": "~하는 동안 / 반면에",
+      "example": "Trong khi tôi học, vợ tôi xem TV.",
+      "exampleMeaningKo": "제가 공부하는 동안 제 아내는 TV를 봅니다.",
+      "audioSrc": "",
+      "sourcePage": 11,
+      "reviewNeeded": false,
+      "pronKo": "쫑 키",
+      "pronNoteKo": "동시에 진행되는 행동이나 대비되는 상황을 말할 때 씁니다.",
+      "pronChunks": [
+        "trong=쫑",
+        "khi=키"
+      ]
+    },
+    {
+      "id": "d3a-v-020",
+      "term": "như",
+      "meaningKo": "~처럼 / 예를 들어",
+      "example": "Tôi thích đồ ăn Việt Nam, như phở và bánh mì.",
+      "exampleMeaningKo": "저는 쌀국수와 반미 같은 베트남 음식을 좋아합니다.",
+      "audioSrc": "",
+      "sourcePage": 11,
+      "reviewNeeded": false,
+      "pronKo": "느",
+      "pronNoteKo": "예시를 들거나 비교할 때 씁니다.",
+      "pronChunks": [
+        "như=느"
+      ]
+    },
+    {
+      "id": "d3a-v-021",
+      "term": "như là",
+      "meaningKo": "~와 같은 / 예를 들면",
+      "example": "Tôi thích đồ uống như là cà phê và trà sữa.",
+      "exampleMeaningKo": "저는 커피와 밀크티 같은 음료를 좋아합니다.",
+      "audioSrc": "",
+      "sourcePage": 11,
+      "reviewNeeded": false,
+      "pronKo": "느 라",
+      "pronNoteKo": "như보다 조금 더 풀어서 말하는 예시 표현입니다.",
+      "pronChunks": [
+        "như=느",
+        "là=라"
+      ]
+    },
+    {
+      "id": "d3a-v-022",
+      "term": "không những ... mà còn ... nữa",
+      "meaningKo": "~뿐만 아니라 ...도",
+      "example": "Tôi không những học tiếng Việt mà còn học tiếng Anh nữa.",
+      "exampleMeaningKo": "저는 베트남어뿐만 아니라 영어도 공부합니다.",
+      "audioSrc": "",
+      "sourcePage": 11,
+      "reviewNeeded": false,
+      "pronKo": "콩 능 ... 마 꼰 ... 느어",
+      "pronNoteKo": "두 가지를 강조해서 말할 때 씁니다. 초보자는 통째로 패턴 암기하면 좋습니다.",
+      "pronChunks": [
+        "không những=콩 능",
+        "mà còn=마 꼰",
+        "nữa=느어"
+      ]
+    },
+    {
+      "id": "d3a-v-023",
+      "term": "càng ... càng ...",
+      "meaningKo": "~할수록 더욱 ...",
+      "example": "Tôi càng học càng thích tiếng Việt.",
+      "exampleMeaningKo": "저는 공부할수록 베트남어가 더 좋아집니다.",
+      "audioSrc": "",
+      "sourcePage": 11,
+      "reviewNeeded": false,
+      "pronKo": "깡 ... 깡",
+      "pronNoteKo": "변화가 점점 커지는 느낌입니다.",
+      "pronChunks": [
+        "càng=깡"
+      ]
+    },
+    {
+      "id": "d3a-v-024",
+      "term": "vừa ... vừa ...",
+      "meaningKo": "~하면서 동시에 ...하다",
+      "example": "Tôi vừa ăn cơm vừa xem TV.",
+      "exampleMeaningKo": "저는 밥을 먹으면서 TV를 봅니다.",
+      "audioSrc": "",
+      "sourcePage": 11,
+      "reviewNeeded": false,
+      "pronKo": "브어 ... 브어",
+      "pronNoteKo": "동시에 두 행동을 할 때 씁니다.",
+      "pronChunks": [
+        "vừa=브어"
+      ]
+    },
+    {
+      "id": "d3a-v-025",
+      "term": "hoặc ... hoặc ...",
+      "meaningKo": "~이거나 ~이다 / 둘 중 하나",
+      "example": "Cuối tuần tôi hoặc học tiếng Việt hoặc đi cà phê.",
+      "exampleMeaningKo": "주말에 저는 베트남어를 공부하거나 카페에 갑니다.",
+      "audioSrc": "",
+      "sourcePage": 11,
+      "reviewNeeded": false,
+      "pronKo": "호억 ... 호억",
+      "pronNoteKo": "두 선택지를 분명하게 나눌 때 씁니다.",
+      "pronChunks": [
+        "hoặc=호억"
+      ]
+    }
+  ],
+  "sentenceCards": [
+    {
+      "id": "d3a-s-001",
+      "textVi": "Tôi ăn cơm và uống nước.",
+      "textKo": "저는 밥을 먹고 물을 마십니다.",
+      "audioSrc": "",
+      "sourcePage": 11,
+      "reviewNeeded": false,
+      "pronKo": "또이 안 껌 바 우옹 느억",
+      "pronNoteKo": "và는 그리고입니다.",
+      "pronChunks": [
+        "Tôi ăn cơm=또이 안 껌",
+        "và=바",
+        "uống nước=우옹 느억"
+      ]
+    },
+    {
+      "id": "d3a-s-002",
+      "textVi": "Tôi học tiếng Việt và tiếng Anh.",
+      "textKo": "저는 베트남어와 영어를 공부합니다.",
+      "audioSrc": "",
+      "sourcePage": 11,
+      "reviewNeeded": false,
+      "pronKo": "또이 혹 띠엥 비엣 바 띠엥 아인",
+      "pronNoteKo": "명사와 명사를 연결할 수도 있습니다.",
+      "pronChunks": [
+        "Tôi học=또이 혹",
+        "tiếng Việt=띠엥 비엣",
+        "và tiếng Anh=바 띠엥 아인"
+      ]
+    },
+    {
+      "id": "d3a-s-003",
+      "textVi": "Tôi uống cà phê hoặc trà.",
+      "textKo": "저는 커피 또는 차를 마십니다.",
+      "audioSrc": "",
+      "sourcePage": 11,
+      "reviewNeeded": false,
+      "pronKo": "또이 우옹 까 페 호억 짜",
+      "pronNoteKo": "hoặc은 또는입니다.",
+      "pronChunks": [
+        "Tôi uống=또이 우옹",
+        "cà phê=까 페",
+        "hoặc trà=호억 짜"
+      ]
+    },
+    {
+      "id": "d3a-s-004",
+      "textVi": "Anh muốn uống cà phê hoặc là trà sữa?",
+      "textKo": "커피를 마시고 싶어요, 아니면 밀크티를 마시고 싶어요?",
+      "audioSrc": "",
+      "sourcePage": 11,
+      "reviewNeeded": false,
+      "pronKo": "아인 무온 우옹 까 페 호억 라 짜 쓰어",
+      "pronNoteKo": "선택 질문처럼 쓸 수 있습니다.",
+      "pronChunks": [
+        "Anh muốn uống=아인 무온 우옹",
+        "cà phê=까 페",
+        "hoặc là trà sữa=호억 라 짜 쓰어"
+      ]
+    },
+    {
+      "id": "d3a-s-005",
+      "textVi": "Tôi thích cà phê nhưng tôi không uống nhiều.",
+      "textKo": "저는 커피를 좋아하지만 많이 마시지는 않습니다.",
+      "audioSrc": "",
+      "sourcePage": 11,
+      "reviewNeeded": false,
+      "pronKo": "또이 틱 까 페 능 또이 콩 우옹 니에우",
+      "pronNoteKo": "nhưng은 반대 내용을 연결합니다.",
+      "pronChunks": [
+        "Tôi thích cà phê=또이 틱 까 페",
+        "nhưng=능",
+        "tôi không uống nhiều=또이 콩 우옹 니에우"
+      ]
+    },
+    {
+      "id": "d3a-s-006",
+      "textVi": "Mặc dù tôi bận nhưng tôi học tiếng Việt.",
+      "textKo": "저는 바쁘지만 베트남어를 공부합니다.",
+      "audioSrc": "",
+      "sourcePage": 11,
+      "reviewNeeded": false,
+      "pronKo": "막 주 또이 번 능 또이 혹 띠엥 비엣",
+      "pronNoteKo": "Mặc dù ... nhưng ... 은 비록 ~하지만입니다.",
+      "pronChunks": [
+        "Mặc dù tôi bận=막 주 또이 번",
+        "nhưng=능",
+        "tôi học tiếng Việt=또이 혹 띠엥 비엣"
+      ]
+    },
+    {
+      "id": "d3a-s-007",
+      "textVi": "Tuy trời mưa nhưng tôi đi làm.",
+      "textKo": "비가 오지만 저는 출근합니다.",
+      "audioSrc": "",
+      "sourcePage": 11,
+      "reviewNeeded": false,
+      "pronKo": "뚜이 쩌이 므어 능 또이 디 람",
+      "pronNoteKo": "Tuy ... nhưng ... 도 양보 표현입니다.",
+      "pronChunks": [
+        "Tuy trời mưa=뚜이 쩌이 므어",
+        "nhưng=능",
+        "tôi đi làm=또이 디 람"
+      ]
+    },
+    {
+      "id": "d3a-s-008",
+      "textVi": "Tôi mệt nên tôi ngủ sớm.",
+      "textKo": "저는 피곤해서 일찍 잡니다.",
+      "audioSrc": "",
+      "sourcePage": 11,
+      "reviewNeeded": false,
+      "pronKo": "또이 멧 넨 또이 응우 섬",
+      "pronNoteKo": "nên은 결과를 연결합니다.",
+      "pronChunks": [
+        "Tôi mệt=또이 멧",
+        "nên=넨",
+        "tôi ngủ sớm=또이 응우 섬"
+      ]
+    },
+    {
+      "id": "d3a-s-009",
+      "textVi": "Tôi học tiếng Việt vì tôi muốn đi Việt Nam.",
+      "textKo": "저는 베트남에 가고 싶어서 베트남어를 공부합니다.",
+      "audioSrc": "",
+      "sourcePage": 11,
+      "reviewNeeded": false,
+      "pronKo": "또이 혹 띠엥 비엣 비 또이 무온 디 비엣 남",
+      "pronNoteKo": "vì 뒤에는 이유가 옵니다.",
+      "pronChunks": [
+        "Tôi học tiếng Việt=또이 혹 띠엥 비엣",
+        "vì=비",
+        "tôi muốn đi Việt Nam=또이 무온 디 비엣 남"
+      ]
+    },
+    {
+      "id": "d3a-s-010",
+      "textVi": "Vì tôi bận nên tôi không đi.",
+      "textKo": "저는 바쁘기 때문에 가지 않습니다.",
+      "audioSrc": "",
+      "sourcePage": 11,
+      "reviewNeeded": false,
+      "pronKo": "비 또이 번 넨 또이 콩 디",
+      "pronNoteKo": "vì ... nên ... 은 이유와 결과를 한 번에 말합니다.",
+      "pronChunks": [
+        "Vì tôi bận=비 또이 번",
+        "nên=넨",
+        "tôi không đi=또이 콩 디"
+      ]
+    },
+    {
+      "id": "d3a-s-011",
+      "textVi": "Tôi thích phở bởi vì phở rất ngon.",
+      "textKo": "쌀국수가 매우 맛있기 때문에 저는 쌀국수를 좋아합니다.",
+      "audioSrc": "",
+      "sourcePage": 11,
+      "reviewNeeded": false,
+      "pronKo": "또이 틱 퍼 버이 비 퍼 젓 응온",
+      "pronNoteKo": "bởi vì는 이유를 말합니다.",
+      "pronChunks": [
+        "Tôi thích phở=또이 틱 퍼",
+        "bởi vì=버이 비",
+        "phở rất ngon=퍼 젓 응온"
+      ]
+    },
+    {
+      "id": "d3a-s-012",
+      "textVi": "Nếu trời mưa thì tôi ở nhà.",
+      "textKo": "만약 비가 오면 저는 집에 있습니다.",
+      "audioSrc": "",
+      "sourcePage": 11,
+      "reviewNeeded": false,
+      "pronKo": "네우 쩌이 므어 티 또이 어 냐",
+      "pronNoteKo": "Nếu ... thì ... 은 조건문입니다.",
+      "pronChunks": [
+        "Nếu trời mưa=네우 쩌이 므어",
+        "thì=티",
+        "tôi ở nhà=또이 어 냐"
+      ]
+    },
+    {
+      "id": "d3a-s-013",
+      "textVi": "Nếu rảnh thì tôi học tiếng Việt.",
+      "textKo": "시간이 있으면 저는 베트남어를 공부합니다.",
+      "audioSrc": "",
+      "sourcePage": 11,
+      "reviewNeeded": false,
+      "pronKo": "네우 자잉 티 또이 혹 띠엥 비엣",
+      "pronNoteKo": "rảnh는 한가하다, 시간이 있다는 뜻입니다.",
+      "pronChunks": [
+        "Nếu rảnh=네우 자잉",
+        "thì=티",
+        "tôi học tiếng Việt=또이 혹 띠엥 비엣"
+      ]
+    },
+    {
+      "id": "d3a-s-014",
+      "textVi": "Tôi học tiếng Việt để thi OPIc.",
+      "textKo": "저는 OPIc 시험을 보기 위해 베트남어를 공부합니다.",
+      "audioSrc": "",
+      "sourcePage": 11,
+      "reviewNeeded": false,
+      "pronKo": "또이 혹 띠엥 비엣 데 티 오픽",
+      "pronNoteKo": "để는 목적입니다.",
+      "pronChunks": [
+        "Tôi học tiếng Việt=또이 혹 띠엥 비엣",
+        "để=데",
+        "thi OPIc=티 오픽"
+      ]
+    },
+    {
+      "id": "d3a-s-015",
+      "textVi": "Tôi đi ngân hàng để kiểm tra tài khoản.",
+      "textKo": "저는 계좌를 확인하기 위해 은행에 갑니다.",
+      "audioSrc": "",
+      "sourcePage": 11,
+      "reviewNeeded": false,
+      "pronKo": "또이 디 응언 항 데 끼엠 짜 따이 꽌",
+      "pronNoteKo": "để 뒤에는 목적 행동이 옵니다.",
+      "pronChunks": [
+        "Tôi đi ngân hàng=또이 디 응언 항",
+        "để=데",
+        "kiểm tra tài khoản=끼엠 짜 따이 꽌"
+      ]
+    },
+    {
+      "id": "d3a-s-016",
+      "textVi": "Tôi học tiếng Việt nhằm mục đích thi OPIc.",
+      "textKo": "저는 OPIc 시험을 목적으로 베트남어를 공부합니다.",
+      "audioSrc": "",
+      "sourcePage": 11,
+      "reviewNeeded": false,
+      "pronKo": "또이 혹 띠엥 비엣 냠 묵 딕 티 오픽",
+      "pronNoteKo": "nhằm mục đích은 공식적인 목적 표현입니다.",
+      "pronChunks": [
+        "Tôi học tiếng Việt=또이 혹 띠엥 비엣",
+        "nhằm mục đích=냠 묵 딕",
+        "thi OPIc=티 오픽"
+      ]
+    },
+    {
+      "id": "d3a-s-017",
+      "textVi": "Lúc tôi ăn cơm, tôi xem YouTube.",
+      "textKo": "밥 먹을 때 저는 유튜브를 봅니다.",
+      "audioSrc": "",
+      "sourcePage": 11,
+      "reviewNeeded": false,
+      "pronKo": "룩 또이 안 껌 또이 셈 유튜브",
+      "pronNoteKo": "lúc은 ~할 때입니다.",
+      "pronChunks": [
+        "Lúc tôi ăn cơm=룩 또이 안 껌",
+        "tôi xem YouTube=또이 셈 유튜브"
+      ]
+    },
+    {
+      "id": "d3a-s-018",
+      "textVi": "Trong lúc tôi học, tôi nghe nhạc.",
+      "textKo": "공부하는 동안 저는 음악을 듣습니다.",
+      "audioSrc": "",
+      "sourcePage": 11,
+      "reviewNeeded": false,
+      "pronKo": "쫑 룩 또이 혹 또이 응에 냑",
+      "pronNoteKo": "trong lúc은 ~하는 동안입니다.",
+      "pronChunks": [
+        "Trong lúc tôi học=쫑 룩 또이 혹",
+        "tôi nghe nhạc=또이 응에 냑"
+      ]
+    },
+    {
+      "id": "d3a-s-019",
+      "textVi": "Khi tôi rảnh, tôi đi cà phê.",
+      "textKo": "시간이 있을 때 저는 카페에 갑니다.",
+      "audioSrc": "",
+      "sourcePage": 11,
+      "reviewNeeded": false,
+      "pronKo": "키 또이 자잉 또이 디 까 페",
+      "pronNoteKo": "khi는 ~할 때입니다.",
+      "pronChunks": [
+        "Khi tôi rảnh=키 또이 자잉",
+        "tôi đi cà phê=또이 디 까 페"
+      ]
+    },
+    {
+      "id": "d3a-s-020",
+      "textVi": "Trong khi tôi học, vợ tôi xem TV.",
+      "textKo": "제가 공부하는 동안 제 아내는 TV를 봅니다.",
+      "audioSrc": "",
+      "sourcePage": 11,
+      "reviewNeeded": false,
+      "pronKo": "쫑 키 또이 혹 버 또이 셈 티비",
+      "pronNoteKo": "trong khi는 동시에 일어나는 상황을 말합니다.",
+      "pronChunks": [
+        "Trong khi tôi học=쫑 키 또이 혹",
+        "vợ tôi xem TV=버 또이 셈 티비"
+      ]
+    },
+    {
+      "id": "d3a-s-021",
+      "textVi": "Tôi thích đồ ăn Việt Nam, như phở và bánh mì.",
+      "textKo": "저는 쌀국수와 반미 같은 베트남 음식을 좋아합니다.",
+      "audioSrc": "",
+      "sourcePage": 11,
+      "reviewNeeded": false,
+      "pronKo": "또이 틱 도 안 비엣 남 느 퍼 바 바잉 미",
+      "pronNoteKo": "như는 예시를 들 때 씁니다.",
+      "pronChunks": [
+        "Tôi thích đồ ăn Việt Nam=또이 틱 도 안 비엣 남",
+        "như=느",
+        "phở và bánh mì=퍼 바 바잉 미"
+      ]
+    },
+    {
+      "id": "d3a-s-022",
+      "textVi": "Tôi thích đồ uống như là cà phê và trà sữa.",
+      "textKo": "저는 커피와 밀크티 같은 음료를 좋아합니다.",
+      "audioSrc": "",
+      "sourcePage": 11,
+      "reviewNeeded": false,
+      "pronKo": "또이 틱 도 우옹 느 라 까 페 바 짜 쓰어",
+      "pronNoteKo": "như là는 예를 들면이라는 느낌입니다.",
+      "pronChunks": [
+        "Tôi thích đồ uống=또이 틱 도 우옹",
+        "như là=느 라",
+        "cà phê và trà sữa=까 페 바 짜 쓰어"
+      ]
+    },
+    {
+      "id": "d3a-s-023",
+      "textVi": "Tôi không những học tiếng Việt mà còn học tiếng Anh nữa.",
+      "textKo": "저는 베트남어뿐만 아니라 영어도 공부합니다.",
+      "audioSrc": "",
+      "sourcePage": 11,
+      "reviewNeeded": false,
+      "pronKo": "또이 콩 능 혹 띠엥 비엣 마 꼰 혹 띠엥 아인 느어",
+      "pronNoteKo": "강조 연결 표현입니다.",
+      "pronChunks": [
+        "Tôi không những học tiếng Việt=또이 콩 능 혹 띠엥 비엣",
+        "mà còn học tiếng Anh nữa=마 꼰 혹 띠엥 아인 느어"
+      ]
+    },
+    {
+      "id": "d3a-s-024",
+      "textVi": "Tôi càng học càng thích tiếng Việt.",
+      "textKo": "저는 공부할수록 베트남어가 더 좋아집니다.",
+      "audioSrc": "",
+      "sourcePage": 11,
+      "reviewNeeded": false,
+      "pronKo": "또이 깡 혹 깡 틱 띠엥 비엣",
+      "pronNoteKo": "càng ... càng ... 은 ~할수록 더 ...입니다.",
+      "pronChunks": [
+        "Tôi càng học=또이 깡 혹",
+        "càng thích tiếng Việt=깡 틱 띠엥 비엣"
+      ]
+    },
+    {
+      "id": "d3a-s-025",
+      "textVi": "Tôi vừa ăn cơm vừa xem TV.",
+      "textKo": "저는 밥을 먹으면서 TV를 봅니다.",
+      "audioSrc": "",
+      "sourcePage": 11,
+      "reviewNeeded": false,
+      "pronKo": "또이 브어 안 껌 브어 셈 티비",
+      "pronNoteKo": "vừa ... vừa ... 은 동시에 두 행동을 말합니다.",
+      "pronChunks": [
+        "Tôi vừa ăn cơm=또이 브어 안 껌",
+        "vừa xem TV=브어 셈 티비"
+      ]
+    },
+    {
+      "id": "d3a-s-026",
+      "textVi": "Cuối tuần tôi hoặc học tiếng Việt hoặc đi cà phê.",
+      "textKo": "주말에 저는 베트남어를 공부하거나 카페에 갑니다.",
+      "audioSrc": "",
+      "sourcePage": 11,
+      "reviewNeeded": false,
+      "pronKo": "꾸오이 뚜언 또이 호억 혹 띠엥 비엣 호억 디 까 페",
+      "pronNoteKo": "hoặc ... hoặc ... 은 둘 중 하나를 말합니다.",
+      "pronChunks": [
+        "Cuối tuần=꾸오이 뚜언",
+        "hoặc học tiếng Việt=호억 혹 띠엥 비엣",
+        "hoặc đi cà phê=호억 디 까 페"
+      ]
+    }
+  ],
+  "dialogues": [
+    {
+      "id": "d3a-d-01",
+      "title": "왜 베트남어를 공부해요?",
+      "audioSrc": "",
+      "sourcePage": 11,
+      "lines": [
+        {
+          "speaker": "A",
+          "vi": "Vì sao anh học tiếng Việt?",
+          "ko": "왜 베트남어를 공부해요?"
+        },
+        {
+          "speaker": "B",
+          "vi": "Tôi học tiếng Việt vì tôi muốn đi Việt Nam.",
+          "ko": "저는 베트남에 가고 싶어서 베트남어를 공부합니다."
+        },
+        {
+          "speaker": "A",
+          "vi": "Anh bận không?",
+          "ko": "바빠요?"
+        },
+        {
+          "speaker": "B",
+          "vi": "Mặc dù tôi bận nhưng tôi học tiếng Việt mỗi ngày.",
+          "ko": "저는 바쁘지만 매일 베트남어를 공부합니다."
+        }
+      ],
+      "reviewNeeded": false
+    },
+    {
+      "id": "d3a-d-02",
+      "title": "주말에 뭐 해요?",
+      "audioSrc": "",
+      "sourcePage": 11,
+      "lines": [
+        {
+          "speaker": "A",
+          "vi": "Cuối tuần anh làm gì?",
+          "ko": "주말에 뭐 해요?"
+        },
+        {
+          "speaker": "B",
+          "vi": "Nếu tôi rảnh thì tôi đi cà phê.",
+          "ko": "시간이 있으면 저는 카페에 갑니다."
+        },
+        {
+          "speaker": "A",
+          "vi": "Anh đi một mình hay đi với bạn?",
+          "ko": "혼자 가요, 아니면 친구와 가요?"
+        },
+        {
+          "speaker": "B",
+          "vi": "Tôi đi với bạn và uống cà phê.",
+          "ko": "저는 친구와 가서 커피를 마십니다."
+        }
+      ],
+      "reviewNeeded": false
+    },
+    {
+      "id": "d3a-d-03",
+      "title": "무엇을 좋아해요?",
+      "audioSrc": "",
+      "sourcePage": 11,
+      "lines": [
+        {
+          "speaker": "A",
+          "vi": "Anh thích đồ ăn gì?",
+          "ko": "어떤 음식을 좋아해요?"
+        },
+        {
+          "speaker": "B",
+          "vi": "Tôi thích đồ ăn Việt Nam, như phở và bánh mì.",
+          "ko": "저는 쌀국수와 반미 같은 베트남 음식을 좋아합니다."
+        },
+        {
+          "speaker": "A",
+          "vi": "Vì sao anh thích phở?",
+          "ko": "왜 쌀국수를 좋아해요?"
+        },
+        {
+          "speaker": "B",
+          "vi": "Tôi thích phở bởi vì phở rất ngon.",
+          "ko": "쌀국수가 매우 맛있기 때문에 좋아합니다."
+        }
+      ],
+      "reviewNeeded": false
+    }
+  ],
+  "grammarPoints": [
+    {
+      "id": "d3a-g-01",
+      "title": "그리고",
+      "pattern": "A và B → Tôi ăn cơm và uống nước.",
+      "sourcePage": 11,
+      "reviewNeeded": false
+    },
+    {
+      "id": "d3a-g-02",
+      "title": "또는",
+      "pattern": "A hoặc B / A hoặc là B → cà phê hoặc trà",
+      "sourcePage": 11,
+      "reviewNeeded": false
+    },
+    {
+      "id": "d3a-g-03",
+      "title": "하지만",
+      "pattern": "A nhưng B → Tôi thích cà phê nhưng tôi không uống nhiều.",
+      "sourcePage": 11,
+      "reviewNeeded": false
+    },
+    {
+      "id": "d3a-g-04",
+      "title": "비록 ~하지만",
+      "pattern": "Mặc dù / Tuy + A + nhưng + B → Mặc dù tôi bận nhưng tôi học tiếng Việt.",
+      "sourcePage": 11,
+      "reviewNeeded": false
+    },
+    {
+      "id": "d3a-g-05",
+      "title": "그래서",
+      "pattern": "A nên B → Tôi mệt nên tôi ngủ sớm.",
+      "sourcePage": 11,
+      "reviewNeeded": false
+    },
+    {
+      "id": "d3a-g-06",
+      "title": "왜냐하면",
+      "pattern": "A vì B → Tôi học tiếng Việt vì tôi muốn đi Việt Nam.",
+      "sourcePage": 11,
+      "reviewNeeded": false
+    },
+    {
+      "id": "d3a-g-07",
+      "title": "이유 + 결과",
+      "pattern": "Vì / Tại vì / Bởi vì + A + nên + B → Vì tôi bận nên tôi không đi.",
+      "sourcePage": 11,
+      "reviewNeeded": false
+    },
+    {
+      "id": "d3a-g-08",
+      "title": "만약 ~하면",
+      "pattern": "Nếu + A + thì + B → Nếu trời mưa thì tôi ở nhà.",
+      "sourcePage": 11,
+      "reviewNeeded": false
+    },
+    {
+      "id": "d3a-g-09",
+      "title": "목적",
+      "pattern": "A để B → Tôi học tiếng Việt để thi OPIc.",
+      "sourcePage": 11,
+      "reviewNeeded": false
+    },
+    {
+      "id": "d3a-g-10",
+      "title": "공식적인 목적",
+      "pattern": "A nhằm mục đích B → Tôi học tiếng Việt nhằm mục đích thi OPIc.",
+      "sourcePage": 11,
+      "reviewNeeded": false
+    },
+    {
+      "id": "d3a-g-11",
+      "title": "~할 때",
+      "pattern": "Lúc / Khi + A, B → Khi tôi rảnh, tôi học tiếng Việt.",
+      "sourcePage": 11,
+      "reviewNeeded": false
+    },
+    {
+      "id": "d3a-g-12",
+      "title": "~하는 동안",
+      "pattern": "Trong lúc / Trong khi + A, B → Trong lúc tôi học, tôi nghe nhạc.",
+      "sourcePage": 11,
+      "reviewNeeded": false
+    },
+    {
+      "id": "d3a-g-13",
+      "title": "예시 들기",
+      "pattern": "A, như / như là B → Tôi thích đồ ăn Việt Nam, như phở và bánh mì.",
+      "sourcePage": 11,
+      "reviewNeeded": false
+    },
+    {
+      "id": "d3a-g-14",
+      "title": "~뿐만 아니라 ...도",
+      "pattern": "không những A mà còn B nữa → Tôi không những học tiếng Việt mà còn học tiếng Anh nữa.",
+      "sourcePage": 11,
+      "reviewNeeded": false
+    },
+    {
+      "id": "d3a-g-15",
+      "title": "~할수록 더 ...",
+      "pattern": "càng A càng B → Tôi càng học càng thích tiếng Việt.",
+      "sourcePage": 11,
+      "reviewNeeded": false
+    },
+    {
+      "id": "d3a-g-16",
+      "title": "~하면서 동시에 ...",
+      "pattern": "vừa A vừa B → Tôi vừa ăn cơm vừa xem TV.",
+      "sourcePage": 11,
+      "reviewNeeded": false
+    },
+    {
+      "id": "d3a-g-17",
+      "title": "둘 중 하나",
+      "pattern": "hoặc A hoặc B → Tôi hoặc học tiếng Việt hoặc đi cà phê.",
+      "sourcePage": 11,
+      "reviewNeeded": false
+    }
+  ],
+  "pronunciationTargets": [
+    {
+      "id": "d3a-p-01",
+      "text": "và / vì / vừa",
+      "hintKo": "v 시작 접속사 구분",
+      "audioSrc": "",
+      "sourcePage": 11,
+      "reviewNeeded": false,
+      "pronKo": "바 / 비 / 브어",
+      "mouthKo": "북부 기준 v는 한국어 ㅂ에 가깝게 들릴 수 있습니다.",
+      "toneKo": "và는 낮게, vì도 낮게, vừa는 부드럽게 시작합니다."
+    },
+    {
+      "id": "d3a-p-02",
+      "text": "nhưng / nên / nếu / như",
+      "hintKo": "비슷하게 헷갈리는 n/nh 계열",
+      "audioSrc": "",
+      "sourcePage": 11,
+      "reviewNeeded": false,
+      "pronKo": "능 / 넨 / 네우 / 느",
+      "mouthKo": "nh는 혀를 입천장 쪽에 가깝게 두고 부드럽게 냅니다.",
+      "toneKo": "짧은 접속사라 문장 안에서 리듬으로 외우면 좋습니다."
+    },
+    {
+      "id": "d3a-p-03",
+      "text": "hoặc / hoặc là / hoặc ... hoặc ...",
+      "hintKo": "선택 접속사",
+      "audioSrc": "",
+      "sourcePage": 11,
+      "reviewNeeded": false,
+      "pronKo": "호억 / 호억 라 / 호억 ... 호억",
+      "mouthKo": "hoặc은 끝을 짧게 닫습니다.",
+      "toneKo": "선택지를 나열할 때 hoặc 앞뒤를 살짝 끊어 읽습니다."
+    },
+    {
+      "id": "d3a-p-04",
+      "text": "Mặc dù / Tuy / nhưng",
+      "hintKo": "양보 표현",
+      "audioSrc": "",
+      "sourcePage": 11,
+      "reviewNeeded": false,
+      "pronKo": "막 주 / 뚜이 / 능",
+      "mouthKo": "Mặc dù는 두 단어로 끊어 읽습니다.",
+      "toneKo": "긴 문장이므로 Mặc dù A / nhưng B 구조로 나눠 말하세요."
+    },
+    {
+      "id": "d3a-p-05",
+      "text": "càng ... càng ... / vừa ... vừa ...",
+      "hintKo": "반복 구조",
+      "audioSrc": "",
+      "sourcePage": 11,
+      "reviewNeeded": false,
+      "pronKo": "깡 ... 깡 / 브어 ... 브어",
+      "mouthKo": "같은 단어가 반복되므로 리듬감 있게 말합니다.",
+      "toneKo": "패턴 자체를 통째로 외우면 OPIc 답변에 쓰기 좋습니다."
+    }
+  ],
+  "quizSeeds": [
+    {
+      "id": "d3a-q-01",
+      "type": "match-term",
+      "prompt": "3일차 접속사 뜻 매칭",
+      "answerSet": [
+        "và-그리고",
+        "hoặc-또는",
+        "nhưng-하지만",
+        "nên-그래서",
+        "vì-왜냐하면",
+        "nếu-만약",
+        "thì-그러면",
+        "để-~하기 위해서",
+        "khi-~할 때",
+        "như-~처럼/예를 들어"
+      ],
+      "sourcePage": 11,
+      "reviewNeeded": false
+    },
+    {
+      "id": "d3a-q-02",
+      "type": "match-term",
+      "prompt": "3일차 긴 접속사 패턴 매칭",
+      "answerSet": [
+        "Mặc dù ... nhưng ...-비록 ~하지만",
+        "Tuy ... nhưng ...-비록 ~하지만",
+        "Vì ... nên ...-~때문에 그래서",
+        "Nếu ... thì ...-만약 ~하면",
+        "nhằm mục đích-~을 목적으로",
+        "trong lúc-~하는 동안",
+        "trong khi-~하는 동안/반면에",
+        "không những ... mà còn ... nữa-~뿐만 아니라 ...도",
+        "càng ... càng ...-~할수록 더",
+        "vừa ... vừa ...-~하면서 동시에"
+      ],
+      "sourcePage": 11,
+      "reviewNeeded": false
+    },
+    {
+      "id": "d3a-q-03",
+      "type": "sentence-meaning",
+      "prompt": "3일차 접속사 문장 뜻 고르기",
+      "answerSet": [
+        "Tôi ăn cơm và uống nước.-저는 밥을 먹고 물을 마십니다.",
+        "Tôi uống cà phê hoặc trà.-저는 커피 또는 차를 마십니다.",
+        "Tôi thích cà phê nhưng tôi không uống nhiều.-저는 커피를 좋아하지만 많이 마시지는 않습니다.",
+        "Tôi mệt nên tôi ngủ sớm.-저는 피곤해서 일찍 잡니다.",
+        "Tôi học tiếng Việt vì tôi muốn đi Việt Nam.-저는 베트남에 가고 싶어서 베트남어를 공부합니다.",
+        "Nếu trời mưa thì tôi ở nhà.-만약 비가 오면 저는 집에 있습니다.",
+        "Tôi học tiếng Việt để thi OPIc.-저는 OPIc 시험을 보기 위해 베트남어를 공부합니다.",
+        "Tôi vừa ăn cơm vừa xem TV.-저는 밥을 먹으면서 TV를 봅니다."
+      ],
+      "sourcePage": 11,
+      "reviewNeeded": false
+    },
+    {
+      "id": "d3a-q-04",
+      "type": "sentence-meaning",
+      "prompt": "OPIc 답변용 접속사 문장",
+      "answerSet": [
+        "Mặc dù tôi bận nhưng tôi học tiếng Việt mỗi ngày.-저는 바쁘지만 매일 베트남어를 공부합니다.",
+        "Vì tôi muốn đi Việt Nam nên tôi học tiếng Việt.-저는 베트남에 가고 싶기 때문에 베트남어를 공부합니다.",
+        "Khi tôi rảnh, tôi đi cà phê.-시간이 있을 때 저는 카페에 갑니다.",
+        "Tôi thích đồ ăn Việt Nam, như phở và bánh mì.-저는 쌀국수와 반미 같은 베트남 음식을 좋아합니다.",
+        "Tôi càng học càng thích tiếng Việt.-저는 공부할수록 베트남어가 더 좋아집니다.",
+        "Cuối tuần tôi hoặc học tiếng Việt hoặc đi cà phê.-주말에 저는 베트남어를 공부하거나 카페에 갑니다."
+      ],
+      "sourcePage": 11,
+      "reviewNeeded": false
+    }
+  ],
+  "unlockCondition": "complete-previous",
+  "reviewNeeded": false
+    },
+    {
   "lessonId": "d2note",
   "unitLabel": "2일차",
   "titleKo": "2일차: 학습노트",
