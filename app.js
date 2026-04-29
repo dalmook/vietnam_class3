@@ -388,21 +388,29 @@ class VietnameseA1App {
     });
   }
 
-  bindRenderedEvents() {
-    this.appEl.querySelectorAll('[data-action]').forEach((node) => {
+
+
+  bindActionNodes(root = this.appEl) {
+    root.querySelectorAll('[data-action]').forEach((node) => {
       node.addEventListener('click', () => {
         this.ensureAudioUnlocked();
         this.handleAction(node.dataset.action, node);
       });
     });
+  }
+
+  bindRenderedEvents() {
+    this.bindActionNodes(this.appEl);
     this.appEl.querySelectorAll('[data-change]').forEach((node) => {
-      node.addEventListener('change', () => this.handleChange(node.dataset.change, node));
+      if (node.dataset.change !== 'searchInput') {
+        node.addEventListener('change', () => this.handleChange(node.dataset.change, node));
+      }
       if (node.dataset.change === 'searchInput') {
-        node.addEventListener('input', (e) => {
-          this.handleChange(node.dataset.change, node, { live: !e.isComposing });
-        });
-        node.addEventListener('compositionend', () => {
-          this.handleChange(node.dataset.change, node, { live: true });
+        node.addEventListener('keydown', (e) => {
+          if (e.key === 'Enter') {
+            e.preventDefault();
+            this.runSearch();
+          }
         });
       }
     });
@@ -460,8 +468,7 @@ class VietnameseA1App {
     if (type === 'resetLocal') return this.resetLocal();
   }
 
-  handleChange(action, el, options = {}) {
-    const { live = false } = options;
+  handleChange(action, el) {
     if (action === 'lesson') {
       this.stopStudyAutoplay();
       this.state.lessonId = el.value;
@@ -470,10 +477,7 @@ class VietnameseA1App {
     }
     if (action === 'quizLesson') this.state.quizLessonFilter = el.value;
     if (action === 'grammarFilter') this.state.grammarLessonFilter = el.value;
-    if (action === 'searchInput') {
-      this.state.searchQuery = el.value;
-      if (live) return this.runSearch({ live: true });
-    }
+    if (action === 'searchInput') this.state.searchQuery = el.value;
     if (action === 'speechRate') this.settings.speechRate = Number(el.value);
     if (action === 'autoShowMeaning') this.settings.autoShowMeaning = el.checked;
     if (action === 'autoPlay') this.settings.autoPlay = el.checked;
@@ -1109,16 +1113,11 @@ class VietnameseA1App {
     this.render();
   }
 
-  runSearch(options = {}) {
-    const { live = false } = options;
+  runSearch() {
     const q = this.normalize(this.state.searchQuery.trim());
     const list = [...this.state.flat.vocab, ...this.state.flat.sentence];
     this.state.searchResults = list.filter((x) => this.normalize(x.term || x.textVi || '').includes(q) || (x.meaningKo || x.textKo || '').toLowerCase().includes(this.state.searchQuery.toLowerCase())).slice(0, 60);
-    if (!live) return this.render();
-    const container = this.appEl.querySelector('#search-results');
-    if (!container || this.state.tab !== 'search') return this.render();
-    container.innerHTML = this.renderSearchResults();
-    this.bindRenderedEvents();
+    return this.render();
   }
 
   jumpToItem(id) {
