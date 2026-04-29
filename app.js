@@ -406,6 +406,9 @@ class VietnameseA1App {
         node.addEventListener('change', () => this.handleChange(node.dataset.change, node));
       }
       if (node.dataset.change === 'searchInput') {
+        node.addEventListener('input', () => {
+          this.state.searchQuery = node.value;
+        });
         node.addEventListener('keydown', (e) => {
           if (e.key === 'Enter') {
             e.preventDefault();
