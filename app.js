@@ -396,7 +396,9 @@ class VietnameseA1App {
       });
     });
     this.appEl.querySelectorAll('[data-change]').forEach((node) => {
-      node.addEventListener('change', () => this.handleChange(node.dataset.change, node));
+      if (node.dataset.change !== 'searchInput') {
+        node.addEventListener('change', () => this.handleChange(node.dataset.change, node));
+      }
       if (node.dataset.change === 'searchInput') {
         node.addEventListener('input', (e) => {
           this.handleChange(node.dataset.change, node, { live: !e.isComposing });
@@ -472,7 +474,7 @@ class VietnameseA1App {
     if (action === 'grammarFilter') this.state.grammarLessonFilter = el.value;
     if (action === 'searchInput') {
       this.state.searchQuery = el.value;
-      if (live) return this.runSearch({ live: true });
+      return this.runSearch({ live: true });
     }
     if (action === 'speechRate') this.settings.speechRate = Number(el.value);
     if (action === 'autoShowMeaning') this.settings.autoShowMeaning = el.checked;
