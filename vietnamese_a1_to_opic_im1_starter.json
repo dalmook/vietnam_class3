@@ -27319,7 +27319,7 @@
     {
       "id": "opic-self-01",
       "topic": "자기소개",
-      "surveyCategory": "OPIc Background Survey",
+      "surveyCategory": "필수 워밍업",
       "questionType": "warmup",
       "level": "IM1",
       "promptKo": "자기소개를 해보세요.",
@@ -27343,7 +27343,7 @@
     {
       "id": "opic-self-02",
       "topic": "평소 하루 일과",
-      "surveyCategory": "OPIc Background Survey",
+      "surveyCategory": "필수 워밍업",
       "questionType": "routine",
       "level": "IM1",
       "promptKo": "평소 여가 시간에 무엇을 하는지 말해보세요.",
@@ -27367,7 +27367,7 @@
     {
       "id": "opic-self-03",
       "topic": "자기소개",
-      "surveyCategory": "OPIc Background Survey",
+      "surveyCategory": "필수 워밍업",
       "questionType": "description",
       "level": "IM1",
       "promptKo": "베트남어를 왜 공부하는지 말해보세요.",
@@ -27391,7 +27391,7 @@
     {
       "id": "opic-family-01",
       "topic": "가족 소개",
-      "surveyCategory": "OPIc Background Survey",
+      "surveyCategory": "필수 워밍업",
       "questionType": "description",
       "level": "IM1",
       "promptKo": "가족을 소개해보세요.",
@@ -27415,7 +27415,7 @@
     {
       "id": "opic-family-02",
       "topic": "가족 소개",
-      "surveyCategory": "OPIc Background Survey",
+      "surveyCategory": "필수 워밍업",
       "questionType": "routine",
       "level": "IM1",
       "promptKo": "가족과 주말에 보통 무엇을 하나요?",
@@ -27439,7 +27439,7 @@
     {
       "id": "opic-family-03",
       "topic": "가족 소개",
-      "surveyCategory": "OPIc Background Survey",
+      "surveyCategory": "필수 워밍업",
       "questionType": "past_experience",
       "level": "IM1",
       "promptKo": "가족과 함께했던 기억에 남는 일을 말해보세요.",
@@ -27463,7 +27463,7 @@
     {
       "id": "opic-home-01",
       "topic": "사는 곳 / 집 / 동네",
-      "surveyCategory": "OPIc Background Survey",
+      "surveyCategory": "필수 워밍업",
       "questionType": "description",
       "level": "IM1",
       "promptKo": "지금 사는 집을 설명해보세요.",
@@ -27487,7 +27487,7 @@
     {
       "id": "opic-home-02",
       "topic": "사는 곳 / 집 / 동네",
-      "surveyCategory": "OPIc Background Survey",
+      "surveyCategory": "필수 워밍업",
       "questionType": "description",
       "level": "IM1",
       "promptKo": "당신의 동네는 어떤 곳인가요?",
@@ -27511,7 +27511,7 @@
     {
       "id": "opic-home-03",
       "topic": "사는 곳 / 집 / 동네",
-      "surveyCategory": "OPIc Background Survey",
+      "surveyCategory": "필수 워밍업",
       "questionType": "routine",
       "level": "IM1",
       "promptKo": "동네에서 자주 가는 장소를 말해보세요.",
@@ -27535,7 +27535,7 @@
     {
       "id": "opic-daily-01",
       "topic": "평소 하루 일과",
-      "surveyCategory": "OPIc Background Survey",
+      "surveyCategory": "필수 워밍업",
       "questionType": "routine",
       "level": "IM1",
       "promptKo": "평일 하루 일과를 말해보세요.",
@@ -27559,7 +27559,7 @@
     {
       "id": "opic-work-01",
       "topic": "회사 소개",
-      "surveyCategory": "OPIc Background Survey",
+      "surveyCategory": "직장인 서베이",
       "questionType": "description",
       "level": "IM1",
       "promptKo": "당신의 회사를 소개해보세요.",
@@ -27583,7 +27583,7 @@
     {
       "id": "opic-work-02",
       "topic": "나의 업무",
-      "surveyCategory": "OPIc Background Survey",
+      "surveyCategory": "직장인 서베이",
       "questionType": "description",
       "level": "IM1",
       "promptKo": "당신의 업무를 설명해보세요.",
@@ -27607,7 +27607,7 @@
     {
       "id": "opic-work-04",
       "topic": "출근 / 퇴근 루틴",
-      "surveyCategory": "OPIc Background Survey",
+      "surveyCategory": "직장인 서베이",
       "questionType": "routine",
       "level": "IM1",
       "promptKo": "출근 과정을 처음부터 끝까지 설명해보세요.",
@@ -27631,7 +27631,7 @@
     {
       "id": "opic-work-06",
       "topic": "최근 진행한 업무 또는 프로젝트",
-      "surveyCategory": "OPIc Background Survey",
+      "surveyCategory": "직장인 서베이",
       "questionType": "past_experience",
       "level": "IM1",
       "promptKo": "최근 회사에서 했던 일이나 프로젝트를 말해보세요.",
@@ -27655,7 +27655,7 @@
     {
       "id": "opic-work-07",
       "topic": "회사에서 생긴 문제 해결 경험",
-      "surveyCategory": "OPIc Background Survey",
+      "surveyCategory": "직장인 서베이",
       "questionType": "problem",
       "level": "IM1",
       "promptKo": "회사에서 어려운 문제가 있었던 경험과 해결 방법을 말해보세요.",
@@ -27679,7 +27679,7 @@
     {
       "id": "opic-food-01",
       "topic": "회사 점심시간",
-      "surveyCategory": "OPIc Background Survey",
+      "surveyCategory": "직장인 서베이",
       "questionType": "routine",
       "level": "IM1",
       "promptKo": "회사 점심시간에 보통 어디서 누구와 먹나요?",
@@ -27703,7 +27703,7 @@
     {
       "id": "opic-food-02",
       "topic": "카페 / 식당",
-      "surveyCategory": "OPIc Background Survey",
+      "surveyCategory": "여가/관심사 서베이",
       "questionType": "description",
       "level": "IM1",
       "promptKo": "좋아하는 식당이나 카페를 설명해보세요.",
@@ -27727,7 +27727,7 @@
     {
       "id": "opic-food-role-01",
       "topic": "식당에 전화해서 예약하기",
-      "surveyCategory": "OPIc Background Survey",
+      "surveyCategory": "롤플레이",
       "questionType": "roleplay",
       "level": "IM1",
       "promptKo": "식당에 전화해서 예약하는 상황극을 해보세요.",
@@ -27751,7 +27751,7 @@
     {
       "id": "opic-hobby-01",
       "topic": "주말 활동",
-      "surveyCategory": "OPIc Background Survey",
+      "surveyCategory": "여가/관심사 서베이",
       "questionType": "description",
       "level": "IM1",
       "promptKo": "취미가 무엇인지 말해보세요.",
@@ -27775,7 +27775,7 @@
     {
       "id": "opic-music-01",
       "topic": "음악 듣기",
-      "surveyCategory": "OPIc Background Survey",
+      "surveyCategory": "여가/관심사 서베이",
       "questionType": "routine",
       "level": "IM1",
       "promptKo": "어떤 음악을 좋아하고 언제 듣나요?",
@@ -27799,7 +27799,7 @@
     {
       "id": "opic-health-01",
       "topic": "운동 / 산책",
-      "surveyCategory": "OPIc Background Survey",
+      "surveyCategory": "여가/관심사 서베이",
       "questionType": "routine",
       "level": "IM1",
       "promptKo": "운동을 하나요? 어떤 운동을 좋아하나요?",
@@ -27823,7 +27823,7 @@
     {
       "id": "opic-shopping-01",
       "topic": "쇼핑",
-      "surveyCategory": "OPIc Background Survey",
+      "surveyCategory": "여가/관심사 서베이",
       "questionType": "routine",
       "level": "IM1",
       "promptKo": "보통 어디서 쇼핑하나요?",
@@ -27847,7 +27847,7 @@
     {
       "id": "opic-internet-01",
       "topic": "인터넷 / 스마트폰 사용",
-      "surveyCategory": "OPIc Background Survey",
+      "surveyCategory": "여가/관심사 서베이",
       "questionType": "description",
       "level": "IM1",
       "promptKo": "자주 사용하는 앱이나 웹사이트를 소개해보세요.",
@@ -27871,7 +27871,7 @@
     {
       "id": "opic-weekend-02",
       "topic": "주말 활동",
-      "surveyCategory": "OPIc Background Survey",
+      "surveyCategory": "여가/관심사 서베이",
       "questionType": "past_experience",
       "level": "IM1",
       "promptKo": "지난 주말에 무엇을 했나요?",
@@ -27895,7 +27895,7 @@
     {
       "id": "opic-travel-01",
       "topic": "기억에 남는 여행",
-      "surveyCategory": "OPIc Background Survey",
+      "surveyCategory": "여행 서베이",
       "questionType": "past_experience",
       "level": "IM1",
       "promptKo": "기억에 남는 여행을 말해보세요.",
@@ -27919,7 +27919,7 @@
     {
       "id": "opic-travel-04",
       "topic": "여행 중 문제상황",
-      "surveyCategory": "OPIc Background Survey",
+      "surveyCategory": "여행 서베이",
       "questionType": "problem",
       "level": "IM1",
       "promptKo": "여행 중 문제가 생긴 경험과 해결 방법을 말해보세요.",
@@ -27943,7 +27943,7 @@
     {
       "id": "opic-hanoi-01",
       "topic": "하노이 방문 계획",
-      "surveyCategory": "OPIc Background Survey",
+      "surveyCategory": "여행 서베이",
       "questionType": "description",
       "level": "IM1",
       "promptKo": "하노이에 가면 무엇을 하고 싶나요?",
@@ -27967,7 +27967,7 @@
     {
       "id": "opic-exp-02",
       "topic": "날씨 때문에 계획이 바뀐 경험",
-      "surveyCategory": "OPIc Background Survey",
+      "surveyCategory": "돌발/일상 상황",
       "questionType": "problem",
       "level": "IM1",
       "promptKo": "계획대로 되지 않았던 일을 말해보세요. 어떻게 해결했나요?",
@@ -27991,7 +27991,7 @@
     {
       "id": "opic-role-01",
       "topic": "친구에게 약속 잡기",
-      "surveyCategory": "OPIc Background Survey",
+      "surveyCategory": "롤플레이",
       "questionType": "roleplay",
       "level": "IM1",
       "promptKo": "친구에게 주말 약속을 잡는 전화를 해보세요.",
@@ -28015,7 +28015,7 @@
     {
       "id": "opic-role-06",
       "topic": "여행 일정 변경 요청하기",
-      "surveyCategory": "OPIc Background Survey",
+      "surveyCategory": "롤플레이",
       "questionType": "roleplay",
       "level": "IM1",
       "promptKo": "여행 일정을 바꿔야 합니다. 예약 변경을 요청하세요.",

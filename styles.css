@@ -253,6 +253,9 @@ button:disabled { opacity: .5; cursor: not-allowed; }
 .mock-grid { display:grid; grid-template-columns:1fr 1fr; gap:10px; }
 .mock-big-btn { min-height:64px; border-radius:16px; text-align:left; padding:12px; }
 .mock-q { font-size:1.2rem; font-weight:800; line-height:1.5; }
+.mock-category-grid { display:grid; grid-template-columns:1fr 1fr; gap:8px; }
+.mock-action-grid { display:grid; grid-template-columns:1fr 1fr; gap:8px; margin-top:8px; }
+.mock-action-grid button { min-height:48px; border-radius:14px; }
 .choice-selected { outline: 2px solid var(--pri); background: #dfe5ff; }
 .match-option { min-height: 52px; }
 .match-done { background: #e6f8ee; border-color: #28a56a; color: #1e7f52; }
