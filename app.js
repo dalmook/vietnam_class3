@@ -388,15 +388,23 @@ class VietnameseA1App {
     });
   }
 
-  bindRenderedEvents() {
-    this.appEl.querySelectorAll('[data-action]').forEach((node) => {
+
+
+  bindActionNodes(root = this.appEl) {
+    root.querySelectorAll('[data-action]').forEach((node) => {
       node.addEventListener('click', () => {
         this.ensureAudioUnlocked();
         this.handleAction(node.dataset.action, node);
       });
     });
+  }
+
+  bindRenderedEvents() {
+    this.bindActionNodes(this.appEl);
     this.appEl.querySelectorAll('[data-change]').forEach((node) => {
-      node.addEventListener('change', () => this.handleChange(node.dataset.change, node));
+      if (node.dataset.change !== 'searchInput') {
+        node.addEventListener('change', () => this.handleChange(node.dataset.change, node));
+      }
       if (node.dataset.change === 'searchInput') {
         node.addEventListener('input', (e) => {
           this.handleChange(node.dataset.change, node, { live: !e.isComposing });
@@ -472,7 +480,7 @@ class VietnameseA1App {
     if (action === 'grammarFilter') this.state.grammarLessonFilter = el.value;
     if (action === 'searchInput') {
       this.state.searchQuery = el.value;
-      if (live) return this.runSearch({ live: true });
+      return this.runSearch({ live: true });
     }
     if (action === 'speechRate') this.settings.speechRate = Number(el.value);
     if (action === 'autoShowMeaning') this.settings.autoShowMeaning = el.checked;
@@ -1118,7 +1126,7 @@ class VietnameseA1App {
     const container = this.appEl.querySelector('#search-results');
     if (!container || this.state.tab !== 'search') return this.render();
     container.innerHTML = this.renderSearchResults();
-    this.bindRenderedEvents();
+    this.bindActionNodes(container);
   }
 
   jumpToItem(id) {
