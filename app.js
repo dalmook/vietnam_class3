@@ -270,6 +270,7 @@ class VietnameseA1App {
       tab: 'home',
       studyMode: 'vocab',
       quizMode: 'meaning',
+      mockMode: 'practice',
       lessonId: null,
       quizLessonFilter: null,
       cardIndex: 0,
@@ -301,6 +302,26 @@ class VietnameseA1App {
         optionKey: '',
         matchingRound: null,
         sentenceBuildRound: null
+      },
+      mock: {
+        phase: 'ready',
+        selectedKey: '',
+        selectedCategory: 'all',
+        queue: [],
+        i: 0,
+        prepLeft: 10,
+        answerLeft: 60,
+        prepTimer: null,
+        answerTimer: null,
+        showAssist: true,
+        recordings: {},
+        recorderSupported: typeof window !== 'undefined' && !!window.MediaRecorder,
+        recordingState: 'idle',
+        recordingSec: 0,
+        mediaRecorder: null,
+        recordChunks: [],
+        selfChecks: {},
+        totalSpeechSec: 0
       },
       settings: { speechRate: 0.95, autoShowMeaning: true, autoPlay: false, sentenceRepeatCount: 1 }
     };
@@ -426,6 +447,7 @@ class VietnameseA1App {
       home: () => this.renderHome(),
       study: () => this.renderStudy(),
       quiz: () => this.renderQuiz(),
+      mock: () => this.renderMock(),
       search: () => this.renderSearch(),
       bookmark: () => this.renderBookmark(),
       settings: () => this.renderSettings()
@@ -467,6 +489,19 @@ class VietnameseA1App {
     if (type === 'buildRemove') return this.sentenceBuildRemove(Number(payload));
     if (type === 'reviewWrong') return this.startWrongReview();
     if (type === 'recoverCache') return this.recoverAndReload();
+    if (type === 'openMock') { this.state.tab = 'mock'; return this.render(); }
+    if (type === 'mockStart') return this.startMock(payload);
+    if (type === 'mockMode') { this.state.mockMode = payload; return this.render(); }
+    if (type === 'mockCategory') { this.state.mock.selectedCategory = payload; return this.render(); }
+    if (type === 'mockNext') return this.nextMock();
+    if (type === 'mockToggleAssist') { this.state.mock.showAssist = !this.state.mock.showAssist; return this.render(); }
+    if (type === 'mockPrepStart') return this.startPrepTimer();
+    if (type === 'mockAnswerStart') return this.startAnswerTimer();
+    if (type === 'mockAnswerStop') return this.stopAnswerTimer();
+    if (type === 'mockSelf') return this.toggleSelfCheck(payload);
+    if (type === 'mockRecStart') return this.startRecording();
+    if (type === 'mockRecStop') return this.stopRecording();
+    if (type === 'mockRecRetry') return this.retryRecording();
     if (type === 'audioTest') return this.playAudio('', 'xin chào, đây là kiểm tra âm thanh');
     if (type === 'resetLocal') return this.resetLocal();
   }
@@ -518,8 +553,83 @@ class VietnameseA1App {
         <div class="card stat"><small>연속 정답</small><strong>${this.loadLocal('best_streak', 0)} 🔥</strong></div>
       </div>
       ${lessonCards}
+      <div class="card"><h3>OPIc IM1 모의고사</h3><p class="small">묘사→루틴→경험→롤플레이 흐름으로 실전 연습</p><button class="primary" data-action="openMock">모의고사 시작</button></div>
     </section>`;
   }
+
+  renderMock() {
+    const bank = this.state.data?.opicQuestionBank || [];
+    const m = this.state.mock;
+    const categories = ['all', ...new Set(bank.map((x) => x.surveyCategory || '기타'))];
+    if (m.phase === 'ready') {
+      this.appEl.innerHTML = `<section class="fade">
+        <div class="card"><h3>모의고사 모드</h3><div class="controls"><button class="${this.state.mockMode === 'practice' ? 'primary' : ''}" data-action="mockMode:practice">연습 모드</button><button class="${this.state.mockMode === 'exam' ? 'primary' : ''}" data-action="mockMode:exam">실전 모드</button></div><p class="small">초보자 옵션: 실전 모드에서도 한국어 뜻/힌트는 답변 후 확인할 수 있어요.</p></div>
+        <div class="card"><h3>카테고리 선택</h3><div class="mock-category-grid">${categories.map((c)=>`<button class="${m.selectedCategory===c?'primary':''}" data-action="mockCategory:${c}">${c==='all'?'전체':c}</button>`).join('')}</div></div>
+        <div class="mock-grid">
+          <button class="mock-big-btn" data-action="mockStart:quick5">빠른 모의고사 5문항</button>
+          <button class="mock-big-btn" data-action="mockStart:full10">실전 모의고사 10문항</button>
+          <button class="mock-big-btn" data-action="mockStart:topic-work">주제별 모의고사</button>
+          <button class="mock-big-btn" data-action="mockStart:wrongBased">오답 기반 모의고사</button>
+        </div>
+        <div class="card"><p class="small">문항은행 ${bank.length}개 · 최근 결과 ${(this.loadLocal('mockHistory', []).length)}회</p></div>
+      </section>`;
+      return;
+    }
+    if (m.phase === 'done') return this.renderMockReport();
+    const q = m.queue[m.i];
+    if (!q) {
+      this.state.mock.phase = 'ready';
+      this.render();
+      return;
+    }
+    const checks = m.selfChecks[q.id] || {};
+    const showAssist = this.state.mockMode === 'practice' || m.showAssist;
+    const hasRec = m.recorderSupported;
+    const recDone = !!m.recordings[q.id];
+    this.appEl.innerHTML = `<section class="fade">
+      <div class="card"><div class="row"><span class="badge">${m.i + 1}/${m.queue.length}</span><span class="small">${q.topic} · ${q.questionType} · ${q.level}</span></div>
+      <p class="mock-q">${q.promptVi}</p>
+      ${showAssist ? `<p class="ko">${q.promptKo}</p><p class="small">힌트: ${q.hintKo}</p><p class="small">패턴: ${(q.patterns || []).join(' / ')}</p>` : '<p class="small">실전 모드: 답변 후 힌트 확인 버튼을 누르세요.</p>'}
+      <div class="mock-action-grid">
+        <button data-action="speak:" data-text="${this.escapeAttr(q.promptVi)}">질문 듣기</button>
+        <button data-action="mockToggleAssist">힌트 보기</button>
+        <button data-action="mockPrepStart">준비 ${m.prepLeft}s</button>
+        <button data-action="mockAnswerStart">답변 시작</button>
+        <button data-action="mockAnswerStop">답변 중지 (${m.answerLeft}s)</button>
+        <button data-action="mockRecStart" ${!hasRec || m.recordingState === 'recording' ? 'disabled' : ''}>녹음 시작</button>
+        <button data-action="mockRecStop" ${!hasRec || m.recordingState !== 'recording' ? 'disabled' : ''}>녹음 중지</button>
+        <button data-action="mockRecRetry" ${!hasRec ? 'disabled' : ''}>다시 녹음</button>
+      </div>
+      <p class="small">${hasRec ? `녹음 상태: ${m.recordingState} ${recDone ? '· 저장 완료' : ''}` : '이 기기/브라우저는 녹음을 지원하지 않아 타이머·자가평가만 동작합니다.'}</p>
+      <div class="card" style="margin-top:8px"><h4>자가평가</h4>
+      ${this.renderSelfCheckRow(q.id, '20초 이상 말했다', 'sec20', checks)}
+      ${this.renderSelfCheckRow(q.id, '질문에 맞게 답했다', 'fit', checks)}
+      ${this.renderSelfCheckRow(q.id, '베트남어 문장 3개 이상 말했다', 'v3', checks)}
+      ${this.renderSelfCheckRow(q.id, '핵심 단어를 2개 이상 썼다', 'k2', checks)}
+      ${this.renderSelfCheckRow(q.id, '한국어 사용이 적었다', 'lessKo', checks)}
+      </div>
+      <div class="controls"><button data-action="mockNext" class="primary">다음 문제</button></div>
+      </div>
+    </section>`;
+  }
+
+  renderSelfCheckRow(qid, label, key, checks) { return `<label class="row"><input type="checkbox" ${checks[key] ? 'checked' : ''} data-action="mockSelf:${qid}|${key}"> ${label}</label>`; }
+  toggleSelfCheck(payload) { const [qid,key]=payload.split('|'); this.state.mock.selfChecks[qid] ??= {}; this.state.mock.selfChecks[qid][key]=!this.state.mock.selfChecks[qid][key]; this.render(); }
+  startMock(key) { const tests = this.state.data.mockTests || {}; const ids = tests[key]?.questionIds || []; const map = new Map((this.state.data.opicQuestionBank||[]).map((x)=>[x.id,x])); let queue = ids.map((id)=>map.get(id)).filter(Boolean); if (this.state.mock.selectedCategory !== 'all') queue = queue.filter((x) => x.surveyCategory === this.state.mock.selectedCategory); if (key==='wrongBased') queue=this.buildWrongBasedQueue(); if (key==='topic-work') queue = this.buildTopicSetQueue(); this.state.mock={...this.state.mock,phase:'playing',selectedKey:key,queue:queue.slice(0,key==='quick5'?5:10),i:0,prepLeft:10,answerLeft:60,selfChecks:{},totalSpeechSec:0,recordings:{},recordingState:'idle',recordingSec:0}; this.render(); }
+  buildTopicSetQueue(){ const cat=this.state.mock.selectedCategory; const bank=this.state.data.opicQuestionBank||[]; const filtered=cat==='all'?bank:bank.filter((x)=>x.surveyCategory===cat); const flow=['description','routine','past_experience','problem','roleplay']; const out=[]; flow.forEach((t)=>{ const pick=filtered.find((q)=>q.questionType===t && !out.some((x)=>x.id===q.id)); if(pick) out.push(pick);}); return out.length?out:this.shuffle(filtered).slice(0,10);}
+  nextMock(){ const used=60-this.state.mock.answerLeft; this.state.mock.totalSpeechSec += Math.max(0,used); if(this.state.mock.i>=this.state.mock.queue.length-1){ this.finishMock(); return;} this.state.mock.i++; this.state.mock.prepLeft=10; this.state.mock.answerLeft=60; this.render();}
+  finishMock(){ const m=this.state.mock; const report={at:new Date().toISOString(),total:m.queue.length,recorded:Object.keys(m.recordings||{}).length,totalSpeechSec:m.totalSpeechSec,avgSec:Math.round(m.totalSpeechSec/Math.max(1,m.queue.length)),selfAvg:this.calcSelfAvg(),weakTopics:this.findWeakTopics(),recommended:'약한 주제 2개를 주제별 모의고사로 복습'}; const history=this.loadLocal('mockHistory',[]); history.unshift(report); this.saveLocal('mockHistory',history.slice(0,30)); this.state.mock.phase='done'; this.state.mock.report=report; this.render(); }
+  async startRecording(){ if(!this.state.mock.recorderSupported || this.state.mock.recordingState==='recording') return; try{ const stream=await navigator.mediaDevices.getUserMedia({audio:true}); const mr=new MediaRecorder(stream); this.state.mock.recordChunks=[]; mr.ondataavailable=(e)=>{ if(e.data?.size) this.state.mock.recordChunks.push(e.data); }; mr.onstop=()=>this.persistRecordingBlob(); mr.start(); this.state.mock.mediaRecorder=mr; this.state.mock.recordingState='recording'; this.render(); }catch(e){ this.state.mock.recordingState='denied'; this.render(); } }
+  stopRecording(){ const mr=this.state.mock.mediaRecorder; if(!mr||mr.state!=='recording') return; mr.stop(); this.state.mock.recordingState='stopped'; this.render(); }
+  retryRecording(){ this.state.mock.recordingState='idle'; const q=this.state.mock.queue[this.state.mock.i]; if(q) delete this.state.mock.recordings[q.id]; this.render(); }
+  persistRecordingBlob(){ const q=this.state.mock.queue[this.state.mock.i]; if(!q) return; const blob=new Blob(this.state.mock.recordChunks,{type:'audio/webm'}); this.state.mock.recordings[q.id]={size:blob.size,type:blob.type,at:Date.now()}; const key=this.storagePrefix+'mockRecordingMeta'; const old=this.loadLocal('mockRecordingMeta',{}); old[q.id]=this.state.mock.recordings[q.id]; this.saveLocal('mockRecordingMeta',old); }
+  renderMockReport(){ const r=this.state.mock.report; this.appEl.innerHTML=`<section class="fade"><div class="card"><h3>모의고사 결과</h3><p>총 문항 수: ${r.total}</p><p>녹음 완료 수: ${r.recorded}</p><p>총 발화 시간: ${r.totalSpeechSec}초</p><p>평균 답변 시간: ${r.avgSec}초</p><p>자가평가 평균: ${r.selfAvg}%</p><p>약한 주제: ${r.weakTopics.join(', ')||'없음'}</p><p>추천 복습: ${r.recommended}</p><button class="primary" data-action="mockStart:quick5">빠른 재도전</button></div></section>`; }
+  calcSelfAvg(){ const rows=Object.values(this.state.mock.selfChecks); if(!rows.length) return 0; const sum=rows.reduce((a,c)=>a+Object.values(c).filter(Boolean).length,0); return Math.round((sum/(rows.length*5))*100);}
+  findWeakTopics(){ const weak=[]; for(const q of this.state.mock.queue){ const c=this.state.mock.selfChecks[q.id]||{}; if(Object.values(c).filter(Boolean).length<=2) weak.push(q.topic);} return [...new Set(weak)].slice(0,3);}
+  startPrepTimer(){ clearInterval(this.state.mock.prepTimer); this.state.mock.prepLeft=10; this.state.mock.prepTimer=setInterval(()=>{ this.state.mock.prepLeft--; if(this.state.mock.prepLeft<=0) clearInterval(this.state.mock.prepTimer); this.render(); },1000);}
+  startAnswerTimer(){ clearInterval(this.state.mock.answerTimer); this.state.mock.answerTimer=setInterval(()=>{ this.state.mock.answerLeft=Math.max(0,this.state.mock.answerLeft-1); if(this.state.mock.answerLeft===0) clearInterval(this.state.mock.answerTimer); this.render();},1000);}
+  stopAnswerTimer(){ clearInterval(this.state.mock.answerTimer); this.render();}
+  buildWrongBasedQueue(){ const keys={food:['음식','식당','카페'],work:['회사','업무','프로젝트'],travel:['여행','하노이']}; const wrong=this.wrongAnswers.map((id)=>this.findItem(id)).filter(Boolean); const txt=wrong.map((x)=>`${x.term||''} ${x.meaningKo||''}`).join(' '); const bank=this.state.data.opicQuestionBank||[]; let priorities=[]; if(keys.food.some((k)=>txt.includes(k))) priorities.push(...bank.filter((x)=>x.topic.includes('식당')||x.topic.includes('카페'))); if(keys.work.some((k)=>txt.includes(k))) priorities.push(...bank.filter((x)=>x.topic.includes('회사')||x.topic.includes('업무'))); if(keys.travel.some((k)=>txt.includes(k))) priorities.push(...bank.filter((x)=>x.topic.includes('여행')||x.topic.includes('하노이'))); priorities=[...new Map(priorities.map((x)=>[x.id,x])).values()]; return priorities.length?priorities:this.shuffle(bank).slice(0,10);}
 
   renderStudy() {
     const lesson = this.currentLesson();
@@ -1711,7 +1821,7 @@ class VietnameseA1App {
 
   ensureStorageHealth() {
     const versionKey = this.storagePrefix + 'schema_version';
-    const currentVersion = '2026-04-ui-audio-2';
+    const currentVersion = '2026-04-ui-audio-3';
     const stored = localStorage.getItem(versionKey);
     if (!stored) {
       localStorage.setItem(versionKey, currentVersion);
