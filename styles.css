@@ -233,8 +233,8 @@ button.good { background: #d8f8e8; }
 button.bad { background: #ffe4e8; }
 button.warn { background: #fff0dc; }
 button:disabled { opacity: .5; cursor: not-allowed; }
-.bottom-nav { position: fixed; left: 50%; transform: translateX(-50%); bottom: 0; width: min(460px, 100vw); display: grid; grid-template-columns: repeat(7, 1fr); background: rgba(255,255,255,.96); border-top: 1px solid #e4e8f2; backdrop-filter: blur(8px); }
-.tab-btn { border-radius: 0; min-height: 62px; background: transparent; font-size: .8rem; padding: 6px 2px; }
+.bottom-nav { position: fixed; left: 50%; transform: translateX(-50%); bottom: 0; width: min(460px, 100vw); display: grid; grid-template-columns: repeat(7, minmax(0, 1fr)); background: rgba(255,255,255,.96); border-top: 1px solid #e4e8f2; backdrop-filter: blur(8px); }
+.tab-btn { border-radius: 0; min-height: 62px; background: transparent; font-size: .72rem; padding: 6px 1px; white-space: nowrap; }
 .tab-btn span { display: block; }
 .tab-btn.active { color: var(--pri); }
 .fade { animation: fade .25s ease; }
@@ -395,7 +395,7 @@ button:disabled { opacity: .5; cursor: not-allowed; }
   }
   .tab-btn {
     min-height: 58px;
-    font-size: 0.72rem;
+    font-size: 0.66rem;
   }
   .quiz-card { padding: 16px; }
   .icon-btn { min-height: 34px; width: 34px; }

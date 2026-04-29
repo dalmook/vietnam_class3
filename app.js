@@ -549,7 +549,6 @@ class VietnameseA1App {
 
   renderMock() {
     const bank = this.state.data?.opicQuestionBank || [];
-    const tests = this.state.data?.mockTests || {};
     const m = this.state.mock;
     if (m.phase === 'ready') {
       this.appEl.innerHTML = `<section class="fade">
@@ -566,6 +565,11 @@ class VietnameseA1App {
     }
     if (m.phase === 'done') return this.renderMockReport();
     const q = m.queue[m.i];
+    if (!q) {
+      this.state.mock.phase = 'ready';
+      this.render();
+      return;
+    }
     const checks = m.selfChecks[q.id] || {};
     const showAssist = this.state.mockMode === 'practice' || m.showAssist;
     this.appEl.innerHTML = `<section class="fade">
@@ -1791,7 +1795,7 @@ class VietnameseA1App {
 
   ensureStorageHealth() {
     const versionKey = this.storagePrefix + 'schema_version';
-    const currentVersion = '2026-04-ui-audio-2';
+    const currentVersion = '2026-04-ui-audio-3';
     const stored = localStorage.getItem(versionKey);
     if (!stored) {
       localStorage.setItem(versionKey, currentVersion);
