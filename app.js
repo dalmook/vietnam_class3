@@ -283,6 +283,9 @@ class VietnameseA1App {
       loadedPath: null,
       searchQuery: '',
       searchResults: [],
+      toolsMode: 'search',
+      ttsInput: '',
+      ttsHistory: this.loadLocal('ttsHistory', []),
       message: '오늘은 10개만 외워볼까요? 🐳',
       revealMeaning: true,
       quiz: {
@@ -448,8 +451,8 @@ class VietnameseA1App {
       study: () => this.renderStudy(),
       quiz: () => this.renderQuiz(),
       mock: () => this.renderMock(),
-      search: () => this.renderSearch(),
-      bookmark: () => this.renderBookmark(),
+      tools: () => this.renderTools(),
+      tts: () => this.renderTts(),
       settings: () => this.renderSettings()
     };
     view[this.state.tab]?.();
@@ -469,6 +472,10 @@ class VietnameseA1App {
     if (type === 'toggleCardReveal') { this.state.revealMeaning = !this.state.revealMeaning; return this.render(); }
     if (type === 'toggleKo') return this.appEl.querySelectorAll('.ko-line').forEach((x) => x.classList.toggle('hidden'));
     if (type === 'search') return this.runSearch();
+    if (type === 'toolsMode') { this.state.toolsMode = payload; return this.render(); }
+    if (type === 'ttsSpeakInput') return this.speakTtsInput();
+    if (type === 'ttsSpeakHistory') return this.speakTtsHistory(Number(payload));
+    if (type === 'ttsDeleteHistory') return this.deleteTtsHistory(Number(payload));
     if (type === 'jump') return this.jumpToItem(payload);
     if (type === 'speak') return this.playAudio(payload, el.dataset.text || 'xin chào');
     if (type === 'repeatSpeak') return this.repeatSpeak({ text: el.dataset.text, audioSrc: el.dataset.audio || '' }, 3);
@@ -516,6 +523,7 @@ class VietnameseA1App {
     if (action === 'quizLesson') this.state.quizLessonFilter = el.value;
     if (action === 'grammarFilter') this.state.grammarLessonFilter = el.value;
     if (action === 'searchInput') this.state.searchQuery = el.value;
+    if (action === 'ttsInput') this.state.ttsInput = el.value;
     if (action === 'speechRate') this.settings.speechRate = Number(el.value);
     if (action === 'autoShowMeaning') this.settings.autoShowMeaning = el.checked;
     if (action === 'autoPlay') this.settings.autoPlay = el.checked;
@@ -931,16 +939,66 @@ class VietnameseA1App {
     return this.state.searchResults.map((r) => `<div class="card list-item"><span class="badge">${r.lessonTitle}</span><h3>${r.term || r.textVi}</h3><p>${r.meaningKo || r.textKo || ''}</p><button data-action="jump:${r.id}">바로 학습</button></div>`).join('');
   }
 
-  renderSearch() {
-    this.appEl.innerHTML = `<section class="fade"><div class="card"><input class="input" data-change="searchInput" value="${this.state.searchQuery}" placeholder="베트남어/한국어 검색 (예: khoe, khỏe)" /><button class="primary" data-action="search">검색</button></div>
-      <div id="search-results">${this.renderSearchResults()}</div></section>`;
+  renderSearchBlock() {
+    return `<div class="card"><input class="input" data-change="searchInput" value="${this.state.searchQuery}" placeholder="베트남어/한국어 검색 (예: khoe, khỏe)" /><button class="primary" data-action="search">검색</button></div>
+      <div id="search-results">${this.renderSearchResults()}</div>`;
   }
 
-  renderBookmark() {
+  renderBookmarkBlock() {
     const marked = this.bookmarks.map((id) => this.findItem(id)).filter(Boolean);
     const difficult = Object.entries(this.progress).filter(([, v]) => v.difficult).map(([id]) => this.findItem(id)).filter(Boolean);
-    this.appEl.innerHTML = `<section class="fade"><div class="card"><h3>북마크 ${marked.length}</h3>${marked.map((m) => `<div class="list-item">${m.term || m.textVi} · ${m.meaningKo || m.textKo}</div>`).join('') || '<p>없음</p>'}</div>
-      <div class="card"><h3>어려운 항목 ${difficult.length}</h3>${difficult.map((m) => `<div class="list-item">${m.term || m.textVi} · ${m.meaningKo || m.textKo}</div>`).join('') || '<p>없음</p>'}</div></section>`;
+    return `<div class="card"><h3>북마크 ${marked.length}</h3>${marked.map((m) => `<div class="list-item">${m.term || m.textVi} · ${m.meaningKo || m.textKo}</div>`).join('') || '<p>없음</p>'}</div>
+      <div class="card"><h3>어려운 항목 ${difficult.length}</h3>${difficult.map((m) => `<div class="list-item">${m.term || m.textVi} · ${m.meaningKo || m.textKo}</div>`).join('') || '<p>없음</p>'}</div>`;
+  }
+
+  renderTools() {
+    const modeBtns = `
+      <div class="mode-pills">
+        <button class="mode-pill ${this.state.toolsMode === 'search' ? 'active' : ''}" data-action="toolsMode:search">검색</button>
+        <button class="mode-pill ${this.state.toolsMode === 'bookmark' ? 'active' : ''}" data-action="toolsMode:bookmark">북마크</button>
+      </div>
+    `;
+    const body = this.state.toolsMode === 'bookmark' ? this.renderBookmarkBlock() : this.renderSearchBlock();
+    this.appEl.innerHTML = `<section class="fade">${modeBtns}${body}</section>`;
+  }
+
+  renderTts() {
+    const history = this.state.ttsHistory || [];
+    this.appEl.innerHTML = `<section class="fade">
+      <div class="card">
+        <h3>문장 읽기</h3>
+        <textarea class="input" rows="4" data-change="ttsInput" placeholder="읽을 문장이나 글을 입력하세요">${this.escapeHtml(this.state.ttsInput || '')}</textarea>
+        <div class="controls" style="margin-top:8px;">
+          <button class="primary" data-action="ttsSpeakInput">🔊 읽기</button>
+        </div>
+      </div>
+      <div class="card">
+        <h3>청취 기록 ${history.length}</h3>
+        ${history.map((x, i) => `<div class="list-item"><p>${this.escapeHtml(x.text)}</p><div class="controls"><button data-action="ttsSpeakHistory:${i}">다시 듣기</button><button class="bad" data-action="ttsDeleteHistory:${i}">삭제</button></div></div>`).join('') || '<p>기록 없음</p>'}
+      </div>
+    </section>`;
+  }
+
+  async speakTtsInput() {
+    const text = (this.state.ttsInput || '').trim();
+    if (!text) return;
+    await this.playAudio('', text, { lang: 'ko-KR', allowAudio: false });
+    const next = [{ text, at: new Date().toISOString() }, ...(this.state.ttsHistory || []).filter((x) => x.text !== text)].slice(0, 30);
+    this.state.ttsHistory = next;
+    this.saveLocal('ttsHistory', next);
+    this.render();
+  }
+
+  async speakTtsHistory(index) {
+    const item = (this.state.ttsHistory || [])[index];
+    if (!item) return;
+    await this.playAudio('', item.text, { lang: 'ko-KR', allowAudio: false });
+  }
+
+  deleteTtsHistory(index) {
+    this.state.ttsHistory = (this.state.ttsHistory || []).filter((_, i) => i !== index);
+    this.saveLocal('ttsHistory', this.state.ttsHistory);
+    this.render();
   }
 
   renderSettings() {
@@ -1719,11 +1777,12 @@ class VietnameseA1App {
   }
 
   resetLocal() {
-    ['progress', 'wrongAnswers', 'bookmarks', 'settings', 'best_streak'].forEach((k) => localStorage.removeItem(this.storagePrefix + k));
+    ['progress', 'wrongAnswers', 'bookmarks', 'settings', 'best_streak', 'ttsHistory'].forEach((k) => localStorage.removeItem(this.storagePrefix + k));
     this.progress = {};
     this.wrongAnswers = [];
     this.bookmarks = [];
     this.settings = { ...this.state.settings };
+    this.state.ttsHistory = [];
     this.render();
   }
 
