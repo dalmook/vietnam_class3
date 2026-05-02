@@ -280,6 +280,7 @@ class VietnameseA1App {
       grammarLessonFilter: 'all',
       data: null,
       flat: {},
+      baseLessons: [],
       loadedPath: null,
       searchQuery: '',
       searchResults: [],
@@ -354,9 +355,10 @@ class VietnameseA1App {
       const { data, path } = await this.fetchJson();
       this.state.data = data;
       this.state.loadedPath = path;
-      this.state.flat = this.flattenData(data.lessons || []);
-      this.state.lessonId = data.lessons?.[0]?.lessonId || null;
-      this.state.quizLessonFilter = data.lessons?.[0]?.lessonId || 'all';
+      this.state.baseLessons = data.lessons || [];
+      this.refreshLessonData();
+      this.state.lessonId = this.state.flat.lessons?.[0]?.lessonId || null;
+      this.state.quizLessonFilter = this.state.flat.lessons?.[0]?.lessonId || 'all';
       this.render();
     } catch (e) {
       const healed = await this.tryRecoverFromCacheIssue();
@@ -393,6 +395,31 @@ class VietnameseA1App {
       flat.seeds.push(...(l.quizSeeds || []).map((x) => ({ ...x, lessonId: l.lessonId, lessonTitle: l.titleKo })));
     });
     return flat;
+  }
+
+  getBookmarkLesson() {
+    const marked = this.bookmarks.map((id) => this.findItemFromBase(id)).filter(Boolean);
+    const vocabCards = marked.filter((x) => x.term);
+    const sentenceCards = marked.filter((x) => x.textVi);
+    return {
+      lessonId: 'bookmark_lesson',
+      unitLabel: 'MY',
+      titleKo: '나만의 단어장',
+      titleVi: 'My Bookmark Lesson',
+      goals: ['북마크한 단어/문장 복습'],
+      vocabCards,
+      sentenceCards,
+      dialogues: [],
+      grammarPoints: [],
+      pronunciationTargets: [],
+      quizSeeds: []
+    };
+  }
+
+  refreshLessonData() {
+    const bookmarkLesson = this.getBookmarkLesson();
+    const lessons = [...(this.state.baseLessons || []), bookmarkLesson];
+    this.state.flat = this.flattenData(lessons);
   }
 
   bindGlobalEvents() {
@@ -1281,6 +1308,7 @@ class VietnameseA1App {
   toggleBookmark(id) {
     this.bookmarks = this.bookmarks.includes(id) ? this.bookmarks.filter((x) => x !== id) : [...this.bookmarks, id];
     this.saveLocal('bookmarks', this.bookmarks);
+    this.refreshLessonData();
     this.render();
   }
 
@@ -1768,6 +1796,11 @@ class VietnameseA1App {
     return [...this.state.flat.vocab, ...this.state.flat.sentence, ...this.state.flat.pronunciation].find((x) => x.id === id);
   }
 
+  findItemFromBase(id) {
+    const baseFlat = this.flattenData(this.state.baseLessons || []);
+    return [...baseFlat.vocab, ...baseFlat.sentence, ...baseFlat.pronunciation].find((x) => x.id === id);
+  }
+
   resetStudyIndexes() {
     this.state.cardIndex = 0;
     this.state.sentenceIndex = 0;
@@ -1781,6 +1814,7 @@ class VietnameseA1App {
     this.progress = {};
     this.wrongAnswers = [];
     this.bookmarks = [];
+    this.refreshLessonData();
     this.settings = { ...this.state.settings };
     this.state.ttsHistory = [];
     this.render();
@@ -1937,8 +1971,9 @@ class VietnameseA1App {
       const { data, path } = await this.fetchJson();
       this.state.data = data;
       this.state.loadedPath = path;
-      this.state.flat = this.flattenData(data.lessons || []);
-      this.state.lessonId = data.lessons?.[0]?.lessonId || null;
+      this.state.baseLessons = data.lessons || [];
+      this.refreshLessonData();
+      this.state.lessonId = this.state.flat.lessons?.[0]?.lessonId || null;
       this.state.message = '캐시 복구를 완료했어요. 다시 시작합니다! 🐳';
       this.render();
       return true;
