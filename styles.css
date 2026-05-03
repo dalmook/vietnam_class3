@@ -102,16 +102,25 @@ article .controls button { flex: 1 1 120px; }
   gap: 6px;
 }
 .example-play-btn {
-  width: 22px;
-  height: 22px;
-  min-height: 22px;
+  width: 38px;
+  height: 38px;
+  min-height: 38px;
   border-radius: 50%;
   padding: 0;
   border: 1px solid #cfd8ff;
   background: #eef3ff;
   color: #3d4d9e;
-  font-size: .72rem;
+  font-size: 1rem;
   line-height: 1;
+}
+
+.recall-focus .pron-tip,
+.recall-focus .pron-guide,
+.recall-focus .example-fold {
+  display: none;
+}
+.recall-focus .vi-big {
+  font-size: 2rem;
 }
 .example-fold p {
   margin: 8px 0 2px;
@@ -161,7 +170,7 @@ article .controls button { flex: 1 1 120px; }
 }
 .pron-label {
   display: inline-block;
-  font-size: .72rem;
+  font-size: 1rem;
   font-weight: 800;
   letter-spacing: .01em;
   color: #5a6490;
