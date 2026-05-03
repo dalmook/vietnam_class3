@@ -232,6 +232,17 @@ article .controls button { flex: 1 1 120px; }
   padding-top: 8px;
   border-top: 1px dashed #e6e9f3;
 }
+
+.nav-controls-docked {
+  position: sticky;
+  bottom: 74px;
+  margin: 12px -4px -2px;
+  padding: 10px 12px 0;
+  border-top: 1px dashed #e6e9f3;
+  background: linear-gradient(180deg, rgba(248,250,255,0.62), rgba(248,250,255,0.98) 35%);
+  backdrop-filter: blur(4px);
+  z-index: 5;
+}
 .nav-controls button {
   min-height: 46px;
   background: #eef1f9;
