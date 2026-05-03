@@ -234,21 +234,14 @@ article .controls button { flex: 1 1 120px; }
 }
 
 .nav-controls-docked {
-  position: fixed;
-  left: 50%;
-  transform: translateX(-50%);
-  bottom: 72px;
-  width: min(420px, calc(100vw - 28px));
-  margin: 0;
+  position: sticky;
+  bottom: 74px;
+  margin: 12px -4px -2px;
   padding: 10px 12px 0;
   border-top: 1px dashed #e6e9f3;
-  background: linear-gradient(180deg, rgba(248,250,255,0.35), rgba(248,250,255,0.96) 40%);
-  backdrop-filter: blur(6px);
-  z-index: 30;
-}
-
-.study-card {
-  padding-bottom: 96px;
+  background: linear-gradient(180deg, rgba(248,250,255,0.62), rgba(248,250,255,0.98) 35%);
+  backdrop-filter: blur(4px);
+  z-index: 5;
 }
 .nav-controls button {
   min-height: 46px;
