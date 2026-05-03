@@ -452,6 +452,7 @@ class VietnameseA1App {
 
   bindRenderedEvents() {
     this.bindActionNodes(this.appEl);
+    this.bindStudySwipe();
     this.appEl.querySelectorAll('[data-change]').forEach((node) => {
       if (node.dataset.change !== 'searchInput') {
         node.addEventListener('change', () => this.handleChange(node.dataset.change, node));
@@ -468,6 +469,42 @@ class VietnameseA1App {
         });
       }
     });
+  }
+
+  bindStudySwipe() {
+    const zone = this.appEl.querySelector('.study-card-body');
+    if (!zone) return;
+    let startX = 0;
+    let startY = 0;
+    let swiped = false;
+    const threshold = 45;
+    zone.addEventListener('touchstart', (e) => {
+      const t = e.touches?.[0];
+      if (!t) return;
+      startX = t.clientX;
+      startY = t.clientY;
+      swiped = false;
+    }, { passive: true });
+    zone.addEventListener('touchmove', (e) => {
+      const t = e.touches?.[0];
+      if (!t) return;
+      const dx = t.clientX - startX;
+      const dy = t.clientY - startY;
+      if (Math.abs(dx) > threshold && Math.abs(dx) > Math.abs(dy) * 1.2) swiped = true;
+    }, { passive: true });
+    zone.addEventListener('touchend', (e) => {
+      const t = e.changedTouches?.[0];
+      if (!t || !swiped) return;
+      const dx = t.clientX - startX;
+      if (dx <= -threshold) this.shiftCard(1);
+      if (dx >= threshold) this.shiftCard(-1);
+    }, { passive: true });
+    zone.addEventListener('click', (e) => {
+      if (!swiped) return;
+      e.preventDefault();
+      e.stopPropagation();
+      swiped = false;
+    }, true);
   }
 
   render() {
