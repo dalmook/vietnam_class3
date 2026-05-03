@@ -359,6 +359,7 @@ class VietnameseA1App {
       this.refreshLessonData();
       this.state.lessonId = this.state.flat.lessons?.[0]?.lessonId || null;
       this.state.quizLessonFilter = this.state.flat.lessons?.[0]?.lessonId || 'all';
+      this.restoreLastSession();
       this.render();
     } catch (e) {
       const healed = await this.tryRecoverFromCacheIssue();
@@ -507,9 +508,51 @@ class VietnameseA1App {
     }, true);
   }
 
+  restoreLastSession() {
+    const snapshot = this.loadLocal('lastSession', null);
+    if (!snapshot || typeof snapshot !== 'object') return;
+
+    const lessonExists = (lessonId) => this.state.flat.lessons.some((l) => l.lessonId === lessonId);
+    const validTabs = new Set(['home', 'study', 'quiz', 'mock', 'tools', 'tts', 'settings']);
+    const validStudyModes = new Set(['vocab', 'sentence', 'dialogue', 'pronunciation']);
+
+    if (lessonExists(snapshot.lessonId)) this.state.lessonId = snapshot.lessonId;
+    if (typeof snapshot.quizLessonFilter === 'string' && (snapshot.quizLessonFilter === 'all' || lessonExists(snapshot.quizLessonFilter))) {
+      this.state.quizLessonFilter = snapshot.quizLessonFilter;
+    }
+    if (validTabs.has(snapshot.tab)) this.state.tab = snapshot.tab;
+    if (validStudyModes.has(snapshot.studyMode)) this.state.studyMode = snapshot.studyMode;
+
+    this.state.cardIndex = Number.isInteger(snapshot.cardIndex) ? Math.max(0, snapshot.cardIndex) : this.state.cardIndex;
+    this.state.sentenceIndex = Number.isInteger(snapshot.sentenceIndex) ? Math.max(0, snapshot.sentenceIndex) : this.state.sentenceIndex;
+    this.state.dialogueIndex = Number.isInteger(snapshot.dialogueIndex) ? Math.max(0, snapshot.dialogueIndex) : this.state.dialogueIndex;
+    this.state.pronIndex = Number.isInteger(snapshot.pronIndex) ? Math.max(0, snapshot.pronIndex) : this.state.pronIndex;
+
+    const current = this.currentLesson();
+    if (!current) return;
+    this.state.cardIndex = Math.min(this.state.cardIndex, Math.max(0, (current.vocabCards || []).length - 1));
+    this.state.sentenceIndex = Math.min(this.state.sentenceIndex, Math.max(0, (current.sentenceCards || []).length - 1));
+    this.state.dialogueIndex = Math.min(this.state.dialogueIndex, Math.max(0, (current.dialogues || []).length - 1));
+    this.state.pronIndex = Math.min(this.state.pronIndex, Math.max(0, (current.pronunciationTargets || []).length - 1));
+  }
+
+  persistLastSession() {
+    this.saveLocal('lastSession', {
+      tab: this.state.tab,
+      lessonId: this.state.lessonId,
+      studyMode: this.state.studyMode,
+      quizLessonFilter: this.state.quizLessonFilter,
+      cardIndex: this.state.cardIndex,
+      sentenceIndex: this.state.sentenceIndex,
+      dialogueIndex: this.state.dialogueIndex,
+      pronIndex: this.state.pronIndex
+    });
+  }
+
   render() {
     document.querySelectorAll('.tab-btn').forEach((b) => b.classList.toggle('active', b.dataset.tab === this.state.tab));
     if (!this.state.data) return;
+    this.persistLastSession();
     const view = {
       home: () => this.renderHome(),
       study: () => this.renderStudy(),
@@ -1852,7 +1895,7 @@ class VietnameseA1App {
   }
 
   resetLocal() {
-    ['progress', 'wrongAnswers', 'bookmarks', 'settings', 'best_streak', 'ttsHistory'].forEach((k) => localStorage.removeItem(this.storagePrefix + k));
+    ['progress', 'wrongAnswers', 'bookmarks', 'settings', 'best_streak', 'ttsHistory', 'lastSession'].forEach((k) => localStorage.removeItem(this.storagePrefix + k));
     this.progress = {};
     this.wrongAnswers = [];
     this.bookmarks = [];
