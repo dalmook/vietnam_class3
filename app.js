@@ -735,7 +735,7 @@ class VietnameseA1App {
           <span>3회</span>
         </button>
       </div>
-      <div class="controls nav-controls"><button data-action="shift:-1">◀ 이전</button><button data-action="shift:1">다음 ▶</button></div>
+      <div class="controls nav-controls nav-controls-docked"><button data-action="shift:-1">◀ 이전</button><button data-action="shift:1">다음 ▶</button></div>
     </article>`;
   }
 
@@ -774,7 +774,7 @@ class VietnameseA1App {
           <span>3회</span>
         </button>
       </div>
-      <div class="controls nav-controls"><button data-action="shift:-1">◀ 이전</button><button data-action="shift:1">다음 ▶</button></div>
+      <div class="controls nav-controls nav-controls-docked"><button data-action="shift:-1">◀ 이전</button><button data-action="shift:1">다음 ▶</button></div>
     </article>`;
   }
 
@@ -825,7 +825,7 @@ class VietnameseA1App {
           <span>3회</span>
         </button>
       </div>
-      <div class="controls nav-controls"><button data-action="shift:-1">◀ 이전</button><button data-action="shift:1">다음 ▶</button></div>
+      <div class="controls nav-controls nav-controls-docked"><button data-action="shift:-1">◀ 이전</button><button data-action="shift:1">다음 ▶</button></div>
     </article>`;
   }
 
