@@ -725,17 +725,19 @@ class VietnameseA1App {
         </div>` : '')}
         <p class="small tap-hint">${recallFocus ? '❓를 누르면 원래 화면으로 돌아갑니다' : (show ? '카드를 탭하면 뜻을 숨길 수 있어요' : '카드를 탭하면 뜻이 보여요')}</p>
       </div>
-      <div class="audio-button-grid audio-controls study-card-actions">
-        <button class="audio-square-btn primary" data-action="speak:${c.audioSrc || ''}" data-text="${c.term}">
-          <span class="audio-icon">🔊</span>
-          <span>듣기</span>
-        </button>
-        <button class="audio-square-btn" data-action="repeatSpeak:${c.audioSrc || ''}" data-text="${c.term}" data-audio="${c.audioSrc || ''}">
-          <span class="audio-icon">🔁</span>
-          <span>3회</span>
-        </button>
+      <div class="study-fixed-controls">
+        <div class="audio-button-grid audio-controls study-card-actions">
+          <button class="audio-square-btn primary" data-action="speak:${c.audioSrc || ''}" data-text="${c.term}">
+            <span class="audio-icon">🔊</span>
+            <span>듣기</span>
+          </button>
+          <button class="audio-square-btn" data-action="repeatSpeak:${c.audioSrc || ''}" data-text="${c.term}" data-audio="${c.audioSrc || ''}">
+            <span class="audio-icon">🔁</span>
+            <span>3회</span>
+          </button>
+        </div>
+        <div class="controls nav-controls nav-controls-docked"><button data-action="shift:-1">◀ 이전</button><button data-action="shift:1">다음 ▶</button></div>
       </div>
-      <div class="controls nav-controls nav-controls-docked"><button data-action="shift:-1">◀ 이전</button><button data-action="shift:1">다음 ▶</button></div>
     </article>`;
   }
 
@@ -764,17 +766,19 @@ class VietnameseA1App {
         <div class="${show ? '' : 'hidden'}">${pronGuide}</div>
         <p class="small tap-hint">${show ? '카드를 탭하면 해석을 숨깁니다' : '카드를 탭하면 해석이 보여요'}</p>
       </div>
-      <div class="audio-button-grid audio-controls study-card-actions">
-        <button class="audio-square-btn primary" data-action="speak:${c.audioSrc || ''}" data-text="${c.textVi}">
-          <span class="audio-icon">🔊</span>
-          <span>듣기</span>
-        </button>
-        <button class="audio-square-btn" data-action="repeatSpeak:${c.audioSrc || ''}" data-text="${c.textVi}" data-audio="${c.audioSrc || ''}">
-          <span class="audio-icon">🔁</span>
-          <span>3회</span>
-        </button>
+      <div class="study-fixed-controls">
+        <div class="audio-button-grid audio-controls study-card-actions">
+          <button class="audio-square-btn primary" data-action="speak:${c.audioSrc || ''}" data-text="${c.textVi}">
+            <span class="audio-icon">🔊</span>
+            <span>듣기</span>
+          </button>
+          <button class="audio-square-btn" data-action="repeatSpeak:${c.audioSrc || ''}" data-text="${c.textVi}" data-audio="${c.audioSrc || ''}">
+            <span class="audio-icon">🔁</span>
+            <span>3회</span>
+          </button>
+        </div>
+        <div class="controls nav-controls nav-controls-docked"><button data-action="shift:-1">◀ 이전</button><button data-action="shift:1">다음 ▶</button></div>
       </div>
-      <div class="controls nav-controls nav-controls-docked"><button data-action="shift:-1">◀ 이전</button><button data-action="shift:1">다음 ▶</button></div>
     </article>`;
   }
 
@@ -815,17 +819,19 @@ class VietnameseA1App {
       <div class="pron-target-grid">
         ${pronBlocks.map(([label, content, klass]) => `<div class="pron-info-card ${klass}"><div class="pron-label">${label}</div><div>${this.escapeHtml(content)}</div></div>`).join('')}
       </div>
-      <div class="audio-button-grid audio-controls study-card-actions">
-        <button class="audio-square-btn primary" data-action="speak:${t.audioSrc || ''}" data-text="${t.text}">
-          <span class="audio-icon">🔊</span>
-          <span>듣기</span>
-        </button>
-        <button class="audio-square-btn" data-action="repeatSpeak:${t.audioSrc || ''}" data-text="${t.text}" data-audio="${t.audioSrc || ''}">
-          <span class="audio-icon">🔁</span>
-          <span>3회</span>
-        </button>
+      <div class="study-fixed-controls">
+        <div class="audio-button-grid audio-controls study-card-actions">
+          <button class="audio-square-btn primary" data-action="speak:${t.audioSrc || ''}" data-text="${t.text}">
+            <span class="audio-icon">🔊</span>
+            <span>듣기</span>
+          </button>
+          <button class="audio-square-btn" data-action="repeatSpeak:${t.audioSrc || ''}" data-text="${t.text}" data-audio="${t.audioSrc || ''}">
+            <span class="audio-icon">🔁</span>
+            <span>3회</span>
+          </button>
+        </div>
+        <div class="controls nav-controls nav-controls-docked"><button data-action="shift:-1">◀ 이전</button><button data-action="shift:1">다음 ▶</button></div>
       </div>
-      <div class="controls nav-controls nav-controls-docked"><button data-action="shift:-1">◀ 이전</button><button data-action="shift:1">다음 ▶</button></div>
     </article>`;
   }
 
