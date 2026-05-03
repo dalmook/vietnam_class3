@@ -700,11 +700,12 @@ class VietnameseA1App {
     const c = cards[idx];
     const stat = this.progress[c.id] || {};
     const show = this.state.revealMeaning;
+    const recallFocus = stat.known && show;
     const pronGuide = this.renderPronGuide(c, c.term);
     const exampleSpeakBtn = show && c.example
       ? `<button class="example-play-btn" type="button" data-action="speak:" data-text="${this.escapeAttr(c.example)}" aria-label="예문 듣기" onclick="event.stopPropagation()">▶</button>`
       : '';
-    return `<article class="card fade study-card">
+    return `<article class="card fade study-card ${recallFocus ? 'recall-focus' : ''}">
       <div class="row card-top">
         <div class="row compact-card-meta"><span class="badge">${idx + 1} / ${cards.length}</span>${c.sourcePage ? `<span class="badge">p.${c.sourcePage}</span>` : ''}</div>
         <div class="icon-actions">
@@ -715,14 +716,14 @@ class VietnameseA1App {
         </div>
       </div>
       <div class="card-tap-zone study-card-body" data-action="toggleCardReveal">
-        <div class="vi-big">${c.term}</div>
-        <div class="pron-tip ${show ? '' : 'hidden'}">뜻: ${c.meaningKo}</div>
-        <div class="${show ? '' : 'hidden'}">${pronGuide}</div>
-        ${show && c.example ? `<div class="example-fold" onclick="event.stopPropagation()">
+        <div class="vi-big">${recallFocus ? (c.meaningKo || c.term) : c.term}</div>
+        ${recallFocus ? '' : `<div class="pron-tip ${show ? '' : 'hidden'}">뜻: ${c.meaningKo}</div>`}
+        ${recallFocus ? '' : `<div class="${show ? '' : 'hidden'}">${pronGuide}</div>`}
+        ${recallFocus ? '' : (show && c.example ? `<div class="example-fold" onclick="event.stopPropagation()">
           <div class="example-head">예문 보기 ${exampleSpeakBtn}</div>
           <p class="small">${c.example}<br>${c.exampleMeaningKo || ''}</p>
-        </div>` : ''}
-        <p class="small tap-hint">${show ? '카드를 탭하면 뜻을 숨길 수 있어요' : '카드를 탭하면 뜻이 보여요'}</p>
+        </div>` : '')}
+        <p class="small tap-hint">${recallFocus ? '❓를 누르면 원래 화면으로 돌아갑니다' : (show ? '카드를 탭하면 뜻을 숨길 수 있어요' : '카드를 탭하면 뜻이 보여요')}</p>
       </div>
       <div class="audio-button-grid audio-controls study-card-actions">
         <button class="audio-square-btn primary" data-action="speak:${c.audioSrc || ''}" data-text="${c.term}">
@@ -1292,7 +1293,10 @@ class VietnameseA1App {
 
   markItem(id, value, rerender = true) {
     const p = this.progress[id] || { correctCount: 0, wrongCount: 0 };
-    if (value === 'known') p.known = true;
+    if (value === 'known') {
+      p.known = true;
+      this.state.revealMeaning = true;
+    }
     if (value === 'unknown') p.known = false;
     if (value === 'difficult') p.difficult = true;
     if (value === 'correct') p.correctCount = (p.correctCount || 0) + 1;
