@@ -1286,7 +1286,8 @@ class VietnameseA1App {
 
     if (this.settings.autoPlay) {
       const item = this.currentCardItem();
-      if (item) this.playAudio(item.audioSrc || '', item.term || item.textVi || item.text);
+      const isKnown = item?.id ? this.progress[item.id]?.known === true : false;
+      if (item && !isKnown) this.playAudio(item.audioSrc || '', item.term || item.textVi || item.text);
     }
     this.render();
   }
