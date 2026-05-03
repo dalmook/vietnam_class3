@@ -15,7 +15,7 @@ body { margin: 0; font-family: "Pretendard", "Noto Sans KR", system-ui, sans-ser
 .app-header h1 { margin: 6px 0 2px; font-size: 1.4rem; }
 .app-header p { margin: 0 0 12px; color: var(--muted); }
 .card { background: var(--card); border-radius: 24px; box-shadow: var(--shadow); padding: 18px; margin-bottom: 14px; border: 1px solid #ecf0ff; transition: transform .18s ease, box-shadow .18s ease; }
-.card:active { transform: scale(0.995); box-shadow: 0 8px 18px rgba(31,42,68,.12); }
+.card:active:not(.study-card) { transform: scale(0.995); box-shadow: 0 8px 18px rgba(31,42,68,.12); }
 .grid-2 { display: grid; grid-template-columns: repeat(2, 1fr); gap: 10px; }
 .stat { min-height: 96px; }
 .stat strong { font-size: 1.2rem; display: block; margin-top: 4px; }
@@ -232,6 +232,32 @@ article .controls button { flex: 1 1 120px; }
   padding-top: 8px;
   border-top: 1px dashed #e6e9f3;
 }
+
+.nav-controls-docked {
+  margin: 6px 0 0;
+  padding-top: 8px;
+  border-top: 1px dashed #e6e9f3;
+}
+
+.study-fixed-controls {
+  position: fixed;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: calc(62px + env(safe-area-inset-bottom, 0px));
+  width: min(432px, calc(100vw - 24px));
+  padding: 10px 10px 10px;
+  border-radius: 16px 16px 0 0;
+  background: rgba(248, 250, 255, 0.97);
+  backdrop-filter: blur(8px);
+  border: 1px solid #e1e7fb;
+  border-bottom: 0;
+  z-index: 35;
+}
+
+.study-card {
+  padding-bottom: 182px;
+}
+
 .nav-controls button {
   min-height: 46px;
   background: #eef1f9;
@@ -518,3 +544,30 @@ button:disabled { opacity: .5; cursor: not-allowed; }
   font-size: 1.1rem;
   font-weight: 700;
 }
+
+
+.study-card {
+  height: calc(100vh - 250px);
+  min-height: 460px;
+  max-height: calc(100vh - 250px);
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.study-card-body {
+  flex: 1 1 auto;
+  overflow-y: auto;
+  padding-right: 4px;
+}
+
+.study-fixed-controls {
+  z-index: 80;
+}
+
+.bottom-nav {
+  z-index: 40;
+}
+
+.study-fixed-controls { pointer-events: none; }
+.study-fixed-controls button { pointer-events: auto; }
