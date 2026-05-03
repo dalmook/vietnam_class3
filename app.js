@@ -683,7 +683,6 @@ class VietnameseA1App {
     this.appEl.innerHTML = `<section class="fade">
       <div class="card study-toolbar">
         <div class="lesson-compact-select">
-          <label class="small">레슨</label>
           <select data-change="lesson">${this.state.flat.lessons.map((l) => `<option value="${l.lessonId}" ${l.lessonId === this.state.lessonId ? 'selected' : ''}>${l.unitLabel} · ${l.titleKo}</option>`).join('')}</select>
         </div>
         <div class="mode-pills">${tabs}</div>
@@ -723,7 +722,6 @@ class VietnameseA1App {
           <div class="example-head">예문 보기 ${exampleSpeakBtn}</div>
           <p class="small">${c.example}<br>${c.exampleMeaningKo || ''}</p>
         </div>` : '')}
-        <p class="small tap-hint">${recallFocus ? '❓를 누르면 원래 화면으로 돌아갑니다' : (show ? '카드를 탭하면 뜻을 숨길 수 있어요' : '카드를 탭하면 뜻이 보여요')}</p>
       </div>
       <div class="study-fixed-controls">
         <div class="audio-button-grid audio-controls study-card-actions">

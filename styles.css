@@ -544,3 +544,27 @@ button:disabled { opacity: .5; cursor: not-allowed; }
   font-size: 1.1rem;
   font-weight: 700;
 }
+
+
+.study-card {
+  height: calc(100vh - 250px);
+  min-height: 460px;
+  max-height: calc(100vh - 250px);
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.study-card-body {
+  flex: 1 1 auto;
+  overflow-y: auto;
+  padding-right: 4px;
+}
+
+.study-fixed-controls {
+  z-index: 80;
+}
+
+.bottom-nav {
+  z-index: 40;
+}
