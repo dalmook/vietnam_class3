@@ -1090,7 +1090,7 @@ class VietnameseA1App {
   async speakTtsInput() {
     const text = (this.state.ttsInput || '').trim();
     if (!text) return;
-    await this.playAudio('', text, { lang: 'ko-KR', allowAudio: false });
+    await this.playAudio('', text, { lang: 'vi-VN', allowAudio: false });
     const next = [{ text, at: new Date().toISOString() }, ...(this.state.ttsHistory || []).filter((x) => x.text !== text)].slice(0, 30);
     this.state.ttsHistory = next;
     this.saveLocal('ttsHistory', next);
@@ -1100,7 +1100,7 @@ class VietnameseA1App {
   async speakTtsHistory(index) {
     const item = (this.state.ttsHistory || [])[index];
     if (!item) return;
-    await this.playAudio('', item.text, { lang: 'ko-KR', allowAudio: false });
+    await this.playAudio('', item.text, { lang: 'vi-VN', allowAudio: false });
   }
 
   deleteTtsHistory(index) {
