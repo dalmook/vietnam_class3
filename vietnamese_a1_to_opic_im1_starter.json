@@ -19,6 +19,909 @@
   },
   "lessons": [
     {
+  "lessonId": "d5freetime",
+  "unitLabel": "5일차",
+  "titleKo": "5일차: 여가시간",
+  "titleVi": "Chủ đề 4: Thời gian rảnh",
+  "pageRange": "Topic 1-21 / 8-9",
+  "goals": [
+    "여가시간 관련 핵심 단어를 익힌다",
+    "한가할 때 무엇을 하는지 말할 수 있다",
+    "집에 있는 것과 밖에 나가는 것을 비교해서 말할 수 있다",
+    "영화 보기, 음악 듣기, 책 읽기, 운동, 카페 가기를 말할 수 있다",
+    "여가 시간에 공부하거나 휴대폰을 사용하는 습관을 말할 수 있다",
+    "OPIc 여가시간 질문에 짧고 자연스럽게 답할 수 있다"
+  ],
+  "topicOverview": "5일차 여가시간 주제는 한가할 때 하는 활동을 말하는 레슨입니다. 영화 보기, 음악 듣기, 책 읽기, 운동하기, 카페 가기, 휴대폰 사용, 베트남어 공부, 주말 활동을 초급 OPIc 답변 형태로 연습합니다. 핵심 구조는 'Khi rảnh, tôi thường...', 'Tôi thích...', 'Tôi hay...', 'Tôi không có nhiều thời gian rảnh.'입니다.",
+  "cultureTopics": [
+    "여가시간",
+    "집에서 쉬기",
+    "밖에 나가기",
+    "영화 보기",
+    "음악 듣기",
+    "책 읽기",
+    "운동하기",
+    "친구와 카페 가기",
+    "휴대폰 사용",
+    "주말 활동"
+  ],
+  "vocabCards": [
+    {
+      "id": "d5freetime-v-001",
+      "term": "rảnh",
+      "meaningKo": "한가하다",
+      "example": "Khi rảnh, tôi xem phim.",
+      "exampleMeaningKo": "한가할 때 저는 영화를 봅니다.",
+      "audioSrc": "",
+      "sourcePage": 8,
+      "reviewNeeded": false,
+      "pronKo": "자잉",
+      "pronNoteKo": "한가하다라는 뜻입니다. 'thời gian rảnh'는 여가 시간입니다.",
+      "pronChunks": ["rảnh=자잉"]
+    },
+    {
+      "id": "d5freetime-v-002",
+      "term": "thời gian",
+      "meaningKo": "시간",
+      "example": "Tôi không có nhiều thời gian.",
+      "exampleMeaningKo": "저는 시간이 많지 않습니다.",
+      "audioSrc": "",
+      "sourcePage": 8,
+      "reviewNeeded": false,
+      "pronKo": "터이 잔",
+      "pronNoteKo": "시간이라는 뜻입니다.",
+      "pronChunks": ["thời=터이", "gian=잔"]
+    },
+    {
+      "id": "d5freetime-v-003",
+      "term": "thời gian rảnh",
+      "meaningKo": "여가 시간 / 한가한 시간",
+      "example": "Tôi không có nhiều thời gian rảnh.",
+      "exampleMeaningKo": "저는 여가 시간이 많지 않습니다.",
+      "audioSrc": "",
+      "sourcePage": 8,
+      "reviewNeeded": false,
+      "pronKo": "터이 잔 자잉",
+      "pronNoteKo": "OPIc 여가시간 주제에서 가장 중요한 표현입니다.",
+      "pronChunks": ["thời gian=터이 잔", "rảnh=자잉"]
+    },
+    {
+      "id": "d5freetime-v-004",
+      "term": "khi",
+      "meaningKo": "~할 때",
+      "example": "Khi rảnh, tôi nghe nhạc.",
+      "exampleMeaningKo": "한가할 때 저는 음악을 듣습니다.",
+      "audioSrc": "",
+      "sourcePage": 8,
+      "reviewNeeded": false,
+      "pronKo": "키",
+      "pronNoteKo": "khi rảnh = 한가할 때.",
+      "pronChunks": ["khi=키"]
+    },
+    {
+      "id": "d5freetime-v-005",
+      "term": "khi rảnh",
+      "meaningKo": "한가할 때",
+      "example": "Khi rảnh, tôi thường đọc sách.",
+      "exampleMeaningKo": "한가할 때 저는 보통 책을 읽습니다.",
+      "audioSrc": "",
+      "sourcePage": 8,
+      "reviewNeeded": false,
+      "pronKo": "키 자잉",
+      "pronNoteKo": "문장 맨 앞에 붙이면 답변이 자연스러워집니다.",
+      "pronChunks": ["khi=키", "rảnh=자잉"]
+    },
+    {
+      "id": "d5freetime-v-006",
+      "term": "nhiều",
+      "meaningKo": "많다",
+      "example": "Tôi không có nhiều thời gian rảnh.",
+      "exampleMeaningKo": "저는 여가 시간이 많지 않습니다.",
+      "audioSrc": "",
+      "sourcePage": 8,
+      "reviewNeeded": false,
+      "pronKo": "니에우",
+      "pronNoteKo": "많다라는 뜻입니다.",
+      "pronChunks": ["nhiều=니에우"]
+    },
+    {
+      "id": "d5freetime-v-007",
+      "term": "ở nhà",
+      "meaningKo": "집에 있다 / 집에서",
+      "example": "Tôi thích ở nhà khi rảnh.",
+      "exampleMeaningKo": "저는 한가할 때 집에 있는 것을 좋아합니다.",
+      "audioSrc": "",
+      "sourcePage": 8,
+      "reviewNeeded": false,
+      "pronKo": "어 냐",
+      "pronNoteKo": "ở는 ~에 있다, nhà는 집입니다.",
+      "pronChunks": ["ở=어", "nhà=냐"]
+    },
+    {
+      "id": "d5freetime-v-008",
+      "term": "thích",
+      "meaningKo": "좋아하다",
+      "example": "Tôi thích xem phim.",
+      "exampleMeaningKo": "저는 영화 보는 것을 좋아합니다.",
+      "audioSrc": "",
+      "sourcePage": 8,
+      "reviewNeeded": false,
+      "pronKo": "틱",
+      "pronNoteKo": "좋아하는 활동을 말할 때 씁니다.",
+      "pronChunks": ["thích=틱"]
+    },
+    {
+      "id": "d5freetime-v-009",
+      "term": "đi ra ngoài",
+      "meaningKo": "밖에 나가다",
+      "example": "Tôi thích đi ra ngoài với bạn.",
+      "exampleMeaningKo": "저는 친구와 밖에 나가는 것을 좋아합니다.",
+      "audioSrc": "",
+      "sourcePage": 8,
+      "reviewNeeded": false,
+      "pronKo": "디 자 응오아이",
+      "pronNoteKo": "đi는 가다, ra ngoài는 밖으로입니다.",
+      "pronChunks": ["đi=디", "ra=자", "ngoài=응오아이"]
+    },
+    {
+      "id": "d5freetime-v-010",
+      "term": "xem phim",
+      "meaningKo": "영화를 보다",
+      "example": "Tôi thường xem phim khi rảnh.",
+      "exampleMeaningKo": "저는 한가할 때 보통 영화를 봅니다.",
+      "audioSrc": "",
+      "sourcePage": 8,
+      "reviewNeeded": false,
+      "pronKo": "셈 핌",
+      "pronNoteKo": "xem은 보다, phim은 영화입니다.",
+      "pronChunks": ["xem=셈", "phim=핌"]
+    },
+    {
+      "id": "d5freetime-v-011",
+      "term": "nghe nhạc",
+      "meaningKo": "음악을 듣다",
+      "example": "Tôi hay nghe nhạc.",
+      "exampleMeaningKo": "저는 자주 음악을 듣습니다.",
+      "audioSrc": "",
+      "sourcePage": 8,
+      "reviewNeeded": false,
+      "pronKo": "응에 냑",
+      "pronNoteKo": "nghe는 듣다, nhạc은 음악입니다.",
+      "pronChunks": ["nghe=응에", "nhạc=냑"]
+    },
+    {
+      "id": "d5freetime-v-012",
+      "term": "đọc sách",
+      "meaningKo": "책을 읽다",
+      "example": "Tôi đọc sách vào cuối tuần.",
+      "exampleMeaningKo": "저는 주말에 책을 읽습니다.",
+      "audioSrc": "",
+      "sourcePage": 8,
+      "reviewNeeded": false,
+      "pronKo": "독 삭",
+      "pronNoteKo": "đọc은 읽다, sách은 책입니다.",
+      "pronChunks": ["đọc=독", "sách=삭"]
+    },
+    {
+      "id": "d5freetime-v-013",
+      "term": "chơi thể thao",
+      "meaningKo": "운동하다 / 스포츠를 하다",
+      "example": "Tôi chơi thể thao vào cuối tuần.",
+      "exampleMeaningKo": "저는 주말에 운동합니다.",
+      "audioSrc": "",
+      "sourcePage": 8,
+      "reviewNeeded": false,
+      "pronKo": "쩌이 테 타오",
+      "pronNoteKo": "chơi는 놀다/하다, thể thao는 스포츠입니다.",
+      "pronChunks": ["chơi=쩌이", "thể thao=테 타오"]
+    },
+    {
+      "id": "d5freetime-v-014",
+      "term": "đi cà phê",
+      "meaningKo": "카페에 가다",
+      "example": "Tôi đi cà phê với bạn.",
+      "exampleMeaningKo": "저는 친구와 카페에 갑니다.",
+      "audioSrc": "",
+      "sourcePage": 8,
+      "reviewNeeded": false,
+      "pronKo": "디 까 페",
+      "pronNoteKo": "베트남어에서는 '카페에 가다'를 đi cà phê처럼 자연스럽게 말합니다.",
+      "pronChunks": ["đi=디", "cà phê=까 페"]
+    },
+    {
+      "id": "d5freetime-v-015",
+      "term": "bạn",
+      "meaningKo": "친구 / 당신",
+      "example": "Tôi đi cà phê với bạn.",
+      "exampleMeaningKo": "저는 친구와 카페에 갑니다.",
+      "audioSrc": "",
+      "sourcePage": 8,
+      "reviewNeeded": false,
+      "pronKo": "반",
+      "pronNoteKo": "친구 또는 상대를 부를 때도 씁니다.",
+      "pronChunks": ["bạn=반"]
+    },
+    {
+      "id": "d5freetime-v-016",
+      "term": "thường",
+      "meaningKo": "보통 / 자주",
+      "example": "Tôi thường xem phim.",
+      "exampleMeaningKo": "저는 보통 영화를 봅니다.",
+      "audioSrc": "",
+      "sourcePage": 8,
+      "reviewNeeded": false,
+      "pronKo": "트엉",
+      "pronNoteKo": "습관을 말할 때 가장 많이 씁니다.",
+      "pronChunks": ["thường=트엉"]
+    },
+    {
+      "id": "d5freetime-v-017",
+      "term": "dùng điện thoại",
+      "meaningKo": "휴대폰을 사용하다",
+      "example": "Tôi hay dùng điện thoại khi rảnh.",
+      "exampleMeaningKo": "저는 한가할 때 자주 휴대폰을 사용합니다.",
+      "audioSrc": "",
+      "sourcePage": 8,
+      "reviewNeeded": false,
+      "pronKo": "중 디엔 토아이",
+      "pronNoteKo": "dùng은 사용하다, điện thoại는 전화기/휴대폰입니다.",
+      "pronChunks": ["dùng=중", "điện thoại=디엔 토아이"]
+    },
+    {
+      "id": "d5freetime-v-018",
+      "term": "hay",
+      "meaningKo": "자주",
+      "example": "Tôi hay nghe nhạc.",
+      "exampleMeaningKo": "저는 자주 음악을 듣습니다.",
+      "audioSrc": "",
+      "sourcePage": 8,
+      "reviewNeeded": false,
+      "pronKo": "하이",
+      "pronNoteKo": "여기서는 '자주'라는 뜻입니다. '또는'이라는 뜻도 있으니 문맥으로 구분합니다.",
+      "pronChunks": ["hay=하이"]
+    },
+    {
+      "id": "d5freetime-v-019",
+      "term": "học",
+      "meaningKo": "공부하다 / 배우다",
+      "example": "Tôi học tiếng Việt khi rảnh.",
+      "exampleMeaningKo": "저는 한가할 때 베트남어를 공부합니다.",
+      "audioSrc": "",
+      "sourcePage": 8,
+      "reviewNeeded": false,
+      "pronKo": "혹",
+      "pronNoteKo": "공부하다, 배우다입니다.",
+      "pronChunks": ["học=혹"]
+    },
+    {
+      "id": "d5freetime-v-020",
+      "term": "học thêm",
+      "meaningKo": "추가로 공부하다 / 더 배우다",
+      "example": "Tôi học thêm tiếng Việt.",
+      "exampleMeaningKo": "저는 추가로 베트남어를 공부합니다.",
+      "audioSrc": "",
+      "sourcePage": 8,
+      "reviewNeeded": false,
+      "pronKo": "혹 템",
+      "pronNoteKo": "học은 공부하다, thêm은 추가로/더입니다.",
+      "pronChunks": ["học=혹", "thêm=템"]
+    },
+    {
+      "id": "d5freetime-v-021",
+      "term": "thêm",
+      "meaningKo": "추가로 / 더",
+      "example": "Tôi muốn học thêm.",
+      "exampleMeaningKo": "저는 더 공부하고 싶습니다.",
+      "audioSrc": "",
+      "sourcePage": 8,
+      "reviewNeeded": false,
+      "pronKo": "템",
+      "pronNoteKo": "추가로, 더라는 뜻입니다.",
+      "pronChunks": ["thêm=템"]
+    },
+    {
+      "id": "d5freetime-v-022",
+      "term": "cuối tuần",
+      "meaningKo": "주말",
+      "example": "Cuối tuần tôi thường nghỉ ngơi.",
+      "exampleMeaningKo": "주말에 저는 보통 쉽니다.",
+      "audioSrc": "",
+      "sourcePage": 8,
+      "reviewNeeded": false,
+      "pronKo": "꾸오이 뚜언",
+      "pronNoteKo": "주말입니다.",
+      "pronChunks": ["cuối=꾸오이", "tuần=뚜언"]
+    },
+    {
+      "id": "d5freetime-v-023",
+      "term": "ngày thường",
+      "meaningKo": "평일",
+      "example": "Ngày thường tôi rất bận.",
+      "exampleMeaningKo": "평일에 저는 매우 바쁩니다.",
+      "audioSrc": "",
+      "sourcePage": 8,
+      "reviewNeeded": false,
+      "pronKo": "응아이 트엉",
+      "pronNoteKo": "평일, 보통 날이라는 뜻입니다.",
+      "pronChunks": ["ngày=응아이", "thường=트엉"]
+    },
+    {
+      "id": "d5freetime-v-024",
+      "term": "đi du lịch",
+      "meaningKo": "여행 가다",
+      "example": "Tôi thích đi du lịch khi có thời gian rảnh.",
+      "exampleMeaningKo": "저는 여가 시간이 있을 때 여행 가는 것을 좋아합니다.",
+      "audioSrc": "",
+      "sourcePage": 9,
+      "reviewNeeded": false,
+      "pronKo": "디 주 릭",
+      "pronNoteKo": "du lịch은 여행입니다.",
+      "pronChunks": ["đi=디", "du lịch=주 릭"]
+    },
+    {
+      "id": "d5freetime-v-025",
+      "term": "nghỉ ngơi",
+      "meaningKo": "쉬다 / 휴식하다",
+      "example": "Cuối tuần tôi thường nghỉ ngơi.",
+      "exampleMeaningKo": "주말에 저는 보통 쉽니다.",
+      "audioSrc": "",
+      "sourcePage": 9,
+      "reviewNeeded": false,
+      "pronKo": "응이 응어이",
+      "pronNoteKo": "휴식하다라는 뜻입니다.",
+      "pronChunks": ["nghỉ=응이", "ngơi=응어이"]
+    },
+    {
+      "id": "d5freetime-v-026",
+      "term": "với bạn",
+      "meaningKo": "친구와 함께",
+      "example": "Tôi đi cà phê với bạn.",
+      "exampleMeaningKo": "저는 친구와 카페에 갑니다.",
+      "audioSrc": "",
+      "sourcePage": 9,
+      "reviewNeeded": false,
+      "pronKo": "버이 반",
+      "pronNoteKo": "với는 ~와, bạn은 친구입니다.",
+      "pronChunks": ["với=버이", "bạn=반"]
+    },
+    {
+      "id": "d5freetime-v-027",
+      "term": "nhiều hơn",
+      "meaningKo": "더 많이",
+      "example": "Tôi rảnh vào cuối tuần nhiều hơn.",
+      "exampleMeaningKo": "저는 주말에 더 많이 한가합니다.",
+      "audioSrc": "",
+      "sourcePage": 9,
+      "reviewNeeded": false,
+      "pronKo": "니에우 헌",
+      "pronNoteKo": "비교할 때 씁니다.",
+      "pronChunks": ["nhiều=니에우", "hơn=헌"]
+    }
+  ],
+  "sentenceCards": [
+    {
+      "id": "d5freetime-s-001",
+      "textVi": "Khi rảnh, anh thường làm gì?",
+      "textKo": "한가할 때 보통 뭐 해요?",
+      "exampleAnswerVi": "Khi rảnh, tôi thường xem phim hoặc nghe nhạc.",
+      "exampleAnswerKo": "한가할 때 저는 보통 영화를 보거나 음악을 듣습니다.",
+      "audioSrc": "",
+      "sourcePage": 9,
+      "reviewNeeded": false,
+      "pronKo": "키 자잉, 아인 트엉 람 지?",
+      "exampleAnswerPronKo": "키 자잉, 또이 트엉 셈 핌 호악 응에 냑.",
+      "pronNoteKo": "Khi rảnh = 한가할 때. thường làm gì = 보통 무엇을 해요?"
+    },
+    {
+      "id": "d5freetime-s-002",
+      "textVi": "Anh có nhiều thời gian rảnh không?",
+      "textKo": "여가 시간이 많아요?",
+      "exampleAnswerVi": "Không. Dạo này tôi không có nhiều thời gian rảnh.",
+      "exampleAnswerKo": "아니요. 요즘 저는 여가 시간이 많지 않습니다.",
+      "audioSrc": "",
+      "sourcePage": 9,
+      "reviewNeeded": false,
+      "pronKo": "아인 꼬 니에우 터이 잔 자잉 콩?",
+      "exampleAnswerPronKo": "콩. 자오 나이 또이 콩 꼬 니에우 터이 잔 자잉.",
+      "pronNoteKo": "không có nhiều = 많지 않다."
+    },
+    {
+      "id": "d5freetime-s-003",
+      "textVi": "Anh có thích ở nhà khi rảnh không?",
+      "textKo": "한가할 때 집에 있는 것을 좋아해요?",
+      "exampleAnswerVi": "Có. Tôi thích ở nhà khi rảnh.",
+      "exampleAnswerKo": "네. 저는 한가할 때 집에 있는 것을 좋아합니다.",
+      "audioSrc": "",
+      "sourcePage": 9,
+      "reviewNeeded": false,
+      "pronKo": "아인 꼬 틱 어 냐 키 자잉 콩?",
+      "exampleAnswerPronKo": "꼬. 또이 틱 어 냐 키 자잉.",
+      "pronNoteKo": "thích ở nhà = 집에 있는 것을 좋아하다."
+    },
+    {
+      "id": "d5freetime-s-004",
+      "textVi": "Anh có xem phim khi rảnh không?",
+      "textKo": "한가할 때 영화를 봐요?",
+      "exampleAnswerVi": "Có. Tôi thường xem phim khi rảnh.",
+      "exampleAnswerKo": "네. 저는 한가할 때 보통 영화를 봅니다.",
+      "audioSrc": "",
+      "sourcePage": 9,
+      "reviewNeeded": false,
+      "pronKo": "아인 꼬 셈 핌 키 자잉 콩?",
+      "exampleAnswerPronKo": "꼬. 또이 트엉 셈 핌 키 자잉.",
+      "pronNoteKo": "xem phim = 영화를 보다."
+    },
+    {
+      "id": "d5freetime-s-005",
+      "textVi": "Anh có nghe nhạc không?",
+      "textKo": "음악을 들어요?",
+      "exampleAnswerVi": "Có. Tôi hay nghe nhạc.",
+      "exampleAnswerKo": "네. 저는 자주 음악을 듣습니다.",
+      "audioSrc": "",
+      "sourcePage": 9,
+      "reviewNeeded": false,
+      "pronKo": "아인 꼬 응에 냑 콩?",
+      "exampleAnswerPronKo": "꼬. 또이 하이 응에 냑.",
+      "pronNoteKo": "hay = 자주."
+    },
+    {
+      "id": "d5freetime-s-006",
+      "textVi": "Anh có đọc sách không?",
+      "textKo": "책을 읽어요?",
+      "exampleAnswerVi": "Thỉnh thoảng. Tôi đọc sách vào cuối tuần.",
+      "exampleAnswerKo": "가끔요. 저는 주말에 책을 읽습니다.",
+      "audioSrc": "",
+      "sourcePage": 9,
+      "reviewNeeded": false,
+      "pronKo": "아인 꼬 독 삭 콩?",
+      "exampleAnswerPronKo": "팅 토앙. 또이 독 삭 바오 꾸오이 뚜언.",
+      "pronNoteKo": "thỉnh thoảng = 가끔."
+    },
+    {
+      "id": "d5freetime-s-007",
+      "textVi": "Anh có chơi thể thao không?",
+      "textKo": "운동해요?",
+      "exampleAnswerVi": "Có. Tôi chơi thể thao vào cuối tuần.",
+      "exampleAnswerKo": "네. 저는 주말에 운동합니다.",
+      "audioSrc": "",
+      "sourcePage": 9,
+      "reviewNeeded": false,
+      "pronKo": "아인 꼬 쩌이 테 타오 콩?",
+      "exampleAnswerPronKo": "꼬. 또이 쩌이 테 타오 바오 꾸오이 뚜언.",
+      "pronNoteKo": "chơi thể thao = 운동하다."
+    },
+    {
+      "id": "d5freetime-s-008",
+      "textVi": "Anh có đi cà phê với bạn không?",
+      "textKo": "친구와 카페에 가요?",
+      "exampleAnswerVi": "Có. Tôi thường đi cà phê với bạn.",
+      "exampleAnswerKo": "네. 저는 보통 친구와 카페에 갑니다.",
+      "audioSrc": "",
+      "sourcePage": 9,
+      "reviewNeeded": false,
+      "pronKo": "아인 꼬 디 까 페 버이 반 콩?",
+      "exampleAnswerPronKo": "꼬. 또이 트엉 디 까 페 버이 반.",
+      "pronNoteKo": "đi cà phê với bạn = 친구와 카페에 가다."
+    },
+    {
+      "id": "d5freetime-s-009",
+      "textVi": "Anh thường rảnh vào lúc nào?",
+      "textKo": "보통 언제 한가해요?",
+      "exampleAnswerVi": "Tôi thường rảnh vào buổi tối và cuối tuần.",
+      "exampleAnswerKo": "저는 보통 저녁과 주말에 한가합니다.",
+      "audioSrc": "",
+      "sourcePage": 9,
+      "reviewNeeded": false,
+      "pronKo": "아인 트엉 자잉 바오 룩 나오?",
+      "exampleAnswerPronKo": "또이 트엉 자잉 바오 부오이 또이 바 꾸오이 뚜언.",
+      "pronNoteKo": "vào lúc nào = 언제."
+    },
+    {
+      "id": "d5freetime-s-010",
+      "textVi": "Anh thích ở nhà hay thích đi ra ngoài khi rảnh?",
+      "textKo": "한가할 때 집에 있는 걸 좋아해요, 아니면 밖에 나가는 걸 좋아해요?",
+      "exampleAnswerVi": "Tôi thích ở nhà hơn.",
+      "exampleAnswerKo": "저는 집에 있는 것을 더 좋아합니다.",
+      "audioSrc": "",
+      "sourcePage": 9,
+      "reviewNeeded": false,
+      "pronKo": "아인 틱 어 냐 하이 틱 디 자 응오아이 키 자잉?",
+      "exampleAnswerPronKo": "또이 틱 어 냐 헌.",
+      "pronNoteKo": "hay = 또는 / 아니면. hơn = 더."
+    },
+    {
+      "id": "d5freetime-s-011",
+      "textVi": "Anh có hay dùng điện thoại khi rảnh không?",
+      "textKo": "한가할 때 휴대폰을 자주 사용해요?",
+      "exampleAnswerVi": "Có. Tôi hay dùng điện thoại khi rảnh.",
+      "exampleAnswerKo": "네. 저는 한가할 때 자주 휴대폰을 사용합니다.",
+      "audioSrc": "",
+      "sourcePage": 9,
+      "reviewNeeded": false,
+      "pronKo": "아인 꼬 하이 중 디엔 토아이 키 자잉 콩?",
+      "exampleAnswerPronKo": "꼬. 또이 하이 중 디엔 토아이 키 자잉.",
+      "pronNoteKo": "có hay + 동사 + không? = 자주 ~해요?"
+    },
+    {
+      "id": "d5freetime-s-012",
+      "textVi": "Anh có học thêm gì trong thời gian rảnh không?",
+      "textKo": "여가 시간에 추가로 뭘 공부해요?",
+      "exampleAnswerVi": "Có. Tôi học thêm tiếng Việt trong thời gian rảnh.",
+      "exampleAnswerKo": "네. 저는 여가 시간에 추가로 베트남어를 공부합니다.",
+      "audioSrc": "",
+      "sourcePage": 9,
+      "reviewNeeded": false,
+      "pronKo": "아인 꼬 혹 템 지 쫑 터이 잔 자잉 콩?",
+      "exampleAnswerPronKo": "꼬. 또이 혹 템 띠엥 비엣 쫑 터이 잔 자잉.",
+      "pronNoteKo": "học thêm gì = 무엇을 추가로 공부하다."
+    },
+    {
+      "id": "d5freetime-s-013",
+      "textVi": "Cuối tuần anh thường làm gì?",
+      "textKo": "주말에 보통 뭐 해요?",
+      "exampleAnswerVi": "Cuối tuần tôi thường nghỉ ngơi và xem phim.",
+      "exampleAnswerKo": "주말에 저는 보통 쉬고 영화를 봅니다.",
+      "audioSrc": "",
+      "sourcePage": 9,
+      "reviewNeeded": false,
+      "pronKo": "꾸오이 뚜언 아인 트엉 람 지?",
+      "exampleAnswerPronKo": "꾸오이 뚜언 또이 트엉 응이 응어이 바 셈 핌.",
+      "pronNoteKo": "Cuối tuần = 주말에."
+    },
+    {
+      "id": "d5freetime-s-014",
+      "textVi": "Anh có đi du lịch khi có thời gian rảnh không?",
+      "textKo": "여가 시간이 있을 때 여행을 가요?",
+      "exampleAnswerVi": "Có. Nếu có thời gian rảnh, tôi muốn đi du lịch.",
+      "exampleAnswerKo": "네. 여가 시간이 있으면 저는 여행 가고 싶습니다.",
+      "audioSrc": "",
+      "sourcePage": 9,
+      "reviewNeeded": false,
+      "pronKo": "아인 꼬 디 주 릭 키 꼬 터이 잔 자잉 콩?",
+      "exampleAnswerPronKo": "꼬. 네우 꼬 터이 잔 자잉, 또이 무온 디 주 릭.",
+      "pronNoteKo": "Nếu có... = 만약 ~이 있으면."
+    },
+    {
+      "id": "d5freetime-s-015",
+      "textVi": "Anh rảnh vào ngày thường hay cuối tuần nhiều hơn?",
+      "textKo": "평일에 더 한가해요, 아니면 주말에 더 한가해요?",
+      "exampleAnswerVi": "Tôi rảnh vào cuối tuần nhiều hơn.",
+      "exampleAnswerKo": "저는 주말에 더 한가합니다.",
+      "audioSrc": "",
+      "sourcePage": 9,
+      "reviewNeeded": false,
+      "pronKo": "아인 자잉 바오 응아이 트엉 하이 꾸오이 뚜언 니에우 헌?",
+      "exampleAnswerPronKo": "또이 자잉 바오 꾸오이 뚜언 니에우 헌.",
+      "pronNoteKo": "nhiều hơn = 더 많이."
+    }
+  ],
+  "dialogues": [
+    {
+      "id": "d5freetime-d-001",
+      "title": "한가할 때 하는 일",
+      "audioSrc": "",
+      "sourcePage": 9,
+      "reviewNeeded": false,
+      "lines": [
+        {
+          "speaker": "A",
+          "vi": "Khi rảnh, anh thường làm gì?",
+          "ko": "한가할 때 보통 뭐 해요?",
+          "pronKo": "키 자잉, 아인 트엉 람 지?"
+        },
+        {
+          "speaker": "B",
+          "vi": "Khi rảnh, tôi thường xem phim hoặc nghe nhạc.",
+          "ko": "한가할 때 저는 보통 영화를 보거나 음악을 듣습니다.",
+          "pronKo": "키 자잉, 또이 트엉 셈 핌 호악 응에 냑."
+        },
+        {
+          "speaker": "A",
+          "vi": "Anh có nhiều thời gian rảnh không?",
+          "ko": "여가 시간이 많아요?",
+          "pronKo": "아인 꼬 니에우 터이 잔 자잉 콩?"
+        },
+        {
+          "speaker": "B",
+          "vi": "Không. Dạo này tôi không có nhiều thời gian rảnh.",
+          "ko": "아니요. 요즘 저는 여가 시간이 많지 않습니다.",
+          "pronKo": "콩. 자오 나이 또이 콩 꼬 니에우 터이 잔 자잉."
+        }
+      ]
+    },
+    {
+      "id": "d5freetime-d-002",
+      "title": "집에 있기 vs 밖에 나가기",
+      "audioSrc": "",
+      "sourcePage": 9,
+      "reviewNeeded": false,
+      "lines": [
+        {
+          "speaker": "A",
+          "vi": "Anh thích ở nhà hay thích đi ra ngoài khi rảnh?",
+          "ko": "한가할 때 집에 있는 걸 좋아해요, 아니면 밖에 나가는 걸 좋아해요?",
+          "pronKo": "아인 틱 어 냐 하이 틱 디 자 응오아이 키 자잉?"
+        },
+        {
+          "speaker": "B",
+          "vi": "Tôi thích ở nhà hơn.",
+          "ko": "저는 집에 있는 것을 더 좋아합니다.",
+          "pronKo": "또이 틱 어 냐 헌."
+        },
+        {
+          "speaker": "A",
+          "vi": "Ở nhà anh thường làm gì?",
+          "ko": "집에서 보통 뭐 해요?",
+          "pronKo": "어 냐 아인 트엉 람 지?"
+        },
+        {
+          "speaker": "B",
+          "vi": "Tôi thường xem phim và dùng điện thoại.",
+          "ko": "저는 보통 영화를 보고 휴대폰을 사용합니다.",
+          "pronKo": "또이 트엉 셈 핌 바 중 디엔 토아이."
+        }
+      ]
+    },
+    {
+      "id": "d5freetime-d-003",
+      "title": "친구와 카페 가기",
+      "audioSrc": "",
+      "sourcePage": 9,
+      "reviewNeeded": false,
+      "lines": [
+        {
+          "speaker": "A",
+          "vi": "Anh có đi cà phê với bạn không?",
+          "ko": "친구와 카페에 가요?",
+          "pronKo": "아인 꼬 디 까 페 버이 반 콩?"
+        },
+        {
+          "speaker": "B",
+          "vi": "Có. Tôi thường đi cà phê với bạn vào cuối tuần.",
+          "ko": "네. 저는 보통 주말에 친구와 카페에 갑니다.",
+          "pronKo": "꼬. 또이 트엉 디 까 페 버이 반 바오 꾸오이 뚜언."
+        },
+        {
+          "speaker": "A",
+          "vi": "Anh thường rảnh vào lúc nào?",
+          "ko": "보통 언제 한가해요?",
+          "pronKo": "아인 트엉 자잉 바오 룩 나오?"
+        },
+        {
+          "speaker": "B",
+          "vi": "Tôi thường rảnh vào buổi tối và cuối tuần.",
+          "ko": "저는 보통 저녁과 주말에 한가합니다.",
+          "pronKo": "또이 트엉 자잉 바오 부오이 또이 바 꾸오이 뚜언."
+        }
+      ]
+    },
+    {
+      "id": "d5freetime-d-004",
+      "title": "여가 시간에 공부하기",
+      "audioSrc": "",
+      "sourcePage": 9,
+      "reviewNeeded": false,
+      "lines": [
+        {
+          "speaker": "A",
+          "vi": "Anh có học thêm gì trong thời gian rảnh không?",
+          "ko": "여가 시간에 추가로 뭘 공부해요?",
+          "pronKo": "아인 꼬 혹 템 지 쫑 터이 잔 자잉 콩?"
+        },
+        {
+          "speaker": "B",
+          "vi": "Có. Tôi học thêm tiếng Việt trong thời gian rảnh.",
+          "ko": "네. 저는 여가 시간에 추가로 베트남어를 공부합니다.",
+          "pronKo": "꼬. 또이 혹 템 띠엥 비엣 쫑 터이 잔 자잉."
+        },
+        {
+          "speaker": "A",
+          "vi": "Anh có đi du lịch khi có thời gian rảnh không?",
+          "ko": "여가 시간이 있을 때 여행을 가요?",
+          "pronKo": "아인 꼬 디 주 릭 키 꼬 터이 잔 자잉 콩?"
+        },
+        {
+          "speaker": "B",
+          "vi": "Có. Nếu có thời gian rảnh, tôi muốn đi du lịch.",
+          "ko": "네. 여가 시간이 있으면 저는 여행 가고 싶습니다.",
+          "pronKo": "꼬. 네우 꼬 터이 잔 자잉, 또이 무온 디 주 릭."
+        }
+      ]
+    }
+  ],
+  "grammarPoints": [
+    {
+      "id": "d5freetime-g-001",
+      "title": "~할 때",
+      "pattern": "Khi + 상태/동사, 주어 + 동사 → Khi rảnh, tôi xem phim.",
+      "meaningKo": "~할 때 → 한가할 때 저는 영화를 봅니다.",
+      "sourcePage": 9,
+      "reviewNeeded": false
+    },
+    {
+      "id": "d5freetime-g-002",
+      "title": "여가 시간이 있다 / 없다",
+      "pattern": "có thời gian rảnh / không có nhiều thời gian rảnh",
+      "meaningKo": "여가 시간이 있다 / 여가 시간이 많지 않다",
+      "sourcePage": 9,
+      "reviewNeeded": false
+    },
+    {
+      "id": "d5freetime-g-003",
+      "title": "보통 ~하다",
+      "pattern": "thường + 동사 → Tôi thường xem phim.",
+      "meaningKo": "보통 ~하다 → 저는 보통 영화를 봅니다.",
+      "sourcePage": 9,
+      "reviewNeeded": false
+    },
+    {
+      "id": "d5freetime-g-004",
+      "title": "자주 ~하다",
+      "pattern": "hay + 동사 → Tôi hay nghe nhạc.",
+      "meaningKo": "자주 ~하다 → 저는 자주 음악을 듣습니다.",
+      "sourcePage": 9,
+      "reviewNeeded": false
+    },
+    {
+      "id": "d5freetime-g-005",
+      "title": "A 아니면 B",
+      "pattern": "A hay B → Anh thích ở nhà hay đi ra ngoài?",
+      "meaningKo": "A 또는 B → 집에 있는 걸 좋아해요, 아니면 밖에 나가는 걸 좋아해요?",
+      "sourcePage": 9,
+      "reviewNeeded": false
+    },
+    {
+      "id": "d5freetime-g-006",
+      "title": "더 ~하다",
+      "pattern": "형용사/동사 + hơn → Tôi thích ở nhà hơn.",
+      "meaningKo": "더 ~하다 → 저는 집에 있는 것을 더 좋아합니다.",
+      "sourcePage": 9,
+      "reviewNeeded": false
+    },
+    {
+      "id": "d5freetime-g-007",
+      "title": "여가 시간에",
+      "pattern": "trong thời gian rảnh → Tôi học thêm tiếng Việt trong thời gian rảnh.",
+      "meaningKo": "여가 시간에 → 저는 여가 시간에 베트남어를 추가로 공부합니다.",
+      "sourcePage": 9,
+      "reviewNeeded": false
+    },
+    {
+      "id": "d5freetime-g-008",
+      "title": "만약 ~하면",
+      "pattern": "Nếu có + 명사, 주어 + muốn + 동사 → Nếu có thời gian rảnh, tôi muốn đi du lịch.",
+      "meaningKo": "만약 ~이 있으면 → 여가 시간이 있으면 저는 여행 가고 싶습니다.",
+      "sourcePage": 9,
+      "reviewNeeded": false
+    }
+  ],
+  "pronunciationTargets": [
+    {
+      "id": "d5freetime-p-001",
+      "text": "thời gian rảnh",
+      "hintKo": "여가 시간",
+      "audioSrc": "",
+      "sourcePage": 8,
+      "reviewNeeded": false,
+      "pronKo": "터이 잔 자잉",
+      "mouthKo": "thời gian은 '터이 잔', rảnh는 '자잉'처럼 끊어서 읽습니다.",
+      "toneKo": "rảnh는 너무 길게 끌지 말고 짧게 내려갔다 올라가는 느낌으로 연습하세요."
+    },
+    {
+      "id": "d5freetime-p-002",
+      "text": "Khi rảnh",
+      "hintKo": "한가할 때",
+      "audioSrc": "",
+      "sourcePage": 8,
+      "reviewNeeded": false,
+      "pronKo": "키 자잉",
+      "mouthKo": "OPIc 답변 시작 표현으로 좋습니다.",
+      "toneKo": "Khi rảnh, tôi... 구조를 통째로 외우세요."
+    },
+    {
+      "id": "d5freetime-p-003",
+      "text": "xem phim",
+      "hintKo": "영화를 보다",
+      "audioSrc": "",
+      "sourcePage": 8,
+      "reviewNeeded": false,
+      "pronKo": "셈 핌",
+      "mouthKo": "xem은 '셈', phim은 '핌'처럼 짧게 말합니다.",
+      "toneKo": "둘 다 짧게 끊어서 말하면 자연스럽습니다."
+    },
+    {
+      "id": "d5freetime-p-004",
+      "text": "nghe nhạc",
+      "hintKo": "음악을 듣다",
+      "audioSrc": "",
+      "sourcePage": 8,
+      "reviewNeeded": false,
+      "pronKo": "응에 냑",
+      "mouthKo": "nghe는 '응에'처럼 앞에 응 소리를 살짝 냅니다.",
+      "toneKo": "nhạc은 짧고 강하게 끊어 주세요."
+    },
+    {
+      "id": "d5freetime-p-005",
+      "text": "dùng điện thoại",
+      "hintKo": "휴대폰을 사용하다",
+      "audioSrc": "",
+      "sourcePage": 8,
+      "reviewNeeded": false,
+      "pronKo": "중 디엔 토아이",
+      "mouthKo": "dùng은 '중', điện thoại는 '디엔 토아이'로 나눠 읽습니다.",
+      "toneKo": "휴대폰 주제 답변에 자주 쓰는 표현입니다."
+    },
+    {
+      "id": "d5freetime-p-006",
+      "text": "Tôi học thêm tiếng Việt trong thời gian rảnh.",
+      "hintKo": "저는 여가 시간에 베트남어를 추가로 공부합니다.",
+      "audioSrc": "",
+      "sourcePage": 9,
+      "reviewNeeded": false,
+      "pronKo": "또이 혹 템 띠엥 비엣 쫑 터이 잔 자잉.",
+      "mouthKo": "긴 문장이므로 또이 혹 템 / 띠엥 비엣 / 쫑 터이 잔 자잉 으로 끊어 읽으세요.",
+      "toneKo": "OPIc 답변에서 점수 올리기 좋은 문장입니다."
+    }
+  ],
+  "quizSeeds": [
+    {
+      "id": "d5freetime-q-001",
+      "type": "match-term",
+      "prompt": "5일차 여가시간 단어 매칭",
+      "answerSet": [
+        "rảnh-한가하다",
+        "thời gian rảnh-여가 시간",
+        "khi rảnh-한가할 때",
+        "ở nhà-집에 있다",
+        "đi ra ngoài-밖에 나가다",
+        "xem phim-영화를 보다",
+        "nghe nhạc-음악을 듣다",
+        "đọc sách-책을 읽다",
+        "chơi thể thao-운동하다",
+        "đi cà phê-카페에 가다"
+      ],
+      "sourcePage": 9,
+      "reviewNeeded": false
+    },
+    {
+      "id": "d5freetime-q-002",
+      "type": "sentence-meaning",
+      "prompt": "5일차 여가시간 질문 뜻 고르기",
+      "answerSet": [
+        "Khi rảnh, anh thường làm gì?-한가할 때 보통 뭐 해요?",
+        "Anh có nhiều thời gian rảnh không?-여가 시간이 많아요?",
+        "Anh có thích ở nhà khi rảnh không?-한가할 때 집에 있는 것을 좋아해요?",
+        "Anh có xem phim khi rảnh không?-한가할 때 영화를 봐요?",
+        "Anh có đi cà phê với bạn không?-친구와 카페에 가요?",
+        "Anh thường rảnh vào lúc nào?-보통 언제 한가해요?",
+        "Anh có học thêm gì trong thời gian rảnh không?-여가 시간에 추가로 뭘 공부해요?",
+        "Anh rảnh vào ngày thường hay cuối tuần nhiều hơn?-평일에 더 한가해요, 아니면 주말에 더 한가해요?"
+      ],
+      "sourcePage": 9,
+      "reviewNeeded": false
+    },
+    {
+      "id": "d5freetime-q-003",
+      "type": "sentence-meaning",
+      "prompt": "5일차 여가시간 답변 뜻 고르기",
+      "answerSet": [
+        "Khi rảnh, tôi thường xem phim hoặc nghe nhạc.-한가할 때 저는 보통 영화를 보거나 음악을 듣습니다.",
+        "Dạo này tôi không có nhiều thời gian rảnh.-요즘 저는 여가 시간이 많지 않습니다.",
+        "Tôi thích ở nhà khi rảnh.-저는 한가할 때 집에 있는 것을 좋아합니다.",
+        "Tôi hay dùng điện thoại khi rảnh.-저는 한가할 때 자주 휴대폰을 사용합니다.",
+        "Tôi học thêm tiếng Việt trong thời gian rảnh.-저는 여가 시간에 베트남어를 추가로 공부합니다.",
+        "Cuối tuần tôi thường nghỉ ngơi và xem phim.-주말에 저는 보통 쉬고 영화를 봅니다.",
+        "Nếu có thời gian rảnh, tôi muốn đi du lịch.-여가 시간이 있으면 저는 여행 가고 싶습니다.",
+        "Tôi rảnh vào cuối tuần nhiều hơn.-저는 주말에 더 한가합니다."
+      ],
+      "sourcePage": 9,
+      "reviewNeeded": false
+    }
+  ],
+  "unlockCondition": "complete-previous",
+  "reviewNeeded": false
+    },
+    {
   "lessonId": "d5housework",
   "unitLabel": "5일차",
   "titleKo": "5일차: 집안일",
