@@ -19,6 +19,946 @@
   },
   "lessons": [
     {
+  "lessonId": "d5housework",
+  "unitLabel": "5일차",
+  "titleKo": "5일차: 집안일",
+  "titleVi": "Chủ đề 3: Việc nhà",
+  "pageRange": "Topic 1-21 / 6-7",
+  "goals": [
+    "집안일 관련 핵심 단어를 익힌다",
+    "집안일을 하는지, 좋아하는지 말할 수 있다",
+    "집에서 누가 어떤 집안일을 하는지 말할 수 있다",
+    "아내와 집안일을 나누는 표현을 말할 수 있다",
+    "좋아하는 집안일과 싫어하는 집안일을 말할 수 있다",
+    "OPIc 집안일 질문에 짧고 자연스럽게 답할 수 있다"
+  ],
+  "topicOverview": "5일차 집안일 주제는 설거지, 바닥 닦기, 빨래, 요리, 방 청소, 가족과 집안일 나누기, 집안일의 중요성에 대해 말하는 레슨입니다. 초보자는 'Tôi thường...', 'Tôi phải...', 'Tôi thích...', 'Tôi ghét...' 구조만 익혀도 여러 답변을 만들 수 있습니다.",
+  "cultureTopics": [
+    "집안일",
+    "가족과 집안일 분담",
+    "부부가 함께 하는 집안일",
+    "좋아하는 집안일",
+    "싫어하는 집안일",
+    "한국 남자의 집안일"
+  ],
+  "vocabCards": [
+    {
+      "id": "d5housework-v-001",
+      "term": "việc nhà",
+      "meaningKo": "집안일",
+      "example": "Tôi thường làm việc nhà.",
+      "exampleMeaningKo": "저는 보통 집안일을 합니다.",
+      "audioSrc": "",
+      "sourcePage": 6,
+      "reviewNeeded": false,
+      "pronKo": "비엑 냐",
+      "pronNoteKo": "việc은 '비엑'처럼 짧게 끊고, nhà는 '냐'처럼 발음합니다.",
+      "pronChunks": ["việc=비엑", "nhà=냐"]
+    },
+    {
+      "id": "d5housework-v-002",
+      "term": "làm việc nhà",
+      "meaningKo": "집안일을 하다",
+      "example": "Tôi làm việc nhà vào cuối tuần.",
+      "exampleMeaningKo": "저는 주말에 집안일을 합니다.",
+      "audioSrc": "",
+      "sourcePage": 6,
+      "reviewNeeded": false,
+      "pronKo": "람 비엑 냐",
+      "pronNoteKo": "làm은 '하다', việc nhà는 '집안일'입니다.",
+      "pronChunks": ["làm=람", "việc nhà=비엑 냐"]
+    },
+    {
+      "id": "d5housework-v-003",
+      "term": "thường",
+      "meaningKo": "보통 / 자주",
+      "example": "Tôi thường rửa bát.",
+      "exampleMeaningKo": "저는 보통 설거지를 합니다.",
+      "audioSrc": "",
+      "sourcePage": 6,
+      "reviewNeeded": false,
+      "pronKo": "트엉",
+      "pronNoteKo": "OPIc 답변에서 습관을 말할 때 자주 씁니다.",
+      "pronChunks": ["thường=트엉"]
+    },
+    {
+      "id": "d5housework-v-004",
+      "term": "thích",
+      "meaningKo": "좋아하다",
+      "example": "Tôi thích nấu ăn.",
+      "exampleMeaningKo": "저는 요리하는 것을 좋아합니다.",
+      "audioSrc": "",
+      "sourcePage": 6,
+      "reviewNeeded": false,
+      "pronKo": "틱",
+      "pronNoteKo": "좋아하는 것을 말할 때 씁니다.",
+      "pronChunks": ["thích=틱"]
+    },
+    {
+      "id": "d5housework-v-005",
+      "term": "không thích",
+      "meaningKo": "좋아하지 않다",
+      "example": "Tôi không thích rửa bát.",
+      "exampleMeaningKo": "저는 설거지를 좋아하지 않습니다.",
+      "audioSrc": "",
+      "sourcePage": 6,
+      "reviewNeeded": false,
+      "pronKo": "콩 틱",
+      "pronNoteKo": "không + 동사/형용사 = ~하지 않다.",
+      "pronChunks": ["không=콩", "thích=틱"]
+    },
+    {
+      "id": "d5housework-v-006",
+      "term": "nhưng",
+      "meaningKo": "하지만 / 그런데",
+      "example": "Tôi không thích việc nhà, nhưng tôi vẫn làm.",
+      "exampleMeaningKo": "저는 집안일을 좋아하지 않지만 그래도 합니다.",
+      "audioSrc": "",
+      "sourcePage": 6,
+      "reviewNeeded": false,
+      "pronKo": "늉",
+      "pronNoteKo": "두 문장을 반대로 연결할 때 씁니다.",
+      "pronChunks": ["nhưng=늉"]
+    },
+    {
+      "id": "d5housework-v-007",
+      "term": "rửa bát",
+      "meaningKo": "설거지하다",
+      "example": "Tôi rửa bát sau khi ăn.",
+      "exampleMeaningKo": "저는 식사 후에 설거지를 합니다.",
+      "audioSrc": "",
+      "sourcePage": 6,
+      "reviewNeeded": false,
+      "pronKo": "즈어 밧",
+      "pronNoteKo": "rửa는 씻다, bát은 그릇입니다.",
+      "pronChunks": ["rửa=즈어", "bát=밧"]
+    },
+    {
+      "id": "d5housework-v-008",
+      "term": "lau nhà",
+      "meaningKo": "바닥을 닦다 / 집을 닦다",
+      "example": "Tôi lau nhà vào cuối tuần.",
+      "exampleMeaningKo": "저는 주말에 바닥을 닦습니다.",
+      "audioSrc": "",
+      "sourcePage": 6,
+      "reviewNeeded": false,
+      "pronKo": "라우 냐",
+      "pronNoteKo": "lau는 닦다, nhà는 집입니다.",
+      "pronChunks": ["lau=라우", "nhà=냐"]
+    },
+    {
+      "id": "d5housework-v-009",
+      "term": "giặt quần áo",
+      "meaningKo": "빨래하다",
+      "example": "Tôi giặt quần áo vào buổi tối.",
+      "exampleMeaningKo": "저는 저녁에 빨래를 합니다.",
+      "audioSrc": "",
+      "sourcePage": 6,
+      "reviewNeeded": false,
+      "pronKo": "잣 꾸언 아오",
+      "pronNoteKo": "giặt은 빨다, quần áo는 옷입니다.",
+      "pronChunks": ["giặt=잣", "quần áo=꾸언 아오"]
+    },
+    {
+      "id": "d5housework-v-010",
+      "term": "nấu ăn",
+      "meaningKo": "요리하다",
+      "example": "Tôi thích nấu ăn.",
+      "exampleMeaningKo": "저는 요리하는 것을 좋아합니다.",
+      "audioSrc": "",
+      "sourcePage": 6,
+      "reviewNeeded": false,
+      "pronKo": "너우 안",
+      "pronNoteKo": "nấu는 요리하다, ăn은 먹다입니다.",
+      "pronChunks": ["nấu=너우", "ăn=안"]
+    },
+    {
+      "id": "d5housework-v-011",
+      "term": "dọn phòng",
+      "meaningKo": "방을 청소하다 / 방을 정리하다",
+      "example": "Tôi dọn phòng vào Chủ nhật.",
+      "exampleMeaningKo": "저는 일요일에 방을 청소합니다.",
+      "audioSrc": "",
+      "sourcePage": 6,
+      "reviewNeeded": false,
+      "pronKo": "존 퐁",
+      "pronNoteKo": "dọn은 치우다, 정리하다입니다.",
+      "pronChunks": ["dọn=존", "phòng=퐁"]
+    },
+    {
+      "id": "d5housework-v-012",
+      "term": "sống",
+      "meaningKo": "살다",
+      "example": "Tôi sống với gia đình.",
+      "exampleMeaningKo": "저는 가족과 함께 삽니다.",
+      "audioSrc": "",
+      "sourcePage": 6,
+      "reviewNeeded": false,
+      "pronKo": "쏭",
+      "pronNoteKo": "어디에 살다, 누구와 살다에 모두 씁니다.",
+      "pronChunks": ["sống=쏭"]
+    },
+    {
+      "id": "d5housework-v-013",
+      "term": "một mình",
+      "meaningKo": "혼자",
+      "example": "Tôi không sống một mình.",
+      "exampleMeaningKo": "저는 혼자 살지 않습니다.",
+      "audioSrc": "",
+      "sourcePage": 6,
+      "reviewNeeded": false,
+      "pronKo": "못 민",
+      "pronNoteKo": "một은 하나, mình은 자기 자신입니다. 합치면 혼자라는 뜻입니다.",
+      "pronChunks": ["một=못", "mình=민"]
+    },
+    {
+      "id": "d5housework-v-014",
+      "term": "với gia đình",
+      "meaningKo": "가족과 함께",
+      "example": "Tôi sống với gia đình.",
+      "exampleMeaningKo": "저는 가족과 함께 삽니다.",
+      "audioSrc": "",
+      "sourcePage": 6,
+      "reviewNeeded": false,
+      "pronKo": "버이 자 딩",
+      "pronNoteKo": "với는 ~와, gia đình은 가족입니다.",
+      "pronChunks": ["với=버이", "gia đình=자 딩"]
+    },
+    {
+      "id": "d5housework-v-015",
+      "term": "gia đình",
+      "meaningKo": "가족",
+      "example": "Gia đình tôi có bốn người.",
+      "exampleMeaningKo": "제 가족은 네 명입니다.",
+      "audioSrc": "",
+      "sourcePage": 6,
+      "reviewNeeded": false,
+      "pronKo": "자 딩",
+      "pronNoteKo": "가족을 뜻합니다.",
+      "pronChunks": ["gia=자", "đình=딩"]
+    },
+    {
+      "id": "d5housework-v-016",
+      "term": "chia",
+      "meaningKo": "나누다",
+      "example": "Tôi chia việc nhà với vợ.",
+      "exampleMeaningKo": "저는 아내와 집안일을 나눕니다.",
+      "audioSrc": "",
+      "sourcePage": 6,
+      "reviewNeeded": false,
+      "pronKo": "찌아",
+      "pronNoteKo": "나누다, 분담하다라는 뜻입니다.",
+      "pronChunks": ["chia=찌아"]
+    },
+    {
+      "id": "d5housework-v-017",
+      "term": "chia việc nhà",
+      "meaningKo": "집안일을 나누다",
+      "example": "Vợ chồng tôi chia việc nhà.",
+      "exampleMeaningKo": "저희 부부는 집안일을 나눕니다.",
+      "audioSrc": "",
+      "sourcePage": 6,
+      "reviewNeeded": false,
+      "pronKo": "찌아 비엑 냐",
+      "pronNoteKo": "집안일 분담을 말할 때 그대로 외우면 좋습니다.",
+      "pronChunks": ["chia=찌아", "việc nhà=비엑 냐"]
+    },
+    {
+      "id": "d5housework-v-018",
+      "term": "vợ",
+      "meaningKo": "아내",
+      "example": "Tôi chia việc nhà với vợ.",
+      "exampleMeaningKo": "저는 아내와 집안일을 나눕니다.",
+      "audioSrc": "",
+      "sourcePage": 6,
+      "reviewNeeded": false,
+      "pronKo": "버",
+      "pronNoteKo": "아내입니다.",
+      "pronChunks": ["vợ=버"]
+    },
+    {
+      "id": "d5housework-v-019",
+      "term": "vợ chồng",
+      "meaningKo": "부부",
+      "example": "Vợ chồng tôi cùng làm việc nhà.",
+      "exampleMeaningKo": "저희 부부는 함께 집안일을 합니다.",
+      "audioSrc": "",
+      "sourcePage": 6,
+      "reviewNeeded": false,
+      "pronKo": "버 쫑",
+      "pronNoteKo": "vợ는 아내, chồng은 남편입니다. vợ chồng은 부부입니다.",
+      "pronChunks": ["vợ=버", "chồng=쫑"]
+    },
+    {
+      "id": "d5housework-v-020",
+      "term": "thời gian",
+      "meaningKo": "시간",
+      "example": "Tôi không có nhiều thời gian.",
+      "exampleMeaningKo": "저는 시간이 많지 않습니다.",
+      "audioSrc": "",
+      "sourcePage": 6,
+      "reviewNeeded": false,
+      "pronKo": "터이 잔",
+      "pronNoteKo": "시간입니다.",
+      "pronChunks": ["thời=터이", "gian=잔"]
+    },
+    {
+      "id": "d5housework-v-021",
+      "term": "quan trọng",
+      "meaningKo": "중요하다",
+      "example": "Việc nhà rất quan trọng.",
+      "exampleMeaningKo": "집안일은 매우 중요합니다.",
+      "audioSrc": "",
+      "sourcePage": 6,
+      "reviewNeeded": false,
+      "pronKo": "꽌 쫑",
+      "pronNoteKo": "중요하다는 뜻입니다.",
+      "pronChunks": ["quan=꽌", "trọng=쫑"]
+    },
+    {
+      "id": "d5housework-v-022",
+      "term": "theo anh",
+      "meaningKo": "당신 생각에는",
+      "example": "Theo anh, việc nhà có quan trọng không?",
+      "exampleMeaningKo": "당신 생각에는 집안일이 중요해요?",
+      "audioSrc": "",
+      "sourcePage": 6,
+      "reviewNeeded": false,
+      "pronKo": "테오 아인",
+      "pronNoteKo": "theo tôi는 제 생각에는, theo anh는 당신 생각에는입니다.",
+      "pronChunks": ["theo=테오", "anh=아인"]
+    },
+    {
+      "id": "d5housework-v-023",
+      "term": "theo tôi",
+      "meaningKo": "제 생각에는",
+      "example": "Theo tôi, việc nhà rất quan trọng.",
+      "exampleMeaningKo": "제 생각에는 집안일은 매우 중요합니다.",
+      "audioSrc": "",
+      "sourcePage": 6,
+      "reviewNeeded": false,
+      "pronKo": "테오 또이",
+      "pronNoteKo": "의견을 말할 때 OPIc 답변에 넣기 좋습니다.",
+      "pronChunks": ["theo=테오", "tôi=또이"]
+    },
+    {
+      "id": "d5housework-v-024",
+      "term": "nhất",
+      "meaningKo": "가장",
+      "example": "Tôi thích nấu ăn nhất.",
+      "exampleMeaningKo": "저는 요리를 가장 좋아합니다.",
+      "audioSrc": "",
+      "sourcePage": 6,
+      "reviewNeeded": false,
+      "pronKo": "녓",
+      "pronNoteKo": "가장 ~하다를 만들 때 뒤에 붙입니다.",
+      "pronChunks": ["nhất=녓"]
+    },
+    {
+      "id": "d5housework-v-025",
+      "term": "ghét",
+      "meaningKo": "싫어하다",
+      "example": "Tôi ghét rửa bát.",
+      "exampleMeaningKo": "저는 설거지를 싫어합니다.",
+      "audioSrc": "",
+      "sourcePage": 6,
+      "reviewNeeded": false,
+      "pronKo": "겟",
+      "pronNoteKo": "싫어하다입니다. mạnh한 표현이라 시험 답변에서는 가볍게 dùng해도 됩니다.",
+      "pronChunks": ["ghét=겟"]
+    },
+    {
+      "id": "d5housework-v-026",
+      "term": "ghét nhất",
+      "meaningKo": "가장 싫어하다",
+      "example": "Tôi ghét rửa bát nhất.",
+      "exampleMeaningKo": "저는 설거지를 가장 싫어합니다.",
+      "audioSrc": "",
+      "sourcePage": 6,
+      "reviewNeeded": false,
+      "pronKo": "겟 녓",
+      "pronNoteKo": "ghét + 명사 + nhất 구조로 씁니다.",
+      "pronChunks": ["ghét=겟", "nhất=녓"]
+    },
+    {
+      "id": "d5housework-v-027",
+      "term": "đàn bà",
+      "meaningKo": "여자",
+      "example": "Đàn bà và đàn ông đều làm việc nhà.",
+      "exampleMeaningKo": "여자와 남자 모두 집안일을 합니다.",
+      "audioSrc": "",
+      "sourcePage": 6,
+      "reviewNeeded": false,
+      "pronKo": "단 바",
+      "pronNoteKo": "일반적으로 여자를 뜻하지만, 실제 회화에서는 phụ nữ도 많이 씁니다.",
+      "pronChunks": ["đàn=단", "bà=바"]
+    },
+    {
+      "id": "d5housework-v-028",
+      "term": "đàn ông",
+      "meaningKo": "남자",
+      "example": "Ở Hàn Quốc, đàn ông cũng thường làm việc nhà.",
+      "exampleMeaningKo": "한국에서는 남자들도 보통 집안일을 합니다.",
+      "audioSrc": "",
+      "sourcePage": 6,
+      "reviewNeeded": false,
+      "pronKo": "단 옴",
+      "pronNoteKo": "남자, 남성입니다.",
+      "pronChunks": ["đàn=단", "ông=옴"]
+    },
+    {
+      "id": "d5housework-v-029",
+      "term": "cũng",
+      "meaningKo": "또한 / ~도",
+      "example": "Đàn ông cũng làm việc nhà.",
+      "exampleMeaningKo": "남자도 집안일을 합니다.",
+      "audioSrc": "",
+      "sourcePage": 7,
+      "reviewNeeded": false,
+      "pronKo": "꿍",
+      "pronNoteKo": "~도 라는 뜻입니다.",
+      "pronChunks": ["cũng=꿍"]
+    },
+    {
+      "id": "d5housework-v-030",
+      "term": "cùng",
+      "meaningKo": "함께",
+      "example": "Vợ chồng tôi cùng làm việc nhà.",
+      "exampleMeaningKo": "저희 부부는 함께 집안일을 합니다.",
+      "audioSrc": "",
+      "sourcePage": 7,
+      "reviewNeeded": false,
+      "pronKo": "꿍",
+      "pronNoteKo": "cũng는 ~도, cùng은 함께입니다.",
+      "pronChunks": ["cùng=꿍"]
+    }
+  ],
+  "sentenceCards": [
+    {
+      "id": "d5housework-s-001",
+      "textVi": "Anh có thường làm việc nhà không?",
+      "textKo": "집안일을 자주 해요?",
+      "exampleAnswerVi": "Có. Tôi thường làm việc nhà vào cuối tuần.",
+      "exampleAnswerKo": "네. 저는 보통 주말에 집안일을 합니다.",
+      "audioSrc": "",
+      "sourcePage": 7,
+      "reviewNeeded": false,
+      "pronKo": "아인 꼬 트엉 람 비엑 냐 콩?",
+      "exampleAnswerPronKo": "꼬. 또이 트엉 람 비엑 냐 바오 꾸오이 뚜언.",
+      "pronNoteKo": "có thường + 동사 + không? = 보통 ~해요?"
+    },
+    {
+      "id": "d5housework-s-002",
+      "textVi": "Anh có thích làm việc nhà không?",
+      "textKo": "집안일 하는 것을 좋아해요?",
+      "exampleAnswerVi": "Không thích lắm. Nhưng tôi vẫn làm.",
+      "exampleAnswerKo": "많이 좋아하지는 않습니다. 하지만 그래도 합니다.",
+      "audioSrc": "",
+      "sourcePage": 7,
+      "reviewNeeded": false,
+      "pronKo": "아인 꼬 틱 람 비엑 냐 콩?",
+      "exampleAnswerPronKo": "콩 틱 람. 늉 또이 번 람.",
+      "pronNoteKo": "không thích lắm = 많이 좋아하지는 않다."
+    },
+    {
+      "id": "d5housework-s-003",
+      "textVi": "Ở nhà anh phải làm những việc gì?",
+      "textKo": "집에서 어떤 일들을 해야 해요?",
+      "exampleAnswerVi": "Ở nhà tôi phải rửa bát, lau nhà và dọn phòng.",
+      "exampleAnswerKo": "집에서 저는 설거지, 바닥 닦기, 방 청소를 해야 합니다.",
+      "audioSrc": "",
+      "sourcePage": 7,
+      "reviewNeeded": false,
+      "pronKo": "어 냐 아인 파이 람 능 비엑 지?",
+      "exampleAnswerPronKo": "어 냐 또이 파이 즈어 밧, 라우 냐 바 존 퐁.",
+      "pronNoteKo": "phải làm = 해야 하다. những việc gì = 어떤 일들."
+    },
+    {
+      "id": "d5housework-s-004",
+      "textVi": "Ở nhà anh, ai thường làm việc nhà?",
+      "textKo": "집에서는 누가 보통 집안일을 해요?",
+      "exampleAnswerVi": "Ở nhà tôi, vợ chồng tôi cùng làm việc nhà.",
+      "exampleAnswerKo": "저희 집에서는 부부가 함께 집안일을 합니다.",
+      "audioSrc": "",
+      "sourcePage": 7,
+      "reviewNeeded": false,
+      "pronKo": "어 냐 아인, 아이 트엉 람 비엑 냐?",
+      "exampleAnswerPronKo": "어 냐 또이, 버 쫑 또이 꿍 람 비엑 냐.",
+      "pronNoteKo": "ai = 누구. cùng = 함께."
+    },
+    {
+      "id": "d5housework-s-005",
+      "textVi": "Anh có rửa bát không?",
+      "textKo": "설거지를 해요?",
+      "exampleAnswerVi": "Có. Tôi thường rửa bát sau khi ăn.",
+      "exampleAnswerKo": "네. 저는 보통 식사 후에 설거지를 합니다.",
+      "audioSrc": "",
+      "sourcePage": 7,
+      "reviewNeeded": false,
+      "pronKo": "아인 꼬 즈어 밧 콩?",
+      "exampleAnswerPronKo": "꼬. 또이 트엉 즈어 밧 사우 키 안.",
+      "pronNoteKo": "sau khi ăn = 먹은 후에."
+    },
+    {
+      "id": "d5housework-s-006",
+      "textVi": "Anh có lau nhà không?",
+      "textKo": "바닥을 닦아요?",
+      "exampleAnswerVi": "Có. Tôi lau nhà vào cuối tuần.",
+      "exampleAnswerKo": "네. 저는 주말에 바닥을 닦습니다.",
+      "audioSrc": "",
+      "sourcePage": 7,
+      "reviewNeeded": false,
+      "pronKo": "아인 꼬 라우 냐 콩?",
+      "exampleAnswerPronKo": "꼬. 또이 라우 냐 바오 꾸오이 뚜언.",
+      "pronNoteKo": "lau nhà = 바닥을 닦다."
+    },
+    {
+      "id": "d5housework-s-007",
+      "textVi": "Anh có giặt quần áo không?",
+      "textKo": "빨래를 해요?",
+      "exampleAnswerVi": "Có. Tôi giặt quần áo vào buổi tối.",
+      "exampleAnswerKo": "네. 저는 저녁에 빨래를 합니다.",
+      "audioSrc": "",
+      "sourcePage": 7,
+      "reviewNeeded": false,
+      "pronKo": "아인 꼬 잣 꾸언 아오 콩?",
+      "exampleAnswerPronKo": "꼬. 또이 잣 꾸언 아오 바오 부오이 또이.",
+      "pronNoteKo": "giặt quần áo = 빨래하다."
+    },
+    {
+      "id": "d5housework-s-008",
+      "textVi": "Anh có nấu ăn không?",
+      "textKo": "요리해요?",
+      "exampleAnswerVi": "Thỉnh thoảng. Tôi nấu ăn vào cuối tuần.",
+      "exampleAnswerKo": "가끔요. 저는 주말에 요리합니다.",
+      "audioSrc": "",
+      "sourcePage": 7,
+      "reviewNeeded": false,
+      "pronKo": "아인 꼬 너우 안 콩?",
+      "exampleAnswerPronKo": "팅 토앙. 또이 너우 안 바오 꾸오이 뚜언.",
+      "pronNoteKo": "thỉnh thoảng = 가끔."
+    },
+    {
+      "id": "d5housework-s-009",
+      "textVi": "Anh có dọn phòng không?",
+      "textKo": "방 청소를 해요?",
+      "exampleAnswerVi": "Có. Tôi dọn phòng vào Chủ nhật.",
+      "exampleAnswerKo": "네. 저는 일요일에 방 청소를 합니다.",
+      "audioSrc": "",
+      "sourcePage": 7,
+      "reviewNeeded": false,
+      "pronKo": "아인 꼬 존 퐁 콩?",
+      "exampleAnswerPronKo": "꼬. 또이 존 퐁 바오 쭈 녓.",
+      "pronNoteKo": "dọn phòng = 방을 청소하다."
+    },
+    {
+      "id": "d5housework-s-010",
+      "textVi": "Anh sống một mình hay với gia đình?",
+      "textKo": "혼자 살아요, 아니면 가족과 살아요?",
+      "exampleAnswerVi": "Tôi sống với gia đình.",
+      "exampleAnswerKo": "저는 가족과 함께 삽니다.",
+      "audioSrc": "",
+      "sourcePage": 7,
+      "reviewNeeded": false,
+      "pronKo": "아인 쏭 못 민 하이 버이 자 딩?",
+      "exampleAnswerPronKo": "또이 쏭 버이 자 딩.",
+      "pronNoteKo": "hay = 또는 / 아니면."
+    },
+    {
+      "id": "d5housework-s-011",
+      "textVi": "Anh có chia việc nhà với vợ không?",
+      "textKo": "아내와 집안일을 나눠요?",
+      "exampleAnswerVi": "Có. Tôi chia việc nhà với vợ.",
+      "exampleAnswerKo": "네. 저는 아내와 집안일을 나눕니다.",
+      "audioSrc": "",
+      "sourcePage": 7,
+      "reviewNeeded": false,
+      "pronKo": "아인 꼬 찌아 비엑 냐 버이 버 콩?",
+      "exampleAnswerPronKo": "꼬. 또이 찌아 비엑 냐 버이 버.",
+      "pronNoteKo": "chia việc nhà với vợ = 아내와 집안일을 나누다."
+    },
+    {
+      "id": "d5housework-s-012",
+      "textVi": "Anh thường làm việc nhà vào lúc nào?",
+      "textKo": "보통 언제 집안일을 해요?",
+      "exampleAnswerVi": "Tôi thường làm việc nhà vào buổi tối hoặc cuối tuần.",
+      "exampleAnswerKo": "저는 보통 저녁이나 주말에 집안일을 합니다.",
+      "audioSrc": "",
+      "sourcePage": 7,
+      "reviewNeeded": false,
+      "pronKo": "아인 트엉 람 비엑 냐 바오 룩 나오?",
+      "exampleAnswerPronKo": "또이 트엉 람 비엑 냐 바오 부오이 또이 호악 꾸오이 뚜언.",
+      "pronNoteKo": "vào lúc nào = 언제."
+    },
+    {
+      "id": "d5housework-s-013",
+      "textVi": "Theo anh, việc nhà có quan trọng không?",
+      "textKo": "당신 생각에는 집안일이 중요해요?",
+      "exampleAnswerVi": "Có. Theo tôi, việc nhà rất quan trọng.",
+      "exampleAnswerKo": "네. 제 생각에는 집안일은 매우 중요합니다.",
+      "audioSrc": "",
+      "sourcePage": 7,
+      "reviewNeeded": false,
+      "pronKo": "테오 아인, 비엑 냐 꼬 꽌 쫑 콩?",
+      "exampleAnswerPronKo": "꼬. 테오 또이, 비엑 냐 젓 꽌 쫑.",
+      "pronNoteKo": "theo anh = 당신 생각에는, theo tôi = 제 생각에는."
+    },
+    {
+      "id": "d5housework-s-014",
+      "textVi": "Anh thích việc nhà nào nhất?",
+      "textKo": "어떤 집안일을 가장 좋아해요?",
+      "exampleAnswerVi": "Tôi thích nấu ăn nhất.",
+      "exampleAnswerKo": "저는 요리를 가장 좋아합니다.",
+      "audioSrc": "",
+      "sourcePage": 7,
+      "reviewNeeded": false,
+      "pronKo": "아인 틱 비엑 냐 나오 녓?",
+      "exampleAnswerPronKo": "또이 틱 너우 안 녓.",
+      "pronNoteKo": "thích + 명사 + nhất = ~을 가장 좋아하다."
+    },
+    {
+      "id": "d5housework-s-015",
+      "textVi": "Anh ghét việc nhà nào nhất?",
+      "textKo": "어떤 집안일을 가장 싫어해요?",
+      "exampleAnswerVi": "Tôi ghét rửa bát nhất.",
+      "exampleAnswerKo": "저는 설거지를 가장 싫어합니다.",
+      "audioSrc": "",
+      "sourcePage": 7,
+      "reviewNeeded": false,
+      "pronKo": "아인 겟 비엑 냐 나오 녓?",
+      "exampleAnswerPronKo": "또이 겟 즈어 밧 녓.",
+      "pronNoteKo": "ghét + 명사 + nhất = ~을 가장 싫어하다."
+    },
+    {
+      "id": "d5housework-s-016",
+      "textVi": "Ở Hàn Quốc, đàn ông có thường làm việc nhà không?",
+      "textKo": "한국에서 남자들은 집안일을 자주 해요?",
+      "exampleAnswerVi": "Có. Dạo này, đàn ông Hàn Quốc cũng thường làm việc nhà.",
+      "exampleAnswerKo": "네. 요즘 한국 남자들도 보통 집안일을 합니다.",
+      "audioSrc": "",
+      "sourcePage": 7,
+      "reviewNeeded": false,
+      "pronKo": "어 한 꾸옥, 단 옴 꼬 트엉 람 비엑 냐 콩?",
+      "exampleAnswerPronKo": "꼬. 자오 나이, 단 옴 한 꾸옥 꿍 트엉 람 비엑 냐.",
+      "pronNoteKo": "cũng = ~도. đàn ông Hàn Quốc cũng = 한국 남자들도."
+    }
+  ],
+  "dialogues": [
+    {
+      "id": "d5housework-d-001",
+      "title": "집안일을 자주 하는지 묻기",
+      "audioSrc": "",
+      "sourcePage": 7,
+      "reviewNeeded": false,
+      "lines": [
+        {
+          "speaker": "A",
+          "vi": "Anh có thường làm việc nhà không?",
+          "ko": "집안일을 자주 해요?",
+          "pronKo": "아인 꼬 트엉 람 비엑 냐 콩?"
+        },
+        {
+          "speaker": "B",
+          "vi": "Có. Tôi thường làm việc nhà vào cuối tuần.",
+          "ko": "네. 저는 보통 주말에 집안일을 합니다.",
+          "pronKo": "꼬. 또이 트엉 람 비엑 냐 바오 꾸오이 뚜언."
+        },
+        {
+          "speaker": "A",
+          "vi": "Anh thường làm việc gì?",
+          "ko": "보통 어떤 일을 해요?",
+          "pronKo": "아인 트엉 람 비엑 지?"
+        },
+        {
+          "speaker": "B",
+          "vi": "Tôi thường rửa bát, lau nhà và dọn phòng.",
+          "ko": "저는 보통 설거지, 바닥 닦기, 방 청소를 합니다.",
+          "pronKo": "또이 트엉 즈어 밧, 라우 냐 바 존 퐁."
+        }
+      ]
+    },
+    {
+      "id": "d5housework-d-002",
+      "title": "아내와 집안일 나누기",
+      "audioSrc": "",
+      "sourcePage": 7,
+      "reviewNeeded": false,
+      "lines": [
+        {
+          "speaker": "A",
+          "vi": "Anh có chia việc nhà với vợ không?",
+          "ko": "아내와 집안일을 나눠요?",
+          "pronKo": "아인 꼬 찌아 비엑 냐 버이 버 콩?"
+        },
+        {
+          "speaker": "B",
+          "vi": "Có. Vợ chồng tôi cùng làm việc nhà.",
+          "ko": "네. 저희 부부는 함께 집안일을 합니다.",
+          "pronKo": "꼬. 버 쫑 또이 꿍 람 비엑 냐."
+        },
+        {
+          "speaker": "A",
+          "vi": "Vợ anh thường làm gì?",
+          "ko": "아내는 보통 무엇을 해요?",
+          "pronKo": "버 아인 트엉 람 지?"
+        },
+        {
+          "speaker": "B",
+          "vi": "Vợ tôi thường nấu ăn, còn tôi thường rửa bát.",
+          "ko": "제 아내는 보통 요리를 하고, 저는 보통 설거지를 합니다.",
+          "pronKo": "버 또이 트엉 너우 안, 꼰 또이 트엉 즈어 밧."
+        }
+      ]
+    },
+    {
+      "id": "d5housework-d-003",
+      "title": "좋아하는 집안일과 싫어하는 집안일",
+      "audioSrc": "",
+      "sourcePage": 7,
+      "reviewNeeded": false,
+      "lines": [
+        {
+          "speaker": "A",
+          "vi": "Anh thích việc nhà nào nhất?",
+          "ko": "어떤 집안일을 가장 좋아해요?",
+          "pronKo": "아인 틱 비엑 냐 나오 녓?"
+        },
+        {
+          "speaker": "B",
+          "vi": "Tôi thích nấu ăn nhất.",
+          "ko": "저는 요리를 가장 좋아합니다.",
+          "pronKo": "또이 틱 너우 안 녓."
+        },
+        {
+          "speaker": "A",
+          "vi": "Anh ghét việc nhà nào nhất?",
+          "ko": "어떤 집안일을 가장 싫어해요?",
+          "pronKo": "아인 겟 비엑 냐 나오 녓?"
+        },
+        {
+          "speaker": "B",
+          "vi": "Tôi ghét rửa bát nhất.",
+          "ko": "저는 설거지를 가장 싫어합니다.",
+          "pronKo": "또이 겟 즈어 밧 녓."
+        }
+      ]
+    },
+    {
+      "id": "d5housework-d-004",
+      "title": "집안일의 중요성",
+      "audioSrc": "",
+      "sourcePage": 7,
+      "reviewNeeded": false,
+      "lines": [
+        {
+          "speaker": "A",
+          "vi": "Theo anh, việc nhà có quan trọng không?",
+          "ko": "당신 생각에는 집안일이 중요해요?",
+          "pronKo": "테오 아인, 비엑 냐 꼬 꽌 쫑 콩?"
+        },
+        {
+          "speaker": "B",
+          "vi": "Có. Theo tôi, việc nhà rất quan trọng.",
+          "ko": "네. 제 생각에는 집안일은 매우 중요합니다.",
+          "pronKo": "꼬. 테오 또이, 비엑 냐 젓 꽌 쫑."
+        },
+        {
+          "speaker": "A",
+          "vi": "Ở Hàn Quốc, đàn ông có thường làm việc nhà không?",
+          "ko": "한국에서 남자들은 집안일을 자주 해요?",
+          "pronKo": "어 한 꾸옥, 단 옴 꼬 트엉 람 비엑 냐 콩?"
+        },
+        {
+          "speaker": "B",
+          "vi": "Có. Dạo này, đàn ông Hàn Quốc cũng thường làm việc nhà.",
+          "ko": "네. 요즘 한국 남자들도 보통 집안일을 합니다.",
+          "pronKo": "꼬. 자오 나이, 단 옴 한 꾸옥 꿍 트엉 람 비엑 냐."
+        }
+      ]
+    }
+  ],
+  "grammarPoints": [
+    {
+      "id": "d5housework-g-001",
+      "title": "집안일을 하다",
+      "pattern": "làm việc nhà → Tôi thường làm việc nhà.",
+      "meaningKo": "집안일을 하다 → 저는 보통 집안일을 합니다.",
+      "sourcePage": 7,
+      "reviewNeeded": false
+    },
+    {
+      "id": "d5housework-g-002",
+      "title": "자주 ~하나요?",
+      "pattern": "Anh có thường + 동사 + không? → Anh có thường làm việc nhà không?",
+      "meaningKo": "보통/자주 ~해요? → 집안일을 자주 해요?",
+      "sourcePage": 7,
+      "reviewNeeded": false
+    },
+    {
+      "id": "d5housework-g-003",
+      "title": "~해야 한다",
+      "pattern": "phải + 동사 → Tôi phải rửa bát.",
+      "meaningKo": "~해야 한다 → 저는 설거지를 해야 합니다.",
+      "sourcePage": 7,
+      "reviewNeeded": false
+    },
+    {
+      "id": "d5housework-g-004",
+      "title": "집안일을 나누다",
+      "pattern": "chia việc nhà với + 사람 → Tôi chia việc nhà với vợ.",
+      "meaningKo": "~와 집안일을 나누다 → 저는 아내와 집안일을 나눕니다.",
+      "sourcePage": 7,
+      "reviewNeeded": false
+    },
+    {
+      "id": "d5housework-g-005",
+      "title": "가장 좋아하다",
+      "pattern": "thích + 명사/동사 + nhất → Tôi thích nấu ăn nhất.",
+      "meaningKo": "가장 좋아하다 → 저는 요리를 가장 좋아합니다.",
+      "sourcePage": 7,
+      "reviewNeeded": false
+    },
+    {
+      "id": "d5housework-g-006",
+      "title": "가장 싫어하다",
+      "pattern": "ghét + 명사/동사 + nhất → Tôi ghét rửa bát nhất.",
+      "meaningKo": "가장 싫어하다 → 저는 설거지를 가장 싫어합니다.",
+      "sourcePage": 7,
+      "reviewNeeded": false
+    },
+    {
+      "id": "d5housework-g-007",
+      "title": "제 생각에는",
+      "pattern": "Theo tôi, + 문장 → Theo tôi, việc nhà rất quan trọng.",
+      "meaningKo": "제 생각에는 → 제 생각에는 집안일이 매우 중요합니다.",
+      "sourcePage": 7,
+      "reviewNeeded": false
+    },
+    {
+      "id": "d5housework-g-008",
+      "title": "혼자 살다 / 가족과 살다",
+      "pattern": "sống một mình / sống với gia đình → Tôi sống với gia đình.",
+      "meaningKo": "혼자 살다 / 가족과 살다 → 저는 가족과 함께 삽니다.",
+      "sourcePage": 7,
+      "reviewNeeded": false
+    }
+  ],
+  "pronunciationTargets": [
+    {
+      "id": "d5housework-p-001",
+      "text": "việc nhà",
+      "hintKo": "집안일",
+      "audioSrc": "",
+      "sourcePage": 6,
+      "reviewNeeded": false,
+      "pronKo": "비엑 냐",
+      "mouthKo": "việc은 길게 끌지 말고 짧게 '비엑', nhà는 '냐'처럼 발음합니다.",
+      "toneKo": "việc은 낮고 짧게, nhà는 부드럽게 내려가는 느낌입니다."
+    },
+    {
+      "id": "d5housework-p-002",
+      "text": "rửa bát",
+      "hintKo": "설거지하다",
+      "audioSrc": "",
+      "sourcePage": 6,
+      "reviewNeeded": false,
+      "pronKo": "즈어 밧",
+      "mouthKo": "rửa의 r은 북부식으로 z에 가깝게 들릴 수 있습니다.",
+      "toneKo": "bát은 짧고 세게 끊어 주세요."
+    },
+    {
+      "id": "d5housework-p-003",
+      "text": "giặt quần áo",
+      "hintKo": "빨래하다",
+      "audioSrc": "",
+      "sourcePage": 6,
+      "reviewNeeded": false,
+      "pronKo": "잣 꾸언 아오",
+      "mouthKo": "giặt은 '잣'처럼 짧게, quần áo는 '꾸언 아오'로 나눠 읽습니다.",
+      "toneKo": "giặt은 짧게 떨어지는 느낌입니다."
+    },
+    {
+      "id": "d5housework-p-004",
+      "text": "chia việc nhà với vợ",
+      "hintKo": "아내와 집안일을 나누다",
+      "audioSrc": "",
+      "sourcePage": 7,
+      "reviewNeeded": false,
+      "pronKo": "찌아 비엑 냐 버이 버",
+      "mouthKo": "với vợ는 '버이 버'처럼 이어서 연습하세요.",
+      "toneKo": "문장 전체를 천천히 끊어서 찌아 / 비엑 냐 / 버이 버 로 말하면 됩니다."
+    },
+    {
+      "id": "d5housework-p-005",
+      "text": "Theo tôi, việc nhà rất quan trọng.",
+      "hintKo": "제 생각에는 집안일이 매우 중요합니다.",
+      "audioSrc": "",
+      "sourcePage": 7,
+      "reviewNeeded": false,
+      "pronKo": "테오 또이, 비엑 냐 젓 꽌 쫑.",
+      "mouthKo": "rất은 '젓', quan trọng은 '꽌 쫑'으로 연습하세요.",
+      "toneKo": "의견 말하기 문장이라 OPIc 답변에 그대로 쓰기 좋습니다."
+    }
+  ],
+  "quizSeeds": [
+    {
+      "id": "d5housework-q-001",
+      "type": "match-term",
+      "prompt": "5일차 집안일 단어 매칭",
+      "answerSet": [
+        "việc nhà-집안일",
+        "làm việc nhà-집안일을 하다",
+        "rửa bát-설거지하다",
+        "lau nhà-바닥을 닦다",
+        "giặt quần áo-빨래하다",
+        "nấu ăn-요리하다",
+        "dọn phòng-방을 청소하다",
+        "chia việc nhà-집안일을 나누다",
+        "quan trọng-중요하다",
+        "ghét-싫어하다"
+      ],
+      "sourcePage": 7,
+      "reviewNeeded": false
+    },
+    {
+      "id": "d5housework-q-002",
+      "type": "sentence-meaning",
+      "prompt": "5일차 집안일 질문 뜻 고르기",
+      "answerSet": [
+        "Anh có thường làm việc nhà không?-집안일을 자주 해요?",
+        "Anh có thích làm việc nhà không?-집안일 하는 것을 좋아해요?",
+        "Ở nhà anh phải làm những việc gì?-집에서 어떤 일들을 해야 해요?",
+        "Ở nhà anh, ai thường làm việc nhà?-집에서는 누가 보통 집안일을 해요?",
+        "Anh sống một mình hay với gia đình?-혼자 살아요, 아니면 가족과 살아요?",
+        "Anh có chia việc nhà với vợ không?-아내와 집안일을 나눠요?",
+        "Theo anh, việc nhà có quan trọng không?-당신 생각에는 집안일이 중요해요?",
+        "Anh thích việc nhà nào nhất?-어떤 집안일을 가장 좋아해요?"
+      ],
+      "sourcePage": 7,
+      "reviewNeeded": false
+    },
+    {
+      "id": "d5housework-q-003",
+      "type": "sentence-meaning",
+      "prompt": "5일차 집안일 답변 뜻 고르기",
+      "answerSet": [
+        "Tôi thường làm việc nhà vào cuối tuần.-저는 보통 주말에 집안일을 합니다.",
+        "Tôi phải rửa bát, lau nhà và dọn phòng.-저는 설거지, 바닥 닦기, 방 청소를 해야 합니다.",
+        "Vợ chồng tôi cùng làm việc nhà.-저희 부부는 함께 집안일을 합니다.",
+        "Tôi chia việc nhà với vợ.-저는 아내와 집안일을 나눕니다.",
+        "Tôi thích nấu ăn nhất.-저는 요리를 가장 좋아합니다.",
+        "Tôi ghét rửa bát nhất.-저는 설거지를 가장 싫어합니다.",
+        "Theo tôi, việc nhà rất quan trọng.-제 생각에는 집안일은 매우 중요합니다.",
+        "Dạo này, đàn ông Hàn Quốc cũng thường làm việc nhà.-요즘 한국 남자들도 보통 집안일을 합니다."
+      ],
+      "sourcePage": 7,
+      "reviewNeeded": false
+    }
+  ],
+  "unlockCondition": "complete-previous",
+  "reviewNeeded": false
+        },
+    {
   "lessonId": "d4note",
   "unitLabel": "4일차",
   "titleKo": "4일차: 학습노트",
