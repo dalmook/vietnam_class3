@@ -19,6 +19,2046 @@
   },
   "lessons": [
     {
+  "lessonId": "d5housework",
+  "unitLabel": "5일차",
+  "titleKo": "5일차: 집안일",
+  "titleVi": "Chủ đề 3: Việc nhà",
+  "pageRange": "6-7",
+  "goals": [
+    "집안일 관련 기본 단어 익히기",
+    "집안일을 하는지, 좋아하는지 말하기",
+    "가족과 집안일을 나누는 표현 익히기",
+    "OPIc 집안일 질문에 짧게 답하기"
+  ],
+  "topicOverview": "집안일, 설거지, 바닥 닦기, 빨래, 요리, 방 청소, 가족과 집안일 분담에 대해 말하는 5일차 집안일 주제입니다.",
+  "cultureTopics": [
+    "집안일",
+    "가족 역할 분담",
+    "부부의 집안일 나누기",
+    "한국 남자의 집안일",
+    "좋아하는 집안일과 싫어하는 집안일"
+  ],
+  "vocabCards": [
+    {
+      "id": "d5housework-v-001",
+      "term": "việc nhà",
+      "meaningKo": "집안일",
+      "example": "Tôi thường làm việc nhà.",
+      "exampleMeaningKo": "저는 보통 집안일을 합니다.",
+      "audioSrc": "",
+      "sourcePage": 6,
+      "reviewNeeded": false,
+      "pronKo": "비엑 냐"
+    },
+    {
+      "id": "d5housework-v-002",
+      "term": "thường",
+      "meaningKo": "보통 / 자주",
+      "example": "Tôi thường rửa bát.",
+      "exampleMeaningKo": "저는 보통 설거지를 합니다.",
+      "audioSrc": "",
+      "sourcePage": 6,
+      "reviewNeeded": false,
+      "pronKo": "트엉"
+    },
+    {
+      "id": "d5housework-v-003",
+      "term": "thích",
+      "meaningKo": "좋아하다",
+      "example": "Tôi thích nấu ăn.",
+      "exampleMeaningKo": "저는 요리하는 것을 좋아합니다.",
+      "audioSrc": "",
+      "sourcePage": 6,
+      "reviewNeeded": false,
+      "pronKo": "틱"
+    },
+    {
+      "id": "d5housework-v-004",
+      "term": "nhưng",
+      "meaningKo": "하지만 / 그런데",
+      "example": "Tôi thích nấu ăn nhưng không thích rửa bát.",
+      "exampleMeaningKo": "저는 요리를 좋아하지만 설거지는 좋아하지 않습니다.",
+      "audioSrc": "",
+      "sourcePage": 6,
+      "reviewNeeded": false,
+      "pronKo": "늉"
+    },
+    {
+      "id": "d5housework-v-005",
+      "term": "rửa bát",
+      "meaningKo": "설거지하다",
+      "example": "Tôi rửa bát sau khi ăn.",
+      "exampleMeaningKo": "저는 식사 후에 설거지를 합니다.",
+      "audioSrc": "",
+      "sourcePage": 6,
+      "reviewNeeded": false,
+      "pronKo": "즈어 밧"
+    },
+    {
+      "id": "d5housework-v-006",
+      "term": "lau nhà",
+      "meaningKo": "바닥을 닦다",
+      "example": "Tôi lau nhà vào cuối tuần.",
+      "exampleMeaningKo": "저는 주말에 바닥을 닦습니다.",
+      "audioSrc": "",
+      "sourcePage": 6,
+      "reviewNeeded": false,
+      "pronKo": "라우 냐"
+    },
+    {
+      "id": "d5housework-v-007",
+      "term": "giặt quần áo",
+      "meaningKo": "빨래하다",
+      "example": "Tôi giặt quần áo vào buổi tối.",
+      "exampleMeaningKo": "저는 저녁에 빨래를 합니다.",
+      "audioSrc": "",
+      "sourcePage": 6,
+      "reviewNeeded": false,
+      "pronKo": "잣 꾸언 아오"
+    },
+    {
+      "id": "d5housework-v-008",
+      "term": "nấu ăn",
+      "meaningKo": "요리하다",
+      "example": "Vợ tôi thường nấu ăn.",
+      "exampleMeaningKo": "제 아내는 보통 요리를 합니다.",
+      "audioSrc": "",
+      "sourcePage": 6,
+      "reviewNeeded": false,
+      "pronKo": "너우 안"
+    },
+    {
+      "id": "d5housework-v-009",
+      "term": "dọn phòng",
+      "meaningKo": "방을 청소하다",
+      "example": "Tôi dọn phòng vào Chủ nhật.",
+      "exampleMeaningKo": "저는 일요일에 방을 청소합니다.",
+      "audioSrc": "",
+      "sourcePage": 6,
+      "reviewNeeded": false,
+      "pronKo": "존 퐁"
+    },
+    {
+      "id": "d5housework-v-010",
+      "term": "sống",
+      "meaningKo": "살다",
+      "example": "Tôi sống với gia đình.",
+      "exampleMeaningKo": "저는 가족과 함께 삽니다.",
+      "audioSrc": "",
+      "sourcePage": 6,
+      "reviewNeeded": false,
+      "pronKo": "쏭"
+    },
+    {
+      "id": "d5housework-v-011",
+      "term": "một mình",
+      "meaningKo": "혼자",
+      "example": "Tôi không sống một mình.",
+      "exampleMeaningKo": "저는 혼자 살지 않습니다.",
+      "audioSrc": "",
+      "sourcePage": 6,
+      "reviewNeeded": false,
+      "pronKo": "못 민"
+    },
+    {
+      "id": "d5housework-v-012",
+      "term": "gia đình",
+      "meaningKo": "가족",
+      "example": "Tôi sống với gia đình.",
+      "exampleMeaningKo": "저는 가족과 함께 삽니다.",
+      "audioSrc": "",
+      "sourcePage": 6,
+      "reviewNeeded": false,
+      "pronKo": "자 딩"
+    },
+    {
+      "id": "d5housework-v-013",
+      "term": "chia",
+      "meaningKo": "나누다",
+      "example": "Tôi chia việc nhà với vợ.",
+      "exampleMeaningKo": "저는 아내와 집안일을 나눕니다.",
+      "audioSrc": "",
+      "sourcePage": 6,
+      "reviewNeeded": false,
+      "pronKo": "찌아"
+    },
+    {
+      "id": "d5housework-v-014",
+      "term": "chia việc nhà",
+      "meaningKo": "집안일을 나누다",
+      "example": "Vợ chồng tôi chia việc nhà.",
+      "exampleMeaningKo": "저희 부부는 집안일을 나눕니다.",
+      "audioSrc": "",
+      "sourcePage": 6,
+      "reviewNeeded": false,
+      "pronKo": "찌아 비엑 냐"
+    },
+    {
+      "id": "d5housework-v-015",
+      "term": "vợ",
+      "meaningKo": "아내",
+      "example": "Tôi chia việc nhà với vợ.",
+      "exampleMeaningKo": "저는 아내와 집안일을 나눕니다.",
+      "audioSrc": "",
+      "sourcePage": 6,
+      "reviewNeeded": false,
+      "pronKo": "버"
+    },
+    {
+      "id": "d5housework-v-016",
+      "term": "thời gian",
+      "meaningKo": "시간",
+      "example": "Tôi không có nhiều thời gian.",
+      "exampleMeaningKo": "저는 시간이 많지 않습니다.",
+      "audioSrc": "",
+      "sourcePage": 6,
+      "reviewNeeded": false,
+      "pronKo": "터이 잔"
+    },
+    {
+      "id": "d5housework-v-017",
+      "term": "quan trọng",
+      "meaningKo": "중요하다",
+      "example": "Việc nhà rất quan trọng.",
+      "exampleMeaningKo": "집안일은 매우 중요합니다.",
+      "audioSrc": "",
+      "sourcePage": 6,
+      "reviewNeeded": false,
+      "pronKo": "꽌 쫑"
+    },
+    {
+      "id": "d5housework-v-018",
+      "term": "theo anh",
+      "meaningKo": "당신 생각에는",
+      "example": "Theo anh, việc nhà có quan trọng không?",
+      "exampleMeaningKo": "당신 생각에는 집안일이 중요해요?",
+      "audioSrc": "",
+      "sourcePage": 6,
+      "reviewNeeded": false,
+      "pronKo": "테오 아인"
+    },
+    {
+      "id": "d5housework-v-019",
+      "term": "nhất",
+      "meaningKo": "가장",
+      "example": "Tôi thích nấu ăn nhất.",
+      "exampleMeaningKo": "저는 요리를 가장 좋아합니다.",
+      "audioSrc": "",
+      "sourcePage": 6,
+      "reviewNeeded": false,
+      "pronKo": "녓"
+    },
+    {
+      "id": "d5housework-v-020",
+      "term": "ghét",
+      "meaningKo": "싫어하다",
+      "example": "Tôi ghét rửa bát nhất.",
+      "exampleMeaningKo": "저는 설거지를 가장 싫어합니다.",
+      "audioSrc": "",
+      "sourcePage": 6,
+      "reviewNeeded": false,
+      "pronKo": "겟"
+    },
+    {
+      "id": "d5housework-v-021",
+      "term": "đàn bà",
+      "meaningKo": "여자",
+      "example": "Đàn bà và đàn ông đều làm việc nhà.",
+      "exampleMeaningKo": "여자와 남자 모두 집안일을 합니다.",
+      "audioSrc": "",
+      "sourcePage": 6,
+      "reviewNeeded": false,
+      "pronKo": "단 바"
+    },
+    {
+      "id": "d5housework-v-022",
+      "term": "đàn ông",
+      "meaningKo": "남자",
+      "example": "Ở Hàn Quốc, đàn ông cũng làm việc nhà.",
+      "exampleMeaningKo": "한국에서는 남자도 집안일을 합니다.",
+      "audioSrc": "",
+      "sourcePage": 6,
+      "reviewNeeded": false,
+      "pronKo": "단 옴"
+    }
+  ],
+  "sentenceCards": [
+    {
+      "id": "d5housework-s-001",
+      "textVi": "Anh có thường làm việc nhà không?",
+      "textKo": "집안일을 자주 해요?",
+      "exampleAnswerVi": "Có. Tôi thường làm việc nhà vào cuối tuần.",
+      "exampleAnswerKo": "네. 저는 보통 주말에 집안일을 합니다.",
+      "audioSrc": "",
+      "sourcePage": 7,
+      "reviewNeeded": false
+    },
+    {
+      "id": "d5housework-s-002",
+      "textVi": "Anh có thích làm việc nhà không?",
+      "textKo": "집안일 하는 것을 좋아해요?",
+      "exampleAnswerVi": "Không. Tôi không thích lắm, nhưng tôi vẫn làm.",
+      "exampleAnswerKo": "아니요. 많이 좋아하지는 않지만 그래도 합니다.",
+      "audioSrc": "",
+      "sourcePage": 7,
+      "reviewNeeded": false
+    },
+    {
+      "id": "d5housework-s-003",
+      "textVi": "Ở nhà anh phải làm những việc gì?",
+      "textKo": "집에서 어떤 일들을 해야 해요?",
+      "exampleAnswerVi": "Tôi phải rửa bát, lau nhà và dọn phòng.",
+      "exampleAnswerKo": "저는 설거지, 바닥 닦기, 방 청소를 해야 합니다.",
+      "audioSrc": "",
+      "sourcePage": 7,
+      "reviewNeeded": false
+    },
+    {
+      "id": "d5housework-s-004",
+      "textVi": "Ở nhà anh, ai thường làm việc nhà?",
+      "textKo": "집에서는 누가 보통 집안일을 해요?",
+      "exampleAnswerVi": "Ở nhà tôi, vợ chồng tôi cùng làm việc nhà.",
+      "exampleAnswerKo": "저희 집에서는 부부가 함께 집안일을 합니다.",
+      "audioSrc": "",
+      "sourcePage": 7,
+      "reviewNeeded": false
+    },
+    {
+      "id": "d5housework-s-005",
+      "textVi": "Anh có rửa bát không?",
+      "textKo": "설거지를 해요?",
+      "exampleAnswerVi": "Có. Tôi thường rửa bát sau bữa tối.",
+      "exampleAnswerKo": "네. 저는 보통 저녁 식사 후에 설거지를 합니다.",
+      "audioSrc": "",
+      "sourcePage": 7,
+      "reviewNeeded": false
+    },
+    {
+      "id": "d5housework-s-006",
+      "textVi": "Anh có lau nhà không?",
+      "textKo": "바닥을 닦아요?",
+      "exampleAnswerVi": "Có. Tôi lau nhà vào cuối tuần.",
+      "exampleAnswerKo": "네. 저는 주말에 바닥을 닦습니다.",
+      "audioSrc": "",
+      "sourcePage": 7,
+      "reviewNeeded": false
+    },
+    {
+      "id": "d5housework-s-007",
+      "textVi": "Anh có giặt quần áo không?",
+      "textKo": "빨래를 해요?",
+      "exampleAnswerVi": "Có. Tôi giặt quần áo vào buổi tối.",
+      "exampleAnswerKo": "네. 저는 저녁에 빨래를 합니다.",
+      "audioSrc": "",
+      "sourcePage": 7,
+      "reviewNeeded": false
+    },
+    {
+      "id": "d5housework-s-008",
+      "textVi": "Anh có nấu ăn không?",
+      "textKo": "요리해요?",
+      "exampleAnswerVi": "Thỉnh thoảng. Tôi nấu ăn vào cuối tuần.",
+      "exampleAnswerKo": "가끔요. 저는 주말에 요리합니다.",
+      "audioSrc": "",
+      "sourcePage": 7,
+      "reviewNeeded": false
+    },
+    {
+      "id": "d5housework-s-009",
+      "textVi": "Anh có dọn phòng không?",
+      "textKo": "방 청소를 해요?",
+      "exampleAnswerVi": "Có. Tôi thường dọn phòng vào Chủ nhật.",
+      "exampleAnswerKo": "네. 저는 보통 일요일에 방 청소를 합니다.",
+      "audioSrc": "",
+      "sourcePage": 7,
+      "reviewNeeded": false
+    },
+    {
+      "id": "d5housework-s-010",
+      "textVi": "Anh sống một mình hay với gia đình?",
+      "textKo": "혼자 살아요, 아니면 가족과 살아요?",
+      "exampleAnswerVi": "Tôi sống với gia đình.",
+      "exampleAnswerKo": "저는 가족과 함께 삽니다.",
+      "audioSrc": "",
+      "sourcePage": 7,
+      "reviewNeeded": false
+    },
+    {
+      "id": "d5housework-s-011",
+      "textVi": "Anh có chia việc nhà với vợ không?",
+      "textKo": "아내와 집안일을 나눠요?",
+      "exampleAnswerVi": "Có. Tôi chia việc nhà với vợ.",
+      "exampleAnswerKo": "네. 저는 아내와 집안일을 나눕니다.",
+      "audioSrc": "",
+      "sourcePage": 7,
+      "reviewNeeded": false
+    },
+    {
+      "id": "d5housework-s-012",
+      "textVi": "Anh thường làm việc nhà vào lúc nào?",
+      "textKo": "보통 언제 집안일을 해요?",
+      "exampleAnswerVi": "Tôi thường làm việc nhà vào buổi tối hoặc cuối tuần.",
+      "exampleAnswerKo": "저는 보통 저녁이나 주말에 집안일을 합니다.",
+      "audioSrc": "",
+      "sourcePage": 7,
+      "reviewNeeded": false
+    },
+    {
+      "id": "d5housework-s-013",
+      "textVi": "Theo anh, việc nhà có quan trọng không?",
+      "textKo": "당신 생각에는 집안일이 중요해요?",
+      "exampleAnswerVi": "Có. Theo tôi, việc nhà rất quan trọng.",
+      "exampleAnswerKo": "네. 제 생각에는 집안일이 매우 중요합니다.",
+      "audioSrc": "",
+      "sourcePage": 7,
+      "reviewNeeded": false
+    },
+    {
+      "id": "d5housework-s-014",
+      "textVi": "Anh thích việc nhà nào nhất?",
+      "textKo": "어떤 집안일을 가장 좋아해요?",
+      "exampleAnswerVi": "Tôi thích nấu ăn nhất.",
+      "exampleAnswerKo": "저는 요리를 가장 좋아합니다.",
+      "audioSrc": "",
+      "sourcePage": 7,
+      "reviewNeeded": false
+    },
+    {
+      "id": "d5housework-s-015",
+      "textVi": "Anh ghét việc nhà nào nhất?",
+      "textKo": "어떤 집안일을 가장 싫어해요?",
+      "exampleAnswerVi": "Tôi ghét rửa bát nhất.",
+      "exampleAnswerKo": "저는 설거지를 가장 싫어합니다.",
+      "audioSrc": "",
+      "sourcePage": 7,
+      "reviewNeeded": false
+    },
+    {
+      "id": "d5housework-s-016",
+      "textVi": "Ở Hàn Quốc, đàn ông có thường làm việc nhà không?",
+      "textKo": "한국에서 남자들은 집안일을 자주 해요?",
+      "exampleAnswerVi": "Có. Dạo này, đàn ông Hàn Quốc cũng thường làm việc nhà.",
+      "exampleAnswerKo": "네. 요즘 한국 남자들도 보통 집안일을 합니다.",
+      "audioSrc": "",
+      "sourcePage": 7,
+      "reviewNeeded": false
+    }
+  ],
+  "grammarPoints": [
+    {
+      "id": "d5housework-g-001",
+      "title": "집안일을 하다",
+      "pattern": "làm việc nhà → Tôi thường làm việc nhà.",
+      "sourcePage": 7,
+      "reviewNeeded": false
+    },
+    {
+      "id": "d5housework-g-002",
+      "title": "해야 한다",
+      "pattern": "phải + 동사 → Tôi phải rửa bát.",
+      "sourcePage": 7,
+      "reviewNeeded": false
+    },
+    {
+      "id": "d5housework-g-003",
+      "title": "가장 좋아하다 / 가장 싫어하다",
+      "pattern": "thích ... nhất / ghét ... nhất → Tôi thích nấu ăn nhất.",
+      "sourcePage": 7,
+      "reviewNeeded": false
+    },
+    {
+      "id": "d5housework-g-004",
+      "title": "집안일을 나누다",
+      "pattern": "chia việc nhà với + 사람 → Tôi chia việc nhà với vợ.",
+      "sourcePage": 7,
+      "reviewNeeded": false
+    }
+  ],
+  "quizSeeds": [
+    {
+      "id": "d5housework-q-001",
+      "type": "match-term",
+      "prompt": "5일차 집안일 단어 매칭",
+      "answerSet": [
+        "việc nhà-집안일",
+        "rửa bát-설거지하다",
+        "lau nhà-바닥을 닦다",
+        "giặt quần áo-빨래하다",
+        "nấu ăn-요리하다",
+        "dọn phòng-방을 청소하다",
+        "chia việc nhà-집안일을 나누다",
+        "quan trọng-중요하다",
+        "ghét-싫어하다",
+        "một mình-혼자"
+      ],
+      "sourcePage": 7,
+      "reviewNeeded": false
+    }
+  ],
+  "unlockCondition": "complete-previous",
+  "reviewNeeded": false
+},
+{
+  "lessonId": "d5freetime",
+  "unitLabel": "5일차",
+  "titleKo": "5일차: 여가시간",
+  "titleVi": "Chủ đề 4: Thời gian rảnh",
+  "pageRange": "8-9",
+  "goals": [
+    "여가시간 관련 단어 익히기",
+    "쉴 때 하는 활동 말하기",
+    "집에 있는 것과 밖에 나가는 것 비교하기",
+    "OPIc 여가시간 질문에 짧게 답하기"
+  ],
+  "topicOverview": "한가할 때 무엇을 하는지, 영화 보기, 음악 듣기, 책 읽기, 운동, 카페 가기, 휴대폰 사용, 주말 활동을 말하는 5일차 여가시간 주제입니다.",
+  "cultureTopics": [
+    "여가시간",
+    "집에서 쉬기",
+    "밖에 나가기",
+    "친구와 카페 가기",
+    "주말 활동",
+    "휴대폰 사용"
+  ],
+  "vocabCards": [
+    {
+      "id": "d5freetime-v-001",
+      "term": "rảnh",
+      "meaningKo": "한가하다",
+      "example": "Khi rảnh, tôi xem phim.",
+      "exampleMeaningKo": "한가할 때 저는 영화를 봅니다.",
+      "audioSrc": "",
+      "sourcePage": 8,
+      "reviewNeeded": false,
+      "pronKo": "자잉"
+    },
+    {
+      "id": "d5freetime-v-002",
+      "term": "thời gian",
+      "meaningKo": "시간",
+      "example": "Tôi không có nhiều thời gian.",
+      "exampleMeaningKo": "저는 시간이 많지 않습니다.",
+      "audioSrc": "",
+      "sourcePage": 8,
+      "reviewNeeded": false,
+      "pronKo": "터이 잔"
+    },
+    {
+      "id": "d5freetime-v-003",
+      "term": "khi",
+      "meaningKo": "~할 때",
+      "example": "Khi rảnh, tôi nghe nhạc.",
+      "exampleMeaningKo": "한가할 때 저는 음악을 듣습니다.",
+      "audioSrc": "",
+      "sourcePage": 8,
+      "reviewNeeded": false,
+      "pronKo": "키"
+    },
+    {
+      "id": "d5freetime-v-004",
+      "term": "nhiều",
+      "meaningKo": "많다",
+      "example": "Tôi không có nhiều thời gian rảnh.",
+      "exampleMeaningKo": "저는 여가 시간이 많지 않습니다.",
+      "audioSrc": "",
+      "sourcePage": 8,
+      "reviewNeeded": false,
+      "pronKo": "니에우"
+    },
+    {
+      "id": "d5freetime-v-005",
+      "term": "ở nhà",
+      "meaningKo": "집에 있다",
+      "example": "Tôi thích ở nhà khi rảnh.",
+      "exampleMeaningKo": "저는 한가할 때 집에 있는 것을 좋아합니다.",
+      "audioSrc": "",
+      "sourcePage": 8,
+      "reviewNeeded": false,
+      "pronKo": "어 냐"
+    },
+    {
+      "id": "d5freetime-v-006",
+      "term": "đi ra ngoài",
+      "meaningKo": "밖에 나가다",
+      "example": "Tôi thích đi ra ngoài với bạn.",
+      "exampleMeaningKo": "저는 친구와 밖에 나가는 것을 좋아합니다.",
+      "audioSrc": "",
+      "sourcePage": 8,
+      "reviewNeeded": false,
+      "pronKo": "디 자 응오아이"
+    },
+    {
+      "id": "d5freetime-v-007",
+      "term": "xem phim",
+      "meaningKo": "영화를 보다",
+      "example": "Tôi thường xem phim khi rảnh.",
+      "exampleMeaningKo": "저는 한가할 때 보통 영화를 봅니다.",
+      "audioSrc": "",
+      "sourcePage": 8,
+      "reviewNeeded": false,
+      "pronKo": "셈 핌"
+    },
+    {
+      "id": "d5freetime-v-008",
+      "term": "nghe nhạc",
+      "meaningKo": "음악을 듣다",
+      "example": "Tôi hay nghe nhạc.",
+      "exampleMeaningKo": "저는 자주 음악을 듣습니다.",
+      "audioSrc": "",
+      "sourcePage": 8,
+      "reviewNeeded": false,
+      "pronKo": "응에 냑"
+    },
+    {
+      "id": "d5freetime-v-009",
+      "term": "đọc sách",
+      "meaningKo": "책을 읽다",
+      "example": "Tôi đọc sách vào cuối tuần.",
+      "exampleMeaningKo": "저는 주말에 책을 읽습니다.",
+      "audioSrc": "",
+      "sourcePage": 8,
+      "reviewNeeded": false,
+      "pronKo": "독 삭"
+    },
+    {
+      "id": "d5freetime-v-010",
+      "term": "chơi thể thao",
+      "meaningKo": "운동하다 / 스포츠를 하다",
+      "example": "Tôi chơi thể thao vào cuối tuần.",
+      "exampleMeaningKo": "저는 주말에 운동합니다.",
+      "audioSrc": "",
+      "sourcePage": 8,
+      "reviewNeeded": false,
+      "pronKo": "쩌이 테 타오"
+    },
+    {
+      "id": "d5freetime-v-011",
+      "term": "đi cà phê",
+      "meaningKo": "카페에 가다",
+      "example": "Tôi đi cà phê với bạn.",
+      "exampleMeaningKo": "저는 친구와 카페에 갑니다.",
+      "audioSrc": "",
+      "sourcePage": 8,
+      "reviewNeeded": false,
+      "pronKo": "디 까 페"
+    },
+    {
+      "id": "d5freetime-v-012",
+      "term": "bạn",
+      "meaningKo": "친구",
+      "example": "Tôi gặp bạn vào cuối tuần.",
+      "exampleMeaningKo": "저는 주말에 친구를 만납니다.",
+      "audioSrc": "",
+      "sourcePage": 8,
+      "reviewNeeded": false,
+      "pronKo": "반"
+    },
+    {
+      "id": "d5freetime-v-013",
+      "term": "dùng điện thoại",
+      "meaningKo": "휴대폰을 사용하다",
+      "example": "Tôi hay dùng điện thoại khi rảnh.",
+      "exampleMeaningKo": "저는 한가할 때 자주 휴대폰을 사용합니다.",
+      "audioSrc": "",
+      "sourcePage": 8,
+      "reviewNeeded": false,
+      "pronKo": "중 디엔 토아이"
+    },
+    {
+      "id": "d5freetime-v-014",
+      "term": "hay",
+      "meaningKo": "자주",
+      "example": "Tôi hay xem phim.",
+      "exampleMeaningKo": "저는 자주 영화를 봅니다.",
+      "audioSrc": "",
+      "sourcePage": 8,
+      "reviewNeeded": false,
+      "pronKo": "하이"
+    },
+    {
+      "id": "d5freetime-v-015",
+      "term": "học",
+      "meaningKo": "공부하다",
+      "example": "Tôi học tiếng Việt khi rảnh.",
+      "exampleMeaningKo": "저는 한가할 때 베트남어를 공부합니다.",
+      "audioSrc": "",
+      "sourcePage": 8,
+      "reviewNeeded": false,
+      "pronKo": "혹"
+    },
+    {
+      "id": "d5freetime-v-016",
+      "term": "thêm",
+      "meaningKo": "추가로 / 더",
+      "example": "Tôi học thêm tiếng Việt.",
+      "exampleMeaningKo": "저는 추가로 베트남어를 공부합니다.",
+      "audioSrc": "",
+      "sourcePage": 8,
+      "reviewNeeded": false,
+      "pronKo": "템"
+    },
+    {
+      "id": "d5freetime-v-017",
+      "term": "cuối tuần",
+      "meaningKo": "주말",
+      "example": "Cuối tuần tôi thường nghỉ ngơi.",
+      "exampleMeaningKo": "주말에 저는 보통 쉽니다.",
+      "audioSrc": "",
+      "sourcePage": 8,
+      "reviewNeeded": false,
+      "pronKo": "꾸오이 뚜언"
+    },
+    {
+      "id": "d5freetime-v-018",
+      "term": "ngày thường",
+      "meaningKo": "평일",
+      "example": "Ngày thường tôi rất bận.",
+      "exampleMeaningKo": "평일에 저는 매우 바쁩니다.",
+      "audioSrc": "",
+      "sourcePage": 8,
+      "reviewNeeded": false,
+      "pronKo": "응아이 트엉"
+    },
+    {
+      "id": "d5freetime-v-019",
+      "term": "đi du lịch",
+      "meaningKo": "여행 가다",
+      "example": "Tôi thích đi du lịch khi có thời gian.",
+      "exampleMeaningKo": "저는 시간이 있을 때 여행 가는 것을 좋아합니다.",
+      "audioSrc": "",
+      "sourcePage": 9,
+      "reviewNeeded": false,
+      "pronKo": "디 주 릭"
+    }
+  ],
+  "sentenceCards": [
+    {
+      "id": "d5freetime-s-001",
+      "textVi": "Khi rảnh, anh thường làm gì?",
+      "textKo": "한가할 때 보통 뭐 해요?",
+      "exampleAnswerVi": "Khi rảnh, tôi thường xem phim hoặc nghe nhạc.",
+      "exampleAnswerKo": "한가할 때 저는 보통 영화를 보거나 음악을 듣습니다.",
+      "audioSrc": "",
+      "sourcePage": 9,
+      "reviewNeeded": false
+    },
+    {
+      "id": "d5freetime-s-002",
+      "textVi": "Anh có nhiều thời gian rảnh không?",
+      "textKo": "여가 시간이 많아요?",
+      "exampleAnswerVi": "Không. Dạo này tôi không có nhiều thời gian rảnh.",
+      "exampleAnswerKo": "아니요. 요즘 저는 여가 시간이 많지 않습니다.",
+      "audioSrc": "",
+      "sourcePage": 9,
+      "reviewNeeded": false
+    },
+    {
+      "id": "d5freetime-s-003",
+      "textVi": "Anh có thích ở nhà khi rảnh không?",
+      "textKo": "한가할 때 집에 있는 것을 좋아해요?",
+      "exampleAnswerVi": "Có. Tôi thích ở nhà khi rảnh.",
+      "exampleAnswerKo": "네. 저는 한가할 때 집에 있는 것을 좋아합니다.",
+      "audioSrc": "",
+      "sourcePage": 9,
+      "reviewNeeded": false
+    },
+    {
+      "id": "d5freetime-s-004",
+      "textVi": "Anh có xem phim khi rảnh không?",
+      "textKo": "한가할 때 영화를 봐요?",
+      "exampleAnswerVi": "Có. Tôi thường xem phim khi rảnh.",
+      "exampleAnswerKo": "네. 저는 한가할 때 보통 영화를 봅니다.",
+      "audioSrc": "",
+      "sourcePage": 9,
+      "reviewNeeded": false
+    },
+    {
+      "id": "d5freetime-s-005",
+      "textVi": "Anh có nghe nhạc không?",
+      "textKo": "음악을 들어요?",
+      "exampleAnswerVi": "Có. Tôi hay nghe nhạc.",
+      "exampleAnswerKo": "네. 저는 자주 음악을 듣습니다.",
+      "audioSrc": "",
+      "sourcePage": 9,
+      "reviewNeeded": false
+    },
+    {
+      "id": "d5freetime-s-006",
+      "textVi": "Anh có đọc sách không?",
+      "textKo": "책을 읽어요?",
+      "exampleAnswerVi": "Thỉnh thoảng. Tôi đọc sách vào cuối tuần.",
+      "exampleAnswerKo": "가끔요. 저는 주말에 책을 읽습니다.",
+      "audioSrc": "",
+      "sourcePage": 9,
+      "reviewNeeded": false
+    },
+    {
+      "id": "d5freetime-s-007",
+      "textVi": "Anh có chơi thể thao không?",
+      "textKo": "운동해요?",
+      "exampleAnswerVi": "Có. Tôi chơi thể thao vào cuối tuần.",
+      "exampleAnswerKo": "네. 저는 주말에 운동합니다.",
+      "audioSrc": "",
+      "sourcePage": 9,
+      "reviewNeeded": false
+    },
+    {
+      "id": "d5freetime-s-008",
+      "textVi": "Anh có đi cà phê với bạn không?",
+      "textKo": "친구와 카페에 가요?",
+      "exampleAnswerVi": "Có. Tôi thường đi cà phê với bạn.",
+      "exampleAnswerKo": "네. 저는 보통 친구와 카페에 갑니다.",
+      "audioSrc": "",
+      "sourcePage": 9,
+      "reviewNeeded": false
+    },
+    {
+      "id": "d5freetime-s-009",
+      "textVi": "Anh thường rảnh vào lúc nào?",
+      "textKo": "보통 언제 한가해요?",
+      "exampleAnswerVi": "Tôi thường rảnh vào buổi tối và cuối tuần.",
+      "exampleAnswerKo": "저는 보통 저녁과 주말에 한가합니다.",
+      "audioSrc": "",
+      "sourcePage": 9,
+      "reviewNeeded": false
+    },
+    {
+      "id": "d5freetime-s-010",
+      "textVi": "Anh thích ở nhà hay thích đi ra ngoài khi rảnh?",
+      "textKo": "한가할 때 집에 있는 걸 좋아해요, 아니면 밖에 나가는 걸 좋아해요?",
+      "exampleAnswerVi": "Tôi thích ở nhà hơn.",
+      "exampleAnswerKo": "저는 집에 있는 것을 더 좋아합니다.",
+      "audioSrc": "",
+      "sourcePage": 9,
+      "reviewNeeded": false
+    },
+    {
+      "id": "d5freetime-s-011",
+      "textVi": "Anh có hay dùng điện thoại khi rảnh không?",
+      "textKo": "한가할 때 휴대폰을 자주 사용해요?",
+      "exampleAnswerVi": "Có. Tôi hay dùng điện thoại khi rảnh.",
+      "exampleAnswerKo": "네. 저는 한가할 때 자주 휴대폰을 사용합니다.",
+      "audioSrc": "",
+      "sourcePage": 9,
+      "reviewNeeded": false
+    },
+    {
+      "id": "d5freetime-s-012",
+      "textVi": "Anh có học thêm gì trong thời gian rảnh không?",
+      "textKo": "여가 시간에 추가로 뭘 공부해요?",
+      "exampleAnswerVi": "Có. Tôi học thêm tiếng Việt.",
+      "exampleAnswerKo": "네. 저는 추가로 베트남어를 공부합니다.",
+      "audioSrc": "",
+      "sourcePage": 9,
+      "reviewNeeded": false
+    },
+    {
+      "id": "d5freetime-s-013",
+      "textVi": "Cuối tuần anh thường làm gì?",
+      "textKo": "주말에 보통 뭐 해요?",
+      "exampleAnswerVi": "Cuối tuần tôi thường nghỉ ngơi và xem phim.",
+      "exampleAnswerKo": "주말에 저는 보통 쉬고 영화를 봅니다.",
+      "audioSrc": "",
+      "sourcePage": 9,
+      "reviewNeeded": false
+    },
+    {
+      "id": "d5freetime-s-014",
+      "textVi": "Anh có đi du lịch khi có thời gian rảnh không?",
+      "textKo": "여가 시간이 있을 때 여행을 가요?",
+      "exampleAnswerVi": "Có. Nếu có thời gian rảnh, tôi muốn đi du lịch.",
+      "exampleAnswerKo": "네. 여가 시간이 있으면 저는 여행 가고 싶습니다.",
+      "audioSrc": "",
+      "sourcePage": 9,
+      "reviewNeeded": false
+    },
+    {
+      "id": "d5freetime-s-015",
+      "textVi": "Anh rảnh vào ngày thường hay cuối tuần nhiều hơn?",
+      "textKo": "평일에 더 한가해요, 아니면 주말에 더 한가해요?",
+      "exampleAnswerVi": "Tôi rảnh vào cuối tuần nhiều hơn.",
+      "exampleAnswerKo": "저는 주말에 더 한가합니다.",
+      "audioSrc": "",
+      "sourcePage": 9,
+      "reviewNeeded": false
+    }
+  ],
+  "grammarPoints": [
+    {
+      "id": "d5freetime-g-001",
+      "title": "~할 때",
+      "pattern": "Khi + 형용사/동사, 주어 + 동사 → Khi rảnh, tôi xem phim.",
+      "sourcePage": 9,
+      "reviewNeeded": false
+    },
+    {
+      "id": "d5freetime-g-002",
+      "title": "여가 시간이 있다",
+      "pattern": "có thời gian rảnh → Tôi có thời gian rảnh.",
+      "sourcePage": 9,
+      "reviewNeeded": false
+    },
+    {
+      "id": "d5freetime-g-003",
+      "title": "A hay B",
+      "pattern": "ở nhà hay đi ra ngoài → Anh thích ở nhà hay đi ra ngoài?",
+      "sourcePage": 9,
+      "reviewNeeded": false
+    }
+  ],
+  "quizSeeds": [
+    {
+      "id": "d5freetime-q-001",
+      "type": "match-term",
+      "prompt": "5일차 여가시간 단어 매칭",
+      "answerSet": [
+        "rảnh-한가하다",
+        "thời gian-시간",
+        "xem phim-영화를 보다",
+        "nghe nhạc-음악을 듣다",
+        "đọc sách-책을 읽다",
+        "chơi thể thao-운동하다",
+        "đi cà phê-카페에 가다",
+        "dùng điện thoại-휴대폰을 사용하다",
+        "cuối tuần-주말",
+        "ngày thường-평일"
+      ],
+      "sourcePage": 9,
+      "reviewNeeded": false
+    }
+  ],
+  "unlockCondition": "complete-previous",
+  "reviewNeeded": false
+},
+{
+  "lessonId": "d5korea",
+  "unitLabel": "5일차",
+  "titleKo": "5일차: 한국",
+  "titleVi": "Chủ đề 5: Hàn Quốc",
+  "pageRange": "10-11",
+  "goals": [
+    "한국 소개에 필요한 단어 익히기",
+    "한국의 도시, 음식, 전통 의상, 기후, 교통수단 말하기",
+    "한국의 명절과 문화를 간단히 설명하기",
+    "OPIc 한국 소개 질문에 짧게 답하기"
+  ],
+  "topicOverview": "한국의 관광지, 음식, 한복, 기후, 계절, 교통수단, 명절, 설날, 추석, 인구, 주변 국가를 말하는 5일차 한국 주제입니다.",
+  "cultureTopics": [
+    "한국 소개",
+    "서울과 관광지",
+    "한국 음식",
+    "한복",
+    "한국 기후와 계절",
+    "설날과 추석",
+    "교통수단"
+  ],
+  "vocabCards": [
+    {
+      "id": "d5korea-v-001",
+      "term": "thành phố",
+      "meaningKo": "도시",
+      "example": "Seoul là một thành phố lớn.",
+      "exampleMeaningKo": "서울은 큰 도시입니다.",
+      "audioSrc": "",
+      "sourcePage": 10,
+      "reviewNeeded": false,
+      "pronKo": "타인 포"
+    },
+    {
+      "id": "d5korea-v-002",
+      "term": "thủ đô",
+      "meaningKo": "수도",
+      "example": "Thủ đô của Hàn Quốc là Seoul.",
+      "exampleMeaningKo": "한국의 수도는 서울입니다.",
+      "audioSrc": "",
+      "sourcePage": 10,
+      "reviewNeeded": false,
+      "pronKo": "투 도"
+    },
+    {
+      "id": "d5korea-v-003",
+      "term": "địa điểm du lịch",
+      "meaningKo": "관광지",
+      "example": "Hàn Quốc có nhiều địa điểm du lịch nổi tiếng.",
+      "exampleMeaningKo": "한국에는 유명한 관광지가 많습니다.",
+      "audioSrc": "",
+      "sourcePage": 10,
+      "reviewNeeded": false,
+      "pronKo": "디아 디엠 주 릭"
+    },
+    {
+      "id": "d5korea-v-004",
+      "term": "nổi tiếng",
+      "meaningKo": "유명하다 / 유명한",
+      "example": "Kimchi là món ăn nổi tiếng của Hàn Quốc.",
+      "exampleMeaningKo": "김치는 한국의 유명한 음식입니다.",
+      "audioSrc": "",
+      "sourcePage": 10,
+      "reviewNeeded": false,
+      "pronKo": "노이 띠엥"
+    },
+    {
+      "id": "d5korea-v-005",
+      "term": "đồ ăn",
+      "meaningKo": "음식",
+      "example": "Đồ ăn Hàn Quốc rất ngon.",
+      "exampleMeaningKo": "한국 음식은 매우 맛있습니다.",
+      "audioSrc": "",
+      "sourcePage": 10,
+      "reviewNeeded": false,
+      "pronKo": "도 안"
+    },
+    {
+      "id": "d5korea-v-006",
+      "term": "món ăn",
+      "meaningKo": "요리 / 음식",
+      "example": "Món ăn nổi tiếng của Hàn Quốc là kimchi.",
+      "exampleMeaningKo": "한국의 유명한 음식은 김치입니다.",
+      "audioSrc": "",
+      "sourcePage": 10,
+      "reviewNeeded": false,
+      "pronKo": "몬 안"
+    },
+    {
+      "id": "d5korea-v-007",
+      "term": "ngon",
+      "meaningKo": "맛있다",
+      "example": "Đồ ăn Hàn Quốc rất ngon.",
+      "exampleMeaningKo": "한국 음식은 매우 맛있습니다.",
+      "audioSrc": "",
+      "sourcePage": 10,
+      "reviewNeeded": false,
+      "pronKo": "응온"
+    },
+    {
+      "id": "d5korea-v-008",
+      "term": "trang phục",
+      "meaningKo": "복장",
+      "example": "Trang phục truyền thống của Hàn Quốc là hanbok.",
+      "exampleMeaningKo": "한국의 전통 의상은 한복입니다.",
+      "audioSrc": "",
+      "sourcePage": 10,
+      "reviewNeeded": false,
+      "pronKo": "짱 푹"
+    },
+    {
+      "id": "d5korea-v-009",
+      "term": "trang phục truyền thống",
+      "meaningKo": "전통 의상",
+      "example": "Hanbok là trang phục truyền thống của Hàn Quốc.",
+      "exampleMeaningKo": "한복은 한국의 전통 의상입니다.",
+      "audioSrc": "",
+      "sourcePage": 10,
+      "reviewNeeded": false,
+      "pronKo": "짱 푹 쭈엔 통"
+    },
+    {
+      "id": "d5korea-v-010",
+      "term": "khí hậu",
+      "meaningKo": "기후",
+      "example": "Khí hậu ở Hàn Quốc có bốn mùa.",
+      "exampleMeaningKo": "한국의 기후는 사계절이 있습니다.",
+      "audioSrc": "",
+      "sourcePage": 10,
+      "reviewNeeded": false,
+      "pronKo": "키 허우"
+    },
+    {
+      "id": "d5korea-v-011",
+      "term": "thời tiết",
+      "meaningKo": "날씨",
+      "example": "Thời tiết hôm nay rất lạnh.",
+      "exampleMeaningKo": "오늘 날씨는 매우 춥습니다.",
+      "audioSrc": "",
+      "sourcePage": 10,
+      "reviewNeeded": false,
+      "pronKo": "터이 띠엣"
+    },
+    {
+      "id": "d5korea-v-012",
+      "term": "mùa",
+      "meaningKo": "계절",
+      "example": "Hàn Quốc có bốn mùa.",
+      "exampleMeaningKo": "한국은 사계절이 있습니다.",
+      "audioSrc": "",
+      "sourcePage": 10,
+      "reviewNeeded": false,
+      "pronKo": "무아"
+    },
+    {
+      "id": "d5korea-v-013",
+      "term": "phương tiện giao thông",
+      "meaningKo": "교통수단",
+      "example": "Phương tiện giao thông chủ yếu là tàu điện và xe buýt.",
+      "exampleMeaningKo": "주요 교통수단은 지하철과 버스입니다.",
+      "audioSrc": "",
+      "sourcePage": 10,
+      "reviewNeeded": false,
+      "pronKo": "프엉 띠엔 자오 통"
+    },
+    {
+      "id": "d5korea-v-014",
+      "term": "chủ yếu",
+      "meaningKo": "주로 / 주요한",
+      "example": "Người Hàn Quốc chủ yếu đi tàu điện.",
+      "exampleMeaningKo": "한국 사람들은 주로 지하철을 탑니다.",
+      "audioSrc": "",
+      "sourcePage": 10,
+      "reviewNeeded": false,
+      "pronKo": "쭈 이에우"
+    },
+    {
+      "id": "d5korea-v-015",
+      "term": "ngày lễ",
+      "meaningKo": "공휴일",
+      "example": "Hàn Quốc có nhiều ngày lễ.",
+      "exampleMeaningKo": "한국에는 공휴일이 많습니다.",
+      "audioSrc": "",
+      "sourcePage": 10,
+      "reviewNeeded": false,
+      "pronKo": "응아이 레"
+    },
+    {
+      "id": "d5korea-v-016",
+      "term": "ngày lễ truyền thống",
+      "meaningKo": "전통 명절",
+      "example": "Tết và Trung thu là ngày lễ truyền thống.",
+      "exampleMeaningKo": "설날과 추석은 전통 명절입니다.",
+      "audioSrc": "",
+      "sourcePage": 10,
+      "reviewNeeded": false,
+      "pronKo": "응아이 레 쭈엔 통"
+    },
+    {
+      "id": "d5korea-v-017",
+      "term": "Tết",
+      "meaningKo": "설날",
+      "example": "Vào dịp Tết, người Hàn Quốc gặp gia đình.",
+      "exampleMeaningKo": "설날에 한국 사람들은 가족을 만납니다.",
+      "audioSrc": "",
+      "sourcePage": 10,
+      "reviewNeeded": false,
+      "pronKo": "뗏"
+    },
+    {
+      "id": "d5korea-v-018",
+      "term": "Trung thu",
+      "meaningKo": "추석",
+      "example": "Trung thu là ngày lễ lớn ở Hàn Quốc.",
+      "exampleMeaningKo": "추석은 한국의 큰 명절입니다.",
+      "audioSrc": "",
+      "sourcePage": 10,
+      "reviewNeeded": false,
+      "pronKo": "쭝 투"
+    },
+    {
+      "id": "d5korea-v-019",
+      "term": "dịp",
+      "meaningKo": "때 / 기간",
+      "example": "Vào dịp Tết, gia đình tôi ăn món ăn truyền thống.",
+      "exampleMeaningKo": "설날 때 우리 가족은 전통 음식을 먹습니다.",
+      "audioSrc": "",
+      "sourcePage": 10,
+      "reviewNeeded": false,
+      "pronKo": "집"
+    },
+    {
+      "id": "d5korea-v-020",
+      "term": "vào dịp",
+      "meaningKo": "~때에",
+      "example": "Vào dịp Trung thu, tôi về thăm bố mẹ.",
+      "exampleMeaningKo": "추석 때 저는 부모님을 방문합니다.",
+      "audioSrc": "",
+      "sourcePage": 10,
+      "reviewNeeded": false,
+      "pronKo": "바오 집"
+    },
+    {
+      "id": "d5korea-v-021",
+      "term": "chuẩn bị",
+      "meaningKo": "준비하다",
+      "example": "Gia đình tôi chuẩn bị món ăn ngày Tết.",
+      "exampleMeaningKo": "우리 가족은 설날 음식을 준비합니다.",
+      "audioSrc": "",
+      "sourcePage": 10,
+      "reviewNeeded": false,
+      "pronKo": "쭈언 비"
+    },
+    {
+      "id": "d5korea-v-022",
+      "term": "tham quan",
+      "meaningKo": "방문하다 / 관광하다",
+      "example": "Ở Seoul, bạn có thể tham quan cung điện.",
+      "exampleMeaningKo": "서울에서 궁궐을 관광할 수 있습니다.",
+      "audioSrc": "",
+      "sourcePage": 10,
+      "reviewNeeded": false,
+      "pronKo": "탐 꽌"
+    },
+    {
+      "id": "d5korea-v-023",
+      "term": "có thể",
+      "meaningKo": "~할 수 있다",
+      "example": "Bạn có thể đến thăm Seoul.",
+      "exampleMeaningKo": "당신은 서울을 방문할 수 있습니다.",
+      "audioSrc": "",
+      "sourcePage": 10,
+      "reviewNeeded": false,
+      "pronKo": "꼬 테"
+    },
+    {
+      "id": "d5korea-v-024",
+      "term": "dân số",
+      "meaningKo": "인구",
+      "example": "Dân số của Hàn Quốc khoảng hơn 50 triệu người.",
+      "exampleMeaningKo": "한국의 인구는 약 5천만 명 이상입니다.",
+      "audioSrc": "",
+      "sourcePage": 10,
+      "reviewNeeded": false,
+      "pronKo": "전 소"
+    },
+    {
+      "id": "d5korea-v-025",
+      "term": "giáp với",
+      "meaningKo": "~와 접하다",
+      "example": "Hàn Quốc giáp với Triều Tiên.",
+      "exampleMeaningKo": "한국은 북한과 접해 있습니다.",
+      "audioSrc": "",
+      "sourcePage": 10,
+      "reviewNeeded": false,
+      "pronKo": "잡 버이"
+    }
+  ],
+  "sentenceCards": [
+    {
+      "id": "d5korea-s-001",
+      "textVi": "Ở Hàn Quốc có địa điểm du lịch nổi tiếng nào?",
+      "textKo": "한국에는 어떤 유명한 관광지가 있어요?",
+      "exampleAnswerVi": "Ở Hàn Quốc có Seoul, Busan và Jeju.",
+      "exampleAnswerKo": "한국에는 서울, 부산, 제주가 있습니다.",
+      "audioSrc": "",
+      "sourcePage": 11,
+      "reviewNeeded": false
+    },
+    {
+      "id": "d5korea-s-002",
+      "textVi": "Đồ ăn Hàn Quốc có ngon không?",
+      "textKo": "한국 음식은 맛있어요?",
+      "exampleAnswerVi": "Có. Đồ ăn Hàn Quốc rất ngon.",
+      "exampleAnswerKo": "네. 한국 음식은 매우 맛있습니다.",
+      "audioSrc": "",
+      "sourcePage": 11,
+      "reviewNeeded": false
+    },
+    {
+      "id": "d5korea-s-003",
+      "textVi": "Món ăn nổi tiếng của Hàn Quốc là món gì?",
+      "textKo": "한국의 유명한 음식은 무엇이에요?",
+      "exampleAnswerVi": "Món ăn nổi tiếng của Hàn Quốc là kimchi và bibimbap.",
+      "exampleAnswerKo": "한국의 유명한 음식은 김치와 비빔밥입니다.",
+      "audioSrc": "",
+      "sourcePage": 11,
+      "reviewNeeded": false
+    },
+    {
+      "id": "d5korea-s-004",
+      "textVi": "Ở Seoul có thể đến thăm những địa điểm nào?",
+      "textKo": "서울에서는 어떤 장소들을 방문할 수 있어요?",
+      "exampleAnswerVi": "Ở Seoul có thể đến thăm cung điện, tháp Namsan và sông Hàn.",
+      "exampleAnswerKo": "서울에서는 궁궐, 남산타워, 한강을 방문할 수 있습니다.",
+      "audioSrc": "",
+      "sourcePage": 11,
+      "reviewNeeded": false
+    },
+    {
+      "id": "d5korea-s-005",
+      "textVi": "Trang phục truyền thống của Hàn Quốc là gì?",
+      "textKo": "한국의 전통 의상은 무엇이에요?",
+      "exampleAnswerVi": "Trang phục truyền thống của Hàn Quốc là hanbok.",
+      "exampleAnswerKo": "한국의 전통 의상은 한복입니다.",
+      "audioSrc": "",
+      "sourcePage": 11,
+      "reviewNeeded": false
+    },
+    {
+      "id": "d5korea-s-006",
+      "textVi": "Khí hậu ở Hàn Quốc thế nào?",
+      "textKo": "한국의 기후는 어때요?",
+      "exampleAnswerVi": "Khí hậu ở Hàn Quốc có bốn mùa rõ ràng.",
+      "exampleAnswerKo": "한국의 기후는 사계절이 뚜렷합니다.",
+      "audioSrc": "",
+      "sourcePage": 11,
+      "reviewNeeded": false
+    },
+    {
+      "id": "d5korea-s-007",
+      "textVi": "Thủ đô của Hàn Quốc là thành phố nào?",
+      "textKo": "한국의 수도는 어떤 도시예요?",
+      "exampleAnswerVi": "Thủ đô của Hàn Quốc là Seoul.",
+      "exampleAnswerKo": "한국의 수도는 서울입니다.",
+      "audioSrc": "",
+      "sourcePage": 11,
+      "reviewNeeded": false
+    },
+    {
+      "id": "d5korea-s-008",
+      "textVi": "Phương tiện giao thông chủ yếu ở Hàn Quốc là gì?",
+      "textKo": "한국의 주요 교통수단은 무엇이에요?",
+      "exampleAnswerVi": "Phương tiện giao thông chủ yếu là tàu điện, xe buýt và ô tô.",
+      "exampleAnswerKo": "주요 교통수단은 지하철, 버스, 자동차입니다.",
+      "audioSrc": "",
+      "sourcePage": 11,
+      "reviewNeeded": false
+    },
+    {
+      "id": "d5korea-s-009",
+      "textVi": "Ở Hàn Quốc có nhiều lễ hội không?",
+      "textKo": "한국에는 축제가 많아요?",
+      "exampleAnswerVi": "Có. Ở Hàn Quốc có nhiều lễ hội.",
+      "exampleAnswerKo": "네. 한국에는 축제가 많습니다.",
+      "audioSrc": "",
+      "sourcePage": 11,
+      "reviewNeeded": false
+    },
+    {
+      "id": "d5korea-s-010",
+      "textVi": "Hàn Quốc một năm có mấy mùa?",
+      "textKo": "한국은 1년에 몇 계절이 있어요?",
+      "exampleAnswerVi": "Hàn Quốc một năm có bốn mùa.",
+      "exampleAnswerKo": "한국은 1년에 사계절이 있습니다.",
+      "audioSrc": "",
+      "sourcePage": 11,
+      "reviewNeeded": false
+    },
+    {
+      "id": "d5korea-s-011",
+      "textVi": "Ở Hàn Quốc có những ngày lễ truyền thống nào?",
+      "textKo": "한국에는 어떤 전통 명절이 있어요?",
+      "exampleAnswerVi": "Ở Hàn Quốc có Tết và Trung thu.",
+      "exampleAnswerKo": "한국에는 설날과 추석이 있습니다.",
+      "audioSrc": "",
+      "sourcePage": 11,
+      "reviewNeeded": false
+    },
+    {
+      "id": "d5korea-s-012",
+      "textVi": "Ngày lễ lớn nhất ở Hàn Quốc là ngày nào?",
+      "textKo": "한국에서 가장 큰 명절은 언제예요?",
+      "exampleAnswerVi": "Ngày lễ lớn nhất là Tết và Trung thu.",
+      "exampleAnswerKo": "가장 큰 명절은 설날과 추석입니다.",
+      "audioSrc": "",
+      "sourcePage": 11,
+      "reviewNeeded": false
+    },
+    {
+      "id": "d5korea-s-013",
+      "textVi": "Vào dịp Tết, người Hàn Quốc thường làm gì?",
+      "textKo": "설날 때 한국 사람들은 보통 무엇을 해요?",
+      "exampleAnswerVi": "Vào dịp Tết, người Hàn Quốc thường gặp gia đình.",
+      "exampleAnswerKo": "설날 때 한국 사람들은 보통 가족을 만납니다.",
+      "audioSrc": "",
+      "sourcePage": 11,
+      "reviewNeeded": false
+    },
+    {
+      "id": "d5korea-s-014",
+      "textVi": "Vào dịp Trung thu, người Hàn Quốc thường làm gì?",
+      "textKo": "추석 때 한국 사람들은 보통 무엇을 해요?",
+      "exampleAnswerVi": "Vào dịp Trung thu, người Hàn Quốc về quê và gặp gia đình.",
+      "exampleAnswerKo": "추석 때 한국 사람들은 고향에 가고 가족을 만납니다.",
+      "audioSrc": "",
+      "sourcePage": 11,
+      "reviewNeeded": false
+    },
+    {
+      "id": "d5korea-s-015",
+      "textVi": "Gia đình anh thường chuẩn bị gì cho ngày Tết?",
+      "textKo": "당신 가족은 설날에 보통 무엇을 준비해요?",
+      "exampleAnswerVi": "Gia đình tôi chuẩn bị món ăn ngày Tết.",
+      "exampleAnswerKo": "우리 가족은 설날 음식을 준비합니다.",
+      "audioSrc": "",
+      "sourcePage": 11,
+      "reviewNeeded": false
+    },
+    {
+      "id": "d5korea-s-016",
+      "textVi": "Người Hàn Quốc thường ăn món gì vào ngày Tết?",
+      "textKo": "한국 사람들은 설날에 보통 어떤 음식을 먹어요?",
+      "exampleAnswerVi": "Người Hàn Quốc thường ăn canh bánh gạo.",
+      "exampleAnswerKo": "한국 사람들은 보통 떡국을 먹습니다.",
+      "audioSrc": "",
+      "sourcePage": 11,
+      "reviewNeeded": false
+    },
+    {
+      "id": "d5korea-s-017",
+      "textVi": "Anh có thích Tết không?",
+      "textKo": "설날을 좋아해요?",
+      "exampleAnswerVi": "Có. Tôi thích Tết vì tôi có thể gặp gia đình.",
+      "exampleAnswerKo": "네. 가족을 만날 수 있어서 설날을 좋아합니다.",
+      "audioSrc": "",
+      "sourcePage": 11,
+      "reviewNeeded": false
+    },
+    {
+      "id": "d5korea-s-018",
+      "textVi": "Dân số của Hàn Quốc là bao nhiêu?",
+      "textKo": "한국의 인구는 얼마예요?",
+      "exampleAnswerVi": "Dân số của Hàn Quốc khoảng hơn 50 triệu người.",
+      "exampleAnswerKo": "한국의 인구는 약 5천만 명 이상입니다.",
+      "audioSrc": "",
+      "sourcePage": 11,
+      "reviewNeeded": false
+    },
+    {
+      "id": "d5korea-s-019",
+      "textVi": "Hàn Quốc giáp với quốc gia nào?",
+      "textKo": "한국은 어떤 나라와 접해 있어요?",
+      "exampleAnswerVi": "Hàn Quốc giáp với Triều Tiên.",
+      "exampleAnswerKo": "한국은 북한과 접해 있습니다.",
+      "audioSrc": "",
+      "sourcePage": 11,
+      "reviewNeeded": false
+    }
+  ],
+  "grammarPoints": [
+    {
+      "id": "d5korea-g-001",
+      "title": "한국에는 ~이 있다",
+      "pattern": "Ở Hàn Quốc có + 명사 → Ở Hàn Quốc có nhiều địa điểm du lịch.",
+      "sourcePage": 11,
+      "reviewNeeded": false
+    },
+    {
+      "id": "d5korea-g-002",
+      "title": "~의 수도는 ~이다",
+      "pattern": "Thủ đô của + 나라 + là + 도시 → Thủ đô của Hàn Quốc là Seoul.",
+      "sourcePage": 11,
+      "reviewNeeded": false
+    },
+    {
+      "id": "d5korea-g-003",
+      "title": "~때에",
+      "pattern": "Vào dịp + 명절 → Vào dịp Tết, người Hàn Quốc gặp gia đình.",
+      "sourcePage": 11,
+      "reviewNeeded": false
+    }
+  ],
+  "quizSeeds": [
+    {
+      "id": "d5korea-q-001",
+      "type": "match-term",
+      "prompt": "5일차 한국 단어 매칭",
+      "answerSet": [
+        "thủ đô-수도",
+        "địa điểm du lịch-관광지",
+        "nổi tiếng-유명하다",
+        "đồ ăn-음식",
+        "trang phục truyền thống-전통 의상",
+        "khí hậu-기후",
+        "mùa-계절",
+        "phương tiện giao thông-교통수단",
+        "ngày lễ truyền thống-전통 명절",
+        "dân số-인구"
+      ],
+      "sourcePage": 11,
+      "reviewNeeded": false
+    }
+  ],
+  "unlockCondition": "complete-previous",
+  "reviewNeeded": false
+},
+{
+  "lessonId": "d5vietnam",
+  "unitLabel": "5일차",
+  "titleKo": "5일차: 베트남",
+  "titleVi": "Chủ đề 6: Việt Nam",
+  "pageRange": "12-13",
+  "goals": [
+    "베트남 소개에 필요한 단어 익히기",
+    "베트남 방문 경험 말하기",
+    "베트남 음식, 도시, 사람, 기후, 교통수단 설명하기",
+    "OPIc 베트남 주제 질문에 짧게 답하기"
+  ],
+  "topicOverview": "베트남 방문 경험, 음식, 도시, 수도, 교통수단, 전통 의상, 기후, 물가, 생활 적응, 첫인상, 인구와 주변 국가를 말하는 5일차 베트남 주제입니다.",
+  "cultureTopics": [
+    "베트남 방문 경험",
+    "베트남 음식",
+    "베트남 도시와 수도",
+    "베트남 사람",
+    "베트남 교통수단",
+    "아오자이",
+    "북부와 남부 기후 차이"
+  ],
+  "vocabCards": [
+    {
+      "id": "d5vietnam-v-001",
+      "term": "đến",
+      "meaningKo": "가다 / 도착하다",
+      "example": "Tôi đã đến Việt Nam.",
+      "exampleMeaningKo": "저는 베트남에 가 본 적이 있습니다.",
+      "audioSrc": "",
+      "sourcePage": 12,
+      "reviewNeeded": false,
+      "pronKo": "덴"
+    },
+    {
+      "id": "d5vietnam-v-002",
+      "term": "sang",
+      "meaningKo": "가다 / 건너가다",
+      "example": "Tôi sang Việt Nam để công tác.",
+      "exampleMeaningKo": "저는 출장 때문에 베트남에 갑니다.",
+      "audioSrc": "",
+      "sourcePage": 12,
+      "reviewNeeded": false,
+      "pronKo": "상"
+    },
+    {
+      "id": "d5vietnam-v-003",
+      "term": "thành phố",
+      "meaningKo": "도시",
+      "example": "Tôi đã đến thành phố Hà Nội.",
+      "exampleMeaningKo": "저는 하노이 도시에 가 봤습니다.",
+      "audioSrc": "",
+      "sourcePage": 12,
+      "reviewNeeded": false,
+      "pronKo": "타인 포"
+    },
+    {
+      "id": "d5vietnam-v-004",
+      "term": "thủ đô",
+      "meaningKo": "수도",
+      "example": "Thủ đô của Việt Nam là Hà Nội.",
+      "exampleMeaningKo": "베트남의 수도는 하노이입니다.",
+      "audioSrc": "",
+      "sourcePage": 12,
+      "reviewNeeded": false,
+      "pronKo": "투 도"
+    },
+    {
+      "id": "d5vietnam-v-005",
+      "term": "đồ ăn",
+      "meaningKo": "음식",
+      "example": "Đồ ăn Việt Nam rất ngon.",
+      "exampleMeaningKo": "베트남 음식은 매우 맛있습니다.",
+      "audioSrc": "",
+      "sourcePage": 12,
+      "reviewNeeded": false,
+      "pronKo": "도 안"
+    },
+    {
+      "id": "d5vietnam-v-006",
+      "term": "thích",
+      "meaningKo": "좋아하다",
+      "example": "Tôi thích đồ ăn Việt Nam.",
+      "exampleMeaningKo": "저는 베트남 음식을 좋아합니다.",
+      "audioSrc": "",
+      "sourcePage": 12,
+      "reviewNeeded": false,
+      "pronKo": "틱"
+    },
+    {
+      "id": "d5vietnam-v-007",
+      "term": "nhất",
+      "meaningKo": "가장",
+      "example": "Tôi thích phở nhất.",
+      "exampleMeaningKo": "저는 쌀국수를 가장 좋아합니다.",
+      "audioSrc": "",
+      "sourcePage": 12,
+      "reviewNeeded": false,
+      "pronKo": "녓"
+    },
+    {
+      "id": "d5vietnam-v-008",
+      "term": "thấy",
+      "meaningKo": "느끼다 / 보다",
+      "example": "Tôi thấy người Việt Nam rất thân thiện.",
+      "exampleMeaningKo": "저는 베트남 사람들이 매우 친절하다고 느낍니다.",
+      "audioSrc": "",
+      "sourcePage": 12,
+      "reviewNeeded": false,
+      "pronKo": "터이"
+    },
+    {
+      "id": "d5vietnam-v-009",
+      "term": "thế nào",
+      "meaningKo": "어떻다",
+      "example": "Anh thấy Việt Nam thế nào?",
+      "exampleMeaningKo": "베트남이 어떻다고 느껴요?",
+      "audioSrc": "",
+      "sourcePage": 12,
+      "reviewNeeded": false,
+      "pronKo": "테 나오"
+    },
+    {
+      "id": "d5vietnam-v-010",
+      "term": "nói chuyện",
+      "meaningKo": "대화하다",
+      "example": "Tôi nói chuyện với người Việt bằng tiếng Anh.",
+      "exampleMeaningKo": "저는 베트남 사람과 영어로 대화합니다.",
+      "audioSrc": "",
+      "sourcePage": 12,
+      "reviewNeeded": false,
+      "pronKo": "노이 쭈옌"
+    },
+    {
+      "id": "d5vietnam-v-011",
+      "term": "tiếng",
+      "meaningKo": "언어",
+      "example": "Tôi nói tiếng Việt một chút.",
+      "exampleMeaningKo": "저는 베트남어를 조금 말합니다.",
+      "audioSrc": "",
+      "sourcePage": 12,
+      "reviewNeeded": false,
+      "pronKo": "띠엥"
+    },
+    {
+      "id": "d5vietnam-v-012",
+      "term": "bằng",
+      "meaningKo": "~로",
+      "example": "Tôi di chuyển bằng taxi.",
+      "exampleMeaningKo": "저는 택시로 이동합니다.",
+      "audioSrc": "",
+      "sourcePage": 12,
+      "reviewNeeded": false,
+      "pronKo": "방"
+    },
+    {
+      "id": "d5vietnam-v-013",
+      "term": "di chuyển",
+      "meaningKo": "이동하다",
+      "example": "Ở Việt Nam, tôi di chuyển bằng taxi.",
+      "exampleMeaningKo": "베트남에서 저는 택시로 이동합니다.",
+      "audioSrc": "",
+      "sourcePage": 12,
+      "reviewNeeded": false,
+      "pronKo": "지 쭈엔"
+    },
+    {
+      "id": "d5vietnam-v-014",
+      "term": "phương tiện",
+      "meaningKo": "교통수단",
+      "example": "Phương tiện phổ biến là xe máy.",
+      "exampleMeaningKo": "흔한 교통수단은 오토바이입니다.",
+      "audioSrc": "",
+      "sourcePage": 12,
+      "reviewNeeded": false,
+      "pronKo": "프엉 띠엔"
+    },
+    {
+      "id": "d5vietnam-v-015",
+      "term": "biết",
+      "meaningKo": "알다",
+      "example": "Tôi biết áo dài.",
+      "exampleMeaningKo": "저는 아오자이를 압니다.",
+      "audioSrc": "",
+      "sourcePage": 12,
+      "reviewNeeded": false,
+      "pronKo": "비엣"
+    },
+    {
+      "id": "d5vietnam-v-016",
+      "term": "trang phục truyền thống",
+      "meaningKo": "전통 의상",
+      "example": "Áo dài là trang phục truyền thống của Việt Nam.",
+      "exampleMeaningKo": "아오자이는 베트남의 전통 의상입니다.",
+      "audioSrc": "",
+      "sourcePage": 12,
+      "reviewNeeded": false,
+      "pronKo": "짱 푹 쭈엔 통"
+    },
+    {
+      "id": "d5vietnam-v-017",
+      "term": "khí hậu",
+      "meaningKo": "기후",
+      "example": "Khí hậu ở Việt Nam khá nóng.",
+      "exampleMeaningKo": "베트남의 기후는 꽤 덥습니다.",
+      "audioSrc": "",
+      "sourcePage": 12,
+      "reviewNeeded": false,
+      "pronKo": "키 허우"
+    },
+    {
+      "id": "d5vietnam-v-018",
+      "term": "miền Bắc",
+      "meaningKo": "북부",
+      "example": "Miền Bắc có bốn mùa.",
+      "exampleMeaningKo": "북부는 사계절이 있습니다.",
+      "audioSrc": "",
+      "sourcePage": 12,
+      "reviewNeeded": false,
+      "pronKo": "미엔 박"
+    },
+    {
+      "id": "d5vietnam-v-019",
+      "term": "miền Nam",
+      "meaningKo": "남부",
+      "example": "Miền Nam nóng quanh năm.",
+      "exampleMeaningKo": "남부는 일년 내내 덥습니다.",
+      "audioSrc": "",
+      "sourcePage": 12,
+      "reviewNeeded": false,
+      "pronKo": "미엔 남"
+    },
+    {
+      "id": "d5vietnam-v-020",
+      "term": "khác nhau",
+      "meaningKo": "다르다",
+      "example": "Khí hậu miền Bắc và miền Nam khác nhau.",
+      "exampleMeaningKo": "북부와 남부의 기후는 다릅니다.",
+      "audioSrc": "",
+      "sourcePage": 12,
+      "reviewNeeded": false,
+      "pronKo": "칵 냐우"
+    },
+    {
+      "id": "d5vietnam-v-021",
+      "term": "giá cả",
+      "meaningKo": "가격 / 물가",
+      "example": "Giá cả ở Việt Nam không quá đắt.",
+      "exampleMeaningKo": "베트남의 물가는 너무 비싸지 않습니다.",
+      "audioSrc": "",
+      "sourcePage": 12,
+      "reviewNeeded": false,
+      "pronKo": "자 까"
+    },
+    {
+      "id": "d5vietnam-v-022",
+      "term": "đắt",
+      "meaningKo": "비싸다",
+      "example": "Tôi không thấy giá cả đắt.",
+      "exampleMeaningKo": "저는 물가가 비싸다고 느끼지 않습니다.",
+      "audioSrc": "",
+      "sourcePage": 12,
+      "reviewNeeded": false,
+      "pronKo": "닷"
+    },
+    {
+      "id": "d5vietnam-v-023",
+      "term": "quen với",
+      "meaningKo": "익숙하다",
+      "example": "Tôi quen với cuộc sống ở Việt Nam.",
+      "exampleMeaningKo": "저는 베트남 생활에 익숙합니다.",
+      "audioSrc": "",
+      "sourcePage": 12,
+      "reviewNeeded": false,
+      "pronKo": "꾸엔 버이"
+    },
+    {
+      "id": "d5vietnam-v-024",
+      "term": "cuộc sống",
+      "meaningKo": "생활",
+      "example": "Cuộc sống ở Việt Nam rất thú vị.",
+      "exampleMeaningKo": "베트남 생활은 매우 흥미롭습니다.",
+      "audioSrc": "",
+      "sourcePage": 12,
+      "reviewNeeded": false,
+      "pronKo": "꾸옥 쏭"
+    },
+    {
+      "id": "d5vietnam-v-025",
+      "term": "muốn",
+      "meaningKo": "원하다",
+      "example": "Tôi muốn quay lại Việt Nam.",
+      "exampleMeaningKo": "저는 베트남에 다시 가고 싶습니다.",
+      "audioSrc": "",
+      "sourcePage": 12,
+      "reviewNeeded": false,
+      "pronKo": "무온"
+    },
+    {
+      "id": "d5vietnam-v-026",
+      "term": "quay lại",
+      "meaningKo": "다시 가다 / 돌아가다",
+      "example": "Tôi muốn quay lại Việt Nam.",
+      "exampleMeaningKo": "저는 베트남에 다시 가고 싶습니다.",
+      "audioSrc": "",
+      "sourcePage": 12,
+      "reviewNeeded": false,
+      "pronKo": "꽈이 라이"
+    },
+    {
+      "id": "d5vietnam-v-027",
+      "term": "ấn tượng",
+      "meaningKo": "인상",
+      "example": "Ấn tượng đầu tiên của tôi là đồ ăn rất ngon.",
+      "exampleMeaningKo": "제 첫인상은 음식이 매우 맛있다는 것입니다.",
+      "audioSrc": "",
+      "sourcePage": 12,
+      "reviewNeeded": false,
+      "pronKo": "언 뜨엉"
+    },
+    {
+      "id": "d5vietnam-v-028",
+      "term": "đầu tiên",
+      "meaningKo": "처음",
+      "example": "Ấn tượng đầu tiên của tôi rất tốt.",
+      "exampleMeaningKo": "제 첫인상은 매우 좋았습니다.",
+      "audioSrc": "",
+      "sourcePage": 12,
+      "reviewNeeded": false,
+      "pronKo": "더우 띠엔"
+    },
+    {
+      "id": "d5vietnam-v-029",
+      "term": "nước",
+      "meaningKo": "나라 / 물",
+      "example": "Việt Nam là một nước đẹp.",
+      "exampleMeaningKo": "베트남은 아름다운 나라입니다.",
+      "audioSrc": "",
+      "sourcePage": 12,
+      "reviewNeeded": false,
+      "pronKo": "느억"
+    }
+  ],
+  "sentenceCards": [
+    {
+      "id": "d5vietnam-s-001",
+      "textVi": "Anh đã đến Việt Nam bao giờ chưa?",
+      "textKo": "베트남에 가 본 적 있어요?",
+      "exampleAnswerVi": "Rồi. Tôi đã đến Việt Nam một lần.",
+      "exampleAnswerKo": "네. 저는 베트남에 한 번 가 본 적이 있습니다.",
+      "audioSrc": "",
+      "sourcePage": 13,
+      "reviewNeeded": false
+    },
+    {
+      "id": "d5vietnam-s-002",
+      "textVi": "Anh đã từng ăn đồ ăn Việt Nam chưa?",
+      "textKo": "베트남 음식을 먹어 본 적 있어요?",
+      "exampleAnswerVi": "Rồi. Tôi đã từng ăn phở.",
+      "exampleAnswerKo": "네. 저는 쌀국수를 먹어 본 적이 있습니다.",
+      "audioSrc": "",
+      "sourcePage": 13,
+      "reviewNeeded": false
+    },
+    {
+      "id": "d5vietnam-s-003",
+      "textVi": "Anh đã đến Việt Nam mấy lần rồi?",
+      "textKo": "베트남에 몇 번 가 봤어요?",
+      "exampleAnswerVi": "Tôi đã đến Việt Nam một lần.",
+      "exampleAnswerKo": "저는 베트남에 한 번 가 봤습니다.",
+      "audioSrc": "",
+      "sourcePage": 13,
+      "reviewNeeded": false
+    },
+    {
+      "id": "d5vietnam-s-004",
+      "textVi": "Anh sang Việt Nam để làm gì?",
+      "textKo": "무엇을 하러 베트남에 가요?",
+      "exampleAnswerVi": "Tôi sang Việt Nam để công tác.",
+      "exampleAnswerKo": "저는 출장 때문에 베트남에 갑니다.",
+      "audioSrc": "",
+      "sourcePage": 13,
+      "reviewNeeded": false
+    },
+    {
+      "id": "d5vietnam-s-005",
+      "textVi": "Anh đã đến những thành phố nào ở Việt Nam?",
+      "textKo": "베트남에서 어떤 도시들에 가 봤어요?",
+      "exampleAnswerVi": "Tôi đã đến Hà Nội và Hồ Chí Minh.",
+      "exampleAnswerKo": "저는 하노이와 호찌민에 가 봤습니다.",
+      "audioSrc": "",
+      "sourcePage": 13,
+      "reviewNeeded": false
+    },
+    {
+      "id": "d5vietnam-s-006",
+      "textVi": "Thủ đô của Việt Nam là thành phố nào?",
+      "textKo": "베트남의 수도는 어떤 도시예요?",
+      "exampleAnswerVi": "Thủ đô của Việt Nam là Hà Nội.",
+      "exampleAnswerKo": "베트남의 수도는 하노이입니다.",
+      "audioSrc": "",
+      "sourcePage": 13,
+      "reviewNeeded": false
+    },
+    {
+      "id": "d5vietnam-s-007",
+      "textVi": "Anh thích cái gì nhất ở Việt Nam?",
+      "textKo": "베트남에서 무엇을 가장 좋아해요?",
+      "exampleAnswerVi": "Tôi thích đồ ăn Việt Nam nhất.",
+      "exampleAnswerKo": "저는 베트남 음식을 가장 좋아합니다.",
+      "audioSrc": "",
+      "sourcePage": 13,
+      "reviewNeeded": false
+    },
+    {
+      "id": "d5vietnam-s-008",
+      "textVi": "Anh thấy người Việt Nam thế nào?",
+      "textKo": "베트남 사람들은 어때요?",
+      "exampleAnswerVi": "Tôi thấy người Việt Nam rất thân thiện.",
+      "exampleAnswerKo": "저는 베트남 사람들이 매우 친절하다고 느낍니다.",
+      "audioSrc": "",
+      "sourcePage": 13,
+      "reviewNeeded": false
+    },
+    {
+      "id": "d5vietnam-s-009",
+      "textVi": "Khi ở Việt Nam, anh nói chuyện với người Việt bằng tiếng gì?",
+      "textKo": "베트남에 있을 때 베트남 사람들과 어떤 언어로 대화해요?",
+      "exampleAnswerVi": "Tôi nói chuyện bằng tiếng Anh và một chút tiếng Việt.",
+      "exampleAnswerKo": "저는 영어와 조금의 베트남어로 대화합니다.",
+      "audioSrc": "",
+      "sourcePage": 13,
+      "reviewNeeded": false
+    },
+    {
+      "id": "d5vietnam-s-010",
+      "textVi": "Ở Việt Nam, anh di chuyển bằng phương tiện gì?",
+      "textKo": "베트남에서는 어떤 교통수단으로 이동해요?",
+      "exampleAnswerVi": "Ở Việt Nam, tôi di chuyển bằng taxi.",
+      "exampleAnswerKo": "베트남에서 저는 택시로 이동합니다.",
+      "audioSrc": "",
+      "sourcePage": 13,
+      "reviewNeeded": false
+    },
+    {
+      "id": "d5vietnam-s-011",
+      "textVi": "Anh có biết trang phục truyền thống của Việt Nam là gì không?",
+      "textKo": "베트남의 전통 의상이 무엇인지 알아요?",
+      "exampleAnswerVi": "Có. Trang phục truyền thống của Việt Nam là áo dài.",
+      "exampleAnswerKo": "네. 베트남의 전통 의상은 아오자이입니다.",
+      "audioSrc": "",
+      "sourcePage": 13,
+      "reviewNeeded": false
+    },
+    {
+      "id": "d5vietnam-s-012",
+      "textVi": "Anh có thích khí hậu ở Việt Nam không?",
+      "textKo": "베트남의 기후를 좋아해요?",
+      "exampleAnswerVi": "Có. Tôi thích khí hậu ở Việt Nam, nhưng hơi nóng.",
+      "exampleAnswerKo": "네. 저는 베트남 기후를 좋아하지만 조금 덥습니다.",
+      "audioSrc": "",
+      "sourcePage": 13,
+      "reviewNeeded": false
+    },
+    {
+      "id": "d5vietnam-s-013",
+      "textVi": "Anh có biết khí hậu ở miền Bắc và miền Nam của Việt Nam khác nhau không?",
+      "textKo": "베트남 북부와 남부의 기후가 다른 것을 알아요?",
+      "exampleAnswerVi": "Có. Miền Bắc và miền Nam có khí hậu khác nhau.",
+      "exampleAnswerKo": "네. 북부와 남부는 기후가 다릅니다.",
+      "audioSrc": "",
+      "sourcePage": 13,
+      "reviewNeeded": false
+    },
+    {
+      "id": "d5vietnam-s-014",
+      "textVi": "Anh có thấy giá cả ở Việt Nam đắt không?",
+      "textKo": "베트남 물가가 비싸다고 느껴요?",
+      "exampleAnswerVi": "Không. Tôi thấy giá cả ở Việt Nam không quá đắt.",
+      "exampleAnswerKo": "아니요. 저는 베트남 물가가 너무 비싸지 않다고 느낍니다.",
+      "audioSrc": "",
+      "sourcePage": 13,
+      "reviewNeeded": false
+    },
+    {
+      "id": "d5vietnam-s-015",
+      "textVi": "Anh có quen với cuộc sống ở Việt Nam không?",
+      "textKo": "베트남 생활에 익숙해요?",
+      "exampleAnswerVi": "Chưa lắm. Nhưng tôi muốn quen với cuộc sống ở Việt Nam.",
+      "exampleAnswerKo": "아직 많이는 아닙니다. 하지만 저는 베트남 생활에 익숙해지고 싶습니다.",
+      "audioSrc": "",
+      "sourcePage": 13,
+      "reviewNeeded": false
+    },
+    {
+      "id": "d5vietnam-s-016",
+      "textVi": "Anh có muốn quay lại Việt Nam không?",
+      "textKo": "베트남에 다시 가고 싶어요?",
+      "exampleAnswerVi": "Có. Tôi rất muốn quay lại Việt Nam.",
+      "exampleAnswerKo": "네. 저는 베트남에 다시 가고 싶습니다.",
+      "audioSrc": "",
+      "sourcePage": 13,
+      "reviewNeeded": false
+    },
+    {
+      "id": "d5vietnam-s-017",
+      "textVi": "Ấn tượng đầu tiên của anh về Việt Nam là gì?",
+      "textKo": "베트남에 대한 첫인상은 무엇이에요?",
+      "exampleAnswerVi": "Ấn tượng đầu tiên của tôi là đồ ăn rất ngon và người dân thân thiện.",
+      "exampleAnswerKo": "제 첫인상은 음식이 매우 맛있고 사람들이 친절하다는 것입니다.",
+      "audioSrc": "",
+      "sourcePage": 13,
+      "reviewNeeded": false
+    },
+    {
+      "id": "d5vietnam-s-018",
+      "textVi": "Anh có biết dân số của Việt Nam là bao nhiêu?",
+      "textKo": "베트남 인구가 얼마인지 알아요?",
+      "exampleAnswerVi": "Tôi biết dân số của Việt Nam khoảng 100 triệu người.",
+      "exampleAnswerKo": "저는 베트남 인구가 약 1억 명 정도라고 알고 있습니다.",
+      "audioSrc": "",
+      "sourcePage": 13,
+      "reviewNeeded": false
+    },
+    {
+      "id": "d5vietnam-s-019",
+      "textVi": "Việt Nam giáp với những nước nào?",
+      "textKo": "베트남은 어떤 나라들과 접해 있어요?",
+      "exampleAnswerVi": "Việt Nam giáp với Trung Quốc, Lào và Campuchia.",
+      "exampleAnswerKo": "베트남은 중국, 라오스, 캄보디아와 접해 있습니다.",
+      "audioSrc": "",
+      "sourcePage": 13,
+      "reviewNeeded": false
+    }
+  ],
+  "grammarPoints": [
+    {
+      "id": "d5vietnam-g-001",
+      "title": "가 본 적 있다",
+      "pattern": "đã từng / đã đến → Tôi đã từng ăn đồ ăn Việt Nam.",
+      "sourcePage": 13,
+      "reviewNeeded": false
+    },
+    {
+      "id": "d5vietnam-g-002",
+      "title": "~하러 가다",
+      "pattern": "sang + 장소 + để + 동사 → Tôi sang Việt Nam để công tác.",
+      "sourcePage": 13,
+      "reviewNeeded": false
+    },
+    {
+      "id": "d5vietnam-g-003",
+      "title": "~로 이동하다",
+      "pattern": "di chuyển bằng + 교통수단 → Tôi di chuyển bằng taxi.",
+      "sourcePage": 13,
+      "reviewNeeded": false
+    },
+    {
+      "id": "d5vietnam-g-004",
+      "title": "~에 익숙하다",
+      "pattern": "quen với + 명사 → Tôi quen với cuộc sống ở Việt Nam.",
+      "sourcePage": 13,
+      "reviewNeeded": false
+    }
+  ],
+  "quizSeeds": [
+    {
+      "id": "d5vietnam-q-001",
+      "type": "match-term",
+      "prompt": "5일차 베트남 단어 매칭",
+      "answerSet": [
+        "đến-가다",
+        "sang-가다",
+        "thủ đô-수도",
+        "đồ ăn-음식",
+        "nói chuyện-대화하다",
+        "di chuyển-이동하다",
+        "trang phục truyền thống-전통 의상",
+        "khí hậu-기후",
+        "miền Bắc-북부",
+        "miền Nam-남부",
+        "giá cả-가격",
+        "quay lại-다시 가다"
+      ],
+      "sourcePage": 13,
+      "reviewNeeded": false
+    }
+  ],
+  "unlockCondition": "complete-previous",
+  "reviewNeeded": false
+},
+    {
   "lessonId": "d4note",
   "unitLabel": "4일차",
   "titleKo": "4일차: 학습노트",
