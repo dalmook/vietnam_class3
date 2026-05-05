@@ -327,7 +327,7 @@ class VietnameseA1App {
         selfChecks: {},
         totalSpeechSec: 0
       },
-      settings: { speechRate: 0.95, autoShowMeaning: true, autoPlay: false, sentenceRepeatCount: 1 }
+      settings: { speechRate: 0.95, autoShowMeaning: true, autoPlay: false, sentenceRepeatCount: 1, keepScreenAwake: false }
     };
     this.settings = { ...this.state.settings, ...this.loadLocal('settings', {}) };
     this.healTried = false;
@@ -336,6 +336,7 @@ class VietnameseA1App {
     this.sfxCtx = null;
     this.sentenceAutoplay = { running: false, token: 0 };
     this.vocabAutoplay = { running: false, token: 0 };
+    this.wakeLock = null;
     this.swReloading = false;
     this.pendingSWRegistration = null;
     this.isStandalone = window.matchMedia('(display-mode: standalone)').matches || window.navigator.standalone === true;
@@ -360,6 +361,7 @@ class VietnameseA1App {
       this.state.lessonId = this.state.flat.lessons?.[0]?.lessonId || null;
       this.state.quizLessonFilter = this.state.flat.lessons?.[0]?.lessonId || 'all';
       this.restoreLastSession();
+      this.syncWakeLock();
       this.render();
     } catch (e) {
       const healed = await this.tryRecoverFromCacheIssue();
@@ -437,6 +439,9 @@ class VietnameseA1App {
       if (this.state.tab !== 'study') return;
       if (e.key === 'ArrowRight') this.shiftCard(1);
       if (e.key === 'ArrowLeft') this.shiftCard(-1);
+    });
+    document.addEventListener('visibilitychange', () => {
+      if (document.visibilityState === 'visible') this.syncWakeLock();
     });
   }
 
@@ -635,8 +640,32 @@ class VietnameseA1App {
     if (action === 'autoShowMeaning') this.settings.autoShowMeaning = el.checked;
     if (action === 'autoPlay') this.settings.autoPlay = el.checked;
     if (action === 'sentenceRepeatCount') this.settings.sentenceRepeatCount = Math.max(1, Math.min(10, Number(el.value) || 1));
+    if (action === 'keepScreenAwake') this.settings.keepScreenAwake = el.checked;
     this.saveLocal('settings', this.settings);
+    this.syncWakeLock();
     this.render();
+  }
+
+
+
+  async syncWakeLock() {
+    const supported = typeof navigator !== 'undefined' && 'wakeLock' in navigator;
+    if (!supported || !this.settings.keepScreenAwake) {
+      if (this.wakeLock) {
+        try { await this.wakeLock.release(); } catch (_) {}
+        this.wakeLock = null;
+      }
+      return;
+    }
+    if (document.visibilityState !== 'visible') return;
+    if (this.wakeLock && !this.wakeLock.released) return;
+    try {
+      this.wakeLock = await navigator.wakeLock.request('screen');
+      this.wakeLock.addEventListener('release', () => { this.wakeLock = null; });
+    } catch (_) {
+      this.settings.keepScreenAwake = false;
+      this.saveLocal('settings', this.settings);
+    }
   }
 
   renderHome() {
@@ -1122,7 +1151,8 @@ class VietnameseA1App {
         <p class="small">단어/문장 카드 모두 적용됩니다. 예: 2 → 카드당 2번 재생 후 다음 카드 이동</p>
       </div>
       <label><input type="checkbox" ${this.settings.autoShowMeaning ? 'checked' : ''} data-change="autoShowMeaning" /> 자동 뜻 보이기</label><br>
-      <label><input type="checkbox" ${this.settings.autoPlay ? 'checked' : ''} data-change="autoPlay" /> 카드 넘김 자동 재생</label>
+      <label><input type="checkbox" ${this.settings.autoPlay ? 'checked' : ''} data-change="autoPlay" /> 카드 넘김 자동 재생</label><br>
+      <label><input type="checkbox" ${this.settings.keepScreenAwake ? 'checked' : ''} data-change="keepScreenAwake" /> 화면 항상 켜짐</label>
       <p class="small">앱 캐시 초기화: Service Worker/Cache Storage를 삭제하고 새로고침합니다.</p>
       <p class="small">학습 기록 초기화: localStorage의 진도/북마크/오답 기록을 삭제합니다.</p>
       <div class="controls settings-actions"><button data-action="audioTest">🔊 음성 테스트</button><button class="warn cache-reset-btn" data-action="recoverCache">앱 캐시 초기화</button><button class="bad progress-reset-btn" data-action="resetLocal">학습 기록 초기화</button></div></div>
