@@ -590,17 +590,15 @@ class VietnameseA1App {
     if (type === 'bookmark') return this.toggleBookmark(payload);
     if (type === 'toggleMeaning') return el.closest('.card').querySelector('.ko')?.classList.toggle('hidden');
     if (type === 'toggleCardReveal') {
-      if (this.state.tab === 'cards' && this.state.cardViewMode === 'both') return;
-      this.state.revealMeaning = !this.state.revealMeaning;
+      const isCardTab = this.state.tab === 'cards';
+      const isBothMode = this.state.cardViewMode === 'both';
+      if (!isBothMode) this.state.revealMeaning = !this.state.revealMeaning;
       this.render();
-      if (this.state.tab === 'cards') {
+      if (isCardTab) {
         const lesson = this.currentLesson();
         const cards = lesson?.vocabCards || [];
         const card = cards[this.clampIndex(this.state.cardIndex, cards.length)];
         if (!card) return;
-        if (this.state.revealMeaning) {
-          return this.playAudio('', card.meaningKo || '', { lang: 'ko-KR', allowAudio: false });
-        }
         return this.playAudio(card.audioSrc || '', card.term || '', { lang: 'vi-VN', allowAudio: true });
       }
       return;
