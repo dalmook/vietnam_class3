@@ -568,3 +568,29 @@ button:disabled { opacity: .5; cursor: not-allowed; }
   font-size: 1.1rem;
   font-weight: 700;
 }
+.flashcard-bottom-nav {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 8px;
+  margin-top: 12px;
+  padding-top: 10px;
+  border-top: 1px dashed #e6e9f3;
+}
+
+.flashcard-bottom-nav button {
+  min-height: 48px;
+  border-radius: 16px;
+  font-size: 1.15rem;
+  font-weight: 900;
+  background: #eef1ff;
+  border: 1px solid #dbe3ff;
+}
+
+.flashcard-bottom-nav button:nth-child(2) {
+  background: #eefdf8;
+  border-color: #cceee2;
+}
+
+.flashcard-bottom-nav button:disabled {
+  opacity: 0.35;
+}
