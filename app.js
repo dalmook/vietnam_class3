@@ -587,10 +587,11 @@ class VietnameseA1App {
     if (type === 'quizMode') { this.state.quizMode = payload; this.setupQuizQueue(); return this.render(); }
     if (type === 'shift') return this.shiftCard(Number(payload));
     if (type === 'firstCard') {
-  this.stopStudyAutoplay();
-  this.state.cardIndex = 0;
-  return this.render();
-}
+      this.stopStudyAutoplay();
+      this.state.cardIndex = 0;
+      this.state.revealMeaning = this.state.cardViewMode === 'both';
+      return this.render();
+    }
     if (type === 'mark') return this.markItem(payload, el.dataset.value);
     if (type === 'bookmark') return this.toggleBookmark(payload);
     if (type === 'toggleMeaning') return el.closest('.card').querySelector('.ko')?.classList.toggle('hidden');
@@ -901,10 +902,10 @@ class VietnameseA1App {
       <p class="small tap-hint">${mode === 'both' ? '좌우 스와이프로 이전/다음' : '카드를 터치하면 뒤집혀요 · 좌우 스와이프로 이전/다음'}
 
 <div class="flashcard-bottom-nav">
-  <button data-action="shift:-1" ${idx <= 0 ? 'disabled' : ''} aria-label="이전 카드">←</button>
-  <button data-action="firstCard" ${idx <= 0 ? 'disabled' : ''} aria-label="처음 카드">🏠</button>
-  <button data-action="shift:1" ${idx >= cards.length - 1 ? 'disabled' : ''} aria-label="다음 카드">→</button>
-</div></p>
+  <button data-action="shift:-1" aria-label="이전 카드">←</button>
+  <button data-action="firstCard" aria-label="처음 카드">🏠</button>
+  <button data-action="shift:1" aria-label="다음 카드">→</button>
+</div>
     </article>`;
   }
 
