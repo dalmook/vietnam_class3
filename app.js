@@ -1659,7 +1659,9 @@ class VietnameseA1App {
     }
     const lesson = this.currentLesson();
     const cards = lesson?.vocabCards || [];
-    if (!cards.length || this.state.studyMode !== 'vocab') return;
+    const isCardTab = this.state.tab === 'cards';
+    const isStudyVocab = this.state.tab === 'study' && this.state.studyMode === 'vocab';
+    if (!cards.length || (!isCardTab && !isStudyVocab)) return;
     this.vocabAutoplay.running = true;
     this.vocabAutoplay.token += 1;
     const runToken = this.vocabAutoplay.token;
@@ -1681,7 +1683,11 @@ class VietnameseA1App {
       }
       if (!this.vocabAutoplay.running || runToken !== this.vocabAutoplay.token) break;
       this.state.cardIndex = (idx + 1) % nowCards.length;
-      this.state.revealMeaning = this.settings.autoShowMeaning;
+      if (this.state.tab === 'cards') {
+        this.state.revealMeaning = this.state.cardViewMode === 'both';
+      } else {
+        this.state.revealMeaning = this.settings.autoShowMeaning;
+      }
       this.render();
     }
     this.render();
