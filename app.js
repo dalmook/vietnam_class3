@@ -562,6 +562,7 @@ class VietnameseA1App {
 
   render() {
     document.querySelectorAll('.tab-btn').forEach((b) => b.classList.toggle('active', b.dataset.tab === this.state.tab));
+    document.body.classList.toggle('cards-tab-active', this.state.tab === 'cards');
     if (!this.state.data) return;
     this.persistLastSession();
     const view = {
@@ -588,7 +589,11 @@ class VietnameseA1App {
     if (type === 'mark') return this.markItem(payload, el.dataset.value);
     if (type === 'bookmark') return this.toggleBookmark(payload);
     if (type === 'toggleMeaning') return el.closest('.card').querySelector('.ko')?.classList.toggle('hidden');
-    if (type === 'toggleCardReveal') { this.state.revealMeaning = !this.state.revealMeaning; return this.render(); }
+    if (type === 'toggleCardReveal') {
+      if (this.state.tab === 'cards' && this.state.cardViewMode === 'both') return;
+      this.state.revealMeaning = !this.state.revealMeaning;
+      return this.render();
+    }
     if (type === 'toggleKo') return this.appEl.querySelectorAll('.ko-line').forEach((x) => x.classList.toggle('hidden'));
     if (type === 'search') return this.runSearch();
     if (type === 'toolsMode') { this.state.toolsMode = payload; return this.render(); }
@@ -843,29 +848,36 @@ class VietnameseA1App {
     const idx = this.clampIndex(this.state.cardIndex, cards.length);
     this.state.cardIndex = idx;
     const c = cards[idx];
-    const show = this.state.cardViewMode === 'both' ? true : this.state.revealMeaning;
+    const mode = this.state.cardViewMode || 'word_first';
+    const show = mode === 'both' ? true : this.state.revealMeaning;
     const isMeaningFirst = this.state.cardViewMode === 'meaning_first';
-    const frontMain = isMeaningFirst ? (c.meaningKo || c.term) : c.term;
-    const backMain = isMeaningFirst ? c.term : (c.meaningKo || c.term);
+    const term = c.term || '';
+    const meaning = c.meaningKo || '';
+    const example = c.example || '';
+    const exampleKo = c.exampleMeaningKo || '';
+    const frontMain = isMeaningFirst ? meaning : term;
+    const backMain = isMeaningFirst ? term : meaning;
     return `<article class="card fade flashcard-shell">
       <div class="flashcard-head">
         <span class="badge">${idx + 1} / ${cards.length}</span>
         <button data-action="cardAutoPlay" class="primary flashcard-play-btn">${this.vocabAutoplay.running ? '⏸️' : '▶'} 재생</button>
       </div>
       <div class="flashcard-body study-card-body" data-action="toggleCardReveal">
-        <div class="flashcard-inner ${show ? 'is-flipped' : ''}">
+        <div class="flashcard-inner ${(mode !== 'both' && show) ? 'is-flipped' : ''}">
           <section class="flashcard-face flashcard-front">
             <div class="flashcard-label">${isMeaningFirst ? '뜻' : '단어'}</div>
             <h2 class="flashcard-main">${this.escapeHtml(frontMain)}</h2>
+            ${mode === 'both' ? `<p class="flashcard-sub">${this.escapeHtml(isMeaningFirst ? term : meaning)}</p>` : ''}
+            ${mode === 'both' && example ? `<p class="small flashcard-example">${this.escapeHtml(example)}<br>${this.escapeHtml(exampleKo)}</p>` : ''}
           </section>
           <section class="flashcard-face flashcard-back">
             <div class="flashcard-label">${isMeaningFirst ? '단어' : '뜻'}</div>
             <h2 class="flashcard-main">${this.escapeHtml(backMain)}</h2>
-            ${c.example ? `<p class="small flashcard-example">${this.escapeHtml(c.example)}<br>${this.escapeHtml(c.exampleMeaningKo || '')}</p>` : ''}
+            ${example ? `<p class="small flashcard-example">${this.escapeHtml(example)}<br>${this.escapeHtml(exampleKo)}</p>` : ''}
           </section>
         </div>
       </div>
-      <p class="small tap-hint">카드를 터치하면 뒤집혀요 · 좌우 스와이프로 이전/다음</p>
+      <p class="small tap-hint">${mode === 'both' ? '좌우 스와이프로 이전/다음' : '카드를 터치하면 뒤집혀요 · 좌우 스와이프로 이전/다음'}</p>
     </article>`;
   }
 
