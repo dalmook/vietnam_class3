@@ -271,6 +271,7 @@ class VietnameseA1App {
       studyMode: 'vocab',
       quizMode: 'meaning',
       mockMode: 'practice',
+      cardViewMode: 'word_first',
       lessonId: null,
       quizLessonFilter: null,
       cardIndex: 0,
@@ -523,7 +524,7 @@ class VietnameseA1App {
     if (!snapshot || typeof snapshot !== 'object') return;
 
     const lessonExists = (lessonId) => this.state.flat.lessons.some((l) => l.lessonId === lessonId);
-    const validTabs = new Set(['home', 'study', 'quiz', 'mock', 'tools', 'tts', 'settings']);
+    const validTabs = new Set(['home', 'study', 'quiz', 'cards', 'tools', 'tts', 'settings']);
     const validStudyModes = new Set(['vocab', 'sentence', 'dialogue', 'pronunciation']);
 
     if (lessonExists(snapshot.lessonId)) this.state.lessonId = snapshot.lessonId;
@@ -567,7 +568,7 @@ class VietnameseA1App {
       home: () => this.renderHome(),
       study: () => this.renderStudy(),
       quiz: () => this.renderQuiz(),
-      mock: () => this.renderMock(),
+      cards: () => this.renderCards(),
       tools: () => this.renderTools(),
       tts: () => this.renderTts(),
       settings: () => this.renderSettings()
@@ -580,6 +581,7 @@ class VietnameseA1App {
   handleAction(action, el) {
     const [type, payload] = action.split(':');
     if (type === 'openLesson') { this.stopStudyAutoplay(); this.state.lessonId = payload; this.resetStudyIndexes(); this.state.tab = 'study'; return this.render(); }
+    if (type === 'setTab') { this.state.tab = payload; return this.render(); }
     if (type === 'studyMode') { this.stopStudyAutoplay(); this.state.studyMode = payload; return this.render(); }
     if (type === 'quizMode') { this.state.quizMode = payload; this.setupQuizQueue(); return this.render(); }
     if (type === 'shift') return this.shiftCard(Number(payload));
@@ -599,6 +601,8 @@ class VietnameseA1App {
     if (type === 'repeatSpeak') return this.repeatSpeak({ text: el.dataset.text, audioSrc: el.dataset.audio || '' }, 3);
     if (type === 'toggleSentenceAutoplay') return this.toggleSentenceAutoplay();
     if (type === 'toggleVocabAutoplay') return this.toggleVocabAutoplay();
+    if (type === 'cardPlayMode') { this.state.cardViewMode = payload; this.state.revealMeaning = payload === 'both'; return this.render(); }
+    if (type === 'cardAutoPlay') return this.toggleVocabAutoplay();
     if (type === 'startQuiz') {
       this.setupQuizQueue();
       this.state.quiz.phase = 'playing';
@@ -646,6 +650,7 @@ class VietnameseA1App {
     if (action === 'autoShowMeaning') this.settings.autoShowMeaning = el.checked;
     if (action === 'autoPlay') this.settings.autoPlay = el.checked;
     if (action === 'sentenceRepeatCount') this.settings.sentenceRepeatCount = Math.max(1, Math.min(10, Number(el.value) || 1));
+    if (action === 'cardRepeatCount') this.settings.sentenceRepeatCount = Math.max(1, Math.min(10, Number(el.value) || 1));
     if (action === 'keepScreenAwake') this.settings.keepScreenAwake = el.checked;
     this.saveLocal('settings', this.settings);
     this.syncWakeLock();
@@ -703,7 +708,7 @@ class VietnameseA1App {
         <div class="card stat"><small>연속 정답</small><strong>${this.loadLocal('best_streak', 0)} 🔥</strong></div>
       </div>
       ${lessonCards}
-      <div class="card"><h3>OPIc IM1 모의고사</h3><p class="small">묘사→루틴→경험→롤플레이 흐름으로 실전 연습</p><button class="primary" data-action="openMock">모의고사 시작</button></div>
+      <div class="card"><h3>카드 학습</h3><p class="small">탭해서 뜻/예문 뒤집고, 자동재생·반복횟수를 바로 조절하세요.</p><button class="primary" data-action="setTab:cards">카드 탭으로 이동</button></div>
     </section>`;
   }
 
@@ -807,14 +812,73 @@ class VietnameseA1App {
     </section>`;
   }
 
-  renderVocab(lesson) {
+  renderCards() {
+    const lesson = this.currentLesson();
+    if (!lesson) return this.renderError('레슨을 찾을 수 없습니다.');
+    const modes = [
+      ['word_first', '단어 먼저'],
+      ['meaning_first', '뜻 먼저'],
+      ['both', '단어+뜻 함께']
+    ];
+    const modeButtons = modes.map(([k, label]) => `<button data-action="cardPlayMode:${k}" class="${this.state.cardViewMode === k ? 'primary' : ''}">${label}</button>`).join('');
+    this.appEl.innerHTML = `<section class="fade">
+      <div class="card study-toolbar">
+        <div class="lesson-compact-select">
+          <label class="small">레슨</label>
+          <select data-change="lesson">${this.state.flat.lessons.map((l) => `<option value="${l.lessonId}" ${l.lessonId === this.state.lessonId ? 'selected' : ''}>${l.unitLabel} · ${l.titleKo}</option>`).join('')}</select>
+        </div>
+        <div class="controls">${modeButtons}</div>
+        <div class="setting-input-row" style="margin-top:8px">
+          <label for="card-repeat-count">반복 횟수</label>
+          <input id="card-repeat-count" class="setting-number-input" type="number" min="1" max="10" step="1" value="${this.settings.sentenceRepeatCount || 1}" data-change="cardRepeatCount" />
+        </div>
+      </div>
+      ${this.renderCardDeck(lesson)}
+    </section>`;
+  }
+
+  renderCardDeck(lesson) {
+    const cards = lesson.vocabCards || [];
+    if (!cards.length) return '<div class="card">단어가 없습니다.</div>';
+    const idx = this.clampIndex(this.state.cardIndex, cards.length);
+    this.state.cardIndex = idx;
+    const c = cards[idx];
+    const show = this.state.cardViewMode === 'both' ? true : this.state.revealMeaning;
+    const isMeaningFirst = this.state.cardViewMode === 'meaning_first';
+    const frontMain = isMeaningFirst ? (c.meaningKo || c.term) : c.term;
+    const backMain = isMeaningFirst ? c.term : (c.meaningKo || c.term);
+    return `<article class="card fade flashcard-shell">
+      <div class="flashcard-head">
+        <span class="badge">${idx + 1} / ${cards.length}</span>
+        <button data-action="cardAutoPlay" class="primary flashcard-play-btn">${this.vocabAutoplay.running ? '⏸️' : '▶'} 재생</button>
+      </div>
+      <div class="flashcard-body study-card-body" data-action="toggleCardReveal">
+        <div class="flashcard-inner ${show ? 'is-flipped' : ''}">
+          <section class="flashcard-face flashcard-front">
+            <div class="flashcard-label">${isMeaningFirst ? '뜻' : '단어'}</div>
+            <h2 class="flashcard-main">${this.escapeHtml(frontMain)}</h2>
+          </section>
+          <section class="flashcard-face flashcard-back">
+            <div class="flashcard-label">${isMeaningFirst ? '단어' : '뜻'}</div>
+            <h2 class="flashcard-main">${this.escapeHtml(backMain)}</h2>
+            ${c.example ? `<p class="small flashcard-example">${this.escapeHtml(c.example)}<br>${this.escapeHtml(c.exampleMeaningKo || '')}</p>` : ''}
+          </section>
+        </div>
+      </div>
+      <p class="small tap-hint">카드를 터치하면 뒤집혀요 · 좌우 스와이프로 이전/다음</p>
+    </article>`;
+  }
+
+  renderVocab(lesson, options = {}) {
     const cards = lesson.vocabCards || [];
     if (!cards.length) return '<div class="card">단어가 없습니다.</div>';
     const idx = this.clampIndex(this.state.cardIndex, cards.length);
     this.state.cardIndex = idx;
     const c = cards[idx];
     const stat = this.progress[c.id] || {};
-    const show = this.state.revealMeaning;
+    const isCardTab = !!options.forCardTab;
+    const viewMode = this.state.cardViewMode || 'word_first';
+    const show = isCardTab ? (viewMode === 'both' ? true : this.state.revealMeaning) : this.state.revealMeaning;
     const recallFocus = stat.known && show;
     const pronGuide = this.renderPronGuide(c, c.term);
     const exampleSpeakBtn = show && c.example
@@ -831,7 +895,7 @@ class VietnameseA1App {
         </div>
       </div>
       <div class="card-tap-zone study-card-body" data-action="toggleCardReveal">
-        <div class="vi-big">${recallFocus ? (c.meaningKo || c.term) : c.term}</div>
+        <div class="vi-big">${isCardTab && viewMode === 'meaning_first' ? (show ? c.term : (c.meaningKo || c.term)) : (recallFocus ? (c.meaningKo || c.term) : c.term)}</div>
         ${recallFocus ? '' : `<div class="pron-tip ${show ? '' : 'hidden'}">뜻: ${c.meaningKo}</div>`}
         ${recallFocus ? '' : `<div class="${show ? '' : 'hidden'}">${pronGuide}</div>`}
         ${recallFocus ? '' : (show && c.example ? `<div class="example-fold" onclick="event.stopPropagation()">
