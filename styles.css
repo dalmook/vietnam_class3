@@ -106,6 +106,35 @@ article .controls button { flex: 1 1 120px; }
 .tap-hint { margin: 4px 0 0; color: #7b86a7; }
 .study-card { padding: 14px; }
 .study-card-body { padding-top: 2px; }
+.flashcard-shell { padding: 12px; }
+.card-mode-controls { margin-top: 10px; gap: 10px; align-items: center; flex-wrap: nowrap; }
+.card-mode-controls .primary { flex: 1 1 0; min-width: 0; white-space: nowrap; }
+.card-speaker-btn { flex: 0 0 44px; width:44px; height:44px; }
+.flashcard-head { display:flex; align-items:center; justify-content:space-between; margin-bottom:10px; }
+.flashcard-play-btn { min-width: 108px; border-radius: 18px; }
+.flashcard-body { perspective: 1100px; flex: 1 1 auto; min-height: 0; }
+.flashcard-inner { position: relative; width: 100%; height: 100%; transform-style: preserve-3d; transition: transform .45s ease; }
+.flashcard-inner.is-flipped { transform: rotateY(180deg); }
+.flashcard-face {
+  position:absolute; inset:0; border-radius:24px; border:1px solid #e4e8f5; background:#fff;
+  display:flex; flex-direction:column; align-items:center; justify-content:center; padding:22px; backface-visibility:hidden;
+}
+.flashcard-back { transform: rotateY(180deg); background: #f9fbff; }
+.flashcard-label { font-size:.9rem; color:#7380a0; margin-bottom:10px; }
+.flashcard-main { font-size:3rem; margin:0; text-align:center; }
+.flashcard-sub { margin: 12px 0 0; font-size: 1.15rem; color:#4f5d82; text-align:center; }
+.flashcard-example { margin-top:18px; text-align:center; }
+
+body.cards-tab-active { overflow: hidden; }
+body.cards-tab-active .app-shell { height: 100dvh; overflow: hidden; padding-bottom: 78px; }
+body.cards-tab-active #app { height: calc(100dvh - 132px); overflow: hidden; }
+body.cards-tab-active #app > section { height: 100%; display:flex; flex-direction:column; }
+body.cards-tab-active .study-toolbar { flex: 0 0 auto; margin-bottom: 12px; }
+body.cards-tab-active .flashcard-shell { flex: 1 1 auto; margin-bottom: 0; display:flex; flex-direction:column; }
+body.cards-tab-active .setting-input-row { flex-wrap: nowrap; gap: 8px; }
+body.cards-tab-active .setting-input-row label { flex: 0 0 auto; white-space: nowrap; }
+body.cards-tab-active .setting-input-row .setting-number-input { width: 84px; min-width: 84px; padding: 8px 10px; }
+.card-mini-play-btn { flex: 0 0 auto; white-space: nowrap; min-height: 40px; padding: 8px 12px; border-radius: 12px; }
 .compact-card-meta { gap: 6px; }
 .example-fold {
   margin-top: 8px;
