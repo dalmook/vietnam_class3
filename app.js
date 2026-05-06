@@ -612,10 +612,8 @@ class VietnameseA1App {
       const cards = lesson?.vocabCards || [];
       const card = cards[this.clampIndex(this.state.cardIndex, cards.length)];
       if (!card) return;
-      const mode = this.state.cardViewMode || 'word_first';
-      const text = mode === 'meaning_first' ? (card.meaningKo || card.term || '') : (card.term || card.meaningKo || '');
-      const lang = mode === 'meaning_first' ? 'ko-KR' : 'vi-VN';
-      return this.playAudio(mode === 'meaning_first' ? '' : (card.audioSrc || ''), text, { lang, allowAudio: mode !== 'meaning_first' });
+      const text = card.term || '';
+      return this.playAudio(card.audioSrc || '', text, { lang: 'vi-VN', allowAudio: true });
     }
     if (type === 'cardAutoPlay') return this.toggleVocabAutoplay();
     if (type === 'startQuiz') {
@@ -842,10 +840,11 @@ class VietnameseA1App {
           <label class="small">레슨</label>
           <select data-change="lesson">${this.state.flat.lessons.map((l) => `<option value="${l.lessonId}" ${l.lessonId === this.state.lessonId ? 'selected' : ''}>${l.unitLabel} · ${l.titleKo}</option>`).join('')}</select>
         </div>
-        <div class="controls card-mode-controls">${modeButtons}<button class="icon-btn card-speaker-btn" data-action="cardSpeakFront" aria-label="앞면 음성 재생">🔊</button></div>
+        <div class="controls card-mode-controls">${modeButtons}</div>
         <div class="setting-input-row" style="margin-top:8px">
           <label for="card-repeat-count">반복 횟수</label>
           <input id="card-repeat-count" class="setting-number-input" type="number" min="1" max="10" step="1" value="${this.settings.sentenceRepeatCount || 1}" data-change="cardRepeatCount" />
+          <button data-action="cardAutoPlay" class="primary card-mini-play-btn">${this.vocabAutoplay.running ? '⏸️' : '▶'} 재생</button>
         </div>
       </div>
       ${this.renderCardDeck(lesson)}
@@ -870,7 +869,7 @@ class VietnameseA1App {
     return `<article class="card fade flashcard-shell">
       <div class="flashcard-head">
         <span class="badge">${idx + 1} / ${cards.length}</span>
-        <button data-action="cardAutoPlay" class="primary flashcard-play-btn">${this.vocabAutoplay.running ? '⏸️' : '▶'} 재생</button>
+        <button class="icon-btn card-speaker-btn" data-action="cardSpeakFront" aria-label="베트남어 단어 재생">🔊</button>
       </div>
       <div class="flashcard-body study-card-body" data-action="toggleCardReveal">
         <div class="flashcard-inner ${(mode !== 'both' && show) ? 'is-flipped' : ''}">

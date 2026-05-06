@@ -107,8 +107,8 @@ article .controls button { flex: 1 1 120px; }
 .study-card { padding: 14px; }
 .study-card-body { padding-top: 2px; }
 .flashcard-shell { padding: 12px; }
-.card-mode-controls { margin-top: 10px; gap: 12px; align-items: center; }
-.card-mode-controls .primary { flex: 1 1 110px; }
+.card-mode-controls { margin-top: 10px; gap: 10px; align-items: center; flex-wrap: nowrap; }
+.card-mode-controls .primary { flex: 1 1 0; min-width: 0; white-space: nowrap; }
 .card-speaker-btn { flex: 0 0 44px; width:44px; height:44px; }
 .flashcard-head { display:flex; align-items:center; justify-content:space-between; margin-bottom:10px; }
 .flashcard-play-btn { min-width: 108px; border-radius: 18px; }
@@ -131,6 +131,10 @@ body.cards-tab-active #app { height: calc(100dvh - 132px); overflow: hidden; }
 body.cards-tab-active #app > section { height: 100%; display:flex; flex-direction:column; }
 body.cards-tab-active .study-toolbar { flex: 0 0 auto; margin-bottom: 12px; }
 body.cards-tab-active .flashcard-shell { flex: 1 1 auto; margin-bottom: 0; display:flex; flex-direction:column; }
+body.cards-tab-active .setting-input-row { flex-wrap: nowrap; gap: 8px; }
+body.cards-tab-active .setting-input-row label { flex: 0 0 auto; white-space: nowrap; }
+body.cards-tab-active .setting-input-row .setting-number-input { width: 84px; min-width: 84px; padding: 8px 10px; }
+.card-mini-play-btn { flex: 0 0 auto; white-space: nowrap; min-height: 40px; padding: 8px 12px; border-radius: 12px; }
 .compact-card-meta { gap: 6px; }
 .example-fold {
   margin-top: 8px;
