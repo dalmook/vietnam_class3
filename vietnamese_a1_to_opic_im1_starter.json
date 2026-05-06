@@ -19,6 +19,2401 @@
   },
   "lessons": [
     {
+  "lessonId": "d6studyNote",
+  "unitLabel": "6일차",
+  "titleKo": "6일차 학습노트: 거주지·날씨·여행·식당",
+  "titleVi": "Ghi chú học tập ngày 6",
+  "pageRange": "6일차 학습노트 / Nơi ở · Thời tiết · Du lịch · Nhà hàng",
+  "goals": [
+    "거주지와 집 구조를 자세히 설명할 수 있다",
+    "도시와 시골, 집값과 월세, 이웃 관계를 말할 수 있다",
+    "오늘 날씨와 한국의 사계절을 설명할 수 있다",
+    "한국과 베트남의 기후를 비교할 수 있다",
+    "여행 경험과 여행 준비를 말할 수 있다",
+    "식당, 외식, 못 먹는 음식, 더치페이를 말할 수 있다",
+    "OPIc 질문에 3~5문장으로 답할 수 있다"
+  ],
+  "topicOverview": "6일차 학습노트는 거주지, 날씨, 여행, 식당 주제를 연결해서 말하는 연습입니다. 핵심은 단어를 따로 외우는 것보다 'Tôi đang sống ở...', 'So với...', 'Trước khi...', 'Trong những...', 'Tôi không ăn được...' 같은 문장 뼈대를 외워서 실제 답변으로 확장하는 것입니다.",
+  "cultureTopics": [
+    "거주지와 집 설명",
+    "도시와 시골 비교",
+    "한국의 집값과 임대 주택",
+    "한국의 사계절",
+    "여름과 겨울 날씨",
+    "여행 준비와 여행 경험",
+    "자유여행과 패키지여행",
+    "식당과 외식",
+    "매운 음식과 못 먹는 음식",
+    "더치페이 문화"
+  ],
+  "vocabCards": [
+    {
+      "id": "d6study-v-001",
+      "term": "hiện tại",
+      "meaningKo": "현재",
+      "example": "Hiện tại tôi đang sống ở Dongtan.",
+      "exampleMeaningKo": "현재 저는 동탄에 살고 있습니다.",
+      "audioSrc": "",
+      "sourcePage": 6,
+      "reviewNeeded": false,
+      "pronKo": "히엔 따이",
+      "pronNoteKo": "지금 현재 상황을 말할 때 씁니다.",
+      "pronChunks": ["hiện=히엔", "tại=따이"]
+    },
+    {
+      "id": "d6study-v-002",
+      "term": "đang sống",
+      "meaningKo": "살고 있다",
+      "example": "Tôi đang sống ở Hàn Quốc.",
+      "exampleMeaningKo": "저는 한국에 살고 있습니다.",
+      "audioSrc": "",
+      "sourcePage": 6,
+      "reviewNeeded": false,
+      "pronKo": "당 쏭",
+      "pronNoteKo": "현재 진행 느낌으로 '살고 있다'입니다.",
+      "pronChunks": ["đang=당", "sống=쏭"]
+    },
+    {
+      "id": "d6study-v-003",
+      "term": "thành phố",
+      "meaningKo": "도시",
+      "example": "Tôi thích sống ở thành phố.",
+      "exampleMeaningKo": "저는 도시에서 사는 것을 좋아합니다.",
+      "audioSrc": "",
+      "sourcePage": 6,
+      "reviewNeeded": false,
+      "pronKo": "타인 포",
+      "pronNoteKo": "도시라는 뜻입니다.",
+      "pronChunks": ["thành=타인", "phố=포"]
+    },
+    {
+      "id": "d6study-v-004",
+      "term": "nông thôn",
+      "meaningKo": "시골",
+      "example": "Bố mẹ tôi sống ở nông thôn.",
+      "exampleMeaningKo": "제 부모님은 시골에 살고 있습니다.",
+      "audioSrc": "",
+      "sourcePage": 6,
+      "reviewNeeded": false,
+      "pronKo": "농 톤",
+      "pronNoteKo": "도시와 비교할 때 자주 씁니다.",
+      "pronChunks": ["nông=농", "thôn=톤"]
+    },
+    {
+      "id": "d6study-v-005",
+      "term": "quê",
+      "meaningKo": "고향",
+      "example": "Quê tôi ở Dongducheon.",
+      "exampleMeaningKo": "제 고향은 동두천입니다.",
+      "audioSrc": "",
+      "sourcePage": 6,
+      "reviewNeeded": false,
+      "pronKo": "꿰",
+      "pronNoteKo": "고향을 말할 때 씁니다.",
+      "pronChunks": ["quê=꿰"]
+    },
+    {
+      "id": "d6study-v-006",
+      "term": "về quê",
+      "meaningKo": "고향에 가다",
+      "example": "Cuối tuần tôi về quê thăm mẹ.",
+      "exampleMeaningKo": "주말에 저는 어머니를 뵈러 고향에 갑니다.",
+      "audioSrc": "",
+      "sourcePage": 6,
+      "reviewNeeded": false,
+      "pronKo": "베 꿰",
+      "pronNoteKo": "về는 돌아가다, quê는 고향입니다.",
+      "pronChunks": ["về=베", "quê=꿰"]
+    },
+    {
+      "id": "d6study-v-007",
+      "term": "thú vị",
+      "meaningKo": "흥미롭다 / 재미있다",
+      "example": "Thành phố mà tôi đang sống rất thú vị.",
+      "exampleMeaningKo": "제가 살고 있는 도시는 매우 재미있습니다.",
+      "audioSrc": "",
+      "sourcePage": 6,
+      "reviewNeeded": false,
+      "pronKo": "투 비",
+      "pronNoteKo": "도시나 경험을 설명할 때 좋습니다.",
+      "pronChunks": ["thú=투", "vị=비"]
+    },
+    {
+      "id": "d6study-v-008",
+      "term": "chỗ chơi",
+      "meaningKo": "놀 곳",
+      "example": "Ở đây có nhiều chỗ chơi.",
+      "exampleMeaningKo": "여기에는 놀 곳이 많습니다.",
+      "audioSrc": "",
+      "sourcePage": 6,
+      "reviewNeeded": false,
+      "pronKo": "쪼 쩌이",
+      "pronNoteKo": "chỗ는 장소, chơi는 놀다입니다.",
+      "pronChunks": ["chỗ=쪼", "chơi=쩌이"]
+    },
+    {
+      "id": "d6study-v-009",
+      "term": "tiện lợi",
+      "meaningKo": "편리하다",
+      "example": "Sống ở thành phố rất tiện lợi.",
+      "exampleMeaningKo": "도시에서 사는 것은 매우 편리합니다.",
+      "audioSrc": "",
+      "sourcePage": 6,
+      "reviewNeeded": false,
+      "pronKo": "띠엔 러이",
+      "pronNoteKo": "도시 장점 설명에 좋습니다.",
+      "pronChunks": ["tiện=띠엔", "lợi=러이"]
+    },
+    {
+      "id": "d6study-v-010",
+      "term": "hiện đại",
+      "meaningKo": "현대적이다",
+      "example": "Thành phố này rất hiện đại.",
+      "exampleMeaningKo": "이 도시는 매우 현대적입니다.",
+      "audioSrc": "",
+      "sourcePage": 6,
+      "reviewNeeded": false,
+      "pronKo": "히엔 다이",
+      "pronNoteKo": "도시나 건물을 설명할 때 씁니다.",
+      "pronChunks": ["hiện=히엔", "đại=다이"]
+    },
+    {
+      "id": "d6study-v-011",
+      "term": "tiện ích",
+      "meaningKo": "편의시설",
+      "example": "Ở thành phố có nhiều tiện ích.",
+      "exampleMeaningKo": "도시에는 편의시설이 많습니다.",
+      "audioSrc": "",
+      "sourcePage": 6,
+      "reviewNeeded": false,
+      "pronKo": "띠엔 익",
+      "pronNoteKo": "병원, 학교, 공원 같은 편의시설입니다.",
+      "pronChunks": ["tiện=띠엔", "ích=익"]
+    },
+    {
+      "id": "d6study-v-012",
+      "term": "trung tâm thương mại",
+      "meaningKo": "쇼핑몰 / 상업 중심지",
+      "example": "Gần nhà tôi có trung tâm thương mại.",
+      "exampleMeaningKo": "제 집 근처에는 쇼핑몰이 있습니다.",
+      "audioSrc": "",
+      "sourcePage": 6,
+      "reviewNeeded": false,
+      "pronKo": "쭝 떰 트엉 마이",
+      "pronNoteKo": "쇼핑몰, 상업센터입니다.",
+      "pronChunks": ["trung tâm=쭝 떰", "thương mại=트엉 마이"]
+    },
+    {
+      "id": "d6study-v-013",
+      "term": "mất bao lâu",
+      "meaningKo": "얼마나 걸리다",
+      "example": "Từ nhà anh đến công ty mất bao lâu?",
+      "exampleMeaningKo": "당신 집에서 회사까지 얼마나 걸려요?",
+      "audioSrc": "",
+      "sourcePage": 6,
+      "reviewNeeded": false,
+      "pronKo": "멋 바오 러우",
+      "pronNoteKo": "시간이 얼마나 걸리는지 물을 때 씁니다.",
+      "pronChunks": ["mất=멋", "bao lâu=바오 러우"]
+    },
+    {
+      "id": "d6study-v-014",
+      "term": "bằng xe buýt",
+      "meaningKo": "버스로",
+      "example": "Tôi đi làm bằng xe buýt.",
+      "exampleMeaningKo": "저는 버스로 출근합니다.",
+      "audioSrc": "",
+      "sourcePage": 6,
+      "reviewNeeded": false,
+      "pronKo": "방 세 부잇",
+      "pronNoteKo": "bằng + 교통수단 = ~로 이동하다.",
+      "pronChunks": ["bằng=방", "xe buýt=세 부잇"]
+    },
+    {
+      "id": "d6study-v-015",
+      "term": "nhà thuê",
+      "meaningKo": "임대 주택",
+      "example": "Tôi vẫn còn ở nhà thuê.",
+      "exampleMeaningKo": "저는 아직도 임대 주택에 살고 있습니다.",
+      "audioSrc": "",
+      "sourcePage": 6,
+      "reviewNeeded": false,
+      "pronKo": "냐 투에",
+      "pronNoteKo": "빌려 사는 집입니다.",
+      "pronChunks": ["nhà=냐", "thuê=투에"]
+    },
+    {
+      "id": "d6study-v-016",
+      "term": "mua nhà",
+      "meaningKo": "집을 사다",
+      "example": "Tôi muốn mua nhà.",
+      "exampleMeaningKo": "저는 집을 사고 싶습니다.",
+      "audioSrc": "",
+      "sourcePage": 6,
+      "reviewNeeded": false,
+      "pronKo": "무아 냐",
+      "pronNoteKo": "mua는 사다, nhà는 집입니다.",
+      "pronChunks": ["mua=무아", "nhà=냐"]
+    },
+    {
+      "id": "d6study-v-017",
+      "term": "nhà đất",
+      "meaningKo": "단독주택 / 집과 땅",
+      "example": "Nhà đất ở Hàn Quốc rất đắt.",
+      "exampleMeaningKo": "한국의 집값은 매우 비쌉니다.",
+      "audioSrc": "",
+      "sourcePage": 6,
+      "reviewNeeded": false,
+      "pronKo": "냐 닷",
+      "pronNoteKo": "부동산이나 집값 얘기에서 씁니다.",
+      "pronChunks": ["nhà=냐", "đất=닷"]
+    },
+    {
+      "id": "d6study-v-018",
+      "term": "giá nhà",
+      "meaningKo": "집값",
+      "example": "Giá nhà ở Hàn Quốc rất cao.",
+      "exampleMeaningKo": "한국의 집값은 매우 높습니다.",
+      "audioSrc": "",
+      "sourcePage": 6,
+      "reviewNeeded": false,
+      "pronKo": "자 냐",
+      "pronNoteKo": "giá는 가격, nhà는 집입니다.",
+      "pronChunks": ["giá=자", "nhà=냐"]
+    },
+    {
+      "id": "d6study-v-019",
+      "term": "đắt",
+      "meaningKo": "비싸다",
+      "example": "Nhà ở Hàn Quốc rất đắt.",
+      "exampleMeaningKo": "한국의 집은 매우 비쌉니다.",
+      "audioSrc": "",
+      "sourcePage": 6,
+      "reviewNeeded": false,
+      "pronKo": "닷",
+      "pronNoteKo": "đặt 예약하다와 헷갈리지 않게 주의합니다.",
+      "pronChunks": ["đắt=닷"]
+    },
+    {
+      "id": "d6study-v-020",
+      "term": "rẻ",
+      "meaningKo": "싸다",
+      "example": "Món này rẻ và ngon.",
+      "exampleMeaningKo": "이 음식은 싸고 맛있습니다.",
+      "audioSrc": "",
+      "sourcePage": 6,
+      "reviewNeeded": false,
+      "pronKo": "제",
+      "pronNoteKo": "đắt의 반대말입니다.",
+      "pronChunks": ["rẻ=제"]
+    },
+    {
+      "id": "d6study-v-021",
+      "term": "phòng khách",
+      "meaningKo": "거실",
+      "example": "Nhà tôi có phòng khách rộng.",
+      "exampleMeaningKo": "제 집에는 넓은 거실이 있습니다.",
+      "audioSrc": "",
+      "sourcePage": 6,
+      "reviewNeeded": false,
+      "pronKo": "퐁 카익",
+      "pronNoteKo": "집 구조 설명에 씁니다.",
+      "pronChunks": ["phòng=퐁", "khách=카익"]
+    },
+    {
+      "id": "d6study-v-022",
+      "term": "phòng ngủ",
+      "meaningKo": "침실",
+      "example": "Nhà tôi có ba phòng ngủ.",
+      "exampleMeaningKo": "제 집에는 침실이 세 개 있습니다.",
+      "audioSrc": "",
+      "sourcePage": 6,
+      "reviewNeeded": false,
+      "pronKo": "퐁 응우",
+      "pronNoteKo": "ngủ는 자다입니다.",
+      "pronChunks": ["phòng=퐁", "ngủ=응우"]
+    },
+    {
+      "id": "d6study-v-023",
+      "term": "nhà bếp",
+      "meaningKo": "부엌",
+      "example": "Tôi thích nhà bếp nhất.",
+      "exampleMeaningKo": "저는 부엌을 가장 좋아합니다.",
+      "audioSrc": "",
+      "sourcePage": 6,
+      "reviewNeeded": false,
+      "pronKo": "냐 벱",
+      "pronNoteKo": "요리 이야기와 연결하기 좋습니다.",
+      "pronChunks": ["nhà=냐", "bếp=벱"]
+    },
+    {
+      "id": "d6study-v-024",
+      "term": "hàng xóm",
+      "meaningKo": "이웃",
+      "example": "Tôi không thân với hàng xóm lắm.",
+      "exampleMeaningKo": "저는 이웃과 그렇게 친하지는 않습니다.",
+      "audioSrc": "",
+      "sourcePage": 6,
+      "reviewNeeded": false,
+      "pronKo": "항 솜",
+      "pronNoteKo": "이웃이라는 뜻입니다.",
+      "pronChunks": ["hàng=항", "xóm=솜"]
+    },
+    {
+      "id": "d6study-v-025",
+      "term": "thân",
+      "meaningKo": "친하다",
+      "example": "Tôi thân với đồng nghiệp.",
+      "exampleMeaningKo": "저는 동료와 친합니다.",
+      "audioSrc": "",
+      "sourcePage": 6,
+      "reviewNeeded": false,
+      "pronKo": "턴",
+      "pronNoteKo": "bạn thân은 친한 친구입니다.",
+      "pronChunks": ["thân=턴"]
+    },
+    {
+      "id": "d6study-v-026",
+      "term": "thời tiết",
+      "meaningKo": "날씨",
+      "example": "Hôm nay thời tiết rất đẹp.",
+      "exampleMeaningKo": "오늘 날씨가 매우 좋습니다.",
+      "audioSrc": "",
+      "sourcePage": 6,
+      "reviewNeeded": false,
+      "pronKo": "터이 띠엣",
+      "pronNoteKo": "날씨 주제 핵심 단어입니다.",
+      "pronChunks": ["thời=터이", "tiết=띠엣"]
+    },
+    {
+      "id": "d6study-v-027",
+      "term": "khí hậu",
+      "meaningKo": "기후",
+      "example": "Khí hậu Hàn Quốc có bốn mùa.",
+      "exampleMeaningKo": "한국의 기후에는 사계절이 있습니다.",
+      "audioSrc": "",
+      "sourcePage": 6,
+      "reviewNeeded": false,
+      "pronKo": "키 허우",
+      "pronNoteKo": "날씨보다 큰 개념의 기후입니다.",
+      "pronChunks": ["khí=키", "hậu=허우"]
+    },
+    {
+      "id": "d6study-v-028",
+      "term": "mùa",
+      "meaningKo": "계절",
+      "example": "Ở Hàn Quốc có bốn mùa.",
+      "exampleMeaningKo": "한국에는 사계절이 있습니다.",
+      "audioSrc": "",
+      "sourcePage": 6,
+      "reviewNeeded": false,
+      "pronKo": "무아",
+      "pronNoteKo": "mua 사다, mưa 비와 구분해야 합니다.",
+      "pronChunks": ["mùa=무아"]
+    },
+    {
+      "id": "d6study-v-029",
+      "term": "mùa xuân",
+      "meaningKo": "봄",
+      "example": "Tôi thích mùa xuân.",
+      "exampleMeaningKo": "저는 봄을 좋아합니다.",
+      "audioSrc": "",
+      "sourcePage": 6,
+      "reviewNeeded": false,
+      "pronKo": "무아 쑤언",
+      "pronNoteKo": "봄입니다.",
+      "pronChunks": ["mùa=무아", "xuân=쑤언"]
+    },
+    {
+      "id": "d6study-v-030",
+      "term": "mùa hè",
+      "meaningKo": "여름",
+      "example": "Mùa hè ở Hàn Quốc rất nóng.",
+      "exampleMeaningKo": "한국의 여름은 매우 덥습니다.",
+      "audioSrc": "",
+      "sourcePage": 6,
+      "reviewNeeded": false,
+      "pronKo": "무아 헤",
+      "pronNoteKo": "여름입니다.",
+      "pronChunks": ["mùa=무아", "hè=헤"]
+    },
+    {
+      "id": "d6study-v-031",
+      "term": "mùa thu",
+      "meaningKo": "가을",
+      "example": "Mùa thu rất mát.",
+      "exampleMeaningKo": "가을은 매우 시원합니다.",
+      "audioSrc": "",
+      "sourcePage": 6,
+      "reviewNeeded": false,
+      "pronKo": "무아 투",
+      "pronNoteKo": "가을입니다.",
+      "pronChunks": ["mùa=무아", "thu=투"]
+    },
+    {
+      "id": "d6study-v-032",
+      "term": "mùa đông",
+      "meaningKo": "겨울",
+      "example": "Mùa đông rất lạnh.",
+      "exampleMeaningKo": "겨울은 매우 춥습니다.",
+      "audioSrc": "",
+      "sourcePage": 6,
+      "reviewNeeded": false,
+      "pronKo": "무아 동",
+      "pronNoteKo": "겨울입니다.",
+      "pronChunks": ["mùa=무아", "đông=동"]
+    },
+    {
+      "id": "d6study-v-033",
+      "term": "nóng",
+      "meaningKo": "덥다",
+      "example": "Mùa hè rất nóng.",
+      "exampleMeaningKo": "여름은 매우 덥습니다.",
+      "audioSrc": "",
+      "sourcePage": 6,
+      "reviewNeeded": false,
+      "pronKo": "농",
+      "pronNoteKo": "덥다는 뜻입니다.",
+      "pronChunks": ["nóng=농"]
+    },
+    {
+      "id": "d6study-v-034",
+      "term": "lạnh",
+      "meaningKo": "춥다",
+      "example": "Mùa đông rất lạnh.",
+      "exampleMeaningKo": "겨울은 매우 춥습니다.",
+      "audioSrc": "",
+      "sourcePage": 6,
+      "reviewNeeded": false,
+      "pronKo": "라인",
+      "pronNoteKo": "춥다는 뜻입니다.",
+      "pronChunks": ["lạnh=라인"]
+    },
+    {
+      "id": "d6study-v-035",
+      "term": "mát",
+      "meaningKo": "시원하다",
+      "example": "Mùa thu rất mát.",
+      "exampleMeaningKo": "가을은 매우 시원합니다.",
+      "audioSrc": "",
+      "sourcePage": 6,
+      "reviewNeeded": false,
+      "pronKo": "맛",
+      "pronNoteKo": "기분 좋게 시원한 느낌입니다.",
+      "pronChunks": ["mát=맛"]
+    },
+    {
+      "id": "d6study-v-036",
+      "term": "ấm",
+      "meaningKo": "따뜻하다",
+      "example": "Mùa xuân rất ấm.",
+      "exampleMeaningKo": "봄은 매우 따뜻합니다.",
+      "audioSrc": "",
+      "sourcePage": 6,
+      "reviewNeeded": false,
+      "pronKo": "엄",
+      "pronNoteKo": "따뜻하다는 뜻입니다. ẩm과 구분하세요.",
+      "pronChunks": ["ấm=엄"]
+    },
+    {
+      "id": "d6study-v-037",
+      "term": "ẩm",
+      "meaningKo": "습하다",
+      "example": "Mùa hè nóng và ẩm.",
+      "exampleMeaningKo": "여름은 덥고 습합니다.",
+      "audioSrc": "",
+      "sourcePage": 6,
+      "reviewNeeded": false,
+      "pronKo": "엄",
+      "pronNoteKo": "습하다는 뜻입니다. ấm 따뜻하다와 구분하세요.",
+      "pronChunks": ["ẩm=엄"]
+    },
+    {
+      "id": "d6study-v-038",
+      "term": "khô",
+      "meaningKo": "건조하다",
+      "example": "Mùa đông lạnh và khô.",
+      "exampleMeaningKo": "겨울은 춥고 건조합니다.",
+      "audioSrc": "",
+      "sourcePage": 6,
+      "reviewNeeded": false,
+      "pronKo": "코",
+      "pronNoteKo": "건조하다는 뜻입니다. khó 어렵다와 구분하세요.",
+      "pronChunks": ["khô=코"]
+    },
+    {
+      "id": "d6study-v-039",
+      "term": "so với",
+      "meaningKo": "~와 비교해서",
+      "example": "So với Việt Nam thì Hàn Quốc lạnh hơn.",
+      "exampleMeaningKo": "베트남과 비교하면 한국이 더 춥습니다.",
+      "audioSrc": "",
+      "sourcePage": 6,
+      "reviewNeeded": false,
+      "pronKo": "쏘 버이",
+      "pronNoteKo": "비교 답변을 만들 때 핵심 표현입니다.",
+      "pronChunks": ["so=쏘", "với=버이"]
+    },
+    {
+      "id": "d6study-v-040",
+      "term": "đi biển",
+      "meaningKo": "바다에 가다",
+      "example": "Mùa hè tôi hay đi biển.",
+      "exampleMeaningKo": "여름에 저는 자주 바다에 갑니다.",
+      "audioSrc": "",
+      "sourcePage": 6,
+      "reviewNeeded": false,
+      "pronKo": "디 비엔",
+      "pronNoteKo": "여름 활동에 자주 씁니다.",
+      "pronChunks": ["đi=디", "biển=비엔"]
+    },
+    {
+      "id": "d6study-v-041",
+      "term": "đi ngắm hoa",
+      "meaningKo": "꽃구경 가다",
+      "example": "Mùa xuân tôi đi ngắm hoa.",
+      "exampleMeaningKo": "봄에 저는 꽃구경을 갑니다.",
+      "audioSrc": "",
+      "sourcePage": 6,
+      "reviewNeeded": false,
+      "pronKo": "디 응암 화",
+      "pronNoteKo": "봄 활동으로 좋습니다.",
+      "pronChunks": ["đi=디", "ngắm=응암", "hoa=화"]
+    },
+    {
+      "id": "d6study-v-042",
+      "term": "hoa anh đào",
+      "meaningKo": "벚꽃",
+      "example": "Mùa xuân có hoa anh đào.",
+      "exampleMeaningKo": "봄에는 벚꽃이 있습니다.",
+      "audioSrc": "",
+      "sourcePage": 6,
+      "reviewNeeded": false,
+      "pronKo": "화 아인 다오",
+      "pronNoteKo": "봄 여행 답변에 좋습니다.",
+      "pronChunks": ["hoa=화", "anh đào=아인 다오"]
+    },
+    {
+      "id": "d6study-v-043",
+      "term": "đi leo núi",
+      "meaningKo": "등산하다",
+      "example": "Mùa thu tôi thích đi leo núi.",
+      "exampleMeaningKo": "가을에 저는 등산하는 것을 좋아합니다.",
+      "audioSrc": "",
+      "sourcePage": 6,
+      "reviewNeeded": false,
+      "pronKo": "디 레오 누이",
+      "pronNoteKo": "가을 활동에 좋습니다.",
+      "pronChunks": ["đi=디", "leo=레오", "núi=누이"]
+    },
+    {
+      "id": "d6study-v-044",
+      "term": "đi trượt tuyết",
+      "meaningKo": "스키 타러 가다",
+      "example": "Mùa đông tôi đi trượt tuyết.",
+      "exampleMeaningKo": "겨울에 저는 스키 타러 갑니다.",
+      "audioSrc": "",
+      "sourcePage": 6,
+      "reviewNeeded": false,
+      "pronKo": "디 쯧 뚜엣",
+      "pronNoteKo": "겨울 활동입니다.",
+      "pronChunks": ["đi=디", "trượt=쯧", "tuyết=뚜엣"]
+    },
+    {
+      "id": "d6study-v-045",
+      "term": "làm người tuyết",
+      "meaningKo": "눈사람을 만들다",
+      "example": "Tôi làm người tuyết với con tôi.",
+      "exampleMeaningKo": "저는 아이와 눈사람을 만듭니다.",
+      "audioSrc": "",
+      "sourcePage": 6,
+      "reviewNeeded": false,
+      "pronKo": "람 응어이 뚜엣",
+      "pronNoteKo": "겨울 답변을 풍성하게 해줍니다.",
+      "pronChunks": ["làm=람", "người tuyết=응어이 뚜엣"]
+    },
+    {
+      "id": "d6study-v-046",
+      "term": "điều hòa",
+      "meaningKo": "에어컨",
+      "example": "Ở thư viện có điều hòa miễn phí.",
+      "exampleMeaningKo": "도서관에는 무료 에어컨이 있습니다.",
+      "audioSrc": "",
+      "sourcePage": 6,
+      "reviewNeeded": false,
+      "pronKo": "디에우 화",
+      "pronNoteKo": "여름 설명에 좋습니다.",
+      "pronChunks": ["điều=디에우", "hòa=화"]
+    },
+    {
+      "id": "d6study-v-047",
+      "term": "miễn phí",
+      "meaningKo": "무료",
+      "example": "Điều hòa ở thư viện miễn phí.",
+      "exampleMeaningKo": "도서관 에어컨은 무료입니다.",
+      "audioSrc": "",
+      "sourcePage": 6,
+      "reviewNeeded": false,
+      "pronKo": "미엔 피",
+      "pronNoteKo": "무료라는 뜻입니다.",
+      "pronChunks": ["miễn=미엔", "phí=피"]
+    },
+    {
+      "id": "d6study-v-048",
+      "term": "du lịch",
+      "meaningKo": "여행",
+      "example": "Tôi thích đi du lịch.",
+      "exampleMeaningKo": "저는 여행 가는 것을 좋아합니다.",
+      "audioSrc": "",
+      "sourcePage": 6,
+      "reviewNeeded": false,
+      "pronKo": "주 릭",
+      "pronNoteKo": "여행 주제 핵심 단어입니다.",
+      "pronChunks": ["du=주", "lịch=릭"]
+    },
+    {
+      "id": "d6study-v-049",
+      "term": "đi du lịch",
+      "meaningKo": "여행 가다",
+      "example": "Tôi đi du lịch với gia đình.",
+      "exampleMeaningKo": "저는 가족과 여행을 갑니다.",
+      "audioSrc": "",
+      "sourcePage": 6,
+      "reviewNeeded": false,
+      "pronKo": "디 주 릭",
+      "pronNoteKo": "đi + du lịch 구조입니다.",
+      "pronChunks": ["đi=디", "du lịch=주 릭"]
+    },
+    {
+      "id": "d6study-v-050",
+      "term": "một mình",
+      "meaningKo": "혼자",
+      "example": "Tôi chưa bao giờ đi du lịch một mình.",
+      "exampleMeaningKo": "저는 한 번도 혼자 여행해 본 적이 없습니다.",
+      "audioSrc": "",
+      "sourcePage": 6,
+      "reviewNeeded": false,
+      "pronKo": "못 민",
+      "pronNoteKo": "혼자라는 뜻입니다.",
+      "pronChunks": ["một=못", "mình=민"]
+    },
+    {
+      "id": "d6study-v-051",
+      "term": "cùng",
+      "meaningKo": "함께",
+      "example": "Tôi đi du lịch cùng gia đình.",
+      "exampleMeaningKo": "저는 가족과 함께 여행합니다.",
+      "audioSrc": "",
+      "sourcePage": 6,
+      "reviewNeeded": false,
+      "pronKo": "꿍",
+      "pronNoteKo": "cùng với도 자주 씁니다.",
+      "pronChunks": ["cùng=꿍"]
+    },
+    {
+      "id": "d6study-v-052",
+      "term": "trong nước",
+      "meaningKo": "국내",
+      "example": "Tôi hay đi du lịch trong nước.",
+      "exampleMeaningKo": "저는 국내여행을 자주 갑니다.",
+      "audioSrc": "",
+      "sourcePage": 6,
+      "reviewNeeded": false,
+      "pronKo": "쫑 느억",
+      "pronNoteKo": "나라 안, 국내라는 뜻입니다.",
+      "pronChunks": ["trong=쫑", "nước=느억"]
+    },
+    {
+      "id": "d6study-v-053",
+      "term": "nước ngoài",
+      "meaningKo": "해외 / 외국",
+      "example": "Tôi muốn đi du lịch nước ngoài.",
+      "exampleMeaningKo": "저는 해외여행을 가고 싶습니다.",
+      "audioSrc": "",
+      "sourcePage": 6,
+      "reviewNeeded": false,
+      "pronKo": "느억 응오아이",
+      "pronNoteKo": "해외, 외국입니다.",
+      "pronChunks": ["nước=느억", "ngoài=응오아이"]
+    },
+    {
+      "id": "d6study-v-054",
+      "term": "gần đây",
+      "meaningKo": "최근",
+      "example": "Gần đây tôi đi du lịch Busan.",
+      "exampleMeaningKo": "최근 저는 부산 여행을 갔습니다.",
+      "audioSrc": "",
+      "sourcePage": 6,
+      "reviewNeeded": false,
+      "pronKo": "건 더이",
+      "pronNoteKo": "최근이라는 뜻입니다.",
+      "pronChunks": ["gần=건", "đây=더이"]
+    },
+    {
+      "id": "d6study-v-055",
+      "term": "trong những",
+      "meaningKo": "~들 중에서",
+      "example": "Trong những nơi tôi đã đi, tôi thích Jeju nhất.",
+      "exampleMeaningKo": "제가 가 본 곳들 중에서 저는 제주를 가장 좋아합니다.",
+      "audioSrc": "",
+      "sourcePage": 6,
+      "reviewNeeded": false,
+      "pronKo": "쫑 능",
+      "pronNoteKo": "여러 장소 중에서 고를 때 씁니다.",
+      "pronChunks": ["trong=쫑", "những=능"]
+    },
+    {
+      "id": "d6study-v-056",
+      "term": "trong các",
+      "meaningKo": "~들 중에서",
+      "example": "Trong các món ăn Việt Nam, tôi thích phở nhất.",
+      "exampleMeaningKo": "베트남 음식 중에서 저는 쌀국수를 가장 좋아합니다.",
+      "audioSrc": "",
+      "sourcePage": 6,
+      "reviewNeeded": false,
+      "pronKo": "쫑 깍",
+      "pronNoteKo": "여러 대상 중에서 말할 때 씁니다.",
+      "pronChunks": ["trong=쫑", "các=깍"]
+    },
+    {
+      "id": "d6study-v-057",
+      "term": "trải nghiệm",
+      "meaningKo": "체험 / 경험",
+      "example": "Tôi có nhiều trải nghiệm tốt.",
+      "exampleMeaningKo": "저는 좋은 경험이 많습니다.",
+      "audioSrc": "",
+      "sourcePage": 6,
+      "reviewNeeded": false,
+      "pronKo": "짜이 응이엠",
+      "pronNoteKo": "여행 경험을 말할 때 좋습니다.",
+      "pronChunks": ["trải=짜이", "nghiệm=응이엠"]
+    },
+    {
+      "id": "d6study-v-058",
+      "term": "kinh nghiệm",
+      "meaningKo": "경험",
+      "example": "Tôi có kinh nghiệm du lịch.",
+      "exampleMeaningKo": "저는 여행 경험이 있습니다.",
+      "audioSrc": "",
+      "sourcePage": 6,
+      "reviewNeeded": false,
+      "pronKo": "낑 응이엠",
+      "pronNoteKo": "일, 여행 경험 모두에 씁니다.",
+      "pronChunks": ["kinh=낑", "nghiệm=응이엠"]
+    },
+    {
+      "id": "d6study-v-059",
+      "term": "du lịch tự túc",
+      "meaningKo": "자유여행",
+      "example": "Tôi thích du lịch tự túc hơn.",
+      "exampleMeaningKo": "저는 자유여행을 더 좋아합니다.",
+      "audioSrc": "",
+      "sourcePage": 6,
+      "reviewNeeded": false,
+      "pronKo": "주 릭 뜨 뚝",
+      "pronNoteKo": "스스로 계획하는 여행입니다.",
+      "pronChunks": ["du lịch=주 릭", "tự túc=뜨 뚝"]
+    },
+    {
+      "id": "d6study-v-060",
+      "term": "du lịch theo tour",
+      "meaningKo": "패키지 여행",
+      "example": "Bố mẹ tôi thích du lịch theo tour.",
+      "exampleMeaningKo": "제 부모님은 패키지 여행을 좋아합니다.",
+      "audioSrc": "",
+      "sourcePage": 6,
+      "reviewNeeded": false,
+      "pronKo": "주 릭 테오 투어",
+      "pronNoteKo": "투어를 따라가는 여행입니다.",
+      "pronChunks": ["du lịch=주 릭", "theo tour=테오 투어"]
+    },
+    {
+      "id": "d6study-v-061",
+      "term": "trước khi",
+      "meaningKo": "~하기 전에",
+      "example": "Trước khi đi du lịch, tôi chuẩn bị hành lý.",
+      "exampleMeaningKo": "여행 가기 전에 저는 짐을 준비합니다.",
+      "audioSrc": "",
+      "sourcePage": 6,
+      "reviewNeeded": false,
+      "pronKo": "쯔억 키",
+      "pronNoteKo": "시간 순서를 말할 때 중요합니다.",
+      "pronChunks": ["trước=쯔억", "khi=키"]
+    },
+    {
+      "id": "d6study-v-062",
+      "term": "đặt phòng khách sạn",
+      "meaningKo": "호텔 방을 예약하다",
+      "example": "Tôi đặt phòng khách sạn.",
+      "exampleMeaningKo": "저는 호텔 방을 예약합니다.",
+      "audioSrc": "",
+      "sourcePage": 6,
+      "reviewNeeded": false,
+      "pronKo": "닷 퐁 카익 산",
+      "pronNoteKo": "đặt은 예약하다입니다. đắt 비싸다와 구분하세요.",
+      "pronChunks": ["đặt=닷", "phòng=퐁", "khách sạn=카익 산"]
+    },
+    {
+      "id": "d6study-v-063",
+      "term": "vé máy bay",
+      "meaningKo": "비행기 표",
+      "example": "Tôi đặt vé máy bay.",
+      "exampleMeaningKo": "저는 비행기 표를 예약합니다.",
+      "audioSrc": "",
+      "sourcePage": 6,
+      "reviewNeeded": false,
+      "pronKo": "베 마이 바이",
+      "pronNoteKo": "vé는 표입니다. về 돌아가다와 구분하세요.",
+      "pronChunks": ["vé=베", "máy bay=마이 바이"]
+    },
+    {
+      "id": "d6study-v-064",
+      "term": "hành lý",
+      "meaningKo": "짐 / 수하물",
+      "example": "Tôi chuẩn bị hành lý.",
+      "exampleMeaningKo": "저는 짐을 준비합니다.",
+      "audioSrc": "",
+      "sourcePage": 6,
+      "reviewNeeded": false,
+      "pronKo": "하인 리",
+      "pronNoteKo": "여행 짐입니다.",
+      "pronChunks": ["hành=하인", "lý=리"]
+    },
+    {
+      "id": "d6study-v-065",
+      "term": "đổi tiền",
+      "meaningKo": "환전하다",
+      "example": "Trước khi đi du lịch, tôi đổi tiền.",
+      "exampleMeaningKo": "여행 가기 전에 저는 환전합니다.",
+      "audioSrc": "",
+      "sourcePage": 6,
+      "reviewNeeded": false,
+      "pronKo": "도이 띠엔",
+      "pronNoteKo": "여행 준비 표현입니다.",
+      "pronChunks": ["đổi=도이", "tiền=띠엔"]
+    },
+    {
+      "id": "d6study-v-066",
+      "term": "nhà hàng",
+      "meaningKo": "식당 / 레스토랑",
+      "example": "Tôi hay đi ăn nhà hàng.",
+      "exampleMeaningKo": "저는 식당에 자주 먹으러 갑니다.",
+      "audioSrc": "",
+      "sourcePage": 6,
+      "reviewNeeded": false,
+      "pronKo": "냐 항",
+      "pronNoteKo": "식당 주제 핵심 단어입니다.",
+      "pronChunks": ["nhà=냐", "hàng=항"]
+    },
+    {
+      "id": "d6study-v-067",
+      "term": "quán ăn",
+      "meaningKo": "밥집 / 식당",
+      "example": "Quán ăn yêu thích của tôi là quán Emoi.",
+      "exampleMeaningKo": "제가 가장 좋아하는 식당은 에머이입니다.",
+      "audioSrc": "",
+      "sourcePage": 6,
+      "reviewNeeded": false,
+      "pronKo": "꽌 안",
+      "pronNoteKo": "일반적인 작은 식당 느낌입니다.",
+      "pronChunks": ["quán=꽌", "ăn=안"]
+    },
+    {
+      "id": "d6study-v-068",
+      "term": "đi ăn",
+      "meaningKo": "먹으러 가다",
+      "example": "Tôi đi ăn với bạn bè.",
+      "exampleMeaningKo": "저는 친구들과 먹으러 갑니다.",
+      "audioSrc": "",
+      "sourcePage": 6,
+      "reviewNeeded": false,
+      "pronKo": "디 안",
+      "pronNoteKo": "식사하러 가다입니다.",
+      "pronChunks": ["đi=디", "ăn=안"]
+    },
+    {
+      "id": "d6study-v-069",
+      "term": "món ăn",
+      "meaningKo": "음식 / 요리",
+      "example": "Món ăn này rất ngon.",
+      "exampleMeaningKo": "이 음식은 매우 맛있습니다.",
+      "audioSrc": "",
+      "sourcePage": 6,
+      "reviewNeeded": false,
+      "pronKo": "몬 안",
+      "pronNoteKo": "음식, 요리입니다.",
+      "pronChunks": ["món=몬", "ăn=안"]
+    },
+    {
+      "id": "d6study-v-070",
+      "term": "đồ ăn",
+      "meaningKo": "음식",
+      "example": "Tôi thích đồ ăn Hàn Quốc.",
+      "exampleMeaningKo": "저는 한국 음식을 좋아합니다.",
+      "audioSrc": "",
+      "sourcePage": 6,
+      "reviewNeeded": false,
+      "pronKo": "도 안",
+      "pronNoteKo": "일반적인 음식 표현입니다.",
+      "pronChunks": ["đồ=도", "ăn=안"]
+    },
+    {
+      "id": "d6study-v-071",
+      "term": "ẩm thực",
+      "meaningKo": "음식 문화 / 식문화",
+      "example": "Tôi thích ẩm thực Việt Nam.",
+      "exampleMeaningKo": "저는 베트남 식문화를 좋아합니다.",
+      "audioSrc": "",
+      "sourcePage": 6,
+      "reviewNeeded": false,
+      "pronKo": "엄 특",
+      "pronNoteKo": "단순 음식보다 음식 문화 느낌입니다.",
+      "pronChunks": ["ẩm=엄", "thực=특"]
+    },
+    {
+      "id": "d6study-v-072",
+      "term": "thử món mới",
+      "meaningKo": "새로운 음식을 먹어보다",
+      "example": "Tôi thích thử món mới.",
+      "exampleMeaningKo": "저는 새로운 음식을 먹어보는 것을 좋아합니다.",
+      "audioSrc": "",
+      "sourcePage": 6,
+      "reviewNeeded": false,
+      "pronKo": "트 몬 머이",
+      "pronNoteKo": "thử는 시도하다, 먹어보다입니다.",
+      "pronChunks": ["thử=트", "món mới=몬 머이"]
+    },
+    {
+      "id": "d6study-v-073",
+      "term": "món Việt",
+      "meaningKo": "베트남 음식",
+      "example": "Tôi đã ăn món Việt.",
+      "exampleMeaningKo": "저는 베트남 음식을 먹어 봤습니다.",
+      "audioSrc": "",
+      "sourcePage": 6,
+      "reviewNeeded": false,
+      "pronKo": "몬 비엣",
+      "pronNoteKo": "món Việt Nam이라고도 말합니다.",
+      "pronChunks": ["món=몬", "Việt=비엣"]
+    },
+    {
+      "id": "d6study-v-074",
+      "term": "phở",
+      "meaningKo": "쌀국수",
+      "example": "Tôi thích phở nhất.",
+      "exampleMeaningKo": "저는 쌀국수를 가장 좋아합니다.",
+      "audioSrc": "",
+      "sourcePage": 6,
+      "reviewNeeded": false,
+      "pronKo": "퍼",
+      "pronNoteKo": "베트남 음식 대표 단어입니다.",
+      "pronChunks": ["phở=퍼"]
+    },
+    {
+      "id": "d6study-v-075",
+      "term": "bánh mì",
+      "meaningKo": "반미",
+      "example": "Tôi đã từng ăn bánh mì.",
+      "exampleMeaningKo": "저는 반미를 먹어 본 적이 있습니다.",
+      "audioSrc": "",
+      "sourcePage": 6,
+      "reviewNeeded": false,
+      "pronKo": "바인 미",
+      "pronNoteKo": "베트남식 샌드위치입니다.",
+      "pronChunks": ["bánh=바인", "mì=미"]
+    },
+    {
+      "id": "d6study-v-076",
+      "term": "gỏi cuốn",
+      "meaningKo": "월남쌈 / 스프링롤",
+      "example": "Tôi thích gỏi cuốn.",
+      "exampleMeaningKo": "저는 월남쌈을 좋아합니다.",
+      "audioSrc": "",
+      "sourcePage": 6,
+      "reviewNeeded": false,
+      "pronKo": "고이 꾸온",
+      "pronNoteKo": "베트남 음식입니다.",
+      "pronChunks": ["gỏi=고이", "cuốn=꾸온"]
+    },
+    {
+      "id": "d6study-v-077",
+      "term": "bún chả",
+      "meaningKo": "분짜",
+      "example": "Tôi muốn ăn bún chả.",
+      "exampleMeaningKo": "저는 분짜를 먹고 싶습니다.",
+      "audioSrc": "",
+      "sourcePage": 6,
+      "reviewNeeded": false,
+      "pronKo": "분 짜",
+      "pronNoteKo": "베트남 음식입니다.",
+      "pronChunks": ["bún=분", "chả=짜"]
+    },
+    {
+      "id": "d6study-v-078",
+      "term": "cay",
+      "meaningKo": "맵다",
+      "example": "Món này rất cay.",
+      "exampleMeaningKo": "이 음식은 매우 맵습니다.",
+      "audioSrc": "",
+      "sourcePage": 6,
+      "reviewNeeded": false,
+      "pronKo": "까이",
+      "pronNoteKo": "매운맛을 말합니다.",
+      "pronChunks": ["cay=까이"]
+    },
+    {
+      "id": "d6study-v-079",
+      "term": "ăn được",
+      "meaningKo": "먹을 수 있다",
+      "example": "Tôi ăn cay được.",
+      "exampleMeaningKo": "저는 매운 것을 먹을 수 있습니다.",
+      "audioSrc": "",
+      "sourcePage": 6,
+      "reviewNeeded": false,
+      "pronKo": "안 드억",
+      "pronNoteKo": "가능을 말할 때 씁니다.",
+      "pronChunks": ["ăn=안", "được=드억"]
+    },
+    {
+      "id": "d6study-v-080",
+      "term": "không ăn được",
+      "meaningKo": "먹을 수 없다 / 못 먹다",
+      "example": "Tôi không ăn được cay.",
+      "exampleMeaningKo": "저는 매운 것을 못 먹습니다.",
+      "audioSrc": "",
+      "sourcePage": 6,
+      "reviewNeeded": false,
+      "pronKo": "콩 안 드억",
+      "pronNoteKo": "못 먹는 음식 말할 때 핵심 표현입니다.",
+      "pronChunks": ["không=콩", "ăn được=안 드억"]
+    },
+    {
+      "id": "d6study-v-081",
+      "term": "không được ăn",
+      "meaningKo": "먹으면 안 된다",
+      "example": "Tôi không được ăn đồ cay.",
+      "exampleMeaningKo": "저는 매운 음식을 먹으면 안 됩니다.",
+      "audioSrc": "",
+      "sourcePage": 6,
+      "reviewNeeded": false,
+      "pronKo": "콩 드억 안",
+      "pronNoteKo": "금지의 느낌입니다. không ăn được와 다릅니다.",
+      "pronChunks": ["không=콩", "được=드억", "ăn=안"]
+    },
+    {
+      "id": "d6study-v-082",
+      "term": "đồ sống",
+      "meaningKo": "날것 / 생식",
+      "example": "Tôi không ăn được đồ sống.",
+      "exampleMeaningKo": "저는 날것을 못 먹습니다.",
+      "audioSrc": "",
+      "sourcePage": 6,
+      "reviewNeeded": false,
+      "pronKo": "도 쏭",
+      "pronNoteKo": "익히지 않은 음식입니다.",
+      "pronChunks": ["đồ=도", "sống=쏭"]
+    },
+    {
+      "id": "d6study-v-083",
+      "term": "rau sống",
+      "meaningKo": "생야채",
+      "example": "Tôi không ăn nhiều rau sống.",
+      "exampleMeaningKo": "저는 생야채를 많이 먹지 않습니다.",
+      "audioSrc": "",
+      "sourcePage": 6,
+      "reviewNeeded": false,
+      "pronKo": "자우 쏭",
+      "pronNoteKo": "날것 야채입니다.",
+      "pronChunks": ["rau=자우", "sống=쏭"]
+    },
+    {
+      "id": "d6study-v-084",
+      "term": "chia tiền",
+      "meaningKo": "나눠서 계산하다 / 더치페이하다",
+      "example": "Tôi thường chia tiền ăn với bạn bè.",
+      "exampleMeaningKo": "저는 친구들과 보통 식사비를 나눠서 계산합니다.",
+      "audioSrc": "",
+      "sourcePage": 6,
+      "reviewNeeded": false,
+      "pronKo": "찌아 띠엔",
+      "pronNoteKo": "chia는 나누다, tiền은 돈입니다.",
+      "pronChunks": ["chia=찌아", "tiền=띠엔"]
+    },
+    {
+      "id": "d6study-v-085",
+      "term": "tiền ăn",
+      "meaningKo": "식사비",
+      "example": "Tôi chia tiền ăn với bạn bè.",
+      "exampleMeaningKo": "저는 친구들과 식사비를 나눠 계산합니다.",
+      "audioSrc": "",
+      "sourcePage": 6,
+      "reviewNeeded": false,
+      "pronKo": "띠엔 안",
+      "pronNoteKo": "식사 비용입니다.",
+      "pronChunks": ["tiền=띠엔", "ăn=안"]
+    },
+    {
+      "id": "d6study-v-086",
+      "term": "bạn bè",
+      "meaningKo": "친구들",
+      "example": "Tôi đi ăn với bạn bè.",
+      "exampleMeaningKo": "저는 친구들과 먹으러 갑니다.",
+      "audioSrc": "",
+      "sourcePage": 6,
+      "reviewNeeded": false,
+      "pronKo": "반 베",
+      "pronNoteKo": "친구들입니다.",
+      "pronChunks": ["bạn=반", "bè=베"]
+    },
+    {
+      "id": "d6study-v-087",
+      "term": "bạn thân",
+      "meaningKo": "친한 친구",
+      "example": "Tôi đi ăn với bạn thân.",
+      "exampleMeaningKo": "저는 친한 친구와 먹으러 갑니다.",
+      "audioSrc": "",
+      "sourcePage": 6,
+      "reviewNeeded": false,
+      "pronKo": "반 턴",
+      "pronNoteKo": "thân은 친하다는 뜻입니다.",
+      "pronChunks": ["bạn=반", "thân=턴"]
+    },
+    {
+      "id": "d6study-v-088",
+      "term": "đồng nghiệp",
+      "meaningKo": "동료",
+      "example": "Tôi đi ăn với đồng nghiệp.",
+      "exampleMeaningKo": "저는 동료와 먹으러 갑니다.",
+      "audioSrc": "",
+      "sourcePage": 6,
+      "reviewNeeded": false,
+      "pronKo": "동 응이엡",
+      "pronNoteKo": "직장 동료입니다.",
+      "pronChunks": ["đồng=동", "nghiệp=응이엡"]
+    },
+    {
+      "id": "d6study-v-089",
+      "term": "yêu thích",
+      "meaningKo": "가장 좋아하는 / 애정하는",
+      "example": "Quán ăn yêu thích của tôi là quán Emoi.",
+      "exampleMeaningKo": "제가 가장 좋아하는 식당은 에머이입니다.",
+      "audioSrc": "",
+      "sourcePage": 6,
+      "reviewNeeded": false,
+      "pronKo": "이에우 틱",
+      "pronNoteKo": "favorite 느낌으로 자주 씁니다.",
+      "pronChunks": ["yêu=이에우", "thích=틱"]
+    },
+    {
+      "id": "d6study-v-090",
+      "term": "quá cay",
+      "meaningKo": "너무 맵다",
+      "example": "Tôi không ăn được đồ quá cay.",
+      "exampleMeaningKo": "저는 너무 매운 음식을 못 먹습니다.",
+      "audioSrc": "",
+      "sourcePage": 6,
+      "reviewNeeded": false,
+      "pronKo": "꽈 까이",
+      "pronNoteKo": "quá는 너무라는 뜻입니다.",
+      "pronChunks": ["quá=꽈", "cay=까이"]
+    }
+  ],
+  "sentenceCards": [
+    {
+      "id": "d6study-s-001",
+      "textVi": "Hiện tại anh đang sống ở đâu?",
+      "textKo": "현재 어디에 살고 있어요?",
+      "exampleAnswerVi": "Hiện tại tôi đang sống ở Dongtan với gia đình.",
+      "exampleAnswerKo": "현재 저는 가족과 함께 동탄에 살고 있습니다.",
+      "audioSrc": "",
+      "sourcePage": 6,
+      "reviewNeeded": false,
+      "pronKo": "히엔 따이 아인 당 쏭 어 더우?",
+      "exampleAnswerPronKo": "히엔 따이 또이 당 쏭 어 동탄 버이 자 딩.",
+      "pronNoteKo": "현재 거주지를 묻는 기본 질문입니다."
+    },
+    {
+      "id": "d6study-s-002",
+      "textVi": "Thành phố anh đang sống có gì thú vị không?",
+      "textKo": "당신이 살고 있는 도시에 재미있는 것이 있어요?",
+      "exampleAnswerVi": "Có. Thành phố mà tôi đang sống rất thú vị. Ở đây có nhiều chỗ chơi như công viên, siêu thị và trung tâm thương mại.",
+      "exampleAnswerKo": "네. 제가 살고 있는 도시는 매우 재미있습니다. 여기에는 공원, 슈퍼마켓, 쇼핑몰 같은 놀 곳이 많습니다.",
+      "audioSrc": "",
+      "sourcePage": 6,
+      "reviewNeeded": false,
+      "pronKo": "타인 포 아인 당 쏭 꼬 지 투 비 콩?",
+      "exampleAnswerPronKo": "꼬. 타인 포 마 또이 당 쏭 젓 투 비. 어 더이 꼬 니에우 쪼 쩌이 느 꽁 비엔, 시에우 티 바 쭝 떰 트엉 마이.",
+      "pronNoteKo": "mà는 관계절처럼 '~하는' 느낌입니다."
+    },
+    {
+      "id": "d6study-s-003",
+      "textVi": "Anh thích sống ở thành phố hơn hay ở nông thôn hơn?",
+      "textKo": "도시에서 사는 것을 더 좋아해요, 아니면 시골에서 사는 것을 더 좋아해요?",
+      "exampleAnswerVi": "Đối với tôi thì tôi thích sống ở thành phố hơn vì tiện lợi và hiện đại hơn.",
+      "exampleAnswerKo": "제 생각에는 저는 도시에서 사는 것을 더 좋아합니다. 왜냐하면 더 편리하고 현대적이기 때문입니다.",
+      "audioSrc": "",
+      "sourcePage": 6,
+      "reviewNeeded": false,
+      "pronKo": "아인 틱 쏭 어 타인 포 헌 하이 어 농 톤 헌?",
+      "exampleAnswerPronKo": "도이 버이 또이 티 또이 틱 쏭 어 타인 포 헌 비 띠엔 러이 바 히엔 다이 헌.",
+      "pronNoteKo": "Đối với tôi thì = 제 생각에는."
+    },
+    {
+      "id": "d6study-s-004",
+      "textVi": "Từ nhà anh đến công ty đi mất bao lâu?",
+      "textKo": "집에서 회사까지 가는 데 얼마나 걸려요?",
+      "exampleAnswerVi": "Từ nhà tôi đến công ty mất khoảng một tiếng bằng xe buýt công ty.",
+      "exampleAnswerKo": "제 집에서 회사까지 회사 버스로 약 1시간 걸립니다.",
+      "audioSrc": "",
+      "sourcePage": 6,
+      "reviewNeeded": false,
+      "pronKo": "뜨 냐 아인 덴 꽁 티 디 멋 바오 러우?",
+      "exampleAnswerPronKo": "뜨 냐 또이 덴 꽁 티 멋 코앙 못 띠엥 방 세 부잇 꽁 티.",
+      "pronNoteKo": "mất + 시간 = 시간이 걸리다."
+    },
+    {
+      "id": "d6study-s-005",
+      "textVi": "Anh mua nhà rồi hay đang ở nhà thuê?",
+      "textKo": "집을 샀어요, 아니면 임대 주택에 살고 있어요?",
+      "exampleAnswerVi": "Tôi vẫn còn ở nhà thuê. Tôi muốn mua nhà, nhưng nhà ở Hàn Quốc rất đắt.",
+      "exampleAnswerKo": "저는 아직 임대 주택에 살고 있습니다. 집을 사고 싶지만 한국의 집은 매우 비쌉니다.",
+      "audioSrc": "",
+      "sourcePage": 6,
+      "reviewNeeded": false,
+      "pronKo": "아인 무아 냐 조이 하이 당 어 냐 투에?",
+      "exampleAnswerPronKo": "또이 번 꼰 어 냐 투에. 또이 무온 무아 냐, 늉 냐 어 한 꾸옥 젓 닷.",
+      "pronNoteKo": "vẫn còn = 아직도."
+    },
+    {
+      "id": "d6study-s-006",
+      "textVi": "Gần nhà anh có siêu thị hay công viên không?",
+      "textKo": "집 근처에 슈퍼마켓이나 공원이 있어요?",
+      "exampleAnswerVi": "Có. Gần nhà tôi vừa có siêu thị vừa có công viên.",
+      "exampleAnswerKo": "네. 제 집 근처에는 슈퍼마켓도 있고 공원도 있습니다.",
+      "audioSrc": "",
+      "sourcePage": 6,
+      "reviewNeeded": false,
+      "pronKo": "건 냐 아인 꼬 시에우 티 하이 꽁 비엔 콩?",
+      "exampleAnswerPronKo": "꼬. 건 냐 또이 브어 꼬 시에우 티 브어 꼬 꽁 비엔.",
+      "pronNoteKo": "vừa A vừa B = A도 있고 B도 있다."
+    },
+    {
+      "id": "d6study-s-007",
+      "textVi": "Anh thích điều gì nhất trong ngôi nhà của mình?",
+      "textKo": "자기 집에서 무엇을 가장 좋아해요?",
+      "exampleAnswerVi": "Trong ngôi nhà của tôi, tôi thích cái giường của tôi nhất vì cả ngày tôi đi làm rất mệt.",
+      "exampleAnswerKo": "제 집에서 저는 제 침대를 가장 좋아합니다. 하루 종일 일해서 매우 피곤하기 때문입니다.",
+      "audioSrc": "",
+      "sourcePage": 6,
+      "reviewNeeded": false,
+      "pronKo": "아인 틱 디에우 지 녓 쫑 응오이 냐 꾸어 민?",
+      "exampleAnswerPronKo": "쫑 응오이 냐 꾸어 또이, 또이 틱 까이 즈엉 꾸어 또이 녓 비 까 응아이 또이 디 람 젓 멧.",
+      "pronNoteKo": "điều gì = 무엇, 어떤 것."
+    },
+    {
+      "id": "d6study-s-008",
+      "textVi": "Anh có thân với hàng xóm không?",
+      "textKo": "이웃과 친해요?",
+      "exampleAnswerVi": "Không thân lắm. Nhưng hàng xóm của tôi khá yên tĩnh nên tôi thấy thoải mái.",
+      "exampleAnswerKo": "그렇게 친하지는 않습니다. 하지만 제 이웃은 꽤 조용해서 저는 편안하다고 느낍니다.",
+      "audioSrc": "",
+      "sourcePage": 6,
+      "reviewNeeded": false,
+      "pronKo": "아인 꼬 턴 버이 항 솜 콩?",
+      "exampleAnswerPronKo": "콩 턴 람. 늉 항 솜 꾸어 또이 카 이엔 띵 넨 또이 터이 토아이 마이.",
+      "pronNoteKo": "không ... lắm = 그렇게 ~하지 않다."
+    },
+    {
+      "id": "d6study-s-009",
+      "textVi": "Hôm nay thời tiết ở chỗ anh thế nào?",
+      "textKo": "오늘 당신이 있는 곳의 날씨는 어때요?",
+      "exampleAnswerVi": "Hôm nay thời tiết ở chỗ tôi rất đẹp, hơi nóng và không mưa.",
+      "exampleAnswerKo": "오늘 제가 있는 곳의 날씨는 매우 좋고, 조금 덥고, 비가 오지 않습니다.",
+      "audioSrc": "",
+      "sourcePage": 6,
+      "reviewNeeded": false,
+      "pronKo": "홈 나이 터이 띠엣 어 쪼 아인 테 나오?",
+      "exampleAnswerPronKo": "홈 나이 터이 띠엣 어 쪼 또이 젓 뎁, 허이 농 바 콩 므어.",
+      "pronNoteKo": "ở chỗ tôi = 제가 있는 곳."
+    },
+    {
+      "id": "d6study-s-010",
+      "textVi": "Khí hậu của Hàn Quốc thế nào?",
+      "textKo": "한국의 기후는 어때요?",
+      "exampleAnswerVi": "Khí hậu của Hàn Quốc có bốn mùa rõ rệt.",
+      "exampleAnswerKo": "한국의 기후는 사계절이 뚜렷합니다.",
+      "audioSrc": "",
+      "sourcePage": 6,
+      "reviewNeeded": false,
+      "pronKo": "키 허우 꾸어 한 꾸옥 테 나오?",
+      "exampleAnswerPronKo": "키 허우 꾸어 한 꾸옥 꼬 본 무아 조 젯.",
+      "pronNoteKo": "bốn mùa = 사계절."
+    },
+    {
+      "id": "d6study-s-011",
+      "textVi": "Mùa hè ở Hàn Quốc có nóng không?",
+      "textKo": "한국의 여름은 더워요?",
+      "exampleAnswerVi": "Có. Mùa hè ở Hàn Quốc rất nóng và ẩm. Nóng nhất khoảng ba mươi lăm đến bốn mươi độ.",
+      "exampleAnswerKo": "네. 한국의 여름은 매우 덥고 습합니다. 가장 더울 때는 약 35도에서 40도 정도입니다.",
+      "audioSrc": "",
+      "sourcePage": 6,
+      "reviewNeeded": false,
+      "pronKo": "무아 헤 어 한 꾸옥 꼬 농 콩?",
+      "exampleAnswerPronKo": "꼬. 무아 헤 어 한 꾸옥 젓 농 바 엄. 농 녓 코앙 바 므어이 람 덴 본 므어이 도.",
+      "pronNoteKo": "nóng nhất = 가장 덥다."
+    },
+    {
+      "id": "d6study-s-012",
+      "textVi": "Mùa đông lạnh nhất là bao nhiêu độ?",
+      "textKo": "겨울에 가장 추울 때는 몇 도예요?",
+      "exampleAnswerVi": "Ở Hàn Quốc, mùa đông lạnh nhất khoảng âm hai mươi độ.",
+      "exampleAnswerKo": "한국에서 겨울에 가장 추울 때는 약 영하 20도입니다.",
+      "audioSrc": "",
+      "sourcePage": 6,
+      "reviewNeeded": false,
+      "pronKo": "무아 동 라인 녓 라 바오 니에우 도?",
+      "exampleAnswerPronKo": "어 한 꾸옥, 무아 동 라인 녓 코앙 엄 하이 므어이 도.",
+      "pronNoteKo": "âm + 숫자 + độ = 영하 ~도."
+    },
+    {
+      "id": "d6study-s-013",
+      "textVi": "Nếu đi du lịch ở Hàn Quốc thì nên đi mùa nào?",
+      "textKo": "한국 여행을 간다면 어느 계절에 가는 것이 좋아요?",
+      "exampleAnswerVi": "Nếu đi du lịch ở Hàn Quốc thì nên đi vào mùa xuân hoặc mùa thu.",
+      "exampleAnswerKo": "한국 여행을 간다면 봄이나 가을에 가는 것이 좋습니다.",
+      "audioSrc": "",
+      "sourcePage": 6,
+      "reviewNeeded": false,
+      "pronKo": "네우 디 주 릭 어 한 꾸옥 티 넨 디 무아 나오?",
+      "exampleAnswerPronKo": "네우 디 주 릭 어 한 꾸옥 티 넨 디 바오 무아 쑤언 호악 무아 투.",
+      "pronNoteKo": "Nếu ... thì nên ... = 만약 ~라면 ~하는 것이 좋다."
+    },
+    {
+      "id": "d6study-s-014",
+      "textVi": "Anh thích mùa nào nhất?",
+      "textKo": "어느 계절을 가장 좋아해요?",
+      "exampleAnswerVi": "Tôi thích mùa thu nhất vì thời tiết mát và đẹp.",
+      "exampleAnswerKo": "저는 날씨가 시원하고 아름다워서 가을을 가장 좋아합니다.",
+      "audioSrc": "",
+      "sourcePage": 6,
+      "reviewNeeded": false,
+      "pronKo": "아인 틱 무아 나오 녓?",
+      "exampleAnswerPronKo": "또이 틱 무아 투 녓 비 터이 띠엣 맛 바 뎁.",
+      "pronNoteKo": "Tôi thích ... nhất = 저는 ...을 가장 좋아합니다."
+    },
+    {
+      "id": "d6study-s-015",
+      "textVi": "Anh đã đi du lịch những đâu?",
+      "textKo": "어디어디 여행 가 봤어요?",
+      "exampleAnswerVi": "Tôi đã đi du lịch Jeju, Busan, Đà Nẵng và Phú Quốc.",
+      "exampleAnswerKo": "저는 제주, 부산, 다낭, 푸꾸옥을 여행해 봤습니다.",
+      "audioSrc": "",
+      "sourcePage": 6,
+      "reviewNeeded": false,
+      "pronKo": "아인 다 디 주 릭 능 더우?",
+      "exampleAnswerPronKo": "또이 다 디 주 릭 제주, 부산, 다 낭 바 푸 꾸옥.",
+      "pronNoteKo": "những đâu = 어디어디."
+    },
+    {
+      "id": "d6study-s-016",
+      "textVi": "Trong những nơi anh đã đi, anh thích nơi nào nhất?",
+      "textKo": "가 본 곳들 중에서 어디를 가장 좋아해요?",
+      "exampleAnswerVi": "Trong những nơi tôi đã đi, tôi thích Jeju nhất vì phong cảnh rất đẹp.",
+      "exampleAnswerKo": "제가 가 본 곳들 중에서 저는 제주를 가장 좋아합니다. 풍경이 매우 아름답기 때문입니다.",
+      "audioSrc": "",
+      "sourcePage": 6,
+      "reviewNeeded": false,
+      "pronKo": "쫑 능 너이 아인 다 디, 아인 틱 너이 나오 녓?",
+      "exampleAnswerPronKo": "쫑 능 너이 또이 다 디, 또이 틱 제주 녓 비 퐁 까잉 젓 뎁.",
+      "pronNoteKo": "Trong những nơi... = 그 장소들 중에서."
+    },
+    {
+      "id": "d6study-s-017",
+      "textVi": "Anh có bao giờ đi du lịch một mình không?",
+      "textKo": "혼자 여행해 본 적 있어요?",
+      "exampleAnswerVi": "Chưa. Tôi chưa bao giờ đi du lịch một mình. Tôi lúc nào cũng đi du lịch với gia đình.",
+      "exampleAnswerKo": "아니요. 저는 한 번도 혼자 여행해 본 적이 없습니다. 저는 항상 가족과 여행합니다.",
+      "audioSrc": "",
+      "sourcePage": 6,
+      "reviewNeeded": false,
+      "pronKo": "아인 꼬 바오 저 디 주 릭 못 민 콩?",
+      "exampleAnswerPronKo": "쯔어. 또이 쯔어 바오 저 디 주 릭 못 민. 또이 룩 나오 꿍 디 주 릭 버이 자 딩.",
+      "pronNoteKo": "chưa bao giờ = 한 번도 ~한 적 없다."
+    },
+    {
+      "id": "d6study-s-018",
+      "textVi": "Anh thích đi du lịch tự túc hay thích đi du lịch theo tour?",
+      "textKo": "자유여행을 좋아해요, 아니면 패키지여행을 좋아해요?",
+      "exampleAnswerVi": "Tôi thích đi du lịch tự túc hơn vì tôi có thể tự do thay đổi lịch trình.",
+      "exampleAnswerKo": "저는 일정을 자유롭게 바꿀 수 있어서 자유여행을 더 좋아합니다.",
+      "audioSrc": "",
+      "sourcePage": 6,
+      "reviewNeeded": false,
+      "pronKo": "아인 틱 디 주 릭 뜨 뚝 하이 틱 디 주 릭 테오 투어?",
+      "exampleAnswerPronKo": "또이 틱 디 주 릭 뜨 뚝 헌 비 또이 꼬 테 뜨 조 타이 도이 릭 찐.",
+      "pronNoteKo": "tự do thay đổi lịch trình = 일정을 자유롭게 바꾸다."
+    },
+    {
+      "id": "d6study-s-019",
+      "textVi": "Trước khi đi du lịch, anh thường chuẩn bị những gì?",
+      "textKo": "여행 가기 전에 보통 무엇을 준비해요?",
+      "exampleAnswerVi": "Trước khi đi du lịch, tôi thường đặt phòng khách sạn, đặt vé máy bay, lập kế hoạch du lịch và chuẩn bị hành lý.",
+      "exampleAnswerKo": "여행 가기 전에 저는 보통 호텔 방을 예약하고, 비행기 표를 예약하고, 여행 계획을 세우고, 짐을 준비합니다.",
+      "audioSrc": "",
+      "sourcePage": 6,
+      "reviewNeeded": false,
+      "pronKo": "쯔억 키 디 주 릭, 아인 트엉 쭈언 비 능 지?",
+      "exampleAnswerPronKo": "쯔억 키 디 주 릭, 또이 트엉 닷 퐁 카익 산, 닷 베 마이 바이, 럽 께 호악 주 릭 바 쭈언 비 하인 리.",
+      "pronNoteKo": "Trước khi + 동사 = ~하기 전에."
+    },
+    {
+      "id": "d6study-s-020",
+      "textVi": "Anh đã đi du lịch Việt Nam bao giờ chưa?",
+      "textKo": "베트남 여행 가 본 적 있어요?",
+      "exampleAnswerVi": "Rồi. Tôi đã từng đi du lịch Việt Nam. Tôi đã đi Đà Nẵng và Phú Quốc.",
+      "exampleAnswerKo": "네. 저는 베트남 여행을 가 본 적이 있습니다. 저는 다낭과 푸꾸옥에 가 봤습니다.",
+      "audioSrc": "",
+      "sourcePage": 6,
+      "reviewNeeded": false,
+      "pronKo": "아인 다 디 주 릭 비엣 남 바오 저 쯔어?",
+      "exampleAnswerPronKo": "조이. 또이 다 뜽 디 주 릭 비엣 남. 또이 다 디 다 낭 바 푸 꾸옥.",
+      "pronNoteKo": "Rồi = 이미 했다 / 경험 있음."
+    },
+    {
+      "id": "d6study-s-021",
+      "textVi": "Anh có hay đi ăn nhà hàng không?",
+      "textKo": "식당에 자주 먹으러 가요?",
+      "exampleAnswerVi": "Có. Cuối tuần tôi hay đi ăn nhà hàng với gia đình.",
+      "exampleAnswerKo": "네. 주말에 저는 가족과 식당에 자주 먹으러 갑니다.",
+      "audioSrc": "",
+      "sourcePage": 6,
+      "reviewNeeded": false,
+      "pronKo": "아인 꼬 하이 디 안 냐 항 콩?",
+      "exampleAnswerPronKo": "꼬. 꾸오이 뚜언 또이 하이 디 안 냐 항 버이 자 딩.",
+      "pronNoteKo": "hay + 동사 = 자주 ~하다."
+    },
+    {
+      "id": "d6study-s-022",
+      "textVi": "Anh thích ăn ở nhà hay ở nhà hàng?",
+      "textKo": "집에서 먹는 것을 좋아해요, 아니면 식당에서 먹는 것을 좋아해요?",
+      "exampleAnswerVi": "Tôi thích ăn ở nhà hơn vì rẻ hơn và thoải mái hơn.",
+      "exampleAnswerKo": "저는 더 싸고 더 편해서 집에서 먹는 것을 더 좋아합니다.",
+      "audioSrc": "",
+      "sourcePage": 6,
+      "reviewNeeded": false,
+      "pronKo": "아인 틱 안 어 냐 하이 어 냐 항?",
+      "exampleAnswerPronKo": "또이 틱 안 어 냐 헌 비 제 헌 바 토아이 마이 헌.",
+      "pronNoteKo": "hơn = 더."
+    },
+    {
+      "id": "d6study-s-023",
+      "textVi": "Anh đã ăn món Việt bao giờ chưa?",
+      "textKo": "베트남 음식을 먹어 본 적 있어요?",
+      "exampleAnswerVi": "Rồi. Tôi đã từng ăn phở, bánh mì, gỏi cuốn và bún chả.",
+      "exampleAnswerKo": "네. 저는 쌀국수, 반미, 월남쌈, 분짜를 먹어 본 적이 있습니다.",
+      "audioSrc": "",
+      "sourcePage": 6,
+      "reviewNeeded": false,
+      "pronKo": "아인 다 안 몬 비엣 바오 저 쯔어?",
+      "exampleAnswerPronKo": "조이. 또이 다 뜽 안 퍼, 바인 미, 고이 꾸온 바 분 짜.",
+      "pronNoteKo": "đã từng ăn = 먹어 본 적이 있다."
+    },
+    {
+      "id": "d6study-s-024",
+      "textVi": "Trong các món ăn Việt Nam, anh thích nhất món gì?",
+      "textKo": "베트남 음식 중에서 어떤 음식을 가장 좋아해요?",
+      "exampleAnswerVi": "Trong các món ăn Việt Nam, tôi thích phở nhất vì nước dùng rất ngon.",
+      "exampleAnswerKo": "베트남 음식 중에서 저는 쌀국수를 가장 좋아합니다. 국물이 매우 맛있기 때문입니다.",
+      "audioSrc": "",
+      "sourcePage": 6,
+      "reviewNeeded": false,
+      "pronKo": "쫑 깍 몬 안 비엣 남, 아인 틱 녓 몬 지?",
+      "exampleAnswerPronKo": "쫑 깍 몬 안 비엣 남, 또이 틱 퍼 녓 비 느억 중 젓 응온.",
+      "pronNoteKo": "Trong các... = ~들 중에서."
+    },
+    {
+      "id": "d6study-s-025",
+      "textVi": "Anh có ăn được cay không?",
+      "textKo": "매운 것을 먹을 수 있어요?",
+      "exampleAnswerVi": "Không. Tôi không ăn được cay. Nếu món ăn quá cay thì tôi không thể ăn nhiều.",
+      "exampleAnswerKo": "아니요. 저는 매운 것을 못 먹습니다. 음식이 너무 매우면 많이 먹을 수 없습니다.",
+      "audioSrc": "",
+      "sourcePage": 6,
+      "reviewNeeded": false,
+      "pronKo": "아인 꼬 안 드억 까이 콩?",
+      "exampleAnswerPronKo": "콩. 또이 콩 안 드억 까이. 네우 몬 안 꽈 까이 티 또이 콩 테 안 니에우.",
+      "pronNoteKo": "không ăn được = 못 먹다."
+    },
+    {
+      "id": "d6study-s-026",
+      "textVi": "Anh không ăn được món gì?",
+      "textKo": "어떤 음식을 못 먹어요?",
+      "exampleAnswerVi": "Tôi không ăn được đồ quá cay và đồ sống.",
+      "exampleAnswerKo": "저는 너무 매운 음식과 날것을 못 먹습니다.",
+      "audioSrc": "",
+      "sourcePage": 6,
+      "reviewNeeded": false,
+      "pronKo": "아인 콩 안 드억 몬 지?",
+      "exampleAnswerPronKo": "또이 콩 안 드억 도 꽈 까이 바 도 쏭.",
+      "pronNoteKo": "món gì = 어떤 음식."
+    },
+    {
+      "id": "d6study-s-027",
+      "textVi": "Khi đi ăn với bạn bè, anh có chia tiền ăn không?",
+      "textKo": "친구들과 먹으러 갈 때 식사비를 나눠서 계산해요?",
+      "exampleAnswerVi": "Có. Khi đi ăn với bạn bè, tôi thường chia tiền ăn.",
+      "exampleAnswerKo": "네. 친구들과 먹으러 갈 때 저는 보통 식사비를 나눠서 계산합니다.",
+      "audioSrc": "",
+      "sourcePage": 6,
+      "reviewNeeded": false,
+      "pronKo": "키 디 안 버이 반 베, 아인 꼬 찌아 띠엔 안 콩?",
+      "exampleAnswerPronKo": "꼬. 키 디 안 버이 반 베, 또이 트엉 찌아 띠엔 안.",
+      "pronNoteKo": "Khi + 문장 = ~할 때."
+    },
+    {
+      "id": "d6study-s-028",
+      "textVi": "Quán ăn yêu thích của anh là quán nào?",
+      "textKo": "당신이 가장 좋아하는 식당은 어디예요?",
+      "exampleAnswerVi": "Quán ăn yêu thích của tôi là quán Emoi. Tôi thích quán đó vì món phở rất ngon và không quá đắt.",
+      "exampleAnswerKo": "제가 가장 좋아하는 식당은 에머이입니다. 쌀국수가 매우 맛있고 너무 비싸지 않아서 그 식당을 좋아합니다.",
+      "audioSrc": "",
+      "sourcePage": 6,
+      "reviewNeeded": false,
+      "pronKo": "꽌 안 이에우 틱 꾸어 아인 라 꽌 나오?",
+      "exampleAnswerPronKo": "꽌 안 이에우 틱 꾸어 또이 라 꽌 에머이. 또이 틱 꽌 도 비 몬 퍼 젓 응온 바 콩 꽈 닷.",
+      "pronNoteKo": "yêu thích của tôi = 내가 가장 좋아하는."
+    }
+  ],
+  "dialogues": [
+    {
+      "id": "d6study-d-001",
+      "title": "거주지와 도시",
+      "audioSrc": "",
+      "sourcePage": 6,
+      "reviewNeeded": false,
+      "lines": [
+        {
+          "speaker": "A",
+          "vi": "Hiện tại anh đang sống ở đâu?",
+          "ko": "현재 어디에 살고 있어요?",
+          "pronKo": "히엔 따이 아인 당 쏭 어 더우?"
+        },
+        {
+          "speaker": "B",
+          "vi": "Hiện tại tôi đang sống ở Dongtan với gia đình.",
+          "ko": "현재 저는 가족과 함께 동탄에 살고 있습니다.",
+          "pronKo": "히엔 따이 또이 당 쏭 어 동탄 버이 자 딩."
+        },
+        {
+          "speaker": "A",
+          "vi": "Thành phố anh đang sống có gì thú vị không?",
+          "ko": "당신이 살고 있는 도시에 재미있는 것이 있어요?",
+          "pronKo": "타인 포 아인 당 쏭 꼬 지 투 비 콩?"
+        },
+        {
+          "speaker": "B",
+          "vi": "Có. Thành phố mà tôi đang sống rất thú vị, có nhiều chỗ chơi như công viên, siêu thị và trung tâm thương mại.",
+          "ko": "네. 제가 살고 있는 도시는 매우 재미있고, 공원, 슈퍼마켓, 쇼핑몰 같은 놀 곳이 많습니다.",
+          "pronKo": "꼬. 타인 포 마 또이 당 쏭 젓 투 비, 꼬 니에우 쪼 쩌이 느 꽁 비엔, 시에우 티 바 쭝 떰 트엉 마이."
+        }
+      ]
+    },
+    {
+      "id": "d6study-d-002",
+      "title": "도시와 시골 비교",
+      "audioSrc": "",
+      "sourcePage": 6,
+      "reviewNeeded": false,
+      "lines": [
+        {
+          "speaker": "A",
+          "vi": "Anh thích sống ở thành phố hơn hay ở nông thôn hơn?",
+          "ko": "도시에서 사는 것을 더 좋아해요, 아니면 시골에서 사는 것을 더 좋아해요?",
+          "pronKo": "아인 틱 쏭 어 타인 포 헌 하이 어 농 톤 헌?"
+        },
+        {
+          "speaker": "B",
+          "vi": "Đối với tôi thì tôi thích sống ở thành phố hơn vì tiện lợi và hiện đại hơn.",
+          "ko": "제 생각에는 도시가 더 편리하고 현대적이기 때문에 저는 도시에서 사는 것을 더 좋아합니다.",
+          "pronKo": "도이 버이 또이 티 또이 틱 쏭 어 타인 포 헌 비 띠엔 러이 바 히엔 다이 헌."
+        },
+        {
+          "speaker": "A",
+          "vi": "Anh quê ở đâu?",
+          "ko": "고향이 어디예요?",
+          "pronKo": "아인 꿰 어 더우?"
+        },
+        {
+          "speaker": "B",
+          "vi": "Quê tôi ở Dongducheon, nhưng bây giờ tôi sống ở Dongtan.",
+          "ko": "제 고향은 동두천이지만 지금은 동탄에 살고 있습니다.",
+          "pronKo": "꿰 또이 어 동두천, 늉 버이 저 또이 쏭 어 동탄."
+        }
+      ]
+    },
+    {
+      "id": "d6study-d-003",
+      "title": "집과 회사 거리",
+      "audioSrc": "",
+      "sourcePage": 6,
+      "reviewNeeded": false,
+      "lines": [
+        {
+          "speaker": "A",
+          "vi": "Từ nhà anh đến công ty đi mất bao lâu?",
+          "ko": "집에서 회사까지 가는 데 얼마나 걸려요?",
+          "pronKo": "뜨 냐 아인 덴 꽁 티 디 멋 바오 러우?"
+        },
+        {
+          "speaker": "B",
+          "vi": "Từ nhà tôi đến công ty mất khoảng một tiếng bằng xe buýt công ty.",
+          "ko": "제 집에서 회사까지 회사 버스로 약 1시간 걸립니다.",
+          "pronKo": "뜨 냐 또이 덴 꽁 티 멋 코앙 못 띠엥 방 세 부잇 꽁 티."
+        },
+        {
+          "speaker": "A",
+          "vi": "Nhà anh có gần công ty không?",
+          "ko": "집이 회사와 가까워요?",
+          "pronKo": "냐 아인 꼬 건 꽁 티 콩?"
+        },
+        {
+          "speaker": "B",
+          "vi": "Không gần lắm. Không xa lắm, nhưng đi hơi lâu.",
+          "ko": "그렇게 가깝지는 않습니다. 아주 멀지도 않지만 가는 데 조금 오래 걸립니다.",
+          "pronKo": "콩 건 람. 콩 싸 람, 늉 디 허이 러우."
+        }
+      ]
+    },
+    {
+      "id": "d6study-d-004",
+      "title": "집값과 임대 주택",
+      "audioSrc": "",
+      "sourcePage": 6,
+      "reviewNeeded": false,
+      "lines": [
+        {
+          "speaker": "A",
+          "vi": "Anh mua nhà rồi hay đang ở nhà thuê?",
+          "ko": "집을 샀어요, 아니면 임대 주택에 살고 있어요?",
+          "pronKo": "아인 무아 냐 조이 하이 당 어 냐 투에?"
+        },
+        {
+          "speaker": "B",
+          "vi": "Tôi vẫn còn ở nhà thuê. Tôi muốn mua nhà, nhưng nhà ở Hàn Quốc rất đắt.",
+          "ko": "저는 아직 임대 주택에 살고 있습니다. 집을 사고 싶지만 한국의 집은 매우 비쌉니다.",
+          "pronKo": "또이 번 꼰 어 냐 투에. 또이 무온 무아 냐, 늉 냐 어 한 꾸옥 젓 닷."
+        },
+        {
+          "speaker": "A",
+          "vi": "Anh nghĩ nên mua nhà hay thuê nhà?",
+          "ko": "집을 사는 것이 좋다고 생각해요, 아니면 임대하는 것이 좋다고 생각해요?",
+          "pronKo": "아인 응이 넨 무아 냐 하이 투에 냐?"
+        },
+        {
+          "speaker": "B",
+          "vi": "Nếu tôi có nhiều tiền thì mua nhà là tốt nhất.",
+          "ko": "만약 돈이 많다면 집을 사는 것이 가장 좋습니다.",
+          "pronKo": "네우 또이 꼬 니에우 띠엔 티 무아 냐 라 똣 녓."
+        }
+      ]
+    },
+    {
+      "id": "d6study-d-005",
+      "title": "날씨와 사계절",
+      "audioSrc": "",
+      "sourcePage": 6,
+      "reviewNeeded": false,
+      "lines": [
+        {
+          "speaker": "A",
+          "vi": "Hôm nay thời tiết ở chỗ anh thế nào?",
+          "ko": "오늘 당신이 있는 곳의 날씨는 어때요?",
+          "pronKo": "홈 나이 터이 띠엣 어 쪼 아인 테 나오?"
+        },
+        {
+          "speaker": "B",
+          "vi": "Hôm nay thời tiết ở chỗ tôi rất đẹp, hơi nóng và không mưa.",
+          "ko": "오늘 제가 있는 곳의 날씨는 매우 좋고, 조금 덥고, 비가 오지 않습니다.",
+          "pronKo": "홈 나이 터이 띠엣 어 쪼 또이 젓 뎁, 허이 농 바 콩 므어."
+        },
+        {
+          "speaker": "A",
+          "vi": "Khí hậu của Hàn Quốc thế nào?",
+          "ko": "한국의 기후는 어때요?",
+          "pronKo": "키 허우 꾸어 한 꾸옥 테 나오?"
+        },
+        {
+          "speaker": "B",
+          "vi": "Khí hậu của Hàn Quốc có bốn mùa rõ rệt.",
+          "ko": "한국의 기후는 사계절이 뚜렷합니다.",
+          "pronKo": "키 허우 꾸어 한 꾸옥 꼬 본 무아 조 젯."
+        }
+      ]
+    },
+    {
+      "id": "d6study-d-006",
+      "title": "여름과 겨울 날씨",
+      "audioSrc": "",
+      "sourcePage": 6,
+      "reviewNeeded": false,
+      "lines": [
+        {
+          "speaker": "A",
+          "vi": "Mùa hè ở Hàn Quốc có nóng không?",
+          "ko": "한국의 여름은 더워요?",
+          "pronKo": "무아 헤 어 한 꾸옥 꼬 농 콩?"
+        },
+        {
+          "speaker": "B",
+          "vi": "Có. Mùa hè ở Hàn Quốc rất nóng và ẩm.",
+          "ko": "네. 한국의 여름은 매우 덥고 습합니다.",
+          "pronKo": "꼬. 무아 헤 어 한 꾸옥 젓 농 바 엄."
+        },
+        {
+          "speaker": "A",
+          "vi": "Mùa đông lạnh nhất là bao nhiêu độ?",
+          "ko": "겨울에 가장 추울 때는 몇 도예요?",
+          "pronKo": "무아 동 라인 녓 라 바오 니에우 도?"
+        },
+        {
+          "speaker": "B",
+          "vi": "Ở Hàn Quốc, mùa đông lạnh nhất khoảng âm hai mươi độ.",
+          "ko": "한국에서 겨울에 가장 추울 때는 약 영하 20도입니다.",
+          "pronKo": "어 한 꾸옥, 무아 동 라인 녓 코앙 엄 하이 므어이 도."
+        }
+      ]
+    },
+    {
+      "id": "d6study-d-007",
+      "title": "여행 경험",
+      "audioSrc": "",
+      "sourcePage": 6,
+      "reviewNeeded": false,
+      "lines": [
+        {
+          "speaker": "A",
+          "vi": "Anh đã đi du lịch những đâu?",
+          "ko": "어디어디 여행 가 봤어요?",
+          "pronKo": "아인 다 디 주 릭 능 더우?"
+        },
+        {
+          "speaker": "B",
+          "vi": "Tôi đã đi du lịch Jeju, Busan, Đà Nẵng và Phú Quốc.",
+          "ko": "저는 제주, 부산, 다낭, 푸꾸옥을 여행해 봤습니다.",
+          "pronKo": "또이 다 디 주 릭 제주, 부산, 다 낭 바 푸 꾸옥."
+        },
+        {
+          "speaker": "A",
+          "vi": "Trong những nơi anh đã đi, anh thích nơi nào nhất?",
+          "ko": "가 본 곳들 중에서 어디를 가장 좋아해요?",
+          "pronKo": "쫑 능 너이 아인 다 디, 아인 틱 너이 나오 녓?"
+        },
+        {
+          "speaker": "B",
+          "vi": "Trong những nơi tôi đã đi, tôi thích Jeju nhất vì phong cảnh rất đẹp.",
+          "ko": "제가 가 본 곳들 중에서 저는 제주를 가장 좋아합니다. 풍경이 매우 아름답기 때문입니다.",
+          "pronKo": "쫑 능 너이 또이 다 디, 또이 틱 제주 녓 비 퐁 까잉 젓 뎁."
+        }
+      ]
+    },
+    {
+      "id": "d6study-d-008",
+      "title": "여행 준비",
+      "audioSrc": "",
+      "sourcePage": 6,
+      "reviewNeeded": false,
+      "lines": [
+        {
+          "speaker": "A",
+          "vi": "Trước khi đi du lịch, anh thường chuẩn bị những gì?",
+          "ko": "여행 가기 전에 보통 무엇을 준비해요?",
+          "pronKo": "쯔억 키 디 주 릭, 아인 트엉 쭈언 비 능 지?"
+        },
+        {
+          "speaker": "B",
+          "vi": "Trước khi đi du lịch, tôi thường đặt phòng khách sạn, đặt vé máy bay, lập kế hoạch du lịch và chuẩn bị hành lý.",
+          "ko": "여행 가기 전에 저는 보통 호텔 방을 예약하고, 비행기 표를 예약하고, 여행 계획을 세우고, 짐을 준비합니다.",
+          "pronKo": "쯔억 키 디 주 릭, 또이 트엉 닷 퐁 카익 산, 닷 베 마이 바이, 럽 께 호악 주 릭 바 쭈언 비 하인 리."
+        },
+        {
+          "speaker": "A",
+          "vi": "Anh có bao giờ đi du lịch một mình không?",
+          "ko": "혼자 여행해 본 적 있어요?",
+          "pronKo": "아인 꼬 바오 저 디 주 릭 못 민 콩?"
+        },
+        {
+          "speaker": "B",
+          "vi": "Chưa. Tôi chưa bao giờ đi du lịch một mình. Tôi lúc nào cũng đi du lịch với gia đình.",
+          "ko": "아니요. 저는 한 번도 혼자 여행해 본 적이 없습니다. 저는 항상 가족과 여행합니다.",
+          "pronKo": "쯔어. 또이 쯔어 바오 저 디 주 릭 못 민. 또이 룩 나오 꿍 디 주 릭 버이 자 딩."
+        }
+      ]
+    },
+    {
+      "id": "d6study-d-009",
+      "title": "식당과 베트남 음식",
+      "audioSrc": "",
+      "sourcePage": 6,
+      "reviewNeeded": false,
+      "lines": [
+        {
+          "speaker": "A",
+          "vi": "Anh có hay đi ăn nhà hàng không?",
+          "ko": "식당에 자주 먹으러 가요?",
+          "pronKo": "아인 꼬 하이 디 안 냐 항 콩?"
+        },
+        {
+          "speaker": "B",
+          "vi": "Có. Cuối tuần tôi hay đi ăn nhà hàng với gia đình.",
+          "ko": "네. 주말에 저는 가족과 식당에 자주 먹으러 갑니다.",
+          "pronKo": "꼬. 꾸오이 뚜언 또이 하이 디 안 냐 항 버이 자 딩."
+        },
+        {
+          "speaker": "A",
+          "vi": "Anh đã ăn món Việt bao giờ chưa?",
+          "ko": "베트남 음식을 먹어 본 적 있어요?",
+          "pronKo": "아인 다 안 몬 비엣 바오 저 쯔어?"
+        },
+        {
+          "speaker": "B",
+          "vi": "Rồi. Tôi đã từng ăn phở, bánh mì, gỏi cuốn và bún chả.",
+          "ko": "네. 저는 쌀국수, 반미, 월남쌈, 분짜를 먹어 본 적이 있습니다.",
+          "pronKo": "조이. 또이 다 뜽 안 퍼, 바인 미, 고이 꾸온 바 분 짜."
+        }
+      ]
+    },
+    {
+      "id": "d6study-d-010",
+      "title": "못 먹는 음식과 더치페이",
+      "audioSrc": "",
+      "sourcePage": 6,
+      "reviewNeeded": false,
+      "lines": [
+        {
+          "speaker": "A",
+          "vi": "Anh có ăn được cay không?",
+          "ko": "매운 것을 먹을 수 있어요?",
+          "pronKo": "아인 꼬 안 드억 까이 콩?"
+        },
+        {
+          "speaker": "B",
+          "vi": "Không. Tôi không ăn được cay. Tôi cũng không ăn được đồ sống.",
+          "ko": "아니요. 저는 매운 것을 못 먹습니다. 저는 날것도 못 먹습니다.",
+          "pronKo": "콩. 또이 콩 안 드억 까이. 또이 꿍 콩 안 드억 도 쏭."
+        },
+        {
+          "speaker": "A",
+          "vi": "Khi đi ăn với bạn bè, anh có chia tiền ăn không?",
+          "ko": "친구들과 먹으러 갈 때 식사비를 나눠서 계산해요?",
+          "pronKo": "키 디 안 버이 반 베, 아인 꼬 찌아 띠엔 안 콩?"
+        },
+        {
+          "speaker": "B",
+          "vi": "Có. Khi đi ăn với bạn bè, tôi thường chia tiền ăn.",
+          "ko": "네. 친구들과 먹으러 갈 때 저는 보통 식사비를 나눠서 계산합니다.",
+          "pronKo": "꼬. 키 디 안 버이 반 베, 또이 트엉 찌아 띠엔 안."
+        }
+      ]
+    }
+  ],
+  "grammarPoints": [
+    {
+      "id": "d6study-g-001",
+      "title": "현재 거주 말하기",
+      "pattern": "Hiện tại tôi đang sống ở + 장소.",
+      "meaningKo": "현재 저는 ~에 살고 있습니다.",
+      "sourcePage": 6,
+      "reviewNeeded": false
+    },
+    {
+      "id": "d6study-g-002",
+      "title": "관계절처럼 쓰는 mà",
+      "pattern": "명사 + mà + 문장",
+      "meaningKo": "~하는 명사. 예: 제가 살고 있는 도시.",
+      "sourcePage": 6,
+      "reviewNeeded": false
+    },
+    {
+      "id": "d6study-g-003",
+      "title": "제 생각에는",
+      "pattern": "Đối với tôi thì + 문장.",
+      "meaningKo": "제 생각에는 / 저에게는 ~입니다.",
+      "sourcePage": 6,
+      "reviewNeeded": false
+    },
+    {
+      "id": "d6study-g-004",
+      "title": "더 ~하다",
+      "pattern": "형용사 + hơn",
+      "meaningKo": "더 ~하다. 예: tiện lợi hơn, hiện đại hơn, vui hơn.",
+      "sourcePage": 6,
+      "reviewNeeded": false
+    },
+    {
+      "id": "d6study-g-005",
+      "title": "A에서 B까지 시간이 걸리다",
+      "pattern": "Từ A đến B mất + 시간.",
+      "meaningKo": "A에서 B까지 ~ 시간이 걸립니다.",
+      "sourcePage": 6,
+      "reviewNeeded": false
+    },
+    {
+      "id": "d6study-g-006",
+      "title": "아직도",
+      "pattern": "vẫn còn + 동사/상태",
+      "meaningKo": "아직도 ~하다.",
+      "sourcePage": 6,
+      "reviewNeeded": false
+    },
+    {
+      "id": "d6study-g-007",
+      "title": "만약 ~라면",
+      "pattern": "Nếu + 문장 + thì + 문장.",
+      "meaningKo": "만약 ~라면 ~입니다.",
+      "sourcePage": 6,
+      "reviewNeeded": false
+    },
+    {
+      "id": "d6study-g-008",
+      "title": "A도 B도",
+      "pattern": "vừa A vừa B",
+      "meaningKo": "A이기도 하고 B이기도 하다.",
+      "sourcePage": 6,
+      "reviewNeeded": false
+    },
+    {
+      "id": "d6study-g-009",
+      "title": "그렇게 ~하지 않다",
+      "pattern": "không + 형용사 + lắm",
+      "meaningKo": "그렇게 ~하지 않습니다.",
+      "sourcePage": 6,
+      "reviewNeeded": false
+    },
+    {
+      "id": "d6study-g-010",
+      "title": "날씨 묻기",
+      "pattern": "Hôm nay thời tiết thế nào?",
+      "meaningKo": "오늘 날씨가 어때요?",
+      "sourcePage": 6,
+      "reviewNeeded": false
+    },
+    {
+      "id": "d6study-g-011",
+      "title": "기후 비교",
+      "pattern": "So với A thì B + 형용사 + hơn.",
+      "meaningKo": "A와 비교하면 B가 더 ~합니다.",
+      "sourcePage": 6,
+      "reviewNeeded": false
+    },
+    {
+      "id": "d6study-g-012",
+      "title": "추천 표현",
+      "pattern": "Nếu ... thì nên ...",
+      "meaningKo": "만약 ~라면 ~하는 것이 좋습니다.",
+      "sourcePage": 6,
+      "reviewNeeded": false
+    },
+    {
+      "id": "d6study-g-013",
+      "title": "기온 말하기",
+      "pattern": "khoảng + 숫자 + độ",
+      "meaningKo": "약 ~도.",
+      "sourcePage": 6,
+      "reviewNeeded": false
+    },
+    {
+      "id": "d6study-g-014",
+      "title": "영하 표현",
+      "pattern": "âm + 숫자 + độ",
+      "meaningKo": "영하 ~도.",
+      "sourcePage": 6,
+      "reviewNeeded": false
+    },
+    {
+      "id": "d6study-g-015",
+      "title": "가 본 적 있다",
+      "pattern": "đã từng + 동사",
+      "meaningKo": "~해 본 적이 있습니다.",
+      "sourcePage": 6,
+      "reviewNeeded": false
+    },
+    {
+      "id": "d6study-g-016",
+      "title": "한 번도 ~한 적 없다",
+      "pattern": "chưa bao giờ + 동사",
+      "meaningKo": "한 번도 ~한 적이 없습니다.",
+      "sourcePage": 6,
+      "reviewNeeded": false
+    },
+    {
+      "id": "d6study-g-017",
+      "title": "~들 중에서",
+      "pattern": "Trong những/các + 명사, tôi thích ... nhất.",
+      "meaningKo": "~들 중에서 저는 ...을 가장 좋아합니다.",
+      "sourcePage": 6,
+      "reviewNeeded": false
+    },
+    {
+      "id": "d6study-g-018",
+      "title": "~하기 전에",
+      "pattern": "Trước khi + 동사, 주어 + 동사.",
+      "meaningKo": "~하기 전에, ~합니다.",
+      "sourcePage": 6,
+      "reviewNeeded": false
+    },
+    {
+      "id": "d6study-g-019",
+      "title": "~할 수 있다 / 없다",
+      "pattern": "có thể + 동사 / không thể + 동사",
+      "meaningKo": "~할 수 있다 / ~할 수 없다.",
+      "sourcePage": 6,
+      "reviewNeeded": false
+    },
+    {
+      "id": "d6study-g-020",
+      "title": "먹을 수 있다 / 못 먹다",
+      "pattern": "ăn được / không ăn được",
+      "meaningKo": "먹을 수 있다 / 먹을 수 없다.",
+      "sourcePage": 6,
+      "reviewNeeded": false
+    },
+    {
+      "id": "d6study-g-021",
+      "title": "먹으면 안 된다",
+      "pattern": "không được ăn + 음식",
+      "meaningKo": "~을 먹으면 안 됩니다. 금지의 느낌입니다.",
+      "sourcePage": 6,
+      "reviewNeeded": false
+    },
+    {
+      "id": "d6study-g-022",
+      "title": "~할 때",
+      "pattern": "Khi + 문장, 주어 + 동사.",
+      "meaningKo": "~할 때, ~합니다.",
+      "sourcePage": 6,
+      "reviewNeeded": false
+    }
+  ],
+  "pronunciationTargets": [
+    {
+      "id": "d6study-p-001",
+      "text": "mua / mưa / mùa",
+      "hintKo": "사다 / 비 / 계절",
+      "audioSrc": "",
+      "sourcePage": 6,
+      "reviewNeeded": false,
+      "pronKo": "무아 / 므어 / 무아",
+      "mouthKo": "성조 차이로 의미가 완전히 달라집니다.",
+      "toneKo": "mua vé máy bay, trời mưa, mùa thu처럼 문장으로 외우세요."
+    },
+    {
+      "id": "d6study-p-002",
+      "text": "ấm / ẩm",
+      "hintKo": "따뜻하다 / 습하다",
+      "audioSrc": "",
+      "sourcePage": 6,
+      "reviewNeeded": false,
+      "pronKo": "엄 / 엄",
+      "mouthKo": "둘 다 비슷하게 들리지만 성조가 다릅니다.",
+      "toneKo": "mùa xuân ấm, mùa hè ẩm으로 묶어서 외우세요."
+    },
+    {
+      "id": "d6study-p-003",
+      "text": "khô / khó",
+      "hintKo": "건조하다 / 어렵다",
+      "audioSrc": "",
+      "sourcePage": 6,
+      "reviewNeeded": false,
+      "pronKo": "코 / 코",
+      "mouthKo": "성조로 구분합니다.",
+      "toneKo": "Mùa đông khô. Tiếng Việt khó."
+    },
+    {
+      "id": "d6study-p-004",
+      "text": "vé / về",
+      "hintKo": "표 / 돌아가다",
+      "audioSrc": "",
+      "sourcePage": 6,
+      "reviewNeeded": false,
+      "pronKo": "베 / 베",
+      "mouthKo": "여행 주제에서 자주 헷갈리는 단어입니다.",
+      "toneKo": "vé máy bay는 비행기 표, về nhà는 집에 돌아가다입니다."
+    },
+    {
+      "id": "d6study-p-005",
+      "text": "đắt / đặt",
+      "hintKo": "비싸다 / 예약하다",
+      "audioSrc": "",
+      "sourcePage": 6,
+      "reviewNeeded": false,
+      "pronKo": "닷 / 닷",
+      "mouthKo": "가격은 đắt, 예약은 đặt입니다.",
+      "toneKo": "Nhà rất đắt. Tôi đặt vé máy bay."
+    },
+    {
+      "id": "d6study-p-006",
+      "text": "nói / nơi",
+      "hintKo": "말하다 / 장소",
+      "audioSrc": "",
+      "sourcePage": 6,
+      "reviewNeeded": false,
+      "pronKo": "노이 / 너이",
+      "mouthKo": "nói는 말하다, nơi는 장소입니다.",
+      "toneKo": "Tôi nói tiếng Việt. Đây là nơi tôi thích nhất."
+    },
+    {
+      "id": "d6study-p-007",
+      "text": "cho / chó / chỗ",
+      "hintKo": "~에게, 위해 / 개 / 장소",
+      "audioSrc": "",
+      "sourcePage": 6,
+      "reviewNeeded": false,
+      "pronKo": "쪼 / 쪼 / 쪼",
+      "mouthKo": "성조 차이로 의미가 달라집니다.",
+      "toneKo": "cho vợ con, con chó, chỗ chơi로 묶어 외우세요."
+    },
+    {
+      "id": "d6study-p-008",
+      "text": "không ăn được / không được ăn",
+      "hintKo": "못 먹다 / 먹으면 안 된다",
+      "audioSrc": "",
+      "sourcePage": 6,
+      "reviewNeeded": false,
+      "pronKo": "콩 안 드억 / 콩 드억 안",
+      "mouthKo": "단어 순서가 바뀌면 의미가 바뀝니다.",
+      "toneKo": "Tôi không ăn được cay = 못 먹는다. Tôi không được ăn cay = 먹으면 안 된다."
+    }
+  ],
+  "quizSeeds": [
+    {
+      "id": "d6study-q-001",
+      "type": "match-term",
+      "prompt": "6일차 거주지 단어 매칭",
+      "answerSet": [
+        "hiện tại-현재",
+        "đang sống-살고 있다",
+        "thành phố-도시",
+        "nông thôn-시골",
+        "quê-고향",
+        "về quê-고향에 가다",
+        "thú vị-흥미롭다",
+        "chỗ chơi-놀 곳",
+        "tiện lợi-편리하다",
+        "hiện đại-현대적이다"
+      ],
+      "sourcePage": 6,
+      "reviewNeeded": false
+    },
+    {
+      "id": "d6study-q-002",
+      "type": "match-term",
+      "prompt": "6일차 집/거리 단어 매칭",
+      "answerSet": [
+        "mất bao lâu-얼마나 걸리다",
+        "bằng xe buýt-버스로",
+        "nhà thuê-임대 주택",
+        "mua nhà-집을 사다",
+        "nhà đất-단독주택 / 집과 땅",
+        "giá nhà-집값",
+        "đắt-비싸다",
+        "rẻ-싸다",
+        "phòng khách-거실",
+        "hàng xóm-이웃"
+      ],
+      "sourcePage": 6,
+      "reviewNeeded": false
+    },
+    {
+      "id": "d6study-q-003",
+      "type": "match-term",
+      "prompt": "6일차 날씨 단어 매칭",
+      "answerSet": [
+        "thời tiết-날씨",
+        "khí hậu-기후",
+        "mùa-계절",
+        "mùa xuân-봄",
+        "mùa hè-여름",
+        "mùa thu-가을",
+        "mùa đông-겨울",
+        "nóng-덥다",
+        "lạnh-춥다",
+        "mát-시원하다"
+      ],
+      "sourcePage": 6,
+      "reviewNeeded": false
+    },
+    {
+      "id": "d6study-q-004",
+      "type": "match-term",
+      "prompt": "6일차 날씨 확장 단어 매칭",
+      "answerSet": [
+        "ấm-따뜻하다",
+        "ẩm-습하다",
+        "khô-건조하다",
+        "so với-~와 비교해서",
+        "đi biển-바다에 가다",
+        "đi ngắm hoa-꽃구경 가다",
+        "hoa anh đào-벚꽃",
+        "đi leo núi-등산하다",
+        "đi trượt tuyết-스키 타러 가다",
+        "điều hòa-에어컨"
+      ],
+      "sourcePage": 6,
+      "reviewNeeded": false
+    },
+    {
+      "id": "d6study-q-005",
+      "type": "match-term",
+      "prompt": "6일차 여행 단어 매칭",
+      "answerSet": [
+        "du lịch-여행",
+        "đi du lịch-여행 가다",
+        "một mình-혼자",
+        "cùng-함께",
+        "trong nước-국내",
+        "nước ngoài-해외",
+        "gần đây-최근",
+        "trong những-~들 중에서",
+        "trải nghiệm-체험 / 경험",
+        "kinh nghiệm-경험"
+      ],
+      "sourcePage": 6,
+      "reviewNeeded": false
+    },
+    {
+      "id": "d6study-q-006",
+      "type": "match-term",
+      "prompt": "6일차 여행 준비 단어 매칭",
+      "answerSet": [
+        "du lịch tự túc-자유여행",
+        "du lịch theo tour-패키지 여행",
+        "trước khi-~하기 전에",
+        "đặt phòng khách sạn-호텔 방을 예약하다",
+        "vé máy bay-비행기 표",
+        "hành lý-짐",
+        "đổi tiền-환전하다",
+        "lập kế hoạch-계획을 세우다",
+        "lịch trình-일정",
+        "phong cảnh-풍경"
+      ],
+      "sourcePage": 6,
+      "reviewNeeded": false
+    },
+    {
+      "id": "d6study-q-007",
+      "type": "match-term",
+      "prompt": "6일차 식당 단어 매칭",
+      "answerSet": [
+        "nhà hàng-식당",
+        "quán ăn-밥집 / 식당",
+        "đi ăn-먹으러 가다",
+        "món ăn-음식 / 요리",
+        "đồ ăn-음식",
+        "ẩm thực-음식 문화",
+        "thử món mới-새로운 음식을 먹어보다",
+        "món Việt-베트남 음식",
+        "phở-쌀국수",
+        "bánh mì-반미"
+      ],
+      "sourcePage": 6,
+      "reviewNeeded": false
+    },
+    {
+      "id": "d6study-q-008",
+      "type": "match-term",
+      "prompt": "6일차 식당 확장 단어 매칭",
+      "answerSet": [
+        "gỏi cuốn-월남쌈",
+        "bún chả-분짜",
+        "cay-맵다",
+        "ăn được-먹을 수 있다",
+        "không ăn được-못 먹다",
+        "không được ăn-먹으면 안 된다",
+        "đồ sống-날것",
+        "chia tiền-나눠서 계산하다",
+        "tiền ăn-식사비",
+        "bạn bè-친구들"
+      ],
+      "sourcePage": 6,
+      "reviewNeeded": false
+    },
+    {
+      "id": "d6study-q-009",
+      "type": "sentence-meaning",
+      "prompt": "6일차 핵심 문장 뜻 고르기",
+      "answerSet": [
+        "Thành phố mà tôi đang sống rất thú vị.-제가 살고 있는 도시는 매우 재미있습니다.",
+        "Đối với tôi thì tôi thích sống ở thành phố hơn.-제 생각에는 저는 도시에서 사는 것을 더 좋아합니다.",
+        "Từ nhà tôi đến công ty mất khoảng một tiếng.-제 집에서 회사까지 약 1시간 걸립니다.",
+        "Tôi vẫn còn ở nhà thuê.-저는 아직 임대 주택에 살고 있습니다.",
+        "Gần nhà tôi vừa có siêu thị vừa có công viên.-제 집 근처에는 슈퍼마켓도 있고 공원도 있습니다.",
+        "So với Việt Nam thì Hàn Quốc lạnh hơn.-베트남과 비교하면 한국이 더 춥습니다.",
+        "Tôi chưa bao giờ đi du lịch một mình.-저는 한 번도 혼자 여행해 본 적이 없습니다.",
+        "Tôi không ăn được cay.-저는 매운 것을 못 먹습니다."
+      ],
+      "sourcePage": 6,
+      "reviewNeeded": false
+    },
+    {
+      "id": "d6study-q-010",
+      "type": "fill-blank",
+      "prompt": "빈칸 채우기: 제 집에서 회사까지 약 1시간 걸립니다.",
+      "question": "Từ nhà tôi đến công ty ___ khoảng một tiếng.",
+      "answer": "mất",
+      "sourcePage": 6,
+      "reviewNeeded": false
+    },
+    {
+      "id": "d6study-q-011",
+      "type": "fill-blank",
+      "prompt": "빈칸 채우기: 베트남과 비교하면 한국이 더 춥습니다.",
+      "question": "___ Việt Nam thì Hàn Quốc lạnh hơn.",
+      "answer": "So với",
+      "sourcePage": 6,
+      "reviewNeeded": false
+    },
+    {
+      "id": "d6study-q-012",
+      "type": "fill-blank",
+      "prompt": "빈칸 채우기: 여행 가기 전에 저는 짐을 준비합니다.",
+      "question": "___ khi đi du lịch, tôi chuẩn bị hành lý.",
+      "answer": "Trước",
+      "sourcePage": 6,
+      "reviewNeeded": false
+    },
+    {
+      "id": "d6study-q-013",
+      "type": "fill-blank",
+      "prompt": "빈칸 채우기: 저는 매운 것을 못 먹습니다.",
+      "question": "Tôi không ___ được cay.",
+      "answer": "ăn",
+      "sourcePage": 6,
+      "reviewNeeded": false
+    },
+    {
+      "id": "d6study-q-014",
+      "type": "match-term",
+      "prompt": "헷갈리는 발음 매칭",
+      "answerSet": [
+        "mua-사다",
+        "mưa-비",
+        "mùa-계절",
+        "đắt-비싸다",
+        "đặt-예약하다 / 놓다",
+        "vé-표",
+        "về-돌아가다",
+        "khô-건조하다",
+        "khó-어렵다",
+        "ẩm-습하다"
+      ],
+      "sourcePage": 6,
+      "reviewNeeded": false
+    }
+  ],
+  "unlockCondition": "complete-previous",
+  "reviewNeeded": false
+    },
+    {
   "lessonId": "d6restaurant",
   "unitLabel": "6일차",
   "titleKo": "6일차: 식당과 외식",
