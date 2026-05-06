@@ -607,6 +607,16 @@ class VietnameseA1App {
     if (type === 'toggleSentenceAutoplay') return this.toggleSentenceAutoplay();
     if (type === 'toggleVocabAutoplay') return this.toggleVocabAutoplay();
     if (type === 'cardPlayMode') { this.state.cardViewMode = payload; this.state.revealMeaning = payload === 'both'; return this.render(); }
+    if (type === 'cardSpeakFront') {
+      const lesson = this.currentLesson();
+      const cards = lesson?.vocabCards || [];
+      const card = cards[this.clampIndex(this.state.cardIndex, cards.length)];
+      if (!card) return;
+      const mode = this.state.cardViewMode || 'word_first';
+      const text = mode === 'meaning_first' ? (card.meaningKo || card.term || '') : (card.term || card.meaningKo || '');
+      const lang = mode === 'meaning_first' ? 'ko-KR' : 'vi-VN';
+      return this.playAudio(mode === 'meaning_first' ? '' : (card.audioSrc || ''), text, { lang, allowAudio: mode !== 'meaning_first' });
+    }
     if (type === 'cardAutoPlay') return this.toggleVocabAutoplay();
     if (type === 'startQuiz') {
       this.setupQuizQueue();
@@ -832,7 +842,7 @@ class VietnameseA1App {
           <label class="small">레슨</label>
           <select data-change="lesson">${this.state.flat.lessons.map((l) => `<option value="${l.lessonId}" ${l.lessonId === this.state.lessonId ? 'selected' : ''}>${l.unitLabel} · ${l.titleKo}</option>`).join('')}</select>
         </div>
-        <div class="controls">${modeButtons}</div>
+        <div class="controls card-mode-controls">${modeButtons}<button class="icon-btn card-speaker-btn" data-action="cardSpeakFront" aria-label="앞면 음성 재생">🔊</button></div>
         <div class="setting-input-row" style="margin-top:8px">
           <label for="card-repeat-count">반복 횟수</label>
           <input id="card-repeat-count" class="setting-number-input" type="number" min="1" max="10" step="1" value="${this.settings.sentenceRepeatCount || 1}" data-change="cardRepeatCount" />
@@ -1476,11 +1486,16 @@ class VietnameseA1App {
     if (this.sentenceAutoplay.running || this.vocabAutoplay.running) this.stopStudyAutoplay();
     const lesson = this.currentLesson();
     if (!lesson) return;
-    if (this.state.studyMode === 'vocab') this.state.cardIndex = this.rotateIndex(this.state.cardIndex, delta, (lesson.vocabCards || []).length);
-    if (this.state.studyMode === 'sentence') this.state.sentenceIndex = this.rotateIndex(this.state.sentenceIndex, delta, (lesson.sentenceCards || []).length);
-    if (this.state.studyMode === 'dialogue') this.state.dialogueIndex = this.rotateIndex(this.state.dialogueIndex, delta, (lesson.dialogues || []).length);
-    if (this.state.studyMode === 'pronunciation') this.state.pronIndex = this.rotateIndex(this.state.pronIndex, delta, (lesson.pronunciationTargets || []).length);
-    this.state.revealMeaning = this.settings.autoShowMeaning;
+    if (this.state.tab === 'cards') {
+      this.state.cardIndex = this.rotateIndex(this.state.cardIndex, delta, (lesson.vocabCards || []).length);
+      this.state.revealMeaning = this.state.cardViewMode === 'both';
+    } else {
+      if (this.state.studyMode === 'vocab') this.state.cardIndex = this.rotateIndex(this.state.cardIndex, delta, (lesson.vocabCards || []).length);
+      if (this.state.studyMode === 'sentence') this.state.sentenceIndex = this.rotateIndex(this.state.sentenceIndex, delta, (lesson.sentenceCards || []).length);
+      if (this.state.studyMode === 'dialogue') this.state.dialogueIndex = this.rotateIndex(this.state.dialogueIndex, delta, (lesson.dialogues || []).length);
+      if (this.state.studyMode === 'pronunciation') this.state.pronIndex = this.rotateIndex(this.state.pronIndex, delta, (lesson.pronunciationTargets || []).length);
+    }
+    if (this.state.tab !== 'cards') this.state.revealMeaning = this.settings.autoShowMeaning;
 
     if (this.settings.autoPlay) {
       const item = this.currentCardItem();
