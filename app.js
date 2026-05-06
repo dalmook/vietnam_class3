@@ -874,13 +874,11 @@ class VietnameseA1App {
       <div class="flashcard-body study-card-body" data-action="toggleCardReveal">
         <div class="flashcard-inner ${(mode !== 'both' && show) ? 'is-flipped' : ''}">
           <section class="flashcard-face flashcard-front">
-            <div class="flashcard-label">${isMeaningFirst ? '뜻' : '단어'}</div>
             <h2 class="flashcard-main">${this.escapeHtml(frontMain)}</h2>
             ${mode === 'both' ? `<p class="flashcard-sub">${this.escapeHtml(isMeaningFirst ? term : meaning)}</p>` : ''}
             ${mode === 'both' && example ? `<p class="small flashcard-example">${this.escapeHtml(example)}<br>${this.escapeHtml(exampleKo)}</p>` : ''}
           </section>
           <section class="flashcard-face flashcard-back">
-            <div class="flashcard-label">${isMeaningFirst ? '단어' : '뜻'}</div>
             <h2 class="flashcard-main">${this.escapeHtml(backMain)}</h2>
             ${example ? `<p class="small flashcard-example">${this.escapeHtml(example)}<br>${this.escapeHtml(exampleKo)}</p>` : ''}
           </section>
