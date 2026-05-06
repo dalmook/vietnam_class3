@@ -463,6 +463,11 @@ class VietnameseA1App {
       if (node.dataset.change !== 'searchInput') {
         node.addEventListener('change', () => this.handleChange(node.dataset.change, node));
       }
+      if (node.dataset.change === 'ttsInput') {
+        node.addEventListener('input', () => {
+          this.state.ttsInput = node.value;
+        });
+      }
       if (node.dataset.change === 'searchInput') {
         node.addEventListener('input', () => {
           this.state.searchQuery = node.value;
@@ -586,6 +591,7 @@ class VietnameseA1App {
     if (type === 'search') return this.runSearch();
     if (type === 'toolsMode') { this.state.toolsMode = payload; return this.render(); }
     if (type === 'ttsSpeakInput') return this.speakTtsInput();
+    if (type === 'ttsClearInput') return this.clearTtsInput();
     if (type === 'ttsSpeakHistory') return this.speakTtsHistory(Number(payload));
     if (type === 'ttsDeleteHistory') return this.deleteTtsHistory(Number(payload));
     if (type === 'jump') return this.jumpToItem(payload);
@@ -1107,6 +1113,7 @@ class VietnameseA1App {
         <textarea class="input" rows="4" data-change="ttsInput" placeholder="읽을 문장이나 글을 입력하세요">${this.escapeHtml(this.state.ttsInput || '')}</textarea>
         <div class="controls" style="margin-top:8px;">
           <button class="primary" data-action="ttsSpeakInput">🔊 읽기</button>
+          <button data-action="ttsClearInput">🧹 지우기</button>
         </div>
       </div>
       <div class="card">
@@ -1119,10 +1126,15 @@ class VietnameseA1App {
   async speakTtsInput() {
     const text = (this.state.ttsInput || '').trim();
     if (!text) return;
-    await this.playAudio('', text, { lang: 'vi-VN', allowAudio: false });
     const next = [{ text, at: new Date().toISOString() }, ...(this.state.ttsHistory || []).filter((x) => x.text !== text)].slice(0, 30);
     this.state.ttsHistory = next;
     this.saveLocal('ttsHistory', next);
+    this.render();
+    await this.playAudio('', text, { lang: 'vi-VN', allowAudio: false });
+  }
+
+  clearTtsInput() {
+    this.state.ttsInput = '';
     this.render();
   }
 
