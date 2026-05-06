@@ -18,6 +18,1296 @@
     "earlyCoreExpansionNote": "기존 항목은 유지하고, l1~l3 초반부에 인칭대명사·호칭·핵심동사·의문사·지시어·소유/함께 표현을 추가함. 신규 항목의 audioSrc는 TTS 생성용으로 빈 문자열 처리."
   },
   "lessons": [
+    {
+  "lessonId": "d6housing",
+  "unitLabel": "6일차",
+  "titleKo": "6일차: 거주지와 집",
+  "titleVi": "Chủ đề 7: Nơi ở",
+  "pageRange": "Topic 1-21 / 15-16",
+  "goals": [
+    "현재 어디에 사는지 말할 수 있다",
+    "도시, 시골, 중심가, 교외 등 거주 지역을 설명할 수 있다",
+    "집의 종류와 구조를 말할 수 있다",
+    "집 주변 시설과 동네 분위기를 말할 수 있다",
+    "집값, 월세, 보증금, 부동산 관련 표현을 익힌다",
+    "OPIc 거주지 주제 질문에 짧고 자연스럽게 답할 수 있다"
+  ],
+  "topicOverview": "6일차는 거주지와 집을 설명하는 주제입니다. 어디에 사는지, 도시가 어떤지, 집이 회사와 가까운지, 아파트인지 단독주택인지, 집 주변에 무엇이 있는지, 집값이 비싼지 등을 말하는 연습을 합니다. 초보자는 'Tôi đang sống ở...', 'Nhà tôi có...', 'Gần nhà tôi có...', 'Tôi thích nhất là...' 구조를 먼저 외우면 좋습니다.",
+  "cultureTopics": [
+    "현재 거주지",
+    "도시와 시골 비교",
+    "집 구조 설명",
+    "아파트와 단독주택",
+    "집 주변 시설",
+    "이웃 관계",
+    "집값과 월세",
+    "한국의 부동산"
+  ],
+  "vocabCards": [
+    {
+      "id": "d6housing-v-001",
+      "term": "nhà",
+      "meaningKo": "집",
+      "example": "Nhà tôi ở Dongtan.",
+      "exampleMeaningKo": "제 집은 동탄에 있습니다.",
+      "audioSrc": "",
+      "sourcePage": 15,
+      "reviewNeeded": false,
+      "pronKo": "냐",
+      "pronNoteKo": "집이라는 뜻입니다.",
+      "pronChunks": ["nhà=냐"]
+    },
+    {
+      "id": "d6housing-v-002",
+      "term": "phòng",
+      "meaningKo": "방",
+      "example": "Nhà tôi có ba phòng.",
+      "exampleMeaningKo": "제 집에는 방이 세 개 있습니다.",
+      "audioSrc": "",
+      "sourcePage": 15,
+      "reviewNeeded": false,
+      "pronKo": "퐁",
+      "pronNoteKo": "방, 공간을 뜻합니다.",
+      "pronChunks": ["phòng=퐁"]
+    },
+    {
+      "id": "d6housing-v-003",
+      "term": "thành phố",
+      "meaningKo": "도시",
+      "example": "Tôi đang sống ở thành phố Dongtan.",
+      "exampleMeaningKo": "저는 동탄시에 살고 있습니다.",
+      "audioSrc": "",
+      "sourcePage": 15,
+      "reviewNeeded": false,
+      "pronKo": "타인 포",
+      "pronNoteKo": "도시입니다.",
+      "pronChunks": ["thành=타인", "phố=포"]
+    },
+    {
+      "id": "d6housing-v-004",
+      "term": "nông thôn",
+      "meaningKo": "시골",
+      "example": "Tôi thích sống ở thành phố hơn ở nông thôn.",
+      "exampleMeaningKo": "저는 시골보다 도시에서 사는 것을 더 좋아합니다.",
+      "audioSrc": "",
+      "sourcePage": 15,
+      "reviewNeeded": false,
+      "pronKo": "농 톤",
+      "pronNoteKo": "시골입니다.",
+      "pronChunks": ["nông=농", "thôn=톤"]
+    },
+    {
+      "id": "d6housing-v-005",
+      "term": "gần",
+      "meaningKo": "가깝다",
+      "example": "Nhà tôi gần công ty.",
+      "exampleMeaningKo": "제 집은 회사와 가깝습니다.",
+      "audioSrc": "",
+      "sourcePage": 15,
+      "reviewNeeded": false,
+      "pronKo": "건",
+      "pronNoteKo": "가깝다는 뜻입니다.",
+      "pronChunks": ["gần=건"]
+    },
+    {
+      "id": "d6housing-v-006",
+      "term": "xa",
+      "meaningKo": "멀다",
+      "example": "Nhà tôi hơi xa công ty.",
+      "exampleMeaningKo": "제 집은 회사와 조금 멉니다.",
+      "audioSrc": "",
+      "sourcePage": 15,
+      "reviewNeeded": false,
+      "pronKo": "싸",
+      "pronNoteKo": "멀다는 뜻입니다.",
+      "pronChunks": ["xa=싸"]
+    },
+    {
+      "id": "d6housing-v-007",
+      "term": "nơi ở",
+      "meaningKo": "거주지",
+      "example": "Nơi ở của tôi rất tiện lợi.",
+      "exampleMeaningKo": "제 거주지는 매우 편리합니다.",
+      "audioSrc": "",
+      "sourcePage": 15,
+      "reviewNeeded": false,
+      "pronKo": "너이 어",
+      "pronNoteKo": "사는 곳, 거주지입니다.",
+      "pronChunks": ["nơi=너이", "ở=어"]
+    },
+    {
+      "id": "d6housing-v-008",
+      "term": "căn hộ",
+      "meaningKo": "아파트",
+      "example": "Tôi đang sống ở căn hộ.",
+      "exampleMeaningKo": "저는 아파트에 살고 있습니다.",
+      "audioSrc": "",
+      "sourcePage": 15,
+      "reviewNeeded": false,
+      "pronKo": "깐 호",
+      "pronNoteKo": "아파트, 공동주택의 한 세대를 뜻합니다.",
+      "pronChunks": ["căn=깐", "hộ=호"]
+    },
+    {
+      "id": "d6housing-v-009",
+      "term": "nhà đất",
+      "meaningKo": "단독주택",
+      "example": "Tôi muốn sống ở nhà đất.",
+      "exampleMeaningKo": "저는 단독주택에 살고 싶습니다.",
+      "audioSrc": "",
+      "sourcePage": 15,
+      "reviewNeeded": false,
+      "pronKo": "냐 닷",
+      "pronNoteKo": "땅이 딸린 집, 단독주택 느낌입니다.",
+      "pronChunks": ["nhà=냐", "đất=닷"]
+    },
+    {
+      "id": "d6housing-v-010",
+      "term": "phòng khách",
+      "meaningKo": "거실",
+      "example": "Phòng khách nhà tôi rộng rãi.",
+      "exampleMeaningKo": "우리 집 거실은 넓습니다.",
+      "audioSrc": "",
+      "sourcePage": 15,
+      "reviewNeeded": false,
+      "pronKo": "퐁 카익",
+      "pronNoteKo": "khách는 손님, phòng khách는 거실입니다.",
+      "pronChunks": ["phòng=퐁", "khách=카익"]
+    },
+    {
+      "id": "d6housing-v-011",
+      "term": "phòng ngủ",
+      "meaningKo": "침실",
+      "example": "Nhà tôi có hai phòng ngủ.",
+      "exampleMeaningKo": "제 집에는 침실이 두 개 있습니다.",
+      "audioSrc": "",
+      "sourcePage": 15,
+      "reviewNeeded": false,
+      "pronKo": "퐁 응우",
+      "pronNoteKo": "ngủ는 자다입니다.",
+      "pronChunks": ["phòng=퐁", "ngủ=응우"]
+    },
+    {
+      "id": "d6housing-v-012",
+      "term": "nhà bếp",
+      "meaningKo": "부엌",
+      "example": "Nhà bếp của tôi khá nhỏ.",
+      "exampleMeaningKo": "제 부엌은 꽤 작습니다.",
+      "audioSrc": "",
+      "sourcePage": 15,
+      "reviewNeeded": false,
+      "pronKo": "냐 벱",
+      "pronNoteKo": "부엌입니다.",
+      "pronChunks": ["nhà=냐", "bếp=벱"]
+    },
+    {
+      "id": "d6housing-v-013",
+      "term": "phòng tắm",
+      "meaningKo": "욕실",
+      "example": "Nhà tôi có hai phòng tắm.",
+      "exampleMeaningKo": "제 집에는 욕실이 두 개 있습니다.",
+      "audioSrc": "",
+      "sourcePage": 15,
+      "reviewNeeded": false,
+      "pronKo": "퐁 땀",
+      "pronNoteKo": "tắm은 샤워하다입니다.",
+      "pronChunks": ["phòng=퐁", "tắm=땀"]
+    },
+    {
+      "id": "d6housing-v-014",
+      "term": "ban công",
+      "meaningKo": "발코니",
+      "example": "Tôi thích ban công nhất.",
+      "exampleMeaningKo": "저는 발코니를 가장 좋아합니다.",
+      "audioSrc": "",
+      "sourcePage": 15,
+      "reviewNeeded": false,
+      "pronKo": "반 꽁",
+      "pronNoteKo": "발코니입니다.",
+      "pronChunks": ["ban=반", "công=꽁"]
+    },
+    {
+      "id": "d6housing-v-015",
+      "term": "tầng",
+      "meaningKo": "층",
+      "example": "Tôi sống ở tầng mười.",
+      "exampleMeaningKo": "저는 10층에 삽니다.",
+      "audioSrc": "",
+      "sourcePage": 15,
+      "reviewNeeded": false,
+      "pronKo": "떵",
+      "pronNoteKo": "층을 말할 때 씁니다.",
+      "pronChunks": ["tầng=떵"]
+    },
+    {
+      "id": "d6housing-v-016",
+      "term": "khu phố",
+      "meaningKo": "동네",
+      "example": "Khu phố của tôi rất yên tĩnh.",
+      "exampleMeaningKo": "제 동네는 매우 조용합니다.",
+      "audioSrc": "",
+      "sourcePage": 15,
+      "reviewNeeded": false,
+      "pronKo": "쿠 포",
+      "pronNoteKo": "동네, 구역 느낌입니다.",
+      "pronChunks": ["khu=쿠", "phố=포"]
+    },
+    {
+      "id": "d6housing-v-017",
+      "term": "trung tâm",
+      "meaningKo": "중심",
+      "example": "Nhà tôi gần trung tâm.",
+      "exampleMeaningKo": "제 집은 중심가와 가깝습니다.",
+      "audioSrc": "",
+      "sourcePage": 15,
+      "reviewNeeded": false,
+      "pronKo": "쭝 떰",
+      "pronNoteKo": "중심, 센터입니다.",
+      "pronChunks": ["trung=쭝", "tâm=떰"]
+    },
+    {
+      "id": "d6housing-v-018",
+      "term": "ngoại ô",
+      "meaningKo": "교외",
+      "example": "Tôi sống ở ngoại ô Seoul.",
+      "exampleMeaningKo": "저는 서울 교외에 삽니다.",
+      "audioSrc": "",
+      "sourcePage": 15,
+      "reviewNeeded": false,
+      "pronKo": "응오아이 오",
+      "pronNoteKo": "도시 외곽, 교외입니다.",
+      "pronChunks": ["ngoại=응오아이", "ô=오"]
+    },
+    {
+      "id": "d6housing-v-019",
+      "term": "khu vực",
+      "meaningKo": "지역",
+      "example": "Khu vực này rất an toàn.",
+      "exampleMeaningKo": "이 지역은 매우 안전합니다.",
+      "audioSrc": "",
+      "sourcePage": 15,
+      "reviewNeeded": false,
+      "pronKo": "쿠 븍",
+      "pronNoteKo": "지역, 구역입니다.",
+      "pronChunks": ["khu=쿠", "vực=븍"]
+    },
+    {
+      "id": "d6housing-v-020",
+      "term": "hàng xóm",
+      "meaningKo": "이웃",
+      "example": "Hàng xóm của tôi rất thân thiện.",
+      "exampleMeaningKo": "제 이웃은 매우 친절합니다.",
+      "audioSrc": "",
+      "sourcePage": 15,
+      "reviewNeeded": false,
+      "pronKo": "항 솜",
+      "pronNoteKo": "이웃입니다.",
+      "pronChunks": ["hàng=항", "xóm=솜"]
+    },
+    {
+      "id": "d6housing-v-021",
+      "term": "siêu thị",
+      "meaningKo": "슈퍼마켓",
+      "example": "Gần nhà tôi có siêu thị.",
+      "exampleMeaningKo": "제 집 근처에는 슈퍼마켓이 있습니다.",
+      "audioSrc": "",
+      "sourcePage": 15,
+      "reviewNeeded": false,
+      "pronKo": "시에우 티",
+      "pronNoteKo": "마트, 슈퍼마켓입니다.",
+      "pronChunks": ["siêu=시에우", "thị=티"]
+    },
+    {
+      "id": "d6housing-v-022",
+      "term": "công viên",
+      "meaningKo": "공원",
+      "example": "Gần nhà tôi có công viên.",
+      "exampleMeaningKo": "제 집 근처에는 공원이 있습니다.",
+      "audioSrc": "",
+      "sourcePage": 15,
+      "reviewNeeded": false,
+      "pronKo": "꽁 비엔",
+      "pronNoteKo": "공원입니다.",
+      "pronChunks": ["công=꽁", "viên=비엔"]
+    },
+    {
+      "id": "d6housing-v-023",
+      "term": "thang máy",
+      "meaningKo": "엘리베이터",
+      "example": "Căn hộ của tôi có thang máy.",
+      "exampleMeaningKo": "제 아파트에는 엘리베이터가 있습니다.",
+      "audioSrc": "",
+      "sourcePage": 15,
+      "reviewNeeded": false,
+      "pronKo": "탕 마이",
+      "pronNoteKo": "엘리베이터입니다.",
+      "pronChunks": ["thang=탕", "máy=마이"]
+    },
+    {
+      "id": "d6housing-v-024",
+      "term": "bãi đỗ xe",
+      "meaningKo": "주차장",
+      "example": "Nhà tôi có bãi đỗ xe.",
+      "exampleMeaningKo": "제 집에는 주차장이 있습니다.",
+      "audioSrc": "",
+      "sourcePage": 15,
+      "reviewNeeded": false,
+      "pronKo": "바이 도 세",
+      "pronNoteKo": "주차장입니다.",
+      "pronChunks": ["bãi=바이", "đỗ=도", "xe=세"]
+    },
+    {
+      "id": "d6housing-v-025",
+      "term": "yên tĩnh",
+      "meaningKo": "조용하다",
+      "example": "Khu phố của tôi rất yên tĩnh.",
+      "exampleMeaningKo": "제 동네는 매우 조용합니다.",
+      "audioSrc": "",
+      "sourcePage": 15,
+      "reviewNeeded": false,
+      "pronKo": "이엔 띵",
+      "pronNoteKo": "조용한 분위기를 말할 때 씁니다.",
+      "pronChunks": ["yên=이엔", "tĩnh=띵"]
+    },
+    {
+      "id": "d6housing-v-026",
+      "term": "ồn ào",
+      "meaningKo": "시끄럽다",
+      "example": "Trung tâm thành phố hơi ồn ào.",
+      "exampleMeaningKo": "도심은 조금 시끄럽습니다.",
+      "audioSrc": "",
+      "sourcePage": 15,
+      "reviewNeeded": false,
+      "pronKo": "온 아오",
+      "pronNoteKo": "시끄럽다는 뜻입니다.",
+      "pronChunks": ["ồn=온", "ào=아오"]
+    },
+    {
+      "id": "d6housing-v-027",
+      "term": "rộng rãi",
+      "meaningKo": "넓다",
+      "example": "Nhà tôi rộng rãi và thoải mái.",
+      "exampleMeaningKo": "제 집은 넓고 편안합니다.",
+      "audioSrc": "",
+      "sourcePage": 15,
+      "reviewNeeded": false,
+      "pronKo": "종 자이",
+      "pronNoteKo": "공간이 넓고 여유 있다는 느낌입니다.",
+      "pronChunks": ["rộng=종", "rãi=자이"]
+    },
+    {
+      "id": "d6housing-v-028",
+      "term": "chật chội",
+      "meaningKo": "좁다",
+      "example": "Nhà tôi hơi chật chội.",
+      "exampleMeaningKo": "제 집은 조금 좁습니다.",
+      "audioSrc": "",
+      "sourcePage": 15,
+      "reviewNeeded": false,
+      "pronKo": "쩟 쪼이",
+      "pronNoteKo": "공간이 답답하게 좁다는 뜻입니다.",
+      "pronChunks": ["chật=쩟", "chội=쪼이"]
+    },
+    {
+      "id": "d6housing-v-029",
+      "term": "thoải mái",
+      "meaningKo": "편안하다",
+      "example": "Nhà tôi rất thoải mái.",
+      "exampleMeaningKo": "제 집은 매우 편안합니다.",
+      "audioSrc": "",
+      "sourcePage": 15,
+      "reviewNeeded": false,
+      "pronKo": "토아이 마이",
+      "pronNoteKo": "편안하다, 마음이 편하다는 뜻입니다.",
+      "pronChunks": ["thoải=토아이", "mái=마이"]
+    },
+    {
+      "id": "d6housing-v-030",
+      "term": "tiện lợi",
+      "meaningKo": "편리하다",
+      "example": "Khu vực này rất tiện lợi.",
+      "exampleMeaningKo": "이 지역은 매우 편리합니다.",
+      "audioSrc": "",
+      "sourcePage": 15,
+      "reviewNeeded": false,
+      "pronKo": "띠엔 러이",
+      "pronNoteKo": "교통, 생활 편의성을 말할 때 씁니다.",
+      "pronChunks": ["tiện=띠엔", "lợi=러이"]
+    },
+    {
+      "id": "d6housing-v-031",
+      "term": "hiện đại",
+      "meaningKo": "현대적이다",
+      "example": "Căn hộ của tôi khá hiện đại.",
+      "exampleMeaningKo": "제 아파트는 꽤 현대적입니다.",
+      "audioSrc": "",
+      "sourcePage": 15,
+      "reviewNeeded": false,
+      "pronKo": "히엔 다이",
+      "pronNoteKo": "현대적이다, 모던하다입니다.",
+      "pronChunks": ["hiện=히엔", "đại=다이"]
+    },
+    {
+      "id": "d6housing-v-032",
+      "term": "cũ",
+      "meaningKo": "오래되다 / 낡다",
+      "example": "Nhà tôi hơi cũ.",
+      "exampleMeaningKo": "제 집은 조금 오래되었습니다.",
+      "audioSrc": "",
+      "sourcePage": 15,
+      "reviewNeeded": false,
+      "pronKo": "꾸",
+      "pronNoteKo": "새롭지 않고 오래된 상태입니다.",
+      "pronChunks": ["cũ=꾸"]
+    },
+    {
+      "id": "d6housing-v-033",
+      "term": "an toàn",
+      "meaningKo": "안전하다",
+      "example": "Khu phố của tôi rất an toàn.",
+      "exampleMeaningKo": "제 동네는 매우 안전합니다.",
+      "audioSrc": "",
+      "sourcePage": 15,
+      "reviewNeeded": false,
+      "pronKo": "안 또안",
+      "pronNoteKo": "안전하다는 뜻입니다.",
+      "pronChunks": ["an=안", "toàn=또안"]
+    },
+    {
+      "id": "d6housing-v-034",
+      "term": "mua nhà",
+      "meaningKo": "집을 사다",
+      "example": "Tôi muốn mua nhà.",
+      "exampleMeaningKo": "저는 집을 사고 싶습니다.",
+      "audioSrc": "",
+      "sourcePage": 15,
+      "reviewNeeded": false,
+      "pronKo": "무아 냐",
+      "pronNoteKo": "mua는 사다입니다.",
+      "pronChunks": ["mua=무아", "nhà=냐"]
+    },
+    {
+      "id": "d6housing-v-035",
+      "term": "thuê nhà",
+      "meaningKo": "집을 빌리다 / 임대하다",
+      "example": "Tôi đang ở nhà thuê.",
+      "exampleMeaningKo": "저는 임대 주택에 살고 있습니다.",
+      "audioSrc": "",
+      "sourcePage": 15,
+      "reviewNeeded": false,
+      "pronKo": "투에 냐",
+      "pronNoteKo": "thuê는 빌리다, 임대하다입니다.",
+      "pronChunks": ["thuê=투에", "nhà=냐"]
+    },
+    {
+      "id": "d6housing-v-036",
+      "term": "chuyển nhà",
+      "meaningKo": "이사하다",
+      "example": "Tôi muốn chuyển nhà.",
+      "exampleMeaningKo": "저는 이사하고 싶습니다.",
+      "audioSrc": "",
+      "sourcePage": 15,
+      "reviewNeeded": false,
+      "pronKo": "쭈옌 냐",
+      "pronNoteKo": "집을 옮기다, 이사하다입니다.",
+      "pronChunks": ["chuyển=쭈옌", "nhà=냐"]
+    },
+    {
+      "id": "d6housing-v-037",
+      "term": "một mình",
+      "meaningKo": "혼자",
+      "example": "Tôi không sống một mình.",
+      "exampleMeaningKo": "저는 혼자 살지 않습니다.",
+      "audioSrc": "",
+      "sourcePage": 15,
+      "reviewNeeded": false,
+      "pronKo": "못 민",
+      "pronNoteKo": "혼자라는 뜻입니다.",
+      "pronChunks": ["một=못", "mình=민"]
+    },
+    {
+      "id": "d6housing-v-038",
+      "term": "giá nhà",
+      "meaningKo": "집값",
+      "example": "Giá nhà ở Hàn Quốc rất đắt.",
+      "exampleMeaningKo": "한국의 집값은 매우 비쌉니다.",
+      "audioSrc": "",
+      "sourcePage": 15,
+      "reviewNeeded": false,
+      "pronKo": "자 냐",
+      "pronNoteKo": "집값입니다.",
+      "pronChunks": ["giá=자", "nhà=냐"]
+    },
+    {
+      "id": "d6housing-v-039",
+      "term": "đắt",
+      "meaningKo": "비싸다",
+      "example": "Nhà ở Hàn Quốc rất đắt.",
+      "exampleMeaningKo": "한국의 집은 매우 비쌉니다.",
+      "audioSrc": "",
+      "sourcePage": 15,
+      "reviewNeeded": false,
+      "pronKo": "닷",
+      "pronNoteKo": "비싸다는 뜻입니다.",
+      "pronChunks": ["đắt=닷"]
+    },
+    {
+      "id": "d6housing-v-040",
+      "term": "rẻ",
+      "meaningKo": "싸다",
+      "example": "Nhà ở nông thôn rẻ hơn.",
+      "exampleMeaningKo": "시골의 집은 더 쌉니다.",
+      "audioSrc": "",
+      "sourcePage": 15,
+      "reviewNeeded": false,
+      "pronKo": "제",
+      "pronNoteKo": "싸다는 뜻입니다.",
+      "pronChunks": ["rẻ=제"]
+    },
+    {
+      "id": "d6housing-v-041",
+      "term": "tiền thuê",
+      "meaningKo": "월세 / 임대료",
+      "example": "Tiền thuê nhà ở Seoul rất đắt.",
+      "exampleMeaningKo": "서울의 월세는 매우 비쌉니다.",
+      "audioSrc": "",
+      "sourcePage": 15,
+      "reviewNeeded": false,
+      "pronKo": "띠엔 투에",
+      "pronNoteKo": "임대료, 월세입니다.",
+      "pronChunks": ["tiền=띠엔", "thuê=투에"]
+    },
+    {
+      "id": "d6housing-v-042",
+      "term": "tiền đặt cọc",
+      "meaningKo": "보증금",
+      "example": "Tiền đặt cọc ở Hàn Quốc rất cao.",
+      "exampleMeaningKo": "한국의 보증금은 매우 높습니다.",
+      "audioSrc": "",
+      "sourcePage": 15,
+      "reviewNeeded": false,
+      "pronKo": "띠엔 닷 꼭",
+      "pronNoteKo": "보증금입니다.",
+      "pronChunks": ["tiền=띠엔", "đặt cọc=닷 꼭"]
+    },
+    {
+      "id": "d6housing-v-043",
+      "term": "diện tích",
+      "meaningKo": "면적",
+      "example": "Diện tích nhà tôi không lớn lắm.",
+      "exampleMeaningKo": "제 집의 면적은 그리 크지 않습니다.",
+      "audioSrc": "",
+      "sourcePage": 15,
+      "reviewNeeded": false,
+      "pronKo": "지엔 띡",
+      "pronNoteKo": "집 크기, 면적을 말할 때 씁니다.",
+      "pronChunks": ["diện=지엔", "tích=띡"]
+    },
+    {
+      "id": "d6housing-v-044",
+      "term": "bất động sản",
+      "meaningKo": "부동산",
+      "example": "Bất động sản ở Hàn Quốc rất đắt.",
+      "exampleMeaningKo": "한국의 부동산은 매우 비쌉니다.",
+      "audioSrc": "",
+      "sourcePage": 15,
+      "reviewNeeded": false,
+      "pronKo": "벗 동 산",
+      "pronNoteKo": "부동산입니다.",
+      "pronChunks": ["bất=벗", "động=동", "sản=산"]
+    }
+  ],
+  "sentenceCards": [
+    {
+      "id": "d6housing-s-001",
+      "textVi": "Hiện tại anh đang sống ở đâu?",
+      "textKo": "현재 어디에 살고 있어요?",
+      "exampleAnswerVi": "Hiện tại tôi đang sống ở Dongtan.",
+      "exampleAnswerKo": "현재 저는 동탄에 살고 있습니다.",
+      "audioSrc": "",
+      "sourcePage": 16,
+      "reviewNeeded": false,
+      "pronKo": "히엔 따이 아인 당 쏭 어 더우?",
+      "exampleAnswerPronKo": "히엔 따이 또이 당 쏭 어 동탄.",
+      "pronNoteKo": "Hiện tại = 현재, đang sống = 살고 있다."
+    },
+    {
+      "id": "d6housing-s-002",
+      "textVi": "Anh đang sống ở thành phố nào?",
+      "textKo": "어느 도시에 살고 있어요?",
+      "exampleAnswerVi": "Tôi đang sống ở thành phố Dongtan.",
+      "exampleAnswerKo": "저는 동탄시에 살고 있습니다.",
+      "audioSrc": "",
+      "sourcePage": 16,
+      "reviewNeeded": false,
+      "pronKo": "아인 당 쏭 어 타인 포 나오?",
+      "exampleAnswerPronKo": "또이 당 쏭 어 타인 포 동탄.",
+      "pronNoteKo": "thành phố nào = 어느 도시."
+    },
+    {
+      "id": "d6housing-s-003",
+      "textVi": "Thành phố anh đang sống có gì thú vị không?",
+      "textKo": "당신이 살고 있는 도시에 재미있는 것이 있어요?",
+      "exampleAnswerVi": "Có. Thành phố tôi có nhiều quán cà phê, công viên và trung tâm thương mại.",
+      "exampleAnswerKo": "네. 제가 사는 도시에는 카페, 공원, 쇼핑몰이 많습니다.",
+      "audioSrc": "",
+      "sourcePage": 16,
+      "reviewNeeded": false,
+      "pronKo": "타인 포 아인 당 쏭 꼬 지 투 비 콩?",
+      "exampleAnswerPronKo": "꼬. 타인 포 또이 꼬 니에우 꽌 까 페, 꽁 비엔 바 쭝 떰 트엉 마이.",
+      "pronNoteKo": "có gì thú vị không? = 재미있는 것이 있어요?"
+    },
+    {
+      "id": "d6housing-s-004",
+      "textVi": "Anh quê ở đâu?",
+      "textKo": "고향이 어디예요?",
+      "exampleAnswerVi": "Tôi quê ở Hàn Quốc.",
+      "exampleAnswerKo": "제 고향은 한국입니다.",
+      "audioSrc": "",
+      "sourcePage": 16,
+      "reviewNeeded": false,
+      "pronKo": "아인 꿰 어 더우?",
+      "exampleAnswerPronKo": "또이 꿰 어 한 꾸옥.",
+      "pronNoteKo": "quê = 고향."
+    },
+    {
+      "id": "d6housing-s-005",
+      "textVi": "Anh thích sống ở thành phố hơn hay ở nông thôn hơn?",
+      "textKo": "도시에서 사는 것을 더 좋아해요, 아니면 시골에서 사는 것을 더 좋아해요?",
+      "exampleAnswerVi": "Tôi thích sống ở thành phố hơn vì rất tiện lợi.",
+      "exampleAnswerKo": "저는 매우 편리하기 때문에 도시에서 사는 것을 더 좋아합니다.",
+      "audioSrc": "",
+      "sourcePage": 16,
+      "reviewNeeded": false,
+      "pronKo": "아인 틱 쏭 어 타인 포 헌 하이 어 농 톤 헌?",
+      "exampleAnswerPronKo": "또이 틱 쏭 어 타인 포 헌 비 젓 띠엔 러이.",
+      "pronNoteKo": "A hơn hay B hơn? = A가 더 좋아요, 아니면 B가 더 좋아요?"
+    },
+    {
+      "id": "d6housing-s-006",
+      "textVi": "Từ nhà anh đến công ty có xa không?",
+      "textKo": "집에서 회사까지 멀어요?",
+      "exampleAnswerVi": "Không xa lắm. Từ nhà tôi đến công ty mất khoảng ba mươi phút.",
+      "exampleAnswerKo": "그리 멀지 않습니다. 제 집에서 회사까지 약 30분 걸립니다.",
+      "audioSrc": "",
+      "sourcePage": 16,
+      "reviewNeeded": false,
+      "pronKo": "뜨 냐 아인 덴 꽁 티 꼬 싸 콩?",
+      "exampleAnswerPronKo": "콩 싸 람. 뜨 냐 또이 덴 꽁 티 멋 코앙 바 므어이 풋.",
+      "pronNoteKo": "Từ A đến B = A에서 B까지."
+    },
+    {
+      "id": "d6housing-s-007",
+      "textVi": "Nhà anh có gần công ty không?",
+      "textKo": "집이 회사와 가까워요?",
+      "exampleAnswerVi": "Có. Nhà tôi khá gần công ty.",
+      "exampleAnswerKo": "네. 제 집은 회사와 꽤 가깝습니다.",
+      "audioSrc": "",
+      "sourcePage": 16,
+      "reviewNeeded": false,
+      "pronKo": "냐 아인 꼬 건 꽁 티 콩?",
+      "exampleAnswerPronKo": "꼬. 냐 또이 카 건 꽁 티.",
+      "pronNoteKo": "khá gần = 꽤 가깝다."
+    },
+    {
+      "id": "d6housing-s-008",
+      "textVi": "Anh mua nhà rồi hay đang ở nhà thuê?",
+      "textKo": "집을 샀어요, 아니면 임대 주택에 살고 있어요?",
+      "exampleAnswerVi": "Tôi mua nhà rồi. Bây giờ tôi đang sống ở căn hộ.",
+      "exampleAnswerKo": "저는 집을 샀습니다. 지금은 아파트에 살고 있습니다.",
+      "audioSrc": "",
+      "sourcePage": 16,
+      "reviewNeeded": false,
+      "pronKo": "아인 무아 냐 조이 하이 당 어 냐 투에?",
+      "exampleAnswerPronKo": "또이 무아 냐 조이. 버이 저 또이 당 쏭 어 깐 호.",
+      "pronNoteKo": "rồi = 이미 했다."
+    },
+    {
+      "id": "d6housing-s-009",
+      "textVi": "Anh nghĩ nên mua nhà tốt hơn hay thuê nhà tốt hơn?",
+      "textKo": "집을 사는 것이 더 좋다고 생각해요, 아니면 빌리는 것이 더 좋다고 생각해요?",
+      "exampleAnswerVi": "Theo tôi, nếu có tiền thì mua nhà tốt hơn.",
+      "exampleAnswerKo": "제 생각에는 돈이 있으면 집을 사는 것이 더 좋습니다.",
+      "audioSrc": "",
+      "sourcePage": 16,
+      "reviewNeeded": false,
+      "pronKo": "아인 응이 넨 무아 냐 똣 헌 하이 투에 냐 똣 헌?",
+      "exampleAnswerPronKo": "테오 또이, 네우 꼬 띠엔 티 무아 냐 똣 헌.",
+      "pronNoteKo": "nên = ~하는 것이 좋다, tốt hơn = 더 좋다."
+    },
+    {
+      "id": "d6housing-s-010",
+      "textVi": "Nhà ở Hàn Quốc có đắt không?",
+      "textKo": "한국의 집은 비싸요?",
+      "exampleAnswerVi": "Có. Nhà ở Hàn Quốc rất đắt, đặc biệt là ở Seoul.",
+      "exampleAnswerKo": "네. 한국의 집은 매우 비쌉니다. 특히 서울은 그렇습니다.",
+      "audioSrc": "",
+      "sourcePage": 16,
+      "reviewNeeded": false,
+      "pronKo": "냐 어 한 꾸옥 꼬 닷 콩?",
+      "exampleAnswerPronKo": "꼬. 냐 어 한 꾸옥 젓 닷, 닥 비엣 라 어 서울.",
+      "pronNoteKo": "đặc biệt là = 특히."
+    },
+    {
+      "id": "d6housing-s-011",
+      "textVi": "Ở Hàn Quốc, một người đi làm bình thường thì sau bao lâu có thể mua được nhà?",
+      "textKo": "한국에서 평범한 직장인은 얼마 후에 집을 살 수 있어요?",
+      "exampleAnswerVi": "Theo tôi, rất khó. Một người đi làm bình thường phải tiết kiệm tiền rất lâu.",
+      "exampleAnswerKo": "제 생각에는 매우 어렵습니다. 평범한 직장인은 돈을 아주 오래 모아야 합니다.",
+      "audioSrc": "",
+      "sourcePage": 16,
+      "reviewNeeded": false,
+      "pronKo": "어 한 꾸옥, 못 응어이 디 람 빈 트엉 티 사우 바오 러우 꼬 테 무아 드억 냐?",
+      "exampleAnswerPronKo": "테오 또이, 젓 코. 못 응어이 디 람 빈 트엉 파이 띠엣 끼엠 띠엔 젓 러우.",
+      "pronNoteKo": "sau bao lâu = 얼마 후에, có thể = 할 수 있다."
+    },
+    {
+      "id": "d6housing-s-012",
+      "textVi": "Anh đang sống một mình hay sống cùng gia đình?",
+      "textKo": "혼자 살고 있어요, 아니면 가족과 함께 살고 있어요?",
+      "exampleAnswerVi": "Tôi đang sống cùng gia đình.",
+      "exampleAnswerKo": "저는 가족과 함께 살고 있습니다.",
+      "audioSrc": "",
+      "sourcePage": 16,
+      "reviewNeeded": false,
+      "pronKo": "아인 당 쏭 못 민 하이 쏭 꿍 자 딩?",
+      "exampleAnswerPronKo": "또이 당 쏭 꿍 자 딩.",
+      "pronNoteKo": "cùng gia đình = 가족과 함께."
+    },
+    {
+      "id": "d6housing-s-013",
+      "textVi": "Gần nhà anh có siêu thị, hay công viên không?",
+      "textKo": "집 근처에 슈퍼마켓이나 공원이 있어요?",
+      "exampleAnswerVi": "Có. Gần nhà tôi có siêu thị, công viên và quán cà phê.",
+      "exampleAnswerKo": "네. 제 집 근처에는 슈퍼마켓, 공원, 카페가 있습니다.",
+      "audioSrc": "",
+      "sourcePage": 16,
+      "reviewNeeded": false,
+      "pronKo": "건 냐 아인 꼬 시에우 티, 하이 꽁 비엔 콩?",
+      "exampleAnswerPronKo": "꼬. 건 냐 또이 꼬 시에우 티, 꽁 비엔 바 꽌 까 페.",
+      "pronNoteKo": "Gần nhà tôi có... = 제 집 근처에는 ...이 있습니다."
+    },
+    {
+      "id": "d6housing-s-014",
+      "textVi": "Nhà anh có mấy phòng?",
+      "textKo": "집에는 방이 몇 개 있어요?",
+      "exampleAnswerVi": "Nhà tôi có ba phòng ngủ, một phòng khách, một nhà bếp và hai phòng tắm.",
+      "exampleAnswerKo": "제 집에는 침실 세 개, 거실 하나, 부엌 하나, 욕실 두 개가 있습니다.",
+      "audioSrc": "",
+      "sourcePage": 16,
+      "reviewNeeded": false,
+      "pronKo": "냐 아인 꼬 머이 퐁?",
+      "exampleAnswerPronKo": "냐 또이 꼬 바 퐁 응우, 못 퐁 카익, 못 냐 벱 바 하이 퐁 땀.",
+      "pronNoteKo": "mấy phòng = 방 몇 개."
+    },
+    {
+      "id": "d6housing-s-015",
+      "textVi": "Anh thích điều gì nhất trong ngôi nhà của mình?",
+      "textKo": "자기 집에서 무엇을 가장 좋아해요?",
+      "exampleAnswerVi": "Tôi thích phòng khách nhất vì nó rộng rãi và thoải mái.",
+      "exampleAnswerKo": "저는 거실을 가장 좋아합니다. 왜냐하면 넓고 편안하기 때문입니다.",
+      "audioSrc": "",
+      "sourcePage": 16,
+      "reviewNeeded": false,
+      "pronKo": "아인 틱 디에우 지 녓 쫑 응오이 냐 꾸어 민?",
+      "exampleAnswerPronKo": "또이 틱 퐁 카익 녓 비 노 종 자이 바 토아이 마이.",
+      "pronNoteKo": "điều gì nhất = 무엇을 가장."
+    },
+    {
+      "id": "d6housing-s-016",
+      "textVi": "Anh có thân với hàng xóm không?",
+      "textKo": "이웃과 친해요?",
+      "exampleAnswerVi": "Không thân lắm. Nhưng hàng xóm của tôi rất tốt bụng và yên tĩnh.",
+      "exampleAnswerKo": "그렇게 친하지는 않습니다. 하지만 제 이웃은 매우 착하고 조용합니다.",
+      "audioSrc": "",
+      "sourcePage": 16,
+      "reviewNeeded": false,
+      "pronKo": "아인 꼬 턴 버이 항 솜 콩?",
+      "exampleAnswerPronKo": "콩 턴 람. 늉 항 솜 꾸어 또이 젓 똣 붕 바 이엔 띵.",
+      "pronNoteKo": "không ... lắm = 그다지 ~하지 않다."
+    }
+  ],
+  "dialogues": [
+    {
+      "id": "d6housing-d-001",
+      "title": "현재 거주지",
+      "audioSrc": "",
+      "sourcePage": 16,
+      "reviewNeeded": false,
+      "lines": [
+        {
+          "speaker": "A",
+          "vi": "Hiện tại anh đang sống ở đâu?",
+          "ko": "현재 어디에 살고 있어요?",
+          "pronKo": "히엔 따이 아인 당 쏭 어 더우?"
+        },
+        {
+          "speaker": "B",
+          "vi": "Hiện tại tôi đang sống ở Dongtan.",
+          "ko": "현재 저는 동탄에 살고 있습니다.",
+          "pronKo": "히엔 따이 또이 당 쏭 어 동탄."
+        },
+        {
+          "speaker": "A",
+          "vi": "Anh đang sống ở thành phố nào?",
+          "ko": "어느 도시에 살고 있어요?",
+          "pronKo": "아인 당 쏭 어 타인 포 나오?"
+        },
+        {
+          "speaker": "B",
+          "vi": "Tôi đang sống ở thành phố Dongtan.",
+          "ko": "저는 동탄시에 살고 있습니다.",
+          "pronKo": "또이 당 쏭 어 타인 포 동탄."
+        }
+      ]
+    },
+    {
+      "id": "d6housing-d-002",
+      "title": "도시와 시골 비교",
+      "audioSrc": "",
+      "sourcePage": 16,
+      "reviewNeeded": false,
+      "lines": [
+        {
+          "speaker": "A",
+          "vi": "Anh thích sống ở thành phố hơn hay ở nông thôn hơn?",
+          "ko": "도시에서 사는 것을 더 좋아해요, 아니면 시골에서 사는 것을 더 좋아해요?",
+          "pronKo": "아인 틱 쏭 어 타인 포 헌 하이 어 농 톤 헌?"
+        },
+        {
+          "speaker": "B",
+          "vi": "Tôi thích sống ở thành phố hơn vì rất tiện lợi.",
+          "ko": "저는 매우 편리하기 때문에 도시에서 사는 것을 더 좋아합니다.",
+          "pronKo": "또이 틱 쏭 어 타인 포 헌 비 젓 띠엔 러이."
+        },
+        {
+          "speaker": "A",
+          "vi": "Thành phố anh đang sống có gì thú vị không?",
+          "ko": "당신이 살고 있는 도시에 재미있는 것이 있어요?",
+          "pronKo": "타인 포 아인 당 쏭 꼬 지 투 비 콩?"
+        },
+        {
+          "speaker": "B",
+          "vi": "Có. Thành phố tôi có nhiều quán cà phê, công viên và trung tâm thương mại.",
+          "ko": "네. 제가 사는 도시에는 카페, 공원, 쇼핑몰이 많습니다.",
+          "pronKo": "꼬. 타인 포 또이 꼬 니에우 꽌 까 페, 꽁 비엔 바 쭝 떰 트엉 마이."
+        }
+      ]
+    },
+    {
+      "id": "d6housing-d-003",
+      "title": "집과 회사 거리",
+      "audioSrc": "",
+      "sourcePage": 16,
+      "reviewNeeded": false,
+      "lines": [
+        {
+          "speaker": "A",
+          "vi": "Từ nhà anh đến công ty có xa không?",
+          "ko": "집에서 회사까지 멀어요?",
+          "pronKo": "뜨 냐 아인 덴 꽁 티 꼬 싸 콩?"
+        },
+        {
+          "speaker": "B",
+          "vi": "Không xa lắm. Từ nhà tôi đến công ty mất khoảng ba mươi phút.",
+          "ko": "그리 멀지 않습니다. 제 집에서 회사까지 약 30분 걸립니다.",
+          "pronKo": "콩 싸 람. 뜨 냐 또이 덴 꽁 티 멋 코앙 바 므어이 풋."
+        },
+        {
+          "speaker": "A",
+          "vi": "Nhà anh có gần công ty không?",
+          "ko": "집이 회사와 가까워요?",
+          "pronKo": "냐 아인 꼬 건 꽁 티 콩?"
+        },
+        {
+          "speaker": "B",
+          "vi": "Có. Nhà tôi khá gần công ty.",
+          "ko": "네. 제 집은 회사와 꽤 가깝습니다.",
+          "pronKo": "꼬. 냐 또이 카 건 꽁 티."
+        }
+      ]
+    },
+    {
+      "id": "d6housing-d-004",
+      "title": "집 구조 설명",
+      "audioSrc": "",
+      "sourcePage": 16,
+      "reviewNeeded": false,
+      "lines": [
+        {
+          "speaker": "A",
+          "vi": "Nhà anh có mấy phòng?",
+          "ko": "집에는 방이 몇 개 있어요?",
+          "pronKo": "냐 아인 꼬 머이 퐁?"
+        },
+        {
+          "speaker": "B",
+          "vi": "Nhà tôi có ba phòng ngủ, một phòng khách, một nhà bếp và hai phòng tắm.",
+          "ko": "제 집에는 침실 세 개, 거실 하나, 부엌 하나, 욕실 두 개가 있습니다.",
+          "pronKo": "냐 또이 꼬 바 퐁 응우, 못 퐁 카익, 못 냐 벱 바 하이 퐁 땀."
+        },
+        {
+          "speaker": "A",
+          "vi": "Anh thích điều gì nhất trong ngôi nhà của mình?",
+          "ko": "자기 집에서 무엇을 가장 좋아해요?",
+          "pronKo": "아인 틱 디에우 지 녓 쫑 응오이 냐 꾸어 민?"
+        },
+        {
+          "speaker": "B",
+          "vi": "Tôi thích phòng khách nhất vì nó rộng rãi và thoải mái.",
+          "ko": "저는 거실을 가장 좋아합니다. 왜냐하면 넓고 편안하기 때문입니다.",
+          "pronKo": "또이 틱 퐁 카익 녓 비 노 종 자이 바 토아이 마이."
+        }
+      ]
+    },
+    {
+      "id": "d6housing-d-005",
+      "title": "집 주변과 이웃",
+      "audioSrc": "",
+      "sourcePage": 16,
+      "reviewNeeded": false,
+      "lines": [
+        {
+          "speaker": "A",
+          "vi": "Gần nhà anh có siêu thị, hay công viên không?",
+          "ko": "집 근처에 슈퍼마켓이나 공원이 있어요?",
+          "pronKo": "건 냐 아인 꼬 시에우 티, 하이 꽁 비엔 콩?"
+        },
+        {
+          "speaker": "B",
+          "vi": "Có. Gần nhà tôi có siêu thị, công viên và quán cà phê.",
+          "ko": "네. 제 집 근처에는 슈퍼마켓, 공원, 카페가 있습니다.",
+          "pronKo": "꼬. 건 냐 또이 꼬 시에우 티, 꽁 비엔 바 꽌 까 페."
+        },
+        {
+          "speaker": "A",
+          "vi": "Anh có thân với hàng xóm không?",
+          "ko": "이웃과 친해요?",
+          "pronKo": "아인 꼬 턴 버이 항 솜 콩?"
+        },
+        {
+          "speaker": "B",
+          "vi": "Không thân lắm. Nhưng hàng xóm của tôi rất tốt bụng và yên tĩnh.",
+          "ko": "그렇게 친하지는 않습니다. 하지만 제 이웃은 매우 착하고 조용합니다.",
+          "pronKo": "콩 턴 람. 늉 항 솜 꾸어 또이 젓 똣 붕 바 이엔 띵."
+        }
+      ]
+    },
+    {
+      "id": "d6housing-d-006",
+      "title": "집값과 부동산",
+      "audioSrc": "",
+      "sourcePage": 16,
+      "reviewNeeded": false,
+      "lines": [
+        {
+          "speaker": "A",
+          "vi": "Nhà ở Hàn Quốc có đắt không?",
+          "ko": "한국의 집은 비싸요?",
+          "pronKo": "냐 어 한 꾸옥 꼬 닷 콩?"
+        },
+        {
+          "speaker": "B",
+          "vi": "Có. Nhà ở Hàn Quốc rất đắt, đặc biệt là ở Seoul.",
+          "ko": "네. 한국의 집은 매우 비쌉니다. 특히 서울은 그렇습니다.",
+          "pronKo": "꼬. 냐 어 한 꾸옥 젓 닷, 닥 비엣 라 어 서울."
+        },
+        {
+          "speaker": "A",
+          "vi": "Anh nghĩ nên mua nhà tốt hơn hay thuê nhà tốt hơn?",
+          "ko": "집을 사는 것이 더 좋아요, 아니면 빌리는 것이 더 좋아요?",
+          "pronKo": "아인 응이 넨 무아 냐 똣 헌 하이 투에 냐 똣 헌?"
+        },
+        {
+          "speaker": "B",
+          "vi": "Theo tôi, nếu có tiền thì mua nhà tốt hơn.",
+          "ko": "제 생각에는 돈이 있으면 집을 사는 것이 더 좋습니다.",
+          "pronKo": "테오 또이, 네우 꼬 띠엔 티 무아 냐 똣 헌."
+        }
+      ]
+    }
+  ],
+  "grammarPoints": [
+    {
+      "id": "d6housing-g-001",
+      "title": "현재 살고 있는 곳 말하기",
+      "pattern": "Hiện tại tôi đang sống ở + 장소.",
+      "meaningKo": "현재 저는 ~에 살고 있습니다.",
+      "sourcePage": 16,
+      "reviewNeeded": false
+    },
+    {
+      "id": "d6housing-g-002",
+      "title": "어느 도시에 살아요?",
+      "pattern": "Anh đang sống ở thành phố nào?",
+      "meaningKo": "어느 도시에 살고 있어요?",
+      "sourcePage": 16,
+      "reviewNeeded": false
+    },
+    {
+      "id": "d6housing-g-003",
+      "title": "집 근처에 ~이 있다",
+      "pattern": "Gần nhà tôi có + 명사.",
+      "meaningKo": "제 집 근처에는 ~이 있습니다.",
+      "sourcePage": 16,
+      "reviewNeeded": false
+    },
+    {
+      "id": "d6housing-g-004",
+      "title": "집에서 회사까지",
+      "pattern": "Từ nhà tôi đến công ty + mất + 시간.",
+      "meaningKo": "제 집에서 회사까지 ~ 시간이 걸립니다.",
+      "sourcePage": 16,
+      "reviewNeeded": false
+    },
+    {
+      "id": "d6housing-g-005",
+      "title": "그리 ~하지 않다",
+      "pattern": "không + 형용사 + lắm → Không xa lắm.",
+      "meaningKo": "그리 멀지 않습니다 / 그다지 ~하지 않습니다.",
+      "sourcePage": 16,
+      "reviewNeeded": false
+    },
+    {
+      "id": "d6housing-g-006",
+      "title": "A가 더 좋다",
+      "pattern": "A tốt hơn B.",
+      "meaningKo": "A가 B보다 더 좋습니다.",
+      "sourcePage": 16,
+      "reviewNeeded": false
+    },
+    {
+      "id": "d6housing-g-007",
+      "title": "A가 더 좋아요, B가 더 좋아요?",
+      "pattern": "A hơn hay B hơn?",
+      "meaningKo": "A가 더 좋아요, 아니면 B가 더 좋아요?",
+      "sourcePage": 16,
+      "reviewNeeded": false
+    },
+    {
+      "id": "d6housing-g-008",
+      "title": "돈이 있으면",
+      "pattern": "Nếu có tiền thì + 문장.",
+      "meaningKo": "돈이 있으면 ~합니다.",
+      "sourcePage": 16,
+      "reviewNeeded": false
+    },
+    {
+      "id": "d6housing-g-009",
+      "title": "방 개수 말하기",
+      "pattern": "Nhà tôi có + 숫자 + phòng.",
+      "meaningKo": "제 집에는 방이 ~개 있습니다.",
+      "sourcePage": 16,
+      "reviewNeeded": false
+    },
+    {
+      "id": "d6housing-g-010",
+      "title": "가장 좋아하는 것 말하기",
+      "pattern": "Tôi thích + 명사 + nhất.",
+      "meaningKo": "저는 ~을 가장 좋아합니다.",
+      "sourcePage": 16,
+      "reviewNeeded": false
+    },
+    {
+      "id": "d6housing-g-011",
+      "title": "이유 말하기",
+      "pattern": "vì + 문장",
+      "meaningKo": "왜냐하면 ~이기 때문입니다.",
+      "sourcePage": 16,
+      "reviewNeeded": false
+    },
+    {
+      "id": "d6housing-g-012",
+      "title": "가족과 함께 살다",
+      "pattern": "sống cùng gia đình / sống với gia đình",
+      "meaningKo": "가족과 함께 살다.",
+      "sourcePage": 16,
+      "reviewNeeded": false
+    }
+  ],
+  "pronunciationTargets": [
+    {
+      "id": "d6housing-p-001",
+      "text": "nơi ở",
+      "hintKo": "거주지",
+      "audioSrc": "",
+      "sourcePage": 15,
+      "reviewNeeded": false,
+      "pronKo": "너이 어",
+      "mouthKo": "nơi와 ở를 따로 또박또박 읽습니다.",
+      "toneKo": "짧게 끊어 읽으면 좋습니다."
+    },
+    {
+      "id": "d6housing-p-002",
+      "text": "căn hộ",
+      "hintKo": "아파트",
+      "audioSrc": "",
+      "sourcePage": 15,
+      "reviewNeeded": false,
+      "pronKo": "깐 호",
+      "mouthKo": "căn은 '깐', hộ는 '호'에 가깝습니다.",
+      "toneKo": "아파트를 말할 때 자주 씁니다."
+    },
+    {
+      "id": "d6housing-p-003",
+      "text": "Gần nhà tôi có siêu thị và công viên.",
+      "hintKo": "제 집 근처에는 슈퍼마켓과 공원이 있습니다.",
+      "audioSrc": "",
+      "sourcePage": 16,
+      "reviewNeeded": false,
+      "pronKo": "건 냐 또이 꼬 시에우 티 바 꽁 비엔.",
+      "mouthKo": "Gần nhà tôi có / siêu thị / và công viên 으로 끊어 읽습니다.",
+      "toneKo": "집 주변 설명에 그대로 쓰기 좋은 문장입니다."
+    },
+    {
+      "id": "d6housing-p-004",
+      "text": "Từ nhà tôi đến công ty mất khoảng ba mươi phút.",
+      "hintKo": "제 집에서 회사까지 약 30분 걸립니다.",
+      "audioSrc": "",
+      "sourcePage": 16,
+      "reviewNeeded": false,
+      "pronKo": "뜨 냐 또이 덴 꽁 티 멋 코앙 바 므어이 풋.",
+      "mouthKo": "Từ nhà tôi / đến công ty / mất khoảng ba mươi phút 으로 끊습니다.",
+      "toneKo": "거리와 시간을 말하는 핵심 문장입니다."
+    },
+    {
+      "id": "d6housing-p-005",
+      "text": "rộng rãi và thoải mái",
+      "hintKo": "넓고 편안하다",
+      "audioSrc": "",
+      "sourcePage": 15,
+      "reviewNeeded": false,
+      "pronKo": "종 자이 바 토아이 마이",
+      "mouthKo": "rộng rãi / và / thoải mái 로 나눕니다.",
+      "toneKo": "집 장점을 말할 때 좋습니다."
+    },
+    {
+      "id": "d6housing-p-006",
+      "text": "Nhà ở Hàn Quốc rất đắt.",
+      "hintKo": "한국의 집은 매우 비쌉니다.",
+      "audioSrc": "",
+      "sourcePage": 16,
+      "reviewNeeded": false,
+      "pronKo": "냐 어 한 꾸옥 젓 닷.",
+      "mouthKo": "Nhà ở Hàn Quốc / rất đắt 으로 끊어 읽습니다.",
+      "toneKo": "부동산 주제 핵심 문장입니다."
+    }
+  ],
+  "quizSeeds": [
+    {
+      "id": "d6housing-q-001",
+      "type": "match-term",
+      "prompt": "6일차 집 구조 단어 매칭",
+      "answerSet": [
+        "nhà-집",
+        "phòng-방",
+        "căn hộ-아파트",
+        "nhà đất-단독주택",
+        "phòng khách-거실",
+        "phòng ngủ-침실",
+        "nhà bếp-부엌",
+        "phòng tắm-욕실",
+        "ban công-발코니",
+        "tầng-층"
+      ],
+      "sourcePage": 15,
+      "reviewNeeded": false
+    },
+    {
+      "id": "d6housing-q-002",
+      "type": "match-term",
+      "prompt": "6일차 동네와 주변 시설 단어 매칭",
+      "answerSet": [
+        "khu phố-동네",
+        "trung tâm-중심",
+        "ngoại ô-교외",
+        "khu vực-지역",
+        "hàng xóm-이웃",
+        "siêu thị-슈퍼마켓",
+        "công viên-공원",
+        "thang máy-엘리베이터",
+        "bãi đỗ xe-주차장",
+        "nơi ở-거주지"
+      ],
+      "sourcePage": 15,
+      "reviewNeeded": false
+    },
+    {
+      "id": "d6housing-q-003",
+      "type": "match-term",
+      "prompt": "6일차 형용사 단어 매칭",
+      "answerSet": [
+        "gần-가깝다",
+        "xa-멀다",
+        "yên tĩnh-조용하다",
+        "ồn ào-시끄럽다",
+        "rộng rãi-넓다",
+        "chật chội-좁다",
+        "thoải mái-편안하다",
+        "tiện lợi-편리하다",
+        "hiện đại-현대적이다",
+        "an toàn-안전하다"
+      ],
+      "sourcePage": 15,
+      "reviewNeeded": false
+    },
+    {
+      "id": "d6housing-q-004",
+      "type": "match-term",
+      "prompt": "6일차 부동산 단어 매칭",
+      "answerSet": [
+        "mua nhà-집을 사다",
+        "thuê nhà-집을 빌리다",
+        "chuyển nhà-이사하다",
+        "giá nhà-집값",
+        "đắt-비싸다",
+        "rẻ-싸다",
+        "tiền thuê-월세",
+        "tiền đặt cọc-보증금",
+        "diện tích-면적",
+        "bất động sản-부동산"
+      ],
+      "sourcePage": 15,
+      "reviewNeeded": false
+    },
+    {
+      "id": "d6housing-q-005",
+      "type": "sentence-meaning",
+      "prompt": "6일차 질문 뜻 고르기",
+      "answerSet": [
+        "Hiện tại anh đang sống ở đâu?-현재 어디에 살고 있어요?",
+        "Anh đang sống ở thành phố nào?-어느 도시에 살고 있어요?",
+        "Anh quê ở đâu?-고향이 어디예요?",
+        "Từ nhà anh đến công ty có xa không?-집에서 회사까지 멀어요?",
+        "Nhà anh có gần công ty không?-집이 회사와 가까워요?",
+        "Anh mua nhà rồi hay đang ở nhà thuê?-집을 샀어요, 아니면 임대 주택에 살고 있어요?",
+        "Nhà anh có mấy phòng?-집에는 방이 몇 개 있어요?",
+        "Anh có thân với hàng xóm không?-이웃과 친해요?"
+      ],
+      "sourcePage": 16,
+      "reviewNeeded": false
+    },
+    {
+      "id": "d6housing-q-006",
+      "type": "sentence-meaning",
+      "prompt": "6일차 답변 뜻 고르기",
+      "answerSet": [
+        "Hiện tại tôi đang sống ở Dongtan.-현재 저는 동탄에 살고 있습니다.",
+        "Tôi thích sống ở thành phố hơn vì rất tiện lợi.-저는 매우 편리하기 때문에 도시에서 사는 것을 더 좋아합니다.",
+        "Từ nhà tôi đến công ty mất khoảng ba mươi phút.-제 집에서 회사까지 약 30분 걸립니다.",
+        "Nhà tôi khá gần công ty.-제 집은 회사와 꽤 가깝습니다.",
+        "Tôi đang sống cùng gia đình.-저는 가족과 함께 살고 있습니다.",
+        "Gần nhà tôi có siêu thị, công viên và quán cà phê.-제 집 근처에는 슈퍼마켓, 공원, 카페가 있습니다.",
+        "Tôi thích phòng khách nhất vì nó rộng rãi và thoải mái.-저는 거실을 가장 좋아합니다. 왜냐하면 넓고 편안하기 때문입니다.",
+        "Nhà ở Hàn Quốc rất đắt, đặc biệt là ở Seoul.-한국의 집은 매우 비쌉니다. 특히 서울은 그렇습니다."
+      ],
+      "sourcePage": 16,
+      "reviewNeeded": false
+    }
+  ],
+  "unlockCondition": "complete-previous",
+  "reviewNeeded": false
+    },
 {
   "lessonId": "d5study-note-full",
   "unitLabel": "5일차",
