@@ -821,7 +821,6 @@ class VietnameseA1App {
       ['both', '단어+뜻 함께']
     ];
     const modeButtons = modes.map(([k, label]) => `<button data-action="cardPlayMode:${k}" class="${this.state.cardViewMode === k ? 'primary' : ''}">${label}</button>`).join('');
-    const autoLabel = this.vocabAutoplay.running ? '자동재생 중지' : '자동재생 시작';
     this.appEl.innerHTML = `<section class="fade">
       <div class="card study-toolbar">
         <div class="lesson-compact-select">
@@ -832,11 +831,42 @@ class VietnameseA1App {
         <div class="setting-input-row" style="margin-top:8px">
           <label for="card-repeat-count">반복 횟수</label>
           <input id="card-repeat-count" class="setting-number-input" type="number" min="1" max="10" step="1" value="${this.settings.sentenceRepeatCount || 1}" data-change="cardRepeatCount" />
-          <button data-action="cardAutoPlay" class="${this.vocabAutoplay.running ? 'warn' : 'primary'}">${autoLabel}</button>
         </div>
       </div>
-      ${this.renderVocab(lesson, { forCardTab: true })}
+      ${this.renderCardDeck(lesson)}
     </section>`;
+  }
+
+  renderCardDeck(lesson) {
+    const cards = lesson.vocabCards || [];
+    if (!cards.length) return '<div class="card">단어가 없습니다.</div>';
+    const idx = this.clampIndex(this.state.cardIndex, cards.length);
+    this.state.cardIndex = idx;
+    const c = cards[idx];
+    const show = this.state.cardViewMode === 'both' ? true : this.state.revealMeaning;
+    const isMeaningFirst = this.state.cardViewMode === 'meaning_first';
+    const frontMain = isMeaningFirst ? (c.meaningKo || c.term) : c.term;
+    const backMain = isMeaningFirst ? c.term : (c.meaningKo || c.term);
+    return `<article class="card fade flashcard-shell">
+      <div class="flashcard-head">
+        <span class="badge">${idx + 1} / ${cards.length}</span>
+        <button data-action="cardAutoPlay" class="primary flashcard-play-btn">${this.vocabAutoplay.running ? '⏸️' : '▶'} 재생</button>
+      </div>
+      <div class="flashcard-body study-card-body" data-action="toggleCardReveal">
+        <div class="flashcard-inner ${show ? 'is-flipped' : ''}">
+          <section class="flashcard-face flashcard-front">
+            <div class="flashcard-label">${isMeaningFirst ? '뜻' : '단어'}</div>
+            <h2 class="flashcard-main">${this.escapeHtml(frontMain)}</h2>
+          </section>
+          <section class="flashcard-face flashcard-back">
+            <div class="flashcard-label">${isMeaningFirst ? '단어' : '뜻'}</div>
+            <h2 class="flashcard-main">${this.escapeHtml(backMain)}</h2>
+            ${c.example ? `<p class="small flashcard-example">${this.escapeHtml(c.example)}<br>${this.escapeHtml(c.exampleMeaningKo || '')}</p>` : ''}
+          </section>
+        </div>
+      </div>
+      <p class="small tap-hint">카드를 터치하면 뒤집혀요 · 좌우 스와이프로 이전/다음</p>
+    </article>`;
   }
 
   renderVocab(lesson, options = {}) {
