@@ -590,9 +590,18 @@ class VietnameseA1App {
     if (type === 'bookmark') return this.toggleBookmark(payload);
     if (type === 'toggleMeaning') return el.closest('.card').querySelector('.ko')?.classList.toggle('hidden');
     if (type === 'toggleCardReveal') {
-      if (this.state.tab === 'cards' && this.state.cardViewMode === 'both') return;
-      this.state.revealMeaning = !this.state.revealMeaning;
-      return this.render();
+      const isCardTab = this.state.tab === 'cards';
+      const isBothMode = this.state.cardViewMode === 'both';
+      if (!isBothMode) this.state.revealMeaning = !this.state.revealMeaning;
+      this.render();
+      if (isCardTab) {
+        const lesson = this.currentLesson();
+        const cards = lesson?.vocabCards || [];
+        const card = cards[this.clampIndex(this.state.cardIndex, cards.length)];
+        if (!card) return;
+        return this.playAudio(card.audioSrc || '', card.term || '', { lang: 'vi-VN', allowAudio: true });
+      }
+      return;
     }
     if (type === 'toggleKo') return this.appEl.querySelectorAll('.ko-line').forEach((x) => x.classList.toggle('hidden'));
     if (type === 'search') return this.runSearch();
@@ -1494,7 +1503,7 @@ class VietnameseA1App {
     }
     if (this.state.tab !== 'cards') this.state.revealMeaning = this.settings.autoShowMeaning;
 
-    if (this.settings.autoPlay) {
+    if (this.settings.autoPlay && this.state.tab !== 'cards') {
       const item = this.currentCardItem();
       const isKnown = item?.id ? this.progress[item.id]?.known === true : false;
       if (item && !isKnown) this.playAudio(item.audioSrc || '', item.term || item.textVi || item.text);
