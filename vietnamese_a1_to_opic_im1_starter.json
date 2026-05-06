@@ -19,6 +19,1255 @@
   },
   "lessons": [
     {
+  "lessonId": "d6weather",
+  "unitLabel": "6일차",
+  "titleKo": "6일차: 날씨와 기후",
+  "titleVi": "Chủ đề 8: Thời tiết",
+  "pageRange": "Topic 1-21 / Thời tiết",
+  "goals": [
+    "오늘 날씨를 간단히 말할 수 있다",
+    "한국의 기후와 사계절을 설명할 수 있다",
+    "여름, 겨울, 장마, 눈, 비, 기온 표현을 익힌다",
+    "한국과 베트남의 기후를 비교할 수 있다",
+    "여행하기 좋은 계절을 추천할 수 있다",
+    "OPIc 날씨 주제 질문에 2~4문장으로 답할 수 있다"
+  ],
+  "topicOverview": "6일차 추가 주제는 날씨와 기후입니다. 오늘 날씨, 한국의 사계절, 여름과 겨울의 특징, 비와 눈, 기온, 여행하기 좋은 계절을 말하는 연습을 합니다. 초보자는 'Hôm nay thời tiết...', 'Ở Hàn Quốc có bốn mùa', 'Tôi thích mùa...', 'Nếu đi du lịch...' 같은 문장 뼈대를 먼저 외우면 좋습니다.",
+  "cultureTopics": [
+    "오늘 날씨 말하기",
+    "한국의 사계절",
+    "여름과 겨울 날씨",
+    "비와 눈",
+    "기온 표현",
+    "한국과 베트남 기후 비교",
+    "여행하기 좋은 계절",
+    "장마와 건기"
+  ],
+  "vocabCards": [
+    {
+      "id": "d6weather-v-001",
+      "term": "thời tiết",
+      "meaningKo": "날씨",
+      "example": "Hôm nay thời tiết rất đẹp.",
+      "exampleMeaningKo": "오늘 날씨가 매우 좋습니다.",
+      "audioSrc": "",
+      "sourcePage": 17,
+      "reviewNeeded": false,
+      "pronKo": "터이 띠엣",
+      "pronNoteKo": "날씨를 말할 때 가장 기본 단어입니다.",
+      "pronChunks": ["thời=터이", "tiết=띠엣"]
+    },
+    {
+      "id": "d6weather-v-002",
+      "term": "khí hậu",
+      "meaningKo": "기후",
+      "example": "Khí hậu Hàn Quốc có bốn mùa.",
+      "exampleMeaningKo": "한국의 기후에는 사계절이 있습니다.",
+      "audioSrc": "",
+      "sourcePage": 17,
+      "reviewNeeded": false,
+      "pronKo": "키 허우",
+      "pronNoteKo": "날씨보다 넓은 의미의 기후입니다.",
+      "pronChunks": ["khí=키", "hậu=허우"]
+    },
+    {
+      "id": "d6weather-v-003",
+      "term": "hôm nay",
+      "meaningKo": "오늘",
+      "example": "Hôm nay trời nắng.",
+      "exampleMeaningKo": "오늘은 날씨가 맑습니다.",
+      "audioSrc": "",
+      "sourcePage": 17,
+      "reviewNeeded": false,
+      "pronKo": "홈 나이",
+      "pronNoteKo": "오늘이라는 뜻입니다.",
+      "pronChunks": ["hôm=홈", "nay=나이"]
+    },
+    {
+      "id": "d6weather-v-004",
+      "term": "ngày mai",
+      "meaningKo": "내일",
+      "example": "Ngày mai trời mưa.",
+      "exampleMeaningKo": "내일은 비가 옵니다.",
+      "audioSrc": "",
+      "sourcePage": 17,
+      "reviewNeeded": false,
+      "pronKo": "응아이 마이",
+      "pronNoteKo": "내일이라는 뜻입니다.",
+      "pronChunks": ["ngày=응아이", "mai=마이"]
+    },
+    {
+      "id": "d6weather-v-005",
+      "term": "cuối tuần",
+      "meaningKo": "주말",
+      "example": "Cuối tuần này trời nắng.",
+      "exampleMeaningKo": "이번 주말은 날씨가 맑습니다.",
+      "audioSrc": "",
+      "sourcePage": 17,
+      "reviewNeeded": false,
+      "pronKo": "꾸오이 뚜언",
+      "pronNoteKo": "주말입니다.",
+      "pronChunks": ["cuối=꾸오이", "tuần=뚜언"]
+    },
+    {
+      "id": "d6weather-v-006",
+      "term": "nắng",
+      "meaningKo": "맑다 / 해가 나다",
+      "example": "Hôm nay trời nắng.",
+      "exampleMeaningKo": "오늘은 날씨가 맑습니다.",
+      "audioSrc": "",
+      "sourcePage": 17,
+      "reviewNeeded": false,
+      "pronKo": "낭",
+      "pronNoteKo": "해가 나는 날씨입니다.",
+      "pronChunks": ["nắng=낭"]
+    },
+    {
+      "id": "d6weather-v-007",
+      "term": "mưa",
+      "meaningKo": "비",
+      "example": "Hôm nay có mưa.",
+      "exampleMeaningKo": "오늘 비가 있습니다.",
+      "audioSrc": "",
+      "sourcePage": 17,
+      "reviewNeeded": false,
+      "pronKo": "므어",
+      "pronNoteKo": "비라는 명사입니다.",
+      "pronChunks": ["mưa=므어"]
+    },
+    {
+      "id": "d6weather-v-008",
+      "term": "trời mưa",
+      "meaningKo": "비가 오다",
+      "example": "Ngày mai trời mưa.",
+      "exampleMeaningKo": "내일 비가 옵니다.",
+      "audioSrc": "",
+      "sourcePage": 17,
+      "reviewNeeded": false,
+      "pronKo": "쩌이 므어",
+      "pronNoteKo": "날씨 주어 trời와 함께 씁니다.",
+      "pronChunks": ["trời=쩌이", "mưa=므어"]
+    },
+    {
+      "id": "d6weather-v-009",
+      "term": "trời nắng",
+      "meaningKo": "날씨가 맑다",
+      "example": "Hôm nay trời nắng.",
+      "exampleMeaningKo": "오늘은 날씨가 맑습니다.",
+      "audioSrc": "",
+      "sourcePage": 17,
+      "reviewNeeded": false,
+      "pronKo": "쩌이 낭",
+      "pronNoteKo": "맑고 해가 있는 날씨입니다.",
+      "pronChunks": ["trời=쩌이", "nắng=낭"]
+    },
+    {
+      "id": "d6weather-v-010",
+      "term": "nhiệt độ",
+      "meaningKo": "기온",
+      "example": "Nhiệt độ hôm nay là hai mươi độ.",
+      "exampleMeaningKo": "오늘 기온은 20도입니다.",
+      "audioSrc": "",
+      "sourcePage": 17,
+      "reviewNeeded": false,
+      "pronKo": "니엣 도",
+      "pronNoteKo": "온도, 기온을 말할 때 씁니다.",
+      "pronChunks": ["nhiệt=니엣", "độ=도"]
+    },
+    {
+      "id": "d6weather-v-011",
+      "term": "độ",
+      "meaningKo": "도",
+      "example": "Hôm nay hai mươi độ.",
+      "exampleMeaningKo": "오늘은 20도입니다.",
+      "audioSrc": "",
+      "sourcePage": 17,
+      "reviewNeeded": false,
+      "pronKo": "도",
+      "pronNoteKo": "기온의 도입니다.",
+      "pronChunks": ["độ=도"]
+    },
+    {
+      "id": "d6weather-v-012",
+      "term": "mùa",
+      "meaningKo": "계절",
+      "example": "Ở Hàn Quốc có bốn mùa.",
+      "exampleMeaningKo": "한국에는 사계절이 있습니다.",
+      "audioSrc": "",
+      "sourcePage": 17,
+      "reviewNeeded": false,
+      "pronKo": "무아",
+      "pronNoteKo": "계절입니다.",
+      "pronChunks": ["mùa=무아"]
+    },
+    {
+      "id": "d6weather-v-013",
+      "term": "mùa hè",
+      "meaningKo": "여름",
+      "example": "Mùa hè ở Hàn Quốc rất nóng.",
+      "exampleMeaningKo": "한국의 여름은 매우 덥습니다.",
+      "audioSrc": "",
+      "sourcePage": 17,
+      "reviewNeeded": false,
+      "pronKo": "무아 헤",
+      "pronNoteKo": "여름입니다.",
+      "pronChunks": ["mùa=무아", "hè=헤"]
+    },
+    {
+      "id": "d6weather-v-014",
+      "term": "mùa đông",
+      "meaningKo": "겨울",
+      "example": "Mùa đông ở Hàn Quốc rất lạnh.",
+      "exampleMeaningKo": "한국의 겨울은 매우 춥습니다.",
+      "audioSrc": "",
+      "sourcePage": 17,
+      "reviewNeeded": false,
+      "pronKo": "무아 동",
+      "pronNoteKo": "겨울입니다.",
+      "pronChunks": ["mùa=무아", "đông=동"]
+    },
+    {
+      "id": "d6weather-v-015",
+      "term": "mùa xuân",
+      "meaningKo": "봄",
+      "example": "Tôi thích mùa xuân nhất.",
+      "exampleMeaningKo": "저는 봄을 가장 좋아합니다.",
+      "audioSrc": "",
+      "sourcePage": 17,
+      "reviewNeeded": false,
+      "pronKo": "무아 쑤언",
+      "pronNoteKo": "봄입니다.",
+      "pronChunks": ["mùa=무아", "xuân=쑤언"]
+    },
+    {
+      "id": "d6weather-v-016",
+      "term": "mùa thu",
+      "meaningKo": "가을",
+      "example": "Mùa thu rất mát.",
+      "exampleMeaningKo": "가을은 매우 시원합니다.",
+      "audioSrc": "",
+      "sourcePage": 17,
+      "reviewNeeded": false,
+      "pronKo": "무아 투",
+      "pronNoteKo": "가을입니다.",
+      "pronChunks": ["mùa=무아", "thu=투"]
+    },
+    {
+      "id": "d6weather-v-017",
+      "term": "nóng",
+      "meaningKo": "덥다",
+      "example": "Mùa hè rất nóng.",
+      "exampleMeaningKo": "여름은 매우 덥습니다.",
+      "audioSrc": "",
+      "sourcePage": 17,
+      "reviewNeeded": false,
+      "pronKo": "농",
+      "pronNoteKo": "덥다는 뜻입니다.",
+      "pronChunks": ["nóng=농"]
+    },
+    {
+      "id": "d6weather-v-018",
+      "term": "lạnh",
+      "meaningKo": "춥다",
+      "example": "Mùa đông rất lạnh.",
+      "exampleMeaningKo": "겨울은 매우 춥습니다.",
+      "audioSrc": "",
+      "sourcePage": 17,
+      "reviewNeeded": false,
+      "pronKo": "라인",
+      "pronNoteKo": "춥다는 뜻입니다.",
+      "pronChunks": ["lạnh=라인"]
+    },
+    {
+      "id": "d6weather-v-019",
+      "term": "mát",
+      "meaningKo": "시원하다",
+      "example": "Mùa thu rất mát.",
+      "exampleMeaningKo": "가을은 매우 시원합니다.",
+      "audioSrc": "",
+      "sourcePage": 17,
+      "reviewNeeded": false,
+      "pronKo": "맛",
+      "pronNoteKo": "기분 좋게 시원한 느낌입니다.",
+      "pronChunks": ["mát=맛"]
+    },
+    {
+      "id": "d6weather-v-020",
+      "term": "ấm",
+      "meaningKo": "따뜻하다",
+      "example": "Mùa xuân rất ấm.",
+      "exampleMeaningKo": "봄은 매우 따뜻합니다.",
+      "audioSrc": "",
+      "sourcePage": 17,
+      "reviewNeeded": false,
+      "pronKo": "엄",
+      "pronNoteKo": "따뜻하다는 뜻입니다.",
+      "pronChunks": ["ấm=엄"]
+    },
+    {
+      "id": "d6weather-v-021",
+      "term": "độ ẩm",
+      "meaningKo": "습도",
+      "example": "Độ ẩm hôm nay cao.",
+      "exampleMeaningKo": "오늘 습도가 높습니다.",
+      "audioSrc": "",
+      "sourcePage": 17,
+      "reviewNeeded": false,
+      "pronKo": "도 엄",
+      "pronNoteKo": "습도입니다.",
+      "pronChunks": ["độ=도", "ẩm=엄"]
+    },
+    {
+      "id": "d6weather-v-022",
+      "term": "ẩm",
+      "meaningKo": "습하다",
+      "example": "Mùa hè ở Hàn Quốc nóng và ẩm.",
+      "exampleMeaningKo": "한국의 여름은 덥고 습합니다.",
+      "audioSrc": "",
+      "sourcePage": 17,
+      "reviewNeeded": false,
+      "pronKo": "엄",
+      "pronNoteKo": "습하다는 뜻입니다.",
+      "pronChunks": ["ẩm=엄"]
+    },
+    {
+      "id": "d6weather-v-023",
+      "term": "khô",
+      "meaningKo": "건조하다",
+      "example": "Mùa đông ở Hàn Quốc lạnh và khô.",
+      "exampleMeaningKo": "한국의 겨울은 춥고 건조합니다.",
+      "audioSrc": "",
+      "sourcePage": 17,
+      "reviewNeeded": false,
+      "pronKo": "코",
+      "pronNoteKo": "건조하다는 뜻입니다.",
+      "pronChunks": ["khô=코"]
+    },
+    {
+      "id": "d6weather-v-024",
+      "term": "tuyết",
+      "meaningKo": "눈",
+      "example": "Mùa đông có tuyết.",
+      "exampleMeaningKo": "겨울에는 눈이 있습니다.",
+      "audioSrc": "",
+      "sourcePage": 17,
+      "reviewNeeded": false,
+      "pronKo": "뚜엣",
+      "pronNoteKo": "눈이라는 명사입니다.",
+      "pronChunks": ["tuyết=뚜엣"]
+    },
+    {
+      "id": "d6weather-v-025",
+      "term": "tuyết rơi",
+      "meaningKo": "눈이 오다",
+      "example": "Mùa đông ở Hàn Quốc tuyết rơi.",
+      "exampleMeaningKo": "한국의 겨울에는 눈이 옵니다.",
+      "audioSrc": "",
+      "sourcePage": 17,
+      "reviewNeeded": false,
+      "pronKo": "뚜엣 저이",
+      "pronNoteKo": "rơi는 떨어지다, tuyết rơi는 눈이 오다입니다.",
+      "pronChunks": ["tuyết=뚜엣", "rơi=저이"]
+    },
+    {
+      "id": "d6weather-v-026",
+      "term": "mưa nhiều",
+      "meaningKo": "비가 많이 오다",
+      "example": "Mùa hè ở Hàn Quốc mưa nhiều.",
+      "exampleMeaningKo": "한국의 여름에는 비가 많이 옵니다.",
+      "audioSrc": "",
+      "sourcePage": 17,
+      "reviewNeeded": false,
+      "pronKo": "므어 니에우",
+      "pronNoteKo": "비가 많다는 뜻입니다.",
+      "pronChunks": ["mưa=므어", "nhiều=니에우"]
+    },
+    {
+      "id": "d6weather-v-027",
+      "term": "dự báo thời tiết",
+      "meaningKo": "일기예보",
+      "example": "Dự báo thời tiết cuối tuần này rất tốt.",
+      "exampleMeaningKo": "이번 주말 일기예보가 매우 좋습니다.",
+      "audioSrc": "",
+      "sourcePage": 17,
+      "reviewNeeded": false,
+      "pronKo": "즈 바오 터이 띠엣",
+      "pronNoteKo": "일기예보입니다.",
+      "pronChunks": ["dự báo=즈 바오", "thời tiết=터이 띠엣"]
+    },
+    {
+      "id": "d6weather-v-028",
+      "term": "thay đổi",
+      "meaningKo": "변하다",
+      "example": "Thời tiết thay đổi nhiều.",
+      "exampleMeaningKo": "날씨가 많이 변합니다.",
+      "audioSrc": "",
+      "sourcePage": 17,
+      "reviewNeeded": false,
+      "pronKo": "타이 도이",
+      "pronNoteKo": "변하다, 바뀌다입니다.",
+      "pronChunks": ["thay=타이", "đổi=도이"]
+    },
+    {
+      "id": "d6weather-v-029",
+      "term": "khác nhau",
+      "meaningKo": "다르다",
+      "example": "Khí hậu Hàn Quốc và Việt Nam khác nhau.",
+      "exampleMeaningKo": "한국과 베트남의 기후는 다릅니다.",
+      "audioSrc": "",
+      "sourcePage": 17,
+      "reviewNeeded": false,
+      "pronKo": "칵 냐우",
+      "pronNoteKo": "서로 다르다는 뜻입니다.",
+      "pronChunks": ["khác=칵", "nhau=냐우"]
+    },
+    {
+      "id": "d6weather-v-030",
+      "term": "so với",
+      "meaningKo": "~와 비교해서",
+      "example": "So với Việt Nam, Hàn Quốc lạnh hơn.",
+      "exampleMeaningKo": "베트남과 비교해서 한국은 더 춥습니다.",
+      "audioSrc": "",
+      "sourcePage": 17,
+      "reviewNeeded": false,
+      "pronKo": "쏘 버이",
+      "pronNoteKo": "비교할 때 씁니다.",
+      "pronChunks": ["so=쏘", "với=버이"]
+    },
+    {
+      "id": "d6weather-v-031",
+      "term": "đi du lịch",
+      "meaningKo": "여행 가다",
+      "example": "Tôi muốn đi du lịch Hàn Quốc.",
+      "exampleMeaningKo": "저는 한국 여행을 가고 싶습니다.",
+      "audioSrc": "",
+      "sourcePage": 17,
+      "reviewNeeded": false,
+      "pronKo": "디 주 릭",
+      "pronNoteKo": "여행 가다입니다.",
+      "pronChunks": ["đi=디", "du lịch=주 릭"]
+    },
+    {
+      "id": "d6weather-v-032",
+      "term": "đi biển",
+      "meaningKo": "바다에 가다",
+      "example": "Mùa hè tôi hay đi biển.",
+      "exampleMeaningKo": "여름에 저는 자주 바다에 갑니다.",
+      "audioSrc": "",
+      "sourcePage": 17,
+      "reviewNeeded": false,
+      "pronKo": "디 비엔",
+      "pronNoteKo": "해변, 바다에 놀러 가는 표현입니다.",
+      "pronChunks": ["đi=디", "biển=비엔"]
+    },
+    {
+      "id": "d6weather-v-033",
+      "term": "nên",
+      "meaningKo": "~하는 것이 좋다 / 그래서",
+      "example": "Nếu đi du lịch Hàn Quốc thì nên đi vào mùa thu.",
+      "exampleMeaningKo": "한국 여행을 간다면 가을에 가는 것이 좋습니다.",
+      "audioSrc": "",
+      "sourcePage": 17,
+      "reviewNeeded": false,
+      "pronKo": "넨",
+      "pronNoteKo": "문맥에 따라 '~하는 것이 좋다' 또는 '그래서'입니다.",
+      "pronChunks": ["nên=넨"]
+    },
+    {
+      "id": "d6weather-v-034",
+      "term": "khi",
+      "meaningKo": "~할 때",
+      "example": "Khi trời mưa, tôi ở nhà.",
+      "exampleMeaningKo": "비가 올 때 저는 집에 있습니다.",
+      "audioSrc": "",
+      "sourcePage": 17,
+      "reviewNeeded": false,
+      "pronKo": "키",
+      "pronNoteKo": "~할 때입니다.",
+      "pronChunks": ["khi=키"]
+    },
+    {
+      "id": "d6weather-v-035",
+      "term": "nếu",
+      "meaningKo": "만약 ~라면",
+      "example": "Nếu trời mưa, tôi không đi ra ngoài.",
+      "exampleMeaningKo": "만약 비가 오면 저는 밖에 나가지 않습니다.",
+      "audioSrc": "",
+      "sourcePage": 17,
+      "reviewNeeded": false,
+      "pronKo": "네우",
+      "pronNoteKo": "조건을 말할 때 씁니다.",
+      "pronChunks": ["nếu=네우"]
+    },
+    {
+      "id": "d6weather-v-036",
+      "term": "mọi người",
+      "meaningKo": "사람들 / 모두",
+      "example": "Mùa đông, mọi người thường đi trượt tuyết.",
+      "exampleMeaningKo": "겨울에 사람들은 보통 스키를 타러 갑니다.",
+      "audioSrc": "",
+      "sourcePage": 17,
+      "reviewNeeded": false,
+      "pronKo": "모이 응어이",
+      "pronNoteKo": "사람들, 모두라는 뜻입니다.",
+      "pronChunks": ["mọi=모이", "người=응어이"]
+    },
+    {
+      "id": "d6weather-v-037",
+      "term": "mùa mưa",
+      "meaningKo": "우기",
+      "example": "Ở Việt Nam có mùa mưa.",
+      "exampleMeaningKo": "베트남에는 우기가 있습니다.",
+      "audioSrc": "",
+      "sourcePage": 17,
+      "reviewNeeded": false,
+      "pronKo": "무아 므어",
+      "pronNoteKo": "비가 많이 오는 계절입니다.",
+      "pronChunks": ["mùa=무아", "mưa=므어"]
+    },
+    {
+      "id": "d6weather-v-038",
+      "term": "mùa khô",
+      "meaningKo": "건기",
+      "example": "Ở Việt Nam có mùa khô.",
+      "exampleMeaningKo": "베트남에는 건기가 있습니다.",
+      "audioSrc": "",
+      "sourcePage": 17,
+      "reviewNeeded": false,
+      "pronKo": "무아 코",
+      "pronNoteKo": "비가 적고 건조한 계절입니다.",
+      "pronChunks": ["mùa=무아", "khô=코"]
+    }
+  ],
+  "sentenceCards": [
+    {
+      "id": "d6weather-s-001",
+      "textVi": "Hôm nay thời tiết thế nào?",
+      "textKo": "오늘 날씨가 어때요?",
+      "exampleAnswerVi": "Hôm nay thời tiết rất đẹp. Trời nắng và hơi mát.",
+      "exampleAnswerKo": "오늘 날씨가 매우 좋습니다. 날씨가 맑고 조금 시원합니다.",
+      "audioSrc": "",
+      "sourcePage": 18,
+      "reviewNeeded": false,
+      "pronKo": "홈 나이 터이 띠엣 테 나오?",
+      "exampleAnswerPronKo": "홈 나이 터이 띠엣 젓 뎁. 쩌이 낭 바 허이 맛.",
+      "pronNoteKo": "날씨 질문의 가장 기본형입니다."
+    },
+    {
+      "id": "d6weather-s-002",
+      "textVi": "Hôm nay thời tiết ở chỗ anh thế nào?",
+      "textKo": "오늘 당신이 있는 곳의 날씨는 어때요?",
+      "exampleAnswerVi": "Ở chỗ tôi hôm nay trời nắng, nhưng hơi lạnh.",
+      "exampleAnswerKo": "제가 있는 곳은 오늘 맑지만 조금 춥습니다.",
+      "audioSrc": "",
+      "sourcePage": 18,
+      "reviewNeeded": false,
+      "pronKo": "홈 나이 터이 띠엣 어 쪼 아인 테 나오?",
+      "exampleAnswerPronKo": "어 쪼 또이 홈 나이 쩌이 낭, 늉 허이 라인.",
+      "pronNoteKo": "ở chỗ tôi = 제가 있는 곳."
+    },
+    {
+      "id": "d6weather-s-003",
+      "textVi": "Khí hậu của Hàn Quốc thế nào?",
+      "textKo": "한국의 기후는 어때요?",
+      "exampleAnswerVi": "Khí hậu của Hàn Quốc có bốn mùa rõ rệt.",
+      "exampleAnswerKo": "한국의 기후는 사계절이 뚜렷합니다.",
+      "audioSrc": "",
+      "sourcePage": 18,
+      "reviewNeeded": false,
+      "pronKo": "키 허우 꾸어 한 꾸옥 테 나오?",
+      "exampleAnswerPronKo": "키 허우 꾸어 한 꾸옥 꼬 본 무아 조 젯.",
+      "pronNoteKo": "rõ rệt = 뚜렷한. 사계절 설명에 좋습니다."
+    },
+    {
+      "id": "d6weather-s-004",
+      "textVi": "Ở Hàn Quốc, một năm có mấy mùa?",
+      "textKo": "한국에는 1년에 몇 계절이 있어요?",
+      "exampleAnswerVi": "Ở Hàn Quốc, một năm có bốn mùa: mùa xuân, mùa hè, mùa thu và mùa đông.",
+      "exampleAnswerKo": "한국에는 1년에 봄, 여름, 가을, 겨울 네 계절이 있습니다.",
+      "audioSrc": "",
+      "sourcePage": 18,
+      "reviewNeeded": false,
+      "pronKo": "어 한 꾸옥, 못 남 꼬 머이 무아?",
+      "exampleAnswerPronKo": "어 한 꾸옥, 못 남 꼬 본 무아: 무아 쑤언, 무아 헤, 무아 투 바 무아 동.",
+      "pronNoteKo": "mấy mùa = 몇 계절."
+    },
+    {
+      "id": "d6weather-s-005",
+      "textVi": "Anh thích mùa nào nhất?",
+      "textKo": "어느 계절을 가장 좋아해요?",
+      "exampleAnswerVi": "Tôi thích mùa thu nhất vì thời tiết mát và dễ chịu.",
+      "exampleAnswerKo": "저는 가을을 가장 좋아합니다. 왜냐하면 날씨가 시원하고 쾌적하기 때문입니다.",
+      "audioSrc": "",
+      "sourcePage": 18,
+      "reviewNeeded": false,
+      "pronKo": "아인 틱 무아 나오 녓?",
+      "exampleAnswerPronKo": "또이 틱 무아 투 녓 비 터이 띠엣 맛 바 제 찌우.",
+      "pronNoteKo": "Tôi thích ... nhất = 저는 ...을 가장 좋아합니다."
+    },
+    {
+      "id": "d6weather-s-006",
+      "textVi": "Mùa hè ở Hàn Quốc có hay mưa không?",
+      "textKo": "한국의 여름에는 비가 자주 와요?",
+      "exampleAnswerVi": "Có. Mùa hè ở Hàn Quốc hay mưa và rất ẩm.",
+      "exampleAnswerKo": "네. 한국의 여름에는 비가 자주 오고 매우 습합니다.",
+      "audioSrc": "",
+      "sourcePage": 18,
+      "reviewNeeded": false,
+      "pronKo": "무아 헤 어 한 꾸옥 꼬 하이 므어 콩?",
+      "exampleAnswerPronKo": "꼬. 무아 헤 어 한 꾸옥 하이 므어 바 젓 엄.",
+      "pronNoteKo": "hay + 동사 = 자주 ~하다."
+    },
+    {
+      "id": "d6weather-s-007",
+      "textVi": "Mùa đông ở Hàn Quốc, mọi người thường làm gì?",
+      "textKo": "한국의 겨울에 사람들은 보통 무엇을 해요?",
+      "exampleAnswerVi": "Mùa đông, mọi người thường đi trượt tuyết hoặc ở nhà vì trời rất lạnh.",
+      "exampleAnswerKo": "겨울에 사람들은 보통 스키를 타러 가거나, 날씨가 매우 추워서 집에 있습니다.",
+      "audioSrc": "",
+      "sourcePage": 18,
+      "reviewNeeded": false,
+      "pronKo": "무아 동 어 한 꾸옥, 모이 응어이 트엉 람 지?",
+      "exampleAnswerPronKo": "무아 동, 모이 응어이 트엉 디 쯧 뚜엣 호악 어 냐 비 쩌이 젓 라인.",
+      "pronNoteKo": "đi trượt tuyết = 스키 타러 가다."
+    },
+    {
+      "id": "d6weather-s-008",
+      "textVi": "Anh thích khí hậu ở Hàn Quốc hơn hay Việt Nam hơn?",
+      "textKo": "한국 기후를 더 좋아해요, 아니면 베트남 기후를 더 좋아해요?",
+      "exampleAnswerVi": "Tôi thích khí hậu ở Hàn Quốc hơn vì có bốn mùa.",
+      "exampleAnswerKo": "저는 사계절이 있기 때문에 한국 기후를 더 좋아합니다.",
+      "audioSrc": "",
+      "sourcePage": 18,
+      "reviewNeeded": false,
+      "pronKo": "아인 틱 키 허우 어 한 꾸옥 헌 하이 비엣 남 헌?",
+      "exampleAnswerPronKo": "또이 틱 키 허우 어 한 꾸옥 헌 비 꼬 본 무아.",
+      "pronNoteKo": "A hơn hay B hơn = A가 더 좋아요, 아니면 B가 더 좋아요?"
+    },
+    {
+      "id": "d6weather-s-009",
+      "textVi": "Nếu đi du lịch ở Hàn Quốc thì nên đi mùa nào?",
+      "textKo": "한국 여행을 간다면 어느 계절에 가는 것이 좋아요?",
+      "exampleAnswerVi": "Nếu đi du lịch ở Hàn Quốc thì nên đi vào mùa thu.",
+      "exampleAnswerKo": "한국 여행을 간다면 가을에 가는 것이 좋습니다.",
+      "audioSrc": "",
+      "sourcePage": 18,
+      "reviewNeeded": false,
+      "pronKo": "네우 디 주 릭 어 한 꾸옥 티 넨 디 무아 나오?",
+      "exampleAnswerPronKo": "네우 디 주 릭 어 한 꾸옥 티 넨 디 바오 무아 투.",
+      "pronNoteKo": "Nếu ... thì nên ... = 만약 ~라면 ~하는 것이 좋습니다."
+    },
+    {
+      "id": "d6weather-s-010",
+      "textVi": "Mùa hè ở Hàn Quốc có nóng không?",
+      "textKo": "한국의 여름은 더워요?",
+      "exampleAnswerVi": "Có. Mùa hè ở Hàn Quốc rất nóng và ẩm.",
+      "exampleAnswerKo": "네. 한국의 여름은 매우 덥고 습합니다.",
+      "audioSrc": "",
+      "sourcePage": 18,
+      "reviewNeeded": false,
+      "pronKo": "무아 헤 어 한 꾸옥 꼬 농 콩?",
+      "exampleAnswerPronKo": "꼬. 무아 헤 어 한 꾸옥 젓 농 바 엄.",
+      "pronNoteKo": "nóng và ẩm = 덥고 습하다."
+    },
+    {
+      "id": "d6weather-s-011",
+      "textVi": "Mùa đông tuyết có rơi nhiều không?",
+      "textKo": "겨울에는 눈이 많이 와요?",
+      "exampleAnswerVi": "Có. Mùa đông ở Hàn Quốc thỉnh thoảng tuyết rơi nhiều.",
+      "exampleAnswerKo": "네. 한국의 겨울에는 가끔 눈이 많이 옵니다.",
+      "audioSrc": "",
+      "sourcePage": 18,
+      "reviewNeeded": false,
+      "pronKo": "무아 동 뚜엣 꼬 저이 니에우 콩?",
+      "exampleAnswerPronKo": "꼬. 무아 동 어 한 꾸옥 틴 토앙 뚜엣 저이 니에우.",
+      "pronNoteKo": "thỉnh thoảng = 가끔."
+    },
+    {
+      "id": "d6weather-s-012",
+      "textVi": "Mùa hè nóng nhất là bao nhiêu độ?",
+      "textKo": "여름에 가장 더울 때는 몇 도예요?",
+      "exampleAnswerVi": "Mùa hè nóng nhất khoảng ba mươi lăm độ.",
+      "exampleAnswerKo": "여름에 가장 더울 때는 약 35도입니다.",
+      "audioSrc": "",
+      "sourcePage": 18,
+      "reviewNeeded": false,
+      "pronKo": "무아 헤 농 녓 라 바오 니에우 도?",
+      "exampleAnswerPronKo": "무아 헤 농 녓 코앙 바 므어이 람 도.",
+      "pronNoteKo": "bao nhiêu độ = 몇 도."
+    },
+    {
+      "id": "d6weather-s-013",
+      "textVi": "Mùa đông lạnh nhất là bao nhiêu độ?",
+      "textKo": "겨울에 가장 추울 때는 몇 도예요?",
+      "exampleAnswerVi": "Mùa đông lạnh nhất khoảng âm mười độ.",
+      "exampleAnswerKo": "겨울에 가장 추울 때는 약 영하 10도입니다.",
+      "audioSrc": "",
+      "sourcePage": 18,
+      "reviewNeeded": false,
+      "pronKo": "무아 동 라인 녓 라 바오 니에우 도?",
+      "exampleAnswerPronKo": "무아 동 라인 녓 코앙 엄 므어이 도.",
+      "pronNoteKo": "âm mười độ = 영하 10도."
+    },
+    {
+      "id": "d6weather-s-014",
+      "textVi": "Dự báo thời tiết cuối tuần này thế nào?",
+      "textKo": "이번 주말 일기예보가 어때요?",
+      "exampleAnswerVi": "Dự báo thời tiết cuối tuần này tốt. Trời nắng và không mưa.",
+      "exampleAnswerKo": "이번 주말 일기예보가 좋습니다. 날씨가 맑고 비가 오지 않습니다.",
+      "audioSrc": "",
+      "sourcePage": 18,
+      "reviewNeeded": false,
+      "pronKo": "즈 바오 터이 띠엣 꾸오이 뚜언 나이 테 나오?",
+      "exampleAnswerPronKo": "즈 바오 터이 띠엣 꾸오이 뚜언 나이 똣. 쩌이 낭 바 콩 므어.",
+      "pronNoteKo": "dự báo thời tiết = 일기예보."
+    },
+    {
+      "id": "d6weather-s-015",
+      "textVi": "Ngày mai trời mưa hay nắng?",
+      "textKo": "내일은 비가 와요, 아니면 맑아요?",
+      "exampleAnswerVi": "Ngày mai trời nắng. Nhưng buổi tối có thể mưa.",
+      "exampleAnswerKo": "내일은 맑습니다. 하지만 저녁에는 비가 올 수도 있습니다.",
+      "audioSrc": "",
+      "sourcePage": 18,
+      "reviewNeeded": false,
+      "pronKo": "응아이 마이 쩌이 므어 하이 낭?",
+      "exampleAnswerPronKo": "응아이 마이 쩌이 낭. 늉 부오이 또이 꼬 테 므어.",
+      "pronNoteKo": "mưa hay nắng = 비 또는 맑음."
+    },
+    {
+      "id": "d6weather-s-016",
+      "textVi": "Mùa hè anh có hay đi biển không?",
+      "textKo": "여름에 바다에 자주 가요?",
+      "exampleAnswerVi": "Có. Mùa hè tôi hay đi biển với gia đình.",
+      "exampleAnswerKo": "네. 여름에 저는 가족과 자주 바다에 갑니다.",
+      "audioSrc": "",
+      "sourcePage": 18,
+      "reviewNeeded": false,
+      "pronKo": "무아 헤 아인 꼬 하이 디 비엔 콩?",
+      "exampleAnswerPronKo": "꼬. 무아 헤 또이 하이 디 비엔 버이 자 딩.",
+      "pronNoteKo": "đi biển = 바다에 가다."
+    },
+    {
+      "id": "d6weather-s-017",
+      "textVi": "Anh thích thời tiết thế nào?",
+      "textKo": "어떤 날씨를 좋아해요?",
+      "exampleAnswerVi": "Tôi thích thời tiết mát, khô và không mưa.",
+      "exampleAnswerKo": "저는 시원하고 건조하며 비가 오지 않는 날씨를 좋아합니다.",
+      "audioSrc": "",
+      "sourcePage": 18,
+      "reviewNeeded": false,
+      "pronKo": "아인 틱 터이 띠엣 테 나오?",
+      "exampleAnswerPronKo": "또이 틱 터이 띠엣 맛, 코 바 콩 므어.",
+      "pronNoteKo": "좋아하는 날씨를 말할 때 형용사를 나열하면 됩니다."
+    }
+  ],
+  "dialogues": [
+    {
+      "id": "d6weather-d-001",
+      "title": "오늘 날씨 묻고 답하기",
+      "audioSrc": "",
+      "sourcePage": 18,
+      "reviewNeeded": false,
+      "lines": [
+        {
+          "speaker": "A",
+          "vi": "Hôm nay thời tiết thế nào?",
+          "ko": "오늘 날씨가 어때요?",
+          "pronKo": "홈 나이 터이 띠엣 테 나오?"
+        },
+        {
+          "speaker": "B",
+          "vi": "Hôm nay thời tiết rất đẹp. Trời nắng và hơi mát.",
+          "ko": "오늘 날씨가 매우 좋습니다. 날씨가 맑고 조금 시원합니다.",
+          "pronKo": "홈 나이 터이 띠엣 젓 뎁. 쩌이 낭 바 허이 맛."
+        },
+        {
+          "speaker": "A",
+          "vi": "Ngày mai trời mưa hay nắng?",
+          "ko": "내일은 비가 와요, 아니면 맑아요?",
+          "pronKo": "응아이 마이 쩌이 므어 하이 낭?"
+        },
+        {
+          "speaker": "B",
+          "vi": "Ngày mai trời nắng. Nhưng buổi tối có thể mưa.",
+          "ko": "내일은 맑습니다. 하지만 저녁에는 비가 올 수도 있습니다.",
+          "pronKo": "응아이 마이 쩌이 낭. 늉 부오이 또이 꼬 테 므어."
+        }
+      ]
+    },
+    {
+      "id": "d6weather-d-002",
+      "title": "한국의 사계절",
+      "audioSrc": "",
+      "sourcePage": 18,
+      "reviewNeeded": false,
+      "lines": [
+        {
+          "speaker": "A",
+          "vi": "Khí hậu của Hàn Quốc thế nào?",
+          "ko": "한국의 기후는 어때요?",
+          "pronKo": "키 허우 꾸어 한 꾸옥 테 나오?"
+        },
+        {
+          "speaker": "B",
+          "vi": "Khí hậu của Hàn Quốc có bốn mùa rõ rệt.",
+          "ko": "한국의 기후는 사계절이 뚜렷합니다.",
+          "pronKo": "키 허우 꾸어 한 꾸옥 꼬 본 무아 조 젯."
+        },
+        {
+          "speaker": "A",
+          "vi": "Ở Hàn Quốc, một năm có mấy mùa?",
+          "ko": "한국에는 1년에 몇 계절이 있어요?",
+          "pronKo": "어 한 꾸옥, 못 남 꼬 머이 무아?"
+        },
+        {
+          "speaker": "B",
+          "vi": "Ở Hàn Quốc, một năm có bốn mùa: mùa xuân, mùa hè, mùa thu và mùa đông.",
+          "ko": "한국에는 1년에 봄, 여름, 가을, 겨울 네 계절이 있습니다.",
+          "pronKo": "어 한 꾸옥, 못 남 꼬 본 무아: 무아 쑤언, 무아 헤, 무아 투 바 무아 동."
+        }
+      ]
+    },
+    {
+      "id": "d6weather-d-003",
+      "title": "좋아하는 계절",
+      "audioSrc": "",
+      "sourcePage": 18,
+      "reviewNeeded": false,
+      "lines": [
+        {
+          "speaker": "A",
+          "vi": "Anh thích mùa nào nhất?",
+          "ko": "어느 계절을 가장 좋아해요?",
+          "pronKo": "아인 틱 무아 나오 녓?"
+        },
+        {
+          "speaker": "B",
+          "vi": "Tôi thích mùa thu nhất vì thời tiết mát và dễ chịu.",
+          "ko": "저는 가을을 가장 좋아합니다. 왜냐하면 날씨가 시원하고 쾌적하기 때문입니다.",
+          "pronKo": "또이 틱 무아 투 녓 비 터이 띠엣 맛 바 제 찌우."
+        },
+        {
+          "speaker": "A",
+          "vi": "Nếu đi du lịch ở Hàn Quốc thì nên đi mùa nào?",
+          "ko": "한국 여행을 간다면 어느 계절에 가는 것이 좋아요?",
+          "pronKo": "네우 디 주 릭 어 한 꾸옥 티 넨 디 무아 나오?"
+        },
+        {
+          "speaker": "B",
+          "vi": "Nếu đi du lịch ở Hàn Quốc thì nên đi vào mùa thu.",
+          "ko": "한국 여행을 간다면 가을에 가는 것이 좋습니다.",
+          "pronKo": "네우 디 주 릭 어 한 꾸옥 티 넨 디 바오 무아 투."
+        }
+      ]
+    },
+    {
+      "id": "d6weather-d-004",
+      "title": "여름과 겨울",
+      "audioSrc": "",
+      "sourcePage": 18,
+      "reviewNeeded": false,
+      "lines": [
+        {
+          "speaker": "A",
+          "vi": "Mùa hè ở Hàn Quốc có nóng không?",
+          "ko": "한국의 여름은 더워요?",
+          "pronKo": "무아 헤 어 한 꾸옥 꼬 농 콩?"
+        },
+        {
+          "speaker": "B",
+          "vi": "Có. Mùa hè ở Hàn Quốc rất nóng và ẩm.",
+          "ko": "네. 한국의 여름은 매우 덥고 습합니다.",
+          "pronKo": "꼬. 무아 헤 어 한 꾸옥 젓 농 바 엄."
+        },
+        {
+          "speaker": "A",
+          "vi": "Mùa đông tuyết có rơi nhiều không?",
+          "ko": "겨울에는 눈이 많이 와요?",
+          "pronKo": "무아 동 뚜엣 꼬 저이 니에우 콩?"
+        },
+        {
+          "speaker": "B",
+          "vi": "Có. Mùa đông ở Hàn Quốc thỉnh thoảng tuyết rơi nhiều.",
+          "ko": "네. 한국의 겨울에는 가끔 눈이 많이 옵니다.",
+          "pronKo": "꼬. 무아 동 어 한 꾸옥 틴 토앙 뚜엣 저이 니에우."
+        }
+      ]
+    },
+    {
+      "id": "d6weather-d-005",
+      "title": "기온 말하기",
+      "audioSrc": "",
+      "sourcePage": 18,
+      "reviewNeeded": false,
+      "lines": [
+        {
+          "speaker": "A",
+          "vi": "Mùa hè nóng nhất là bao nhiêu độ?",
+          "ko": "여름에 가장 더울 때는 몇 도예요?",
+          "pronKo": "무아 헤 농 녓 라 바오 니에우 도?"
+        },
+        {
+          "speaker": "B",
+          "vi": "Mùa hè nóng nhất khoảng ba mươi lăm độ.",
+          "ko": "여름에 가장 더울 때는 약 35도입니다.",
+          "pronKo": "무아 헤 농 녓 코앙 바 므어이 람 도."
+        },
+        {
+          "speaker": "A",
+          "vi": "Mùa đông lạnh nhất là bao nhiêu độ?",
+          "ko": "겨울에 가장 추울 때는 몇 도예요?",
+          "pronKo": "무아 동 라인 녓 라 바오 니에우 도?"
+        },
+        {
+          "speaker": "B",
+          "vi": "Mùa đông lạnh nhất khoảng âm mười độ.",
+          "ko": "겨울에 가장 추울 때는 약 영하 10도입니다.",
+          "pronKo": "무아 동 라인 녓 코앙 엄 므어이 도."
+        }
+      ]
+    },
+    {
+      "id": "d6weather-d-006",
+      "title": "좋아하는 날씨와 바다",
+      "audioSrc": "",
+      "sourcePage": 18,
+      "reviewNeeded": false,
+      "lines": [
+        {
+          "speaker": "A",
+          "vi": "Anh thích thời tiết thế nào?",
+          "ko": "어떤 날씨를 좋아해요?",
+          "pronKo": "아인 틱 터이 띠엣 테 나오?"
+        },
+        {
+          "speaker": "B",
+          "vi": "Tôi thích thời tiết mát, khô và không mưa.",
+          "ko": "저는 시원하고 건조하며 비가 오지 않는 날씨를 좋아합니다.",
+          "pronKo": "또이 틱 터이 띠엣 맛, 코 바 콩 므어."
+        },
+        {
+          "speaker": "A",
+          "vi": "Mùa hè anh có hay đi biển không?",
+          "ko": "여름에 바다에 자주 가요?",
+          "pronKo": "무아 헤 아인 꼬 하이 디 비엔 콩?"
+        },
+        {
+          "speaker": "B",
+          "vi": "Có. Mùa hè tôi hay đi biển với gia đình.",
+          "ko": "네. 여름에 저는 가족과 자주 바다에 갑니다.",
+          "pronKo": "꼬. 무아 헤 또이 하이 디 비엔 버이 자 딩."
+        }
+      ]
+    }
+  ],
+  "grammarPoints": [
+    {
+      "id": "d6weather-g-001",
+      "title": "날씨 묻기",
+      "pattern": "Hôm nay thời tiết thế nào?",
+      "meaningKo": "오늘 날씨가 어때요?",
+      "sourcePage": 18,
+      "reviewNeeded": false
+    },
+    {
+      "id": "d6weather-g-002",
+      "title": "날씨 표현 기본",
+      "pattern": "Trời + 날씨 표현 → Trời nắng. / Trời mưa.",
+      "meaningKo": "날씨가 맑다 / 비가 오다.",
+      "sourcePage": 18,
+      "reviewNeeded": false
+    },
+    {
+      "id": "d6weather-g-003",
+      "title": "한국 기후 설명",
+      "pattern": "Khí hậu của Hàn Quốc có bốn mùa.",
+      "meaningKo": "한국의 기후에는 사계절이 있습니다.",
+      "sourcePage": 18,
+      "reviewNeeded": false
+    },
+    {
+      "id": "d6weather-g-004",
+      "title": "몇 계절이 있어요?",
+      "pattern": "Một năm có mấy mùa?",
+      "meaningKo": "1년에 몇 계절이 있어요?",
+      "sourcePage": 18,
+      "reviewNeeded": false
+    },
+    {
+      "id": "d6weather-g-005",
+      "title": "가장 좋아하는 계절",
+      "pattern": "Tôi thích + mùa + nhất.",
+      "meaningKo": "저는 ~계절을 가장 좋아합니다.",
+      "sourcePage": 18,
+      "reviewNeeded": false
+    },
+    {
+      "id": "d6weather-g-006",
+      "title": "이유 말하기",
+      "pattern": "vì + 문장",
+      "meaningKo": "왜냐하면 ~이기 때문입니다.",
+      "sourcePage": 18,
+      "reviewNeeded": false
+    },
+    {
+      "id": "d6weather-g-007",
+      "title": "자주 ~하다",
+      "pattern": "hay + 동사 → Mùa hè hay mưa.",
+      "meaningKo": "자주 ~하다. 여름에 비가 자주 온다.",
+      "sourcePage": 18,
+      "reviewNeeded": false
+    },
+    {
+      "id": "d6weather-g-008",
+      "title": "A가 더 좋아요, B가 더 좋아요?",
+      "pattern": "A hơn hay B hơn?",
+      "meaningKo": "A가 더 좋아요, 아니면 B가 더 좋아요?",
+      "sourcePage": 18,
+      "reviewNeeded": false
+    },
+    {
+      "id": "d6weather-g-009",
+      "title": "만약 ~라면 ~하는 것이 좋다",
+      "pattern": "Nếu + 문장 + thì nên + 동사.",
+      "meaningKo": "만약 ~라면 ~하는 것이 좋습니다.",
+      "sourcePage": 18,
+      "reviewNeeded": false
+    },
+    {
+      "id": "d6weather-g-010",
+      "title": "기온 말하기",
+      "pattern": "Nhiệt độ là + 숫자 + độ.",
+      "meaningKo": "기온은 ~도입니다.",
+      "sourcePage": 18,
+      "reviewNeeded": false
+    },
+    {
+      "id": "d6weather-g-011",
+      "title": "가장 덥다 / 가장 춥다",
+      "pattern": "nóng nhất / lạnh nhất",
+      "meaningKo": "가장 덥다 / 가장 춥다.",
+      "sourcePage": 18,
+      "reviewNeeded": false
+    },
+    {
+      "id": "d6weather-g-012",
+      "title": "몇 도예요?",
+      "pattern": "bao nhiêu độ?",
+      "meaningKo": "몇 도예요?",
+      "sourcePage": 18,
+      "reviewNeeded": false
+    },
+    {
+      "id": "d6weather-g-013",
+      "title": "영하 표현",
+      "pattern": "âm + 숫자 + độ → âm mười độ",
+      "meaningKo": "영하 ~도. 예: 영하 10도.",
+      "sourcePage": 18,
+      "reviewNeeded": false
+    },
+    {
+      "id": "d6weather-g-014",
+      "title": "비 또는 맑음",
+      "pattern": "trời mưa hay nắng?",
+      "meaningKo": "비가 와요, 아니면 맑아요?",
+      "sourcePage": 18,
+      "reviewNeeded": false
+    },
+    {
+      "id": "d6weather-g-015",
+      "title": "한국과 베트남 비교",
+      "pattern": "So với Việt Nam, Hàn Quốc lạnh hơn.",
+      "meaningKo": "베트남과 비교해서 한국은 더 춥습니다.",
+      "sourcePage": 18,
+      "reviewNeeded": false
+    }
+  ],
+  "pronunciationTargets": [
+    {
+      "id": "d6weather-p-001",
+      "text": "thời tiết",
+      "hintKo": "날씨",
+      "audioSrc": "",
+      "sourcePage": 17,
+      "reviewNeeded": false,
+      "pronKo": "터이 띠엣",
+      "mouthKo": "thời와 tiết을 또박또박 나눠 읽습니다.",
+      "toneKo": "날씨 주제 핵심 단어입니다."
+    },
+    {
+      "id": "d6weather-p-002",
+      "text": "khí hậu",
+      "hintKo": "기후",
+      "audioSrc": "",
+      "sourcePage": 17,
+      "reviewNeeded": false,
+      "pronKo": "키 허우",
+      "mouthKo": "khí는 '키', hậu는 '허우'에 가깝습니다.",
+      "toneKo": "한국 기후 설명에 자주 씁니다."
+    },
+    {
+      "id": "d6weather-p-003",
+      "text": "Hôm nay thời tiết thế nào?",
+      "hintKo": "오늘 날씨가 어때요?",
+      "audioSrc": "",
+      "sourcePage": 18,
+      "reviewNeeded": false,
+      "pronKo": "홈 나이 터이 띠엣 테 나오?",
+      "mouthKo": "Hôm nay / thời tiết / thế nào 로 끊어 읽습니다.",
+      "toneKo": "질문이므로 끝을 살짝 올려 말하면 좋습니다."
+    },
+    {
+      "id": "d6weather-p-004",
+      "text": "Mùa hè ở Hàn Quốc rất nóng và ẩm.",
+      "hintKo": "한국의 여름은 매우 덥고 습합니다.",
+      "audioSrc": "",
+      "sourcePage": 18,
+      "reviewNeeded": false,
+      "pronKo": "무아 헤 어 한 꾸옥 젓 농 바 엄.",
+      "mouthKo": "Mùa hè / ở Hàn Quốc / rất nóng và ẩm 으로 나눕니다.",
+      "toneKo": "nóng và ẩm을 한 덩어리로 외우면 좋습니다."
+    },
+    {
+      "id": "d6weather-p-005",
+      "text": "Nếu đi du lịch ở Hàn Quốc thì nên đi vào mùa thu.",
+      "hintKo": "한국 여행을 간다면 가을에 가는 것이 좋습니다.",
+      "audioSrc": "",
+      "sourcePage": 18,
+      "reviewNeeded": false,
+      "pronKo": "네우 디 주 릭 어 한 꾸옥 티 넨 디 바오 무아 투.",
+      "mouthKo": "Nếu đi du lịch / ở Hàn Quốc / thì nên đi / vào mùa thu 로 끊습니다.",
+      "toneKo": "추천 답변에 그대로 쓸 수 있는 문장입니다."
+    },
+    {
+      "id": "d6weather-p-006",
+      "text": "Mùa đông lạnh nhất khoảng âm mười độ.",
+      "hintKo": "겨울에 가장 추울 때는 약 영하 10도입니다.",
+      "audioSrc": "",
+      "sourcePage": 18,
+      "reviewNeeded": false,
+      "pronKo": "무아 동 라인 녓 코앙 엄 므어이 도.",
+      "mouthKo": "Mùa đông lạnh nhất / khoảng / âm mười độ 로 끊습니다.",
+      "toneKo": "âm mười độ = 영하 10도입니다."
+    }
+  ],
+  "quizSeeds": [
+    {
+      "id": "d6weather-q-001",
+      "type": "match-term",
+      "prompt": "6일차 날씨 기본 단어 매칭",
+      "answerSet": [
+        "thời tiết-날씨",
+        "khí hậu-기후",
+        "hôm nay-오늘",
+        "ngày mai-내일",
+        "cuối tuần-주말",
+        "nắng-맑다",
+        "mưa-비",
+        "trời mưa-비가 오다",
+        "trời nắng-날씨가 맑다",
+        "nhiệt độ-기온"
+      ],
+      "sourcePage": 17,
+      "reviewNeeded": false
+    },
+    {
+      "id": "d6weather-q-002",
+      "type": "match-term",
+      "prompt": "6일차 계절 단어 매칭",
+      "answerSet": [
+        "mùa-계절",
+        "mùa xuân-봄",
+        "mùa hè-여름",
+        "mùa thu-가을",
+        "mùa đông-겨울",
+        "mùa mưa-우기",
+        "mùa khô-건기",
+        "nóng-덥다",
+        "lạnh-춥다",
+        "mát-시원하다"
+      ],
+      "sourcePage": 17,
+      "reviewNeeded": false
+    },
+    {
+      "id": "d6weather-q-003",
+      "type": "match-term",
+      "prompt": "6일차 기후 표현 매칭",
+      "answerSet": [
+        "ấm-따뜻하다",
+        "độ ẩm-습도",
+        "ẩm-습하다",
+        "khô-건조하다",
+        "tuyết-눈",
+        "tuyết rơi-눈이 오다",
+        "mưa nhiều-비가 많이 오다",
+        "dự báo thời tiết-일기예보",
+        "thay đổi-변하다",
+        "khác nhau-다르다"
+      ],
+      "sourcePage": 17,
+      "reviewNeeded": false
+    },
+    {
+      "id": "d6weather-q-004",
+      "type": "match-term",
+      "prompt": "6일차 여행/비교 표현 매칭",
+      "answerSet": [
+        "so với-~와 비교해서",
+        "đi du lịch-여행 가다",
+        "đi biển-바다에 가다",
+        "nên-~하는 것이 좋다",
+        "khi-~할 때",
+        "nếu-만약 ~라면",
+        "mọi người-사람들",
+        "bao nhiêu độ-몇 도",
+        "âm mười độ-영하 10도",
+        "nóng nhất-가장 덥다"
+      ],
+      "sourcePage": 17,
+      "reviewNeeded": false
+    },
+    {
+      "id": "d6weather-q-005",
+      "type": "sentence-meaning",
+      "prompt": "6일차 질문 뜻 고르기",
+      "answerSet": [
+        "Hôm nay thời tiết thế nào?-오늘 날씨가 어때요?",
+        "Khí hậu của Hàn Quốc thế nào?-한국의 기후는 어때요?",
+        "Ở Hàn Quốc, một năm có mấy mùa?-한국에는 1년에 몇 계절이 있어요?",
+        "Anh thích mùa nào nhất?-어느 계절을 가장 좋아해요?",
+        "Mùa hè ở Hàn Quốc có hay mưa không?-한국의 여름에는 비가 자주 와요?",
+        "Nếu đi du lịch ở Hàn Quốc thì nên đi mùa nào?-한국 여행을 간다면 어느 계절에 가는 것이 좋아요?",
+        "Mùa hè nóng nhất là bao nhiêu độ?-여름에 가장 더울 때는 몇 도예요?",
+        "Anh thích thời tiết thế nào?-어떤 날씨를 좋아해요?"
+      ],
+      "sourcePage": 18,
+      "reviewNeeded": false
+    },
+    {
+      "id": "d6weather-q-006",
+      "type": "sentence-meaning",
+      "prompt": "6일차 답변 뜻 고르기",
+      "answerSet": [
+        "Hôm nay thời tiết rất đẹp.-오늘 날씨가 매우 좋습니다.",
+        "Trời nắng và hơi mát.-날씨가 맑고 조금 시원합니다.",
+        "Khí hậu của Hàn Quốc có bốn mùa rõ rệt.-한국의 기후는 사계절이 뚜렷합니다.",
+        "Tôi thích mùa thu nhất vì thời tiết mát và dễ chịu.-저는 날씨가 시원하고 쾌적해서 가을을 가장 좋아합니다.",
+        "Mùa hè ở Hàn Quốc rất nóng và ẩm.-한국의 여름은 매우 덥고 습합니다.",
+        "Mùa đông lạnh nhất khoảng âm mười độ.-겨울에 가장 추울 때는 약 영하 10도입니다.",
+        "Nếu đi du lịch ở Hàn Quốc thì nên đi vào mùa thu.-한국 여행을 간다면 가을에 가는 것이 좋습니다.",
+        "Mùa hè tôi hay đi biển với gia đình.-여름에 저는 가족과 자주 바다에 갑니다."
+      ],
+      "sourcePage": 18,
+      "reviewNeeded": false
+    }
+  ],
+  "unlockCondition": "complete-previous",
+  "reviewNeeded": false
+    },
+    {
   "lessonId": "d6housing",
   "unitLabel": "6일차",
   "titleKo": "6일차: 거주지와 집",
