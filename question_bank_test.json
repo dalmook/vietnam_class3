@@ -6,6 +6,783 @@
   },
   "lessons": [
     {
+  "lessonId": "question-bank-014-bank",
+  "unitLabel": "문제은행",
+  "titleKo": "문제은행14: 은행",
+  "titleVi": "Ngân hàng câu hỏi 14: Ngân hàng",
+  "pageRange": "문제은행 / 은행",
+  "goals": [
+    "한국의 은행 위치와 외관을 설명할 수 있다",
+    "은행에서 주로 하는 일을 말할 수 있다",
+    "은행과 관련된 기억에 남는 경험을 말할 수 있다",
+    "은행에서 겪은 문제와 해결 방법을 설명할 수 있다",
+    "송금, 출금, 계좌, 카드, 대기 시간 같은 표현을 사용할 수 있다"
+  ],
+  "topicOverview": "은행 주제는 장소 묘사와 문제 해결 경험을 함께 준비하면 좋습니다. 첫 번째 문제는 '한국의 은행은 어디에 있는지 → 은행 외관 → 내부 모습 → 사람들이 하는 일' 순서로 답하면 안정적입니다. 두 번째 문제는 '언제 → 무슨 일 → 어떤 문제가 있었는지 → 어떻게 해결했는지 → 느낀 점' 순서로 말하면 자연스럽습니다.",
+  "cultureTopics": [
+    "은행",
+    "계좌",
+    "송금",
+    "출금",
+    "현금",
+    "카드",
+    "모바일 뱅킹",
+    "은행 직원",
+    "대기 시간",
+    "문제 해결",
+    "은행 경험"
+  ],
+  "vocabCards": [
+    {
+      "id": "qb14-bank-v-001",
+      "term": "ngân hàng",
+      "meaningKo": "은행",
+      "example": "Tôi thường dùng ngân hàng qua điện thoại.",
+      "exampleMeaningKo": "저는 보통 휴대폰으로 은행 서비스를 이용합니다.",
+      "audioSrc": "",
+      "sourcePage": 14,
+      "reviewNeeded": false,
+      "pronKo": "응언 항",
+      "pronNoteKo": "은행 주제의 핵심 단어입니다.",
+      "pronChunks": ["ngân=응언", "hàng=항"]
+    },
+    {
+      "id": "qb14-bank-v-002",
+      "term": "tài khoản",
+      "meaningKo": "계좌",
+      "example": "Tôi có tài khoản ở ngân hàng Shinhan.",
+      "exampleMeaningKo": "저는 신한은행에 계좌가 있습니다.",
+      "audioSrc": "",
+      "sourcePage": 14,
+      "reviewNeeded": false,
+      "pronKo": "따이 콴",
+      "pronNoteKo": "은행 계좌를 말할 때 씁니다.",
+      "pronChunks": ["tài=따이", "khoản=콴"]
+    },
+    {
+      "id": "qb14-bank-v-003",
+      "term": "chuyển tiền",
+      "meaningKo": "송금하다",
+      "example": "Tôi thường chuyển tiền qua app.",
+      "exampleMeaningKo": "저는 보통 앱으로 송금합니다.",
+      "audioSrc": "",
+      "sourcePage": 14,
+      "reviewNeeded": false,
+      "pronKo": "쭈옌 띠엔",
+      "pronNoteKo": "송금하다라는 뜻입니다.",
+      "pronChunks": ["chuyển=쭈옌", "tiền=띠엔"]
+    },
+    {
+      "id": "qb14-bank-v-004",
+      "term": "rút tiền",
+      "meaningKo": "출금하다",
+      "example": "Tôi rút tiền ở cây ATM.",
+      "exampleMeaningKo": "저는 ATM에서 돈을 출금합니다.",
+      "audioSrc": "",
+      "sourcePage": 14,
+      "reviewNeeded": false,
+      "pronKo": "줏 띠엔",
+      "pronNoteKo": "현금을 뽑는다는 뜻입니다.",
+      "pronChunks": ["rút=줏", "tiền=띠엔"]
+    },
+    {
+      "id": "qb14-bank-v-005",
+      "term": "tiền mặt",
+      "meaningKo": "현금",
+      "example": "Tôi không mang nhiều tiền mặt.",
+      "exampleMeaningKo": "저는 현금을 많이 가지고 다니지 않습니다.",
+      "audioSrc": "",
+      "sourcePage": 14,
+      "reviewNeeded": false,
+      "pronKo": "띠엔 맛",
+      "pronNoteKo": "현금을 뜻합니다.",
+      "pronChunks": ["tiền=띠엔", "mặt=맛"]
+    },
+    {
+      "id": "qb14-bank-v-006",
+      "term": "thẻ",
+      "meaningKo": "카드",
+      "example": "Tôi thường trả tiền bằng thẻ.",
+      "exampleMeaningKo": "저는 보통 카드로 결제합니다.",
+      "audioSrc": "",
+      "sourcePage": 14,
+      "reviewNeeded": false,
+      "pronKo": "테",
+      "pronNoteKo": "카드 전체를 말할 때 씁니다.",
+      "pronChunks": ["thẻ=테"]
+    },
+    {
+      "id": "qb14-bank-v-007",
+      "term": "thẻ tín dụng",
+      "meaningKo": "신용카드",
+      "example": "Tôi có một thẻ tín dụng.",
+      "exampleMeaningKo": "저는 신용카드가 하나 있습니다.",
+      "audioSrc": "",
+      "sourcePage": 14,
+      "reviewNeeded": false,
+      "pronKo": "테 띤 중",
+      "pronNoteKo": "신용카드입니다.",
+      "pronChunks": ["thẻ=테", "tín dụng=띤 중"]
+    },
+    {
+      "id": "qb14-bank-v-008",
+      "term": "cây ATM",
+      "meaningKo": "ATM 기계",
+      "example": "Cây ATM thường nằm gần ngân hàng.",
+      "exampleMeaningKo": "ATM은 보통 은행 근처에 있습니다.",
+      "audioSrc": "",
+      "sourcePage": 14,
+      "reviewNeeded": false,
+      "pronKo": "꺼이 에이티엠",
+      "pronNoteKo": "ATM 기계를 말합니다.",
+      "pronChunks": ["cây=꺼이", "ATM=에이티엠"]
+    },
+    {
+      "id": "qb14-bank-v-009",
+      "term": "dịch vụ ngân hàng",
+      "meaningKo": "은행 서비스",
+      "example": "Dịch vụ ngân hàng ở Hàn Quốc rất tiện lợi.",
+      "exampleMeaningKo": "한국의 은행 서비스는 매우 편리합니다.",
+      "audioSrc": "",
+      "sourcePage": 14,
+      "reviewNeeded": false,
+      "pronKo": "직 부 응언 항",
+      "pronNoteKo": "은행 서비스 전체를 말할 때 좋습니다.",
+      "pronChunks": ["dịch vụ=직 부", "ngân hàng=응언 항"]
+    },
+    {
+      "id": "qb14-bank-v-010",
+      "term": "ứng dụng ngân hàng",
+      "meaningKo": "은행 앱",
+      "example": "Tôi dùng ứng dụng ngân hàng mỗi ngày.",
+      "exampleMeaningKo": "저는 매일 은행 앱을 사용합니다.",
+      "audioSrc": "",
+      "sourcePage": 14,
+      "reviewNeeded": false,
+      "pronKo": "응 중 응언 항",
+      "pronNoteKo": "모바일 뱅킹 앱을 말할 때 씁니다.",
+      "pronChunks": ["ứng dụng=응 중", "ngân hàng=응언 항"]
+    },
+    {
+      "id": "qb14-bank-v-011",
+      "term": "kiểm tra số dư",
+      "meaningKo": "잔액을 확인하다",
+      "example": "Tôi kiểm tra số dư bằng điện thoại.",
+      "exampleMeaningKo": "저는 휴대폰으로 잔액을 확인합니다.",
+      "audioSrc": "",
+      "sourcePage": 14,
+      "reviewNeeded": false,
+      "pronKo": "끼엠 짜 쏘 즈",
+      "pronNoteKo": "잔액 확인 표현입니다.",
+      "pronChunks": ["kiểm tra=끼엠 짜", "số dư=쏘 즈"]
+    },
+    {
+      "id": "qb14-bank-v-012",
+      "term": "thanh toán",
+      "meaningKo": "결제하다",
+      "example": "Tôi thường thanh toán online.",
+      "exampleMeaningKo": "저는 보통 온라인으로 결제합니다.",
+      "audioSrc": "",
+      "sourcePage": 14,
+      "reviewNeeded": false,
+      "pronKo": "타인 또안",
+      "pronNoteKo": "결제하다라는 뜻입니다.",
+      "pronChunks": ["thanh=타인", "toán=또안"]
+    },
+    {
+      "id": "qb14-bank-v-013",
+      "term": "nhân viên ngân hàng",
+      "meaningKo": "은행 직원",
+      "example": "Nhân viên ngân hàng rất thân thiện.",
+      "exampleMeaningKo": "은행 직원은 매우 친절합니다.",
+      "audioSrc": "",
+      "sourcePage": 14,
+      "reviewNeeded": false,
+      "pronKo": "년 비엔 응언 항",
+      "pronNoteKo": "은행 직원을 말합니다.",
+      "pronChunks": ["nhân viên=년 비엔", "ngân hàng=응언 항"]
+    },
+    {
+      "id": "qb14-bank-v-014",
+      "term": "thân thiện",
+      "meaningKo": "친절하다",
+      "example": "Nhân viên ở đó rất thân thiện.",
+      "exampleMeaningKo": "그곳 직원들은 매우 친절합니다.",
+      "audioSrc": "",
+      "sourcePage": 14,
+      "reviewNeeded": false,
+      "pronKo": "턴 티엔",
+      "pronNoteKo": "사람이나 서비스 설명에 좋습니다.",
+      "pronChunks": ["thân=턴", "thiện=티엔"]
+    },
+    {
+      "id": "qb14-bank-v-015",
+      "term": "chờ",
+      "meaningKo": "기다리다",
+      "example": "Tôi phải chờ khá lâu.",
+      "exampleMeaningKo": "저는 꽤 오래 기다려야 했습니다.",
+      "audioSrc": "",
+      "sourcePage": 14,
+      "reviewNeeded": false,
+      "pronKo": "쩌",
+      "pronNoteKo": "은행 대기 경험에서 자주 씁니다.",
+      "pronChunks": ["chờ=쩌"]
+    },
+    {
+      "id": "qb14-bank-v-016",
+      "term": "lâu",
+      "meaningKo": "오래",
+      "example": "Tôi chờ lâu ở ngân hàng.",
+      "exampleMeaningKo": "저는 은행에서 오래 기다렸습니다.",
+      "audioSrc": "",
+      "sourcePage": 14,
+      "reviewNeeded": false,
+      "pronKo": "러우",
+      "pronNoteKo": "시간이 오래 걸렸다는 뜻입니다.",
+      "pronChunks": ["lâu=러우"]
+    },
+    {
+      "id": "qb14-bank-v-017",
+      "term": "vấn đề",
+      "meaningKo": "문제",
+      "example": "Tôi gặp một vấn đề khi chuyển tiền.",
+      "exampleMeaningKo": "저는 송금할 때 문제가 생겼습니다.",
+      "audioSrc": "",
+      "sourcePage": 14,
+      "reviewNeeded": false,
+      "pronKo": "번 데",
+      "pronNoteKo": "문제 해결 경험에서 핵심 단어입니다.",
+      "pronChunks": ["vấn=번", "đề=데"]
+    },
+    {
+      "id": "qb14-bank-v-018",
+      "term": "giải quyết",
+      "meaningKo": "해결하다",
+      "example": "Nhân viên đã giúp tôi giải quyết vấn đề.",
+      "exampleMeaningKo": "직원이 제가 문제를 해결하도록 도와주었습니다.",
+      "audioSrc": "",
+      "sourcePage": 14,
+      "reviewNeeded": false,
+      "pronKo": "자이 꾸옛",
+      "pronNoteKo": "두 번째 문제의 핵심 동사입니다.",
+      "pronChunks": ["giải=자이", "quyết=꾸옛"]
+    },
+    {
+      "id": "qb14-bank-v-019",
+      "term": "tình huống",
+      "meaningKo": "상황",
+      "example": "Tình huống đó làm tôi hơi lo lắng.",
+      "exampleMeaningKo": "그 상황은 저를 조금 걱정하게 했습니다.",
+      "audioSrc": "",
+      "sourcePage": 14,
+      "reviewNeeded": false,
+      "pronKo": "띤 후옹",
+      "pronNoteKo": "경험 문제에서 자주 씁니다.",
+      "pronChunks": ["tình=띤", "huống=후옹"]
+    },
+    {
+      "id": "qb14-bank-v-020",
+      "term": "trải nghiệm đáng nhớ",
+      "meaningKo": "기억에 남는 경험",
+      "example": "Đó là một trải nghiệm đáng nhớ liên quan đến ngân hàng.",
+      "exampleMeaningKo": "그것은 은행과 관련된 기억에 남는 경험이었습니다.",
+      "audioSrc": "",
+      "sourcePage": 14,
+      "reviewNeeded": false,
+      "pronKo": "짜이 응이엠 당 녀",
+      "pronNoteKo": "경험 문제 첫 문장에 좋습니다.",
+      "pronChunks": ["trải nghiệm=짜이 응이엠", "đáng nhớ=당 녀"]
+    },
+    {
+      "id": "qb14-bank-v-021",
+      "term": "bị khóa",
+      "meaningKo": "잠기다 / 차단되다",
+      "example": "Tài khoản của tôi bị khóa.",
+      "exampleMeaningKo": "제 계좌가 잠겼습니다.",
+      "audioSrc": "",
+      "sourcePage": 14,
+      "reviewNeeded": false,
+      "pronKo": "비 코아",
+      "pronNoteKo": "계좌나 카드가 잠긴 상황에 씁니다.",
+      "pronChunks": ["bị=비", "khóa=코아"]
+    },
+    {
+      "id": "qb14-bank-v-022",
+      "term": "mất thẻ",
+      "meaningKo": "카드를 잃어버리다",
+      "example": "Tôi từng mất thẻ ngân hàng.",
+      "exampleMeaningKo": "저는 은행 카드를 잃어버린 적이 있습니다.",
+      "audioSrc": "",
+      "sourcePage": 14,
+      "reviewNeeded": false,
+      "pronKo": "멋 테",
+      "pronNoteKo": "은행 경험 문제에 쓰기 좋은 사건입니다.",
+      "pronChunks": ["mất=멋", "thẻ=테"]
+    },
+    {
+      "id": "qb14-bank-v-023",
+      "term": "chuyển nhầm",
+      "meaningKo": "잘못 송금하다",
+      "example": "Tôi lo vì tôi chuyển nhầm tiền.",
+      "exampleMeaningKo": "저는 돈을 잘못 송금해서 걱정했습니다.",
+      "audioSrc": "",
+      "sourcePage": 14,
+      "reviewNeeded": false,
+      "pronKo": "쭈옌 념",
+      "pronNoteKo": "송금 실수 경험에 좋습니다.",
+      "pronChunks": ["chuyển=쭈옌", "nhầm=념"]
+    },
+    {
+      "id": "qb14-bank-v-024",
+      "term": "gọi tổng đài",
+      "meaningKo": "고객센터에 전화하다",
+      "example": "Tôi gọi tổng đài của ngân hàng.",
+      "exampleMeaningKo": "저는 은행 고객센터에 전화했습니다.",
+      "audioSrc": "",
+      "sourcePage": 14,
+      "reviewNeeded": false,
+      "pronKo": "고이 똥 다이",
+      "pronNoteKo": "문제 해결 방법으로 쓰기 좋습니다.",
+      "pronChunks": ["gọi=고이", "tổng đài=똥 다이"]
+    },
+    {
+      "id": "qb14-bank-v-025",
+      "term": "chi nhánh",
+      "meaningKo": "지점",
+      "example": "Gần nhà tôi có một chi nhánh ngân hàng.",
+      "exampleMeaningKo": "저희 집 근처에는 은행 지점이 하나 있습니다.",
+      "audioSrc": "",
+      "sourcePage": 14,
+      "reviewNeeded": false,
+      "pronKo": "찌 냐잉",
+      "pronNoteKo": "은행 위치 설명에 좋습니다.",
+      "pronChunks": ["chi=찌", "nhánh=냐잉"]
+    }
+  ],
+  "sentenceCards": [
+    {
+      "id": "qb14-bank-s-001",
+      "textVi": "Hãy miêu tả về ngân hàng của nước bạn. Ngân hàng thường nằm ở đâu và trông như thế nào?",
+      "textKo": "당신의 나라의 은행에 대해 묘사하세요. 은행은 보통 어디에 위치하고 어떻게 생겼나요?",
+      "exampleAnswerVi": "Ở Hàn Quốc có rất nhiều ngân hàng. Ngân hàng thường nằm ở trung tâm thành phố, gần công ty, gần ga tàu điện ngầm hoặc trong các khu thương mại. Bên ngoài ngân hàng thường có biển hiệu lớn và cây ATM. Bên trong ngân hàng khá sạch sẽ, yên tĩnh và hiện đại. Có quầy giao dịch, máy lấy số thứ tự, ghế chờ và nhân viên tư vấn. Ở Hàn Quốc, nhiều người không đến ngân hàng trực tiếp thường xuyên vì họ dùng ứng dụng ngân hàng trên điện thoại. Họ có thể chuyển tiền, kiểm tra số dư, thanh toán online và quản lý tài khoản rất dễ dàng. Tuy nhiên, khi cần mở tài khoản, làm thẻ mới hoặc giải quyết vấn đề quan trọng, mọi người vẫn đến ngân hàng. Theo tôi, ngân hàng ở Hàn Quốc rất tiện lợi, an toàn và chuyên nghiệp.",
+      "exampleAnswerKo": "한국에는 은행이 매우 많습니다. 은행은 보통 도시 중심, 회사 근처, 지하철역 근처 또는 상업 지역 안에 있습니다. 은행 밖에는 보통 큰 간판과 ATM이 있습니다. 은행 안은 꽤 깨끗하고 조용하며 현대적입니다. 창구, 번호표 기계, 대기 의자, 상담 직원이 있습니다. 한국에서는 많은 사람들이 휴대폰 은행 앱을 사용하기 때문에 은행에 직접 자주 가지는 않습니다. 사람들은 매우 쉽게 송금하고, 잔액을 확인하고, 온라인 결제를 하고, 계좌를 관리할 수 있습니다. 하지만 계좌를 개설하거나, 새 카드를 만들거나, 중요한 문제를 해결해야 할 때는 여전히 은행에 갑니다. 제 생각에 한국의 은행은 매우 편리하고 안전하며 전문적입니다.",
+      "audioSrc": "",
+      "sourcePage": 14,
+      "reviewNeeded": false,
+      "pronKo": "하이 미에우 따 베 응언 항 꾸아 느억 반. 응언 항 트엉 남 어 더우 바 쫑 느 테 나오?",
+      "exampleAnswerPronKo": "어 한 꾸옥 꼬 젓 니에우 응언 항. 응언 항 트엉 남 어 쭝 떰 타인 포, 건 꽁 ty, 건 가 따우 디엔 응엄.",
+      "pronNoteKo": "이 문제는 장소 묘사 문제입니다. 위치 → 외관 → 내부 → 사람들이 하는 일 → 내 의견 순서가 좋습니다."
+    },
+    {
+      "id": "qb14-bank-s-002",
+      "textVi": "Hãy cho tôi biết về một trải nghiệm đáng nhớ liên quan đến ngân hàng. Vấn đề mà bạn gặp là gì và bạn đã giải quyết tình huống đó thế nào?",
+      "textKo": "은행에 관한 기억에 남는 경험에 대해 알려주세요. 당신이 겪은 문제는 무엇이고 당신은 그 상황을 어떻게 해결했나요?",
+      "exampleAnswerVi": "Tôi có một trải nghiệm đáng nhớ liên quan đến ngân hàng. Chuyện đó xảy ra khoảng một năm trước. Lúc đó, tôi muốn chuyển tiền cho một người bạn, nhưng tôi nhập sai số tài khoản. Tôi rất lo lắng vì số tiền đó khá lớn. Vấn đề là tôi không biết phải làm gì ngay lúc đó. Vì vậy, tôi gọi tổng đài của ngân hàng trước. Sau đó, nhân viên ngân hàng hướng dẫn tôi kiểm tra giao dịch và đến chi nhánh gần nhất. Tôi mang theo thẻ căn cước và điện thoại. Ở ngân hàng, nhân viên rất thân thiện và giúp tôi giải quyết vấn đề. May mắn là giao dịch chưa hoàn tất, nên tôi có thể hủy giao dịch đó. Sau trải nghiệm đó, tôi luôn kiểm tra kỹ số tài khoản trước khi chuyển tiền. Tôi nghĩ đó là một kinh nghiệm không vui, nhưng rất hữu ích.",
+      "exampleAnswerKo": "저는 은행과 관련된 기억에 남는 경험이 하나 있습니다. 그 일은 약 1년 전에 일어났습니다. 그때 저는 친구에게 돈을 송금하려고 했지만 계좌번호를 잘못 입력했습니다. 그 돈이 꽤 큰 금액이었기 때문에 저는 매우 걱정했습니다. 문제는 제가 그 순간 무엇을 해야 할지 몰랐다는 것입니다. 그래서 저는 먼저 은행 고객센터에 전화했습니다. 그 후 은행 직원이 거래를 확인하고 가장 가까운 지점에 가라고 안내해 주었습니다. 저는 신분증과 휴대폰을 가지고 갔습니다. 은행에서 직원은 매우 친절했고 제가 문제를 해결하도록 도와주었습니다. 다행히 거래가 아직 완료되지 않아서 저는 그 거래를 취소할 수 있었습니다. 그 경험 이후로 저는 송금하기 전에 항상 계좌번호를 꼼꼼히 확인합니다. 저는 그것이 즐거운 경험은 아니었지만 매우 유용한 경험이었다고 생각합니다.",
+      "audioSrc": "",
+      "sourcePage": 14,
+      "reviewNeeded": false,
+      "pronKo": "하이 쪼 또이 비엣 베 못 짜이 응이엠 당 녀 리엔 꽌 덴 응언 항. 번 데 마 반 갑 라 지 바 반 다 자이 꾸옛 띤 후옹 도 테 나오?",
+      "exampleAnswerPronKo": "또이 꼬 못 짜이 응이엠 당 녀 리엔 꽌 덴 응언 항. 쭈옌 도 싸이 라 꽝 못 남 쯔억.",
+      "pronNoteKo": "이 문제는 문제 해결 경험입니다. 언제 → 문제 → 감정 → 해결 방법 → 배운 점 순서로 말하면 좋습니다."
+    }
+  ],
+  "dialogues": [
+    {
+      "id": "qb14-bank-d-001",
+      "title": "한국의 은행 설명",
+      "audioSrc": "",
+      "sourcePage": 14,
+      "reviewNeeded": false,
+      "lines": [
+        {
+          "speaker": "A",
+          "vi": "Ngân hàng ở Hàn Quốc thường nằm ở đâu?",
+          "ko": "한국의 은행은 보통 어디에 있나요?",
+          "pronKo": "응언 항 어 한 꾸옥 트엉 남 어 더우?"
+        },
+        {
+          "speaker": "B",
+          "vi": "Ngân hàng thường nằm gần ga tàu điện ngầm hoặc trong trung tâm thành phố.",
+          "ko": "은행은 보통 지하철역 근처나 도시 중심에 있습니다.",
+          "pronKo": "응언 항 트엉 남 건 가 따우 디엔 응엄 호악 쫑 쭝 떰 타인 포."
+        },
+        {
+          "speaker": "A",
+          "vi": "Bên trong ngân hàng trông như thế nào?",
+          "ko": "은행 안은 어떻게 생겼나요?",
+          "pronKo": "벤 쫑 응언 항 쫑 느 테 나오?"
+        },
+        {
+          "speaker": "B",
+          "vi": "Bên trong rất sạch sẽ, yên tĩnh và hiện đại.",
+          "ko": "안은 매우 깨끗하고 조용하며 현대적입니다.",
+          "pronKo": "벤 쫑 젓 싸익 세, 이엔 띵 바 히엔 다이."
+        }
+      ]
+    },
+    {
+      "id": "qb14-bank-d-002",
+      "title": "은행에서 하는 일",
+      "audioSrc": "",
+      "sourcePage": 14,
+      "reviewNeeded": false,
+      "lines": [
+        {
+          "speaker": "A",
+          "vi": "Bạn thường dùng ngân hàng để làm gì?",
+          "ko": "당신은 보통 무엇을 하기 위해 은행을 이용하나요?",
+          "pronKo": "반 트엉 중 응언 항 데 람 지?"
+        },
+        {
+          "speaker": "B",
+          "vi": "Tôi thường chuyển tiền, kiểm tra số dư và thanh toán online.",
+          "ko": "저는 보통 송금하고, 잔액을 확인하고, 온라인 결제를 합니다.",
+          "pronKo": "또이 트엉 쭈옌 띠엔, 끼엠 짜 쏘 즈 바 타인 또안 온라인."
+        },
+        {
+          "speaker": "A",
+          "vi": "Bạn có thường đến ngân hàng không?",
+          "ko": "당신은 은행에 자주 가나요?",
+          "pronKo": "반 꼬 트엉 덴 응언 항 콩?"
+        },
+        {
+          "speaker": "B",
+          "vi": "Không thường xuyên, vì tôi dùng ứng dụng ngân hàng trên điện thoại.",
+          "ko": "자주는 아닙니다. 왜냐하면 저는 휴대폰 은행 앱을 사용하기 때문입니다.",
+          "pronKo": "콩 트엉 쑤옌, 비 또이 중 응 중 응언 항 쩬 디엔 토아이."
+        }
+      ]
+    },
+    {
+      "id": "qb14-bank-d-003",
+      "title": "은행 문제 해결 경험",
+      "audioSrc": "",
+      "sourcePage": 14,
+      "reviewNeeded": false,
+      "lines": [
+        {
+          "speaker": "A",
+          "vi": "Bạn đã từng gặp vấn đề ở ngân hàng chưa?",
+          "ko": "은행에서 문제를 겪어본 적이 있나요?",
+          "pronKo": "반 다 뜽 갑 번 데 어 응언 항 쯔어?"
+        },
+        {
+          "speaker": "B",
+          "vi": "Rồi, tôi từng chuyển nhầm tiền cho người khác.",
+          "ko": "네, 저는 다른 사람에게 돈을 잘못 송금한 적이 있습니다.",
+          "pronKo": "조이, 또이 뜽 쭈옌 념 띠엔 쪼 응어이 칵."
+        },
+        {
+          "speaker": "A",
+          "vi": "Bạn đã giải quyết tình huống đó thế nào?",
+          "ko": "그 상황을 어떻게 해결했나요?",
+          "pronKo": "반 다 자이 꾸옛 띤 후옹 도 테 나오?"
+        },
+        {
+          "speaker": "B",
+          "vi": "Tôi gọi tổng đài và đến chi nhánh ngân hàng gần nhất.",
+          "ko": "저는 고객센터에 전화하고 가장 가까운 은행 지점에 갔습니다.",
+          "pronKo": "또이 고이 똥 다이 바 덴 찌 냐잉 응언 항 건 녓."
+        }
+      ]
+    }
+  ],
+  "grammarPoints": [
+    {
+      "id": "qb14-bank-g-001",
+      "title": "은행에 대해 묘사하세요",
+      "pattern": "Hãy miêu tả về ngân hàng của nước bạn.",
+      "meaningKo": "당신 나라의 은행에 대해 묘사하세요.",
+      "sourcePage": 14,
+      "reviewNeeded": false
+    },
+    {
+      "id": "qb14-bank-g-002",
+      "title": "보통 어디에 있나요?",
+      "pattern": "Ngân hàng thường nằm ở đâu?",
+      "meaningKo": "은행은 보통 어디에 위치하나요?",
+      "sourcePage": 14,
+      "reviewNeeded": false
+    },
+    {
+      "id": "qb14-bank-g-003",
+      "title": "어떻게 생겼나요?",
+      "pattern": "Ngân hàng trông như thế nào?",
+      "meaningKo": "은행은 어떻게 생겼나요?",
+      "sourcePage": 14,
+      "reviewNeeded": false
+    },
+    {
+      "id": "qb14-bank-g-004",
+      "title": "~근처에 있다",
+      "pattern": "Ngân hàng nằm gần ga tàu điện ngầm.",
+      "meaningKo": "은행은 지하철역 근처에 있습니다.",
+      "sourcePage": 14,
+      "reviewNeeded": false
+    },
+    {
+      "id": "qb14-bank-g-005",
+      "title": "~하기 위해 사용하다",
+      "pattern": "Tôi dùng ngân hàng để chuyển tiền.",
+      "meaningKo": "저는 송금하기 위해 은행을 이용합니다.",
+      "sourcePage": 14,
+      "reviewNeeded": false
+    },
+    {
+      "id": "qb14-bank-g-006",
+      "title": "기억에 남는 경험",
+      "pattern": "Tôi có một trải nghiệm đáng nhớ liên quan đến ngân hàng.",
+      "meaningKo": "저는 은행과 관련된 기억에 남는 경험이 있습니다.",
+      "sourcePage": 14,
+      "reviewNeeded": false
+    },
+    {
+      "id": "qb14-bank-g-007",
+      "title": "문제는 ~였다",
+      "pattern": "Vấn đề là tôi nhập sai số tài khoản.",
+      "meaningKo": "문제는 제가 계좌번호를 잘못 입력했다는 것이었습니다.",
+      "sourcePage": 14,
+      "reviewNeeded": false
+    },
+    {
+      "id": "qb14-bank-g-008",
+      "title": "상황을 해결하다",
+      "pattern": "Tôi đã giải quyết tình huống đó.",
+      "meaningKo": "저는 그 상황을 해결했습니다.",
+      "sourcePage": 14,
+      "reviewNeeded": false
+    },
+    {
+      "id": "qb14-bank-g-009",
+      "title": "~한 후에",
+      "pattern": "Sau đó, tôi đến chi nhánh ngân hàng gần nhất.",
+      "meaningKo": "그 후 저는 가장 가까운 은행 지점에 갔습니다.",
+      "sourcePage": 14,
+      "reviewNeeded": false
+    },
+    {
+      "id": "qb14-bank-g-010",
+      "title": "~하기 전에",
+      "pattern": "Tôi luôn kiểm tra kỹ số tài khoản trước khi chuyển tiền.",
+      "meaningKo": "저는 송금하기 전에 항상 계좌번호를 꼼꼼히 확인합니다.",
+      "sourcePage": 14,
+      "reviewNeeded": false
+    }
+  ],
+  "pronunciationTargets": [
+    {
+      "id": "qb14-bank-p-001",
+      "text": "Hãy miêu tả về ngân hàng của nước bạn.",
+      "hintKo": "당신 나라의 은행에 대해 묘사하세요.",
+      "audioSrc": "",
+      "sourcePage": 14,
+      "reviewNeeded": false,
+      "pronKo": "하이 미에우 따 베 응언 항 꾸아 느억 반",
+      "mouthKo": "Hãy miêu tả / về ngân hàng / của nước bạn 으로 끊습니다.",
+      "toneKo": "장소 묘사 문제의 시작 문장입니다."
+    },
+    {
+      "id": "qb14-bank-p-002",
+      "text": "Ngân hàng thường nằm ở đâu và trông như thế nào?",
+      "hintKo": "은행은 보통 어디에 위치하고 어떻게 생겼나요?",
+      "audioSrc": "",
+      "sourcePage": 14,
+      "reviewNeeded": false,
+      "pronKo": "응언 항 트엉 남 어 더우 바 쫑 느 테 나오",
+      "mouthKo": "Ngân hàng thường nằm ở đâu / và trông như thế nào 로 끊습니다.",
+      "toneKo": "위치와 외관을 같이 묻는 문장입니다."
+    },
+    {
+      "id": "qb14-bank-p-003",
+      "text": "Hãy cho tôi biết về một trải nghiệm đáng nhớ liên quan đến ngân hàng.",
+      "hintKo": "은행에 관한 기억에 남는 경험에 대해 알려주세요.",
+      "audioSrc": "",
+      "sourcePage": 14,
+      "reviewNeeded": false,
+      "pronKo": "하이 쪼 또이 비엣 베 못 짜이 응이엠 당 녀 리엔 꽌 덴 응언 항",
+      "mouthKo": "Hãy cho tôi biết / về một trải nghiệm đáng nhớ / liên quan đến ngân hàng 으로 끊습니다.",
+      "toneKo": "경험 문제의 첫 문장입니다."
+    },
+    {
+      "id": "qb14-bank-p-004",
+      "text": "Vấn đề mà bạn gặp là gì?",
+      "hintKo": "당신이 겪은 문제는 무엇인가요?",
+      "audioSrc": "",
+      "sourcePage": 14,
+      "reviewNeeded": false,
+      "pronKo": "번 데 마 반 갑 라 지",
+      "mouthKo": "Vấn đề mà bạn gặp / là gì 로 끊습니다.",
+      "toneKo": "문제 상황을 설명해야 합니다."
+    },
+    {
+      "id": "qb14-bank-p-005",
+      "text": "Bạn đã giải quyết tình huống đó thế nào?",
+      "hintKo": "당신은 그 상황을 어떻게 해결했나요?",
+      "audioSrc": "",
+      "sourcePage": 14,
+      "reviewNeeded": false,
+      "pronKo": "반 다 자이 꾸옛 띤 후옹 도 테 나오",
+      "mouthKo": "Bạn đã giải quyết / tình huống đó / thế nào 로 끊습니다.",
+      "toneKo": "해결 방법을 말해야 하는 문장입니다."
+    }
+  ],
+  "quizSeeds": [
+    {
+      "id": "qb14-bank-q-001",
+      "type": "match-term",
+      "prompt": "은행 핵심 단어 매칭 1",
+      "answerSet": [
+        "ngân hàng-은행",
+        "tài khoản-계좌",
+        "chuyển tiền-송금하다",
+        "rút tiền-출금하다",
+        "tiền mặt-현금",
+        "thẻ-카드",
+        "thẻ tín dụng-신용카드",
+        "cây ATM-ATM 기계",
+        "dịch vụ ngân hàng-은행 서비스",
+        "ứng dụng ngân hàng-은행 앱"
+      ],
+      "sourcePage": 14,
+      "reviewNeeded": false
+    },
+    {
+      "id": "qb14-bank-q-002",
+      "type": "match-term",
+      "prompt": "은행 핵심 단어 매칭 2",
+      "answerSet": [
+        "kiểm tra số dư-잔액을 확인하다",
+        "thanh toán-결제하다",
+        "nhân viên ngân hàng-은행 직원",
+        "thân thiện-친절하다",
+        "chờ-기다리다",
+        "lâu-오래",
+        "vấn đề-문제",
+        "giải quyết-해결하다",
+        "tình huống-상황",
+        "trải nghiệm đáng nhớ-기억에 남는 경험"
+      ],
+      "sourcePage": 14,
+      "reviewNeeded": false
+    },
+    {
+      "id": "qb14-bank-q-003",
+      "type": "match-term",
+      "prompt": "은행 문제 해결 단어 매칭",
+      "answerSet": [
+        "bị khóa-잠기다/차단되다",
+        "mất thẻ-카드를 잃어버리다",
+        "chuyển nhầm-잘못 송금하다",
+        "gọi tổng đài-고객센터에 전화하다",
+        "chi nhánh-지점"
+      ],
+      "sourcePage": 14,
+      "reviewNeeded": false
+    },
+    {
+      "id": "qb14-bank-q-004",
+      "type": "sentence-meaning",
+      "prompt": "문제은행 은행 질문 뜻 고르기",
+      "answerSet": [
+        "Hãy miêu tả về ngân hàng của nước bạn.-당신 나라의 은행에 대해 묘사하세요.",
+        "Ngân hàng thường nằm ở đâu và trông như thế nào?-은행은 보통 어디에 위치하고 어떻게 생겼나요?",
+        "Hãy cho tôi biết về một trải nghiệm đáng nhớ liên quan đến ngân hàng.-은행에 관한 기억에 남는 경험에 대해 알려주세요.",
+        "Vấn đề mà bạn gặp là gì?-당신이 겪은 문제는 무엇인가요?",
+        "Bạn đã giải quyết tình huống đó thế nào?-당신은 그 상황을 어떻게 해결했나요?"
+      ],
+      "sourcePage": 14,
+      "reviewNeeded": false
+    },
+    {
+      "id": "qb14-bank-q-005",
+      "type": "fill-blank",
+      "prompt": "빈칸 채우기: 은행은 보통 도시 중심에 있습니다.",
+      "question": "Ngân hàng thường nằm ở ___ thành phố.",
+      "answer": "trung tâm",
+      "sourcePage": 14,
+      "reviewNeeded": false
+    },
+    {
+      "id": "qb14-bank-q-006",
+      "type": "fill-blank",
+      "prompt": "빈칸 채우기: 저는 보통 앱으로 송금합니다.",
+      "question": "Tôi thường ___ tiền qua app.",
+      "answer": "chuyển",
+      "sourcePage": 14,
+      "reviewNeeded": false
+    },
+    {
+      "id": "qb14-bank-q-007",
+      "type": "fill-blank",
+      "prompt": "빈칸 채우기: 저는 잔액을 확인합니다.",
+      "question": "Tôi kiểm tra ___.",
+      "answer": "số dư",
+      "sourcePage": 14,
+      "reviewNeeded": false
+    },
+    {
+      "id": "qb14-bank-q-008",
+      "type": "fill-blank",
+      "prompt": "빈칸 채우기: 직원이 문제를 해결해 주었습니다.",
+      "question": "Nhân viên đã giúp tôi ___ vấn đề.",
+      "answer": "giải quyết",
+      "sourcePage": 14,
+      "reviewNeeded": false
+    },
+    {
+      "id": "qb14-bank-q-009",
+      "type": "fill-blank",
+      "prompt": "빈칸 채우기: 저는 고객센터에 전화했습니다.",
+      "question": "Tôi gọi ___ của ngân hàng.",
+      "answer": "tổng đài",
+      "sourcePage": 14,
+      "reviewNeeded": false
+    },
+    {
+      "id": "qb14-bank-q-010",
+      "type": "fill-blank",
+      "prompt": "빈칸 채우기: 저는 은행 지점에 갔습니다.",
+      "question": "Tôi đến ___ ngân hàng gần nhất.",
+      "answer": "chi nhánh",
+      "sourcePage": 14,
+      "reviewNeeded": false
+    },
+    {
+      "id": "qb14-bank-q-011",
+      "type": "match-term",
+      "prompt": "은행 묘사 답변 순서 맞추기",
+      "answerSet": [
+        "1-Ở Hàn Quốc có rất nhiều ngân hàng.",
+        "2-Ngân hàng thường nằm ở trung tâm thành phố, gần công ty hoặc gần ga tàu điện ngầm.",
+        "3-Bên ngoài ngân hàng thường có biển hiệu lớn và cây ATM.",
+        "4-Bên trong ngân hàng khá sạch sẽ, yên tĩnh và hiện đại.",
+        "5-Nhiều người dùng ứng dụng ngân hàng trên điện thoại.",
+        "6-Theo tôi, ngân hàng ở Hàn Quốc rất tiện lợi, an toàn và chuyên nghiệp."
+      ],
+      "sourcePage": 14,
+      "reviewNeeded": false
+    },
+    {
+      "id": "qb14-bank-q-012",
+      "type": "match-term",
+      "prompt": "은행 경험 답변 순서 맞추기",
+      "answerSet": [
+        "1-Tôi có một trải nghiệm đáng nhớ liên quan đến ngân hàng.",
+        "2-Lúc đó, tôi muốn chuyển tiền cho một người bạn.",
+        "3-Nhưng tôi nhập sai số tài khoản.",
+        "4-Tôi gọi tổng đài của ngân hàng trước.",
+        "5-Sau đó, tôi đến chi nhánh gần nhất.",
+        "6-Sau trải nghiệm đó, tôi luôn kiểm tra kỹ số tài khoản trước khi chuyển tiền."
+      ],
+      "sourcePage": 14,
+      "reviewNeeded": false
+    }
+  ],
+  "unlockCondition": "always",
+  "reviewNeeded": false
+},
+    {
   "lessonId": "question-bank-013-weather",
   "unitLabel": "문제은행",
   "titleKo": "문제은행13: 날씨",
