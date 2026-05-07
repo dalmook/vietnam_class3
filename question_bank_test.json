@@ -6,6 +6,838 @@
   },
   "lessons": [
     {
+  "lessonId": "question-bank-012-fashion",
+  "unitLabel": "문제은행",
+  "titleKo": "문제은행12: 패션",
+  "titleVi": "Ngân hàng câu hỏi 12: Thời trang",
+  "pageRange": "문제은행 / 패션",
+  "goals": [
+    "자기 나라 사람들이 평소 어떻게 옷을 입는지 설명할 수 있다",
+    "일할 때 입는 옷과 집에서 쉴 때 입는 옷을 비교해서 말할 수 있다",
+    "어렸을 때의 옷차림과 현재의 패션 변화를 설명할 수 있다",
+    "패션 변화의 이유를 간단히 말할 수 있다",
+    "정장, 캐주얼, 편한 옷, 유니폼, 운동복 등 기본 의류 표현을 사용할 수 있다"
+  ],
+  "topicOverview": "패션 주제는 OPIc에서 일상생활, 회사, 집, 과거와 현재 비교 문제와 자주 연결됩니다. 답변은 '우리나라 사람들의 일반적인 옷차림 → 일할 때 입는 옷 → 집에서 쉴 때 입는 옷 → 과거와 현재의 변화 → 내 생각' 순서로 말하면 좋습니다. 초보자는 어려운 패션 용어보다 'đơn giản, lịch sự, thoải mái, tiện lợi' 같은 쉬운 형용사를 반복해서 쓰는 것이 안정적입니다.",
+  "cultureTopics": [
+    "패션",
+    "옷차림",
+    "회사 복장",
+    "집에서 입는 옷",
+    "어릴 때와 현재 비교",
+    "패션 변화",
+    "정장",
+    "캐주얼",
+    "유니폼",
+    "편한 옷",
+    "트렌드"
+  ],
+  "vocabCards": [
+    {
+      "id": "qb12-fashion-v-001",
+      "term": "thời trang",
+      "meaningKo": "패션",
+      "example": "Tôi không quan tâm nhiều đến thời trang.",
+      "exampleMeaningKo": "저는 패션에 많이 관심이 없습니다.",
+      "audioSrc": "",
+      "sourcePage": 12,
+      "reviewNeeded": false,
+      "pronKo": "터이 짱",
+      "pronNoteKo": "패션 주제의 핵심 단어입니다.",
+      "pronChunks": ["thời=터이", "trang=짱"]
+    },
+    {
+      "id": "qb12-fashion-v-002",
+      "term": "ăn mặc",
+      "meaningKo": "옷을 입다 / 차려입다",
+      "example": "Người Hàn Quốc thường ăn mặc đơn giản.",
+      "exampleMeaningKo": "한국 사람들은 보통 단순하게 옷을 입습니다.",
+      "audioSrc": "",
+      "sourcePage": 12,
+      "reviewNeeded": false,
+      "pronKo": "안 막",
+      "pronNoteKo": "mặc도 '입다'지만, ăn mặc은 전체적인 옷차림을 말할 때 좋습니다.",
+      "pronChunks": ["ăn=안", "mặc=막"]
+    },
+    {
+      "id": "qb12-fashion-v-003",
+      "term": "mặc",
+      "meaningKo": "입다",
+      "example": "Tôi mặc áo sơ mi khi đi làm.",
+      "exampleMeaningKo": "저는 출근할 때 셔츠를 입습니다.",
+      "audioSrc": "",
+      "sourcePage": 12,
+      "reviewNeeded": false,
+      "pronKo": "막",
+      "pronNoteKo": "옷을 입는다는 기본 동사입니다.",
+      "pronChunks": ["mặc=막"]
+    },
+    {
+      "id": "qb12-fashion-v-004",
+      "term": "trang phục",
+      "meaningKo": "복장 / 의상",
+      "example": "Trang phục công sở ở Hàn Quốc khá lịch sự.",
+      "exampleMeaningKo": "한국의 회사 복장은 꽤 단정합니다.",
+      "audioSrc": "",
+      "sourcePage": 12,
+      "reviewNeeded": false,
+      "pronKo": "짱 푹",
+      "pronNoteKo": "옷차림을 조금 더 격식 있게 말할 때 씁니다.",
+      "pronChunks": ["trang=짱", "phục=푹"]
+    },
+    {
+      "id": "qb12-fashion-v-005",
+      "term": "quần áo",
+      "meaningKo": "옷",
+      "example": "Tôi thường mua quần áo online.",
+      "exampleMeaningKo": "저는 보통 온라인으로 옷을 삽니다.",
+      "audioSrc": "",
+      "sourcePage": 12,
+      "reviewNeeded": false,
+      "pronKo": "꾸언 아오",
+      "pronNoteKo": "quần은 바지, áo는 상의지만 quần áo는 전체적으로 '옷'입니다.",
+      "pronChunks": ["quần=꾸언", "áo=아오"]
+    },
+    {
+      "id": "qb12-fashion-v-006",
+      "term": "áo",
+      "meaningKo": "상의 / 옷",
+      "example": "Tôi thích áo màu đen.",
+      "exampleMeaningKo": "저는 검은색 상의를 좋아합니다.",
+      "audioSrc": "",
+      "sourcePage": 12,
+      "reviewNeeded": false,
+      "pronKo": "아오",
+      "pronNoteKo": "상의류를 말할 때 씁니다.",
+      "pronChunks": ["áo=아오"]
+    },
+    {
+      "id": "qb12-fashion-v-007",
+      "term": "quần",
+      "meaningKo": "바지",
+      "example": "Tôi thường mặc quần dài khi đi làm.",
+      "exampleMeaningKo": "저는 출근할 때 보통 긴 바지를 입습니다.",
+      "audioSrc": "",
+      "sourcePage": 12,
+      "reviewNeeded": false,
+      "pronKo": "꾸언",
+      "pronNoteKo": "바지를 뜻합니다.",
+      "pronChunks": ["quần=꾸언"]
+    },
+    {
+      "id": "qb12-fashion-v-008",
+      "term": "áo sơ mi",
+      "meaningKo": "셔츠",
+      "example": "Khi đi làm, tôi thường mặc áo sơ mi.",
+      "exampleMeaningKo": "출근할 때 저는 보통 셔츠를 입습니다.",
+      "audioSrc": "",
+      "sourcePage": 12,
+      "reviewNeeded": false,
+      "pronKo": "아오 써 미",
+      "pronNoteKo": "회사 복장 설명에 매우 유용합니다.",
+      "pronChunks": ["áo=아오", "sơ mi=써 미"]
+    },
+    {
+      "id": "qb12-fashion-v-009",
+      "term": "áo phông",
+      "meaningKo": "티셔츠",
+      "example": "Ở nhà, tôi thường mặc áo phông.",
+      "exampleMeaningKo": "집에서 저는 보통 티셔츠를 입습니다.",
+      "audioSrc": "",
+      "sourcePage": 12,
+      "reviewNeeded": false,
+      "pronKo": "아오 퐁",
+      "pronNoteKo": "편한 옷 설명에 좋습니다.",
+      "pronChunks": ["áo=아오", "phông=퐁"]
+    },
+    {
+      "id": "qb12-fashion-v-010",
+      "term": "quần jean",
+      "meaningKo": "청바지",
+      "example": "Cuối tuần, tôi thường mặc quần jean.",
+      "exampleMeaningKo": "주말에 저는 보통 청바지를 입습니다.",
+      "audioSrc": "",
+      "sourcePage": 12,
+      "reviewNeeded": false,
+      "pronKo": "꾸언 진",
+      "pronNoteKo": "캐주얼 복장 설명에 좋습니다.",
+      "pronChunks": ["quần=꾸언", "jean=진"]
+    },
+    {
+      "id": "qb12-fashion-v-011",
+      "term": "áo vest",
+      "meaningKo": "정장 재킷 / 수트",
+      "example": "Một số người mặc áo vest khi đi làm.",
+      "exampleMeaningKo": "어떤 사람들은 출근할 때 정장을 입습니다.",
+      "audioSrc": "",
+      "sourcePage": 12,
+      "reviewNeeded": false,
+      "pronKo": "아오 베스트",
+      "pronNoteKo": "정장 느낌을 낼 때 씁니다.",
+      "pronChunks": ["áo=아오", "vest=베스트"]
+    },
+    {
+      "id": "qb12-fashion-v-012",
+      "term": "đồng phục",
+      "meaningKo": "유니폼",
+      "example": "Một số công ty có đồng phục.",
+      "exampleMeaningKo": "몇몇 회사에는 유니폼이 있습니다.",
+      "audioSrc": "",
+      "sourcePage": 12,
+      "reviewNeeded": false,
+      "pronKo": "동 푹",
+      "pronNoteKo": "회사/학교 복장 규정 설명에 좋습니다.",
+      "pronChunks": ["đồng=동", "phục=푹"]
+    },
+    {
+      "id": "qb12-fashion-v-013",
+      "term": "trang phục công sở",
+      "meaningKo": "회사 복장 / 오피스룩",
+      "example": "Trang phục công sở thường lịch sự.",
+      "exampleMeaningKo": "회사 복장은 보통 단정합니다.",
+      "audioSrc": "",
+      "sourcePage": 12,
+      "reviewNeeded": false,
+      "pronKo": "짱 푹 꽁 서",
+      "pronNoteKo": "công sở는 사무실/직장이라는 뜻입니다.",
+      "pronChunks": ["trang phục=짱 푹", "công sở=꽁 서"]
+    },
+    {
+      "id": "qb12-fashion-v-014",
+      "term": "đồ ở nhà",
+      "meaningKo": "집에서 입는 옷",
+      "example": "Khi nghỉ ở nhà, tôi mặc đồ ở nhà.",
+      "exampleMeaningKo": "집에서 쉴 때 저는 집에서 입는 옷을 입습니다.",
+      "audioSrc": "",
+      "sourcePage": 12,
+      "reviewNeeded": false,
+      "pronKo": "도 어 냐",
+      "pronNoteKo": "집에서 편하게 입는 옷을 말할 때 좋습니다.",
+      "pronChunks": ["đồ=도", "ở nhà=어 냐"]
+    },
+    {
+      "id": "qb12-fashion-v-015",
+      "term": "đồ thể thao",
+      "meaningKo": "운동복",
+      "example": "Ở nhà, tôi thường mặc đồ thể thao.",
+      "exampleMeaningKo": "집에서 저는 보통 운동복을 입습니다.",
+      "audioSrc": "",
+      "sourcePage": 12,
+      "reviewNeeded": false,
+      "pronKo": "도 테 타오",
+      "pronNoteKo": "편한 복장으로 자주 쓸 수 있습니다.",
+      "pronChunks": ["đồ=도", "thể thao=테 타오"]
+    },
+    {
+      "id": "qb12-fashion-v-016",
+      "term": "lịch sự",
+      "meaningKo": "단정하다 / 예의 바르다",
+      "example": "Khi đi làm, người ta thường mặc lịch sự.",
+      "exampleMeaningKo": "일할 때 사람들은 보통 단정하게 입습니다.",
+      "audioSrc": "",
+      "sourcePage": 12,
+      "reviewNeeded": false,
+      "pronKo": "릭 쓰",
+      "pronNoteKo": "회사 복장을 설명할 때 가장 유용한 형용사입니다.",
+      "pronChunks": ["lịch=릭", "sự=쓰"]
+    },
+    {
+      "id": "qb12-fashion-v-017",
+      "term": "đơn giản",
+      "meaningKo": "단순하다 / 심플하다",
+      "example": "Tôi thích phong cách đơn giản.",
+      "exampleMeaningKo": "저는 심플한 스타일을 좋아합니다.",
+      "audioSrc": "",
+      "sourcePage": 12,
+      "reviewNeeded": false,
+      "pronKo": "던 잔",
+      "pronNoteKo": "옷 취향 설명에 좋습니다.",
+      "pronChunks": ["đơn=던", "giản=잔"]
+    },
+    {
+      "id": "qb12-fashion-v-018",
+      "term": "thoải mái",
+      "meaningKo": "편하다",
+      "example": "Ở nhà, tôi thích mặc quần áo thoải mái.",
+      "exampleMeaningKo": "집에서 저는 편한 옷을 입는 것을 좋아합니다.",
+      "audioSrc": "",
+      "sourcePage": 12,
+      "reviewNeeded": false,
+      "pronKo": "토아이 마이",
+      "pronNoteKo": "집에서 쉬는 옷을 설명할 때 핵심입니다.",
+      "pronChunks": ["thoải=토아이", "mái=마이"]
+    },
+    {
+      "id": "qb12-fashion-v-019",
+      "term": "gọn gàng",
+      "meaningKo": "깔끔하다",
+      "example": "Người Hàn Quốc thường ăn mặc gọn gàng.",
+      "exampleMeaningKo": "한국 사람들은 보통 깔끔하게 옷을 입습니다.",
+      "audioSrc": "",
+      "sourcePage": 12,
+      "reviewNeeded": false,
+      "pronKo": "곤 강",
+      "pronNoteKo": "전체적인 옷차림을 칭찬할 때 좋습니다.",
+      "pronChunks": ["gọn=곤", "gàng=강"]
+    },
+    {
+      "id": "qb12-fashion-v-020",
+      "term": "trẻ trung",
+      "meaningKo": "젊어 보이는 / 젊은 느낌의",
+      "example": "Ngày nay, thời trang trẻ trung hơn trước.",
+      "exampleMeaningKo": "요즘 패션은 예전보다 더 젊은 느낌입니다.",
+      "audioSrc": "",
+      "sourcePage": 12,
+      "reviewNeeded": false,
+      "pronKo": "쩨 쭝",
+      "pronNoteKo": "현재 패션 변화 설명에 좋습니다.",
+      "pronChunks": ["trẻ=쩨", "trung=쭝"]
+    },
+    {
+      "id": "qb12-fashion-v-021",
+      "term": "hiện đại",
+      "meaningKo": "현대적이다",
+      "example": "Thời trang hiện nay hiện đại hơn.",
+      "exampleMeaningKo": "요즘 패션은 더 현대적입니다.",
+      "audioSrc": "",
+      "sourcePage": 12,
+      "reviewNeeded": false,
+      "pronKo": "히엔 다이",
+      "pronNoteKo": "과거와 현재 비교에 자주 씁니다.",
+      "pronChunks": ["hiện=히엔", "đại=다이"]
+    },
+    {
+      "id": "qb12-fashion-v-022",
+      "term": "truyền thống",
+      "meaningKo": "전통적인",
+      "example": "Ngày xưa, người ta mặc trang phục truyền thống nhiều hơn.",
+      "exampleMeaningKo": "옛날에는 사람들이 전통 의상을 더 많이 입었습니다.",
+      "audioSrc": "",
+      "sourcePage": 12,
+      "reviewNeeded": false,
+      "pronKo": "쭈옌 통",
+      "pronNoteKo": "과거 옷차림 설명에 좋습니다.",
+      "pronChunks": ["truyền=쭈옌", "thống=통"]
+    },
+    {
+      "id": "qb12-fashion-v-023",
+      "term": "ngày xưa",
+      "meaningKo": "옛날에",
+      "example": "Ngày xưa, người ta ăn mặc đơn giản hơn.",
+      "exampleMeaningKo": "옛날에는 사람들이 더 단순하게 옷을 입었습니다.",
+      "audioSrc": "",
+      "sourcePage": 12,
+      "reviewNeeded": false,
+      "pronKo": "응아이 쓰어",
+      "pronNoteKo": "과거 비교 문제에서 매우 자주 씁니다.",
+      "pronChunks": ["ngày=응아이", "xưa=쓰어"]
+    },
+    {
+      "id": "qb12-fashion-v-024",
+      "term": "hiện nay",
+      "meaningKo": "현재 / 요즘",
+      "example": "Hiện nay, người trẻ mặc rất đa dạng.",
+      "exampleMeaningKo": "요즘 젊은 사람들은 매우 다양하게 입습니다.",
+      "audioSrc": "",
+      "sourcePage": 12,
+      "reviewNeeded": false,
+      "pronKo": "히엔 나이",
+      "pronNoteKo": "현재 상태를 말할 때 씁니다.",
+      "pronChunks": ["hiện=히엔", "nay=나이"]
+    },
+    {
+      "id": "qb12-fashion-v-025",
+      "term": "khi còn nhỏ",
+      "meaningKo": "어렸을 때",
+      "example": "Khi tôi còn nhỏ, tôi không quan tâm đến thời trang.",
+      "exampleMeaningKo": "제가 어렸을 때 저는 패션에 관심이 없었습니다.",
+      "audioSrc": "",
+      "sourcePage": 12,
+      "reviewNeeded": false,
+      "pronKo": "키 꼰 뇨",
+      "pronNoteKo": "과거 경험 말하기의 핵심 표현입니다.",
+      "pronChunks": ["khi=키", "còn nhỏ=꼰 뇨"]
+    },
+    {
+      "id": "qb12-fashion-v-026",
+      "term": "thay đổi",
+      "meaningKo": "변하다 / 변화",
+      "example": "Thời trang đã thay đổi nhiều.",
+      "exampleMeaningKo": "패션은 많이 변했습니다.",
+      "audioSrc": "",
+      "sourcePage": 12,
+      "reviewNeeded": false,
+      "pronKo": "타이 도이",
+      "pronNoteKo": "패션 변화 문제의 핵심 동사입니다.",
+      "pronChunks": ["thay=타이", "đổi=도이"]
+    },
+    {
+      "id": "qb12-fashion-v-027",
+      "term": "sự thay đổi",
+      "meaningKo": "변화",
+      "example": "Có sự thay đổi lớn về thời trang.",
+      "exampleMeaningKo": "패션에 큰 변화가 있습니다.",
+      "audioSrc": "",
+      "sourcePage": 12,
+      "reviewNeeded": false,
+      "pronKo": "쓰 타이 도이",
+      "pronNoteKo": "sự를 붙이면 명사형 '변화'가 됩니다.",
+      "pronChunks": ["sự=쓰", "thay đổi=타이 도이"]
+    },
+    {
+      "id": "qb12-fashion-v-028",
+      "term": "xu hướng thời trang",
+      "meaningKo": "패션 트렌드",
+      "example": "Giới trẻ thường theo xu hướng thời trang.",
+      "exampleMeaningKo": "젊은 사람들은 보통 패션 트렌드를 따릅니다.",
+      "audioSrc": "",
+      "sourcePage": 12,
+      "reviewNeeded": false,
+      "pronKo": "쑤 흐엉 터이 짱",
+      "pronNoteKo": "조금 고급스럽게 들리는 표현입니다.",
+      "pronChunks": ["xu hướng=쑤 흐엉", "thời trang=터이 짱"]
+    },
+    {
+      "id": "qb12-fashion-v-029",
+      "term": "theo xu hướng",
+      "meaningKo": "유행을 따르다",
+      "example": "Tôi không theo xu hướng nhiều.",
+      "exampleMeaningKo": "저는 유행을 많이 따르지 않습니다.",
+      "audioSrc": "",
+      "sourcePage": 12,
+      "reviewNeeded": false,
+      "pronKo": "테오 쑤 흐엉",
+      "pronNoteKo": "패션 취향 설명에 좋습니다.",
+      "pronChunks": ["theo=테오", "xu hướng=쑤 흐엉"]
+    },
+    {
+      "id": "qb12-fashion-v-030",
+      "term": "đa dạng",
+      "meaningKo": "다양하다",
+      "example": "Thời trang hiện nay rất đa dạng.",
+      "exampleMeaningKo": "요즘 패션은 매우 다양합니다.",
+      "audioSrc": "",
+      "sourcePage": 12,
+      "reviewNeeded": false,
+      "pronKo": "다 장",
+      "pronNoteKo": "현재 패션 설명에 아주 좋습니다.",
+      "pronChunks": ["đa=다", "dạng=장"]
+    }
+  ],
+  "sentenceCards": [
+    {
+      "id": "qb12-fashion-s-001",
+      "textVi": "Ở nước bạn, người ta ăn mặc trang phục như thế nào? Khi làm việc, họ mặc gì? Họ mặc gì khi nghỉ ở nhà?",
+      "textKo": "당신의 나라에서 사람들은 어떻게 옷을 입나요? 일할 때 그들은 무엇을 입나요? 그들은 집에서 쉴 때 무엇을 입나요?",
+      "exampleAnswerVi": "Ở Hàn Quốc, người ta thường ăn mặc khá gọn gàng và đơn giản. Khi đi làm, nhiều người mặc áo sơ mi, quần dài hoặc áo vest. Một số công ty có quy định về trang phục, nhưng nhiều công ty hiện nay cho phép nhân viên mặc thoải mái hơn. Khi nghỉ ở nhà, người ta thường mặc quần áo rất thoải mái như áo phông, quần thể thao hoặc đồ ở nhà. Riêng tôi, khi đi làm, tôi thường mặc áo sơ mi và quần dài vì tôi muốn trông lịch sự. Nhưng khi ở nhà, tôi thích mặc áo phông và quần thể thao vì chúng rất thoải mái. Tôi nghĩ người Hàn Quốc quan tâm đến sự gọn gàng hơn là thời trang quá đặc biệt.",
+      "exampleAnswerKo": "한국에서 사람들은 보통 꽤 깔끔하고 단순하게 옷을 입습니다. 일하러 갈 때 많은 사람들은 셔츠, 긴 바지 또는 정장을 입습니다. 몇몇 회사에는 복장 규정이 있지만, 요즘 많은 회사들은 직원들이 더 편하게 입는 것을 허용합니다. 집에서 쉴 때 사람들은 보통 티셔츠, 운동복 바지 또는 집에서 입는 옷처럼 매우 편한 옷을 입습니다. 저 개인적으로는 출근할 때 단정해 보이고 싶어서 보통 셔츠와 긴 바지를 입습니다. 하지만 집에서는 티셔츠와 운동복을 입는 것을 좋아합니다. 왜냐하면 그것들이 매우 편하기 때문입니다. 저는 한국 사람들이 너무 특별한 패션보다 깔끔함을 더 중요하게 생각한다고 봅니다.",
+      "audioSrc": "",
+      "sourcePage": 12,
+      "reviewNeeded": false,
+      "pronKo": "어 느억 반, 응으어이 따 안 막 짱 푹 느 테 나오? 키 람 비엑, 호 막 지? 호 막 지 키 응이 어 냐?",
+      "exampleAnswerPronKo": "어 한 꾸옥, 응으어이 따 트엉 안 막 카 곤 강 바 던 잔. 키 디 람, 니에우 응으어이 막 아오 써 미, 꾸언 자이 혹 아오 베스트.",
+      "pronNoteKo": "이 문제는 '나라 전체 옷차림 → 일할 때 복장 → 집에서 쉬는 복장 → 내 경우' 순서로 말하면 좋습니다."
+    },
+    {
+      "id": "qb12-fashion-s-002",
+      "textVi": "Khi bạn còn nhỏ, người ta thường ăn mặc như thế nào? Còn hiện nay thì thế nào? Có sự thay đổi về thời trang không?",
+      "textKo": "당신이 어렸을 때 사람들은 보통 어떻게 입었나요? 그리고 오늘날에는 어떤가요? 패션에 대한 변화가 있나요?",
+      "exampleAnswerVi": "Khi tôi còn nhỏ, người ta thường ăn mặc đơn giản hơn bây giờ. Lúc đó, nhiều người không quan tâm quá nhiều đến thời trang. Họ thường mặc quần áo tiện lợi, màu sắc đơn giản và kiểu dáng không quá nổi bật. Nhưng hiện nay, thời trang đã thay đổi rất nhiều. Người trẻ ở Hàn Quốc thích mặc quần áo đa dạng hơn và họ quan tâm nhiều đến phong cách cá nhân. Nhiều người mua quần áo online và theo xu hướng thời trang trên mạng xã hội. Tuy nhiên, tôi nghĩ sự gọn gàng vẫn rất quan trọng. Riêng tôi, tôi không theo xu hướng nhiều. Tôi thích phong cách đơn giản, lịch sự và thoải mái. Theo tôi, thời trang ngày nay tự do hơn trước, vì mỗi người có thể thể hiện bản thân bằng cách ăn mặc của mình.",
+      "exampleAnswerKo": "제가 어렸을 때 사람들은 지금보다 더 단순하게 옷을 입었습니다. 그때는 많은 사람들이 패션에 너무 많이 관심을 두지 않았습니다. 그들은 보통 편리한 옷, 단순한 색깔, 그리고 너무 눈에 띄지 않는 스타일을 입었습니다. 하지만 요즘 패션은 매우 많이 변했습니다. 한국의 젊은 사람들은 더 다양한 옷을 입는 것을 좋아하고 개인 스타일에 관심이 많습니다. 많은 사람들이 온라인으로 옷을 사고 소셜미디어에서 패션 트렌드를 따릅니다. 하지만 저는 깔끔함은 여전히 매우 중요하다고 생각합니다. 저 개인적으로는 유행을 많이 따르지 않습니다. 저는 단순하고 단정하고 편한 스타일을 좋아합니다. 제 생각에는 요즘 패션은 예전보다 더 자유롭습니다. 왜냐하면 각자가 자신의 옷차림으로 자신을 표현할 수 있기 때문입니다.",
+      "audioSrc": "",
+      "sourcePage": 12,
+      "reviewNeeded": false,
+      "pronKo": "키 반 꼰 뇨, 응으어이 따 트엉 안 막 느 테 나오? 꼰 히엔 나이 티 테 나오? 꼬 쓰 타이 도이 베 터이 짱 콩?",
+      "exampleAnswerPronKo": "키 또이 꼰 뇨, 응으어이 따 트엉 안 막 던 잔 헌 버이 저. 룩 도, 니에우 응으어이 콩 꽌 떰 꽈 니에우 덴 터이 짱.",
+      "pronNoteKo": "이 문제는 과거와 현재 비교 문제입니다. 'ngày xưa/khi tôi còn nhỏ → hiện nay → thay đổi → 내 생각' 순서로 답하면 좋습니다."
+    }
+  ],
+  "dialogues": [
+    {
+      "id": "qb12-fashion-d-001",
+      "title": "한국 사람들의 옷차림",
+      "audioSrc": "",
+      "sourcePage": 12,
+      "reviewNeeded": false,
+      "lines": [
+        {
+          "speaker": "A",
+          "vi": "Ở Hàn Quốc, người ta ăn mặc như thế nào?",
+          "ko": "한국에서 사람들은 어떻게 옷을 입나요?",
+          "pronKo": "어 한 꾸옥, 응으어이 따 안 막 느 테 나오?"
+        },
+        {
+          "speaker": "B",
+          "vi": "Người Hàn Quốc thường ăn mặc gọn gàng và đơn giản.",
+          "ko": "한국 사람들은 보통 깔끔하고 단순하게 옷을 입습니다.",
+          "pronKo": "응으어이 한 꾸옥 트엉 안 막 곤 강 바 던 잔."
+        },
+        {
+          "speaker": "A",
+          "vi": "Khi đi làm, họ mặc gì?",
+          "ko": "일하러 갈 때 그들은 무엇을 입나요?",
+          "pronKo": "키 디 람, 호 막 지?"
+        },
+        {
+          "speaker": "B",
+          "vi": "Họ thường mặc áo sơ mi, quần dài hoặc áo vest.",
+          "ko": "그들은 보통 셔츠, 긴 바지 또는 정장을 입습니다.",
+          "pronKo": "호 트엉 막 아오 써 미, 꾸언 자이 혹 아오 베스트."
+        }
+      ]
+    },
+    {
+      "id": "qb12-fashion-d-002",
+      "title": "집에서 쉬는 옷",
+      "audioSrc": "",
+      "sourcePage": 12,
+      "reviewNeeded": false,
+      "lines": [
+        {
+          "speaker": "A",
+          "vi": "Khi nghỉ ở nhà, bạn thường mặc gì?",
+          "ko": "집에서 쉴 때 당신은 보통 무엇을 입나요?",
+          "pronKo": "키 응이 어 냐, 반 트엉 막 지?"
+        },
+        {
+          "speaker": "B",
+          "vi": "Tôi thường mặc áo phông và quần thể thao.",
+          "ko": "저는 보통 티셔츠와 운동복 바지를 입습니다.",
+          "pronKo": "또이 트엉 막 아오 퐁 바 꾸언 테 타오."
+        },
+        {
+          "speaker": "A",
+          "vi": "Vì sao bạn thích mặc như vậy?",
+          "ko": "왜 그렇게 입는 것을 좋아하나요?",
+          "pronKo": "비 사오 반 틱 막 느 버이?"
+        },
+        {
+          "speaker": "B",
+          "vi": "Vì nó rất thoải mái và tiện lợi.",
+          "ko": "왜냐하면 그것은 매우 편하고 편리하기 때문입니다.",
+          "pronKo": "비 노 젓 토아이 마이 바 띠엔 러이."
+        }
+      ]
+    },
+    {
+      "id": "qb12-fashion-d-003",
+      "title": "과거와 현재의 패션 변화",
+      "audioSrc": "",
+      "sourcePage": 12,
+      "reviewNeeded": false,
+      "lines": [
+        {
+          "speaker": "A",
+          "vi": "Khi bạn còn nhỏ, người ta thường ăn mặc như thế nào?",
+          "ko": "당신이 어렸을 때 사람들은 보통 어떻게 입었나요?",
+          "pronKo": "키 반 꼰 뇨, 응으어이 따 트엉 안 막 느 테 나오?"
+        },
+        {
+          "speaker": "B",
+          "vi": "Khi tôi còn nhỏ, người ta thường ăn mặc đơn giản hơn.",
+          "ko": "제가 어렸을 때 사람들은 보통 더 단순하게 옷을 입었습니다.",
+          "pronKo": "키 또이 꼰 뇨, 응으어이 따 트엉 안 막 던 잔 헌."
+        },
+        {
+          "speaker": "A",
+          "vi": "Còn hiện nay thì thế nào?",
+          "ko": "그러면 요즘은 어떤가요?",
+          "pronKo": "꼰 히엔 나이 티 테 나오?"
+        },
+        {
+          "speaker": "B",
+          "vi": "Hiện nay, thời trang đa dạng và tự do hơn trước.",
+          "ko": "요즘 패션은 예전보다 다양하고 자유롭습니다.",
+          "pronKo": "히엔 나이, 터이 짱 다 장 바 뜨 조 헌 쯔억."
+        }
+      ]
+    }
+  ],
+  "grammarPoints": [
+    {
+      "id": "qb12-fashion-g-001",
+      "title": "어떻게 옷을 입나요?",
+      "pattern": "Người ta ăn mặc như thế nào?",
+      "meaningKo": "사람들은 어떻게 옷을 입나요?",
+      "sourcePage": 12,
+      "reviewNeeded": false
+    },
+    {
+      "id": "qb12-fashion-g-002",
+      "title": "일할 때",
+      "pattern": "Khi làm việc, họ mặc gì?",
+      "meaningKo": "일할 때 그들은 무엇을 입나요?",
+      "sourcePage": 12,
+      "reviewNeeded": false
+    },
+    {
+      "id": "qb12-fashion-g-003",
+      "title": "집에서 쉴 때",
+      "pattern": "Khi nghỉ ở nhà, họ mặc gì?",
+      "meaningKo": "집에서 쉴 때 그들은 무엇을 입나요?",
+      "sourcePage": 12,
+      "reviewNeeded": false
+    },
+    {
+      "id": "qb12-fashion-g-004",
+      "title": "어렸을 때",
+      "pattern": "Khi tôi còn nhỏ, người ta thường ăn mặc đơn giản hơn.",
+      "meaningKo": "제가 어렸을 때 사람들은 보통 더 단순하게 옷을 입었습니다.",
+      "sourcePage": 12,
+      "reviewNeeded": false
+    },
+    {
+      "id": "qb12-fashion-g-005",
+      "title": "요즘은 어떤가요?",
+      "pattern": "Còn hiện nay thì thế nào?",
+      "meaningKo": "그러면 요즘은 어떤가요?",
+      "sourcePage": 12,
+      "reviewNeeded": false
+    },
+    {
+      "id": "qb12-fashion-g-006",
+      "title": "변화가 있나요?",
+      "pattern": "Có sự thay đổi về thời trang không?",
+      "meaningKo": "패션에 대한 변화가 있나요?",
+      "sourcePage": 12,
+      "reviewNeeded": false
+    },
+    {
+      "id": "qb12-fashion-g-007",
+      "title": "예전보다 더 ~하다",
+      "pattern": "Thời trang hiện nay tự do hơn trước.",
+      "meaningKo": "요즘 패션은 예전보다 더 자유롭습니다.",
+      "sourcePage": 12,
+      "reviewNeeded": false
+    },
+    {
+      "id": "qb12-fashion-g-008",
+      "title": "왜냐하면 ~ 때문입니다",
+      "pattern": "Tôi thích mặc áo phông vì nó rất thoải mái.",
+      "meaningKo": "저는 티셔츠를 입는 것을 좋아합니다. 왜냐하면 그것이 매우 편하기 때문입니다.",
+      "sourcePage": 12,
+      "reviewNeeded": false
+    }
+  ],
+  "pronunciationTargets": [
+    {
+      "id": "qb12-fashion-p-001",
+      "text": "Ở nước bạn, người ta ăn mặc trang phục như thế nào?",
+      "hintKo": "당신의 나라에서 사람들은 어떻게 옷을 입나요?",
+      "audioSrc": "",
+      "sourcePage": 12,
+      "reviewNeeded": false,
+      "pronKo": "어 느억 반, 응으어이 따 안 막 짱 푹 느 테 나오?",
+      "mouthKo": "Ở nước bạn / người ta ăn mặc trang phục / như thế nào 로 끊습니다.",
+      "toneKo": "나라 전체의 옷차림을 묻는 문장입니다."
+    },
+    {
+      "id": "qb12-fashion-p-002",
+      "text": "Khi làm việc, họ mặc gì?",
+      "hintKo": "일할 때 그들은 무엇을 입나요?",
+      "audioSrc": "",
+      "sourcePage": 12,
+      "reviewNeeded": false,
+      "pronKo": "키 람 비엑, 호 막 지?",
+      "mouthKo": "Khi làm việc / họ mặc gì 로 끊습니다.",
+      "toneKo": "회사나 업무 복장을 묻는 짧은 질문입니다."
+    },
+    {
+      "id": "qb12-fashion-p-003",
+      "text": "Họ mặc gì khi nghỉ ở nhà?",
+      "hintKo": "그들은 집에서 쉴 때 무엇을 입나요?",
+      "audioSrc": "",
+      "sourcePage": 12,
+      "reviewNeeded": false,
+      "pronKo": "호 막 지 키 응이 어 냐?",
+      "mouthKo": "Họ mặc gì / khi nghỉ ở nhà 로 끊습니다.",
+      "toneKo": "집에서 쉬는 복장을 묻는 질문입니다."
+    },
+    {
+      "id": "qb12-fashion-p-004",
+      "text": "Khi bạn còn nhỏ, người ta thường ăn mặc như thế nào?",
+      "hintKo": "당신이 어렸을 때 사람들은 보통 어떻게 입었나요?",
+      "audioSrc": "",
+      "sourcePage": 12,
+      "reviewNeeded": false,
+      "pronKo": "키 반 꼰 뇨, 응으어이 따 트엉 안 막 느 테 나오?",
+      "mouthKo": "Khi bạn còn nhỏ / người ta thường ăn mặc / như thế nào 로 끊습니다.",
+      "toneKo": "과거의 옷차림을 묻는 문장입니다."
+    },
+    {
+      "id": "qb12-fashion-p-005",
+      "text": "Còn hiện nay thì thế nào?",
+      "hintKo": "그리고 현재는 어떤가요?",
+      "audioSrc": "",
+      "sourcePage": 12,
+      "reviewNeeded": false,
+      "pronKo": "꼰 히엔 나이 티 테 나오?",
+      "mouthKo": "Còn hiện nay / thì thế nào 로 끊습니다.",
+      "toneKo": "현재와 비교하라는 신호입니다."
+    },
+    {
+      "id": "qb12-fashion-p-006",
+      "text": "Có sự thay đổi về thời trang không?",
+      "hintKo": "패션에 대한 변화가 있나요?",
+      "audioSrc": "",
+      "sourcePage": 12,
+      "reviewNeeded": false,
+      "pronKo": "꼬 쓰 타이 도이 베 터이 짱 콩?",
+      "mouthKo": "Có sự thay đổi / về thời trang không 로 끊습니다.",
+      "toneKo": "변화 여부를 묻는 문장입니다."
+    }
+  ],
+  "quizSeeds": [
+    {
+      "id": "qb12-fashion-q-001",
+      "type": "match-term",
+      "prompt": "패션 핵심 단어 매칭 1",
+      "answerSet": [
+        "thời trang-패션",
+        "ăn mặc-옷을 입다/차려입다",
+        "mặc-입다",
+        "trang phục-복장/의상",
+        "quần áo-옷",
+        "áo-상의",
+        "quần-바지",
+        "áo sơ mi-셔츠",
+        "áo phông-티셔츠",
+        "quần jean-청바지"
+      ],
+      "sourcePage": 12,
+      "reviewNeeded": false
+    },
+    {
+      "id": "qb12-fashion-q-002",
+      "type": "match-term",
+      "prompt": "패션 핵심 단어 매칭 2",
+      "answerSet": [
+        "áo vest-정장 재킷/수트",
+        "đồng phục-유니폼",
+        "trang phục công sở-회사 복장",
+        "đồ ở nhà-집에서 입는 옷",
+        "đồ thể thao-운동복",
+        "lịch sự-단정하다",
+        "đơn giản-단순하다",
+        "thoải mái-편하다",
+        "gọn gàng-깔끔하다",
+        "trẻ trung-젊은 느낌의"
+      ],
+      "sourcePage": 12,
+      "reviewNeeded": false
+    },
+    {
+      "id": "qb12-fashion-q-003",
+      "type": "match-term",
+      "prompt": "패션 변화 단어 매칭",
+      "answerSet": [
+        "hiện đại-현대적이다",
+        "truyền thống-전통적인",
+        "ngày xưa-옛날에",
+        "hiện nay-현재/요즘",
+        "khi còn nhỏ-어렸을 때",
+        "thay đổi-변하다",
+        "sự thay đổi-변화",
+        "xu hướng thời trang-패션 트렌드",
+        "theo xu hướng-유행을 따르다",
+        "đa dạng-다양하다"
+      ],
+      "sourcePage": 12,
+      "reviewNeeded": false
+    },
+    {
+      "id": "qb12-fashion-q-004",
+      "type": "sentence-meaning",
+      "prompt": "문제은행 패션 질문 뜻 고르기",
+      "answerSet": [
+        "Ở nước bạn, người ta ăn mặc trang phục như thế nào?-당신의 나라에서 사람들은 어떻게 옷을 입나요?",
+        "Khi làm việc, họ mặc gì?-일할 때 그들은 무엇을 입나요?",
+        "Họ mặc gì khi nghỉ ở nhà?-그들은 집에서 쉴 때 무엇을 입나요?",
+        "Khi bạn còn nhỏ, người ta thường ăn mặc như thế nào?-당신이 어렸을 때 사람들은 보통 어떻게 입었나요?",
+        "Còn hiện nay thì thế nào?-그리고 현재는 어떤가요?",
+        "Có sự thay đổi về thời trang không?-패션에 대한 변화가 있나요?"
+      ],
+      "sourcePage": 12,
+      "reviewNeeded": false
+    },
+    {
+      "id": "qb12-fashion-q-005",
+      "type": "fill-blank",
+      "prompt": "빈칸 채우기: 한국 사람들은 보통 깔끔하고 단순하게 옷을 입습니다.",
+      "question": "Người Hàn Quốc thường ăn mặc gọn gàng và ___.",
+      "answer": "đơn giản",
+      "sourcePage": 12,
+      "reviewNeeded": false
+    },
+    {
+      "id": "qb12-fashion-q-006",
+      "type": "fill-blank",
+      "prompt": "빈칸 채우기: 출근할 때 저는 보통 셔츠를 입습니다.",
+      "question": "Khi đi làm, tôi thường mặc áo ___.",
+      "answer": "sơ mi",
+      "sourcePage": 12,
+      "reviewNeeded": false
+    },
+    {
+      "id": "qb12-fashion-q-007",
+      "type": "fill-blank",
+      "prompt": "빈칸 채우기: 집에서 저는 편한 옷을 입는 것을 좋아합니다.",
+      "question": "Ở nhà, tôi thích mặc quần áo ___.",
+      "answer": "thoải mái",
+      "sourcePage": 12,
+      "reviewNeeded": false
+    },
+    {
+      "id": "qb12-fashion-q-008",
+      "type": "fill-blank",
+      "prompt": "빈칸 채우기: 요즘 패션은 매우 다양합니다.",
+      "question": "Thời trang hiện nay rất ___.",
+      "answer": "đa dạng",
+      "sourcePage": 12,
+      "reviewNeeded": false
+    },
+    {
+      "id": "qb12-fashion-q-009",
+      "type": "fill-blank",
+      "prompt": "빈칸 채우기: 패션은 많이 변했습니다.",
+      "question": "Thời trang đã ___ nhiều.",
+      "answer": "thay đổi",
+      "sourcePage": 12,
+      "reviewNeeded": false
+    },
+    {
+      "id": "qb12-fashion-q-010",
+      "type": "match-term",
+      "prompt": "나라의 옷차림 답변 순서 맞추기",
+      "answerSet": [
+        "1-Ở Hàn Quốc, người ta thường ăn mặc khá gọn gàng và đơn giản.",
+        "2-Khi đi làm, nhiều người mặc áo sơ mi, quần dài hoặc áo vest.",
+        "3-Khi nghỉ ở nhà, người ta thường mặc quần áo rất thoải mái.",
+        "4-Riêng tôi, khi đi làm, tôi thường mặc áo sơ mi và quần dài.",
+        "5-Nhưng khi ở nhà, tôi thích mặc áo phông và quần thể thao."
+      ],
+      "sourcePage": 12,
+      "reviewNeeded": false
+    },
+    {
+      "id": "qb12-fashion-q-011",
+      "type": "match-term",
+      "prompt": "패션 변화 답변 순서 맞추기",
+      "answerSet": [
+        "1-Khi tôi còn nhỏ, người ta thường ăn mặc đơn giản hơn bây giờ.",
+        "2-Lúc đó, nhiều người không quan tâm quá nhiều đến thời trang.",
+        "3-Nhưng hiện nay, thời trang đã thay đổi rất nhiều.",
+        "4-Người trẻ ở Hàn Quốc thích mặc quần áo đa dạng hơn.",
+        "5-Theo tôi, thời trang ngày nay tự do hơn trước."
+      ],
+      "sourcePage": 12,
+      "reviewNeeded": false
+    }
+  ],
+  "unlockCondition": "always",
+  "reviewNeeded": false
+},
+    {
   "lessonId": "question-bank-011-transportation",
   "unitLabel": "문제은행",
   "titleKo": "문제은행11: 교통",
