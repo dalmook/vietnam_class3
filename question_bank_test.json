@@ -6,6 +6,1170 @@
   },
   "lessons": [
     {
+  "lessonId": "question-bank-007-music",
+  "unitLabel": "문제은행",
+  "titleKo": "문제은행7: 음악",
+  "titleVi": "Ngân hàng câu hỏi 7: Chủ đề âm nhạc",
+  "pageRange": "문제은행 / 음악",
+  "goals": [
+    "좋아하는 음악 장르를 말할 수 있다",
+    "좋아하는 가수나 작곡가를 소개할 수 있다",
+    "그 음악이 특별한 이유를 설명할 수 있다",
+    "음악을 어디서 언제 듣는지 말할 수 있다",
+    "음악을 듣는 이유와 감정을 표현할 수 있다",
+    "좋아하는 노래와 관련된 추억을 말할 수 있다",
+    "어릴 때 들었던 음악과 현재 듣는 음악을 비교할 수 있다"
+  ],
+  "topicOverview": "음악 주제는 OPIc에서 취미, 일상생활, 감정, 추억, 변화 문제로 확장되기 쉽습니다. 초보자는 '저는 음악 듣는 것을 좋아합니다 → 보통 출근할 때나 쉬는 시간에 듣습니다 → 저는 발라드와 K-pop을 좋아합니다 → 좋아하는 가수는 IU입니다 → 그녀의 목소리가 좋고 노래 가사가 감동적입니다 → 음악을 들으면 기분이 좋아지고 스트레스가 줄어듭니다' 흐름으로 외우면 안정적입니다.",
+  "cultureTopics": [
+    "음악 듣기",
+    "좋아하는 음악 장르",
+    "좋아하는 가수",
+    "좋아하는 작곡가",
+    "좋아하는 노래",
+    "음악을 듣는 장소",
+    "음악을 듣는 시간",
+    "음악을 듣는 이유",
+    "노래와 관련된 추억",
+    "어릴 때 들었던 음악",
+    "현재 듣는 음악",
+    "음악 취향의 변화"
+  ],
+  "vocabCards": [
+    {
+      "id": "qb7-music-v-001",
+      "term": "âm nhạc",
+      "meaningKo": "음악",
+      "example": "Tôi rất thích âm nhạc.",
+      "exampleMeaningKo": "저는 음악을 매우 좋아합니다.",
+      "audioSrc": "",
+      "sourcePage": 7,
+      "reviewNeeded": false,
+      "pronKo": "엄 냑",
+      "pronNoteKo": "음악 주제의 가장 핵심 단어입니다.",
+      "pronChunks": ["âm=엄", "nhạc=냑"]
+    },
+    {
+      "id": "qb7-music-v-002",
+      "term": "nghe nhạc",
+      "meaningKo": "음악을 듣다",
+      "example": "Tôi thường nghe nhạc khi đi làm.",
+      "exampleMeaningKo": "저는 출근할 때 보통 음악을 듣습니다.",
+      "audioSrc": "",
+      "sourcePage": 7,
+      "reviewNeeded": false,
+      "pronKo": "응에 냑",
+      "pronNoteKo": "OPIc 음악 주제에서 제일 자주 쓰는 표현입니다.",
+      "pronChunks": ["nghe=응에", "nhạc=냑"]
+    },
+    {
+      "id": "qb7-music-v-003",
+      "term": "thích nghe nhạc",
+      "meaningKo": "음악 듣는 것을 좋아하다",
+      "example": "Tôi thích nghe nhạc sau khi làm việc.",
+      "exampleMeaningKo": "저는 일을 마친 후 음악 듣는 것을 좋아합니다.",
+      "audioSrc": "",
+      "sourcePage": 7,
+      "reviewNeeded": false,
+      "pronKo": "틱 응에 냑",
+      "pronNoteKo": "설문에서 음악을 선택했다는 문제에 바로 연결됩니다.",
+      "pronChunks": ["thích=틱", "nghe nhạc=응에 냑"]
+    },
+    {
+      "id": "qb7-music-v-004",
+      "term": "thể loại nhạc",
+      "meaningKo": "음악 장르",
+      "example": "Bạn thích nghe thể loại nhạc gì?",
+      "exampleMeaningKo": "당신은 어떤 음악 장르를 듣는 것을 좋아하나요?",
+      "audioSrc": "",
+      "sourcePage": 7,
+      "reviewNeeded": false,
+      "pronKo": "테 로아이 냑",
+      "pronNoteKo": "첫 번째 문제의 핵심 표현입니다.",
+      "pronChunks": ["thể loại=테 로아이", "nhạc=냑"]
+    },
+    {
+      "id": "qb7-music-v-005",
+      "term": "bài hát",
+      "meaningKo": "노래",
+      "example": "Bài hát này rất hay.",
+      "exampleMeaningKo": "이 노래는 매우 좋습니다.",
+      "audioSrc": "",
+      "sourcePage": 7,
+      "reviewNeeded": false,
+      "pronKo": "바이 핫",
+      "pronNoteKo": "좋아하는 노래 문제에서 핵심입니다.",
+      "pronChunks": ["bài=바이", "hát=핫"]
+    },
+    {
+      "id": "qb7-music-v-006",
+      "term": "ca sĩ",
+      "meaningKo": "가수",
+      "example": "Ca sĩ yêu thích của tôi là IU.",
+      "exampleMeaningKo": "제가 좋아하는 가수는 IU입니다.",
+      "audioSrc": "",
+      "sourcePage": 7,
+      "reviewNeeded": false,
+      "pronKo": "까 시",
+      "pronNoteKo": "좋아하는 가수 소개에 사용합니다.",
+      "pronChunks": ["ca=까", "sĩ=시"]
+    },
+    {
+      "id": "qb7-music-v-007",
+      "term": "nhà soạn nhạc",
+      "meaningKo": "작곡가",
+      "example": "Tôi không biết nhiều nhà soạn nhạc.",
+      "exampleMeaningKo": "저는 많은 작곡가를 알지는 못합니다.",
+      "audioSrc": "",
+      "sourcePage": 7,
+      "reviewNeeded": false,
+      "pronKo": "냐 솬 냑",
+      "pronNoteKo": "작곡가를 모르면 가수 중심으로 답해도 됩니다.",
+      "pronChunks": ["nhà=냐", "soạn=솬", "nhạc=냑"]
+    },
+    {
+      "id": "qb7-music-v-008",
+      "term": "yêu thích",
+      "meaningKo": "좋아하는 / 사랑하는",
+      "example": "Đây là bài hát yêu thích của tôi.",
+      "exampleMeaningKo": "이것은 제가 좋아하는 노래입니다.",
+      "audioSrc": "",
+      "sourcePage": 7,
+      "reviewNeeded": false,
+      "pronKo": "이에우 틱",
+      "pronNoteKo": "favorite 느낌으로 자주 씁니다.",
+      "pronChunks": ["yêu=이에우", "thích=틱"]
+    },
+    {
+      "id": "qb7-music-v-009",
+      "term": "đặc biệt",
+      "meaningKo": "특별하다",
+      "example": "Bài hát này rất đặc biệt với tôi.",
+      "exampleMeaningKo": "이 노래는 저에게 매우 특별합니다.",
+      "audioSrc": "",
+      "sourcePage": 7,
+      "reviewNeeded": false,
+      "pronKo": "닥 비엣",
+      "pronNoteKo": "노래가 왜 특별한지 말할 때 씁니다.",
+      "pronChunks": ["đặc=닥", "biệt=비엣"]
+    },
+    {
+      "id": "qb7-music-v-010",
+      "term": "giai điệu",
+      "meaningKo": "멜로디",
+      "example": "Giai điệu của bài hát này rất hay.",
+      "exampleMeaningKo": "이 노래의 멜로디는 매우 좋습니다.",
+      "audioSrc": "",
+      "sourcePage": 7,
+      "reviewNeeded": false,
+      "pronKo": "자이 디에우",
+      "pronNoteKo": "음악의 특별한 점을 말할 때 좋습니다.",
+      "pronChunks": ["giai=자이", "điệu=디에우"]
+    },
+    {
+      "id": "qb7-music-v-011",
+      "term": "lời bài hát",
+      "meaningKo": "노래 가사",
+      "example": "Lời bài hát rất cảm động.",
+      "exampleMeaningKo": "노래 가사가 매우 감동적입니다.",
+      "audioSrc": "",
+      "sourcePage": 7,
+      "reviewNeeded": false,
+      "pronKo": "러이 바이 핫",
+      "pronNoteKo": "발라드 설명에 특히 좋습니다.",
+      "pronChunks": ["lời=러이", "bài hát=바이 핫"]
+    },
+    {
+      "id": "qb7-music-v-012",
+      "term": "giọng hát",
+      "meaningKo": "노래 목소리",
+      "example": "Tôi thích giọng hát của cô ấy.",
+      "exampleMeaningKo": "저는 그녀의 노래 목소리를 좋아합니다.",
+      "audioSrc": "",
+      "sourcePage": 7,
+      "reviewNeeded": false,
+      "pronKo": "종 핫",
+      "pronNoteKo": "가수를 좋아하는 이유로 쓰기 좋습니다.",
+      "pronChunks": ["giọng=종", "hát=핫"]
+    },
+    {
+      "id": "qb7-music-v-013",
+      "term": "hay",
+      "meaningKo": "좋다 / 멋지다 / 자주",
+      "example": "Bài hát này rất hay.",
+      "exampleMeaningKo": "이 노래는 매우 좋습니다.",
+      "audioSrc": "",
+      "sourcePage": 7,
+      "reviewNeeded": false,
+      "pronKo": "하이",
+      "pronNoteKo": "문맥에 따라 '좋다' 또는 '자주'로 해석됩니다.",
+      "pronChunks": ["hay=하이"]
+    },
+    {
+      "id": "qb7-music-v-014",
+      "term": "ballad",
+      "meaningKo": "발라드",
+      "example": "Tôi thích nghe nhạc ballad.",
+      "exampleMeaningKo": "저는 발라드 음악 듣는 것을 좋아합니다.",
+      "audioSrc": "",
+      "sourcePage": 7,
+      "reviewNeeded": false,
+      "pronKo": "발라드",
+      "pronNoteKo": "한국인이 말하기 쉬운 장르입니다.",
+      "pronChunks": ["ballad=발라드"]
+    },
+    {
+      "id": "qb7-music-v-015",
+      "term": "nhạc K-pop",
+      "meaningKo": "K-pop 음악",
+      "example": "Tôi thường nghe nhạc K-pop.",
+      "exampleMeaningKo": "저는 보통 K-pop 음악을 듣습니다.",
+      "audioSrc": "",
+      "sourcePage": 7,
+      "reviewNeeded": false,
+      "pronKo": "냑 케이팝",
+      "pronNoteKo": "K-pop은 그대로 말해도 자연스럽습니다.",
+      "pronChunks": ["nhạc=냑", "K-pop=케이팝"]
+    },
+    {
+      "id": "qb7-music-v-016",
+      "term": "nhạc pop",
+      "meaningKo": "팝 음악",
+      "example": "Tôi thích nhạc pop vì dễ nghe.",
+      "exampleMeaningKo": "저는 듣기 쉬워서 팝 음악을 좋아합니다.",
+      "audioSrc": "",
+      "sourcePage": 7,
+      "reviewNeeded": false,
+      "pronKo": "냑 팝",
+      "pronNoteKo": "장르 답변으로 쓰기 쉽습니다.",
+      "pronChunks": ["nhạc=냑", "pop=팝"]
+    },
+    {
+      "id": "qb7-music-v-017",
+      "term": "nhạc nhẹ",
+      "meaningKo": "가벼운 음악 / 부드러운 음악",
+      "example": "Tôi thích nghe nhạc nhẹ vào buổi tối.",
+      "exampleMeaningKo": "저는 저녁에 부드러운 음악 듣는 것을 좋아합니다.",
+      "audioSrc": "",
+      "sourcePage": 7,
+      "reviewNeeded": false,
+      "pronKo": "냑 녜",
+      "pronNoteKo": "편안한 음악을 말할 때 좋습니다.",
+      "pronChunks": ["nhạc=냑", "nhẹ=녜"]
+    },
+    {
+      "id": "qb7-music-v-018",
+      "term": "nhạc vui",
+      "meaningKo": "신나는 음악",
+      "example": "Khi lái xe, tôi thích nghe nhạc vui.",
+      "exampleMeaningKo": "운전할 때 저는 신나는 음악 듣는 것을 좋아합니다.",
+      "audioSrc": "",
+      "sourcePage": 7,
+      "reviewNeeded": false,
+      "pronKo": "냑 부이",
+      "pronNoteKo": "기분 전환용 음악에 씁니다.",
+      "pronChunks": ["nhạc=냑", "vui=부이"]
+    },
+    {
+      "id": "qb7-music-v-019",
+      "term": "nhạc buồn",
+      "meaningKo": "슬픈 음악",
+      "example": "Khi buồn, tôi thường nghe nhạc buồn.",
+      "exampleMeaningKo": "슬플 때 저는 보통 슬픈 음악을 듣습니다.",
+      "audioSrc": "",
+      "sourcePage": 7,
+      "reviewNeeded": false,
+      "pronKo": "냑 부온",
+      "pronNoteKo": "감정 설명에 좋습니다.",
+      "pronChunks": ["nhạc=냑", "buồn=부온"]
+    },
+    {
+      "id": "qb7-music-v-020",
+      "term": "dễ nghe",
+      "meaningKo": "듣기 쉽다",
+      "example": "Nhạc ballad dễ nghe.",
+      "exampleMeaningKo": "발라드 음악은 듣기 쉽습니다.",
+      "audioSrc": "",
+      "sourcePage": 7,
+      "reviewNeeded": false,
+      "pronKo": "제 응에",
+      "pronNoteKo": "장르를 좋아하는 이유로 간단하게 쓰기 좋습니다.",
+      "pronChunks": ["dễ=제", "nghe=응에"]
+    },
+    {
+      "id": "qb7-music-v-021",
+      "term": "cảm động",
+      "meaningKo": "감동적이다",
+      "example": "Lời bài hát rất cảm động.",
+      "exampleMeaningKo": "노래 가사가 매우 감동적입니다.",
+      "audioSrc": "",
+      "sourcePage": 7,
+      "reviewNeeded": false,
+      "pronKo": "깜 동",
+      "pronNoteKo": "노래 가사 설명에 좋습니다.",
+      "pronChunks": ["cảm=깜", "động=동"]
+    },
+    {
+      "id": "qb7-music-v-022",
+      "term": "thư giãn",
+      "meaningKo": "휴식하다 / 편안해지다",
+      "example": "Tôi nghe nhạc để thư giãn.",
+      "exampleMeaningKo": "저는 쉬기 위해 음악을 듣습니다.",
+      "audioSrc": "",
+      "sourcePage": 7,
+      "reviewNeeded": false,
+      "pronKo": "트 잔",
+      "pronNoteKo": "음악을 듣는 이유로 아주 좋습니다.",
+      "pronChunks": ["thư=트", "giãn=잔"]
+    },
+    {
+      "id": "qb7-music-v-023",
+      "term": "giảm căng thẳng",
+      "meaningKo": "스트레스를 줄이다",
+      "example": "Nghe nhạc giúp tôi giảm căng thẳng.",
+      "exampleMeaningKo": "음악 듣기는 제가 스트레스를 줄이는 데 도움을 줍니다.",
+      "audioSrc": "",
+      "sourcePage": 7,
+      "reviewNeeded": false,
+      "pronKo": "지암 깡 탕",
+      "pronNoteKo": "OPIc 답변에서 점수 좋아 보이는 표현입니다.",
+      "pronChunks": ["giảm=지암", "căng thẳng=깡 탕"]
+    },
+    {
+      "id": "qb7-music-v-024",
+      "term": "tâm trạng",
+      "meaningKo": "기분 / 마음 상태",
+      "example": "Âm nhạc làm tâm trạng tôi tốt hơn.",
+      "exampleMeaningKo": "음악은 제 기분을 더 좋게 만듭니다.",
+      "audioSrc": "",
+      "sourcePage": 7,
+      "reviewNeeded": false,
+      "pronKo": "떰 짱",
+      "pronNoteKo": "감정 표현에 유용합니다.",
+      "pronChunks": ["tâm=떰", "trạng=짱"]
+    },
+    {
+      "id": "qb7-music-v-025",
+      "term": "kỷ niệm",
+      "meaningKo": "추억",
+      "example": "Bài hát này có nhiều kỷ niệm với tôi.",
+      "exampleMeaningKo": "이 노래는 저에게 많은 추억이 있습니다.",
+      "audioSrc": "",
+      "sourcePage": 7,
+      "reviewNeeded": false,
+      "pronKo": "끼 니엠",
+      "pronNoteKo": "좋아하는 노래와 관련된 추억 문제의 핵심 단어입니다.",
+      "pronChunks": ["kỷ=끼", "niệm=니엠"]
+    },
+    {
+      "id": "qb7-music-v-026",
+      "term": "liên quan đến",
+      "meaningKo": "~와 관련되다",
+      "example": "Tôi có một kỷ niệm liên quan đến bài hát đó.",
+      "exampleMeaningKo": "저는 그 노래와 관련된 추억이 하나 있습니다.",
+      "audioSrc": "",
+      "sourcePage": 7,
+      "reviewNeeded": false,
+      "pronKo": "리엔 꽌 덴",
+      "pronNoteKo": "추억 설명 문제에서 그대로 쓸 수 있습니다.",
+      "pronChunks": ["liên quan=리엔 꽌", "đến=덴"]
+    },
+    {
+      "id": "qb7-music-v-027",
+      "term": "lần đầu tiên",
+      "meaningKo": "처음 / 첫 번째",
+      "example": "Lần đầu tiên tôi nghe bài hát này là khi tôi còn nhỏ.",
+      "exampleMeaningKo": "제가 이 노래를 처음 들은 것은 어렸을 때입니다.",
+      "audioSrc": "",
+      "sourcePage": 7,
+      "reviewNeeded": false,
+      "pronKo": "런 더우 띠엔",
+      "pronNoteKo": "어릴 때 경험 문제에서 중요합니다.",
+      "pronChunks": ["lần=런", "đầu tiên=더우 띠엔"]
+    },
+    {
+      "id": "qb7-music-v-028",
+      "term": "khi còn nhỏ",
+      "meaningKo": "어렸을 때",
+      "example": "Khi còn nhỏ, tôi thường nghe nhạc thiếu nhi.",
+      "exampleMeaningKo": "어렸을 때 저는 보통 어린이 노래를 들었습니다.",
+      "audioSrc": "",
+      "sourcePage": 7,
+      "reviewNeeded": false,
+      "pronKo": "키 꼰 뇨",
+      "pronNoteKo": "과거 회상 문제에 필수입니다.",
+      "pronChunks": ["khi=키", "còn=꼰", "nhỏ=뇨"]
+    },
+    {
+      "id": "qb7-music-v-029",
+      "term": "hiện nay",
+      "meaningKo": "현재 / 요즘",
+      "example": "Hiện nay, tôi thường nghe nhạc ballad.",
+      "exampleMeaningKo": "요즘 저는 보통 발라드 음악을 듣습니다.",
+      "audioSrc": "",
+      "sourcePage": 7,
+      "reviewNeeded": false,
+      "pronKo": "히엔 나이",
+      "pronNoteKo": "과거와 현재를 비교할 때 씁니다.",
+      "pronChunks": ["hiện=히엔", "nay=나이"]
+    },
+    {
+      "id": "qb7-music-v-030",
+      "term": "thay đổi",
+      "meaningKo": "바뀌다 / 변화하다",
+      "example": "Sở thích âm nhạc của tôi đã thay đổi nhiều.",
+      "exampleMeaningKo": "제 음악 취향은 많이 바뀌었습니다.",
+      "audioSrc": "",
+      "sourcePage": 7,
+      "reviewNeeded": false,
+      "pronKo": "타이 도이",
+      "pronNoteKo": "음악 취향 변화 문제의 핵심 단어입니다.",
+      "pronChunks": ["thay=타이", "đổi=도이"]
+    },
+    {
+      "id": "qb7-music-v-031",
+      "term": "khác với",
+      "meaningKo": "~와 다르다",
+      "example": "Âm nhạc tôi nghe bây giờ khác với âm nhạc khi tôi còn nhỏ.",
+      "exampleMeaningKo": "제가 지금 듣는 음악은 어릴 때 들었던 음악과 다릅니다.",
+      "audioSrc": "",
+      "sourcePage": 7,
+      "reviewNeeded": false,
+      "pronKo": "칵 버이",
+      "pronNoteKo": "비교 문제에서 아주 중요합니다.",
+      "pronChunks": ["khác=칵", "với=버이"]
+    },
+    {
+      "id": "qb7-music-v-032",
+      "term": "quan tâm đến",
+      "meaningKo": "~에 관심을 가지다",
+      "example": "Tôi bắt đầu quan tâm đến âm nhạc khi học cấp hai.",
+      "exampleMeaningKo": "저는 중학교 때 음악에 관심을 갖기 시작했습니다.",
+      "audioSrc": "",
+      "sourcePage": 7,
+      "reviewNeeded": false,
+      "pronKo": "꽌 떰 덴",
+      "pronNoteKo": "문제에 나온 '관심' 표현입니다.",
+      "pronChunks": ["quan tâm=꽌 떰", "đến=덴"]
+    },
+    {
+      "id": "qb7-music-v-033",
+      "term": "bắt đầu",
+      "meaningKo": "시작하다",
+      "example": "Tôi bắt đầu nghe nhạc K-pop khi còn trẻ.",
+      "exampleMeaningKo": "저는 젊었을 때 K-pop 음악을 듣기 시작했습니다.",
+      "audioSrc": "",
+      "sourcePage": 7,
+      "reviewNeeded": false,
+      "pronKo": "밧 더우",
+      "pronNoteKo": "과거 시작 시점 설명에 씁니다.",
+      "pronChunks": ["bắt=밧", "đầu=더우"]
+    },
+    {
+      "id": "qb7-music-v-034",
+      "term": "ở đâu",
+      "meaningKo": "어디에서",
+      "example": "Bạn thường nghe nhạc ở đâu?",
+      "exampleMeaningKo": "당신은 보통 어디에서 음악을 듣나요?",
+      "audioSrc": "",
+      "sourcePage": 7,
+      "reviewNeeded": false,
+      "pronKo": "어 더우",
+      "pronNoteKo": "장소 질문입니다.",
+      "pronChunks": ["ở=어", "đâu=더우"]
+    },
+    {
+      "id": "qb7-music-v-035",
+      "term": "khi nào",
+      "meaningKo": "언제",
+      "example": "Bạn thường nghe nhạc khi nào?",
+      "exampleMeaningKo": "당신은 보통 언제 음악을 듣나요?",
+      "audioSrc": "",
+      "sourcePage": 7,
+      "reviewNeeded": false,
+      "pronKo": "키 나오",
+      "pronNoteKo": "시간 질문입니다.",
+      "pronChunks": ["khi=키", "nào=나오"]
+    },
+    {
+      "id": "qb7-music-v-036",
+      "term": "sử dụng",
+      "meaningKo": "사용하다",
+      "example": "Tôi sử dụng điện thoại để nghe nhạc.",
+      "exampleMeaningKo": "저는 음악을 듣기 위해 휴대폰을 사용합니다.",
+      "audioSrc": "",
+      "sourcePage": 7,
+      "reviewNeeded": false,
+      "pronKo": "쓰 중",
+      "pronNoteKo": "무엇을 사용해서 듣는지 말할 때 씁니다.",
+      "pronChunks": ["sử=쓰", "dụng=중"]
+    },
+    {
+      "id": "qb7-music-v-037",
+      "term": "điện thoại",
+      "meaningKo": "휴대폰",
+      "example": "Tôi thường nghe nhạc bằng điện thoại.",
+      "exampleMeaningKo": "저는 보통 휴대폰으로 음악을 듣습니다.",
+      "audioSrc": "",
+      "sourcePage": 7,
+      "reviewNeeded": false,
+      "pronKo": "디엔 토아이",
+      "pronNoteKo": "음악 듣는 도구로 가장 쉬운 단어입니다.",
+      "pronChunks": ["điện=디엔", "thoại=토아이"]
+    },
+    {
+      "id": "qb7-music-v-038",
+      "term": "tai nghe",
+      "meaningKo": "이어폰 / 헤드폰",
+      "example": "Tôi dùng tai nghe để nghe nhạc.",
+      "exampleMeaningKo": "저는 음악을 듣기 위해 이어폰을 사용합니다.",
+      "audioSrc": "",
+      "sourcePage": 7,
+      "reviewNeeded": false,
+      "pronKo": "따이 응에",
+      "pronNoteKo": "출근길 음악 듣기 답변에 좋습니다.",
+      "pronChunks": ["tai=따이", "nghe=응에"]
+    },
+    {
+      "id": "qb7-music-v-039",
+      "term": "ứng dụng",
+      "meaningKo": "앱 / 애플리케이션",
+      "example": "Tôi nghe nhạc bằng ứng dụng YouTube Music.",
+      "exampleMeaningKo": "저는 유튜브 뮤직 앱으로 음악을 듣습니다.",
+      "audioSrc": "",
+      "sourcePage": 7,
+      "reviewNeeded": false,
+      "pronKo": "응 중",
+      "pronNoteKo": "스마트폰 앱으로 듣는다고 말할 때 씁니다.",
+      "pronChunks": ["ứng=응", "dụng=중"]
+    },
+    {
+      "id": "qb7-music-v-040",
+      "term": "trên đường đi làm",
+      "meaningKo": "출근길에",
+      "example": "Tôi thường nghe nhạc trên đường đi làm.",
+      "exampleMeaningKo": "저는 보통 출근길에 음악을 듣습니다.",
+      "audioSrc": "",
+      "sourcePage": 7,
+      "reviewNeeded": false,
+      "pronKo": "쩬 드엉 디 람",
+      "pronNoteKo": "직장인 답변에 아주 좋습니다.",
+      "pronChunks": ["trên đường=쩬 드엉", "đi làm=디 람"]
+    }
+  ],
+  "sentenceCards": [
+    {
+      "id": "qb7-music-s-001",
+      "textVi": "Trong bản khảo sát, bạn nói rằng bạn thích đi nghe nhạc. Bạn thích nghe thể loại nhạc gì? Ca sĩ hoặc nhà soạn nhạc yêu thích của bạn là ai? Điều gì đặc biệt trong âm nhạc của anh ấy hoặc cô ấy?",
+      "textKo": "설문에서 당신은 음악을 듣는 것을 좋아한다고 했습니다. 당신은 어떤 음악 장르를 듣는 것을 좋아하나요? 당신이 좋아하는 가수나 작곡가는 누구인가요? 그의 또는 그녀의 음악은 어떤 점이 특별한가요?",
+      "exampleAnswerVi": "Tôi rất thích nghe nhạc. Tôi thích nghe nhạc ballad và K-pop vì hai thể loại này dễ nghe. Ca sĩ yêu thích của tôi là IU. Tôi thích cô ấy vì giọng hát của cô ấy rất hay và lời bài hát rất cảm động. Âm nhạc của cô ấy đặc biệt vì nó nhẹ nhàng, sâu sắc và làm tôi cảm thấy thoải mái. Khi tôi mệt hoặc căng thẳng, tôi thường nghe nhạc của cô ấy.",
+      "exampleAnswerKo": "저는 음악 듣는 것을 매우 좋아합니다. 저는 발라드와 K-pop을 듣는 것을 좋아하는데, 이 두 장르는 듣기 쉽기 때문입니다. 제가 좋아하는 가수는 IU입니다. 저는 그녀의 목소리가 매우 좋고 노래 가사가 매우 감동적이어서 그녀를 좋아합니다. 그녀의 음악은 부드럽고 깊이가 있고 저를 편안하게 해주기 때문에 특별합니다. 제가 피곤하거나 스트레스를 받을 때 저는 보통 그녀의 음악을 듣습니다.",
+      "audioSrc": "",
+      "sourcePage": 7,
+      "reviewNeeded": false,
+      "pronKo": "쫑 반 카오 삿, 반 노이 장 반 틱 디 응에 냑. 반 틱 응에 테 로아이 냑 지? 까 시 호악 냐 솬 냑 이에우 틱 꾸어 반 라 아이? 디에우 지 닥 비엣 쫑 엄 냑 꾸어 아인 어이 호악 꼬 어이?",
+      "exampleAnswerPronKo": "또이 젓 틱 응에 냑. 또이 틱 응에 냑 발라드 바 케이팝 비 하이 테 로아이 나이 제 응에.",
+      "pronNoteKo": "장르 → 좋아하는 가수 → 특별한 점 → 내 감정 순서로 말하면 안정적입니다."
+    },
+    {
+      "id": "qb7-music-s-002",
+      "textVi": "Bạn thường nghe nhạc ở đâu và khi nào? Bạn sử dụng gì để nghe nhạc? Vì sao bạn nghe nhạc? Hãy nói thật chi tiết.",
+      "textKo": "당신은 보통 어디에서 그리고 언제 음악을 듣나요? 당신은 음악을 듣기 위해 무엇을 사용하나요? 왜 당신은 음악을 듣나요? 아주 자세히 말해주세요.",
+      "exampleAnswerVi": "Tôi thường nghe nhạc trên đường đi làm và khi nghỉ ngơi ở nhà. Tôi sử dụng điện thoại và tai nghe để nghe nhạc. Đôi khi tôi cũng nghe nhạc bằng máy tính ở văn phòng. Tôi nghe nhạc vì âm nhạc giúp tôi thư giãn và giảm căng thẳng. Buổi sáng, tôi nghe nhạc vui để có năng lượng. Buổi tối, tôi nghe nhạc nhẹ để nghỉ ngơi. Đối với tôi, âm nhạc là một phần quan trọng trong cuộc sống hằng ngày.",
+      "exampleAnswerKo": "저는 보통 출근길과 집에서 쉴 때 음악을 듣습니다. 저는 음악을 듣기 위해 휴대폰과 이어폰을 사용합니다. 가끔은 사무실에서 컴퓨터로 음악을 듣기도 합니다. 제가 음악을 듣는 이유는 음악이 저를 편안하게 해주고 스트레스를 줄여주기 때문입니다. 아침에는 에너지를 얻기 위해 신나는 음악을 듣습니다. 저녁에는 쉬기 위해 부드러운 음악을 듣습니다. 저에게 음악은 일상생활에서 중요한 부분입니다.",
+      "audioSrc": "",
+      "sourcePage": 7,
+      "reviewNeeded": false,
+      "pronKo": "반 트엉 응에 냑 어 더우 바 키 나오? 반 쓰 중 지 데 응에 냑? 비 사오 반 응에 냑? 하이 노이 텃 찌 띠엣.",
+      "exampleAnswerPronKo": "또이 트엉 응에 냑 쩬 드엉 디 람 바 키 응이 응어이 어 냐.",
+      "pronNoteKo": "장소, 시간, 도구, 이유를 모두 답해야 합니다."
+    },
+    {
+      "id": "qb7-music-s-003",
+      "textVi": "Bài hát mà bạn yêu thích nhất là gì? Vì sao bài hát đó đặc biệt với bạn? Bạn có kỷ niệm nào đó liên quan đến bài hát đó không?",
+      "textKo": "당신이 가장 좋아하는 노래는 무엇인가요? 왜 그 노래가 당신에게 특별한가요? 당신은 그 노래와 관련된 어떤 추억이 있나요?",
+      "exampleAnswerVi": "Bài hát mà tôi yêu thích nhất là một bài hát ballad Hàn Quốc. Tôi thích bài hát đó vì giai điệu rất hay và lời bài hát rất cảm động. Bài hát đó đặc biệt với tôi vì tôi thường nghe nó khi tôi còn là sinh viên. Khi nghe bài hát đó, tôi nhớ về thời gian học đại học và bạn bè cũ. Vì vậy, bài hát đó không chỉ hay mà còn có nhiều kỷ niệm với tôi.",
+      "exampleAnswerKo": "제가 가장 좋아하는 노래는 한국 발라드 노래입니다. 저는 멜로디가 매우 좋고 가사가 매우 감동적이어서 그 노래를 좋아합니다. 그 노래는 제가 대학생이었을 때 자주 들었기 때문에 저에게 특별합니다. 그 노래를 들으면 저는 대학 시절과 옛 친구들이 생각납니다. 그래서 그 노래는 좋을 뿐만 아니라 저에게 많은 추억도 있습니다.",
+      "audioSrc": "",
+      "sourcePage": 7,
+      "reviewNeeded": false,
+      "pronKo": "바이 핫 마 반 이에우 틱 녓 라 지? 비 사오 바이 핫 도 닥 비엣 버이 반? 반 꼬 끼 니엠 나오 도 리엔 꽌 덴 바이 핫 도 콩?",
+      "exampleAnswerPronKo": "바이 핫 마 또이 이에우 틱 녓 라 못 바이 핫 발라드 한 꾸옥.",
+      "pronNoteKo": "좋아하는 노래 문제는 '노래명 → 이유 → 추억 → 감정' 순서로 답하면 됩니다."
+    },
+    {
+      "id": "qb7-music-s-004",
+      "textVi": "Hãy kể cho tôi về lần đầu tiên bạn quan tâm đến âm nhạc. Bạn đã nghe thể loại nhạc gì khi bạn còn nhỏ? Âm nhạc đó khác với âm nhạc mà bạn nghe hiện nay như thế nào? Mối quan tâm của bạn đối với âm nhạc đã thay đổi thế nào trong những năm qua?",
+      "textKo": "처음 음악에 관심을 갖게 된 것에 대해 말해주세요. 당신이 어렸을 때는 어떤 종류의 음악을 들었나요? 그 음악은 요즘 듣는 음악과 어떻게 다른가요? 수년간 음악에 대한 당신의 관심은 어떻게 변했나요?",
+      "exampleAnswerVi": "Tôi bắt đầu quan tâm đến âm nhạc khi tôi còn nhỏ. Lúc đó, tôi thường nghe nhạc thiếu nhi và nhạc trong phim hoạt hình. Những bài hát đó vui, đơn giản và dễ hát theo. Hiện nay, tôi thường nghe nhạc ballad và K-pop. Âm nhạc hiện nay khác với âm nhạc khi tôi còn nhỏ vì nó sâu sắc hơn và có nhiều cảm xúc hơn. Trước đây, tôi chỉ nghe nhạc để vui. Bây giờ, tôi nghe nhạc để thư giãn, giảm căng thẳng và nhớ lại nhiều kỷ niệm.",
+      "exampleAnswerKo": "저는 어렸을 때 음악에 관심을 갖기 시작했습니다. 그때 저는 보통 어린이 노래와 만화 영화 음악을 들었습니다. 그런 노래들은 신나고 단순하고 따라 부르기 쉬웠습니다. 요즘 저는 보통 발라드와 K-pop을 듣습니다. 지금 듣는 음악은 더 깊고 감정이 더 많기 때문에 어렸을 때 들었던 음악과 다릅니다. 예전에는 단지 즐거워지기 위해 음악을 들었습니다. 지금은 쉬고, 스트레스를 줄이고, 많은 추억을 떠올리기 위해 음악을 듣습니다.",
+      "audioSrc": "",
+      "sourcePage": 7,
+      "reviewNeeded": false,
+      "pronKo": "하이 께 쪼 또이 베 런 더우 띠엔 반 꽌 떰 덴 엄 냑. 반 다 응에 테 로아이 냑 지 키 반 꼰 뇨? 엄 냑 도 칵 버이 엄 냑 마 반 응에 히엔 나이 느 테 나오? 모이 꽌 떰 꾸어 반 도이 버이 엄 냑 다 타이 도이 테 나오 쫑 능 남 꽈?",
+      "exampleAnswerPronKo": "또이 밧 더우 꽌 떰 덴 엄 냑 키 또이 꼰 뇨.",
+      "pronNoteKo": "과거와 현재를 비교하는 문제입니다. 'Trước đây'와 'Hiện nay'를 꼭 활용하면 좋습니다."
+    }
+  ],
+  "dialogues": [
+    {
+      "id": "qb7-music-d-001",
+      "title": "좋아하는 음악 장르 대화",
+      "audioSrc": "",
+      "sourcePage": 7,
+      "reviewNeeded": false,
+      "lines": [
+        {
+          "speaker": "A",
+          "vi": "Bạn có thích nghe nhạc không?",
+          "ko": "당신은 음악 듣는 것을 좋아하나요?",
+          "pronKo": "반 꼬 틱 응에 냑 콩?"
+        },
+        {
+          "speaker": "B",
+          "vi": "Có, tôi rất thích nghe nhạc.",
+          "ko": "네, 저는 음악 듣는 것을 매우 좋아합니다.",
+          "pronKo": "꼬, 또이 젓 틱 응에 냑."
+        },
+        {
+          "speaker": "A",
+          "vi": "Bạn thích nghe thể loại nhạc gì?",
+          "ko": "당신은 어떤 음악 장르를 듣는 것을 좋아하나요?",
+          "pronKo": "반 틱 응에 테 로아이 냑 지?"
+        },
+        {
+          "speaker": "B",
+          "vi": "Tôi thích nghe nhạc ballad và K-pop.",
+          "ko": "저는 발라드와 K-pop 음악 듣는 것을 좋아합니다.",
+          "pronKo": "또이 틱 응에 냑 발라드 바 케이팝."
+        }
+      ]
+    },
+    {
+      "id": "qb7-music-d-002",
+      "title": "좋아하는 가수 대화",
+      "audioSrc": "",
+      "sourcePage": 7,
+      "reviewNeeded": false,
+      "lines": [
+        {
+          "speaker": "A",
+          "vi": "Ca sĩ yêu thích của bạn là ai?",
+          "ko": "당신이 좋아하는 가수는 누구인가요?",
+          "pronKo": "까 시 이에우 틱 꾸어 반 라 아이?"
+        },
+        {
+          "speaker": "B",
+          "vi": "Ca sĩ yêu thích của tôi là IU.",
+          "ko": "제가 좋아하는 가수는 IU입니다.",
+          "pronKo": "까 시 이에우 틱 꾸어 또이 라 아이유."
+        },
+        {
+          "speaker": "A",
+          "vi": "Vì sao bạn thích cô ấy?",
+          "ko": "왜 당신은 그녀를 좋아하나요?",
+          "pronKo": "비 사오 반 틱 꼬 어이?"
+        },
+        {
+          "speaker": "B",
+          "vi": "Tôi thích cô ấy vì giọng hát rất hay và lời bài hát rất cảm động.",
+          "ko": "저는 그녀의 목소리가 좋고 노래 가사가 감동적이어서 그녀를 좋아합니다.",
+          "pronKo": "또이 틱 꼬 어이 비 종 핫 젓 하이 바 러이 바이 핫 젓 깜 동."
+        }
+      ]
+    },
+    {
+      "id": "qb7-music-d-003",
+      "title": "언제 어디서 음악을 듣는지 대화",
+      "audioSrc": "",
+      "sourcePage": 7,
+      "reviewNeeded": false,
+      "lines": [
+        {
+          "speaker": "A",
+          "vi": "Bạn thường nghe nhạc ở đâu?",
+          "ko": "당신은 보통 어디에서 음악을 듣나요?",
+          "pronKo": "반 트엉 응에 냑 어 더우?"
+        },
+        {
+          "speaker": "B",
+          "vi": "Tôi thường nghe nhạc trên đường đi làm.",
+          "ko": "저는 보통 출근길에 음악을 듣습니다.",
+          "pronKo": "또이 트엉 응에 냑 쩬 드엉 디 람."
+        },
+        {
+          "speaker": "A",
+          "vi": "Bạn sử dụng gì để nghe nhạc?",
+          "ko": "당신은 음악을 듣기 위해 무엇을 사용하나요?",
+          "pronKo": "반 쓰 중 지 데 응에 냑?"
+        },
+        {
+          "speaker": "B",
+          "vi": "Tôi sử dụng điện thoại và tai nghe.",
+          "ko": "저는 휴대폰과 이어폰을 사용합니다.",
+          "pronKo": "또이 쓰 중 디엔 토아이 바 따이 응에."
+        }
+      ]
+    },
+    {
+      "id": "qb7-music-d-004",
+      "title": "좋아하는 노래와 추억 대화",
+      "audioSrc": "",
+      "sourcePage": 7,
+      "reviewNeeded": false,
+      "lines": [
+        {
+          "speaker": "A",
+          "vi": "Bài hát yêu thích của bạn là gì?",
+          "ko": "당신이 좋아하는 노래는 무엇인가요?",
+          "pronKo": "바이 핫 이에우 틱 꾸어 반 라 지?"
+        },
+        {
+          "speaker": "B",
+          "vi": "Bài hát yêu thích của tôi là một bài hát ballad Hàn Quốc.",
+          "ko": "제가 좋아하는 노래는 한국 발라드 노래입니다.",
+          "pronKo": "바이 핫 이에우 틱 꾸어 또이 라 못 바이 핫 발라드 한 꾸옥."
+        },
+        {
+          "speaker": "A",
+          "vi": "Bài hát đó có kỷ niệm gì với bạn không?",
+          "ko": "그 노래는 당신에게 어떤 추억이 있나요?",
+          "pronKo": "바이 핫 도 꼬 끼 니엠 지 버이 반 콩?"
+        },
+        {
+          "speaker": "B",
+          "vi": "Có, bài hát đó làm tôi nhớ về thời sinh viên.",
+          "ko": "네, 그 노래는 제가 대학생 시절을 떠올리게 합니다.",
+          "pronKo": "꼬, 바이 핫 도 람 또이 녀 베 터이 신 비엔."
+        }
+      ]
+    }
+  ],
+  "grammarPoints": [
+    {
+      "id": "qb7-music-g-001",
+      "title": "설문에서 말한 내용",
+      "pattern": "Trong bản khảo sát, bạn nói rằng bạn thích nghe nhạc.",
+      "meaningKo": "설문에서 당신은 음악 듣는 것을 좋아한다고 말했습니다.",
+      "sourcePage": 7,
+      "reviewNeeded": false
+    },
+    {
+      "id": "qb7-music-g-002",
+      "title": "좋아하는 장르 말하기",
+      "pattern": "Tôi thích nghe nhạc ballad và K-pop.",
+      "meaningKo": "저는 발라드와 K-pop 음악 듣는 것을 좋아합니다.",
+      "sourcePage": 7,
+      "reviewNeeded": false
+    },
+    {
+      "id": "qb7-music-g-003",
+      "title": "이유 말하기",
+      "pattern": "Tôi thích nhạc ballad vì dễ nghe.",
+      "meaningKo": "저는 듣기 쉬워서 발라드 음악을 좋아합니다.",
+      "sourcePage": 7,
+      "reviewNeeded": false
+    },
+    {
+      "id": "qb7-music-g-004",
+      "title": "좋아하는 가수 말하기",
+      "pattern": "Ca sĩ yêu thích của tôi là IU.",
+      "meaningKo": "제가 좋아하는 가수는 IU입니다.",
+      "sourcePage": 7,
+      "reviewNeeded": false
+    },
+    {
+      "id": "qb7-music-g-005",
+      "title": "특별한 점 말하기",
+      "pattern": "Âm nhạc của cô ấy đặc biệt vì lời bài hát rất cảm động.",
+      "meaningKo": "그녀의 음악은 노래 가사가 매우 감동적이어서 특별합니다.",
+      "sourcePage": 7,
+      "reviewNeeded": false
+    },
+    {
+      "id": "qb7-music-g-006",
+      "title": "언제 듣는지 말하기",
+      "pattern": "Tôi thường nghe nhạc khi đi làm.",
+      "meaningKo": "저는 출근할 때 보통 음악을 듣습니다.",
+      "sourcePage": 7,
+      "reviewNeeded": false
+    },
+    {
+      "id": "qb7-music-g-007",
+      "title": "어디서 듣는지 말하기",
+      "pattern": "Tôi thường nghe nhạc ở nhà.",
+      "meaningKo": "저는 보통 집에서 음악을 듣습니다.",
+      "sourcePage": 7,
+      "reviewNeeded": false
+    },
+    {
+      "id": "qb7-music-g-008",
+      "title": "무엇으로 듣는지 말하기",
+      "pattern": "Tôi nghe nhạc bằng điện thoại.",
+      "meaningKo": "저는 휴대폰으로 음악을 듣습니다.",
+      "sourcePage": 7,
+      "reviewNeeded": false
+    },
+    {
+      "id": "qb7-music-g-009",
+      "title": "음악을 듣는 이유",
+      "pattern": "Tôi nghe nhạc để thư giãn.",
+      "meaningKo": "저는 쉬기 위해 음악을 듣습니다.",
+      "sourcePage": 7,
+      "reviewNeeded": false
+    },
+    {
+      "id": "qb7-music-g-010",
+      "title": "추억 말하기",
+      "pattern": "Bài hát này có nhiều kỷ niệm với tôi.",
+      "meaningKo": "이 노래는 저에게 많은 추억이 있습니다.",
+      "sourcePage": 7,
+      "reviewNeeded": false
+    },
+    {
+      "id": "qb7-music-g-011",
+      "title": "과거와 현재 비교",
+      "pattern": "Âm nhạc hiện nay khác với âm nhạc khi tôi còn nhỏ.",
+      "meaningKo": "요즘 음악은 제가 어렸을 때의 음악과 다릅니다.",
+      "sourcePage": 7,
+      "reviewNeeded": false
+    },
+    {
+      "id": "qb7-music-g-012",
+      "title": "관심의 변화",
+      "pattern": "Sở thích âm nhạc của tôi đã thay đổi nhiều.",
+      "meaningKo": "제 음악 취향은 많이 바뀌었습니다.",
+      "sourcePage": 7,
+      "reviewNeeded": false
+    }
+  ],
+  "pronunciationTargets": [
+    {
+      "id": "qb7-music-p-001",
+      "text": "Trong bản khảo sát, bạn nói rằng bạn thích đi nghe nhạc.",
+      "hintKo": "설문에서 당신은 음악을 듣는 것을 좋아한다고 했습니다.",
+      "audioSrc": "",
+      "sourcePage": 7,
+      "reviewNeeded": false,
+      "pronKo": "쫑 반 카오 삿, 반 노이 장 반 틱 디 응에 냑.",
+      "mouthKo": "Trong bản khảo sát / bạn nói rằng / bạn thích đi nghe nhạc 으로 끊습니다.",
+      "toneKo": "음악 주제 시작 문장입니다."
+    },
+    {
+      "id": "qb7-music-p-002",
+      "text": "Bạn thích nghe thể loại nhạc gì?",
+      "hintKo": "당신은 어떤 음악 장르를 듣는 것을 좋아하나요?",
+      "audioSrc": "",
+      "sourcePage": 7,
+      "reviewNeeded": false,
+      "pronKo": "반 틱 응에 테 로아이 냑 지?",
+      "mouthKo": "Bạn thích nghe / thể loại nhạc gì 로 끊습니다.",
+      "toneKo": "장르를 물어보는 질문입니다."
+    },
+    {
+      "id": "qb7-music-p-003",
+      "text": "Ca sĩ hoặc nhà soạn nhạc yêu thích của bạn là ai?",
+      "hintKo": "당신이 좋아하는 가수나 작곡가는 누구인가요?",
+      "audioSrc": "",
+      "sourcePage": 7,
+      "reviewNeeded": false,
+      "pronKo": "까 시 호악 냐 솬 냑 이에우 틱 꾸어 반 라 아이?",
+      "mouthKo": "Ca sĩ hoặc nhà soạn nhạc / yêu thích của bạn / là ai 로 끊습니다.",
+      "toneKo": "가수나 작곡가를 소개해야 합니다."
+    },
+    {
+      "id": "qb7-music-p-004",
+      "text": "Điều gì đặc biệt trong âm nhạc của anh ấy hoặc cô ấy?",
+      "hintKo": "그의 또는 그녀의 음악은 어떤 점이 특별한가요?",
+      "audioSrc": "",
+      "sourcePage": 7,
+      "reviewNeeded": false,
+      "pronKo": "디에우 지 닥 비엣 쫑 엄 냑 꾸어 아인 어이 호악 꼬 어이?",
+      "mouthKo": "Điều gì đặc biệt / trong âm nhạc / của anh ấy hoặc cô ấy 로 끊습니다.",
+      "toneKo": "음악의 특별한 점을 말해야 합니다."
+    },
+    {
+      "id": "qb7-music-p-005",
+      "text": "Bạn thường nghe nhạc ở đâu và khi nào?",
+      "hintKo": "당신은 보통 어디에서 그리고 언제 음악을 듣나요?",
+      "audioSrc": "",
+      "sourcePage": 7,
+      "reviewNeeded": false,
+      "pronKo": "반 트엉 응에 냑 어 더우 바 키 나오?",
+      "mouthKo": "Bạn thường nghe nhạc / ở đâu / và khi nào 로 끊습니다.",
+      "toneKo": "장소와 시간을 모두 답해야 합니다."
+    },
+    {
+      "id": "qb7-music-p-006",
+      "text": "Bạn sử dụng gì để nghe nhạc?",
+      "hintKo": "당신은 음악을 듣기 위해 무엇을 사용하나요?",
+      "audioSrc": "",
+      "sourcePage": 7,
+      "reviewNeeded": false,
+      "pronKo": "반 쓰 중 지 데 응에 냑?",
+      "mouthKo": "Bạn sử dụng gì / để nghe nhạc 로 끊습니다.",
+      "toneKo": "휴대폰, 이어폰, 앱 등을 답하면 됩니다."
+    },
+    {
+      "id": "qb7-music-p-007",
+      "text": "Bài hát mà bạn yêu thích nhất là gì?",
+      "hintKo": "당신이 가장 좋아하는 노래는 무엇인가요?",
+      "audioSrc": "",
+      "sourcePage": 7,
+      "reviewNeeded": false,
+      "pronKo": "바이 핫 마 반 이에우 틱 녓 라 지?",
+      "mouthKo": "Bài hát mà bạn yêu thích nhất / là gì 로 끊습니다.",
+      "toneKo": "좋아하는 노래를 말해야 합니다."
+    },
+    {
+      "id": "qb7-music-p-008",
+      "text": "Bạn có kỷ niệm nào đó liên quan đến bài hát đó không?",
+      "hintKo": "당신은 그 노래와 관련된 어떤 추억이 있나요?",
+      "audioSrc": "",
+      "sourcePage": 7,
+      "reviewNeeded": false,
+      "pronKo": "반 꼬 끼 니엠 나오 도 리엔 꽌 덴 바이 핫 도 콩?",
+      "mouthKo": "Bạn có kỷ niệm nào đó / liên quan đến bài hát đó không 로 끊습니다.",
+      "toneKo": "노래와 관련된 추억을 말해야 합니다."
+    },
+    {
+      "id": "qb7-music-p-009",
+      "text": "Hãy kể cho tôi về lần đầu tiên bạn quan tâm đến âm nhạc.",
+      "hintKo": "처음 음악에 관심을 갖게 된 것에 대해 말해주세요.",
+      "audioSrc": "",
+      "sourcePage": 7,
+      "reviewNeeded": false,
+      "pronKo": "하이 께 쪼 또이 베 런 더우 띠엔 반 꽌 떰 덴 엄 냑.",
+      "mouthKo": "Hãy kể cho tôi / về lần đầu tiên / bạn quan tâm đến âm nhạc 으로 끊습니다.",
+      "toneKo": "과거 경험을 말하는 문제입니다."
+    },
+    {
+      "id": "qb7-music-p-010",
+      "text": "Âm nhạc đó khác với âm nhạc mà bạn nghe hiện nay như thế nào?",
+      "hintKo": "그 음악은 요즘 듣는 음악과 어떻게 다른가요?",
+      "audioSrc": "",
+      "sourcePage": 7,
+      "reviewNeeded": false,
+      "pronKo": "엄 냑 도 칵 버이 엄 냑 마 반 응에 히엔 나이 느 테 나오?",
+      "mouthKo": "Âm nhạc đó / khác với âm nhạc / mà bạn nghe hiện nay / như thế nào 로 끊습니다.",
+      "toneKo": "과거와 현재 음악 취향을 비교해야 합니다."
+    }
+  ],
+  "quizSeeds": [
+    {
+      "id": "qb7-music-q-001",
+      "type": "match-term",
+      "prompt": "문제은행 음악 핵심 단어 매칭 1",
+      "answerSet": [
+        "âm nhạc-음악",
+        "nghe nhạc-음악을 듣다",
+        "thích nghe nhạc-음악 듣는 것을 좋아하다",
+        "thể loại nhạc-음악 장르",
+        "bài hát-노래",
+        "ca sĩ-가수",
+        "nhà soạn nhạc-작곡가",
+        "yêu thích-좋아하는",
+        "đặc biệt-특별하다",
+        "giai điệu-멜로디"
+      ],
+      "sourcePage": 7,
+      "reviewNeeded": false
+    },
+    {
+      "id": "qb7-music-q-002",
+      "type": "match-term",
+      "prompt": "문제은행 음악 감정 단어 매칭",
+      "answerSet": [
+        "lời bài hát-노래 가사",
+        "giọng hát-노래 목소리",
+        "hay-좋다",
+        "ballad-발라드",
+        "nhạc K-pop-K-pop 음악",
+        "nhạc pop-팝 음악",
+        "nhạc nhẹ-부드러운 음악",
+        "nhạc vui-신나는 음악",
+        "nhạc buồn-슬픈 음악",
+        "dễ nghe-듣기 쉽다"
+      ],
+      "sourcePage": 7,
+      "reviewNeeded": false
+    },
+    {
+      "id": "qb7-music-q-003",
+      "type": "match-term",
+      "prompt": "문제은행 음악 이유/추억 단어 매칭",
+      "answerSet": [
+        "cảm động-감동적이다",
+        "thư giãn-휴식하다",
+        "giảm căng thẳng-스트레스를 줄이다",
+        "tâm trạng-기분",
+        "kỷ niệm-추억",
+        "liên quan đến-~와 관련되다",
+        "lần đầu tiên-처음",
+        "khi còn nhỏ-어렸을 때",
+        "hiện nay-현재",
+        "thay đổi-바뀌다"
+      ],
+      "sourcePage": 7,
+      "reviewNeeded": false
+    },
+    {
+      "id": "qb7-music-q-004",
+      "type": "match-term",
+      "prompt": "문제은행 음악 장소/도구 단어 매칭",
+      "answerSet": [
+        "khác với-~와 다르다",
+        "quan tâm đến-~에 관심을 가지다",
+        "bắt đầu-시작하다",
+        "ở đâu-어디에서",
+        "khi nào-언제",
+        "sử dụng-사용하다",
+        "điện thoại-휴대폰",
+        "tai nghe-이어폰",
+        "ứng dụng-앱",
+        "trên đường đi làm-출근길에"
+      ],
+      "sourcePage": 7,
+      "reviewNeeded": false
+    },
+    {
+      "id": "qb7-music-q-005",
+      "type": "sentence-meaning",
+      "prompt": "문제은행 음악 질문 뜻 고르기",
+      "answerSet": [
+        "Bạn thích nghe thể loại nhạc gì?-당신은 어떤 음악 장르를 듣는 것을 좋아하나요?",
+        "Ca sĩ yêu thích của bạn là ai?-당신이 좋아하는 가수는 누구인가요?",
+        "Bạn thường nghe nhạc ở đâu và khi nào?-당신은 보통 어디에서 그리고 언제 음악을 듣나요?",
+        "Bài hát mà bạn yêu thích nhất là gì?-당신이 가장 좋아하는 노래는 무엇인가요?",
+        "Bạn có kỷ niệm nào đó liên quan đến bài hát đó không?-당신은 그 노래와 관련된 어떤 추억이 있나요?"
+      ],
+      "sourcePage": 7,
+      "reviewNeeded": false
+    },
+    {
+      "id": "qb7-music-q-006",
+      "type": "fill-blank",
+      "prompt": "빈칸 채우기: 저는 음악 듣는 것을 좋아합니다.",
+      "question": "Tôi thích nghe ___.",
+      "answer": "nhạc",
+      "sourcePage": 7,
+      "reviewNeeded": false
+    },
+    {
+      "id": "qb7-music-q-007",
+      "type": "fill-blank",
+      "prompt": "빈칸 채우기: 당신은 어떤 음악 장르를 좋아하나요?",
+      "question": "Bạn thích nghe thể ___ nhạc gì?",
+      "answer": "loại",
+      "sourcePage": 7,
+      "reviewNeeded": false
+    },
+    {
+      "id": "qb7-music-q-008",
+      "type": "fill-blank",
+      "prompt": "빈칸 채우기: 제가 좋아하는 가수는 IU입니다.",
+      "question": "Ca sĩ yêu ___ của tôi là IU.",
+      "answer": "thích",
+      "sourcePage": 7,
+      "reviewNeeded": false
+    },
+    {
+      "id": "qb7-music-q-009",
+      "type": "fill-blank",
+      "prompt": "빈칸 채우기: 이 노래는 저에게 특별합니다.",
+      "question": "Bài hát này rất đặc ___ với tôi.",
+      "answer": "biệt",
+      "sourcePage": 7,
+      "reviewNeeded": false
+    },
+    {
+      "id": "qb7-music-q-010",
+      "type": "fill-blank",
+      "prompt": "빈칸 채우기: 저는 쉬기 위해 음악을 듣습니다.",
+      "question": "Tôi nghe nhạc để thư ___.",
+      "answer": "giãn",
+      "sourcePage": 7,
+      "reviewNeeded": false
+    },
+    {
+      "id": "qb7-music-q-011",
+      "type": "fill-blank",
+      "prompt": "빈칸 채우기: 이 노래는 저에게 많은 추억이 있습니다.",
+      "question": "Bài hát này có nhiều kỷ ___ với tôi.",
+      "answer": "niệm",
+      "sourcePage": 7,
+      "reviewNeeded": false
+    },
+    {
+      "id": "qb7-music-q-012",
+      "type": "fill-blank",
+      "prompt": "빈칸 채우기: 제 음악 취향은 많이 바뀌었습니다.",
+      "question": "Sở thích âm nhạc của tôi đã thay ___ nhiều.",
+      "answer": "đổi",
+      "sourcePage": 7,
+      "reviewNeeded": false
+    },
+    {
+      "id": "qb7-music-q-013",
+      "type": "match-term",
+      "prompt": "좋아하는 음악 장르 답변 순서 맞추기",
+      "answerSet": [
+        "1-Tôi rất thích nghe nhạc.",
+        "2-Tôi thích nghe nhạc ballad và K-pop vì hai thể loại này dễ nghe.",
+        "3-Ca sĩ yêu thích của tôi là IU.",
+        "4-Tôi thích cô ấy vì giọng hát rất hay và lời bài hát rất cảm động.",
+        "5-Khi tôi mệt hoặc căng thẳng, tôi thường nghe nhạc của cô ấy."
+      ],
+      "sourcePage": 7,
+      "reviewNeeded": false
+    },
+    {
+      "id": "qb7-music-q-014",
+      "type": "match-term",
+      "prompt": "음악 듣는 습관 답변 순서 맞추기",
+      "answerSet": [
+        "1-Tôi thường nghe nhạc trên đường đi làm và khi nghỉ ngơi ở nhà.",
+        "2-Tôi sử dụng điện thoại và tai nghe để nghe nhạc.",
+        "3-Tôi nghe nhạc vì âm nhạc giúp tôi thư giãn.",
+        "4-Buổi sáng, tôi nghe nhạc vui để có năng lượng.",
+        "5-Buổi tối, tôi nghe nhạc nhẹ để nghỉ ngơi."
+      ],
+      "sourcePage": 7,
+      "reviewNeeded": false
+    },
+    {
+      "id": "qb7-music-q-015",
+      "type": "match-term",
+      "prompt": "좋아하는 노래와 추억 답변 순서 맞추기",
+      "answerSet": [
+        "1-Bài hát mà tôi yêu thích nhất là một bài hát ballad Hàn Quốc.",
+        "2-Tôi thích bài hát đó vì giai điệu rất hay.",
+        "3-Bài hát đó đặc biệt với tôi vì tôi thường nghe nó khi tôi còn là sinh viên.",
+        "4-Khi nghe bài hát đó, tôi nhớ về thời gian học đại học.",
+        "5-Vì vậy, bài hát đó có nhiều kỷ niệm với tôi."
+      ],
+      "sourcePage": 7,
+      "reviewNeeded": false
+    },
+    {
+      "id": "qb7-music-q-016",
+      "type": "match-term",
+      "prompt": "어릴 때와 현재 음악 비교 답변 순서 맞추기",
+      "answerSet": [
+        "1-Tôi bắt đầu quan tâm đến âm nhạc khi tôi còn nhỏ.",
+        "2-Lúc đó, tôi thường nghe nhạc thiếu nhi và nhạc trong phim hoạt hình.",
+        "3-Hiện nay, tôi thường nghe nhạc ballad và K-pop.",
+        "4-Âm nhạc hiện nay khác với âm nhạc khi tôi còn nhỏ.",
+        "5-Bây giờ, tôi nghe nhạc để thư giãn và giảm căng thẳng."
+      ],
+      "sourcePage": 7,
+      "reviewNeeded": false
+    }
+  ],
+  "unlockCondition": "always",
+  "reviewNeeded": false
+},
+    {
   "lessonId": "question-bank-006-beach",
   "unitLabel": "문제은행",
   "titleKo": "문제은행6: 해변",
