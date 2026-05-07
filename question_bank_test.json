@@ -6,6 +6,868 @@
   },
   "lessons": [
     {
+  "lessonId": "question-bank-013-weather",
+  "unitLabel": "문제은행",
+  "titleKo": "문제은행13: 날씨",
+  "titleVi": "Ngân hàng câu hỏi 13: Thời tiết",
+  "pageRange": "문제은행 / 날씨",
+  "goals": [
+    "한국의 계절별 날씨를 설명할 수 있다",
+    "봄, 여름, 가을, 겨울의 특징을 말할 수 있다",
+    "가장 좋아하는 계절과 이유를 말할 수 있다",
+    "극단적인 날씨 경험을 과거형으로 설명할 수 있다",
+    "문제가 무엇이었고 어떻게 대처했는지 말할 수 있다"
+  ],
+  "topicOverview": "날씨 주제는 OPIc에서 매우 자주 나오는 기본 주제입니다. 계절 설명 문제는 '한국에는 사계절이 있다 → 봄/여름/가을/겨울 설명 → 내가 좋아하는 계절과 이유' 순서로 말하면 안정적입니다. 극단적인 날씨 경험 문제는 '언제 → 어떤 날씨였는지 → 무슨 문제가 있었는지 → 어떻게 대처했는지 → 느낀 점' 순서로 말하면 좋습니다.",
+  "cultureTopics": [
+    "날씨",
+    "계절",
+    "한국의 사계절",
+    "봄",
+    "여름",
+    "가을",
+    "겨울",
+    "비",
+    "눈",
+    "폭우",
+    "폭염",
+    "한파",
+    "극단적인 날씨",
+    "날씨 경험"
+  ],
+  "vocabCards": [
+    {
+      "id": "qb13-weather-v-001",
+      "term": "thời tiết",
+      "meaningKo": "날씨",
+      "example": "Hôm nay thời tiết rất đẹp.",
+      "exampleMeaningKo": "오늘 날씨가 매우 좋습니다.",
+      "audioSrc": "",
+      "sourcePage": 13,
+      "reviewNeeded": false,
+      "pronKo": "터이 띠엣",
+      "pronNoteKo": "날씨 주제의 핵심 단어입니다.",
+      "pronChunks": ["thời=터이", "tiết=띠엣"]
+    },
+    {
+      "id": "qb13-weather-v-002",
+      "term": "khí hậu",
+      "meaningKo": "기후",
+      "example": "Khí hậu ở Hàn Quốc có bốn mùa.",
+      "exampleMeaningKo": "한국의 기후에는 사계절이 있습니다.",
+      "audioSrc": "",
+      "sourcePage": 13,
+      "reviewNeeded": false,
+      "pronKo": "키 허우",
+      "pronNoteKo": "날씨보다 더 큰 개념인 기후입니다.",
+      "pronChunks": ["khí=키", "hậu=허우"]
+    },
+    {
+      "id": "qb13-weather-v-003",
+      "term": "mùa",
+      "meaningKo": "계절",
+      "example": "Tôi thích mùa thu nhất.",
+      "exampleMeaningKo": "저는 가을을 가장 좋아합니다.",
+      "audioSrc": "",
+      "sourcePage": 13,
+      "reviewNeeded": false,
+      "pronKo": "무아",
+      "pronNoteKo": "계절을 말할 때 반드시 필요합니다.",
+      "pronChunks": ["mùa=무아"]
+    },
+    {
+      "id": "qb13-weather-v-004",
+      "term": "bốn mùa",
+      "meaningKo": "사계절",
+      "example": "Ở Hàn Quốc có bốn mùa rõ rệt.",
+      "exampleMeaningKo": "한국에는 사계절이 뚜렷합니다.",
+      "audioSrc": "",
+      "sourcePage": 13,
+      "reviewNeeded": false,
+      "pronKo": "본 무아",
+      "pronNoteKo": "한국 날씨 설명의 시작 문장에 좋습니다.",
+      "pronChunks": ["bốn=본", "mùa=무아"]
+    },
+    {
+      "id": "qb13-weather-v-005",
+      "term": "mùa xuân",
+      "meaningKo": "봄",
+      "example": "Mùa xuân ấm áp.",
+      "exampleMeaningKo": "봄은 따뜻합니다.",
+      "audioSrc": "",
+      "sourcePage": 13,
+      "reviewNeeded": false,
+      "pronKo": "무아 쑤언",
+      "pronNoteKo": "봄입니다.",
+      "pronChunks": ["mùa=무아", "xuân=쑤언"]
+    },
+    {
+      "id": "qb13-weather-v-006",
+      "term": "mùa hè",
+      "meaningKo": "여름",
+      "example": "Mùa hè rất nóng.",
+      "exampleMeaningKo": "여름은 매우 덥습니다.",
+      "audioSrc": "",
+      "sourcePage": 13,
+      "reviewNeeded": false,
+      "pronKo": "무아 헤",
+      "pronNoteKo": "여름입니다.",
+      "pronChunks": ["mùa=무아", "hè=헤"]
+    },
+    {
+      "id": "qb13-weather-v-007",
+      "term": "mùa thu",
+      "meaningKo": "가을",
+      "example": "Mùa thu mát mẻ.",
+      "exampleMeaningKo": "가을은 시원합니다.",
+      "audioSrc": "",
+      "sourcePage": 13,
+      "reviewNeeded": false,
+      "pronKo": "무아 투",
+      "pronNoteKo": "가을입니다.",
+      "pronChunks": ["mùa=무아", "thu=투"]
+    },
+    {
+      "id": "qb13-weather-v-008",
+      "term": "mùa đông",
+      "meaningKo": "겨울",
+      "example": "Mùa đông rất lạnh.",
+      "exampleMeaningKo": "겨울은 매우 춥습니다.",
+      "audioSrc": "",
+      "sourcePage": 13,
+      "reviewNeeded": false,
+      "pronKo": "무아 동",
+      "pronNoteKo": "겨울입니다.",
+      "pronChunks": ["mùa=무아", "đông=동"]
+    },
+    {
+      "id": "qb13-weather-v-009",
+      "term": "ấm áp",
+      "meaningKo": "따뜻하다",
+      "example": "Mùa xuân ấm áp nên tôi thích đi công viên.",
+      "exampleMeaningKo": "봄은 따뜻해서 저는 공원에 가는 것을 좋아합니다.",
+      "audioSrc": "",
+      "sourcePage": 13,
+      "reviewNeeded": false,
+      "pronKo": "엄 압",
+      "pronNoteKo": "봄을 설명할 때 좋습니다.",
+      "pronChunks": ["ấm=엄", "áp=압"]
+    },
+    {
+      "id": "qb13-weather-v-010",
+      "term": "nóng",
+      "meaningKo": "덥다",
+      "example": "Mùa hè ở Hàn Quốc rất nóng.",
+      "exampleMeaningKo": "한국의 여름은 매우 덥습니다.",
+      "audioSrc": "",
+      "sourcePage": 13,
+      "reviewNeeded": false,
+      "pronKo": "농",
+      "pronNoteKo": "여름 날씨 설명의 핵심 단어입니다.",
+      "pronChunks": ["nóng=농"]
+    },
+    {
+      "id": "qb13-weather-v-011",
+      "term": "lạnh",
+      "meaningKo": "춥다",
+      "example": "Mùa đông rất lạnh.",
+      "exampleMeaningKo": "겨울은 매우 춥습니다.",
+      "audioSrc": "",
+      "sourcePage": 13,
+      "reviewNeeded": false,
+      "pronKo": "라잉",
+      "pronNoteKo": "겨울 날씨 설명의 핵심 단어입니다.",
+      "pronChunks": ["lạnh=라잉"]
+    },
+    {
+      "id": "qb13-weather-v-012",
+      "term": "mát mẻ",
+      "meaningKo": "시원하다",
+      "example": "Mùa thu mát mẻ và dễ chịu.",
+      "exampleMeaningKo": "가을은 시원하고 쾌적합니다.",
+      "audioSrc": "",
+      "sourcePage": 13,
+      "reviewNeeded": false,
+      "pronKo": "맛 메",
+      "pronNoteKo": "가을 설명에 매우 좋습니다.",
+      "pronChunks": ["mát=맛", "mẻ=메"]
+    },
+    {
+      "id": "qb13-weather-v-013",
+      "term": "dễ chịu",
+      "meaningKo": "쾌적하다 / 기분 좋다",
+      "example": "Thời tiết mùa thu rất dễ chịu.",
+      "exampleMeaningKo": "가을 날씨는 매우 쾌적합니다.",
+      "audioSrc": "",
+      "sourcePage": 13,
+      "reviewNeeded": false,
+      "pronKo": "예 찌우",
+      "pronNoteKo": "날씨가 좋다는 느낌을 자연스럽게 표현할 수 있습니다.",
+      "pronChunks": ["dễ=예", "chịu=찌우"]
+    },
+    {
+      "id": "qb13-weather-v-014",
+      "term": "khô",
+      "meaningKo": "건조하다",
+      "example": "Mùa đông hơi khô.",
+      "exampleMeaningKo": "겨울은 조금 건조합니다.",
+      "audioSrc": "",
+      "sourcePage": 13,
+      "reviewNeeded": false,
+      "pronKo": "코",
+      "pronNoteKo": "건조한 날씨를 말할 때 씁니다.",
+      "pronChunks": ["khô=코"]
+    },
+    {
+      "id": "qb13-weather-v-015",
+      "term": "ẩm",
+      "meaningKo": "습하다",
+      "example": "Mùa hè ở Hàn Quốc nóng và ẩm.",
+      "exampleMeaningKo": "한국의 여름은 덥고 습합니다.",
+      "audioSrc": "",
+      "sourcePage": 13,
+      "reviewNeeded": false,
+      "pronKo": "엄",
+      "pronNoteKo": "여름의 습한 느낌을 설명할 때 씁니다.",
+      "pronChunks": ["ẩm=엄"]
+    },
+    {
+      "id": "qb13-weather-v-016",
+      "term": "mưa",
+      "meaningKo": "비",
+      "example": "Hôm nay có mưa.",
+      "exampleMeaningKo": "오늘 비가 옵니다.",
+      "audioSrc": "",
+      "sourcePage": 13,
+      "reviewNeeded": false,
+      "pronKo": "므어",
+      "pronNoteKo": "비를 뜻합니다.",
+      "pronChunks": ["mưa=므어"]
+    },
+    {
+      "id": "qb13-weather-v-017",
+      "term": "trời mưa",
+      "meaningKo": "비가 오다",
+      "example": "Hôm qua trời mưa rất nhiều.",
+      "exampleMeaningKo": "어제 비가 많이 왔습니다.",
+      "audioSrc": "",
+      "sourcePage": 13,
+      "reviewNeeded": false,
+      "pronKo": "쩌이 므어",
+      "pronNoteKo": "날씨 문장에서 자주 씁니다.",
+      "pronChunks": ["trời=쩌이", "mưa=므어"]
+    },
+    {
+      "id": "qb13-weather-v-018",
+      "term": "mưa to",
+      "meaningKo": "큰비 / 비가 세게 오다",
+      "example": "Hôm đó trời mưa to.",
+      "exampleMeaningKo": "그날 비가 세게 왔습니다.",
+      "audioSrc": "",
+      "sourcePage": 13,
+      "reviewNeeded": false,
+      "pronKo": "므어 또",
+      "pronNoteKo": "폭우 경험을 말할 때 좋습니다.",
+      "pronChunks": ["mưa=므어", "to=또"]
+    },
+    {
+      "id": "qb13-weather-v-019",
+      "term": "mưa lớn",
+      "meaningKo": "큰비 / 폭우",
+      "example": "Tôi đã gặp mưa lớn trên đường về nhà.",
+      "exampleMeaningKo": "저는 집에 가는 길에 큰비를 만났습니다.",
+      "audioSrc": "",
+      "sourcePage": 13,
+      "reviewNeeded": false,
+      "pronKo": "므어 런",
+      "pronNoteKo": "mưa to와 비슷하게 쓸 수 있습니다.",
+      "pronChunks": ["mưa=므어", "lớn=런"]
+    },
+    {
+      "id": "qb13-weather-v-020",
+      "term": "bão",
+      "meaningKo": "태풍 / 폭풍",
+      "example": "Năm ngoái có một cơn bão rất mạnh.",
+      "exampleMeaningKo": "작년에 매우 강한 태풍이 있었습니다.",
+      "audioSrc": "",
+      "sourcePage": 13,
+      "reviewNeeded": false,
+      "pronKo": "바오",
+      "pronNoteKo": "극단적인 날씨 경험에 유용합니다.",
+      "pronChunks": ["bão=바오"]
+    },
+    {
+      "id": "qb13-weather-v-021",
+      "term": "tuyết",
+      "meaningKo": "눈",
+      "example": "Mùa đông có tuyết.",
+      "exampleMeaningKo": "겨울에는 눈이 옵니다.",
+      "audioSrc": "",
+      "sourcePage": 13,
+      "reviewNeeded": false,
+      "pronKo": "뚜엣",
+      "pronNoteKo": "겨울 설명에 좋습니다.",
+      "pronChunks": ["tuyết=뚜엣"]
+    },
+    {
+      "id": "qb13-weather-v-022",
+      "term": "tuyết rơi",
+      "meaningKo": "눈이 오다",
+      "example": "Mùa đông tuyết rơi nhiều.",
+      "exampleMeaningKo": "겨울에는 눈이 많이 옵니다.",
+      "audioSrc": "",
+      "sourcePage": 13,
+      "reviewNeeded": false,
+      "pronKo": "뚜엣 저이",
+      "pronNoteKo": "눈이 내리는 상황을 말합니다.",
+      "pronChunks": ["tuyết=뚜엣", "rơi=저이"]
+    },
+    {
+      "id": "qb13-weather-v-023",
+      "term": "thời tiết khắc nghiệt",
+      "meaningKo": "극단적인 날씨 / 혹독한 날씨",
+      "example": "Tôi đã có một trải nghiệm đáng nhớ liên quan đến thời tiết khắc nghiệt.",
+      "exampleMeaningKo": "저는 극단적인 날씨와 관련된 기억에 남는 경험이 있었습니다.",
+      "audioSrc": "",
+      "sourcePage": 13,
+      "reviewNeeded": false,
+      "pronKo": "터이 띠엣 칵 응이엣",
+      "pronNoteKo": "두 번째 문제의 핵심 표현입니다.",
+      "pronChunks": ["thời tiết=터이 띠엣", "khắc nghiệt=칵 응이엣"]
+    },
+    {
+      "id": "qb13-weather-v-024",
+      "term": "trải nghiệm đáng nhớ",
+      "meaningKo": "기억에 남는 경험",
+      "example": "Đó là một trải nghiệm đáng nhớ.",
+      "exampleMeaningKo": "그것은 기억에 남는 경험이었습니다.",
+      "audioSrc": "",
+      "sourcePage": 13,
+      "reviewNeeded": false,
+      "pronKo": "짜이 응이엠 당 녀",
+      "pronNoteKo": "경험 문제에서 매우 자주 쓰입니다.",
+      "pronChunks": ["trải nghiệm=짜이 응이엠", "đáng nhớ=당 녀"]
+    },
+    {
+      "id": "qb13-weather-v-025",
+      "term": "vấn đề",
+      "meaningKo": "문제",
+      "example": "Vấn đề là tôi không có ô.",
+      "exampleMeaningKo": "문제는 제가 우산이 없었다는 것입니다.",
+      "audioSrc": "",
+      "sourcePage": 13,
+      "reviewNeeded": false,
+      "pronKo": "번 데",
+      "pronNoteKo": "문제가 무엇이었는지 설명할 때 씁니다.",
+      "pronChunks": ["vấn=번", "đề=데"]
+    },
+    {
+      "id": "qb13-weather-v-026",
+      "term": "đối phó",
+      "meaningKo": "대처하다",
+      "example": "Tôi đã đối phó với tình huống đó bằng cách gọi taxi.",
+      "exampleMeaningKo": "저는 택시를 부르는 방식으로 그 상황에 대처했습니다.",
+      "audioSrc": "",
+      "sourcePage": 13,
+      "reviewNeeded": false,
+      "pronKo": "도이 포",
+      "pronNoteKo": "두 번째 문제의 핵심 동사입니다.",
+      "pronChunks": ["đối=도이", "phó=포"]
+    },
+    {
+      "id": "qb13-weather-v-027",
+      "term": "tình huống",
+      "meaningKo": "상황",
+      "example": "Tình huống đó rất khó khăn.",
+      "exampleMeaningKo": "그 상황은 매우 어려웠습니다.",
+      "audioSrc": "",
+      "sourcePage": 13,
+      "reviewNeeded": false,
+      "pronKo": "띤 후옹",
+      "pronNoteKo": "경험 설명에서 자주 씁니다.",
+      "pronChunks": ["tình=띤", "huống=후옹"]
+    },
+    {
+      "id": "qb13-weather-v-028",
+      "term": "khó khăn",
+      "meaningKo": "어렵다 / 힘들다",
+      "example": "Lúc đó, tình huống rất khó khăn.",
+      "exampleMeaningKo": "그때 상황은 매우 힘들었습니다.",
+      "audioSrc": "",
+      "sourcePage": 13,
+      "reviewNeeded": false,
+      "pronKo": "코 칸",
+      "pronNoteKo": "힘든 경험을 말할 때 좋습니다.",
+      "pronChunks": ["khó=코", "khăn=칸"]
+    },
+    {
+      "id": "qb13-weather-v-029",
+      "term": "ô",
+      "meaningKo": "우산",
+      "example": "Tôi không mang ô.",
+      "exampleMeaningKo": "저는 우산을 가지고 가지 않았습니다.",
+      "audioSrc": "",
+      "sourcePage": 13,
+      "reviewNeeded": false,
+      "pronKo": "오",
+      "pronNoteKo": "비 오는 날 경험에 자주 씁니다.",
+      "pronChunks": ["ô=오"]
+    },
+    {
+      "id": "qb13-weather-v-030",
+      "term": "áo mưa",
+      "meaningKo": "비옷",
+      "example": "Tôi đã mua áo mưa ở cửa hàng gần đó.",
+      "exampleMeaningKo": "저는 근처 가게에서 비옷을 샀습니다.",
+      "audioSrc": "",
+      "sourcePage": 13,
+      "reviewNeeded": false,
+      "pronKo": "아오 므어",
+      "pronNoteKo": "비 오는 상황 대처 표현에 좋습니다.",
+      "pronChunks": ["áo=아오", "mưa=므어"]
+    }
+  ],
+  "sentenceCards": [
+    {
+      "id": "qb13-weather-s-001",
+      "textVi": "Hãy kể cho tôi nghe về thời tiết của nước bạn. Thời tiết từng mùa như thế nào? Bạn thích mùa nào nhất?",
+      "textKo": "당신의 나라의 날씨에 관해 말해주세요. 계절별 날씨는 어떤가요? 당신은 어떤 계절을 제일 좋아하나요?",
+      "exampleAnswerVi": "Ở Hàn Quốc có bốn mùa rõ rệt: mùa xuân, mùa hè, mùa thu và mùa đông. Mùa xuân ấm áp và có nhiều hoa đẹp, nên mọi người thường đi công viên. Mùa hè rất nóng và ẩm, thỉnh thoảng có mưa nhiều. Mùa thu mát mẻ, trời trong xanh và rất dễ chịu. Mùa đông thì rất lạnh, khô và đôi khi có tuyết. Trong bốn mùa, tôi thích mùa thu nhất. Vì thời tiết mùa thu không quá nóng cũng không quá lạnh. Tôi có thể đi dạo, uống cà phê và ngắm cảnh đẹp. Đặc biệt, vào mùa thu, cây cối đổi màu nên phong cảnh rất đẹp. Vì vậy, nếu có thời gian rảnh, tôi thường đi công viên với gia đình vào mùa thu.",
+      "exampleAnswerKo": "한국에는 봄, 여름, 가을, 겨울 이렇게 사계절이 뚜렷합니다. 봄은 따뜻하고 예쁜 꽃이 많아서 사람들은 보통 공원에 갑니다. 여름은 매우 덥고 습하며 가끔 비가 많이 옵니다. 가을은 시원하고 하늘이 맑으며 매우 쾌적합니다. 겨울은 매우 춥고 건조하며 가끔 눈이 옵니다. 네 계절 중에서 저는 가을을 가장 좋아합니다. 왜냐하면 가을 날씨는 너무 덥지도 않고 너무 춥지도 않기 때문입니다. 저는 산책하고 커피를 마시고 아름다운 풍경을 볼 수 있습니다. 특히 가을에는 나무들이 색이 변해서 풍경이 매우 아름답습니다. 그래서 시간이 있으면 저는 보통 가을에 가족과 함께 공원에 갑니다.",
+      "audioSrc": "",
+      "sourcePage": 13,
+      "reviewNeeded": false,
+      "pronKo": "하이 께 쪼 또이 응에 베 터이 띠엣 꾸아 느억 반. 터이 띠엣 뜽 무아 느 테 나오? 반 틱 무아 나오 녓?",
+      "exampleAnswerPronKo": "어 한 꾸옥 꼬 본 무아 조 젯: 무아 쑤언, 무아 헤, 무아 투 바 무아 동. 무아 쑤언 엄 압 바 꼬 니에우 호아 뎁.",
+      "pronNoteKo": "이 문제는 사계절을 모두 말하고 마지막에 좋아하는 계절을 말하면 안정적입니다."
+    },
+    {
+      "id": "qb13-weather-s-002",
+      "textVi": "Hãy cho tôi biết về một trải nghiệm đáng nhớ liên quan đến thời tiết khắc nghiệt. Vấn đề mà bạn gặp là gì và bạn đã đối phó với tình huống đó thế nào?",
+      "textKo": "극단적인 날씨에 관한 기억에 남는 경험에 대해 알려주세요. 당신이 겪은 문제는 무엇이고 당신은 그 상황에 어떻게 대처했나요?",
+      "exampleAnswerVi": "Tôi nhớ một lần tôi gặp thời tiết rất khắc nghiệt vào mùa hè năm ngoái. Hôm đó, trời mưa rất to và gió cũng mạnh. Tôi đang trên đường về nhà sau khi làm việc. Vấn đề là tôi không mang ô, đường rất trơn và xe buýt đến muộn. Tôi cảm thấy hơi lo lắng vì điện thoại của tôi gần hết pin. Để đối phó với tình huống đó, tôi đã vào một cửa hàng gần đó để tránh mưa. Sau đó, tôi mua một chiếc áo mưa và gọi taxi về nhà. May mắn là tôi về nhà an toàn. Sau trải nghiệm đó, tôi luôn kiểm tra dự báo thời tiết trước khi ra ngoài. Tôi cũng thường mang ô nhỏ trong túi. Đó là một trải nghiệm không vui, nhưng nó giúp tôi cẩn thận hơn khi thời tiết xấu.",
+      "exampleAnswerKo": "저는 작년 여름에 매우 극단적인 날씨를 만났던 한 번의 경험이 기억납니다. 그날 비가 매우 세게 오고 바람도 강했습니다. 저는 퇴근 후 집에 가는 길이었습니다. 문제는 제가 우산을 가지고 있지 않았고, 길이 매우 미끄러웠으며, 버스가 늦게 왔다는 것입니다. 제 휴대폰 배터리도 거의 없어서 조금 걱정이 되었습니다. 그 상황에 대처하기 위해 저는 근처 가게에 들어가 비를 피했습니다. 그 후 비옷을 하나 사고 택시를 불러 집에 갔습니다. 다행히 저는 안전하게 집에 도착했습니다. 그 경험 이후로 저는 밖에 나가기 전에 항상 일기예보를 확인합니다. 그리고 보통 가방에 작은 우산을 가지고 다닙니다. 그것은 즐거운 경험은 아니었지만, 날씨가 나쁠 때 더 조심하게 해준 경험이었습니다.",
+      "audioSrc": "",
+      "sourcePage": 13,
+      "reviewNeeded": false,
+      "pronKo": "하이 쪼 또이 비엣 베 못 짜이 응이엠 당 녀 리엔 꽌 덴 터이 띠엣 칵 응이엣. 번 데 마 반 갑 라 지 바 반 다 도이 포 버이 띤 후옹 도 테 나오?",
+      "exampleAnswerPronKo": "또이 녀 못 런 또이 갑 터이 띠엣 젓 칵 응이엣 바오 무아 헤 남 응오아이. 홈 도, 쩌이 므어 젓 또 바 조 꿍 마잉.",
+      "pronNoteKo": "이 문제는 과거 경험 문제입니다. '언제 → 날씨 → 문제 → 대처 → 느낀 점' 순서로 답하면 좋습니다."
+    }
+  ],
+  "dialogues": [
+    {
+      "id": "qb13-weather-d-001",
+      "title": "한국의 사계절",
+      "audioSrc": "",
+      "sourcePage": 13,
+      "reviewNeeded": false,
+      "lines": [
+        {
+          "speaker": "A",
+          "vi": "Thời tiết ở Hàn Quốc như thế nào?",
+          "ko": "한국의 날씨는 어떤가요?",
+          "pronKo": "터이 띠엣 어 한 꾸옥 느 테 나오?"
+        },
+        {
+          "speaker": "B",
+          "vi": "Ở Hàn Quốc có bốn mùa rõ rệt.",
+          "ko": "한국에는 사계절이 뚜렷합니다.",
+          "pronKo": "어 한 꾸옥 꼬 본 무아 조 젯."
+        },
+        {
+          "speaker": "A",
+          "vi": "Bạn thích mùa nào nhất?",
+          "ko": "당신은 어떤 계절을 가장 좋아하나요?",
+          "pronKo": "반 틱 무아 나오 녓?"
+        },
+        {
+          "speaker": "B",
+          "vi": "Tôi thích mùa thu nhất vì thời tiết rất mát mẻ.",
+          "ko": "저는 날씨가 매우 시원해서 가을을 가장 좋아합니다.",
+          "pronKo": "또이 틱 무아 투 녓 비 터이 띠엣 젓 맛 메."
+        }
+      ]
+    },
+    {
+      "id": "qb13-weather-d-002",
+      "title": "계절별 날씨",
+      "audioSrc": "",
+      "sourcePage": 13,
+      "reviewNeeded": false,
+      "lines": [
+        {
+          "speaker": "A",
+          "vi": "Mùa xuân ở Hàn Quốc thế nào?",
+          "ko": "한국의 봄은 어떤가요?",
+          "pronKo": "무아 쑤언 어 한 꾸옥 테 나오?"
+        },
+        {
+          "speaker": "B",
+          "vi": "Mùa xuân ấm áp và có nhiều hoa đẹp.",
+          "ko": "봄은 따뜻하고 예쁜 꽃이 많습니다.",
+          "pronKo": "무아 쑤언 엄 압 바 꼬 니에우 호아 뎁."
+        },
+        {
+          "speaker": "A",
+          "vi": "Còn mùa hè thì sao?",
+          "ko": "그러면 여름은 어떤가요?",
+          "pronKo": "꼰 무아 헤 티 사오?"
+        },
+        {
+          "speaker": "B",
+          "vi": "Mùa hè rất nóng và ẩm.",
+          "ko": "여름은 매우 덥고 습합니다.",
+          "pronKo": "무아 헤 젓 농 바 엄."
+        }
+      ]
+    },
+    {
+      "id": "qb13-weather-d-003",
+      "title": "극단적인 날씨 경험",
+      "audioSrc": "",
+      "sourcePage": 13,
+      "reviewNeeded": false,
+      "lines": [
+        {
+          "speaker": "A",
+          "vi": "Bạn đã từng gặp thời tiết khắc nghiệt chưa?",
+          "ko": "당신은 극단적인 날씨를 겪어본 적이 있나요?",
+          "pronKo": "반 다 뜽 갑 터이 띠엣 칵 응이엣 쯔어?"
+        },
+        {
+          "speaker": "B",
+          "vi": "Rồi, tôi đã gặp mưa lớn vào mùa hè năm ngoái.",
+          "ko": "네, 저는 작년 여름에 큰비를 만났습니다.",
+          "pronKo": "조이, 또이 다 갑 므어 런 바오 무아 헤 남 응오아이."
+        },
+        {
+          "speaker": "A",
+          "vi": "Bạn đã đối phó với tình huống đó thế nào?",
+          "ko": "그 상황에 어떻게 대처했나요?",
+          "pronKo": "반 다 도이 포 버이 띤 후옹 도 테 나오?"
+        },
+        {
+          "speaker": "B",
+          "vi": "Tôi vào một cửa hàng gần đó để tránh mưa và gọi taxi về nhà.",
+          "ko": "저는 비를 피하기 위해 근처 가게에 들어갔고 택시를 불러 집에 갔습니다.",
+          "pronKo": "또이 바오 못 끄어 항 건 도 데 짜잉 므어 바 고이 탁시 베 냐."
+        }
+      ]
+    }
+  ],
+  "grammarPoints": [
+    {
+      "id": "qb13-weather-g-001",
+      "title": "날씨에 대해 말해주세요",
+      "pattern": "Hãy kể cho tôi nghe về thời tiết của nước bạn.",
+      "meaningKo": "당신 나라의 날씨에 대해 말해주세요.",
+      "sourcePage": 13,
+      "reviewNeeded": false
+    },
+    {
+      "id": "qb13-weather-g-002",
+      "title": "계절별 날씨는 어떤가요?",
+      "pattern": "Thời tiết từng mùa như thế nào?",
+      "meaningKo": "계절별 날씨는 어떤가요?",
+      "sourcePage": 13,
+      "reviewNeeded": false
+    },
+    {
+      "id": "qb13-weather-g-003",
+      "title": "가장 좋아하는 계절",
+      "pattern": "Bạn thích mùa nào nhất?",
+      "meaningKo": "당신은 어떤 계절을 가장 좋아하나요?",
+      "sourcePage": 13,
+      "reviewNeeded": false
+    },
+    {
+      "id": "qb13-weather-g-004",
+      "title": "한국에는 사계절이 있다",
+      "pattern": "Ở Hàn Quốc có bốn mùa rõ rệt.",
+      "meaningKo": "한국에는 사계절이 뚜렷합니다.",
+      "sourcePage": 13,
+      "reviewNeeded": false
+    },
+    {
+      "id": "qb13-weather-g-005",
+      "title": "A도 아니고 B도 아니다",
+      "pattern": "Thời tiết không quá nóng cũng không quá lạnh.",
+      "meaningKo": "날씨가 너무 덥지도 않고 너무 춥지도 않습니다.",
+      "sourcePage": 13,
+      "reviewNeeded": false
+    },
+    {
+      "id": "qb13-weather-g-006",
+      "title": "기억에 남는 경험",
+      "pattern": "Tôi đã có một trải nghiệm đáng nhớ.",
+      "meaningKo": "저는 기억에 남는 경험이 있었습니다.",
+      "sourcePage": 13,
+      "reviewNeeded": false
+    },
+    {
+      "id": "qb13-weather-g-007",
+      "title": "문제는 ~였다",
+      "pattern": "Vấn đề là tôi không mang ô.",
+      "meaningKo": "문제는 제가 우산을 가지고 가지 않았다는 것이었습니다.",
+      "sourcePage": 13,
+      "reviewNeeded": false
+    },
+    {
+      "id": "qb13-weather-g-008",
+      "title": "~에 대처하다",
+      "pattern": "Tôi đã đối phó với tình huống đó bằng cách gọi taxi.",
+      "meaningKo": "저는 택시를 부르는 방식으로 그 상황에 대처했습니다.",
+      "sourcePage": 13,
+      "reviewNeeded": false
+    },
+    {
+      "id": "qb13-weather-g-009",
+      "title": "~하기 위해",
+      "pattern": "Tôi vào cửa hàng để tránh mưa.",
+      "meaningKo": "저는 비를 피하기 위해 가게에 들어갔습니다.",
+      "sourcePage": 13,
+      "reviewNeeded": false
+    },
+    {
+      "id": "qb13-weather-g-010",
+      "title": "그 경험 이후로",
+      "pattern": "Sau trải nghiệm đó, tôi luôn kiểm tra dự báo thời tiết.",
+      "meaningKo": "그 경험 이후로 저는 항상 일기예보를 확인합니다.",
+      "sourcePage": 13,
+      "reviewNeeded": false
+    }
+  ],
+  "pronunciationTargets": [
+    {
+      "id": "qb13-weather-p-001",
+      "text": "Hãy kể cho tôi nghe về thời tiết của nước bạn.",
+      "hintKo": "당신 나라의 날씨에 대해 말해주세요.",
+      "audioSrc": "",
+      "sourcePage": 13,
+      "reviewNeeded": false,
+      "pronKo": "하이 께 쪼 또이 응에 베 터이 띠엣 꾸아 느억 반",
+      "mouthKo": "Hãy kể cho tôi nghe / về thời tiết / của nước bạn 으로 끊습니다.",
+      "toneKo": "날씨 주제의 시작 질문입니다."
+    },
+    {
+      "id": "qb13-weather-p-002",
+      "text": "Thời tiết từng mùa như thế nào?",
+      "hintKo": "계절별 날씨는 어떤가요?",
+      "audioSrc": "",
+      "sourcePage": 13,
+      "reviewNeeded": false,
+      "pronKo": "터이 띠엣 뜽 무아 느 테 나오",
+      "mouthKo": "Thời tiết từng mùa / như thế nào 로 끊습니다.",
+      "toneKo": "계절별 설명을 요구하는 문장입니다."
+    },
+    {
+      "id": "qb13-weather-p-003",
+      "text": "Bạn thích mùa nào nhất?",
+      "hintKo": "당신은 어떤 계절을 가장 좋아하나요?",
+      "audioSrc": "",
+      "sourcePage": 13,
+      "reviewNeeded": false,
+      "pronKo": "반 틱 무아 나오 녓",
+      "mouthKo": "Bạn thích / mùa nào nhất 로 끊습니다.",
+      "toneKo": "좋아하는 계절과 이유를 말하라는 신호입니다."
+    },
+    {
+      "id": "qb13-weather-p-004",
+      "text": "Hãy cho tôi biết về một trải nghiệm đáng nhớ liên quan đến thời tiết khắc nghiệt.",
+      "hintKo": "극단적인 날씨와 관련된 기억에 남는 경험에 대해 알려주세요.",
+      "audioSrc": "",
+      "sourcePage": 13,
+      "reviewNeeded": false,
+      "pronKo": "하이 쪼 또이 비엣 베 못 짜이 응이엠 당 녀 리엔 꽌 덴 터이 띠엣 칵 응이엣",
+      "mouthKo": "Hãy cho tôi biết / về một trải nghiệm đáng nhớ / liên quan đến thời tiết khắc nghiệt 으로 끊습니다.",
+      "toneKo": "경험 문제의 첫 문장입니다."
+    },
+    {
+      "id": "qb13-weather-p-005",
+      "text": "Vấn đề mà bạn gặp là gì?",
+      "hintKo": "당신이 겪은 문제는 무엇인가요?",
+      "audioSrc": "",
+      "sourcePage": 13,
+      "reviewNeeded": false,
+      "pronKo": "번 데 마 반 갑 라 지",
+      "mouthKo": "Vấn đề mà bạn gặp / là gì 로 끊습니다.",
+      "toneKo": "문제 상황을 설명해야 합니다."
+    },
+    {
+      "id": "qb13-weather-p-006",
+      "text": "Bạn đã đối phó với tình huống đó thế nào?",
+      "hintKo": "당신은 그 상황에 어떻게 대처했나요?",
+      "audioSrc": "",
+      "sourcePage": 13,
+      "reviewNeeded": false,
+      "pronKo": "반 다 도이 포 버이 띤 후옹 도 테 나오",
+      "mouthKo": "Bạn đã đối phó / với tình huống đó / thế nào 로 끊습니다.",
+      "toneKo": "대처 방법을 말해야 하는 문장입니다."
+    }
+  ],
+  "quizSeeds": [
+    {
+      "id": "qb13-weather-q-001",
+      "type": "match-term",
+      "prompt": "날씨 핵심 단어 매칭 1",
+      "answerSet": [
+        "thời tiết-날씨",
+        "khí hậu-기후",
+        "mùa-계절",
+        "bốn mùa-사계절",
+        "mùa xuân-봄",
+        "mùa hè-여름",
+        "mùa thu-가을",
+        "mùa đông-겨울",
+        "ấm áp-따뜻하다",
+        "nóng-덥다"
+      ],
+      "sourcePage": 13,
+      "reviewNeeded": false
+    },
+    {
+      "id": "qb13-weather-q-002",
+      "type": "match-term",
+      "prompt": "날씨 핵심 단어 매칭 2",
+      "answerSet": [
+        "lạnh-춥다",
+        "mát mẻ-시원하다",
+        "dễ chịu-쾌적하다",
+        "khô-건조하다",
+        "ẩm-습하다",
+        "mưa-비",
+        "trời mưa-비가 오다",
+        "mưa to-비가 세게 오다",
+        "mưa lớn-큰비/폭우",
+        "bão-태풍/폭풍"
+      ],
+      "sourcePage": 13,
+      "reviewNeeded": false
+    },
+    {
+      "id": "qb13-weather-q-003",
+      "type": "match-term",
+      "prompt": "극단적인 날씨 경험 단어 매칭",
+      "answerSet": [
+        "tuyết-눈",
+        "tuyết rơi-눈이 오다",
+        "thời tiết khắc nghiệt-극단적인 날씨",
+        "trải nghiệm đáng nhớ-기억에 남는 경험",
+        "vấn đề-문제",
+        "đối phó-대처하다",
+        "tình huống-상황",
+        "khó khăn-어렵다/힘들다",
+        "ô-우산",
+        "áo mưa-비옷"
+      ],
+      "sourcePage": 13,
+      "reviewNeeded": false
+    },
+    {
+      "id": "qb13-weather-q-004",
+      "type": "sentence-meaning",
+      "prompt": "문제은행 날씨 질문 뜻 고르기",
+      "answerSet": [
+        "Hãy kể cho tôi nghe về thời tiết của nước bạn.-당신 나라의 날씨에 대해 말해주세요.",
+        "Thời tiết từng mùa như thế nào?-계절별 날씨는 어떤가요?",
+        "Bạn thích mùa nào nhất?-당신은 어떤 계절을 가장 좋아하나요?",
+        "Hãy cho tôi biết về một trải nghiệm đáng nhớ liên quan đến thời tiết khắc nghiệt.-극단적인 날씨와 관련된 기억에 남는 경험에 대해 알려주세요.",
+        "Vấn đề mà bạn gặp là gì?-당신이 겪은 문제는 무엇인가요?",
+        "Bạn đã đối phó với tình huống đó thế nào?-당신은 그 상황에 어떻게 대처했나요?"
+      ],
+      "sourcePage": 13,
+      "reviewNeeded": false
+    },
+    {
+      "id": "qb13-weather-q-005",
+      "type": "fill-blank",
+      "prompt": "빈칸 채우기: 한국에는 사계절이 뚜렷합니다.",
+      "question": "Ở Hàn Quốc có bốn mùa ___.",
+      "answer": "rõ rệt",
+      "sourcePage": 13,
+      "reviewNeeded": false
+    },
+    {
+      "id": "qb13-weather-q-006",
+      "type": "fill-blank",
+      "prompt": "빈칸 채우기: 봄은 따뜻합니다.",
+      "question": "Mùa xuân ___.",
+      "answer": "ấm áp",
+      "sourcePage": 13,
+      "reviewNeeded": false
+    },
+    {
+      "id": "qb13-weather-q-007",
+      "type": "fill-blank",
+      "prompt": "빈칸 채우기: 여름은 덥고 습합니다.",
+      "question": "Mùa hè nóng và ___.",
+      "answer": "ẩm",
+      "sourcePage": 13,
+      "reviewNeeded": false
+    },
+    {
+      "id": "qb13-weather-q-008",
+      "type": "fill-blank",
+      "prompt": "빈칸 채우기: 저는 가을을 가장 좋아합니다.",
+      "question": "Tôi thích mùa thu ___.",
+      "answer": "nhất",
+      "sourcePage": 13,
+      "reviewNeeded": false
+    },
+    {
+      "id": "qb13-weather-q-009",
+      "type": "fill-blank",
+      "prompt": "빈칸 채우기: 그날 비가 많이 왔습니다.",
+      "question": "Hôm đó trời ___ rất to.",
+      "answer": "mưa",
+      "sourcePage": 13,
+      "reviewNeeded": false
+    },
+    {
+      "id": "qb13-weather-q-010",
+      "type": "fill-blank",
+      "prompt": "빈칸 채우기: 저는 그 상황에 대처했습니다.",
+      "question": "Tôi đã ___ với tình huống đó.",
+      "answer": "đối phó",
+      "sourcePage": 13,
+      "reviewNeeded": false
+    },
+    {
+      "id": "qb13-weather-q-011",
+      "type": "match-term",
+      "prompt": "한국 계절 설명 순서 맞추기",
+      "answerSet": [
+        "1-Ở Hàn Quốc có bốn mùa rõ rệt.",
+        "2-Mùa xuân ấm áp và có nhiều hoa đẹp.",
+        "3-Mùa hè rất nóng và ẩm.",
+        "4-Mùa thu mát mẻ, trời trong xanh và rất dễ chịu.",
+        "5-Mùa đông thì rất lạnh, khô và đôi khi có tuyết.",
+        "6-Trong bốn mùa, tôi thích mùa thu nhất."
+      ],
+      "sourcePage": 13,
+      "reviewNeeded": false
+    },
+    {
+      "id": "qb13-weather-q-012",
+      "type": "match-term",
+      "prompt": "극단적인 날씨 경험 답변 순서 맞추기",
+      "answerSet": [
+        "1-Tôi nhớ một lần tôi gặp thời tiết rất khắc nghiệt vào mùa hè năm ngoái.",
+        "2-Hôm đó, trời mưa rất to và gió cũng mạnh.",
+        "3-Vấn đề là tôi không mang ô, đường rất trơn và xe buýt đến muộn.",
+        "4-Để đối phó với tình huống đó, tôi đã vào một cửa hàng gần đó để tránh mưa.",
+        "5-Sau đó, tôi mua một chiếc áo mưa và gọi taxi về nhà.",
+        "6-Sau trải nghiệm đó, tôi luôn kiểm tra dự báo thời tiết trước khi ra ngoài."
+      ],
+      "sourcePage": 13,
+      "reviewNeeded": false
+    }
+  ],
+  "unlockCondition": "always",
+  "reviewNeeded": false
+},
+    {
   "lessonId": "question-bank-012-fashion",
   "unitLabel": "문제은행",
   "titleKo": "문제은행12: 패션",
