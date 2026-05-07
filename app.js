@@ -376,11 +376,11 @@ async fetchJson() {
     './vietnamese_a1_to_opic_im1_starter.json',
 
     // 새로 추가할 JSON 파일들
-    './data/question_bank_test.json',
-    './data/question_bank_company.json',
-    './data/question_bank_home.json',
-    './data/question_bank_movie.json',
-    './data/notes_day07.json'
+    './question_bank_test.json',
+    './question_bank_company.json',
+    './question_bank_home.json',
+    './question_bank_movie.json',
+    './notes_day07.json'
   ];
 
   const loaded = [];
@@ -424,18 +424,7 @@ async fetchJson() {
     path: loaded.map((x) => x.path).join(', ')
   };
 }
-    let lastErr;
-    for (const path of paths) {
-      try {
-        const res = await fetch(path, { cache: 'no-store' });
-        if (!res.ok) throw new Error(`${path} ${res.status}`);
-        return { data: await res.json(), path };
-      } catch (e) {
-        lastErr = e;
-      }
-    }
-    throw lastErr;
-  }
+
 
   flattenData(lessons) {
     const flat = { lessons, vocab: [], sentence: [], dialogues: [], grammar: [], pronunciation: [], seeds: [] };
