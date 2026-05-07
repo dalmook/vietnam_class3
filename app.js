@@ -376,7 +376,7 @@ async fetchJson() {
     './vietnamese_a1_to_opic_im1_starter.json',
 
     // 새로 추가할 JSON 파일들
-    './data/question_bank_self_intro.json',
+    './data/question_bank_test.json',
     './data/question_bank_company.json',
     './data/question_bank_home.json',
     './data/question_bank_movie.json',
