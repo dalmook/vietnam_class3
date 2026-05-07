@@ -1,0 +1,11 @@
+{
+  "meta": {
+    "version": "movie-bank-1.0.0",
+    "title": "OPIc 영화 문제은행",
+    "description": "영화 주제 OPIc 문제은행"
+  },
+  "lessons": [],
+  "opicQuestionBank": [
+  ],
+  "mockTests": {}
+}
