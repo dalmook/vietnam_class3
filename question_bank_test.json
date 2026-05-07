@@ -6,6 +6,867 @@
   },
   "lessons": [
     {
+  "lessonId": "question-bank-018-holiday",
+  "unitLabel": "문제은행",
+  "titleKo": "문제은행18: 명절",
+  "titleVi": "Ngân hàng câu hỏi 18: Ngày lễ",
+  "pageRange": "문제은행 / 명절",
+  "goals": [
+    "자기 나라의 명절과 특별한 날을 소개할 수 있다",
+    "한국의 대표 명절인 설날과 추석을 설명할 수 있다",
+    "명절에 사람들이 보통 무엇을 하는지 말할 수 있다",
+    "명절 음식, 가족 모임, 특별 행사에 대해 설명할 수 있다",
+    "명절의 의미와 개인적인 생각을 자연스럽게 말할 수 있다"
+  ],
+  "topicOverview": "명절 주제는 한국 문화 설명형 문제로 나오기 좋습니다. 첫 번째 문제는 '한국에는 어떤 명절이 있는지 → 대표 명절 소개 → 명절의 의미 → 내가 좋아하는 명절' 순서로 답하면 좋습니다. 두 번째 문제는 '사람들이 명절에 하는 일 → 가족 모임 → 특별 프로그램/행사 → 특별 음식 → 내 생각' 순서로 말하면 안정적입니다.",
+  "cultureTopics": [
+    "명절",
+    "공휴일",
+    "한국 명절",
+    "설날",
+    "추석",
+    "가족 모임",
+    "고향 방문",
+    "차례",
+    "성묘",
+    "세배",
+    "세뱃돈",
+    "송편",
+    "떡국",
+    "전통 음식",
+    "전통 놀이",
+    "특별 방송",
+    "휴가",
+    "교통 체증"
+  ],
+  "vocabCards": [
+    {
+      "id": "qb18-holiday-v-001",
+      "term": "ngày lễ",
+      "meaningKo": "명절 / 공휴일",
+      "example": "Ở Hàn Quốc có nhiều ngày lễ.",
+      "exampleMeaningKo": "한국에는 많은 명절이 있습니다.",
+      "audioSrc": "",
+      "sourcePage": 18,
+      "reviewNeeded": false,
+      "pronKo": "응아이 레",
+      "pronNoteKo": "명절 주제의 핵심 단어입니다.",
+      "pronChunks": ["ngày=응아이", "lễ=레"]
+    },
+    {
+      "id": "qb18-holiday-v-002",
+      "term": "ngày lễ đặc biệt",
+      "meaningKo": "특별한 명절",
+      "example": "Chuseok là một ngày lễ đặc biệt ở Hàn Quốc.",
+      "exampleMeaningKo": "추석은 한국의 특별한 명절입니다.",
+      "audioSrc": "",
+      "sourcePage": 18,
+      "reviewNeeded": false,
+      "pronKo": "응아이 레 닥 비엣",
+      "pronNoteKo": "질문에 나온 표현입니다.",
+      "pronChunks": ["ngày lễ=응아이 레", "đặc biệt=닥 비엣"]
+    },
+    {
+      "id": "qb18-holiday-v-003",
+      "term": "nước bạn",
+      "meaningKo": "당신의 나라",
+      "example": "Ngày lễ đặc biệt ở nước bạn có những gì?",
+      "exampleMeaningKo": "당신 나라의 특별한 명절에는 무엇이 있나요?",
+      "audioSrc": "",
+      "sourcePage": 18,
+      "reviewNeeded": false,
+      "pronKo": "느억 반",
+      "pronNoteKo": "OPIc 질문에서 자주 나오는 표현입니다.",
+      "pronChunks": ["nước=느억", "bạn=반"]
+    },
+    {
+      "id": "qb18-holiday-v-004",
+      "term": "kể cho tôi nghe",
+      "meaningKo": "나에게 이야기해 주세요",
+      "example": "Hãy kể cho tôi nghe về các ngày lễ của nước bạn.",
+      "exampleMeaningKo": "당신 나라의 명절들에 대해 이야기해 주세요.",
+      "audioSrc": "",
+      "sourcePage": 18,
+      "reviewNeeded": false,
+      "pronKo": "께 쪼 또이 응에",
+      "pronNoteKo": "문제 시작에 자주 나오는 표현입니다.",
+      "pronChunks": ["kể=께", "cho tôi=쪼 또이", "nghe=응에"]
+    },
+    {
+      "id": "qb18-holiday-v-005",
+      "term": "đặc biệt",
+      "meaningKo": "특별한",
+      "example": "Ngày lễ này rất đặc biệt.",
+      "exampleMeaningKo": "이 명절은 매우 특별합니다.",
+      "audioSrc": "",
+      "sourcePage": 18,
+      "reviewNeeded": false,
+      "pronKo": "닥 비엣",
+      "pronNoteKo": "명절의 특징을 말할 때 좋습니다.",
+      "pronChunks": ["đặc=닥", "biệt=비엣"]
+    },
+    {
+      "id": "qb18-holiday-v-006",
+      "term": "nổi tiếng",
+      "meaningKo": "유명한",
+      "example": "Chuseok là một ngày lễ nổi tiếng.",
+      "exampleMeaningKo": "추석은 유명한 명절입니다.",
+      "audioSrc": "",
+      "sourcePage": 18,
+      "reviewNeeded": false,
+      "pronKo": "노이 띠엥",
+      "pronNoteKo": "대표 명절을 설명할 때 좋습니다.",
+      "pronChunks": ["nổi=노이", "tiếng=띠엥"]
+    },
+    {
+      "id": "qb18-holiday-v-007",
+      "term": "Seollal",
+      "meaningKo": "설날",
+      "example": "Seollal là Tết truyền thống của Hàn Quốc.",
+      "exampleMeaningKo": "설날은 한국의 전통 명절입니다.",
+      "audioSrc": "",
+      "sourcePage": 18,
+      "reviewNeeded": false,
+      "pronKo": "설랄",
+      "pronNoteKo": "한국 명절 이름이므로 그대로 말해도 됩니다.",
+      "pronChunks": ["Seollal=설랄"]
+    },
+    {
+      "id": "qb18-holiday-v-008",
+      "term": "Chuseok",
+      "meaningKo": "추석",
+      "example": "Tôi thích Chuseok nhất.",
+      "exampleMeaningKo": "저는 추석을 가장 좋아합니다.",
+      "audioSrc": "",
+      "sourcePage": 18,
+      "reviewNeeded": false,
+      "pronKo": "추석",
+      "pronNoteKo": "한국 명절 이름이므로 그대로 말해도 됩니다.",
+      "pronChunks": ["Chuseok=추석"]
+    },
+    {
+      "id": "qb18-holiday-v-009",
+      "term": "Tết truyền thống",
+      "meaningKo": "전통 명절",
+      "example": "Đây là Tết truyền thống của Hàn Quốc.",
+      "exampleMeaningKo": "이것은 한국의 전통 명절입니다.",
+      "audioSrc": "",
+      "sourcePage": 18,
+      "reviewNeeded": false,
+      "pronKo": "뗏 쭈엔 통",
+      "pronNoteKo": "설날/추석 설명에 모두 쓸 수 있습니다.",
+      "pronChunks": ["Tết=뗏", "truyền thống=쭈엔 통"]
+    },
+    {
+      "id": "qb18-holiday-v-010",
+      "term": "âm lịch",
+      "meaningKo": "음력",
+      "example": "Seollal được tổ chức theo âm lịch.",
+      "exampleMeaningKo": "설날은 음력에 따라 열립니다.",
+      "audioSrc": "",
+      "sourcePage": 18,
+      "reviewNeeded": false,
+      "pronKo": "엄 릭",
+      "pronNoteKo": "설날과 추석은 음력 명절이라 설명에 유용합니다.",
+      "pronChunks": ["âm=엄", "lịch=릭"]
+    },
+    {
+      "id": "qb18-holiday-v-011",
+      "term": "gia đình",
+      "meaningKo": "가족",
+      "example": "Tôi thường gặp gia đình vào ngày lễ.",
+      "exampleMeaningKo": "저는 명절에 보통 가족을 만납니다.",
+      "audioSrc": "",
+      "sourcePage": 18,
+      "reviewNeeded": false,
+      "pronKo": "자 딩",
+      "pronNoteKo": "명절 답변의 핵심 소재입니다.",
+      "pronChunks": ["gia=자", "đình=딩"]
+    },
+    {
+      "id": "qb18-holiday-v-012",
+      "term": "họ hàng",
+      "meaningKo": "친척",
+      "example": "Tôi gặp họ hàng vào dịp lễ.",
+      "exampleMeaningKo": "저는 명절에 친척들을 만납니다.",
+      "audioSrc": "",
+      "sourcePage": 18,
+      "reviewNeeded": false,
+      "pronKo": "호 항",
+      "pronNoteKo": "가족 모임 설명에 좋습니다.",
+      "pronChunks": ["họ=호", "hàng=항"]
+    },
+    {
+      "id": "qb18-holiday-v-013",
+      "term": "quê",
+      "meaningKo": "고향",
+      "example": "Nhiều người về quê vào dịp lễ.",
+      "exampleMeaningKo": "많은 사람들이 명절에 고향에 갑니다.",
+      "audioSrc": "",
+      "sourcePage": 18,
+      "reviewNeeded": false,
+      "pronKo": "꿰",
+      "pronNoteKo": "명절 귀성 표현에 꼭 필요합니다.",
+      "pronChunks": ["quê=꿰"]
+    },
+    {
+      "id": "qb18-holiday-v-014",
+      "term": "về quê",
+      "meaningKo": "고향에 가다",
+      "example": "Vào Chuseok, nhiều người về quê.",
+      "exampleMeaningKo": "추석에는 많은 사람들이 고향에 갑니다.",
+      "audioSrc": "",
+      "sourcePage": 18,
+      "reviewNeeded": false,
+      "pronKo": "베 꿰",
+      "pronNoteKo": "한국 명절 설명에 매우 자주 씁니다.",
+      "pronChunks": ["về=베", "quê=꿰"]
+    },
+    {
+      "id": "qb18-holiday-v-015",
+      "term": "thăm ông bà",
+      "meaningKo": "조부모님을 방문하다",
+      "example": "Tôi thường thăm ông bà vào ngày lễ.",
+      "exampleMeaningKo": "저는 명절에 보통 조부모님을 방문합니다.",
+      "audioSrc": "",
+      "sourcePage": 18,
+      "reviewNeeded": false,
+      "pronKo": "탐 옹 바",
+      "pronNoteKo": "가족 관련 답변에 좋습니다.",
+      "pronChunks": ["thăm=탐", "ông bà=옹 바"]
+    },
+    {
+      "id": "qb18-holiday-v-016",
+      "term": "ăn cùng nhau",
+      "meaningKo": "함께 먹다",
+      "example": "Gia đình tôi ăn cùng nhau vào ngày lễ.",
+      "exampleMeaningKo": "우리 가족은 명절에 함께 식사합니다.",
+      "audioSrc": "",
+      "sourcePage": 18,
+      "reviewNeeded": false,
+      "pronKo": "안 꿍 냐우",
+      "pronNoteKo": "명절 활동 설명에 자연스럽습니다.",
+      "pronChunks": ["ăn=안", "cùng nhau=꿍 냐우"]
+    },
+    {
+      "id": "qb18-holiday-v-017",
+      "term": "món ăn đặc biệt",
+      "meaningKo": "특별한 음식",
+      "example": "Vào ngày lễ, có nhiều món ăn đặc biệt.",
+      "exampleMeaningKo": "명절에는 특별한 음식이 많습니다.",
+      "audioSrc": "",
+      "sourcePage": 18,
+      "reviewNeeded": false,
+      "pronKo": "몬 안 닥 비엣",
+      "pronNoteKo": "두 번째 질문의 핵심 표현입니다.",
+      "pronChunks": ["món ăn=몬 안", "đặc biệt=닥 비엣"]
+    },
+    {
+      "id": "qb18-holiday-v-018",
+      "term": "tteokguk",
+      "meaningKo": "떡국",
+      "example": "Vào Seollal, người Hàn Quốc ăn tteokguk.",
+      "exampleMeaningKo": "설날에 한국 사람들은 떡국을 먹습니다.",
+      "audioSrc": "",
+      "sourcePage": 18,
+      "reviewNeeded": false,
+      "pronKo": "떡국",
+      "pronNoteKo": "한국 음식 이름은 그대로 말해도 됩니다.",
+      "pronChunks": ["tteokguk=떡국"]
+    },
+    {
+      "id": "qb18-holiday-v-019",
+      "term": "songpyeon",
+      "meaningKo": "송편",
+      "example": "Vào Chuseok, người Hàn Quốc ăn songpyeon.",
+      "exampleMeaningKo": "추석에 한국 사람들은 송편을 먹습니다.",
+      "audioSrc": "",
+      "sourcePage": 18,
+      "reviewNeeded": false,
+      "pronKo": "송편",
+      "pronNoteKo": "추석 대표 음식입니다.",
+      "pronChunks": ["songpyeon=송편"]
+    },
+    {
+      "id": "qb18-holiday-v-020",
+      "term": "món truyền thống",
+      "meaningKo": "전통 음식 / 전통적인 것",
+      "example": "Tteokguk là món truyền thống.",
+      "exampleMeaningKo": "떡국은 전통 음식입니다.",
+      "audioSrc": "",
+      "sourcePage": 18,
+      "reviewNeeded": false,
+      "pronKo": "몬 쭈엔 통",
+      "pronNoteKo": "명절 음식 설명에 좋습니다.",
+      "pronChunks": ["món=몬", "truyền thống=쭈엔 통"]
+    },
+    {
+      "id": "qb18-holiday-v-021",
+      "term": "chương trình đặc biệt",
+      "meaningKo": "특별 프로그램",
+      "example": "Vào ngày lễ, có nhiều chương trình đặc biệt trên TV.",
+      "exampleMeaningKo": "명절에는 TV에 특별 프로그램이 많습니다.",
+      "audioSrc": "",
+      "sourcePage": 18,
+      "reviewNeeded": false,
+      "pronKo": "쯔엉 찐 닥 비엣",
+      "pronNoteKo": "질문에 나온 표현입니다.",
+      "pronChunks": ["chương trình=쯔엉 찐", "đặc biệt=닥 비엣"]
+    },
+    {
+      "id": "qb18-holiday-v-022",
+      "term": "trên TV",
+      "meaningKo": "TV에서",
+      "example": "Tôi xem chương trình đặc biệt trên TV.",
+      "exampleMeaningKo": "저는 TV에서 특별 프로그램을 봅니다.",
+      "audioSrc": "",
+      "sourcePage": 18,
+      "reviewNeeded": false,
+      "pronKo": "쩬 티비",
+      "pronNoteKo": "명절 방송 설명에 씁니다.",
+      "pronChunks": ["trên=쩬", "TV=티비"]
+    },
+    {
+      "id": "qb18-holiday-v-023",
+      "term": "trò chơi truyền thống",
+      "meaningKo": "전통 놀이",
+      "example": "Một số gia đình chơi trò chơi truyền thống.",
+      "exampleMeaningKo": "몇몇 가족들은 전통 놀이를 합니다.",
+      "audioSrc": "",
+      "sourcePage": 18,
+      "reviewNeeded": false,
+      "pronKo": "쩌 쩌이 쭈엔 통",
+      "pronNoteKo": "설날 놀이 설명에 유용합니다.",
+      "pronChunks": ["trò chơi=쩌 쩌이", "truyền thống=쭈엔 통"]
+    },
+    {
+      "id": "qb18-holiday-v-024",
+      "term": "chúc mừng năm mới",
+      "meaningKo": "새해 복 많이 받으세요",
+      "example": "Vào Seollal, mọi người chúc mừng năm mới.",
+      "exampleMeaningKo": "설날에 사람들은 새해 인사를 합니다.",
+      "audioSrc": "",
+      "sourcePage": 18,
+      "reviewNeeded": false,
+      "pronKo": "쭉 믕 남 머이",
+      "pronNoteKo": "설날 인사 표현입니다.",
+      "pronChunks": ["chúc mừng=쭉 믕", "năm mới=남 머이"]
+    },
+    {
+      "id": "qb18-holiday-v-025",
+      "term": "tiền mừng tuổi",
+      "meaningKo": "세뱃돈",
+      "example": "Trẻ em nhận tiền mừng tuổi vào Seollal.",
+      "exampleMeaningKo": "아이들은 설날에 세뱃돈을 받습니다.",
+      "audioSrc": "",
+      "sourcePage": 18,
+      "reviewNeeded": false,
+      "pronKo": "띠엔 믕 뚜오이",
+      "pronNoteKo": "설날 설명에 쓰기 좋은 표현입니다.",
+      "pronChunks": ["tiền=띠엔", "mừng tuổi=믕 뚜오이"]
+    },
+    {
+      "id": "qb18-holiday-v-026",
+      "term": "nghỉ lễ",
+      "meaningKo": "명절 휴가를 쉬다",
+      "example": "Tôi được nghỉ lễ ba ngày.",
+      "exampleMeaningKo": "저는 명절에 3일 쉽니다.",
+      "audioSrc": "",
+      "sourcePage": 18,
+      "reviewNeeded": false,
+      "pronKo": "응이 레",
+      "pronNoteKo": "명절 기간 설명에 좋습니다.",
+      "pronChunks": ["nghỉ=응이", "lễ=레"]
+    },
+    {
+      "id": "qb18-holiday-v-027",
+      "term": "đông người",
+      "meaningKo": "사람이 많다",
+      "example": "Ga tàu rất đông người vào dịp lễ.",
+      "exampleMeaningKo": "명절에는 기차역에 사람이 매우 많습니다.",
+      "audioSrc": "",
+      "sourcePage": 18,
+      "reviewNeeded": false,
+      "pronKo": "동 응으어이",
+      "pronNoteKo": "명절의 단점 설명에 좋습니다.",
+      "pronChunks": ["đông=동", "người=응으어이"]
+    },
+    {
+      "id": "qb18-holiday-v-028",
+      "term": "kẹt xe",
+      "meaningKo": "교통 체증",
+      "example": "Vào ngày lễ, thường bị kẹt xe.",
+      "exampleMeaningKo": "명절에는 보통 차가 막힙니다.",
+      "audioSrc": "",
+      "sourcePage": 18,
+      "reviewNeeded": false,
+      "pronKo": "껫 세",
+      "pronNoteKo": "명절 귀성길 설명에 유용합니다.",
+      "pronChunks": ["kẹt=껫", "xe=세"]
+    },
+    {
+      "id": "qb18-holiday-v-029",
+      "term": "ý nghĩa",
+      "meaningKo": "의미",
+      "example": "Ngày lễ này có ý nghĩa rất lớn.",
+      "exampleMeaningKo": "이 명절은 매우 큰 의미가 있습니다.",
+      "audioSrc": "",
+      "sourcePage": 18,
+      "reviewNeeded": false,
+      "pronKo": "이 응이아",
+      "pronNoteKo": "명절의 의미를 설명할 때 좋습니다.",
+      "pronChunks": ["ý=이", "nghĩa=응이아"]
+    },
+    {
+      "id": "qb18-holiday-v-030",
+      "term": "sum họp",
+      "meaningKo": "모이다 / 재회하다",
+      "example": "Ngày lễ là thời gian để gia đình sum họp.",
+      "exampleMeaningKo": "명절은 가족이 모이는 시간입니다.",
+      "audioSrc": "",
+      "sourcePage": 18,
+      "reviewNeeded": false,
+      "pronKo": "숨 홉",
+      "pronNoteKo": "가족이 모인다는 표현으로 좋습니다.",
+      "pronChunks": ["sum=숨", "họp=홉"]
+    }
+  ],
+  "sentenceCards": [
+    {
+      "id": "qb18-holiday-s-001",
+      "textVi": "Hãy kể cho tôi nghe về các ngày lễ của nước bạn. Ngày lễ đặc biệt ở nước bạn có những gì?",
+      "textKo": "당신 나라의 명절들에 대해 이야기해 주세요. 당신 나라의 특별한 명절에는 무엇이 있나요?",
+      "exampleAnswerVi": "Ở Hàn Quốc có nhiều ngày lễ, nhưng theo tôi, hai ngày lễ đặc biệt nhất là Seollal và Chuseok. Seollal là Tết truyền thống của Hàn Quốc. Ngày lễ này thường được tổ chức theo âm lịch. Vào Seollal, nhiều người về quê để gặp gia đình và họ hàng. Mọi người thường ăn tteokguk, chúc mừng năm mới và trẻ em nhận tiền mừng tuổi. Chuseok cũng là một ngày lễ rất quan trọng. Chuseok giống như ngày lễ thu hoạch. Vào ngày này, người Hàn Quốc thường về quê, thăm ông bà, ăn nhiều món truyền thống và ăn songpyeon. Theo tôi, những ngày lễ này rất đặc biệt vì gia đình có thể sum họp. Bình thường mọi người rất bận, nên ngày lễ là thời gian tốt để nghỉ ngơi và dành thời gian cho gia đình. Trong các ngày lễ, tôi thích Chuseok nhất vì thời tiết mùa thu rất mát mẻ và đồ ăn cũng rất ngon.",
+      "exampleAnswerKo": "한국에는 많은 명절이 있지만, 제 생각에 가장 특별한 명절 두 가지는 설날과 추석입니다. 설날은 한국의 전통 명절입니다. 이 명절은 보통 음력에 따라 열립니다. 설날에는 많은 사람들이 가족과 친척을 만나기 위해 고향에 갑니다. 사람들은 보통 떡국을 먹고, 새해 인사를 하며, 아이들은 세뱃돈을 받습니다. 추석도 매우 중요한 명절입니다. 추석은 수확 명절과 비슷합니다. 이날 한국 사람들은 보통 고향에 가고, 조부모님을 방문하고, 여러 전통 음식을 먹으며, 송편을 먹습니다. 제 생각에 이런 명절들은 가족이 모일 수 있기 때문에 매우 특별합니다. 평소에 사람들은 매우 바쁘기 때문에 명절은 쉬고 가족과 시간을 보내기 좋은 시간입니다. 명절 중에서 저는 추석을 가장 좋아합니다. 왜냐하면 가을 날씨가 매우 시원하고 음식도 맛있기 때문입니다.",
+      "audioSrc": "",
+      "sourcePage": 18,
+      "reviewNeeded": false,
+      "pronKo": "하이 께 쪼 또이 응에 베 깍 응아이 레 꾸어 느억 반. 응아이 레 닥 비엣 어 느억 반 꼬 느응 지?",
+      "exampleAnswerPronKo": "어 한 꾸옥 꼬 니에우 응아이 레, 느응 테오 또이, 하이 응아이 레 닥 비엣 녓 라 설랄 바 추석.",
+      "pronNoteKo": "이 문제는 대표 명절 소개형입니다. 설날과 추석을 말하면 답변 구성이 쉽습니다."
+    },
+    {
+      "id": "qb18-holiday-s-002",
+      "textVi": "Ở nước bạn, người ta thường làm gì nhân dịp lễ? Vào ngày lễ, có chương trình đặc biệt không? Có món ăn nào đặc biệt không?",
+      "textKo": "당신 나라에서 사람들은 명절을 맞아 보통 무엇을 하나요? 명절에는 특별한 프로그램이 있나요? 특별한 음식이 있나요?",
+      "exampleAnswerVi": "Ở Hàn Quốc, vào dịp lễ, người ta thường về quê và gặp gia đình. Nhiều người sống ở thành phố lớn, nên vào ngày lễ họ lái xe hoặc đi tàu để về quê. Vì vậy đường rất đông và thường bị kẹt xe. Khi gặp gia đình, mọi người ăn cùng nhau, nói chuyện và nghỉ ngơi. Vào Seollal, người Hàn Quốc thường ăn tteokguk. Món này có ý nghĩa là bắt đầu một năm mới. Trẻ em thường chúc mừng năm mới người lớn và nhận tiền mừng tuổi. Vào Chuseok, người Hàn Quốc thường ăn songpyeon và nhiều món truyền thống khác. Ngoài ra, vào ngày lễ, trên TV có nhiều chương trình đặc biệt như phim, chương trình ca nhạc và chương trình hài. Một số gia đình cũng chơi trò chơi truyền thống. Tôi nghĩ ngày lễ ở Hàn Quốc rất ấm áp, vì mọi người có thể nghỉ ngơi và ở bên gia đình.",
+      "exampleAnswerKo": "한국에서는 명절이 되면 사람들이 보통 고향에 가고 가족을 만납니다. 많은 사람들이 큰 도시에 살기 때문에 명절에는 차를 운전하거나 기차를 타고 고향에 갑니다. 그래서 길에 사람이 많고 보통 차가 막힙니다. 가족을 만나면 사람들은 함께 밥을 먹고, 이야기를 하고, 쉽니다. 설날에는 한국 사람들이 보통 떡국을 먹습니다. 이 음식은 새해를 시작한다는 의미가 있습니다. 아이들은 보통 어른들께 새해 인사를 하고 세뱃돈을 받습니다. 추석에는 한국 사람들이 보통 송편과 여러 전통 음식을 먹습니다. 또한 명절에는 TV에서 영화, 음악 프로그램, 코미디 프로그램 같은 특별 방송이 많이 나옵니다. 몇몇 가족들은 전통 놀이도 합니다. 저는 한국의 명절이 매우 따뜻하다고 생각합니다. 왜냐하면 사람들이 쉬고 가족과 함께 있을 수 있기 때문입니다.",
+      "audioSrc": "",
+      "sourcePage": 18,
+      "reviewNeeded": false,
+      "pronKo": "어 느억 반, 응으어이 따 트엉 람 지 년 집 레? 바오 응아이 레, 꼬 쯔엉 찐 닥 비엣 콩? 꼬 몬 안 나오 닥 비엣 콩?",
+      "exampleAnswerPronKo": "어 한 꾸옥, 바오 집 레, 응으어이 따 트엉 베 꿰 바 갑 자 딩.",
+      "pronNoteKo": "이 문제는 활동 설명형입니다. 고향 방문 → 가족 모임 → 음식 → TV 프로그램 순서로 답하면 자연스럽습니다."
+    }
+  ],
+  "dialogues": [
+    {
+      "id": "qb18-holiday-d-001",
+      "title": "한국의 대표 명절",
+      "audioSrc": "",
+      "sourcePage": 18,
+      "reviewNeeded": false,
+      "lines": [
+        {
+          "speaker": "A",
+          "vi": "Ở Hàn Quốc có ngày lễ đặc biệt nào?",
+          "ko": "한국에는 어떤 특별한 명절이 있나요?",
+          "pronKo": "어 한 꾸옥 꼬 응아이 레 닥 비엣 나오?"
+        },
+        {
+          "speaker": "B",
+          "vi": "Có, ở Hàn Quốc có Seollal và Chuseok.",
+          "ko": "네, 한국에는 설날과 추석이 있습니다.",
+          "pronKo": "꼬, 어 한 꾸옥 꼬 설랄 바 추석."
+        },
+        {
+          "speaker": "A",
+          "vi": "Bạn thích ngày lễ nào nhất?",
+          "ko": "당신은 어떤 명절을 가장 좋아하나요?",
+          "pronKo": "반 틱 응아이 레 나오 녓?"
+        },
+        {
+          "speaker": "B",
+          "vi": "Tôi thích Chuseok nhất vì thời tiết mát mẻ và đồ ăn ngon.",
+          "ko": "저는 날씨가 시원하고 음식이 맛있어서 추석을 가장 좋아합니다.",
+          "pronKo": "또이 틱 추석 녓 비 터이 띠엣 맛 메 바 도 안 응온."
+        }
+      ]
+    },
+    {
+      "id": "qb18-holiday-d-002",
+      "title": "명절에 하는 일",
+      "audioSrc": "",
+      "sourcePage": 18,
+      "reviewNeeded": false,
+      "lines": [
+        {
+          "speaker": "A",
+          "vi": "Người Hàn Quốc thường làm gì vào dịp lễ?",
+          "ko": "한국 사람들은 명절에 보통 무엇을 하나요?",
+          "pronKo": "응으어이 한 꾸옥 트엉 람 지 바오 집 레?"
+        },
+        {
+          "speaker": "B",
+          "vi": "Họ thường về quê và gặp gia đình.",
+          "ko": "그들은 보통 고향에 가고 가족을 만납니다.",
+          "pronKo": "호 트엉 베 꿰 바 갑 자 딩."
+        },
+        {
+          "speaker": "A",
+          "vi": "Họ ăn món gì đặc biệt?",
+          "ko": "그들은 어떤 특별한 음식을 먹나요?",
+          "pronKo": "호 안 몬 지 닥 비엣?"
+        },
+        {
+          "speaker": "B",
+          "vi": "Vào Seollal họ ăn tteokguk, còn vào Chuseok họ ăn songpyeon.",
+          "ko": "설날에는 떡국을 먹고, 추석에는 송편을 먹습니다.",
+          "pronKo": "바오 설랄 호 안 떡국, 꼰 바오 추석 호 안 송편."
+        }
+      ]
+    },
+    {
+      "id": "qb18-holiday-d-003",
+      "title": "명절 프로그램과 분위기",
+      "audioSrc": "",
+      "sourcePage": 18,
+      "reviewNeeded": false,
+      "lines": [
+        {
+          "speaker": "A",
+          "vi": "Vào ngày lễ, có chương trình đặc biệt không?",
+          "ko": "명절에는 특별한 프로그램이 있나요?",
+          "pronKo": "바오 응아이 레, 꼬 쯔엉 찐 닥 비엣 콩?"
+        },
+        {
+          "speaker": "B",
+          "vi": "Có, trên TV có nhiều phim và chương trình ca nhạc đặc biệt.",
+          "ko": "네, TV에 특별 영화와 음악 프로그램이 많습니다.",
+          "pronKo": "꼬, 쩬 티비 꼬 니에우 핌 바 쯔엉 찐 까 냑 닥 비엣."
+        },
+        {
+          "speaker": "A",
+          "vi": "Bạn nghĩ ngày lễ ở Hàn Quốc thế nào?",
+          "ko": "한국의 명절은 어떻다고 생각하나요?",
+          "pronKo": "반 응이 응아이 레 어 한 꾸옥 테 나오?"
+        },
+        {
+          "speaker": "B",
+          "vi": "Tôi nghĩ ngày lễ rất ấm áp vì gia đình có thể sum họp.",
+          "ko": "가족이 모일 수 있기 때문에 명절은 매우 따뜻하다고 생각합니다.",
+          "pronKo": "또이 응이 응아이 레 젓 엄 압 비 자 딩 꼬 테 숨 홉."
+        }
+      ]
+    }
+  ],
+  "grammarPoints": [
+    {
+      "id": "qb18-holiday-g-001",
+      "title": "~에 대해 이야기해 주세요",
+      "pattern": "Hãy kể cho tôi nghe về các ngày lễ của nước bạn.",
+      "meaningKo": "당신 나라의 명절들에 대해 이야기해 주세요.",
+      "sourcePage": 18,
+      "reviewNeeded": false
+    },
+    {
+      "id": "qb18-holiday-g-002",
+      "title": "~에는 무엇이 있나요?",
+      "pattern": "Ngày lễ đặc biệt ở nước bạn có những gì?",
+      "meaningKo": "당신 나라의 특별한 명절에는 무엇이 있나요?",
+      "sourcePage": 18,
+      "reviewNeeded": false
+    },
+    {
+      "id": "qb18-holiday-g-003",
+      "title": "~할 때 / ~을 맞아",
+      "pattern": "Người ta thường làm gì nhân dịp lễ?",
+      "meaningKo": "사람들은 명절을 맞아 보통 무엇을 하나요?",
+      "sourcePage": 18,
+      "reviewNeeded": false
+    },
+    {
+      "id": "qb18-holiday-g-004",
+      "title": "명절에는 ~이 있나요?",
+      "pattern": "Vào ngày lễ, có chương trình đặc biệt không?",
+      "meaningKo": "명절에는 특별한 프로그램이 있나요?",
+      "sourcePage": 18,
+      "reviewNeeded": false
+    },
+    {
+      "id": "qb18-holiday-g-005",
+      "title": "특별한 ~이 있나요?",
+      "pattern": "Có món ăn nào đặc biệt không?",
+      "meaningKo": "특별한 음식이 있나요?",
+      "sourcePage": 18,
+      "reviewNeeded": false
+    },
+    {
+      "id": "qb18-holiday-g-006",
+      "title": "대표 명절 말하기",
+      "pattern": "Hai ngày lễ đặc biệt nhất là Seollal và Chuseok.",
+      "meaningKo": "가장 특별한 명절 두 가지는 설날과 추석입니다.",
+      "sourcePage": 18,
+      "reviewNeeded": false
+    },
+    {
+      "id": "qb18-holiday-g-007",
+      "title": "~하기 위해",
+      "pattern": "Nhiều người về quê để gặp gia đình.",
+      "meaningKo": "많은 사람들이 가족을 만나기 위해 고향에 갑니다.",
+      "sourcePage": 18,
+      "reviewNeeded": false
+    },
+    {
+      "id": "qb18-holiday-g-008",
+      "title": "~ 때문에",
+      "pattern": "Tôi thích Chuseok vì thời tiết mát mẻ.",
+      "meaningKo": "저는 날씨가 시원하기 때문에 추석을 좋아합니다.",
+      "sourcePage": 18,
+      "reviewNeeded": false
+    },
+    {
+      "id": "qb18-holiday-g-009",
+      "title": "~할 수 있다",
+      "pattern": "Gia đình có thể sum họp.",
+      "meaningKo": "가족이 모일 수 있습니다.",
+      "sourcePage": 18,
+      "reviewNeeded": false
+    },
+    {
+      "id": "qb18-holiday-g-010",
+      "title": "A는 ~이고, B는 ~이다",
+      "pattern": "Vào Seollal, người Hàn Quốc ăn tteokguk, còn vào Chuseok, họ ăn songpyeon.",
+      "meaningKo": "설날에는 한국 사람들이 떡국을 먹고, 추석에는 송편을 먹습니다.",
+      "sourcePage": 18,
+      "reviewNeeded": false
+    }
+  ],
+  "pronunciationTargets": [
+    {
+      "id": "qb18-holiday-p-001",
+      "text": "Hãy kể cho tôi nghe về các ngày lễ của nước bạn.",
+      "hintKo": "당신 나라의 명절들에 대해 이야기해 주세요.",
+      "audioSrc": "",
+      "sourcePage": 18,
+      "reviewNeeded": false,
+      "pronKo": "하이 께 쪼 또이 응에 베 깍 응아이 레 꾸어 느억 반",
+      "mouthKo": "Hãy kể cho tôi nghe về / các ngày lễ / của nước bạn 으로 끊습니다.",
+      "toneKo": "첫 번째 문제의 시작 문장입니다."
+    },
+    {
+      "id": "qb18-holiday-p-002",
+      "text": "Ngày lễ đặc biệt ở nước bạn có những gì?",
+      "hintKo": "당신 나라의 특별한 명절에는 무엇이 있나요?",
+      "audioSrc": "",
+      "sourcePage": 18,
+      "reviewNeeded": false,
+      "pronKo": "응아이 레 닥 비엣 어 느억 반 꼬 느응 지",
+      "mouthKo": "Ngày lễ đặc biệt / ở nước bạn / có những gì 로 끊습니다.",
+      "toneKo": "어떤 명절이 있는지 묻는 문장입니다."
+    },
+    {
+      "id": "qb18-holiday-p-003",
+      "text": "Ở nước bạn, người ta thường làm gì nhân dịp lễ?",
+      "hintKo": "당신 나라에서 사람들은 명절을 맞아 보통 무엇을 하나요?",
+      "audioSrc": "",
+      "sourcePage": 18,
+      "reviewNeeded": false,
+      "pronKo": "어 느억 반, 응으어이 따 트엉 람 지 년 집 레",
+      "mouthKo": "Ở nước bạn / người ta thường làm gì / nhân dịp lễ 로 끊습니다.",
+      "toneKo": "명절 활동을 묻는 문장입니다."
+    },
+    {
+      "id": "qb18-holiday-p-004",
+      "text": "Vào ngày lễ, có chương trình đặc biệt không?",
+      "hintKo": "명절에는 특별한 프로그램이 있나요?",
+      "audioSrc": "",
+      "sourcePage": 18,
+      "reviewNeeded": false,
+      "pronKo": "바오 응아이 레, 꼬 쯔엉 찐 닥 비엣 콩",
+      "mouthKo": "Vào ngày lễ / có chương trình đặc biệt không 으로 끊습니다.",
+      "toneKo": "명절 방송이나 행사에 대해 묻는 문장입니다."
+    },
+    {
+      "id": "qb18-holiday-p-005",
+      "text": "Có món ăn nào đặc biệt không?",
+      "hintKo": "특별한 음식이 있나요?",
+      "audioSrc": "",
+      "sourcePage": 18,
+      "reviewNeeded": false,
+      "pronKo": "꼬 몬 안 나오 닥 비엣 콩",
+      "mouthKo": "Có món ăn nào / đặc biệt không 으로 끊습니다.",
+      "toneKo": "명절 음식 질문입니다."
+    },
+    {
+      "id": "qb18-holiday-p-006",
+      "text": "Ngày lễ là thời gian tốt để nghỉ ngơi và dành thời gian cho gia đình.",
+      "hintKo": "명절은 쉬고 가족과 시간을 보내기 좋은 시간입니다.",
+      "audioSrc": "",
+      "sourcePage": 18,
+      "reviewNeeded": false,
+      "pronKo": "응아이 레 라 터이 잔 똣 데 응이 응어이 바 잔 터이 잔 쪼 자 딩",
+      "mouthKo": "Ngày lễ là thời gian tốt / để nghỉ ngơi / và dành thời gian cho gia đình 으로 끊습니다.",
+      "toneKo": "답변 마무리에 쓰기 좋은 문장입니다."
+    }
+  ],
+  "quizSeeds": [
+    {
+      "id": "qb18-holiday-q-001",
+      "type": "match-term",
+      "prompt": "명절 핵심 단어 매칭 1",
+      "answerSet": [
+        "ngày lễ-명절/공휴일",
+        "ngày lễ đặc biệt-특별한 명절",
+        "nước bạn-당신의 나라",
+        "kể cho tôi nghe-나에게 이야기해 주세요",
+        "đặc biệt-특별한",
+        "nổi tiếng-유명한"
+      ],
+      "sourcePage": 18,
+      "reviewNeeded": false
+    },
+    {
+      "id": "qb18-holiday-q-002",
+      "type": "match-term",
+      "prompt": "한국 명절 단어 매칭",
+      "answerSet": [
+        "Seollal-설날",
+        "Chuseok-추석",
+        "Tết truyền thống-전통 명절",
+        "âm lịch-음력",
+        "tteokguk-떡국",
+        "songpyeon-송편"
+      ],
+      "sourcePage": 18,
+      "reviewNeeded": false
+    },
+    {
+      "id": "qb18-holiday-q-003",
+      "type": "match-term",
+      "prompt": "명절 활동 단어 매칭",
+      "answerSet": [
+        "gia đình-가족",
+        "họ hàng-친척",
+        "quê-고향",
+        "về quê-고향에 가다",
+        "thăm ông bà-조부모님을 방문하다",
+        "ăn cùng nhau-함께 먹다",
+        "sum họp-모이다/재회하다"
+      ],
+      "sourcePage": 18,
+      "reviewNeeded": false
+    },
+    {
+      "id": "qb18-holiday-q-004",
+      "type": "match-term",
+      "prompt": "명절 분위기/행사 단어 매칭",
+      "answerSet": [
+        "món ăn đặc biệt-특별한 음식",
+        "chương trình đặc biệt-특별 프로그램",
+        "trên TV-TV에서",
+        "trò chơi truyền thống-전통 놀이",
+        "nghỉ lễ-명절 휴가를 쉬다",
+        "kẹt xe-교통 체증"
+      ],
+      "sourcePage": 18,
+      "reviewNeeded": false
+    },
+    {
+      "id": "qb18-holiday-q-005",
+      "type": "sentence-meaning",
+      "prompt": "명절 문제 뜻 고르기",
+      "answerSet": [
+        "Hãy kể cho tôi nghe về các ngày lễ của nước bạn.-당신 나라의 명절들에 대해 이야기해 주세요.",
+        "Ngày lễ đặc biệt ở nước bạn có những gì?-당신 나라의 특별한 명절에는 무엇이 있나요?",
+        "Ở nước bạn, người ta thường làm gì nhân dịp lễ?-당신 나라에서 사람들은 명절을 맞아 보통 무엇을 하나요?",
+        "Vào ngày lễ, có chương trình đặc biệt không?-명절에는 특별한 프로그램이 있나요?",
+        "Có món ăn nào đặc biệt không?-특별한 음식이 있나요?"
+      ],
+      "sourcePage": 18,
+      "reviewNeeded": false
+    },
+    {
+      "id": "qb18-holiday-q-006",
+      "type": "fill-blank",
+      "prompt": "빈칸 채우기: 한국에는 많은 명절이 있습니다.",
+      "question": "Ở Hàn Quốc có nhiều ___ ___.",
+      "answer": "ngày lễ",
+      "sourcePage": 18,
+      "reviewNeeded": false
+    },
+    {
+      "id": "qb18-holiday-q-007",
+      "type": "fill-blank",
+      "prompt": "빈칸 채우기: 가장 특별한 명절은 설날과 추석입니다.",
+      "question": "Hai ngày lễ đặc biệt nhất là ___ và ___.",
+      "answer": "Seollal / Chuseok",
+      "sourcePage": 18,
+      "reviewNeeded": false
+    },
+    {
+      "id": "qb18-holiday-q-008",
+      "type": "fill-blank",
+      "prompt": "빈칸 채우기: 많은 사람들이 명절에 고향에 갑니다.",
+      "question": "Nhiều người ___ ___ vào dịp lễ.",
+      "answer": "về quê",
+      "sourcePage": 18,
+      "reviewNeeded": false
+    },
+    {
+      "id": "qb18-holiday-q-009",
+      "type": "fill-blank",
+      "prompt": "빈칸 채우기: 설날에는 떡국을 먹습니다.",
+      "question": "Vào Seollal, người Hàn Quốc ăn ___.",
+      "answer": "tteokguk",
+      "sourcePage": 18,
+      "reviewNeeded": false
+    },
+    {
+      "id": "qb18-holiday-q-010",
+      "type": "fill-blank",
+      "prompt": "빈칸 채우기: 추석에는 송편을 먹습니다.",
+      "question": "Vào Chuseok, người Hàn Quốc ăn ___.",
+      "answer": "songpyeon",
+      "sourcePage": 18,
+      "reviewNeeded": false
+    },
+    {
+      "id": "qb18-holiday-q-011",
+      "type": "match-term",
+      "prompt": "명절 소개 답변 순서 맞추기",
+      "answerSet": [
+        "1-Ở Hàn Quốc có nhiều ngày lễ.",
+        "2-Hai ngày lễ đặc biệt nhất là Seollal và Chuseok.",
+        "3-Seollal là Tết truyền thống của Hàn Quốc.",
+        "4-Vào Seollal, nhiều người về quê và ăn tteokguk.",
+        "5-Chuseok cũng là một ngày lễ rất quan trọng.",
+        "6-Vào Chuseok, người Hàn Quốc ăn songpyeon.",
+        "7-Tôi nghĩ ngày lễ rất đặc biệt vì gia đình có thể sum họp."
+      ],
+      "sourcePage": 18,
+      "reviewNeeded": false
+    },
+    {
+      "id": "qb18-holiday-q-012",
+      "type": "match-term",
+      "prompt": "명절 활동 답변 순서 맞추기",
+      "answerSet": [
+        "1-Vào dịp lễ, người ta thường về quê và gặp gia đình.",
+        "2-Khi gặp gia đình, mọi người ăn cùng nhau và nói chuyện.",
+        "3-Vào Seollal, người Hàn Quốc thường ăn tteokguk.",
+        "4-Vào Chuseok, người Hàn Quốc thường ăn songpyeon.",
+        "5-Trên TV có nhiều chương trình đặc biệt.",
+        "6-Tôi nghĩ ngày lễ là thời gian tốt để nghỉ ngơi."
+      ],
+      "sourcePage": 18,
+      "reviewNeeded": false
+    }
+  ],
+  "unlockCondition": "always",
+  "reviewNeeded": false
+},
+    {
   "lessonId": "question-bank-017-hotel",
   "unitLabel": "문제은행",
   "titleKo": "문제은행17: 호텔",
