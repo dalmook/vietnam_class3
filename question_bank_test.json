@@ -6,6 +6,865 @@
   },
   "lessons": [
     {
+  "lessonId": "question-bank-016-health",
+  "unitLabel": "문제은행",
+  "titleKo": "문제은행16: 건강",
+  "titleVi": "Ngân hàng câu hỏi 16: Sức khỏe",
+  "pageRange": "문제은행 / 건강",
+  "goals": [
+    "건강한 사람에 대해 묘사할 수 있다",
+    "사람의 외모와 생활습관을 설명할 수 있다",
+    "건강을 위해 먹는 음식을 말할 수 있다",
+    "건강 때문에 포기한 일을 설명할 수 있다",
+    "과거 경험과 이유, 느낀 점을 자연스럽게 말할 수 있다"
+  ],
+  "topicOverview": "건강 주제는 사람 묘사와 경험 문제가 함께 나올 수 있는 주제입니다. 첫 번째 문제는 '누구인지 → 어떤 모습인지 → 어떤 생활습관이 있는지 → 어떤 음식을 먹는지 → 내가 배운 점' 순서로 답하면 좋습니다. 두 번째 문제는 '건강 문제 발생 시점 → 포기한 일 → 이유 → 그 후 변화 → 느낀 점' 순서로 답하면 자연스럽습니다.",
+  "cultureTopics": [
+    "건강",
+    "건강한 사람",
+    "외모 묘사",
+    "식습관",
+    "운동",
+    "생활습관",
+    "건강 관리",
+    "몸 상태",
+    "건강 때문에 포기한 일",
+    "스트레스",
+    "휴식",
+    "수면",
+    "다이어트",
+    "좋은 습관",
+    "나쁜 습관"
+  ],
+  "vocabCards": [
+    {
+      "id": "qb16-health-v-001",
+      "term": "sức khỏe",
+      "meaningKo": "건강",
+      "example": "Sức khỏe rất quan trọng.",
+      "exampleMeaningKo": "건강은 매우 중요합니다.",
+      "audioSrc": "",
+      "sourcePage": 16,
+      "reviewNeeded": false,
+      "pronKo": "숙 쾌",
+      "pronNoteKo": "건강 주제의 핵심 단어입니다.",
+      "pronChunks": ["sức=숙", "khỏe=쾌"]
+    },
+    {
+      "id": "qb16-health-v-002",
+      "term": "khỏe mạnh",
+      "meaningKo": "건강한",
+      "example": "Anh ấy là một người khỏe mạnh.",
+      "exampleMeaningKo": "그는 건강한 사람입니다.",
+      "audioSrc": "",
+      "sourcePage": 16,
+      "reviewNeeded": false,
+      "pronKo": "쾌 마잉",
+      "pronNoteKo": "사람이 건강하다고 말할 때 씁니다.",
+      "pronChunks": ["khỏe=쾌", "mạnh=마잉"]
+    },
+    {
+      "id": "qb16-health-v-003",
+      "term": "người khỏe mạnh",
+      "meaningKo": "건강한 사람",
+      "example": "Tôi biết một người khỏe mạnh.",
+      "exampleMeaningKo": "저는 건강한 사람 한 명을 알고 있습니다.",
+      "audioSrc": "",
+      "sourcePage": 16,
+      "reviewNeeded": false,
+      "pronKo": "응어이 쾌 마잉",
+      "pronNoteKo": "첫 번째 문제의 핵심 표현입니다.",
+      "pronChunks": ["người=응어이", "khỏe mạnh=쾌 마잉"]
+    },
+    {
+      "id": "qb16-health-v-004",
+      "term": "trông như thế nào",
+      "meaningKo": "어떻게 생겼다 / 어떤 모습이다",
+      "example": "Anh ấy trông rất khỏe mạnh.",
+      "exampleMeaningKo": "그는 매우 건강해 보입니다.",
+      "audioSrc": "",
+      "sourcePage": 16,
+      "reviewNeeded": false,
+      "pronKo": "쫑 느 테 나오",
+      "pronNoteKo": "외모나 모습을 묻고 답할 때 씁니다.",
+      "pronChunks": ["trông=쫑", "như thế nào=느 테 나오"]
+    },
+    {
+      "id": "qb16-health-v-005",
+      "term": "cao",
+      "meaningKo": "키가 크다 / 높은",
+      "example": "Anh ấy cao và khỏe.",
+      "exampleMeaningKo": "그는 키가 크고 건강합니다.",
+      "audioSrc": "",
+      "sourcePage": 16,
+      "reviewNeeded": false,
+      "pronKo": "까오",
+      "pronNoteKo": "외모 묘사에 자주 씁니다.",
+      "pronChunks": ["cao=까오"]
+    },
+    {
+      "id": "qb16-health-v-006",
+      "term": "gầy",
+      "meaningKo": "마른",
+      "example": "Cô ấy không quá gầy.",
+      "exampleMeaningKo": "그녀는 너무 마르지 않았습니다.",
+      "audioSrc": "",
+      "sourcePage": 16,
+      "reviewNeeded": false,
+      "pronKo": "거이",
+      "pronNoteKo": "체형을 말할 때 씁니다.",
+      "pronChunks": ["gầy=거이"]
+    },
+    {
+      "id": "qb16-health-v-007",
+      "term": "cân đối",
+      "meaningKo": "균형 잡힌 / 체형이 좋은",
+      "example": "Cơ thể của anh ấy rất cân đối.",
+      "exampleMeaningKo": "그의 몸은 매우 균형 잡혀 있습니다.",
+      "audioSrc": "",
+      "sourcePage": 16,
+      "reviewNeeded": false,
+      "pronKo": "껀 도이",
+      "pronNoteKo": "건강한 사람 묘사에 좋습니다.",
+      "pronChunks": ["cân=껀", "đối=도이"]
+    },
+    {
+      "id": "qb16-health-v-008",
+      "term": "thân hình",
+      "meaningKo": "몸매 / 체형",
+      "example": "Anh ấy có thân hình cân đối.",
+      "exampleMeaningKo": "그는 균형 잡힌 체형을 가지고 있습니다.",
+      "audioSrc": "",
+      "sourcePage": 16,
+      "reviewNeeded": false,
+      "pronKo": "턴 힝",
+      "pronNoteKo": "사람의 몸매를 묘사할 때 씁니다.",
+      "pronChunks": ["thân=턴", "hình=힝"]
+    },
+    {
+      "id": "qb16-health-v-009",
+      "term": "ăn uống",
+      "meaningKo": "먹고 마시다 / 식생활",
+      "example": "Anh ấy có thói quen ăn uống rất lành mạnh.",
+      "exampleMeaningKo": "그는 매우 건강한 식습관을 가지고 있습니다.",
+      "audioSrc": "",
+      "sourcePage": 16,
+      "reviewNeeded": false,
+      "pronKo": "안 우옹",
+      "pronNoteKo": "식습관 설명에 핵심입니다.",
+      "pronChunks": ["ăn=안", "uống=우옹"]
+    },
+    {
+      "id": "qb16-health-v-010",
+      "term": "món ăn",
+      "meaningKo": "음식 / 요리",
+      "example": "Anh ấy thường ăn những món ăn tốt cho sức khỏe.",
+      "exampleMeaningKo": "그는 보통 건강에 좋은 음식을 먹습니다.",
+      "audioSrc": "",
+      "sourcePage": 16,
+      "reviewNeeded": false,
+      "pronKo": "몬 안",
+      "pronNoteKo": "문제에 나온 핵심 단어입니다.",
+      "pronChunks": ["món=몬", "ăn=안"]
+    },
+    {
+      "id": "qb16-health-v-011",
+      "term": "rau",
+      "meaningKo": "채소",
+      "example": "Anh ấy ăn nhiều rau mỗi ngày.",
+      "exampleMeaningKo": "그는 매일 채소를 많이 먹습니다.",
+      "audioSrc": "",
+      "sourcePage": 16,
+      "reviewNeeded": false,
+      "pronKo": "자우",
+      "pronNoteKo": "건강한 음식 예시로 좋습니다.",
+      "pronChunks": ["rau=자우"]
+    },
+    {
+      "id": "qb16-health-v-012",
+      "term": "trái cây",
+      "meaningKo": "과일",
+      "example": "Cô ấy thường ăn trái cây sau bữa ăn.",
+      "exampleMeaningKo": "그녀는 보통 식사 후 과일을 먹습니다.",
+      "audioSrc": "",
+      "sourcePage": 16,
+      "reviewNeeded": false,
+      "pronKo": "짜이 꺼이",
+      "pronNoteKo": "건강식 설명에 자주 씁니다.",
+      "pronChunks": ["trái=짜이", "cây=꺼이"]
+    },
+    {
+      "id": "qb16-health-v-013",
+      "term": "thịt gà",
+      "meaningKo": "닭고기",
+      "example": "Anh ấy thường ăn thịt gà và rau.",
+      "exampleMeaningKo": "그는 보통 닭고기와 채소를 먹습니다.",
+      "audioSrc": "",
+      "sourcePage": 16,
+      "reviewNeeded": false,
+      "pronKo": "팃 가",
+      "pronNoteKo": "운동하는 사람이 먹는 음식 예시로 좋습니다.",
+      "pronChunks": ["thịt=팃", "gà=가"]
+    },
+    {
+      "id": "qb16-health-v-014",
+      "term": "cá",
+      "meaningKo": "생선",
+      "example": "Cá là món ăn tốt cho sức khỏe.",
+      "exampleMeaningKo": "생선은 건강에 좋은 음식입니다.",
+      "audioSrc": "",
+      "sourcePage": 16,
+      "reviewNeeded": false,
+      "pronKo": "까",
+      "pronNoteKo": "짧지만 자주 쓰는 음식 단어입니다.",
+      "pronChunks": ["cá=까"]
+    },
+    {
+      "id": "qb16-health-v-015",
+      "term": "đồ ăn nhanh",
+      "meaningKo": "패스트푸드",
+      "example": "Anh ấy ít ăn đồ ăn nhanh.",
+      "exampleMeaningKo": "그는 패스트푸드를 적게 먹습니다.",
+      "audioSrc": "",
+      "sourcePage": 16,
+      "reviewNeeded": false,
+      "pronKo": "도 안 냐잉",
+      "pronNoteKo": "건강하지 않은 음식 예시입니다.",
+      "pronChunks": ["đồ ăn=도 안", "nhanh=냐잉"]
+    },
+    {
+      "id": "qb16-health-v-016",
+      "term": "đồ ngọt",
+      "meaningKo": "단 음식",
+      "example": "Tôi cố gắng ăn ít đồ ngọt.",
+      "exampleMeaningKo": "저는 단 음식을 적게 먹으려고 노력합니다.",
+      "audioSrc": "",
+      "sourcePage": 16,
+      "reviewNeeded": false,
+      "pronKo": "도 응옷",
+      "pronNoteKo": "건강 때문에 줄이는 음식으로 좋습니다.",
+      "pronChunks": ["đồ=도", "ngọt=응옷"]
+    },
+    {
+      "id": "qb16-health-v-017",
+      "term": "tập thể dục",
+      "meaningKo": "운동하다",
+      "example": "Anh ấy tập thể dục mỗi sáng.",
+      "exampleMeaningKo": "그는 매일 아침 운동합니다.",
+      "audioSrc": "",
+      "sourcePage": 16,
+      "reviewNeeded": false,
+      "pronKo": "떱 테 죽",
+      "pronNoteKo": "건강 주제 필수 표현입니다.",
+      "pronChunks": ["tập=떱", "thể dục=테 죽"]
+    },
+    {
+      "id": "qb16-health-v-018",
+      "term": "chạy bộ",
+      "meaningKo": "조깅하다 / 달리다",
+      "example": "Anh ấy thường chạy bộ vào buổi sáng.",
+      "exampleMeaningKo": "그는 보통 아침에 조깅합니다.",
+      "audioSrc": "",
+      "sourcePage": 16,
+      "reviewNeeded": false,
+      "pronKo": "짜이 보",
+      "pronNoteKo": "건강한 습관 설명에 좋습니다.",
+      "pronChunks": ["chạy=짜이", "bộ=보"]
+    },
+    {
+      "id": "qb16-health-v-019",
+      "term": "đi bộ",
+      "meaningKo": "걷다",
+      "example": "Tôi đi bộ để giữ sức khỏe.",
+      "exampleMeaningKo": "저는 건강을 유지하기 위해 걷습니다.",
+      "audioSrc": "",
+      "sourcePage": 16,
+      "reviewNeeded": false,
+      "pronKo": "디 보",
+      "pronNoteKo": "가벼운 운동 표현입니다.",
+      "pronChunks": ["đi=디", "bộ=보"]
+    },
+    {
+      "id": "qb16-health-v-020",
+      "term": "ngủ đủ",
+      "meaningKo": "충분히 자다",
+      "example": "Cô ấy luôn ngủ đủ.",
+      "exampleMeaningKo": "그녀는 항상 충분히 잡니다.",
+      "audioSrc": "",
+      "sourcePage": 16,
+      "reviewNeeded": false,
+      "pronKo": "응우 두",
+      "pronNoteKo": "건강한 생활습관으로 좋습니다.",
+      "pronChunks": ["ngủ=응우", "đủ=두"]
+    },
+    {
+      "id": "qb16-health-v-021",
+      "term": "thói quen",
+      "meaningKo": "습관",
+      "example": "Anh ấy có nhiều thói quen tốt.",
+      "exampleMeaningKo": "그는 좋은 습관을 많이 가지고 있습니다.",
+      "audioSrc": "",
+      "sourcePage": 16,
+      "reviewNeeded": false,
+      "pronKo": "토이 quen",
+      "pronNoteKo": "생활습관 설명에 자주 씁니다.",
+      "pronChunks": ["thói=토이", "quen=quen"]
+    },
+    {
+      "id": "qb16-health-v-022",
+      "term": "thói quen tốt",
+      "meaningKo": "좋은 습관",
+      "example": "Tập thể dục là một thói quen tốt.",
+      "exampleMeaningKo": "운동은 좋은 습관입니다.",
+      "audioSrc": "",
+      "sourcePage": 16,
+      "reviewNeeded": false,
+      "pronKo": "토이 quen 똣",
+      "pronNoteKo": "건강한 사람 설명에 바로 쓸 수 있습니다.",
+      "pronChunks": ["thói quen=토이 quen", "tốt=똣"]
+    },
+    {
+      "id": "qb16-health-v-023",
+      "term": "bỏ",
+      "meaningKo": "그만두다 / 포기하다",
+      "example": "Tôi phải bỏ một thói quen xấu.",
+      "exampleMeaningKo": "저는 나쁜 습관 하나를 그만둬야 했습니다.",
+      "audioSrc": "",
+      "sourcePage": 16,
+      "reviewNeeded": false,
+      "pronKo": "보",
+      "pronNoteKo": "두 번째 문제의 핵심 동사입니다.",
+      "pronChunks": ["bỏ=보"]
+    },
+    {
+      "id": "qb16-health-v-024",
+      "term": "từ bỏ",
+      "meaningKo": "포기하다",
+      "example": "Tôi đã từ bỏ đồ ngọt vì sức khỏe.",
+      "exampleMeaningKo": "저는 건강 때문에 단 음식을 포기했습니다.",
+      "audioSrc": "",
+      "sourcePage": 16,
+      "reviewNeeded": false,
+      "pronKo": "뜨 보",
+      "pronNoteKo": "bỏ보다 조금 더 '포기하다' 느낌이 강합니다.",
+      "pronChunks": ["từ=뜨", "bỏ=보"]
+    },
+    {
+      "id": "qb16-health-v-025",
+      "term": "vì sức khỏe",
+      "meaningKo": "건강 때문에 / 건강을 위해",
+      "example": "Tôi không uống nhiều cà phê vì sức khỏe.",
+      "exampleMeaningKo": "저는 건강 때문에 커피를 많이 마시지 않습니다.",
+      "audioSrc": "",
+      "sourcePage": 16,
+      "reviewNeeded": false,
+      "pronKo": "비 숙 쾌",
+      "pronNoteKo": "건강 때문에 어떤 일을 했다고 말할 때 씁니다.",
+      "pronChunks": ["vì=비", "sức khỏe=숙 쾌"]
+    },
+    {
+      "id": "qb16-health-v-026",
+      "term": "căng thẳng",
+      "meaningKo": "스트레스 받는 / 긴장한",
+      "example": "Tôi bị căng thẳng vì làm việc quá nhiều.",
+      "exampleMeaningKo": "저는 일을 너무 많이 해서 스트레스를 받았습니다.",
+      "audioSrc": "",
+      "sourcePage": 16,
+      "reviewNeeded": false,
+      "pronKo": "깡 탕",
+      "pronNoteKo": "건강 문제 원인 설명에 좋습니다.",
+      "pronChunks": ["căng=깡", "thẳng=탕"]
+    },
+    {
+      "id": "qb16-health-v-027",
+      "term": "mệt",
+      "meaningKo": "피곤하다",
+      "example": "Tôi rất mệt nên phải nghỉ ngơi.",
+      "exampleMeaningKo": "저는 매우 피곤해서 쉬어야 했습니다.",
+      "audioSrc": "",
+      "sourcePage": 16,
+      "reviewNeeded": false,
+      "pronKo": "멧",
+      "pronNoteKo": "건강 상태를 간단히 말할 때 좋습니다.",
+      "pronChunks": ["mệt=멧"]
+    },
+    {
+      "id": "qb16-health-v-028",
+      "term": "nghỉ ngơi",
+      "meaningKo": "쉬다 / 휴식하다",
+      "example": "Tôi cần nghỉ ngơi nhiều hơn.",
+      "exampleMeaningKo": "저는 더 많이 쉬어야 합니다.",
+      "audioSrc": "",
+      "sourcePage": 16,
+      "reviewNeeded": false,
+      "pronKo": "응이 응어이",
+      "pronNoteKo": "건강 회복 표현입니다.",
+      "pronChunks": ["nghỉ=응이", "ngơi=응어이"]
+    },
+    {
+      "id": "qb16-health-v-029",
+      "term": "giảm",
+      "meaningKo": "줄이다 / 감소하다",
+      "example": "Tôi giảm uống cà phê.",
+      "exampleMeaningKo": "저는 커피 마시는 것을 줄였습니다.",
+      "audioSrc": "",
+      "sourcePage": 16,
+      "reviewNeeded": false,
+      "pronKo": "잠",
+      "pronNoteKo": "나쁜 습관을 줄였다고 말할 때 좋습니다.",
+      "pronChunks": ["giảm=잠"]
+    },
+    {
+      "id": "qb16-health-v-030",
+      "term": "duy trì",
+      "meaningKo": "유지하다",
+      "example": "Tôi cố gắng duy trì sức khỏe.",
+      "exampleMeaningKo": "저는 건강을 유지하려고 노력합니다.",
+      "audioSrc": "",
+      "sourcePage": 16,
+      "reviewNeeded": false,
+      "pronKo": "주이 찌",
+      "pronNoteKo": "마무리 문장에 좋습니다.",
+      "pronChunks": ["duy=주이", "trì=찌"]
+    }
+  ],
+  "sentenceCards": [
+    {
+      "id": "qb16-health-s-001",
+      "textVi": "Bạn có thể nói về một người khỏe mạnh mà bạn biết không? Anh ấy hoặc cô ấy trông như thế nào? Anh ấy hoặc cô ấy thường ăn những món ăn nào?",
+      "textKo": "당신이 아는 한 건강한 사람에 대해 말해줄 수 있나요? 그 혹은 그녀는 어떻게 생겼나요? 그 혹은 그녀는 보통 어떤 음식들을 먹나요?",
+      "exampleAnswerVi": "Tôi có thể nói về một người khỏe mạnh mà tôi biết. Đó là một đồng nghiệp của tôi. Anh ấy khoảng bốn mươi tuổi nhưng trông rất trẻ và khỏe. Anh ấy cao, thân hình cân đối và lúc nào cũng có nhiều năng lượng. Mỗi sáng, anh ấy thường chạy bộ khoảng ba mươi phút. Sau giờ làm, anh ấy cũng hay đi bộ hoặc tập thể dục nhẹ. Về ăn uống, anh ấy ăn rất lành mạnh. Anh ấy thường ăn cơm, rau, cá, thịt gà và trái cây. Anh ấy ít ăn đồ ăn nhanh và đồ ngọt. Đặc biệt, anh ấy uống nhiều nước và không uống quá nhiều cà phê. Tôi nghĩ anh ấy khỏe mạnh vì anh ấy có thói quen tốt và biết chăm sóc bản thân. Nhìn anh ấy, tôi cũng muốn sống khỏe hơn. Vì vậy gần đây tôi cố gắng đi bộ nhiều hơn và ăn ít đồ ngọt hơn.",
+      "exampleAnswerKo": "저는 제가 아는 건강한 사람 한 명에 대해 말할 수 있습니다. 그 사람은 제 직장 동료입니다. 그는 약 40살이지만 매우 젊고 건강해 보입니다. 그는 키가 크고 체형이 균형 잡혀 있으며 항상 에너지가 많습니다. 매일 아침 그는 보통 약 30분 동안 조깅을 합니다. 퇴근 후에도 그는 자주 걷거나 가벼운 운동을 합니다. 식생활에 대해 말하면, 그는 매우 건강하게 먹습니다. 그는 보통 밥, 채소, 생선, 닭고기, 과일을 먹습니다. 그는 패스트푸드와 단 음식을 적게 먹습니다. 특히 그는 물을 많이 마시고 커피를 너무 많이 마시지 않습니다. 저는 그가 좋은 습관을 가지고 있고 자기 관리를 잘하기 때문에 건강하다고 생각합니다. 그를 보면 저도 더 건강하게 살고 싶습니다. 그래서 최근 저는 더 많이 걷고 단 음식을 덜 먹으려고 노력하고 있습니다.",
+      "audioSrc": "",
+      "sourcePage": 16,
+      "reviewNeeded": false,
+      "pronKo": "반 꼬 테 노이 베 못 응어이 쾌 마잉 마 반 비엣 콩? 아잉 어이 호악 꼬 어이 쫑 느 테 나오? 아잉 어이 호악 꼬 어이 트엉 안 능 몬 안 나오?",
+      "exampleAnswerPronKo": "또이 꼬 테 노이 베 못 응어이 쾌 마잉 마 또이 비엣. 도 라 못 동 응이엡 꾸아 또이.",
+      "pronNoteKo": "이 문제는 사람 묘사 문제입니다. 누구인지 → 외모 → 습관 → 먹는 음식 → 내 생각 순서로 답하세요."
+    },
+    {
+      "id": "qb16-health-s-002",
+      "textVi": "Bạn đã bao giờ phải bỏ làm việc gì đó vì sức khỏe chưa? Việc mà bạn phải từ bỏ là gì?",
+      "textKo": "당신은 건강을 위해 무엇인가를 그만둔 적이 있나요? 당신이 포기해야 했던 일은 무엇인가요?",
+      "exampleAnswerVi": "Có, tôi đã từng phải bỏ một vài thói quen xấu vì sức khỏe. Trước đây, tôi thường uống cà phê quá nhiều và ngủ rất muộn. Vì công việc bận rộn, tôi hay uống ba hoặc bốn ly cà phê một ngày. Lúc đầu tôi nghĩ điều đó không sao, nhưng sau một thời gian tôi cảm thấy rất mệt, khó ngủ và dễ bị căng thẳng. Vì vậy tôi quyết định thay đổi thói quen của mình. Tôi không bỏ cà phê hoàn toàn, nhưng tôi giảm xuống còn một ly mỗi ngày. Ngoài ra, tôi cũng cố gắng không dùng điện thoại quá lâu trước khi đi ngủ. Ban đầu việc này hơi khó vì tôi đã quen với thói quen cũ. Nhưng sau vài tuần, tôi ngủ ngon hơn và cảm thấy khỏe hơn. Tôi nghĩ vì sức khỏe, đôi khi chúng ta phải từ bỏ những thói quen không tốt. Bây giờ tôi hiểu rằng sức khỏe quan trọng hơn sự thoải mái tạm thời.",
+      "exampleAnswerKo": "네, 저는 건강 때문에 몇 가지 나쁜 습관을 그만둔 적이 있습니다. 예전에는 커피를 너무 많이 마시고 아주 늦게 잤습니다. 일이 바빠서 저는 하루에 커피를 세 잔 또는 네 잔 마시곤 했습니다. 처음에는 그것이 괜찮다고 생각했지만, 시간이 지난 후 저는 매우 피곤하고 잠을 잘 못 자며 스트레스를 쉽게 받았습니다. 그래서 저는 제 습관을 바꾸기로 결정했습니다. 커피를 완전히 끊은 것은 아니지만 하루 한 잔으로 줄였습니다. 또한 잠자기 전에 휴대폰을 너무 오래 사용하지 않으려고 노력했습니다. 처음에는 제가 예전 습관에 익숙해져 있었기 때문에 이것이 조금 어려웠습니다. 하지만 몇 주 후 저는 더 잘 자고 더 건강하다고 느꼈습니다. 저는 건강을 위해서라면 때때로 좋지 않은 습관을 포기해야 한다고 생각합니다. 지금은 건강이 일시적인 편안함보다 더 중요하다는 것을 이해합니다.",
+      "audioSrc": "",
+      "sourcePage": 16,
+      "reviewNeeded": false,
+      "pronKo": "반 다 바오 저 파이 보 람 비엑 지 도 비 숙 쾌 쯔어? 비엑 마 반 파이 뜨 보 라 지?",
+      "exampleAnswerPronKo": "꼬, 또이 다 뜽 파이 보 못 바이 토이 quen 써우 비 숙 쾌.",
+      "pronNoteKo": "이 문제는 경험 문제입니다. 예전 습관 → 건강 문제 → 포기한 것 → 변화 → 느낀 점 순서가 좋습니다."
+    }
+  ],
+  "dialogues": [
+    {
+      "id": "qb16-health-d-001",
+      "title": "건강한 사람 묘사",
+      "audioSrc": "",
+      "sourcePage": 16,
+      "reviewNeeded": false,
+      "lines": [
+        {
+          "speaker": "A",
+          "vi": "Bạn có biết một người khỏe mạnh không?",
+          "ko": "당신은 건강한 사람을 알고 있나요?",
+          "pronKo": "반 꼬 비엣 못 응어이 쾌 마잉 콩?"
+        },
+        {
+          "speaker": "B",
+          "vi": "Có, tôi biết một đồng nghiệp rất khỏe mạnh.",
+          "ko": "네, 저는 매우 건강한 직장 동료 한 명을 알고 있습니다.",
+          "pronKo": "꼬, 또이 비엣 못 동 응이엡 젓 쾌 마잉."
+        },
+        {
+          "speaker": "A",
+          "vi": "Anh ấy trông như thế nào?",
+          "ko": "그는 어떻게 생겼나요?",
+          "pronKo": "아잉 어이 쫑 느 테 나오?"
+        },
+        {
+          "speaker": "B",
+          "vi": "Anh ấy cao, thân hình cân đối và trông rất trẻ.",
+          "ko": "그는 키가 크고 체형이 균형 잡혀 있으며 매우 젊어 보입니다.",
+          "pronKo": "아잉 어이 까오, 턴 힝 껀 도이 바 쫑 젓 째."
+        }
+      ]
+    },
+    {
+      "id": "qb16-health-d-002",
+      "title": "건강한 식습관",
+      "audioSrc": "",
+      "sourcePage": 16,
+      "reviewNeeded": false,
+      "lines": [
+        {
+          "speaker": "A",
+          "vi": "Anh ấy thường ăn những món ăn nào?",
+          "ko": "그는 보통 어떤 음식들을 먹나요?",
+          "pronKo": "아잉 어이 트엉 안 능 몬 안 나오?"
+        },
+        {
+          "speaker": "B",
+          "vi": "Anh ấy thường ăn rau, cá, thịt gà và trái cây.",
+          "ko": "그는 보통 채소, 생선, 닭고기, 과일을 먹습니다.",
+          "pronKo": "아잉 어이 트엉 안 자우, 까, 팃 가 바 짜이 꺼이."
+        },
+        {
+          "speaker": "A",
+          "vi": "Anh ấy có ăn đồ ăn nhanh không?",
+          "ko": "그는 패스트푸드를 먹나요?",
+          "pronKo": "아잉 어이 꼬 안 도 안 냐잉 콩?"
+        },
+        {
+          "speaker": "B",
+          "vi": "Anh ấy ít ăn đồ ăn nhanh và đồ ngọt.",
+          "ko": "그는 패스트푸드와 단 음식을 적게 먹습니다.",
+          "pronKo": "아잉 어이 잇 안 도 안 냐잉 바 도 응옷."
+        }
+      ]
+    },
+    {
+      "id": "qb16-health-d-003",
+      "title": "건강 때문에 포기한 일",
+      "audioSrc": "",
+      "sourcePage": 16,
+      "reviewNeeded": false,
+      "lines": [
+        {
+          "speaker": "A",
+          "vi": "Bạn đã bao giờ phải bỏ làm việc gì đó vì sức khỏe chưa?",
+          "ko": "당신은 건강 때문에 무엇인가를 그만둔 적이 있나요?",
+          "pronKo": "반 다 바오 저 파이 보 람 비엑 지 도 비 숙 쾌 쯔어?"
+        },
+        {
+          "speaker": "B",
+          "vi": "Rồi, tôi đã giảm uống cà phê vì sức khỏe.",
+          "ko": "네, 저는 건강 때문에 커피 마시는 것을 줄였습니다.",
+          "pronKo": "조이, 또이 다 잠 우옹 까 페 비 숙 쾌."
+        },
+        {
+          "speaker": "A",
+          "vi": "Vì sao bạn phải từ bỏ thói quen đó?",
+          "ko": "왜 그 습관을 포기해야 했나요?",
+          "pronKo": "비 사오 반 파이 뜨 보 토이 quen 도?"
+        },
+        {
+          "speaker": "B",
+          "vi": "Vì tôi bị mệt, khó ngủ và căng thẳng.",
+          "ko": "제가 피곤하고 잠을 잘 못 자며 스트레스를 받았기 때문입니다.",
+          "pronKo": "비 또이 비 멧, 코 응우 바 깡 탕."
+        }
+      ]
+    }
+  ],
+  "grammarPoints": [
+    {
+      "id": "qb16-health-g-001",
+      "title": "건강한 사람에 대해 말할 수 있나요?",
+      "pattern": "Bạn có thể nói về một người khỏe mạnh mà bạn biết không?",
+      "meaningKo": "당신이 아는 건강한 사람에 대해 말해줄 수 있나요?",
+      "sourcePage": 16,
+      "reviewNeeded": false
+    },
+    {
+      "id": "qb16-health-g-002",
+      "title": "그 사람은 어떻게 생겼나요?",
+      "pattern": "Anh ấy hoặc cô ấy trông như thế nào?",
+      "meaningKo": "그 또는 그녀는 어떻게 생겼나요?",
+      "sourcePage": 16,
+      "reviewNeeded": false
+    },
+    {
+      "id": "qb16-health-g-003",
+      "title": "보통 어떤 음식을 먹나요?",
+      "pattern": "Anh ấy hoặc cô ấy thường ăn những món ăn nào?",
+      "meaningKo": "그 또는 그녀는 보통 어떤 음식들을 먹나요?",
+      "sourcePage": 16,
+      "reviewNeeded": false
+    },
+    {
+      "id": "qb16-health-g-004",
+      "title": "~처럼 보이다",
+      "pattern": "Anh ấy trông rất khỏe mạnh.",
+      "meaningKo": "그는 매우 건강해 보입니다.",
+      "sourcePage": 16,
+      "reviewNeeded": false
+    },
+    {
+      "id": "qb16-health-g-005",
+      "title": "~을 가지고 있다",
+      "pattern": "Anh ấy có thân hình cân đối.",
+      "meaningKo": "그는 균형 잡힌 체형을 가지고 있습니다.",
+      "sourcePage": 16,
+      "reviewNeeded": false
+    },
+    {
+      "id": "qb16-health-g-006",
+      "title": "건강 때문에",
+      "pattern": "Tôi đã từ bỏ đồ ngọt vì sức khỏe.",
+      "meaningKo": "저는 건강 때문에 단 음식을 포기했습니다.",
+      "sourcePage": 16,
+      "reviewNeeded": false
+    },
+    {
+      "id": "qb16-health-g-007",
+      "title": "~한 적이 있나요?",
+      "pattern": "Bạn đã bao giờ phải bỏ làm việc gì đó vì sức khỏe chưa?",
+      "meaningKo": "당신은 건강 때문에 무엇인가를 그만둔 적이 있나요?",
+      "sourcePage": 16,
+      "reviewNeeded": false
+    },
+    {
+      "id": "qb16-health-g-008",
+      "title": "포기해야 했던 일",
+      "pattern": "Việc mà bạn phải từ bỏ là gì?",
+      "meaningKo": "당신이 포기해야 했던 일은 무엇인가요?",
+      "sourcePage": 16,
+      "reviewNeeded": false
+    },
+    {
+      "id": "qb16-health-g-009",
+      "title": "~하려고 노력하다",
+      "pattern": "Tôi cố gắng đi bộ nhiều hơn.",
+      "meaningKo": "저는 더 많이 걸으려고 노력합니다.",
+      "sourcePage": 16,
+      "reviewNeeded": false
+    },
+    {
+      "id": "qb16-health-g-010",
+      "title": "처음에는 ~했지만",
+      "pattern": "Ban đầu việc này hơi khó, nhưng sau vài tuần tôi cảm thấy khỏe hơn.",
+      "meaningKo": "처음에는 이것이 조금 어려웠지만, 몇 주 후 저는 더 건강하다고 느꼈습니다.",
+      "sourcePage": 16,
+      "reviewNeeded": false
+    }
+  ],
+  "pronunciationTargets": [
+    {
+      "id": "qb16-health-p-001",
+      "text": "Bạn có thể nói về một người khỏe mạnh mà bạn biết không?",
+      "hintKo": "당신이 아는 건강한 사람에 대해 말해줄 수 있나요?",
+      "audioSrc": "",
+      "sourcePage": 16,
+      "reviewNeeded": false,
+      "pronKo": "반 꼬 테 노이 베 못 응어이 쾌 마잉 마 반 비엣 콩",
+      "mouthKo": "Bạn có thể nói về / một người khỏe mạnh / mà bạn biết không 로 끊습니다.",
+      "toneKo": "첫 번째 문제의 시작 문장입니다."
+    },
+    {
+      "id": "qb16-health-p-002",
+      "text": "Anh ấy hoặc cô ấy trông như thế nào?",
+      "hintKo": "그 또는 그녀는 어떻게 생겼나요?",
+      "audioSrc": "",
+      "sourcePage": 16,
+      "reviewNeeded": false,
+      "pronKo": "아잉 어이 호악 꼬 어이 쫑 느 테 나오",
+      "mouthKo": "Anh ấy hoặc cô ấy / trông như thế nào 로 끊습니다.",
+      "toneKo": "외모 묘사를 요구하는 문장입니다."
+    },
+    {
+      "id": "qb16-health-p-003",
+      "text": "Anh ấy hoặc cô ấy thường ăn những món ăn nào?",
+      "hintKo": "그 또는 그녀는 보통 어떤 음식들을 먹나요?",
+      "audioSrc": "",
+      "sourcePage": 16,
+      "reviewNeeded": false,
+      "pronKo": "아잉 어이 호악 꼬 어이 트엉 안 능 몬 안 나오",
+      "mouthKo": "Anh ấy hoặc cô ấy / thường ăn / những món ăn nào 로 끊습니다.",
+      "toneKo": "식습관을 설명해야 합니다."
+    },
+    {
+      "id": "qb16-health-p-004",
+      "text": "Bạn đã bao giờ phải bỏ làm việc gì đó vì sức khỏe chưa?",
+      "hintKo": "당신은 건강 때문에 무엇인가를 그만둔 적이 있나요?",
+      "audioSrc": "",
+      "sourcePage": 16,
+      "reviewNeeded": false,
+      "pronKo": "반 다 바오 저 파이 보 람 비엑 지 도 비 숙 쾌 쯔어",
+      "mouthKo": "Bạn đã bao giờ / phải bỏ làm việc gì đó / vì sức khỏe chưa 로 끊습니다.",
+      "toneKo": "과거 경험을 묻는 문장입니다."
+    },
+    {
+      "id": "qb16-health-p-005",
+      "text": "Việc mà bạn phải từ bỏ là gì?",
+      "hintKo": "당신이 포기해야 했던 일은 무엇인가요?",
+      "audioSrc": "",
+      "sourcePage": 16,
+      "reviewNeeded": false,
+      "pronKo": "비엑 마 반 파이 뜨 보 라 지",
+      "mouthKo": "Việc mà bạn phải từ bỏ / là gì 로 끊습니다.",
+      "toneKo": "무엇을 포기했는지 구체적으로 답해야 합니다."
+    },
+    {
+      "id": "qb16-health-p-006",
+      "text": "Tôi đã từng phải bỏ một vài thói quen xấu vì sức khỏe.",
+      "hintKo": "저는 건강 때문에 몇 가지 나쁜 습관을 그만둔 적이 있습니다.",
+      "audioSrc": "",
+      "sourcePage": 16,
+      "reviewNeeded": false,
+      "pronKo": "또이 다 뜽 파이 보 못 바이 토이 quen 써우 비 숙 쾌",
+      "mouthKo": "Tôi đã từng phải bỏ / một vài thói quen xấu / vì sức khỏe 로 끊습니다.",
+      "toneKo": "두 번째 문제 답변 시작 문장으로 외우기 좋습니다."
+    }
+  ],
+  "quizSeeds": [
+    {
+      "id": "qb16-health-q-001",
+      "type": "match-term",
+      "prompt": "건강 핵심 단어 매칭 1",
+      "answerSet": [
+        "sức khỏe-건강",
+        "khỏe mạnh-건강한",
+        "người khỏe mạnh-건강한 사람",
+        "trông như thế nào-어떻게 생겼다",
+        "thân hình-몸매/체형",
+        "cân đối-균형 잡힌"
+      ],
+      "sourcePage": 16,
+      "reviewNeeded": false
+    },
+    {
+      "id": "qb16-health-q-002",
+      "type": "match-term",
+      "prompt": "건강 음식 단어 매칭",
+      "answerSet": [
+        "món ăn-음식/요리",
+        "rau-채소",
+        "trái cây-과일",
+        "thịt gà-닭고기",
+        "cá-생선",
+        "đồ ăn nhanh-패스트푸드",
+        "đồ ngọt-단 음식"
+      ],
+      "sourcePage": 16,
+      "reviewNeeded": false
+    },
+    {
+      "id": "qb16-health-q-003",
+      "type": "match-term",
+      "prompt": "건강 습관 단어 매칭",
+      "answerSet": [
+        "tập thể dục-운동하다",
+        "chạy bộ-조깅하다",
+        "đi bộ-걷다",
+        "ngủ đủ-충분히 자다",
+        "thói quen-습관",
+        "thói quen tốt-좋은 습관",
+        "duy trì-유지하다"
+      ],
+      "sourcePage": 16,
+      "reviewNeeded": false
+    },
+    {
+      "id": "qb16-health-q-004",
+      "type": "match-term",
+      "prompt": "건강 때문에 포기한 일 단어 매칭",
+      "answerSet": [
+        "bỏ-그만두다/포기하다",
+        "từ bỏ-포기하다",
+        "vì sức khỏe-건강 때문에/건강을 위해",
+        "căng thẳng-스트레스 받는",
+        "mệt-피곤하다",
+        "nghỉ ngơi-쉬다",
+        "giảm-줄이다"
+      ],
+      "sourcePage": 16,
+      "reviewNeeded": false
+    },
+    {
+      "id": "qb16-health-q-005",
+      "type": "sentence-meaning",
+      "prompt": "문제은행 건강 질문 뜻 고르기",
+      "answerSet": [
+        "Bạn có thể nói về một người khỏe mạnh mà bạn biết không?-당신이 아는 건강한 사람에 대해 말해줄 수 있나요?",
+        "Anh ấy hoặc cô ấy trông như thế nào?-그 또는 그녀는 어떻게 생겼나요?",
+        "Anh ấy hoặc cô ấy thường ăn những món ăn nào?-그 또는 그녀는 보통 어떤 음식들을 먹나요?",
+        "Bạn đã bao giờ phải bỏ làm việc gì đó vì sức khỏe chưa?-당신은 건강 때문에 무엇인가를 그만둔 적이 있나요?",
+        "Việc mà bạn phải từ bỏ là gì?-당신이 포기해야 했던 일은 무엇인가요?"
+      ],
+      "sourcePage": 16,
+      "reviewNeeded": false
+    },
+    {
+      "id": "qb16-health-q-006",
+      "type": "fill-blank",
+      "prompt": "빈칸 채우기: 건강은 매우 중요합니다.",
+      "question": "___ rất quan trọng.",
+      "answer": "Sức khỏe",
+      "sourcePage": 16,
+      "reviewNeeded": false
+    },
+    {
+      "id": "qb16-health-q-007",
+      "type": "fill-blank",
+      "prompt": "빈칸 채우기: 그는 건강한 사람입니다.",
+      "question": "Anh ấy là một người ___.",
+      "answer": "khỏe mạnh",
+      "sourcePage": 16,
+      "reviewNeeded": false
+    },
+    {
+      "id": "qb16-health-q-008",
+      "type": "fill-blank",
+      "prompt": "빈칸 채우기: 그는 보통 채소와 과일을 먹습니다.",
+      "question": "Anh ấy thường ăn ___ và ___.",
+      "answer": "rau / trái cây",
+      "sourcePage": 16,
+      "reviewNeeded": false
+    },
+    {
+      "id": "qb16-health-q-009",
+      "type": "fill-blank",
+      "prompt": "빈칸 채우기: 저는 건강 때문에 커피를 줄였습니다.",
+      "question": "Tôi giảm uống cà phê ___ ___.",
+      "answer": "vì sức khỏe",
+      "sourcePage": 16,
+      "reviewNeeded": false
+    },
+    {
+      "id": "qb16-health-q-010",
+      "type": "fill-blank",
+      "prompt": "빈칸 채우기: 저는 나쁜 습관을 포기했습니다.",
+      "question": "Tôi đã ___ thói quen xấu.",
+      "answer": "từ bỏ",
+      "sourcePage": 16,
+      "reviewNeeded": false
+    },
+    {
+      "id": "qb16-health-q-011",
+      "type": "match-term",
+      "prompt": "건강한 사람 답변 순서 맞추기",
+      "answerSet": [
+        "1-Tôi có thể nói về một người khỏe mạnh mà tôi biết.",
+        "2-Đó là một đồng nghiệp của tôi.",
+        "3-Anh ấy cao, thân hình cân đối và trông rất trẻ.",
+        "4-Mỗi sáng, anh ấy thường chạy bộ khoảng ba mươi phút.",
+        "5-Anh ấy thường ăn rau, cá, thịt gà và trái cây.",
+        "6-Nhìn anh ấy, tôi cũng muốn sống khỏe hơn."
+      ],
+      "sourcePage": 16,
+      "reviewNeeded": false
+    },
+    {
+      "id": "qb16-health-q-012",
+      "type": "match-term",
+      "prompt": "건강 때문에 포기한 일 답변 순서 맞추기",
+      "answerSet": [
+        "1-Tôi đã từng phải bỏ một vài thói quen xấu vì sức khỏe.",
+        "2-Trước đây, tôi thường uống cà phê quá nhiều và ngủ rất muộn.",
+        "3-Sau một thời gian, tôi cảm thấy rất mệt và khó ngủ.",
+        "4-Vì vậy tôi quyết định thay đổi thói quen của mình.",
+        "5-Tôi giảm xuống còn một ly cà phê mỗi ngày.",
+        "6-Bây giờ tôi hiểu rằng sức khỏe quan trọng hơn sự thoải mái tạm thời."
+      ],
+      "sourcePage": 16,
+      "reviewNeeded": false
+    }
+  ],
+  "unlockCondition": "always",
+  "reviewNeeded": false
+},
+    {
   "lessonId": "question-bank-015-reservation",
   "unitLabel": "문제은행",
   "titleKo": "문제은행15: 예약",
