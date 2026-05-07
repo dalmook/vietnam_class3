@@ -6,6 +6,848 @@
   },
   "lessons": [
     {
+  "lessonId": "question-bank-015-reservation",
+  "unitLabel": "문제은행",
+  "titleKo": "문제은행15: 예약",
+  "titleVi": "Ngân hàng câu hỏi 15: Đặt trước",
+  "pageRange": "문제은행 / 예약",
+  "goals": [
+    "어디에 예약을 하는지 말할 수 있다",
+    "예약 방법을 설명할 수 있다",
+    "식당, 호텔, 병원, 영화관, 여행 관련 예약을 말할 수 있다",
+    "예약과 관련된 기억에 남는 경험을 설명할 수 있다",
+    "예상치 못한 상황과 대처 방법을 말할 수 있다"
+  ],
+  "topicOverview": "예약 주제는 OPIc에서 일상생활과 경험 문제가 함께 나올 수 있는 주제입니다. 첫 번째 문제는 '어디에 예약하는지 → 어떻게 예약하는지 → 왜 예약하는지 → 실제 예시' 순서로 답하면 좋습니다. 두 번째 문제는 '언제 → 무엇을 예약했는지 → 예상치 못한 문제 → 어떻게 대처했는지 → 느낀 점' 순서로 말하면 자연스럽습니다.",
+  "cultureTopics": [
+    "예약",
+    "식당 예약",
+    "호텔 예약",
+    "병원 예약",
+    "영화표 예약",
+    "비행기표 예약",
+    "앱 예약",
+    "전화 예약",
+    "온라인 예약",
+    "예약 확인",
+    "예약 취소",
+    "예약 변경",
+    "예상치 못한 문제",
+    "상황 대처"
+  ],
+  "vocabCards": [
+    {
+      "id": "qb15-reservation-v-001",
+      "term": "đặt trước",
+      "meaningKo": "예약하다 / 미리 예약하다",
+      "example": "Tôi thường đặt trước qua app.",
+      "exampleMeaningKo": "저는 보통 앱으로 미리 예약합니다.",
+      "audioSrc": "",
+      "sourcePage": 15,
+      "reviewNeeded": false,
+      "pronKo": "닷 쯔억",
+      "pronNoteKo": "예약 주제의 핵심 표현입니다.",
+      "pronChunks": ["đặt=닷", "trước=쯔억"]
+    },
+    {
+      "id": "qb15-reservation-v-002",
+      "term": "đặt chỗ",
+      "meaningKo": "자리를 예약하다",
+      "example": "Tôi đặt chỗ ở nhà hàng.",
+      "exampleMeaningKo": "저는 식당에 자리를 예약합니다.",
+      "audioSrc": "",
+      "sourcePage": 15,
+      "reviewNeeded": false,
+      "pronKo": "닷 쪼",
+      "pronNoteKo": "식당, 공연, 교통편 자리 예약에 자주 씁니다.",
+      "pronChunks": ["đặt=닷", "chỗ=쪼"]
+    },
+    {
+      "id": "qb15-reservation-v-003",
+      "term": "đặt bàn",
+      "meaningKo": "테이블을 예약하다",
+      "example": "Tôi đặt bàn cho bốn người.",
+      "exampleMeaningKo": "저는 네 명 자리를 예약합니다.",
+      "audioSrc": "",
+      "sourcePage": 15,
+      "reviewNeeded": false,
+      "pronKo": "닷 반",
+      "pronNoteKo": "식당 예약에 가장 자연스럽습니다.",
+      "pronChunks": ["đặt=닷", "bàn=반"]
+    },
+    {
+      "id": "qb15-reservation-v-004",
+      "term": "đặt phòng",
+      "meaningKo": "방을 예약하다",
+      "example": "Tôi đặt phòng khách sạn trên mạng.",
+      "exampleMeaningKo": "저는 인터넷에서 호텔 방을 예약합니다.",
+      "audioSrc": "",
+      "sourcePage": 15,
+      "reviewNeeded": false,
+      "pronKo": "닷 퐁",
+      "pronNoteKo": "호텔, 숙소 예약에 씁니다.",
+      "pronChunks": ["đặt=닷", "phòng=퐁"]
+    },
+    {
+      "id": "qb15-reservation-v-005",
+      "term": "đặt vé",
+      "meaningKo": "표를 예약하다",
+      "example": "Tôi đặt vé xem phim trước.",
+      "exampleMeaningKo": "저는 영화표를 미리 예약합니다.",
+      "audioSrc": "",
+      "sourcePage": 15,
+      "reviewNeeded": false,
+      "pronKo": "닷 베",
+      "pronNoteKo": "영화표, 기차표, 비행기표 예약에 씁니다.",
+      "pronChunks": ["đặt=닷", "vé=베"]
+    },
+    {
+      "id": "qb15-reservation-v-006",
+      "term": "đặt lịch",
+      "meaningKo": "일정을 예약하다 / 예약 일정을 잡다",
+      "example": "Tôi đặt lịch khám bệnh qua điện thoại.",
+      "exampleMeaningKo": "저는 전화로 진료 예약을 잡습니다.",
+      "audioSrc": "",
+      "sourcePage": 15,
+      "reviewNeeded": false,
+      "pronKo": "닷 릭",
+      "pronNoteKo": "병원, 미용실, 상담 예약에 좋습니다.",
+      "pronChunks": ["đặt=닷", "lịch=릭"]
+    },
+    {
+      "id": "qb15-reservation-v-007",
+      "term": "nhà hàng",
+      "meaningKo": "식당",
+      "example": "Tôi thường đặt bàn ở nhà hàng.",
+      "exampleMeaningKo": "저는 보통 식당에 테이블을 예약합니다.",
+      "audioSrc": "",
+      "sourcePage": 15,
+      "reviewNeeded": false,
+      "pronKo": "냐 항",
+      "pronNoteKo": "식당 예약 답변에 자주 사용합니다.",
+      "pronChunks": ["nhà=냐", "hàng=항"]
+    },
+    {
+      "id": "qb15-reservation-v-008",
+      "term": "khách sạn",
+      "meaningKo": "호텔",
+      "example": "Khi đi du lịch, tôi đặt phòng khách sạn.",
+      "exampleMeaningKo": "여행 갈 때 저는 호텔 방을 예약합니다.",
+      "audioSrc": "",
+      "sourcePage": 15,
+      "reviewNeeded": false,
+      "pronKo": "카익 산",
+      "pronNoteKo": "호텔 예약에 꼭 필요한 단어입니다.",
+      "pronChunks": ["khách=카익", "sạn=산"]
+    },
+    {
+      "id": "qb15-reservation-v-009",
+      "term": "bệnh viện",
+      "meaningKo": "병원",
+      "example": "Tôi đặt lịch ở bệnh viện.",
+      "exampleMeaningKo": "저는 병원에 예약을 잡습니다.",
+      "audioSrc": "",
+      "sourcePage": 15,
+      "reviewNeeded": false,
+      "pronKo": "베잉 비엔",
+      "pronNoteKo": "병원 예약을 말할 때 씁니다.",
+      "pronChunks": ["bệnh=베잉", "viện=비엔"]
+    },
+    {
+      "id": "qb15-reservation-v-010",
+      "term": "rạp chiếu phim",
+      "meaningKo": "영화관",
+      "example": "Tôi đặt vé ở rạp chiếu phim.",
+      "exampleMeaningKo": "저는 영화관 표를 예약합니다.",
+      "audioSrc": "",
+      "sourcePage": 15,
+      "reviewNeeded": false,
+      "pronKo": "잡 찌에우 핌",
+      "pronNoteKo": "영화관을 말합니다.",
+      "pronChunks": ["rạp=잡", "chiếu phim=찌에우 핌"]
+    },
+    {
+      "id": "qb15-reservation-v-011",
+      "term": "vé máy bay",
+      "meaningKo": "비행기표",
+      "example": "Tôi đặt vé máy bay trước khi đi du lịch.",
+      "exampleMeaningKo": "저는 여행 가기 전에 비행기표를 예약합니다.",
+      "audioSrc": "",
+      "sourcePage": 15,
+      "reviewNeeded": false,
+      "pronKo": "베 마이 바이",
+      "pronNoteKo": "여행 예약 문제에 유용합니다.",
+      "pronChunks": ["vé=베", "máy bay=마이 바이"]
+    },
+    {
+      "id": "qb15-reservation-v-012",
+      "term": "ứng dụng",
+      "meaningKo": "앱",
+      "example": "Tôi đặt trước bằng ứng dụng.",
+      "exampleMeaningKo": "저는 앱으로 예약합니다.",
+      "audioSrc": "",
+      "sourcePage": 15,
+      "reviewNeeded": false,
+      "pronKo": "응 중",
+      "pronNoteKo": "앱으로 예약할 때 씁니다.",
+      "pronChunks": ["ứng=응", "dụng=중"]
+    },
+    {
+      "id": "qb15-reservation-v-013",
+      "term": "trên mạng",
+      "meaningKo": "인터넷에서",
+      "example": "Tôi thường đặt phòng trên mạng.",
+      "exampleMeaningKo": "저는 보통 인터넷에서 방을 예약합니다.",
+      "audioSrc": "",
+      "sourcePage": 15,
+      "reviewNeeded": false,
+      "pronKo": "쩬 망",
+      "pronNoteKo": "온라인 예약 설명에 좋습니다.",
+      "pronChunks": ["trên=쩬", "mạng=망"]
+    },
+    {
+      "id": "qb15-reservation-v-014",
+      "term": "qua điện thoại",
+      "meaningKo": "전화로 / 휴대폰으로",
+      "example": "Tôi đặt lịch qua điện thoại.",
+      "exampleMeaningKo": "저는 전화로 예약 일정을 잡습니다.",
+      "audioSrc": "",
+      "sourcePage": 15,
+      "reviewNeeded": false,
+      "pronKo": "꽈 디엔 토아이",
+      "pronNoteKo": "예약 방법을 말할 때 좋습니다.",
+      "pronChunks": ["qua=꽈", "điện thoại=디엔 토아이"]
+    },
+    {
+      "id": "qb15-reservation-v-015",
+      "term": "gọi điện",
+      "meaningKo": "전화하다",
+      "example": "Tôi gọi điện để đặt bàn.",
+      "exampleMeaningKo": "저는 테이블을 예약하기 위해 전화합니다.",
+      "audioSrc": "",
+      "sourcePage": 15,
+      "reviewNeeded": false,
+      "pronKo": "고이 디엔",
+      "pronNoteKo": "전화 예약 표현입니다.",
+      "pronChunks": ["gọi=고이", "điện=디엔"]
+    },
+    {
+      "id": "qb15-reservation-v-016",
+      "term": "xác nhận",
+      "meaningKo": "확인하다 / 확인",
+      "example": "Tôi luôn xác nhận lại thông tin đặt trước.",
+      "exampleMeaningKo": "저는 항상 예약 정보를 다시 확인합니다.",
+      "audioSrc": "",
+      "sourcePage": 15,
+      "reviewNeeded": false,
+      "pronKo": "싹 년",
+      "pronNoteKo": "예약 확인에 핵심 표현입니다.",
+      "pronChunks": ["xác=싹", "nhận=년"]
+    },
+    {
+      "id": "qb15-reservation-v-017",
+      "term": "hủy đặt trước",
+      "meaningKo": "예약을 취소하다",
+      "example": "Tôi phải hủy đặt trước vì có việc đột xuất.",
+      "exampleMeaningKo": "저는 갑작스러운 일이 있어서 예약을 취소해야 했습니다.",
+      "audioSrc": "",
+      "sourcePage": 15,
+      "reviewNeeded": false,
+      "pronKo": "휘 닷 쯔억",
+      "pronNoteKo": "예약 취소 표현입니다.",
+      "pronChunks": ["hủy=휘", "đặt trước=닷 쯔억"]
+    },
+    {
+      "id": "qb15-reservation-v-018",
+      "term": "thay đổi đặt trước",
+      "meaningKo": "예약을 변경하다",
+      "example": "Tôi thay đổi đặt trước sang ngày khác.",
+      "exampleMeaningKo": "저는 예약을 다른 날로 변경했습니다.",
+      "audioSrc": "",
+      "sourcePage": 15,
+      "reviewNeeded": false,
+      "pronKo": "타이 도이 닷 쯔억",
+      "pronNoteKo": "예약 변경 상황에서 씁니다.",
+      "pronChunks": ["thay đổi=타이 도이", "đặt trước=닷 쯔억"]
+    },
+    {
+      "id": "qb15-reservation-v-019",
+      "term": "thông tin đặt trước",
+      "meaningKo": "예약 정보",
+      "example": "Tôi kiểm tra thông tin đặt trước trước khi đi.",
+      "exampleMeaningKo": "저는 가기 전에 예약 정보를 확인합니다.",
+      "audioSrc": "",
+      "sourcePage": 15,
+      "reviewNeeded": false,
+      "pronKo": "통 띤 닷 쯔억",
+      "pronNoteKo": "예약 확인 답변에 좋습니다.",
+      "pronChunks": ["thông tin=통 띤", "đặt trước=닷 쯔억"]
+    },
+    {
+      "id": "qb15-reservation-v-020",
+      "term": "mã đặt chỗ",
+      "meaningKo": "예약 번호 / 예약 코드",
+      "example": "Tôi quên mã đặt chỗ.",
+      "exampleMeaningKo": "저는 예약 번호를 잊어버렸습니다.",
+      "audioSrc": "",
+      "sourcePage": 15,
+      "reviewNeeded": false,
+      "pronKo": "마 닷 쪼",
+      "pronNoteKo": "예약 경험 문제에서 사용하기 좋습니다.",
+      "pronChunks": ["mã=마", "đặt chỗ=닷 쪼"]
+    },
+    {
+      "id": "qb15-reservation-v-021",
+      "term": "nhầm ngày",
+      "meaningKo": "날짜를 착각하다",
+      "example": "Tôi nhầm ngày đặt trước.",
+      "exampleMeaningKo": "저는 예약 날짜를 착각했습니다.",
+      "audioSrc": "",
+      "sourcePage": 15,
+      "reviewNeeded": false,
+      "pronKo": "념 응아이",
+      "pronNoteKo": "예상치 못한 예약 문제에 좋습니다.",
+      "pronChunks": ["nhầm=념", "ngày=응아이"]
+    },
+    {
+      "id": "qb15-reservation-v-022",
+      "term": "nhầm giờ",
+      "meaningKo": "시간을 착각하다",
+      "example": "Tôi nhầm giờ đặt trước.",
+      "exampleMeaningKo": "저는 예약 시간을 착각했습니다.",
+      "audioSrc": "",
+      "sourcePage": 15,
+      "reviewNeeded": false,
+      "pronKo": "념 저",
+      "pronNoteKo": "예약 시간 실수에 씁니다.",
+      "pronChunks": ["nhầm=념", "giờ=저"]
+    },
+    {
+      "id": "qb15-reservation-v-023",
+      "term": "hết chỗ",
+      "meaningKo": "자리가 없다 / 만석이다",
+      "example": "Nhà hàng đã hết chỗ.",
+      "exampleMeaningKo": "식당은 이미 만석이었습니다.",
+      "audioSrc": "",
+      "sourcePage": 15,
+      "reviewNeeded": false,
+      "pronKo": "헷 쪼",
+      "pronNoteKo": "예약하지 않았을 때 생기는 문제로 좋습니다.",
+      "pronChunks": ["hết=헷", "chỗ=쪼"]
+    },
+    {
+      "id": "qb15-reservation-v-024",
+      "term": "bất ngờ",
+      "meaningKo": "예상치 못한 / 갑작스러운",
+      "example": "Một chuyện bất ngờ đã xảy ra.",
+      "exampleMeaningKo": "예상치 못한 일이 일어났습니다.",
+      "audioSrc": "",
+      "sourcePage": 15,
+      "reviewNeeded": false,
+      "pronKo": "벗 응어",
+      "pronNoteKo": "두 번째 문제 핵심 단어입니다.",
+      "pronChunks": ["bất=벗", "ngờ=응어"]
+    },
+    {
+      "id": "qb15-reservation-v-025",
+      "term": "đối phó",
+      "meaningKo": "대처하다",
+      "example": "Tôi đã đối phó với tình huống đó khá tốt.",
+      "exampleMeaningKo": "저는 그 상황에 꽤 잘 대처했습니다.",
+      "audioSrc": "",
+      "sourcePage": 15,
+      "reviewNeeded": false,
+      "pronKo": "도이 포",
+      "pronNoteKo": "예상치 못한 상황에 어떻게 대처했는지 말할 때 씁니다.",
+      "pronChunks": ["đối=도이", "phó=포"]
+    },
+    {
+      "id": "qb15-reservation-v-026",
+      "term": "tình huống",
+      "meaningKo": "상황",
+      "example": "Tình huống đó làm tôi hơi lo lắng.",
+      "exampleMeaningKo": "그 상황은 저를 조금 걱정하게 했습니다.",
+      "audioSrc": "",
+      "sourcePage": 15,
+      "reviewNeeded": false,
+      "pronKo": "띤 후옹",
+      "pronNoteKo": "경험 문제에서 자주 씁니다.",
+      "pronChunks": ["tình=띤", "huống=후옹"]
+    },
+    {
+      "id": "qb15-reservation-v-027",
+      "term": "giải quyết",
+      "meaningKo": "해결하다",
+      "example": "Tôi đã giải quyết vấn đề bằng cách gọi điện.",
+      "exampleMeaningKo": "저는 전화하는 방식으로 문제를 해결했습니다.",
+      "audioSrc": "",
+      "sourcePage": 15,
+      "reviewNeeded": false,
+      "pronKo": "자이 꾸옛",
+      "pronNoteKo": "대처 방법을 설명할 때 좋습니다.",
+      "pronChunks": ["giải=자이", "quyết=꾸옛"]
+    },
+    {
+      "id": "qb15-reservation-v-028",
+      "term": "nhân viên",
+      "meaningKo": "직원",
+      "example": "Nhân viên đã giúp tôi thay đổi đặt trước.",
+      "exampleMeaningKo": "직원이 제가 예약을 변경하도록 도와주었습니다.",
+      "audioSrc": "",
+      "sourcePage": 15,
+      "reviewNeeded": false,
+      "pronKo": "년 비엔",
+      "pronNoteKo": "문제 해결 경험에서 유용합니다.",
+      "pronChunks": ["nhân=년", "viên=비엔"]
+    }
+  ],
+  "sentenceCards": [
+    {
+      "id": "qb15-reservation-s-001",
+      "textVi": "Bạn thường đặt trước ở đâu? Bạn thường đặt trước như thế nào? Hãy kể cho tôi nghe về việc đặt trước ở nơi nào đó.",
+      "textKo": "당신은 보통 어디에 예약을 하나요? 당신은 어떻게 예약을 하나요? 어떤 곳에 예약을 하는 것에 대해 말해주세요.",
+      "exampleAnswerVi": "Tôi thường đặt trước ở nhà hàng, khách sạn, bệnh viện hoặc rạp chiếu phim. Trong cuộc sống hằng ngày, tôi đặt trước nhiều nhất ở nhà hàng. Nếu cuối tuần tôi muốn đi ăn với gia đình, tôi thường đặt bàn trước qua app hoặc gọi điện trực tiếp cho nhà hàng. Khi đặt trước, tôi kiểm tra ngày, giờ, số người và địa điểm rất kỹ. Sau đó, tôi nhận tin nhắn xác nhận trên điện thoại. Tôi thích đặt trước vì tôi không phải chờ lâu và có thể chuẩn bị kế hoạch dễ hơn. Ví dụ, cuối tuần trước tôi đã đặt bàn ở một nhà hàng Việt Nam cho bốn người. Tôi đặt trước vào buổi sáng, sau đó buổi tối tôi đến đó với gia đình. Nhờ đặt trước, chúng tôi có chỗ ngồi tốt và bữa ăn rất thoải mái. Theo tôi, đặt trước rất tiện lợi và cần thiết, đặc biệt là vào cuối tuần.",
+      "exampleAnswerKo": "저는 보통 식당, 호텔, 병원 또는 영화관에 예약을 합니다. 일상생활에서 저는 식당 예약을 가장 많이 합니다. 주말에 가족과 외식하고 싶으면 저는 보통 앱으로 미리 테이블을 예약하거나 식당에 직접 전화합니다. 예약할 때 저는 날짜, 시간, 인원수, 장소를 아주 꼼꼼히 확인합니다. 그 후 휴대폰으로 확인 메시지를 받습니다. 저는 예약하는 것을 좋아합니다. 왜냐하면 오래 기다릴 필요가 없고 계획을 더 쉽게 준비할 수 있기 때문입니다. 예를 들어 지난 주말에 저는 네 명 자리를 위해 베트남 식당에 테이블을 예약했습니다. 저는 아침에 예약했고, 저녁에 가족과 그곳에 갔습니다. 예약 덕분에 우리는 좋은 자리에 앉을 수 있었고 식사가 매우 편안했습니다. 제 생각에 예약은 매우 편리하고 필요합니다. 특히 주말에는 더 그렇습니다.",
+      "audioSrc": "",
+      "sourcePage": 15,
+      "reviewNeeded": false,
+      "pronKo": "반 트엉 닷 쯔억 어 더우? 반 트엉 닷 쯔억 느 테 나오? 하이 께 쪼 또이 응에 베 비엑 닷 쯔억 어 너이 나오 도.",
+      "exampleAnswerPronKo": "또이 트엉 닷 쯔억 어 냐 항, 카익 산, 베잉 비엔 호악 잡 찌에우 핌.",
+      "pronNoteKo": "이 문제는 예약 습관 문제입니다. 어디에 예약하는지 → 방법 → 이유 → 실제 예시 순서로 답하세요."
+    },
+    {
+      "id": "qb15-reservation-s-002",
+      "textVi": "Hãy cho tôi biết về một trải nghiệm đáng nhớ liên quan đến đặt trước. Chuyện gì bất ngờ đã xảy ra? Bạn đã đối phó với tình huống đó như thế nào?",
+      "textKo": "예약에 관한 기억에 남는 경험에 관해 알려주세요. 어떤 예상치 못한 일이 발생했나요? 당신은 그 상황을 어떻게 대처했나요?",
+      "exampleAnswerVi": "Tôi có một trải nghiệm đáng nhớ liên quan đến đặt trước. Chuyện đó xảy ra khoảng sáu tháng trước. Lúc đó, tôi đặt bàn ở một nhà hàng nổi tiếng để ăn tối với gia đình. Tôi đặt trước qua app và nhận được tin nhắn xác nhận. Nhưng khi chúng tôi đến nhà hàng, nhân viên nói rằng họ không tìm thấy thông tin đặt trước của tôi. Tôi rất bất ngờ và hơi lo lắng vì hôm đó là cuối tuần, nhà hàng rất đông và gần như hết chỗ. Trước tiên, tôi mở điện thoại và cho nhân viên xem tin nhắn xác nhận. Sau đó, nhân viên kiểm tra lại hệ thống và phát hiện tên của tôi bị nhập sai. May mắn là họ vẫn còn một bàn trống, nên chúng tôi có thể ăn ở đó. Sau trải nghiệm đó, tôi luôn kiểm tra kỹ mã đặt chỗ, ngày, giờ và tên trước khi đi. Tôi nghĩ đó là một trải nghiệm hơi căng thẳng, nhưng tôi đã học được rằng việc xác nhận lại thông tin đặt trước rất quan trọng.",
+      "exampleAnswerKo": "저는 예약과 관련된 기억에 남는 경험이 하나 있습니다. 그 일은 약 6개월 전에 일어났습니다. 그때 저는 가족과 저녁을 먹기 위해 유명한 식당에 테이블을 예약했습니다. 저는 앱으로 미리 예약했고 확인 메시지도 받았습니다. 하지만 우리가 식당에 도착했을 때 직원이 제 예약 정보를 찾을 수 없다고 말했습니다. 그날은 주말이었고 식당이 매우 붐볐으며 거의 만석이었기 때문에 저는 매우 놀랐고 조금 걱정했습니다. 먼저 저는 휴대폰을 열고 직원에게 확인 메시지를 보여주었습니다. 그 후 직원이 시스템을 다시 확인했고 제 이름이 잘못 입력되어 있었다는 것을 발견했습니다. 다행히 빈 테이블이 하나 남아 있어서 우리는 그곳에서 식사할 수 있었습니다. 그 경험 이후 저는 가기 전에 항상 예약 번호, 날짜, 시간, 이름을 꼼꼼히 확인합니다. 저는 그것이 조금 긴장되는 경험이었지만 예약 정보를 다시 확인하는 것이 매우 중요하다는 것을 배웠다고 생각합니다.",
+      "audioSrc": "",
+      "sourcePage": 15,
+      "reviewNeeded": false,
+      "pronKo": "하이 쪼 또이 비엣 베 못 짜이 응이엠 당 녀 리엔 꽌 덴 닷 쯔억. 쭈옌 지 벗 응어 다 싸이 라? 반 다 도이 포 버이 띤 후옹 도 느 테 나오?",
+      "exampleAnswerPronKo": "또이 꼬 못 짜이 응이엠 당 녀 리엔 꽌 덴 닷 쯔억. 쭈옌 도 싸이 라 꽝 싸우 탕 쯔억.",
+      "pronNoteKo": "이 문제는 돌발 상황 경험 문제입니다. 언제 → 무엇을 예약했는지 → 문제 → 대처 → 배운 점 순서가 좋습니다."
+    }
+  ],
+  "dialogues": [
+    {
+      "id": "qb15-reservation-d-001",
+      "title": "예약을 어디에 하나요?",
+      "audioSrc": "",
+      "sourcePage": 15,
+      "reviewNeeded": false,
+      "lines": [
+        {
+          "speaker": "A",
+          "vi": "Bạn thường đặt trước ở đâu?",
+          "ko": "당신은 보통 어디에 예약을 하나요?",
+          "pronKo": "반 트엉 닷 쯔억 어 더우?"
+        },
+        {
+          "speaker": "B",
+          "vi": "Tôi thường đặt trước ở nhà hàng hoặc bệnh viện.",
+          "ko": "저는 보통 식당이나 병원에 예약합니다.",
+          "pronKo": "또이 트엉 닷 쯔억 어 냐 항 호악 베잉 비엔."
+        },
+        {
+          "speaker": "A",
+          "vi": "Bạn thường đặt trước như thế nào?",
+          "ko": "당신은 보통 어떻게 예약하나요?",
+          "pronKo": "반 트엉 닷 쯔억 느 테 나오?"
+        },
+        {
+          "speaker": "B",
+          "vi": "Tôi thường đặt trước qua app hoặc gọi điện.",
+          "ko": "저는 보통 앱으로 예약하거나 전화합니다.",
+          "pronKo": "또이 트엉 닷 쯔억 꽈 앱 호악 고이 디엔."
+        }
+      ]
+    },
+    {
+      "id": "qb15-reservation-d-002",
+      "title": "식당 예약",
+      "audioSrc": "",
+      "sourcePage": 15,
+      "reviewNeeded": false,
+      "lines": [
+        {
+          "speaker": "A",
+          "vi": "Khi đi ăn với gia đình, bạn có đặt bàn trước không?",
+          "ko": "가족과 외식할 때 당신은 테이블을 미리 예약하나요?",
+          "pronKo": "키 디 안 버이 자 딩, 반 꼬 닷 반 쯔억 콩?"
+        },
+        {
+          "speaker": "B",
+          "vi": "Có, tôi thường đặt bàn trước vì cuối tuần nhà hàng rất đông.",
+          "ko": "네, 주말에는 식당이 매우 붐비기 때문에 저는 보통 테이블을 미리 예약합니다.",
+          "pronKo": "꼬, 또이 트엉 닷 반 쯔억 비 꾸오이 뚜언 냐 항 젓 동."
+        },
+        {
+          "speaker": "A",
+          "vi": "Bạn kiểm tra thông tin gì khi đặt trước?",
+          "ko": "예약할 때 어떤 정보를 확인하나요?",
+          "pronKo": "반 끼엠 짜 통 띤 지 키 닷 쯔억?"
+        },
+        {
+          "speaker": "B",
+          "vi": "Tôi kiểm tra ngày, giờ, số người và địa điểm.",
+          "ko": "저는 날짜, 시간, 인원수, 장소를 확인합니다.",
+          "pronKo": "또이 끼엠 짜 응아이, 저, 쏘 응어이 바 디아 디엠."
+        }
+      ]
+    },
+    {
+      "id": "qb15-reservation-d-003",
+      "title": "예약 문제 대처",
+      "audioSrc": "",
+      "sourcePage": 15,
+      "reviewNeeded": false,
+      "lines": [
+        {
+          "speaker": "A",
+          "vi": "Bạn đã từng gặp vấn đề khi đặt trước chưa?",
+          "ko": "예약할 때 문제를 겪어본 적이 있나요?",
+          "pronKo": "반 다 뜽 갑 번 데 키 닷 쯔억 쯔어?"
+        },
+        {
+          "speaker": "B",
+          "vi": "Rồi, một lần nhà hàng không tìm thấy thông tin đặt trước của tôi.",
+          "ko": "네, 한 번은 식당이 제 예약 정보를 찾지 못했습니다.",
+          "pronKo": "조이, 못 런 냐 항 콩 띰 터이 통 띤 닷 쯔억 꾸아 또이."
+        },
+        {
+          "speaker": "A",
+          "vi": "Bạn đã đối phó với tình huống đó như thế nào?",
+          "ko": "당신은 그 상황에 어떻게 대처했나요?",
+          "pronKo": "반 다 도이 포 버이 띤 후옹 도 느 테 나오?"
+        },
+        {
+          "speaker": "B",
+          "vi": "Tôi cho nhân viên xem tin nhắn xác nhận và họ kiểm tra lại hệ thống.",
+          "ko": "저는 직원에게 확인 메시지를 보여주었고 그들은 시스템을 다시 확인했습니다.",
+          "pronKo": "또이 쪼 년 비엔 쎔 띤 냔 싹 년 바 호 끼엠 짜 라이 헤 통."
+        }
+      ]
+    }
+  ],
+  "grammarPoints": [
+    {
+      "id": "qb15-reservation-g-001",
+      "title": "보통 어디에 예약하나요?",
+      "pattern": "Bạn thường đặt trước ở đâu?",
+      "meaningKo": "당신은 보통 어디에 예약하나요?",
+      "sourcePage": 15,
+      "reviewNeeded": false
+    },
+    {
+      "id": "qb15-reservation-g-002",
+      "title": "보통 어떻게 예약하나요?",
+      "pattern": "Bạn thường đặt trước như thế nào?",
+      "meaningKo": "당신은 보통 어떻게 예약하나요?",
+      "sourcePage": 15,
+      "reviewNeeded": false
+    },
+    {
+      "id": "qb15-reservation-g-003",
+      "title": "~에 예약하다",
+      "pattern": "Tôi đặt trước ở nhà hàng.",
+      "meaningKo": "저는 식당에 예약합니다.",
+      "sourcePage": 15,
+      "reviewNeeded": false
+    },
+    {
+      "id": "qb15-reservation-g-004",
+      "title": "~로 예약하다",
+      "pattern": "Tôi đặt trước qua app.",
+      "meaningKo": "저는 앱으로 예약합니다.",
+      "sourcePage": 15,
+      "reviewNeeded": false
+    },
+    {
+      "id": "qb15-reservation-g-005",
+      "title": "~하기 위해 예약하다",
+      "pattern": "Tôi đặt bàn để ăn tối với gia đình.",
+      "meaningKo": "저는 가족과 저녁을 먹기 위해 테이블을 예약합니다.",
+      "sourcePage": 15,
+      "reviewNeeded": false
+    },
+    {
+      "id": "qb15-reservation-g-006",
+      "title": "기억에 남는 경험",
+      "pattern": "Tôi có một trải nghiệm đáng nhớ liên quan đến đặt trước.",
+      "meaningKo": "저는 예약과 관련된 기억에 남는 경험이 있습니다.",
+      "sourcePage": 15,
+      "reviewNeeded": false
+    },
+    {
+      "id": "qb15-reservation-g-007",
+      "title": "예상치 못한 일이 일어나다",
+      "pattern": "Một chuyện bất ngờ đã xảy ra.",
+      "meaningKo": "예상치 못한 일이 일어났습니다.",
+      "sourcePage": 15,
+      "reviewNeeded": false
+    },
+    {
+      "id": "qb15-reservation-g-008",
+      "title": "상황에 대처하다",
+      "pattern": "Tôi đã đối phó với tình huống đó.",
+      "meaningKo": "저는 그 상황에 대처했습니다.",
+      "sourcePage": 15,
+      "reviewNeeded": false
+    },
+    {
+      "id": "qb15-reservation-g-009",
+      "title": "~한 후에",
+      "pattern": "Sau đó, nhân viên kiểm tra lại hệ thống.",
+      "meaningKo": "그 후 직원이 시스템을 다시 확인했습니다.",
+      "sourcePage": 15,
+      "reviewNeeded": false
+    },
+    {
+      "id": "qb15-reservation-g-010",
+      "title": "~하기 전에",
+      "pattern": "Tôi kiểm tra thông tin đặt trước trước khi đi.",
+      "meaningKo": "저는 가기 전에 예약 정보를 확인합니다.",
+      "sourcePage": 15,
+      "reviewNeeded": false
+    }
+  ],
+  "pronunciationTargets": [
+    {
+      "id": "qb15-reservation-p-001",
+      "text": "Bạn thường đặt trước ở đâu?",
+      "hintKo": "당신은 보통 어디에 예약하나요?",
+      "audioSrc": "",
+      "sourcePage": 15,
+      "reviewNeeded": false,
+      "pronKo": "반 트엉 닷 쯔억 어 더우",
+      "mouthKo": "Bạn thường / đặt trước / ở đâu 로 끊습니다.",
+      "toneKo": "예약 장소를 묻는 핵심 문장입니다."
+    },
+    {
+      "id": "qb15-reservation-p-002",
+      "text": "Bạn thường đặt trước như thế nào?",
+      "hintKo": "당신은 보통 어떻게 예약하나요?",
+      "audioSrc": "",
+      "sourcePage": 15,
+      "reviewNeeded": false,
+      "pronKo": "반 트엉 닷 쯔억 느 테 나오",
+      "mouthKo": "Bạn thường / đặt trước / như thế nào 로 끊습니다.",
+      "toneKo": "예약 방법을 묻는 문장입니다."
+    },
+    {
+      "id": "qb15-reservation-p-003",
+      "text": "Hãy kể cho tôi nghe về việc đặt trước ở nơi nào đó.",
+      "hintKo": "어떤 곳에 예약하는 것에 대해 말해주세요.",
+      "audioSrc": "",
+      "sourcePage": 15,
+      "reviewNeeded": false,
+      "pronKo": "하이 께 쪼 또이 응에 베 비엑 닷 쯔억 어 너이 나오 도",
+      "mouthKo": "Hãy kể cho tôi nghe / về việc đặt trước / ở nơi nào đó 로 끊습니다.",
+      "toneKo": "예약 경험이나 습관을 자세히 말하라는 문장입니다."
+    },
+    {
+      "id": "qb15-reservation-p-004",
+      "text": "Hãy cho tôi biết về một trải nghiệm đáng nhớ liên quan đến đặt trước.",
+      "hintKo": "예약에 관한 기억에 남는 경험에 관해 알려주세요.",
+      "audioSrc": "",
+      "sourcePage": 15,
+      "reviewNeeded": false,
+      "pronKo": "하이 쪼 또이 비엣 베 못 짜이 응이엠 당 녀 리엔 꽌 덴 닷 쯔억",
+      "mouthKo": "Hãy cho tôi biết / về một trải nghiệm đáng nhớ / liên quan đến đặt trước 로 끊습니다.",
+      "toneKo": "예약 경험 문제의 시작 문장입니다."
+    },
+    {
+      "id": "qb15-reservation-p-005",
+      "text": "Chuyện gì bất ngờ đã xảy ra?",
+      "hintKo": "어떤 예상치 못한 일이 발생했나요?",
+      "audioSrc": "",
+      "sourcePage": 15,
+      "reviewNeeded": false,
+      "pronKo": "쭈옌 지 벗 응어 다 싸이 라",
+      "mouthKo": "Chuyện gì bất ngờ / đã xảy ra 로 끊습니다.",
+      "toneKo": "돌발 상황을 설명해야 합니다."
+    },
+    {
+      "id": "qb15-reservation-p-006",
+      "text": "Bạn đã đối phó với tình huống đó như thế nào?",
+      "hintKo": "당신은 그 상황에 어떻게 대처했나요?",
+      "audioSrc": "",
+      "sourcePage": 15,
+      "reviewNeeded": false,
+      "pronKo": "반 다 도이 포 버이 띤 후옹 도 느 테 나오",
+      "mouthKo": "Bạn đã đối phó / với tình huống đó / như thế nào 로 끊습니다.",
+      "toneKo": "대처 방법을 설명해야 하는 문장입니다."
+    }
+  ],
+  "quizSeeds": [
+    {
+      "id": "qb15-reservation-q-001",
+      "type": "match-term",
+      "prompt": "예약 핵심 단어 매칭 1",
+      "answerSet": [
+        "đặt trước-예약하다/미리 예약하다",
+        "đặt chỗ-자리를 예약하다",
+        "đặt bàn-테이블을 예약하다",
+        "đặt phòng-방을 예약하다",
+        "đặt vé-표를 예약하다",
+        "đặt lịch-일정을 예약하다"
+      ],
+      "sourcePage": 15,
+      "reviewNeeded": false
+    },
+    {
+      "id": "qb15-reservation-q-002",
+      "type": "match-term",
+      "prompt": "예약 장소 단어 매칭",
+      "answerSet": [
+        "nhà hàng-식당",
+        "khách sạn-호텔",
+        "bệnh viện-병원",
+        "rạp chiếu phim-영화관",
+        "vé máy bay-비행기표"
+      ],
+      "sourcePage": 15,
+      "reviewNeeded": false
+    },
+    {
+      "id": "qb15-reservation-q-003",
+      "type": "match-term",
+      "prompt": "예약 방법 단어 매칭",
+      "answerSet": [
+        "ứng dụng-앱",
+        "trên mạng-인터넷에서",
+        "qua điện thoại-전화로/휴대폰으로",
+        "gọi điện-전화하다",
+        "xác nhận-확인하다",
+        "thông tin đặt trước-예약 정보"
+      ],
+      "sourcePage": 15,
+      "reviewNeeded": false
+    },
+    {
+      "id": "qb15-reservation-q-004",
+      "type": "match-term",
+      "prompt": "예약 문제 해결 단어 매칭",
+      "answerSet": [
+        "hủy đặt trước-예약을 취소하다",
+        "thay đổi đặt trước-예약을 변경하다",
+        "mã đặt chỗ-예약 번호",
+        "nhầm ngày-날짜를 착각하다",
+        "nhầm giờ-시간을 착각하다",
+        "hết chỗ-자리가 없다/만석이다",
+        "bất ngờ-예상치 못한",
+        "đối phó-대처하다",
+        "tình huống-상황",
+        "giải quyết-해결하다"
+      ],
+      "sourcePage": 15,
+      "reviewNeeded": false
+    },
+    {
+      "id": "qb15-reservation-q-005",
+      "type": "sentence-meaning",
+      "prompt": "문제은행 예약 질문 뜻 고르기",
+      "answerSet": [
+        "Bạn thường đặt trước ở đâu?-당신은 보통 어디에 예약하나요?",
+        "Bạn thường đặt trước như thế nào?-당신은 보통 어떻게 예약하나요?",
+        "Hãy kể cho tôi nghe về việc đặt trước ở nơi nào đó.-어떤 곳에 예약하는 것에 대해 말해주세요.",
+        "Hãy cho tôi biết về một trải nghiệm đáng nhớ liên quan đến đặt trước.-예약에 관한 기억에 남는 경험에 관해 알려주세요.",
+        "Chuyện gì bất ngờ đã xảy ra?-어떤 예상치 못한 일이 발생했나요?",
+        "Bạn đã đối phó với tình huống đó như thế nào?-당신은 그 상황에 어떻게 대처했나요?"
+      ],
+      "sourcePage": 15,
+      "reviewNeeded": false
+    },
+    {
+      "id": "qb15-reservation-q-006",
+      "type": "fill-blank",
+      "prompt": "빈칸 채우기: 저는 보통 앱으로 예약합니다.",
+      "question": "Tôi thường đặt trước qua ___.",
+      "answer": "app",
+      "sourcePage": 15,
+      "reviewNeeded": false
+    },
+    {
+      "id": "qb15-reservation-q-007",
+      "type": "fill-blank",
+      "prompt": "빈칸 채우기: 저는 식당에 테이블을 예약합니다.",
+      "question": "Tôi đặt ___ ở nhà hàng.",
+      "answer": "bàn",
+      "sourcePage": 15,
+      "reviewNeeded": false
+    },
+    {
+      "id": "qb15-reservation-q-008",
+      "type": "fill-blank",
+      "prompt": "빈칸 채우기: 저는 호텔 방을 예약합니다.",
+      "question": "Tôi đặt ___ khách sạn.",
+      "answer": "phòng",
+      "sourcePage": 15,
+      "reviewNeeded": false
+    },
+    {
+      "id": "qb15-reservation-q-009",
+      "type": "fill-blank",
+      "prompt": "빈칸 채우기: 저는 예약 정보를 확인합니다.",
+      "question": "Tôi kiểm tra thông tin ___.",
+      "answer": "đặt trước",
+      "sourcePage": 15,
+      "reviewNeeded": false
+    },
+    {
+      "id": "qb15-reservation-q-010",
+      "type": "fill-blank",
+      "prompt": "빈칸 채우기: 예상치 못한 일이 일어났습니다.",
+      "question": "Một chuyện ___ đã xảy ra.",
+      "answer": "bất ngờ",
+      "sourcePage": 15,
+      "reviewNeeded": false
+    },
+    {
+      "id": "qb15-reservation-q-011",
+      "type": "fill-blank",
+      "prompt": "빈칸 채우기: 저는 그 상황에 대처했습니다.",
+      "question": "Tôi đã ___ với tình huống đó.",
+      "answer": "đối phó",
+      "sourcePage": 15,
+      "reviewNeeded": false
+    },
+    {
+      "id": "qb15-reservation-q-012",
+      "type": "match-term",
+      "prompt": "예약 습관 답변 순서 맞추기",
+      "answerSet": [
+        "1-Tôi thường đặt trước ở nhà hàng, khách sạn, bệnh viện hoặc rạp chiếu phim.",
+        "2-Trong cuộc sống hằng ngày, tôi đặt trước nhiều nhất ở nhà hàng.",
+        "3-Tôi thường đặt bàn trước qua app hoặc gọi điện trực tiếp.",
+        "4-Khi đặt trước, tôi kiểm tra ngày, giờ, số người và địa điểm rất kỹ.",
+        "5-Tôi thích đặt trước vì tôi không phải chờ lâu.",
+        "6-Theo tôi, đặt trước rất tiện lợi và cần thiết."
+      ],
+      "sourcePage": 15,
+      "reviewNeeded": false
+    },
+    {
+      "id": "qb15-reservation-q-013",
+      "type": "match-term",
+      "prompt": "예약 경험 답변 순서 맞추기",
+      "answerSet": [
+        "1-Tôi có một trải nghiệm đáng nhớ liên quan đến đặt trước.",
+        "2-Chuyện đó xảy ra khoảng sáu tháng trước.",
+        "3-Tôi đặt bàn ở một nhà hàng nổi tiếng.",
+        "4-Khi chúng tôi đến nhà hàng, nhân viên không tìm thấy thông tin đặt trước của tôi.",
+        "5-Tôi cho nhân viên xem tin nhắn xác nhận.",
+        "6-Sau trải nghiệm đó, tôi luôn kiểm tra kỹ mã đặt chỗ, ngày, giờ và tên trước khi đi."
+      ],
+      "sourcePage": 15,
+      "reviewNeeded": false
+    }
+  ],
+  "unlockCondition": "always",
+  "reviewNeeded": false
+},
+    {
   "lessonId": "question-bank-014-bank",
   "unitLabel": "문제은행",
   "titleKo": "문제은행14: 은행",
