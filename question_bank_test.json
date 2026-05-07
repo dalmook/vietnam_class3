@@ -6,6 +6,1081 @@
   },
   "lessons": [
     {
+  "lessonId": "question-bank-008-jogging-walking",
+  "unitLabel": "문제은행",
+  "titleKo": "문제은행8: 조깅·걷기",
+  "titleVi": "Ngân hàng câu hỏi 8: Chủ đề chạy bộ và đi bộ",
+  "pageRange": "문제은행 / 조깅·걷기",
+  "goals": [
+    "조깅하거나 걷는 장소를 설명할 수 있다",
+    "왜 그 장소를 좋아하는지 말할 수 있다",
+    "걷기나 조깅을 시작한 계기를 말할 수 있다",
+    "운동을 계속하는 동기를 설명할 수 있다",
+    "계절별 운동복을 말할 수 있다",
+    "걷기 중 기억에 남는 경험을 말할 수 있다"
+  ],
+  "topicOverview": "조깅·걷기 주제는 OPIc에서 장소 묘사, 습관, 계기, 동기, 옷차림, 기억에 남는 경험 문제로 자주 확장됩니다. 초보자는 '저는 건강을 위해 걷기와 조깅을 좋아합니다 → 보통 집 근처 공원에서 합니다 → 그곳은 조용하고 넓고 공기가 좋습니다 → 처음에는 살을 빼기 위해 시작했습니다 → 지금은 스트레스를 줄이고 건강을 유지하기 위해 계속합니다' 흐름으로 외우면 좋습니다.",
+  "cultureTopics": [
+    "조깅 장소",
+    "걷기 장소",
+    "운동 습관",
+    "운동을 시작한 계기",
+    "운동을 계속하는 이유",
+    "운동복",
+    "계절별 옷차림",
+    "기억에 남는 걷기 경험"
+  ],
+  "vocabCards": [
+    {
+      "id": "qb8-jog-v-001",
+      "term": "chạy bộ",
+      "meaningKo": "조깅하다 / 달리다",
+      "example": "Tôi thích chạy bộ vào buổi sáng.",
+      "exampleMeaningKo": "저는 아침에 조깅하는 것을 좋아합니다.",
+      "audioSrc": "",
+      "sourcePage": 8,
+      "reviewNeeded": false,
+      "pronKo": "짜이 보",
+      "pronNoteKo": "chạy bộ는 조깅/달리기 모두 가능합니다.",
+      "pronChunks": ["chạy=짜이", "bộ=보"]
+    },
+    {
+      "id": "qb8-jog-v-002",
+      "term": "đi bộ",
+      "meaningKo": "걷다 / 산책하다",
+      "example": "Tôi thường đi bộ sau bữa tối.",
+      "exampleMeaningKo": "저는 저녁 식사 후 보통 걷습니다.",
+      "audioSrc": "",
+      "sourcePage": 8,
+      "reviewNeeded": false,
+      "pronKo": "디 보",
+      "pronNoteKo": "걷기 주제의 핵심 표현입니다.",
+      "pronChunks": ["đi=디", "bộ=보"]
+    },
+    {
+      "id": "qb8-jog-v-003",
+      "term": "địa điểm chạy bộ",
+      "meaningKo": "조깅 장소",
+      "example": "Địa điểm chạy bộ yêu thích của tôi là công viên gần nhà.",
+      "exampleMeaningKo": "제가 좋아하는 조깅 장소는 집 근처 공원입니다.",
+      "audioSrc": "",
+      "sourcePage": 8,
+      "reviewNeeded": false,
+      "pronKo": "디아 디엠 짜이 보",
+      "pronNoteKo": "장소 묘사 문제에서 그대로 사용할 수 있습니다.",
+      "pronChunks": ["địa điểm=디아 디엠", "chạy bộ=짜이 보"]
+    },
+    {
+      "id": "qb8-jog-v-004",
+      "term": "công viên",
+      "meaningKo": "공원",
+      "example": "Tôi thường chạy bộ ở công viên.",
+      "exampleMeaningKo": "저는 보통 공원에서 조깅합니다.",
+      "audioSrc": "",
+      "sourcePage": 8,
+      "reviewNeeded": false,
+      "pronKo": "꽁 비엔",
+      "pronNoteKo": "조깅/걷기 장소로 가장 쉬운 단어입니다.",
+      "pronChunks": ["công=꽁", "viên=비엔"]
+    },
+    {
+      "id": "qb8-jog-v-005",
+      "term": "gần nhà",
+      "meaningKo": "집 근처",
+      "example": "Có một công viên gần nhà tôi.",
+      "exampleMeaningKo": "제 집 근처에 공원이 하나 있습니다.",
+      "audioSrc": "",
+      "sourcePage": 8,
+      "reviewNeeded": false,
+      "pronKo": "건 냐",
+      "pronNoteKo": "장소 설명에 자주 씁니다.",
+      "pronChunks": ["gần=건", "nhà=냐"]
+    },
+    {
+      "id": "qb8-jog-v-006",
+      "term": "yên tĩnh",
+      "meaningKo": "조용하다",
+      "example": "Nơi đó rất yên tĩnh.",
+      "exampleMeaningKo": "그곳은 매우 조용합니다.",
+      "audioSrc": "",
+      "sourcePage": 8,
+      "reviewNeeded": false,
+      "pronKo": "이엔 띤",
+      "pronNoteKo": "좋아하는 장소의 이유로 좋습니다.",
+      "pronChunks": ["yên=이엔", "tĩnh=띤"]
+    },
+    {
+      "id": "qb8-jog-v-007",
+      "term": "rộng rãi",
+      "meaningKo": "넓다",
+      "example": "Công viên đó rộng rãi và sạch sẽ.",
+      "exampleMeaningKo": "그 공원은 넓고 깨끗합니다.",
+      "audioSrc": "",
+      "sourcePage": 8,
+      "reviewNeeded": false,
+      "pronKo": "롱 라이",
+      "pronNoteKo": "장소 묘사에 좋은 표현입니다.",
+      "pronChunks": ["rộng=롱", "rãi=라이"]
+    },
+    {
+      "id": "qb8-jog-v-008",
+      "term": "sạch sẽ",
+      "meaningKo": "깨끗하다",
+      "example": "Đường chạy bộ rất sạch sẽ.",
+      "exampleMeaningKo": "조깅 길은 매우 깨끗합니다.",
+      "audioSrc": "",
+      "sourcePage": 8,
+      "reviewNeeded": false,
+      "pronKo": "삭 세",
+      "pronNoteKo": "공원, 길, 산책로 묘사에 사용합니다.",
+      "pronChunks": ["sạch=삭", "sẽ=세"]
+    },
+    {
+      "id": "qb8-jog-v-009",
+      "term": "không khí",
+      "meaningKo": "공기 / 분위기",
+      "example": "Không khí ở đó rất trong lành.",
+      "exampleMeaningKo": "그곳의 공기는 매우 맑습니다.",
+      "audioSrc": "",
+      "sourcePage": 8,
+      "reviewNeeded": false,
+      "pronKo": "콩 키",
+      "pronNoteKo": "장소를 좋아하는 이유로 쓰기 좋습니다.",
+      "pronChunks": ["không=콩", "khí=키"]
+    },
+    {
+      "id": "qb8-jog-v-010",
+      "term": "trong lành",
+      "meaningKo": "맑다 / 상쾌하다",
+      "example": "Tôi thích nơi đó vì không khí trong lành.",
+      "exampleMeaningKo": "공기가 맑아서 저는 그곳을 좋아합니다.",
+      "audioSrc": "",
+      "sourcePage": 8,
+      "reviewNeeded": false,
+      "pronKo": "쫑 라인",
+      "pronNoteKo": "공기 좋다는 표현으로 아주 좋습니다.",
+      "pronChunks": ["trong=쫑", "lành=라인"]
+    },
+    {
+      "id": "qb8-jog-v-011",
+      "term": "đường chạy bộ",
+      "meaningKo": "조깅 코스 / 조깅 길",
+      "example": "Đường chạy bộ ở công viên rất tốt.",
+      "exampleMeaningKo": "공원의 조깅 코스는 매우 좋습니다.",
+      "audioSrc": "",
+      "sourcePage": 8,
+      "reviewNeeded": false,
+      "pronKo": "드엉 짜이 보",
+      "pronNoteKo": "장소 묘사 문제에 꼭 필요한 표현입니다.",
+      "pronChunks": ["đường=드엉", "chạy bộ=짜이 보"]
+    },
+    {
+      "id": "qb8-jog-v-012",
+      "term": "hồ",
+      "meaningKo": "호수",
+      "example": "Trong công viên có một cái hồ nhỏ.",
+      "exampleMeaningKo": "공원 안에는 작은 호수가 하나 있습니다.",
+      "audioSrc": "",
+      "sourcePage": 8,
+      "reviewNeeded": false,
+      "pronKo": "호",
+      "pronNoteKo": "공원 묘사에 넣으면 답변이 풍부해집니다.",
+      "pronChunks": ["hồ=호"]
+    },
+    {
+      "id": "qb8-jog-v-013",
+      "term": "cây xanh",
+      "meaningKo": "푸른 나무 / 나무들",
+      "example": "Ở đó có nhiều cây xanh.",
+      "exampleMeaningKo": "그곳에는 나무가 많이 있습니다.",
+      "audioSrc": "",
+      "sourcePage": 8,
+      "reviewNeeded": false,
+      "pronKo": "꺼이 싸인",
+      "pronNoteKo": "장소를 예쁘게 묘사할 때 좋습니다.",
+      "pronChunks": ["cây=꺼이", "xanh=싸인"]
+    },
+    {
+      "id": "qb8-jog-v-014",
+      "term": "sức khỏe",
+      "meaningKo": "건강",
+      "example": "Tôi đi bộ để giữ sức khỏe.",
+      "exampleMeaningKo": "저는 건강을 유지하기 위해 걷습니다.",
+      "audioSrc": "",
+      "sourcePage": 8,
+      "reviewNeeded": false,
+      "pronKo": "쓱 퀘",
+      "pronNoteKo": "운동을 하는 이유로 가장 중요합니다.",
+      "pronChunks": ["sức=쓱", "khỏe=퀘"]
+    },
+    {
+      "id": "qb8-jog-v-015",
+      "term": "giữ sức khỏe",
+      "meaningKo": "건강을 유지하다",
+      "example": "Tôi chạy bộ để giữ sức khỏe.",
+      "exampleMeaningKo": "저는 건강을 유지하기 위해 조깅합니다.",
+      "audioSrc": "",
+      "sourcePage": 8,
+      "reviewNeeded": false,
+      "pronKo": "즈 쓱 퀘",
+      "pronNoteKo": "OPIc 운동 답변의 핵심 표현입니다.",
+      "pronChunks": ["giữ=즈", "sức khỏe=쓱 퀘"]
+    },
+    {
+      "id": "qb8-jog-v-016",
+      "term": "giảm cân",
+      "meaningKo": "살을 빼다 / 다이어트하다",
+      "example": "Ban đầu, tôi đi bộ để giảm cân.",
+      "exampleMeaningKo": "처음에는 살을 빼기 위해 걸었습니다.",
+      "audioSrc": "",
+      "sourcePage": 8,
+      "reviewNeeded": false,
+      "pronKo": "지암 껀",
+      "pronNoteKo": "운동 시작 계기로 쓰기 좋습니다.",
+      "pronChunks": ["giảm=지암", "cân=껀"]
+    },
+    {
+      "id": "qb8-jog-v-017",
+      "term": "giảm căng thẳng",
+      "meaningKo": "스트레스를 줄이다",
+      "example": "Đi bộ giúp tôi giảm căng thẳng.",
+      "exampleMeaningKo": "걷기는 제가 스트레스를 줄이는 데 도움을 줍니다.",
+      "audioSrc": "",
+      "sourcePage": 8,
+      "reviewNeeded": false,
+      "pronKo": "지암 깡 탕",
+      "pronNoteKo": "운동을 계속하는 이유로 좋습니다.",
+      "pronChunks": ["giảm=지암", "căng thẳng=깡 탕"]
+    },
+    {
+      "id": "qb8-jog-v-018",
+      "term": "động lực",
+      "meaningKo": "동기 / 원동력",
+      "example": "Sức khỏe là động lực lớn nhất của tôi.",
+      "exampleMeaningKo": "건강은 저의 가장 큰 동기입니다.",
+      "audioSrc": "",
+      "sourcePage": 8,
+      "reviewNeeded": false,
+      "pronKo": "동 륵",
+      "pronNoteKo": "두 번째 문제의 핵심 단어입니다.",
+      "pronChunks": ["động=동", "lực=륵"]
+    },
+    {
+      "id": "qb8-jog-v-019",
+      "term": "tiếp tục",
+      "meaningKo": "계속하다",
+      "example": "Tôi muốn tiếp tục đi bộ mỗi ngày.",
+      "exampleMeaningKo": "저는 매일 걷기를 계속하고 싶습니다.",
+      "audioSrc": "",
+      "sourcePage": 8,
+      "reviewNeeded": false,
+      "pronKo": "띠엡 뚝",
+      "pronNoteKo": "계속 운동한다는 표현입니다.",
+      "pronChunks": ["tiếp=띠엡", "tục=뚝"]
+    },
+    {
+      "id": "qb8-jog-v-020",
+      "term": "cố gắng",
+      "meaningKo": "노력하다",
+      "example": "Tôi cố gắng đi bộ ba lần một tuần.",
+      "exampleMeaningKo": "저는 일주일에 세 번 걷기 위해 노력합니다.",
+      "audioSrc": "",
+      "sourcePage": 8,
+      "reviewNeeded": false,
+      "pronKo": "꼬 강",
+      "pronNoteKo": "꾸준히 한다는 느낌을 줄 수 있습니다.",
+      "pronChunks": ["cố=꼬", "gắng=강"]
+    },
+    {
+      "id": "qb8-jog-v-021",
+      "term": "bắt đầu",
+      "meaningKo": "시작하다",
+      "example": "Tôi bắt đầu đi bộ từ năm ngoái.",
+      "exampleMeaningKo": "저는 작년부터 걷기를 시작했습니다.",
+      "audioSrc": "",
+      "sourcePage": 8,
+      "reviewNeeded": false,
+      "pronKo": "밧 더우",
+      "pronNoteKo": "시작 계기 설명에 씁니다.",
+      "pronChunks": ["bắt=밧", "đầu=더우"]
+    },
+    {
+      "id": "qb8-jog-v-022",
+      "term": "ban đầu",
+      "meaningKo": "처음에는",
+      "example": "Ban đầu, tôi chỉ đi bộ mười phút.",
+      "exampleMeaningKo": "처음에는 저는 단지 10분만 걸었습니다.",
+      "audioSrc": "",
+      "sourcePage": 8,
+      "reviewNeeded": false,
+      "pronKo": "반 더우",
+      "pronNoteKo": "과거 시작 이야기할 때 좋습니다.",
+      "pronChunks": ["ban=반", "đầu=더우"]
+    },
+    {
+      "id": "qb8-jog-v-023",
+      "term": "mỗi ngày",
+      "meaningKo": "매일",
+      "example": "Tôi đi bộ mỗi ngày.",
+      "exampleMeaningKo": "저는 매일 걷습니다.",
+      "audioSrc": "",
+      "sourcePage": 8,
+      "reviewNeeded": false,
+      "pronKo": "모이 응아이",
+      "pronNoteKo": "운동 빈도 표현입니다.",
+      "pronChunks": ["mỗi=모이", "ngày=응아이"]
+    },
+    {
+      "id": "qb8-jog-v-024",
+      "term": "mỗi tuần",
+      "meaningKo": "매주",
+      "example": "Tôi chạy bộ ba lần mỗi tuần.",
+      "exampleMeaningKo": "저는 매주 세 번 조깅합니다.",
+      "audioSrc": "",
+      "sourcePage": 8,
+      "reviewNeeded": false,
+      "pronKo": "모이 뚜언",
+      "pronNoteKo": "운동 빈도 말할 때 좋습니다.",
+      "pronChunks": ["mỗi=모이", "tuần=뚜언"]
+    },
+    {
+      "id": "qb8-jog-v-025",
+      "term": "quần áo thể thao",
+      "meaningKo": "운동복",
+      "example": "Tôi thường mặc quần áo thể thao khi chạy bộ.",
+      "exampleMeaningKo": "저는 조깅할 때 보통 운동복을 입습니다.",
+      "audioSrc": "",
+      "sourcePage": 8,
+      "reviewNeeded": false,
+      "pronKo": "꿘 아오 테 타오",
+      "pronNoteKo": "운동복 문제의 핵심 표현입니다.",
+      "pronChunks": ["quần áo=꿘 아오", "thể thao=테 타오"]
+    },
+    {
+      "id": "qb8-jog-v-026",
+      "term": "giày chạy bộ",
+      "meaningKo": "러닝화 / 조깅화",
+      "example": "Tôi luôn mang giày chạy bộ.",
+      "exampleMeaningKo": "저는 항상 러닝화를 신습니다.",
+      "audioSrc": "",
+      "sourcePage": 8,
+      "reviewNeeded": false,
+      "pronKo": "자이 짜이 보",
+      "pronNoteKo": "mang giày = 신발을 신다.",
+      "pronChunks": ["giày=자이", "chạy bộ=짜이 보"]
+    },
+    {
+      "id": "qb8-jog-v-027",
+      "term": "áo thun",
+      "meaningKo": "티셔츠",
+      "example": "Vào mùa hè, tôi mặc áo thun.",
+      "exampleMeaningKo": "여름에는 저는 티셔츠를 입습니다.",
+      "audioSrc": "",
+      "sourcePage": 8,
+      "reviewNeeded": false,
+      "pronKo": "아오 툰",
+      "pronNoteKo": "계절별 옷차림에 씁니다.",
+      "pronChunks": ["áo=아오", "thun=툰"]
+    },
+    {
+      "id": "qb8-jog-v-028",
+      "term": "quần short",
+      "meaningKo": "반바지",
+      "example": "Tôi mặc quần short khi trời nóng.",
+      "exampleMeaningKo": "날씨가 더울 때 저는 반바지를 입습니다.",
+      "audioSrc": "",
+      "sourcePage": 8,
+      "reviewNeeded": false,
+      "pronKo": "꿘 숏",
+      "pronNoteKo": "여름 조깅복으로 좋습니다.",
+      "pronChunks": ["quần=꿘", "short=숏"]
+    },
+    {
+      "id": "qb8-jog-v-029",
+      "term": "áo khoác",
+      "meaningKo": "재킷 / 겉옷",
+      "example": "Vào mùa đông, tôi mặc áo khoác.",
+      "exampleMeaningKo": "겨울에는 저는 재킷을 입습니다.",
+      "audioSrc": "",
+      "sourcePage": 8,
+      "reviewNeeded": false,
+      "pronKo": "아오 콱",
+      "pronNoteKo": "겨울 운동복에 씁니다.",
+      "pronChunks": ["áo=아오", "khoác=콱"]
+    },
+    {
+      "id": "qb8-jog-v-030",
+      "term": "thoải mái",
+      "meaningKo": "편하다",
+      "example": "Tôi thích mặc quần áo thoải mái.",
+      "exampleMeaningKo": "저는 편한 옷을 입는 것을 좋아합니다.",
+      "audioSrc": "",
+      "sourcePage": 8,
+      "reviewNeeded": false,
+      "pronKo": "토아이 마이",
+      "pronNoteKo": "옷을 설명할 때 매우 유용합니다.",
+      "pronChunks": ["thoải=토아이", "mái=마이"]
+    },
+    {
+      "id": "qb8-jog-v-031",
+      "term": "mùa hè",
+      "meaningKo": "여름",
+      "example": "Vào mùa hè, tôi mặc áo thun và quần short.",
+      "exampleMeaningKo": "여름에는 저는 티셔츠와 반바지를 입습니다.",
+      "audioSrc": "",
+      "sourcePage": 8,
+      "reviewNeeded": false,
+      "pronKo": "무아 헤",
+      "pronNoteKo": "계절별 운동복 설명에 필요합니다.",
+      "pronChunks": ["mùa=무아", "hè=헤"]
+    },
+    {
+      "id": "qb8-jog-v-032",
+      "term": "mùa đông",
+      "meaningKo": "겨울",
+      "example": "Vào mùa đông, tôi mặc áo khoác ấm.",
+      "exampleMeaningKo": "겨울에는 저는 따뜻한 재킷을 입습니다.",
+      "audioSrc": "",
+      "sourcePage": 8,
+      "reviewNeeded": false,
+      "pronKo": "무아 동",
+      "pronNoteKo": "겨울 복장 설명에 필요합니다.",
+      "pronChunks": ["mùa=무아", "đông=동"]
+    },
+    {
+      "id": "qb8-jog-v-033",
+      "term": "trải nghiệm đáng nhớ",
+      "meaningKo": "기억에 남는 경험",
+      "example": "Tôi có một trải nghiệm đáng nhớ khi đi bộ.",
+      "exampleMeaningKo": "저는 걸을 때 기억에 남는 경험이 하나 있습니다.",
+      "audioSrc": "",
+      "sourcePage": 8,
+      "reviewNeeded": false,
+      "pronKo": "짜이 응이엠 당 녀",
+      "pronNoteKo": "경험 문제의 핵심 표현입니다.",
+      "pronChunks": ["trải nghiệm=짜이 응이엠", "đáng nhớ=당 녀"]
+    },
+    {
+      "id": "qb8-jog-v-034",
+      "term": "xảy ra",
+      "meaningKo": "일어나다 / 발생하다",
+      "example": "Việc đó xảy ra vào năm ngoái.",
+      "exampleMeaningKo": "그 일은 작년에 일어났습니다.",
+      "audioSrc": "",
+      "sourcePage": 8,
+      "reviewNeeded": false,
+      "pronKo": "싸이 라",
+      "pronNoteKo": "언제 일이 일어났는지 말할 때 씁니다.",
+      "pronChunks": ["xảy=싸이", "ra=라"]
+    },
+    {
+      "id": "qb8-jog-v-035",
+      "term": "đáng nhớ",
+      "meaningKo": "기억에 남다",
+      "example": "Đó là một trải nghiệm rất đáng nhớ.",
+      "exampleMeaningKo": "그것은 매우 기억에 남는 경험이었습니다.",
+      "audioSrc": "",
+      "sourcePage": 8,
+      "reviewNeeded": false,
+      "pronKo": "당 녀",
+      "pronNoteKo": "경험 마무리에 좋습니다.",
+      "pronChunks": ["đáng=당", "nhớ=녀"]
+    }
+  ],
+  "sentenceCards": [
+    {
+      "id": "qb8-jog-s-001",
+      "textVi": "Trong bản khảo sát, bạn nói rằng bạn thích chạy bộ. Bạn thường chạy bộ ở đâu và vì sao bạn thích đến đó để chạy bộ? Nơi đó trông như thế nào? Hãy miêu tả thật chi tiết về địa điểm chạy bộ yêu thích của bạn.",
+      "textKo": "설문에서 당신은 조깅하기를 좋아한다고 말했습니다. 당신은 보통 어디에서 조깅을 하고 왜 조깅하러 그곳에 가는 것을 좋아하나요? 그곳은 어떻게 생겼나요? 당신이 좋아하는 조깅 장소에 대해 아주 자세히 묘사해주세요.",
+      "exampleAnswerVi": "Tôi thích chạy bộ để giữ sức khỏe. Tôi thường chạy bộ ở công viên gần nhà. Tôi thích đến đó vì nơi đó rất yên tĩnh, rộng rãi và sạch sẽ. Trong công viên có nhiều cây xanh, một cái hồ nhỏ và đường chạy bộ rất tốt. Không khí ở đó rất trong lành, nên tôi cảm thấy thoải mái khi chạy bộ. Tôi thường chạy bộ vào buổi sáng hoặc cuối tuần. Đối với tôi, đó là địa điểm chạy bộ yêu thích nhất.",
+      "exampleAnswerKo": "저는 건강을 유지하기 위해 조깅하는 것을 좋아합니다. 저는 보통 집 근처 공원에서 조깅합니다. 그곳은 매우 조용하고 넓고 깨끗해서 저는 그곳에 가는 것을 좋아합니다. 공원에는 많은 나무와 작은 호수, 그리고 좋은 조깅 코스가 있습니다. 그곳의 공기가 매우 맑아서 저는 조깅할 때 편안함을 느낍니다. 저는 보통 아침이나 주말에 조깅합니다. 저에게 그곳은 가장 좋아하는 조깅 장소입니다.",
+      "audioSrc": "",
+      "sourcePage": 8,
+      "reviewNeeded": false,
+      "pronKo": "쫑 반 카오 삿, 반 노이 장 반 틱 짜이 보. 반 트엉 짜이 보 어 더우 바 비 사오 반 틱 덴 도 데 짜이 보? 너이 도 쫑 느 테 나오? 하이 미에우 따 텃 찌 띠엣 베 디아 디엠 짜이 보 이에우 틱 꾸어 반.",
+      "exampleAnswerPronKo": "또이 틱 짜이 보 데 즈 쓱 퀘. 또이 트엉 짜이 보 어 꽁 비엔 건 냐.",
+      "pronNoteKo": "장소 → 이유 → 모습 → 언제 하는지 순서로 답하면 안정적입니다."
+    },
+    {
+      "id": "qb8-jog-s-002",
+      "textVi": "Bạn đã bắt đầu đi bộ như thế nào? Điều gì khiến bạn tiếp tục đi bộ? Hãy cho tôi biết về động lực để bạn cố gắng và tiếp tục đi bộ.",
+      "textKo": "당신은 어떻게 걷기를 시작하게 되었나요? 무엇이 당신을 계속 걷게 하나요? 당신이 노력하고 계속 걷게 하는 동기에 대해 알려주세요.",
+      "exampleAnswerVi": "Tôi bắt đầu đi bộ từ năm ngoái. Ban đầu, tôi đi bộ vì muốn giảm cân và giữ sức khỏe. Lúc đầu, tôi chỉ đi bộ khoảng mười lăm phút mỗi ngày, nhưng sau đó tôi cảm thấy cơ thể khỏe hơn. Vì vậy, tôi tiếp tục đi bộ. Động lực lớn nhất của tôi là sức khỏe và gia đình. Tôi muốn khỏe mạnh để làm việc tốt và chăm sóc gia đình. Bây giờ, tôi cố gắng đi bộ ba hoặc bốn lần mỗi tuần.",
+      "exampleAnswerKo": "저는 작년부터 걷기를 시작했습니다. 처음에는 살을 빼고 건강을 유지하고 싶어서 걸었습니다. 처음에는 매일 약 15분만 걸었지만, 그 후 몸이 더 건강해지는 것을 느꼈습니다. 그래서 저는 계속 걷고 있습니다. 저의 가장 큰 동기는 건강과 가족입니다. 저는 일을 잘하고 가족을 돌보기 위해 건강하고 싶습니다. 지금은 매주 세 번 또는 네 번 걷기 위해 노력합니다.",
+      "audioSrc": "",
+      "sourcePage": 8,
+      "reviewNeeded": false,
+      "pronKo": "반 다 밧 더우 디 보 느 테 나오? 디에우 지 키엔 반 띠엡 뚝 디 보? 하이 쪼 또이 비엣 베 동 륵 데 반 꼬 강 바 띠엡 뚝 디 보.",
+      "exampleAnswerPronKo": "또이 밧 더우 디 보 뜨 남 응오아이. 반 더우, 또이 디 보 비 무온 지암 껀 바 즈 쓱 퀘.",
+      "pronNoteKo": "시작 계기 → 처음 상태 → 변화 → 계속하는 이유 순서로 답하세요."
+    },
+    {
+      "id": "qb8-jog-s-003",
+      "textVi": "Bạn thường mặc quần áo gì khi chạy bộ? Bạn có thể cho tôi biết bạn thích mặc quần áo gì khi chạy bộ vào các mùa khác nhau trong năm không? Hãy miêu tả thật chi tiết.",
+      "textKo": "당신은 조깅할 때 보통 어떤 옷을 입나요? 일년 중 각 계절에 조깅할 때 어떤 옷을 입는 것을 좋아하는지 알려줄 수 있나요? 아주 자세히 묘사해주세요.",
+      "exampleAnswerVi": "Khi chạy bộ, tôi thường mặc quần áo thể thao vì nó rất thoải mái. Vào mùa hè, tôi mặc áo thun, quần short và giày chạy bộ. Tôi chọn quần áo nhẹ vì thời tiết rất nóng. Vào mùa đông, tôi mặc áo khoác, quần dài và giày chạy bộ. Tôi cũng mang găng tay nếu trời quá lạnh. Tôi không quan tâm nhiều đến thời trang khi chạy bộ. Tôi chỉ muốn mặc quần áo thoải mái, sạch sẽ và phù hợp với thời tiết.",
+      "exampleAnswerKo": "조깅할 때 저는 보통 운동복을 입습니다. 왜냐하면 그것이 매우 편하기 때문입니다. 여름에는 티셔츠, 반바지, 러닝화를 착용합니다. 날씨가 매우 덥기 때문에 가벼운 옷을 고릅니다. 겨울에는 재킷, 긴 바지, 러닝화를 착용합니다. 날씨가 너무 추우면 장갑도 낍니다. 저는 조깅할 때 패션에는 많이 신경 쓰지 않습니다. 저는 단지 편하고 깨끗하고 날씨에 맞는 옷을 입고 싶습니다.",
+      "audioSrc": "",
+      "sourcePage": 8,
+      "reviewNeeded": false,
+      "pronKo": "반 트엉 막 꿘 아오 지 키 짜이 보? 반 꼬 테 쪼 또이 비엣 반 틱 막 꿘 아오 지 키 짜이 보 바오 깍 무아 칵 냐우 쫑 남 콩? 하이 미에우 따 텃 찌 띠엣.",
+      "exampleAnswerPronKo": "키 짜이 보, 또이 트엉 막 꿘 아오 테 타오 비 노 젓 토아이 마이.",
+      "pronNoteKo": "여름/겨울로 나누면 답변이 길고 자연스러워집니다."
+    },
+    {
+      "id": "qb8-jog-s-004",
+      "textVi": "Hãy kể cho tôi nghe về một trải nghiệm đáng nhớ mà bạn có được khi đi bộ. Việc đó xảy ra khi nào? Đã xảy ra chuyện gì? Vì sao trải nghiệm đó trở nên đáng nhớ?",
+      "textKo": "걷기를 할 때 있었던 기억에 남는 경험에 대해 말해주세요. 그 일은 언제 일어났나요? 무슨 일이 일어났나요? 왜 그 경험이 기억에 남게 되었나요?",
+      "exampleAnswerVi": "Tôi có một trải nghiệm đáng nhớ khi đi bộ vào mùa xuân năm ngoái. Hôm đó, tôi đi bộ ở công viên gần nhà với vợ và các con. Thời tiết rất đẹp, không khí trong lành và hoa nở rất nhiều. Khi chúng tôi đang đi bộ, các con tôi chạy quanh công viên và cười rất vui. Tôi cảm thấy rất hạnh phúc vì cả gia đình có thời gian ở bên nhau. Trải nghiệm đó đáng nhớ vì nó rất đơn giản nhưng ấm áp. Sau ngày đó, tôi thích đi bộ với gia đình hơn.",
+      "exampleAnswerKo": "저는 작년 봄에 걷기를 할 때 기억에 남는 경험이 하나 있습니다. 그날 저는 아내와 아이들과 함께 집 근처 공원에서 걸었습니다. 날씨가 매우 좋았고 공기가 맑았으며 꽃이 많이 피어 있었습니다. 우리가 걷고 있을 때 제 아이들은 공원 주변을 뛰어다니며 즐겁게 웃었습니다. 저는 온 가족이 함께 시간을 보낼 수 있어서 매우 행복했습니다. 그 경험은 매우 단순하지만 따뜻했기 때문에 기억에 남습니다. 그날 이후 저는 가족과 함께 걷는 것을 더 좋아하게 되었습니다.",
+      "audioSrc": "",
+      "sourcePage": 8,
+      "reviewNeeded": false,
+      "pronKo": "하이 께 쪼 또이 응에 베 못 짜이 응이엠 당 녀 마 반 꼬 드억 키 디 보. 비엑 도 싸이 라 키 나오? 다 싸이 라 쭈엔 지? 비 사오 짜이 응이엠 도 쩌 넨 당 녀?",
+      "exampleAnswerPronKo": "또이 꼬 못 짜이 응이엠 당 녀 키 디 보 바오 무아 쑤언 남 응오아이.",
+      "pronNoteKo": "언제 → 누구와 → 어디서 → 무슨 일 → 왜 기억에 남는지 순서로 답하세요."
+    }
+  ],
+  "dialogues": [
+    {
+      "id": "qb8-jog-d-001",
+      "title": "조깅 장소 대화",
+      "audioSrc": "",
+      "sourcePage": 8,
+      "reviewNeeded": false,
+      "lines": [
+        {
+          "speaker": "A",
+          "vi": "Bạn có thích chạy bộ không?",
+          "ko": "당신은 조깅하는 것을 좋아하나요?",
+          "pronKo": "반 꼬 틱 짜이 보 콩?"
+        },
+        {
+          "speaker": "B",
+          "vi": "Có, tôi thích chạy bộ để giữ sức khỏe.",
+          "ko": "네, 저는 건강을 유지하기 위해 조깅하는 것을 좋아합니다.",
+          "pronKo": "꼬, 또이 틱 짜이 보 데 즈 쓱 퀘."
+        },
+        {
+          "speaker": "A",
+          "vi": "Bạn thường chạy bộ ở đâu?",
+          "ko": "당신은 보통 어디에서 조깅하나요?",
+          "pronKo": "반 트엉 짜이 보 어 더우?"
+        },
+        {
+          "speaker": "B",
+          "vi": "Tôi thường chạy bộ ở công viên gần nhà.",
+          "ko": "저는 보통 집 근처 공원에서 조깅합니다.",
+          "pronKo": "또이 트엉 짜이 보 어 꽁 비엔 건 냐."
+        }
+      ]
+    },
+    {
+      "id": "qb8-jog-d-002",
+      "title": "걷기를 시작한 이유 대화",
+      "audioSrc": "",
+      "sourcePage": 8,
+      "reviewNeeded": false,
+      "lines": [
+        {
+          "speaker": "A",
+          "vi": "Bạn bắt đầu đi bộ từ khi nào?",
+          "ko": "당신은 언제부터 걷기를 시작했나요?",
+          "pronKo": "반 밧 더우 디 보 뜨 키 나오?"
+        },
+        {
+          "speaker": "B",
+          "vi": "Tôi bắt đầu đi bộ từ năm ngoái.",
+          "ko": "저는 작년부터 걷기를 시작했습니다.",
+          "pronKo": "또이 밧 더우 디 보 뜨 남 응오아이."
+        },
+        {
+          "speaker": "A",
+          "vi": "Vì sao bạn tiếp tục đi bộ?",
+          "ko": "왜 당신은 계속 걷나요?",
+          "pronKo": "비 사오 반 띠엡 뚝 디 보?"
+        },
+        {
+          "speaker": "B",
+          "vi": "Vì đi bộ giúp tôi giảm căng thẳng và khỏe hơn.",
+          "ko": "걷기는 스트레스를 줄이고 더 건강해지게 도와주기 때문입니다.",
+          "pronKo": "비 디 보 줍 또이 지암 깡 탕 바 퀘 헌."
+        }
+      ]
+    },
+    {
+      "id": "qb8-jog-d-003",
+      "title": "운동복 대화",
+      "audioSrc": "",
+      "sourcePage": 8,
+      "reviewNeeded": false,
+      "lines": [
+        {
+          "speaker": "A",
+          "vi": "Bạn thường mặc gì khi chạy bộ?",
+          "ko": "당신은 조깅할 때 보통 무엇을 입나요?",
+          "pronKo": "반 트엉 막 지 키 짜이 보?"
+        },
+        {
+          "speaker": "B",
+          "vi": "Tôi thường mặc quần áo thể thao.",
+          "ko": "저는 보통 운동복을 입습니다.",
+          "pronKo": "또이 트엉 막 꿘 아오 테 타오."
+        },
+        {
+          "speaker": "A",
+          "vi": "Vào mùa hè, bạn mặc gì?",
+          "ko": "여름에는 무엇을 입나요?",
+          "pronKo": "바오 무아 헤, 반 막 지?"
+        },
+        {
+          "speaker": "B",
+          "vi": "Tôi mặc áo thun, quần short và giày chạy bộ.",
+          "ko": "저는 티셔츠, 반바지, 러닝화를 착용합니다.",
+          "pronKo": "또이 막 아오 툰, 꿘 숏 바 자이 짜이 보."
+        }
+      ]
+    },
+    {
+      "id": "qb8-jog-d-004",
+      "title": "기억에 남는 걷기 경험 대화",
+      "audioSrc": "",
+      "sourcePage": 8,
+      "reviewNeeded": false,
+      "lines": [
+        {
+          "speaker": "A",
+          "vi": "Bạn có trải nghiệm đáng nhớ nào khi đi bộ không?",
+          "ko": "걷기할 때 기억에 남는 경험이 있나요?",
+          "pronKo": "반 꼬 짜이 응이엠 당 녀 나오 키 디 보 콩?"
+        },
+        {
+          "speaker": "B",
+          "vi": "Có, tôi có một trải nghiệm rất đáng nhớ.",
+          "ko": "네, 저는 매우 기억에 남는 경험이 하나 있습니다.",
+          "pronKo": "꼬, 또이 꼬 못 짜이 응이엠 젓 당 녀."
+        },
+        {
+          "speaker": "A",
+          "vi": "Việc đó xảy ra khi nào?",
+          "ko": "그 일은 언제 일어났나요?",
+          "pronKo": "비엑 도 싸이 라 키 나오?"
+        },
+        {
+          "speaker": "B",
+          "vi": "Việc đó xảy ra vào mùa xuân năm ngoái.",
+          "ko": "그 일은 작년 봄에 일어났습니다.",
+          "pronKo": "비엑 도 싸이 라 바오 무아 쑤언 남 응오아이."
+        }
+      ]
+    }
+  ],
+  "grammarPoints": [
+    {
+      "id": "qb8-jog-g-001",
+      "title": "설문에서 말한 내용",
+      "pattern": "Trong bản khảo sát, bạn nói rằng bạn thích chạy bộ.",
+      "meaningKo": "설문에서 당신은 조깅하기를 좋아한다고 말했습니다.",
+      "sourcePage": 8,
+      "reviewNeeded": false
+    },
+    {
+      "id": "qb8-jog-g-002",
+      "title": "보통 어디서 하는지 말하기",
+      "pattern": "Tôi thường chạy bộ ở công viên gần nhà.",
+      "meaningKo": "저는 보통 집 근처 공원에서 조깅합니다.",
+      "sourcePage": 8,
+      "reviewNeeded": false
+    },
+    {
+      "id": "qb8-jog-g-003",
+      "title": "이유 말하기",
+      "pattern": "Tôi thích nơi đó vì không khí trong lành.",
+      "meaningKo": "저는 공기가 맑아서 그곳을 좋아합니다.",
+      "sourcePage": 8,
+      "reviewNeeded": false
+    },
+    {
+      "id": "qb8-jog-g-004",
+      "title": "목적 말하기",
+      "pattern": "Tôi chạy bộ để giữ sức khỏe.",
+      "meaningKo": "저는 건강을 유지하기 위해 조깅합니다.",
+      "sourcePage": 8,
+      "reviewNeeded": false
+    },
+    {
+      "id": "qb8-jog-g-005",
+      "title": "시작 시점 말하기",
+      "pattern": "Tôi bắt đầu đi bộ từ năm ngoái.",
+      "meaningKo": "저는 작년부터 걷기를 시작했습니다.",
+      "sourcePage": 8,
+      "reviewNeeded": false
+    },
+    {
+      "id": "qb8-jog-g-006",
+      "title": "처음에는",
+      "pattern": "Ban đầu, tôi đi bộ để giảm cân.",
+      "meaningKo": "처음에는 저는 살을 빼기 위해 걸었습니다.",
+      "sourcePage": 8,
+      "reviewNeeded": false
+    },
+    {
+      "id": "qb8-jog-g-007",
+      "title": "계속하는 이유",
+      "pattern": "Tôi tiếp tục đi bộ vì nó giúp tôi giảm căng thẳng.",
+      "meaningKo": "그것이 스트레스를 줄이는 데 도움을 주기 때문에 저는 계속 걷습니다.",
+      "sourcePage": 8,
+      "reviewNeeded": false
+    },
+    {
+      "id": "qb8-jog-g-008",
+      "title": "옷차림 말하기",
+      "pattern": "Tôi thường mặc quần áo thể thao khi chạy bộ.",
+      "meaningKo": "저는 조깅할 때 보통 운동복을 입습니다.",
+      "sourcePage": 8,
+      "reviewNeeded": false
+    },
+    {
+      "id": "qb8-jog-g-009",
+      "title": "계절별 표현",
+      "pattern": "Vào mùa hè, tôi mặc áo thun và quần short.",
+      "meaningKo": "여름에는 저는 티셔츠와 반바지를 입습니다.",
+      "sourcePage": 8,
+      "reviewNeeded": false
+    },
+    {
+      "id": "qb8-jog-g-010",
+      "title": "기억에 남는 경험",
+      "pattern": "Tôi có một trải nghiệm đáng nhớ khi đi bộ.",
+      "meaningKo": "저는 걸을 때 기억에 남는 경험이 하나 있습니다.",
+      "sourcePage": 8,
+      "reviewNeeded": false
+    },
+    {
+      "id": "qb8-jog-g-011",
+      "title": "일이 일어난 시점",
+      "pattern": "Việc đó xảy ra vào mùa xuân năm ngoái.",
+      "meaningKo": "그 일은 작년 봄에 일어났습니다.",
+      "sourcePage": 8,
+      "reviewNeeded": false
+    },
+    {
+      "id": "qb8-jog-g-012",
+      "title": "기억에 남는 이유",
+      "pattern": "Trải nghiệm đó đáng nhớ vì tôi cảm thấy rất hạnh phúc.",
+      "meaningKo": "제가 매우 행복함을 느꼈기 때문에 그 경험은 기억에 남습니다.",
+      "sourcePage": 8,
+      "reviewNeeded": false
+    }
+  ],
+  "pronunciationTargets": [
+    {
+      "id": "qb8-jog-p-001",
+      "text": "Trong bản khảo sát, bạn nói rằng bạn thích chạy bộ.",
+      "hintKo": "설문에서 당신은 조깅하기를 좋아한다고 말했습니다.",
+      "audioSrc": "",
+      "sourcePage": 8,
+      "reviewNeeded": false,
+      "pronKo": "쫑 반 카오 삿, 반 노이 장 반 틱 짜이 보.",
+      "mouthKo": "Trong bản khảo sát / bạn nói rằng / bạn thích chạy bộ 로 끊습니다.",
+      "toneKo": "조깅 주제 시작 문장입니다."
+    },
+    {
+      "id": "qb8-jog-p-002",
+      "text": "Bạn thường chạy bộ ở đâu?",
+      "hintKo": "당신은 보통 어디에서 조깅하나요?",
+      "audioSrc": "",
+      "sourcePage": 8,
+      "reviewNeeded": false,
+      "pronKo": "반 트엉 짜이 보 어 더우?",
+      "mouthKo": "Bạn thường chạy bộ / ở đâu 로 끊습니다.",
+      "toneKo": "장소를 묻는 질문입니다."
+    },
+    {
+      "id": "qb8-jog-p-003",
+      "text": "Nơi đó trông như thế nào?",
+      "hintKo": "그곳은 어떻게 생겼나요?",
+      "audioSrc": "",
+      "sourcePage": 8,
+      "reviewNeeded": false,
+      "pronKo": "너이 도 쫑 느 테 나오?",
+      "mouthKo": "Nơi đó / trông như thế nào 로 끊습니다.",
+      "toneKo": "장소 묘사를 요구합니다."
+    },
+    {
+      "id": "qb8-jog-p-004",
+      "text": "Bạn đã bắt đầu đi bộ như thế nào?",
+      "hintKo": "당신은 어떻게 걷기를 시작하게 되었나요?",
+      "audioSrc": "",
+      "sourcePage": 8,
+      "reviewNeeded": false,
+      "pronKo": "반 다 밧 더우 디 보 느 테 나오?",
+      "mouthKo": "Bạn đã bắt đầu / đi bộ / như thế nào 로 끊습니다.",
+      "toneKo": "걷기를 시작한 계기를 말해야 합니다."
+    },
+    {
+      "id": "qb8-jog-p-005",
+      "text": "Điều gì khiến bạn tiếp tục đi bộ?",
+      "hintKo": "무엇이 당신을 계속 걷게 하나요?",
+      "audioSrc": "",
+      "sourcePage": 8,
+      "reviewNeeded": false,
+      "pronKo": "디에우 지 키엔 반 띠엡 뚝 디 보?",
+      "mouthKo": "Điều gì khiến bạn / tiếp tục đi bộ 로 끊습니다.",
+      "toneKo": "운동을 계속하는 이유를 묻습니다."
+    },
+    {
+      "id": "qb8-jog-p-006",
+      "text": "Bạn thường mặc quần áo gì khi chạy bộ?",
+      "hintKo": "당신은 조깅할 때 보통 어떤 옷을 입나요?",
+      "audioSrc": "",
+      "sourcePage": 8,
+      "reviewNeeded": false,
+      "pronKo": "반 트엉 막 꿘 아오 지 키 짜이 보?",
+      "mouthKo": "Bạn thường mặc quần áo gì / khi chạy bộ 로 끊습니다.",
+      "toneKo": "운동복을 설명해야 합니다."
+    },
+    {
+      "id": "qb8-jog-p-007",
+      "text": "Bạn thích mặc quần áo gì khi chạy bộ vào các mùa khác nhau trong năm?",
+      "hintKo": "일년 중 다른 계절에 조깅할 때 어떤 옷을 입는 것을 좋아하나요?",
+      "audioSrc": "",
+      "sourcePage": 8,
+      "reviewNeeded": false,
+      "pronKo": "반 틱 막 꿘 아오 지 키 짜이 보 바오 깍 무아 칵 냐우 쫑 남?",
+      "mouthKo": "Bạn thích mặc quần áo gì / khi chạy bộ / vào các mùa khác nhau trong năm 로 끊습니다.",
+      "toneKo": "여름과 겨울로 나누어 답하면 좋습니다."
+    },
+    {
+      "id": "qb8-jog-p-008",
+      "text": "Hãy kể cho tôi nghe về một trải nghiệm đáng nhớ mà bạn có được khi đi bộ.",
+      "hintKo": "걷기를 할 때 있었던 기억에 남는 경험에 대해 말해주세요.",
+      "audioSrc": "",
+      "sourcePage": 8,
+      "reviewNeeded": false,
+      "pronKo": "하이 께 쪼 또이 응에 베 못 짜이 응이엠 당 녀 마 반 꼬 드억 키 디 보.",
+      "mouthKo": "Hãy kể cho tôi nghe / về một trải nghiệm đáng nhớ / mà bạn có được khi đi bộ 로 끊습니다.",
+      "toneKo": "경험 이야기 시작 문장입니다."
+    },
+    {
+      "id": "qb8-jog-p-009",
+      "text": "Việc đó xảy ra khi nào?",
+      "hintKo": "그 일은 언제 일어났나요?",
+      "audioSrc": "",
+      "sourcePage": 8,
+      "reviewNeeded": false,
+      "pronKo": "비엑 도 싸이 라 키 나오?",
+      "mouthKo": "Việc đó / xảy ra / khi nào 로 끊습니다.",
+      "toneKo": "경험의 시점을 말해야 합니다."
+    },
+    {
+      "id": "qb8-jog-p-010",
+      "text": "Vì sao trải nghiệm đó trở nên đáng nhớ?",
+      "hintKo": "왜 그 경험이 기억에 남게 되었나요?",
+      "audioSrc": "",
+      "sourcePage": 8,
+      "reviewNeeded": false,
+      "pronKo": "비 사오 짜이 응이엠 도 쩌 넨 당 녀?",
+      "mouthKo": "Vì sao / trải nghiệm đó / trở nên đáng nhớ 로 끊습니다.",
+      "toneKo": "마지막에 이유를 붙이면 답변이 완성됩니다."
+    }
+  ],
+  "quizSeeds": [
+    {
+      "id": "qb8-jog-q-001",
+      "type": "match-term",
+      "prompt": "문제은행 조깅·걷기 핵심 단어 매칭 1",
+      "answerSet": [
+        "chạy bộ-조깅하다",
+        "đi bộ-걷다",
+        "địa điểm chạy bộ-조깅 장소",
+        "công viên-공원",
+        "gần nhà-집 근처",
+        "yên tĩnh-조용하다",
+        "rộng rãi-넓다",
+        "sạch sẽ-깨끗하다",
+        "không khí-공기",
+        "trong lành-맑다"
+      ],
+      "sourcePage": 8,
+      "reviewNeeded": false
+    },
+    {
+      "id": "qb8-jog-q-002",
+      "type": "match-term",
+      "prompt": "문제은행 조깅·걷기 핵심 단어 매칭 2",
+      "answerSet": [
+        "đường chạy bộ-조깅 코스",
+        "hồ-호수",
+        "cây xanh-나무들",
+        "sức khỏe-건강",
+        "giữ sức khỏe-건강을 유지하다",
+        "giảm cân-살을 빼다",
+        "giảm căng thẳng-스트레스를 줄이다",
+        "động lực-동기",
+        "tiếp tục-계속하다",
+        "cố gắng-노력하다"
+      ],
+      "sourcePage": 8,
+      "reviewNeeded": false
+    },
+    {
+      "id": "qb8-jog-q-003",
+      "type": "match-term",
+      "prompt": "문제은행 조깅·걷기 옷차림 단어 매칭",
+      "answerSet": [
+        "quần áo thể thao-운동복",
+        "giày chạy bộ-러닝화",
+        "áo thun-티셔츠",
+        "quần short-반바지",
+        "áo khoác-재킷",
+        "thoải mái-편하다",
+        "mùa hè-여름",
+        "mùa đông-겨울",
+        "trải nghiệm đáng nhớ-기억에 남는 경험",
+        "xảy ra-일어나다"
+      ],
+      "sourcePage": 8,
+      "reviewNeeded": false
+    },
+    {
+      "id": "qb8-jog-q-004",
+      "type": "sentence-meaning",
+      "prompt": "문제은행 조깅·걷기 질문 뜻 고르기",
+      "answerSet": [
+        "Bạn thường chạy bộ ở đâu?-당신은 보통 어디에서 조깅하나요?",
+        "Nơi đó trông như thế nào?-그곳은 어떻게 생겼나요?",
+        "Bạn đã bắt đầu đi bộ như thế nào?-당신은 어떻게 걷기를 시작하게 되었나요?",
+        "Điều gì khiến bạn tiếp tục đi bộ?-무엇이 당신을 계속 걷게 하나요?",
+        "Bạn thường mặc quần áo gì khi chạy bộ?-당신은 조깅할 때 보통 어떤 옷을 입나요?"
+      ],
+      "sourcePage": 8,
+      "reviewNeeded": false
+    },
+    {
+      "id": "qb8-jog-q-005",
+      "type": "fill-blank",
+      "prompt": "빈칸 채우기: 저는 건강을 유지하기 위해 조깅합니다.",
+      "question": "Tôi chạy bộ để giữ sức ___.",
+      "answer": "khỏe",
+      "sourcePage": 8,
+      "reviewNeeded": false
+    },
+    {
+      "id": "qb8-jog-q-006",
+      "type": "fill-blank",
+      "prompt": "빈칸 채우기: 저는 보통 집 근처 공원에서 조깅합니다.",
+      "question": "Tôi thường chạy bộ ở công viên gần ___.",
+      "answer": "nhà",
+      "sourcePage": 8,
+      "reviewNeeded": false
+    },
+    {
+      "id": "qb8-jog-q-007",
+      "type": "fill-blank",
+      "prompt": "빈칸 채우기: 그곳의 공기는 매우 맑습니다.",
+      "question": "Không khí ở đó rất trong ___.",
+      "answer": "lành",
+      "sourcePage": 8,
+      "reviewNeeded": false
+    },
+    {
+      "id": "qb8-jog-q-008",
+      "type": "fill-blank",
+      "prompt": "빈칸 채우기: 저는 작년부터 걷기를 시작했습니다.",
+      "question": "Tôi bắt đầu đi bộ từ năm ___.",
+      "answer": "ngoái",
+      "sourcePage": 8,
+      "reviewNeeded": false
+    },
+    {
+      "id": "qb8-jog-q-009",
+      "type": "fill-blank",
+      "prompt": "빈칸 채우기: 건강은 저의 가장 큰 동기입니다.",
+      "question": "Sức khỏe là động ___ lớn nhất của tôi.",
+      "answer": "lực",
+      "sourcePage": 8,
+      "reviewNeeded": false
+    },
+    {
+      "id": "qb8-jog-q-010",
+      "type": "fill-blank",
+      "prompt": "빈칸 채우기: 저는 보통 운동복을 입습니다.",
+      "question": "Tôi thường mặc quần áo thể ___.",
+      "answer": "thao",
+      "sourcePage": 8,
+      "reviewNeeded": false
+    },
+    {
+      "id": "qb8-jog-q-011",
+      "type": "fill-blank",
+      "prompt": "빈칸 채우기: 그것은 기억에 남는 경험이었습니다.",
+      "question": "Đó là một trải nghiệm đáng ___.",
+      "answer": "nhớ",
+      "sourcePage": 8,
+      "reviewNeeded": false
+    },
+    {
+      "id": "qb8-jog-q-012",
+      "type": "match-term",
+      "prompt": "조깅 장소 답변 순서 맞추기",
+      "answerSet": [
+        "1-Tôi thích chạy bộ để giữ sức khỏe.",
+        "2-Tôi thường chạy bộ ở công viên gần nhà.",
+        "3-Tôi thích đến đó vì nơi đó rất yên tĩnh và sạch sẽ.",
+        "4-Trong công viên có nhiều cây xanh và đường chạy bộ rất tốt.",
+        "5-Đối với tôi, đó là địa điểm chạy bộ yêu thích nhất."
+      ],
+      "sourcePage": 8,
+      "reviewNeeded": false
+    },
+    {
+      "id": "qb8-jog-q-013",
+      "type": "match-term",
+      "prompt": "걷기 시작 계기 답변 순서 맞추기",
+      "answerSet": [
+        "1-Tôi bắt đầu đi bộ từ năm ngoái.",
+        "2-Ban đầu, tôi đi bộ vì muốn giảm cân và giữ sức khỏe.",
+        "3-Sau đó, tôi cảm thấy cơ thể khỏe hơn.",
+        "4-Vì vậy, tôi tiếp tục đi bộ.",
+        "5-Động lực lớn nhất của tôi là sức khỏe và gia đình."
+      ],
+      "sourcePage": 8,
+      "reviewNeeded": false
+    },
+    {
+      "id": "qb8-jog-q-014",
+      "type": "match-term",
+      "prompt": "운동복 답변 순서 맞추기",
+      "answerSet": [
+        "1-Khi chạy bộ, tôi thường mặc quần áo thể thao.",
+        "2-Vào mùa hè, tôi mặc áo thun, quần short và giày chạy bộ.",
+        "3-Vào mùa đông, tôi mặc áo khoác, quần dài và giày chạy bộ.",
+        "4-Tôi không quan tâm nhiều đến thời trang khi chạy bộ.",
+        "5-Tôi chỉ muốn mặc quần áo thoải mái và phù hợp với thời tiết."
+      ],
+      "sourcePage": 8,
+      "reviewNeeded": false
+    },
+    {
+      "id": "qb8-jog-q-015",
+      "type": "match-term",
+      "prompt": "기억에 남는 걷기 경험 답변 순서 맞추기",
+      "answerSet": [
+        "1-Tôi có một trải nghiệm đáng nhớ khi đi bộ vào mùa xuân năm ngoái.",
+        "2-Hôm đó, tôi đi bộ ở công viên gần nhà với vợ và các con.",
+        "3-Thời tiết rất đẹp và không khí trong lành.",
+        "4-Tôi cảm thấy rất hạnh phúc vì cả gia đình có thời gian ở bên nhau.",
+        "5-Trải nghiệm đó đáng nhớ vì nó rất đơn giản nhưng ấm áp."
+      ],
+      "sourcePage": 8,
+      "reviewNeeded": false
+    }
+  ],
+  "unlockCondition": "always",
+  "reviewNeeded": false
+},
+    {
   "lessonId": "question-bank-007-music",
   "unitLabel": "문제은행",
   "titleKo": "문제은행7: 음악",
