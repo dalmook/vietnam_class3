@@ -6,6 +6,904 @@
   },
   "lessons": [
     {
+  "lessonId": "question-bank-019-internet-recycling",
+  "unitLabel": "문제은행",
+  "titleKo": "문제은행19: 인터넷/재활용",
+  "titleVi": "Ngân hàng câu hỏi 19: Internet / Tái chế",
+  "pageRange": "문제은행 / 인터넷·재활용",
+  "goals": [
+    "인터넷에서 주로 하는 활동을 설명할 수 있다",
+    "온라인 검색, 온라인 쇼핑, 영상 시청에 대해 말할 수 있다",
+    "집에서 재활용을 어떻게 하는지 설명할 수 있다",
+    "재활용 빈도와 시간을 말할 수 있다",
+    "한국의 재활용 방식과 사람들이 주로 재활용하는 물건을 설명할 수 있다"
+  ],
+  "topicOverview": "인터넷 주제는 일상 활동 설명형 문제입니다. '주로 무엇을 하는지 → 검색/쇼핑/영상 시청 → 사용하는 이유 → 내 생각' 순서로 답하면 좋습니다. 재활용 주제는 생활 습관과 사회 문화 설명형 문제입니다. '집에서 하는 방법 → 언제/얼마나 자주 하는지 → 한국의 재활용 방식 → 재활용하는 물건 → 왜 중요한지' 순서로 말하면 안정적입니다.",
+  "cultureTopics": [
+    "인터넷",
+    "온라인 검색",
+    "온라인 쇼핑",
+    "영상 시청",
+    "SNS",
+    "뉴스 보기",
+    "정보 찾기",
+    "재활용",
+    "분리수거",
+    "플라스틱",
+    "종이",
+    "유리병",
+    "캔",
+    "음식물 쓰레기",
+    "환경 보호",
+    "아파트 재활용장",
+    "한국의 재활용 문화"
+  ],
+  "vocabCards": [
+    {
+      "id": "qb19-ir-v-001",
+      "term": "internet",
+      "meaningKo": "인터넷",
+      "example": "Tôi thường sử dụng internet mỗi ngày.",
+      "exampleMeaningKo": "저는 보통 매일 인터넷을 사용합니다.",
+      "audioSrc": "",
+      "sourcePage": 19,
+      "reviewNeeded": false,
+      "pronKo": "인떠넷",
+      "pronNoteKo": "베트남어에서도 internet이라고 말하면 됩니다.",
+      "pronChunks": ["internet=인떠넷"]
+    },
+    {
+      "id": "qb19-ir-v-002",
+      "term": "trên mạng internet",
+      "meaningKo": "인터넷에서",
+      "example": "Tôi tìm kiếm thông tin trên mạng internet.",
+      "exampleMeaningKo": "저는 인터넷에서 정보를 검색합니다.",
+      "audioSrc": "",
+      "sourcePage": 19,
+      "reviewNeeded": false,
+      "pronKo": "쩬 망 인떠넷",
+      "pronNoteKo": "문제에 나온 핵심 표현입니다.",
+      "pronChunks": ["trên mạng=쩬 망", "internet=인떠넷"]
+    },
+    {
+      "id": "qb19-ir-v-003",
+      "term": "làm gì",
+      "meaningKo": "무엇을 하다",
+      "example": "Bạn thường làm gì trên mạng internet?",
+      "exampleMeaningKo": "당신은 보통 인터넷에서 무엇을 하나요?",
+      "audioSrc": "",
+      "sourcePage": 19,
+      "reviewNeeded": false,
+      "pronKo": "람 지",
+      "pronNoteKo": "질문에서 매우 자주 나오는 표현입니다.",
+      "pronChunks": ["làm=람", "gì=지"]
+    },
+    {
+      "id": "qb19-ir-v-004",
+      "term": "tìm kiếm",
+      "meaningKo": "검색하다 / 찾다",
+      "example": "Tôi thường tìm kiếm thông tin trên mạng.",
+      "exampleMeaningKo": "저는 보통 인터넷에서 정보를 검색합니다.",
+      "audioSrc": "",
+      "sourcePage": 19,
+      "reviewNeeded": false,
+      "pronKo": "띰 끼엠",
+      "pronNoteKo": "온라인 검색을 말할 때 필수 단어입니다.",
+      "pronChunks": ["tìm=띰", "kiếm=끼엠"]
+    },
+    {
+      "id": "qb19-ir-v-005",
+      "term": "thông tin",
+      "meaningKo": "정보",
+      "example": "Internet giúp tôi tìm thông tin nhanh.",
+      "exampleMeaningKo": "인터넷은 제가 정보를 빠르게 찾도록 도와줍니다.",
+      "audioSrc": "",
+      "sourcePage": 19,
+      "reviewNeeded": false,
+      "pronKo": "통 띤",
+      "pronNoteKo": "검색 이유를 말할 때 좋습니다.",
+      "pronChunks": ["thông=통", "tin=띤"]
+    },
+    {
+      "id": "qb19-ir-v-006",
+      "term": "mua sắm trên mạng",
+      "meaningKo": "온라인 쇼핑하다",
+      "example": "Tôi thỉnh thoảng mua sắm trên mạng.",
+      "exampleMeaningKo": "저는 가끔 온라인 쇼핑을 합니다.",
+      "audioSrc": "",
+      "sourcePage": 19,
+      "reviewNeeded": false,
+      "pronKo": "무어 쌈 쩬 망",
+      "pronNoteKo": "문제에 나온 표현입니다.",
+      "pronChunks": ["mua sắm=무어 쌈", "trên mạng=쩬 망"]
+    },
+    {
+      "id": "qb19-ir-v-007",
+      "term": "xem clip",
+      "meaningKo": "짧은 영상/클립을 보다",
+      "example": "Tôi hay xem clip sau khi làm việc.",
+      "exampleMeaningKo": "저는 일한 후에 자주 영상을 봅니다.",
+      "audioSrc": "",
+      "sourcePage": 19,
+      "reviewNeeded": false,
+      "pronKo": "쎔 끌립",
+      "pronNoteKo": "영상 시청을 짧게 말할 때 좋습니다.",
+      "pronChunks": ["xem=쎔", "clip=끌립"]
+    },
+    {
+      "id": "qb19-ir-v-008",
+      "term": "video",
+      "meaningKo": "영상",
+      "example": "Tôi thích xem video về tiếng Việt.",
+      "exampleMeaningKo": "저는 베트남어 관련 영상을 보는 것을 좋아합니다.",
+      "audioSrc": "",
+      "sourcePage": 19,
+      "reviewNeeded": false,
+      "pronKo": "비데오",
+      "pronNoteKo": "clip보다 일반적인 영상 표현입니다.",
+      "pronChunks": ["video=비데오"]
+    },
+    {
+      "id": "qb19-ir-v-009",
+      "term": "tin tức",
+      "meaningKo": "뉴스",
+      "example": "Tôi xem tin tức trên mạng.",
+      "exampleMeaningKo": "저는 인터넷에서 뉴스를 봅니다.",
+      "audioSrc": "",
+      "sourcePage": 19,
+      "reviewNeeded": false,
+      "pronKo": "띤 뜩",
+      "pronNoteKo": "인터넷 활동을 늘릴 때 좋은 단어입니다.",
+      "pronChunks": ["tin=띤", "tức=뜩"]
+    },
+    {
+      "id": "qb19-ir-v-010",
+      "term": "mạng xã hội",
+      "meaningKo": "소셜미디어",
+      "example": "Tôi sử dụng mạng xã hội để xem tin tức.",
+      "exampleMeaningKo": "저는 뉴스를 보기 위해 소셜미디어를 사용합니다.",
+      "audioSrc": "",
+      "sourcePage": 19,
+      "reviewNeeded": false,
+      "pronKo": "망 싸 호이",
+      "pronNoteKo": "인터넷 답변에 넣으면 자연스럽습니다.",
+      "pronChunks": ["mạng=망", "xã hội=싸 호이"]
+    },
+    {
+      "id": "qb19-ir-v-011",
+      "term": "ứng dụng",
+      "meaningKo": "앱",
+      "example": "Tôi sử dụng nhiều ứng dụng trên điện thoại.",
+      "exampleMeaningKo": "저는 휴대폰에서 많은 앱을 사용합니다.",
+      "audioSrc": "",
+      "sourcePage": 19,
+      "reviewNeeded": false,
+      "pronKo": "응 중",
+      "pronNoteKo": "휴대폰 사용 설명에 좋습니다.",
+      "pronChunks": ["ứng=응", "dụng=중"]
+    },
+    {
+      "id": "qb19-ir-v-012",
+      "term": "điện thoại",
+      "meaningKo": "휴대폰 / 전화",
+      "example": "Tôi thường dùng điện thoại để vào mạng.",
+      "exampleMeaningKo": "저는 보통 휴대폰으로 인터넷에 접속합니다.",
+      "audioSrc": "",
+      "sourcePage": 19,
+      "reviewNeeded": false,
+      "pronKo": "디엔 토아이",
+      "pronNoteKo": "인터넷을 무엇으로 하는지 말할 때 씁니다.",
+      "pronChunks": ["điện=디엔", "thoại=토아이"]
+    },
+    {
+      "id": "qb19-ir-v-013",
+      "term": "tiện lợi",
+      "meaningKo": "편리하다",
+      "example": "Internet rất tiện lợi.",
+      "exampleMeaningKo": "인터넷은 매우 편리합니다.",
+      "audioSrc": "",
+      "sourcePage": 19,
+      "reviewNeeded": false,
+      "pronKo": "띠엔 러이",
+      "pronNoteKo": "인터넷 장점을 말할 때 핵심 표현입니다.",
+      "pronChunks": ["tiện=띠엔", "lợi=러이"]
+    },
+    {
+      "id": "qb19-ir-v-014",
+      "term": "nhanh",
+      "meaningKo": "빠르다",
+      "example": "Tìm kiếm trên mạng rất nhanh.",
+      "exampleMeaningKo": "인터넷 검색은 매우 빠릅니다.",
+      "audioSrc": "",
+      "sourcePage": 19,
+      "reviewNeeded": false,
+      "pronKo": "냐인",
+      "pronNoteKo": "검색/쇼핑 장점 설명에 좋습니다.",
+      "pronChunks": ["nhanh=냐인"]
+    },
+    {
+      "id": "qb19-ir-v-015",
+      "term": "giải trí",
+      "meaningKo": "오락 / 즐기다",
+      "example": "Tôi xem video để giải trí.",
+      "exampleMeaningKo": "저는 즐기기 위해 영상을 봅니다.",
+      "audioSrc": "",
+      "sourcePage": 19,
+      "reviewNeeded": false,
+      "pronKo": "자이 찌",
+      "pronNoteKo": "인터넷을 하는 이유로 쓰기 좋습니다.",
+      "pronChunks": ["giải=자이", "trí=찌"]
+    },
+    {
+      "id": "qb19-ir-v-016",
+      "term": "tái chế",
+      "meaningKo": "재활용하다 / 재활용",
+      "example": "Tôi thường tái chế ở nhà.",
+      "exampleMeaningKo": "저는 보통 집에서 재활용을 합니다.",
+      "audioSrc": "",
+      "sourcePage": 19,
+      "reviewNeeded": false,
+      "pronKo": "따이 쩨",
+      "pronNoteKo": "재활용 주제의 핵심 단어입니다.",
+      "pronChunks": ["tái=따이", "chế=쩨"]
+    },
+    {
+      "id": "qb19-ir-v-017",
+      "term": "ở nhà",
+      "meaningKo": "집에서",
+      "example": "Tôi tái chế ở nhà vào buổi tối.",
+      "exampleMeaningKo": "저는 저녁에 집에서 재활용을 합니다.",
+      "audioSrc": "",
+      "sourcePage": 19,
+      "reviewNeeded": false,
+      "pronKo": "어 냐",
+      "pronNoteKo": "집에서 하는 습관을 말할 때 씁니다.",
+      "pronChunks": ["ở=어", "nhà=냐"]
+    },
+    {
+      "id": "qb19-ir-v-018",
+      "term": "phân loại rác",
+      "meaningKo": "쓰레기를 분리하다 / 분리수거하다",
+      "example": "Tôi phân loại rác trước khi vứt rác.",
+      "exampleMeaningKo": "저는 쓰레기를 버리기 전에 분리수거를 합니다.",
+      "audioSrc": "",
+      "sourcePage": 19,
+      "reviewNeeded": false,
+      "pronKo": "펀 로아이 작",
+      "pronNoteKo": "한국식 재활용 설명에 매우 중요합니다.",
+      "pronChunks": ["phân loại=펀 로아이", "rác=작"]
+    },
+    {
+      "id": "qb19-ir-v-019",
+      "term": "rác",
+      "meaningKo": "쓰레기",
+      "example": "Tôi vứt rác đúng nơi quy định.",
+      "exampleMeaningKo": "저는 정해진 장소에 쓰레기를 버립니다.",
+      "audioSrc": "",
+      "sourcePage": 19,
+      "reviewNeeded": false,
+      "pronKo": "작",
+      "pronNoteKo": "쓰레기/재활용 주제 기본 단어입니다.",
+      "pronChunks": ["rác=작"]
+    },
+    {
+      "id": "qb19-ir-v-020",
+      "term": "vứt rác",
+      "meaningKo": "쓰레기를 버리다",
+      "example": "Tôi vứt rác vào buổi tối.",
+      "exampleMeaningKo": "저는 저녁에 쓰레기를 버립니다.",
+      "audioSrc": "",
+      "sourcePage": 19,
+      "reviewNeeded": false,
+      "pronKo": "븟 작",
+      "pronNoteKo": "재활용 행동 설명에 필요합니다.",
+      "pronChunks": ["vứt=븟", "rác=작"]
+    },
+    {
+      "id": "qb19-ir-v-021",
+      "term": "nhựa",
+      "meaningKo": "플라스틱",
+      "example": "Tôi tái chế chai nhựa.",
+      "exampleMeaningKo": "저는 플라스틱 병을 재활용합니다.",
+      "audioSrc": "",
+      "sourcePage": 19,
+      "reviewNeeded": false,
+      "pronKo": "느어",
+      "pronNoteKo": "재활용 품목 핵심 단어입니다.",
+      "pronChunks": ["nhựa=느어"]
+    },
+    {
+      "id": "qb19-ir-v-022",
+      "term": "chai nhựa",
+      "meaningKo": "플라스틱 병",
+      "example": "Người ta thường tái chế chai nhựa.",
+      "exampleMeaningKo": "사람들은 보통 플라스틱 병을 재활용합니다.",
+      "audioSrc": "",
+      "sourcePage": 19,
+      "reviewNeeded": false,
+      "pronKo": "짜이 느어",
+      "pronNoteKo": "사람들이 주로 재활용하는 물건으로 쓰기 좋습니다.",
+      "pronChunks": ["chai=짜이", "nhựa=느어"]
+    },
+    {
+      "id": "qb19-ir-v-023",
+      "term": "giấy",
+      "meaningKo": "종이",
+      "example": "Tôi để giấy riêng.",
+      "exampleMeaningKo": "저는 종이를 따로 둡니다.",
+      "audioSrc": "",
+      "sourcePage": 19,
+      "reviewNeeded": false,
+      "pronKo": "저이",
+      "pronNoteKo": "재활용 품목 기본 단어입니다.",
+      "pronChunks": ["giấy=저이"]
+    },
+    {
+      "id": "qb19-ir-v-024",
+      "term": "thủy tinh",
+      "meaningKo": "유리",
+      "example": "Chai thủy tinh cũng có thể tái chế.",
+      "exampleMeaningKo": "유리병도 재활용할 수 있습니다.",
+      "audioSrc": "",
+      "sourcePage": 19,
+      "reviewNeeded": false,
+      "pronKo": "투이 띤",
+      "pronNoteKo": "유리 재활용 설명에 씁니다.",
+      "pronChunks": ["thủy=투이", "tinh=띤"]
+    },
+    {
+      "id": "qb19-ir-v-025",
+      "term": "lon",
+      "meaningKo": "캔",
+      "example": "Tôi tái chế lon sau khi uống nước.",
+      "exampleMeaningKo": "저는 음료를 마신 후 캔을 재활용합니다.",
+      "audioSrc": "",
+      "sourcePage": 19,
+      "reviewNeeded": false,
+      "pronKo": "론",
+      "pronNoteKo": "캔 재활용을 말할 때 씁니다.",
+      "pronChunks": ["lon=론"]
+    },
+    {
+      "id": "qb19-ir-v-026",
+      "term": "đồ tái chế",
+      "meaningKo": "재활용품",
+      "example": "Tôi mang đồ tái chế xuống tầng một.",
+      "exampleMeaningKo": "저는 재활용품을 1층으로 가지고 내려갑니다.",
+      "audioSrc": "",
+      "sourcePage": 19,
+      "reviewNeeded": false,
+      "pronKo": "도 따이 쩨",
+      "pronNoteKo": "재활용품을 한 번에 말할 때 좋습니다.",
+      "pronChunks": ["đồ=도", "tái chế=따이 쩨"]
+    },
+    {
+      "id": "qb19-ir-v-027",
+      "term": "một tuần",
+      "meaningKo": "일주일",
+      "example": "Một tuần tôi tái chế ba lần.",
+      "exampleMeaningKo": "저는 일주일에 세 번 재활용합니다.",
+      "audioSrc": "",
+      "sourcePage": 19,
+      "reviewNeeded": false,
+      "pronKo": "못 뚜언",
+      "pronNoteKo": "빈도를 말할 때 필요합니다.",
+      "pronChunks": ["một=못", "tuần=뚜언"]
+    },
+    {
+      "id": "qb19-ir-v-028",
+      "term": "mấy lần",
+      "meaningKo": "몇 번",
+      "example": "Một tuần bạn thường tái chế mấy lần?",
+      "exampleMeaningKo": "일주일에 보통 몇 번 재활용하나요?",
+      "audioSrc": "",
+      "sourcePage": 19,
+      "reviewNeeded": false,
+      "pronKo": "머이 런",
+      "pronNoteKo": "질문에 나온 빈도 표현입니다.",
+      "pronChunks": ["mấy=머이", "lần=런"]
+    },
+    {
+      "id": "qb19-ir-v-029",
+      "term": "bảo vệ môi trường",
+      "meaningKo": "환경을 보호하다",
+      "example": "Tái chế giúp bảo vệ môi trường.",
+      "exampleMeaningKo": "재활용은 환경 보호에 도움이 됩니다.",
+      "audioSrc": "",
+      "sourcePage": 19,
+      "reviewNeeded": false,
+      "pronKo": "바오 베 모이 쯔엉",
+      "pronNoteKo": "재활용 이유를 말할 때 최고로 좋습니다.",
+      "pronChunks": ["bảo vệ=바오 베", "môi trường=모이 쯔엉"]
+    },
+    {
+      "id": "qb19-ir-v-030",
+      "term": "quan trọng",
+      "meaningKo": "중요하다",
+      "example": "Tôi nghĩ tái chế rất quan trọng.",
+      "exampleMeaningKo": "저는 재활용이 매우 중요하다고 생각합니다.",
+      "audioSrc": "",
+      "sourcePage": 19,
+      "reviewNeeded": false,
+      "pronKo": "꽌 쫑",
+      "pronNoteKo": "의견 마무리에 쓰기 좋습니다.",
+      "pronChunks": ["quan=꽌", "trọng=쫑"]
+    }
+  ],
+  "sentenceCards": [
+    {
+      "id": "qb19-ir-s-001",
+      "textVi": "Bạn thường làm gì trên mạng internet? Bạn có thường tìm kiếm hay mua sắm trên mạng không? Bạn có xem clip không? Hãy cho tôi biết về mọi việc bạn làm trên mạng.",
+      "textKo": "당신은 보통 인터넷에서 무엇을 하나요? 당신은 온라인 검색 또는 쇼핑을 하나요? 당신은 동영상을 보나요? 당신이 온라인에서 하는 모든 일에 대해 알려주세요.",
+      "exampleAnswerVi": "Tôi thường sử dụng internet mỗi ngày. Trên mạng internet, tôi thường tìm kiếm thông tin, xem tin tức, xem video và học tiếng Việt. Tôi cũng thỉnh thoảng mua sắm trên mạng vì rất tiện lợi và nhanh. Ví dụ, khi tôi cần mua đồ cho gia đình, tôi thường so sánh giá trước rồi đặt hàng online. Ngoài ra, tôi hay xem clip ngắn trên YouTube hoặc mạng xã hội sau khi làm việc. Tôi xem clip để giải trí và giảm căng thẳng. Tuy nhiên, tôi cố gắng không dùng internet quá nhiều, vì nếu dùng quá lâu thì tôi mất thời gian. Theo tôi, internet rất hữu ích, nhưng chúng ta nên sử dụng nó một cách hợp lý.",
+      "exampleAnswerKo": "저는 보통 매일 인터넷을 사용합니다. 인터넷에서 저는 주로 정보를 검색하고, 뉴스를 보고, 영상을 보고, 베트남어를 공부합니다. 또한 가끔 온라인 쇼핑도 합니다. 왜냐하면 매우 편리하고 빠르기 때문입니다. 예를 들어 가족에게 필요한 물건을 살 때 저는 보통 먼저 가격을 비교한 다음 온라인으로 주문합니다. 또한 일을 마친 후에 유튜브나 소셜미디어에서 짧은 영상을 자주 봅니다. 저는 즐기고 스트레스를 줄이기 위해 영상을 봅니다. 하지만 인터넷을 너무 많이 사용하지 않으려고 노력합니다. 너무 오래 사용하면 시간이 낭비되기 때문입니다. 제 생각에 인터넷은 매우 유용하지만, 우리는 그것을 적절하게 사용해야 합니다.",
+      "audioSrc": "",
+      "sourcePage": 19,
+      "reviewNeeded": false,
+      "pronKo": "반 트엉 람 지 쩬 망 인떠넷? 반 꼬 트엉 띰 끼엠 하이 무어 쌈 쩬 망 콩? 반 꼬 쎔 끌립 콩? 하이 쪼 또이 비엣 베 모이 비엑 반 람 쩬 망.",
+      "exampleAnswerPronKo": "또이 트엉 스 중 인떠넷 모이 응아이. 쩬 망 인떠넷, 또이 트엉 띰 끼엠 통 띤, 쎔 띤 뜩, 쎔 비데오 바 혹 띠엥 비엣.",
+      "pronNoteKo": "인터넷 문제는 '검색한다, 쇼핑한다, 영상을 본다' 세 가지를 넣으면 답변이 안정적입니다."
+    },
+    {
+      "id": "qb19-ir-s-002",
+      "textVi": "Bạn thường tái chế ở nhà như thế nào? Khi nào bạn thường tái chế? Một tuần bạn thường tái chế mấy lần? Hãy nói thật chi tiết.",
+      "textKo": "당신은 보통 집에서 어떻게 재활용을 하나요? 언제 주로 재활용을 하나요? 일주일에 보통 몇 번 재활용하나요? 아주 자세히 말해주세요.",
+      "exampleAnswerVi": "Tôi thường tái chế ở nhà rất đơn giản. Trước hết, tôi phân loại rác thành nhiều loại như giấy, chai nhựa, lon, thủy tinh và rác thường. Sau khi uống nước, tôi rửa chai nhựa hoặc lon một chút rồi để riêng. Giấy thì tôi xếp lại gọn gàng. Ở chung cư của tôi có khu vực tái chế ở tầng một, nên tôi mang đồ tái chế xuống đó. Tôi thường tái chế vào buổi tối, sau khi ăn tối hoặc trước khi đi ngủ. Một tuần tôi thường tái chế khoảng hai hoặc ba lần. Theo tôi, tái chế hơi phiền một chút, nhưng rất quan trọng. Nếu mọi người tái chế tốt, chúng ta có thể giảm rác và bảo vệ môi trường.",
+      "exampleAnswerKo": "저는 보통 집에서 아주 간단하게 재활용을 합니다. 먼저 쓰레기를 종이, 플라스틱 병, 캔, 유리, 일반 쓰레기처럼 여러 종류로 분리합니다. 음료를 마신 후에는 플라스틱 병이나 캔을 조금 씻은 다음 따로 둡니다. 종이는 깔끔하게 모아 둡니다. 제가 사는 아파트에는 1층에 재활용 구역이 있어서 저는 재활용품을 그곳으로 가지고 내려갑니다. 저는 보통 저녁 식사 후나 자기 전에 저녁에 재활용을 합니다. 일주일에 보통 두세 번 정도 재활용합니다. 제 생각에 재활용은 조금 귀찮지만 매우 중요합니다. 사람들이 재활용을 잘하면 우리는 쓰레기를 줄이고 환경을 보호할 수 있습니다.",
+      "audioSrc": "",
+      "sourcePage": 19,
+      "reviewNeeded": false,
+      "pronKo": "반 트엉 따이 쩨 어 냐 느 테 나오? 키 나오 반 트엉 따이 쩨? 못 뚜언 반 트엉 따이 쩨 머이 런? 하이 노이 텃 찌 띠엣.",
+      "exampleAnswerPronKo": "또이 트엉 따이 쩨 어 냐 젓 던 잔. 쯔억 헷, 또이 펀 로아이 작 타인 니에우 로아이 느 저이, 짜이 느어, 론, 투이 띤 바 작 트엉.",
+      "pronNoteKo": "재활용 방법 → 시간 → 빈도 → 의견 순서로 말하면 좋습니다."
+    },
+    {
+      "id": "qb19-ir-s-003",
+      "textVi": "Bạn có thể cho tôi biết về cách tái chế của nước bạn không? Người ta thường tái chế những vật dụng nào?",
+      "textKo": "당신 나라의 재활용 방법에 대해 알려줄 수 있나요? 사람들은 주로 어떤 물건들을 재활용하나요?",
+      "exampleAnswerVi": "Ở Hàn Quốc, cách tái chế khá nghiêm túc và có quy định rõ ràng. Người ta thường phân loại rác trước khi vứt rác. Ví dụ, giấy, chai nhựa, lon, thủy tinh, đồ nhựa và rác thức ăn phải được để riêng. Ở nhiều chung cư, có khu vực tái chế ở tầng một hoặc dưới hầm. Người dân thường mang đồ tái chế đến đó vào buổi tối. Ngoài ra, ở Hàn Quốc, rác thức ăn cũng được bỏ riêng. Tôi nghĩ hệ thống tái chế ở Hàn Quốc khá tốt, nhưng đôi khi hơi phức tạp. Người mới sống ở Hàn Quốc có thể thấy khó lúc đầu. Tuy nhiên, nhờ cách này, chúng ta có thể giảm rác, tiết kiệm tài nguyên và bảo vệ môi trường. Vì vậy tôi nghĩ tái chế là một thói quen rất cần thiết.",
+      "exampleAnswerKo": "한국에서는 재활용 방법이 꽤 엄격하고 규정이 분명합니다. 사람들은 보통 쓰레기를 버리기 전에 분리수거를 합니다. 예를 들어 종이, 플라스틱 병, 캔, 유리, 플라스틱 제품, 음식물 쓰레기는 따로 버려야 합니다. 많은 아파트에는 1층이나 지하에 재활용 구역이 있습니다. 주민들은 보통 저녁에 재활용품을 그곳으로 가져갑니다. 또한 한국에서는 음식물 쓰레기도 따로 버립니다. 저는 한국의 재활용 시스템이 꽤 좋다고 생각하지만, 때때로 조금 복잡합니다. 한국에 처음 사는 사람은 처음에 어렵다고 느낄 수 있습니다. 하지만 이런 방식 덕분에 우리는 쓰레기를 줄이고, 자원을 절약하고, 환경을 보호할 수 있습니다. 그래서 저는 재활용이 매우 필요한 습관이라고 생각합니다.",
+      "audioSrc": "",
+      "sourcePage": 19,
+      "reviewNeeded": false,
+      "pronKo": "반 꼬 테 쪼 또이 비엣 베 까익 따이 쩨 꾸어 느억 반 콩? 응으어이 따 트엉 따이 쩨 느응 벗 중 나오?",
+      "exampleAnswerPronKo": "어 한 꾸옥, 까익 따이 쩨 카 응이엠 뚝 바 꼬 꾸이 딩 로 장.",
+      "pronNoteKo": "한국 문화 설명형입니다. '규정이 분명하다, 분리수거한다, 품목을 따로 버린다'를 넣으면 좋아요."
+    }
+  ],
+  "dialogues": [
+    {
+      "id": "qb19-ir-d-001",
+      "title": "인터넷에서 하는 일",
+      "audioSrc": "",
+      "sourcePage": 19,
+      "reviewNeeded": false,
+      "lines": [
+        {
+          "speaker": "A",
+          "vi": "Bạn thường làm gì trên mạng internet?",
+          "ko": "당신은 보통 인터넷에서 무엇을 하나요?",
+          "pronKo": "반 트엉 람 지 쩬 망 인떠넷?"
+        },
+        {
+          "speaker": "B",
+          "vi": "Tôi thường tìm kiếm thông tin, xem video và học tiếng Việt.",
+          "ko": "저는 보통 정보를 검색하고, 영상을 보고, 베트남어를 공부합니다.",
+          "pronKo": "또이 트엉 띰 끼엠 통 띤, 쎔 비데오 바 혹 띠엥 비엣."
+        },
+        {
+          "speaker": "A",
+          "vi": "Bạn có mua sắm trên mạng không?",
+          "ko": "온라인 쇼핑을 하나요?",
+          "pronKo": "반 꼬 무어 쌈 쩬 망 콩?"
+        },
+        {
+          "speaker": "B",
+          "vi": "Có, tôi thỉnh thoảng mua sắm trên mạng vì rất tiện lợi.",
+          "ko": "네, 매우 편리해서 가끔 온라인 쇼핑을 합니다.",
+          "pronKo": "꼬, 또이 틴 토앙 무어 쌈 쩬 망 비 젓 띠엔 러이."
+        }
+      ]
+    },
+    {
+      "id": "qb19-ir-d-002",
+      "title": "집에서 재활용하기",
+      "audioSrc": "",
+      "sourcePage": 19,
+      "reviewNeeded": false,
+      "lines": [
+        {
+          "speaker": "A",
+          "vi": "Bạn thường tái chế ở nhà như thế nào?",
+          "ko": "당신은 보통 집에서 어떻게 재활용을 하나요?",
+          "pronKo": "반 트엉 따이 쩨 어 냐 느 테 나오?"
+        },
+        {
+          "speaker": "B",
+          "vi": "Tôi phân loại giấy, chai nhựa, lon và thủy tinh.",
+          "ko": "저는 종이, 플라스틱 병, 캔, 유리를 분리합니다.",
+          "pronKo": "또이 펀 로아이 저이, 짜이 느어, 론 바 투이 띤."
+        },
+        {
+          "speaker": "A",
+          "vi": "Một tuần bạn tái chế mấy lần?",
+          "ko": "일주일에 몇 번 재활용하나요?",
+          "pronKo": "못 뚜언 반 따이 쩨 머이 런?"
+        },
+        {
+          "speaker": "B",
+          "vi": "Một tuần tôi thường tái chế khoảng hai hoặc ba lần.",
+          "ko": "저는 일주일에 보통 두세 번 정도 재활용합니다.",
+          "pronKo": "못 뚜언 또이 트엉 따이 쩨 코앙 하이 호악 바 런."
+        }
+      ]
+    },
+    {
+      "id": "qb19-ir-d-003",
+      "title": "한국의 재활용 방식",
+      "audioSrc": "",
+      "sourcePage": 19,
+      "reviewNeeded": false,
+      "lines": [
+        {
+          "speaker": "A",
+          "vi": "Ở Hàn Quốc, người ta thường tái chế những vật dụng nào?",
+          "ko": "한국에서는 사람들이 주로 어떤 물건들을 재활용하나요?",
+          "pronKo": "어 한 꾸옥, 응으어이 따 트엉 따이 쩨 느응 벗 중 나오?"
+        },
+        {
+          "speaker": "B",
+          "vi": "Người ta thường tái chế giấy, chai nhựa, lon và thủy tinh.",
+          "ko": "사람들은 보통 종이, 플라스틱 병, 캔, 유리를 재활용합니다.",
+          "pronKo": "응으어이 따 트엉 따이 쩨 저이, 짜이 느어, 론 바 투이 띤."
+        },
+        {
+          "speaker": "A",
+          "vi": "Bạn nghĩ tái chế có quan trọng không?",
+          "ko": "재활용이 중요하다고 생각하나요?",
+          "pronKo": "반 응이 따이 쩨 꼬 꽌 쫑 콩?"
+        },
+        {
+          "speaker": "B",
+          "vi": "Có, tôi nghĩ tái chế rất quan trọng vì nó giúp bảo vệ môi trường.",
+          "ko": "네, 재활용은 환경 보호에 도움이 되기 때문에 매우 중요하다고 생각합니다.",
+          "pronKo": "꼬, 또이 응이 따이 쩨 젓 꽌 쫑 비 노 줍 바오 베 모이 쯔엉."
+        }
+      ]
+    }
+  ],
+  "grammarPoints": [
+    {
+      "id": "qb19-ir-g-001",
+      "title": "인터넷에서 무엇을 하나요?",
+      "pattern": "Bạn thường làm gì trên mạng internet?",
+      "meaningKo": "당신은 보통 인터넷에서 무엇을 하나요?",
+      "sourcePage": 19,
+      "reviewNeeded": false
+    },
+    {
+      "id": "qb19-ir-g-002",
+      "title": "온라인에서 ~하다",
+      "pattern": "Tôi thường tìm kiếm thông tin trên mạng.",
+      "meaningKo": "저는 보통 인터넷에서 정보를 검색합니다.",
+      "sourcePage": 19,
+      "reviewNeeded": false
+    },
+    {
+      "id": "qb19-ir-g-003",
+      "title": "~하거나 ~하나요?",
+      "pattern": "Bạn có thường tìm kiếm hay mua sắm trên mạng không?",
+      "meaningKo": "당신은 자주 온라인 검색이나 쇼핑을 하나요?",
+      "sourcePage": 19,
+      "reviewNeeded": false
+    },
+    {
+      "id": "qb19-ir-g-004",
+      "title": "~에 대해 알려주세요",
+      "pattern": "Hãy cho tôi biết về mọi việc bạn làm trên mạng.",
+      "meaningKo": "당신이 인터넷에서 하는 모든 일에 대해 알려주세요.",
+      "sourcePage": 19,
+      "reviewNeeded": false
+    },
+    {
+      "id": "qb19-ir-g-005",
+      "title": "어떻게 ~하나요?",
+      "pattern": "Bạn thường tái chế ở nhà như thế nào?",
+      "meaningKo": "당신은 보통 집에서 어떻게 재활용을 하나요?",
+      "sourcePage": 19,
+      "reviewNeeded": false
+    },
+    {
+      "id": "qb19-ir-g-006",
+      "title": "언제 ~하나요?",
+      "pattern": "Khi nào bạn thường tái chế?",
+      "meaningKo": "언제 보통 재활용을 하나요?",
+      "sourcePage": 19,
+      "reviewNeeded": false
+    },
+    {
+      "id": "qb19-ir-g-007",
+      "title": "일주일에 몇 번 ~하나요?",
+      "pattern": "Một tuần bạn thường tái chế mấy lần?",
+      "meaningKo": "일주일에 보통 몇 번 재활용하나요?",
+      "sourcePage": 19,
+      "reviewNeeded": false
+    },
+    {
+      "id": "qb19-ir-g-008",
+      "title": "~할 수 있나요?",
+      "pattern": "Bạn có thể cho tôi biết về cách tái chế của nước bạn không?",
+      "meaningKo": "당신 나라의 재활용 방법에 대해 알려줄 수 있나요?",
+      "sourcePage": 19,
+      "reviewNeeded": false
+    },
+    {
+      "id": "qb19-ir-g-009",
+      "title": "사람들은 보통 ~한다",
+      "pattern": "Người ta thường tái chế những vật dụng nào?",
+      "meaningKo": "사람들은 보통 어떤 물건들을 재활용하나요?",
+      "sourcePage": 19,
+      "reviewNeeded": false
+    },
+    {
+      "id": "qb19-ir-g-010",
+      "title": "~하기 때문에",
+      "pattern": "Tái chế rất quan trọng vì nó giúp bảo vệ môi trường.",
+      "meaningKo": "재활용은 환경 보호에 도움이 되기 때문에 매우 중요합니다.",
+      "sourcePage": 19,
+      "reviewNeeded": false
+    }
+  ],
+  "pronunciationTargets": [
+    {
+      "id": "qb19-ir-p-001",
+      "text": "Bạn thường làm gì trên mạng internet?",
+      "hintKo": "당신은 보통 인터넷에서 무엇을 하나요?",
+      "audioSrc": "",
+      "sourcePage": 19,
+      "reviewNeeded": false,
+      "pronKo": "반 트엉 람 지 쩬 망 인떠넷",
+      "mouthKo": "Bạn thường / làm gì / trên mạng internet 으로 끊습니다.",
+      "toneKo": "인터넷 문제의 시작 문장입니다."
+    },
+    {
+      "id": "qb19-ir-p-002",
+      "text": "Bạn có thường tìm kiếm hay mua sắm trên mạng không?",
+      "hintKo": "당신은 자주 온라인 검색이나 쇼핑을 하나요?",
+      "audioSrc": "",
+      "sourcePage": 19,
+      "reviewNeeded": false,
+      "pronKo": "반 꼬 트엉 띰 끼엠 하이 무어 쌈 쩬 망 콩",
+      "mouthKo": "Bạn có thường / tìm kiếm hay mua sắm / trên mạng không 으로 끊습니다.",
+      "toneKo": "tìm kiếm와 mua sắm을 분명히 발음합니다."
+    },
+    {
+      "id": "qb19-ir-p-003",
+      "text": "Hãy cho tôi biết về mọi việc bạn làm trên mạng.",
+      "hintKo": "당신이 인터넷에서 하는 모든 일에 대해 알려주세요.",
+      "audioSrc": "",
+      "sourcePage": 19,
+      "reviewNeeded": false,
+      "pronKo": "하이 쪼 또이 비엣 베 모이 비엑 반 람 쩬 망",
+      "mouthKo": "Hãy cho tôi biết / về mọi việc / bạn làm trên mạng 으로 끊습니다.",
+      "toneKo": "문제 끝에 붙는 요청 문장입니다."
+    },
+    {
+      "id": "qb19-ir-p-004",
+      "text": "Bạn thường tái chế ở nhà như thế nào?",
+      "hintKo": "당신은 보통 집에서 어떻게 재활용을 하나요?",
+      "audioSrc": "",
+      "sourcePage": 19,
+      "reviewNeeded": false,
+      "pronKo": "반 트엉 따이 쩨 어 냐 느 테 나오",
+      "mouthKo": "Bạn thường tái chế / ở nhà / như thế nào 으로 끊습니다.",
+      "toneKo": "재활용 문제의 핵심 질문입니다."
+    },
+    {
+      "id": "qb19-ir-p-005",
+      "text": "Một tuần bạn thường tái chế mấy lần?",
+      "hintKo": "일주일에 보통 몇 번 재활용하나요?",
+      "audioSrc": "",
+      "sourcePage": 19,
+      "reviewNeeded": false,
+      "pronKo": "못 뚜언 반 트엉 따이 쩨 머이 런",
+      "mouthKo": "Một tuần / bạn thường tái chế / mấy lần 으로 끊습니다.",
+      "toneKo": "빈도 질문입니다. mấy lần은 '몇 번'입니다."
+    },
+    {
+      "id": "qb19-ir-p-006",
+      "text": "Người ta thường tái chế những vật dụng nào?",
+      "hintKo": "사람들은 보통 어떤 물건들을 재활용하나요?",
+      "audioSrc": "",
+      "sourcePage": 19,
+      "reviewNeeded": false,
+      "pronKo": "응으어이 따 트엉 따이 쩨 느응 벗 중 나오",
+      "mouthKo": "Người ta thường tái chế / những vật dụng nào 으로 끊습니다.",
+      "toneKo": "한국의 재활용 품목을 말할 때 나오는 질문입니다."
+    }
+  ],
+  "quizSeeds": [
+    {
+      "id": "qb19-ir-q-001",
+      "type": "match-term",
+      "prompt": "인터넷 핵심 단어 매칭 1",
+      "answerSet": [
+        "internet-인터넷",
+        "trên mạng internet-인터넷에서",
+        "làm gì-무엇을 하다",
+        "tìm kiếm-검색하다/찾다",
+        "thông tin-정보",
+        "mua sắm trên mạng-온라인 쇼핑하다"
+      ],
+      "sourcePage": 19,
+      "reviewNeeded": false
+    },
+    {
+      "id": "qb19-ir-q-002",
+      "type": "match-term",
+      "prompt": "인터넷 활동 단어 매칭 2",
+      "answerSet": [
+        "xem clip-짧은 영상/클립을 보다",
+        "video-영상",
+        "tin tức-뉴스",
+        "mạng xã hội-소셜미디어",
+        "ứng dụng-앱",
+        "điện thoại-휴대폰"
+      ],
+      "sourcePage": 19,
+      "reviewNeeded": false
+    },
+    {
+      "id": "qb19-ir-q-003",
+      "type": "match-term",
+      "prompt": "재활용 핵심 단어 매칭 1",
+      "answerSet": [
+        "tái chế-재활용하다/재활용",
+        "ở nhà-집에서",
+        "phân loại rác-쓰레기를 분리하다/분리수거하다",
+        "rác-쓰레기",
+        "vứt rác-쓰레기를 버리다",
+        "đồ tái chế-재활용품"
+      ],
+      "sourcePage": 19,
+      "reviewNeeded": false
+    },
+    {
+      "id": "qb19-ir-q-004",
+      "type": "match-term",
+      "prompt": "재활용 품목 단어 매칭",
+      "answerSet": [
+        "nhựa-플라스틱",
+        "chai nhựa-플라스틱 병",
+        "giấy-종이",
+        "thủy tinh-유리",
+        "lon-캔",
+        "bảo vệ môi trường-환경을 보호하다"
+      ],
+      "sourcePage": 19,
+      "reviewNeeded": false
+    },
+    {
+      "id": "qb19-ir-q-005",
+      "type": "sentence-meaning",
+      "prompt": "인터넷 문제 뜻 고르기",
+      "answerSet": [
+        "Bạn thường làm gì trên mạng internet?-당신은 보통 인터넷에서 무엇을 하나요?",
+        "Bạn có thường tìm kiếm hay mua sắm trên mạng không?-당신은 자주 온라인 검색이나 쇼핑을 하나요?",
+        "Bạn có xem clip không?-당신은 동영상을 보나요?",
+        "Hãy cho tôi biết về mọi việc bạn làm trên mạng.-당신이 인터넷에서 하는 모든 일에 대해 알려주세요."
+      ],
+      "sourcePage": 19,
+      "reviewNeeded": false
+    },
+    {
+      "id": "qb19-ir-q-006",
+      "type": "sentence-meaning",
+      "prompt": "재활용 문제 뜻 고르기",
+      "answerSet": [
+        "Bạn thường tái chế ở nhà như thế nào?-당신은 보통 집에서 어떻게 재활용을 하나요?",
+        "Khi nào bạn thường tái chế?-언제 주로 재활용을 하나요?",
+        "Một tuần bạn thường tái chế mấy lần?-일주일에 보통 몇 번 재활용하나요?",
+        "Người ta thường tái chế những vật dụng nào?-사람들은 주로 어떤 물건들을 재활용하나요?"
+      ],
+      "sourcePage": 19,
+      "reviewNeeded": false
+    },
+    {
+      "id": "qb19-ir-q-007",
+      "type": "fill-blank",
+      "prompt": "빈칸 채우기: 저는 인터넷에서 정보를 검색합니다.",
+      "question": "Tôi ___ ___ thông tin trên mạng.",
+      "answer": "tìm kiếm",
+      "sourcePage": 19,
+      "reviewNeeded": false
+    },
+    {
+      "id": "qb19-ir-q-008",
+      "type": "fill-blank",
+      "prompt": "빈칸 채우기: 저는 가끔 온라인 쇼핑을 합니다.",
+      "question": "Tôi thỉnh thoảng ___ ___ trên mạng.",
+      "answer": "mua sắm",
+      "sourcePage": 19,
+      "reviewNeeded": false
+    },
+    {
+      "id": "qb19-ir-q-009",
+      "type": "fill-blank",
+      "prompt": "빈칸 채우기: 저는 집에서 재활용을 합니다.",
+      "question": "Tôi thường ___ ___ ở nhà.",
+      "answer": "tái chế",
+      "sourcePage": 19,
+      "reviewNeeded": false
+    },
+    {
+      "id": "qb19-ir-q-010",
+      "type": "fill-blank",
+      "prompt": "빈칸 채우기: 저는 쓰레기를 분리합니다.",
+      "question": "Tôi ___ ___ rác.",
+      "answer": "phân loại",
+      "sourcePage": 19,
+      "reviewNeeded": false
+    },
+    {
+      "id": "qb19-ir-q-011",
+      "type": "fill-blank",
+      "prompt": "빈칸 채우기: 재활용은 환경 보호에 도움이 됩니다.",
+      "question": "Tái chế giúp ___ ___ môi trường.",
+      "answer": "bảo vệ",
+      "sourcePage": 19,
+      "reviewNeeded": false
+    },
+    {
+      "id": "qb19-ir-q-012",
+      "type": "match-term",
+      "prompt": "인터넷 답변 순서 맞추기",
+      "answerSet": [
+        "1-Tôi thường sử dụng internet mỗi ngày.",
+        "2-Trên mạng internet, tôi tìm kiếm thông tin và xem tin tức.",
+        "3-Tôi thỉnh thoảng mua sắm trên mạng vì rất tiện lợi.",
+        "4-Sau khi làm việc, tôi hay xem clip để giải trí.",
+        "5-Tôi cố gắng không dùng internet quá nhiều.",
+        "6-Theo tôi, internet rất hữu ích."
+      ],
+      "sourcePage": 19,
+      "reviewNeeded": false
+    },
+    {
+      "id": "qb19-ir-q-013",
+      "type": "match-term",
+      "prompt": "재활용 답변 순서 맞추기",
+      "answerSet": [
+        "1-Tôi thường tái chế ở nhà.",
+        "2-Trước hết, tôi phân loại rác.",
+        "3-Tôi để riêng giấy, chai nhựa, lon và thủy tinh.",
+        "4-Tôi thường tái chế vào buổi tối.",
+        "5-Một tuần tôi tái chế khoảng hai hoặc ba lần.",
+        "6-Tôi nghĩ tái chế rất quan trọng."
+      ],
+      "sourcePage": 19,
+      "reviewNeeded": false
+    },
+    {
+      "id": "qb19-ir-q-014",
+      "type": "match-term",
+      "prompt": "한국 재활용 설명 순서 맞추기",
+      "answerSet": [
+        "1-Ở Hàn Quốc, cách tái chế khá nghiêm túc.",
+        "2-Người ta thường phân loại rác trước khi vứt rác.",
+        "3-Giấy, chai nhựa, lon và thủy tinh phải được để riêng.",
+        "4-Ở nhiều chung cư, có khu vực tái chế.",
+        "5-Tái chế giúp giảm rác và bảo vệ môi trường.",
+        "6-Vì vậy tôi nghĩ tái chế là một thói quen cần thiết."
+      ],
+      "sourcePage": 19,
+      "reviewNeeded": false
+    }
+  ],
+  "unlockCondition": "always",
+  "reviewNeeded": false
+},
+    {
   "lessonId": "question-bank-018-holiday",
   "unitLabel": "문제은행",
   "titleKo": "문제은행18: 명절",
