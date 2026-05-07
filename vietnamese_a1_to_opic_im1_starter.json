@@ -19,6 +19,2795 @@
   },
   "lessons": [
     {
+  "lessonId": "d7bank",
+  "unitLabel": "7일차",
+  "titleKo": "7일차: 은행",
+  "titleVi": "Chủ đề 14: Ngân hàng",
+  "pageRange": "Topic 1-21 / Ngân hàng / p.30-31",
+  "goals": [
+    "은행 계좌와 사용하는 은행을 말할 수 있다",
+    "은행에 자주 가는지 말할 수 있다",
+    "송금, 출금, 잔액 확인, 온라인 결제를 말할 수 있다",
+    "현금과 카드 사용 습관을 말할 수 있다",
+    "신용카드, 저축, 예금, 대출 경험을 말할 수 있다",
+    "카드 분실, 잘못 송금, 계좌 잠김 상황에 대해 말할 수 있다",
+    "OPIc 은행 주제 질문에 2~4문장으로 답할 수 있다"
+  ],
+  "topicOverview": "7일차 주제는 은행입니다. 은행 계좌를 어디에서 쓰는지, 은행에 자주 가는지, 앱으로 송금하는지, 현금과 카드를 어떻게 쓰는지, 저축과 대출 경험이 있는지, 카드 분실이나 잘못 송금했을 때 어떻게 하는지를 말하는 연습입니다. 초보자는 'Tôi dùng tài khoản của...', 'Tôi thường chuyển tiền qua app', 'Tôi hay thanh toán online', 'Nếu mất thẻ, tôi sẽ...' 구조를 먼저 외우면 좋습니다.",
+  "cultureTopics": [
+    "은행 계좌 사용",
+    "모바일 뱅킹",
+    "앱 송금",
+    "현금 출금",
+    "잔액 확인",
+    "온라인 결제",
+    "은행 서비스 만족도",
+    "현금과 카드 사용",
+    "신용카드",
+    "저축과 예금",
+    "은행 대출",
+    "카드 분실 대처",
+    "잘못 송금했을 때 대처",
+    "계좌 잠김 대처",
+    "월별 지출 관리"
+  ],
+  "vocabCards": [
+    {
+      "id": "d7bank-v-001",
+      "term": "sử dụng",
+      "meaningKo": "사용하다",
+      "example": "Tôi sử dụng app ngân hàng mỗi ngày.",
+      "exampleMeaningKo": "저는 매일 은행 앱을 사용합니다.",
+      "audioSrc": "",
+      "sourcePage": 30,
+      "reviewNeeded": false,
+      "pronKo": "쓰 중",
+      "pronNoteKo": "dùng과 비슷하게 '사용하다'라는 뜻입니다.",
+      "pronChunks": ["sử=쓰", "dụng=중"]
+    },
+    {
+      "id": "d7bank-v-002",
+      "term": "ngân hàng",
+      "meaningKo": "은행",
+      "example": "Tôi dùng ngân hàng Shinhan.",
+      "exampleMeaningKo": "저는 신한은행을 사용합니다.",
+      "audioSrc": "",
+      "sourcePage": 30,
+      "reviewNeeded": false,
+      "pronKo": "응언 항",
+      "pronNoteKo": "은행 주제 핵심 단어입니다.",
+      "pronChunks": ["ngân=응언", "hàng=항"]
+    },
+    {
+      "id": "d7bank-v-003",
+      "term": "tài khoản",
+      "meaningKo": "계좌",
+      "example": "Tôi có tài khoản ngân hàng.",
+      "exampleMeaningKo": "저는 은행 계좌가 있습니다.",
+      "audioSrc": "",
+      "sourcePage": 30,
+      "reviewNeeded": false,
+      "pronKo": "따이 코안",
+      "pronNoteKo": "계좌, 계정이라는 뜻입니다.",
+      "pronChunks": ["tài=따이", "khoản=코안"]
+    },
+    {
+      "id": "d7bank-v-004",
+      "term": "dùng",
+      "meaningKo": "사용하다",
+      "example": "Tôi thường dùng thẻ.",
+      "exampleMeaningKo": "저는 보통 카드를 사용합니다.",
+      "audioSrc": "",
+      "sourcePage": 30,
+      "reviewNeeded": false,
+      "pronKo": "중",
+      "pronNoteKo": "sử dụng보다 짧고 회화에서 많이 씁니다.",
+      "pronChunks": ["dùng=중"]
+    },
+    {
+      "id": "d7bank-v-005",
+      "term": "chuyển tiền",
+      "meaningKo": "송금하다",
+      "example": "Tôi thường chuyển tiền qua app.",
+      "exampleMeaningKo": "저는 보통 앱으로 송금합니다.",
+      "audioSrc": "",
+      "sourcePage": 30,
+      "reviewNeeded": false,
+      "pronKo": "쭈옌 띠엔",
+      "pronNoteKo": "chuyển은 옮기다, tiền은 돈입니다.",
+      "pronChunks": ["chuyển=쭈옌", "tiền=띠엔"]
+    },
+    {
+      "id": "d7bank-v-006",
+      "term": "rút tiền",
+      "meaningKo": "출금하다",
+      "example": "Tôi ít rút tiền mặt.",
+      "exampleMeaningKo": "저는 현금을 거의 출금하지 않습니다.",
+      "audioSrc": "",
+      "sourcePage": 30,
+      "reviewNeeded": false,
+      "pronKo": "줏 띠엔",
+      "pronNoteKo": "돈을 인출하다, 출금하다입니다.",
+      "pronChunks": ["rút=줏", "tiền=띠엔"]
+    },
+    {
+      "id": "d7bank-v-007",
+      "term": "tiền mặt",
+      "meaningKo": "현금",
+      "example": "Tôi không mang nhiều tiền mặt.",
+      "exampleMeaningKo": "저는 현금을 많이 가지고 다니지 않습니다.",
+      "audioSrc": "",
+      "sourcePage": 30,
+      "reviewNeeded": false,
+      "pronKo": "띠엔 맛",
+      "pronNoteKo": "현금이라는 뜻입니다.",
+      "pronChunks": ["tiền=띠엔", "mặt=맛"]
+    },
+    {
+      "id": "d7bank-v-008",
+      "term": "chuyển tiền qua app",
+      "meaningKo": "앱으로 송금하다",
+      "example": "Tôi hay chuyển tiền qua app.",
+      "exampleMeaningKo": "저는 앱으로 자주 송금합니다.",
+      "audioSrc": "",
+      "sourcePage": 30,
+      "reviewNeeded": false,
+      "pronKo": "쭈옌 띠엔 꽈 앱",
+      "pronNoteKo": "qua app은 앱을 통해서라는 뜻입니다.",
+      "pronChunks": ["chuyển tiền=쭈옌 띠엔", "qua app=꽈 앱"]
+    },
+    {
+      "id": "d7bank-v-009",
+      "term": "kiểm tra",
+      "meaningKo": "확인하다 / 검사하다",
+      "example": "Tôi kiểm tra số dư mỗi ngày.",
+      "exampleMeaningKo": "저는 매일 잔액을 확인합니다.",
+      "audioSrc": "",
+      "sourcePage": 30,
+      "reviewNeeded": false,
+      "pronKo": "끼엠 짜",
+      "pronNoteKo": "확인하다입니다.",
+      "pronChunks": ["kiểm=끼엠", "tra=짜"]
+    },
+    {
+      "id": "d7bank-v-010",
+      "term": "số dư",
+      "meaningKo": "잔액",
+      "example": "Tôi kiểm tra số dư qua app.",
+      "exampleMeaningKo": "저는 앱으로 잔액을 확인합니다.",
+      "audioSrc": "",
+      "sourcePage": 30,
+      "reviewNeeded": false,
+      "pronKo": "쏘 즈",
+      "pronNoteKo": "계좌 잔액입니다.",
+      "pronChunks": ["số=쏘", "dư=즈"]
+    },
+    {
+      "id": "d7bank-v-011",
+      "term": "kiểm tra số dư",
+      "meaningKo": "잔액을 확인하다",
+      "example": "Tôi thường xuyên kiểm tra số dư.",
+      "exampleMeaningKo": "저는 자주 잔액을 확인합니다.",
+      "audioSrc": "",
+      "sourcePage": 30,
+      "reviewNeeded": false,
+      "pronKo": "끼엠 짜 쏘 즈",
+      "pronNoteKo": "은행 앱에서 자주 쓰는 표현입니다.",
+      "pronChunks": ["kiểm tra=끼엠 짜", "số dư=쏘 즈"]
+    },
+    {
+      "id": "d7bank-v-012",
+      "term": "thanh toán",
+      "meaningKo": "결제하다",
+      "example": "Tôi thường thanh toán bằng thẻ.",
+      "exampleMeaningKo": "저는 보통 카드로 결제합니다.",
+      "audioSrc": "",
+      "sourcePage": 30,
+      "reviewNeeded": false,
+      "pronKo": "타인 또안",
+      "pronNoteKo": "돈을 지불하다, 결제하다입니다.",
+      "pronChunks": ["thanh=타인", "toán=또안"]
+    },
+    {
+      "id": "d7bank-v-013",
+      "term": "thanh toán online",
+      "meaningKo": "온라인 결제",
+      "example": "Tôi hay thanh toán online.",
+      "exampleMeaningKo": "저는 온라인 결제를 자주 합니다.",
+      "audioSrc": "",
+      "sourcePage": 30,
+      "reviewNeeded": false,
+      "pronKo": "타인 또안 온라인",
+      "pronNoteKo": "online은 영어처럼 읽으면 됩니다.",
+      "pronChunks": ["thanh toán=타인 또안", "online=온라인"]
+    },
+    {
+      "id": "d7bank-v-014",
+      "term": "hài lòng",
+      "meaningKo": "만족하다",
+      "example": "Tôi hài lòng với dịch vụ ngân hàng.",
+      "exampleMeaningKo": "저는 은행 서비스에 만족합니다.",
+      "audioSrc": "",
+      "sourcePage": 30,
+      "reviewNeeded": false,
+      "pronKo": "하이 롱",
+      "pronNoteKo": "với와 함께 쓰면 '~에 만족하다'입니다.",
+      "pronChunks": ["hài=하이", "lòng=롱"]
+    },
+    {
+      "id": "d7bank-v-015",
+      "term": "dịch vụ",
+      "meaningKo": "서비스",
+      "example": "Dịch vụ ngân hàng rất tốt.",
+      "exampleMeaningKo": "은행 서비스가 매우 좋습니다.",
+      "audioSrc": "",
+      "sourcePage": 30,
+      "reviewNeeded": false,
+      "pronKo": "직 부",
+      "pronNoteKo": "서비스라는 뜻입니다.",
+      "pronChunks": ["dịch=직", "vụ=부"]
+    },
+    {
+      "id": "d7bank-v-016",
+      "term": "mang theo",
+      "meaningKo": "가지고 다니다 / 챙겨 가다",
+      "example": "Tôi không mang theo nhiều tiền mặt.",
+      "exampleMeaningKo": "저는 현금을 많이 가지고 다니지 않습니다.",
+      "audioSrc": "",
+      "sourcePage": 30,
+      "reviewNeeded": false,
+      "pronKo": "망 테오",
+      "pronNoteKo": "외출할 때 챙겨 간다는 뜻입니다.",
+      "pronChunks": ["mang=망", "theo=테오"]
+    },
+    {
+      "id": "d7bank-v-017",
+      "term": "thân thiện",
+      "meaningKo": "친절하다 / 친근하다",
+      "example": "Nhân viên ngân hàng rất thân thiện.",
+      "exampleMeaningKo": "은행 직원은 매우 친절합니다.",
+      "audioSrc": "",
+      "sourcePage": 30,
+      "reviewNeeded": false,
+      "pronKo": "턴 티엔",
+      "pronNoteKo": "사람이 친절하다고 말할 때 씁니다.",
+      "pronChunks": ["thân=턴", "thiện=티엔"]
+    },
+    {
+      "id": "d7bank-v-018",
+      "term": "chờ",
+      "meaningKo": "기다리다",
+      "example": "Tôi phải chờ ở ngân hàng.",
+      "exampleMeaningKo": "저는 은행에서 기다려야 합니다.",
+      "audioSrc": "",
+      "sourcePage": 30,
+      "reviewNeeded": false,
+      "pronKo": "쩌",
+      "pronNoteKo": "기다리다입니다.",
+      "pronChunks": ["chờ=쩌"]
+    },
+    {
+      "id": "d7bank-v-019",
+      "term": "lâu",
+      "meaningKo": "오래",
+      "example": "Tôi không phải chờ lâu.",
+      "exampleMeaningKo": "저는 오래 기다리지 않아도 됩니다.",
+      "audioSrc": "",
+      "sourcePage": 30,
+      "reviewNeeded": false,
+      "pronKo": "러우",
+      "pronNoteKo": "시간이 오래 걸릴 때 씁니다.",
+      "pronChunks": ["lâu=러우"]
+    },
+    {
+      "id": "d7bank-v-020",
+      "term": "thẻ",
+      "meaningKo": "카드",
+      "example": "Tôi thường dùng thẻ.",
+      "exampleMeaningKo": "저는 보통 카드를 사용합니다.",
+      "audioSrc": "",
+      "sourcePage": 30,
+      "reviewNeeded": false,
+      "pronKo": "테",
+      "pronNoteKo": "카드라는 뜻입니다.",
+      "pronChunks": ["thẻ=테"]
+    },
+    {
+      "id": "d7bank-v-021",
+      "term": "thẻ tín dụng",
+      "meaningKo": "신용카드",
+      "example": "Tôi có dùng thẻ tín dụng.",
+      "exampleMeaningKo": "저는 신용카드를 사용합니다.",
+      "audioSrc": "",
+      "sourcePage": 30,
+      "reviewNeeded": false,
+      "pronKo": "테 띤 중",
+      "pronNoteKo": "신용카드입니다.",
+      "pronChunks": ["thẻ=테", "tín dụng=띤 중"]
+    },
+    {
+      "id": "d7bank-v-022",
+      "term": "tiết kiệm tiền",
+      "meaningKo": "돈을 저축하다 / 돈을 아끼다",
+      "example": "Tôi cố gắng tiết kiệm tiền mỗi tháng.",
+      "exampleMeaningKo": "저는 매달 돈을 저축하려고 노력합니다.",
+      "audioSrc": "",
+      "sourcePage": 30,
+      "reviewNeeded": false,
+      "pronKo": "띠엣 끼엠 띠엔",
+      "pronNoteKo": "돈을 모으다, 아끼다라는 뜻입니다.",
+      "pronChunks": ["tiết kiệm=띠엣 끼엠", "tiền=띠엔"]
+    },
+    {
+      "id": "d7bank-v-023",
+      "term": "gửi tiết kiệm",
+      "meaningKo": "예금하다",
+      "example": "Tôi gửi tiết kiệm ở ngân hàng.",
+      "exampleMeaningKo": "저는 은행에 예금합니다.",
+      "audioSrc": "",
+      "sourcePage": 30,
+      "reviewNeeded": false,
+      "pronKo": "그이 띠엣 끼엠",
+      "pronNoteKo": "은행에 돈을 예금하는 표현입니다.",
+      "pronChunks": ["gửi=그이", "tiết kiệm=띠엣 끼엠"]
+    },
+    {
+      "id": "d7bank-v-024",
+      "term": "vay tiền",
+      "meaningKo": "돈을 빌리다 / 대출하다",
+      "example": "Tôi chưa bao giờ vay tiền ngân hàng.",
+      "exampleMeaningKo": "저는 은행에서 돈을 빌려 본 적이 없습니다.",
+      "audioSrc": "",
+      "sourcePage": 30,
+      "reviewNeeded": false,
+      "pronKo": "바이 띠엔",
+      "pronNoteKo": "돈을 빌리다, 대출하다입니다.",
+      "pronChunks": ["vay=바이", "tiền=띠엔"]
+    },
+    {
+      "id": "d7bank-v-025",
+      "term": "tốt",
+      "meaningKo": "좋다",
+      "example": "Ngân hàng này rất tốt.",
+      "exampleMeaningKo": "이 은행은 매우 좋습니다.",
+      "audioSrc": "",
+      "sourcePage": 30,
+      "reviewNeeded": false,
+      "pronKo": "똣",
+      "pronNoteKo": "좋다라는 기본 형용사입니다.",
+      "pronChunks": ["tốt=똣"]
+    },
+    {
+      "id": "d7bank-v-026",
+      "term": "mất",
+      "meaningKo": "잃어버리다 / 걸리다",
+      "example": "Tôi mất thẻ ngân hàng.",
+      "exampleMeaningKo": "저는 은행 카드를 잃어버렸습니다.",
+      "audioSrc": "",
+      "sourcePage": 30,
+      "reviewNeeded": false,
+      "pronKo": "멋",
+      "pronNoteKo": "잃어버리다라는 뜻도 있고, 시간이 걸리다라는 뜻도 있습니다.",
+      "pronChunks": ["mất=멋"]
+    },
+    {
+      "id": "d7bank-v-027",
+      "term": "mất thẻ",
+      "meaningKo": "카드를 잃어버리다",
+      "example": "Nếu mất thẻ, tôi sẽ gọi ngân hàng.",
+      "exampleMeaningKo": "카드를 잃어버리면 저는 은행에 전화할 것입니다.",
+      "audioSrc": "",
+      "sourcePage": 30,
+      "reviewNeeded": false,
+      "pronKo": "멋 테",
+      "pronNoteKo": "카드 분실 상황에서 씁니다.",
+      "pronChunks": ["mất=멋", "thẻ=테"]
+    },
+    {
+      "id": "d7bank-v-028",
+      "term": "nhầm",
+      "meaningKo": "실수로 / 잘못",
+      "example": "Tôi chuyển tiền nhầm.",
+      "exampleMeaningKo": "저는 돈을 잘못 송금했습니다.",
+      "audioSrc": "",
+      "sourcePage": 30,
+      "reviewNeeded": false,
+      "pronKo": "념",
+      "pronNoteKo": "실수로 잘못했다는 뜻입니다.",
+      "pronChunks": ["nhầm=념"]
+    },
+    {
+      "id": "d7bank-v-029",
+      "term": "chuyển nhầm",
+      "meaningKo": "잘못 송금하다",
+      "example": "Nếu chuyển nhầm, tôi sẽ gọi ngân hàng ngay.",
+      "exampleMeaningKo": "잘못 송금하면 저는 바로 은행에 전화할 것입니다.",
+      "audioSrc": "",
+      "sourcePage": 30,
+      "reviewNeeded": false,
+      "pronKo": "쭈옌 념",
+      "pronNoteKo": "송금 실수 상황에서 씁니다.",
+      "pronChunks": ["chuyển=쭈옌", "nhầm=념"]
+    },
+    {
+      "id": "d7bank-v-030",
+      "term": "tài khoản bị khóa",
+      "meaningKo": "계좌가 잠기다",
+      "example": "Nếu tài khoản bị khóa, tôi sẽ đến ngân hàng.",
+      "exampleMeaningKo": "계좌가 잠기면 저는 은행에 갈 것입니다.",
+      "audioSrc": "",
+      "sourcePage": 30,
+      "reviewNeeded": false,
+      "pronKo": "따이 코안 비 코아",
+      "pronNoteKo": "bị khóa는 잠기다, 막히다입니다.",
+      "pronChunks": ["tài khoản=따이 코안", "bị khóa=비 코아"]
+    },
+    {
+      "id": "d7bank-v-031",
+      "term": "chi tiêu",
+      "meaningKo": "지출",
+      "example": "Tôi theo dõi chi tiêu mỗi tháng.",
+      "exampleMeaningKo": "저는 매달 지출을 관리합니다.",
+      "audioSrc": "",
+      "sourcePage": 30,
+      "reviewNeeded": false,
+      "pronKo": "찌 띠에우",
+      "pronNoteKo": "돈을 쓰는 것, 지출입니다.",
+      "pronChunks": ["chi=찌", "tiêu=띠에우"]
+    },
+    {
+      "id": "d7bank-v-032",
+      "term": "dịch vụ ngân hàng",
+      "meaningKo": "은행 서비스",
+      "example": "Tôi hài lòng với dịch vụ ngân hàng.",
+      "exampleMeaningKo": "저는 은행 서비스에 만족합니다.",
+      "audioSrc": "",
+      "sourcePage": 30,
+      "reviewNeeded": false,
+      "pronKo": "직 부 응언 항",
+      "pronNoteKo": "은행 서비스라는 뜻입니다.",
+      "pronChunks": ["dịch vụ=직 부", "ngân hàng=응언 항"]
+    },
+    {
+      "id": "d7bank-v-033",
+      "term": "thường xuyên",
+      "meaningKo": "자주 / 정기적으로",
+      "example": "Tôi thường xuyên kiểm tra số dư.",
+      "exampleMeaningKo": "저는 정기적으로 잔액을 확인합니다.",
+      "audioSrc": "",
+      "sourcePage": 31,
+      "reviewNeeded": false,
+      "pronKo": "트엉 쑤옌",
+      "pronNoteKo": "thường보다 조금 더 정기적인 느낌입니다.",
+      "pronChunks": ["thường=트엉", "xuyên=쑤옌"]
+    },
+    {
+      "id": "d7bank-v-034",
+      "term": "theo dõi",
+      "meaningKo": "관리하다 / 추적하다 / 확인하다",
+      "example": "Tôi theo dõi chi tiêu mỗi tháng.",
+      "exampleMeaningKo": "저는 매달 지출을 관리합니다.",
+      "audioSrc": "",
+      "sourcePage": 31,
+      "reviewNeeded": false,
+      "pronKo": "테오 조이",
+      "pronNoteKo": "계속 확인하고 관리한다는 느낌입니다.",
+      "pronChunks": ["theo=테오", "dõi=조이"]
+    },
+    {
+      "id": "d7bank-v-035",
+      "term": "mỗi tháng",
+      "meaningKo": "매달",
+      "example": "Tôi tiết kiệm tiền mỗi tháng.",
+      "exampleMeaningKo": "저는 매달 돈을 저축합니다.",
+      "audioSrc": "",
+      "sourcePage": 31,
+      "reviewNeeded": false,
+      "pronKo": "모이 탕",
+      "pronNoteKo": "반복되는 월 단위 표현입니다.",
+      "pronChunks": ["mỗi=모이", "tháng=탕"]
+    }
+  ],
+  "sentenceCards": [
+    {
+      "id": "d7bank-s-001",
+      "textVi": "Anh dùng tài khoản của ngân hàng nào?",
+      "textKo": "어느 은행 계좌를 사용해요?",
+      "exampleAnswerVi": "Tôi dùng tài khoản của ngân hàng Shinhan.",
+      "exampleAnswerKo": "저는 신한은행 계좌를 사용합니다.",
+      "audioSrc": "",
+      "sourcePage": 31,
+      "reviewNeeded": false,
+      "pronKo": "아인 중 따이 코안 꾸어 응언 항 나오?",
+      "exampleAnswerPronKo": "또이 중 따이 코안 꾸어 응언 항 신한.",
+      "pronNoteKo": "ngân hàng nào = 어느 은행."
+    },
+    {
+      "id": "d7bank-s-002",
+      "textVi": "Anh có thường đến ngân hàng không?",
+      "textKo": "은행에 자주 가요?",
+      "exampleAnswerVi": "Không. Tôi không thường đến ngân hàng vì tôi dùng app ngân hàng.",
+      "exampleAnswerKo": "아니요. 저는 은행 앱을 사용하기 때문에 은행에 자주 가지 않습니다.",
+      "audioSrc": "",
+      "sourcePage": 31,
+      "reviewNeeded": false,
+      "pronKo": "아인 꼬 트엉 덴 응언 항 콩?",
+      "exampleAnswerPronKo": "콩. 또이 콩 트엉 덴 응언 항 비 또이 중 앱 응언 항.",
+      "pronNoteKo": "đến ngân hàng = 은행에 가다."
+    },
+    {
+      "id": "d7bank-s-003",
+      "textVi": "Anh thường dùng ngân hàng để làm gì?",
+      "textKo": "은행을 보통 무엇을 하기 위해 사용해요?",
+      "exampleAnswerVi": "Tôi thường dùng ngân hàng để chuyển tiền, kiểm tra số dư và thanh toán online.",
+      "exampleAnswerKo": "저는 보통 송금하고, 잔액을 확인하고, 온라인 결제하기 위해 은행을 사용합니다.",
+      "audioSrc": "",
+      "sourcePage": 31,
+      "reviewNeeded": false,
+      "pronKo": "아인 트엉 중 응언 항 데 람 지?",
+      "exampleAnswerPronKo": "또이 트엉 중 응언 항 데 쭈옌 띠엔, 끼엠 짜 쏘 즈 바 타인 또안 온라인.",
+      "pronNoteKo": "để làm gì = 무엇을 하기 위해."
+    },
+    {
+      "id": "d7bank-s-004",
+      "textVi": "Anh có hay chuyển tiền qua app không?",
+      "textKo": "앱으로 자주 송금해요?",
+      "exampleAnswerVi": "Có. Tôi hay chuyển tiền qua app vì rất nhanh và tiện lợi.",
+      "exampleAnswerKo": "네. 매우 빠르고 편리해서 저는 앱으로 자주 송금합니다.",
+      "audioSrc": "",
+      "sourcePage": 31,
+      "reviewNeeded": false,
+      "pronKo": "아인 꼬 하이 쭈옌 띠엔 꽈 앱 콩?",
+      "exampleAnswerPronKo": "꼬. 또이 하이 쭈옌 띠엔 꽈 앱 비 젓 냐인 바 띠엔 러이.",
+      "pronNoteKo": "qua app = 앱을 통해서."
+    },
+    {
+      "id": "d7bank-s-005",
+      "textVi": "Anh có hay rút tiền mặt không?",
+      "textKo": "현금을 자주 출금해요?",
+      "exampleAnswerVi": "Không. Tôi ít rút tiền mặt vì tôi thường dùng thẻ.",
+      "exampleAnswerKo": "아니요. 저는 보통 카드를 사용하기 때문에 현금을 거의 출금하지 않습니다.",
+      "audioSrc": "",
+      "sourcePage": 31,
+      "reviewNeeded": false,
+      "pronKo": "아인 꼬 하이 줏 띠엔 맛 콩?",
+      "exampleAnswerPronKo": "콩. 또이 잇 줏 띠엔 맛 비 또이 트엉 중 테.",
+      "pronNoteKo": "ít = 적게, 거의 안."
+    },
+    {
+      "id": "d7bank-s-006",
+      "textVi": "Anh có thường xuyên kiểm tra số dư không?",
+      "textKo": "잔액을 자주 확인해요?",
+      "exampleAnswerVi": "Có. Tôi thường xuyên kiểm tra số dư qua app ngân hàng.",
+      "exampleAnswerKo": "네. 저는 은행 앱으로 자주 잔액을 확인합니다.",
+      "audioSrc": "",
+      "sourcePage": 31,
+      "reviewNeeded": false,
+      "pronKo": "아인 꼬 트엉 쑤옌 끼엠 짜 쏘 즈 콩?",
+      "exampleAnswerPronKo": "꼬. 또이 트엉 쑤옌 끼엠 짜 쏘 즈 꽈 앱 응언 항.",
+      "pronNoteKo": "thường xuyên = 자주, 정기적으로."
+    },
+    {
+      "id": "d7bank-s-007",
+      "textVi": "Anh có hay thanh toán online không?",
+      "textKo": "온라인 결제를 자주 해요?",
+      "exampleAnswerVi": "Có. Tôi hay thanh toán online khi mua đồ trên mạng.",
+      "exampleAnswerKo": "네. 저는 인터넷에서 물건을 살 때 온라인 결제를 자주 합니다.",
+      "audioSrc": "",
+      "sourcePage": 31,
+      "reviewNeeded": false,
+      "pronKo": "아인 꼬 하이 타인 또안 온라인 콩?",
+      "exampleAnswerPronKo": "꼬. 또이 하이 타인 또안 온라인 키 무아 도 쩬 망.",
+      "pronNoteKo": "khi + 문장 = ~할 때."
+    },
+    {
+      "id": "d7bank-s-008",
+      "textVi": "Anh có hài lòng với dịch vụ ngân hàng không?",
+      "textKo": "은행 서비스에 만족해요?",
+      "exampleAnswerVi": "Có. Tôi hài lòng với dịch vụ ngân hàng vì app rất tiện lợi.",
+      "exampleAnswerKo": "네. 앱이 매우 편리해서 저는 은행 서비스에 만족합니다.",
+      "audioSrc": "",
+      "sourcePage": 31,
+      "reviewNeeded": false,
+      "pronKo": "아인 꼬 하이 롱 버이 직 부 응언 항 콩?",
+      "exampleAnswerPronKo": "꼬. 또이 하이 롱 버이 직 부 응언 항 비 앱 젓 띠엔 러이.",
+      "pronNoteKo": "hài lòng với = ~에 만족하다."
+    },
+    {
+      "id": "d7bank-s-009",
+      "textVi": "Nhân viên ngân hàng có thân thiện không?",
+      "textKo": "은행 직원은 친절해요?",
+      "exampleAnswerVi": "Có. Nhân viên ngân hàng rất thân thiện và giải thích dễ hiểu.",
+      "exampleAnswerKo": "네. 은행 직원은 매우 친절하고 이해하기 쉽게 설명합니다.",
+      "audioSrc": "",
+      "sourcePage": 31,
+      "reviewNeeded": false,
+      "pronKo": "년 비엔 응언 항 꼬 턴 티엔 콩?",
+      "exampleAnswerPronKo": "꼬. 년 비엔 응언 항 젓 턴 티엔 바 자이 틱 제 히에우.",
+      "pronNoteKo": "nhân viên = 직원."
+    },
+    {
+      "id": "d7bank-s-010",
+      "textVi": "Anh có phải chờ lâu khi đến ngân hàng không?",
+      "textKo": "은행에 갈 때 오래 기다려야 해요?",
+      "exampleAnswerVi": "Không. Tôi không phải chờ lâu vì tôi ít đến ngân hàng.",
+      "exampleAnswerKo": "아니요. 저는 은행에 거의 가지 않아서 오래 기다릴 필요가 없습니다.",
+      "audioSrc": "",
+      "sourcePage": 31,
+      "reviewNeeded": false,
+      "pronKo": "아인 꼬 파이 쩌 러우 키 덴 응언 항 콩?",
+      "exampleAnswerPronKo": "콩. 또이 콩 파이 쩌 러우 비 또이 잇 덴 응언 항.",
+      "pronNoteKo": "phải + 동사 = ~해야 한다."
+    },
+    {
+      "id": "d7bank-s-011",
+      "textVi": "Anh thường dùng tiền mặt hay thẻ?",
+      "textKo": "보통 현금을 사용해요, 아니면 카드를 사용해요?",
+      "exampleAnswerVi": "Tôi thường dùng thẻ hơn vì rất tiện lợi.",
+      "exampleAnswerKo": "저는 매우 편리해서 보통 카드를 더 많이 사용합니다.",
+      "audioSrc": "",
+      "sourcePage": 31,
+      "reviewNeeded": false,
+      "pronKo": "아인 트엉 중 띠엔 맛 하이 테?",
+      "exampleAnswerPronKo": "또이 트엉 중 테 헌 비 젓 띠엔 러이.",
+      "pronNoteKo": "A hay B = A 또는 B."
+    },
+    {
+      "id": "d7bank-s-012",
+      "textVi": "Anh có dùng thẻ tín dụng không?",
+      "textKo": "신용카드를 사용해요?",
+      "exampleAnswerVi": "Có. Tôi dùng thẻ tín dụng khi mua đồ online.",
+      "exampleAnswerKo": "네. 저는 온라인에서 물건을 살 때 신용카드를 사용합니다.",
+      "audioSrc": "",
+      "sourcePage": 31,
+      "reviewNeeded": false,
+      "pronKo": "아인 꼬 중 테 띤 중 콩?",
+      "exampleAnswerPronKo": "꼬. 또이 중 테 띤 중 키 무아 도 온라인.",
+      "pronNoteKo": "thẻ tín dụng = 신용카드."
+    },
+    {
+      "id": "d7bank-s-013",
+      "textVi": "Anh có tiết kiệm tiền không?",
+      "textKo": "돈을 저축해요?",
+      "exampleAnswerVi": "Có. Tôi cố gắng tiết kiệm tiền mỗi tháng.",
+      "exampleAnswerKo": "네. 저는 매달 돈을 저축하려고 노력합니다.",
+      "audioSrc": "",
+      "sourcePage": 31,
+      "reviewNeeded": false,
+      "pronKo": "아인 꼬 띠엣 끼엠 띠엔 콩?",
+      "exampleAnswerPronKo": "꼬. 또이 꼬 강 띠엣 끼엠 띠엔 모이 탕.",
+      "pronNoteKo": "cố gắng = 노력하다."
+    },
+    {
+      "id": "d7bank-s-014",
+      "textVi": "Anh có gửi tiết kiệm không?",
+      "textKo": "예금해요?",
+      "exampleAnswerVi": "Có. Tôi gửi tiết kiệm một ít tiền ở ngân hàng.",
+      "exampleAnswerKo": "네. 저는 은행에 돈을 조금 예금합니다.",
+      "audioSrc": "",
+      "sourcePage": 31,
+      "reviewNeeded": false,
+      "pronKo": "아인 꼬 그이 띠엣 끼엠 콩?",
+      "exampleAnswerPronKo": "꼬. 또이 그이 띠엣 끼엠 못 잇 띠엔 어 응언 항.",
+      "pronNoteKo": "một ít tiền = 돈 조금."
+    },
+    {
+      "id": "d7bank-s-015",
+      "textVi": "Anh đã bao giờ vay tiền ngân hàng chưa?",
+      "textKo": "은행에서 돈을 빌려 본 적 있어요?",
+      "exampleAnswerVi": "Chưa. Tôi chưa bao giờ vay tiền ngân hàng.",
+      "exampleAnswerKo": "아니요. 저는 한 번도 은행에서 돈을 빌려 본 적이 없습니다.",
+      "audioSrc": "",
+      "sourcePage": 31,
+      "reviewNeeded": false,
+      "pronKo": "아인 다 바오 저 바이 띠엔 응언 항 쯔어?",
+      "exampleAnswerPronKo": "쯔어. 또이 쯔어 바오 저 바이 띠엔 응언 항.",
+      "pronNoteKo": "chưa bao giờ = 한 번도 ~한 적 없다."
+    },
+    {
+      "id": "d7bank-s-016",
+      "textVi": "Anh thấy ngân hàng nào tốt?",
+      "textKo": "어느 은행이 좋다고 생각해요?",
+      "exampleAnswerVi": "Tôi thấy ngân hàng Shinhan tốt vì app dễ dùng và dịch vụ tốt.",
+      "exampleAnswerKo": "저는 앱이 사용하기 쉽고 서비스가 좋아서 신한은행이 좋다고 생각합니다.",
+      "audioSrc": "",
+      "sourcePage": 31,
+      "reviewNeeded": false,
+      "pronKo": "아인 터이 응언 항 나오 똣?",
+      "exampleAnswerPronKo": "또이 터이 응언 항 신한 똣 비 앱 제 중 바 직 부 똣.",
+      "pronNoteKo": "Tôi thấy... = 저는 ...라고 생각합니다."
+    },
+    {
+      "id": "d7bank-s-017",
+      "textVi": "Nếu mất thẻ ngân hàng, anh sẽ làm gì?",
+      "textKo": "은행 카드를 잃어버리면 무엇을 할 거예요?",
+      "exampleAnswerVi": "Nếu mất thẻ ngân hàng, tôi sẽ gọi ngân hàng ngay và khóa thẻ.",
+      "exampleAnswerKo": "은행 카드를 잃어버리면 저는 바로 은행에 전화하고 카드를 정지할 것입니다.",
+      "audioSrc": "",
+      "sourcePage": 31,
+      "reviewNeeded": false,
+      "pronKo": "네우 멋 테 응언 항, 아인 세 람 지?",
+      "exampleAnswerPronKo": "네우 멋 테 응언 항, 또이 세 고이 응언 항 응아이 바 코아 테.",
+      "pronNoteKo": "Nếu ... sẽ ... = 만약 ~하면 ~할 것이다."
+    },
+    {
+      "id": "d7bank-s-018",
+      "textVi": "Nếu chuyển tiền nhầm, anh sẽ làm gì?",
+      "textKo": "돈을 잘못 송금하면 무엇을 할 거예요?",
+      "exampleAnswerVi": "Nếu chuyển tiền nhầm, tôi sẽ kiểm tra thông tin và gọi ngân hàng ngay.",
+      "exampleAnswerKo": "돈을 잘못 송금하면 저는 정보를 확인하고 바로 은행에 전화할 것입니다.",
+      "audioSrc": "",
+      "sourcePage": 31,
+      "reviewNeeded": false,
+      "pronKo": "네우 쭈옌 띠엔 념, 아인 세 람 지?",
+      "exampleAnswerPronKo": "네우 쭈옌 띠엔 념, 또이 세 끼엠 짜 통 띤 바 고이 응언 항 응아이.",
+      "pronNoteKo": "chuyển tiền nhầm = 잘못 송금하다."
+    },
+    {
+      "id": "d7bank-s-019",
+      "textVi": "Nếu tài khoản bị khóa, anh sẽ làm gì?",
+      "textKo": "계좌가 잠기면 무엇을 할 거예요?",
+      "exampleAnswerVi": "Nếu tài khoản bị khóa, tôi sẽ gọi ngân hàng hoặc đến ngân hàng.",
+      "exampleAnswerKo": "계좌가 잠기면 저는 은행에 전화하거나 은행에 갈 것입니다.",
+      "audioSrc": "",
+      "sourcePage": 31,
+      "reviewNeeded": false,
+      "pronKo": "네우 따이 코안 비 코아, 아인 세 람 지?",
+      "exampleAnswerPronKo": "네우 따이 코안 비 코아, 또이 세 고이 응언 항 호악 덴 응언 항.",
+      "pronNoteKo": "bị khóa = 잠기다."
+    },
+    {
+      "id": "d7bank-s-020",
+      "textVi": "Anh có theo dõi chi tiêu mỗi tháng không?",
+      "textKo": "매달 지출을 관리해요?",
+      "exampleAnswerVi": "Có. Tôi theo dõi chi tiêu mỗi tháng bằng app ngân hàng.",
+      "exampleAnswerKo": "네. 저는 은행 앱으로 매달 지출을 관리합니다.",
+      "audioSrc": "",
+      "sourcePage": 31,
+      "reviewNeeded": false,
+      "pronKo": "아인 꼬 테오 조이 찌 띠에우 모이 탕 콩?",
+      "exampleAnswerPronKo": "꼬. 또이 테오 조이 찌 띠에우 모이 탕 방 앱 응언 항.",
+      "pronNoteKo": "theo dõi chi tiêu = 지출을 관리하다."
+    },
+    {
+      "id": "d7bank-s-021",
+      "textVi": "Anh có dùng một ngân hàng hay nhiều ngân hàng?",
+      "textKo": "한 은행을 사용해요, 아니면 여러 은행을 사용해요?",
+      "exampleAnswerVi": "Tôi dùng nhiều ngân hàng vì mỗi ngân hàng có ưu điểm khác nhau.",
+      "exampleAnswerKo": "저는 여러 은행을 사용합니다. 왜냐하면 각 은행마다 장점이 다르기 때문입니다.",
+      "audioSrc": "",
+      "sourcePage": 31,
+      "reviewNeeded": false,
+      "pronKo": "아인 꼬 중 못 응언 항 하이 니에우 응언 항?",
+      "exampleAnswerPronKo": "또이 중 니에우 응언 항 비 모이 응언 항 꼬 으우 디엠 칵 냐우.",
+      "pronNoteKo": "một hay nhiều = 하나 또는 여러 개."
+    },
+    {
+      "id": "d7bank-s-022",
+      "textVi": "Anh có mang tiền mặt khi ra ngoài không?",
+      "textKo": "밖에 나갈 때 현금을 가지고 다녀요?",
+      "exampleAnswerVi": "Có, nhưng tôi chỉ mang một ít tiền mặt.",
+      "exampleAnswerKo": "네, 하지만 저는 현금을 조금만 가지고 다닙니다.",
+      "audioSrc": "",
+      "sourcePage": 31,
+      "reviewNeeded": false,
+      "pronKo": "아인 꼬 망 띠엔 맛 키 자 응오아이 콩?",
+      "exampleAnswerPronKo": "꼬, 늉 또이 찌 망 못 잇 띠엔 맛.",
+      "pronNoteKo": "chỉ = 단지, 오직."
+    },
+    {
+      "id": "d7bank-s-023",
+      "textVi": "Ở Hàn Quốc còn sử dụng tiền mặt không?",
+      "textKo": "한국에서는 아직 현금을 사용해요?",
+      "exampleAnswerVi": "Có, nhưng không nhiều. Ở Hàn Quốc, mọi người thường dùng thẻ hoặc thanh toán bằng điện thoại.",
+      "exampleAnswerKo": "네, 하지만 많지는 않습니다. 한국에서는 사람들이 보통 카드나 휴대폰으로 결제합니다.",
+      "audioSrc": "",
+      "sourcePage": 31,
+      "reviewNeeded": false,
+      "pronKo": "어 한 꾸옥 꼰 쓰 중 띠엔 맛 콩?",
+      "exampleAnswerPronKo": "꼬, 늉 콩 니에우. 어 한 꾸옥, 모이 응어이 트엉 중 테 호악 타인 또안 방 디엔 토아이.",
+      "pronNoteKo": "còn = 아직도."
+    }
+  ],
+  "dialogues": [
+    {
+      "id": "d7bank-d-001",
+      "title": "사용하는 은행과 계좌",
+      "audioSrc": "",
+      "sourcePage": 31,
+      "reviewNeeded": false,
+      "lines": [
+        {
+          "speaker": "A",
+          "vi": "Anh dùng tài khoản của ngân hàng nào?",
+          "ko": "어느 은행 계좌를 사용해요?",
+          "pronKo": "아인 중 따이 코안 꾸어 응언 항 나오?"
+        },
+        {
+          "speaker": "B",
+          "vi": "Tôi dùng tài khoản của ngân hàng Shinhan.",
+          "ko": "저는 신한은행 계좌를 사용합니다.",
+          "pronKo": "또이 중 따이 코안 꾸어 응언 항 신한."
+        },
+        {
+          "speaker": "A",
+          "vi": "Anh có dùng một ngân hàng hay nhiều ngân hàng?",
+          "ko": "한 은행을 사용해요, 아니면 여러 은행을 사용해요?",
+          "pronKo": "아인 꼬 중 못 응언 항 하이 니에우 응언 항?"
+        },
+        {
+          "speaker": "B",
+          "vi": "Tôi dùng nhiều ngân hàng vì mỗi ngân hàng có ưu điểm khác nhau.",
+          "ko": "저는 여러 은행을 사용합니다. 각 은행마다 장점이 다르기 때문입니다.",
+          "pronKo": "또이 중 니에우 응언 항 비 모이 응언 항 꼬 으우 디엠 칵 냐우."
+        }
+      ]
+    },
+    {
+      "id": "d7bank-d-002",
+      "title": "은행 앱과 송금",
+      "audioSrc": "",
+      "sourcePage": 31,
+      "reviewNeeded": false,
+      "lines": [
+        {
+          "speaker": "A",
+          "vi": "Anh có thường đến ngân hàng không?",
+          "ko": "은행에 자주 가요?",
+          "pronKo": "아인 꼬 트엉 덴 응언 항 콩?"
+        },
+        {
+          "speaker": "B",
+          "vi": "Không. Tôi không thường đến ngân hàng vì tôi dùng app ngân hàng.",
+          "ko": "아니요. 저는 은행 앱을 사용하기 때문에 은행에 자주 가지 않습니다.",
+          "pronKo": "콩. 또이 콩 트엉 덴 응언 항 비 또이 중 앱 응언 항."
+        },
+        {
+          "speaker": "A",
+          "vi": "Anh có hay chuyển tiền qua app không?",
+          "ko": "앱으로 자주 송금해요?",
+          "pronKo": "아인 꼬 하이 쭈옌 띠엔 꽈 앱 콩?"
+        },
+        {
+          "speaker": "B",
+          "vi": "Có. Tôi hay chuyển tiền qua app vì rất nhanh và tiện lợi.",
+          "ko": "네. 매우 빠르고 편리해서 저는 앱으로 자주 송금합니다.",
+          "pronKo": "꼬. 또이 하이 쭈옌 띠엔 꽈 앱 비 젓 냐인 바 띠엔 러이."
+        }
+      ]
+    },
+    {
+      "id": "d7bank-d-003",
+      "title": "현금과 카드",
+      "audioSrc": "",
+      "sourcePage": 31,
+      "reviewNeeded": false,
+      "lines": [
+        {
+          "speaker": "A",
+          "vi": "Anh thường dùng tiền mặt hay thẻ?",
+          "ko": "보통 현금을 사용해요, 아니면 카드를 사용해요?",
+          "pronKo": "아인 트엉 중 띠엔 맛 하이 테?"
+        },
+        {
+          "speaker": "B",
+          "vi": "Tôi thường dùng thẻ hơn vì rất tiện lợi.",
+          "ko": "저는 매우 편리해서 보통 카드를 더 많이 사용합니다.",
+          "pronKo": "또이 트엉 중 테 헌 비 젓 띠엔 러이."
+        },
+        {
+          "speaker": "A",
+          "vi": "Anh có mang tiền mặt khi ra ngoài không?",
+          "ko": "밖에 나갈 때 현금을 가지고 다녀요?",
+          "pronKo": "아인 꼬 망 띠엔 맛 키 자 응오아이 콩?"
+        },
+        {
+          "speaker": "B",
+          "vi": "Có, nhưng tôi chỉ mang một ít tiền mặt.",
+          "ko": "네, 하지만 저는 현금을 조금만 가지고 다닙니다.",
+          "pronKo": "꼬, 늉 또이 찌 망 못 잇 띠엔 맛."
+        }
+      ]
+    },
+    {
+      "id": "d7bank-d-004",
+      "title": "저축과 대출",
+      "audioSrc": "",
+      "sourcePage": 31,
+      "reviewNeeded": false,
+      "lines": [
+        {
+          "speaker": "A",
+          "vi": "Anh có tiết kiệm tiền không?",
+          "ko": "돈을 저축해요?",
+          "pronKo": "아인 꼬 띠엣 끼엠 띠엔 콩?"
+        },
+        {
+          "speaker": "B",
+          "vi": "Có. Tôi cố gắng tiết kiệm tiền mỗi tháng.",
+          "ko": "네. 저는 매달 돈을 저축하려고 노력합니다.",
+          "pronKo": "꼬. 또이 꼬 강 띠엣 끼엠 띠엔 모이 탕."
+        },
+        {
+          "speaker": "A",
+          "vi": "Anh đã bao giờ vay tiền ngân hàng chưa?",
+          "ko": "은행에서 돈을 빌려 본 적 있어요?",
+          "pronKo": "아인 다 바오 저 바이 띠엔 응언 항 쯔어?"
+        },
+        {
+          "speaker": "B",
+          "vi": "Chưa. Tôi chưa bao giờ vay tiền ngân hàng.",
+          "ko": "아니요. 저는 한 번도 은행에서 돈을 빌려 본 적이 없습니다.",
+          "pronKo": "쯔어. 또이 쯔어 바오 저 바이 띠엔 응언 항."
+        }
+      ]
+    },
+    {
+      "id": "d7bank-d-005",
+      "title": "카드 분실과 계좌 문제",
+      "audioSrc": "",
+      "sourcePage": 31,
+      "reviewNeeded": false,
+      "lines": [
+        {
+          "speaker": "A",
+          "vi": "Nếu mất thẻ ngân hàng, anh sẽ làm gì?",
+          "ko": "은행 카드를 잃어버리면 무엇을 할 거예요?",
+          "pronKo": "네우 멋 테 응언 항, 아인 세 람 지?"
+        },
+        {
+          "speaker": "B",
+          "vi": "Nếu mất thẻ ngân hàng, tôi sẽ gọi ngân hàng ngay và khóa thẻ.",
+          "ko": "은행 카드를 잃어버리면 저는 바로 은행에 전화하고 카드를 정지할 것입니다.",
+          "pronKo": "네우 멋 테 응언 항, 또이 세 고이 응언 항 응아이 바 코아 테."
+        },
+        {
+          "speaker": "A",
+          "vi": "Nếu tài khoản bị khóa, anh sẽ làm gì?",
+          "ko": "계좌가 잠기면 무엇을 할 거예요?",
+          "pronKo": "네우 따이 코안 비 코아, 아인 세 람 지?"
+        },
+        {
+          "speaker": "B",
+          "vi": "Nếu tài khoản bị khóa, tôi sẽ gọi ngân hàng hoặc đến ngân hàng.",
+          "ko": "계좌가 잠기면 저는 은행에 전화하거나 은행에 갈 것입니다.",
+          "pronKo": "네우 따이 코안 비 코아, 또이 세 고이 응언 항 호악 덴 응언 항."
+        }
+      ]
+    },
+    {
+      "id": "d7bank-d-006",
+      "title": "은행 서비스 만족도",
+      "audioSrc": "",
+      "sourcePage": 31,
+      "reviewNeeded": false,
+      "lines": [
+        {
+          "speaker": "A",
+          "vi": "Anh có hài lòng với dịch vụ ngân hàng không?",
+          "ko": "은행 서비스에 만족해요?",
+          "pronKo": "아인 꼬 하이 롱 버이 직 부 응언 항 콩?"
+        },
+        {
+          "speaker": "B",
+          "vi": "Có. Tôi hài lòng với dịch vụ ngân hàng vì app rất tiện lợi.",
+          "ko": "네. 앱이 매우 편리해서 저는 은행 서비스에 만족합니다.",
+          "pronKo": "꼬. 또이 하이 롱 버이 직 부 응언 항 비 앱 젓 띠엔 러이."
+        },
+        {
+          "speaker": "A",
+          "vi": "Nhân viên ngân hàng có thân thiện không?",
+          "ko": "은행 직원은 친절해요?",
+          "pronKo": "년 비엔 응언 항 꼬 턴 티엔 콩?"
+        },
+        {
+          "speaker": "B",
+          "vi": "Có. Nhân viên ngân hàng rất thân thiện và giải thích dễ hiểu.",
+          "ko": "네. 은행 직원은 매우 친절하고 이해하기 쉽게 설명합니다.",
+          "pronKo": "꼬. 년 비엔 응언 항 젓 턴 티엔 바 자이 틱 제 히에우."
+        }
+      ]
+    }
+  ],
+  "grammarPoints": [
+    {
+      "id": "d7bank-g-001",
+      "title": "어느 은행",
+      "pattern": "ngân hàng nào?",
+      "meaningKo": "어느 은행?",
+      "sourcePage": 31,
+      "reviewNeeded": false
+    },
+    {
+      "id": "d7bank-g-002",
+      "title": "은행 계좌를 사용하다",
+      "pattern": "dùng tài khoản của ngân hàng + 이름",
+      "meaningKo": "~은행 계좌를 사용하다.",
+      "sourcePage": 31,
+      "reviewNeeded": false
+    },
+    {
+      "id": "d7bank-g-003",
+      "title": "~하기 위해",
+      "pattern": "dùng + 명사 + để + 동사",
+      "meaningKo": "~하기 위해 ...을 사용하다.",
+      "sourcePage": 31,
+      "reviewNeeded": false
+    },
+    {
+      "id": "d7bank-g-004",
+      "title": "앱으로",
+      "pattern": "qua app",
+      "meaningKo": "앱을 통해서 / 앱으로.",
+      "sourcePage": 31,
+      "reviewNeeded": false
+    },
+    {
+      "id": "d7bank-g-005",
+      "title": "카드로 / 휴대폰으로",
+      "pattern": "bằng + 수단",
+      "meaningKo": "~로 / ~을 이용해서.",
+      "sourcePage": 31,
+      "reviewNeeded": false
+    },
+    {
+      "id": "d7bank-g-006",
+      "title": "자주 / 정기적으로",
+      "pattern": "hay / thường / thường xuyên + 동사",
+      "meaningKo": "자주 / 보통 / 정기적으로 ~하다.",
+      "sourcePage": 31,
+      "reviewNeeded": false
+    },
+    {
+      "id": "d7bank-g-007",
+      "title": "~에 만족하다",
+      "pattern": "hài lòng với + 명사",
+      "meaningKo": "~에 만족하다.",
+      "sourcePage": 31,
+      "reviewNeeded": false
+    },
+    {
+      "id": "d7bank-g-008",
+      "title": "~해야 한다",
+      "pattern": "phải + 동사",
+      "meaningKo": "~해야 한다.",
+      "sourcePage": 31,
+      "reviewNeeded": false
+    },
+    {
+      "id": "d7bank-g-009",
+      "title": "오래 기다리다",
+      "pattern": "chờ lâu",
+      "meaningKo": "오래 기다리다.",
+      "sourcePage": 31,
+      "reviewNeeded": false
+    },
+    {
+      "id": "d7bank-g-010",
+      "title": "현금 또는 카드",
+      "pattern": "tiền mặt hay thẻ?",
+      "meaningKo": "현금 아니면 카드?",
+      "sourcePage": 31,
+      "reviewNeeded": false
+    },
+    {
+      "id": "d7bank-g-011",
+      "title": "매달",
+      "pattern": "mỗi tháng",
+      "meaningKo": "매달.",
+      "sourcePage": 31,
+      "reviewNeeded": false
+    },
+    {
+      "id": "d7bank-g-012",
+      "title": "한 번도 ~한 적 없다",
+      "pattern": "chưa bao giờ + 동사",
+      "meaningKo": "한 번도 ~해 본 적이 없다.",
+      "sourcePage": 31,
+      "reviewNeeded": false
+    },
+    {
+      "id": "d7bank-g-013",
+      "title": "만약 ~하면 ~할 것이다",
+      "pattern": "Nếu + 문장, tôi sẽ + 동사.",
+      "meaningKo": "만약 ~하면 저는 ~할 것입니다.",
+      "sourcePage": 31,
+      "reviewNeeded": false
+    },
+    {
+      "id": "d7bank-g-014",
+      "title": "계좌가 잠기다",
+      "pattern": "tài khoản bị khóa",
+      "meaningKo": "계좌가 잠기다.",
+      "sourcePage": 31,
+      "reviewNeeded": false
+    },
+    {
+      "id": "d7bank-g-015",
+      "title": "지출을 관리하다",
+      "pattern": "theo dõi chi tiêu",
+      "meaningKo": "지출을 확인하고 관리하다.",
+      "sourcePage": 31,
+      "reviewNeeded": false
+    }
+  ],
+  "pronunciationTargets": [
+    {
+      "id": "d7bank-p-001",
+      "text": "ngân hàng",
+      "hintKo": "은행",
+      "audioSrc": "",
+      "sourcePage": 30,
+      "reviewNeeded": false,
+      "pronKo": "응언 항",
+      "mouthKo": "ngân과 hàng을 두 덩어리로 나누어 읽습니다.",
+      "toneKo": "은행 주제에서 가장 많이 나오는 단어입니다."
+    },
+    {
+      "id": "d7bank-p-002",
+      "text": "tài khoản",
+      "hintKo": "계좌",
+      "audioSrc": "",
+      "sourcePage": 30,
+      "reviewNeeded": false,
+      "pronKo": "따이 코안",
+      "mouthKo": "tài는 짧게, khoản은 코안처럼 읽습니다.",
+      "toneKo": "tài khoản ngân hàng = 은행 계좌."
+    },
+    {
+      "id": "d7bank-p-003",
+      "text": "chuyển tiền",
+      "hintKo": "송금하다",
+      "audioSrc": "",
+      "sourcePage": 30,
+      "reviewNeeded": false,
+      "pronKo": "쭈옌 띠엔",
+      "mouthKo": "chuyển은 입을 둥글게 하며 쭈옌 느낌으로 읽습니다.",
+      "toneKo": "chuyển tiền qua app = 앱으로 송금하다."
+    },
+    {
+      "id": "d7bank-p-004",
+      "text": "rút tiền / tiền mặt",
+      "hintKo": "출금하다 / 현금",
+      "audioSrc": "",
+      "sourcePage": 30,
+      "reviewNeeded": false,
+      "pronKo": "줏 띠엔 / 띠엔 맛",
+      "mouthKo": "tiền은 돈, mặt은 현금 표현에서 자주 붙습니다.",
+      "toneKo": "rút tiền mặt = 현금을 출금하다."
+    },
+    {
+      "id": "d7bank-p-005",
+      "text": "kiểm tra số dư",
+      "hintKo": "잔액을 확인하다",
+      "audioSrc": "",
+      "sourcePage": 30,
+      "reviewNeeded": false,
+      "pronKo": "끼엠 짜 쏘 즈",
+      "mouthKo": "kiểm tra / số dư로 끊어 읽습니다.",
+      "toneKo": "은행 앱 사용 설명에 좋습니다."
+    },
+    {
+      "id": "d7bank-p-006",
+      "text": "thanh toán online",
+      "hintKo": "온라인 결제하다",
+      "audioSrc": "",
+      "sourcePage": 30,
+      "reviewNeeded": false,
+      "pronKo": "타인 또안 온라인",
+      "mouthKo": "thanh toán은 결제, online은 영어식으로 읽습니다.",
+      "toneKo": "온라인 쇼핑 답변과 연결하기 좋습니다."
+    },
+    {
+      "id": "d7bank-p-007",
+      "text": "thẻ / thẻ tín dụng",
+      "hintKo": "카드 / 신용카드",
+      "audioSrc": "",
+      "sourcePage": 30,
+      "reviewNeeded": false,
+      "pronKo": "테 / 테 띤 중",
+      "mouthKo": "thẻ는 짧게 테처럼 읽습니다.",
+      "toneKo": "현금과 카드 비교 질문에 자주 나옵니다."
+    },
+    {
+      "id": "d7bank-p-008",
+      "text": "tiết kiệm tiền / gửi tiết kiệm",
+      "hintKo": "돈을 저축하다 / 예금하다",
+      "audioSrc": "",
+      "sourcePage": 30,
+      "reviewNeeded": false,
+      "pronKo": "띠엣 끼엠 띠엔 / 그이 띠엣 끼엠",
+      "mouthKo": "tiết kiệm은 저축, gửi는 보내다/맡기다 느낌입니다.",
+      "toneKo": "저축 습관 답변에 중요합니다."
+    },
+    {
+      "id": "d7bank-p-009",
+      "text": "mất thẻ / chuyển nhầm",
+      "hintKo": "카드를 잃어버리다 / 잘못 송금하다",
+      "audioSrc": "",
+      "sourcePage": 30,
+      "reviewNeeded": false,
+      "pronKo": "멋 테 / 쭈옌 념",
+      "mouthKo": "문제 상황을 말할 때 쓰는 표현입니다.",
+      "toneKo": "Nếu mất thẻ..., Nếu chuyển nhầm... 구조로 외우세요."
+    },
+    {
+      "id": "d7bank-p-010",
+      "text": "tài khoản bị khóa",
+      "hintKo": "계좌가 잠기다",
+      "audioSrc": "",
+      "sourcePage": 30,
+      "reviewNeeded": false,
+      "pronKo": "따이 코안 비 코아",
+      "mouthKo": "bị khóa는 잠기다, 막히다입니다.",
+      "toneKo": "계좌 문제 상황 답변에 필요합니다."
+    }
+  ],
+  "quizSeeds": [
+    {
+      "id": "d7bank-q-001",
+      "type": "match-term",
+      "prompt": "7일차 은행 기본 단어 매칭",
+      "answerSet": [
+        "ngân hàng-은행",
+        "tài khoản-계좌",
+        "sử dụng-사용하다",
+        "dùng-사용하다",
+        "chuyển tiền-송금하다",
+        "rút tiền-출금하다",
+        "tiền mặt-현금",
+        "chuyển tiền qua app-앱으로 송금하다",
+        "kiểm tra-확인하다",
+        "số dư-잔액"
+      ],
+      "sourcePage": 30,
+      "reviewNeeded": false
+    },
+    {
+      "id": "d7bank-q-002",
+      "type": "match-term",
+      "prompt": "7일차 결제/서비스 단어 매칭",
+      "answerSet": [
+        "kiểm tra số dư-잔액을 확인하다",
+        "thanh toán-결제하다",
+        "thanh toán online-온라인 결제",
+        "hài lòng-만족하다",
+        "dịch vụ-서비스",
+        "mang theo-가지고 다니다",
+        "thân thiện-친절하다",
+        "chờ-기다리다",
+        "lâu-오래",
+        "thẻ-카드"
+      ],
+      "sourcePage": 30,
+      "reviewNeeded": false
+    },
+    {
+      "id": "d7bank-q-003",
+      "type": "match-term",
+      "prompt": "7일차 저축/문제상황 단어 매칭",
+      "answerSet": [
+        "thẻ tín dụng-신용카드",
+        "tiết kiệm tiền-돈을 저축하다",
+        "gửi tiết kiệm-예금하다",
+        "vay tiền-돈을 빌리다 / 대출하다",
+        "mất-잃어버리다",
+        "mất thẻ-카드를 잃어버리다",
+        "nhầm-실수로",
+        "chuyển nhầm-잘못 송금하다",
+        "tài khoản bị khóa-계좌가 잠기다",
+        "chi tiêu-지출"
+      ],
+      "sourcePage": 30,
+      "reviewNeeded": false
+    },
+    {
+      "id": "d7bank-q-004",
+      "type": "sentence-meaning",
+      "prompt": "7일차 은행 질문 뜻 고르기",
+      "answerSet": [
+        "Anh dùng tài khoản của ngân hàng nào?-어느 은행 계좌를 사용해요?",
+        "Anh có thường đến ngân hàng không?-은행에 자주 가요?",
+        "Anh thường dùng ngân hàng để làm gì?-은행을 보통 무엇을 하기 위해 사용해요?",
+        "Anh có hay chuyển tiền qua app không?-앱으로 자주 송금해요?",
+        "Anh có hay rút tiền mặt không?-현금을 자주 출금해요?",
+        "Anh có thường xuyên kiểm tra số dư không?-잔액을 자주 확인해요?",
+        "Anh có hay thanh toán online không?-온라인 결제를 자주 해요?",
+        "Anh thường dùng tiền mặt hay thẻ?-보통 현금을 사용해요, 아니면 카드를 사용해요?"
+      ],
+      "sourcePage": 31,
+      "reviewNeeded": false
+    },
+    {
+      "id": "d7bank-q-005",
+      "type": "sentence-meaning",
+      "prompt": "7일차 문제상황 질문 뜻 고르기",
+      "answerSet": [
+        "Nếu mất thẻ ngân hàng, anh sẽ làm gì?-은행 카드를 잃어버리면 무엇을 할 거예요?",
+        "Nếu chuyển tiền nhầm, anh sẽ làm gì?-돈을 잘못 송금하면 무엇을 할 거예요?",
+        "Nếu tài khoản bị khóa, anh sẽ làm gì?-계좌가 잠기면 무엇을 할 거예요?",
+        "Anh có theo dõi chi tiêu mỗi tháng không?-매달 지출을 관리해요?",
+        "Anh có dùng một ngân hàng hay nhiều ngân hàng?-한 은행을 사용해요, 아니면 여러 은행을 사용해요?",
+        "Anh có mang tiền mặt khi ra ngoài không?-밖에 나갈 때 현금을 가지고 다녀요?",
+        "Ở Hàn Quốc còn sử dụng tiền mặt không?-한국에서는 아직 현금을 사용해요?",
+        "Anh đã bao giờ vay tiền ngân hàng chưa?-은행에서 돈을 빌려 본 적 있어요?"
+      ],
+      "sourcePage": 31,
+      "reviewNeeded": false
+    },
+    {
+      "id": "d7bank-q-006",
+      "type": "fill-blank",
+      "prompt": "빈칸 채우기: 저는 앱으로 송금합니다.",
+      "question": "Tôi chuyển tiền ___ app.",
+      "answer": "qua",
+      "sourcePage": 31,
+      "reviewNeeded": false
+    },
+    {
+      "id": "d7bank-q-007",
+      "type": "fill-blank",
+      "prompt": "빈칸 채우기: 저는 은행 서비스에 만족합니다.",
+      "question": "Tôi hài lòng ___ dịch vụ ngân hàng.",
+      "answer": "với",
+      "sourcePage": 31,
+      "reviewNeeded": false
+    },
+    {
+      "id": "d7bank-q-008",
+      "type": "fill-blank",
+      "prompt": "빈칸 채우기: 저는 매달 지출을 관리합니다.",
+      "question": "Tôi theo dõi chi tiêu ___ tháng.",
+      "answer": "mỗi",
+      "sourcePage": 31,
+      "reviewNeeded": false
+    },
+    {
+      "id": "d7bank-q-009",
+      "type": "fill-blank",
+      "prompt": "빈칸 채우기: 계좌가 잠기면 저는 은행에 전화할 것입니다.",
+      "question": "Nếu tài khoản bị khóa, tôi ___ gọi ngân hàng.",
+      "answer": "sẽ",
+      "sourcePage": 31,
+      "reviewNeeded": false
+    },
+    {
+      "id": "d7bank-q-010",
+      "type": "match-term",
+      "prompt": "7일차 핵심 답변 매칭",
+      "answerSet": [
+        "Tôi dùng tài khoản của ngân hàng Shinhan.-저는 신한은행 계좌를 사용합니다.",
+        "Tôi không thường đến ngân hàng vì tôi dùng app ngân hàng.-저는 은행 앱을 사용하기 때문에 은행에 자주 가지 않습니다.",
+        "Tôi hay chuyển tiền qua app vì rất nhanh và tiện lợi.-매우 빠르고 편리해서 저는 앱으로 자주 송금합니다.",
+        "Tôi ít rút tiền mặt vì tôi thường dùng thẻ.-저는 보통 카드를 사용하기 때문에 현금을 거의 출금하지 않습니다.",
+        "Tôi thường xuyên kiểm tra số dư qua app ngân hàng.-저는 은행 앱으로 자주 잔액을 확인합니다.",
+        "Tôi cố gắng tiết kiệm tiền mỗi tháng.-저는 매달 돈을 저축하려고 노력합니다.",
+        "Tôi chưa bao giờ vay tiền ngân hàng.-저는 한 번도 은행에서 돈을 빌려 본 적이 없습니다.",
+        "Nếu mất thẻ ngân hàng, tôi sẽ gọi ngân hàng ngay và khóa thẻ.-은행 카드를 잃어버리면 저는 바로 은행에 전화하고 카드를 정지할 것입니다."
+      ],
+      "sourcePage": 31,
+      "reviewNeeded": false
+    }
+  ],
+  "unlockCondition": "complete-previous",
+  "reviewNeeded": false
+    },
+    {
+  "lessonId": "d7shopping",
+  "unitLabel": "7일차",
+  "titleKo": "7일차: 쇼핑",
+  "titleVi": "Chủ đề 15: Mua sắm",
+  "pageRange": "Topic 1-21 / Mua sắm / p.32-33",
+  "goals": [
+    "쇼핑을 좋아하는지 말할 수 있다",
+    "무엇을 자주 사는지 말할 수 있다",
+    "어디에서 쇼핑하는지 말할 수 있다",
+    "혼자 쇼핑하는지 다른 사람과 쇼핑하는지 말할 수 있다",
+    "온라인 쇼핑과 오프라인 쇼핑을 비교할 수 있다",
+    "상품 리뷰, 가격 비교, 할인 상품을 말할 수 있다",
+    "결제 수단과 전자지갑 사용을 말할 수 있다",
+    "교환과 반품 경험을 말할 수 있다"
+  ],
+  "topicOverview": "7일차 쇼핑 주제는 쇼핑 습관, 쇼핑 장소, 온라인 구매, 상품 리뷰, 가격 비교, 할인 상품, 결제 수단, 교환과 반품을 말하는 연습입니다. 초보자는 'Tôi thích mua sắm', 'Tôi thường mua...', 'Tôi hay đi mua sắm ở...', 'Trước khi mua, tôi thường...', 'Tôi thường trả tiền bằng...' 같은 문장 뼈대를 먼저 외우면 좋습니다.",
+  "cultureTopics": [
+    "쇼핑 습관",
+    "마트와 가게",
+    "온라인 쇼핑",
+    "인터넷 상품 리뷰",
+    "가격 비교",
+    "할인 상품",
+    "브랜드 상품",
+    "결제 방식",
+    "현금과 전자지갑",
+    "국내 상품과 해외 상품",
+    "교환과 반품"
+  ],
+  "vocabCards": [
+    {
+      "id": "d7shopping-v-001",
+      "term": "mua sắm",
+      "meaningKo": "쇼핑하다",
+      "example": "Tôi thích mua sắm vào cuối tuần.",
+      "exampleMeaningKo": "저는 주말에 쇼핑하는 것을 좋아합니다.",
+      "audioSrc": "",
+      "sourcePage": 32,
+      "reviewNeeded": false,
+      "pronKo": "무아 삼",
+      "pronNoteKo": "mua는 사다, sắm은 장만하다 느낌입니다.",
+      "pronChunks": ["mua=무아", "sắm=삼"]
+    },
+    {
+      "id": "d7shopping-v-002",
+      "term": "siêu thị",
+      "meaningKo": "마트 / 슈퍼마켓",
+      "example": "Tôi hay đi siêu thị với gia đình.",
+      "exampleMeaningKo": "저는 가족과 자주 마트에 갑니다.",
+      "audioSrc": "",
+      "sourcePage": 32,
+      "reviewNeeded": false,
+      "pronKo": "시에우 티",
+      "pronNoteKo": "큰 마트, 슈퍼마켓입니다.",
+      "pronChunks": ["siêu=시에우", "thị=티"]
+    },
+    {
+      "id": "d7shopping-v-003",
+      "term": "cửa hàng",
+      "meaningKo": "가게",
+      "example": "Tôi mua áo ở cửa hàng.",
+      "exampleMeaningKo": "저는 가게에서 옷을 삽니다.",
+      "audioSrc": "",
+      "sourcePage": 32,
+      "reviewNeeded": false,
+      "pronKo": "끄어 항",
+      "pronNoteKo": "일반적인 가게입니다.",
+      "pronChunks": ["cửa=끄어", "hàng=항"]
+    },
+    {
+      "id": "d7shopping-v-004",
+      "term": "một mình",
+      "meaningKo": "혼자",
+      "example": "Tôi thường đi mua sắm một mình.",
+      "exampleMeaningKo": "저는 보통 혼자 쇼핑하러 갑니다.",
+      "audioSrc": "",
+      "sourcePage": 32,
+      "reviewNeeded": false,
+      "pronKo": "못 민",
+      "pronNoteKo": "혼자라는 뜻입니다.",
+      "pronChunks": ["một=못", "mình=민"]
+    },
+    {
+      "id": "d7shopping-v-005",
+      "term": "chi tiền",
+      "meaningKo": "돈을 쓰다 / 지출하다",
+      "example": "Tôi không chi nhiều tiền cho mua sắm.",
+      "exampleMeaningKo": "저는 쇼핑에 돈을 많이 쓰지 않습니다.",
+      "audioSrc": "",
+      "sourcePage": 32,
+      "reviewNeeded": false,
+      "pronKo": "찌 띠엔",
+      "pronNoteKo": "chi는 지출하다, tiền은 돈입니다.",
+      "pronChunks": ["chi=찌", "tiền=띠엔"]
+    },
+    {
+      "id": "d7shopping-v-006",
+      "term": "kế hoạch",
+      "meaningKo": "계획",
+      "example": "Tôi có kế hoạch trước khi mua.",
+      "exampleMeaningKo": "저는 사기 전에 계획이 있습니다.",
+      "audioSrc": "",
+      "sourcePage": 32,
+      "reviewNeeded": false,
+      "pronKo": "께 호악",
+      "pronNoteKo": "계획이라는 뜻입니다.",
+      "pronChunks": ["kế=께", "hoạch=호악"]
+    },
+    {
+      "id": "d7shopping-v-007",
+      "term": "lập kế hoạch",
+      "meaningKo": "계획을 세우다",
+      "example": "Tôi thường lập kế hoạch trước khi mua sắm.",
+      "exampleMeaningKo": "저는 쇼핑하기 전에 보통 계획을 세웁니다.",
+      "audioSrc": "",
+      "sourcePage": 32,
+      "reviewNeeded": false,
+      "pronKo": "럽 께 호악",
+      "pronNoteKo": "lập은 세우다, 만들다 느낌입니다.",
+      "pronChunks": ["lập=럽", "kế hoạch=께 호악"]
+    },
+    {
+      "id": "d7shopping-v-008",
+      "term": "trước khi",
+      "meaningKo": "~하기 전에",
+      "example": "Trước khi mua, tôi đọc đánh giá sản phẩm.",
+      "exampleMeaningKo": "사기 전에 저는 상품 리뷰를 읽습니다.",
+      "audioSrc": "",
+      "sourcePage": 32,
+      "reviewNeeded": false,
+      "pronKo": "쯔억 키",
+      "pronNoteKo": "시간 순서를 말할 때 중요합니다.",
+      "pronChunks": ["trước=쯔억", "khi=키"]
+    },
+    {
+      "id": "d7shopping-v-009",
+      "term": "mua hàng online",
+      "meaningKo": "온라인으로 구매하다",
+      "example": "Tôi thường mua hàng online.",
+      "exampleMeaningKo": "저는 보통 온라인으로 물건을 구매합니다.",
+      "audioSrc": "",
+      "sourcePage": 32,
+      "reviewNeeded": false,
+      "pronKo": "무아 항 온라인",
+      "pronNoteKo": "online은 영어처럼 읽으면 됩니다.",
+      "pronChunks": ["mua hàng=무아 항", "online=온라인"]
+    },
+    {
+      "id": "d7shopping-v-010",
+      "term": "trên mạng",
+      "meaningKo": "인터넷에서",
+      "example": "Tôi hay mua đồ trên mạng.",
+      "exampleMeaningKo": "저는 인터넷에서 자주 물건을 삽니다.",
+      "audioSrc": "",
+      "sourcePage": 32,
+      "reviewNeeded": false,
+      "pronKo": "쩬 망",
+      "pronNoteKo": "온라인에서, 인터넷에서라는 뜻입니다.",
+      "pronChunks": ["trên=쩬", "mạng=망"]
+    },
+    {
+      "id": "d7shopping-v-011",
+      "term": "đánh giá",
+      "meaningKo": "평가하다 / 리뷰",
+      "example": "Tôi đọc đánh giá trước khi mua.",
+      "exampleMeaningKo": "저는 사기 전에 리뷰를 읽습니다.",
+      "audioSrc": "",
+      "sourcePage": 32,
+      "reviewNeeded": false,
+      "pronKo": "다인 자",
+      "pronNoteKo": "리뷰, 평가라는 뜻으로 씁니다.",
+      "pronChunks": ["đánh=다인", "giá=자"]
+    },
+    {
+      "id": "d7shopping-v-012",
+      "term": "đánh giá sản phẩm",
+      "meaningKo": "상품 리뷰",
+      "example": "Tôi thường đọc đánh giá sản phẩm.",
+      "exampleMeaningKo": "저는 보통 상품 리뷰를 읽습니다.",
+      "audioSrc": "",
+      "sourcePage": 32,
+      "reviewNeeded": false,
+      "pronKo": "다인 자 산 펌",
+      "pronNoteKo": "sản phẩm은 상품입니다.",
+      "pronChunks": ["đánh giá=다인 자", "sản phẩm=산 펌"]
+    },
+    {
+      "id": "d7shopping-v-013",
+      "term": "đọc",
+      "meaningKo": "읽다",
+      "example": "Tôi đọc đánh giá sản phẩm.",
+      "exampleMeaningKo": "저는 상품 리뷰를 읽습니다.",
+      "audioSrc": "",
+      "sourcePage": 32,
+      "reviewNeeded": false,
+      "pronKo": "독",
+      "pronNoteKo": "책, 리뷰, 글을 읽을 때 씁니다.",
+      "pronChunks": ["đọc=독"]
+    },
+    {
+      "id": "d7shopping-v-014",
+      "term": "vấn đề",
+      "meaningKo": "문제",
+      "example": "Tôi gặp vấn đề khi mua online.",
+      "exampleMeaningKo": "저는 온라인으로 구매할 때 문제를 겪었습니다.",
+      "audioSrc": "",
+      "sourcePage": 32,
+      "reviewNeeded": false,
+      "pronKo": "번 데",
+      "pronNoteKo": "문제라는 뜻입니다.",
+      "pronChunks": ["vấn=번", "đề=데"]
+    },
+    {
+      "id": "d7shopping-v-015",
+      "term": "gặp vấn đề",
+      "meaningKo": "문제를 겪다",
+      "example": "Tôi đã từng gặp vấn đề khi mua hàng online.",
+      "exampleMeaningKo": "저는 온라인 구매할 때 문제를 겪어 본 적이 있습니다.",
+      "audioSrc": "",
+      "sourcePage": 32,
+      "reviewNeeded": false,
+      "pronKo": "갑 번 데",
+      "pronNoteKo": "gặp은 만나다, 겪다 느낌입니다.",
+      "pronChunks": ["gặp=갑", "vấn đề=번 데"]
+    },
+    {
+      "id": "d7shopping-v-016",
+      "term": "đồ",
+      "meaningKo": "물건",
+      "example": "Tôi thường mua đồ cho gia đình.",
+      "exampleMeaningKo": "저는 보통 가족을 위해 물건을 삽니다.",
+      "audioSrc": "",
+      "sourcePage": 32,
+      "reviewNeeded": false,
+      "pronKo": "도",
+      "pronNoteKo": "물건, 것이라는 뜻입니다.",
+      "pronChunks": ["đồ=도"]
+    },
+    {
+      "id": "d7shopping-v-017",
+      "term": "quan tâm",
+      "meaningKo": "관심이 있다 / 신경 쓰다",
+      "example": "Khi mua đồ, tôi quan tâm đến giá.",
+      "exampleMeaningKo": "물건을 살 때 저는 가격에 관심이 있습니다.",
+      "audioSrc": "",
+      "sourcePage": 32,
+      "reviewNeeded": false,
+      "pronKo": "꽌 떰",
+      "pronNoteKo": "quan tâm đến + 명사 = ~에 관심이 있다.",
+      "pronChunks": ["quan=꽌", "tâm=떰"]
+    },
+    {
+      "id": "d7shopping-v-018",
+      "term": "giá",
+      "meaningKo": "가격",
+      "example": "Tôi quan tâm đến giá nhất.",
+      "exampleMeaningKo": "저는 가격을 가장 중요하게 생각합니다.",
+      "audioSrc": "",
+      "sourcePage": 32,
+      "reviewNeeded": false,
+      "pronKo": "자",
+      "pronNoteKo": "가격이라는 뜻입니다.",
+      "pronChunks": ["giá=자"]
+    },
+    {
+      "id": "d7shopping-v-019",
+      "term": "giảm giá",
+      "meaningKo": "할인",
+      "example": "Tôi thích hàng giảm giá.",
+      "exampleMeaningKo": "저는 할인 상품을 좋아합니다.",
+      "audioSrc": "",
+      "sourcePage": 32,
+      "reviewNeeded": false,
+      "pronKo": "잠 자",
+      "pronNoteKo": "가격을 낮추다, 할인하다입니다.",
+      "pronChunks": ["giảm=잠", "giá=자"]
+    },
+    {
+      "id": "d7shopping-v-020",
+      "term": "hàng giảm giá",
+      "meaningKo": "할인 상품",
+      "example": "Tôi hay mua hàng giảm giá.",
+      "exampleMeaningKo": "저는 할인 상품을 자주 삽니다.",
+      "audioSrc": "",
+      "sourcePage": 32,
+      "reviewNeeded": false,
+      "pronKo": "항 잠 자",
+      "pronNoteKo": "hàng은 상품, 물건입니다.",
+      "pronChunks": ["hàng=항", "giảm giá=잠 자"]
+    },
+    {
+      "id": "d7shopping-v-021",
+      "term": "hàng hiệu",
+      "meaningKo": "브랜드 상품 / 명품",
+      "example": "Tôi không hay mua hàng hiệu.",
+      "exampleMeaningKo": "저는 브랜드 상품을 자주 사지 않습니다.",
+      "audioSrc": "",
+      "sourcePage": 32,
+      "reviewNeeded": false,
+      "pronKo": "항 히에우",
+      "pronNoteKo": "브랜드 상품, 명품 느낌입니다.",
+      "pronChunks": ["hàng=항", "hiệu=히에우"]
+    },
+    {
+      "id": "d7shopping-v-022",
+      "term": "so sánh",
+      "meaningKo": "비교하다",
+      "example": "Tôi so sánh giá trước khi mua.",
+      "exampleMeaningKo": "저는 사기 전에 가격을 비교합니다.",
+      "audioSrc": "",
+      "sourcePage": 32,
+      "reviewNeeded": false,
+      "pronKo": "쏘 사인",
+      "pronNoteKo": "비교하다입니다.",
+      "pronChunks": ["so=쏘", "sánh=사인"]
+    },
+    {
+      "id": "d7shopping-v-023",
+      "term": "trả tiền",
+      "meaningKo": "결제하다 / 돈을 내다",
+      "example": "Tôi thường trả tiền bằng thẻ.",
+      "exampleMeaningKo": "저는 보통 카드로 결제합니다.",
+      "audioSrc": "",
+      "sourcePage": 32,
+      "reviewNeeded": false,
+      "pronKo": "짜 띠엔",
+      "pronNoteKo": "돈을 내다, 지불하다입니다.",
+      "pronChunks": ["trả=짜", "tiền=띠엔"]
+    },
+    {
+      "id": "d7shopping-v-024",
+      "term": "tiền mặt",
+      "meaningKo": "현금",
+      "example": "Tôi ít dùng tiền mặt.",
+      "exampleMeaningKo": "저는 현금을 거의 사용하지 않습니다.",
+      "audioSrc": "",
+      "sourcePage": 32,
+      "reviewNeeded": false,
+      "pronKo": "띠엔 맛",
+      "pronNoteKo": "현금이라는 뜻입니다.",
+      "pronChunks": ["tiền=띠엔", "mặt=맛"]
+    },
+    {
+      "id": "d7shopping-v-025",
+      "term": "ví điện tử",
+      "meaningKo": "전자지갑",
+      "example": "Tôi thường thanh toán bằng ví điện tử.",
+      "exampleMeaningKo": "저는 보통 전자지갑으로 결제합니다.",
+      "audioSrc": "",
+      "sourcePage": 32,
+      "reviewNeeded": false,
+      "pronKo": "비 디엔 뜨",
+      "pronNoteKo": "ví는 지갑, điện tử는 전자입니다.",
+      "pronChunks": ["ví=비", "điện tử=디엔 뜨"]
+    },
+    {
+      "id": "d7shopping-v-026",
+      "term": "giữ",
+      "meaningKo": "보관하다 / 가지고 있다",
+      "example": "Tôi giữ hóa đơn sau khi mua.",
+      "exampleMeaningKo": "저는 구매 후 영수증을 보관합니다.",
+      "audioSrc": "",
+      "sourcePage": 32,
+      "reviewNeeded": false,
+      "pronKo": "즈",
+      "pronNoteKo": "보관하다, 가지고 있다입니다.",
+      "pronChunks": ["giữ=즈"]
+    },
+    {
+      "id": "d7shopping-v-027",
+      "term": "hóa đơn",
+      "meaningKo": "영수증 / 계산서",
+      "example": "Tôi giữ hóa đơn để đổi hàng.",
+      "exampleMeaningKo": "저는 교환하기 위해 영수증을 보관합니다.",
+      "audioSrc": "",
+      "sourcePage": 32,
+      "reviewNeeded": false,
+      "pronKo": "화 던",
+      "pronNoteKo": "영수증, 계산서입니다.",
+      "pronChunks": ["hóa=화", "đơn=던"]
+    },
+    {
+      "id": "d7shopping-v-028",
+      "term": "đổi hàng",
+      "meaningKo": "교환하다",
+      "example": "Tôi đã từng đổi hàng một lần.",
+      "exampleMeaningKo": "저는 한 번 상품을 교환해 본 적이 있습니다.",
+      "audioSrc": "",
+      "sourcePage": 32,
+      "reviewNeeded": false,
+      "pronKo": "도이 항",
+      "pronNoteKo": "상품을 교환하다입니다.",
+      "pronChunks": ["đổi=도이", "hàng=항"]
+    },
+    {
+      "id": "d7shopping-v-029",
+      "term": "trả hàng",
+      "meaningKo": "반품하다",
+      "example": "Tôi ít trả hàng.",
+      "exampleMeaningKo": "저는 거의 반품하지 않습니다.",
+      "audioSrc": "",
+      "sourcePage": 33,
+      "reviewNeeded": false,
+      "pronKo": "짜 항",
+      "pronNoteKo": "상품을 반품하다입니다.",
+      "pronChunks": ["trả=짜", "hàng=항"]
+    },
+    {
+      "id": "d7shopping-v-030",
+      "term": "trong nước",
+      "meaningKo": "국내",
+      "example": "Tôi thích mua đồ trong nước.",
+      "exampleMeaningKo": "저는 국내 상품을 사는 것을 좋아합니다.",
+      "audioSrc": "",
+      "sourcePage": 32,
+      "reviewNeeded": false,
+      "pronKo": "쫑 느억",
+      "pronNoteKo": "나라 안, 국내라는 뜻입니다.",
+      "pronChunks": ["trong=쫑", "nước=느억"]
+    },
+    {
+      "id": "d7shopping-v-031",
+      "term": "nước ngoài",
+      "meaningKo": "해외 / 외국",
+      "example": "Đồ nước ngoài thường đắt hơn.",
+      "exampleMeaningKo": "해외 상품은 보통 더 비쌉니다.",
+      "audioSrc": "",
+      "sourcePage": 32,
+      "reviewNeeded": false,
+      "pronKo": "느억 응오아이",
+      "pronNoteKo": "해외, 외국입니다.",
+      "pronChunks": ["nước=느억", "ngoài=응오아이"]
+    },
+    {
+      "id": "d7shopping-v-032",
+      "term": "thường",
+      "meaningKo": "보통 / 자주",
+      "example": "Tôi thường mua quần áo online.",
+      "exampleMeaningKo": "저는 보통 온라인으로 옷을 삽니다.",
+      "audioSrc": "",
+      "sourcePage": 33,
+      "reviewNeeded": false,
+      "pronKo": "트엉",
+      "pronNoteKo": "습관을 말할 때 자주 씁니다.",
+      "pronChunks": ["thường=트엉"]
+    },
+    {
+      "id": "d7shopping-v-033",
+      "term": "quần áo",
+      "meaningKo": "옷",
+      "example": "Tôi thường mua quần áo.",
+      "exampleMeaningKo": "저는 보통 옷을 삽니다.",
+      "audioSrc": "",
+      "sourcePage": 33,
+      "reviewNeeded": false,
+      "pronKo": "꾸언 아오",
+      "pronNoteKo": "옷이라는 뜻입니다.",
+      "pronChunks": ["quần=꾸언", "áo=아오"]
+    },
+    {
+      "id": "d7shopping-v-034",
+      "term": "đồ ăn",
+      "meaningKo": "음식",
+      "example": "Tôi thường mua đồ ăn ở siêu thị.",
+      "exampleMeaningKo": "저는 보통 마트에서 음식을 삽니다.",
+      "audioSrc": "",
+      "sourcePage": 33,
+      "reviewNeeded": false,
+      "pronKo": "도 안",
+      "pronNoteKo": "음식이라는 뜻입니다.",
+      "pronChunks": ["đồ=도", "ăn=안"]
+    },
+    {
+      "id": "d7shopping-v-035",
+      "term": "đồ điện tử",
+      "meaningKo": "전자제품",
+      "example": "Tôi hay mua đồ điện tử trên mạng.",
+      "exampleMeaningKo": "저는 인터넷에서 전자제품을 자주 삽니다.",
+      "audioSrc": "",
+      "sourcePage": 33,
+      "reviewNeeded": false,
+      "pronKo": "도 디엔 뜨",
+      "pronNoteKo": "전자제품입니다.",
+      "pronChunks": ["đồ=도", "điện tử=디엔 뜨"]
+    }
+  ],
+  "sentenceCards": [
+    {
+      "id": "d7shopping-s-001",
+      "textVi": "Anh có thích mua sắm không?",
+      "textKo": "쇼핑하는 것을 좋아해요?",
+      "exampleAnswerVi": "Có. Tôi thích mua sắm, nhưng tôi không mua quá nhiều.",
+      "exampleAnswerKo": "네. 저는 쇼핑을 좋아하지만 너무 많이 사지는 않습니다.",
+      "audioSrc": "",
+      "sourcePage": 33,
+      "reviewNeeded": false,
+      "pronKo": "아인 꼬 틱 무아 삼 콩?",
+      "exampleAnswerPronKo": "꼬. 또이 틱 무아 삼, 늉 또이 콩 무아 꽈 니에우.",
+      "pronNoteKo": "quá nhiều = 너무 많이."
+    },
+    {
+      "id": "d7shopping-s-002",
+      "textVi": "Anh thường mua cái gì?",
+      "textKo": "보통 무엇을 사요?",
+      "exampleAnswerVi": "Tôi thường mua quần áo, đồ ăn và đồ điện tử.",
+      "exampleAnswerKo": "저는 보통 옷, 음식, 전자제품을 삽니다.",
+      "audioSrc": "",
+      "sourcePage": 33,
+      "reviewNeeded": false,
+      "pronKo": "아인 트엉 무아 까이 지?",
+      "exampleAnswerPronKo": "또이 트엉 무아 꾸언 아오, 도 안 바 도 디엔 뜨.",
+      "pronNoteKo": "cái gì = 무엇."
+    },
+    {
+      "id": "d7shopping-s-003",
+      "textVi": "Anh hay đi mua sắm ở đâu?",
+      "textKo": "어디에서 자주 쇼핑해요?",
+      "exampleAnswerVi": "Tôi hay đi mua sắm ở siêu thị và trung tâm thương mại.",
+      "exampleAnswerKo": "저는 마트와 쇼핑몰에서 자주 쇼핑합니다.",
+      "audioSrc": "",
+      "sourcePage": 33,
+      "reviewNeeded": false,
+      "pronKo": "아인 하이 디 무아 삼 어 더우?",
+      "exampleAnswerPronKo": "또이 하이 디 무아 삼 어 시에우 티 바 쭝 떰 트엉 마이.",
+      "pronNoteKo": "ở đâu = 어디에서."
+    },
+    {
+      "id": "d7shopping-s-004",
+      "textVi": "Anh có hay đi siêu thị không?",
+      "textKo": "마트에 자주 가요?",
+      "exampleAnswerVi": "Có. Tôi hay đi siêu thị vào cuối tuần với gia đình.",
+      "exampleAnswerKo": "네. 저는 주말에 가족과 자주 마트에 갑니다.",
+      "audioSrc": "",
+      "sourcePage": 33,
+      "reviewNeeded": false,
+      "pronKo": "아인 꼬 하이 디 시에우 티 콩?",
+      "exampleAnswerPronKo": "꼬. 또이 하이 디 시에우 티 바오 꾸오이 뚜언 버이 자 딩.",
+      "pronNoteKo": "vào cuối tuần = 주말에."
+    },
+    {
+      "id": "d7shopping-s-005",
+      "textVi": "Anh thường đi mua sắm khi nào?",
+      "textKo": "보통 언제 쇼핑하러 가요?",
+      "exampleAnswerVi": "Tôi thường đi mua sắm vào cuối tuần hoặc sau khi tan làm.",
+      "exampleAnswerKo": "저는 보통 주말이나 퇴근 후에 쇼핑하러 갑니다.",
+      "audioSrc": "",
+      "sourcePage": 33,
+      "reviewNeeded": false,
+      "pronKo": "아인 트엉 디 무아 삼 키 나오?",
+      "exampleAnswerPronKo": "또이 트엉 디 무아 삼 바오 꾸오이 뚜언 호악 사우 키 딴 람.",
+      "pronNoteKo": "khi nào = 언제."
+    },
+    {
+      "id": "d7shopping-s-006",
+      "textVi": "Anh đi mua sắm một mình hay với người khác?",
+      "textKo": "혼자 쇼핑해요, 아니면 다른 사람과 쇼핑해요?",
+      "exampleAnswerVi": "Tôi thường đi mua sắm với vợ hoặc với gia đình.",
+      "exampleAnswerKo": "저는 보통 아내나 가족과 쇼핑하러 갑니다.",
+      "audioSrc": "",
+      "sourcePage": 33,
+      "reviewNeeded": false,
+      "pronKo": "아인 디 무아 삼 못 민 하이 버이 응어이 칵?",
+      "exampleAnswerPronKo": "또이 트엉 디 무아 삼 버이 버 호악 버이 자 딩.",
+      "pronNoteKo": "một mình hay với người khác = 혼자 또는 다른 사람과."
+    },
+    {
+      "id": "d7shopping-s-007",
+      "textVi": "Anh thường chi bao nhiêu tiền cho mua sắm?",
+      "textKo": "보통 쇼핑에 돈을 얼마나 써요?",
+      "exampleAnswerVi": "Tôi thường chi khoảng ba trăm nghìn won mỗi tháng cho mua sắm.",
+      "exampleAnswerKo": "저는 보통 쇼핑에 매달 약 30만 원을 씁니다.",
+      "audioSrc": "",
+      "sourcePage": 33,
+      "reviewNeeded": false,
+      "pronKo": "아인 트엉 찌 바오 니에우 띠엔 쪼 무아 삼?",
+      "exampleAnswerPronKo": "또이 트엉 찌 코앙 바 짬 응인 원 모이 탕 쪼 무아 삼.",
+      "pronNoteKo": "chi bao nhiêu tiền = 돈을 얼마나 쓰다."
+    },
+    {
+      "id": "d7shopping-s-008",
+      "textVi": "Anh có lập kế hoạch trước khi mua không?",
+      "textKo": "사기 전에 계획을 세워요?",
+      "exampleAnswerVi": "Có. Trước khi mua, tôi thường lập kế hoạch và so sánh giá.",
+      "exampleAnswerKo": "네. 사기 전에 저는 보통 계획을 세우고 가격을 비교합니다.",
+      "audioSrc": "",
+      "sourcePage": 33,
+      "reviewNeeded": false,
+      "pronKo": "아인 꼬 럽 께 호악 쯔억 키 무아 콩?",
+      "exampleAnswerPronKo": "꼬. 쯔억 키 무아, 또이 트엉 럽 께 호악 바 쏘 사인 자.",
+      "pronNoteKo": "Trước khi mua = 사기 전에."
+    },
+    {
+      "id": "d7shopping-s-009",
+      "textVi": "Anh có mua hàng online không?",
+      "textKo": "온라인으로 구매해요?",
+      "exampleAnswerVi": "Có. Tôi thường mua hàng online vì rất tiện lợi.",
+      "exampleAnswerKo": "네. 매우 편리해서 저는 보통 온라인으로 구매합니다.",
+      "audioSrc": "",
+      "sourcePage": 33,
+      "reviewNeeded": false,
+      "pronKo": "아인 꼬 무아 항 온라인 콩?",
+      "exampleAnswerPronKo": "꼬. 또이 트엉 무아 항 온라인 비 젓 띠엔 러이.",
+      "pronNoteKo": "mua hàng online = 온라인 구매하다."
+    },
+    {
+      "id": "d7shopping-s-010",
+      "textVi": "Anh thường mua gì trên mạng?",
+      "textKo": "인터넷에서 보통 무엇을 사요?",
+      "exampleAnswerVi": "Tôi thường mua quần áo, đồ điện tử và đồ dùng gia đình trên mạng.",
+      "exampleAnswerKo": "저는 인터넷에서 보통 옷, 전자제품, 생활용품을 삽니다.",
+      "audioSrc": "",
+      "sourcePage": 33,
+      "reviewNeeded": false,
+      "pronKo": "아인 트엉 무아 지 쩬 망?",
+      "exampleAnswerPronKo": "또이 트엉 무아 꾸언 아오, 도 디엔 뜨 바 도 중 자 딩 쩬 망.",
+      "pronNoteKo": "trên mạng = 인터넷에서."
+    },
+    {
+      "id": "d7shopping-s-011",
+      "textVi": "Anh thích mua online hay mua ở cửa hàng hơn?",
+      "textKo": "온라인으로 사는 것을 더 좋아해요, 아니면 가게에서 사는 것을 더 좋아해요?",
+      "exampleAnswerVi": "Tôi thích mua online hơn vì nhanh, rẻ và tiện lợi.",
+      "exampleAnswerKo": "저는 빠르고 싸고 편리해서 온라인으로 사는 것을 더 좋아합니다.",
+      "audioSrc": "",
+      "sourcePage": 33,
+      "reviewNeeded": false,
+      "pronKo": "아인 틱 무아 온라인 하이 무아 어 끄어 항 헌?",
+      "exampleAnswerPronKo": "또이 틱 무아 온라인 헌 비 냐인, 제 바 띠엔 러이.",
+      "pronNoteKo": "hơn = 더."
+    },
+    {
+      "id": "d7shopping-s-012",
+      "textVi": "Anh có đọc đánh giá sản phẩm trước khi mua không?",
+      "textKo": "사기 전에 상품 리뷰를 읽어요?",
+      "exampleAnswerVi": "Có. Tôi luôn đọc đánh giá sản phẩm trước khi mua.",
+      "exampleAnswerKo": "네. 저는 사기 전에 항상 상품 리뷰를 읽습니다.",
+      "audioSrc": "",
+      "sourcePage": 33,
+      "reviewNeeded": false,
+      "pronKo": "아인 꼬 독 다인 자 산 펌 쯔억 키 무아 콩?",
+      "exampleAnswerPronKo": "꼬. 또이 루온 독 다인 자 산 펌 쯔억 키 무아.",
+      "pronNoteKo": "luôn = 항상."
+    },
+    {
+      "id": "d7shopping-s-013",
+      "textVi": "Anh có gặp vấn đề khi mua online không?",
+      "textKo": "온라인으로 구매할 때 문제를 겪은 적 있어요?",
+      "exampleAnswerVi": "Có. Tôi đã từng gặp vấn đề khi mua online vì giao hàng quá chậm.",
+      "exampleAnswerKo": "네. 배송이 너무 느려서 온라인 구매할 때 문제를 겪어 본 적이 있습니다.",
+      "audioSrc": "",
+      "sourcePage": 33,
+      "reviewNeeded": false,
+      "pronKo": "아인 꼬 갑 번 데 키 무아 온라인 콩?",
+      "exampleAnswerPronKo": "꼬. 또이 다 뜽 갑 번 데 키 무아 온라인 비 자오 항 꽈 짬.",
+      "pronNoteKo": "đã từng = ~해 본 적이 있다."
+    },
+    {
+      "id": "d7shopping-s-014",
+      "textVi": "Khi mua đồ, anh quan tâm điều gì nhất?",
+      "textKo": "물건을 살 때 무엇을 가장 중요하게 생각해요?",
+      "exampleAnswerVi": "Khi mua đồ, tôi quan tâm đến giá và chất lượng nhất.",
+      "exampleAnswerKo": "물건을 살 때 저는 가격과 품질을 가장 중요하게 생각합니다.",
+      "audioSrc": "",
+      "sourcePage": 33,
+      "reviewNeeded": false,
+      "pronKo": "키 무아 도, 아인 꽌 떰 디에우 지 녓?",
+      "exampleAnswerPronKo": "키 무아 도, 또이 꽌 떰 덴 자 바 쩟 르엉 녓.",
+      "pronNoteKo": "quan tâm đến = ~에 관심이 있다 / 중요하게 생각하다."
+    },
+    {
+      "id": "d7shopping-s-015",
+      "textVi": "Anh có thích hàng giảm giá không?",
+      "textKo": "할인 상품을 좋아해요?",
+      "exampleAnswerVi": "Có. Tôi rất thích hàng giảm giá vì có thể tiết kiệm tiền.",
+      "exampleAnswerKo": "네. 돈을 아낄 수 있어서 저는 할인 상품을 매우 좋아합니다.",
+      "audioSrc": "",
+      "sourcePage": 33,
+      "reviewNeeded": false,
+      "pronKo": "아인 꼬 틱 항 잠 자 콩?",
+      "exampleAnswerPronKo": "꼬. 또이 젓 틱 항 잠 자 비 꼬 테 띠엣 끼엠 띠엔.",
+      "pronNoteKo": "có thể = ~할 수 있다."
+    },
+    {
+      "id": "d7shopping-s-016",
+      "textVi": "Anh có hay mua hàng hiệu không?",
+      "textKo": "브랜드 상품을 자주 사요?",
+      "exampleAnswerVi": "Không. Tôi không hay mua hàng hiệu vì nó khá đắt.",
+      "exampleAnswerKo": "아니요. 꽤 비싸서 저는 브랜드 상품을 자주 사지 않습니다.",
+      "audioSrc": "",
+      "sourcePage": 33,
+      "reviewNeeded": false,
+      "pronKo": "아인 꼬 하이 무아 항 히에우 콩?",
+      "exampleAnswerPronKo": "콩. 또이 콩 하이 무아 항 히에우 비 노 카 닷.",
+      "pronNoteKo": "khá = 꽤."
+    },
+    {
+      "id": "d7shopping-s-017",
+      "textVi": "Anh có so sánh giá trước khi mua không?",
+      "textKo": "사기 전에 가격을 비교해요?",
+      "exampleAnswerVi": "Có. Tôi thường so sánh giá trên mạng trước khi mua.",
+      "exampleAnswerKo": "네. 저는 사기 전에 인터넷에서 보통 가격을 비교합니다.",
+      "audioSrc": "",
+      "sourcePage": 33,
+      "reviewNeeded": false,
+      "pronKo": "아인 꼬 쏘 사인 자 쯔억 키 무아 콩?",
+      "exampleAnswerPronKo": "꼬. 또이 트엉 쏘 사인 자 쩬 망 쯔억 키 무아.",
+      "pronNoteKo": "so sánh giá = 가격을 비교하다."
+    },
+    {
+      "id": "d7shopping-s-018",
+      "textVi": "Anh thường trả tiền bằng gì?",
+      "textKo": "보통 무엇으로 결제해요?",
+      "exampleAnswerVi": "Tôi thường trả tiền bằng thẻ hoặc ví điện tử.",
+      "exampleAnswerKo": "저는 보통 카드나 전자지갑으로 결제합니다.",
+      "audioSrc": "",
+      "sourcePage": 33,
+      "reviewNeeded": false,
+      "pronKo": "아인 트엉 짜 띠엔 방 지?",
+      "exampleAnswerPronKo": "또이 트엉 짜 띠엔 방 테 호악 비 디엔 뜨.",
+      "pronNoteKo": "bằng gì = 무엇으로."
+    },
+    {
+      "id": "d7shopping-s-019",
+      "textVi": "Anh có thanh toán bằng ví điện tử không?",
+      "textKo": "전자지갑으로 결제해요?",
+      "exampleAnswerVi": "Có. Tôi hay thanh toán bằng ví điện tử khi mua online.",
+      "exampleAnswerKo": "네. 저는 온라인으로 구매할 때 전자지갑으로 자주 결제합니다.",
+      "audioSrc": "",
+      "sourcePage": 33,
+      "reviewNeeded": false,
+      "pronKo": "아인 꼬 타인 또안 방 비 디엔 뜨 콩?",
+      "exampleAnswerPronKo": "꼬. 또이 하이 타인 또안 방 비 디엔 뜨 키 무아 온라인.",
+      "pronNoteKo": "thanh toán bằng = ~로 결제하다."
+    },
+    {
+      "id": "d7shopping-s-020",
+      "textVi": "Mua hàng xong anh có giữ hóa đơn không?",
+      "textKo": "구매 후 영수증을 보관해요?",
+      "exampleAnswerVi": "Có. Tôi thường giữ hóa đơn để đổi hàng nếu có vấn đề.",
+      "exampleAnswerKo": "네. 문제가 있으면 교환하기 위해 저는 보통 영수증을 보관합니다.",
+      "audioSrc": "",
+      "sourcePage": 33,
+      "reviewNeeded": false,
+      "pronKo": "무아 항 쏭 아인 꼬 즈 화 던 콩?",
+      "exampleAnswerPronKo": "꼬. 또이 트엉 즈 화 던 데 도이 항 네우 꼬 번 데.",
+      "pronNoteKo": "mua hàng xong = 구매가 끝난 후."
+    },
+    {
+      "id": "d7shopping-s-021",
+      "textVi": "Anh có đổi hoặc trả hàng bao giờ chưa?",
+      "textKo": "교환하거나 반품해 본 적 있어요?",
+      "exampleAnswerVi": "Rồi. Tôi đã từng đổi hàng một lần vì kích cỡ không đúng.",
+      "exampleAnswerKo": "네. 사이즈가 맞지 않아서 한 번 교환해 본 적이 있습니다.",
+      "audioSrc": "",
+      "sourcePage": 33,
+      "reviewNeeded": false,
+      "pronKo": "아인 꼬 도이 호악 짜 항 바오 저 쯔어?",
+      "exampleAnswerPronKo": "조이. 또이 다 뜽 도이 항 못 런 비 끽 꺼 콩 둥.",
+      "pronNoteKo": "đổi hoặc trả hàng = 교환하거나 반품하다."
+    },
+    {
+      "id": "d7shopping-s-022",
+      "textVi": "Anh có nghĩ mình mua sắm nhiều không?",
+      "textKo": "본인이 쇼핑을 많이 한다고 생각해요?",
+      "exampleAnswerVi": "Không. Tôi nghĩ tôi không mua sắm nhiều vì tôi chỉ mua những thứ cần thiết.",
+      "exampleAnswerKo": "아니요. 저는 필요한 것만 사기 때문에 쇼핑을 많이 하지 않는다고 생각합니다.",
+      "audioSrc": "",
+      "sourcePage": 33,
+      "reviewNeeded": false,
+      "pronKo": "아인 꼬 응이 민 무아 삼 니에우 콩?",
+      "exampleAnswerPronKo": "콩. 또이 응이 또이 콩 무아 삼 니에우 비 또이 찌 무아 능 트 껀 티엣.",
+      "pronNoteKo": "mình은 여기서 자기 자신 느낌입니다."
+    },
+    {
+      "id": "d7shopping-s-023",
+      "textVi": "Anh thích mua đồ trong nước hay nước ngoài?",
+      "textKo": "국내 상품을 사는 것을 좋아해요, 아니면 해외 상품을 좋아해요?",
+      "exampleAnswerVi": "Tôi thích mua đồ trong nước hơn vì rẻ hơn và giao hàng nhanh hơn.",
+      "exampleAnswerKo": "저는 더 싸고 배송이 더 빠르기 때문에 국내 상품을 사는 것을 더 좋아합니다.",
+      "audioSrc": "",
+      "sourcePage": 33,
+      "reviewNeeded": false,
+      "pronKo": "아인 틱 무아 도 쫑 느억 하이 느억 응오아이?",
+      "exampleAnswerPronKo": "또이 틱 무아 도 쫑 느억 헌 비 제 헌 바 자오 항 냐인 헌.",
+      "pronNoteKo": "trong nước hay nước ngoài = 국내 또는 해외."
+    }
+  ],
+  "dialogues": [
+    {
+      "id": "d7shopping-d-001",
+      "title": "쇼핑을 좋아하는지 묻기",
+      "audioSrc": "",
+      "sourcePage": 33,
+      "reviewNeeded": false,
+      "lines": [
+        {
+          "speaker": "A",
+          "vi": "Anh có thích mua sắm không?",
+          "ko": "쇼핑하는 것을 좋아해요?",
+          "pronKo": "아인 꼬 틱 무아 삼 콩?"
+        },
+        {
+          "speaker": "B",
+          "vi": "Có. Tôi thích mua sắm, nhưng tôi không mua quá nhiều.",
+          "ko": "네. 저는 쇼핑을 좋아하지만 너무 많이 사지는 않습니다.",
+          "pronKo": "꼬. 또이 틱 무아 삼, 늉 또이 콩 무아 꽈 니에우."
+        },
+        {
+          "speaker": "A",
+          "vi": "Anh thường mua cái gì?",
+          "ko": "보통 무엇을 사요?",
+          "pronKo": "아인 트엉 무아 까이 지?"
+        },
+        {
+          "speaker": "B",
+          "vi": "Tôi thường mua quần áo, đồ ăn và đồ điện tử.",
+          "ko": "저는 보통 옷, 음식, 전자제품을 삽니다.",
+          "pronKo": "또이 트엉 무아 꾸언 아오, 도 안 바 도 디엔 뜨."
+        }
+      ]
+    },
+    {
+      "id": "d7shopping-d-002",
+      "title": "쇼핑 장소와 시간",
+      "audioSrc": "",
+      "sourcePage": 33,
+      "reviewNeeded": false,
+      "lines": [
+        {
+          "speaker": "A",
+          "vi": "Anh hay đi mua sắm ở đâu?",
+          "ko": "어디에서 자주 쇼핑해요?",
+          "pronKo": "아인 하이 디 무아 삼 어 더우?"
+        },
+        {
+          "speaker": "B",
+          "vi": "Tôi hay đi mua sắm ở siêu thị và trung tâm thương mại.",
+          "ko": "저는 마트와 쇼핑몰에서 자주 쇼핑합니다.",
+          "pronKo": "또이 하이 디 무아 삼 어 시에우 티 바 쭝 떰 트엉 마이."
+        },
+        {
+          "speaker": "A",
+          "vi": "Anh thường đi mua sắm khi nào?",
+          "ko": "보통 언제 쇼핑하러 가요?",
+          "pronKo": "아인 트엉 디 무아 삼 키 나오?"
+        },
+        {
+          "speaker": "B",
+          "vi": "Tôi thường đi mua sắm vào cuối tuần hoặc sau khi tan làm.",
+          "ko": "저는 보통 주말이나 퇴근 후에 쇼핑하러 갑니다.",
+          "pronKo": "또이 트엉 디 무아 삼 바오 꾸오이 뚜언 호악 사우 키 딴 람."
+        }
+      ]
+    },
+    {
+      "id": "d7shopping-d-003",
+      "title": "온라인 쇼핑",
+      "audioSrc": "",
+      "sourcePage": 33,
+      "reviewNeeded": false,
+      "lines": [
+        {
+          "speaker": "A",
+          "vi": "Anh có mua hàng online không?",
+          "ko": "온라인으로 구매해요?",
+          "pronKo": "아인 꼬 무아 항 온라인 콩?"
+        },
+        {
+          "speaker": "B",
+          "vi": "Có. Tôi thường mua hàng online vì rất tiện lợi.",
+          "ko": "네. 매우 편리해서 저는 보통 온라인으로 구매합니다.",
+          "pronKo": "꼬. 또이 트엉 무아 항 온라인 비 젓 띠엔 러이."
+        },
+        {
+          "speaker": "A",
+          "vi": "Anh thường mua gì trên mạng?",
+          "ko": "인터넷에서 보통 무엇을 사요?",
+          "pronKo": "아인 트엉 무아 지 쩬 망?"
+        },
+        {
+          "speaker": "B",
+          "vi": "Tôi thường mua quần áo, đồ điện tử và đồ dùng gia đình trên mạng.",
+          "ko": "저는 인터넷에서 보통 옷, 전자제품, 생활용품을 삽니다.",
+          "pronKo": "또이 트엉 무아 꾸언 아오, 도 디엔 뜨 바 도 중 자 딩 쩬 망."
+        }
+      ]
+    },
+    {
+      "id": "d7shopping-d-004",
+      "title": "리뷰와 가격 비교",
+      "audioSrc": "",
+      "sourcePage": 33,
+      "reviewNeeded": false,
+      "lines": [
+        {
+          "speaker": "A",
+          "vi": "Anh có đọc đánh giá sản phẩm trước khi mua không?",
+          "ko": "사기 전에 상품 리뷰를 읽어요?",
+          "pronKo": "아인 꼬 독 다인 자 산 펌 쯔억 키 무아 콩?"
+        },
+        {
+          "speaker": "B",
+          "vi": "Có. Tôi luôn đọc đánh giá sản phẩm trước khi mua.",
+          "ko": "네. 저는 사기 전에 항상 상품 리뷰를 읽습니다.",
+          "pronKo": "꼬. 또이 루온 독 다인 자 산 펌 쯔억 키 무아."
+        },
+        {
+          "speaker": "A",
+          "vi": "Anh có so sánh giá trước khi mua không?",
+          "ko": "사기 전에 가격을 비교해요?",
+          "pronKo": "아인 꼬 쏘 사인 자 쯔억 키 무아 콩?"
+        },
+        {
+          "speaker": "B",
+          "vi": "Có. Tôi thường so sánh giá trên mạng trước khi mua.",
+          "ko": "네. 저는 사기 전에 인터넷에서 보통 가격을 비교합니다.",
+          "pronKo": "꼬. 또이 트엉 쏘 사인 자 쩬 망 쯔억 키 무아."
+        }
+      ]
+    },
+    {
+      "id": "d7shopping-d-005",
+      "title": "할인 상품과 브랜드 상품",
+      "audioSrc": "",
+      "sourcePage": 33,
+      "reviewNeeded": false,
+      "lines": [
+        {
+          "speaker": "A",
+          "vi": "Anh có thích hàng giảm giá không?",
+          "ko": "할인 상품을 좋아해요?",
+          "pronKo": "아인 꼬 틱 항 잠 자 콩?"
+        },
+        {
+          "speaker": "B",
+          "vi": "Có. Tôi rất thích hàng giảm giá vì có thể tiết kiệm tiền.",
+          "ko": "네. 돈을 아낄 수 있어서 저는 할인 상품을 매우 좋아합니다.",
+          "pronKo": "꼬. 또이 젓 틱 항 잠 자 비 꼬 테 띠엣 끼엠 띠엔."
+        },
+        {
+          "speaker": "A",
+          "vi": "Anh có hay mua hàng hiệu không?",
+          "ko": "브랜드 상품을 자주 사요?",
+          "pronKo": "아인 꼬 하이 무아 항 히에우 콩?"
+        },
+        {
+          "speaker": "B",
+          "vi": "Không. Tôi không hay mua hàng hiệu vì nó khá đắt.",
+          "ko": "아니요. 꽤 비싸서 저는 브랜드 상품을 자주 사지 않습니다.",
+          "pronKo": "콩. 또이 콩 하이 무아 항 히에우 비 노 카 닷."
+        }
+      ]
+    },
+    {
+      "id": "d7shopping-d-006",
+      "title": "결제와 교환",
+      "audioSrc": "",
+      "sourcePage": 33,
+      "reviewNeeded": false,
+      "lines": [
+        {
+          "speaker": "A",
+          "vi": "Anh thường trả tiền bằng gì?",
+          "ko": "보통 무엇으로 결제해요?",
+          "pronKo": "아인 트엉 짜 띠엔 방 지?"
+        },
+        {
+          "speaker": "B",
+          "vi": "Tôi thường trả tiền bằng thẻ hoặc ví điện tử.",
+          "ko": "저는 보통 카드나 전자지갑으로 결제합니다.",
+          "pronKo": "또이 트엉 짜 띠엔 방 테 호악 비 디엔 뜨."
+        },
+        {
+          "speaker": "A",
+          "vi": "Mua hàng xong anh có giữ hóa đơn không?",
+          "ko": "구매 후 영수증을 보관해요?",
+          "pronKo": "무아 항 쏭 아인 꼬 즈 화 던 콩?"
+        },
+        {
+          "speaker": "B",
+          "vi": "Có. Tôi thường giữ hóa đơn để đổi hàng nếu có vấn đề.",
+          "ko": "네. 문제가 있으면 교환하기 위해 저는 보통 영수증을 보관합니다.",
+          "pronKo": "꼬. 또이 트엉 즈 화 던 데 도이 항 네우 꼬 번 데."
+        }
+      ]
+    }
+  ],
+  "grammarPoints": [
+    {
+      "id": "d7shopping-g-001",
+      "title": "쇼핑을 좋아하다",
+      "pattern": "thích mua sắm",
+      "meaningKo": "쇼핑하는 것을 좋아하다.",
+      "sourcePage": 33,
+      "reviewNeeded": false
+    },
+    {
+      "id": "d7shopping-g-002",
+      "title": "보통 무엇을 사요?",
+      "pattern": "Anh thường mua cái gì?",
+      "meaningKo": "보통 무엇을 사요?",
+      "sourcePage": 33,
+      "reviewNeeded": false
+    },
+    {
+      "id": "d7shopping-g-003",
+      "title": "어디에서 쇼핑하다",
+      "pattern": "đi mua sắm ở + 장소",
+      "meaningKo": "~에서 쇼핑하러 가다.",
+      "sourcePage": 33,
+      "reviewNeeded": false
+    },
+    {
+      "id": "d7shopping-g-004",
+      "title": "언제 쇼핑하다",
+      "pattern": "đi mua sắm khi nào?",
+      "meaningKo": "언제 쇼핑하러 가요?",
+      "sourcePage": 33,
+      "reviewNeeded": false
+    },
+    {
+      "id": "d7shopping-g-005",
+      "title": "혼자 또는 다른 사람과",
+      "pattern": "một mình hay với người khác",
+      "meaningKo": "혼자 또는 다른 사람과.",
+      "sourcePage": 33,
+      "reviewNeeded": false
+    },
+    {
+      "id": "d7shopping-g-006",
+      "title": "쇼핑에 돈을 쓰다",
+      "pattern": "chi tiền cho mua sắm",
+      "meaningKo": "쇼핑에 돈을 쓰다.",
+      "sourcePage": 33,
+      "reviewNeeded": false
+    },
+    {
+      "id": "d7shopping-g-007",
+      "title": "~하기 전에",
+      "pattern": "trước khi + 동사",
+      "meaningKo": "~하기 전에.",
+      "sourcePage": 33,
+      "reviewNeeded": false
+    },
+    {
+      "id": "d7shopping-g-008",
+      "title": "온라인으로 구매하다",
+      "pattern": "mua hàng online / mua đồ trên mạng",
+      "meaningKo": "온라인으로 구매하다 / 인터넷에서 물건을 사다.",
+      "sourcePage": 33,
+      "reviewNeeded": false
+    },
+    {
+      "id": "d7shopping-g-009",
+      "title": "온라인이 더 좋다",
+      "pattern": "Tôi thích mua online hơn vì ...",
+      "meaningKo": "저는 ... 때문에 온라인으로 사는 것을 더 좋아합니다.",
+      "sourcePage": 33,
+      "reviewNeeded": false
+    },
+    {
+      "id": "d7shopping-g-010",
+      "title": "상품 리뷰를 읽다",
+      "pattern": "đọc đánh giá sản phẩm",
+      "meaningKo": "상품 리뷰를 읽다.",
+      "sourcePage": 33,
+      "reviewNeeded": false
+    },
+    {
+      "id": "d7shopping-g-011",
+      "title": "문제를 겪다",
+      "pattern": "gặp vấn đề khi + 동사",
+      "meaningKo": "~할 때 문제를 겪다.",
+      "sourcePage": 33,
+      "reviewNeeded": false
+    },
+    {
+      "id": "d7shopping-g-012",
+      "title": "~에 관심이 있다",
+      "pattern": "quan tâm đến + 명사",
+      "meaningKo": "~에 관심이 있다 / ~을 중요하게 생각하다.",
+      "sourcePage": 33,
+      "reviewNeeded": false
+    },
+    {
+      "id": "d7shopping-g-013",
+      "title": "가격을 비교하다",
+      "pattern": "so sánh giá",
+      "meaningKo": "가격을 비교하다.",
+      "sourcePage": 33,
+      "reviewNeeded": false
+    },
+    {
+      "id": "d7shopping-g-014",
+      "title": "~로 결제하다",
+      "pattern": "trả tiền bằng + 수단 / thanh toán bằng + 수단",
+      "meaningKo": "~로 결제하다.",
+      "sourcePage": 33,
+      "reviewNeeded": false
+    },
+    {
+      "id": "d7shopping-g-015",
+      "title": "구매 후",
+      "pattern": "mua hàng xong",
+      "meaningKo": "구매가 끝난 후 / 구매 후.",
+      "sourcePage": 33,
+      "reviewNeeded": false
+    },
+    {
+      "id": "d7shopping-g-016",
+      "title": "교환하거나 반품하다",
+      "pattern": "đổi hoặc trả hàng",
+      "meaningKo": "교환하거나 반품하다.",
+      "sourcePage": 33,
+      "reviewNeeded": false
+    },
+    {
+      "id": "d7shopping-g-017",
+      "title": "국내 또는 해외",
+      "pattern": "trong nước hay nước ngoài",
+      "meaningKo": "국내 또는 해외.",
+      "sourcePage": 33,
+      "reviewNeeded": false
+    }
+  ],
+  "pronunciationTargets": [
+    {
+      "id": "d7shopping-p-001",
+      "text": "mua sắm",
+      "hintKo": "쇼핑하다",
+      "audioSrc": "",
+      "sourcePage": 32,
+      "reviewNeeded": false,
+      "pronKo": "무아 삼",
+      "mouthKo": "mua와 sắm을 두 덩어리로 끊어 읽습니다.",
+      "toneKo": "mua는 사다, mua sắm은 쇼핑하다입니다."
+    },
+    {
+      "id": "d7shopping-p-002",
+      "text": "siêu thị",
+      "hintKo": "마트",
+      "audioSrc": "",
+      "sourcePage": 32,
+      "reviewNeeded": false,
+      "pronKo": "시에우 티",
+      "mouthKo": "siêu는 시에우처럼 길게, thị는 짧게 읽습니다.",
+      "toneKo": "마트에 간다는 표현은 đi siêu thị입니다."
+    },
+    {
+      "id": "d7shopping-p-003",
+      "text": "cửa hàng",
+      "hintKo": "가게",
+      "audioSrc": "",
+      "sourcePage": 32,
+      "reviewNeeded": false,
+      "pronKo": "끄어 항",
+      "mouthKo": "cửa는 끄어, hàng은 항으로 읽습니다.",
+      "toneKo": "mua ở cửa hàng = 가게에서 사다."
+    },
+    {
+      "id": "d7shopping-p-004",
+      "text": "mua hàng online / trên mạng",
+      "hintKo": "온라인으로 구매하다 / 인터넷에서",
+      "audioSrc": "",
+      "sourcePage": 32,
+      "reviewNeeded": false,
+      "pronKo": "무아 항 온라인 / 쩬 망",
+      "mouthKo": "online은 영어처럼 읽어도 됩니다.",
+      "toneKo": "mua hàng online과 mua đồ trên mạng은 비슷하게 쓸 수 있습니다."
+    },
+    {
+      "id": "d7shopping-p-005",
+      "text": "đánh giá sản phẩm",
+      "hintKo": "상품 리뷰",
+      "audioSrc": "",
+      "sourcePage": 32,
+      "reviewNeeded": false,
+      "pronKo": "다인 자 산 펌",
+      "mouthKo": "đánh giá / sản phẩm으로 나눠 읽습니다.",
+      "toneKo": "온라인 쇼핑 답변에서 매우 자주 쓰기 좋습니다."
+    },
+    {
+      "id": "d7shopping-p-006",
+      "text": "gặp vấn đề",
+      "hintKo": "문제를 겪다",
+      "audioSrc": "",
+      "sourcePage": 32,
+      "reviewNeeded": false,
+      "pronKo": "갑 번 데",
+      "mouthKo": "gặp은 짧게 갑, vấn đề는 번 데로 읽습니다.",
+      "toneKo": "온라인 구매 문제 경험을 말할 때 씁니다."
+    },
+    {
+      "id": "d7shopping-p-007",
+      "text": "giá / giảm giá",
+      "hintKo": "가격 / 할인",
+      "audioSrc": "",
+      "sourcePage": 32,
+      "reviewNeeded": false,
+      "pronKo": "자 / 잠 자",
+      "mouthKo": "giá는 가격, giảm giá는 할인입니다.",
+      "toneKo": "성조가 있어도 초보자는 문장으로 묶어 외우는 게 좋습니다."
+    },
+    {
+      "id": "d7shopping-p-008",
+      "text": "hàng giảm giá / hàng hiệu",
+      "hintKo": "할인 상품 / 브랜드 상품",
+      "audioSrc": "",
+      "sourcePage": 32,
+      "reviewNeeded": false,
+      "pronKo": "항 잠 자 / 항 히에우",
+      "mouthKo": "hàng은 상품이라는 뜻입니다.",
+      "toneKo": "할인 상품을 좋아한다는 답변에 좋습니다."
+    },
+    {
+      "id": "d7shopping-p-009",
+      "text": "trả tiền / tiền mặt",
+      "hintKo": "결제하다 / 현금",
+      "audioSrc": "",
+      "sourcePage": 32,
+      "reviewNeeded": false,
+      "pronKo": "짜 띠엔 / 띠엔 맛",
+      "mouthKo": "tiền은 돈, tiền mặt은 현금입니다.",
+      "toneKo": "trả tiền bằng thẻ = 카드로 결제하다."
+    },
+    {
+      "id": "d7shopping-p-010",
+      "text": "ví điện tử",
+      "hintKo": "전자지갑",
+      "audioSrc": "",
+      "sourcePage": 32,
+      "reviewNeeded": false,
+      "pronKo": "비 디엔 뜨",
+      "mouthKo": "ví는 지갑, điện tử는 전자입니다.",
+      "toneKo": "thanh toán bằng ví điện tử = 전자지갑으로 결제하다."
+    },
+    {
+      "id": "d7shopping-p-011",
+      "text": "đổi hàng / trả hàng",
+      "hintKo": "교환하다 / 반품하다",
+      "audioSrc": "",
+      "sourcePage": 32,
+      "reviewNeeded": false,
+      "pronKo": "도이 항 / 짜 항",
+      "mouthKo": "đổi는 교환, trả는 돌려주다 느낌입니다.",
+      "toneKo": "đổi hoặc trả hàng = 교환하거나 반품하다."
+    }
+  ],
+  "quizSeeds": [
+    {
+      "id": "d7shopping-q-001",
+      "type": "match-term",
+      "prompt": "7일차 쇼핑 기본 단어 매칭",
+      "answerSet": [
+        "mua sắm-쇼핑하다",
+        "siêu thị-마트",
+        "cửa hàng-가게",
+        "một mình-혼자",
+        "chi tiền-돈을 쓰다",
+        "kế hoạch-계획",
+        "lập kế hoạch-계획을 세우다",
+        "trước khi-~하기 전에",
+        "mua hàng online-온라인으로 구매하다",
+        "trên mạng-인터넷에서"
+      ],
+      "sourcePage": 32,
+      "reviewNeeded": false
+    },
+    {
+      "id": "d7shopping-q-002",
+      "type": "match-term",
+      "prompt": "7일차 리뷰/문제 단어 매칭",
+      "answerSet": [
+        "đánh giá-평가하다 / 리뷰",
+        "đánh giá sản phẩm-상품 리뷰",
+        "đọc-읽다",
+        "vấn đề-문제",
+        "gặp vấn đề-문제를 겪다",
+        "đồ-물건",
+        "quan tâm-관심이 있다",
+        "giá-가격",
+        "giảm giá-할인",
+        "hàng giảm giá-할인 상품"
+      ],
+      "sourcePage": 32,
+      "reviewNeeded": false
+    },
+    {
+      "id": "d7shopping-q-003",
+      "type": "match-term",
+      "prompt": "7일차 결제/교환 단어 매칭",
+      "answerSet": [
+        "hàng hiệu-브랜드 상품",
+        "so sánh-비교하다",
+        "trả tiền-결제하다",
+        "tiền mặt-현금",
+        "ví điện tử-전자지갑",
+        "giữ-보관하다",
+        "hóa đơn-영수증",
+        "đổi hàng-교환하다",
+        "trả hàng-반품하다",
+        "trong nước-국내",
+        "nước ngoài-해외"
+      ],
+      "sourcePage": 32,
+      "reviewNeeded": false
+    },
+    {
+      "id": "d7shopping-q-004",
+      "type": "sentence-meaning",
+      "prompt": "7일차 쇼핑 질문 뜻 고르기",
+      "answerSet": [
+        "Anh có thích mua sắm không?-쇼핑하는 것을 좋아해요?",
+        "Anh thường mua cái gì?-보통 무엇을 사요?",
+        "Anh hay đi mua sắm ở đâu?-어디에서 자주 쇼핑해요?",
+        "Anh có hay đi siêu thị không?-마트에 자주 가요?",
+        "Anh thường đi mua sắm khi nào?-보통 언제 쇼핑하러 가요?",
+        "Anh đi mua sắm một mình hay với người khác?-혼자 쇼핑해요, 아니면 다른 사람과 쇼핑해요?",
+        "Anh thường chi bao nhiêu tiền cho mua sắm?-보통 쇼핑에 돈을 얼마나 써요?",
+        "Anh có lập kế hoạch trước khi mua không?-사기 전에 계획을 세워요?"
+      ],
+      "sourcePage": 33,
+      "reviewNeeded": false
+    },
+    {
+      "id": "d7shopping-q-005",
+      "type": "sentence-meaning",
+      "prompt": "7일차 온라인 쇼핑 질문 뜻 고르기",
+      "answerSet": [
+        "Anh có mua hàng online không?-온라인으로 구매해요?",
+        "Anh thường mua gì trên mạng?-인터넷에서 보통 무엇을 사요?",
+        "Anh thích mua online hay mua ở cửa hàng hơn?-온라인으로 사는 것을 더 좋아해요, 아니면 가게에서 사는 것을 더 좋아해요?",
+        "Anh có đọc đánh giá sản phẩm trước khi mua không?-사기 전에 상품 리뷰를 읽어요?",
+        "Anh có gặp vấn đề khi mua online không?-온라인으로 구매할 때 문제를 겪은 적 있어요?",
+        "Khi mua đồ, anh quan tâm điều gì nhất?-물건을 살 때 무엇을 가장 중요하게 생각해요?",
+        "Anh có thích hàng giảm giá không?-할인 상품을 좋아해요?",
+        "Anh có hay mua hàng hiệu không?-브랜드 상품을 자주 사요?"
+      ],
+      "sourcePage": 33,
+      "reviewNeeded": false
+    },
+    {
+      "id": "d7shopping-q-006",
+      "type": "sentence-meaning",
+      "prompt": "7일차 결제/교환 질문 뜻 고르기",
+      "answerSet": [
+        "Anh có so sánh giá trước khi mua không?-사기 전에 가격을 비교해요?",
+        "Anh thường trả tiền bằng gì?-보통 무엇으로 결제해요?",
+        "Anh có thanh toán bằng ví điện tử không?-전자지갑으로 결제해요?",
+        "Mua hàng xong anh có giữ hóa đơn không?-구매 후 영수증을 보관해요?",
+        "Anh có đổi hoặc trả hàng bao giờ chưa?-교환하거나 반품해 본 적 있어요?",
+        "Anh có nghĩ mình mua sắm nhiều không?-본인이 쇼핑을 많이 한다고 생각해요?",
+        "Anh thích mua đồ trong nước hay nước ngoài?-국내 상품을 사는 것을 좋아해요, 아니면 해외 상품을 좋아해요?"
+      ],
+      "sourcePage": 33,
+      "reviewNeeded": false
+    },
+    {
+      "id": "d7shopping-q-007",
+      "type": "fill-blank",
+      "prompt": "빈칸 채우기: 저는 사기 전에 상품 리뷰를 읽습니다.",
+      "question": "Trước khi mua, tôi đọc ___ sản phẩm.",
+      "answer": "đánh giá",
+      "sourcePage": 33,
+      "reviewNeeded": false
+    },
+    {
+      "id": "d7shopping-q-008",
+      "type": "fill-blank",
+      "prompt": "빈칸 채우기: 저는 인터넷에서 가격을 비교합니다.",
+      "question": "Tôi so sánh giá ___ mạng.",
+      "answer": "trên",
+      "sourcePage": 33,
+      "reviewNeeded": false
+    },
+    {
+      "id": "d7shopping-q-009",
+      "type": "fill-blank",
+      "prompt": "빈칸 채우기: 저는 카드나 전자지갑으로 결제합니다.",
+      "question": "Tôi trả tiền ___ thẻ hoặc ví điện tử.",
+      "answer": "bằng",
+      "sourcePage": 33,
+      "reviewNeeded": false
+    },
+    {
+      "id": "d7shopping-q-010",
+      "type": "fill-blank",
+      "prompt": "빈칸 채우기: 저는 문제가 있으면 교환하기 위해 영수증을 보관합니다.",
+      "question": "Tôi giữ hóa đơn để đổi hàng ___ có vấn đề.",
+      "answer": "nếu",
+      "sourcePage": 33,
+      "reviewNeeded": false
+    },
+    {
+      "id": "d7shopping-q-011",
+      "type": "match-term",
+      "prompt": "7일차 핵심 답변 매칭",
+      "answerSet": [
+        "Tôi thích mua sắm, nhưng tôi không mua quá nhiều.-저는 쇼핑을 좋아하지만 너무 많이 사지는 않습니다.",
+        "Tôi thường mua quần áo, đồ ăn và đồ điện tử.-저는 보통 옷, 음식, 전자제품을 삽니다.",
+        "Tôi hay đi mua sắm ở siêu thị và trung tâm thương mại.-저는 마트와 쇼핑몰에서 자주 쇼핑합니다.",
+        "Trước khi mua, tôi thường lập kế hoạch và so sánh giá.-사기 전에 저는 보통 계획을 세우고 가격을 비교합니다.",
+        "Tôi thường mua hàng online vì rất tiện lợi.-매우 편리해서 저는 보통 온라인으로 구매합니다.",
+        "Tôi luôn đọc đánh giá sản phẩm trước khi mua.-저는 사기 전에 항상 상품 리뷰를 읽습니다.",
+        "Tôi rất thích hàng giảm giá vì có thể tiết kiệm tiền.-돈을 아낄 수 있어서 저는 할인 상품을 매우 좋아합니다.",
+        "Tôi thường trả tiền bằng thẻ hoặc ví điện tử.-저는 보통 카드나 전자지갑으로 결제합니다."
+      ],
+      "sourcePage": 33,
+      "reviewNeeded": false
+    }
+  ],
+  "unlockCondition": "complete-previous",
+  "reviewNeeded": false
+    },
+    {
   "lessonId": "d6studyNote",
   "unitLabel": "6일차",
   "titleKo": "6일차 학습노트: 거주지·날씨·여행·식당",
