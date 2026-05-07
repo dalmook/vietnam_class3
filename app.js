@@ -371,10 +371,59 @@ class VietnameseA1App {
     }
   }
 
-  async fetchJson() {
-    const paths = [
-      './vietnamese_a1_to_opic_im1_starter.json'
-    ];
+async fetchJson() {
+  const paths = [
+    './vietnamese_a1_to_opic_im1_starter.json',
+
+    // 새로 추가할 JSON 파일들
+    './data/question_bank_self_intro.json',
+    './data/question_bank_company.json',
+    './data/question_bank_home.json',
+    './data/question_bank_movie.json',
+    './data/notes_day07.json'
+  ];
+
+  const loaded = [];
+
+  for (const path of paths) {
+    try {
+      const res = await fetch(path, { cache: 'no-store' });
+      if (!res.ok) throw new Error(`${path} ${res.status}`);
+      const data = await res.json();
+      loaded.push({ path, data });
+    } catch (e) {
+      console.warn('[JSON skip]', path, e);
+    }
+  }
+
+  if (!loaded.length) {
+    throw new Error('불러올 수 있는 JSON 파일이 없습니다.');
+  }
+
+  const merged = {
+    meta: {
+      ...(loaded[0].data.meta || {}),
+      loadedFiles: loaded.map((x) => x.path)
+    },
+    lessons: [],
+    opicQuestionBank: [],
+    mockTests: {}
+  };
+
+  loaded.forEach(({ data }) => {
+    merged.lessons.push(...(data.lessons || []));
+    merged.opicQuestionBank.push(...(data.opicQuestionBank || []));
+    merged.mockTests = {
+      ...merged.mockTests,
+      ...(data.mockTests || {})
+    };
+  });
+
+  return {
+    data: merged,
+    path: loaded.map((x) => x.path).join(', ')
+  };
+}
     let lastErr;
     for (const path of paths) {
       try {
