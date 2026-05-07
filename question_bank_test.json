@@ -1,0 +1,3426 @@
+{
+  "meta": {
+    "version": "test-bank-1.0.0",
+    "title": "OPIc 문제은행",
+    "description": "OPIc 문제은행"
+  },
+  "lessons": [
+ {
+  "lessonId": "question-bank-003-residence",
+  "unitLabel": "문제은행",
+  "titleKo": "문제은행3: 거주지",
+  "titleVi": "Ngân hàng câu hỏi 3: Chủ đề nơi ở",
+  "pageRange": "문제은행 / 거주지",
+  "goals": [
+    "현재 살고 있는 집을 설명할 수 있다",
+    "집의 외부와 내부 구조를 말할 수 있다",
+    "집에서 평일과 주말에 하는 일을 말할 수 있다",
+    "어릴 때 살던 집과 현재 집을 비교할 수 있다",
+    "가장 좋아하는 방과 그 이유를 설명할 수 있다",
+    "집안일과 집의 변화에 대해 말할 수 있다"
+  ],
+  "topicOverview": "거주지 주제는 OPIc에서 매우 자주 나오는 기본 주제입니다. 현재 집 설명, 집 안의 방, 좋아하는 방, 집에서 하는 일, 집안일, 예전 집과 현재 집 비교, 집의 변화까지 묻습니다. 초보자는 '저는 아파트에 삽니다 → 집은 넓고 편합니다 → 방은 일곱 개 있습니다 → 저는 거실을 가장 좋아합니다 → 집에서는 가족과 시간을 보냅니다' 순서로 말하면 안정적입니다.",
+  "cultureTopics": [
+    "현재 집",
+    "아파트",
+    "단독주택",
+    "집 외관",
+    "집 내부",
+    "방 설명",
+    "거실",
+    "집에서 하는 일",
+    "집안일",
+    "어릴 때 살던 집",
+    "집 비교",
+    "집의 변화"
+  ],
+  "vocabCards": [
+    {
+      "id": "qb3-residence-v-001",
+      "term": "nơi ở",
+      "meaningKo": "거주지",
+      "example": "Nơi ở của tôi rất tiện lợi.",
+      "exampleMeaningKo": "제 거주지는 매우 편리합니다.",
+      "audioSrc": "",
+      "sourcePage": 3,
+      "reviewNeeded": false,
+      "pronKo": "너이 어",
+      "pronNoteKo": "사는 곳, 거주지를 말할 때 씁니다.",
+      "pronChunks": ["nơi=너이", "ở=어"]
+    },
+    {
+      "id": "qb3-residence-v-002",
+      "term": "nhà",
+      "meaningKo": "집",
+      "example": "Nhà tôi khá rộng và thoải mái.",
+      "exampleMeaningKo": "제 집은 꽤 넓고 편합니다.",
+      "audioSrc": "",
+      "sourcePage": 3,
+      "reviewNeeded": false,
+      "pronKo": "냐",
+      "pronNoteKo": "집 주제의 가장 기본 단어입니다.",
+      "pronChunks": ["nhà=냐"]
+    },
+    {
+      "id": "qb3-residence-v-003",
+      "term": "ngôi nhà",
+      "meaningKo": "집 / 주택",
+      "example": "Hãy miêu tả về ngôi nhà của bạn.",
+      "exampleMeaningKo": "당신의 집에 대해 묘사해주세요.",
+      "audioSrc": "",
+      "sourcePage": 3,
+      "reviewNeeded": false,
+      "pronKo": "응오이 냐",
+      "pronNoteKo": "집을 조금 더 구체적으로 말하는 표현입니다.",
+      "pronChunks": ["ngôi=응오이", "nhà=냐"]
+    },
+    {
+      "id": "qb3-residence-v-004",
+      "term": "nhà riêng",
+      "meaningKo": "단독주택 / 개인 주택",
+      "example": "Tôi không sống ở nhà riêng.",
+      "exampleMeaningKo": "저는 단독주택에 살지 않습니다.",
+      "audioSrc": "",
+      "sourcePage": 3,
+      "reviewNeeded": false,
+      "pronKo": "냐 지엥",
+      "pronNoteKo": "아파트와 비교해서 단독주택을 말할 때 씁니다.",
+      "pronChunks": ["nhà=냐", "riêng=지엥"]
+    },
+    {
+      "id": "qb3-residence-v-005",
+      "term": "căn hộ chung cư",
+      "meaningKo": "아파트 / 공동주택",
+      "example": "Tôi đang sống ở căn hộ chung cư.",
+      "exampleMeaningKo": "저는 아파트에 살고 있습니다.",
+      "audioSrc": "",
+      "sourcePage": 3,
+      "reviewNeeded": false,
+      "pronKo": "깐 호 쭝 끄",
+      "pronNoteKo": "아파트에 산다고 할 때 자연스러운 표현입니다.",
+      "pronChunks": ["căn hộ=깐 호", "chung cư=쭝 끄"]
+    },
+    {
+      "id": "qb3-residence-v-006",
+      "term": "sống ở",
+      "meaningKo": "~에 살다",
+      "example": "Tôi sống ở Dongtan.",
+      "exampleMeaningKo": "저는 동탄에 삽니다.",
+      "audioSrc": "",
+      "sourcePage": 3,
+      "reviewNeeded": false,
+      "pronKo": "쏭 어",
+      "pronNoteKo": "거주지 답변의 핵심 표현입니다.",
+      "pronChunks": ["sống=쏭", "ở=어"]
+    },
+    {
+      "id": "qb3-residence-v-007",
+      "term": "bên ngoài",
+      "meaningKo": "밖 / 외부",
+      "example": "Bên ngoài nhà tôi trông khá hiện đại.",
+      "exampleMeaningKo": "제 집의 외부는 꽤 현대적으로 보입니다.",
+      "audioSrc": "",
+      "sourcePage": 3,
+      "reviewNeeded": false,
+      "pronKo": "벤 응오아이",
+      "pronNoteKo": "집 외관을 설명할 때 씁니다.",
+      "pronChunks": ["bên=벤", "ngoài=응오아이"]
+    },
+    {
+      "id": "qb3-residence-v-008",
+      "term": "bên trong",
+      "meaningKo": "안 / 내부",
+      "example": "Bên trong nhà có nhiều phòng.",
+      "exampleMeaningKo": "집 안에는 방이 많습니다.",
+      "audioSrc": "",
+      "sourcePage": 3,
+      "reviewNeeded": false,
+      "pronKo": "벤 쫑",
+      "pronNoteKo": "집 내부 설명에 씁니다.",
+      "pronChunks": ["bên=벤", "trong=쫑"]
+    },
+    {
+      "id": "qb3-residence-v-009",
+      "term": "trông",
+      "meaningKo": "~처럼 보이다",
+      "example": "Nhà tôi trông sạch sẽ và hiện đại.",
+      "exampleMeaningKo": "제 집은 깨끗하고 현대적으로 보입니다.",
+      "audioSrc": "",
+      "sourcePage": 3,
+      "reviewNeeded": false,
+      "pronKo": "쫑",
+      "pronNoteKo": "외관 묘사에서 자주 나옵니다.",
+      "pronChunks": ["trông=쫑"]
+    },
+    {
+      "id": "qb3-residence-v-010",
+      "term": "phòng",
+      "meaningKo": "방",
+      "example": "Nhà tôi có bảy phòng.",
+      "exampleMeaningKo": "제 집에는 방이 일곱 개 있습니다.",
+      "audioSrc": "",
+      "sourcePage": 3,
+      "reviewNeeded": false,
+      "pronKo": "퐁",
+      "pronNoteKo": "방 개수를 말할 때 씁니다.",
+      "pronChunks": ["phòng=퐁"]
+    },
+    {
+      "id": "qb3-residence-v-011",
+      "term": "phòng khách",
+      "meaningKo": "거실",
+      "example": "Tôi thích phòng khách nhất.",
+      "exampleMeaningKo": "저는 거실을 가장 좋아합니다.",
+      "audioSrc": "",
+      "sourcePage": 3,
+      "reviewNeeded": false,
+      "pronKo": "퐁 카익",
+      "pronNoteKo": "좋아하는 방 답변에 자주 씁니다.",
+      "pronChunks": ["phòng=퐁", "khách=카익"]
+    },
+    {
+      "id": "qb3-residence-v-012",
+      "term": "phòng ngủ",
+      "meaningKo": "침실",
+      "example": "Nhà tôi có ba phòng ngủ.",
+      "exampleMeaningKo": "제 집에는 침실이 세 개 있습니다.",
+      "audioSrc": "",
+      "sourcePage": 3,
+      "reviewNeeded": false,
+      "pronKo": "퐁 응우",
+      "pronNoteKo": "ngủ는 자다입니다.",
+      "pronChunks": ["phòng=퐁", "ngủ=응우"]
+    },
+    {
+      "id": "qb3-residence-v-013",
+      "term": "phòng bếp",
+      "meaningKo": "부엌",
+      "example": "Phòng bếp của tôi nhỏ nhưng sạch sẽ.",
+      "exampleMeaningKo": "제 부엌은 작지만 깨끗합니다.",
+      "audioSrc": "",
+      "sourcePage": 3,
+      "reviewNeeded": false,
+      "pronKo": "퐁 벱",
+      "pronNoteKo": "bếp은 부엌, 주방입니다.",
+      "pronChunks": ["phòng=퐁", "bếp=벱"]
+    },
+    {
+      "id": "qb3-residence-v-014",
+      "term": "phòng tắm",
+      "meaningKo": "욕실",
+      "example": "Nhà tôi có hai phòng tắm.",
+      "exampleMeaningKo": "제 집에는 욕실이 두 개 있습니다.",
+      "audioSrc": "",
+      "sourcePage": 3,
+      "reviewNeeded": false,
+      "pronKo": "퐁 땀",
+      "pronNoteKo": "tắm은 샤워하다입니다.",
+      "pronChunks": ["phòng=퐁", "tắm=땀"]
+    },
+    {
+      "id": "qb3-residence-v-015",
+      "term": "ban công",
+      "meaningKo": "발코니",
+      "example": "Nhà tôi có một ban công nhỏ.",
+      "exampleMeaningKo": "제 집에는 작은 발코니가 하나 있습니다.",
+      "audioSrc": "",
+      "sourcePage": 3,
+      "reviewNeeded": false,
+      "pronKo": "반 꽁",
+      "pronNoteKo": "아파트 설명에 넣기 좋은 단어입니다.",
+      "pronChunks": ["ban=반", "công=꽁"]
+    },
+    {
+      "id": "qb3-residence-v-016",
+      "term": "rộng",
+      "meaningKo": "넓다",
+      "example": "Phòng khách của tôi rất rộng.",
+      "exampleMeaningKo": "제 거실은 매우 넓습니다.",
+      "audioSrc": "",
+      "sourcePage": 3,
+      "reviewNeeded": false,
+      "pronKo": "종",
+      "pronNoteKo": "집, 방, 거실 묘사에 매우 자주 씁니다.",
+      "pronChunks": ["rộng=종"]
+    },
+    {
+      "id": "qb3-residence-v-017",
+      "term": "sạch sẽ",
+      "meaningKo": "깨끗하다",
+      "example": "Tôi muốn giữ nhà cửa sạch sẽ.",
+      "exampleMeaningKo": "저는 집을 깨끗하게 유지하고 싶습니다.",
+      "audioSrc": "",
+      "sourcePage": 3,
+      "reviewNeeded": false,
+      "pronKo": "삭 세",
+      "pronNoteKo": "집안일 질문의 핵심 표현입니다.",
+      "pronChunks": ["sạch=삭", "sẽ=세"]
+    },
+    {
+      "id": "qb3-residence-v-018",
+      "term": "thoải mái",
+      "meaningKo": "편안하다",
+      "example": "Nhà tôi rất thoải mái.",
+      "exampleMeaningKo": "제 집은 매우 편안합니다.",
+      "audioSrc": "",
+      "sourcePage": 3,
+      "reviewNeeded": false,
+      "pronKo": "토아이 마이",
+      "pronNoteKo": "집 분위기 설명에 좋습니다.",
+      "pronChunks": ["thoải=토아이", "mái=마이"]
+    },
+    {
+      "id": "qb3-residence-v-019",
+      "term": "hiện đại",
+      "meaningKo": "현대적이다",
+      "example": "Căn hộ của tôi khá hiện đại.",
+      "exampleMeaningKo": "제 아파트는 꽤 현대적입니다.",
+      "audioSrc": "",
+      "sourcePage": 3,
+      "reviewNeeded": false,
+      "pronKo": "히엔 다이",
+      "pronNoteKo": "집 외관이나 내부 설명에 씁니다.",
+      "pronChunks": ["hiện=히엔", "đại=다이"]
+    },
+    {
+      "id": "qb3-residence-v-020",
+      "term": "yên tĩnh",
+      "meaningKo": "조용하다",
+      "example": "Khu nhà của tôi rất yên tĩnh.",
+      "exampleMeaningKo": "제가 사는 동네는 매우 조용합니다.",
+      "audioSrc": "",
+      "sourcePage": 3,
+      "reviewNeeded": false,
+      "pronKo": "이엔 띤",
+      "pronNoteKo": "집 주변 환경 설명에 좋습니다.",
+      "pronChunks": ["yên=이엔", "tĩnh=띤"]
+    },
+    {
+      "id": "qb3-residence-v-021",
+      "term": "cũ",
+      "meaningKo": "오래된 / 낡은",
+      "example": "Ngôi nhà cũ của tôi nhỏ hơn nhà hiện tại.",
+      "exampleMeaningKo": "제 예전 집은 현재 집보다 더 작았습니다.",
+      "audioSrc": "",
+      "sourcePage": 3,
+      "reviewNeeded": false,
+      "pronKo": "꾸",
+      "pronNoteKo": "예전 집과 현재 집을 비교할 때 씁니다.",
+      "pronChunks": ["cũ=꾸"]
+    },
+    {
+      "id": "qb3-residence-v-022",
+      "term": "hiện tại",
+      "meaningKo": "현재",
+      "example": "Nhà hiện tại của tôi rộng hơn nhà cũ.",
+      "exampleMeaningKo": "현재 제 집은 예전 집보다 더 넓습니다.",
+      "audioSrc": "",
+      "sourcePage": 3,
+      "reviewNeeded": false,
+      "pronKo": "히엔 따이",
+      "pronNoteKo": "과거와 현재 비교에 필수입니다.",
+      "pronChunks": ["hiện=히엔", "tại=따이"]
+    },
+    {
+      "id": "qb3-residence-v-023",
+      "term": "khi còn bé",
+      "meaningKo": "어릴 때",
+      "example": "Khi còn bé, tôi sống ở nhà cũ với bố mẹ.",
+      "exampleMeaningKo": "어릴 때 저는 부모님과 예전 집에서 살았습니다.",
+      "audioSrc": "",
+      "sourcePage": 3,
+      "reviewNeeded": false,
+      "pronKo": "키 꼰 베",
+      "pronNoteKo": "어릴 때 살던 집 질문에 꼭 나옵니다.",
+      "pronChunks": ["khi=키", "còn bé=꼰 베"]
+    },
+    {
+      "id": "qb3-residence-v-024",
+      "term": "so với",
+      "meaningKo": "~와 비교해서",
+      "example": "So với nhà cũ, nhà hiện tại rộng hơn.",
+      "exampleMeaningKo": "예전 집과 비교해서 현재 집은 더 넓습니다.",
+      "audioSrc": "",
+      "sourcePage": 3,
+      "reviewNeeded": false,
+      "pronKo": "쏘 버이",
+      "pronNoteKo": "비교 문제의 핵심 표현입니다.",
+      "pronChunks": ["so=쏘", "với=버이"]
+    },
+    {
+      "id": "qb3-residence-v-025",
+      "term": "khác",
+      "meaningKo": "다르다",
+      "example": "Nhà cũ và nhà hiện tại khá khác nhau.",
+      "exampleMeaningKo": "예전 집과 현재 집은 꽤 다릅니다.",
+      "audioSrc": "",
+      "sourcePage": 3,
+      "reviewNeeded": false,
+      "pronKo": "칵",
+      "pronNoteKo": "차이점을 말할 때 씁니다.",
+      "pronChunks": ["khác=칵"]
+    },
+    {
+      "id": "qb3-residence-v-026",
+      "term": "giống nhau",
+      "meaningKo": "서로 같다 / 비슷하다",
+      "example": "Hai ngôi nhà có một điểm giống nhau.",
+      "exampleMeaningKo": "두 집은 공통점이 하나 있습니다.",
+      "audioSrc": "",
+      "sourcePage": 3,
+      "reviewNeeded": false,
+      "pronKo": "종 냐우",
+      "pronNoteKo": "공통점을 말할 때 씁니다.",
+      "pronChunks": ["giống=종", "nhau=냐우"]
+    },
+    {
+      "id": "qb3-residence-v-027",
+      "term": "khác nhau",
+      "meaningKo": "서로 다르다",
+      "example": "Có nhiều điểm khác nhau.",
+      "exampleMeaningKo": "다른 점이 많습니다.",
+      "audioSrc": "",
+      "sourcePage": 3,
+      "reviewNeeded": false,
+      "pronKo": "칵 냐우",
+      "pronNoteKo": "차이점을 말할 때 씁니다.",
+      "pronChunks": ["khác=칵", "nhau=냐우"]
+    },
+    {
+      "id": "qb3-residence-v-028",
+      "term": "điểm",
+      "meaningKo": "점 / 부분",
+      "example": "Có điểm gì giống nhau và khác nhau?",
+      "exampleMeaningKo": "어떤 점이 같고 어떤 점이 다른가요?",
+      "audioSrc": "",
+      "sourcePage": 3,
+      "reviewNeeded": false,
+      "pronKo": "디엠",
+      "pronNoteKo": "điểm giống nhau = 공통점, điểm khác nhau = 차이점.",
+      "pronChunks": ["điểm=디엠"]
+    },
+    {
+      "id": "qb3-residence-v-029",
+      "term": "thích nhất",
+      "meaningKo": "가장 좋아하다",
+      "example": "Tôi thích phòng khách nhất.",
+      "exampleMeaningKo": "저는 거실을 가장 좋아합니다.",
+      "audioSrc": "",
+      "sourcePage": 3,
+      "reviewNeeded": false,
+      "pronKo": "틱 녓",
+      "pronNoteKo": "좋아하는 방 문제의 핵심 표현입니다.",
+      "pronChunks": ["thích=틱", "nhất=녓"]
+    },
+    {
+      "id": "qb3-residence-v-030",
+      "term": "vì sao",
+      "meaningKo": "왜",
+      "example": "Vì sao bạn thích phòng đó nhất?",
+      "exampleMeaningKo": "왜 그 방을 가장 좋아하나요?",
+      "audioSrc": "",
+      "sourcePage": 3,
+      "reviewNeeded": false,
+      "pronKo": "비 사오",
+      "pronNoteKo": "이유를 묻는 표현입니다.",
+      "pronChunks": ["vì=비", "sao=사오"]
+    },
+    {
+      "id": "qb3-residence-v-031",
+      "term": "việc nhà",
+      "meaningKo": "집안일",
+      "example": "Tôi thường làm việc nhà vào cuối tuần.",
+      "exampleMeaningKo": "저는 보통 주말에 집안일을 합니다.",
+      "audioSrc": "",
+      "sourcePage": 3,
+      "reviewNeeded": false,
+      "pronKo": "비엑 냐",
+      "pronNoteKo": "집안일 질문의 핵심 단어입니다.",
+      "pronChunks": ["việc=비엑", "nhà=냐"]
+    },
+    {
+      "id": "qb3-residence-v-032",
+      "term": "giữ",
+      "meaningKo": "유지하다 / 지키다",
+      "example": "Tôi làm việc nhà để giữ nhà sạch sẽ.",
+      "exampleMeaningKo": "저는 집을 깨끗하게 유지하기 위해 집안일을 합니다.",
+      "audioSrc": "",
+      "sourcePage": 3,
+      "reviewNeeded": false,
+      "pronKo": "즈",
+      "pronNoteKo": "giữ sạch = 깨끗하게 유지하다.",
+      "pronChunks": ["giữ=즈"]
+    },
+    {
+      "id": "qb3-residence-v-033",
+      "term": "dọn dẹp",
+      "meaningKo": "정리하다 / 청소하다",
+      "example": "Tôi thường dọn dẹp phòng khách.",
+      "exampleMeaningKo": "저는 보통 거실을 정리합니다.",
+      "audioSrc": "",
+      "sourcePage": 3,
+      "reviewNeeded": false,
+      "pronKo": "존 젭",
+      "pronNoteKo": "집 청소를 말할 때 가장 많이 씁니다.",
+      "pronChunks": ["dọn=존", "dẹp=젭"]
+    },
+    {
+      "id": "qb3-residence-v-034",
+      "term": "lau nhà",
+      "meaningKo": "바닥을 닦다",
+      "example": "Tôi lau nhà vào cuối tuần.",
+      "exampleMeaningKo": "저는 주말에 바닥을 닦습니다.",
+      "audioSrc": "",
+      "sourcePage": 3,
+      "reviewNeeded": false,
+      "pronKo": "라우 냐",
+      "pronNoteKo": "lau는 닦다입니다.",
+      "pronChunks": ["lau=라우", "nhà=냐"]
+    },
+    {
+      "id": "qb3-residence-v-035",
+      "term": "rửa bát",
+      "meaningKo": "설거지하다",
+      "example": "Tôi rửa bát sau khi ăn.",
+      "exampleMeaningKo": "저는 식사 후 설거지를 합니다.",
+      "audioSrc": "",
+      "sourcePage": 3,
+      "reviewNeeded": false,
+      "pronKo": "즈어 밧",
+      "pronNoteKo": "집안일 답변에 자주 씁니다.",
+      "pronChunks": ["rửa=즈어", "bát=밧"]
+    },
+    {
+      "id": "qb3-residence-v-036",
+      "term": "giặt quần áo",
+      "meaningKo": "빨래하다",
+      "example": "Tôi giặt quần áo vào thứ bảy.",
+      "exampleMeaningKo": "저는 토요일에 빨래를 합니다.",
+      "audioSrc": "",
+      "sourcePage": 3,
+      "reviewNeeded": false,
+      "pronKo": "잣 꿘 아오",
+      "pronNoteKo": "quần áo는 옷입니다.",
+      "pronChunks": ["giặt=잣", "quần áo=꿘 아오"]
+    },
+    {
+      "id": "qb3-residence-v-037",
+      "term": "hút bụi",
+      "meaningKo": "청소기로 청소하다",
+      "example": "Tôi hút bụi trong phòng ngủ.",
+      "exampleMeaningKo": "저는 침실에서 청소기로 청소합니다.",
+      "audioSrc": "",
+      "sourcePage": 3,
+      "reviewNeeded": false,
+      "pronKo": "훗 부이",
+      "pronNoteKo": "bụi는 먼지입니다.",
+      "pronChunks": ["hút=훗", "bụi=부이"]
+    },
+    {
+      "id": "qb3-residence-v-038",
+      "term": "thay đổi",
+      "meaningKo": "변화 / 바꾸다",
+      "example": "Nhà của tôi có nhiều thay đổi.",
+      "exampleMeaningKo": "제 집에는 많은 변화가 있습니다.",
+      "audioSrc": "",
+      "sourcePage": 3,
+      "reviewNeeded": false,
+      "pronKo": "타이 도이",
+      "pronNoteKo": "집의 변화 문제의 핵심 단어입니다.",
+      "pronChunks": ["thay=타이", "đổi=도이"]
+    },
+    {
+      "id": "qb3-residence-v-039",
+      "term": "sửa nhà",
+      "meaningKo": "집을 수리하다 / 리모델링하다",
+      "example": "Tôi muốn sửa nhà để nhà đẹp hơn.",
+      "exampleMeaningKo": "저는 집을 더 예쁘게 만들기 위해 수리하고 싶습니다.",
+      "audioSrc": "",
+      "sourcePage": 3,
+      "reviewNeeded": false,
+      "pronKo": "쓰어 냐",
+      "pronNoteKo": "집을 고치다, 수리하다라는 뜻입니다.",
+      "pronChunks": ["sửa=쓰어", "nhà=냐"]
+    },
+    {
+      "id": "qb3-residence-v-040",
+      "term": "sau khi thay đổi",
+      "meaningKo": "바꾼 후에 / 변화 후에",
+      "example": "Sau khi thay đổi, nhà tôi trông đẹp hơn.",
+      "exampleMeaningKo": "변화 후에 제 집은 더 예뻐 보입니다.",
+      "audioSrc": "",
+      "sourcePage": 3,
+      "reviewNeeded": false,
+      "pronKo": "사우 키 타이 도이",
+      "pronNoteKo": "집 변화 문제에서 마지막 설명에 씁니다.",
+      "pronChunks": ["sau khi=사우 키", "thay đổi=타이 도이"]
+    }
+  ],
+  "sentenceCards": [
+    {
+      "id": "qb3-residence-s-001",
+      "textVi": "Trong bản khảo sát, bạn nói rằng bạn đang sống ở nhà riêng hoặc căn hộ chung cư. Hãy miêu tả về ngôi nhà của bạn. Trông bên ngoài nhà bạn thế nào? Bên trong nhà có những phòng nào? Hãy miêu tả thật chi tiết.",
+      "textKo": "설문에서 당신은 단독주택 또는 아파트에 산다고 말했습니다. 당신의 집에 대해 묘사해주세요. 집의 외관은 어떻게 생겼나요? 집 안에는 어떤 방들이 있나요? 아주 자세히 묘사해주세요.",
+      "exampleAnswerVi": "Tôi đang sống ở một căn hộ chung cư với vợ và các con. Nhà tôi không quá lớn nhưng rất sạch sẽ và thoải mái. Bên ngoài, căn hộ trông khá hiện đại. Bên trong nhà có ba phòng ngủ, hai phòng tắm, một phòng khách và một phòng bếp. Trong đó, tôi thích phòng khách nhất vì phòng khách rộng và gia đình tôi thường xem phim ở đó.",
+      "exampleAnswerKo": "저는 아내와 아이들과 함께 아파트에 살고 있습니다. 제 집은 너무 크지는 않지만 매우 깨끗하고 편안합니다. 외부에서 보면 아파트는 꽤 현대적으로 보입니다. 집 안에는 침실 세 개, 욕실 두 개, 거실 하나, 부엌 하나가 있습니다. 그중에서 저는 거실을 가장 좋아하는데, 거실이 넓고 가족이 그곳에서 자주 영화를 보기 때문입니다.",
+      "audioSrc": "",
+      "sourcePage": 3,
+      "reviewNeeded": false,
+      "pronKo": "쫑 반 카오 삿, 반 노이 장 반 당 쏭 어 냐 지엥 호악 깐 호 쭝 끄. 하이 미에우 따 베 응오이 냐 꾸어 반. 쫑 벤 응오아이 냐 반 테 나오? 벤 쫑 냐 꼬 능 퐁 나오? 하이 미에우 따 텃 찌 띠엣.",
+      "exampleAnswerPronKo": "또이 당 쏭 어 못 깐 호 쭝 끄 버이 버 바 깍 꼰. 냐 또이 콩 꽈 런 능 젓 삭 세 바 토아이 마이.",
+      "pronNoteKo": "질문이 길지만 핵심은 현재 집, 외관, 내부 방을 설명하라는 것입니다."
+    },
+    {
+      "id": "qb3-residence-s-002",
+      "textVi": "Tôi muốn biết về những việc mà bạn thường làm khi bạn ở nhà. Bạn thường làm những công việc nào khi ở nhà vào các ngày trong tuần? Còn những hoạt động nào bạn thường làm khi ở nhà vào cuối tuần? Hãy nói thật chi tiết.",
+      "textKo": "저는 당신이 집에 있을 때 보통 하는 일들에 대해 알고 싶습니다. 평일에 집에 있을 때 보통 어떤 일을 하나요? 그리고 주말에 집에 있을 때 보통 어떤 활동을 하나요? 아주 자세히 말해주세요.",
+      "exampleAnswerVi": "Vào các ngày trong tuần, tôi thường về nhà muộn nên tôi không làm nhiều việc. Tôi ăn tối, tắm, nghỉ ngơi và học tiếng Việt một chút. Vào cuối tuần, tôi thường dọn dẹp nhà, giặt quần áo và xem phim với gia đình. Nếu có thời gian, tôi cũng đi công viên với vợ và các con.",
+      "exampleAnswerKo": "평일에는 보통 늦게 집에 돌아오기 때문에 많은 일을 하지는 않습니다. 저는 저녁을 먹고, 샤워하고, 쉬고, 베트남어를 조금 공부합니다. 주말에는 보통 집을 정리하고, 빨래하고, 가족과 영화를 봅니다. 시간이 있으면 아내와 아이들과 공원에도 갑니다.",
+      "audioSrc": "",
+      "sourcePage": 3,
+      "reviewNeeded": false,
+      "pronKo": "또이 무온 비엣 베 능 비엑 마 반 트엉 람 키 반 어 냐. 반 트엉 람 능 꽁 비엑 나오 키 어 냐 바오 깍 응아이 쫑 뚜언? 꼰 능 호앗 동 나오 반 트엉 람 키 어 냐 바오 꾸오이 뚜언? 하이 노이 텃 찌 띠엣.",
+      "exampleAnswerPronKo": "바오 깍 응아이 쫑 뚜언, 또이 트엉 베 냐 무온 넨 또이 콩 람 니에우 비엑.",
+      "pronNoteKo": "평일과 주말을 나누어 답하면 구조가 좋아집니다."
+    },
+    {
+      "id": "qb3-residence-s-003",
+      "textVi": "Hãy nói cho tôi biết về ngôi nhà mà bạn đã sống khi bạn còn bé. So với ngôi nhà cũ thì ngôi nhà hiện tại bạn đang sống có gì khác? Có điểm gì giống nhau và khác nhau?",
+      "textKo": "당신이 어렸을 때 살았던 집에 대해 말해주세요. 예전 집과 비교해서 현재 살고 있는 집은 무엇이 다른가요? 어떤 점이 같고 어떤 점이 다른가요?",
+      "exampleAnswerVi": "Khi còn bé, tôi sống ở một ngôi nhà nhỏ với bố mẹ và em trai. Nhà cũ không rộng nhưng rất ấm áp. So với nhà cũ, nhà hiện tại của tôi rộng hơn và hiện đại hơn. Điểm giống nhau là cả hai ngôi nhà đều rất thoải mái. Điểm khác nhau là nhà hiện tại có nhiều phòng hơn và tiện lợi hơn.",
+      "exampleAnswerKo": "어릴 때 저는 부모님과 남동생과 함께 작은 집에서 살았습니다. 예전 집은 넓지는 않았지만 매우 따뜻했습니다. 예전 집과 비교해서 현재 제 집은 더 넓고 더 현대적입니다. 공통점은 두 집 모두 매우 편안하다는 것입니다. 차이점은 현재 집에는 방이 더 많고 더 편리하다는 것입니다.",
+      "audioSrc": "",
+      "sourcePage": 3,
+      "reviewNeeded": false,
+      "pronKo": "하이 노이 쪼 또이 비엣 베 응오이 냐 마 반 다 쏭 키 반 꼰 베. 쏘 버이 응오이 냐 꾸 티 응오이 냐 히엔 따이 반 당 쏭 꼬 지 칵? 꼬 디엠 지 종 냐우 바 칵 냐우?",
+      "exampleAnswerPronKo": "키 꼰 베, 또이 쏭 어 못 응오이 냐 녀 버이 보 메 바 엠 짜이.",
+      "pronNoteKo": "과거 집과 현재 집 비교 문제입니다. cũ, hiện tại, so với, hơn을 같이 외우면 좋습니다."
+    },
+    {
+      "id": "qb3-residence-s-004",
+      "textVi": "Trong nhà bạn, bạn thích phòng nào nhất? Vì sao bạn thích phòng đó nhất? Hãy mô tả thật chi tiết về phòng mà bạn thích nhất trong nhà mình.",
+      "textKo": "당신의 집에서 어떤 방을 가장 좋아하나요? 왜 그 방을 가장 좋아하나요? 당신 집에서 가장 좋아하는 방에 대해 아주 자세히 묘사해주세요.",
+      "exampleAnswerVi": "Trong nhà, tôi thích phòng khách nhất. Phòng khách của tôi rộng, sáng và rất thoải mái. Ở đó có ghế sofa, TV lớn và máy chiếu. Tôi thích phòng này vì tôi có thể xem phim với gia đình và nghỉ ngơi sau khi làm việc. Cuối tuần, gia đình tôi thường ngồi ở phòng khách và nói chuyện với nhau.",
+      "exampleAnswerKo": "집에서 저는 거실을 가장 좋아합니다. 제 거실은 넓고 밝고 매우 편안합니다. 그곳에는 소파, 큰 TV, 프로젝터가 있습니다. 저는 가족과 영화를 보고 일한 후 쉴 수 있기 때문에 이 방을 좋아합니다. 주말에 우리 가족은 보통 거실에 앉아서 서로 이야기합니다.",
+      "audioSrc": "",
+      "sourcePage": 3,
+      "reviewNeeded": false,
+      "pronKo": "쫑 냐 반, 반 틱 퐁 나오 녓? 비 사오 반 틱 퐁 도 녓? 하이 모 따 텃 찌 띠엣 베 퐁 마 반 틱 녓 쫑 냐 민.",
+      "exampleAnswerPronKo": "쫑 냐, 또이 틱 퐁 카익 녓. 퐁 카익 꾸어 또이 종, 상 바 젓 토아이 마이.",
+      "pronNoteKo": "좋아하는 방은 거실로 잡으면 가족, 영화, 휴식까지 연결하기 쉽습니다."
+    },
+    {
+      "id": "qb3-residence-s-005",
+      "textVi": "Để giữ nhà cửa sạch sẽ, bạn thường làm những việc nhà nào? Bạn hãy cho tôi biết về những việc mà bạn thường làm để giữ sạch các phòng trong nhà bạn.",
+      "textKo": "집을 깨끗하게 유지하기 위해 당신은 보통 어떤 집안일을 하나요? 집 안의 각 방을 깨끗하게 유지하기 위해 당신이 보통 하는 일들에 대해 말해주세요.",
+      "exampleAnswerVi": "Để giữ nhà cửa sạch sẽ, tôi thường làm nhiều việc nhà. Tôi rửa bát sau khi ăn, lau nhà, giặt quần áo và dọn dẹp phòng khách. Tôi cũng hút bụi trong phòng ngủ và lau bàn trong phòng bếp. Tôi không thích rửa bát lắm, nhưng tôi nghĩ việc nhà rất quan trọng.",
+      "exampleAnswerKo": "집을 깨끗하게 유지하기 위해 저는 보통 여러 가지 집안일을 합니다. 저는 식사 후 설거지를 하고, 바닥을 닦고, 빨래를 하고, 거실을 정리합니다. 또한 침실에서 청소기로 청소하고 부엌의 식탁을 닦습니다. 저는 설거지를 별로 좋아하지 않지만, 집안일은 매우 중요하다고 생각합니다.",
+      "audioSrc": "",
+      "sourcePage": 3,
+      "reviewNeeded": false,
+      "pronKo": "데 즈 냐 끄어 삭 세, 반 트엉 람 능 비엑 냐 나오? 반 하이 쪼 또이 비엣 베 능 비엑 마 반 트엉 람 데 즈 삭 깍 퐁 쫑 냐 반.",
+      "exampleAnswerPronKo": "데 즈 냐 끄어 삭 세, 또이 트엉 람 니에우 비엑 냐.",
+      "pronNoteKo": "집안일 질문입니다. rửa bát, lau nhà, giặt quần áo, dọn dẹp을 묶어서 외우면 좋습니다."
+    },
+    {
+      "id": "qb3-residence-s-006",
+      "textVi": "Hãy nói cho tôi biết về những thay đổi của nhà bạn. Nhà của bạn có những sự thay đổi gì và vì sao bạn muốn thay đổi như vậy? Nhà bạn trông như thế nào sau khi thay đổi? Cho tôi biết thật chi tiết.",
+      "textKo": "당신 집의 변화에 대해 말해주세요. 당신의 집에는 어떤 변화가 있었고 왜 그렇게 바꾸고 싶었나요? 바꾼 후 당신의 집은 어떻게 보였나요? 아주 자세히 알려주세요.",
+      "exampleAnswerVi": "Gần đây, tôi đã thay đổi một vài thứ trong nhà. Tôi mua ghế sofa mới và dọn dẹp lại phòng khách. Tôi muốn thay đổi như vậy vì phòng khách cũ hơi chật và không tiện lắm. Sau khi thay đổi, phòng khách trông rộng hơn, sạch hơn và đẹp hơn. Bây giờ gia đình tôi thích ở phòng khách hơn trước.",
+      "exampleAnswerKo": "최근에 저는 집 안의 몇 가지를 바꾸었습니다. 새 소파를 사고 거실을 다시 정리했습니다. 예전 거실이 조금 좁고 별로 편리하지 않아서 그렇게 바꾸고 싶었습니다. 바꾼 후 거실은 더 넓고, 더 깨끗하고, 더 예뻐 보입니다. 이제 우리 가족은 예전보다 거실에 있는 것을 더 좋아합니다.",
+      "audioSrc": "",
+      "sourcePage": 3,
+      "reviewNeeded": false,
+      "pronKo": "하이 노이 쪼 또이 비엣 베 능 타이 도이 꾸어 냐 반. 냐 꾸어 반 꼬 능 쓰 타이 도이 지 바 비 사오 반 무온 타이 도이 느 버이? 냐 반 쫑 느 테 나오 사우 키 타이 도이? 쪼 또이 비엣 텃 찌 띠엣.",
+      "exampleAnswerPronKo": "건 더이, 또이 다 타이 도이 못 바이 트 쫑 냐. 또이 무어 게 소파 머이 바 존 젭 라이 퐁 카익.",
+      "pronNoteKo": "변화 전 문제점 → 바꾼 내용 → 바꾼 후 모습 순서로 말하면 좋습니다."
+    }
+  ],
+  "dialogues": [
+    {
+      "id": "qb3-residence-d-001",
+      "title": "현재 집 설명 대화",
+      "audioSrc": "",
+      "sourcePage": 3,
+      "reviewNeeded": false,
+      "lines": [
+        {
+          "speaker": "A",
+          "vi": "Bạn đang sống ở đâu?",
+          "ko": "당신은 어디에 살고 있나요?",
+          "pronKo": "반 당 쏭 어 더우?"
+        },
+        {
+          "speaker": "B",
+          "vi": "Tôi đang sống ở một căn hộ chung cư ở Dongtan.",
+          "ko": "저는 동탄에 있는 아파트에 살고 있습니다.",
+          "pronKo": "또이 당 쏭 어 못 깐 호 쭝 끄 어 동탄."
+        },
+        {
+          "speaker": "A",
+          "vi": "Nhà của bạn thế nào?",
+          "ko": "당신의 집은 어떤가요?",
+          "pronKo": "냐 꾸어 반 테 나오?"
+        },
+        {
+          "speaker": "B",
+          "vi": "Nhà tôi sạch sẽ, thoải mái và khá hiện đại.",
+          "ko": "제 집은 깨끗하고 편안하며 꽤 현대적입니다.",
+          "pronKo": "냐 또이 삭 세, 토아이 마이 바 콰 히엔 다이."
+        }
+      ]
+    },
+    {
+      "id": "qb3-residence-d-002",
+      "title": "집 내부 설명 대화",
+      "audioSrc": "",
+      "sourcePage": 3,
+      "reviewNeeded": false,
+      "lines": [
+        {
+          "speaker": "A",
+          "vi": "Bên trong nhà có những phòng nào?",
+          "ko": "집 안에는 어떤 방들이 있나요?",
+          "pronKo": "벤 쫑 냐 꼬 능 퐁 나오?"
+        },
+        {
+          "speaker": "B",
+          "vi": "Nhà tôi có ba phòng ngủ, hai phòng tắm, một phòng khách và một phòng bếp.",
+          "ko": "제 집에는 침실 세 개, 욕실 두 개, 거실 하나, 부엌 하나가 있습니다.",
+          "pronKo": "냐 또이 꼬 바 퐁 응우, 하이 퐁 땀, 못 퐁 카익 바 못 퐁 벱."
+        },
+        {
+          "speaker": "A",
+          "vi": "Bạn thích phòng nào nhất?",
+          "ko": "당신은 어떤 방을 가장 좋아하나요?",
+          "pronKo": "반 틱 퐁 나오 녓?"
+        },
+        {
+          "speaker": "B",
+          "vi": "Tôi thích phòng khách nhất vì phòng khách rộng và thoải mái.",
+          "ko": "저는 거실이 넓고 편안해서 거실을 가장 좋아합니다.",
+          "pronKo": "또이 틱 퐁 카익 녓 비 퐁 카익 종 바 토아이 마이."
+        }
+      ]
+    },
+    {
+      "id": "qb3-residence-d-003",
+      "title": "집에서 하는 일 대화",
+      "audioSrc": "",
+      "sourcePage": 3,
+      "reviewNeeded": false,
+      "lines": [
+        {
+          "speaker": "A",
+          "vi": "Bạn thường làm gì khi ở nhà?",
+          "ko": "당신은 집에 있을 때 보통 무엇을 하나요?",
+          "pronKo": "반 트엉 람 지 키 어 냐?"
+        },
+        {
+          "speaker": "B",
+          "vi": "Vào các ngày trong tuần, tôi thường nghỉ ngơi và học tiếng Việt.",
+          "ko": "평일에는 보통 쉬고 베트남어를 공부합니다.",
+          "pronKo": "바오 깍 응아이 쫑 뚜언, 또이 트엉 응이 응어이 바 혹 띠엥 비엣."
+        },
+        {
+          "speaker": "A",
+          "vi": "Còn cuối tuần thì sao?",
+          "ko": "그럼 주말에는요?",
+          "pronKo": "꼰 꾸오이 뚜언 티 사오?"
+        },
+        {
+          "speaker": "B",
+          "vi": "Cuối tuần, tôi dọn dẹp nhà và xem phim với gia đình.",
+          "ko": "주말에는 집을 정리하고 가족과 영화를 봅니다.",
+          "pronKo": "꾸오이 뚜언, 또이 존 젭 냐 바 쌤 핌 버이 자 딘."
+        }
+      ]
+    },
+    {
+      "id": "qb3-residence-d-004",
+      "title": "예전 집과 현재 집 비교 대화",
+      "audioSrc": "",
+      "sourcePage": 3,
+      "reviewNeeded": false,
+      "lines": [
+        {
+          "speaker": "A",
+          "vi": "Khi còn bé, bạn sống ở đâu?",
+          "ko": "어릴 때 당신은 어디에 살았나요?",
+          "pronKo": "키 꼰 베, 반 쏭 어 더우?"
+        },
+        {
+          "speaker": "B",
+          "vi": "Khi còn bé, tôi sống ở một ngôi nhà nhỏ với bố mẹ.",
+          "ko": "어릴 때 저는 부모님과 작은 집에서 살았습니다.",
+          "pronKo": "키 꼰 베, 또이 쏭 어 못 응오이 냐 녀 버이 보 메."
+        },
+        {
+          "speaker": "A",
+          "vi": "Nhà cũ và nhà hiện tại khác nhau thế nào?",
+          "ko": "예전 집과 현재 집은 어떻게 다른가요?",
+          "pronKo": "냐 꾸 바 냐 히엔 따이 칵 냐우 테 나오?"
+        },
+        {
+          "speaker": "B",
+          "vi": "Nhà hiện tại rộng hơn, hiện đại hơn và tiện lợi hơn.",
+          "ko": "현재 집은 더 넓고, 더 현대적이고, 더 편리합니다.",
+          "pronKo": "냐 히엔 따이 종 헌, 히엔 다이 헌 바 띠엔 러이 헌."
+        }
+      ]
+    },
+    {
+      "id": "qb3-residence-d-005",
+      "title": "집안일 대화",
+      "audioSrc": "",
+      "sourcePage": 3,
+      "reviewNeeded": false,
+      "lines": [
+        {
+          "speaker": "A",
+          "vi": "Bạn thường làm những việc nhà nào?",
+          "ko": "당신은 보통 어떤 집안일을 하나요?",
+          "pronKo": "반 트엉 람 능 비엑 냐 나오?"
+        },
+        {
+          "speaker": "B",
+          "vi": "Tôi thường rửa bát, lau nhà và giặt quần áo.",
+          "ko": "저는 보통 설거지하고, 바닥을 닦고, 빨래합니다.",
+          "pronKo": "또이 트엉 즈어 밧, 라우 냐 바 잣 꿘 아오."
+        },
+        {
+          "speaker": "A",
+          "vi": "Bạn có thích làm việc nhà không?",
+          "ko": "당신은 집안일 하는 것을 좋아하나요?",
+          "pronKo": "반 꼬 틱 람 비엑 냐 콩?"
+        },
+        {
+          "speaker": "B",
+          "vi": "Tôi không thích lắm, nhưng tôi nghĩ việc nhà rất quan trọng.",
+          "ko": "별로 좋아하지는 않지만, 집안일은 매우 중요하다고 생각합니다.",
+          "pronKo": "또이 콩 틱 람, 능 또이 응이 비엑 냐 젓 꽌 쫑."
+        }
+      ]
+    }
+  ],
+  "grammarPoints": [
+    {
+      "id": "qb3-residence-g-001",
+      "title": "설문에서 말한 내용",
+      "pattern": "Trong bản khảo sát, bạn nói rằng ...",
+      "meaningKo": "설문에서 당신은 ...라고 말했습니다.",
+      "sourcePage": 3,
+      "reviewNeeded": false
+    },
+    {
+      "id": "qb3-residence-g-002",
+      "title": "집을 묘사해 달라고 할 때",
+      "pattern": "Hãy miêu tả về ngôi nhà của bạn.",
+      "meaningKo": "당신의 집에 대해 묘사해주세요.",
+      "sourcePage": 3,
+      "reviewNeeded": false
+    },
+    {
+      "id": "qb3-residence-g-003",
+      "title": "현재 살고 있다",
+      "pattern": "Tôi đang sống ở + 장소.",
+      "meaningKo": "저는 ...에 살고 있습니다.",
+      "sourcePage": 3,
+      "reviewNeeded": false
+    },
+    {
+      "id": "qb3-residence-g-004",
+      "title": "집 안에 방이 있다",
+      "pattern": "Bên trong nhà có + 방.",
+      "meaningKo": "집 안에는 ...이 있습니다.",
+      "sourcePage": 3,
+      "reviewNeeded": false
+    },
+    {
+      "id": "qb3-residence-g-005",
+      "title": "가장 좋아하는 방",
+      "pattern": "Tôi thích + phòng + nhất.",
+      "meaningKo": "저는 ...방을 가장 좋아합니다.",
+      "sourcePage": 3,
+      "reviewNeeded": false
+    },
+    {
+      "id": "qb3-residence-g-006",
+      "title": "이유 말하기",
+      "pattern": "Tôi thích phòng này vì + 이유.",
+      "meaningKo": "저는 ... 때문에 이 방을 좋아합니다.",
+      "sourcePage": 3,
+      "reviewNeeded": false
+    },
+    {
+      "id": "qb3-residence-g-007",
+      "title": "평일에",
+      "pattern": "Vào các ngày trong tuần, tôi thường + 동사.",
+      "meaningKo": "평일에 저는 보통 ...합니다.",
+      "sourcePage": 3,
+      "reviewNeeded": false
+    },
+    {
+      "id": "qb3-residence-g-008",
+      "title": "주말에",
+      "pattern": "Vào cuối tuần, tôi thường + 동사.",
+      "meaningKo": "주말에 저는 보통 ...합니다.",
+      "sourcePage": 3,
+      "reviewNeeded": false
+    },
+    {
+      "id": "qb3-residence-g-009",
+      "title": "어릴 때",
+      "pattern": "Khi còn bé, tôi + 과거 행동.",
+      "meaningKo": "어릴 때 저는 ...했습니다.",
+      "sourcePage": 3,
+      "reviewNeeded": false
+    },
+    {
+      "id": "qb3-residence-g-010",
+      "title": "비교하기",
+      "pattern": "So với + A, B + 형용사 + hơn.",
+      "meaningKo": "A와 비교해서 B는 더 ...합니다.",
+      "sourcePage": 3,
+      "reviewNeeded": false
+    },
+    {
+      "id": "qb3-residence-g-011",
+      "title": "깨끗하게 유지하기 위해",
+      "pattern": "Để giữ nhà cửa sạch sẽ, tôi + 동사.",
+      "meaningKo": "집을 깨끗하게 유지하기 위해 저는 ...합니다.",
+      "sourcePage": 3,
+      "reviewNeeded": false
+    },
+    {
+      "id": "qb3-residence-g-012",
+      "title": "변화 후 모습",
+      "pattern": "Sau khi thay đổi, nhà tôi trông + 형용사 + hơn.",
+      "meaningKo": "바꾼 후 제 집은 더 ...해 보입니다.",
+      "sourcePage": 3,
+      "reviewNeeded": false
+    }
+  ],
+  "pronunciationTargets": [
+    {
+      "id": "qb3-residence-p-001",
+      "text": "Hãy miêu tả về ngôi nhà của bạn.",
+      "hintKo": "당신의 집에 대해 묘사해주세요.",
+      "audioSrc": "",
+      "sourcePage": 3,
+      "reviewNeeded": false,
+      "pronKo": "하이 미에우 따 베 응오이 냐 꾸어 반.",
+      "mouthKo": "Hãy / miêu tả / về ngôi nhà / của bạn 으로 끊어 읽습니다.",
+      "toneKo": "거주지 묘사 문제의 핵심 요청입니다."
+    },
+    {
+      "id": "qb3-residence-p-002",
+      "text": "Trông bên ngoài nhà bạn thế nào?",
+      "hintKo": "당신 집의 외관은 어떻게 생겼나요?",
+      "audioSrc": "",
+      "sourcePage": 3,
+      "reviewNeeded": false,
+      "pronKo": "쫑 벤 응오아이 냐 반 테 나오?",
+      "mouthKo": "Trông / bên ngoài / nhà bạn / thế nào 로 나눠 읽습니다.",
+      "toneKo": "외부 모습을 묻는 질문입니다."
+    },
+    {
+      "id": "qb3-residence-p-003",
+      "text": "Bên trong nhà có những phòng nào?",
+      "hintKo": "집 안에는 어떤 방들이 있나요?",
+      "audioSrc": "",
+      "sourcePage": 3,
+      "reviewNeeded": false,
+      "pronKo": "벤 쫑 냐 꼬 능 퐁 나오?",
+      "mouthKo": "Bên trong nhà / có / những phòng nào 로 끊어 읽습니다.",
+      "toneKo": "집 내부와 방 종류를 말하면 됩니다."
+    },
+    {
+      "id": "qb3-residence-p-004",
+      "text": "Bạn thường làm những công việc nào khi ở nhà vào các ngày trong tuần?",
+      "hintKo": "평일에 집에 있을 때 보통 어떤 일을 하나요?",
+      "audioSrc": "",
+      "sourcePage": 3,
+      "reviewNeeded": false,
+      "pronKo": "반 트엉 람 능 꽁 비엑 나오 키 어 냐 바오 깍 응아이 쫑 뚜언?",
+      "mouthKo": "Bạn thường làm / những công việc nào / khi ở nhà / vào các ngày trong tuần 으로 끊습니다.",
+      "toneKo": "평일 활동을 묻는 질문입니다."
+    },
+    {
+      "id": "qb3-residence-p-005",
+      "text": "Khi còn bé, tôi sống ở một ngôi nhà nhỏ với bố mẹ.",
+      "hintKo": "어릴 때 저는 부모님과 작은 집에서 살았습니다.",
+      "audioSrc": "",
+      "sourcePage": 3,
+      "reviewNeeded": false,
+      "pronKo": "키 꼰 베, 또이 쏭 어 못 응오이 냐 녀 버이 보 메.",
+      "mouthKo": "Khi còn bé / tôi sống ở / một ngôi nhà nhỏ / với bố mẹ 로 끊습니다.",
+      "toneKo": "예전 집 답변의 시작 문장입니다."
+    },
+    {
+      "id": "qb3-residence-p-006",
+      "text": "Trong nhà bạn, bạn thích phòng nào nhất?",
+      "hintKo": "당신의 집에서 어떤 방을 가장 좋아하나요?",
+      "audioSrc": "",
+      "sourcePage": 3,
+      "reviewNeeded": false,
+      "pronKo": "쫑 냐 반, 반 틱 퐁 나오 녓?",
+      "mouthKo": "thích phòng nào nhất를 한 덩어리로 외우세요.",
+      "toneKo": "좋아하는 방을 묻는 질문입니다."
+    },
+    {
+      "id": "qb3-residence-p-007",
+      "text": "Để giữ nhà cửa sạch sẽ, bạn thường làm những việc nhà nào?",
+      "hintKo": "집을 깨끗하게 유지하기 위해 보통 어떤 집안일을 하나요?",
+      "audioSrc": "",
+      "sourcePage": 3,
+      "reviewNeeded": false,
+      "pronKo": "데 즈 냐 끄어 삭 세, 반 트엉 람 능 비엑 냐 나오?",
+      "mouthKo": "Để giữ nhà cửa sạch sẽ / bạn thường làm / những việc nhà nào 로 끊어 읽습니다.",
+      "toneKo": "집안일 질문입니다."
+    },
+    {
+      "id": "qb3-residence-p-008",
+      "text": "Sau khi thay đổi, nhà tôi trông rộng hơn, sạch hơn và đẹp hơn.",
+      "hintKo": "바꾼 후 제 집은 더 넓고, 더 깨끗하고, 더 예뻐 보입니다.",
+      "audioSrc": "",
+      "sourcePage": 3,
+      "reviewNeeded": false,
+      "pronKo": "사우 키 타이 도이, 냐 또이 쫑 종 헌, 삭 헌 바 뎁 헌.",
+      "mouthKo": "Sau khi thay đổi / nhà tôi trông / rộng hơn, sạch hơn và đẹp hơn 으로 끊습니다.",
+      "toneKo": "집 변화 문제의 마무리 문장으로 좋습니다."
+    }
+  ],
+  "quizSeeds": [
+    {
+      "id": "qb3-residence-q-001",
+      "type": "match-term",
+      "prompt": "문제은행 거주지 핵심 단어 매칭 1",
+      "answerSet": [
+        "nơi ở-거주지",
+        "nhà-집",
+        "ngôi nhà-집/주택",
+        "nhà riêng-단독주택",
+        "căn hộ chung cư-아파트",
+        "sống ở-~에 살다",
+        "bên ngoài-외부",
+        "bên trong-내부",
+        "trông-~처럼 보이다",
+        "phòng-방"
+      ],
+      "sourcePage": 3,
+      "reviewNeeded": false
+    },
+    {
+      "id": "qb3-residence-q-002",
+      "type": "match-term",
+      "prompt": "문제은행 거주지 핵심 단어 매칭 2",
+      "answerSet": [
+        "phòng khách-거실",
+        "phòng ngủ-침실",
+        "phòng bếp-부엌",
+        "phòng tắm-욕실",
+        "ban công-발코니",
+        "rộng-넓다",
+        "sạch sẽ-깨끗하다",
+        "thoải mái-편안하다",
+        "hiện đại-현대적이다",
+        "yên tĩnh-조용하다"
+      ],
+      "sourcePage": 3,
+      "reviewNeeded": false
+    },
+    {
+      "id": "qb3-residence-q-003",
+      "type": "match-term",
+      "prompt": "문제은행 거주지 핵심 단어 매칭 3",
+      "answerSet": [
+        "khi còn bé-어릴 때",
+        "so với-~와 비교해서",
+        "nhà cũ-예전 집",
+        "nhà hiện tại-현재 집",
+        "giống nhau-서로 같다/비슷하다",
+        "khác nhau-서로 다르다",
+        "thích nhất-가장 좋아하다",
+        "vì sao-왜",
+        "việc nhà-집안일",
+        "thay đổi-변화/바꾸다"
+      ],
+      "sourcePage": 3,
+      "reviewNeeded": false
+    },
+    {
+      "id": "qb3-residence-q-004",
+      "type": "match-term",
+      "prompt": "문제은행 거주지 집안일 단어 매칭",
+      "answerSet": [
+        "dọn dẹp-정리하다/청소하다",
+        "lau nhà-바닥을 닦다",
+        "rửa bát-설거지하다",
+        "giặt quần áo-빨래하다",
+        "hút bụi-청소기로 청소하다",
+        "giữ sạch-깨끗하게 유지하다",
+        "sửa nhà-집을 수리하다",
+        "sau khi thay đổi-변화 후에",
+        "rộng hơn-더 넓다",
+        "đẹp hơn-더 예쁘다"
+      ],
+      "sourcePage": 3,
+      "reviewNeeded": false
+    },
+    {
+      "id": "qb3-residence-q-005",
+      "type": "sentence-meaning",
+      "prompt": "문제은행 거주지 질문 뜻 고르기 1",
+      "answerSet": [
+        "Hãy miêu tả về ngôi nhà của bạn.-당신의 집에 대해 묘사해주세요.",
+        "Trông bên ngoài nhà bạn thế nào?-당신 집의 외관은 어떻게 생겼나요?",
+        "Bên trong nhà có những phòng nào?-집 안에는 어떤 방들이 있나요?",
+        "Bạn thường làm gì khi ở nhà?-집에 있을 때 보통 무엇을 하나요?",
+        "Trong nhà bạn, bạn thích phòng nào nhất?-집에서 어떤 방을 가장 좋아하나요?"
+      ],
+      "sourcePage": 3,
+      "reviewNeeded": false
+    },
+    {
+      "id": "qb3-residence-q-006",
+      "type": "sentence-meaning",
+      "prompt": "문제은행 거주지 질문 뜻 고르기 2",
+      "answerSet": [
+        "Hãy nói cho tôi biết về ngôi nhà mà bạn đã sống khi bạn còn bé.-어릴 때 살았던 집에 대해 말해주세요.",
+        "So với ngôi nhà cũ thì ngôi nhà hiện tại bạn đang sống có gì khác?-예전 집과 비교해서 현재 집은 무엇이 다른가요?",
+        "Có điểm gì giống nhau và khác nhau?-어떤 점이 같고 어떤 점이 다른가요?",
+        "Để giữ nhà cửa sạch sẽ, bạn thường làm những việc nhà nào?-집을 깨끗하게 유지하기 위해 어떤 집안일을 하나요?",
+        "Hãy nói cho tôi biết về những thay đổi của nhà bạn.-당신 집의 변화에 대해 말해주세요."
+      ],
+      "sourcePage": 3,
+      "reviewNeeded": false
+    },
+    {
+      "id": "qb3-residence-q-007",
+      "type": "fill-blank",
+      "prompt": "빈칸 채우기: 저는 아파트에 살고 있습니다.",
+      "question": "Tôi đang sống ở một ___ chung cư.",
+      "answer": "căn hộ",
+      "sourcePage": 3,
+      "reviewNeeded": false
+    },
+    {
+      "id": "qb3-residence-q-008",
+      "type": "fill-blank",
+      "prompt": "빈칸 채우기: 집 안에는 방이 많습니다.",
+      "question": "Bên trong nhà có nhiều ___.",
+      "answer": "phòng",
+      "sourcePage": 3,
+      "reviewNeeded": false
+    },
+    {
+      "id": "qb3-residence-q-009",
+      "type": "fill-blank",
+      "prompt": "빈칸 채우기: 저는 거실을 가장 좋아합니다.",
+      "question": "Tôi thích phòng khách ___.",
+      "answer": "nhất",
+      "sourcePage": 3,
+      "reviewNeeded": false
+    },
+    {
+      "id": "qb3-residence-q-010",
+      "type": "fill-blank",
+      "prompt": "빈칸 채우기: 예전 집과 비교해서 현재 집은 더 넓습니다.",
+      "question": "So với nhà cũ, nhà hiện tại rộng ___.",
+      "answer": "hơn",
+      "sourcePage": 3,
+      "reviewNeeded": false
+    },
+    {
+      "id": "qb3-residence-q-011",
+      "type": "fill-blank",
+      "prompt": "빈칸 채우기: 저는 보통 설거지를 합니다.",
+      "question": "Tôi thường ___ bát.",
+      "answer": "rửa",
+      "sourcePage": 3,
+      "reviewNeeded": false
+    },
+    {
+      "id": "qb3-residence-q-012",
+      "type": "match-term",
+      "prompt": "현재 집 설명 답변 순서 맞추기",
+      "answerSet": [
+        "1-Tôi đang sống ở một căn hộ chung cư với gia đình.",
+        "2-Nhà tôi không quá lớn nhưng rất sạch sẽ.",
+        "3-Bên ngoài, căn hộ trông khá hiện đại.",
+        "4-Bên trong nhà có ba phòng ngủ, hai phòng tắm, một phòng khách và một phòng bếp.",
+        "5-Tôi thích phòng khách nhất vì phòng khách rộng và thoải mái."
+      ],
+      "sourcePage": 3,
+      "reviewNeeded": false
+    },
+    {
+      "id": "qb3-residence-q-013",
+      "type": "match-term",
+      "prompt": "집에서 하는 일 답변 순서 맞추기",
+      "answerSet": [
+        "1-Vào các ngày trong tuần, tôi thường về nhà muộn.",
+        "2-Tôi ăn tối, tắm và nghỉ ngơi.",
+        "3-Vào cuối tuần, tôi thường dọn dẹp nhà.",
+        "4-Tôi giặt quần áo và xem phim với gia đình.",
+        "5-Nếu có thời gian, tôi đi công viên với vợ và các con."
+      ],
+      "sourcePage": 3,
+      "reviewNeeded": false
+    },
+    {
+      "id": "qb3-residence-q-014",
+      "type": "match-term",
+      "prompt": "예전 집과 현재 집 비교 답변 순서 맞추기",
+      "answerSet": [
+        "1-Khi còn bé, tôi sống ở một ngôi nhà nhỏ với bố mẹ.",
+        "2-Nhà cũ không rộng nhưng rất ấm áp.",
+        "3-So với nhà cũ, nhà hiện tại của tôi rộng hơn.",
+        "4-Điểm giống nhau là cả hai ngôi nhà đều rất thoải mái.",
+        "5-Điểm khác nhau là nhà hiện tại có nhiều phòng hơn."
+      ],
+      "sourcePage": 3,
+      "reviewNeeded": false
+    },
+    {
+      "id": "qb3-residence-q-015",
+      "type": "match-term",
+      "prompt": "집안일 답변 순서 맞추기",
+      "answerSet": [
+        "1-Để giữ nhà cửa sạch sẽ, tôi thường làm nhiều việc nhà.",
+        "2-Tôi rửa bát sau khi ăn.",
+        "3-Tôi lau nhà và giặt quần áo.",
+        "4-Tôi dọn dẹp phòng khách và hút bụi trong phòng ngủ.",
+        "5-Tôi nghĩ việc nhà rất quan trọng."
+      ],
+      "sourcePage": 3,
+      "reviewNeeded": false
+    }
+  ],
+  "unlockCondition": "always",
+  "reviewNeeded": false
+},
+    {
+  "lessonId": "question-bank-002-company",
+  "unitLabel": "문제은행",
+  "titleKo": "문제은행2: 회사주제",
+  "titleVi": "Ngân hàng câu hỏi 2: Chủ đề công ty",
+  "pageRange": "문제은행 / 회사주제",
+  "goals": [
+    "회사 이름, 위치, 분위기를 말할 수 있다",
+    "회사의 제품이나 서비스를 설명할 수 있다",
+    "점심시간에 하는 일을 자연스럽게 말할 수 있다",
+    "OPIc 회사 관련 질문을 끊기지 않고 이해한다",
+    "짧은 답변에서 시작해 이유와 예시를 붙여 말한다"
+  ],
+  "topicOverview": "이 주제는 OPIc에서 직장인에게 자주 나오는 회사 관련 문제입니다. 회사 이름, 위치, 회사 분위기, 회사가 만드는 제품 또는 제공하는 서비스, 그리고 점심시간에 하는 일을 묻습니다. 초보자는 '저는 삼성에서 일합니다 → 회사는 수원에 있습니다 → 큰 회사입니다 → 반도체를 만듭니다 → 점심시간에는 동료와 밥을 먹고 커피를 마십니다' 순서로 말하면 안정적입니다.",
+  "cultureTopics": [
+    "회사 소개",
+    "회사 위치",
+    "회사 제품",
+    "회사 서비스",
+    "직장 생활",
+    "점심시간",
+    "동료와 대화",
+    "회사 분위기",
+    "OPIc 회사 질문"
+  ],
+  "vocabCards": [
+    {
+      "id": "qb2-company-v-001",
+      "term": "công ty",
+      "meaningKo": "회사",
+      "example": "Tôi làm việc ở công ty Samsung.",
+      "exampleMeaningKo": "저는 삼성 회사에서 일합니다.",
+      "audioSrc": "",
+      "sourcePage": 2,
+      "reviewNeeded": false,
+      "pronKo": "꽁 티",
+      "pronNoteKo": "직장/회사 주제의 핵심 단어입니다.",
+      "pronChunks": ["công=꽁", "ty=티"]
+    },
+    {
+      "id": "qb2-company-v-002",
+      "term": "đi làm",
+      "meaningKo": "출근하다 / 직장에 다니다",
+      "example": "Tôi đang đi làm ở công ty.",
+      "exampleMeaningKo": "저는 회사에 다니고 있습니다.",
+      "audioSrc": "",
+      "sourcePage": 2,
+      "reviewNeeded": false,
+      "pronKo": "디 람",
+      "pronNoteKo": "일하러 가다, 직장에 다니다 둘 다 가능합니다.",
+      "pronChunks": ["đi=디", "làm=람"]
+    },
+    {
+      "id": "qb2-company-v-003",
+      "term": "làm việc",
+      "meaningKo": "일하다",
+      "example": "Tôi làm việc ở văn phòng.",
+      "exampleMeaningKo": "저는 사무실에서 일합니다.",
+      "audioSrc": "",
+      "sourcePage": 2,
+      "reviewNeeded": false,
+      "pronKo": "람 비엑",
+      "pronNoteKo": "직업, 회사 답변에서 자주 씁니다.",
+      "pronChunks": ["làm=람", "việc=비엑"]
+    },
+    {
+      "id": "qb2-company-v-004",
+      "term": "bản khảo sát",
+      "meaningKo": "설문조사",
+      "example": "Trong bản khảo sát, bạn nói là bạn đang đi làm ở công ty.",
+      "exampleMeaningKo": "설문에서 당신은 회사에 다니고 있다고 말했습니다.",
+      "audioSrc": "",
+      "sourcePage": 2,
+      "reviewNeeded": false,
+      "pronKo": "반 카오 삿",
+      "pronNoteKo": "OPIc 문제 첫머리에 자주 나오는 표현입니다.",
+      "pronChunks": ["bản=반", "khảo sát=카오 삿"]
+    },
+    {
+      "id": "qb2-company-v-005",
+      "term": "miêu tả",
+      "meaningKo": "묘사하다 / 설명하다",
+      "example": "Hãy miêu tả về công ty của bạn.",
+      "exampleMeaningKo": "당신의 회사에 대해 묘사해주세요.",
+      "audioSrc": "",
+      "sourcePage": 2,
+      "reviewNeeded": false,
+      "pronKo": "미에우 따",
+      "pronNoteKo": "OPIc에서 '자세히 묘사해라'라는 문제에 자주 나옵니다.",
+      "pronChunks": ["miêu=미에우", "tả=따"]
+    },
+    {
+      "id": "qb2-company-v-006",
+      "term": "tên công ty",
+      "meaningKo": "회사 이름",
+      "example": "Tên công ty của tôi là Samsung.",
+      "exampleMeaningKo": "제 회사 이름은 삼성입니다.",
+      "audioSrc": "",
+      "sourcePage": 2,
+      "reviewNeeded": false,
+      "pronKo": "뗀 꽁 티",
+      "pronNoteKo": "tên은 이름입니다.",
+      "pronChunks": ["tên=뗀", "công ty=꽁 티"]
+    },
+    {
+      "id": "qb2-company-v-007",
+      "term": "nằm ở",
+      "meaningKo": "~에 위치하다",
+      "example": "Công ty của tôi nằm ở Suwon.",
+      "exampleMeaningKo": "제 회사는 수원에 위치해 있습니다.",
+      "audioSrc": "",
+      "sourcePage": 2,
+      "reviewNeeded": false,
+      "pronKo": "남 어",
+      "pronNoteKo": "건물, 회사, 장소 위치를 말할 때 씁니다.",
+      "pronChunks": ["nằm=남", "ở=어"]
+    },
+    {
+      "id": "qb2-company-v-008",
+      "term": "ở đâu",
+      "meaningKo": "어디에",
+      "example": "Công ty của bạn nằm ở đâu?",
+      "exampleMeaningKo": "당신의 회사는 어디에 위치해 있나요?",
+      "audioSrc": "",
+      "sourcePage": 2,
+      "reviewNeeded": false,
+      "pronKo": "어 더우",
+      "pronNoteKo": "장소를 묻는 기본 의문사입니다.",
+      "pronChunks": ["ở=어", "đâu=더우"]
+    },
+    {
+      "id": "qb2-company-v-009",
+      "term": "chi tiết",
+      "meaningKo": "자세히 / 상세하게",
+      "example": "Hãy nói thật chi tiết.",
+      "exampleMeaningKo": "아주 자세히 말해주세요.",
+      "audioSrc": "",
+      "sourcePage": 2,
+      "reviewNeeded": false,
+      "pronKo": "찌 띠엣",
+      "pronNoteKo": "OPIc에서 답변을 길게 하라는 신호입니다.",
+      "pronChunks": ["chi=찌", "tiết=띠엣"]
+    },
+    {
+      "id": "qb2-company-v-010",
+      "term": "sản xuất",
+      "meaningKo": "생산하다",
+      "example": "Công ty của tôi sản xuất chip nhớ.",
+      "exampleMeaningKo": "제 회사는 메모리 칩을 생산합니다.",
+      "audioSrc": "",
+      "sourcePage": 2,
+      "reviewNeeded": false,
+      "pronKo": "산 쑤엇",
+      "pronNoteKo": "제조 회사 설명에 꼭 필요한 단어입니다.",
+      "pronChunks": ["sản=산", "xuất=쑤엇"]
+    },
+    {
+      "id": "qb2-company-v-011",
+      "term": "sản phẩm",
+      "meaningKo": "제품",
+      "example": "Sản phẩm chính của công ty là chip nhớ.",
+      "exampleMeaningKo": "회사의 주요 제품은 메모리 칩입니다.",
+      "audioSrc": "",
+      "sourcePage": 2,
+      "reviewNeeded": false,
+      "pronKo": "산 펌",
+      "pronNoteKo": "제품 설명 문제에서 자주 나옵니다.",
+      "pronChunks": ["sản=산", "phẩm=펌"]
+    },
+    {
+      "id": "qb2-company-v-012",
+      "term": "cung cấp",
+      "meaningKo": "제공하다",
+      "example": "Công ty của bạn cung cấp dịch vụ nào?",
+      "exampleMeaningKo": "당신의 회사는 어떤 서비스를 제공하나요?",
+      "audioSrc": "",
+      "sourcePage": 2,
+      "reviewNeeded": false,
+      "pronKo": "꿍 껍",
+      "pronNoteKo": "서비스 제공을 말할 때 씁니다.",
+      "pronChunks": ["cung=꿍", "cấp=껍"]
+    },
+    {
+      "id": "qb2-company-v-013",
+      "term": "dịch vụ",
+      "meaningKo": "서비스",
+      "example": "Công ty của tôi cung cấp dịch vụ kỹ thuật.",
+      "exampleMeaningKo": "제 회사는 기술 서비스를 제공합니다.",
+      "audioSrc": "",
+      "sourcePage": 2,
+      "reviewNeeded": false,
+      "pronKo": "직 부",
+      "pronNoteKo": "회사 서비스 설명에 필요합니다.",
+      "pronChunks": ["dịch=직", "vụ=부"]
+    },
+    {
+      "id": "qb2-company-v-014",
+      "term": "chip nhớ",
+      "meaningKo": "메모리 칩",
+      "example": "Samsung sản xuất chip nhớ.",
+      "exampleMeaningKo": "삼성은 메모리 칩을 생산합니다.",
+      "audioSrc": "",
+      "sourcePage": 2,
+      "reviewNeeded": false,
+      "pronKo": "칩 녀",
+      "pronNoteKo": "Memory chip을 베트남어로 자연스럽게 말하는 표현입니다.",
+      "pronChunks": ["chip=칩", "nhớ=녀"]
+    },
+    {
+      "id": "qb2-company-v-015",
+      "term": "chất bán dẫn",
+      "meaningKo": "반도체",
+      "example": "Công ty của tôi sản xuất chất bán dẫn.",
+      "exampleMeaningKo": "제 회사는 반도체를 생산합니다.",
+      "audioSrc": "",
+      "sourcePage": 2,
+      "reviewNeeded": false,
+      "pronKo": "쩟 반 잔",
+      "pronNoteKo": "반도체 회사 설명에 쓸 수 있습니다.",
+      "pronChunks": ["chất=쩟", "bán dẫn=반 잔"]
+    },
+    {
+      "id": "qb2-company-v-016",
+      "term": "văn phòng",
+      "meaningKo": "사무실",
+      "example": "Tôi làm việc ở văn phòng.",
+      "exampleMeaningKo": "저는 사무실에서 일합니다.",
+      "audioSrc": "",
+      "sourcePage": 2,
+      "reviewNeeded": false,
+      "pronKo": "반 퐁",
+      "pronNoteKo": "근무 장소를 말할 때 씁니다.",
+      "pronChunks": ["văn=반", "phòng=퐁"]
+    },
+    {
+      "id": "qb2-company-v-017",
+      "term": "nhà máy",
+      "meaningKo": "공장",
+      "example": "Công ty có nhiều nhà máy ở Hàn Quốc.",
+      "exampleMeaningKo": "회사는 한국에 많은 공장이 있습니다.",
+      "audioSrc": "",
+      "sourcePage": 2,
+      "reviewNeeded": false,
+      "pronKo": "냐 마이",
+      "pronNoteKo": "제조 회사 설명에 좋습니다.",
+      "pronChunks": ["nhà=냐", "máy=마이"]
+    },
+    {
+      "id": "qb2-company-v-018",
+      "term": "nhân viên",
+      "meaningKo": "직원",
+      "example": "Công ty của tôi có rất nhiều nhân viên.",
+      "exampleMeaningKo": "제 회사에는 직원이 매우 많습니다.",
+      "audioSrc": "",
+      "sourcePage": 2,
+      "reviewNeeded": false,
+      "pronKo": "년 비엔",
+      "pronNoteKo": "회사 규모 설명에 씁니다.",
+      "pronChunks": ["nhân=년", "viên=비엔"]
+    },
+    {
+      "id": "qb2-company-v-019",
+      "term": "đồng nghiệp",
+      "meaningKo": "동료",
+      "example": "Tôi ăn trưa với đồng nghiệp.",
+      "exampleMeaningKo": "저는 동료와 점심을 먹습니다.",
+      "audioSrc": "",
+      "sourcePage": 2,
+      "reviewNeeded": false,
+      "pronKo": "동 응이엡",
+      "pronNoteKo": "점심시간, 회사생활 답변에 꼭 필요합니다.",
+      "pronChunks": ["đồng=동", "nghiệp=응이엡"]
+    },
+    {
+      "id": "qb2-company-v-020",
+      "term": "sếp",
+      "meaningKo": "상사",
+      "example": "Sếp của tôi rất tốt.",
+      "exampleMeaningKo": "제 상사는 매우 좋습니다.",
+      "audioSrc": "",
+      "sourcePage": 2,
+      "reviewNeeded": false,
+      "pronKo": "셉",
+      "pronNoteKo": "회사 분위기 설명에 사용할 수 있습니다.",
+      "pronChunks": ["sếp=셉"]
+    },
+    {
+      "id": "qb2-company-v-021",
+      "term": "bộ phận",
+      "meaningKo": "부서",
+      "example": "Tôi làm việc ở bộ phận kế hoạch.",
+      "exampleMeaningKo": "저는 기획 부서에서 일합니다.",
+      "audioSrc": "",
+      "sourcePage": 2,
+      "reviewNeeded": false,
+      "pronKo": "보 펀",
+      "pronNoteKo": "자기 직무를 조금 더 자세히 말할 때 씁니다.",
+      "pronChunks": ["bộ=보", "phận=펀"]
+    },
+    {
+      "id": "qb2-company-v-022",
+      "term": "môi trường làm việc",
+      "meaningKo": "근무 환경",
+      "example": "Môi trường làm việc ở công ty tôi rất tốt.",
+      "exampleMeaningKo": "제 회사의 근무 환경은 매우 좋습니다.",
+      "audioSrc": "",
+      "sourcePage": 2,
+      "reviewNeeded": false,
+      "pronKo": "모이 쯔엉 람 비엑",
+      "pronNoteKo": "회사 분위기를 설명할 때 좋습니다.",
+      "pronChunks": ["môi trường=모이 쯔엉", "làm việc=람 비엑"]
+    },
+    {
+      "id": "qb2-company-v-023",
+      "term": "bầu không khí",
+      "meaningKo": "분위기",
+      "example": "Bầu không khí ở công ty khá tốt.",
+      "exampleMeaningKo": "회사의 분위기는 꽤 좋습니다.",
+      "audioSrc": "",
+      "sourcePage": 2,
+      "reviewNeeded": false,
+      "pronKo": "버우 콩 키",
+      "pronNoteKo": "회사 분위기, 집 분위기 모두에 쓸 수 있습니다.",
+      "pronChunks": ["bầu=버우", "không khí=콩 키"]
+    },
+    {
+      "id": "qb2-company-v-024",
+      "term": "lớn",
+      "meaningKo": "크다",
+      "example": "Samsung là một công ty rất lớn.",
+      "exampleMeaningKo": "삼성은 매우 큰 회사입니다.",
+      "audioSrc": "",
+      "sourcePage": 2,
+      "reviewNeeded": false,
+      "pronKo": "런",
+      "pronNoteKo": "회사 규모를 설명할 때 씁니다.",
+      "pronChunks": ["lớn=런"]
+    },
+    {
+      "id": "qb2-company-v-025",
+      "term": "nổi tiếng",
+      "meaningKo": "유명하다",
+      "example": "Samsung là công ty nổi tiếng ở Hàn Quốc.",
+      "exampleMeaningKo": "삼성은 한국에서 유명한 회사입니다.",
+      "audioSrc": "",
+      "sourcePage": 2,
+      "reviewNeeded": false,
+      "pronKo": "노이 띠엥",
+      "pronNoteKo": "회사 소개에 넣으면 답변이 풍부해집니다.",
+      "pronChunks": ["nổi=노이", "tiếng=띠엥"]
+    },
+    {
+      "id": "qb2-company-v-026",
+      "term": "hiện đại",
+      "meaningKo": "현대적이다",
+      "example": "Văn phòng của công ty rất hiện đại.",
+      "exampleMeaningKo": "회사의 사무실은 매우 현대적입니다.",
+      "audioSrc": "",
+      "sourcePage": 2,
+      "reviewNeeded": false,
+      "pronKo": "히엔 다이",
+      "pronNoteKo": "건물, 사무실, 시설 설명에 좋습니다.",
+      "pronChunks": ["hiện=히엔", "đại=다이"]
+    },
+    {
+      "id": "qb2-company-v-027",
+      "term": "tiện lợi",
+      "meaningKo": "편리하다",
+      "example": "Vị trí của công ty rất tiện lợi.",
+      "exampleMeaningKo": "회사의 위치는 매우 편리합니다.",
+      "audioSrc": "",
+      "sourcePage": 2,
+      "reviewNeeded": false,
+      "pronKo": "띠엔 러이",
+      "pronNoteKo": "위치, 교통, 시설 설명에 쓸 수 있습니다.",
+      "pronChunks": ["tiện=띠엔", "lợi=러이"]
+    },
+    {
+      "id": "qb2-company-v-028",
+      "term": "gần",
+      "meaningKo": "가깝다",
+      "example": "Công ty gần nhà tôi.",
+      "exampleMeaningKo": "회사는 제 집에서 가깝습니다.",
+      "audioSrc": "",
+      "sourcePage": 2,
+      "reviewNeeded": false,
+      "pronKo": "건",
+      "pronNoteKo": "거리 표현에 씁니다.",
+      "pronChunks": ["gần=건"]
+    },
+    {
+      "id": "qb2-company-v-029",
+      "term": "xa",
+      "meaningKo": "멀다",
+      "example": "Công ty hơi xa nhà tôi.",
+      "exampleMeaningKo": "회사는 제 집에서 조금 멉니다.",
+      "audioSrc": "",
+      "sourcePage": 2,
+      "reviewNeeded": false,
+      "pronKo": "싸",
+      "pronNoteKo": "출퇴근 설명에 자주 씁니다.",
+      "pronChunks": ["xa=싸"]
+    },
+    {
+      "id": "qb2-company-v-030",
+      "term": "giờ nghỉ trưa",
+      "meaningKo": "점심시간",
+      "example": "Tôi thường ăn trưa trong giờ nghỉ trưa.",
+      "exampleMeaningKo": "저는 점심시간에 보통 점심을 먹습니다.",
+      "audioSrc": "",
+      "sourcePage": 2,
+      "reviewNeeded": false,
+      "pronKo": "저 응이 쯔어",
+      "pronNoteKo": "회사 점심시간 문제의 핵심 표현입니다.",
+      "pronChunks": ["giờ=저", "nghỉ trưa=응이 쯔어"]
+    },
+    {
+      "id": "qb2-company-v-031",
+      "term": "ăn trưa",
+      "meaningKo": "점심을 먹다",
+      "example": "Tôi ăn trưa với đồng nghiệp.",
+      "exampleMeaningKo": "저는 동료와 점심을 먹습니다.",
+      "audioSrc": "",
+      "sourcePage": 2,
+      "reviewNeeded": false,
+      "pronKo": "안 쯔어",
+      "pronNoteKo": "일상생활, 회사생활 둘 다 자주 나옵니다.",
+      "pronChunks": ["ăn=안", "trưa=쯔어"]
+    },
+    {
+      "id": "qb2-company-v-032",
+      "term": "căng-tin công ty",
+      "meaningKo": "회사 구내식당",
+      "example": "Tôi thường ăn trưa ở căng-tin công ty.",
+      "exampleMeaningKo": "저는 보통 회사 구내식당에서 점심을 먹습니다.",
+      "audioSrc": "",
+      "sourcePage": 2,
+      "reviewNeeded": false,
+      "pronKo": "깡 틴 꽁 티",
+      "pronNoteKo": "canteen을 베트남어식으로 말하는 표현입니다.",
+      "pronChunks": ["căng-tin=깡 틴", "công ty=꽁 티"]
+    },
+    {
+      "id": "qb2-company-v-033",
+      "term": "quán ăn công ty",
+      "meaningKo": "회사 식당",
+      "example": "Quán ăn công ty khá ngon.",
+      "exampleMeaningKo": "회사 식당은 꽤 맛있습니다.",
+      "audioSrc": "",
+      "sourcePage": 2,
+      "reviewNeeded": false,
+      "pronKo": "꽌 안 꽁 티",
+      "pronNoteKo": "회사 구내식당을 쉽게 표현할 수 있습니다.",
+      "pronChunks": ["quán ăn=꽌 안", "công ty=꽁 티"]
+    },
+    {
+      "id": "qb2-company-v-034",
+      "term": "uống cà phê",
+      "meaningKo": "커피를 마시다",
+      "example": "Sau khi ăn trưa, tôi uống cà phê.",
+      "exampleMeaningKo": "점심을 먹은 후 저는 커피를 마십니다.",
+      "audioSrc": "",
+      "sourcePage": 2,
+      "reviewNeeded": false,
+      "pronKo": "우옹 까 페",
+      "pronNoteKo": "점심시간 답변에서 자연스럽게 넣기 좋습니다.",
+      "pronChunks": ["uống=우옹", "cà phê=까 페"]
+    },
+    {
+      "id": "qb2-company-v-035",
+      "term": "nói chuyện",
+      "meaningKo": "대화하다",
+      "example": "Tôi nói chuyện với đồng nghiệp.",
+      "exampleMeaningKo": "저는 동료와 대화합니다.",
+      "audioSrc": "",
+      "sourcePage": 2,
+      "reviewNeeded": false,
+      "pronKo": "노이 쭈옌",
+      "pronNoteKo": "nói chuyện với + 사람 = ~와 대화하다.",
+      "pronChunks": ["nói=노이", "chuyện=쭈옌"]
+    },
+    {
+      "id": "qb2-company-v-036",
+      "term": "nghỉ ngơi",
+      "meaningKo": "쉬다",
+      "example": "Tôi nghỉ ngơi một chút sau khi ăn trưa.",
+      "exampleMeaningKo": "저는 점심을 먹은 후 조금 쉽니다.",
+      "audioSrc": "",
+      "sourcePage": 2,
+      "reviewNeeded": false,
+      "pronKo": "응이 응어이",
+      "pronNoteKo": "점심시간, 주말, 휴식 답변에 모두 쓸 수 있습니다.",
+      "pronChunks": ["nghỉ=응이", "ngơi=응어이"]
+    },
+    {
+      "id": "qb2-company-v-037",
+      "term": "sau khi",
+      "meaningKo": "~한 후에",
+      "example": "Sau khi ăn trưa, tôi uống cà phê.",
+      "exampleMeaningKo": "점심을 먹은 후 저는 커피를 마십니다.",
+      "audioSrc": "",
+      "sourcePage": 2,
+      "reviewNeeded": false,
+      "pronKo": "사우 키",
+      "pronNoteKo": "시간 순서 설명에 아주 좋습니다.",
+      "pronChunks": ["sau=사우", "khi=키"]
+    },
+    {
+      "id": "qb2-company-v-038",
+      "term": "trước khi",
+      "meaningKo": "~하기 전에",
+      "example": "Trước khi làm việc, tôi uống cà phê.",
+      "exampleMeaningKo": "일하기 전에 저는 커피를 마십니다.",
+      "audioSrc": "",
+      "sourcePage": 2,
+      "reviewNeeded": false,
+      "pronKo": "쯔억 키",
+      "pronNoteKo": "sau khi와 함께 외우면 좋습니다.",
+      "pronChunks": ["trước=쯔억", "khi=키"]
+    },
+    {
+      "id": "qb2-company-v-039",
+      "term": "thường",
+      "meaningKo": "보통 / 자주",
+      "example": "Tôi thường ăn trưa với đồng nghiệp.",
+      "exampleMeaningKo": "저는 보통 동료와 점심을 먹습니다.",
+      "audioSrc": "",
+      "sourcePage": 2,
+      "reviewNeeded": false,
+      "pronKo": "트엉",
+      "pronNoteKo": "습관 답변에 꼭 필요한 빈도부사입니다.",
+      "pronChunks": ["thường=트엉"]
+    },
+    {
+      "id": "qb2-company-v-040",
+      "term": "khác nhau",
+      "meaningKo": "서로 다르다 / 다양한",
+      "example": "Người ta thường làm nhiều việc khác nhau trong giờ nghỉ trưa.",
+      "exampleMeaningKo": "사람들은 보통 점심시간에 다양한 일을 합니다.",
+      "audioSrc": "",
+      "sourcePage": 2,
+      "reviewNeeded": false,
+      "pronKo": "칵 냐우",
+      "pronNoteKo": "여러 가지 활동을 설명할 때 씁니다.",
+      "pronChunks": ["khác=칵", "nhau=냐우"]
+    }
+  ],
+  "sentenceCards": [
+    {
+      "id": "qb2-company-s-001",
+      "textVi": "Trong bản khảo sát, bạn nói là bạn đang đi làm ở công ty. Hãy miêu tả về công ty của bạn. Tên công ty là gì? Công ty của bạn nằm ở đâu? Hãy nói thật chi tiết.",
+      "textKo": "설문에서 당신은 회사에 다니고 있다고 말했습니다. 당신의 회사에 대해 묘사해주세요. 회사 이름은 무엇입니까? 당신의 회사는 어디에 위치해 있습니까? 아주 자세히 말해주세요.",
+      "exampleAnswerVi": "Tôi đang làm việc ở công ty Samsung. Đây là một công ty rất lớn và nổi tiếng ở Hàn Quốc. Công ty của tôi nằm ở Suwon. Văn phòng rất hiện đại và môi trường làm việc khá tốt. Tôi làm việc ở văn phòng với nhiều đồng nghiệp.",
+      "exampleAnswerKo": "저는 삼성 회사에서 일하고 있습니다. 이곳은 한국에서 매우 크고 유명한 회사입니다. 제 회사는 수원에 위치해 있습니다. 사무실은 매우 현대적이고 근무 환경은 꽤 좋습니다. 저는 많은 동료들과 사무실에서 일합니다.",
+      "audioSrc": "",
+      "sourcePage": 2,
+      "reviewNeeded": false,
+      "pronKo": "쫑 반 카오 삿, 반 노이 라 반 당 디 람 어 꽁 티. 하이 미에우 따 베 꽁 티 꾸어 반. 뗀 꽁 티 라 지? 꽁 티 꾸어 반 남 어 더우? 하이 노이 텃 찌 띠엣.",
+      "exampleAnswerPronKo": "또이 당 람 비엑 어 꽁 티 삼성. 더이 라 못 꽁 티 젓 런 바 노이 띠엥 어 한 꾸옥. 꽁 티 꾸어 또이 남 어 수원.",
+      "pronNoteKo": "문제가 길지만 핵심은 회사 이름, 위치, 회사 분위기를 말하라는 것입니다."
+    },
+    {
+      "id": "qb2-company-s-002",
+      "textVi": "Công ty của bạn sản xuất sản phẩm hay cung cấp dịch vụ nào? Hãy kể cho tôi nghe về sản phẩm hoặc dịch vụ của công ty bạn.",
+      "textKo": "당신의 회사는 어떤 제품을 생산하거나 어떤 서비스를 제공하나요? 당신 회사의 제품이나 서비스에 대해 저에게 말해주세요.",
+      "exampleAnswerVi": "Công ty của tôi sản xuất chất bán dẫn, đặc biệt là chip nhớ. Sản phẩm của công ty rất quan trọng vì nhiều thiết bị điện tử cần chip nhớ. Tôi không trực tiếp sản xuất sản phẩm, nhưng tôi làm việc liên quan đến kế hoạch và quản lý.",
+      "exampleAnswerKo": "제 회사는 반도체, 특히 메모리 칩을 생산합니다. 많은 전자기기가 메모리 칩을 필요로 하기 때문에 회사의 제품은 매우 중요합니다. 저는 직접 제품을 생산하지는 않지만, 계획과 관리와 관련된 일을 합니다.",
+      "audioSrc": "",
+      "sourcePage": 2,
+      "reviewNeeded": false,
+      "pronKo": "꽁 티 꾸어 반 산 쑤엇 산 펌 하이 꿍 껍 직 부 나오? 하이 께 쪼 또이 응에 베 산 펌 호악 직 부 꾸어 꽁 티 반.",
+      "exampleAnswerPronKo": "꽁 티 꾸어 또이 산 쑤엇 쩟 반 잔, 닥 비엣 라 칩 녀.",
+      "pronNoteKo": "제품/서비스 질문입니다. 삼성 기준으로는 반도체, 메모리 칩을 말하면 자연스럽습니다."
+    },
+    {
+      "id": "qb2-company-s-003",
+      "textVi": "Người ta thường làm nhiều việc khác nhau trong giờ nghỉ trưa. Bạn thường làm gì trong giờ nghỉ trưa?",
+      "textKo": "사람들은 점심시간에 보통 여러 가지 일을 합니다. 당신은 점심시간에 보통 무엇을 하나요?",
+      "exampleAnswerVi": "Trong giờ nghỉ trưa, tôi thường ăn trưa với đồng nghiệp ở căng-tin công ty. Sau khi ăn trưa, chúng tôi uống cà phê và nói chuyện về công việc hoặc cuộc sống. Nếu tôi mệt, tôi nghỉ ngơi một chút ở văn phòng.",
+      "exampleAnswerKo": "점심시간에 저는 보통 회사 구내식당에서 동료들과 점심을 먹습니다. 점심을 먹은 후 우리는 커피를 마시고 일이나 생활에 대해 이야기합니다. 제가 피곤하면 사무실에서 조금 쉽니다.",
+      "audioSrc": "",
+      "sourcePage": 2,
+      "reviewNeeded": false,
+      "pronKo": "응어이 따 트엉 람 니에우 비엑 칵 냐우 쫑 저 응이 쯔어. 반 트엉 람 지 쫑 저 응이 쯔어?",
+      "exampleAnswerPronKo": "쫑 저 응이 쯔어, 또이 트엉 안 쯔어 버이 동 응이엡 어 깡 틴 꽁 티.",
+      "pronNoteKo": "점심시간 질문입니다. 먹다 → 커피 마시다 → 동료와 이야기하다 → 쉬다 순서로 말하면 쉽습니다."
+    },
+    {
+      "id": "qb2-company-s-004",
+      "textVi": "Tên công ty của tôi là Samsung.",
+      "textKo": "제 회사 이름은 삼성입니다.",
+      "exampleAnswerVi": "Tên công ty của tôi là Samsung. Đây là một công ty rất lớn ở Hàn Quốc.",
+      "exampleAnswerKo": "제 회사 이름은 삼성입니다. 이곳은 한국에서 매우 큰 회사입니다.",
+      "audioSrc": "",
+      "sourcePage": 2,
+      "reviewNeeded": false,
+      "pronKo": "뗀 꽁 티 꾸어 또이 라 삼성.",
+      "exampleAnswerPronKo": "뗀 꽁 티 꾸어 또이 라 삼성. 더이 라 못 꽁 티 젓 런 어 한 꾸옥.",
+      "pronNoteKo": "회사 이름 답변의 가장 쉬운 시작 문장입니다."
+    },
+    {
+      "id": "qb2-company-s-005",
+      "textVi": "Công ty của tôi nằm ở Suwon.",
+      "textKo": "제 회사는 수원에 위치해 있습니다.",
+      "exampleAnswerVi": "Công ty của tôi nằm ở Suwon, không quá xa nhà tôi.",
+      "exampleAnswerKo": "제 회사는 수원에 위치해 있고, 제 집에서 너무 멀지는 않습니다.",
+      "audioSrc": "",
+      "sourcePage": 2,
+      "reviewNeeded": false,
+      "pronKo": "꽁 티 꾸어 또이 남 어 수원.",
+      "exampleAnswerPronKo": "꽁 티 꾸어 또이 남 어 수원, 콩 꽈 싸 냐 또이.",
+      "pronNoteKo": "nằm ở는 위치를 말하는 표현입니다."
+    },
+    {
+      "id": "qb2-company-s-006",
+      "textVi": "Văn phòng của công ty rất hiện đại.",
+      "textKo": "회사의 사무실은 매우 현대적입니다.",
+      "exampleAnswerVi": "Văn phòng của công ty rất hiện đại, sạch sẽ và tiện lợi.",
+      "exampleAnswerKo": "회사의 사무실은 매우 현대적이고 깨끗하며 편리합니다.",
+      "audioSrc": "",
+      "sourcePage": 2,
+      "reviewNeeded": false,
+      "pronKo": "반 퐁 꾸어 꽁 티 젓 히엔 다이.",
+      "exampleAnswerPronKo": "반 퐁 꾸어 꽁 티 젓 히엔 다이, 삭 세 바 띠엔 러이.",
+      "pronNoteKo": "회사 건물이나 사무실 묘사에 사용합니다."
+    },
+    {
+      "id": "qb2-company-s-007",
+      "textVi": "Môi trường làm việc ở công ty tôi khá tốt.",
+      "textKo": "제 회사의 근무 환경은 꽤 좋습니다.",
+      "exampleAnswerVi": "Môi trường làm việc ở công ty tôi khá tốt. Đồng nghiệp của tôi rất chăm chỉ và thân thiện.",
+      "exampleAnswerKo": "제 회사의 근무 환경은 꽤 좋습니다. 제 동료들은 매우 성실하고 친절합니다.",
+      "audioSrc": "",
+      "sourcePage": 2,
+      "reviewNeeded": false,
+      "pronKo": "모이 쯔엉 람 비엑 어 꽁 티 또이 콰 똣.",
+      "exampleAnswerPronKo": "모이 쯔엉 람 비엑 어 꽁 티 또이 콰 똣. 동 응이엡 꾸어 또이 젓 짬 찌 바 턴 티엔.",
+      "pronNoteKo": "회사 분위기와 동료 설명까지 연결하기 좋습니다."
+    },
+    {
+      "id": "qb2-company-s-008",
+      "textVi": "Công ty của tôi sản xuất chip nhớ.",
+      "textKo": "제 회사는 메모리 칩을 생산합니다.",
+      "exampleAnswerVi": "Công ty của tôi sản xuất chip nhớ và chất bán dẫn. Những sản phẩm này rất quan trọng trong cuộc sống hiện đại.",
+      "exampleAnswerKo": "제 회사는 메모리 칩과 반도체를 생산합니다. 이 제품들은 현대 생활에서 매우 중요합니다.",
+      "audioSrc": "",
+      "sourcePage": 2,
+      "reviewNeeded": false,
+      "pronKo": "꽁 티 꾸어 또이 산 쑤엇 칩 녀.",
+      "exampleAnswerPronKo": "꽁 티 꾸어 또이 산 쑤엇 칩 녀 바 쩟 반 잔.",
+      "pronNoteKo": "제품 설명의 핵심 문장입니다."
+    },
+    {
+      "id": "qb2-company-s-009",
+      "textVi": "Tôi thường ăn trưa với đồng nghiệp.",
+      "textKo": "저는 보통 동료와 점심을 먹습니다.",
+      "exampleAnswerVi": "Tôi thường ăn trưa với đồng nghiệp ở căng-tin công ty.",
+      "exampleAnswerKo": "저는 보통 회사 구내식당에서 동료와 점심을 먹습니다.",
+      "audioSrc": "",
+      "sourcePage": 2,
+      "reviewNeeded": false,
+      "pronKo": "또이 트엉 안 쯔어 버이 동 응이엡.",
+      "exampleAnswerPronKo": "또이 트엉 안 쯔어 버이 동 응이엡 어 깡 틴 꽁 티.",
+      "pronNoteKo": "점심시간 답변의 기본 문장입니다."
+    },
+    {
+      "id": "qb2-company-s-010",
+      "textVi": "Sau khi ăn trưa, tôi uống cà phê và nói chuyện với đồng nghiệp.",
+      "textKo": "점심을 먹은 후 저는 커피를 마시고 동료와 대화합니다.",
+      "exampleAnswerVi": "Sau khi ăn trưa, tôi uống cà phê và nói chuyện với đồng nghiệp về công việc hoặc cuộc sống.",
+      "exampleAnswerKo": "점심을 먹은 후 저는 커피를 마시고 동료와 일이나 생활에 대해 이야기합니다.",
+      "audioSrc": "",
+      "sourcePage": 2,
+      "reviewNeeded": false,
+      "pronKo": "사우 키 안 쯔어, 또이 우옹 까 페 바 노이 쭈옌 버이 동 응이엡.",
+      "exampleAnswerPronKo": "사우 키 안 쯔어, 또이 우옹 까 페 바 노이 쭈옌 버이 동 응이엡 베 꽁 비엑 호악 꾸옥 송.",
+      "pronNoteKo": "점심시간 활동을 길게 만들 수 있는 문장입니다."
+    }
+  ],
+  "dialogues": [
+    {
+      "id": "qb2-company-d-001",
+      "title": "회사 소개 기본 대화",
+      "audioSrc": "",
+      "sourcePage": 2,
+      "reviewNeeded": false,
+      "lines": [
+        {
+          "speaker": "A",
+          "vi": "Bạn đang đi làm ở công ty phải không?",
+          "ko": "당신은 회사에 다니고 있죠?",
+          "pronKo": "반 당 디 람 어 꽁 티 파이 콩?"
+        },
+        {
+          "speaker": "B",
+          "vi": "Vâng. Tôi đang làm việc ở công ty Samsung.",
+          "ko": "네. 저는 삼성 회사에서 일하고 있습니다.",
+          "pronKo": "벙. 또이 당 람 비엑 어 꽁 티 삼성."
+        },
+        {
+          "speaker": "A",
+          "vi": "Công ty của bạn nằm ở đâu?",
+          "ko": "당신의 회사는 어디에 위치해 있나요?",
+          "pronKo": "꽁 티 꾸어 반 남 어 더우?"
+        },
+        {
+          "speaker": "B",
+          "vi": "Công ty của tôi nằm ở Suwon.",
+          "ko": "제 회사는 수원에 위치해 있습니다.",
+          "pronKo": "꽁 티 꾸어 또이 남 어 수원."
+        }
+      ]
+    },
+    {
+      "id": "qb2-company-d-002",
+      "title": "회사 분위기 대화",
+      "audioSrc": "",
+      "sourcePage": 2,
+      "reviewNeeded": false,
+      "lines": [
+        {
+          "speaker": "A",
+          "vi": "Hãy miêu tả về công ty của bạn.",
+          "ko": "당신의 회사에 대해 묘사해주세요.",
+          "pronKo": "하이 미에우 따 베 꽁 티 꾸어 반."
+        },
+        {
+          "speaker": "B",
+          "vi": "Công ty của tôi rất lớn và nổi tiếng.",
+          "ko": "제 회사는 매우 크고 유명합니다.",
+          "pronKo": "꽁 티 꾸어 또이 젓 런 바 노이 띠엥."
+        },
+        {
+          "speaker": "B",
+          "vi": "Văn phòng rất hiện đại và môi trường làm việc khá tốt.",
+          "ko": "사무실은 매우 현대적이고 근무 환경은 꽤 좋습니다.",
+          "pronKo": "반 퐁 젓 히엔 다이 바 모이 쯔엉 람 비엑 콰 똣."
+        }
+      ]
+    },
+    {
+      "id": "qb2-company-d-003",
+      "title": "제품과 서비스 대화",
+      "audioSrc": "",
+      "sourcePage": 2,
+      "reviewNeeded": false,
+      "lines": [
+        {
+          "speaker": "A",
+          "vi": "Công ty của bạn sản xuất sản phẩm nào?",
+          "ko": "당신의 회사는 어떤 제품을 생산하나요?",
+          "pronKo": "꽁 티 꾸어 반 산 쑤엇 산 펌 나오?"
+        },
+        {
+          "speaker": "B",
+          "vi": "Công ty của tôi sản xuất chip nhớ và chất bán dẫn.",
+          "ko": "제 회사는 메모리 칩과 반도체를 생산합니다.",
+          "pronKo": "꽁 티 꾸어 또이 산 쑤엇 칩 녀 바 쩟 반 잔."
+        },
+        {
+          "speaker": "A",
+          "vi": "Sản phẩm đó có quan trọng không?",
+          "ko": "그 제품은 중요한가요?",
+          "pronKo": "산 펌 도 꼬 꽌 쫑 콩?"
+        },
+        {
+          "speaker": "B",
+          "vi": "Có. Nó rất quan trọng trong cuộc sống hiện đại.",
+          "ko": "네. 그것은 현대 생활에서 매우 중요합니다.",
+          "pronKo": "꼬. 노 젓 꽌 쫑 쫑 꾸옥 송 히엔 다이."
+        }
+      ]
+    },
+    {
+      "id": "qb2-company-d-004",
+      "title": "점심시간 대화",
+      "audioSrc": "",
+      "sourcePage": 2,
+      "reviewNeeded": false,
+      "lines": [
+        {
+          "speaker": "A",
+          "vi": "Bạn thường làm gì trong giờ nghỉ trưa?",
+          "ko": "당신은 점심시간에 보통 무엇을 하나요?",
+          "pronKo": "반 트엉 람 지 쫑 저 응이 쯔어?"
+        },
+        {
+          "speaker": "B",
+          "vi": "Tôi thường ăn trưa với đồng nghiệp.",
+          "ko": "저는 보통 동료와 점심을 먹습니다.",
+          "pronKo": "또이 트엉 안 쯔어 버이 동 응이엡."
+        },
+        {
+          "speaker": "A",
+          "vi": "Sau khi ăn trưa, bạn làm gì?",
+          "ko": "점심을 먹은 후 무엇을 하나요?",
+          "pronKo": "사우 키 안 쯔어, 반 람 지?"
+        },
+        {
+          "speaker": "B",
+          "vi": "Tôi uống cà phê, nói chuyện với đồng nghiệp và nghỉ ngơi một chút.",
+          "ko": "저는 커피를 마시고, 동료와 대화하고, 조금 쉽니다.",
+          "pronKo": "또이 우옹 까 페, 노이 쭈옌 버이 동 응이엡 바 응이 응어이 못 쭛."
+        }
+      ]
+    }
+  ],
+  "grammarPoints": [
+    {
+      "id": "qb2-company-g-001",
+      "title": "설문에서 말한 내용",
+      "pattern": "Trong bản khảo sát, bạn nói là ...",
+      "meaningKo": "설문에서 당신은 ...라고 말했습니다.",
+      "sourcePage": 2,
+      "reviewNeeded": false
+    },
+    {
+      "id": "qb2-company-g-002",
+      "title": "묘사 요청",
+      "pattern": "Hãy miêu tả về + 명사.",
+      "meaningKo": "...에 대해 묘사해주세요.",
+      "sourcePage": 2,
+      "reviewNeeded": false
+    },
+    {
+      "id": "qb2-company-g-003",
+      "title": "회사 이름 말하기",
+      "pattern": "Tên công ty của tôi là + 회사명.",
+      "meaningKo": "제 회사 이름은 ...입니다.",
+      "sourcePage": 2,
+      "reviewNeeded": false
+    },
+    {
+      "id": "qb2-company-g-004",
+      "title": "위치 말하기",
+      "pattern": "Công ty của tôi nằm ở + 장소.",
+      "meaningKo": "제 회사는 ...에 위치해 있습니다.",
+      "sourcePage": 2,
+      "reviewNeeded": false
+    },
+    {
+      "id": "qb2-company-g-005",
+      "title": "회사에서 일하다",
+      "pattern": "Tôi làm việc ở công ty + 회사명.",
+      "meaningKo": "저는 ... 회사에서 일합니다.",
+      "sourcePage": 2,
+      "reviewNeeded": false
+    },
+    {
+      "id": "qb2-company-g-006",
+      "title": "제품을 생산하다",
+      "pattern": "Công ty của tôi sản xuất + 제품.",
+      "meaningKo": "제 회사는 ...을 생산합니다.",
+      "sourcePage": 2,
+      "reviewNeeded": false
+    },
+    {
+      "id": "qb2-company-g-007",
+      "title": "서비스를 제공하다",
+      "pattern": "Công ty của tôi cung cấp + dịch vụ.",
+      "meaningKo": "제 회사는 ... 서비스를 제공합니다.",
+      "sourcePage": 2,
+      "reviewNeeded": false
+    },
+    {
+      "id": "qb2-company-g-008",
+      "title": "제품/서비스 설명 요청",
+      "pattern": "Hãy kể cho tôi nghe về + 명사.",
+      "meaningKo": "...에 대해 저에게 말해주세요.",
+      "sourcePage": 2,
+      "reviewNeeded": false
+    },
+    {
+      "id": "qb2-company-g-009",
+      "title": "점심시간에",
+      "pattern": "Trong giờ nghỉ trưa, tôi thường + 동사.",
+      "meaningKo": "점심시간에 저는 보통 ...합니다.",
+      "sourcePage": 2,
+      "reviewNeeded": false
+    },
+    {
+      "id": "qb2-company-g-010",
+      "title": "~한 후에",
+      "pattern": "Sau khi + 동사, tôi + 동사.",
+      "meaningKo": "...한 후 저는 ...합니다.",
+      "sourcePage": 2,
+      "reviewNeeded": false
+    },
+    {
+      "id": "qb2-company-g-011",
+      "title": "~와 함께",
+      "pattern": "với + 사람",
+      "meaningKo": "...와 함께",
+      "sourcePage": 2,
+      "reviewNeeded": false
+    },
+    {
+      "id": "qb2-company-g-012",
+      "title": "이유 말하기",
+      "pattern": "vì + 문장",
+      "meaningKo": "... 때문에 / 왜냐하면 ...이기 때문에",
+      "sourcePage": 2,
+      "reviewNeeded": false
+    }
+  ],
+  "pronunciationTargets": [
+    {
+      "id": "qb2-company-p-001",
+      "text": "Trong bản khảo sát, bạn nói là bạn đang đi làm ở công ty.",
+      "hintKo": "설문에서 당신은 회사에 다니고 있다고 말했습니다.",
+      "audioSrc": "",
+      "sourcePage": 2,
+      "reviewNeeded": false,
+      "pronKo": "쫑 반 카오 삿, 반 노이 라 반 당 디 람 어 꽁 티.",
+      "mouthKo": "Trong bản khảo sát / bạn nói là / bạn đang đi làm / ở công ty 로 끊어 읽습니다.",
+      "toneKo": "문제 시작 문장이므로 뜻만 정확히 잡으면 됩니다."
+    },
+    {
+      "id": "qb2-company-p-002",
+      "text": "Hãy miêu tả về công ty của bạn.",
+      "hintKo": "당신의 회사에 대해 묘사해주세요.",
+      "audioSrc": "",
+      "sourcePage": 2,
+      "reviewNeeded": false,
+      "pronKo": "하이 미에우 따 베 꽁 티 꾸어 반.",
+      "mouthKo": "Hãy / miêu tả / về công ty của bạn 으로 나눠 읽습니다.",
+      "toneKo": "회사 소개 문제의 핵심 요청입니다."
+    },
+    {
+      "id": "qb2-company-p-003",
+      "text": "Tên công ty là gì?",
+      "hintKo": "회사 이름은 무엇입니까?",
+      "audioSrc": "",
+      "sourcePage": 2,
+      "reviewNeeded": false,
+      "pronKo": "뗀 꽁 티 라 지?",
+      "mouthKo": "tên은 이름, là gì는 무엇입니까입니다.",
+      "toneKo": "이 질문에는 회사명을 바로 답하면 됩니다."
+    },
+    {
+      "id": "qb2-company-p-004",
+      "text": "Công ty của bạn nằm ở đâu?",
+      "hintKo": "당신의 회사는 어디에 위치해 있나요?",
+      "audioSrc": "",
+      "sourcePage": 2,
+      "reviewNeeded": false,
+      "pronKo": "꽁 티 꾸어 반 남 어 더우?",
+      "mouthKo": "nằm ở đâu를 한 덩어리로 외우세요.",
+      "toneKo": "위치 질문입니다."
+    },
+    {
+      "id": "qb2-company-p-005",
+      "text": "Công ty của bạn sản xuất sản phẩm hay cung cấp dịch vụ nào?",
+      "hintKo": "당신의 회사는 어떤 제품을 생산하거나 어떤 서비스를 제공하나요?",
+      "audioSrc": "",
+      "sourcePage": 2,
+      "reviewNeeded": false,
+      "pronKo": "꽁 티 꾸어 반 산 쑤엇 산 펌 하이 꿍 껍 직 부 나오?",
+      "mouthKo": "sản xuất sản phẩm / hay / cung cấp dịch vụ nào 로 나눠 읽습니다.",
+      "toneKo": "제품/서비스 질문의 핵심 문장입니다."
+    },
+    {
+      "id": "qb2-company-p-006",
+      "text": "Người ta thường làm nhiều việc khác nhau trong giờ nghỉ trưa.",
+      "hintKo": "사람들은 점심시간에 보통 여러 가지 일을 합니다.",
+      "audioSrc": "",
+      "sourcePage": 2,
+      "reviewNeeded": false,
+      "pronKo": "응어이 따 트엉 람 니에우 비엑 칵 냐우 쫑 저 응이 쯔어.",
+      "mouthKo": "Người ta / thường làm / nhiều việc khác nhau / trong giờ nghỉ trưa 로 끊습니다.",
+      "toneKo": "뒤에 점심시간 질문이 이어진다는 신호입니다."
+    },
+    {
+      "id": "qb2-company-p-007",
+      "text": "Bạn thường làm gì trong giờ nghỉ trưa?",
+      "hintKo": "당신은 점심시간에 보통 무엇을 하나요?",
+      "audioSrc": "",
+      "sourcePage": 2,
+      "reviewNeeded": false,
+      "pronKo": "반 트엉 람 지 쫑 저 응이 쯔어?",
+      "mouthKo": "làm gì는 무엇을 하다, giờ nghỉ trưa는 점심시간입니다.",
+      "toneKo": "점심시간 답변으로 먹다, 커피 마시다, 쉬다를 말하면 됩니다."
+    }
+  ],
+  "quizSeeds": [
+    {
+      "id": "qb2-company-q-001",
+      "type": "match-term",
+      "prompt": "문제은행 회사주제 핵심 단어 매칭 1",
+      "answerSet": [
+        "công ty-회사",
+        "đi làm-출근하다/직장에 다니다",
+        "làm việc-일하다",
+        "bản khảo sát-설문조사",
+        "miêu tả-묘사하다",
+        "tên công ty-회사 이름",
+        "nằm ở-~에 위치하다",
+        "ở đâu-어디에",
+        "chi tiết-자세히",
+        "văn phòng-사무실"
+      ],
+      "sourcePage": 2,
+      "reviewNeeded": false
+    },
+    {
+      "id": "qb2-company-q-002",
+      "type": "match-term",
+      "prompt": "문제은행 회사주제 핵심 단어 매칭 2",
+      "answerSet": [
+        "sản xuất-생산하다",
+        "sản phẩm-제품",
+        "cung cấp-제공하다",
+        "dịch vụ-서비스",
+        "chip nhớ-메모리 칩",
+        "chất bán dẫn-반도체",
+        "nhà máy-공장",
+        "nhân viên-직원",
+        "đồng nghiệp-동료",
+        "bộ phận-부서"
+      ],
+      "sourcePage": 2,
+      "reviewNeeded": false
+    },
+    {
+      "id": "qb2-company-q-003",
+      "type": "match-term",
+      "prompt": "문제은행 회사주제 핵심 단어 매칭 3",
+      "answerSet": [
+        "giờ nghỉ trưa-점심시간",
+        "ăn trưa-점심을 먹다",
+        "căng-tin công ty-회사 구내식당",
+        "quán ăn công ty-회사 식당",
+        "uống cà phê-커피를 마시다",
+        "nói chuyện-대화하다",
+        "nghỉ ngơi-쉬다",
+        "sau khi-~한 후에",
+        "thường-보통/자주",
+        "khác nhau-서로 다르다/다양한"
+      ],
+      "sourcePage": 2,
+      "reviewNeeded": false
+    },
+    {
+      "id": "qb2-company-q-004",
+      "type": "sentence-meaning",
+      "prompt": "문제은행 회사주제 질문 뜻 고르기",
+      "answerSet": [
+        "Hãy miêu tả về công ty của bạn.-당신의 회사에 대해 묘사해주세요.",
+        "Tên công ty là gì?-회사 이름은 무엇입니까?",
+        "Công ty của bạn nằm ở đâu?-당신의 회사는 어디에 위치해 있나요?",
+        "Công ty của bạn sản xuất sản phẩm hay cung cấp dịch vụ nào?-당신의 회사는 어떤 제품을 생산하거나 어떤 서비스를 제공하나요?",
+        "Bạn thường làm gì trong giờ nghỉ trưa?-당신은 점심시간에 보통 무엇을 하나요?"
+      ],
+      "sourcePage": 2,
+      "reviewNeeded": false
+    },
+    {
+      "id": "qb2-company-q-005",
+      "type": "sentence-meaning",
+      "prompt": "문제은행 회사주제 답변 문장 뜻 고르기",
+      "answerSet": [
+        "Tôi đang làm việc ở công ty Samsung.-저는 삼성 회사에서 일하고 있습니다.",
+        "Công ty của tôi nằm ở Suwon.-제 회사는 수원에 위치해 있습니다.",
+        "Văn phòng rất hiện đại.-사무실은 매우 현대적입니다.",
+        "Công ty của tôi sản xuất chip nhớ.-제 회사는 메모리 칩을 생산합니다.",
+        "Tôi thường ăn trưa với đồng nghiệp.-저는 보통 동료와 점심을 먹습니다.",
+        "Sau khi ăn trưa, tôi uống cà phê.-점심을 먹은 후 저는 커피를 마십니다."
+      ],
+      "sourcePage": 2,
+      "reviewNeeded": false
+    },
+    {
+      "id": "qb2-company-q-006",
+      "type": "fill-blank",
+      "prompt": "빈칸 채우기: 제 회사 이름은 삼성입니다.",
+      "question": "Tên công ty của tôi ___ Samsung.",
+      "answer": "là",
+      "sourcePage": 2,
+      "reviewNeeded": false
+    },
+    {
+      "id": "qb2-company-q-007",
+      "type": "fill-blank",
+      "prompt": "빈칸 채우기: 제 회사는 수원에 위치해 있습니다.",
+      "question": "Công ty của tôi nằm ___ Suwon.",
+      "answer": "ở",
+      "sourcePage": 2,
+      "reviewNeeded": false
+    },
+    {
+      "id": "qb2-company-q-008",
+      "type": "fill-blank",
+      "prompt": "빈칸 채우기: 제 회사는 메모리 칩을 생산합니다.",
+      "question": "Công ty của tôi ___ chip nhớ.",
+      "answer": "sản xuất",
+      "sourcePage": 2,
+      "reviewNeeded": false
+    },
+    {
+      "id": "qb2-company-q-009",
+      "type": "fill-blank",
+      "prompt": "빈칸 채우기: 저는 점심시간에 보통 점심을 먹습니다.",
+      "question": "Trong giờ nghỉ trưa, tôi thường ___ trưa.",
+      "answer": "ăn",
+      "sourcePage": 2,
+      "reviewNeeded": false
+    },
+    {
+      "id": "qb2-company-q-010",
+      "type": "fill-blank",
+      "prompt": "빈칸 채우기: 점심을 먹은 후 저는 커피를 마십니다.",
+      "question": "Sau khi ăn trưa, tôi ___ cà phê.",
+      "answer": "uống",
+      "sourcePage": 2,
+      "reviewNeeded": false
+    },
+    {
+      "id": "qb2-company-q-011",
+      "type": "match-term",
+      "prompt": "문제은행 회사소개 답변 순서 맞추기",
+      "answerSet": [
+        "1-Tôi đang làm việc ở công ty Samsung.",
+        "2-Đây là một công ty rất lớn và nổi tiếng ở Hàn Quốc.",
+        "3-Công ty của tôi nằm ở Suwon.",
+        "4-Văn phòng rất hiện đại.",
+        "5-Môi trường làm việc khá tốt."
+      ],
+      "sourcePage": 2,
+      "reviewNeeded": false
+    },
+    {
+      "id": "qb2-company-q-012",
+      "type": "match-term",
+      "prompt": "문제은행 점심시간 답변 순서 맞추기",
+      "answerSet": [
+        "1-Trong giờ nghỉ trưa, tôi thường ăn trưa với đồng nghiệp.",
+        "2-Chúng tôi ăn ở căng-tin công ty.",
+        "3-Sau khi ăn trưa, chúng tôi uống cà phê.",
+        "4-Chúng tôi nói chuyện về công việc hoặc cuộc sống.",
+        "5-Nếu tôi mệt, tôi nghỉ ngơi một chút."
+      ],
+      "sourcePage": 2,
+      "reviewNeeded": false
+    }
+  ],
+  "unlockCondition": "always",
+  "reviewNeeded": false
+},
+    {
+  "lessonId": "question-bank-001-self-introduction",
+  "unitLabel": "문제은행1",
+  "titleKo": "문제은행1: 자기소개",
+  "titleVi": "Ngân hàng câu hỏi 1: Giới thiệu bản thân",
+  "pageRange": "문제은행 / 자기소개",
+  "goals": [
+    "OPIc 첫 질문인 자기소개 문제를 이해한다",
+    "이름, 직업, 회사, 사는 곳, 가족, 취미를 순서대로 말할 수 있다",
+    "짧은 답변과 조금 긴 답변을 모두 연습한다",
+    "초보자도 바로 외울 수 있는 자기소개 스크립트를 만든다",
+    "질문 전체를 끊기지 않게 읽고 의미를 파악한다"
+  ],
+  "topicOverview": "이 문제는 OPIc 인터뷰의 시작 질문입니다. 시험관이 '이제 인터뷰를 시작하겠습니다. 자신에 대해 간단히 말해주세요'라고 요청하는 형태입니다. 초보자는 너무 길게 말하려고 하기보다 이름, 직업, 사는 곳, 가족, 취미, 요즘 상태 순서로 말하면 안정적입니다. 핵심 문장 구조는 'Tôi tên là ...', 'Tôi là nhân viên công ty ...', 'Tôi sống ở ...', 'Gia đình tôi có ... người', 'Tôi thích ...' 입니다.",
+  "cultureTopics": [
+    "자기소개",
+    "이름 말하기",
+    "직업 말하기",
+    "회사 말하기",
+    "사는 곳 말하기",
+    "가족 소개",
+    "취미 말하기",
+    "요즘 상태 말하기",
+    "OPIc 첫 질문 대응"
+  ],
+  "vocabCards": [
+    {
+      "id": "qb1-self-v-001",
+      "term": "giờ này",
+      "meaningKo": "이제 / 지금 이 시점에",
+      "example": "Giờ này, chúng ta hãy bắt đầu cuộc phỏng vấn nhé.",
+      "exampleMeaningKo": "이제 우리 인터뷰를 시작합시다.",
+      "audioSrc": "",
+      "sourcePage": 1,
+      "reviewNeeded": false,
+      "pronKo": "저 나이",
+      "pronNoteKo": "giờ는 시간, này는 이/이것이라는 뜻입니다. 여기서는 '이제' 느낌으로 쓰입니다.",
+      "pronChunks": ["giờ=저", "này=나이"]
+    },
+    {
+      "id": "qb1-self-v-002",
+      "term": "chúng ta",
+      "meaningKo": "우리",
+      "example": "Chúng ta hãy bắt đầu.",
+      "exampleMeaningKo": "우리 시작합시다.",
+      "audioSrc": "",
+      "sourcePage": 1,
+      "reviewNeeded": false,
+      "pronKo": "쭝 따",
+      "pronNoteKo": "말하는 사람과 듣는 사람을 포함한 '우리'입니다.",
+      "pronChunks": ["chúng=쭝", "ta=따"]
+    },
+    {
+      "id": "qb1-self-v-003",
+      "term": "hãy",
+      "meaningKo": "~하세요 / ~합시다",
+      "example": "Hãy kể cho tôi nghe.",
+      "exampleMeaningKo": "저에게 말해주세요.",
+      "audioSrc": "",
+      "sourcePage": 1,
+      "reviewNeeded": false,
+      "pronKo": "하이",
+      "pronNoteKo": "요청이나 권유를 부드럽게 만들 때 씁니다.",
+      "pronChunks": ["hãy=하이"]
+    },
+    {
+      "id": "qb1-self-v-004",
+      "term": "bắt đầu",
+      "meaningKo": "시작하다",
+      "example": "Chúng ta hãy bắt đầu cuộc phỏng vấn.",
+      "exampleMeaningKo": "우리 인터뷰를 시작합시다.",
+      "audioSrc": "",
+      "sourcePage": 1,
+      "reviewNeeded": false,
+      "pronKo": "밧 더우",
+      "pronNoteKo": "bắt đầu + 명사/동사 형태로 자주 씁니다.",
+      "pronChunks": ["bắt=밧", "đầu=더우"]
+    },
+    {
+      "id": "qb1-self-v-005",
+      "term": "cuộc phỏng vấn",
+      "meaningKo": "인터뷰 / 면접",
+      "example": "Cuộc phỏng vấn bắt đầu bây giờ.",
+      "exampleMeaningKo": "인터뷰는 지금 시작합니다.",
+      "audioSrc": "",
+      "sourcePage": 1,
+      "reviewNeeded": false,
+      "pronKo": "꾸옥 퐁 번",
+      "pronNoteKo": "OPIc 시험 시작 안내에서 나오는 핵심 표현입니다.",
+      "pronChunks": ["cuộc=꾸옥", "phỏng vấn=퐁 번"]
+    },
+    {
+      "id": "qb1-self-v-006",
+      "term": "nhé",
+      "meaningKo": "~요 / ~ nhé",
+      "example": "Chúng ta hãy bắt đầu cuộc phỏng vấn nhé.",
+      "exampleMeaningKo": "우리 인터뷰를 시작해요.",
+      "audioSrc": "",
+      "sourcePage": 1,
+      "reviewNeeded": false,
+      "pronKo": "녜",
+      "pronNoteKo": "문장을 부드럽게 만드는 말끝 표현입니다.",
+      "pronChunks": ["nhé=녜"]
+    },
+    {
+      "id": "qb1-self-v-007",
+      "term": "kể",
+      "meaningKo": "이야기하다 / 말해주다",
+      "example": "Hãy kể về bản thân bạn.",
+      "exampleMeaningKo": "당신 자신에 대해 이야기해주세요.",
+      "audioSrc": "",
+      "sourcePage": 1,
+      "reviewNeeded": false,
+      "pronKo": "께",
+      "pronNoteKo": "kể về ... 는 '~에 대해 이야기하다'입니다.",
+      "pronChunks": ["kể=께"]
+    },
+    {
+      "id": "qb1-self-v-008",
+      "term": "kể cho tôi nghe",
+      "meaningKo": "나에게 말해주다 / 들려주다",
+      "example": "Hãy kể cho tôi nghe một chút về bản thân bạn.",
+      "exampleMeaningKo": "당신 자신에 대해 조금 저에게 말해주세요.",
+      "audioSrc": "",
+      "sourcePage": 1,
+      "reviewNeeded": false,
+      "pronKo": "께 쪼 또이 응에",
+      "pronNoteKo": "OPIc 문제에서 매우 자주 나오는 요청 표현입니다.",
+      "pronChunks": ["kể=께", "cho tôi=쪼 또이", "nghe=응에"]
+    },
+    {
+      "id": "qb1-self-v-009",
+      "term": "tôi",
+      "meaningKo": "저 / 나",
+      "example": "Tôi tên là Sungmook.",
+      "exampleMeaningKo": "제 이름은 성묵입니다.",
+      "audioSrc": "",
+      "sourcePage": 1,
+      "reviewNeeded": false,
+      "pronKo": "또이",
+      "pronNoteKo": "가장 기본적인 1인칭 표현입니다.",
+      "pronChunks": ["tôi=또이"]
+    },
+    {
+      "id": "qb1-self-v-010",
+      "term": "nghe",
+      "meaningKo": "듣다",
+      "example": "Hãy kể cho tôi nghe.",
+      "exampleMeaningKo": "저에게 들려주세요.",
+      "audioSrc": "",
+      "sourcePage": 1,
+      "reviewNeeded": false,
+      "pronKo": "응에",
+      "pronNoteKo": "nghe는 듣다입니다. 여기서는 '말해줘서 내가 듣게 해줘' 느낌입니다.",
+      "pronChunks": ["nghe=응에"]
+    },
+    {
+      "id": "qb1-self-v-011",
+      "term": "một chút",
+      "meaningKo": "조금 / 약간",
+      "example": "Hãy nói một chút về bản thân bạn.",
+      "exampleMeaningKo": "당신 자신에 대해 조금 말해주세요.",
+      "audioSrc": "",
+      "sourcePage": 1,
+      "reviewNeeded": false,
+      "pronKo": "못 쭛",
+      "pronNoteKo": "자기소개에서 '간단히'라는 느낌으로 자주 나옵니다.",
+      "pronChunks": ["một=못", "chút=쭛"]
+    },
+    {
+      "id": "qb1-self-v-012",
+      "term": "về",
+      "meaningKo": "~에 대해 / ~에 관해",
+      "example": "Tôi nói về gia đình tôi.",
+      "exampleMeaningKo": "저는 제 가족에 대해 말합니다.",
+      "audioSrc": "",
+      "sourcePage": 1,
+      "reviewNeeded": false,
+      "pronKo": "베",
+      "pronNoteKo": "nói về, kể về, miêu tả về 형태로 자주 나옵니다.",
+      "pronChunks": ["về=베"]
+    },
+    {
+      "id": "qb1-self-v-013",
+      "term": "bản thân",
+      "meaningKo": "자기 자신 / 본인",
+      "example": "Tôi nói về bản thân tôi.",
+      "exampleMeaningKo": "저는 제 자신에 대해 말합니다.",
+      "audioSrc": "",
+      "sourcePage": 1,
+      "reviewNeeded": false,
+      "pronKo": "반 턴",
+      "pronNoteKo": "자기소개 주제의 핵심 단어입니다.",
+      "pronChunks": ["bản=반", "thân=턴"]
+    },
+    {
+      "id": "qb1-self-v-014",
+      "term": "bạn",
+      "meaningKo": "당신 / 친구",
+      "example": "Hãy kể về bản thân bạn.",
+      "exampleMeaningKo": "당신 자신에 대해 이야기해주세요.",
+      "audioSrc": "",
+      "sourcePage": 1,
+      "reviewNeeded": false,
+      "pronKo": "반",
+      "pronNoteKo": "질문에서는 '당신'이라는 뜻으로 쓰입니다.",
+      "pronChunks": ["bạn=반"]
+    },
+    {
+      "id": "qb1-self-v-015",
+      "term": "tên",
+      "meaningKo": "이름",
+      "example": "Tôi tên là Sungmook.",
+      "exampleMeaningKo": "제 이름은 성묵입니다.",
+      "audioSrc": "",
+      "sourcePage": 1,
+      "reviewNeeded": false,
+      "pronKo": "뗀",
+      "pronNoteKo": "Tôi tên là ... = 제 이름은 ...입니다.",
+      "pronChunks": ["tên=뗀"]
+    },
+    {
+      "id": "qb1-self-v-016",
+      "term": "nhân viên",
+      "meaningKo": "직원 / 사원",
+      "example": "Tôi là nhân viên công ty Samsung.",
+      "exampleMeaningKo": "저는 삼성 회사 직원입니다.",
+      "audioSrc": "",
+      "sourcePage": 1,
+      "reviewNeeded": false,
+      "pronKo": "년 비엔",
+      "pronNoteKo": "직업을 말할 때 가장 쉽게 쓸 수 있습니다.",
+      "pronChunks": ["nhân=년", "viên=비엔"]
+    },
+    {
+      "id": "qb1-self-v-017",
+      "term": "công ty",
+      "meaningKo": "회사",
+      "example": "Tôi làm việc ở công ty Samsung.",
+      "exampleMeaningKo": "저는 삼성 회사에서 일합니다.",
+      "audioSrc": "",
+      "sourcePage": 1,
+      "reviewNeeded": false,
+      "pronKo": "꽁 티",
+      "pronNoteKo": "직장인 자기소개 핵심 단어입니다.",
+      "pronChunks": ["công=꽁", "ty=티"]
+    },
+    {
+      "id": "qb1-self-v-018",
+      "term": "làm việc",
+      "meaningKo": "일하다",
+      "example": "Tôi làm việc ở văn phòng.",
+      "exampleMeaningKo": "저는 사무실에서 일합니다.",
+      "audioSrc": "",
+      "sourcePage": 1,
+      "reviewNeeded": false,
+      "pronKo": "람 비엑",
+      "pronNoteKo": "직업과 회사 답변에서 자주 씁니다.",
+      "pronChunks": ["làm=람", "việc=비엑"]
+    },
+    {
+      "id": "qb1-self-v-019",
+      "term": "sống",
+      "meaningKo": "살다",
+      "example": "Tôi sống ở Dongtan.",
+      "exampleMeaningKo": "저는 동탄에 삽니다.",
+      "audioSrc": "",
+      "sourcePage": 1,
+      "reviewNeeded": false,
+      "pronKo": "송",
+      "pronNoteKo": "사는 곳을 말할 때 씁니다.",
+      "pronChunks": ["sống=송"]
+    },
+    {
+      "id": "qb1-self-v-020",
+      "term": "ở",
+      "meaningKo": "~에 / ~에서",
+      "example": "Tôi sống ở Hàn Quốc.",
+      "exampleMeaningKo": "저는 한국에 삽니다.",
+      "audioSrc": "",
+      "sourcePage": 1,
+      "reviewNeeded": false,
+      "pronKo": "어",
+      "pronNoteKo": "위치 표현에서 거의 항상 나옵니다.",
+      "pronChunks": ["ở=어"]
+    },
+    {
+      "id": "qb1-self-v-021",
+      "term": "với",
+      "meaningKo": "~와 함께",
+      "example": "Tôi sống với gia đình.",
+      "exampleMeaningKo": "저는 가족과 함께 삽니다.",
+      "audioSrc": "",
+      "sourcePage": 1,
+      "reviewNeeded": false,
+      "pronKo": "버이",
+      "pronNoteKo": "누구와 함께 사는지 말할 때 씁니다.",
+      "pronChunks": ["với=버이"]
+    },
+    {
+      "id": "qb1-self-v-022",
+      "term": "gia đình",
+      "meaningKo": "가족",
+      "example": "Tôi sống với gia đình.",
+      "exampleMeaningKo": "저는 가족과 함께 삽니다.",
+      "audioSrc": "",
+      "sourcePage": 1,
+      "reviewNeeded": false,
+      "pronKo": "자 딘",
+      "pronNoteKo": "자기소개에서 거의 반드시 쓰는 단어입니다.",
+      "pronChunks": ["gia=자", "đình=딘"]
+    },
+    {
+      "id": "qb1-self-v-023",
+      "term": "vợ",
+      "meaningKo": "아내",
+      "example": "Tôi sống với vợ và hai con gái.",
+      "exampleMeaningKo": "저는 아내와 두 딸과 함께 삽니다.",
+      "audioSrc": "",
+      "sourcePage": 1,
+      "reviewNeeded": false,
+      "pronKo": "버",
+      "pronNoteKo": "성조가 중요하지만 초보자는 짧게 '버' 느낌으로 시작해도 됩니다.",
+      "pronChunks": ["vợ=버"]
+    },
+    {
+      "id": "qb1-self-v-024",
+      "term": "con gái",
+      "meaningKo": "딸",
+      "example": "Tôi có hai con gái.",
+      "exampleMeaningKo": "저는 딸이 두 명 있습니다.",
+      "audioSrc": "",
+      "sourcePage": 1,
+      "reviewNeeded": false,
+      "pronKo": "꼰 가이",
+      "pronNoteKo": "con은 자녀, gái는 여자입니다.",
+      "pronChunks": ["con=꼰", "gái=가이"]
+    },
+    {
+      "id": "qb1-self-v-025",
+      "term": "thích",
+      "meaningKo": "좋아하다",
+      "example": "Tôi thích học tiếng Việt.",
+      "exampleMeaningKo": "저는 베트남어 공부하는 것을 좋아합니다.",
+      "audioSrc": "",
+      "sourcePage": 1,
+      "reviewNeeded": false,
+      "pronKo": "틱",
+      "pronNoteKo": "Tôi thích + 동사/명사 형태로 씁니다.",
+      "pronChunks": ["thích=틱"]
+    },
+    {
+      "id": "qb1-self-v-026",
+      "term": "học",
+      "meaningKo": "공부하다 / 배우다",
+      "example": "Tôi học tiếng Việt mỗi ngày.",
+      "exampleMeaningKo": "저는 매일 베트남어를 공부합니다.",
+      "audioSrc": "",
+      "sourcePage": 1,
+      "reviewNeeded": false,
+      "pronKo": "혹",
+      "pronNoteKo": "외국어 공부를 말할 때 씁니다.",
+      "pronChunks": ["học=혹"]
+    },
+    {
+      "id": "qb1-self-v-027",
+      "term": "tiếng Việt",
+      "meaningKo": "베트남어",
+      "example": "Tôi đang học tiếng Việt.",
+      "exampleMeaningKo": "저는 베트남어를 공부하고 있습니다.",
+      "audioSrc": "",
+      "sourcePage": 1,
+      "reviewNeeded": false,
+      "pronKo": "띠엥 비엣",
+      "pronNoteKo": "tiếng은 언어, Việt은 베트남입니다.",
+      "pronChunks": ["tiếng=띠엥", "Việt=비엣"]
+    },
+    {
+      "id": "qb1-self-v-028",
+      "term": "dạo này",
+      "meaningKo": "요즘",
+      "example": "Dạo này tôi hơi bận.",
+      "exampleMeaningKo": "요즘 저는 조금 바쁩니다.",
+      "audioSrc": "",
+      "sourcePage": 1,
+      "reviewNeeded": false,
+      "pronKo": "자오 나이",
+      "pronNoteKo": "요즘 상태를 말할 때 좋습니다.",
+      "pronChunks": ["dạo=자오", "này=나이"]
+    },
+    {
+      "id": "qb1-self-v-029",
+      "term": "hơi",
+      "meaningKo": "조금 / 약간",
+      "example": "Tôi hơi bận.",
+      "exampleMeaningKo": "저는 조금 바쁩니다.",
+      "audioSrc": "",
+      "sourcePage": 1,
+      "reviewNeeded": false,
+      "pronKo": "허이",
+      "pronNoteKo": "형용사 앞에 붙여 '조금 ~하다'를 만듭니다.",
+      "pronChunks": ["hơi=허이"]
+    },
+    {
+      "id": "qb1-self-v-030",
+      "term": "bận",
+      "meaningKo": "바쁘다",
+      "example": "Dạo này tôi hơi bận nhưng rất vui.",
+      "exampleMeaningKo": "요즘 저는 조금 바쁘지만 매우 즐겁습니다.",
+      "audioSrc": "",
+      "sourcePage": 1,
+      "reviewNeeded": false,
+      "pronKo": "번",
+      "pronNoteKo": "직장인 자기소개 마무리에 쓰기 좋습니다.",
+      "pronChunks": ["bận=번"]
+    },
+    {
+      "id": "qb1-self-v-031",
+      "term": "nhưng",
+      "meaningKo": "하지만",
+      "example": "Tôi hơi bận nhưng rất vui.",
+      "exampleMeaningKo": "저는 조금 바쁘지만 매우 즐겁습니다.",
+      "audioSrc": "",
+      "sourcePage": 1,
+      "reviewNeeded": false,
+      "pronKo": "늉",
+      "pronNoteKo": "두 문장을 자연스럽게 연결할 때 씁니다.",
+      "pronChunks": ["nhưng=늉"]
+    },
+    {
+      "id": "qb1-self-v-032",
+      "term": "rất vui",
+      "meaningKo": "매우 즐겁다 / 기쁘다",
+      "example": "Tôi rất vui.",
+      "exampleMeaningKo": "저는 매우 즐겁습니다.",
+      "audioSrc": "",
+      "sourcePage": 1,
+      "reviewNeeded": false,
+      "pronKo": "젓 부이",
+      "pronNoteKo": "자기소개 마지막을 긍정적으로 마무리할 때 좋습니다.",
+      "pronChunks": ["rất=젓", "vui=부이"]
+    }
+  ],
+  "sentenceCards": [
+    {
+      "id": "qb1-self-s-001",
+      "textVi": "Giờ này, chúng ta hãy bắt đầu cuộc phỏng vấn nhé. Hãy kể cho tôi nghe một chút về bản thân bạn.",
+      "textKo": "이제 인터뷰를 시작하겠습니다. 자신에 대해 간단하게 말해주세요.",
+      "exampleAnswerVi": "Xin chào. Tôi tên là Sungmook. Tôi là nhân viên công ty Samsung. Tôi sống ở Dongtan với vợ và hai con gái. Tôi thích uống cà phê và học tiếng Việt. Dạo này tôi hơi bận nhưng rất vui.",
+      "exampleAnswerKo": "안녕하세요. 제 이름은 성묵입니다. 저는 삼성 회사 직원입니다. 저는 아내와 두 딸과 함께 동탄에 삽니다. 저는 커피 마시는 것과 베트남어 공부하는 것을 좋아합니다. 요즘 저는 조금 바쁘지만 매우 즐겁습니다.",
+      "audioSrc": "",
+      "sourcePage": 1,
+      "reviewNeeded": false,
+      "pronKo": "저 나이, 쭝 따 하이 밧 더우 꾸옥 퐁 번 녜. 하이 께 쪼 또이 응에 못 쭛 베 반 턴 반.",
+      "exampleAnswerPronKo": "씬 짜오. 또이 뗀 라 성묵. 또이 라 년 비엔 꽁 티 삼성. 또이 송 어 동탄 버이 버 바 하이 꼰 가이. 또이 틱 우옹 까 페 바 혹 띠엥 비엣. 자오 나이 또이 허이 번 늉 젓 부이.",
+      "pronNoteKo": "질문은 길지만 핵심은 '자신에 대해 말해주세요'입니다. 답변은 이름-직업-사는 곳-가족-취미-요즘 상태 순서로 말하면 됩니다."
+    },
+    {
+      "id": "qb1-self-s-002",
+      "textVi": "Hãy kể cho tôi nghe một chút về bản thân bạn.",
+      "textKo": "당신 자신에 대해 조금 말해주세요.",
+      "exampleAnswerVi": "Tôi tên là Sungmook. Tôi là người Hàn Quốc. Tôi là nhân viên công ty Samsung.",
+      "exampleAnswerKo": "제 이름은 성묵입니다. 저는 한국 사람입니다. 저는 삼성 회사 직원입니다.",
+      "audioSrc": "",
+      "sourcePage": 1,
+      "reviewNeeded": false,
+      "pronKo": "하이 께 쪼 또이 응에 못 쭛 베 반 턴 반.",
+      "exampleAnswerPronKo": "또이 뗀 라 성묵. 또이 라 응어이 한 꾸옥. 또이 라 년 비엔 꽁 티 삼성.",
+      "pronNoteKo": "짧게 답할 때 쓰는 기본형입니다."
+    },
+    {
+      "id": "qb1-self-s-003",
+      "textVi": "Tôi tên là Sungmook.",
+      "textKo": "제 이름은 성묵입니다.",
+      "exampleAnswerVi": "Tôi tên là Sungmook.",
+      "exampleAnswerKo": "제 이름은 성묵입니다.",
+      "audioSrc": "",
+      "sourcePage": 1,
+      "reviewNeeded": false,
+      "pronKo": "또이 뗀 라 성묵.",
+      "exampleAnswerPronKo": "또이 뗀 라 성묵.",
+      "pronNoteKo": "이름 소개의 가장 기본 문장입니다."
+    },
+    {
+      "id": "qb1-self-s-004",
+      "textVi": "Tôi là nhân viên công ty Samsung.",
+      "textKo": "저는 삼성 회사 직원입니다.",
+      "exampleAnswerVi": "Tôi là nhân viên công ty Samsung.",
+      "exampleAnswerKo": "저는 삼성 회사 직원입니다.",
+      "audioSrc": "",
+      "sourcePage": 1,
+      "reviewNeeded": false,
+      "pronKo": "또이 라 년 비엔 꽁 티 삼성.",
+      "exampleAnswerPronKo": "또이 라 년 비엔 꽁 티 삼성.",
+      "pronNoteKo": "직업 소개를 가장 쉽게 말하는 문장입니다."
+    },
+    {
+      "id": "qb1-self-s-005",
+      "textVi": "Tôi làm việc ở văn phòng.",
+      "textKo": "저는 사무실에서 일합니다.",
+      "exampleAnswerVi": "Tôi làm việc ở văn phòng.",
+      "exampleAnswerKo": "저는 사무실에서 일합니다.",
+      "audioSrc": "",
+      "sourcePage": 1,
+      "reviewNeeded": false,
+      "pronKo": "또이 람 비엑 어 반 퐁.",
+      "exampleAnswerPronKo": "또이 람 비엑 어 반 퐁.",
+      "pronNoteKo": "회사원 답변에 자연스럽게 추가하기 좋습니다."
+    },
+    {
+      "id": "qb1-self-s-006",
+      "textVi": "Tôi sống ở Dongtan với vợ và hai con gái.",
+      "textKo": "저는 아내와 두 딸과 함께 동탄에 삽니다.",
+      "exampleAnswerVi": "Tôi sống ở Dongtan với vợ và hai con gái.",
+      "exampleAnswerKo": "저는 아내와 두 딸과 함께 동탄에 삽니다.",
+      "audioSrc": "",
+      "sourcePage": 1,
+      "reviewNeeded": false,
+      "pronKo": "또이 송 어 동탄 버이 버 바 하이 꼰 가이.",
+      "exampleAnswerPronKo": "또이 송 어 동탄 버이 버 바 하이 꼰 가이.",
+      "pronNoteKo": "사는 곳과 가족을 한 번에 말할 수 있는 문장입니다."
+    },
+    {
+      "id": "qb1-self-s-007",
+      "textVi": "Gia đình tôi có bốn người.",
+      "textKo": "제 가족은 네 명입니다.",
+      "exampleAnswerVi": "Gia đình tôi có bốn người: vợ tôi, hai con gái và tôi.",
+      "exampleAnswerKo": "제 가족은 네 명입니다. 제 아내, 두 딸 그리고 저입니다.",
+      "audioSrc": "",
+      "sourcePage": 1,
+      "reviewNeeded": false,
+      "pronKo": "자 딘 또이 꼬 본 응어이.",
+      "exampleAnswerPronKo": "자 딘 또이 꼬 본 응어이: 버 또이, 하이 꼰 가이 바 또이.",
+      "pronNoteKo": "가족 수를 말할 때는 숫자 + người를 씁니다."
+    },
+    {
+      "id": "qb1-self-s-008",
+      "textVi": "Tôi thích uống cà phê và học tiếng Việt.",
+      "textKo": "저는 커피 마시는 것과 베트남어 공부하는 것을 좋아합니다.",
+      "exampleAnswerVi": "Tôi thích uống cà phê và học tiếng Việt.",
+      "exampleAnswerKo": "저는 커피 마시는 것과 베트남어 공부하는 것을 좋아합니다.",
+      "audioSrc": "",
+      "sourcePage": 1,
+      "reviewNeeded": false,
+      "pronKo": "또이 틱 우옹 까 페 바 혹 띠엥 비엣.",
+      "exampleAnswerPronKo": "또이 틱 우옹 까 페 바 혹 띠엥 비엣.",
+      "pronNoteKo": "취미를 간단히 말할 때 좋은 문장입니다."
+    },
+    {
+      "id": "qb1-self-s-009",
+      "textVi": "Dạo này tôi hơi bận nhưng rất vui.",
+      "textKo": "요즘 저는 조금 바쁘지만 매우 즐겁습니다.",
+      "exampleAnswerVi": "Dạo này tôi hơi bận vì tôi phải làm việc nhiều, nhưng tôi rất vui.",
+      "exampleAnswerKo": "요즘 저는 일을 많이 해야 해서 조금 바쁘지만 매우 즐겁습니다.",
+      "audioSrc": "",
+      "sourcePage": 1,
+      "reviewNeeded": false,
+      "pronKo": "자오 나이 또이 허이 번 늉 젓 부이.",
+      "exampleAnswerPronKo": "자오 나이 또이 허이 번 비 또이 파이 람 비엑 니에우, 늉 또이 젓 부이.",
+      "pronNoteKo": "자기소개 마지막에 요즘 상태를 넣으면 자연스럽습니다."
+    },
+    {
+      "id": "qb1-self-s-010",
+      "textVi": "Tôi đang học tiếng Việt để thi OPIc.",
+      "textKo": "저는 OPIc 시험을 보기 위해 베트남어를 공부하고 있습니다.",
+      "exampleAnswerVi": "Tôi đang học tiếng Việt để thi OPIc. Tiếng Việt hơi khó nhưng rất thú vị.",
+      "exampleAnswerKo": "저는 OPIc 시험을 보기 위해 베트남어를 공부하고 있습니다. 베트남어는 조금 어렵지만 매우 재미있습니다.",
+      "audioSrc": "",
+      "sourcePage": 1,
+      "reviewNeeded": false,
+      "pronKo": "또이 당 혹 띠엥 비엣 데 티 오픽.",
+      "exampleAnswerPronKo": "또이 당 혹 띠엥 비엣 데 티 오픽. 띠엥 비엣 허이 커 늉 젓 투 비.",
+      "pronNoteKo": "현재 공부 중인 내용을 넣으면 자기소개가 더 자연스러워집니다."
+    },
+    {
+      "id": "qb1-self-s-011",
+      "textVi": "Tôi là người Hàn Quốc.",
+      "textKo": "저는 한국 사람입니다.",
+      "exampleAnswerVi": "Tôi là người Hàn Quốc và tôi sống ở Hàn Quốc.",
+      "exampleAnswerKo": "저는 한국 사람이고 한국에 삽니다.",
+      "audioSrc": "",
+      "sourcePage": 1,
+      "reviewNeeded": false,
+      "pronKo": "또이 라 응어이 한 꾸옥.",
+      "exampleAnswerPronKo": "또이 라 응어이 한 꾸옥 바 또이 송 어 한 꾸옥.",
+      "pronNoteKo": "국적을 말할 때 쓰는 기본 문장입니다."
+    },
+    {
+      "id": "qb1-self-s-012",
+      "textVi": "Tôi muốn nói tiếng Việt tốt hơn.",
+      "textKo": "저는 베트남어를 더 잘 말하고 싶습니다.",
+      "exampleAnswerVi": "Tôi muốn nói tiếng Việt tốt hơn, nên tôi học mỗi ngày.",
+      "exampleAnswerKo": "저는 베트남어를 더 잘 말하고 싶어서 매일 공부합니다.",
+      "audioSrc": "",
+      "sourcePage": 1,
+      "reviewNeeded": false,
+      "pronKo": "또이 무온 노이 띠엥 비엣 똣 헌.",
+      "exampleAnswerPronKo": "또이 무온 노이 띠엥 비엣 똣 헌, 넨 또이 혹 모이 응아이.",
+      "pronNoteKo": "학습 동기를 말할 때 좋은 문장입니다."
+    }
+  ],
+  "dialogues": [
+    {
+      "id": "qb1-self-d-001",
+      "title": "자기소개 기본 대화",
+      "audioSrc": "",
+      "sourcePage": 1,
+      "reviewNeeded": false,
+      "lines": [
+        {
+          "speaker": "A",
+          "vi": "Hãy kể cho tôi nghe một chút về bản thân bạn.",
+          "ko": "당신 자신에 대해 조금 말해주세요.",
+          "pronKo": "하이 께 쪼 또이 응에 못 쭛 베 반 턴 반."
+        },
+        {
+          "speaker": "B",
+          "vi": "Xin chào. Tôi tên là Sungmook.",
+          "ko": "안녕하세요. 제 이름은 성묵입니다.",
+          "pronKo": "씬 짜오. 또이 뗀 라 성묵."
+        },
+        {
+          "speaker": "B",
+          "vi": "Tôi là nhân viên công ty Samsung.",
+          "ko": "저는 삼성 회사 직원입니다.",
+          "pronKo": "또이 라 년 비엔 꽁 티 삼성."
+        },
+        {
+          "speaker": "B",
+          "vi": "Tôi sống ở Dongtan với gia đình.",
+          "ko": "저는 가족과 함께 동탄에 삽니다.",
+          "pronKo": "또이 송 어 동탄 버이 자 딘."
+        }
+      ]
+    },
+    {
+      "id": "qb1-self-d-002",
+      "title": "자기소개 확장 대화",
+      "audioSrc": "",
+      "sourcePage": 1,
+      "reviewNeeded": false,
+      "lines": [
+        {
+          "speaker": "A",
+          "vi": "Bạn làm nghề gì?",
+          "ko": "당신은 무슨 일을 하나요?",
+          "pronKo": "반 람 응에 지?"
+        },
+        {
+          "speaker": "B",
+          "vi": "Tôi là nhân viên công ty Samsung.",
+          "ko": "저는 삼성 회사 직원입니다.",
+          "pronKo": "또이 라 년 비엔 꽁 티 삼성."
+        },
+        {
+          "speaker": "A",
+          "vi": "Bạn sống ở đâu?",
+          "ko": "당신은 어디에 삽니까?",
+          "pronKo": "반 송 어 더우?"
+        },
+        {
+          "speaker": "B",
+          "vi": "Tôi sống ở Dongtan với vợ và hai con gái.",
+          "ko": "저는 아내와 두 딸과 함께 동탄에 삽니다.",
+          "pronKo": "또이 송 어 동탄 버이 버 바 하이 꼰 가이."
+        },
+        {
+          "speaker": "A",
+          "vi": "Bạn thích làm gì?",
+          "ko": "당신은 무엇을 하는 것을 좋아하나요?",
+          "pronKo": "반 틱 람 지?"
+        },
+        {
+          "speaker": "B",
+          "vi": "Tôi thích uống cà phê và học tiếng Việt.",
+          "ko": "저는 커피 마시는 것과 베트남어 공부하는 것을 좋아합니다.",
+          "pronKo": "또이 틱 우옹 까 페 바 혹 띠엥 비엣."
+        }
+      ]
+    },
+    {
+      "id": "qb1-self-d-003",
+      "title": "OPIc 답변 연습 대화",
+      "audioSrc": "",
+      "sourcePage": 1,
+      "reviewNeeded": false,
+      "lines": [
+        {
+          "speaker": "A",
+          "vi": "Giờ này, chúng ta hãy bắt đầu cuộc phỏng vấn nhé.",
+          "ko": "이제 인터뷰를 시작하겠습니다.",
+          "pronKo": "저 나이, 쭝 따 하이 밧 더우 꾸옥 퐁 번 녜."
+        },
+        {
+          "speaker": "A",
+          "vi": "Hãy kể cho tôi nghe một chút về bản thân bạn.",
+          "ko": "당신 자신에 대해 조금 말해주세요.",
+          "pronKo": "하이 께 쪼 또이 응에 못 쭛 베 반 턴 반."
+        },
+        {
+          "speaker": "B",
+          "vi": "Xin chào. Tôi tên là Sungmook. Tôi là người Hàn Quốc.",
+          "ko": "안녕하세요. 제 이름은 성묵입니다. 저는 한국 사람입니다.",
+          "pronKo": "씬 짜오. 또이 뗀 라 성묵. 또이 라 응어이 한 꾸옥."
+        },
+        {
+          "speaker": "B",
+          "vi": "Tôi làm việc ở công ty Samsung và sống ở Dongtan với gia đình.",
+          "ko": "저는 삼성 회사에서 일하고 가족과 함께 동탄에 삽니다.",
+          "pronKo": "또이 람 비엑 어 꽁 티 삼성 바 송 어 동탄 버이 자 딘."
+        },
+        {
+          "speaker": "B",
+          "vi": "Tôi đang học tiếng Việt để thi OPIc.",
+          "ko": "저는 OPIc 시험을 보기 위해 베트남어를 공부하고 있습니다.",
+          "pronKo": "또이 당 혹 띠엥 비엣 데 티 오픽."
+        }
+      ]
+    }
+  ],
+  "grammarPoints": [
+    {
+      "id": "qb1-self-g-001",
+      "title": "자기소개 요청 표현",
+      "pattern": "Hãy kể cho tôi nghe một chút về bản thân bạn.",
+      "meaningKo": "당신 자신에 대해 조금 말해주세요.",
+      "sourcePage": 1,
+      "reviewNeeded": false
+    },
+    {
+      "id": "qb1-self-g-002",
+      "title": "이름 말하기",
+      "pattern": "Tôi tên là + 이름.",
+      "meaningKo": "제 이름은 ...입니다.",
+      "sourcePage": 1,
+      "reviewNeeded": false
+    },
+    {
+      "id": "qb1-self-g-003",
+      "title": "직업 말하기",
+      "pattern": "Tôi là + 직업.",
+      "meaningKo": "저는 ...입니다.",
+      "sourcePage": 1,
+      "reviewNeeded": false
+    },
+    {
+      "id": "qb1-self-g-004",
+      "title": "회사 말하기",
+      "pattern": "Tôi là nhân viên công ty + 회사명.",
+      "meaningKo": "저는 ... 회사 직원입니다.",
+      "sourcePage": 1,
+      "reviewNeeded": false
+    },
+    {
+      "id": "qb1-self-g-005",
+      "title": "사는 곳 말하기",
+      "pattern": "Tôi sống ở + 장소.",
+      "meaningKo": "저는 ...에 삽니다.",
+      "sourcePage": 1,
+      "reviewNeeded": false
+    },
+    {
+      "id": "qb1-self-g-006",
+      "title": "누구와 함께 사는지 말하기",
+      "pattern": "Tôi sống với + 사람.",
+      "meaningKo": "저는 ...와 함께 삽니다.",
+      "sourcePage": 1,
+      "reviewNeeded": false
+    },
+    {
+      "id": "qb1-self-g-007",
+      "title": "가족 수 말하기",
+      "pattern": "Gia đình tôi có + 숫자 + người.",
+      "meaningKo": "제 가족은 ...명입니다.",
+      "sourcePage": 1,
+      "reviewNeeded": false
+    },
+    {
+      "id": "qb1-self-g-008",
+      "title": "좋아하는 것 말하기",
+      "pattern": "Tôi thích + 동사/명사.",
+      "meaningKo": "저는 ...을 좋아합니다.",
+      "sourcePage": 1,
+      "reviewNeeded": false
+    },
+    {
+      "id": "qb1-self-g-009",
+      "title": "현재 하고 있는 일 말하기",
+      "pattern": "Tôi đang + 동사.",
+      "meaningKo": "저는 ...하고 있습니다.",
+      "sourcePage": 1,
+      "reviewNeeded": false
+    },
+    {
+      "id": "qb1-self-g-010",
+      "title": "목적 말하기",
+      "pattern": "để + 동사",
+      "meaningKo": "~하기 위해",
+      "sourcePage": 1,
+      "reviewNeeded": false
+    },
+    {
+      "id": "qb1-self-g-011",
+      "title": "요즘 상태 말하기",
+      "pattern": "Dạo này tôi hơi + 형용사.",
+      "meaningKo": "요즘 저는 조금 ...합니다.",
+      "sourcePage": 1,
+      "reviewNeeded": false
+    },
+    {
+      "id": "qb1-self-g-012",
+      "title": "하지만으로 연결하기",
+      "pattern": "A nhưng B.",
+      "meaningKo": "A하지만 B입니다.",
+      "sourcePage": 1,
+      "reviewNeeded": false
+    }
+  ],
+  "pronunciationTargets": [
+    {
+      "id": "qb1-self-p-001",
+      "text": "Giờ này, chúng ta hãy bắt đầu cuộc phỏng vấn nhé.",
+      "hintKo": "이제 인터뷰를 시작하겠습니다.",
+      "audioSrc": "",
+      "sourcePage": 1,
+      "reviewNeeded": false,
+      "pronKo": "저 나이, 쭝 따 하이 밧 더우 꾸옥 퐁 번 녜.",
+      "mouthKo": "문장이 길어서 'Giờ này / chúng ta / hãy bắt đầu / cuộc phỏng vấn nhé'로 끊어 읽습니다.",
+      "toneKo": "시험 시작 안내 문장이라 뜻만 알아도 충분합니다."
+    },
+    {
+      "id": "qb1-self-p-002",
+      "text": "Hãy kể cho tôi nghe một chút về bản thân bạn.",
+      "hintKo": "당신 자신에 대해 조금 말해주세요.",
+      "audioSrc": "",
+      "sourcePage": 1,
+      "reviewNeeded": false,
+      "pronKo": "하이 께 쪼 또이 응에 못 쭛 베 반 턴 반.",
+      "mouthKo": "Hãy kể cho tôi nghe / một chút / về bản thân bạn 으로 나누면 쉽습니다.",
+      "toneKo": "이 문제의 핵심 문장입니다."
+    },
+    {
+      "id": "qb1-self-p-003",
+      "text": "Tôi tên là Sungmook.",
+      "hintKo": "제 이름은 성묵입니다.",
+      "audioSrc": "",
+      "sourcePage": 1,
+      "reviewNeeded": false,
+      "pronKo": "또이 뗀 라 성묵.",
+      "mouthKo": "Tôi tên là 다음에 이름을 넣으면 됩니다.",
+      "toneKo": "자기소개 첫 문장으로 외우세요."
+    },
+    {
+      "id": "qb1-self-p-004",
+      "text": "Tôi là nhân viên công ty Samsung.",
+      "hintKo": "저는 삼성 회사 직원입니다.",
+      "audioSrc": "",
+      "sourcePage": 1,
+      "reviewNeeded": false,
+      "pronKo": "또이 라 년 비엔 꽁 티 삼성.",
+      "mouthKo": "nhân viên / công ty를 나눠 읽습니다.",
+      "toneKo": "직업 소개 핵심 문장입니다."
+    },
+    {
+      "id": "qb1-self-p-005",
+      "text": "Tôi sống ở Dongtan với vợ và hai con gái.",
+      "hintKo": "저는 아내와 두 딸과 함께 동탄에 삽니다.",
+      "audioSrc": "",
+      "sourcePage": 1,
+      "reviewNeeded": false,
+      "pronKo": "또이 송 어 동탄 버이 버 바 하이 꼰 가이.",
+      "mouthKo": "sống ở는 ~에 살다, với는 ~와 함께입니다.",
+      "toneKo": "사는 곳과 가족을 함께 말할 수 있습니다."
+    },
+    {
+      "id": "qb1-self-p-006",
+      "text": "Tôi thích uống cà phê và học tiếng Việt.",
+      "hintKo": "저는 커피 마시는 것과 베트남어 공부하는 것을 좋아합니다.",
+      "audioSrc": "",
+      "sourcePage": 1,
+      "reviewNeeded": false,
+      "pronKo": "또이 틱 우옹 까 페 바 혹 띠엥 비엣.",
+      "mouthKo": "Tôi thích A và B 구조입니다.",
+      "toneKo": "취미를 두 개 연결해서 말하는 문장입니다."
+    },
+    {
+      "id": "qb1-self-p-007",
+      "text": "Dạo này tôi hơi bận nhưng rất vui.",
+      "hintKo": "요즘 저는 조금 바쁘지만 매우 즐겁습니다.",
+      "audioSrc": "",
+      "sourcePage": 1,
+      "reviewNeeded": false,
+      "pronKo": "자오 나이 또이 허이 번 늉 젓 부이.",
+      "mouthKo": "Dạo này / tôi hơi bận / nhưng rất vui 로 끊어 읽습니다.",
+      "toneKo": "마무리 문장으로 좋습니다."
+    }
+  ],
+  "quizSeeds": [
+    {
+      "id": "qb1-self-q-001",
+      "type": "match-term",
+      "prompt": "문제은행1 자기소개 핵심 단어 매칭 1",
+      "answerSet": [
+        "cuộc phỏng vấn-인터뷰",
+        "bản thân-자기 자신",
+        "một chút-조금",
+        "kể cho tôi nghe-나에게 말해주다",
+        "bắt đầu-시작하다",
+        "chúng ta-우리",
+        "hãy-~하세요",
+        "về-~에 대해",
+        "tên-이름",
+        "tôi-저"
+      ],
+      "sourcePage": 1,
+      "reviewNeeded": false
+    },
+    {
+      "id": "qb1-self-q-002",
+      "type": "match-term",
+      "prompt": "문제은행1 자기소개 핵심 단어 매칭 2",
+      "answerSet": [
+        "nhân viên-직원",
+        "công ty-회사",
+        "làm việc-일하다",
+        "sống-살다",
+        "ở-~에",
+        "với-~와 함께",
+        "gia đình-가족",
+        "vợ-아내",
+        "con gái-딸",
+        "thích-좋아하다"
+      ],
+      "sourcePage": 1,
+      "reviewNeeded": false
+    },
+    {
+      "id": "qb1-self-q-003",
+      "type": "match-term",
+      "prompt": "문제은행1 자기소개 핵심 단어 매칭 3",
+      "answerSet": [
+        "học-공부하다",
+        "tiếng Việt-베트남어",
+        "dạo này-요즘",
+        "hơi-조금",
+        "bận-바쁘다",
+        "nhưng-하지만",
+        "rất vui-매우 즐겁다",
+        "để-~하기 위해",
+        "thi OPIc-OPIc 시험을 보다",
+        "người Hàn Quốc-한국 사람"
+      ],
+      "sourcePage": 1,
+      "reviewNeeded": false
+    },
+    {
+      "id": "qb1-self-q-004",
+      "type": "sentence-meaning",
+      "prompt": "문제은행1 자기소개 질문 뜻 고르기",
+      "answerSet": [
+        "Giờ này, chúng ta hãy bắt đầu cuộc phỏng vấn nhé.-이제 인터뷰를 시작하겠습니다.",
+        "Hãy kể cho tôi nghe một chút về bản thân bạn.-자신에 대해 간단하게 말해주세요.",
+        "Tôi tên là Sungmook.-제 이름은 성묵입니다.",
+        "Tôi là nhân viên công ty Samsung.-저는 삼성 회사 직원입니다.",
+        "Tôi sống ở Dongtan với vợ và hai con gái.-저는 아내와 두 딸과 함께 동탄에 삽니다.",
+        "Tôi thích uống cà phê và học tiếng Việt.-저는 커피 마시는 것과 베트남어 공부하는 것을 좋아합니다.",
+        "Dạo này tôi hơi bận nhưng rất vui.-요즘 저는 조금 바쁘지만 매우 즐겁습니다."
+      ],
+      "sourcePage": 1,
+      "reviewNeeded": false
+    },
+    {
+      "id": "qb1-self-q-005",
+      "type": "fill-blank",
+      "prompt": "빈칸 채우기: 제 이름은 성묵입니다.",
+      "question": "Tôi ___ là Sungmook.",
+      "answer": "tên",
+      "sourcePage": 1,
+      "reviewNeeded": false
+    },
+    {
+      "id": "qb1-self-q-006",
+      "type": "fill-blank",
+      "prompt": "빈칸 채우기: 저는 삼성 회사 직원입니다.",
+      "question": "Tôi là nhân viên ___ ty Samsung.",
+      "answer": "công",
+      "sourcePage": 1,
+      "reviewNeeded": false
+    },
+    {
+      "id": "qb1-self-q-007",
+      "type": "fill-blank",
+      "prompt": "빈칸 채우기: 저는 동탄에 삽니다.",
+      "question": "Tôi sống ___ Dongtan.",
+      "answer": "ở",
+      "sourcePage": 1,
+      "reviewNeeded": false
+    },
+    {
+      "id": "qb1-self-q-008",
+      "type": "fill-blank",
+      "prompt": "빈칸 채우기: 저는 가족과 함께 삽니다.",
+      "question": "Tôi sống ___ gia đình.",
+      "answer": "với",
+      "sourcePage": 1,
+      "reviewNeeded": false
+    },
+    {
+      "id": "qb1-self-q-009",
+      "type": "fill-blank",
+      "prompt": "빈칸 채우기: 저는 베트남어 공부하는 것을 좋아합니다.",
+      "question": "Tôi thích học tiếng ___.",
+      "answer": "Việt",
+      "sourcePage": 1,
+      "reviewNeeded": false
+    },
+    {
+      "id": "qb1-self-q-010",
+      "type": "fill-blank",
+      "prompt": "빈칸 채우기: 요즘 저는 조금 바쁩니다.",
+      "question": "Dạo này tôi ___ bận.",
+      "answer": "hơi",
+      "sourcePage": 1,
+      "reviewNeeded": false
+    },
+    {
+      "id": "qb1-self-q-011",
+      "type": "fill-blank",
+      "prompt": "빈칸 채우기: 저는 OPIc 시험을 보기 위해 베트남어를 공부하고 있습니다.",
+      "question": "Tôi đang học tiếng Việt ___ thi OPIc.",
+      "answer": "để",
+      "sourcePage": 1,
+      "reviewNeeded": false
+    },
+    {
+      "id": "qb1-self-q-012",
+      "type": "match-term",
+      "prompt": "문제은행1 자기소개 답변 순서 맞추기",
+      "answerSet": [
+        "1-Xin chào.",
+        "2-Tôi tên là Sungmook.",
+        "3-Tôi là nhân viên công ty Samsung.",
+        "4-Tôi sống ở Dongtan với gia đình.",
+        "5-Tôi thích uống cà phê và học tiếng Việt.",
+        "6-Dạo này tôi hơi bận nhưng rất vui."
+      ],
+      "sourcePage": 1,
+      "reviewNeeded": false
+    }
+  ],
+  "unlockCondition": "always",
+  "reviewNeeded": false
+    }    
+  ],
+  "opicQuestionBank": [
+    {
+      "id": "movie-q-001",
+      "surveyCategory": "영화",
+      "topic": "영화",
+      "questionType": "description",
+      "level": "IM1",
+      "promptVi": "Bạn thích xem phim gì?",
+      "promptKo": "어떤 영화를 보는 것을 좋아하나요?",
+      "hintKo": "장르 + 이유 + 언제 보는지 말하기",
+      "patterns": [
+        "Tôi thích xem ...",
+        "Vì nó rất ...",
+        "Tôi thường xem phim vào cuối tuần."
+      ],
+      "sampleAnswerVi": "Tôi thích xem phim hài. Vì nó rất vui và giúp tôi thư giãn. Tôi thường xem phim ở nhà vào cuối tuần.",
+      "sampleAnswerKo": "저는 코미디 영화를 좋아합니다. 재미있고 스트레스가 풀리기 때문입니다. 저는 보통 주말에 집에서 영화를 봅니다."
+    }
+  ],
+  "mockTests": {}
+}
