@@ -6,6 +6,2317 @@
   },
   "lessons": [
     {
+  "lessonId": "question-bank-006-beach",
+  "unitLabel": "문제은행",
+  "titleKo": "문제은행6: 해변",
+  "titleVi": "Ngân hàng câu hỏi 6: Chủ đề bãi biển",
+  "pageRange": "문제은행 / 해변",
+  "goals": [
+    "좋아하는 해변을 묘사할 수 있다",
+    "해변의 위치와 모습을 설명할 수 있다",
+    "해변을 좋아하는 이유를 말할 수 있다",
+    "해변에서 하는 주요 활동을 순서대로 설명할 수 있다",
+    "OPIc 해변 주제에서 IM1 수준의 짧은 답변을 만들 수 있다"
+  ],
+  "topicOverview": "해변 주제는 여행, 여가, 날씨, 가족 활동과 연결하기 좋은 주제입니다. 초보자는 '저는 해변에 가는 것을 좋아합니다 → 제가 가장 좋아하는 해변은 부산 해운대입니다 → 그 해변은 넓고 깨끗하고 바다가 아름답습니다 → 저는 그곳에서 산책하고 사진을 찍고 커피를 마십니다 → 바다를 보면 기분이 좋아서 그 해변을 좋아합니다' 순서로 말하면 안정적입니다.",
+  "cultureTopics": [
+    "해변 가기",
+    "좋아하는 해변 묘사",
+    "해변 위치 말하기",
+    "해변 모습 설명하기",
+    "해변을 좋아하는 이유",
+    "해변에서 하는 활동",
+    "바다 산책",
+    "사진 찍기",
+    "가족 또는 친구와 해변 가기",
+    "여름 휴가"
+  ],
+  "vocabCards": [
+    {
+      "id": "qb6-beach-v-001",
+      "term": "bãi biển",
+      "meaningKo": "해변",
+      "example": "Tôi thích đi đến bãi biển.",
+      "exampleMeaningKo": "저는 해변에 가는 것을 좋아합니다.",
+      "audioSrc": "",
+      "sourcePage": 6,
+      "reviewNeeded": false,
+      "pronKo": "바이 비엔",
+      "pronNoteKo": "해변 주제의 가장 핵심 단어입니다.",
+      "pronChunks": ["bãi=바이", "biển=비엔"]
+    },
+    {
+      "id": "qb6-beach-v-002",
+      "term": "đi đến bãi biển",
+      "meaningKo": "해변에 가다",
+      "example": "Cuối tuần tôi thường đi đến bãi biển.",
+      "exampleMeaningKo": "주말에 저는 보통 해변에 갑니다.",
+      "audioSrc": "",
+      "sourcePage": 6,
+      "reviewNeeded": false,
+      "pronKo": "디 덴 바이 비엔",
+      "pronNoteKo": "문제에 나온 표현입니다. 회화에서는 'đi biển'도 자주 씁니다.",
+      "pronChunks": ["đi=디", "đến=덴", "bãi biển=바이 비엔"]
+    },
+    {
+      "id": "qb6-beach-v-003",
+      "term": "đi biển",
+      "meaningKo": "바다/해변에 가다",
+      "example": "Tôi thường đi biển vào mùa hè.",
+      "exampleMeaningKo": "저는 보통 여름에 바다에 갑니다.",
+      "audioSrc": "",
+      "sourcePage": 6,
+      "reviewNeeded": false,
+      "pronKo": "디 비엔",
+      "pronNoteKo": "실제 말할 때는 'đi biển'이 짧고 자연스럽습니다.",
+      "pronChunks": ["đi=디", "biển=비엔"]
+    },
+    {
+      "id": "qb6-beach-v-004",
+      "term": "thích nhất",
+      "meaningKo": "가장 좋아하다",
+      "example": "Bãi biển mà tôi thích nhất là Haeundae.",
+      "exampleMeaningKo": "제가 가장 좋아하는 해변은 해운대입니다.",
+      "audioSrc": "",
+      "sourcePage": 6,
+      "reviewNeeded": false,
+      "pronKo": "틱 녓",
+      "pronNoteKo": "가장 좋아하는 것을 말할 때 씁니다.",
+      "pronChunks": ["thích=틱", "nhất=녓"]
+    },
+    {
+      "id": "qb6-beach-v-005",
+      "term": "nằm ở đâu",
+      "meaningKo": "어디에 위치하다",
+      "example": "Bãi biển đó nằm ở đâu?",
+      "exampleMeaningKo": "그 해변은 어디에 있나요?",
+      "audioSrc": "",
+      "sourcePage": 6,
+      "reviewNeeded": false,
+      "pronKo": "남 어 더우",
+      "pronNoteKo": "장소 위치를 물을 때 자주 나옵니다.",
+      "pronChunks": ["nằm=남", "ở=어", "đâu=더우"]
+    },
+    {
+      "id": "qb6-beach-v-006",
+      "term": "trông như thế nào",
+      "meaningKo": "어떻게 생겼다 / 어떻게 보이다",
+      "example": "Bãi biển đó trông như thế nào?",
+      "exampleMeaningKo": "그 해변은 어떻게 생겼나요?",
+      "audioSrc": "",
+      "sourcePage": 6,
+      "reviewNeeded": false,
+      "pronKo": "쫑 느 테 나오",
+      "pronNoteKo": "묘사 문제에서 매우 자주 나오는 표현입니다.",
+      "pronChunks": ["trông=쫑", "như thế nào=느 테 나오"]
+    },
+    {
+      "id": "qb6-beach-v-007",
+      "term": "vì sao",
+      "meaningKo": "왜",
+      "example": "Vì sao bạn thích bãi biển đó?",
+      "exampleMeaningKo": "왜 당신은 그 해변을 좋아하나요?",
+      "audioSrc": "",
+      "sourcePage": 6,
+      "reviewNeeded": false,
+      "pronKo": "비 사오",
+      "pronNoteKo": "이유를 묻는 표현입니다.",
+      "pronChunks": ["vì=비", "sao=사오"]
+    },
+    {
+      "id": "qb6-beach-v-008",
+      "term": "biển",
+      "meaningKo": "바다",
+      "example": "Biển rất đẹp.",
+      "exampleMeaningKo": "바다가 매우 아름답습니다.",
+      "audioSrc": "",
+      "sourcePage": 6,
+      "reviewNeeded": false,
+      "pronKo": "비엔",
+      "pronNoteKo": "bãi biển은 해변, biển은 바다입니다.",
+      "pronChunks": ["biển=비엔"]
+    },
+    {
+      "id": "qb6-beach-v-009",
+      "term": "nước biển",
+      "meaningKo": "바닷물",
+      "example": "Nước biển rất trong.",
+      "exampleMeaningKo": "바닷물이 매우 맑습니다.",
+      "audioSrc": "",
+      "sourcePage": 6,
+      "reviewNeeded": false,
+      "pronKo": "느억 비엔",
+      "pronNoteKo": "해변 모습을 묘사할 때 좋습니다.",
+      "pronChunks": ["nước=느억", "biển=비엔"]
+    },
+    {
+      "id": "qb6-beach-v-010",
+      "term": "trong",
+      "meaningKo": "맑다 / 투명하다",
+      "example": "Nước biển ở đó rất trong.",
+      "exampleMeaningKo": "그곳의 바닷물은 매우 맑습니다.",
+      "audioSrc": "",
+      "sourcePage": 6,
+      "reviewNeeded": false,
+      "pronKo": "쫑",
+      "pronNoteKo": "물이나 공기가 맑을 때 씁니다.",
+      "pronChunks": ["trong=쫑"]
+    },
+    {
+      "id": "qb6-beach-v-011",
+      "term": "cát",
+      "meaningKo": "모래",
+      "example": "Cát ở bãi biển rất mềm.",
+      "exampleMeaningKo": "해변의 모래는 매우 부드럽습니다.",
+      "audioSrc": "",
+      "sourcePage": 6,
+      "reviewNeeded": false,
+      "pronKo": "깟",
+      "pronNoteKo": "해변 묘사 필수 단어입니다.",
+      "pronChunks": ["cát=깟"]
+    },
+    {
+      "id": "qb6-beach-v-012",
+      "term": "cát trắng",
+      "meaningKo": "하얀 모래",
+      "example": "Bãi biển có cát trắng rất đẹp.",
+      "exampleMeaningKo": "그 해변에는 매우 아름다운 하얀 모래가 있습니다.",
+      "audioSrc": "",
+      "sourcePage": 6,
+      "reviewNeeded": false,
+      "pronKo": "깟 짱",
+      "pronNoteKo": "해변 풍경을 예쁘게 묘사할 수 있습니다.",
+      "pronChunks": ["cát=깟", "trắng=짱"]
+    },
+    {
+      "id": "qb6-beach-v-013",
+      "term": "sóng",
+      "meaningKo": "파도",
+      "example": "Sóng ở đó không quá mạnh.",
+      "exampleMeaningKo": "그곳의 파도는 너무 세지 않습니다.",
+      "audioSrc": "",
+      "sourcePage": 6,
+      "reviewNeeded": false,
+      "pronKo": "쏭",
+      "pronNoteKo": "파도 설명에 사용합니다.",
+      "pronChunks": ["sóng=쏭"]
+    },
+    {
+      "id": "qb6-beach-v-014",
+      "term": "gió biển",
+      "meaningKo": "바닷바람",
+      "example": "Tôi thích gió biển.",
+      "exampleMeaningKo": "저는 바닷바람을 좋아합니다.",
+      "audioSrc": "",
+      "sourcePage": 6,
+      "reviewNeeded": false,
+      "pronKo": "조 비엔",
+      "pronNoteKo": "해변을 좋아하는 이유로 쓰기 좋습니다.",
+      "pronChunks": ["gió=조", "biển=비엔"]
+    },
+    {
+      "id": "qb6-beach-v-015",
+      "term": "phong cảnh",
+      "meaningKo": "풍경",
+      "example": "Phong cảnh ở đó rất đẹp.",
+      "exampleMeaningKo": "그곳의 풍경은 매우 아름답습니다.",
+      "audioSrc": "",
+      "sourcePage": 6,
+      "reviewNeeded": false,
+      "pronKo": "퐁 까인",
+      "pronNoteKo": "여행, 해변, 공원 주제에 모두 좋습니다.",
+      "pronChunks": ["phong=퐁", "cảnh=까인"]
+    },
+    {
+      "id": "qb6-beach-v-016",
+      "term": "rộng",
+      "meaningKo": "넓다",
+      "example": "Bãi biển đó rất rộng.",
+      "exampleMeaningKo": "그 해변은 매우 넓습니다.",
+      "audioSrc": "",
+      "sourcePage": 6,
+      "reviewNeeded": false,
+      "pronKo": "종",
+      "pronNoteKo": "장소 묘사에 많이 씁니다.",
+      "pronChunks": ["rộng=종"]
+    },
+    {
+      "id": "qb6-beach-v-017",
+      "term": "sạch sẽ",
+      "meaningKo": "깨끗하다",
+      "example": "Bãi biển rất sạch sẽ.",
+      "exampleMeaningKo": "해변은 매우 깨끗합니다.",
+      "audioSrc": "",
+      "sourcePage": 6,
+      "reviewNeeded": false,
+      "pronKo": "삭 세",
+      "pronNoteKo": "장소를 긍정적으로 묘사할 때 좋습니다.",
+      "pronChunks": ["sạch=삭", "sẽ=세"]
+    },
+    {
+      "id": "qb6-beach-v-018",
+      "term": "đẹp",
+      "meaningKo": "예쁘다 / 아름답다",
+      "example": "Bãi biển đó rất đẹp.",
+      "exampleMeaningKo": "그 해변은 매우 아름답습니다.",
+      "audioSrc": "",
+      "sourcePage": 6,
+      "reviewNeeded": false,
+      "pronKo": "뎁",
+      "pronNoteKo": "가장 기본적인 묘사 형용사입니다.",
+      "pronChunks": ["đẹp=뎁"]
+    },
+    {
+      "id": "qb6-beach-v-019",
+      "term": "yên tĩnh",
+      "meaningKo": "조용하다",
+      "example": "Buổi sáng, bãi biển rất yên tĩnh.",
+      "exampleMeaningKo": "아침에 해변은 매우 조용합니다.",
+      "audioSrc": "",
+      "sourcePage": 6,
+      "reviewNeeded": false,
+      "pronKo": "이엔 띤",
+      "pronNoteKo": "조용한 분위기를 말할 때 좋습니다.",
+      "pronChunks": ["yên=이엔", "tĩnh=띤"]
+    },
+    {
+      "id": "qb6-beach-v-020",
+      "term": "đông người",
+      "meaningKo": "사람이 많다",
+      "example": "Vào mùa hè, bãi biển rất đông người.",
+      "exampleMeaningKo": "여름에는 해변에 사람이 매우 많습니다.",
+      "audioSrc": "",
+      "sourcePage": 6,
+      "reviewNeeded": false,
+      "pronKo": "동 응어이",
+      "pronNoteKo": "해변의 분위기를 말할 때 자주 씁니다.",
+      "pronChunks": ["đông=동", "người=응어이"]
+    },
+    {
+      "id": "qb6-beach-v-021",
+      "term": "mùa hè",
+      "meaningKo": "여름",
+      "example": "Tôi thường đi biển vào mùa hè.",
+      "exampleMeaningKo": "저는 보통 여름에 바다에 갑니다.",
+      "audioSrc": "",
+      "sourcePage": 6,
+      "reviewNeeded": false,
+      "pronKo": "무아 헤",
+      "pronNoteKo": "해변 주제와 가장 잘 연결되는 계절입니다.",
+      "pronChunks": ["mùa=무아", "hè=헤"]
+    },
+    {
+      "id": "qb6-beach-v-022",
+      "term": "mùa nghỉ hè",
+      "meaningKo": "여름 휴가철",
+      "example": "Mùa nghỉ hè có nhiều người đi biển.",
+      "exampleMeaningKo": "여름 휴가철에는 많은 사람들이 바다에 갑니다.",
+      "audioSrc": "",
+      "sourcePage": 6,
+      "reviewNeeded": false,
+      "pronKo": "무아 응이 헤",
+      "pronNoteKo": "휴가 이야기에 쓰기 좋습니다.",
+      "pronChunks": ["mùa=무아", "nghỉ hè=응이 헤"]
+    },
+    {
+      "id": "qb6-beach-v-023",
+      "term": "hoạt động",
+      "meaningKo": "활동",
+      "example": "Tôi có nhiều hoạt động ở bãi biển.",
+      "exampleMeaningKo": "저는 해변에서 많은 활동을 합니다.",
+      "audioSrc": "",
+      "sourcePage": 6,
+      "reviewNeeded": false,
+      "pronKo": "호앗 동",
+      "pronNoteKo": "문제에 나온 핵심 단어입니다.",
+      "pronChunks": ["hoạt=호앗", "động=동"]
+    },
+    {
+      "id": "qb6-beach-v-024",
+      "term": "hoạt động chính",
+      "meaningKo": "주요 활동",
+      "example": "Hãy nói về những hoạt động chính của bạn ở bãi biển.",
+      "exampleMeaningKo": "해변에서 하는 당신의 주요 활동에 대해 말해주세요.",
+      "audioSrc": "",
+      "sourcePage": 6,
+      "reviewNeeded": false,
+      "pronKo": "호앗 동 찐",
+      "pronNoteKo": "활동 설명 문제에서 그대로 활용 가능합니다.",
+      "pronChunks": ["hoạt động=호앗 동", "chính=찐"]
+    },
+    {
+      "id": "qb6-beach-v-025",
+      "term": "bơi",
+      "meaningKo": "수영하다",
+      "example": "Tôi thích bơi ở biển.",
+      "exampleMeaningKo": "저는 바다에서 수영하는 것을 좋아합니다.",
+      "audioSrc": "",
+      "sourcePage": 6,
+      "reviewNeeded": false,
+      "pronKo": "버이",
+      "pronNoteKo": "해변 활동의 대표 동사입니다.",
+      "pronChunks": ["bơi=버이"]
+    },
+    {
+      "id": "qb6-beach-v-026",
+      "term": "tắm biển",
+      "meaningKo": "해수욕하다",
+      "example": "Tôi thường tắm biển vào mùa hè.",
+      "exampleMeaningKo": "저는 보통 여름에 해수욕을 합니다.",
+      "audioSrc": "",
+      "sourcePage": 6,
+      "reviewNeeded": false,
+      "pronKo": "땀 비엔",
+      "pronNoteKo": "해변에서 물에 들어가 노는 표현입니다.",
+      "pronChunks": ["tắm=땀", "biển=비엔"]
+    },
+    {
+      "id": "qb6-beach-v-027",
+      "term": "đi dạo",
+      "meaningKo": "산책하다",
+      "example": "Tôi thường đi dạo dọc bãi biển.",
+      "exampleMeaningKo": "저는 보통 해변을 따라 산책합니다.",
+      "audioSrc": "",
+      "sourcePage": 6,
+      "reviewNeeded": false,
+      "pronKo": "디 자오",
+      "pronNoteKo": "수영을 못 해도 쓸 수 있는 안전한 활동입니다.",
+      "pronChunks": ["đi=디", "dạo=자오"]
+    },
+    {
+      "id": "qb6-beach-v-028",
+      "term": "dọc bãi biển",
+      "meaningKo": "해변을 따라서",
+      "example": "Tôi đi dạo dọc bãi biển.",
+      "exampleMeaningKo": "저는 해변을 따라서 산책합니다.",
+      "audioSrc": "",
+      "sourcePage": 6,
+      "reviewNeeded": false,
+      "pronKo": "족 바이 비엔",
+      "pronNoteKo": "산책 문장을 자연스럽게 만들어줍니다.",
+      "pronChunks": ["dọc=족", "bãi biển=바이 비엔"]
+    },
+    {
+      "id": "qb6-beach-v-029",
+      "term": "chụp ảnh",
+      "meaningKo": "사진을 찍다",
+      "example": "Tôi chụp ảnh ở bãi biển.",
+      "exampleMeaningKo": "저는 해변에서 사진을 찍습니다.",
+      "audioSrc": "",
+      "sourcePage": 6,
+      "reviewNeeded": false,
+      "pronKo": "쭙 아인",
+      "pronNoteKo": "해변 활동 답변에 넣기 좋습니다.",
+      "pronChunks": ["chụp=쭙", "ảnh=아인"]
+    },
+    {
+      "id": "qb6-beach-v-030",
+      "term": "ngắm biển",
+      "meaningKo": "바다를 바라보다 / 감상하다",
+      "example": "Tôi thích ngắm biển.",
+      "exampleMeaningKo": "저는 바다를 바라보는 것을 좋아합니다.",
+      "audioSrc": "",
+      "sourcePage": 6,
+      "reviewNeeded": false,
+      "pronKo": "응암 비엔",
+      "pronNoteKo": "차분한 활동을 말할 때 좋습니다.",
+      "pronChunks": ["ngắm=응암", "biển=비엔"]
+    },
+    {
+      "id": "qb6-beach-v-031",
+      "term": "ngắm hoàng hôn",
+      "meaningKo": "노을을 보다",
+      "example": "Tôi thích ngắm hoàng hôn ở bãi biển.",
+      "exampleMeaningKo": "저는 해변에서 노을 보는 것을 좋아합니다.",
+      "audioSrc": "",
+      "sourcePage": 6,
+      "reviewNeeded": false,
+      "pronKo": "응암 호앙 혼",
+      "pronNoteKo": "해변을 좋아하는 이유로 매우 좋습니다.",
+      "pronChunks": ["ngắm=응암", "hoàng hôn=호앙 혼"]
+    },
+    {
+      "id": "qb6-beach-v-032",
+      "term": "ăn hải sản",
+      "meaningKo": "해산물을 먹다",
+      "example": "Sau khi tắm biển, tôi ăn hải sản.",
+      "exampleMeaningKo": "해수욕을 한 후 저는 해산물을 먹습니다.",
+      "audioSrc": "",
+      "sourcePage": 6,
+      "reviewNeeded": false,
+      "pronKo": "안 하이 산",
+      "pronNoteKo": "해변 활동 뒤에 자연스럽게 연결됩니다.",
+      "pronChunks": ["ăn=안", "hải sản=하이 산"]
+    },
+    {
+      "id": "qb6-beach-v-033",
+      "term": "uống cà phê",
+      "meaningKo": "커피를 마시다",
+      "example": "Tôi uống cà phê ở quán gần biển.",
+      "exampleMeaningKo": "저는 바다 근처 카페에서 커피를 마십니다.",
+      "audioSrc": "",
+      "sourcePage": 6,
+      "reviewNeeded": false,
+      "pronKo": "우옹 까 페",
+      "pronNoteKo": "활동 마무리 문장에 좋습니다.",
+      "pronChunks": ["uống=우옹", "cà phê=까 페"]
+    },
+    {
+      "id": "qb6-beach-v-034",
+      "term": "quán cà phê",
+      "meaningKo": "카페",
+      "example": "Gần bãi biển có nhiều quán cà phê.",
+      "exampleMeaningKo": "해변 근처에는 카페가 많습니다.",
+      "audioSrc": "",
+      "sourcePage": 6,
+      "reviewNeeded": false,
+      "pronKo": "꽌 까 페",
+      "pronNoteKo": "해변 근처 장소 묘사에 좋습니다.",
+      "pronChunks": ["quán=꽌", "cà phê=까 페"]
+    },
+    {
+      "id": "qb6-beach-v-035",
+      "term": "gia đình",
+      "meaningKo": "가족",
+      "example": "Tôi thường đi biển với gia đình.",
+      "exampleMeaningKo": "저는 보통 가족과 바다에 갑니다.",
+      "audioSrc": "",
+      "sourcePage": 6,
+      "reviewNeeded": false,
+      "pronKo": "자 딘",
+      "pronNoteKo": "누구와 가는지 답할 때 좋습니다.",
+      "pronChunks": ["gia=자", "đình=딘"]
+    },
+    {
+      "id": "qb6-beach-v-036",
+      "term": "bạn bè",
+      "meaningKo": "친구들",
+      "example": "Tôi đi biển với bạn bè.",
+      "exampleMeaningKo": "저는 친구들과 바다에 갑니다.",
+      "audioSrc": "",
+      "sourcePage": 6,
+      "reviewNeeded": false,
+      "pronKo": "반 베",
+      "pronNoteKo": "친구와 가는 답변에 씁니다.",
+      "pronChunks": ["bạn=반", "bè=베"]
+    },
+    {
+      "id": "qb6-beach-v-037",
+      "term": "thư giãn",
+      "meaningKo": "휴식하다 / 편안히 쉬다",
+      "example": "Tôi đi biển để thư giãn.",
+      "exampleMeaningKo": "저는 쉬기 위해 바다에 갑니다.",
+      "audioSrc": "",
+      "sourcePage": 6,
+      "reviewNeeded": false,
+      "pronKo": "트 잔",
+      "pronNoteKo": "해변을 좋아하는 이유로 좋습니다.",
+      "pronChunks": ["thư=트", "giãn=잔"]
+    },
+    {
+      "id": "qb6-beach-v-038",
+      "term": "cảm thấy thoải mái",
+      "meaningKo": "편안함을 느끼다",
+      "example": "Khi nhìn biển, tôi cảm thấy thoải mái.",
+      "exampleMeaningKo": "바다를 보면 저는 편안함을 느낍니다.",
+      "audioSrc": "",
+      "sourcePage": 6,
+      "reviewNeeded": false,
+      "pronKo": "깜 터이 토아이 마이",
+      "pronNoteKo": "느낌을 말할 때 매우 좋은 표현입니다.",
+      "pronChunks": ["cảm thấy=깜 터이", "thoải mái=토아이 마이"]
+    },
+    {
+      "id": "qb6-beach-v-039",
+      "term": "giảm căng thẳng",
+      "meaningKo": "스트레스를 줄이다",
+      "example": "Đi biển giúp tôi giảm căng thẳng.",
+      "exampleMeaningKo": "바다에 가는 것은 제가 스트레스를 줄이는 데 도움이 됩니다.",
+      "audioSrc": "",
+      "sourcePage": 6,
+      "reviewNeeded": false,
+      "pronKo": "지암 깡 탕",
+      "pronNoteKo": "해변을 좋아하는 이유로 고득점 느낌이 납니다.",
+      "pronChunks": ["giảm=지암", "căng thẳng=깡 탕"]
+    },
+    {
+      "id": "qb6-beach-v-040",
+      "term": "chi tiết",
+      "meaningKo": "자세한 / 세부적인",
+      "example": "Hãy nói thật chi tiết.",
+      "exampleMeaningKo": "아주 자세히 말해주세요.",
+      "audioSrc": "",
+      "sourcePage": 6,
+      "reviewNeeded": false,
+      "pronKo": "찌 띠엣",
+      "pronNoteKo": "OPIc 문제 끝에 자주 붙는 표현입니다.",
+      "pronChunks": ["chi=찌", "tiết=띠엣"]
+    }
+  ],
+  "sentenceCards": [
+    {
+      "id": "qb6-beach-s-001",
+      "textVi": "Trong bản khảo sát, bạn nói rằng bạn thích đi đến bãi biển. Hãy kể cho tôi về bãi biển mà bạn thích nhất. Bãi biển đó nằm ở đâu và trông như thế nào? Vì sao bạn thích bãi biển đó?",
+      "textKo": "설문에서 당신은 해변 가기를 좋아한다고 했습니다. 당신이 제일 좋아하는 해변에 대해 말해주세요. 그 해변은 어디에 위치하고 어떻게 보입니까? 왜 당신은 그 해변을 좋아합니까?",
+      "exampleAnswerVi": "Tôi rất thích đi đến bãi biển. Bãi biển mà tôi thích nhất là Haeundae ở Busan. Bãi biển đó rất rộng, sạch sẽ và đẹp. Ở đó có cát trắng, nước biển trong và nhiều quán cà phê gần biển. Tôi thích bãi biển đó vì phong cảnh rất đẹp và không khí rất thoải mái. Khi nhìn biển, tôi cảm thấy vui và giảm căng thẳng.",
+      "exampleAnswerKo": "저는 해변에 가는 것을 매우 좋아합니다. 제가 가장 좋아하는 해변은 부산에 있는 해운대입니다. 그 해변은 매우 넓고 깨끗하고 아름답습니다. 그곳에는 하얀 모래, 맑은 바닷물, 그리고 바다 근처의 많은 카페가 있습니다. 저는 풍경이 매우 아름답고 분위기가 매우 편안해서 그 해변을 좋아합니다. 바다를 보면 저는 기분이 좋고 스트레스가 줄어듭니다.",
+      "audioSrc": "",
+      "sourcePage": 6,
+      "reviewNeeded": false,
+      "pronKo": "쫑 반 카오 삿, 반 노이 장 반 틱 디 덴 바이 비엔. 하이 께 쪼 또이 베 바이 비엔 마 반 틱 녓. 바이 비엔 도 남 어 더우 바 쫑 느 테 나오? 비 사오 반 틱 바이 비엔 도?",
+      "exampleAnswerPronKo": "또이 젓 틱 디 덴 바이 비엔. 바이 비엔 마 또이 틱 녓 라 해운대 어 부산.",
+      "pronNoteKo": "좋아하는 해변 묘사 문제입니다. '해변 이름 → 위치 → 모습 → 좋아하는 이유 → 느낌' 순서로 말하면 됩니다."
+    },
+    {
+      "id": "qb6-beach-s-002",
+      "textVi": "Những việc mà bạn thường làm khi đi đến bãi biển là gì? Hãy cho tôi biết về những hoạt động chính của bạn ở bãi biển khi bạn đi đến bãi biển. Hãy nói thật chi tiết.",
+      "textKo": "당신이 해변에 갔을 때 주로 하는 일들은 무엇인가요? 당신이 해변에 갈 때 해변에서 하는 주요 활동들에 대해 알려주세요. 매우 자세하게 말해주세요.",
+      "exampleAnswerVi": "Khi đi đến bãi biển, tôi thường làm nhiều việc. Đầu tiên, tôi đi dạo dọc bãi biển và ngắm biển. Sau đó, nếu thời tiết tốt, tôi tắm biển hoặc bơi một chút. Tôi cũng chụp ảnh với gia đình vì phong cảnh rất đẹp. Sau khi chơi ở bãi biển, chúng tôi thường ăn hải sản và uống cà phê ở một quán gần biển. Đối với tôi, đi biển là cách tốt nhất để thư giãn.",
+      "exampleAnswerKo": "해변에 갈 때 저는 보통 여러 가지 일을 합니다. 먼저 저는 해변을 따라 산책하고 바다를 바라봅니다. 그 후 날씨가 좋으면 해수욕을 하거나 조금 수영합니다. 풍경이 매우 아름답기 때문에 저는 가족과 사진도 찍습니다. 해변에서 논 후 우리는 보통 해산물을 먹고 바다 근처 카페에서 커피를 마십니다. 저에게 바다에 가는 것은 휴식하는 가장 좋은 방법입니다.",
+      "audioSrc": "",
+      "sourcePage": 6,
+      "reviewNeeded": false,
+      "pronKo": "능 비엑 마 반 트엉 람 키 디 덴 바이 비엔 라 지? 하이 쪼 또이 비엣 베 능 호앗 동 찐 꾸어 반 어 바이 비엔 키 반 디 덴 바이 비엔. 하이 노이 텃 찌 띠엣.",
+      "exampleAnswerPronKo": "키 디 덴 바이 비엔, 또이 트엉 람 니에우 비엑. 더우 띠엔, 또이 디 자오 족 바이 비엔 바 응암 비엔.",
+      "pronNoteKo": "해변 활동 설명 문제입니다. 'Đầu tiên → Sau đó → Tôi cũng → Sau khi → Đối với tôi' 흐름으로 말하면 길고 자연스럽습니다."
+    }
+  ],
+  "dialogues": [
+    {
+      "id": "qb6-beach-d-001",
+      "title": "좋아하는 해변 대화",
+      "audioSrc": "",
+      "sourcePage": 6,
+      "reviewNeeded": false,
+      "lines": [
+        {
+          "speaker": "A",
+          "vi": "Bạn có thích đi biển không?",
+          "ko": "당신은 바다에 가는 것을 좋아하나요?",
+          "pronKo": "반 꼬 틱 디 비엔 콩?"
+        },
+        {
+          "speaker": "B",
+          "vi": "Có, tôi rất thích đi biển.",
+          "ko": "네, 저는 바다에 가는 것을 매우 좋아합니다.",
+          "pronKo": "꼬, 또이 젓 틱 디 비엔."
+        },
+        {
+          "speaker": "A",
+          "vi": "Bạn thích bãi biển nào nhất?",
+          "ko": "당신은 어떤 해변을 가장 좋아하나요?",
+          "pronKo": "반 틱 바이 비엔 나오 녓?"
+        },
+        {
+          "speaker": "B",
+          "vi": "Tôi thích bãi biển Haeundae nhất.",
+          "ko": "저는 해운대 해변을 가장 좋아합니다.",
+          "pronKo": "또이 틱 바이 비엔 해운대 녓."
+        }
+      ]
+    },
+    {
+      "id": "qb6-beach-d-002",
+      "title": "해변 위치와 모습 대화",
+      "audioSrc": "",
+      "sourcePage": 6,
+      "reviewNeeded": false,
+      "lines": [
+        {
+          "speaker": "A",
+          "vi": "Bãi biển đó nằm ở đâu?",
+          "ko": "그 해변은 어디에 있나요?",
+          "pronKo": "바이 비엔 도 남 어 더우?"
+        },
+        {
+          "speaker": "B",
+          "vi": "Bãi biển đó nằm ở Busan.",
+          "ko": "그 해변은 부산에 있습니다.",
+          "pronKo": "바이 비엔 도 남 어 부산."
+        },
+        {
+          "speaker": "A",
+          "vi": "Bãi biển đó trông như thế nào?",
+          "ko": "그 해변은 어떻게 생겼나요?",
+          "pronKo": "바이 비엔 도 쫑 느 테 나오?"
+        },
+        {
+          "speaker": "B",
+          "vi": "Bãi biển đó rất rộng, sạch sẽ và đẹp.",
+          "ko": "그 해변은 매우 넓고 깨끗하고 아름답습니다.",
+          "pronKo": "바이 비엔 도 젓 종, 삭 세 바 뎁."
+        }
+      ]
+    },
+    {
+      "id": "qb6-beach-d-003",
+      "title": "해변 활동 대화",
+      "audioSrc": "",
+      "sourcePage": 6,
+      "reviewNeeded": false,
+      "lines": [
+        {
+          "speaker": "A",
+          "vi": "Bạn thường làm gì ở bãi biển?",
+          "ko": "당신은 보통 해변에서 무엇을 하나요?",
+          "pronKo": "반 트엉 람 지 어 바이 비엔?"
+        },
+        {
+          "speaker": "B",
+          "vi": "Tôi thường đi dạo, chụp ảnh và ngắm biển.",
+          "ko": "저는 보통 산책하고, 사진을 찍고, 바다를 바라봅니다.",
+          "pronKo": "또이 트엉 디 자오, 쭙 아인 바 응암 비엔."
+        },
+        {
+          "speaker": "A",
+          "vi": "Bạn có bơi không?",
+          "ko": "당신은 수영하나요?",
+          "pronKo": "반 꼬 버이 콩?"
+        },
+        {
+          "speaker": "B",
+          "vi": "Có, nếu thời tiết tốt, tôi bơi một chút.",
+          "ko": "네, 날씨가 좋으면 저는 조금 수영합니다.",
+          "pronKo": "꼬, 네우 터이 띠엣 똣, 또이 버이 못 쭛."
+        }
+      ]
+    },
+    {
+      "id": "qb6-beach-d-004",
+      "title": "해변을 좋아하는 이유 대화",
+      "audioSrc": "",
+      "sourcePage": 6,
+      "reviewNeeded": false,
+      "lines": [
+        {
+          "speaker": "A",
+          "vi": "Vì sao bạn thích bãi biển đó?",
+          "ko": "왜 당신은 그 해변을 좋아하나요?",
+          "pronKo": "비 사오 반 틱 바이 비엔 도?"
+        },
+        {
+          "speaker": "B",
+          "vi": "Tôi thích bãi biển đó vì phong cảnh rất đẹp.",
+          "ko": "저는 풍경이 매우 아름다워서 그 해변을 좋아합니다.",
+          "pronKo": "또이 틱 바이 비엔 도 비 퐁 까인 젓 뎁."
+        },
+        {
+          "speaker": "A",
+          "vi": "Bạn cảm thấy thế nào khi nhìn biển?",
+          "ko": "바다를 볼 때 기분이 어떤가요?",
+          "pronKo": "반 깜 터이 테 나오 키 닌 비엔?"
+        },
+        {
+          "speaker": "B",
+          "vi": "Khi nhìn biển, tôi cảm thấy thoải mái.",
+          "ko": "바다를 보면 저는 편안함을 느낍니다.",
+          "pronKo": "키 닌 비엔, 또이 깜 터이 토아이 마이."
+        }
+      ]
+    }
+  ],
+  "grammarPoints": [
+    {
+      "id": "qb6-beach-g-001",
+      "title": "설문에서 말한 내용",
+      "pattern": "Trong bản khảo sát, bạn nói rằng ...",
+      "meaningKo": "설문에서 당신은 ...라고 말했습니다.",
+      "sourcePage": 6,
+      "reviewNeeded": false
+    },
+    {
+      "id": "qb6-beach-g-002",
+      "title": "해변에 가는 것을 좋아하다",
+      "pattern": "Tôi thích đi đến bãi biển.",
+      "meaningKo": "저는 해변에 가는 것을 좋아합니다.",
+      "sourcePage": 6,
+      "reviewNeeded": false
+    },
+    {
+      "id": "qb6-beach-g-003",
+      "title": "가장 좋아하는 해변 말하기",
+      "pattern": "Bãi biển mà tôi thích nhất là Haeundae.",
+      "meaningKo": "제가 가장 좋아하는 해변은 해운대입니다.",
+      "sourcePage": 6,
+      "reviewNeeded": false
+    },
+    {
+      "id": "qb6-beach-g-004",
+      "title": "위치 말하기",
+      "pattern": "Bãi biển đó nằm ở Busan.",
+      "meaningKo": "그 해변은 부산에 있습니다.",
+      "sourcePage": 6,
+      "reviewNeeded": false
+    },
+    {
+      "id": "qb6-beach-g-005",
+      "title": "모습 묘사하기",
+      "pattern": "Bãi biển đó rất rộng, sạch sẽ và đẹp.",
+      "meaningKo": "그 해변은 매우 넓고 깨끗하고 아름답습니다.",
+      "sourcePage": 6,
+      "reviewNeeded": false
+    },
+    {
+      "id": "qb6-beach-g-006",
+      "title": "좋아하는 이유 말하기",
+      "pattern": "Tôi thích bãi biển đó vì phong cảnh rất đẹp.",
+      "meaningKo": "저는 풍경이 매우 아름다워서 그 해변을 좋아합니다.",
+      "sourcePage": 6,
+      "reviewNeeded": false
+    },
+    {
+      "id": "qb6-beach-g-007",
+      "title": "해변 활동 말하기",
+      "pattern": "Khi đi đến bãi biển, tôi thường đi dạo và chụp ảnh.",
+      "meaningKo": "해변에 갈 때 저는 보통 산책하고 사진을 찍습니다.",
+      "sourcePage": 6,
+      "reviewNeeded": false
+    },
+    {
+      "id": "qb6-beach-g-008",
+      "title": "활동 순서 말하기",
+      "pattern": "Đầu tiên ..., sau đó ..., cuối cùng ...",
+      "meaningKo": "먼저 ..., 그 후 ..., 마지막으로 ...",
+      "sourcePage": 6,
+      "reviewNeeded": false
+    },
+    {
+      "id": "qb6-beach-g-009",
+      "title": "날씨 조건 말하기",
+      "pattern": "Nếu thời tiết tốt, tôi bơi một chút.",
+      "meaningKo": "날씨가 좋으면 저는 조금 수영합니다.",
+      "sourcePage": 6,
+      "reviewNeeded": false
+    },
+    {
+      "id": "qb6-beach-g-010",
+      "title": "활동 후 말하기",
+      "pattern": "Sau khi chơi ở bãi biển, chúng tôi ăn hải sản.",
+      "meaningKo": "해변에서 논 후 우리는 해산물을 먹습니다.",
+      "sourcePage": 6,
+      "reviewNeeded": false
+    },
+    {
+      "id": "qb6-beach-g-011",
+      "title": "느낌 말하기",
+      "pattern": "Khi nhìn biển, tôi cảm thấy thoải mái.",
+      "meaningKo": "바다를 보면 저는 편안함을 느낍니다.",
+      "sourcePage": 6,
+      "reviewNeeded": false
+    },
+    {
+      "id": "qb6-beach-g-012",
+      "title": "휴식 이유 말하기",
+      "pattern": "Đi biển là cách tốt nhất để thư giãn.",
+      "meaningKo": "바다에 가는 것은 휴식하는 가장 좋은 방법입니다.",
+      "sourcePage": 6,
+      "reviewNeeded": false
+    }
+  ],
+  "pronunciationTargets": [
+    {
+      "id": "qb6-beach-p-001",
+      "text": "Trong bản khảo sát, bạn nói rằng bạn thích đi đến bãi biển.",
+      "hintKo": "설문에서 당신은 해변 가기를 좋아한다고 했습니다.",
+      "audioSrc": "",
+      "sourcePage": 6,
+      "reviewNeeded": false,
+      "pronKo": "쫑 반 카오 삿, 반 노이 장 반 틱 디 덴 바이 비엔.",
+      "mouthKo": "Trong bản khảo sát / bạn nói rằng / bạn thích đi đến bãi biển 으로 끊어 읽습니다.",
+      "toneKo": "해변 주제 질문의 시작 문장입니다."
+    },
+    {
+      "id": "qb6-beach-p-002",
+      "text": "Hãy kể cho tôi về bãi biển mà bạn thích nhất.",
+      "hintKo": "당신이 제일 좋아하는 해변에 대해 말해주세요.",
+      "audioSrc": "",
+      "sourcePage": 6,
+      "reviewNeeded": false,
+      "pronKo": "하이 께 쪼 또이 베 바이 비엔 마 반 틱 녓.",
+      "mouthKo": "Hãy kể cho tôi / về bãi biển / mà bạn thích nhất 으로 끊습니다.",
+      "toneKo": "좋아하는 해변을 소개해야 합니다."
+    },
+    {
+      "id": "qb6-beach-p-003",
+      "text": "Bãi biển đó nằm ở đâu và trông như thế nào?",
+      "hintKo": "그 해변은 어디에 위치하고 어떻게 보입니까?",
+      "audioSrc": "",
+      "sourcePage": 6,
+      "reviewNeeded": false,
+      "pronKo": "바이 비엔 도 남 어 더우 바 쫑 느 테 나오?",
+      "mouthKo": "Bãi biển đó / nằm ở đâu / và trông như thế nào 로 끊습니다.",
+      "toneKo": "위치와 모습을 모두 답해야 합니다."
+    },
+    {
+      "id": "qb6-beach-p-004",
+      "text": "Vì sao bạn thích bãi biển đó?",
+      "hintKo": "왜 당신은 그 해변을 좋아합니까?",
+      "audioSrc": "",
+      "sourcePage": 6,
+      "reviewNeeded": false,
+      "pronKo": "비 사오 반 틱 바이 비엔 도?",
+      "mouthKo": "Vì sao / bạn thích / bãi biển đó 로 끊습니다.",
+      "toneKo": "좋아하는 이유를 말해야 합니다."
+    },
+    {
+      "id": "qb6-beach-p-005",
+      "text": "Những việc mà bạn thường làm khi đi đến bãi biển là gì?",
+      "hintKo": "당신이 해변에 갔을 때 주로 하는 일들은 무엇인가요?",
+      "audioSrc": "",
+      "sourcePage": 6,
+      "reviewNeeded": false,
+      "pronKo": "능 비엑 마 반 트엉 람 키 디 덴 바이 비엔 라 지?",
+      "mouthKo": "Những việc mà bạn thường làm / khi đi đến bãi biển / là gì 로 끊습니다.",
+      "toneKo": "해변에서 하는 활동을 묻는 질문입니다."
+    },
+    {
+      "id": "qb6-beach-p-006",
+      "text": "Hãy cho tôi biết về những hoạt động chính của bạn ở bãi biển khi bạn đi đến bãi biển.",
+      "hintKo": "당신이 해변에 갈 때 해변에서 하는 주요 활동들에 대해 알려주세요.",
+      "audioSrc": "",
+      "sourcePage": 6,
+      "reviewNeeded": false,
+      "pronKo": "하이 쪼 또이 비엣 베 능 호앗 동 찐 꾸어 반 어 바이 비엔 키 반 디 덴 바이 비엔.",
+      "mouthKo": "Hãy cho tôi biết / về những hoạt động chính / của bạn ở bãi biển / khi bạn đi đến bãi biển 으로 끊습니다.",
+      "toneKo": "주요 활동을 순서대로 말하면 좋습니다."
+    },
+    {
+      "id": "qb6-beach-p-007",
+      "text": "Hãy nói thật chi tiết.",
+      "hintKo": "아주 자세하게 말해주세요.",
+      "audioSrc": "",
+      "sourcePage": 6,
+      "reviewNeeded": false,
+      "pronKo": "하이 노이 텃 찌 띠엣.",
+      "mouthKo": "Hãy nói / thật chi tiết 으로 끊습니다.",
+      "toneKo": "답변을 길게 요구하는 표현입니다."
+    }
+  ],
+  "quizSeeds": [
+    {
+      "id": "qb6-beach-q-001",
+      "type": "match-term",
+      "prompt": "문제은행 해변 핵심 단어 매칭 1",
+      "answerSet": [
+        "bãi biển-해변",
+        "đi đến bãi biển-해변에 가다",
+        "đi biển-바다/해변에 가다",
+        "thích nhất-가장 좋아하다",
+        "nằm ở đâu-어디에 위치하다",
+        "trông như thế nào-어떻게 생겼다",
+        "vì sao-왜",
+        "biển-바다",
+        "nước biển-바닷물",
+        "trong-맑다"
+      ],
+      "sourcePage": 6,
+      "reviewNeeded": false
+    },
+    {
+      "id": "qb6-beach-q-002",
+      "type": "match-term",
+      "prompt": "문제은행 해변 묘사 단어 매칭",
+      "answerSet": [
+        "cát-모래",
+        "cát trắng-하얀 모래",
+        "sóng-파도",
+        "gió biển-바닷바람",
+        "phong cảnh-풍경",
+        "rộng-넓다",
+        "sạch sẽ-깨끗하다",
+        "đẹp-아름답다",
+        "yên tĩnh-조용하다",
+        "đông người-사람이 많다"
+      ],
+      "sourcePage": 6,
+      "reviewNeeded": false
+    },
+    {
+      "id": "qb6-beach-q-003",
+      "type": "match-term",
+      "prompt": "문제은행 해변 활동 단어 매칭",
+      "answerSet": [
+        "mùa hè-여름",
+        "hoạt động-활동",
+        "hoạt động chính-주요 활동",
+        "bơi-수영하다",
+        "tắm biển-해수욕하다",
+        "đi dạo-산책하다",
+        "dọc bãi biển-해변을 따라서",
+        "chụp ảnh-사진을 찍다",
+        "ngắm biển-바다를 바라보다",
+        "ngắm hoàng hôn-노을을 보다"
+      ],
+      "sourcePage": 6,
+      "reviewNeeded": false
+    },
+    {
+      "id": "qb6-beach-q-004",
+      "type": "match-term",
+      "prompt": "문제은행 해변 추가 단어 매칭",
+      "answerSet": [
+        "ăn hải sản-해산물을 먹다",
+        "uống cà phê-커피를 마시다",
+        "quán cà phê-카페",
+        "gia đình-가족",
+        "bạn bè-친구들",
+        "thư giãn-휴식하다",
+        "cảm thấy thoải mái-편안함을 느끼다",
+        "giảm căng thẳng-스트레스를 줄이다",
+        "chi tiết-자세한",
+        "mùa nghỉ hè-여름 휴가철"
+      ],
+      "sourcePage": 6,
+      "reviewNeeded": false
+    },
+    {
+      "id": "qb6-beach-q-005",
+      "type": "sentence-meaning",
+      "prompt": "문제은행 해변 질문 뜻 고르기",
+      "answerSet": [
+        "Hãy kể cho tôi về bãi biển mà bạn thích nhất.-당신이 제일 좋아하는 해변에 대해 말해주세요.",
+        "Bãi biển đó nằm ở đâu?-그 해변은 어디에 있나요?",
+        "Bãi biển đó trông như thế nào?-그 해변은 어떻게 생겼나요?",
+        "Vì sao bạn thích bãi biển đó?-왜 당신은 그 해변을 좋아하나요?",
+        "Những việc mà bạn thường làm khi đi đến bãi biển là gì?-당신이 해변에 갔을 때 주로 하는 일들은 무엇인가요?"
+      ],
+      "sourcePage": 6,
+      "reviewNeeded": false
+    },
+    {
+      "id": "qb6-beach-q-006",
+      "type": "fill-blank",
+      "prompt": "빈칸 채우기: 저는 해변에 가는 것을 좋아합니다.",
+      "question": "Tôi thích đi đến bãi ___.",
+      "answer": "biển",
+      "sourcePage": 6,
+      "reviewNeeded": false
+    },
+    {
+      "id": "qb6-beach-q-007",
+      "type": "fill-blank",
+      "prompt": "빈칸 채우기: 제가 가장 좋아하는 해변은 해운대입니다.",
+      "question": "Bãi biển mà tôi thích ___ là Haeundae.",
+      "answer": "nhất",
+      "sourcePage": 6,
+      "reviewNeeded": false
+    },
+    {
+      "id": "qb6-beach-q-008",
+      "type": "fill-blank",
+      "prompt": "빈칸 채우기: 그 해변은 부산에 있습니다.",
+      "question": "Bãi biển đó ___ ở Busan.",
+      "answer": "nằm",
+      "sourcePage": 6,
+      "reviewNeeded": false
+    },
+    {
+      "id": "qb6-beach-q-009",
+      "type": "fill-blank",
+      "prompt": "빈칸 채우기: 그 해변은 매우 넓고 깨끗합니다.",
+      "question": "Bãi biển đó rất rộng và sạch ___.",
+      "answer": "sẽ",
+      "sourcePage": 6,
+      "reviewNeeded": false
+    },
+    {
+      "id": "qb6-beach-q-010",
+      "type": "fill-blank",
+      "prompt": "빈칸 채우기: 저는 해변을 따라 산책합니다.",
+      "question": "Tôi đi dạo ___ bãi biển.",
+      "answer": "dọc",
+      "sourcePage": 6,
+      "reviewNeeded": false
+    },
+    {
+      "id": "qb6-beach-q-011",
+      "type": "fill-blank",
+      "prompt": "빈칸 채우기: 저는 바다를 바라보는 것을 좋아합니다.",
+      "question": "Tôi thích ___ biển.",
+      "answer": "ngắm",
+      "sourcePage": 6,
+      "reviewNeeded": false
+    },
+    {
+      "id": "qb6-beach-q-012",
+      "type": "fill-blank",
+      "prompt": "빈칸 채우기: 우리는 보통 해산물을 먹습니다.",
+      "question": "Chúng tôi thường ăn hải ___.",
+      "answer": "sản",
+      "sourcePage": 6,
+      "reviewNeeded": false
+    },
+    {
+      "id": "qb6-beach-q-013",
+      "type": "match-term",
+      "prompt": "좋아하는 해변 답변 순서 맞추기",
+      "answerSet": [
+        "1-Tôi rất thích đi đến bãi biển.",
+        "2-Bãi biển mà tôi thích nhất là Haeundae ở Busan.",
+        "3-Bãi biển đó rất rộng, sạch sẽ và đẹp.",
+        "4-Ở đó có cát trắng, nước biển trong và nhiều quán cà phê gần biển.",
+        "5-Tôi thích bãi biển đó vì phong cảnh rất đẹp và không khí rất thoải mái."
+      ],
+      "sourcePage": 6,
+      "reviewNeeded": false
+    },
+    {
+      "id": "qb6-beach-q-014",
+      "type": "match-term",
+      "prompt": "해변 활동 답변 순서 맞추기",
+      "answerSet": [
+        "1-Khi đi đến bãi biển, tôi thường làm nhiều việc.",
+        "2-Đầu tiên, tôi đi dạo dọc bãi biển và ngắm biển.",
+        "3-Sau đó, nếu thời tiết tốt, tôi tắm biển hoặc bơi một chút.",
+        "4-Tôi cũng chụp ảnh với gia đình vì phong cảnh rất đẹp.",
+        "5-Sau khi chơi ở bãi biển, chúng tôi thường ăn hải sản và uống cà phê."
+      ],
+      "sourcePage": 6,
+      "reviewNeeded": false
+    }
+  ],
+  "unlockCondition": "always",
+  "reviewNeeded": false
+},
+    {
+  "lessonId": "question-bank-005-park",
+  "unitLabel": "문제은행",
+  "titleKo": "문제은행5: 공원",
+  "titleVi": "Ngân hàng câu hỏi 5: Chủ đề công viên",
+  "pageRange": "문제은행 / 공원",
+  "goals": [
+    "자주 가는 공원을 묘사할 수 있다",
+    "공원에 언제, 누구와 가는지 말할 수 있다",
+    "공원에서 하는 활동을 순서대로 말할 수 있다",
+    "마지막으로 공원에 간 경험을 과거 시제로 말할 수 있다",
+    "공원에서 있었던 기억에 남는 경험을 설명할 수 있다",
+    "OPIc 공원 주제에서 IM1 수준의 짧은 답변을 만들 수 있다"
+  ],
+  "topicOverview": "공원 주제는 OPIc에서 취미, 여가, 가족, 주말 활동과 연결하기 좋은 주제입니다. 초보자는 '저는 공원에 가는 것을 좋아합니다 → 보통 주말에 가족과 갑니다 → 집 근처 공원은 넓고 깨끗합니다 → 산책하고 아이들과 놉니다 → 공원에 가면 기분이 좋습니다' 순서로 말하면 안정적입니다.",
+  "cultureTopics": [
+    "공원 가기",
+    "자주 가는 공원 묘사",
+    "공원에서 하는 활동",
+    "주말 활동",
+    "가족과 공원 가기",
+    "산책하기",
+    "아이들과 놀기",
+    "마지막으로 공원에 간 경험",
+    "공원에서 있었던 기억",
+    "예상하지 못한 경험 말하기"
+  ],
+  "vocabCards": [
+    {
+      "id": "qb5-park-v-001",
+      "term": "công viên",
+      "meaningKo": "공원",
+      "example": "Tôi thích đến công viên.",
+      "exampleMeaningKo": "저는 공원에 가는 것을 좋아합니다.",
+      "audioSrc": "",
+      "sourcePage": 5,
+      "reviewNeeded": false,
+      "pronKo": "꽁 비엔",
+      "pronNoteKo": "공원 주제의 가장 핵심 단어입니다.",
+      "pronChunks": ["công=꽁", "viên=비엔"]
+    },
+    {
+      "id": "qb5-park-v-002",
+      "term": "đến công viên",
+      "meaningKo": "공원에 가다",
+      "example": "Cuối tuần tôi thường đến công viên.",
+      "exampleMeaningKo": "주말에 저는 보통 공원에 갑니다.",
+      "audioSrc": "",
+      "sourcePage": 5,
+      "reviewNeeded": false,
+      "pronKo": "덴 꽁 비엔",
+      "pronNoteKo": "đi công viên보다 'đến công viên'이 더 자연스럽게 들릴 때가 많습니다.",
+      "pronChunks": ["đến=덴", "công viên=꽁 비엔"]
+    },
+    {
+      "id": "qb5-park-v-003",
+      "term": "thường xuyên",
+      "meaningKo": "자주 / 정기적으로",
+      "example": "Tôi thường xuyên đến công viên gần nhà.",
+      "exampleMeaningKo": "저는 집 근처 공원에 자주 갑니다.",
+      "audioSrc": "",
+      "sourcePage": 5,
+      "reviewNeeded": false,
+      "pronKo": "트엉 쑤옌",
+      "pronNoteKo": "자주 가는 곳을 말할 때 좋습니다.",
+      "pronChunks": ["thường=트엉", "xuyên=쑤옌"]
+    },
+    {
+      "id": "qb5-park-v-004",
+      "term": "trông như thế nào",
+      "meaningKo": "어떻게 생겼다 / 어떻게 보이다",
+      "example": "Công viên đó trông như thế nào?",
+      "exampleMeaningKo": "그 공원은 어떻게 생겼나요?",
+      "audioSrc": "",
+      "sourcePage": 5,
+      "reviewNeeded": false,
+      "pronKo": "쫑 느 테 나오",
+      "pronNoteKo": "묘사 문제에서 매우 자주 나옵니다.",
+      "pronChunks": ["trông=쫑", "như thế nào=느 테 나오"]
+    },
+    {
+      "id": "qb5-park-v-005",
+      "term": "rộng",
+      "meaningKo": "넓다",
+      "example": "Công viên đó rất rộng.",
+      "exampleMeaningKo": "그 공원은 매우 넓습니다.",
+      "audioSrc": "",
+      "sourcePage": 5,
+      "reviewNeeded": false,
+      "pronKo": "종",
+      "pronNoteKo": "공원 묘사에 가장 쓰기 좋은 형용사입니다.",
+      "pronChunks": ["rộng=종"]
+    },
+    {
+      "id": "qb5-park-v-006",
+      "term": "sạch sẽ",
+      "meaningKo": "깨끗하다",
+      "example": "Công viên rất sạch sẽ.",
+      "exampleMeaningKo": "공원이 매우 깨끗합니다.",
+      "audioSrc": "",
+      "sourcePage": 5,
+      "reviewNeeded": false,
+      "pronKo": "삭 세",
+      "pronNoteKo": "장소 묘사에 자주 쓰입니다.",
+      "pronChunks": ["sạch=삭", "sẽ=세"]
+    },
+    {
+      "id": "qb5-park-v-007",
+      "term": "đẹp",
+      "meaningKo": "예쁘다 / 아름답다",
+      "example": "Công viên đó rất đẹp.",
+      "exampleMeaningKo": "그 공원은 매우 예쁩니다.",
+      "audioSrc": "",
+      "sourcePage": 5,
+      "reviewNeeded": false,
+      "pronKo": "뎁",
+      "pronNoteKo": "장소, 사람, 풍경에 모두 쓸 수 있습니다.",
+      "pronChunks": ["đẹp=뎁"]
+    },
+    {
+      "id": "qb5-park-v-008",
+      "term": "yên tĩnh",
+      "meaningKo": "조용하다",
+      "example": "Buổi sáng công viên rất yên tĩnh.",
+      "exampleMeaningKo": "아침에 공원은 매우 조용합니다.",
+      "audioSrc": "",
+      "sourcePage": 5,
+      "reviewNeeded": false,
+      "pronKo": "이엔 띤",
+      "pronNoteKo": "조용한 분위기를 설명할 때 좋습니다.",
+      "pronChunks": ["yên=이엔", "tĩnh=띤"]
+    },
+    {
+      "id": "qb5-park-v-009",
+      "term": "không khí",
+      "meaningKo": "공기 / 분위기",
+      "example": "Không khí ở công viên rất trong lành.",
+      "exampleMeaningKo": "공원의 공기는 매우 상쾌합니다.",
+      "audioSrc": "",
+      "sourcePage": 5,
+      "reviewNeeded": false,
+      "pronKo": "콩 키",
+      "pronNoteKo": "공원, 날씨, 여행 주제에 모두 좋습니다.",
+      "pronChunks": ["không=콩", "khí=키"]
+    },
+    {
+      "id": "qb5-park-v-010",
+      "term": "trong lành",
+      "meaningKo": "상쾌하다 / 맑다",
+      "example": "Không khí rất trong lành.",
+      "exampleMeaningKo": "공기가 매우 상쾌합니다.",
+      "audioSrc": "",
+      "sourcePage": 5,
+      "reviewNeeded": false,
+      "pronKo": "쫑 라인",
+      "pronNoteKo": "공원의 좋은 점을 말할 때 고급스럽게 들립니다.",
+      "pronChunks": ["trong=쫑", "lành=라인"]
+    },
+    {
+      "id": "qb5-park-v-011",
+      "term": "gần nhà",
+      "meaningKo": "집 근처",
+      "example": "Tôi thường đến công viên gần nhà.",
+      "exampleMeaningKo": "저는 보통 집 근처 공원에 갑니다.",
+      "audioSrc": "",
+      "sourcePage": 5,
+      "reviewNeeded": false,
+      "pronKo": "건 냐",
+      "pronNoteKo": "자주 가는 이유로 쓰기 좋습니다.",
+      "pronChunks": ["gần=건", "nhà=냐"]
+    },
+    {
+      "id": "qb5-park-v-012",
+      "term": "cây",
+      "meaningKo": "나무",
+      "example": "Trong công viên có nhiều cây.",
+      "exampleMeaningKo": "공원 안에는 나무가 많습니다.",
+      "audioSrc": "",
+      "sourcePage": 5,
+      "reviewNeeded": false,
+      "pronKo": "꺼이",
+      "pronNoteKo": "공원 묘사에 필수 단어입니다.",
+      "pronChunks": ["cây=꺼이"]
+    },
+    {
+      "id": "qb5-park-v-013",
+      "term": "hoa",
+      "meaningKo": "꽃",
+      "example": "Ở đó có nhiều hoa đẹp.",
+      "exampleMeaningKo": "그곳에는 예쁜 꽃이 많습니다.",
+      "audioSrc": "",
+      "sourcePage": 5,
+      "reviewNeeded": false,
+      "pronKo": "화",
+      "pronNoteKo": "봄, 공원, 산책 주제에 잘 어울립니다.",
+      "pronChunks": ["hoa=화"]
+    },
+    {
+      "id": "qb5-park-v-014",
+      "term": "hồ",
+      "meaningKo": "호수",
+      "example": "Trong công viên có một cái hồ nhỏ.",
+      "exampleMeaningKo": "공원 안에는 작은 호수가 하나 있습니다.",
+      "audioSrc": "",
+      "sourcePage": 5,
+      "reviewNeeded": false,
+      "pronKo": "호",
+      "pronNoteKo": "공원의 모습을 자세히 말할 때 좋습니다.",
+      "pronChunks": ["hồ=호"]
+    },
+    {
+      "id": "qb5-park-v-015",
+      "term": "đường đi bộ",
+      "meaningKo": "산책로 / 보행로",
+      "example": "Công viên có đường đi bộ rất đẹp.",
+      "exampleMeaningKo": "공원에는 매우 예쁜 산책로가 있습니다.",
+      "audioSrc": "",
+      "sourcePage": 5,
+      "reviewNeeded": false,
+      "pronKo": "드엉 디 보",
+      "pronNoteKo": "공원 묘사와 활동 설명에 모두 좋습니다.",
+      "pronChunks": ["đường=드엉", "đi bộ=디 보"]
+    },
+    {
+      "id": "qb5-park-v-016",
+      "term": "đi dạo",
+      "meaningKo": "산책하다",
+      "example": "Tôi thường đi dạo trong công viên.",
+      "exampleMeaningKo": "저는 보통 공원에서 산책합니다.",
+      "audioSrc": "",
+      "sourcePage": 5,
+      "reviewNeeded": false,
+      "pronKo": "디 자오",
+      "pronNoteKo": "공원 주제에서 가장 많이 쓰는 활동입니다.",
+      "pronChunks": ["đi=디", "dạo=자오"]
+    },
+    {
+      "id": "qb5-park-v-017",
+      "term": "tập thể dục",
+      "meaningKo": "운동하다",
+      "example": "Nhiều người tập thể dục ở công viên.",
+      "exampleMeaningKo": "많은 사람들이 공원에서 운동합니다.",
+      "audioSrc": "",
+      "sourcePage": 5,
+      "reviewNeeded": false,
+      "pronKo": "떱 테 죽",
+      "pronNoteKo": "아침 공원 활동에 쓰기 좋습니다.",
+      "pronChunks": ["tập=떱", "thể dục=테 죽"]
+    },
+    {
+      "id": "qb5-park-v-018",
+      "term": "chơi với con",
+      "meaningKo": "아이와 놀다",
+      "example": "Tôi thường chơi với con ở công viên.",
+      "exampleMeaningKo": "저는 보통 공원에서 아이와 놉니다.",
+      "audioSrc": "",
+      "sourcePage": 5,
+      "reviewNeeded": false,
+      "pronKo": "쩌이 버이 꼰",
+      "pronNoteKo": "가족 답변에 아주 좋습니다.",
+      "pronChunks": ["chơi=쩌이", "với=버이", "con=꼰"]
+    },
+    {
+      "id": "qb5-park-v-019",
+      "term": "với gia đình",
+      "meaningKo": "가족과 함께",
+      "example": "Tôi đến công viên với gia đình.",
+      "exampleMeaningKo": "저는 가족과 함께 공원에 갑니다.",
+      "audioSrc": "",
+      "sourcePage": 5,
+      "reviewNeeded": false,
+      "pronKo": "버이 자 딘",
+      "pronNoteKo": "누구와 가는지 답할 때 씁니다.",
+      "pronChunks": ["với=버이", "gia đình=자 딘"]
+    },
+    {
+      "id": "qb5-park-v-020",
+      "term": "cuối tuần",
+      "meaningKo": "주말",
+      "example": "Cuối tuần tôi thường đến công viên.",
+      "exampleMeaningKo": "주말에 저는 보통 공원에 갑니다.",
+      "audioSrc": "",
+      "sourcePage": 5,
+      "reviewNeeded": false,
+      "pronKo": "꾸오이 뚜언",
+      "pronNoteKo": "공원에 가는 날짜를 말할 때 가장 쉽습니다.",
+      "pronChunks": ["cuối=꾸오이", "tuần=뚜언"]
+    },
+    {
+      "id": "qb5-park-v-021",
+      "term": "ngày nào",
+      "meaningKo": "무슨 요일 / 어떤 날",
+      "example": "Bạn thường đến công viên vào ngày nào?",
+      "exampleMeaningKo": "당신은 보통 어떤 날에 공원에 가나요?",
+      "audioSrc": "",
+      "sourcePage": 5,
+      "reviewNeeded": false,
+      "pronKo": "응아이 나오",
+      "pronNoteKo": "언제 가는지 묻는 표현입니다.",
+      "pronChunks": ["ngày=응아이", "nào=나오"]
+    },
+    {
+      "id": "qb5-park-v-022",
+      "term": "hoạt động",
+      "meaningKo": "활동",
+      "example": "Hãy kể về hoạt động của bạn ở công viên.",
+      "exampleMeaningKo": "공원에서의 당신의 활동에 대해 말해주세요.",
+      "audioSrc": "",
+      "sourcePage": 5,
+      "reviewNeeded": false,
+      "pronKo": "호앗 동",
+      "pronNoteKo": "공원에서 하는 일을 묶어서 말할 때 씁니다.",
+      "pronChunks": ["hoạt=호앗", "động=동"]
+    },
+    {
+      "id": "qb5-park-v-023",
+      "term": "điển hình",
+      "meaningKo": "전형적인 / 대표적인",
+      "example": "Đó là một hoạt động điển hình của tôi.",
+      "exampleMeaningKo": "그것은 저의 전형적인 활동입니다.",
+      "audioSrc": "",
+      "sourcePage": 5,
+      "reviewNeeded": false,
+      "pronKo": "디엔 힌",
+      "pronNoteKo": "대표적인 하루 활동을 말할 때 좋습니다.",
+      "pronChunks": ["điển=디엔", "hình=힌"]
+    },
+    {
+      "id": "qb5-park-v-024",
+      "term": "bắt đầu",
+      "meaningKo": "시작하다",
+      "example": "Tôi bắt đầu bằng việc đi dạo.",
+      "exampleMeaningKo": "저는 산책하는 것으로 시작합니다.",
+      "audioSrc": "",
+      "sourcePage": 5,
+      "reviewNeeded": false,
+      "pronKo": "밧 더우",
+      "pronNoteKo": "시작부터 끝까지 말할 때 필수입니다.",
+      "pronChunks": ["bắt=밧", "đầu=더우"]
+    },
+    {
+      "id": "qb5-park-v-025",
+      "term": "kết thúc",
+      "meaningKo": "끝나다 / 마치다",
+      "example": "Sau đó, tôi kết thúc bằng việc uống cà phê.",
+      "exampleMeaningKo": "그 후 저는 커피를 마시는 것으로 마무리합니다.",
+      "audioSrc": "",
+      "sourcePage": 5,
+      "reviewNeeded": false,
+      "pronKo": "껫 툭",
+      "pronNoteKo": "활동 순서를 말할 때 좋습니다.",
+      "pronChunks": ["kết=껫", "thúc=툭"]
+    },
+    {
+      "id": "qb5-park-v-026",
+      "term": "lần cuối cùng",
+      "meaningKo": "마지막으로",
+      "example": "Lần cuối cùng tôi đến công viên là tuần trước.",
+      "exampleMeaningKo": "제가 마지막으로 공원에 간 것은 지난주였습니다.",
+      "audioSrc": "",
+      "sourcePage": 5,
+      "reviewNeeded": false,
+      "pronKo": "런 꾸오이 꿍",
+      "pronNoteKo": "과거 경험 질문의 핵심 표현입니다.",
+      "pronChunks": ["lần=런", "cuối cùng=꾸오이 꿍"]
+    },
+    {
+      "id": "qb5-park-v-027",
+      "term": "tuần trước",
+      "meaningKo": "지난주",
+      "example": "Tôi đã đến công viên tuần trước.",
+      "exampleMeaningKo": "저는 지난주에 공원에 갔습니다.",
+      "audioSrc": "",
+      "sourcePage": 5,
+      "reviewNeeded": false,
+      "pronKo": "뚜언 쯔억",
+      "pronNoteKo": "마지막 경험 말하기에 좋습니다.",
+      "pronChunks": ["tuần=뚜언", "trước=쯔억"]
+    },
+    {
+      "id": "qb5-park-v-028",
+      "term": "đã",
+      "meaningKo": "과거 표시 / ~했다",
+      "example": "Tôi đã đến công viên với gia đình.",
+      "exampleMeaningKo": "저는 가족과 함께 공원에 갔습니다.",
+      "audioSrc": "",
+      "sourcePage": 5,
+      "reviewNeeded": false,
+      "pronKo": "다",
+      "pronNoteKo": "과거 경험을 말할 때 씁니다.",
+      "pronChunks": ["đã=다"]
+    },
+    {
+      "id": "qb5-park-v-029",
+      "term": "trải nghiệm",
+      "meaningKo": "경험",
+      "example": "Đó là một trải nghiệm đáng nhớ.",
+      "exampleMeaningKo": "그것은 기억에 남는 경험이었습니다.",
+      "audioSrc": "",
+      "sourcePage": 5,
+      "reviewNeeded": false,
+      "pronKo": "짜이 응히엠",
+      "pronNoteKo": "경험 문제의 핵심 단어입니다.",
+      "pronChunks": ["trải=짜이", "nghiệm=응히엠"]
+    },
+    {
+      "id": "qb5-park-v-030",
+      "term": "đáng nhớ",
+      "meaningKo": "기억에 남는",
+      "example": "Tôi có một trải nghiệm đáng nhớ ở công viên.",
+      "exampleMeaningKo": "저는 공원에서 기억에 남는 경험이 있습니다.",
+      "audioSrc": "",
+      "sourcePage": 5,
+      "reviewNeeded": false,
+      "pronKo": "당 녀",
+      "pronNoteKo": "OPIc 경험 답변에 자주 쓰는 표현입니다.",
+      "pronChunks": ["đáng=당", "nhớ=녀"]
+    },
+    {
+      "id": "qb5-park-v-031",
+      "term": "bất ngờ",
+      "meaningKo": "예상치 못한 / 놀라운",
+      "example": "Một điều bất ngờ đã xảy ra.",
+      "exampleMeaningKo": "예상치 못한 일이 일어났습니다.",
+      "audioSrc": "",
+      "sourcePage": 5,
+      "reviewNeeded": false,
+      "pronKo": "벗 응어",
+      "pronNoteKo": "돌발 경험을 말할 때 좋습니다.",
+      "pronChunks": ["bất=벗", "ngờ=응어"]
+    },
+    {
+      "id": "qb5-park-v-032",
+      "term": "xảy ra",
+      "meaningKo": "일어나다 / 발생하다",
+      "example": "Điều đó xảy ra ở công viên gần nhà.",
+      "exampleMeaningKo": "그 일은 집 근처 공원에서 일어났습니다.",
+      "audioSrc": "",
+      "sourcePage": 5,
+      "reviewNeeded": false,
+      "pronKo": "싸이 자",
+      "pronNoteKo": "무슨 일이 일어났는지 말할 때 씁니다.",
+      "pronChunks": ["xảy=싸이", "ra=자"]
+    },
+    {
+      "id": "qb5-park-v-033",
+      "term": "lúc đó",
+      "meaningKo": "그때",
+      "example": "Lúc đó tôi ở với gia đình.",
+      "exampleMeaningKo": "그때 저는 가족과 함께 있었습니다.",
+      "audioSrc": "",
+      "sourcePage": 5,
+      "reviewNeeded": false,
+      "pronKo": "룩 도",
+      "pronNoteKo": "과거 경험 설명에 필수입니다.",
+      "pronChunks": ["lúc=룩", "đó=도"]
+    },
+    {
+      "id": "qb5-park-v-034",
+      "term": "vui",
+      "meaningKo": "즐겁다",
+      "example": "Hôm đó rất vui.",
+      "exampleMeaningKo": "그날은 매우 즐거웠습니다.",
+      "audioSrc": "",
+      "sourcePage": 5,
+      "reviewNeeded": false,
+      "pronKo": "부이",
+      "pronNoteKo": "경험을 간단히 평가할 때 좋습니다.",
+      "pronChunks": ["vui=부이"]
+    },
+    {
+      "id": "qb5-park-v-035",
+      "term": "mệt",
+      "meaningKo": "피곤하다",
+      "example": "Tôi hơi mệt nhưng rất vui.",
+      "exampleMeaningKo": "저는 조금 피곤했지만 매우 즐거웠습니다.",
+      "audioSrc": "",
+      "sourcePage": 5,
+      "reviewNeeded": false,
+      "pronKo": "멧",
+      "pronNoteKo": "공원 활동 후 느낌으로 쓰기 좋습니다.",
+      "pronChunks": ["mệt=멧"]
+    },
+    {
+      "id": "qb5-park-v-036",
+      "term": "chụp ảnh",
+      "meaningKo": "사진을 찍다",
+      "example": "Tôi chụp ảnh với gia đình.",
+      "exampleMeaningKo": "저는 가족과 사진을 찍었습니다.",
+      "audioSrc": "",
+      "sourcePage": 5,
+      "reviewNeeded": false,
+      "pronKo": "쭙 아인",
+      "pronNoteKo": "공원 경험 답변에 넣기 좋습니다.",
+      "pronChunks": ["chụp=쭙", "ảnh=아인"]
+    },
+    {
+      "id": "qb5-park-v-037",
+      "term": "ăn nhẹ",
+      "meaningKo": "간식을 먹다",
+      "example": "Sau khi đi dạo, chúng tôi ăn nhẹ.",
+      "exampleMeaningKo": "산책한 후에 우리는 간식을 먹었습니다.",
+      "audioSrc": "",
+      "sourcePage": 5,
+      "reviewNeeded": false,
+      "pronKo": "안 녜",
+      "pronNoteKo": "공원에서 하는 활동으로 자연스럽습니다.",
+      "pronChunks": ["ăn=안", "nhẹ=녜"]
+    },
+    {
+      "id": "qb5-park-v-038",
+      "term": "nghỉ ngơi",
+      "meaningKo": "쉬다",
+      "example": "Tôi ngồi trên ghế và nghỉ ngơi.",
+      "exampleMeaningKo": "저는 벤치에 앉아서 쉬었습니다.",
+      "audioSrc": "",
+      "sourcePage": 5,
+      "reviewNeeded": false,
+      "pronKo": "응이 응어이",
+      "pronNoteKo": "공원에서 쉬는 활동을 말할 때 좋습니다.",
+      "pronChunks": ["nghỉ=응이", "ngơi=응어이"]
+    },
+    {
+      "id": "qb5-park-v-039",
+      "term": "ghế",
+      "meaningKo": "의자 / 벤치",
+      "example": "Tôi ngồi trên ghế trong công viên.",
+      "exampleMeaningKo": "저는 공원 벤치에 앉았습니다.",
+      "audioSrc": "",
+      "sourcePage": 5,
+      "reviewNeeded": false,
+      "pronKo": "게",
+      "pronNoteKo": "공원 안의 벤치를 말할 때도 쓸 수 있습니다.",
+      "pronChunks": ["ghế=게"]
+    },
+    {
+      "id": "qb5-park-v-040",
+      "term": "sân chơi",
+      "meaningKo": "놀이터",
+      "example": "Con tôi chơi ở sân chơi.",
+      "exampleMeaningKo": "제 아이는 놀이터에서 놀았습니다.",
+      "audioSrc": "",
+      "sourcePage": 5,
+      "reviewNeeded": false,
+      "pronKo": "선 쩌이",
+      "pronNoteKo": "아이들과 공원에 가는 답변에 좋습니다.",
+      "pronChunks": ["sân=선", "chơi=쩌이"]
+    }
+  ],
+  "sentenceCards": [
+    {
+      "id": "qb5-park-s-001",
+      "textVi": "Trong bản khảo sát, bạn nói rằng bạn thích đến công viên. Hãy nói cho tôi nghe về công viên mà bạn thường xuyên đến. Công viên đó trông như thế nào? Vì sao bạn thích công viên đó?",
+      "textKo": "설문에서 당신은 공원 가기를 좋아한다고 했습니다. 당신이 자주 가는 공원에 대해 말해주세요. 그 공원은 어떻게 생겼나요? 왜 당신은 그 공원을 좋아하나요?",
+      "exampleAnswerVi": "Tôi rất thích đến công viên. Tôi thường xuyên đến một công viên gần nhà. Công viên đó rất rộng, sạch sẽ và đẹp. Trong công viên có nhiều cây, hoa và một cái hồ nhỏ. Không khí ở đó rất trong lành nên tôi cảm thấy thoải mái. Tôi thích công viên đó vì nó gần nhà và tôi có thể đi dạo với gia đình vào cuối tuần.",
+      "exampleAnswerKo": "저는 공원에 가는 것을 매우 좋아합니다. 저는 집 근처의 한 공원에 자주 갑니다. 그 공원은 매우 넓고 깨끗하고 아름답습니다. 공원 안에는 나무와 꽃이 많고 작은 호수가 하나 있습니다. 그곳의 공기가 매우 상쾌해서 저는 편안함을 느낍니다. 저는 그 공원이 집에서 가깝고 주말에 가족과 산책할 수 있어서 좋아합니다.",
+      "audioSrc": "",
+      "sourcePage": 5,
+      "reviewNeeded": false,
+      "pronKo": "쫑 반 카오 삿, 반 노이 장 반 틱 덴 꽁 비엔. 하이 노이 쪼 또이 응에 베 꽁 비엔 마 반 트엉 쑤옌 덴. 꽁 비엔 도 쫑 느 테 나오? 비 사오 반 틱 꽁 비엔 도?",
+      "exampleAnswerPronKo": "또이 젓 틱 덴 꽁 비엔. 또이 트엉 쑤옌 덴 못 꽁 비엔 건 냐.",
+      "pronNoteKo": "공원 묘사 문제입니다. '위치 → 모습 → 있는 것 → 좋아하는 이유' 순서로 답하면 쉽습니다."
+    },
+    {
+      "id": "qb5-park-s-002",
+      "textVi": "Bạn thường đến công viên vào ngày nào? Bạn thường làm gì ở công viên? Với ai? Hãy kể cho tôi về hoạt động điển hình trong ngày của bạn ở công viên từ khi bắt đầu đến khi kết thúc.",
+      "textKo": "당신은 주로 언제 공원에 갑니까? 당신은 주로 공원에서 무엇을 하나요? 누구와 하나요? 시작부터 끝까지 당신이 공원에서 하는 전형적인 하루 활동에 대해 말해주세요.",
+      "exampleAnswerVi": "Tôi thường đến công viên vào cuối tuần. Tôi thường đi với vợ và các con. Khi đến công viên, đầu tiên tôi đi dạo khoảng ba mươi phút. Sau đó, tôi chơi với các con ở sân chơi. Vợ tôi thường chụp ảnh và ngồi nghỉ trên ghế. Cuối cùng, chúng tôi ăn nhẹ và uống cà phê gần công viên. Đối với tôi, đó là một hoạt động rất vui và tốt cho sức khỏe.",
+      "exampleAnswerKo": "저는 보통 주말에 공원에 갑니다. 저는 보통 아내와 아이들과 함께 갑니다. 공원에 도착하면 먼저 약 30분 동안 산책합니다. 그 후 저는 놀이터에서 아이들과 놉니다. 제 아내는 보통 사진을 찍고 벤치에 앉아 쉽니다. 마지막으로 우리는 공원 근처에서 간식을 먹고 커피를 마십니다. 저에게 그것은 매우 즐겁고 건강에 좋은 활동입니다.",
+      "audioSrc": "",
+      "sourcePage": 5,
+      "reviewNeeded": false,
+      "pronKo": "반 트엉 덴 꽁 비엔 바오 응아이 나오? 반 트엉 람 지 어 꽁 비엔? 버이 아이? 하이 께 쪼 또이 베 호앗 동 디엔 힌 쫑 응아이 꾸어 반 어 꽁 비엔 뜨 키 밧 더우 덴 키 껫 툭.",
+      "exampleAnswerPronKo": "또이 트엉 덴 꽁 비엔 바오 꾸오이 뚜언. 또이 트엉 디 버이 버 바 깍 꼰.",
+      "pronNoteKo": "언제, 누구와, 무엇을 하는지 순서대로 말하는 문제입니다. 'đầu tiên → sau đó → cuối cùng'을 쓰면 답변이 길어집니다."
+    },
+    {
+      "id": "qb5-park-s-003",
+      "textVi": "Lần cuối cùng bạn đến công viên là khi nào? Bạn đã đến công viên với ai? Bạn đã làm gì ở công viên? Hãy nói thật chi tiết.",
+      "textKo": "마지막으로 공원에 갔던 적은 언제입니까? 당신은 누구와 함께 갔습니까? 당신은 공원에서 무엇을 했습니까? 아주 자세히 말해주세요.",
+      "exampleAnswerVi": "Lần cuối cùng tôi đến công viên là tuần trước. Tôi đã đến đó với vợ và các con. Hôm đó thời tiết rất đẹp nên chúng tôi đi dạo trong công viên. Sau đó, các con tôi chơi ở sân chơi, còn tôi và vợ tôi ngồi trên ghế và nói chuyện. Chúng tôi cũng chụp nhiều ảnh. Tôi hơi mệt nhưng rất vui vì tôi có thể dành thời gian với gia đình.",
+      "exampleAnswerKo": "제가 마지막으로 공원에 간 것은 지난주였습니다. 저는 그곳에 아내와 아이들과 함께 갔습니다. 그날 날씨가 매우 좋아서 우리는 공원에서 산책했습니다. 그 후 제 아이들은 놀이터에서 놀았고, 저와 제 아내는 벤치에 앉아서 이야기했습니다. 우리는 사진도 많이 찍었습니다. 저는 조금 피곤했지만 가족과 시간을 보낼 수 있어서 매우 즐거웠습니다.",
+      "audioSrc": "",
+      "sourcePage": 5,
+      "reviewNeeded": false,
+      "pronKo": "런 꾸오이 꿍 반 덴 꽁 비엔 라 키 나오? 반 다 덴 꽁 비엔 버이 아이? 반 다 람 지 어 꽁 비엔? 하이 노이 텃 찌 띠엣.",
+      "exampleAnswerPronKo": "런 꾸오이 꿍 또이 덴 꽁 비엔 라 뚜언 쯔억. 또이 다 덴 도 버이 버 바 깍 꼰.",
+      "pronNoteKo": "과거 경험 문제입니다. 'đã'를 넣어서 과거로 말하면 좋습니다."
+    },
+    {
+      "id": "qb5-park-s-004",
+      "textVi": "Hãy kể cho tôi nghe về một trải nghiệm đáng nhớ mà bạn đã có khi ở công viên. Nó có thể là điều gì đó vui hoặc bất ngờ xảy ra. Điều đó xảy ra ở đâu, như thế nào, lúc đó bạn đã ở với ai?",
+      "textKo": "공원에서 겪었던 기억에 남는 경험에 대해 말해주세요. 그것은 즐거웠거나 예상하지 못한 일이 발생한 것일 수 있습니다. 그 일은 어디에서 일어났고 어떻게 되었고 그때 당신은 누구와 있었나요?",
+      "exampleAnswerVi": "Tôi có một trải nghiệm đáng nhớ ở công viên gần nhà. Năm ngoái, tôi đến công viên với gia đình vào mùa xuân. Hôm đó có rất nhiều hoa đẹp. Khi các con tôi đang chơi ở sân chơi, bất ngờ trời mưa nhẹ. Chúng tôi chạy vào một quán cà phê nhỏ gần công viên. Lúc đó mọi người đều cười rất nhiều. Đó không phải là một việc lớn, nhưng đối với tôi, đó là một kỷ niệm rất vui với gia đình.",
+      "exampleAnswerKo": "저는 집 근처 공원에서 기억에 남는 경험이 있습니다. 작년에 저는 봄에 가족과 공원에 갔습니다. 그날 예쁜 꽃이 매우 많았습니다. 제 아이들이 놀이터에서 놀고 있을 때 갑자기 비가 조금 왔습니다. 우리는 공원 근처의 작은 카페로 뛰어갔습니다. 그때 모두 많이 웃었습니다. 큰일은 아니었지만 저에게는 가족과 함께한 매우 즐거운 추억이었습니다.",
+      "audioSrc": "",
+      "sourcePage": 5,
+      "reviewNeeded": false,
+      "pronKo": "하이 께 쪼 또이 응에 베 못 짜이 응히엠 당 녀 마 반 다 꼬 키 어 꽁 비엔. 노 꼬 테 라 디에우 지 도 부이 호악 벗 응어 싸이 자. 디에우 도 싸이 자 어 더우, 느 테 나오, 룩 도 반 다 어 버이 아이?",
+      "exampleAnswerPronKo": "또이 꼬 못 짜이 응히엠 당 녀 어 꽁 비엔 건 냐. 남 응오아이, 또이 덴 꽁 비엔 버이 자 딘 바오 무아 쑤언.",
+      "pronNoteKo": "경험형 문제입니다. '언제 → 어디서 → 누구와 → 무슨 일 → 느낌' 순서로 말하면 됩니다."
+    }
+  ],
+  "dialogues": [
+    {
+      "id": "qb5-park-d-001",
+      "title": "자주 가는 공원 대화",
+      "audioSrc": "",
+      "sourcePage": 5,
+      "reviewNeeded": false,
+      "lines": [
+        {
+          "speaker": "A",
+          "vi": "Bạn có thích đến công viên không?",
+          "ko": "당신은 공원에 가는 것을 좋아하나요?",
+          "pronKo": "반 꼬 틱 덴 꽁 비엔 콩?"
+        },
+        {
+          "speaker": "B",
+          "vi": "Có, tôi rất thích đến công viên.",
+          "ko": "네, 저는 공원에 가는 것을 매우 좋아합니다.",
+          "pronKo": "꼬, 또이 젓 틱 덴 꽁 비엔."
+        },
+        {
+          "speaker": "A",
+          "vi": "Bạn thường đến công viên nào?",
+          "ko": "당신은 보통 어떤 공원에 가나요?",
+          "pronKo": "반 트엉 덴 꽁 비엔 나오?"
+        },
+        {
+          "speaker": "B",
+          "vi": "Tôi thường đến công viên gần nhà.",
+          "ko": "저는 보통 집 근처 공원에 갑니다.",
+          "pronKo": "또이 트엉 덴 꽁 비엔 건 냐."
+        }
+      ]
+    },
+    {
+      "id": "qb5-park-d-002",
+      "title": "공원 모습 묘사 대화",
+      "audioSrc": "",
+      "sourcePage": 5,
+      "reviewNeeded": false,
+      "lines": [
+        {
+          "speaker": "A",
+          "vi": "Công viên đó trông như thế nào?",
+          "ko": "그 공원은 어떻게 생겼나요?",
+          "pronKo": "꽁 비엔 도 쫑 느 테 나오?"
+        },
+        {
+          "speaker": "B",
+          "vi": "Công viên đó rất rộng, sạch sẽ và đẹp.",
+          "ko": "그 공원은 매우 넓고 깨끗하고 예쁩니다.",
+          "pronKo": "꽁 비엔 도 젓 종, 삭 세 바 뎁."
+        },
+        {
+          "speaker": "A",
+          "vi": "Trong công viên có gì?",
+          "ko": "공원 안에는 무엇이 있나요?",
+          "pronKo": "쫑 꽁 비엔 꼬 지?"
+        },
+        {
+          "speaker": "B",
+          "vi": "Trong công viên có nhiều cây, hoa và một cái hồ nhỏ.",
+          "ko": "공원 안에는 나무와 꽃이 많고 작은 호수가 하나 있습니다.",
+          "pronKo": "쫑 꽁 비엔 꼬 니에우 꺼이, 화 바 못 까이 호 뇨."
+        }
+      ]
+    },
+    {
+      "id": "qb5-park-d-003",
+      "title": "공원에서 하는 활동 대화",
+      "audioSrc": "",
+      "sourcePage": 5,
+      "reviewNeeded": false,
+      "lines": [
+        {
+          "speaker": "A",
+          "vi": "Bạn thường làm gì ở công viên?",
+          "ko": "당신은 보통 공원에서 무엇을 하나요?",
+          "pronKo": "반 트엉 람 지 어 꽁 비엔?"
+        },
+        {
+          "speaker": "B",
+          "vi": "Tôi thường đi dạo và chơi với con.",
+          "ko": "저는 보통 산책하고 아이와 놉니다.",
+          "pronKo": "또이 트엉 디 자오 바 쩌이 버이 꼰."
+        },
+        {
+          "speaker": "A",
+          "vi": "Bạn thường đi với ai?",
+          "ko": "당신은 보통 누구와 가나요?",
+          "pronKo": "반 트엉 디 버이 아이?"
+        },
+        {
+          "speaker": "B",
+          "vi": "Tôi thường đi với gia đình.",
+          "ko": "저는 보통 가족과 함께 갑니다.",
+          "pronKo": "또이 트엉 디 버이 자 딘."
+        }
+      ]
+    },
+    {
+      "id": "qb5-park-d-004",
+      "title": "마지막으로 공원에 간 경험 대화",
+      "audioSrc": "",
+      "sourcePage": 5,
+      "reviewNeeded": false,
+      "lines": [
+        {
+          "speaker": "A",
+          "vi": "Lần cuối cùng bạn đến công viên là khi nào?",
+          "ko": "마지막으로 공원에 간 것은 언제인가요?",
+          "pronKo": "런 꾸오이 꿍 반 덴 꽁 비엔 라 키 나오?"
+        },
+        {
+          "speaker": "B",
+          "vi": "Lần cuối cùng tôi đến công viên là tuần trước.",
+          "ko": "제가 마지막으로 공원에 간 것은 지난주였습니다.",
+          "pronKo": "런 꾸오이 꿍 또이 덴 꽁 비엔 라 뚜언 쯔억."
+        },
+        {
+          "speaker": "A",
+          "vi": "Bạn đã đi với ai?",
+          "ko": "당신은 누구와 갔나요?",
+          "pronKo": "반 다 디 버이 아이?"
+        },
+        {
+          "speaker": "B",
+          "vi": "Tôi đã đi với vợ và các con.",
+          "ko": "저는 아내와 아이들과 함께 갔습니다.",
+          "pronKo": "또이 다 디 버이 버 바 깍 꼰."
+        }
+      ]
+    },
+    {
+      "id": "qb5-park-d-005",
+      "title": "기억에 남는 경험 대화",
+      "audioSrc": "",
+      "sourcePage": 5,
+      "reviewNeeded": false,
+      "lines": [
+        {
+          "speaker": "A",
+          "vi": "Bạn có trải nghiệm đáng nhớ nào ở công viên không?",
+          "ko": "공원에서 기억에 남는 경험이 있나요?",
+          "pronKo": "반 꼬 짜이 응히엠 당 녀 나오 어 꽁 비엔 콩?"
+        },
+        {
+          "speaker": "B",
+          "vi": "Có, tôi có một trải nghiệm rất vui ở công viên gần nhà.",
+          "ko": "네, 저는 집 근처 공원에서 매우 즐거운 경험이 있습니다.",
+          "pronKo": "꼬, 또이 꼬 못 짜이 응히엠 젓 부이 어 꽁 비엔 건 냐."
+        },
+        {
+          "speaker": "A",
+          "vi": "Điều đó xảy ra khi nào?",
+          "ko": "그 일은 언제 일어났나요?",
+          "pronKo": "디에우 도 싸이 자 키 나오?"
+        },
+        {
+          "speaker": "B",
+          "vi": "Điều đó xảy ra vào mùa xuân năm ngoái.",
+          "ko": "그 일은 작년 봄에 일어났습니다.",
+          "pronKo": "디에우 도 싸이 자 바오 무아 쑤언 남 응오아이."
+        }
+      ]
+    }
+  ],
+  "grammarPoints": [
+    {
+      "id": "qb5-park-g-001",
+      "title": "설문에서 말한 내용",
+      "pattern": "Trong bản khảo sát, bạn nói rằng ...",
+      "meaningKo": "설문에서 당신은 ...라고 말했습니다.",
+      "sourcePage": 5,
+      "reviewNeeded": false
+    },
+    {
+      "id": "qb5-park-g-002",
+      "title": "공원에 가는 것을 좋아하다",
+      "pattern": "Tôi thích đến công viên.",
+      "meaningKo": "저는 공원에 가는 것을 좋아합니다.",
+      "sourcePage": 5,
+      "reviewNeeded": false
+    },
+    {
+      "id": "qb5-park-g-003",
+      "title": "자주 가는 공원 말하기",
+      "pattern": "Tôi thường xuyên đến công viên gần nhà.",
+      "meaningKo": "저는 집 근처 공원에 자주 갑니다.",
+      "sourcePage": 5,
+      "reviewNeeded": false
+    },
+    {
+      "id": "qb5-park-g-004",
+      "title": "장소 모습 묘사하기",
+      "pattern": "Công viên đó trông như thế nào?",
+      "meaningKo": "그 공원은 어떻게 생겼나요?",
+      "sourcePage": 5,
+      "reviewNeeded": false
+    },
+    {
+      "id": "qb5-park-g-005",
+      "title": "장소 특징 말하기",
+      "pattern": "Công viên đó rất rộng, sạch sẽ và đẹp.",
+      "meaningKo": "그 공원은 매우 넓고 깨끗하고 예쁩니다.",
+      "sourcePage": 5,
+      "reviewNeeded": false
+    },
+    {
+      "id": "qb5-park-g-006",
+      "title": "이유 말하기",
+      "pattern": "Tôi thích công viên đó vì ...",
+      "meaningKo": "저는 ... 때문에 그 공원을 좋아합니다.",
+      "sourcePage": 5,
+      "reviewNeeded": false
+    },
+    {
+      "id": "qb5-park-g-007",
+      "title": "언제 가는지 말하기",
+      "pattern": "Tôi thường đến công viên vào cuối tuần.",
+      "meaningKo": "저는 보통 주말에 공원에 갑니다.",
+      "sourcePage": 5,
+      "reviewNeeded": false
+    },
+    {
+      "id": "qb5-park-g-008",
+      "title": "누구와 가는지 말하기",
+      "pattern": "Tôi thường đi với gia đình.",
+      "meaningKo": "저는 보통 가족과 함께 갑니다.",
+      "sourcePage": 5,
+      "reviewNeeded": false
+    },
+    {
+      "id": "qb5-park-g-009",
+      "title": "활동 순서 말하기",
+      "pattern": "Đầu tiên ..., sau đó ..., cuối cùng ...",
+      "meaningKo": "먼저 ..., 그 후 ..., 마지막으로 ...",
+      "sourcePage": 5,
+      "reviewNeeded": false
+    },
+    {
+      "id": "qb5-park-g-010",
+      "title": "마지막 경험 말하기",
+      "pattern": "Lần cuối cùng tôi đến công viên là tuần trước.",
+      "meaningKo": "제가 마지막으로 공원에 간 것은 지난주였습니다.",
+      "sourcePage": 5,
+      "reviewNeeded": false
+    },
+    {
+      "id": "qb5-park-g-011",
+      "title": "과거 행동 말하기",
+      "pattern": "Tôi đã đến công viên với gia đình.",
+      "meaningKo": "저는 가족과 함께 공원에 갔습니다.",
+      "sourcePage": 5,
+      "reviewNeeded": false
+    },
+    {
+      "id": "qb5-park-g-012",
+      "title": "기억에 남는 경험 말하기",
+      "pattern": "Tôi có một trải nghiệm đáng nhớ ở công viên.",
+      "meaningKo": "저는 공원에서 기억에 남는 경험이 있습니다.",
+      "sourcePage": 5,
+      "reviewNeeded": false
+    },
+    {
+      "id": "qb5-park-g-013",
+      "title": "그 일은 어디서 일어났는지 말하기",
+      "pattern": "Điều đó xảy ra ở công viên gần nhà.",
+      "meaningKo": "그 일은 집 근처 공원에서 일어났습니다.",
+      "sourcePage": 5,
+      "reviewNeeded": false
+    }
+  ],
+  "pronunciationTargets": [
+    {
+      "id": "qb5-park-p-001",
+      "text": "Trong bản khảo sát, bạn nói rằng bạn thích đến công viên.",
+      "hintKo": "설문에서 당신은 공원 가기를 좋아한다고 했습니다.",
+      "audioSrc": "",
+      "sourcePage": 5,
+      "reviewNeeded": false,
+      "pronKo": "쫑 반 카오 삿, 반 노이 장 반 틱 덴 꽁 비엔.",
+      "mouthKo": "Trong bản khảo sát / bạn nói rằng / bạn thích đến công viên 으로 끊어 읽습니다.",
+      "toneKo": "공원 주제 질문의 시작 문장입니다."
+    },
+    {
+      "id": "qb5-park-p-002",
+      "text": "Hãy nói cho tôi nghe về công viên mà bạn thường xuyên đến.",
+      "hintKo": "당신이 자주 가는 공원에 대해 말해주세요.",
+      "audioSrc": "",
+      "sourcePage": 5,
+      "reviewNeeded": false,
+      "pronKo": "하이 노이 쪼 또이 응에 베 꽁 비엔 마 반 트엉 쑤옌 덴.",
+      "mouthKo": "Hãy nói cho tôi nghe / về công viên / mà bạn thường xuyên đến 으로 끊습니다.",
+      "toneKo": "자주 가는 공원을 묘사하라는 질문입니다."
+    },
+    {
+      "id": "qb5-park-p-003",
+      "text": "Công viên đó trông như thế nào?",
+      "hintKo": "그 공원은 어떻게 생겼나요?",
+      "audioSrc": "",
+      "sourcePage": 5,
+      "reviewNeeded": false,
+      "pronKo": "꽁 비엔 도 쫑 느 테 나오?",
+      "mouthKo": "Công viên đó / trông như thế nào 로 끊습니다.",
+      "toneKo": "장소 묘사 질문입니다."
+    },
+    {
+      "id": "qb5-park-p-004",
+      "text": "Vì sao bạn thích công viên đó?",
+      "hintKo": "왜 당신은 그 공원을 좋아하나요?",
+      "audioSrc": "",
+      "sourcePage": 5,
+      "reviewNeeded": false,
+      "pronKo": "비 사오 반 틱 꽁 비엔 도?",
+      "mouthKo": "Vì sao / bạn thích / công viên đó 로 끊습니다.",
+      "toneKo": "좋아하는 이유를 말해야 합니다."
+    },
+    {
+      "id": "qb5-park-p-005",
+      "text": "Bạn thường đến công viên vào ngày nào?",
+      "hintKo": "당신은 주로 언제 공원에 갑니까?",
+      "audioSrc": "",
+      "sourcePage": 5,
+      "reviewNeeded": false,
+      "pronKo": "반 트엉 덴 꽁 비엔 바오 응아이 나오?",
+      "mouthKo": "Bạn thường đến công viên / vào ngày nào 로 끊습니다.",
+      "toneKo": "공원에 가는 요일이나 시간을 묻는 질문입니다."
+    },
+    {
+      "id": "qb5-park-p-006",
+      "text": "Bạn thường làm gì ở công viên?",
+      "hintKo": "당신은 주로 공원에서 무엇을 하나요?",
+      "audioSrc": "",
+      "sourcePage": 5,
+      "reviewNeeded": false,
+      "pronKo": "반 트엉 람 지 어 꽁 비엔?",
+      "mouthKo": "Bạn thường làm gì / ở công viên 으로 끊습니다.",
+      "toneKo": "공원 활동을 묻는 핵심 질문입니다."
+    },
+    {
+      "id": "qb5-park-p-007",
+      "text": "Hãy kể cho tôi về hoạt động điển hình trong ngày của bạn ở công viên từ khi bắt đầu đến khi kết thúc.",
+      "hintKo": "시작부터 끝까지 당신이 공원에서 하는 전형적인 하루 활동에 대해 말해주세요.",
+      "audioSrc": "",
+      "sourcePage": 5,
+      "reviewNeeded": false,
+      "pronKo": "하이 께 쪼 또이 베 호앗 동 디엔 힌 쫑 응아이 꾸어 반 어 꽁 비엔 뜨 키 밧 더우 덴 키 껫 툭.",
+      "mouthKo": "문장이 길기 때문에 Hãy kể cho tôi / về hoạt động điển hình / từ khi bắt đầu / đến khi kết thúc 으로 끊습니다.",
+      "toneKo": "활동 순서를 길게 말해야 하는 문제입니다."
+    },
+    {
+      "id": "qb5-park-p-008",
+      "text": "Lần cuối cùng bạn đến công viên là khi nào?",
+      "hintKo": "마지막으로 공원에 간 것은 언제입니까?",
+      "audioSrc": "",
+      "sourcePage": 5,
+      "reviewNeeded": false,
+      "pronKo": "런 꾸오이 꿍 반 덴 꽁 비엔 라 키 나오?",
+      "mouthKo": "Lần cuối cùng / bạn đến công viên / là khi nào 로 끊습니다.",
+      "toneKo": "과거 경험 질문입니다."
+    },
+    {
+      "id": "qb5-park-p-009",
+      "text": "Bạn đã đến công viên với ai?",
+      "hintKo": "당신은 누구와 함께 공원에 갔습니까?",
+      "audioSrc": "",
+      "sourcePage": 5,
+      "reviewNeeded": false,
+      "pronKo": "반 다 덴 꽁 비엔 버이 아이?",
+      "mouthKo": "Bạn đã đến công viên / với ai 로 끊습니다.",
+      "toneKo": "đã가 있으므로 과거형으로 답하면 좋습니다."
+    },
+    {
+      "id": "qb5-park-p-010",
+      "text": "Bạn đã làm gì ở công viên?",
+      "hintKo": "당신은 공원에서 무엇을 했습니까?",
+      "audioSrc": "",
+      "sourcePage": 5,
+      "reviewNeeded": false,
+      "pronKo": "반 다 람 지 어 꽁 비엔?",
+      "mouthKo": "Bạn đã làm gì / ở công viên 으로 끊습니다.",
+      "toneKo": "과거에 한 활동을 말해야 합니다."
+    },
+    {
+      "id": "qb5-park-p-011",
+      "text": "Hãy kể cho tôi nghe về một trải nghiệm đáng nhớ mà bạn đã có khi ở công viên.",
+      "hintKo": "공원에서 겪었던 기억에 남는 경험에 대해 말해주세요.",
+      "audioSrc": "",
+      "sourcePage": 5,
+      "reviewNeeded": false,
+      "pronKo": "하이 께 쪼 또이 응에 베 못 짜이 응히엠 당 녀 마 반 다 꼬 키 어 꽁 비엔.",
+      "mouthKo": "Hãy kể cho tôi nghe / về một trải nghiệm đáng nhớ / mà bạn đã có / khi ở công viên 으로 끊습니다.",
+      "toneKo": "경험형 고난도 문제입니다."
+    },
+    {
+      "id": "qb5-park-p-012",
+      "text": "Điều đó xảy ra ở đâu, như thế nào, lúc đó bạn đã ở với ai?",
+      "hintKo": "그 일은 어디에서 일어났고, 어떻게 되었고, 그때 당신은 누구와 있었나요?",
+      "audioSrc": "",
+      "sourcePage": 5,
+      "reviewNeeded": false,
+      "pronKo": "디에우 도 싸이 자 어 더우, 느 테 나오, 룩 도 반 다 어 버이 아이?",
+      "mouthKo": "Điều đó xảy ra ở đâu / như thế nào / lúc đó bạn đã ở với ai 로 끊습니다.",
+      "toneKo": "장소, 상황, 함께 있던 사람을 모두 답해야 합니다."
+    }
+  ],
+  "quizSeeds": [
+    {
+      "id": "qb5-park-q-001",
+      "type": "match-term",
+      "prompt": "문제은행 공원 핵심 단어 매칭 1",
+      "answerSet": [
+        "công viên-공원",
+        "đến công viên-공원에 가다",
+        "thường xuyên-자주",
+        "trông như thế nào-어떻게 생겼다",
+        "rộng-넓다",
+        "sạch sẽ-깨끗하다",
+        "đẹp-예쁘다",
+        "yên tĩnh-조용하다",
+        "không khí-공기/분위기",
+        "trong lành-상쾌하다"
+      ],
+      "sourcePage": 5,
+      "reviewNeeded": false
+    },
+    {
+      "id": "qb5-park-q-002",
+      "type": "match-term",
+      "prompt": "문제은행 공원 핵심 단어 매칭 2",
+      "answerSet": [
+        "gần nhà-집 근처",
+        "cây-나무",
+        "hoa-꽃",
+        "hồ-호수",
+        "đường đi bộ-산책로",
+        "đi dạo-산책하다",
+        "tập thể dục-운동하다",
+        "chơi với con-아이와 놀다",
+        "với gia đình-가족과 함께",
+        "cuối tuần-주말"
+      ],
+      "sourcePage": 5,
+      "reviewNeeded": false
+    },
+    {
+      "id": "qb5-park-q-003",
+      "type": "match-term",
+      "prompt": "문제은행 공원 경험 단어 매칭",
+      "answerSet": [
+        "ngày nào-어떤 날",
+        "hoạt động-활동",
+        "điển hình-전형적인",
+        "bắt đầu-시작하다",
+        "kết thúc-끝나다",
+        "lần cuối cùng-마지막으로",
+        "tuần trước-지난주",
+        "đã-과거 표시",
+        "trải nghiệm-경험",
+        "đáng nhớ-기억에 남는"
+      ],
+      "sourcePage": 5,
+      "reviewNeeded": false
+    },
+    {
+      "id": "qb5-park-q-004",
+      "type": "match-term",
+      "prompt": "문제은행 공원 추가 단어 매칭",
+      "answerSet": [
+        "bất ngờ-예상치 못한",
+        "xảy ra-일어나다",
+        "lúc đó-그때",
+        "vui-즐겁다",
+        "mệt-피곤하다",
+        "chụp ảnh-사진을 찍다",
+        "ăn nhẹ-간식을 먹다",
+        "nghỉ ngơi-쉬다",
+        "ghế-벤치/의자",
+        "sân chơi-놀이터"
+      ],
+      "sourcePage": 5,
+      "reviewNeeded": false
+    },
+    {
+      "id": "qb5-park-q-005",
+      "type": "sentence-meaning",
+      "prompt": "문제은행 공원 질문 뜻 고르기 1",
+      "answerSet": [
+        "Hãy nói cho tôi nghe về công viên mà bạn thường xuyên đến.-당신이 자주 가는 공원에 대해 말해주세요.",
+        "Công viên đó trông như thế nào?-그 공원은 어떻게 생겼나요?",
+        "Vì sao bạn thích công viên đó?-왜 당신은 그 공원을 좋아하나요?",
+        "Bạn thường đến công viên vào ngày nào?-당신은 주로 언제 공원에 갑니까?",
+        "Bạn thường làm gì ở công viên?-당신은 주로 공원에서 무엇을 하나요?"
+      ],
+      "sourcePage": 5,
+      "reviewNeeded": false
+    },
+    {
+      "id": "qb5-park-q-006",
+      "type": "sentence-meaning",
+      "prompt": "문제은행 공원 질문 뜻 고르기 2",
+      "answerSet": [
+        "Lần cuối cùng bạn đến công viên là khi nào?-마지막으로 공원에 간 것은 언제입니까?",
+        "Bạn đã đến công viên với ai?-당신은 누구와 함께 공원에 갔습니까?",
+        "Bạn đã làm gì ở công viên?-당신은 공원에서 무엇을 했습니까?",
+        "Hãy kể cho tôi nghe về một trải nghiệm đáng nhớ mà bạn đã có khi ở công viên.-공원에서 겪었던 기억에 남는 경험에 대해 말해주세요.",
+        "Điều đó xảy ra ở đâu, như thế nào, lúc đó bạn đã ở với ai?-그 일은 어디에서 일어났고 어떻게 되었고 그때 당신은 누구와 있었나요?"
+      ],
+      "sourcePage": 5,
+      "reviewNeeded": false
+    },
+    {
+      "id": "qb5-park-q-007",
+      "type": "fill-blank",
+      "prompt": "빈칸 채우기: 저는 공원에 가는 것을 좋아합니다.",
+      "question": "Tôi thích đến ___ viên.",
+      "answer": "công",
+      "sourcePage": 5,
+      "reviewNeeded": false
+    },
+    {
+      "id": "qb5-park-q-008",
+      "type": "fill-blank",
+      "prompt": "빈칸 채우기: 그 공원은 매우 넓습니다.",
+      "question": "Công viên đó rất ___.",
+      "answer": "rộng",
+      "sourcePage": 5,
+      "reviewNeeded": false
+    },
+    {
+      "id": "qb5-park-q-009",
+      "type": "fill-blank",
+      "prompt": "빈칸 채우기: 저는 보통 공원에서 산책합니다.",
+      "question": "Tôi thường đi ___ trong công viên.",
+      "answer": "dạo",
+      "sourcePage": 5,
+      "reviewNeeded": false
+    },
+    {
+      "id": "qb5-park-q-010",
+      "type": "fill-blank",
+      "prompt": "빈칸 채우기: 저는 보통 가족과 함께 갑니다.",
+      "question": "Tôi thường đi với gia ___.",
+      "answer": "đình",
+      "sourcePage": 5,
+      "reviewNeeded": false
+    },
+    {
+      "id": "qb5-park-q-011",
+      "type": "fill-blank",
+      "prompt": "빈칸 채우기: 마지막으로 저는 지난주에 공원에 갔습니다.",
+      "question": "Lần cuối cùng tôi đến công viên là ___ trước.",
+      "answer": "tuần",
+      "sourcePage": 5,
+      "reviewNeeded": false
+    },
+    {
+      "id": "qb5-park-q-012",
+      "type": "fill-blank",
+      "prompt": "빈칸 채우기: 그것은 기억에 남는 경험이었습니다.",
+      "question": "Đó là một trải nghiệm đáng ___.",
+      "answer": "nhớ",
+      "sourcePage": 5,
+      "reviewNeeded": false
+    },
+    {
+      "id": "qb5-park-q-013",
+      "type": "fill-blank",
+      "prompt": "빈칸 채우기: 예상치 못한 일이 일어났습니다.",
+      "question": "Một điều bất ngờ đã xảy ___.",
+      "answer": "ra",
+      "sourcePage": 5,
+      "reviewNeeded": false
+    },
+    {
+      "id": "qb5-park-q-014",
+      "type": "match-term",
+      "prompt": "자주 가는 공원 답변 순서 맞추기",
+      "answerSet": [
+        "1-Tôi rất thích đến công viên.",
+        "2-Tôi thường xuyên đến một công viên gần nhà.",
+        "3-Công viên đó rất rộng, sạch sẽ và đẹp.",
+        "4-Trong công viên có nhiều cây, hoa và một cái hồ nhỏ.",
+        "5-Tôi thích công viên đó vì nó gần nhà và không khí rất trong lành."
+      ],
+      "sourcePage": 5,
+      "reviewNeeded": false
+    },
+    {
+      "id": "qb5-park-q-015",
+      "type": "match-term",
+      "prompt": "공원 하루 활동 답변 순서 맞추기",
+      "answerSet": [
+        "1-Tôi thường đến công viên vào cuối tuần.",
+        "2-Tôi thường đi với vợ và các con.",
+        "3-Đầu tiên, tôi đi dạo khoảng ba mươi phút.",
+        "4-Sau đó, tôi chơi với các con ở sân chơi.",
+        "5-Cuối cùng, chúng tôi ăn nhẹ và uống cà phê gần công viên."
+      ],
+      "sourcePage": 5,
+      "reviewNeeded": false
+    },
+    {
+      "id": "qb5-park-q-016",
+      "type": "match-term",
+      "prompt": "마지막 공원 경험 답변 순서 맞추기",
+      "answerSet": [
+        "1-Lần cuối cùng tôi đến công viên là tuần trước.",
+        "2-Tôi đã đến đó với vợ và các con.",
+        "3-Hôm đó thời tiết rất đẹp nên chúng tôi đi dạo.",
+        "4-Sau đó, các con tôi chơi ở sân chơi.",
+        "5-Tôi hơi mệt nhưng rất vui vì tôi có thể dành thời gian với gia đình."
+      ],
+      "sourcePage": 5,
+      "reviewNeeded": false
+    },
+    {
+      "id": "qb5-park-q-017",
+      "type": "match-term",
+      "prompt": "기억에 남는 공원 경험 답변 순서 맞추기",
+      "answerSet": [
+        "1-Tôi có một trải nghiệm đáng nhớ ở công viên gần nhà.",
+        "2-Năm ngoái, tôi đến công viên với gia đình vào mùa xuân.",
+        "3-Hôm đó có rất nhiều hoa đẹp.",
+        "4-Bất ngờ trời mưa nhẹ.",
+        "5-Đó là một kỷ niệm rất vui với gia đình."
+      ],
+      "sourcePage": 5,
+      "reviewNeeded": false
+    }
+  ],
+  "unlockCondition": "always",
+  "reviewNeeded": false
+},
+    {
   "lessonId": "question-bank-004-movie",
   "unitLabel": "문제은행",
   "titleKo": "문제은행4: 영화",
