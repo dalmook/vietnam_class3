@@ -19,6 +19,2728 @@
   },
   "lessons": [
     {
+  "lessonId": "d7fashion",
+  "unitLabel": "7일차",
+  "titleKo": "7일차: 패션",
+  "titleVi": "Chủ đề 16: Thời trang",
+  "pageRange": "Topic 1-21 / Thời trang / p.34-35",
+  "goals": [
+    "패션에 관심이 있는지 말할 수 있다",
+    "출근할 때 입는 옷을 말할 수 있다",
+    "좋아하는 스타일과 색깔을 말할 수 있다",
+    "브랜드 옷과 유행을 따르는지 말할 수 있다",
+    "회사 복장 규정과 유니폼 여부를 말할 수 있다",
+    "옷을 어디서, 언제, 얼마나 자주 사는지 말할 수 있다",
+    "옷을 입어보고 사는지, 온라인으로 사는지 말할 수 있다",
+    "옷이 맞지 않거나 불량일 때 어떻게 하는지 말할 수 있다"
+  ],
+  "topicOverview": "7일차 패션 주제는 옷, 스타일, 색깔, 브랜드, 유행, 회사 복장, 온라인 구매, 교환과 반품을 말하는 연습입니다. 초보자는 'Tôi thường mặc...', 'Tôi thích phong cách...', 'Tôi không quan tâm nhiều đến...', 'Nếu quần áo không vừa, tôi sẽ...' 같은 문장 뼈대를 먼저 외우면 좋습니다.",
+  "cultureTopics": [
+    "패션 관심도",
+    "출근 복장",
+    "좋아하는 스타일",
+    "좋아하는 색깔",
+    "브랜드 옷",
+    "패션 트렌드",
+    "회사 복장 규정",
+    "유니폼",
+    "옷 쇼핑",
+    "온라인 의류 구매",
+    "옷 교환과 반품",
+    "옷이 맞지 않을 때 대처"
+  ],
+  "vocabCards": [
+    {
+      "id": "d7fashion-v-001",
+      "term": "thời trang",
+      "meaningKo": "패션",
+      "example": "Tôi không quan tâm nhiều đến thời trang.",
+      "exampleMeaningKo": "저는 패션에 많은 관심이 없습니다.",
+      "audioSrc": "",
+      "sourcePage": 34,
+      "reviewNeeded": false,
+      "pronKo": "터이 짱",
+      "pronNoteKo": "패션이라는 뜻입니다.",
+      "pronChunks": ["thời=터이", "trang=짱"]
+    },
+    {
+      "id": "d7fashion-v-002",
+      "term": "mặc",
+      "meaningKo": "입다",
+      "example": "Tôi mặc áo sơ mi đi làm.",
+      "exampleMeaningKo": "저는 출근할 때 셔츠를 입습니다.",
+      "audioSrc": "",
+      "sourcePage": 34,
+      "reviewNeeded": false,
+      "pronKo": "막",
+      "pronNoteKo": "옷을 입다입니다.",
+      "pronChunks": ["mặc=막"]
+    },
+    {
+      "id": "d7fashion-v-003",
+      "term": "quần áo",
+      "meaningKo": "옷",
+      "example": "Tôi thường mua quần áo online.",
+      "exampleMeaningKo": "저는 보통 온라인으로 옷을 삽니다.",
+      "audioSrc": "",
+      "sourcePage": 34,
+      "reviewNeeded": false,
+      "pronKo": "꿘 아오",
+      "pronNoteKo": "옷 전체를 말할 때 씁니다.",
+      "pronChunks": ["quần=꿘", "áo=아오"]
+    },
+    {
+      "id": "d7fashion-v-004",
+      "term": "quan tâm",
+      "meaningKo": "관심이 있다 / 신경 쓰다",
+      "example": "Tôi quan tâm đến quần áo đi làm.",
+      "exampleMeaningKo": "저는 출근복에 관심이 있습니다.",
+      "audioSrc": "",
+      "sourcePage": 34,
+      "reviewNeeded": false,
+      "pronKo": "꽌 떰",
+      "pronNoteKo": "quan tâm đến + 명사 = ~에 관심이 있다.",
+      "pronChunks": ["quan=꽌", "tâm=떰"]
+    },
+    {
+      "id": "d7fashion-v-005",
+      "term": "mới",
+      "meaningKo": "새롭다 / 새",
+      "example": "Tôi ít mua quần áo mới.",
+      "exampleMeaningKo": "저는 새 옷을 거의 사지 않습니다.",
+      "audioSrc": "",
+      "sourcePage": 34,
+      "reviewNeeded": false,
+      "pronKo": "머이",
+      "pronNoteKo": "새로운이라는 뜻입니다.",
+      "pronChunks": ["mới=머이"]
+    },
+    {
+      "id": "d7fashion-v-006",
+      "term": "phong cách",
+      "meaningKo": "스타일",
+      "example": "Tôi thích phong cách đơn giản.",
+      "exampleMeaningKo": "저는 단순한 스타일을 좋아합니다.",
+      "audioSrc": "",
+      "sourcePage": 34,
+      "reviewNeeded": false,
+      "pronKo": "퐁 까익",
+      "pronNoteKo": "패션 스타일을 말할 때 씁니다.",
+      "pronChunks": ["phong=퐁", "cách=까익"]
+    },
+    {
+      "id": "d7fashion-v-007",
+      "term": "đơn giản",
+      "meaningKo": "단순하다 / 심플하다",
+      "example": "Phong cách của tôi rất đơn giản.",
+      "exampleMeaningKo": "제 스타일은 매우 심플합니다.",
+      "audioSrc": "",
+      "sourcePage": 34,
+      "reviewNeeded": false,
+      "pronKo": "던 잔",
+      "pronNoteKo": "심플한 스타일을 말할 때 좋습니다.",
+      "pronChunks": ["đơn=던", "giản=잔"]
+    },
+    {
+      "id": "d7fashion-v-008",
+      "term": "thể thao",
+      "meaningKo": "스포츠",
+      "example": "Tôi thích phong cách thể thao.",
+      "exampleMeaningKo": "저는 스포츠 스타일을 좋아합니다.",
+      "audioSrc": "",
+      "sourcePage": 34,
+      "reviewNeeded": false,
+      "pronKo": "테 타오",
+      "pronNoteKo": "스포츠, 운동 느낌입니다.",
+      "pronChunks": ["thể=테", "thao=타오"]
+    },
+    {
+      "id": "d7fashion-v-009",
+      "term": "lịch sự",
+      "meaningKo": "단정하다 / 예의 바르다",
+      "example": "Khi đi làm, tôi mặc quần áo lịch sự.",
+      "exampleMeaningKo": "출근할 때 저는 단정한 옷을 입습니다.",
+      "audioSrc": "",
+      "sourcePage": 34,
+      "reviewNeeded": false,
+      "pronKo": "릭 스",
+      "pronNoteKo": "복장이 단정하다는 뜻으로 쓸 수 있습니다.",
+      "pronChunks": ["lịch=릭", "sự=스"]
+    },
+    {
+      "id": "d7fashion-v-010",
+      "term": "thay đổi",
+      "meaningKo": "바꾸다 / 변하다",
+      "example": "Tôi không hay thay đổi phong cách.",
+      "exampleMeaningKo": "저는 스타일을 자주 바꾸지 않습니다.",
+      "audioSrc": "",
+      "sourcePage": 34,
+      "reviewNeeded": false,
+      "pronKo": "타이 도이",
+      "pronNoteKo": "바꾸다라는 뜻입니다.",
+      "pronChunks": ["thay=타이", "đổi=도이"]
+    },
+    {
+      "id": "d7fashion-v-011",
+      "term": "màu",
+      "meaningKo": "색깔",
+      "example": "Tôi thích màu đen.",
+      "exampleMeaningKo": "저는 검은색을 좋아합니다.",
+      "audioSrc": "",
+      "sourcePage": 34,
+      "reviewNeeded": false,
+      "pronKo": "마우",
+      "pronNoteKo": "색깔을 말할 때 씁니다.",
+      "pronChunks": ["màu=마우"]
+    },
+    {
+      "id": "d7fashion-v-012",
+      "term": "màu đen",
+      "meaningKo": "검은색",
+      "example": "Tôi thường mặc quần áo màu đen.",
+      "exampleMeaningKo": "저는 보통 검은색 옷을 입습니다.",
+      "audioSrc": "",
+      "sourcePage": 34,
+      "reviewNeeded": false,
+      "pronKo": "마우 덴",
+      "pronNoteKo": "기본 색깔 표현입니다.",
+      "pronChunks": ["màu=마우", "đen=덴"]
+    },
+    {
+      "id": "d7fashion-v-013",
+      "term": "màu trắng",
+      "meaningKo": "흰색",
+      "example": "Áo sơ mi màu trắng rất lịch sự.",
+      "exampleMeaningKo": "흰색 셔츠는 매우 단정합니다.",
+      "audioSrc": "",
+      "sourcePage": 34,
+      "reviewNeeded": false,
+      "pronKo": "마우 짱",
+      "pronNoteKo": "흰색입니다.",
+      "pronChunks": ["màu=마우", "trắng=짱"]
+    },
+    {
+      "id": "d7fashion-v-014",
+      "term": "hàng hiệu",
+      "meaningKo": "브랜드 제품 / 명품",
+      "example": "Tôi không hay mua hàng hiệu.",
+      "exampleMeaningKo": "저는 브랜드 제품을 자주 사지 않습니다.",
+      "audioSrc": "",
+      "sourcePage": 34,
+      "reviewNeeded": false,
+      "pronKo": "항 히에우",
+      "pronNoteKo": "브랜드 제품, 명품 느낌입니다.",
+      "pronChunks": ["hàng=항", "hiệu=히에우"]
+    },
+    {
+      "id": "d7fashion-v-015",
+      "term": "theo xu hướng",
+      "meaningKo": "유행을 따르다",
+      "example": "Tôi không theo xu hướng thời trang nhiều.",
+      "exampleMeaningKo": "저는 패션 유행을 많이 따르지 않습니다.",
+      "audioSrc": "",
+      "sourcePage": 34,
+      "reviewNeeded": false,
+      "pronKo": "테오 쑤 흐엉",
+      "pronNoteKo": "theo는 따르다, xu hướng은 트렌드입니다.",
+      "pronChunks": ["theo=테오", "xu hướng=쑤 흐엉"]
+    },
+    {
+      "id": "d7fashion-v-016",
+      "term": "xu hướng thời trang",
+      "meaningKo": "패션 트렌드",
+      "example": "Tôi ít quan tâm đến xu hướng thời trang.",
+      "exampleMeaningKo": "저는 패션 트렌드에 관심이 적습니다.",
+      "audioSrc": "",
+      "sourcePage": 34,
+      "reviewNeeded": false,
+      "pronKo": "쑤 흐엉 터이 짱",
+      "pronNoteKo": "패션 유행, 패션 트렌드입니다.",
+      "pronChunks": ["xu hướng=쑤 흐엉", "thời trang=터이 짱"]
+    },
+    {
+      "id": "d7fashion-v-017",
+      "term": "quy định",
+      "meaningKo": "규정",
+      "example": "Công ty tôi có quy định về trang phục.",
+      "exampleMeaningKo": "저희 회사에는 복장 규정이 있습니다.",
+      "audioSrc": "",
+      "sourcePage": 34,
+      "reviewNeeded": false,
+      "pronKo": "뀌 딘",
+      "pronNoteKo": "규정, 규칙입니다.",
+      "pronChunks": ["quy=뀌", "định=딘"]
+    },
+    {
+      "id": "d7fashion-v-018",
+      "term": "trang phục",
+      "meaningKo": "복장",
+      "example": "Quy định về trang phục không quá nghiêm.",
+      "exampleMeaningKo": "복장 규정은 너무 엄격하지 않습니다.",
+      "audioSrc": "",
+      "sourcePage": 34,
+      "reviewNeeded": false,
+      "pronKo": "짱 푹",
+      "pronNoteKo": "복장이라는 뜻입니다.",
+      "pronChunks": ["trang=짱", "phục=푹"]
+    },
+    {
+      "id": "d7fashion-v-019",
+      "term": "đồng phục",
+      "meaningKo": "유니폼",
+      "example": "Tôi không phải mặc đồng phục.",
+      "exampleMeaningKo": "저는 유니폼을 입어야 하는 것은 아닙니다.",
+      "audioSrc": "",
+      "sourcePage": 34,
+      "reviewNeeded": false,
+      "pronKo": "동 푹",
+      "pronNoteKo": "학교나 회사 유니폼입니다.",
+      "pronChunks": ["đồng=동", "phục=푹"]
+    },
+    {
+      "id": "d7fashion-v-020",
+      "term": "chi tiền",
+      "meaningKo": "지불하다 / 돈을 쓰다",
+      "example": "Tôi không chi nhiều tiền cho quần áo.",
+      "exampleMeaningKo": "저는 옷에 돈을 많이 쓰지 않습니다.",
+      "audioSrc": "",
+      "sourcePage": 34,
+      "reviewNeeded": false,
+      "pronKo": "찌 띠엔",
+      "pronNoteKo": "쇼핑 비용을 말할 때 씁니다.",
+      "pronChunks": ["chi=찌", "tiền=띠엔"]
+    },
+    {
+      "id": "d7fashion-v-021",
+      "term": "thử đồ",
+      "meaningKo": "옷을 입어보다",
+      "example": "Tôi thường thử đồ trước khi mua.",
+      "exampleMeaningKo": "저는 사기 전에 보통 옷을 입어봅니다.",
+      "audioSrc": "",
+      "sourcePage": 34,
+      "reviewNeeded": false,
+      "pronKo": "트 도",
+      "pronNoteKo": "옷을 입어보다입니다.",
+      "pronChunks": ["thử=트", "đồ=도"]
+    },
+    {
+      "id": "d7fashion-v-022",
+      "term": "trước khi",
+      "meaningKo": "~하기 전에",
+      "example": "Trước khi mua, tôi thử đồ.",
+      "exampleMeaningKo": "사기 전에 저는 옷을 입어봅니다.",
+      "audioSrc": "",
+      "sourcePage": 34,
+      "reviewNeeded": false,
+      "pronKo": "쯔억 키",
+      "pronNoteKo": "시간 순서를 말할 때 자주 씁니다.",
+      "pronChunks": ["trước=쯔억", "khi=키"]
+    },
+    {
+      "id": "d7fashion-v-023",
+      "term": "đổi",
+      "meaningKo": "교환하다 / 바꾸다",
+      "example": "Nếu quần áo không vừa, tôi sẽ đổi.",
+      "exampleMeaningKo": "옷이 맞지 않으면 저는 교환할 것입니다.",
+      "audioSrc": "",
+      "sourcePage": 34,
+      "reviewNeeded": false,
+      "pronKo": "도이",
+      "pronNoteKo": "교환하다, 바꾸다입니다.",
+      "pronChunks": ["đổi=도이"]
+    },
+    {
+      "id": "d7fashion-v-024",
+      "term": "trả",
+      "meaningKo": "반품하다 / 돌려주다",
+      "example": "Nếu quần áo bị lỗi, tôi sẽ trả.",
+      "exampleMeaningKo": "옷에 불량이 있으면 저는 반품할 것입니다.",
+      "audioSrc": "",
+      "sourcePage": 34,
+      "reviewNeeded": false,
+      "pronKo": "짜",
+      "pronNoteKo": "상품을 돌려주다, 반품하다입니다.",
+      "pronChunks": ["trả=짜"]
+    },
+    {
+      "id": "d7fashion-v-025",
+      "term": "quan trọng",
+      "meaningKo": "중요하다",
+      "example": "Theo tôi, thời trang không quá quan trọng.",
+      "exampleMeaningKo": "제 생각에는 패션은 너무 중요하지 않습니다.",
+      "audioSrc": "",
+      "sourcePage": 34,
+      "reviewNeeded": false,
+      "pronKo": "꽌 쫑",
+      "pronNoteKo": "중요하다는 뜻입니다.",
+      "pronChunks": ["quan=꽌", "trọng=쫑"]
+    },
+    {
+      "id": "d7fashion-v-026",
+      "term": "nghĩ",
+      "meaningKo": "생각하다",
+      "example": "Tôi nghĩ quần áo thể hiện phong cách của mình.",
+      "exampleMeaningKo": "저는 옷이 자신의 스타일을 보여준다고 생각합니다.",
+      "audioSrc": "",
+      "sourcePage": 34,
+      "reviewNeeded": false,
+      "pronKo": "응이",
+      "pronNoteKo": "생각하다입니다.",
+      "pronChunks": ["nghĩ=응이"]
+    },
+    {
+      "id": "d7fashion-v-027",
+      "term": "ăn mặc",
+      "meaningKo": "옷을 입다 / 차림",
+      "example": "Tôi nghĩ mình ăn mặc đơn giản.",
+      "exampleMeaningKo": "저는 제가 단순하게 옷을 입는다고 생각합니다.",
+      "audioSrc": "",
+      "sourcePage": 34,
+      "reviewNeeded": false,
+      "pronKo": "안 막",
+      "pronNoteKo": "옷차림, 옷을 입는 방식입니다.",
+      "pronChunks": ["ăn=안", "mặc=막"]
+    },
+    {
+      "id": "d7fashion-v-028",
+      "term": "không vừa",
+      "meaningKo": "맞지 않다",
+      "example": "Quần áo này không vừa với tôi.",
+      "exampleMeaningKo": "이 옷은 저에게 맞지 않습니다.",
+      "audioSrc": "",
+      "sourcePage": 34,
+      "reviewNeeded": false,
+      "pronKo": "콩 브어",
+      "pronNoteKo": "사이즈가 맞지 않을 때 씁니다.",
+      "pronChunks": ["không=콩", "vừa=브어"]
+    },
+    {
+      "id": "d7fashion-v-029",
+      "term": "bị lỗi",
+      "meaningKo": "불량이다 / 문제가 있다",
+      "example": "Nếu quần áo bị lỗi, tôi sẽ trả hàng.",
+      "exampleMeaningKo": "옷이 불량이면 저는 반품할 것입니다.",
+      "audioSrc": "",
+      "sourcePage": 35,
+      "reviewNeeded": false,
+      "pronKo": "비 로이",
+      "pronNoteKo": "제품에 문제가 있을 때 씁니다.",
+      "pronChunks": ["bị=비", "lỗi=로이"]
+    },
+    {
+      "id": "d7fashion-v-030",
+      "term": "đi làm",
+      "meaningKo": "출근하다 / 일하러 가다",
+      "example": "Tôi mặc áo sơ mi khi đi làm.",
+      "exampleMeaningKo": "저는 출근할 때 셔츠를 입습니다.",
+      "audioSrc": "",
+      "sourcePage": 35,
+      "reviewNeeded": false,
+      "pronKo": "디 람",
+      "pronNoteKo": "직장인 답변에서 자주 씁니다.",
+      "pronChunks": ["đi=디", "làm=람"]
+    },
+    {
+      "id": "d7fashion-v-031",
+      "term": "áo sơ mi",
+      "meaningKo": "셔츠",
+      "example": "Tôi thường mặc áo sơ mi đi làm.",
+      "exampleMeaningKo": "저는 보통 출근할 때 셔츠를 입습니다.",
+      "audioSrc": "",
+      "sourcePage": 35,
+      "reviewNeeded": false,
+      "pronKo": "아오 써 미",
+      "pronNoteKo": "회사 복장 답변에 좋습니다.",
+      "pronChunks": ["áo=아오", "sơ mi=써 미"]
+    },
+    {
+      "id": "d7fashion-v-032",
+      "term": "quần tây",
+      "meaningKo": "정장 바지 / 슬랙스",
+      "example": "Tôi mặc áo sơ mi và quần tây.",
+      "exampleMeaningKo": "저는 셔츠와 슬랙스를 입습니다.",
+      "audioSrc": "",
+      "sourcePage": 35,
+      "reviewNeeded": false,
+      "pronKo": "꿘 떠이",
+      "pronNoteKo": "회사 복장에 자주 쓰기 좋습니다.",
+      "pronChunks": ["quần=꿘", "tây=떠이"]
+    },
+    {
+      "id": "d7fashion-v-033",
+      "term": "áo thun",
+      "meaningKo": "티셔츠",
+      "example": "Cuối tuần tôi thường mặc áo thun.",
+      "exampleMeaningKo": "주말에 저는 보통 티셔츠를 입습니다.",
+      "audioSrc": "",
+      "sourcePage": 35,
+      "reviewNeeded": false,
+      "pronKo": "아오 툰",
+      "pronNoteKo": "편한 옷차림을 말할 때 씁니다.",
+      "pronChunks": ["áo=아오", "thun=툰"]
+    },
+    {
+      "id": "d7fashion-v-034",
+      "term": "thoải mái",
+      "meaningKo": "편하다 / 편안하다",
+      "example": "Tôi thích quần áo thoải mái.",
+      "exampleMeaningKo": "저는 편한 옷을 좋아합니다.",
+      "audioSrc": "",
+      "sourcePage": 35,
+      "reviewNeeded": false,
+      "pronKo": "토아이 마이",
+      "pronNoteKo": "옷이 편하다는 표현에 좋습니다.",
+      "pronChunks": ["thoải=토아이", "mái=마이"]
+    },
+    {
+      "id": "d7fashion-v-035",
+      "term": "thể hiện",
+      "meaningKo": "나타내다 / 보여주다",
+      "example": "Quần áo thể hiện phong cách của mình.",
+      "exampleMeaningKo": "옷은 자신의 스타일을 보여줍니다.",
+      "audioSrc": "",
+      "sourcePage": 35,
+      "reviewNeeded": false,
+      "pronKo": "테 히엔",
+      "pronNoteKo": "생각을 조금 더 길게 말할 때 좋습니다.",
+      "pronChunks": ["thể=테", "hiện=히엔"]
+    }
+  ],
+  "sentenceCards": [
+    {
+      "id": "d7fashion-s-001",
+      "textVi": "Anh có thích thời trang không?",
+      "textKo": "패션을 좋아해요?",
+      "exampleAnswerVi": "Có, nhưng tôi không quan tâm quá nhiều đến thời trang.",
+      "exampleAnswerKo": "네, 하지만 저는 패션에 너무 많은 관심은 없습니다.",
+      "audioSrc": "",
+      "sourcePage": 35,
+      "reviewNeeded": false,
+      "pronKo": "아인 꼬 틱 터이 짱 콩?",
+      "exampleAnswerPronKo": "꼬, 늉 또이 콩 꽌 떰 꽈 니에우 덴 터이 짱.",
+      "pronNoteKo": "không quan tâm quá nhiều đến = ~에 너무 많이 관심 갖지는 않다."
+    },
+    {
+      "id": "d7fashion-s-002",
+      "textVi": "Anh thường mặc gì đi làm?",
+      "textKo": "출근할 때 보통 무엇을 입어요?",
+      "exampleAnswerVi": "Tôi thường mặc áo sơ mi và quần tây đi làm.",
+      "exampleAnswerKo": "저는 보통 출근할 때 셔츠와 슬랙스를 입습니다.",
+      "audioSrc": "",
+      "sourcePage": 35,
+      "reviewNeeded": false,
+      "pronKo": "아인 트엉 막 지 디 람?",
+      "exampleAnswerPronKo": "또이 트엉 막 아오 써 미 바 꿘 떠이 디 람.",
+      "pronNoteKo": "mặc gì = 무엇을 입다."
+    },
+    {
+      "id": "d7fashion-s-003",
+      "textVi": "Anh có quan tâm đến thời trang không?",
+      "textKo": "패션에 관심이 있어요?",
+      "exampleAnswerVi": "Tôi có quan tâm một chút, nhưng tôi thích quần áo đơn giản hơn.",
+      "exampleAnswerKo": "저는 조금 관심이 있지만 단순한 옷을 더 좋아합니다.",
+      "audioSrc": "",
+      "sourcePage": 35,
+      "reviewNeeded": false,
+      "pronKo": "아인 꼬 꽌 떰 덴 터이 짱 콩?",
+      "exampleAnswerPronKo": "또이 꼬 꽌 떰 못 쭛, 늉 또이 틱 꿘 아오 던 잔 헌.",
+      "pronNoteKo": "một chút = 조금."
+    },
+    {
+      "id": "d7fashion-s-004",
+      "textVi": "Anh thường mua quần áo khi nào?",
+      "textKo": "보통 언제 옷을 사요?",
+      "exampleAnswerVi": "Tôi thường mua quần áo khi cần hoặc khi có giảm giá.",
+      "exampleAnswerKo": "저는 필요할 때나 할인이 있을 때 보통 옷을 삽니다.",
+      "audioSrc": "",
+      "sourcePage": 35,
+      "reviewNeeded": false,
+      "pronKo": "아인 트엉 무아 꿘 아오 키 나오?",
+      "exampleAnswerPronKo": "또이 트엉 무아 꿘 아오 키 껀 호악 키 꼬 잠 자.",
+      "pronNoteKo": "khi cần = 필요할 때."
+    },
+    {
+      "id": "d7fashion-s-005",
+      "textVi": "Anh có hay mua quần áo mới không?",
+      "textKo": "새 옷을 자주 사요?",
+      "exampleAnswerVi": "Không. Tôi không hay mua quần áo mới vì tôi muốn tiết kiệm tiền.",
+      "exampleAnswerKo": "아니요. 저는 돈을 아끼고 싶어서 새 옷을 자주 사지 않습니다.",
+      "audioSrc": "",
+      "sourcePage": 35,
+      "reviewNeeded": false,
+      "pronKo": "아인 꼬 하이 무아 꿘 아오 머이 콩?",
+      "exampleAnswerPronKo": "콩. 또이 콩 하이 무아 꿘 아오 머이 비 또이 무온 띠엣 끼엠 띠엔.",
+      "pronNoteKo": "không hay = 자주 하지 않다."
+    },
+    {
+      "id": "d7fashion-s-006",
+      "textVi": "Anh thường mua quần áo ở đâu?",
+      "textKo": "보통 어디에서 옷을 사요?",
+      "exampleAnswerVi": "Tôi thường mua quần áo online hoặc ở trung tâm thương mại.",
+      "exampleAnswerKo": "저는 보통 온라인이나 쇼핑몰에서 옷을 삽니다.",
+      "audioSrc": "",
+      "sourcePage": 35,
+      "reviewNeeded": false,
+      "pronKo": "아인 트엉 무아 꿘 아오 어 더우?",
+      "exampleAnswerPronKo": "또이 트엉 무아 꿘 아오 온라인 호악 어 쭝 떰 트엉 마이.",
+      "pronNoteKo": "ở đâu = 어디에서."
+    },
+    {
+      "id": "d7fashion-s-007",
+      "textVi": "Anh thích phong cách nào?",
+      "textKo": "어떤 스타일을 좋아해요?",
+      "exampleAnswerVi": "Tôi thích phong cách đơn giản và lịch sự.",
+      "exampleAnswerKo": "저는 단순하고 단정한 스타일을 좋아합니다.",
+      "audioSrc": "",
+      "sourcePage": 35,
+      "reviewNeeded": false,
+      "pronKo": "아인 틱 퐁 까익 나오?",
+      "exampleAnswerPronKo": "또이 틱 퐁 까익 던 잔 바 릭 스.",
+      "pronNoteKo": "phong cách nào = 어떤 스타일."
+    },
+    {
+      "id": "d7fashion-s-008",
+      "textVi": "Anh có hay thay đổi phong cách không?",
+      "textKo": "스타일을 자주 바꿔요?",
+      "exampleAnswerVi": "Không. Tôi không hay thay đổi phong cách. Tôi thích phong cách đơn giản.",
+      "exampleAnswerKo": "아니요. 저는 스타일을 자주 바꾸지 않습니다. 저는 단순한 스타일을 좋아합니다.",
+      "audioSrc": "",
+      "sourcePage": 35,
+      "reviewNeeded": false,
+      "pronKo": "아인 꼬 하이 타이 도이 퐁 까익 콩?",
+      "exampleAnswerPronKo": "콩. 또이 콩 하이 타이 도이 퐁 까익. 또이 틱 퐁 까익 던 잔.",
+      "pronNoteKo": "thay đổi phong cách = 스타일을 바꾸다."
+    },
+    {
+      "id": "d7fashion-s-009",
+      "textVi": "Anh thích màu gì?",
+      "textKo": "무슨 색을 좋아해요?",
+      "exampleAnswerVi": "Tôi thích màu đen, màu trắng và màu xanh.",
+      "exampleAnswerKo": "저는 검은색, 흰색, 파란색을 좋아합니다.",
+      "audioSrc": "",
+      "sourcePage": 35,
+      "reviewNeeded": false,
+      "pronKo": "아인 틱 마우 지?",
+      "exampleAnswerPronKo": "또이 틱 마우 덴, 마우 짱 바 마우 싸인.",
+      "pronNoteKo": "màu gì = 무슨 색."
+    },
+    {
+      "id": "d7fashion-s-010",
+      "textVi": "Anh có thích mặc đồ hàng hiệu không?",
+      "textKo": "브랜드 옷 입는 것을 좋아해요?",
+      "exampleAnswerVi": "Không. Tôi không thích hàng hiệu lắm vì nó đắt.",
+      "exampleAnswerKo": "아니요. 비싸서 저는 브랜드 제품을 그렇게 좋아하지 않습니다.",
+      "audioSrc": "",
+      "sourcePage": 35,
+      "reviewNeeded": false,
+      "pronKo": "아인 꼬 틱 막 도 항 히에우 콩?",
+      "exampleAnswerPronKo": "콩. 또이 콩 틱 항 히에우 람 비 노 닷.",
+      "pronNoteKo": "không ... lắm = 그렇게 ~하지 않다."
+    },
+    {
+      "id": "d7fashion-s-011",
+      "textVi": "Anh có theo xu hướng thời trang không?",
+      "textKo": "패션 트렌드를 따라요?",
+      "exampleAnswerVi": "Không. Tôi không theo xu hướng thời trang nhiều.",
+      "exampleAnswerKo": "아니요. 저는 패션 트렌드를 많이 따르지 않습니다.",
+      "audioSrc": "",
+      "sourcePage": 35,
+      "reviewNeeded": false,
+      "pronKo": "아인 꼬 테오 쑤 흐엉 터이 짱 콩?",
+      "exampleAnswerPronKo": "콩. 또이 콩 테오 쑤 흐엉 터이 짱 니에우.",
+      "pronNoteKo": "theo xu hướng = 유행을 따르다."
+    },
+    {
+      "id": "d7fashion-s-012",
+      "textVi": "Ở công ty anh có quy định về trang phục không?",
+      "textKo": "회사에 복장 규정이 있어요?",
+      "exampleAnswerVi": "Có. Công ty tôi có quy định về trang phục, nhưng không quá nghiêm.",
+      "exampleAnswerKo": "네. 저희 회사에는 복장 규정이 있지만 너무 엄격하지는 않습니다.",
+      "audioSrc": "",
+      "sourcePage": 35,
+      "reviewNeeded": false,
+      "pronKo": "어 꽁 티 아인 꼬 뀌 딘 베 짱 푹 콩?",
+      "exampleAnswerPronKo": "꼬. 꽁 티 또이 꼬 뀌 딘 베 짱 푹, 늉 콩 꽈 응이엠.",
+      "pronNoteKo": "quy định về trang phục = 복장 규정."
+    },
+    {
+      "id": "d7fashion-s-013",
+      "textVi": "Anh có phải mặc đồng phục không?",
+      "textKo": "유니폼을 입어야 해요?",
+      "exampleAnswerVi": "Không. Tôi không phải mặc đồng phục, nhưng phải mặc quần áo lịch sự.",
+      "exampleAnswerKo": "아니요. 저는 유니폼을 입어야 하는 것은 아니지만 단정한 옷을 입어야 합니다.",
+      "audioSrc": "",
+      "sourcePage": 35,
+      "reviewNeeded": false,
+      "pronKo": "아인 꼬 파이 막 동 푹 콩?",
+      "exampleAnswerPronKo": "콩. 또이 콩 파이 막 동 푹, 늉 파이 막 꿘 아오 릭 스.",
+      "pronNoteKo": "phải mặc = 입어야 한다."
+    },
+    {
+      "id": "d7fashion-s-014",
+      "textVi": "Anh thích mặc gì khi đi làm?",
+      "textKo": "출근할 때 무엇을 입는 것을 좋아해요?",
+      "exampleAnswerVi": "Khi đi làm, tôi thích mặc áo sơ mi vì lịch sự và thoải mái.",
+      "exampleAnswerKo": "출근할 때 저는 단정하고 편해서 셔츠 입는 것을 좋아합니다.",
+      "audioSrc": "",
+      "sourcePage": 35,
+      "reviewNeeded": false,
+      "pronKo": "아인 틱 막 지 키 디 람?",
+      "exampleAnswerPronKo": "키 디 람, 또이 틱 막 아오 써 미 비 릭 스 바 토아이 마이.",
+      "pronNoteKo": "khi đi làm = 출근할 때."
+    },
+    {
+      "id": "d7fashion-s-015",
+      "textVi": "Anh thường chi bao nhiêu tiền cho quần áo?",
+      "textKo": "보통 옷에 돈을 얼마나 써요?",
+      "exampleAnswerVi": "Tôi thường chi khoảng một trăm nghìn won mỗi tháng cho quần áo.",
+      "exampleAnswerKo": "저는 보통 옷에 매달 약 10만 원을 씁니다.",
+      "audioSrc": "",
+      "sourcePage": 35,
+      "reviewNeeded": false,
+      "pronKo": "아인 트엉 찌 바오 니에우 띠엔 쪼 꿘 아오?",
+      "exampleAnswerPronKo": "또이 트엉 찌 코앙 못 짬 응인 원 모이 탕 쪼 꿘 아오.",
+      "pronNoteKo": "chi bao nhiêu tiền = 돈을 얼마나 쓰다."
+    },
+    {
+      "id": "d7fashion-s-016",
+      "textVi": "Anh có thử đồ trước khi mua không?",
+      "textKo": "사기 전에 옷을 입어봐요?",
+      "exampleAnswerVi": "Có. Nếu mua ở cửa hàng, tôi thường thử đồ trước khi mua.",
+      "exampleAnswerKo": "네. 가게에서 사면 저는 보통 사기 전에 옷을 입어봅니다.",
+      "audioSrc": "",
+      "sourcePage": 35,
+      "reviewNeeded": false,
+      "pronKo": "아인 꼬 트 도 쯔억 키 무아 콩?",
+      "exampleAnswerPronKo": "꼬. 네우 무아 어 끄어 항, 또이 트엉 트 도 쯔억 키 무아.",
+      "pronNoteKo": "thử đồ = 옷을 입어보다."
+    },
+    {
+      "id": "d7fashion-s-017",
+      "textVi": "Anh có mua quần áo online không?",
+      "textKo": "온라인으로 옷을 사요?",
+      "exampleAnswerVi": "Có. Tôi thường mua quần áo online vì rẻ và tiện lợi.",
+      "exampleAnswerKo": "네. 싸고 편리해서 저는 보통 온라인으로 옷을 삽니다.",
+      "audioSrc": "",
+      "sourcePage": 35,
+      "reviewNeeded": false,
+      "pronKo": "아인 꼬 무아 꿘 아오 온라인 콩?",
+      "exampleAnswerPronKo": "꼬. 또이 트엉 무아 꿘 아오 온라인 비 제 바 띠엔 러이.",
+      "pronNoteKo": "mua quần áo online = 온라인으로 옷을 사다."
+    },
+    {
+      "id": "d7fashion-s-018",
+      "textVi": "Anh có đổi hoặc trả quần áo bao giờ chưa?",
+      "textKo": "옷을 교환하거나 반품해 본 적 있어요?",
+      "exampleAnswerVi": "Rồi. Tôi đã từng đổi quần áo một lần vì không vừa.",
+      "exampleAnswerKo": "네. 맞지 않아서 옷을 한 번 교환해 본 적이 있습니다.",
+      "audioSrc": "",
+      "sourcePage": 35,
+      "reviewNeeded": false,
+      "pronKo": "아인 꼬 도이 호악 짜 꿘 아오 바오 저 쯔어?",
+      "exampleAnswerPronKo": "조이. 또이 다 뜽 도이 꿘 아오 못 런 비 콩 브어.",
+      "pronNoteKo": "đã từng = ~해 본 적이 있다."
+    },
+    {
+      "id": "d7fashion-s-019",
+      "textVi": "Theo anh, thời trang có quan trọng không?",
+      "textKo": "당신 생각에 패션은 중요해요?",
+      "exampleAnswerVi": "Theo tôi, thời trang khá quan trọng vì quần áo thể hiện phong cách của mình.",
+      "exampleAnswerKo": "제 생각에는 옷이 자신의 스타일을 보여주기 때문에 패션은 꽤 중요합니다.",
+      "audioSrc": "",
+      "sourcePage": 35,
+      "reviewNeeded": false,
+      "pronKo": "테오 아인, 터이 짱 꼬 꽌 쫑 콩?",
+      "exampleAnswerPronKo": "테오 또이, 터이 짱 카 꽌 쫑 비 꿘 아오 테 히엔 퐁 까익 꾸어 민.",
+      "pronNoteKo": "Theo tôi = 제 생각에는."
+    },
+    {
+      "id": "d7fashion-s-020",
+      "textVi": "Anh nghĩ quần áo thể hiện điều gì?",
+      "textKo": "옷은 무엇을 보여준다고 생각해요?",
+      "exampleAnswerVi": "Tôi nghĩ quần áo thể hiện phong cách và tính cách của mỗi người.",
+      "exampleAnswerKo": "저는 옷이 각 사람의 스타일과 성격을 보여준다고 생각합니다.",
+      "audioSrc": "",
+      "sourcePage": 35,
+      "reviewNeeded": false,
+      "pronKo": "아인 응이 꿘 아오 테 히엔 디에우 지?",
+      "exampleAnswerPronKo": "또이 응이 꿘 아오 테 히엔 퐁 까익 바 띤 까익 꾸어 모이 응어이.",
+      "pronNoteKo": "thể hiện điều gì = 무엇을 나타내다."
+    },
+    {
+      "id": "d7fashion-s-021",
+      "textVi": "Anh có nghĩ mình ăn mặc đẹp không?",
+      "textKo": "본인이 옷을 잘 입는다고 생각해요?",
+      "exampleAnswerVi": "Không biết nữa. Tôi nghĩ mình ăn mặc đơn giản và gọn gàng.",
+      "exampleAnswerKo": "잘 모르겠습니다. 저는 제가 단순하고 깔끔하게 옷을 입는다고 생각합니다.",
+      "audioSrc": "",
+      "sourcePage": 35,
+      "reviewNeeded": false,
+      "pronKo": "아인 꼬 응이 민 안 막 뎁 콩?",
+      "exampleAnswerPronKo": "콩 비엣 느어. 또이 응이 민 안 막 던 잔 바 곤 강.",
+      "pronNoteKo": "Không biết nữa = 잘 모르겠다."
+    },
+    {
+      "id": "d7fashion-s-022",
+      "textVi": "Nếu quần áo không vừa, anh sẽ làm gì?",
+      "textKo": "옷이 맞지 않으면 무엇을 할 거예요?",
+      "exampleAnswerVi": "Nếu quần áo không vừa, tôi sẽ đổi size hoặc trả hàng.",
+      "exampleAnswerKo": "옷이 맞지 않으면 저는 사이즈를 교환하거나 반품할 것입니다.",
+      "audioSrc": "",
+      "sourcePage": 35,
+      "reviewNeeded": false,
+      "pronKo": "네우 꿘 아오 콩 브어, 아인 세 람 지?",
+      "exampleAnswerPronKo": "네우 꿘 아오 콩 브어, 또이 세 도이 사이즈 호악 짜 항.",
+      "pronNoteKo": "Nếu ... sẽ ... = 만약 ~하면 ~할 것이다."
+    },
+    {
+      "id": "d7fashion-s-023",
+      "textVi": "Nếu quần áo bị lỗi, anh sẽ làm gì?",
+      "textKo": "옷이 불량이면 무엇을 할 거예요?",
+      "exampleAnswerVi": "Nếu quần áo bị lỗi, tôi sẽ liên hệ với cửa hàng và trả hàng.",
+      "exampleAnswerKo": "옷이 불량이면 저는 가게에 연락하고 반품할 것입니다.",
+      "audioSrc": "",
+      "sourcePage": 35,
+      "reviewNeeded": false,
+      "pronKo": "네우 꿘 아오 비 로이, 아인 세 람 지?",
+      "exampleAnswerPronKo": "네우 꿘 아오 비 로이, 또이 세 리엔 헤 버이 끄어 항 바 짜 항.",
+      "pronNoteKo": "bị lỗi = 불량이다."
+    }
+  ],
+  "dialogues": [
+    {
+      "id": "d7fashion-d-001",
+      "title": "패션 관심도",
+      "audioSrc": "",
+      "sourcePage": 35,
+      "reviewNeeded": false,
+      "lines": [
+        {
+          "speaker": "A",
+          "vi": "Anh có thích thời trang không?",
+          "ko": "패션을 좋아해요?",
+          "pronKo": "아인 꼬 틱 터이 짱 콩?"
+        },
+        {
+          "speaker": "B",
+          "vi": "Có, nhưng tôi không quan tâm quá nhiều đến thời trang.",
+          "ko": "네, 하지만 저는 패션에 너무 많은 관심은 없습니다.",
+          "pronKo": "꼬, 늉 또이 콩 꽌 떰 꽈 니에우 덴 터이 짱."
+        },
+        {
+          "speaker": "A",
+          "vi": "Anh có quan tâm đến thời trang không?",
+          "ko": "패션에 관심이 있어요?",
+          "pronKo": "아인 꼬 꽌 떰 덴 터이 짱 콩?"
+        },
+        {
+          "speaker": "B",
+          "vi": "Tôi có quan tâm một chút, nhưng tôi thích quần áo đơn giản hơn.",
+          "ko": "저는 조금 관심이 있지만 단순한 옷을 더 좋아합니다.",
+          "pronKo": "또이 꼬 꽌 떰 못 쭛, 늉 또이 틱 꿘 아오 던 잔 헌."
+        }
+      ]
+    },
+    {
+      "id": "d7fashion-d-002",
+      "title": "출근 복장",
+      "audioSrc": "",
+      "sourcePage": 35,
+      "reviewNeeded": false,
+      "lines": [
+        {
+          "speaker": "A",
+          "vi": "Anh thường mặc gì đi làm?",
+          "ko": "출근할 때 보통 무엇을 입어요?",
+          "pronKo": "아인 트엉 막 지 디 람?"
+        },
+        {
+          "speaker": "B",
+          "vi": "Tôi thường mặc áo sơ mi và quần tây đi làm.",
+          "ko": "저는 보통 출근할 때 셔츠와 슬랙스를 입습니다.",
+          "pronKo": "또이 트엉 막 아오 써 미 바 꿘 떠이 디 람."
+        },
+        {
+          "speaker": "A",
+          "vi": "Anh có phải mặc đồng phục không?",
+          "ko": "유니폼을 입어야 해요?",
+          "pronKo": "아인 꼬 파이 막 동 푹 콩?"
+        },
+        {
+          "speaker": "B",
+          "vi": "Không. Tôi không phải mặc đồng phục, nhưng phải mặc quần áo lịch sự.",
+          "ko": "아니요. 저는 유니폼을 입어야 하는 것은 아니지만 단정한 옷을 입어야 합니다.",
+          "pronKo": "콩. 또이 콩 파이 막 동 푹, 늉 파이 막 꿘 아오 릭 스."
+        }
+      ]
+    },
+    {
+      "id": "d7fashion-d-003",
+      "title": "좋아하는 스타일",
+      "audioSrc": "",
+      "sourcePage": 35,
+      "reviewNeeded": false,
+      "lines": [
+        {
+          "speaker": "A",
+          "vi": "Anh thích phong cách nào?",
+          "ko": "어떤 스타일을 좋아해요?",
+          "pronKo": "아인 틱 퐁 까익 나오?"
+        },
+        {
+          "speaker": "B",
+          "vi": "Tôi thích phong cách đơn giản và lịch sự.",
+          "ko": "저는 단순하고 단정한 스타일을 좋아합니다.",
+          "pronKo": "또이 틱 퐁 까익 던 잔 바 릭 스."
+        },
+        {
+          "speaker": "A",
+          "vi": "Anh có hay thay đổi phong cách không?",
+          "ko": "스타일을 자주 바꿔요?",
+          "pronKo": "아인 꼬 하이 타이 도이 퐁 까익 콩?"
+        },
+        {
+          "speaker": "B",
+          "vi": "Không. Tôi không hay thay đổi phong cách.",
+          "ko": "아니요. 저는 스타일을 자주 바꾸지 않습니다.",
+          "pronKo": "콩. 또이 콩 하이 타이 도이 퐁 까익."
+        }
+      ]
+    },
+    {
+      "id": "d7fashion-d-004",
+      "title": "옷 구매 습관",
+      "audioSrc": "",
+      "sourcePage": 35,
+      "reviewNeeded": false,
+      "lines": [
+        {
+          "speaker": "A",
+          "vi": "Anh thường mua quần áo ở đâu?",
+          "ko": "보통 어디에서 옷을 사요?",
+          "pronKo": "아인 트엉 무아 꿘 아오 어 더우?"
+        },
+        {
+          "speaker": "B",
+          "vi": "Tôi thường mua quần áo online hoặc ở trung tâm thương mại.",
+          "ko": "저는 보통 온라인이나 쇼핑몰에서 옷을 삽니다.",
+          "pronKo": "또이 트엉 무아 꿘 아오 온라인 호악 어 쭝 떰 트엉 마이."
+        },
+        {
+          "speaker": "A",
+          "vi": "Anh có thử đồ trước khi mua không?",
+          "ko": "사기 전에 옷을 입어봐요?",
+          "pronKo": "아인 꼬 트 도 쯔억 키 무아 콩?"
+        },
+        {
+          "speaker": "B",
+          "vi": "Có. Nếu mua ở cửa hàng, tôi thường thử đồ trước khi mua.",
+          "ko": "네. 가게에서 사면 저는 보통 사기 전에 옷을 입어봅니다.",
+          "pronKo": "꼬. 네우 무아 어 끄어 항, 또이 트엉 트 도 쯔억 키 무아."
+        }
+      ]
+    },
+    {
+      "id": "d7fashion-d-005",
+      "title": "트렌드와 브랜드",
+      "audioSrc": "",
+      "sourcePage": 35,
+      "reviewNeeded": false,
+      "lines": [
+        {
+          "speaker": "A",
+          "vi": "Anh có theo xu hướng thời trang không?",
+          "ko": "패션 트렌드를 따라요?",
+          "pronKo": "아인 꼬 테오 쑤 흐엉 터이 짱 콩?"
+        },
+        {
+          "speaker": "B",
+          "vi": "Không. Tôi không theo xu hướng thời trang nhiều.",
+          "ko": "아니요. 저는 패션 트렌드를 많이 따르지 않습니다.",
+          "pronKo": "콩. 또이 콩 테오 쑤 흐엉 터이 짱 니에우."
+        },
+        {
+          "speaker": "A",
+          "vi": "Anh có thích mặc đồ hàng hiệu không?",
+          "ko": "브랜드 옷 입는 것을 좋아해요?",
+          "pronKo": "아인 꼬 틱 막 도 항 히에우 콩?"
+        },
+        {
+          "speaker": "B",
+          "vi": "Không. Tôi không thích hàng hiệu lắm vì nó đắt.",
+          "ko": "아니요. 비싸서 저는 브랜드 제품을 그렇게 좋아하지 않습니다.",
+          "pronKo": "콩. 또이 콩 틱 항 히에우 람 비 노 닷."
+        }
+      ]
+    },
+    {
+      "id": "d7fashion-d-006",
+      "title": "교환과 반품",
+      "audioSrc": "",
+      "sourcePage": 35,
+      "reviewNeeded": false,
+      "lines": [
+        {
+          "speaker": "A",
+          "vi": "Nếu quần áo không vừa, anh sẽ làm gì?",
+          "ko": "옷이 맞지 않으면 무엇을 할 거예요?",
+          "pronKo": "네우 꿘 아오 콩 브어, 아인 세 람 지?"
+        },
+        {
+          "speaker": "B",
+          "vi": "Nếu quần áo không vừa, tôi sẽ đổi size hoặc trả hàng.",
+          "ko": "옷이 맞지 않으면 저는 사이즈를 교환하거나 반품할 것입니다.",
+          "pronKo": "네우 꿘 아오 콩 브어, 또이 세 도이 사이즈 호악 짜 항."
+        },
+        {
+          "speaker": "A",
+          "vi": "Nếu quần áo bị lỗi, anh sẽ làm gì?",
+          "ko": "옷이 불량이면 무엇을 할 거예요?",
+          "pronKo": "네우 꿘 아오 비 로이, 아인 세 람 지?"
+        },
+        {
+          "speaker": "B",
+          "vi": "Nếu quần áo bị lỗi, tôi sẽ liên hệ với cửa hàng và trả hàng.",
+          "ko": "옷이 불량이면 저는 가게에 연락하고 반품할 것입니다.",
+          "pronKo": "네우 꿘 아오 비 로이, 또이 세 리엔 헤 버이 끄어 항 바 짜 항."
+        }
+      ]
+    }
+  ],
+  "grammarPoints": [
+    {
+      "id": "d7fashion-g-001",
+      "title": "패션에 관심이 있다",
+      "pattern": "quan tâm đến thời trang",
+      "meaningKo": "패션에 관심이 있다.",
+      "sourcePage": 35,
+      "reviewNeeded": false
+    },
+    {
+      "id": "d7fashion-g-002",
+      "title": "무엇을 입다",
+      "pattern": "mặc gì?",
+      "meaningKo": "무엇을 입다 / 무엇을 입어요?",
+      "sourcePage": 35,
+      "reviewNeeded": false
+    },
+    {
+      "id": "d7fashion-g-003",
+      "title": "출근할 때",
+      "pattern": "khi đi làm",
+      "meaningKo": "출근할 때.",
+      "sourcePage": 35,
+      "reviewNeeded": false
+    },
+    {
+      "id": "d7fashion-g-004",
+      "title": "어떤 스타일",
+      "pattern": "phong cách nào?",
+      "meaningKo": "어떤 스타일?",
+      "sourcePage": 35,
+      "reviewNeeded": false
+    },
+    {
+      "id": "d7fashion-g-005",
+      "title": "스타일을 바꾸다",
+      "pattern": "thay đổi phong cách",
+      "meaningKo": "스타일을 바꾸다.",
+      "sourcePage": 35,
+      "reviewNeeded": false
+    },
+    {
+      "id": "d7fashion-g-006",
+      "title": "무슨 색",
+      "pattern": "màu gì?",
+      "meaningKo": "무슨 색?",
+      "sourcePage": 35,
+      "reviewNeeded": false
+    },
+    {
+      "id": "d7fashion-g-007",
+      "title": "유행을 따르다",
+      "pattern": "theo xu hướng thời trang",
+      "meaningKo": "패션 트렌드를 따르다.",
+      "sourcePage": 35,
+      "reviewNeeded": false
+    },
+    {
+      "id": "d7fashion-g-008",
+      "title": "복장 규정",
+      "pattern": "quy định về trang phục",
+      "meaningKo": "복장에 관한 규정 / 복장 규정.",
+      "sourcePage": 35,
+      "reviewNeeded": false
+    },
+    {
+      "id": "d7fashion-g-009",
+      "title": "~해야 한다",
+      "pattern": "phải + 동사",
+      "meaningKo": "~해야 한다.",
+      "sourcePage": 35,
+      "reviewNeeded": false
+    },
+    {
+      "id": "d7fashion-g-010",
+      "title": "~할 필요가 없다",
+      "pattern": "không phải + 동사",
+      "meaningKo": "~해야 하는 것은 아니다 / ~할 필요가 없다.",
+      "sourcePage": 35,
+      "reviewNeeded": false
+    },
+    {
+      "id": "d7fashion-g-011",
+      "title": "옷에 돈을 쓰다",
+      "pattern": "chi tiền cho quần áo",
+      "meaningKo": "옷에 돈을 쓰다.",
+      "sourcePage": 35,
+      "reviewNeeded": false
+    },
+    {
+      "id": "d7fashion-g-012",
+      "title": "옷을 입어보다",
+      "pattern": "thử đồ trước khi mua",
+      "meaningKo": "사기 전에 옷을 입어보다.",
+      "sourcePage": 35,
+      "reviewNeeded": false
+    },
+    {
+      "id": "d7fashion-g-013",
+      "title": "교환하거나 반품하다",
+      "pattern": "đổi hoặc trả quần áo",
+      "meaningKo": "옷을 교환하거나 반품하다.",
+      "sourcePage": 35,
+      "reviewNeeded": false
+    },
+    {
+      "id": "d7fashion-g-014",
+      "title": "제 생각에는",
+      "pattern": "Theo tôi, ...",
+      "meaningKo": "제 생각에는 ...",
+      "sourcePage": 35,
+      "reviewNeeded": false
+    },
+    {
+      "id": "d7fashion-g-015",
+      "title": "옷이 맞지 않다",
+      "pattern": "quần áo không vừa",
+      "meaningKo": "옷이 맞지 않다.",
+      "sourcePage": 35,
+      "reviewNeeded": false
+    },
+    {
+      "id": "d7fashion-g-016",
+      "title": "옷이 불량이다",
+      "pattern": "quần áo bị lỗi",
+      "meaningKo": "옷이 불량이다 / 문제가 있다.",
+      "sourcePage": 35,
+      "reviewNeeded": false
+    },
+    {
+      "id": "d7fashion-g-017",
+      "title": "만약 ~하면 ~할 것이다",
+      "pattern": "Nếu + 문장, tôi sẽ + 동사.",
+      "meaningKo": "만약 ~하면 저는 ~할 것입니다.",
+      "sourcePage": 35,
+      "reviewNeeded": false
+    }
+  ],
+  "pronunciationTargets": [
+    {
+      "id": "d7fashion-p-001",
+      "text": "thời trang",
+      "hintKo": "패션",
+      "audioSrc": "",
+      "sourcePage": 34,
+      "reviewNeeded": false,
+      "pronKo": "터이 짱",
+      "mouthKo": "thời와 trang을 두 덩어리로 나누어 읽습니다.",
+      "toneKo": "패션 주제 핵심 단어입니다."
+    },
+    {
+      "id": "d7fashion-p-002",
+      "text": "mặc / quần áo",
+      "hintKo": "입다 / 옷",
+      "audioSrc": "",
+      "sourcePage": 34,
+      "reviewNeeded": false,
+      "pronKo": "막 / 꿘 아오",
+      "mouthKo": "mặc은 짧게 막, quần áo는 꿘 아오로 읽습니다.",
+      "toneKo": "mặc quần áo = 옷을 입다."
+    },
+    {
+      "id": "d7fashion-p-003",
+      "text": "quan tâm đến",
+      "hintKo": "~에 관심이 있다",
+      "audioSrc": "",
+      "sourcePage": 34,
+      "reviewNeeded": false,
+      "pronKo": "꽌 떰 덴",
+      "mouthKo": "quan tâm / đến으로 끊어 읽습니다.",
+      "toneKo": "quan tâm đến thời trang = 패션에 관심이 있다."
+    },
+    {
+      "id": "d7fashion-p-004",
+      "text": "phong cách",
+      "hintKo": "스타일",
+      "audioSrc": "",
+      "sourcePage": 34,
+      "reviewNeeded": false,
+      "pronKo": "퐁 까익",
+      "mouthKo": "cách의 끝소리는 짧게 닫습니다.",
+      "toneKo": "phong cách đơn giản = 단순한 스타일."
+    },
+    {
+      "id": "d7fashion-p-005",
+      "text": "đơn giản / lịch sự",
+      "hintKo": "단순하다 / 단정하다",
+      "audioSrc": "",
+      "sourcePage": 34,
+      "reviewNeeded": false,
+      "pronKo": "던 잔 / 릭 스",
+      "mouthKo": "두 표현 모두 스타일 설명에 자주 씁니다.",
+      "toneKo": "Tôi thích phong cách đơn giản và lịch sự."
+    },
+    {
+      "id": "d7fashion-p-006",
+      "text": "xu hướng thời trang",
+      "hintKo": "패션 트렌드",
+      "audioSrc": "",
+      "sourcePage": 34,
+      "reviewNeeded": false,
+      "pronKo": "쑤 흐엉 터이 짱",
+      "mouthKo": "xu hướng / thời trang으로 나누어 읽습니다.",
+      "toneKo": "theo xu hướng thời trang = 패션 트렌드를 따르다."
+    },
+    {
+      "id": "d7fashion-p-007",
+      "text": "quy định về trang phục",
+      "hintKo": "복장 규정",
+      "audioSrc": "",
+      "sourcePage": 34,
+      "reviewNeeded": false,
+      "pronKo": "뀌 딘 베 짱 푹",
+      "mouthKo": "회사 복장 규정을 말할 때 좋습니다.",
+      "toneKo": "Công ty tôi có quy định về trang phục."
+    },
+    {
+      "id": "d7fashion-p-008",
+      "text": "đồng phục / trang phục",
+      "hintKo": "유니폼 / 복장",
+      "audioSrc": "",
+      "sourcePage": 34,
+      "reviewNeeded": false,
+      "pronKo": "동 푹 / 짱 푹",
+      "mouthKo": "둘 다 phục으로 끝나지만 앞 단어가 다릅니다.",
+      "toneKo": "đồng phục은 유니폼, trang phục은 복장입니다."
+    },
+    {
+      "id": "d7fashion-p-009",
+      "text": "thử đồ / đổi / trả",
+      "hintKo": "옷을 입어보다 / 교환하다 / 반품하다",
+      "audioSrc": "",
+      "sourcePage": 34,
+      "reviewNeeded": false,
+      "pronKo": "트 도 / 도이 / 짜",
+      "mouthKo": "옷 구매 상황에서 자주 나오는 세트 표현입니다.",
+      "toneKo": "thử đồ trước khi mua, đổi hoặc trả hàng."
+    },
+    {
+      "id": "d7fashion-p-010",
+      "text": "không vừa / bị lỗi",
+      "hintKo": "맞지 않다 / 불량이다",
+      "audioSrc": "",
+      "sourcePage": 35,
+      "reviewNeeded": false,
+      "pronKo": "콩 브어 / 비 로이",
+      "mouthKo": "문제 상황 답변에 꼭 필요합니다.",
+      "toneKo": "Nếu quần áo không vừa hoặc bị lỗi, tôi sẽ đổi hoặc trả hàng."
+    }
+  ],
+  "quizSeeds": [
+    {
+      "id": "d7fashion-q-001",
+      "type": "match-term",
+      "prompt": "7일차 패션 기본 단어 매칭",
+      "answerSet": [
+        "thời trang-패션",
+        "mặc-입다",
+        "quần áo-옷",
+        "quan tâm-관심이 있다",
+        "mới-새롭다",
+        "phong cách-스타일",
+        "đơn giản-단순하다",
+        "thể thao-스포츠",
+        "lịch sự-단정하다",
+        "thay đổi-바꾸다"
+      ],
+      "sourcePage": 34,
+      "reviewNeeded": false
+    },
+    {
+      "id": "d7fashion-q-002",
+      "type": "match-term",
+      "prompt": "7일차 스타일/회사복 단어 매칭",
+      "answerSet": [
+        "màu-색깔",
+        "hàng hiệu-브랜드 제품",
+        "theo xu hướng-유행을 따르다",
+        "xu hướng thời trang-패션 트렌드",
+        "quy định-규정",
+        "trang phục-복장",
+        "đồng phục-유니폼",
+        "chi tiền-돈을 쓰다",
+        "thử đồ-옷을 입어보다",
+        "trước khi-~하기 전에"
+      ],
+      "sourcePage": 34,
+      "reviewNeeded": false
+    },
+    {
+      "id": "d7fashion-q-003",
+      "type": "match-term",
+      "prompt": "7일차 교환/반품 단어 매칭",
+      "answerSet": [
+        "đổi-교환하다",
+        "trả-반품하다",
+        "quan trọng-중요하다",
+        "nghĩ-생각하다",
+        "ăn mặc-옷을 입다 / 차림",
+        "không vừa-맞지 않다",
+        "bị lỗi-불량이다",
+        "đi làm-출근하다",
+        "áo sơ mi-셔츠",
+        "quần tây-슬랙스"
+      ],
+      "sourcePage": 35,
+      "reviewNeeded": false
+    },
+    {
+      "id": "d7fashion-q-004",
+      "type": "sentence-meaning",
+      "prompt": "7일차 패션 질문 뜻 고르기",
+      "answerSet": [
+        "Anh có thích thời trang không?-패션을 좋아해요?",
+        "Anh thường mặc gì đi làm?-출근할 때 보통 무엇을 입어요?",
+        "Anh có quan tâm đến thời trang không?-패션에 관심이 있어요?",
+        "Anh thường mua quần áo khi nào?-보통 언제 옷을 사요?",
+        "Anh có hay mua quần áo mới không?-새 옷을 자주 사요?",
+        "Anh thường mua quần áo ở đâu?-보통 어디에서 옷을 사요?",
+        "Anh thích phong cách nào?-어떤 스타일을 좋아해요?",
+        "Anh có hay thay đổi phong cách không?-스타일을 자주 바꿔요?"
+      ],
+      "sourcePage": 35,
+      "reviewNeeded": false
+    },
+    {
+      "id": "d7fashion-q-005",
+      "type": "sentence-meaning",
+      "prompt": "7일차 회사복/트렌드 질문 뜻 고르기",
+      "answerSet": [
+        "Anh thích màu gì?-무슨 색을 좋아해요?",
+        "Anh có thích mặc đồ hàng hiệu không?-브랜드 옷 입는 것을 좋아해요?",
+        "Anh có theo xu hướng thời trang không?-패션 트렌드를 따라요?",
+        "Ở công ty anh có quy định về trang phục không?-회사에 복장 규정이 있어요?",
+        "Anh có phải mặc đồng phục không?-유니폼을 입어야 해요?",
+        "Anh thích mặc gì khi đi làm?-출근할 때 무엇을 입는 것을 좋아해요?",
+        "Anh thường chi bao nhiêu tiền cho quần áo?-보통 옷에 돈을 얼마나 써요?",
+        "Anh có thử đồ trước khi mua không?-사기 전에 옷을 입어봐요?"
+      ],
+      "sourcePage": 35,
+      "reviewNeeded": false
+    },
+    {
+      "id": "d7fashion-q-006",
+      "type": "sentence-meaning",
+      "prompt": "7일차 교환/반품 질문 뜻 고르기",
+      "answerSet": [
+        "Anh có mua quần áo online không?-온라인으로 옷을 사요?",
+        "Anh có đổi hoặc trả quần áo bao giờ chưa?-옷을 교환하거나 반품해 본 적 있어요?",
+        "Theo anh, thời trang có quan trọng không?-당신 생각에 패션은 중요해요?",
+        "Anh nghĩ quần áo thể hiện điều gì?-옷은 무엇을 보여준다고 생각해요?",
+        "Anh có nghĩ mình ăn mặc đẹp không?-본인이 옷을 잘 입는다고 생각해요?",
+        "Nếu quần áo không vừa, anh sẽ làm gì?-옷이 맞지 않으면 무엇을 할 거예요?",
+        "Nếu quần áo bị lỗi, anh sẽ làm gì?-옷이 불량이면 무엇을 할 거예요?"
+      ],
+      "sourcePage": 35,
+      "reviewNeeded": false
+    },
+    {
+      "id": "d7fashion-q-007",
+      "type": "fill-blank",
+      "prompt": "빈칸 채우기: 저는 패션에 많은 관심이 없습니다.",
+      "question": "Tôi không ___ nhiều đến thời trang.",
+      "answer": "quan tâm",
+      "sourcePage": 35,
+      "reviewNeeded": false
+    },
+    {
+      "id": "d7fashion-q-008",
+      "type": "fill-blank",
+      "prompt": "빈칸 채우기: 저는 단순한 스타일을 좋아합니다.",
+      "question": "Tôi thích phong cách ___.",
+      "answer": "đơn giản",
+      "sourcePage": 35,
+      "reviewNeeded": false
+    },
+    {
+      "id": "d7fashion-q-009",
+      "type": "fill-blank",
+      "prompt": "빈칸 채우기: 저희 회사에는 복장 규정이 있습니다.",
+      "question": "Công ty tôi có quy định về ___.",
+      "answer": "trang phục",
+      "sourcePage": 35,
+      "reviewNeeded": false
+    },
+    {
+      "id": "d7fashion-q-010",
+      "type": "fill-blank",
+      "prompt": "빈칸 채우기: 옷이 맞지 않으면 저는 교환할 것입니다.",
+      "question": "Nếu quần áo không vừa, tôi sẽ ___.",
+      "answer": "đổi",
+      "sourcePage": 35,
+      "reviewNeeded": false
+    },
+    {
+      "id": "d7fashion-q-011",
+      "type": "match-term",
+      "prompt": "7일차 핵심 답변 매칭",
+      "answerSet": [
+        "Tôi không quan tâm quá nhiều đến thời trang.-저는 패션에 너무 많은 관심은 없습니다.",
+        "Tôi thường mặc áo sơ mi và quần tây đi làm.-저는 보통 출근할 때 셔츠와 슬랙스를 입습니다.",
+        "Tôi thích phong cách đơn giản và lịch sự.-저는 단순하고 단정한 스타일을 좋아합니다.",
+        "Tôi không theo xu hướng thời trang nhiều.-저는 패션 트렌드를 많이 따르지 않습니다.",
+        "Công ty tôi có quy định về trang phục, nhưng không quá nghiêm.-저희 회사에는 복장 규정이 있지만 너무 엄격하지는 않습니다.",
+        "Tôi thường thử đồ trước khi mua.-저는 사기 전에 보통 옷을 입어봅니다.",
+        "Nếu quần áo không vừa, tôi sẽ đổi size hoặc trả hàng.-옷이 맞지 않으면 저는 사이즈를 교환하거나 반품할 것입니다.",
+        "Tôi nghĩ quần áo thể hiện phong cách của mình.-저는 옷이 자신의 스타일을 보여준다고 생각합니다."
+      ],
+      "sourcePage": 35,
+      "reviewNeeded": false
+    }
+  ],
+  "unlockCondition": "complete-previous",
+  "reviewNeeded": false
+    },
+    {
+  "lessonId": "d7socialmedia",
+  "unitLabel": "7일차",
+  "titleKo": "7일차: 소셜미디어",
+  "titleVi": "Chủ đề 17: Mạng xã hội",
+  "pageRange": "Topic 1-21 / Mạng xã hội / p.36-37",
+  "goals": [
+    "소셜미디어를 사용하는지 말할 수 있다",
+    "어떤 소셜미디어를 사용하는지 말할 수 있다",
+    "하루에 몇 시간 사용하는지 말할 수 있다",
+    "소셜미디어를 사용하는 목적을 말할 수 있다",
+    "언제부터 사용했는지 말할 수 있다",
+    "게시글을 자주 올리는지 말할 수 있다",
+    "업무용으로 소셜미디어를 쓰는지 말할 수 있다",
+    "영상, 뉴스, 정보 확인 습관을 말할 수 있다",
+    "휴대폰과 컴퓨터 중 어떤 기기로 접속하는지 말할 수 있다",
+    "소셜미디어의 장점과 문제점에 대해 간단히 의견을 말할 수 있다"
+  ],
+  "topicOverview": "7일차 소셜미디어 주제는 어떤 SNS를 쓰는지, 하루에 얼마나 쓰는지, 무엇을 하기 위해 쓰는지, 게시글을 올리는지, 업무에 사용하는지, 영상이나 뉴스를 보는지, 자기 전에도 사용하는지, 장점과 문제점에 대해 말하는 연습입니다. 초보자는 'Tôi dùng...', 'Tôi dùng mạng xã hội để...', 'Một ngày tôi dùng...', 'Tôi thường xem...', 'Theo tôi...' 구조를 먼저 외우면 좋습니다.",
+  "cultureTopics": [
+    "소셜미디어 사용 여부",
+    "사용하는 앱",
+    "하루 사용 시간",
+    "게시글 올리기",
+    "영상 보기",
+    "뉴스 보기",
+    "업무용 소셜미디어",
+    "자기 전 휴대폰 사용",
+    "휴대폰과 컴퓨터 접속",
+    "소셜미디어의 장점",
+    "소셜미디어의 문제점",
+    "개인 의견 말하기"
+  ],
+  "vocabCards": [
+    {
+      "id": "d7socialmedia-v-001",
+      "term": "mạng xã hội",
+      "meaningKo": "소셜미디어 / SNS",
+      "example": "Tôi thường dùng mạng xã hội mỗi ngày.",
+      "exampleMeaningKo": "저는 매일 소셜미디어를 사용합니다.",
+      "audioSrc": "",
+      "sourcePage": 36,
+      "reviewNeeded": false,
+      "pronKo": "망 싸 호이",
+      "pronNoteKo": "mạng은 네트워크, xã hội는 사회라는 뜻입니다.",
+      "pronChunks": ["mạng=망", "xã hội=싸 호이"]
+    },
+    {
+      "id": "d7socialmedia-v-002",
+      "term": "dùng",
+      "meaningKo": "사용하다",
+      "example": "Tôi dùng Instagram và YouTube.",
+      "exampleMeaningKo": "저는 인스타그램과 유튜브를 사용합니다.",
+      "audioSrc": "",
+      "sourcePage": 36,
+      "reviewNeeded": false,
+      "pronKo": "중",
+      "pronNoteKo": "sử dụng보다 짧고 회화에서 자주 씁니다.",
+      "pronChunks": ["dùng=중"]
+    },
+    {
+      "id": "d7socialmedia-v-003",
+      "term": "đăng bài",
+      "meaningKo": "게시글을 올리다",
+      "example": "Tôi không hay đăng bài trên mạng xã hội.",
+      "exampleMeaningKo": "저는 소셜미디어에 게시글을 자주 올리지 않습니다.",
+      "audioSrc": "",
+      "sourcePage": 36,
+      "reviewNeeded": false,
+      "pronKo": "당 바이",
+      "pronNoteKo": "đăng은 올리다, bài는 글/게시물입니다.",
+      "pronChunks": ["đăng=당", "bài=바이"]
+    },
+    {
+      "id": "d7socialmedia-v-004",
+      "term": "xem",
+      "meaningKo": "보다",
+      "example": "Tôi hay xem video trên mạng.",
+      "exampleMeaningKo": "저는 인터넷에서 영상을 자주 봅니다.",
+      "audioSrc": "",
+      "sourcePage": 36,
+      "reviewNeeded": false,
+      "pronKo": "쌤",
+      "pronNoteKo": "영상, 뉴스, TV 등을 볼 때 씁니다.",
+      "pronChunks": ["xem=쌤"]
+    },
+    {
+      "id": "d7socialmedia-v-005",
+      "term": "video",
+      "meaningKo": "영상",
+      "example": "Tôi xem video tiếng Việt trên YouTube.",
+      "exampleMeaningKo": "저는 유튜브에서 베트남어 영상을 봅니다.",
+      "audioSrc": "",
+      "sourcePage": 36,
+      "reviewNeeded": false,
+      "pronKo": "비데오",
+      "pronNoteKo": "영어 video와 비슷하게 읽으면 됩니다.",
+      "pronChunks": ["video=비데오"]
+    },
+    {
+      "id": "d7socialmedia-v-006",
+      "term": "tin tức",
+      "meaningKo": "뉴스",
+      "example": "Tôi xem tin tức trên mạng xã hội.",
+      "exampleMeaningKo": "저는 소셜미디어에서 뉴스를 봅니다.",
+      "audioSrc": "",
+      "sourcePage": 36,
+      "reviewNeeded": false,
+      "pronKo": "띤 뜩",
+      "pronNoteKo": "뉴스, 소식이라는 뜻입니다.",
+      "pronChunks": ["tin=띤", "tức=뜩"]
+    },
+    {
+      "id": "d7socialmedia-v-007",
+      "term": "trên mạng",
+      "meaningKo": "인터넷에서 / 온라인에서",
+      "example": "Tôi thường đọc tin tức trên mạng.",
+      "exampleMeaningKo": "저는 보통 인터넷에서 뉴스를 읽습니다.",
+      "audioSrc": "",
+      "sourcePage": 36,
+      "reviewNeeded": false,
+      "pronKo": "쩬 망",
+      "pronNoteKo": "trên은 ~위에/~에서, mạng은 인터넷입니다.",
+      "pronChunks": ["trên=쩬", "mạng=망"]
+    },
+    {
+      "id": "d7socialmedia-v-008",
+      "term": "bắt đầu",
+      "meaningKo": "시작하다",
+      "example": "Tôi bắt đầu dùng mạng xã hội khi còn học đại học.",
+      "exampleMeaningKo": "저는 대학생 때 소셜미디어를 사용하기 시작했습니다.",
+      "audioSrc": "",
+      "sourcePage": 36,
+      "reviewNeeded": false,
+      "pronKo": "밧 더우",
+      "pronNoteKo": "bắt đầu + 동사 = ~하기 시작하다.",
+      "pronChunks": ["bắt=밧", "đầu=더우"]
+    },
+    {
+      "id": "d7socialmedia-v-009",
+      "term": "công việc",
+      "meaningKo": "업무 / 일",
+      "example": "Tôi dùng mạng xã hội cho công việc.",
+      "exampleMeaningKo": "저는 업무를 위해 소셜미디어를 사용합니다.",
+      "audioSrc": "",
+      "sourcePage": 36,
+      "reviewNeeded": false,
+      "pronKo": "꽁 비엑",
+      "pronNoteKo": "일, 업무라는 뜻입니다.",
+      "pronChunks": ["công=꽁", "việc=비엑"]
+    },
+    {
+      "id": "d7socialmedia-v-010",
+      "term": "cho công việc",
+      "meaningKo": "업무를 위해",
+      "example": "Tôi ít dùng mạng xã hội cho công việc.",
+      "exampleMeaningKo": "저는 업무를 위해 소셜미디어를 거의 사용하지 않습니다.",
+      "audioSrc": "",
+      "sourcePage": 36,
+      "reviewNeeded": false,
+      "pronKo": "쪼 꽁 비엑",
+      "pronNoteKo": "cho는 ~을 위해라는 뜻으로 쓸 수 있습니다.",
+      "pronChunks": ["cho=쪼", "công việc=꽁 비엑"]
+    },
+    {
+      "id": "d7socialmedia-v-011",
+      "term": "lợi ích",
+      "meaningKo": "장점 / 이익",
+      "example": "Mạng xã hội có nhiều lợi ích.",
+      "exampleMeaningKo": "소셜미디어에는 많은 장점이 있습니다.",
+      "audioSrc": "",
+      "sourcePage": 36,
+      "reviewNeeded": false,
+      "pronKo": "러이 익",
+      "pronNoteKo": "장점, 이익, 도움 되는 점이라는 뜻입니다.",
+      "pronChunks": ["lợi=러이", "ích=익"]
+    },
+    {
+      "id": "d7socialmedia-v-012",
+      "term": "thời gian",
+      "meaningKo": "시간",
+      "example": "Tôi không có nhiều thời gian.",
+      "exampleMeaningKo": "저는 시간이 많지 않습니다.",
+      "audioSrc": "",
+      "sourcePage": 36,
+      "reviewNeeded": false,
+      "pronKo": "터이 지안",
+      "pronNoteKo": "시간이라는 뜻입니다.",
+      "pronChunks": ["thời=터이", "gian=지안"]
+    },
+    {
+      "id": "d7socialmedia-v-013",
+      "term": "giao tiếp",
+      "meaningKo": "소통하다 / 의사소통하다",
+      "example": "Mạng xã hội giúp tôi giao tiếp với bạn bè.",
+      "exampleMeaningKo": "소셜미디어는 제가 친구들과 소통하는 데 도움을 줍니다.",
+      "audioSrc": "",
+      "sourcePage": 36,
+      "reviewNeeded": false,
+      "pronKo": "자오 띠엡",
+      "pronNoteKo": "사람들과 소통하다라는 뜻입니다.",
+      "pronChunks": ["giao=자오", "tiếp=띠엡"]
+    },
+    {
+      "id": "d7socialmedia-v-014",
+      "term": "trong ngày",
+      "meaningKo": "하루 동안 / 하루 중",
+      "example": "Tôi dùng mạng xã hội nhiều nhất vào buổi tối trong ngày.",
+      "exampleMeaningKo": "저는 하루 중 저녁에 소셜미디어를 가장 많이 사용합니다.",
+      "audioSrc": "",
+      "sourcePage": 36,
+      "reviewNeeded": false,
+      "pronKo": "쫑 응아이",
+      "pronNoteKo": "하루 동안, 하루 중이라는 뜻입니다.",
+      "pronChunks": ["trong=쫑", "ngày=응아이"]
+    },
+    {
+      "id": "d7socialmedia-v-015",
+      "term": "trước khi đi ngủ",
+      "meaningKo": "자기 전에",
+      "example": "Tôi thường dùng điện thoại trước khi đi ngủ.",
+      "exampleMeaningKo": "저는 자기 전에 보통 휴대폰을 사용합니다.",
+      "audioSrc": "",
+      "sourcePage": 36,
+      "reviewNeeded": false,
+      "pronKo": "쯔억 키 디 응우",
+      "pronNoteKo": "trước khi는 ~하기 전에, đi ngủ는 자러 가다입니다.",
+      "pronChunks": ["trước khi=쯔억 키", "đi ngủ=디 응우"]
+    },
+    {
+      "id": "d7socialmedia-v-016",
+      "term": "tần suất",
+      "meaningKo": "빈도",
+      "example": "Tần suất dùng mạng xã hội của tôi khá cao.",
+      "exampleMeaningKo": "저의 소셜미디어 사용 빈도는 꽤 높습니다.",
+      "audioSrc": "",
+      "sourcePage": 36,
+      "reviewNeeded": false,
+      "pronKo": "떤 쑤엇",
+      "pronNoteKo": "얼마나 자주 하는지를 말할 때 씁니다.",
+      "pronChunks": ["tần=떤", "suất=쑤엇"]
+    },
+    {
+      "id": "d7socialmedia-v-017",
+      "term": "tần suất sử dụng",
+      "meaningKo": "사용 빈도",
+      "example": "Tần suất sử dụng mạng xã hội của tôi thường xuyên.",
+      "exampleMeaningKo": "저의 소셜미디어 사용 빈도는 잦습니다.",
+      "audioSrc": "",
+      "sourcePage": 36,
+      "reviewNeeded": false,
+      "pronKo": "떤 쑤엇 쓰 중",
+      "pronNoteKo": "sử dụng은 사용하다입니다.",
+      "pronChunks": ["tần suất=떤 쑤엇", "sử dụng=쓰 중"]
+    },
+    {
+      "id": "d7socialmedia-v-018",
+      "term": "máy tính",
+      "meaningKo": "컴퓨터",
+      "example": "Tôi ít vào mạng bằng máy tính.",
+      "exampleMeaningKo": "저는 컴퓨터로 인터넷에 거의 접속하지 않습니다.",
+      "audioSrc": "",
+      "sourcePage": 36,
+      "reviewNeeded": false,
+      "pronKo": "마이 띵",
+      "pronNoteKo": "컴퓨터라는 뜻입니다.",
+      "pronChunks": ["máy=마이", "tính=띵"]
+    },
+    {
+      "id": "d7socialmedia-v-019",
+      "term": "điện thoại",
+      "meaningKo": "휴대폰 / 전화",
+      "example": "Tôi thường vào mạng bằng điện thoại.",
+      "exampleMeaningKo": "저는 보통 휴대폰으로 인터넷에 접속합니다.",
+      "audioSrc": "",
+      "sourcePage": 36,
+      "reviewNeeded": false,
+      "pronKo": "디엔 토아이",
+      "pronNoteKo": "전화, 휴대폰이라는 뜻입니다.",
+      "pronChunks": ["điện=디엔", "thoại=토아이"]
+    },
+    {
+      "id": "d7socialmedia-v-020",
+      "term": "bằng",
+      "meaningKo": "~로 / ~을 이용해서",
+      "example": "Tôi vào mạng bằng điện thoại.",
+      "exampleMeaningKo": "저는 휴대폰으로 인터넷에 접속합니다.",
+      "audioSrc": "",
+      "sourcePage": 36,
+      "reviewNeeded": false,
+      "pronKo": "방",
+      "pronNoteKo": "수단을 말할 때 씁니다.",
+      "pronChunks": ["bằng=방"]
+    },
+    {
+      "id": "d7socialmedia-v-021",
+      "term": "truy cập",
+      "meaningKo": "접속하다",
+      "example": "Tôi truy cập mạng xã hội bằng điện thoại.",
+      "exampleMeaningKo": "저는 휴대폰으로 소셜미디어에 접속합니다.",
+      "audioSrc": "",
+      "sourcePage": 36,
+      "reviewNeeded": false,
+      "pronKo": "쭈이 껍",
+      "pronNoteKo": "인터넷이나 사이트에 접속하다라는 뜻입니다.",
+      "pronChunks": ["truy=쭈이", "cập=껍"]
+    },
+    {
+      "id": "d7socialmedia-v-022",
+      "term": "ứng dụng",
+      "meaningKo": "앱 / 애플리케이션",
+      "example": "Tôi dùng nhiều ứng dụng mạng xã hội.",
+      "exampleMeaningKo": "저는 여러 소셜미디어 앱을 사용합니다.",
+      "audioSrc": "",
+      "sourcePage": 36,
+      "reviewNeeded": false,
+      "pronKo": "응 중",
+      "pronNoteKo": "앱이라는 뜻입니다.",
+      "pronChunks": ["ứng=응", "dụng=중"]
+    },
+    {
+      "id": "d7socialmedia-v-023",
+      "term": "ý kiến",
+      "meaningKo": "의견",
+      "example": "Đây là ý kiến của tôi.",
+      "exampleMeaningKo": "이것은 제 의견입니다.",
+      "audioSrc": "",
+      "sourcePage": 36,
+      "reviewNeeded": false,
+      "pronKo": "이 끼엔",
+      "pronNoteKo": "의견이라는 뜻입니다.",
+      "pronChunks": ["ý=이", "kiến=끼엔"]
+    },
+    {
+      "id": "d7socialmedia-v-024",
+      "term": "thấy sao",
+      "meaningKo": "어떻게 생각하다",
+      "example": "Anh thấy mạng xã hội thế nào?",
+      "exampleMeaningKo": "소셜미디어에 대해 어떻게 생각해요?",
+      "audioSrc": "",
+      "sourcePage": 36,
+      "reviewNeeded": false,
+      "pronKo": "터이 싸오",
+      "pronNoteKo": "Anh thấy sao? = 당신은 어떻게 생각해요?",
+      "pronChunks": ["thấy=터이", "sao=싸오"]
+    },
+    {
+      "id": "d7socialmedia-v-025",
+      "term": "vấn đề",
+      "meaningKo": "문제",
+      "example": "Mạng xã hội cũng có một số vấn đề.",
+      "exampleMeaningKo": "소셜미디어에도 몇 가지 문제가 있습니다.",
+      "audioSrc": "",
+      "sourcePage": 36,
+      "reviewNeeded": false,
+      "pronKo": "번 데",
+      "pronNoteKo": "문제라는 뜻입니다.",
+      "pronChunks": ["vấn=번", "đề=데"]
+    },
+    {
+      "id": "d7socialmedia-v-026",
+      "term": "ảnh hưởng",
+      "meaningKo": "영향을 미치다 / 영향",
+      "example": "Mạng xã hội ảnh hưởng đến cuộc sống của tôi.",
+      "exampleMeaningKo": "소셜미디어는 제 생활에 영향을 미칩니다.",
+      "audioSrc": "",
+      "sourcePage": 36,
+      "reviewNeeded": false,
+      "pronKo": "아인 흐엉",
+      "pronNoteKo": "ảnh hưởng đến + 명사 = ~에 영향을 미치다.",
+      "pronChunks": ["ảnh=아인", "hưởng=흐엉"]
+    },
+    {
+      "id": "d7socialmedia-v-027",
+      "term": "Facebook",
+      "meaningKo": "페이스북",
+      "example": "Tôi dùng Facebook để xem tin tức.",
+      "exampleMeaningKo": "저는 뉴스를 보기 위해 페이스북을 사용합니다.",
+      "audioSrc": "",
+      "sourcePage": 37,
+      "reviewNeeded": false,
+      "pronKo": "페이스북",
+      "pronNoteKo": "소셜미디어 앱 이름입니다.",
+      "pronChunks": ["Facebook=페이스북"]
+    },
+    {
+      "id": "d7socialmedia-v-028",
+      "term": "Instagram",
+      "meaningKo": "인스타그램",
+      "example": "Tôi hay xem ảnh trên Instagram.",
+      "exampleMeaningKo": "저는 인스타그램에서 사진을 자주 봅니다.",
+      "audioSrc": "",
+      "sourcePage": 37,
+      "reviewNeeded": false,
+      "pronKo": "인스타그램",
+      "pronNoteKo": "사진, 영상 앱으로 말하면 좋습니다.",
+      "pronChunks": ["Instagram=인스타그램"]
+    },
+    {
+      "id": "d7socialmedia-v-029",
+      "term": "YouTube",
+      "meaningKo": "유튜브",
+      "example": "Tôi xem video tiếng Việt trên YouTube.",
+      "exampleMeaningKo": "저는 유튜브에서 베트남어 영상을 봅니다.",
+      "audioSrc": "",
+      "sourcePage": 37,
+      "reviewNeeded": false,
+      "pronKo": "유튜브",
+      "pronNoteKo": "영상 보기 답변에 가장 쓰기 쉽습니다.",
+      "pronChunks": ["YouTube=유튜브"]
+    },
+    {
+      "id": "d7socialmedia-v-030",
+      "term": "KakaoTalk",
+      "meaningKo": "카카오톡",
+      "example": "Tôi dùng KakaoTalk để giao tiếp với gia đình.",
+      "exampleMeaningKo": "저는 가족과 소통하기 위해 카카오톡을 사용합니다.",
+      "audioSrc": "",
+      "sourcePage": 37,
+      "reviewNeeded": false,
+      "pronKo": "카카오톡",
+      "pronNoteKo": "한국 생활 설명에 좋습니다.",
+      "pronChunks": ["KakaoTalk=카카오톡"]
+    },
+    {
+      "id": "d7socialmedia-v-031",
+      "term": "liên lạc",
+      "meaningKo": "연락하다",
+      "example": "Tôi dùng mạng xã hội để liên lạc với bạn bè.",
+      "exampleMeaningKo": "저는 친구들과 연락하기 위해 소셜미디어를 사용합니다.",
+      "audioSrc": "",
+      "sourcePage": 37,
+      "reviewNeeded": false,
+      "pronKo": "리엔 락",
+      "pronNoteKo": "연락하다라는 뜻입니다.",
+      "pronChunks": ["liên=리엔", "lạc=락"]
+    },
+    {
+      "id": "d7socialmedia-v-032",
+      "term": "giải trí",
+      "meaningKo": "오락 / 즐기다",
+      "example": "Tôi dùng mạng xã hội để giải trí.",
+      "exampleMeaningKo": "저는 즐기기 위해 소셜미디어를 사용합니다.",
+      "audioSrc": "",
+      "sourcePage": 37,
+      "reviewNeeded": false,
+      "pronKo": "자이 찌",
+      "pronNoteKo": "재미, 오락, 여가 활동 느낌입니다.",
+      "pronChunks": ["giải=자이", "trí=찌"]
+    },
+    {
+      "id": "d7socialmedia-v-033",
+      "term": "thông tin",
+      "meaningKo": "정보",
+      "example": "Tôi tìm thông tin trên mạng xã hội.",
+      "exampleMeaningKo": "저는 소셜미디어에서 정보를 찾습니다.",
+      "audioSrc": "",
+      "sourcePage": 37,
+      "reviewNeeded": false,
+      "pronKo": "통 띤",
+      "pronNoteKo": "정보라는 뜻입니다.",
+      "pronChunks": ["thông=통", "tin=띤"]
+    },
+    {
+      "id": "d7socialmedia-v-034",
+      "term": "thường xuyên",
+      "meaningKo": "자주 / 정기적으로",
+      "example": "Tôi dùng mạng xã hội khá thường xuyên.",
+      "exampleMeaningKo": "저는 소셜미디어를 꽤 자주 사용합니다.",
+      "audioSrc": "",
+      "sourcePage": 37,
+      "reviewNeeded": false,
+      "pronKo": "트엉 쑤옌",
+      "pronNoteKo": "사용 빈도를 말할 때 좋습니다.",
+      "pronChunks": ["thường=트엉", "xuyên=쑤옌"]
+    },
+    {
+      "id": "d7socialmedia-v-035",
+      "term": "tiện lợi",
+      "meaningKo": "편리하다",
+      "example": "Mạng xã hội rất tiện lợi.",
+      "exampleMeaningKo": "소셜미디어는 매우 편리합니다.",
+      "audioSrc": "",
+      "sourcePage": 37,
+      "reviewNeeded": false,
+      "pronKo": "띠엔 러이",
+      "pronNoteKo": "장점 말할 때 자주 씁니다.",
+      "pronChunks": ["tiện=띠엔", "lợi=러이"]
+    },
+    {
+      "id": "d7socialmedia-v-036",
+      "term": "mất thời gian",
+      "meaningKo": "시간이 낭비되다 / 시간이 걸리다",
+      "example": "Dùng mạng xã hội quá nhiều sẽ mất thời gian.",
+      "exampleMeaningKo": "소셜미디어를 너무 많이 사용하면 시간이 낭비됩니다.",
+      "audioSrc": "",
+      "sourcePage": 37,
+      "reviewNeeded": false,
+      "pronKo": "멋 터이 지안",
+      "pronNoteKo": "mất은 잃다, 걸리다라는 뜻도 있습니다.",
+      "pronChunks": ["mất=멋", "thời gian=터이 지안"]
+    }
+  ],
+  "sentenceCards": [
+    {
+      "id": "d7socialmedia-s-001",
+      "textVi": "Anh có dùng mạng xã hội không?",
+      "textKo": "소셜미디어를 사용해요?",
+      "exampleAnswerVi": "Có. Tôi dùng mạng xã hội mỗi ngày.",
+      "exampleAnswerKo": "네. 저는 매일 소셜미디어를 사용합니다.",
+      "audioSrc": "",
+      "sourcePage": 37,
+      "reviewNeeded": false,
+      "pronKo": "아인 꼬 중 망 싸 호이 콩?",
+      "exampleAnswerPronKo": "꼬. 또이 중 망 싸 호이 모이 응아이.",
+      "pronNoteKo": "Có dùng ... không? = ~을 사용해요?"
+    },
+    {
+      "id": "d7socialmedia-s-002",
+      "textVi": "Anh dùng mạng xã hội nào?",
+      "textKo": "어떤 소셜미디어를 사용해요?",
+      "exampleAnswerVi": "Tôi dùng Instagram, YouTube và KakaoTalk.",
+      "exampleAnswerKo": "저는 인스타그램, 유튜브, 카카오톡을 사용합니다.",
+      "audioSrc": "",
+      "sourcePage": 37,
+      "reviewNeeded": false,
+      "pronKo": "아인 중 망 싸 호이 나오?",
+      "exampleAnswerPronKo": "또이 중 인스타그램, 유튜브 바 카카오톡.",
+      "pronNoteKo": "nào = 어느 / 어떤."
+    },
+    {
+      "id": "d7socialmedia-s-003",
+      "textVi": "Một ngày anh dùng mạng xã hội mấy tiếng?",
+      "textKo": "하루에 소셜미디어를 몇 시간 사용해요?",
+      "exampleAnswerVi": "Một ngày tôi dùng mạng xã hội khoảng một tiếng.",
+      "exampleAnswerKo": "저는 하루에 소셜미디어를 약 한 시간 사용합니다.",
+      "audioSrc": "",
+      "sourcePage": 37,
+      "reviewNeeded": false,
+      "pronKo": "못 응아이 아인 중 망 싸 호이 머이 띠엥?",
+      "exampleAnswerPronKo": "못 응아이 또이 중 망 싸 호이 코앙 못 띠엥.",
+      "pronNoteKo": "mấy tiếng = 몇 시간."
+    },
+    {
+      "id": "d7socialmedia-s-004",
+      "textVi": "Anh dùng mạng xã hội để làm gì?",
+      "textKo": "무엇을 하기 위해 소셜미디어를 사용해요?",
+      "exampleAnswerVi": "Tôi dùng mạng xã hội để xem video, đọc tin tức và liên lạc với bạn bè.",
+      "exampleAnswerKo": "저는 영상을 보고, 뉴스를 읽고, 친구들과 연락하기 위해 소셜미디어를 사용합니다.",
+      "audioSrc": "",
+      "sourcePage": 37,
+      "reviewNeeded": false,
+      "pronKo": "아인 중 망 싸 호이 데 람 지?",
+      "exampleAnswerPronKo": "또이 중 망 싸 호이 데 쌤 비데오, 독 띤 뜩 바 리엔 락 버이 반 베.",
+      "pronNoteKo": "để làm gì = 무엇을 하기 위해."
+    },
+    {
+      "id": "d7socialmedia-s-005",
+      "textVi": "Anh bắt đầu dùng mạng xã hội từ khi nào?",
+      "textKo": "언제부터 소셜미디어를 사용하기 시작했어요?",
+      "exampleAnswerVi": "Tôi bắt đầu dùng mạng xã hội từ khi học đại học.",
+      "exampleAnswerKo": "저는 대학교 때부터 소셜미디어를 사용하기 시작했습니다.",
+      "audioSrc": "",
+      "sourcePage": 37,
+      "reviewNeeded": false,
+      "pronKo": "아인 밧 더우 중 망 싸 호이 뜨 키 나오?",
+      "exampleAnswerPronKo": "또이 밧 더우 중 망 싸 호이 뜨 키 혹 다이 혹.",
+      "pronNoteKo": "từ khi nào = 언제부터."
+    },
+    {
+      "id": "d7socialmedia-s-006",
+      "textVi": "Anh có hay đăng bài không?",
+      "textKo": "게시글을 자주 올려요?",
+      "exampleAnswerVi": "Không. Tôi không hay đăng bài, tôi chỉ xem thôi.",
+      "exampleAnswerKo": "아니요. 저는 게시글을 자주 올리지 않고 그냥 보기만 합니다.",
+      "audioSrc": "",
+      "sourcePage": 37,
+      "reviewNeeded": false,
+      "pronKo": "아인 꼬 하이 당 바이 콩?",
+      "exampleAnswerPronKo": "콩. 또이 콩 하이 당 바이, 또이 찌 쌤 토이.",
+      "pronNoteKo": "chỉ ... thôi = 그냥 ~만 하다."
+    },
+    {
+      "id": "d7socialmedia-s-007",
+      "textVi": "Anh có dùng mạng xã hội cho công việc không?",
+      "textKo": "업무를 위해 소셜미디어를 사용해요?",
+      "exampleAnswerVi": "Có. Đôi khi tôi dùng mạng xã hội cho công việc.",
+      "exampleAnswerKo": "네. 가끔 저는 업무를 위해 소셜미디어를 사용합니다.",
+      "audioSrc": "",
+      "sourcePage": 37,
+      "reviewNeeded": false,
+      "pronKo": "아인 꼬 중 망 싸 호이 쪼 꽁 비엑 콩?",
+      "exampleAnswerPronKo": "꼬. 도이 키 또이 중 망 싸 호이 쪼 꽁 비엑.",
+      "pronNoteKo": "Đôi khi = 가끔."
+    },
+    {
+      "id": "d7socialmedia-s-008",
+      "textVi": "Anh có hay xem video trên mạng không?",
+      "textKo": "인터넷에서 영상을 자주 봐요?",
+      "exampleAnswerVi": "Có. Tôi hay xem video trên YouTube, nhất là video tiếng Việt.",
+      "exampleAnswerKo": "네. 저는 유튜브에서 영상을 자주 봅니다. 특히 베트남어 영상을 봅니다.",
+      "audioSrc": "",
+      "sourcePage": 37,
+      "reviewNeeded": false,
+      "pronKo": "아인 꼬 하이 쌤 비데오 쩬 망 콩?",
+      "exampleAnswerPronKo": "꼬. 또이 하이 쌤 비데오 쩬 유튜브, 녓 라 비데오 띠엥 비엣.",
+      "pronNoteKo": "nhất là = 특히."
+    },
+    {
+      "id": "d7socialmedia-s-009",
+      "textVi": "Anh có xem tin tức trên mạng xã hội không?",
+      "textKo": "소셜미디어에서 뉴스를 봐요?",
+      "exampleAnswerVi": "Có. Tôi thường xem tin tức trên mạng xã hội vào buổi sáng.",
+      "exampleAnswerKo": "네. 저는 보통 아침에 소셜미디어에서 뉴스를 봅니다.",
+      "audioSrc": "",
+      "sourcePage": 37,
+      "reviewNeeded": false,
+      "pronKo": "아인 꼬 쌤 띤 뜩 쩬 망 싸 호이 콩?",
+      "exampleAnswerPronKo": "꼬. 또이 트엉 쌤 띤 뜩 쩬 망 싸 호이 바오 부오이 상.",
+      "pronNoteKo": "vào buổi sáng = 아침에."
+    },
+    {
+      "id": "d7socialmedia-s-010",
+      "textVi": "Anh dùng mạng xã hội nhiều nhất vào thời gian nào trong ngày?",
+      "textKo": "하루 중 어느 시간에 소셜미디어를 가장 많이 사용해요?",
+      "exampleAnswerVi": "Tôi dùng mạng xã hội nhiều nhất vào buổi tối sau khi tan làm.",
+      "exampleAnswerKo": "저는 퇴근 후 저녁에 소셜미디어를 가장 많이 사용합니다.",
+      "audioSrc": "",
+      "sourcePage": 37,
+      "reviewNeeded": false,
+      "pronKo": "아인 중 망 싸 호이 니에우 녓 바오 터이 지안 나오 쫑 응아이?",
+      "exampleAnswerPronKo": "또이 중 망 싸 호이 니에우 녓 바오 부오이 또이 사우 키 딴 람.",
+      "pronNoteKo": "nhiều nhất = 가장 많이."
+    },
+    {
+      "id": "d7socialmedia-s-011",
+      "textVi": "Trước khi đi ngủ anh có dùng mạng xã hội không?",
+      "textKo": "자기 전에 소셜미디어를 사용해요?",
+      "exampleAnswerVi": "Có. Trước khi đi ngủ, tôi thường xem YouTube một chút.",
+      "exampleAnswerKo": "네. 자기 전에 저는 보통 유튜브를 조금 봅니다.",
+      "audioSrc": "",
+      "sourcePage": 37,
+      "reviewNeeded": false,
+      "pronKo": "쯔억 키 디 응우 아인 꼬 중 망 싸 호이 콩?",
+      "exampleAnswerPronKo": "꼬. 쯔억 키 디 응우, 또이 트엉 쌤 유튜브 못 쭛.",
+      "pronNoteKo": "một chút = 조금."
+    },
+    {
+      "id": "d7socialmedia-s-012",
+      "textVi": "Tần suất dùng mạng xã hội của anh có thường xuyên không?",
+      "textKo": "소셜미디어 사용 빈도가 잦아요?",
+      "exampleAnswerVi": "Có. Tôi dùng mạng xã hội khá thường xuyên, nhưng không quá nhiều.",
+      "exampleAnswerKo": "네. 저는 소셜미디어를 꽤 자주 사용하지만 너무 많이 사용하지는 않습니다.",
+      "audioSrc": "",
+      "sourcePage": 37,
+      "reviewNeeded": false,
+      "pronKo": "떤 쑤엇 중 망 싸 호이 꾸어 아인 꼬 트엉 쑤옌 콩?",
+      "exampleAnswerPronKo": "꼬. 또이 중 망 싸 호이 카 트엉 쑤옌, 늉 콩 꽈 니에우.",
+      "pronNoteKo": "khá thường xuyên = 꽤 자주."
+    },
+    {
+      "id": "d7socialmedia-s-013",
+      "textVi": "Anh hay vào mạng bằng máy tính hay điện thoại?",
+      "textKo": "컴퓨터로 인터넷에 자주 접속해요, 아니면 휴대폰으로 접속해요?",
+      "exampleAnswerVi": "Tôi thường vào mạng bằng điện thoại vì tiện lợi hơn.",
+      "exampleAnswerKo": "저는 더 편리해서 보통 휴대폰으로 인터넷에 접속합니다.",
+      "audioSrc": "",
+      "sourcePage": 37,
+      "reviewNeeded": false,
+      "pronKo": "아인 하이 바오 망 방 마이 띵 하이 디엔 토아이?",
+      "exampleAnswerPronKo": "또이 트엉 바오 망 방 디엔 토아이 비 띠엔 러이 헌.",
+      "pronNoteKo": "bằng + 수단 = ~로."
+    },
+    {
+      "id": "d7socialmedia-s-014",
+      "textVi": "Anh thấy mạng xã hội có lợi ích gì?",
+      "textKo": "소셜미디어에는 어떤 장점이 있다고 생각해요?",
+      "exampleAnswerVi": "Tôi thấy mạng xã hội giúp tôi giao tiếp, xem tin tức và học tiếng Việt.",
+      "exampleAnswerKo": "저는 소셜미디어가 제가 소통하고, 뉴스를 보고, 베트남어를 공부하는 데 도움을 준다고 생각합니다.",
+      "audioSrc": "",
+      "sourcePage": 37,
+      "reviewNeeded": false,
+      "pronKo": "아인 터이 망 싸 호이 꼬 러이 익 지?",
+      "exampleAnswerPronKo": "또이 터이 망 싸 호이 줍 또이 자오 띠엡, 쌤 띤 뜩 바 혹 띠엥 비엣.",
+      "pronNoteKo": "giúp tôi + 동사 = 내가 ~하도록 도와주다."
+    },
+    {
+      "id": "d7socialmedia-s-015",
+      "textVi": "Có nhiều người không thích mạng xã hội, anh thấy sao?",
+      "textKo": "소셜미디어를 좋아하지 않는 사람들이 많은데, 당신은 어떻게 생각해요?",
+      "exampleAnswerVi": "Theo tôi, mạng xã hội có lợi ích, nhưng nếu dùng quá nhiều thì sẽ mất thời gian.",
+      "exampleAnswerKo": "제 생각에는 소셜미디어에는 장점이 있지만 너무 많이 사용하면 시간이 낭비됩니다.",
+      "audioSrc": "",
+      "sourcePage": 37,
+      "reviewNeeded": false,
+      "pronKo": "꼬 니에우 응어이 콩 틱 망 싸 호이, 아인 터이 싸오?",
+      "exampleAnswerPronKo": "테오 또이, 망 싸 호이 꼬 러이 익, 늉 네우 중 꽈 니에우 티 세 멋 터이 지안.",
+      "pronNoteKo": "Theo tôi = 제 생각에는."
+    }
+  ],
+  "dialogues": [
+    {
+      "id": "d7socialmedia-d-001",
+      "title": "소셜미디어 사용 여부",
+      "audioSrc": "",
+      "sourcePage": 37,
+      "reviewNeeded": false,
+      "lines": [
+        {
+          "speaker": "A",
+          "vi": "Anh có dùng mạng xã hội không?",
+          "ko": "소셜미디어를 사용해요?",
+          "pronKo": "아인 꼬 중 망 싸 호이 콩?"
+        },
+        {
+          "speaker": "B",
+          "vi": "Có. Tôi dùng mạng xã hội mỗi ngày.",
+          "ko": "네. 저는 매일 소셜미디어를 사용합니다.",
+          "pronKo": "꼬. 또이 중 망 싸 호이 모이 응아이."
+        },
+        {
+          "speaker": "A",
+          "vi": "Anh dùng mạng xã hội nào?",
+          "ko": "어떤 소셜미디어를 사용해요?",
+          "pronKo": "아인 중 망 싸 호이 나오?"
+        },
+        {
+          "speaker": "B",
+          "vi": "Tôi dùng Instagram, YouTube và KakaoTalk.",
+          "ko": "저는 인스타그램, 유튜브, 카카오톡을 사용합니다.",
+          "pronKo": "또이 중 인스타그램, 유튜브 바 카카오톡."
+        }
+      ]
+    },
+    {
+      "id": "d7socialmedia-d-002",
+      "title": "하루 사용 시간",
+      "audioSrc": "",
+      "sourcePage": 37,
+      "reviewNeeded": false,
+      "lines": [
+        {
+          "speaker": "A",
+          "vi": "Một ngày anh dùng mạng xã hội mấy tiếng?",
+          "ko": "하루에 소셜미디어를 몇 시간 사용해요?",
+          "pronKo": "못 응아이 아인 중 망 싸 호이 머이 띠엥?"
+        },
+        {
+          "speaker": "B",
+          "vi": "Một ngày tôi dùng mạng xã hội khoảng một tiếng.",
+          "ko": "저는 하루에 소셜미디어를 약 한 시간 사용합니다.",
+          "pronKo": "못 응아이 또이 중 망 싸 호이 코앙 못 띠엥."
+        },
+        {
+          "speaker": "A",
+          "vi": "Anh dùng mạng xã hội nhiều nhất vào thời gian nào trong ngày?",
+          "ko": "하루 중 어느 시간에 소셜미디어를 가장 많이 사용해요?",
+          "pronKo": "아인 중 망 싸 호이 니에우 녓 바오 터이 지안 나오 쫑 응아이?"
+        },
+        {
+          "speaker": "B",
+          "vi": "Tôi dùng mạng xã hội nhiều nhất vào buổi tối sau khi tan làm.",
+          "ko": "저는 퇴근 후 저녁에 소셜미디어를 가장 많이 사용합니다.",
+          "pronKo": "또이 중 망 싸 호이 니에우 녓 바오 부오이 또이 사우 키 딴 람."
+        }
+      ]
+    },
+    {
+      "id": "d7socialmedia-d-003",
+      "title": "사용 목적",
+      "audioSrc": "",
+      "sourcePage": 37,
+      "reviewNeeded": false,
+      "lines": [
+        {
+          "speaker": "A",
+          "vi": "Anh dùng mạng xã hội để làm gì?",
+          "ko": "무엇을 하기 위해 소셜미디어를 사용해요?",
+          "pronKo": "아인 중 망 싸 호이 데 람 지?"
+        },
+        {
+          "speaker": "B",
+          "vi": "Tôi dùng mạng xã hội để xem video, đọc tin tức và liên lạc với bạn bè.",
+          "ko": "저는 영상을 보고, 뉴스를 읽고, 친구들과 연락하기 위해 소셜미디어를 사용합니다.",
+          "pronKo": "또이 중 망 싸 호이 데 쌤 비데오, 독 띤 뜩 바 리엔 락 버이 반 베."
+        },
+        {
+          "speaker": "A",
+          "vi": "Anh có dùng mạng xã hội cho công việc không?",
+          "ko": "업무를 위해 소셜미디어를 사용해요?",
+          "pronKo": "아인 꼬 중 망 싸 호이 쪼 꽁 비엑 콩?"
+        },
+        {
+          "speaker": "B",
+          "vi": "Có. Đôi khi tôi dùng mạng xã hội cho công việc.",
+          "ko": "네. 가끔 저는 업무를 위해 소셜미디어를 사용합니다.",
+          "pronKo": "꼬. 도이 키 또이 중 망 싸 호이 쪼 꽁 비엑."
+        }
+      ]
+    },
+    {
+      "id": "d7socialmedia-d-004",
+      "title": "게시글과 영상",
+      "audioSrc": "",
+      "sourcePage": 37,
+      "reviewNeeded": false,
+      "lines": [
+        {
+          "speaker": "A",
+          "vi": "Anh có hay đăng bài không?",
+          "ko": "게시글을 자주 올려요?",
+          "pronKo": "아인 꼬 하이 당 바이 콩?"
+        },
+        {
+          "speaker": "B",
+          "vi": "Không. Tôi không hay đăng bài, tôi chỉ xem thôi.",
+          "ko": "아니요. 저는 게시글을 자주 올리지 않고 그냥 보기만 합니다.",
+          "pronKo": "콩. 또이 콩 하이 당 바이, 또이 찌 쌤 토이."
+        },
+        {
+          "speaker": "A",
+          "vi": "Anh có hay xem video trên mạng không?",
+          "ko": "인터넷에서 영상을 자주 봐요?",
+          "pronKo": "아인 꼬 하이 쌤 비데오 쩬 망 콩?"
+        },
+        {
+          "speaker": "B",
+          "vi": "Có. Tôi hay xem video trên YouTube, nhất là video tiếng Việt.",
+          "ko": "네. 저는 유튜브에서 영상을 자주 봅니다. 특히 베트남어 영상을 봅니다.",
+          "pronKo": "꼬. 또이 하이 쌤 비데오 쩬 유튜브, 녓 라 비데오 띠엥 비엣."
+        }
+      ]
+    },
+    {
+      "id": "d7socialmedia-d-005",
+      "title": "접속 기기와 자기 전 사용",
+      "audioSrc": "",
+      "sourcePage": 37,
+      "reviewNeeded": false,
+      "lines": [
+        {
+          "speaker": "A",
+          "vi": "Anh hay vào mạng bằng máy tính hay điện thoại?",
+          "ko": "컴퓨터로 인터넷에 자주 접속해요, 아니면 휴대폰으로 접속해요?",
+          "pronKo": "아인 하이 바오 망 방 마이 띵 하이 디엔 토아이?"
+        },
+        {
+          "speaker": "B",
+          "vi": "Tôi thường vào mạng bằng điện thoại vì tiện lợi hơn.",
+          "ko": "저는 더 편리해서 보통 휴대폰으로 인터넷에 접속합니다.",
+          "pronKo": "또이 트엉 바오 망 방 디엔 토아이 비 띠엔 러이 헌."
+        },
+        {
+          "speaker": "A",
+          "vi": "Trước khi đi ngủ anh có dùng mạng xã hội không?",
+          "ko": "자기 전에 소셜미디어를 사용해요?",
+          "pronKo": "쯔억 키 디 응우 아인 꼬 중 망 싸 호이 콩?"
+        },
+        {
+          "speaker": "B",
+          "vi": "Có. Trước khi đi ngủ, tôi thường xem YouTube một chút.",
+          "ko": "네. 자기 전에 저는 보통 유튜브를 조금 봅니다.",
+          "pronKo": "꼬. 쯔억 키 디 응우, 또이 트엉 쌤 유튜브 못 쭛."
+        }
+      ]
+    },
+    {
+      "id": "d7socialmedia-d-006",
+      "title": "장점과 의견",
+      "audioSrc": "",
+      "sourcePage": 37,
+      "reviewNeeded": false,
+      "lines": [
+        {
+          "speaker": "A",
+          "vi": "Anh thấy mạng xã hội có lợi ích gì?",
+          "ko": "소셜미디어에는 어떤 장점이 있다고 생각해요?",
+          "pronKo": "아인 터이 망 싸 호이 꼬 러이 익 지?"
+        },
+        {
+          "speaker": "B",
+          "vi": "Tôi thấy mạng xã hội giúp tôi giao tiếp, xem tin tức và học tiếng Việt.",
+          "ko": "저는 소셜미디어가 제가 소통하고, 뉴스를 보고, 베트남어를 공부하는 데 도움을 준다고 생각합니다.",
+          "pronKo": "또이 터이 망 싸 호이 줍 또이 자오 띠엡, 쌤 띤 뜩 바 혹 띠엥 비엣."
+        },
+        {
+          "speaker": "A",
+          "vi": "Có nhiều người không thích mạng xã hội, anh thấy sao?",
+          "ko": "소셜미디어를 좋아하지 않는 사람들이 많은데, 당신은 어떻게 생각해요?",
+          "pronKo": "꼬 니에우 응어이 콩 틱 망 싸 호이, 아인 터이 싸오?"
+        },
+        {
+          "speaker": "B",
+          "vi": "Theo tôi, mạng xã hội có lợi ích, nhưng nếu dùng quá nhiều thì sẽ mất thời gian.",
+          "ko": "제 생각에는 소셜미디어에는 장점이 있지만 너무 많이 사용하면 시간이 낭비됩니다.",
+          "pronKo": "테오 또이, 망 싸 호이 꼬 러이 익, 늉 네우 중 꽈 니에우 티 세 멋 터이 지안."
+        }
+      ]
+    }
+  ],
+  "grammarPoints": [
+    {
+      "id": "d7socialmedia-g-001",
+      "title": "소셜미디어를 사용하다",
+      "pattern": "dùng mạng xã hội",
+      "meaningKo": "소셜미디어를 사용하다.",
+      "sourcePage": 37,
+      "reviewNeeded": false
+    },
+    {
+      "id": "d7socialmedia-g-002",
+      "title": "어떤 소셜미디어",
+      "pattern": "mạng xã hội nào?",
+      "meaningKo": "어떤 소셜미디어?",
+      "sourcePage": 37,
+      "reviewNeeded": false
+    },
+    {
+      "id": "d7socialmedia-g-003",
+      "title": "하루에 몇 시간",
+      "pattern": "Một ngày ... mấy tiếng?",
+      "meaningKo": "하루에 몇 시간 ...?",
+      "sourcePage": 37,
+      "reviewNeeded": false
+    },
+    {
+      "id": "d7socialmedia-g-004",
+      "title": "~하기 위해 사용하다",
+      "pattern": "dùng + 명사 + để + 동사",
+      "meaningKo": "~하기 위해 ...을 사용하다.",
+      "sourcePage": 37,
+      "reviewNeeded": false
+    },
+    {
+      "id": "d7socialmedia-g-005",
+      "title": "언제부터 시작하다",
+      "pattern": "bắt đầu + 동사 + từ khi nào?",
+      "meaningKo": "언제부터 ~하기 시작했어요?",
+      "sourcePage": 37,
+      "reviewNeeded": false
+    },
+    {
+      "id": "d7socialmedia-g-006",
+      "title": "게시글을 올리다",
+      "pattern": "đăng bài trên mạng xã hội",
+      "meaningKo": "소셜미디어에 게시글을 올리다.",
+      "sourcePage": 37,
+      "reviewNeeded": false
+    },
+    {
+      "id": "d7socialmedia-g-007",
+      "title": "업무를 위해",
+      "pattern": "cho công việc",
+      "meaningKo": "업무를 위해.",
+      "sourcePage": 37,
+      "reviewNeeded": false
+    },
+    {
+      "id": "d7socialmedia-g-008",
+      "title": "인터넷에서 영상을 보다",
+      "pattern": "xem video trên mạng",
+      "meaningKo": "인터넷에서 영상을 보다.",
+      "sourcePage": 37,
+      "reviewNeeded": false
+    },
+    {
+      "id": "d7socialmedia-g-009",
+      "title": "하루 중 어느 시간",
+      "pattern": "vào thời gian nào trong ngày?",
+      "meaningKo": "하루 중 어느 시간에?",
+      "sourcePage": 37,
+      "reviewNeeded": false
+    },
+    {
+      "id": "d7socialmedia-g-010",
+      "title": "자기 전에",
+      "pattern": "trước khi đi ngủ",
+      "meaningKo": "자기 전에.",
+      "sourcePage": 37,
+      "reviewNeeded": false
+    },
+    {
+      "id": "d7socialmedia-g-011",
+      "title": "사용 빈도",
+      "pattern": "tần suất dùng / tần suất sử dụng",
+      "meaningKo": "사용 빈도.",
+      "sourcePage": 37,
+      "reviewNeeded": false
+    },
+    {
+      "id": "d7socialmedia-g-012",
+      "title": "~로 접속하다",
+      "pattern": "vào mạng bằng + 수단",
+      "meaningKo": "~로 인터넷에 접속하다.",
+      "sourcePage": 37,
+      "reviewNeeded": false
+    },
+    {
+      "id": "d7socialmedia-g-013",
+      "title": "도움이 되다",
+      "pattern": "giúp tôi + 동사",
+      "meaningKo": "내가 ~하도록 도와주다.",
+      "sourcePage": 37,
+      "reviewNeeded": false
+    },
+    {
+      "id": "d7socialmedia-g-014",
+      "title": "어떻게 생각해요?",
+      "pattern": "Anh thấy sao?",
+      "meaningKo": "당신은 어떻게 생각해요?",
+      "sourcePage": 37,
+      "reviewNeeded": false
+    },
+    {
+      "id": "d7socialmedia-g-015",
+      "title": "제 생각에는",
+      "pattern": "Theo tôi, ...",
+      "meaningKo": "제 생각에는 ...",
+      "sourcePage": 37,
+      "reviewNeeded": false
+    },
+    {
+      "id": "d7socialmedia-g-016",
+      "title": "만약 너무 많이 사용하면",
+      "pattern": "Nếu dùng quá nhiều thì ...",
+      "meaningKo": "만약 너무 많이 사용하면 ...",
+      "sourcePage": 37,
+      "reviewNeeded": false
+    },
+    {
+      "id": "d7socialmedia-g-017",
+      "title": "영향을 미치다",
+      "pattern": "ảnh hưởng đến + 명사",
+      "meaningKo": "~에 영향을 미치다.",
+      "sourcePage": 37,
+      "reviewNeeded": false
+    }
+  ],
+  "pronunciationTargets": [
+    {
+      "id": "d7socialmedia-p-001",
+      "text": "mạng xã hội",
+      "hintKo": "소셜미디어",
+      "audioSrc": "",
+      "sourcePage": 36,
+      "reviewNeeded": false,
+      "pronKo": "망 싸 호이",
+      "mouthKo": "mạng / xã hội로 나눠 읽습니다.",
+      "toneKo": "주제 핵심 단어라 문장째로 반복하세요."
+    },
+    {
+      "id": "d7socialmedia-p-002",
+      "text": "dùng mạng xã hội",
+      "hintKo": "소셜미디어를 사용하다",
+      "audioSrc": "",
+      "sourcePage": 36,
+      "reviewNeeded": false,
+      "pronKo": "중 망 싸 호이",
+      "mouthKo": "dùng은 짧게 중, 뒤에 mạng xã hội를 붙입니다.",
+      "toneKo": "Anh có dùng mạng xã hội không? 문장으로 외우면 좋습니다."
+    },
+    {
+      "id": "d7socialmedia-p-003",
+      "text": "đăng bài",
+      "hintKo": "게시글을 올리다",
+      "audioSrc": "",
+      "sourcePage": 36,
+      "reviewNeeded": false,
+      "pronKo": "당 바이",
+      "mouthKo": "đăng은 올리다, bài는 글입니다.",
+      "toneKo": "Tôi không hay đăng bài. 형태로 자주 씁니다."
+    },
+    {
+      "id": "d7socialmedia-p-004",
+      "text": "xem video / xem tin tức",
+      "hintKo": "영상을 보다 / 뉴스를 보다",
+      "audioSrc": "",
+      "sourcePage": 36,
+      "reviewNeeded": false,
+      "pronKo": "쌤 비데오 / 쌤 띤 뜩",
+      "mouthKo": "xem은 보다입니다.",
+      "toneKo": "사용 목적 답변에 바로 넣기 좋습니다."
+    },
+    {
+      "id": "d7socialmedia-p-005",
+      "text": "trên mạng",
+      "hintKo": "인터넷에서",
+      "audioSrc": "",
+      "sourcePage": 36,
+      "reviewNeeded": false,
+      "pronKo": "쩬 망",
+      "mouthKo": "trên은 쩬, mạng은 망으로 읽습니다.",
+      "toneKo": "xem video trên mạng = 인터넷에서 영상을 보다."
+    },
+    {
+      "id": "d7socialmedia-p-006",
+      "text": "bắt đầu dùng",
+      "hintKo": "사용하기 시작하다",
+      "audioSrc": "",
+      "sourcePage": 36,
+      "reviewNeeded": false,
+      "pronKo": "밧 더우 중",
+      "mouthKo": "bắt đầu / dùng으로 끊어 읽습니다.",
+      "toneKo": "Tôi bắt đầu dùng ... từ khi ... 구조로 외우세요."
+    },
+    {
+      "id": "d7socialmedia-p-007",
+      "text": "cho công việc",
+      "hintKo": "업무를 위해",
+      "audioSrc": "",
+      "sourcePage": 36,
+      "reviewNeeded": false,
+      "pronKo": "쪼 꽁 비엑",
+      "mouthKo": "cho는 ~을 위해, công việc은 업무입니다.",
+      "toneKo": "dùng mạng xã hội cho công việc = 업무를 위해 SNS를 쓰다."
+    },
+    {
+      "id": "d7socialmedia-p-008",
+      "text": "trước khi đi ngủ",
+      "hintKo": "자기 전에",
+      "audioSrc": "",
+      "sourcePage": 36,
+      "reviewNeeded": false,
+      "pronKo": "쯔억 키 디 응우",
+      "mouthKo": "trước khi / đi ngủ로 나눠 읽습니다.",
+      "toneKo": "OPIc 일상 습관 답변에도 자주 쓸 수 있습니다."
+    },
+    {
+      "id": "d7socialmedia-p-009",
+      "text": "bằng điện thoại",
+      "hintKo": "휴대폰으로",
+      "audioSrc": "",
+      "sourcePage": 36,
+      "reviewNeeded": false,
+      "pronKo": "방 디엔 토아이",
+      "mouthKo": "bằng은 수단, điện thoại는 휴대폰입니다.",
+      "toneKo": "Tôi vào mạng bằng điện thoại. 문장으로 외우세요."
+    },
+    {
+      "id": "d7socialmedia-p-010",
+      "text": "lợi ích / vấn đề",
+      "hintKo": "장점 / 문제",
+      "audioSrc": "",
+      "sourcePage": 36,
+      "reviewNeeded": false,
+      "pronKo": "러이 익 / 번 데",
+      "mouthKo": "의견 말하기에 필요한 단어입니다.",
+      "toneKo": "mạng xã hội có lợi ích, nhưng cũng có vấn đề."
+    },
+    {
+      "id": "d7socialmedia-p-011",
+      "text": "ảnh hưởng đến",
+      "hintKo": "~에 영향을 미치다",
+      "audioSrc": "",
+      "sourcePage": 36,
+      "reviewNeeded": false,
+      "pronKo": "아인 흐엉 덴",
+      "mouthKo": "ảnh hưởng / đến으로 끊어 읽습니다.",
+      "toneKo": "ảnh hưởng đến cuộc sống = 생활에 영향을 미치다."
+    }
+  ],
+  "quizSeeds": [
+    {
+      "id": "d7socialmedia-q-001",
+      "type": "match-term",
+      "prompt": "7일차 소셜미디어 기본 단어 매칭",
+      "answerSet": [
+        "mạng xã hội-소셜미디어",
+        "dùng-사용하다",
+        "đăng bài-게시글을 올리다",
+        "xem-보다",
+        "video-영상",
+        "tin tức-뉴스",
+        "trên mạng-인터넷에서",
+        "bắt đầu-시작하다",
+        "công việc-업무",
+        "cho công việc-업무를 위해"
+      ],
+      "sourcePage": 36,
+      "reviewNeeded": false
+    },
+    {
+      "id": "d7socialmedia-q-002",
+      "type": "match-term",
+      "prompt": "7일차 시간/기기 단어 매칭",
+      "answerSet": [
+        "lợi ích-장점",
+        "thời gian-시간",
+        "giao tiếp-소통하다",
+        "trong ngày-하루 동안",
+        "trước khi đi ngủ-자기 전에",
+        "tần suất-빈도",
+        "tần suất sử dụng-사용 빈도",
+        "máy tính-컴퓨터",
+        "điện thoại-휴대폰",
+        "bằng-~로"
+      ],
+      "sourcePage": 36,
+      "reviewNeeded": false
+    },
+    {
+      "id": "d7socialmedia-q-003",
+      "type": "match-term",
+      "prompt": "7일차 의견/문제 단어 매칭",
+      "answerSet": [
+        "truy cập-접속하다",
+        "ứng dụng-앱",
+        "ý kiến-의견",
+        "thấy sao-어떻게 생각하다",
+        "vấn đề-문제",
+        "ảnh hưởng-영향을 미치다",
+        "liên lạc-연락하다",
+        "giải trí-오락 / 즐기다",
+        "thông tin-정보",
+        "thường xuyên-자주"
+      ],
+      "sourcePage": 36,
+      "reviewNeeded": false
+    },
+    {
+      "id": "d7socialmedia-q-004",
+      "type": "sentence-meaning",
+      "prompt": "7일차 소셜미디어 질문 뜻 고르기",
+      "answerSet": [
+        "Anh có dùng mạng xã hội không?-소셜미디어를 사용해요?",
+        "Anh dùng mạng xã hội nào?-어떤 소셜미디어를 사용해요?",
+        "Một ngày anh dùng mạng xã hội mấy tiếng?-하루에 소셜미디어를 몇 시간 사용해요?",
+        "Anh dùng mạng xã hội để làm gì?-무엇을 하기 위해 소셜미디어를 사용해요?",
+        "Anh bắt đầu dùng mạng xã hội từ khi nào?-언제부터 소셜미디어를 사용하기 시작했어요?",
+        "Anh có hay đăng bài không?-게시글을 자주 올려요?",
+        "Anh có dùng mạng xã hội cho công việc không?-업무를 위해 소셜미디어를 사용해요?",
+        "Anh có hay xem video trên mạng không?-인터넷에서 영상을 자주 봐요?"
+      ],
+      "sourcePage": 37,
+      "reviewNeeded": false
+    },
+    {
+      "id": "d7socialmedia-q-005",
+      "type": "sentence-meaning",
+      "prompt": "7일차 사용 습관 질문 뜻 고르기",
+      "answerSet": [
+        "Anh có xem tin tức trên mạng xã hội không?-소셜미디어에서 뉴스를 봐요?",
+        "Anh dùng mạng xã hội nhiều nhất vào thời gian nào trong ngày?-하루 중 어느 시간에 소셜미디어를 가장 많이 사용해요?",
+        "Trước khi đi ngủ anh có dùng mạng xã hội không?-자기 전에 소셜미디어를 사용해요?",
+        "Tần suất dùng mạng xã hội của anh có thường xuyên không?-소셜미디어 사용 빈도가 잦아요?",
+        "Anh hay vào mạng bằng máy tính hay điện thoại?-컴퓨터로 인터넷에 접속해요, 아니면 휴대폰으로 접속해요?",
+        "Anh thấy mạng xã hội có lợi ích gì?-소셜미디어에는 어떤 장점이 있다고 생각해요?",
+        "Có nhiều người không thích mạng xã hội, anh thấy sao?-소셜미디어를 좋아하지 않는 사람들이 많은데, 당신은 어떻게 생각해요?"
+      ],
+      "sourcePage": 37,
+      "reviewNeeded": false
+    },
+    {
+      "id": "d7socialmedia-q-006",
+      "type": "fill-blank",
+      "prompt": "빈칸 채우기: 저는 매일 소셜미디어를 사용합니다.",
+      "question": "Tôi dùng mạng xã hội ___ ngày.",
+      "answer": "mỗi",
+      "sourcePage": 37,
+      "reviewNeeded": false
+    },
+    {
+      "id": "d7socialmedia-q-007",
+      "type": "fill-blank",
+      "prompt": "빈칸 채우기: 저는 영상을 보기 위해 소셜미디어를 사용합니다.",
+      "question": "Tôi dùng mạng xã hội ___ xem video.",
+      "answer": "để",
+      "sourcePage": 37,
+      "reviewNeeded": false
+    },
+    {
+      "id": "d7socialmedia-q-008",
+      "type": "fill-blank",
+      "prompt": "빈칸 채우기: 저는 휴대폰으로 인터넷에 접속합니다.",
+      "question": "Tôi vào mạng ___ điện thoại.",
+      "answer": "bằng",
+      "sourcePage": 37,
+      "reviewNeeded": false
+    },
+    {
+      "id": "d7socialmedia-q-009",
+      "type": "fill-blank",
+      "prompt": "빈칸 채우기: 제 생각에는 소셜미디어에는 장점이 있습니다.",
+      "question": "___ tôi, mạng xã hội có lợi ích.",
+      "answer": "Theo",
+      "sourcePage": 37,
+      "reviewNeeded": false
+    },
+    {
+      "id": "d7socialmedia-q-010",
+      "type": "fill-blank",
+      "prompt": "빈칸 채우기: 너무 많이 사용하면 시간이 낭비됩니다.",
+      "question": "Nếu dùng quá nhiều thì sẽ ___ thời gian.",
+      "answer": "mất",
+      "sourcePage": 37,
+      "reviewNeeded": false
+    },
+    {
+      "id": "d7socialmedia-q-011",
+      "type": "match-term",
+      "prompt": "7일차 핵심 답변 매칭",
+      "answerSet": [
+        "Tôi dùng mạng xã hội mỗi ngày.-저는 매일 소셜미디어를 사용합니다.",
+        "Tôi dùng Instagram, YouTube và KakaoTalk.-저는 인스타그램, 유튜브, 카카오톡을 사용합니다.",
+        "Một ngày tôi dùng mạng xã hội khoảng một tiếng.-저는 하루에 소셜미디어를 약 한 시간 사용합니다.",
+        "Tôi dùng mạng xã hội để xem video, đọc tin tức và liên lạc với bạn bè.-저는 영상을 보고, 뉴스를 읽고, 친구들과 연락하기 위해 소셜미디어를 사용합니다.",
+        "Tôi không hay đăng bài, tôi chỉ xem thôi.-저는 게시글을 자주 올리지 않고 그냥 보기만 합니다.",
+        "Tôi thường vào mạng bằng điện thoại vì tiện lợi hơn.-저는 더 편리해서 보통 휴대폰으로 인터넷에 접속합니다.",
+        "Tôi thấy mạng xã hội giúp tôi giao tiếp, xem tin tức và học tiếng Việt.-저는 소셜미디어가 제가 소통하고, 뉴스를 보고, 베트남어를 공부하는 데 도움을 준다고 생각합니다.",
+        "Nếu dùng quá nhiều thì sẽ mất thời gian.-너무 많이 사용하면 시간이 낭비됩니다."
+      ],
+      "sourcePage": 37,
+      "reviewNeeded": false
+    }
+  ],
+  "unlockCondition": "complete-previous",
+  "reviewNeeded": false
+    },
+    {
   "lessonId": "d7bank",
   "unitLabel": "7일차",
   "titleKo": "7일차: 은행",
