@@ -19,6 +19,2450 @@
   },
   "lessons": [
     {
+  "lessonId": "day-008-study-note-tech-health-environment-transport",
+  "unitLabel": "8일차",
+  "titleKo": "8일차 학습노트: 기술·건강·환경·교통",
+  "titleVi": "Ngày 8: Công nghệ / Sức khỏe / Môi trường / Giao thông",
+  "pageRange": "8일차 학습노트 / 5.8 Script",
+  "goals": [
+    "기술 제품과 인터넷 사용 습관을 말할 수 있다",
+    "AI를 무엇에 사용하는지 설명할 수 있다",
+    "스마트폰, 태블릿, 노트북, 로봇청소기 등 생활 속 기술 제품을 말할 수 있다",
+    "기술의 장점과 단점을 ưu điểm / nhược điểm 구조로 말할 수 있다",
+    "건강 상태, 아픔, 생활 습관을 말할 수 있다",
+    "건강을 위해 해야 할 일과 하지 말아야 할 일을 말할 수 있다",
+    "환경오염, 분리수거, 절약, 재활용에 대해 말할 수 있다",
+    "대중교통, 자가용, 택시, 자전거, 도보 이동을 설명할 수 있다",
+    "거리와 상황에 따라 어떤 교통수단을 이용하는지 말할 수 있다",
+    "có thể / không thể, làm được / không làm được, cũng được, tự, trực tiếp 같은 8일차 핵심 표현을 사용할 수 있다"
+  ],
+  "topicOverview": "8일차 학습노트는 기술, 건강, 환경, 교통을 한 번에 연결해서 말하는 연습입니다. 기술 주제는 '무엇을 사용한다 → 왜 사용한다 → 시간을 절약한다 → 장점/단점' 순서로 답하면 좋습니다. 건강 주제는 '요즘 건강 상태 → 식사/수면/운동 습관 → 피해야 할 것 → 내 생각' 순서가 안정적입니다. 환경 주제는 '문제 설명 → 원인 → 내가 하는 행동 → 결과' 순서로 말하면 좋습니다. 교통 주제는 '어디까지 가는지 → 무엇을 타는지 → 얼마나 걸리는지 → 왜 그 방법을 선택하는지' 순서로 말하면 자연스럽습니다.",
+  "cultureTopics": [
+    "기술",
+    "스마트폰",
+    "AI",
+    "인터넷",
+    "온라인 활동",
+    "로봇청소기",
+    "가전제품",
+    "온라인 주문",
+    "건강",
+    "운동",
+    "수면",
+    "식습관",
+    "흡연",
+    "음주",
+    "건강검진",
+    "환경",
+    "분리수거",
+    "재활용",
+    "환경오염",
+    "절약",
+    "전기 절약",
+    "물 절약",
+    "교통",
+    "대중교통",
+    "자가용",
+    "택시",
+    "자전거",
+    "도보",
+    "교통 체증",
+    "자율주행차"
+  ],
+  "vocabCards": [
+    {
+      "id": "day08-note-v-001",
+      "term": "cũ",
+      "meaningKo": "오래된 / 낡은",
+      "example": "Điện thoại cũ của tôi vẫn dùng được.",
+      "exampleMeaningKo": "제 오래된 휴대폰은 아직 사용할 수 있습니다.",
+      "audioSrc": "",
+      "sourcePage": 8,
+      "reviewNeeded": false,
+      "pronKo": "꾸",
+      "pronNoteKo": "mới의 반대말입니다.",
+      "pronChunks": [
+        "cũ=꾸"
+      ]
+    },
+    {
+      "id": "day08-note-v-002",
+      "term": "mới",
+      "meaningKo": "새로운 / 새것",
+      "example": "Tôi muốn mua điện thoại mới.",
+      "exampleMeaningKo": "저는 새 휴대폰을 사고 싶습니다.",
+      "audioSrc": "",
+      "sourcePage": 8,
+      "reviewNeeded": false,
+      "pronKo": "머이",
+      "pronNoteKo": "cũ와 반대입니다.",
+      "pronChunks": [
+        "mới=머이"
+      ]
+    },
+    {
+      "id": "day08-note-v-003",
+      "term": "lâu",
+      "meaningKo": "오래 / 오래 걸리다",
+      "example": "Tôi chờ anh lâu rồi.",
+      "exampleMeaningKo": "저는 당신을 오래 기다렸습니다.",
+      "audioSrc": "",
+      "sourcePage": 8,
+      "reviewNeeded": false,
+      "pronKo": "러우",
+      "pronNoteKo": "시간이 길다는 느낌입니다.",
+      "pronChunks": [
+        "lâu=러우"
+      ]
+    },
+    {
+      "id": "day08-note-v-004",
+      "term": "nhanh",
+      "meaningKo": "빠르다",
+      "example": "Internet giúp tôi tìm thông tin nhanh.",
+      "exampleMeaningKo": "인터넷은 제가 정보를 빠르게 찾도록 도와줍니다.",
+      "audioSrc": "",
+      "sourcePage": 8,
+      "reviewNeeded": false,
+      "pronKo": "냐인",
+      "pronNoteKo": "lâu와 반대 느낌으로 자주 씁니다.",
+      "pronChunks": [
+        "nhanh=냐인"
+      ]
+    },
+    {
+      "id": "day08-note-v-005",
+      "term": "đợi lâu",
+      "meaningKo": "오래 기다리다",
+      "example": "Tôi không thích đợi lâu.",
+      "exampleMeaningKo": "저는 오래 기다리는 것을 좋아하지 않습니다.",
+      "audioSrc": "",
+      "sourcePage": 8,
+      "reviewNeeded": false,
+      "pronKo": "더이 러우",
+      "pronNoteKo": "chờ lâu와 비슷합니다.",
+      "pronChunks": [
+        "đợi=더이",
+        "lâu=러우"
+      ]
+    },
+    {
+      "id": "day08-note-v-006",
+      "term": "chờ lâu",
+      "meaningKo": "오래 기다리다",
+      "example": "Tôi chờ anh lâu rồi.",
+      "exampleMeaningKo": "저는 당신을 오래 기다렸습니다.",
+      "audioSrc": "",
+      "sourcePage": 8,
+      "reviewNeeded": false,
+      "pronKo": "쩌 러우",
+      "pronNoteKo": "đợi lâu와 거의 같은 뜻입니다.",
+      "pronChunks": [
+        "chờ=쩌",
+        "lâu=러우"
+      ]
+    },
+    {
+      "id": "day08-note-v-007",
+      "term": "vào mạng",
+      "meaningKo": "인터넷에 접속하다",
+      "example": "Tôi thường vào mạng mỗi ngày.",
+      "exampleMeaningKo": "저는 보통 매일 인터넷에 접속합니다.",
+      "audioSrc": "",
+      "sourcePage": 8,
+      "reviewNeeded": false,
+      "pronKo": "바오 망",
+      "pronNoteKo": "lên mạng과 같은 의미로 씁니다.",
+      "pronChunks": [
+        "vào=바오",
+        "mạng=망"
+      ]
+    },
+    {
+      "id": "day08-note-v-008",
+      "term": "lên mạng",
+      "meaningKo": "인터넷에 접속하다 / 인터넷에 올리다",
+      "example": "Tôi lên mạng để học tiếng Việt.",
+      "exampleMeaningKo": "저는 베트남어를 공부하기 위해 인터넷에 접속합니다.",
+      "audioSrc": "",
+      "sourcePage": 8,
+      "reviewNeeded": false,
+      "pronKo": "렌 망",
+      "pronNoteKo": "문맥에 따라 접속하다, 올리다 느낌이 있습니다.",
+      "pronChunks": [
+        "lên=렌",
+        "mạng=망"
+      ]
+    },
+    {
+      "id": "day08-note-v-009",
+      "term": "đăng bài lên mạng xã hội",
+      "meaningKo": "소셜미디어에 글을 올리다",
+      "example": "Tôi ít khi đăng bài lên mạng xã hội.",
+      "exampleMeaningKo": "저는 소셜미디어에 글을 거의 올리지 않습니다.",
+      "audioSrc": "",
+      "sourcePage": 8,
+      "reviewNeeded": false,
+      "pronKo": "당 바이 렌 망 싸 호이",
+      "pronNoteKo": "đăng lên은 upload 느낌입니다.",
+      "pronChunks": [
+        "đăng bài=당 바이",
+        "mạng xã hội=망 싸 호이"
+      ]
+    },
+    {
+      "id": "day08-note-v-010",
+      "term": "dùng AI",
+      "meaningKo": "AI를 사용하다",
+      "example": "Tôi thường dùng AI để tìm thông tin.",
+      "exampleMeaningKo": "저는 보통 정보를 찾기 위해 AI를 사용합니다.",
+      "audioSrc": "",
+      "sourcePage": 8,
+      "reviewNeeded": false,
+      "pronKo": "중 아이",
+      "pronNoteKo": "AI 사용 목적을 말할 때 핵심입니다.",
+      "pronChunks": [
+        "dùng=중",
+        "AI=아이"
+      ]
+    },
+    {
+      "id": "day08-note-v-011",
+      "term": "dùng AI vào việc gì",
+      "meaningKo": "AI를 무엇에 사용하다",
+      "example": "Anh dùng AI vào việc gì?",
+      "exampleMeaningKo": "당신은 AI를 무엇에 사용하나요?",
+      "audioSrc": "",
+      "sourcePage": 8,
+      "reviewNeeded": false,
+      "pronKo": "중 아이 바오 비엑 지",
+      "pronNoteKo": "what for? 느낌의 질문입니다.",
+      "pronChunks": [
+        "vào việc gì=바오 비엑 지"
+      ]
+    },
+    {
+      "id": "day08-note-v-012",
+      "term": "tìm thông tin",
+      "meaningKo": "정보를 찾다",
+      "example": "Tôi dùng AI để tìm thông tin.",
+      "exampleMeaningKo": "저는 정보를 찾기 위해 AI를 사용합니다.",
+      "audioSrc": "",
+      "sourcePage": 8,
+      "reviewNeeded": false,
+      "pronKo": "띰 통 띤",
+      "pronNoteKo": "인터넷/AI 답변에 꼭 필요한 표현입니다.",
+      "pronChunks": [
+        "tìm=띰",
+        "thông tin=통 띤"
+      ]
+    },
+    {
+      "id": "day08-note-v-013",
+      "term": "tiết kiệm thời gian",
+      "meaningKo": "시간을 절약하다",
+      "example": "Công nghệ giúp tôi tiết kiệm thời gian.",
+      "exampleMeaningKo": "기술은 제가 시간을 절약하도록 도와줍니다.",
+      "audioSrc": "",
+      "sourcePage": 8,
+      "reviewNeeded": false,
+      "pronKo": "띠엣 끼엠 터이 잔",
+      "pronNoteKo": "기술의 장점으로 쓰기 좋습니다.",
+      "pronChunks": [
+        "tiết kiệm=띠엣 끼엠",
+        "thời gian=터이 잔"
+      ]
+    },
+    {
+      "id": "day08-note-v-014",
+      "term": "tiết kiệm tiền",
+      "meaningKo": "돈을 절약하다",
+      "example": "Tôi mua hàng online để tiết kiệm tiền.",
+      "exampleMeaningKo": "저는 돈을 절약하기 위해 온라인으로 물건을 삽니다.",
+      "audioSrc": "",
+      "sourcePage": 8,
+      "reviewNeeded": false,
+      "pronKo": "띠엣 끼엠 띠엔",
+      "pronNoteKo": "절약 표현입니다.",
+      "pronChunks": [
+        "tiết kiệm=띠엣 끼엠",
+        "tiền=띠엔"
+      ]
+    },
+    {
+      "id": "day08-note-v-015",
+      "term": "công nghệ",
+      "meaningKo": "기술 / 테크",
+      "example": "Vì có công nghệ nên cuộc sống tiện lợi hơn.",
+      "exampleMeaningKo": "기술이 있어서 생활이 더 편리합니다.",
+      "audioSrc": "",
+      "sourcePage": 8,
+      "reviewNeeded": false,
+      "pronKo": "꽁 응에",
+      "pronNoteKo": "ngh 발음이 어려우니 덩어리로 외웁니다.",
+      "pronChunks": [
+        "công=꽁",
+        "nghệ=응에"
+      ]
+    },
+    {
+      "id": "day08-note-v-016",
+      "term": "robot lau nhà",
+      "meaningKo": "로봇청소기",
+      "example": "Ở nhà, tôi dùng robot lau nhà.",
+      "exampleMeaningKo": "집에서 저는 로봇청소기를 사용합니다.",
+      "audioSrc": "",
+      "sourcePage": 8,
+      "reviewNeeded": false,
+      "pronKo": "로봇 라우 냐",
+      "pronNoteKo": "집안일/기술 주제 연결에 좋습니다.",
+      "pronChunks": [
+        "robot=로봇",
+        "lau nhà=라우 냐"
+      ]
+    },
+    {
+      "id": "day08-note-v-017",
+      "term": "máy rửa bát",
+      "meaningKo": "식기세척기",
+      "example": "Máy rửa bát giúp tôi tiết kiệm thời gian.",
+      "exampleMeaningKo": "식기세척기는 제가 시간을 절약하도록 도와줍니다.",
+      "audioSrc": "",
+      "sourcePage": 8,
+      "reviewNeeded": false,
+      "pronKo": "마이 즈어 밧",
+      "pronNoteKo": "máy는 기계입니다.",
+      "pronChunks": [
+        "máy=마이",
+        "rửa bát=즈어 밧"
+      ]
+    },
+    {
+      "id": "day08-note-v-018",
+      "term": "máy giặt",
+      "meaningKo": "세탁기",
+      "example": "Tôi dùng máy giặt mỗi tuần.",
+      "exampleMeaningKo": "저는 매주 세탁기를 사용합니다.",
+      "audioSrc": "",
+      "sourcePage": 8,
+      "reviewNeeded": false,
+      "pronKo": "마이 잣",
+      "pronNoteKo": "가전제품 기본 단어입니다.",
+      "pronChunks": [
+        "máy=마이",
+        "giặt=잣"
+      ]
+    },
+    {
+      "id": "day08-note-v-019",
+      "term": "máy lau nhà",
+      "meaningKo": "청소기 / 바닥청소 기계",
+      "example": "Tôi muốn mua máy lau nhà mới.",
+      "exampleMeaningKo": "저는 새 바닥청소 기계를 사고 싶습니다.",
+      "audioSrc": "",
+      "sourcePage": 8,
+      "reviewNeeded": false,
+      "pronKo": "마이 라우 냐",
+      "pronNoteKo": "robot lau nhà와 연결해서 외우면 좋습니다.",
+      "pronChunks": [
+        "máy=마이",
+        "lau nhà=라우 냐"
+      ]
+    },
+    {
+      "id": "day08-note-v-020",
+      "term": "sau bao lâu",
+      "meaningKo": "얼마 후에 / 얼마나 지나서",
+      "example": "Anh thường mua điện thoại mới sau bao lâu?",
+      "exampleMeaningKo": "당신은 보통 얼마 후에 새 휴대폰을 사나요?",
+      "audioSrc": "",
+      "sourcePage": 8,
+      "reviewNeeded": false,
+      "pronKo": "사우 바오 러우",
+      "pronNoteKo": "기간을 묻는 표현입니다.",
+      "pronChunks": [
+        "sau=사우",
+        "bao lâu=바오 러우"
+      ]
+    },
+    {
+      "id": "day08-note-v-021",
+      "term": "mỗi 2 năm",
+      "meaningKo": "2년마다",
+      "example": "Tôi thường mua điện thoại mới mỗi 2 năm.",
+      "exampleMeaningKo": "저는 보통 2년마다 새 휴대폰을 삽니다.",
+      "audioSrc": "",
+      "sourcePage": 8,
+      "reviewNeeded": false,
+      "pronKo": "모이 하이 남",
+      "pronNoteKo": "mỗi는 every입니다.",
+      "pronChunks": [
+        "mỗi=모이",
+        "2 năm=하이 남"
+      ]
+    },
+    {
+      "id": "day08-note-v-022",
+      "term": "máy tính bàn",
+      "meaningKo": "데스크톱 컴퓨터",
+      "example": "Tôi ít dùng máy tính bàn ở nhà.",
+      "exampleMeaningKo": "저는 집에서 데스크톱 컴퓨터를 거의 사용하지 않습니다.",
+      "audioSrc": "",
+      "sourcePage": 8,
+      "reviewNeeded": false,
+      "pronKo": "마이 띤 반",
+      "pronNoteKo": "bàn은 책상이라는 뜻도 있습니다.",
+      "pronChunks": [
+        "máy tính=마이 띤",
+        "bàn=반"
+      ]
+    },
+    {
+      "id": "day08-note-v-023",
+      "term": "máy tính bảng",
+      "meaningKo": "태블릿",
+      "example": "Máy tính bảng của tôi là của Samsung.",
+      "exampleMeaningKo": "제 태블릿은 삼성 제품입니다.",
+      "audioSrc": "",
+      "sourcePage": 8,
+      "reviewNeeded": false,
+      "pronKo": "마이 띤 방",
+      "pronNoteKo": "태블릿 주제 핵심 단어입니다.",
+      "pronChunks": [
+        "máy tính=마이 띤",
+        "bảng=방"
+      ]
+    },
+    {
+      "id": "day08-note-v-024",
+      "term": "chụp ảnh",
+      "meaningKo": "사진을 찍다",
+      "example": "Tôi hay chụp ảnh bằng điện thoại.",
+      "exampleMeaningKo": "저는 휴대폰으로 사진을 자주 찍습니다.",
+      "audioSrc": "",
+      "sourcePage": 8,
+      "reviewNeeded": false,
+      "pronKo": "쭙 아인",
+      "pronNoteKo": "휴대폰 기능 설명에 좋습니다.",
+      "pronChunks": [
+        "chụp=쭙",
+        "ảnh=아인"
+      ]
+    },
+    {
+      "id": "day08-note-v-025",
+      "term": "máy ảnh",
+      "meaningKo": "카메라",
+      "example": "Tôi không có máy ảnh riêng.",
+      "exampleMeaningKo": "저는 개인 카메라가 없습니다.",
+      "audioSrc": "",
+      "sourcePage": 8,
+      "reviewNeeded": false,
+      "pronKo": "마이 아인",
+      "pronNoteKo": "카메라입니다.",
+      "pronChunks": [
+        "máy=마이",
+        "ảnh=아인"
+      ]
+    },
+    {
+      "id": "day08-note-v-026",
+      "term": "gọi điện thoại",
+      "meaningKo": "전화를 걸다",
+      "example": "Tôi thường gọi điện thoại cho vợ.",
+      "exampleMeaningKo": "저는 보통 아내에게 전화합니다.",
+      "audioSrc": "",
+      "sourcePage": 8,
+      "reviewNeeded": false,
+      "pronKo": "고이 디엔 토아이",
+      "pronNoteKo": "gọi điện으로 줄여도 됩니다.",
+      "pronChunks": [
+        "gọi=고이",
+        "điện thoại=디엔 토아이"
+      ]
+    },
+    {
+      "id": "day08-note-v-027",
+      "term": "gọi đồ ăn",
+      "meaningKo": "음식을 배달 주문하다",
+      "example": "Tôi thỉnh thoảng gọi đồ ăn ở nhà.",
+      "exampleMeaningKo": "저는 가끔 집에서 음식을 배달 주문합니다.",
+      "audioSrc": "",
+      "sourcePage": 8,
+      "reviewNeeded": false,
+      "pronKo": "고이 도 안",
+      "pronNoteKo": "배달앱/인터넷 주제와 연결됩니다.",
+      "pronChunks": [
+        "gọi=고이",
+        "đồ ăn=도 안"
+      ]
+    },
+    {
+      "id": "day08-note-v-028",
+      "term": "đặt hàng",
+      "meaningKo": "주문하다",
+      "example": "Tôi đặt hàng online.",
+      "exampleMeaningKo": "저는 온라인으로 주문합니다.",
+      "audioSrc": "",
+      "sourcePage": 8,
+      "reviewNeeded": false,
+      "pronKo": "닷 항",
+      "pronNoteKo": "온라인 쇼핑 핵심 표현입니다.",
+      "pronChunks": [
+        "đặt=닷",
+        "hàng=항"
+      ]
+    },
+    {
+      "id": "day08-note-v-029",
+      "term": "đặt vé máy bay",
+      "meaningKo": "비행기표를 예약하다",
+      "example": "Tôi đặt vé máy bay trên mạng.",
+      "exampleMeaningKo": "저는 인터넷에서 비행기표를 예약합니다.",
+      "audioSrc": "",
+      "sourcePage": 8,
+      "reviewNeeded": false,
+      "pronKo": "닷 베 마이 바이",
+      "pronNoteKo": "여행/예약 주제와 연결됩니다.",
+      "pronChunks": [
+        "đặt vé=닷 베",
+        "máy bay=마이 바이"
+      ]
+    },
+    {
+      "id": "day08-note-v-030",
+      "term": "đặt vé tàu",
+      "meaningKo": "기차표를 예약하다",
+      "example": "Tôi đặt vé tàu trước khi đi du lịch.",
+      "exampleMeaningKo": "저는 여행 가기 전에 기차표를 예약합니다.",
+      "audioSrc": "",
+      "sourcePage": 8,
+      "reviewNeeded": false,
+      "pronKo": "닷 베 따우",
+      "pronNoteKo": "tàu는 배/기차 모두 문맥에 따라 쓰입니다.",
+      "pronChunks": [
+        "đặt vé=닷 베",
+        "tàu=따우"
+      ]
+    },
+    {
+      "id": "day08-note-v-031",
+      "term": "chơi game",
+      "meaningKo": "게임을 하다",
+      "example": "Tôi không chơi game nhiều.",
+      "exampleMeaningKo": "저는 게임을 많이 하지 않습니다.",
+      "audioSrc": "",
+      "sourcePage": 8,
+      "reviewNeeded": false,
+      "pronKo": "쩌이 게임",
+      "pronNoteKo": "취미/기술 주제에 사용합니다.",
+      "pronChunks": [
+        "chơi=쩌이",
+        "game=게임"
+      ]
+    },
+    {
+      "id": "day08-note-v-032",
+      "term": "ưu điểm",
+      "meaningKo": "장점",
+      "example": "Điện thoại này có nhiều ưu điểm.",
+      "exampleMeaningKo": "이 휴대폰은 장점이 많습니다.",
+      "audioSrc": "",
+      "sourcePage": 8,
+      "reviewNeeded": false,
+      "pronKo": "으우 디엠",
+      "pronNoteKo": "nhược điểm의 반대입니다.",
+      "pronChunks": [
+        "ưu=으우",
+        "điểm=디엠"
+      ]
+    },
+    {
+      "id": "day08-note-v-033",
+      "term": "nhược điểm",
+      "meaningKo": "단점",
+      "example": "Nhược điểm của điện thoại này là giá cao.",
+      "exampleMeaningKo": "이 휴대폰의 단점은 가격이 비싼 것입니다.",
+      "audioSrc": "",
+      "sourcePage": 8,
+      "reviewNeeded": false,
+      "pronKo": "느억 디엠",
+      "pronNoteKo": "장단점 말하기에 필수입니다.",
+      "pronChunks": [
+        "nhược=느억",
+        "điểm=디엠"
+      ]
+    },
+    {
+      "id": "day08-note-v-034",
+      "term": "tăng",
+      "meaningKo": "오르다 / 증가하다",
+      "example": "Giá điện thoại tăng nhanh.",
+      "exampleMeaningKo": "휴대폰 가격이 빠르게 오릅니다.",
+      "audioSrc": "",
+      "sourcePage": 8,
+      "reviewNeeded": false,
+      "pronKo": "땅",
+      "pronNoteKo": "giảm의 반대입니다.",
+      "pronChunks": [
+        "tăng=땅"
+      ]
+    },
+    {
+      "id": "day08-note-v-035",
+      "term": "giảm",
+      "meaningKo": "줄다 / 감소하다 / 내려가다",
+      "example": "Giá có thể giảm sau vài tháng.",
+      "exampleMeaningKo": "가격은 몇 달 후 내려갈 수 있습니다.",
+      "audioSrc": "",
+      "sourcePage": 8,
+      "reviewNeeded": false,
+      "pronKo": "잠",
+      "pronNoteKo": "tăng의 반대입니다.",
+      "pronChunks": [
+        "giảm=잠"
+      ]
+    },
+    {
+      "id": "day08-note-v-036",
+      "term": "có lợi ích là",
+      "meaningKo": "장점/이점은 ~이다",
+      "example": "Học tiếng Việt có lợi ích là tôi có thể nói chuyện với người Việt Nam.",
+      "exampleMeaningKo": "베트남어 공부의 이점은 베트남 사람과 이야기할 수 있다는 것입니다.",
+      "audioSrc": "",
+      "sourcePage": 8,
+      "reviewNeeded": false,
+      "pronKo": "꼬 러이 익 라",
+      "pronNoteKo": "이유를 길게 말할 때 좋습니다.",
+      "pronChunks": [
+        "có lợi ích là=꼬 러이 익 라"
+      ]
+    },
+    {
+      "id": "day08-note-v-037",
+      "term": "tiện lợi",
+      "meaningKo": "편리하다",
+      "example": "Công nghệ rất tiện lợi.",
+      "exampleMeaningKo": "기술은 매우 편리합니다.",
+      "audioSrc": "",
+      "sourcePage": 8,
+      "reviewNeeded": false,
+      "pronKo": "띠엔 러이",
+      "pronNoteKo": "기술/교통 주제 모두에서 유용합니다.",
+      "pronChunks": [
+        "tiện=띠엔",
+        "lợi=러이"
+      ]
+    },
+    {
+      "id": "day08-note-v-038",
+      "term": "chi nhiều tiền",
+      "meaningKo": "돈을 많이 쓰다",
+      "example": "Tôi chi nhiều tiền để mua các sản phẩm công nghệ.",
+      "exampleMeaningKo": "저는 기술 제품을 사기 위해 돈을 많이 씁니다.",
+      "audioSrc": "",
+      "sourcePage": 8,
+      "reviewNeeded": false,
+      "pronKo": "찌 니에우 띠엔",
+      "pronNoteKo": "소비 습관 말할 때 씁니다.",
+      "pronChunks": [
+        "chi=찌",
+        "nhiều tiền=니에우 띠엔"
+      ]
+    },
+    {
+      "id": "day08-note-v-039",
+      "term": "sản phẩm công nghệ",
+      "meaningKo": "기술 제품",
+      "example": "Tôi thích mua sản phẩm công nghệ mới.",
+      "exampleMeaningKo": "저는 새 기술 제품 사는 것을 좋아합니다.",
+      "audioSrc": "",
+      "sourcePage": 8,
+      "reviewNeeded": false,
+      "pronKo": "산 펌 꽁 응에",
+      "pronNoteKo": "스마트폰, 노트북 등을 묶어 말할 때 좋습니다.",
+      "pronChunks": [
+        "sản phẩm=산 펌",
+        "công nghệ=꽁 응에"
+      ]
+    },
+    {
+      "id": "day08-note-v-040",
+      "term": "khỏe",
+      "meaningKo": "건강하다",
+      "example": "Anh có khỏe không?",
+      "exampleMeaningKo": "건강하세요?",
+      "audioSrc": "",
+      "sourcePage": 8,
+      "reviewNeeded": false,
+      "pronKo": "퀘",
+      "pronNoteKo": "건강 주제 시작 단어입니다.",
+      "pronChunks": [
+        "khỏe=퀘"
+      ]
+    },
+    {
+      "id": "day08-note-v-041",
+      "term": "sức khỏe",
+      "meaningKo": "건강",
+      "example": "Sức khỏe rất quan trọng.",
+      "exampleMeaningKo": "건강은 매우 중요합니다.",
+      "audioSrc": "",
+      "sourcePage": 8,
+      "reviewNeeded": false,
+      "pronKo": "쓱 퀘",
+      "pronNoteKo": "명사형 건강입니다.",
+      "pronChunks": [
+        "sức=쓱",
+        "khỏe=퀘"
+      ]
+    },
+    {
+      "id": "day08-note-v-042",
+      "term": "bị ốm",
+      "meaningKo": "아프다 / 병에 걸리다",
+      "example": "Dạo này tôi bị ốm.",
+      "exampleMeaningKo": "요즘 저는 아픕니다.",
+      "audioSrc": "",
+      "sourcePage": 8,
+      "reviewNeeded": false,
+      "pronKo": "비 옴",
+      "pronNoteKo": "상태가 안 좋을 때 씁니다.",
+      "pronChunks": [
+        "bị=비",
+        "ốm=옴"
+      ]
+    },
+    {
+      "id": "day08-note-v-043",
+      "term": "bị bệnh",
+      "meaningKo": "병에 걸리다",
+      "example": "Hôm nay tôi bị bệnh.",
+      "exampleMeaningKo": "오늘 저는 병이 났습니다.",
+      "audioSrc": "",
+      "sourcePage": 8,
+      "reviewNeeded": false,
+      "pronKo": "비 벤",
+      "pronNoteKo": "bị ốm보다 병 느낌이 강합니다.",
+      "pronChunks": [
+        "bị=비",
+        "bệnh=벤"
+      ]
+    },
+    {
+      "id": "day08-note-v-044",
+      "term": "đau",
+      "meaningKo": "아프다 / 통증이 있다",
+      "example": "Tôi bị đau đầu.",
+      "exampleMeaningKo": "저는 머리가 아픕니다.",
+      "audioSrc": "",
+      "sourcePage": 8,
+      "reviewNeeded": false,
+      "pronKo": "다우",
+      "pronNoteKo": "đau đầu는 두통입니다.",
+      "pronChunks": [
+        "đau=다우"
+      ]
+    },
+    {
+      "id": "day08-note-v-045",
+      "term": "bệnh viện",
+      "meaningKo": "병원",
+      "example": "Tôi đi bệnh viện khi bị ốm nặng.",
+      "exampleMeaningKo": "저는 심하게 아플 때 병원에 갑니다.",
+      "audioSrc": "",
+      "sourcePage": 8,
+      "reviewNeeded": false,
+      "pronKo": "벤 비엔",
+      "pronNoteKo": "건강 문제 상황에 씁니다.",
+      "pronChunks": [
+        "bệnh=벤",
+        "viện=비엔"
+      ]
+    },
+    {
+      "id": "day08-note-v-046",
+      "term": "đi ngủ sớm",
+      "meaningKo": "일찍 자다",
+      "example": "Tôi cố gắng đi ngủ sớm.",
+      "exampleMeaningKo": "저는 일찍 자려고 노력합니다.",
+      "audioSrc": "",
+      "sourcePage": 8,
+      "reviewNeeded": false,
+      "pronKo": "디 응우 섬",
+      "pronNoteKo": "건강한 습관 표현입니다.",
+      "pronChunks": [
+        "đi ngủ=디 응우",
+        "sớm=섬"
+      ]
+    },
+    {
+      "id": "day08-note-v-047",
+      "term": "đi ngủ muộn",
+      "meaningKo": "늦게 자다",
+      "example": "Tôi không nên đi ngủ muộn.",
+      "exampleMeaningKo": "저는 늦게 자면 안 됩니다.",
+      "audioSrc": "",
+      "sourcePage": 8,
+      "reviewNeeded": false,
+      "pronKo": "디 응우 무온",
+      "pronNoteKo": "thức khuya와 비슷합니다.",
+      "pronChunks": [
+        "đi ngủ=디 응우",
+        "muộn=무온"
+      ]
+    },
+    {
+      "id": "day08-note-v-048",
+      "term": "thức khuya",
+      "meaningKo": "늦게까지 깨어 있다 / 늦게 자다",
+      "example": "Tôi hay thức khuya khi bận.",
+      "exampleMeaningKo": "저는 바쁠 때 자주 늦게 잡니다.",
+      "audioSrc": "",
+      "sourcePage": 8,
+      "reviewNeeded": false,
+      "pronKo": "특 쿠야",
+      "pronNoteKo": "건강에 나쁜 습관으로 말하기 좋습니다.",
+      "pronChunks": [
+        "thức=특",
+        "khuya=쿠야"
+      ]
+    },
+    {
+      "id": "day08-note-v-049",
+      "term": "ăn uống đầy đủ",
+      "meaningKo": "충분히/골고루 먹다",
+      "example": "Để có sức khỏe tốt, tôi ăn uống đầy đủ.",
+      "exampleMeaningKo": "건강을 위해 저는 충분히 먹습니다.",
+      "audioSrc": "",
+      "sourcePage": 8,
+      "reviewNeeded": false,
+      "pronKo": "안 우옹 더이 두",
+      "pronNoteKo": "하루 세 끼 먹는 느낌입니다.",
+      "pronChunks": [
+        "ăn uống=안 우옹",
+        "đầy đủ=더이 두"
+      ]
+    },
+    {
+      "id": "day08-note-v-050",
+      "term": "hút thuốc",
+      "meaningKo": "담배를 피우다",
+      "example": "Tôi không hút thuốc.",
+      "exampleMeaningKo": "저는 담배를 피우지 않습니다.",
+      "audioSrc": "",
+      "sourcePage": 8,
+      "reviewNeeded": false,
+      "pronKo": "훗 투옥",
+      "pronNoteKo": "thuốc lá를 줄인 표현입니다.",
+      "pronChunks": [
+        "hút=훗",
+        "thuốc=투옥"
+      ]
+    },
+    {
+      "id": "day08-note-v-051",
+      "term": "thuốc lá điện tử",
+      "meaningKo": "전자담배",
+      "example": "Tôi không hút thuốc lá điện tử.",
+      "exampleMeaningKo": "저는 전자담배를 피우지 않습니다.",
+      "audioSrc": "",
+      "sourcePage": 8,
+      "reviewNeeded": false,
+      "pronKo": "투옥 라 디엔 뜨",
+      "pronNoteKo": "흡연 관련 표현입니다.",
+      "pronChunks": [
+        "thuốc lá=투옥 라",
+        "điện tử=디엔 뜨"
+      ]
+    },
+    {
+      "id": "day08-note-v-052",
+      "term": "uống rượu",
+      "meaningKo": "술을 마시다",
+      "example": "Tôi không uống rượu nhiều.",
+      "exampleMeaningKo": "저는 술을 많이 마시지 않습니다.",
+      "audioSrc": "",
+      "sourcePage": 8,
+      "reviewNeeded": false,
+      "pronKo": "우옹 즈어우",
+      "pronNoteKo": "건강 조언에 자주 나옵니다.",
+      "pronChunks": [
+        "uống=우옹",
+        "rượu=즈어우"
+      ]
+    },
+    {
+      "id": "day08-note-v-053",
+      "term": "giữ gìn sức khỏe",
+      "meaningKo": "건강을 잘 지키다",
+      "example": "Anh nhớ giữ gìn sức khỏe nhé.",
+      "exampleMeaningKo": "건강 잘 챙기세요.",
+      "audioSrc": "",
+      "sourcePage": 8,
+      "reviewNeeded": false,
+      "pronKo": "즈 지인 쓱 퀘",
+      "pronNoteKo": "인사말로도 좋습니다.",
+      "pronChunks": [
+        "giữ gìn=즈 지인",
+        "sức khỏe=쓱 퀘"
+      ]
+    },
+    {
+      "id": "day08-note-v-054",
+      "term": "môi trường",
+      "meaningKo": "환경",
+      "example": "Môi trường rất quan trọng với chúng ta.",
+      "exampleMeaningKo": "환경은 우리에게 매우 중요합니다.",
+      "audioSrc": "",
+      "sourcePage": 8,
+      "reviewNeeded": false,
+      "pronKo": "모이 쯔엉",
+      "pronNoteKo": "환경 주제 핵심 단어입니다.",
+      "pronChunks": [
+        "môi=모이",
+        "trường=쯔엉"
+      ]
+    },
+    {
+      "id": "day08-note-v-055",
+      "term": "ô nhiễm",
+      "meaningKo": "오염",
+      "example": "Môi trường càng ngày càng ô nhiễm.",
+      "exampleMeaningKo": "환경은 점점 더 오염되고 있습니다.",
+      "audioSrc": "",
+      "sourcePage": 8,
+      "reviewNeeded": false,
+      "pronKo": "오 니엠",
+      "pronNoteKo": "환경 문제 설명에 필수입니다.",
+      "pronChunks": [
+        "ô=오",
+        "nhiễm=니엠"
+      ]
+    },
+    {
+      "id": "day08-note-v-056",
+      "term": "ô nhiễm không khí",
+      "meaningKo": "대기오염",
+      "example": "Ở Hàn Quốc cũng có ô nhiễm không khí.",
+      "exampleMeaningKo": "한국에도 대기오염이 있습니다.",
+      "audioSrc": "",
+      "sourcePage": 8,
+      "reviewNeeded": false,
+      "pronKo": "오 니엠 콩 키",
+      "pronNoteKo": "공기오염입니다.",
+      "pronChunks": [
+        "ô nhiễm=오 니엠",
+        "không khí=콩 키"
+      ]
+    },
+    {
+      "id": "day08-note-v-057",
+      "term": "ô nhiễm nước",
+      "meaningKo": "수질오염",
+      "example": "Nhà máy có thể gây ô nhiễm nước.",
+      "exampleMeaningKo": "공장은 수질오염을 일으킬 수 있습니다.",
+      "audioSrc": "",
+      "sourcePage": 8,
+      "reviewNeeded": false,
+      "pronKo": "오 니엠 느억",
+      "pronNoteKo": "물 오염입니다.",
+      "pronChunks": [
+        "ô nhiễm=오 니엠",
+        "nước=느억"
+      ]
+    },
+    {
+      "id": "day08-note-v-058",
+      "term": "ô nhiễm đất",
+      "meaningKo": "토양오염",
+      "example": "Rác có thể gây ô nhiễm đất.",
+      "exampleMeaningKo": "쓰레기는 토양오염을 일으킬 수 있습니다.",
+      "audioSrc": "",
+      "sourcePage": 8,
+      "reviewNeeded": false,
+      "pronKo": "오 니엠 덧",
+      "pronNoteKo": "땅 오염입니다.",
+      "pronChunks": [
+        "ô nhiễm=오 니엠",
+        "đất=덧"
+      ]
+    },
+    {
+      "id": "day08-note-v-059",
+      "term": "ô nhiễm tiếng ồn",
+      "meaningKo": "소음공해",
+      "example": "Ở thành phố có ô nhiễm tiếng ồn.",
+      "exampleMeaningKo": "도시에는 소음공해가 있습니다.",
+      "audioSrc": "",
+      "sourcePage": 8,
+      "reviewNeeded": false,
+      "pronKo": "오 니엠 띠엥 온",
+      "pronNoteKo": "소음 문제입니다.",
+      "pronChunks": [
+        "tiếng ồn=띠엥 온"
+      ]
+    },
+    {
+      "id": "day08-note-v-060",
+      "term": "phân loại rác",
+      "meaningKo": "쓰레기를 분리하다",
+      "example": "Ở Hàn Quốc, chúng ta phải phân loại rác.",
+      "exampleMeaningKo": "한국에서는 쓰레기를 분리해야 합니다.",
+      "audioSrc": "",
+      "sourcePage": 8,
+      "reviewNeeded": false,
+      "pronKo": "펀 로아이 작",
+      "pronNoteKo": "분리수거 핵심 표현입니다.",
+      "pronChunks": [
+        "phân loại=펀 로아이",
+        "rác=작"
+      ]
+    },
+    {
+      "id": "day08-note-v-061",
+      "term": "vứt rác",
+      "meaningKo": "쓰레기를 버리다",
+      "example": "Tôi vứt rác đúng nơi quy định.",
+      "exampleMeaningKo": "저는 정해진 곳에 쓰레기를 버립니다.",
+      "audioSrc": "",
+      "sourcePage": 8,
+      "reviewNeeded": false,
+      "pronKo": "븟 작",
+      "pronNoteKo": "환경/재활용 주제 기본 표현입니다.",
+      "pronChunks": [
+        "vứt=븟",
+        "rác=작"
+      ]
+    },
+    {
+      "id": "day08-note-v-062",
+      "term": "túi ni-lông",
+      "meaningKo": "비닐봉지",
+      "example": "Tôi cố gắng không dùng nhiều túi ni-lông.",
+      "exampleMeaningKo": "저는 비닐봉지를 많이 사용하지 않으려고 노력합니다.",
+      "audioSrc": "",
+      "sourcePage": 8,
+      "reviewNeeded": false,
+      "pronKo": "뚜이 니롱",
+      "pronNoteKo": "마트/환경 주제에 좋습니다.",
+      "pronChunks": [
+        "túi=뚜이",
+        "ni-lông=니롱"
+      ]
+    },
+    {
+      "id": "day08-note-v-063",
+      "term": "sản phẩm tái chế",
+      "meaningKo": "재활용 제품",
+      "example": "Tôi sử dụng sản phẩm tái chế khi có thể.",
+      "exampleMeaningKo": "저는 가능할 때 재활용 제품을 사용합니다.",
+      "audioSrc": "",
+      "sourcePage": 8,
+      "reviewNeeded": false,
+      "pronKo": "산 펌 따이 쩨",
+      "pronNoteKo": "환경 보호 행동입니다.",
+      "pronChunks": [
+        "sản phẩm=산 펌",
+        "tái chế=따이 쩨"
+      ]
+    },
+    {
+      "id": "day08-note-v-064",
+      "term": "bảo vệ môi trường",
+      "meaningKo": "환경을 보호하다",
+      "example": "Tôi bảo vệ môi trường bằng cách tiết kiệm điện.",
+      "exampleMeaningKo": "저는 전기를 절약하는 방식으로 환경을 보호합니다.",
+      "audioSrc": "",
+      "sourcePage": 8,
+      "reviewNeeded": false,
+      "pronKo": "바오 베 모이 쯔엉",
+      "pronNoteKo": "마무리 문장에 좋습니다.",
+      "pronChunks": [
+        "bảo vệ=바오 베",
+        "môi trường=모이 쯔엉"
+      ]
+    },
+    {
+      "id": "day08-note-v-065",
+      "term": "tiết kiệm điện",
+      "meaningKo": "전기를 절약하다",
+      "example": "Tôi tiết kiệm điện ở nhà.",
+      "exampleMeaningKo": "저는 집에서 전기를 절약합니다.",
+      "audioSrc": "",
+      "sourcePage": 8,
+      "reviewNeeded": false,
+      "pronKo": "띠엣 끼엠 디엔",
+      "pronNoteKo": "환경 보호 실천입니다.",
+      "pronChunks": [
+        "tiết kiệm=띠엣 끼엠",
+        "điện=디엔"
+      ]
+    },
+    {
+      "id": "day08-note-v-066",
+      "term": "tiết kiệm nước",
+      "meaningKo": "물을 절약하다",
+      "example": "Tôi cố gắng tiết kiệm nước.",
+      "exampleMeaningKo": "저는 물을 절약하려고 노력합니다.",
+      "audioSrc": "",
+      "sourcePage": 8,
+      "reviewNeeded": false,
+      "pronKo": "띠엣 끼엠 느억",
+      "pronNoteKo": "환경 보호 실천입니다.",
+      "pronChunks": [
+        "tiết kiệm=띠엣 끼엠",
+        "nước=느억"
+      ]
+    },
+    {
+      "id": "day08-note-v-067",
+      "term": "khí hậu thay đổi",
+      "meaningKo": "기후가 변하다 / 기후변화",
+      "example": "Do khí hậu thay đổi, trái đất nóng lên.",
+      "exampleMeaningKo": "기후가 변해서 지구가 뜨거워지고 있습니다.",
+      "audioSrc": "",
+      "sourcePage": 8,
+      "reviewNeeded": false,
+      "pronKo": "키 허우 타이 도이",
+      "pronNoteKo": "환경 문제 원인으로 좋습니다.",
+      "pronChunks": [
+        "khí hậu=키 허우",
+        "thay đổi=타이 도이"
+      ]
+    },
+    {
+      "id": "day08-note-v-068",
+      "term": "trái đất nóng lên",
+      "meaningKo": "지구가 뜨거워지다 / 지구온난화",
+      "example": "Trái đất nóng lên là vấn đề lớn.",
+      "exampleMeaningKo": "지구온난화는 큰 문제입니다.",
+      "audioSrc": "",
+      "sourcePage": 8,
+      "reviewNeeded": false,
+      "pronKo": "짜이 덧 농 렌",
+      "pronNoteKo": "환경 주제 고급 표현입니다.",
+      "pronChunks": [
+        "trái đất=짜이 덧",
+        "nóng lên=농 렌"
+      ]
+    },
+    {
+      "id": "day08-note-v-069",
+      "term": "tắc đường",
+      "meaningKo": "길이 막히다 / 교통 체증",
+      "example": "Đặc sản của Hà Nội là tắc đường.",
+      "exampleMeaningKo": "하노이의 특산물은 교통 체증입니다.",
+      "audioSrc": "",
+      "sourcePage": 8,
+      "reviewNeeded": false,
+      "pronKo": "딱 드엉",
+      "pronNoteKo": "농담처럼 외우면 잘 기억됩니다.",
+      "pronChunks": [
+        "tắc=딱",
+        "đường=드엉"
+      ]
+    },
+    {
+      "id": "day08-note-v-070",
+      "term": "lái xe riêng",
+      "meaningKo": "자가용을 운전하다",
+      "example": "Tôi không thích lái xe riêng đi làm.",
+      "exampleMeaningKo": "저는 자가용을 운전해서 출근하는 것을 좋아하지 않습니다.",
+      "audioSrc": "",
+      "sourcePage": 8,
+      "reviewNeeded": false,
+      "pronKo": "라이 쎄 지엥",
+      "pronNoteKo": "자가용 운전 표현입니다.",
+      "pronChunks": [
+        "lái xe=라이 쎄",
+        "riêng=지엥"
+      ]
+    },
+    {
+      "id": "day08-note-v-071",
+      "term": "xe đạp",
+      "meaningKo": "자전거",
+      "example": "Tôi có xe đạp ở nhà.",
+      "exampleMeaningKo": "저는 집에 자전거가 있습니다.",
+      "audioSrc": "",
+      "sourcePage": 8,
+      "reviewNeeded": false,
+      "pronKo": "쎄 답",
+      "pronNoteKo": "교통수단 기본 단어입니다.",
+      "pronChunks": [
+        "xe=쎄",
+        "đạp=답"
+      ]
+    },
+    {
+      "id": "day08-note-v-072",
+      "term": "đi xe đạp",
+      "meaningKo": "자전거를 타다",
+      "example": "Tôi đi xe đạp đi làm khi thời tiết tốt.",
+      "exampleMeaningKo": "날씨가 좋을 때 저는 자전거를 타고 출근합니다.",
+      "audioSrc": "",
+      "sourcePage": 8,
+      "reviewNeeded": false,
+      "pronKo": "디 쎄 답",
+      "pronNoteKo": "교통수단 앞에 đi를 붙입니다.",
+      "pronChunks": [
+        "đi=디",
+        "xe đạp=쎄 답"
+      ]
+    },
+    {
+      "id": "day08-note-v-073",
+      "term": "xe đạp công cộng",
+      "meaningKo": "공공자전거",
+      "example": "Tôi có thể đi xe đạp công cộng.",
+      "exampleMeaningKo": "저는 공공자전거를 탈 수 있습니다.",
+      "audioSrc": "",
+      "sourcePage": 8,
+      "reviewNeeded": false,
+      "pronKo": "쎄 답 꽁 꽁",
+      "pronNoteKo": "따릉이 같은 느낌입니다.",
+      "pronChunks": [
+        "xe đạp=쎄 답",
+        "công cộng=꽁 꽁"
+      ]
+    },
+    {
+      "id": "day08-note-v-074",
+      "term": "khoảng cách gần",
+      "meaningKo": "가까운 거리",
+      "example": "Dưới bốn ki-lô-mét là khoảng cách gần đối với tôi.",
+      "exampleMeaningKo": "저에게 4킬로미터 이하는 가까운 거리입니다.",
+      "audioSrc": "",
+      "sourcePage": 8,
+      "reviewNeeded": false,
+      "pronKo": "코앙 까익 건",
+      "pronNoteKo": "거리 기준을 말할 때 좋습니다.",
+      "pronChunks": [
+        "khoảng cách=코앙 까익",
+        "gần=건"
+      ]
+    },
+    {
+      "id": "day08-note-v-075",
+      "term": "khoảng cách xa",
+      "meaningKo": "먼 거리",
+      "example": "Hơn bốn ki-lô-mét là khoảng cách xa đối với tôi.",
+      "exampleMeaningKo": "저에게 4킬로미터 초과는 먼 거리입니다.",
+      "audioSrc": "",
+      "sourcePage": 8,
+      "reviewNeeded": false,
+      "pronKo": "코앙 까익 싸",
+      "pronNoteKo": "gần의 반대입니다.",
+      "pronChunks": [
+        "khoảng cách=코앙 까익",
+        "xa=싸"
+      ]
+    },
+    {
+      "id": "day08-note-v-076",
+      "term": "nguy hiểm",
+      "meaningKo": "위험하다",
+      "example": "Đi xe đạp vào giờ cao điểm hơi nguy hiểm.",
+      "exampleMeaningKo": "러시아워에 자전거 타는 것은 조금 위험합니다.",
+      "audioSrc": "",
+      "sourcePage": 8,
+      "reviewNeeded": false,
+      "pronKo": "응위 히엠",
+      "pronNoteKo": "an toàn의 반대입니다.",
+      "pronChunks": [
+        "nguy=응위",
+        "hiểm=히엠"
+      ]
+    },
+    {
+      "id": "day08-note-v-077",
+      "term": "an toàn",
+      "meaningKo": "안전하다",
+      "example": "Tàu điện khá an toàn.",
+      "exampleMeaningKo": "지하철은 꽤 안전합니다.",
+      "audioSrc": "",
+      "sourcePage": 8,
+      "reviewNeeded": false,
+      "pronKo": "안 또안",
+      "pronNoteKo": "위험/안전 비교에 좋습니다.",
+      "pronChunks": [
+        "an=안",
+        "toàn=또안"
+      ]
+    },
+    {
+      "id": "day08-note-v-078",
+      "term": "tự lái xe",
+      "meaningKo": "직접 운전하다 / 스스로 운전하다",
+      "example": "Tôi tự lái xe đến công ty.",
+      "exampleMeaningKo": "저는 직접 운전해서 회사에 갑니다.",
+      "audioSrc": "",
+      "sourcePage": 8,
+      "reviewNeeded": false,
+      "pronKo": "뜨 라이 쎄",
+      "pronNoteKo": "tự는 스스로입니다.",
+      "pronChunks": [
+        "tự=뜨",
+        "lái xe=라이 쎄"
+      ]
+    },
+    {
+      "id": "day08-note-v-079",
+      "term": "tai nạn giao thông",
+      "meaningKo": "교통사고",
+      "example": "Tôi đã bị tai nạn giao thông nhẹ.",
+      "exampleMeaningKo": "저는 가벼운 교통사고를 당했습니다.",
+      "audioSrc": "",
+      "sourcePage": 8,
+      "reviewNeeded": false,
+      "pronKo": "따이 난 자오 통",
+      "pronNoteKo": "사고 경험 말할 때 씁니다.",
+      "pronChunks": [
+        "tai nạn=따이 난",
+        "giao thông=자오 통"
+      ]
+    },
+    {
+      "id": "day08-note-v-080",
+      "term": "trực tiếp",
+      "meaningKo": "직접",
+      "example": "Tôi đã trực tiếp lái xe.",
+      "exampleMeaningKo": "저는 직접 운전했습니다.",
+      "audioSrc": "",
+      "sourcePage": 8,
+      "reviewNeeded": false,
+      "pronKo": "쯕 띠엡",
+      "pronNoteKo": "직접 했다는 강조입니다.",
+      "pronChunks": [
+        "trực=쯕",
+        "tiếp=띠엡"
+      ]
+    },
+    {
+      "id": "day08-note-v-081",
+      "term": "tự học",
+      "meaningKo": "독학하다",
+      "example": "Tôi tự học tiếng Việt.",
+      "exampleMeaningKo": "저는 베트남어를 독학합니다.",
+      "audioSrc": "",
+      "sourcePage": 8,
+      "reviewNeeded": false,
+      "pronKo": "뜨 혹",
+      "pronNoteKo": "자기주도 학습 표현입니다.",
+      "pronChunks": [
+        "tự=뜨",
+        "học=혹"
+      ]
+    }
+  ],
+  "sentenceCards": [
+    {
+      "id": "day08-note-s-001",
+      "textVi": "Anh dùng AI vào việc gì?",
+      "textKo": "당신은 AI를 무엇에 사용하나요?",
+      "exampleAnswerVi": "Tôi thường dùng AI vào việc học tiếng Việt. Khi tôi không biết một từ mới, tôi hỏi AI để tìm nghĩa, cách phát âm và ví dụ. Ngoài ra, tôi dùng AI để tìm thông tin nhanh hơn. Vì có công nghệ nên tôi có thể tiết kiệm thời gian. Theo tôi, AI rất tiện lợi, nhưng chúng ta không nên phụ thuộc quá nhiều vào AI.",
+      "exampleAnswerKo": "저는 보통 베트남어 공부에 AI를 사용합니다. 새로운 단어를 모를 때 뜻, 발음, 예문을 찾기 위해 AI에게 질문합니다. 또한 정보를 더 빠르게 찾기 위해 AI를 사용합니다. 기술이 있기 때문에 저는 시간을 절약할 수 있습니다. 제 생각에 AI는 매우 편리하지만 우리는 AI에 너무 많이 의존해서는 안 됩니다.",
+      "audioSrc": "",
+      "sourcePage": 8,
+      "reviewNeeded": false,
+      "pronKo": "아인 중 아이 바오 비엑 지?",
+      "exampleAnswerPronKo": "",
+      "pronNoteKo": "AI 답변은 목적을 말하는 것이 핵심입니다. dùng AI để... 또는 dùng AI vào việc...를 사용합니다."
+    },
+    {
+      "id": "day08-note-s-002",
+      "textVi": "Anh thường mua điện thoại mới sau bao lâu?",
+      "textKo": "당신은 보통 얼마 후에 새 휴대폰을 사나요?",
+      "exampleAnswerVi": "Tôi thường mua điện thoại mới mỗi hai năm. Sau khi sử dụng điện thoại cũ khoảng hai năm, tôi mua điện thoại mới. Vì điện thoại mới có nhiều tính năng hơn, hiệu suất cao hơn và chụp ảnh đẹp hơn. Tuy nhiên, điện thoại mới khá đắt, nên tôi không mua quá thường xuyên.",
+      "exampleAnswerKo": "저는 보통 2년마다 새 휴대폰을 삽니다. 오래된 휴대폰을 약 2년 사용한 후 새 휴대폰을 삽니다. 새 휴대폰은 기능이 더 많고 성능이 더 좋고 사진도 더 예쁘게 찍히기 때문입니다. 하지만 새 휴대폰은 꽤 비싸서 너무 자주 사지는 않습니다.",
+      "audioSrc": "",
+      "sourcePage": 8,
+      "reviewNeeded": false,
+      "pronKo": "아인 트엉 무어 디엔 토아이 머이 사우 바오 러우?",
+      "exampleAnswerPronKo": "",
+      "pronNoteKo": "sau bao lâu는 '얼마 후에'입니다. mỗi hai năm은 '2년마다'입니다."
+    },
+    {
+      "id": "day08-note-s-003",
+      "textVi": "Anh dùng AI vào việc học tiếng Việt như thế nào?",
+      "textKo": "베트남어 공부에 AI를 어떻게 사용하나요?",
+      "exampleAnswerVi": "Tôi dùng AI nhằm mục đích học tiếng Việt. Đầu tiên, tôi viết câu tiếng Việt đơn giản. Sau đó, tôi nhờ AI sửa lỗi. Tiếp theo, tôi nghe cách phát âm và luyện nói theo. Cuối cùng, tôi ghi lại những câu quan trọng. Nhờ AI, tôi có thể học nhanh hơn và tiết kiệm thời gian.",
+      "exampleAnswerKo": "저는 베트남어 공부를 목적으로 AI를 사용합니다. 먼저 간단한 베트남어 문장을 씁니다. 그 다음 AI에게 오류를 고쳐달라고 합니다. 다음으로 발음을 듣고 따라 말하기를 연습합니다. 마지막으로 중요한 문장을 기록합니다. AI 덕분에 저는 더 빠르게 공부하고 시간을 절약할 수 있습니다.",
+      "audioSrc": "",
+      "sourcePage": 8,
+      "reviewNeeded": false,
+      "pronKo": "아인 중 아이 바오 비엑 혹 띠엥 비엣 느 테 나오?",
+      "exampleAnswerPronKo": "",
+      "pronNoteKo": "đầu tiên → sau đó → tiếp theo → cuối cùng 순서를 연습하기 좋습니다."
+    },
+    {
+      "id": "day08-note-s-004",
+      "textVi": "Ở nhà, anh dùng công nghệ gì để làm việc nhà?",
+      "textKo": "집에서 집안일을 위해 어떤 기술을 사용하나요?",
+      "exampleAnswerVi": "Ở nhà, tôi dùng robot lau nhà, máy rửa bát và máy giặt. Trước đây, không có robot lau nhà nên tôi phải trực tiếp lau nhà. Còn bây giờ, tôi mua một cái robot lau nhà, nên tôi không phải làm việc nhà quá nhiều. Công nghệ giúp cuộc sống của tôi tiện lợi hơn.",
+      "exampleAnswerKo": "집에서 저는 로봇청소기, 식기세척기, 세탁기를 사용합니다. 예전에는 로봇청소기가 없어서 제가 직접 바닥을 닦아야 했습니다. 반면 지금은 로봇청소기를 하나 사서 집안일을 너무 많이 하지 않아도 됩니다. 기술은 제 생활을 더 편리하게 해 줍니다.",
+      "audioSrc": "",
+      "sourcePage": 8,
+      "reviewNeeded": false,
+      "pronKo": "어 냐, 아인 중 꽁 응에 지 데 람 비엑 냐?",
+      "exampleAnswerPronKo": "",
+      "pronNoteKo": "Trước đây... Còn bây giờ... 구조로 과거와 현재를 비교합니다."
+    },
+    {
+      "id": "day08-note-s-005",
+      "textVi": "Điện thoại Samsung có ưu điểm và nhược điểm gì?",
+      "textKo": "삼성 휴대폰의 장점과 단점은 무엇인가요?",
+      "exampleAnswerVi": "Theo tôi, điện thoại Samsung có ưu điểm là tính năng nhiều hơn, dịch vụ tốt hơn và hiệu suất cao hơn. Tôi cũng thích điện thoại Samsung vì màn hình đẹp và chụp ảnh tốt. Tuy nhiên, nó có nhược điểm là giá hơi cao và giá nhanh xuống sau khi mua. Nhưng đối với tôi, điện thoại Samsung vẫn rất tiện lợi.",
+      "exampleAnswerKo": "제 생각에 삼성 휴대폰의 장점은 기능이 더 많고 서비스가 더 좋고 성능이 더 높다는 것입니다. 저는 화면이 예쁘고 사진이 잘 찍혀서 삼성 휴대폰을 좋아합니다. 하지만 단점은 가격이 조금 비싸고 구매 후 가격이 빨리 내려간다는 점입니다. 그래도 저에게 삼성 휴대폰은 여전히 매우 편리합니다.",
+      "audioSrc": "",
+      "sourcePage": 8,
+      "reviewNeeded": false,
+      "pronKo": "디엔 토아이 삼성 꼬 으우 디엠 바 느억 디엠 지?",
+      "exampleAnswerPronKo": "",
+      "pronNoteKo": "ưu điểm은 장점, nhược điểm은 단점입니다."
+    },
+    {
+      "id": "day08-note-s-006",
+      "textVi": "Anh có thể không dùng điện thoại trong một ngày không?",
+      "textKo": "하루 동안 휴대폰을 사용하지 않을 수 있나요?",
+      "exampleAnswerVi": "Tôi nghĩ tôi có thể không dùng điện thoại trong một ngày, nhưng sẽ hơi khó. Vì tôi dùng điện thoại để gọi điện, nhắn tin, vào mạng, học tiếng Việt và đặt hàng online. Nếu không có điện thoại, tôi sẽ không tiện lắm. Tuy nhiên, thỉnh thoảng tôi muốn nghỉ điện thoại để có nhiều thời gian cho gia đình.",
+      "exampleAnswerKo": "저는 하루 동안 휴대폰을 사용하지 않을 수 있다고 생각하지만 조금 어려울 것 같습니다. 저는 전화하고, 메시지 보내고, 인터넷에 접속하고, 베트남어를 공부하고, 온라인 주문을 하기 위해 휴대폰을 사용하기 때문입니다. 휴대폰이 없으면 별로 편리하지 않을 것입니다. 하지만 가끔 가족을 위한 시간을 더 가지기 위해 휴대폰을 쉬고 싶습니다.",
+      "audioSrc": "",
+      "sourcePage": 8,
+      "reviewNeeded": false,
+      "pronKo": "아인 꼬 테 콩 중 디엔 토아이 쫑 못 응아이 콩?",
+      "exampleAnswerPronKo": "",
+      "pronNoteKo": "có thể không dùng은 '사용하지 않을 수 있다'입니다. không thể dùng과 다릅니다."
+    },
+    {
+      "id": "day08-note-s-007",
+      "textVi": "Anh có khỏe không? Sức khỏe của anh thế nào?",
+      "textKo": "건강하세요? 건강 상태가 어떤가요?",
+      "exampleAnswerVi": "Dạo này sức khỏe của tôi bình thường. Tôi không bị bệnh nặng, nhưng đôi khi tôi hơi mệt vì công việc bận. Vì vậy, tôi cố gắng đi ngủ sớm, uống nhiều nước và ăn uống đầy đủ. Theo tôi, sức khỏe rất quan trọng, nên chúng ta phải giữ gìn sức khỏe mỗi ngày.",
+      "exampleAnswerKo": "요즘 제 건강은 보통입니다. 큰 병은 없지만 일이 바빠서 가끔 조금 피곤합니다. 그래서 저는 일찍 자고, 물을 많이 마시고, 충분히 먹으려고 노력합니다. 제 생각에 건강은 매우 중요하기 때문에 우리는 매일 건강을 잘 지켜야 합니다.",
+      "audioSrc": "",
+      "sourcePage": 8,
+      "reviewNeeded": false,
+      "pronKo": "아인 꼬 퀘 콩? 쓱 퀘 꾸어 아인 테 나오?",
+      "exampleAnswerPronKo": "",
+      "pronNoteKo": "건강 상태는 bình thường, hơi mệt, bị ốm 같은 표현으로 말합니다."
+    },
+    {
+      "id": "day08-note-s-008",
+      "textVi": "Theo anh, làm thế nào để có sức khỏe tốt?",
+      "textKo": "당신 생각에는 어떻게 해야 건강이 좋아지나요?",
+      "exampleAnswerVi": "Theo tôi, để có sức khỏe tốt, chúng ta nên tập thể dục mỗi ngày, ăn uống đầy đủ và đi ngủ sớm. Ngoài ra, chúng ta không nên hút thuốc và không nên uống rượu nhiều. Nếu có thời gian, chúng ta nên đi kiểm tra sức khỏe định kỳ. Tôi nghĩ những thói quen nhỏ này rất quan trọng.",
+      "exampleAnswerKo": "제 생각에는 건강이 좋기 위해 우리는 매일 운동하고, 충분히 먹고, 일찍 자야 합니다. 또한 담배를 피우지 말아야 하고 술을 많이 마시지 말아야 합니다. 시간이 있으면 정기적으로 건강검진을 받아야 합니다. 저는 이런 작은 습관들이 매우 중요하다고 생각합니다.",
+      "audioSrc": "",
+      "sourcePage": 8,
+      "reviewNeeded": false,
+      "pronKo": "테오 아인, 람 테 나오 데 꼬 쓱 퀘 똣?",
+      "exampleAnswerPronKo": "",
+      "pronNoteKo": "để có sức khỏe tốt은 '건강을 위해'입니다."
+    },
+    {
+      "id": "day08-note-s-009",
+      "textVi": "Anh có hay thức khuya không?",
+      "textKo": "늦게 자는 편인가요?",
+      "exampleAnswerVi": "Có, đôi khi tôi hay thức khuya vì công việc nhiều. Nhưng tôi biết thức khuya không tốt cho sức khỏe. Vì vậy, dạo này tôi cố gắng đi ngủ sớm hơn. Nếu tôi ngủ đủ, ngày hôm sau tôi cảm thấy khỏe hơn và làm việc tốt hơn.",
+      "exampleAnswerKo": "네, 일이 많아서 가끔 늦게 잡니다. 하지만 늦게 자는 것이 건강에 좋지 않다는 것을 압니다. 그래서 요즘 저는 더 일찍 자려고 노력합니다. 충분히 자면 다음 날 더 건강하다고 느끼고 일을 더 잘합니다.",
+      "audioSrc": "",
+      "sourcePage": 8,
+      "reviewNeeded": false,
+      "pronKo": "아인 꼬 하이 특 쿠야 콩?",
+      "exampleAnswerPronKo": "",
+      "pronNoteKo": "thức khuya와 đi ngủ muộn은 비슷한 의미입니다."
+    },
+    {
+      "id": "day08-note-s-010",
+      "textVi": "Anh có hút thuốc hoặc uống rượu không?",
+      "textKo": "담배를 피우거나 술을 마시나요?",
+      "exampleAnswerVi": "Tôi không hút thuốc. Tôi cũng không uống rượu nhiều. Theo tôi, hút thuốc không tốt cho sức khỏe. Uống rượu một chút thì được, nhưng uống quá nhiều thì không được. Vì vậy, tôi cố gắng giữ thói quen lành mạnh.",
+      "exampleAnswerKo": "저는 담배를 피우지 않습니다. 술도 많이 마시지 않습니다. 제 생각에 흡연은 건강에 좋지 않습니다. 술을 조금 마시는 것은 괜찮지만 너무 많이 마시는 것은 안 됩니다. 그래서 저는 건강한 습관을 유지하려고 노력합니다.",
+      "audioSrc": "",
+      "sourcePage": 8,
+      "reviewNeeded": false,
+      "pronKo": "아인 꼬 훗 투옥 호악 우옹 즈어우 콩?",
+      "exampleAnswerPronKo": "",
+      "pronNoteKo": "được / không được를 자연스럽게 연습할 수 있습니다."
+    },
+    {
+      "id": "day08-note-s-011",
+      "textVi": "Anh làm gì để bảo vệ môi trường?",
+      "textKo": "환경을 보호하기 위해 무엇을 하나요?",
+      "exampleAnswerVi": "Tôi bảo vệ môi trường bằng cách tiết kiệm điện, tiết kiệm nước, phân loại rác và sử dụng sản phẩm tái chế. Ở nhà, tôi tắt đèn khi không dùng và cố gắng không dùng nhiều túi ni-lông. Theo tôi, môi trường rất quan trọng với chúng ta, nên mọi người cần cùng nhau bảo vệ môi trường.",
+      "exampleAnswerKo": "저는 전기를 절약하고, 물을 절약하고, 쓰레기를 분리하고, 재활용 제품을 사용하는 방식으로 환경을 보호합니다. 집에서는 사용하지 않을 때 불을 끄고 비닐봉지를 많이 사용하지 않으려고 노력합니다. 제 생각에 환경은 우리에게 매우 중요하므로 모두가 함께 환경을 보호해야 합니다.",
+      "audioSrc": "",
+      "sourcePage": 8,
+      "reviewNeeded": false,
+      "pronKo": "아인 람 지 데 바오 베 모이 쯔엉?",
+      "exampleAnswerPronKo": "",
+      "pronNoteKo": "bằng cách은 '~하는 방식으로'입니다."
+    },
+    {
+      "id": "day08-note-s-012",
+      "textVi": "Môi trường ở Hàn Quốc có bị ô nhiễm không?",
+      "textKo": "한국의 환경은 오염되어 있나요?",
+      "exampleAnswerVi": "Ở Hàn Quốc cũng bị ô nhiễm môi trường, như là ô nhiễm không khí, ô nhiễm nước và ô nhiễm đất. Trước đây thì ô nhiễm nặng vì có nhiều nhà máy, nhưng bây giờ thì tốt hơn vì mọi người cùng nhau bảo vệ môi trường. Ví dụ, người ta tiết kiệm điện, tiết kiệm nước, phân loại rác và sử dụng sản phẩm tái chế.",
+      "exampleAnswerKo": "한국도 환경오염이 있습니다. 예를 들어 대기오염, 수질오염, 토양오염이 있습니다. 예전에는 공장이 많아서 오염이 심했지만 지금은 사람들이 함께 환경을 보호하기 때문에 더 좋아졌습니다. 예를 들어 사람들은 전기를 절약하고, 물을 절약하고, 쓰레기를 분리하고, 재활용 제품을 사용합니다.",
+      "audioSrc": "",
+      "sourcePage": 8,
+      "reviewNeeded": false,
+      "pronKo": "모이 쯔엉 어 한 꾸옥 꼬 비 오 니엠 콩?",
+      "exampleAnswerPronKo": "",
+      "pronNoteKo": "환경 주제는 원인과 해결 행동을 함께 말하면 답변이 풍부해집니다."
+    },
+    {
+      "id": "day08-note-s-013",
+      "textVi": "Ở Hàn Quốc có phải phân loại rác không?",
+      "textKo": "한국에서는 쓰레기를 분리해야 하나요?",
+      "exampleAnswerVi": "Có, ở Hàn Quốc phải phân loại rác. Chúng ta phải để riêng giấy, nhựa, chai, lon và rác thức ăn. Lúc đầu, việc này hơi khó và phiền, nhưng bây giờ tôi quen rồi. Tôi nghĩ phân loại rác giúp giảm ô nhiễm và bảo vệ môi trường.",
+      "exampleAnswerKo": "네, 한국에서는 쓰레기를 분리해야 합니다. 우리는 종이, 플라스틱, 병, 캔, 음식물 쓰레기를 따로 두어야 합니다. 처음에는 이 일이 조금 어렵고 귀찮지만 이제는 익숙합니다. 저는 분리수거가 오염을 줄이고 환경을 보호하는 데 도움이 된다고 생각합니다.",
+      "audioSrc": "",
+      "sourcePage": 8,
+      "reviewNeeded": false,
+      "pronKo": "어 한 꾸옥 꼬 파이 펀 로아이 작 콩?",
+      "exampleAnswerPronKo": "",
+      "pronNoteKo": "phải는 '~해야 한다'입니다."
+    },
+    {
+      "id": "day08-note-s-014",
+      "textVi": "Anh đi làm bằng phương tiện gì?",
+      "textKo": "어떤 교통수단으로 출근하나요?",
+      "exampleAnswerVi": "Tôi thường đi làm bằng ô tô riêng. Nhưng nếu đường bị tắc, tôi mất nhiều thời gian. Vì vậy, khi khoảng cách gần, tôi muốn đi bộ hoặc đi xe đạp. Đối với tôi, dưới bốn ki-lô-mét là khoảng cách gần, còn hơn bốn ki-lô-mét là khoảng cách xa.",
+      "exampleAnswerKo": "저는 보통 자가용으로 출근합니다. 하지만 길이 막히면 시간이 많이 걸립니다. 그래서 거리가 가까우면 걷거나 자전거를 타고 싶습니다. 저에게 4킬로미터 이하는 가까운 거리이고, 4킬로미터 초과는 먼 거리입니다.",
+      "audioSrc": "",
+      "sourcePage": 8,
+      "reviewNeeded": false,
+      "pronKo": "아인 디 람 방 프엉 띠엔 지?",
+      "exampleAnswerPronKo": "",
+      "pronNoteKo": "거리 기준을 말할 때 dưới / hơn을 사용합니다."
+    },
+    {
+      "id": "day08-note-s-015",
+      "textVi": "Nếu khoảng cách gần, anh sẽ đi bộ hay đi taxi?",
+      "textKo": "거리가 가까우면 걸어가나요, 택시를 타나요?",
+      "exampleAnswerVi": "Nếu khoảng cách gần, tôi sẽ đi bộ. Vì đi bộ tốt cho sức khỏe và không tốn tiền. Nhưng nếu trời mưa hoặc tôi quá mệt, taxi cũng được. Tuy nhiên, dịch vụ taxi ở Hàn Quốc vừa đắt vừa không tốt lắm, nên tôi không đi taxi nhiều.",
+      "exampleAnswerKo": "거리가 가까우면 저는 걸어갈 것입니다. 걷는 것은 건강에 좋고 돈이 들지 않기 때문입니다. 하지만 비가 오거나 너무 피곤하면 택시도 괜찮습니다. 그러나 한국의 택시 서비스는 비싸기도 하고 아주 좋지도 않아서 저는 택시를 많이 타지 않습니다.",
+      "audioSrc": "",
+      "sourcePage": 8,
+      "reviewNeeded": false,
+      "pronKo": "네우 코앙 까익 건, 아인 세 디 보 하이 디 딱시?",
+      "exampleAnswerPronKo": "",
+      "pronNoteKo": "cũng được는 '~도 괜찮다'입니다."
+    },
+    {
+      "id": "day08-note-s-016",
+      "textVi": "Anh đã bị tai nạn giao thông bao giờ chưa?",
+      "textKo": "교통사고를 당한 적이 있나요?",
+      "exampleAnswerVi": "Có, tôi đã bị tai nạn giao thông nhẹ một lần. Lúc đó, tôi đã trực tiếp lái xe. May mà tôi không bị thương nặng. Sau đó, tôi sợ lái xe một thời gian. Vì vậy, bây giờ khi lái xe, tôi luôn cẩn thận hơn.",
+      "exampleAnswerKo": "네, 저는 한 번 가벼운 교통사고를 당한 적이 있습니다. 그때 저는 직접 운전하고 있었습니다. 다행히 심하게 다치지는 않았습니다. 그 후 한동안 운전하는 것이 무서웠습니다. 그래서 지금은 운전할 때 항상 더 조심합니다.",
+      "audioSrc": "",
+      "sourcePage": 8,
+      "reviewNeeded": false,
+      "pronKo": "아인 다 비 따이 난 자오 통 바오 저 쯔어?",
+      "exampleAnswerPronKo": "",
+      "pronNoteKo": "đã ... bao giờ chưa는 경험 질문입니다."
+    }
+  ],
+  "dialogues": [
+    {
+      "id": "day08-note-d-001",
+      "title": "AI와 베트남어 공부",
+      "audioSrc": "",
+      "sourcePage": 8,
+      "reviewNeeded": false,
+      "lines": [
+        {
+          "speaker": "A",
+          "vi": "Anh dùng AI vào việc gì?",
+          "ko": "당신은 AI를 무엇에 사용하나요?",
+          "pronKo": "아인 중 아이 바오 비엑 지?"
+        },
+        {
+          "speaker": "B",
+          "vi": "Tôi dùng AI vào việc học tiếng Việt.",
+          "ko": "저는 베트남어 공부에 AI를 사용합니다.",
+          "pronKo": "또이 중 아이 바오 비엑 혹 띠엥 비엣."
+        },
+        {
+          "speaker": "A",
+          "vi": "AI giúp anh như thế nào?",
+          "ko": "AI가 당신을 어떻게 도와주나요?",
+          "pronKo": "아이 줍 아인 느 테 나오?"
+        },
+        {
+          "speaker": "B",
+          "vi": "AI giúp tôi sửa lỗi, tìm thông tin và tiết kiệm thời gian.",
+          "ko": "AI는 제가 오류를 고치고 정보를 찾고 시간을 절약하도록 도와줍니다.",
+          "pronKo": "아이 줍 또이 스어 로이, 띰 통 띤 바 띠엣 끼엠 터이 잔."
+        }
+      ]
+    },
+    {
+      "id": "day08-note-d-002",
+      "title": "생활 속 기술 제품",
+      "audioSrc": "",
+      "sourcePage": 8,
+      "reviewNeeded": false,
+      "lines": [
+        {
+          "speaker": "A",
+          "vi": "Ở nhà, anh dùng công nghệ gì?",
+          "ko": "집에서 어떤 기술을 사용하나요?",
+          "pronKo": "어 냐, 아인 중 꽁 응에 지?"
+        },
+        {
+          "speaker": "B",
+          "vi": "Tôi dùng robot lau nhà, máy rửa bát và máy giặt.",
+          "ko": "저는 로봇청소기, 식기세척기, 세탁기를 사용합니다.",
+          "pronKo": "또이 중 로봇 라우 냐, 마이 즈어 밧 바 마이 잣."
+        },
+        {
+          "speaker": "A",
+          "vi": "Công nghệ có lợi ích gì?",
+          "ko": "기술은 어떤 이점이 있나요?",
+          "pronKo": "꽁 응에 꼬 러이 익 지?"
+        },
+        {
+          "speaker": "B",
+          "vi": "Công nghệ giúp tôi tiết kiệm thời gian và làm việc nhà dễ hơn.",
+          "ko": "기술은 제가 시간을 절약하고 집안일을 더 쉽게 하도록 도와줍니다.",
+          "pronKo": "꽁 응에 줍 또이 띠엣 끼엠 터이 잔 바 람 비엑 냐 예 헌."
+        }
+      ]
+    },
+    {
+      "id": "day08-note-d-003",
+      "title": "건강 습관",
+      "audioSrc": "",
+      "sourcePage": 8,
+      "reviewNeeded": false,
+      "lines": [
+        {
+          "speaker": "A",
+          "vi": "Sức khỏe của anh thế nào?",
+          "ko": "건강 상태가 어떤가요?",
+          "pronKo": "쓱 퀘 꾸어 아인 테 나오?"
+        },
+        {
+          "speaker": "B",
+          "vi": "Tôi bình thường, nhưng dạo này tôi hơi mệt.",
+          "ko": "저는 보통이지만 요즘 조금 피곤합니다.",
+          "pronKo": "또이 빈 트엉, 느응 자오 나이 또이 허이 멧."
+        },
+        {
+          "speaker": "A",
+          "vi": "Anh làm gì để có sức khỏe tốt?",
+          "ko": "건강이 좋기 위해 무엇을 하나요?",
+          "pronKo": "아인 람 지 데 꼬 쓱 퀘 똣?"
+        },
+        {
+          "speaker": "B",
+          "vi": "Tôi tập thể dục, ăn uống đầy đủ và cố gắng đi ngủ sớm.",
+          "ko": "저는 운동하고, 충분히 먹고, 일찍 자려고 노력합니다.",
+          "pronKo": "또이 떱 테 죽, 안 우옹 더이 두 바 꼬 장 디 응우 섬."
+        }
+      ]
+    },
+    {
+      "id": "day08-note-d-004",
+      "title": "환경 보호",
+      "audioSrc": "",
+      "sourcePage": 8,
+      "reviewNeeded": false,
+      "lines": [
+        {
+          "speaker": "A",
+          "vi": "Anh có quan tâm đến môi trường không?",
+          "ko": "환경에 관심이 있나요?",
+          "pronKo": "아인 꼬 꽌 떰 덴 모이 쯔엉 콩?"
+        },
+        {
+          "speaker": "B",
+          "vi": "Có, tôi rất quan tâm đến môi trường.",
+          "ko": "네, 저는 환경에 매우 관심이 있습니다.",
+          "pronKo": "꼬, 또이 젓 꽌 떰 덴 모이 쯔엉."
+        },
+        {
+          "speaker": "A",
+          "vi": "Anh làm gì để bảo vệ môi trường?",
+          "ko": "환경을 보호하기 위해 무엇을 하나요?",
+          "pronKo": "아인 람 지 데 바오 베 모이 쯔엉?"
+        },
+        {
+          "speaker": "B",
+          "vi": "Tôi tiết kiệm điện, tiết kiệm nước và phân loại rác.",
+          "ko": "저는 전기를 절약하고 물을 절약하고 쓰레기를 분리합니다.",
+          "pronKo": "또이 띠엣 끼엠 디엔, 띠엣 끼엠 느억 바 펀 로아이 작."
+        }
+      ]
+    },
+    {
+      "id": "day08-note-d-005",
+      "title": "교통수단 선택",
+      "audioSrc": "",
+      "sourcePage": 8,
+      "reviewNeeded": false,
+      "lines": [
+        {
+          "speaker": "A",
+          "vi": "Anh đi làm bằng phương tiện gì?",
+          "ko": "어떤 교통수단으로 출근하나요?",
+          "pronKo": "아인 디 람 방 프엉 띠엔 지?"
+        },
+        {
+          "speaker": "B",
+          "vi": "Tôi thường đi làm bằng ô tô riêng.",
+          "ko": "저는 보통 자가용으로 출근합니다.",
+          "pronKo": "또이 트엉 디 람 방 오 또 지엥."
+        },
+        {
+          "speaker": "A",
+          "vi": "Nếu khoảng cách gần, anh sẽ đi bộ hay đi taxi?",
+          "ko": "거리가 가까우면 걸어가나요, 택시를 타나요?",
+          "pronKo": "네우 코앙 까익 건, 아인 세 디 보 하이 디 딱시?"
+        },
+        {
+          "speaker": "B",
+          "vi": "Nếu khoảng cách gần, tôi sẽ đi bộ. Nhưng nếu trời mưa, taxi cũng được.",
+          "ko": "거리가 가까우면 걸어갈 것입니다. 하지만 비가 오면 택시도 괜찮습니다.",
+          "pronKo": "네우 코앙 까익 건, 또이 세 디 보. 느응 네우 쩌이 므어, 딱시 꿍 드억."
+        }
+      ]
+    }
+  ],
+  "grammarPoints": [
+    {
+      "id": "day08-note-g-001",
+      "title": "오래된 것과 새것 비교",
+      "pattern": "cũ >< mới",
+      "meaningKo": "오래된/낡은 >< 새로운",
+      "sourcePage": 8,
+      "reviewNeeded": false
+    },
+    {
+      "id": "day08-note-g-002",
+      "title": "오래 걸림과 빠름 비교",
+      "pattern": "lâu >< nhanh",
+      "meaningKo": "오래/오래 걸리다 >< 빠르다",
+      "sourcePage": 8,
+      "reviewNeeded": false
+    },
+    {
+      "id": "day08-note-g-003",
+      "title": "오래 기다리다",
+      "pattern": "Tôi chờ anh lâu rồi.",
+      "meaningKo": "저는 당신을 오래 기다렸습니다.",
+      "sourcePage": 8,
+      "reviewNeeded": false
+    },
+    {
+      "id": "day08-note-g-004",
+      "title": "인터넷에 접속하다",
+      "pattern": "vào mạng = lên mạng",
+      "meaningKo": "인터넷에 접속하다",
+      "sourcePage": 8,
+      "reviewNeeded": false
+    },
+    {
+      "id": "day08-note-g-005",
+      "title": "SNS에 올리다",
+      "pattern": "đăng bài lên mạng xã hội",
+      "meaningKo": "소셜미디어에 글을 올리다",
+      "sourcePage": 8,
+      "reviewNeeded": false
+    },
+    {
+      "id": "day08-note-g-006",
+      "title": "AI를 무엇에 쓰나요?",
+      "pattern": "Anh dùng AI vào việc gì?",
+      "meaningKo": "당신은 AI를 무엇에 사용하나요?",
+      "sourcePage": 8,
+      "reviewNeeded": false
+    },
+    {
+      "id": "day08-note-g-007",
+      "title": "~하기 위해",
+      "pattern": "Tôi dùng AI để tìm thông tin.",
+      "meaningKo": "저는 정보를 찾기 위해 AI를 사용합니다.",
+      "sourcePage": 8,
+      "reviewNeeded": false
+    },
+    {
+      "id": "day08-note-g-008",
+      "title": "~할 목적으로",
+      "pattern": "Tôi dùng AI nhằm mục đích học tiếng Việt.",
+      "meaningKo": "저는 베트남어 공부를 목적으로 AI를 사용합니다.",
+      "sourcePage": 8,
+      "reviewNeeded": false
+    },
+    {
+      "id": "day08-note-g-009",
+      "title": "~가 있어서 ~하다",
+      "pattern": "Vì có công nghệ nên tôi có thể tiết kiệm thời gian.",
+      "meaningKo": "기술이 있어서 저는 시간을 절약할 수 있습니다.",
+      "sourcePage": 8,
+      "reviewNeeded": false
+    },
+    {
+      "id": "day08-note-g-010",
+      "title": "과거와 현재 비교",
+      "pattern": "Trước đây thì ..., còn bây giờ thì ...",
+      "meaningKo": "예전에는 ..., 반면 지금은 ...",
+      "sourcePage": 8,
+      "reviewNeeded": false
+    },
+    {
+      "id": "day08-note-g-011",
+      "title": "얼마 후에 새 휴대폰을 사나요?",
+      "pattern": "Anh thường mua điện thoại mới sau bao lâu?",
+      "meaningKo": "당신은 보통 얼마 후에 새 휴대폰을 사나요?",
+      "sourcePage": 8,
+      "reviewNeeded": false
+    },
+    {
+      "id": "day08-note-g-012",
+      "title": "~마다",
+      "pattern": "Tôi mua điện thoại mới mỗi hai năm.",
+      "meaningKo": "저는 2년마다 새 휴대폰을 삽니다.",
+      "sourcePage": 8,
+      "reviewNeeded": false
+    },
+    {
+      "id": "day08-note-g-013",
+      "title": "~한 후에",
+      "pattern": "Sau khi sử dụng điện thoại cũ hai năm, tôi mua điện thoại mới.",
+      "meaningKo": "오래된 휴대폰을 2년 사용한 후 새 휴대폰을 삽니다.",
+      "sourcePage": 8,
+      "reviewNeeded": false
+    },
+    {
+      "id": "day08-note-g-014",
+      "title": "순서 말하기",
+      "pattern": "Đầu tiên... Sau đó... Tiếp theo... Cuối cùng...",
+      "meaningKo": "먼저... 그 다음... 다음으로... 마지막으로...",
+      "sourcePage": 8,
+      "reviewNeeded": false
+    },
+    {
+      "id": "day08-note-g-015",
+      "title": "장점은 ~이다",
+      "pattern": "Điện thoại Samsung có ưu điểm là tính năng nhiều hơn.",
+      "meaningKo": "삼성 휴대폰의 장점은 기능이 더 많다는 것입니다.",
+      "sourcePage": 8,
+      "reviewNeeded": false
+    },
+    {
+      "id": "day08-note-g-016",
+      "title": "단점은 ~이다",
+      "pattern": "Điện thoại này có nhược điểm là giá hơi cao.",
+      "meaningKo": "이 휴대폰의 단점은 가격이 조금 비싸다는 것입니다.",
+      "sourcePage": 8,
+      "reviewNeeded": false
+    },
+    {
+      "id": "day08-note-g-017",
+      "title": "가격이 오르다/내리다",
+      "pattern": "giá lên / giá xuống",
+      "meaningKo": "가격이 오르다 / 가격이 내려가다",
+      "sourcePage": 8,
+      "reviewNeeded": false
+    },
+    {
+      "id": "day08-note-g-018",
+      "title": "이점은 ~이다",
+      "pattern": "Học tiếng Việt có lợi ích là tôi có thể nói chuyện với người Việt Nam.",
+      "meaningKo": "베트남어 공부의 이점은 베트남 사람과 이야기할 수 있다는 것입니다.",
+      "sourcePage": 8,
+      "reviewNeeded": false
+    },
+    {
+      "id": "day08-note-g-019",
+      "title": "~할 수 있다 / 할 수 없다",
+      "pattern": "Tôi có thể làm việc này. / Tôi không thể làm việc này.",
+      "meaningKo": "저는 이 일을 할 수 있습니다. / 저는 이 일을 할 수 없습니다.",
+      "sourcePage": 8,
+      "reviewNeeded": false
+    },
+    {
+      "id": "day08-note-g-020",
+      "title": "동사 + được",
+      "pattern": "Tôi làm được việc này. / Tôi không làm được việc này.",
+      "meaningKo": "저는 이 일을 해낼 수 있습니다. / 저는 이 일을 해낼 수 없습니다.",
+      "sourcePage": 8,
+      "reviewNeeded": false
+    },
+    {
+      "id": "day08-note-g-021",
+      "title": "~도 괜찮다",
+      "pattern": "Hôm nay chuyển cũng được.",
+      "meaningKo": "오늘 옮겨도 됩니다.",
+      "sourcePage": 8,
+      "reviewNeeded": false
+    },
+    {
+      "id": "day08-note-g-022",
+      "title": "이 정도면 된다",
+      "pattern": "10 phút là được.",
+      "meaningKo": "10분이면 됩니다.",
+      "sourcePage": 8,
+      "reviewNeeded": false
+    },
+    {
+      "id": "day08-note-g-023",
+      "title": "~하면 ~해라",
+      "pattern": "Hôm nay các bạn muốn chuyển thì chuyển.",
+      "meaningKo": "오늘 여러분이 옮기고 싶으면 옮기세요.",
+      "sourcePage": 8,
+      "reviewNeeded": false
+    },
+    {
+      "id": "day08-note-g-024",
+      "title": "건강하려면",
+      "pattern": "Để có sức khỏe tốt, chúng ta nên tập thể dục mỗi ngày.",
+      "meaningKo": "건강이 좋기 위해 우리는 매일 운동해야 합니다.",
+      "sourcePage": 8,
+      "reviewNeeded": false
+    },
+    {
+      "id": "day08-note-g-025",
+      "title": "~하지 말아야 한다",
+      "pattern": "Chúng ta không nên hút thuốc.",
+      "meaningKo": "우리는 담배를 피우지 말아야 합니다.",
+      "sourcePage": 8,
+      "reviewNeeded": false
+    },
+    {
+      "id": "day08-note-g-026",
+      "title": "환경을 보호하는 방식",
+      "pattern": "Tôi bảo vệ môi trường bằng cách tiết kiệm điện.",
+      "meaningKo": "저는 전기를 절약하는 방식으로 환경을 보호합니다.",
+      "sourcePage": 8,
+      "reviewNeeded": false
+    },
+    {
+      "id": "day08-note-g-027",
+      "title": "점점 더",
+      "pattern": "Môi trường càng ngày càng ô nhiễm.",
+      "meaningKo": "환경은 점점 더 오염되고 있습니다.",
+      "sourcePage": 8,
+      "reviewNeeded": false
+    },
+    {
+      "id": "day08-note-g-028",
+      "title": "오염을 일으키다",
+      "pattern": "gây ô nhiễm không khí / nước / đất",
+      "meaningKo": "대기오염 / 수질오염 / 토양오염을 일으키다",
+      "sourcePage": 8,
+      "reviewNeeded": false
+    },
+    {
+      "id": "day08-note-g-029",
+      "title": "거리 기준 말하기",
+      "pattern": "Đối với tôi, dưới bốn ki-lô-mét là khoảng cách gần.",
+      "meaningKo": "저에게 4킬로미터 이하는 가까운 거리입니다.",
+      "sourcePage": 8,
+      "reviewNeeded": false
+    },
+    {
+      "id": "day08-note-g-030",
+      "title": "만약 ~라면",
+      "pattern": "Nếu khoảng cách gần, tôi sẽ đi bộ.",
+      "meaningKo": "거리가 가까우면 저는 걸어갈 것입니다.",
+      "sourcePage": 8,
+      "reviewNeeded": false
+    },
+    {
+      "id": "day08-note-g-031",
+      "title": "직접 ~하다",
+      "pattern": "Tôi đã trực tiếp lái xe.",
+      "meaningKo": "저는 직접 운전했습니다.",
+      "sourcePage": 8,
+      "reviewNeeded": false
+    },
+    {
+      "id": "day08-note-g-032",
+      "title": "스스로 ~하다",
+      "pattern": "Tôi tự học tiếng Việt.",
+      "meaningKo": "저는 베트남어를 독학합니다.",
+      "sourcePage": 8,
+      "reviewNeeded": false
+    }
+  ],
+  "pronunciationTargets": [
+    {
+      "id": "day08-note-p-001",
+      "text": "Anh dùng AI vào việc gì?",
+      "hintKo": "AI를 무엇에 사용하나요?",
+      "audioSrc": "",
+      "sourcePage": 8,
+      "reviewNeeded": false,
+      "pronKo": "아인 중 아이 바오 비엑 지",
+      "mouthKo": "Anh dùng AI / vào việc gì 로 끊습니다.",
+      "toneKo": "vào việc gì는 '무엇에'입니다."
+    },
+    {
+      "id": "day08-note-p-002",
+      "text": "Tôi dùng AI để tìm thông tin.",
+      "hintKo": "저는 정보를 찾기 위해 AI를 사용합니다.",
+      "audioSrc": "",
+      "sourcePage": 8,
+      "reviewNeeded": false,
+      "pronKo": "또이 중 아이 데 띰 통 띤",
+      "mouthKo": "Tôi dùng AI / để tìm thông tin 으로 끊습니다.",
+      "toneKo": "để는 '~하기 위해'입니다."
+    },
+    {
+      "id": "day08-note-p-003",
+      "text": "Vì có công nghệ nên tôi có thể tiết kiệm thời gian.",
+      "hintKo": "기술이 있어서 저는 시간을 절약할 수 있습니다.",
+      "audioSrc": "",
+      "sourcePage": 8,
+      "reviewNeeded": false,
+      "pronKo": "비 꼬 꽁 응에 넨 또이 꼬 테 띠엣 끼엠 터이 잔",
+      "mouthKo": "Vì có công nghệ / nên tôi có thể / tiết kiệm thời gian 으로 끊습니다.",
+      "toneKo": "Vì... nên...는 원인과 결과입니다."
+    },
+    {
+      "id": "day08-note-p-004",
+      "text": "Trước đây, không có robot lau nhà, tôi phải trực tiếp lau nhà.",
+      "hintKo": "예전에는 로봇청소기가 없어서 저는 직접 바닥을 닦아야 했습니다.",
+      "audioSrc": "",
+      "sourcePage": 8,
+      "reviewNeeded": false,
+      "pronKo": "쯔억 더이, 콩 꼬 로봇 라우 냐, 또이 파이 쯕 띠엡 라우 냐",
+      "mouthKo": "Trước đây / không có robot lau nhà / tôi phải trực tiếp lau nhà 으로 끊습니다.",
+      "toneKo": "trực tiếp은 직접입니다."
+    },
+    {
+      "id": "day08-note-p-005",
+      "text": "Anh thường mua điện thoại mới sau bao lâu?",
+      "hintKo": "얼마 후에 새 휴대폰을 사나요?",
+      "audioSrc": "",
+      "sourcePage": 8,
+      "reviewNeeded": false,
+      "pronKo": "아인 트엉 무어 디엔 토아이 머이 사우 바오 러우",
+      "mouthKo": "Anh thường mua / điện thoại mới / sau bao lâu 으로 끊습니다.",
+      "toneKo": "sau bao lâu를 끝에 붙입니다."
+    },
+    {
+      "id": "day08-note-p-006",
+      "text": "Tôi mua điện thoại mới mỗi hai năm.",
+      "hintKo": "저는 2년마다 새 휴대폰을 삽니다.",
+      "audioSrc": "",
+      "sourcePage": 8,
+      "reviewNeeded": false,
+      "pronKo": "또이 무어 디엔 토아이 머이 모이 하이 남",
+      "mouthKo": "Tôi mua điện thoại mới / mỗi hai năm 으로 끊습니다.",
+      "toneKo": "mỗi는 every입니다."
+    },
+    {
+      "id": "day08-note-p-007",
+      "text": "Theo tôi, để có sức khỏe tốt, chúng ta nên tập thể dục mỗi ngày.",
+      "hintKo": "제 생각에 건강을 위해 우리는 매일 운동해야 합니다.",
+      "audioSrc": "",
+      "sourcePage": 8,
+      "reviewNeeded": false,
+      "pronKo": "테오 또이, 데 꼬 쓱 퀘 똣, 쭝 따 넨 떱 테 죽 모이 응아이",
+      "mouthKo": "Theo tôi / để có sức khỏe tốt / chúng ta nên... 으로 끊습니다.",
+      "toneKo": "OPIC 의견 시작에 좋습니다."
+    },
+    {
+      "id": "day08-note-p-008",
+      "text": "Tôi không hút thuốc và không uống rượu nhiều.",
+      "hintKo": "저는 담배를 피우지 않고 술을 많이 마시지 않습니다.",
+      "audioSrc": "",
+      "sourcePage": 8,
+      "reviewNeeded": false,
+      "pronKo": "또이 콩 훗 투옥 바 콩 우옹 즈어우 니에우",
+      "mouthKo": "Tôi không hút thuốc / và không uống rượu nhiều 으로 끊습니다.",
+      "toneKo": "건강 답변 마무리에 좋습니다."
+    },
+    {
+      "id": "day08-note-p-009",
+      "text": "Môi trường càng ngày càng ô nhiễm.",
+      "hintKo": "환경은 점점 더 오염되고 있습니다.",
+      "audioSrc": "",
+      "sourcePage": 8,
+      "reviewNeeded": false,
+      "pronKo": "모이 쯔엉 깡 응아이 깡 오 니엠",
+      "mouthKo": "Môi trường / càng ngày càng / ô nhiễm 으로 끊습니다.",
+      "toneKo": "càng ngày càng은 점점 더입니다."
+    },
+    {
+      "id": "day08-note-p-010",
+      "text": "Tôi bảo vệ môi trường bằng cách tiết kiệm điện và tiết kiệm nước.",
+      "hintKo": "저는 전기와 물을 절약하는 방식으로 환경을 보호합니다.",
+      "audioSrc": "",
+      "sourcePage": 8,
+      "reviewNeeded": false,
+      "pronKo": "또이 바오 베 모이 쯔엉 방 까익 띠엣 끼엠 디엔 바 띠엣 끼엠 느억",
+      "mouthKo": "Tôi bảo vệ môi trường / bằng cách / tiết kiệm điện... 으로 끊습니다.",
+      "toneKo": "bằng cách은 '~하는 방식으로'입니다."
+    },
+    {
+      "id": "day08-note-p-011",
+      "text": "Đối với tôi, dưới bốn ki-lô-mét là khoảng cách gần.",
+      "hintKo": "저에게 4킬로미터 이하는 가까운 거리입니다.",
+      "audioSrc": "",
+      "sourcePage": 8,
+      "reviewNeeded": false,
+      "pronKo": "도이 버이 또이, 즈어이 본 킬로멧 라 코앙 까익 건",
+      "mouthKo": "Đối với tôi / dưới bốn ki-lô-mét / là khoảng cách gần 으로 끊습니다.",
+      "toneKo": "거리 기준 말하기입니다."
+    },
+    {
+      "id": "day08-note-p-012",
+      "text": "Nếu khoảng cách gần, tôi sẽ đi bộ.",
+      "hintKo": "거리가 가까우면 저는 걸어갈 것입니다.",
+      "audioSrc": "",
+      "sourcePage": 8,
+      "reviewNeeded": false,
+      "pronKo": "네우 코앙 까익 건, 또이 세 디 보",
+      "mouthKo": "Nếu khoảng cách gần / tôi sẽ đi bộ 으로 끊습니다.",
+      "toneKo": "조건문 기본 문장입니다."
+    },
+    {
+      "id": "day08-note-p-013",
+      "text": "Taxi cũng được, nhưng hơi đắt.",
+      "hintKo": "택시도 괜찮지만 조금 비쌉니다.",
+      "audioSrc": "",
+      "sourcePage": 8,
+      "reviewNeeded": false,
+      "pronKo": "딱시 꿍 드억, 느응 허이 닷",
+      "mouthKo": "Taxi cũng được / nhưng hơi đắt 으로 끊습니다.",
+      "toneKo": "cũng được는 '~도 괜찮다'입니다."
+    },
+    {
+      "id": "day08-note-p-014",
+      "text": "Tôi đã bị tai nạn giao thông nhẹ.",
+      "hintKo": "저는 가벼운 교통사고를 당했습니다.",
+      "audioSrc": "",
+      "sourcePage": 8,
+      "reviewNeeded": false,
+      "pronKo": "또이 다 비 따이 난 자오 통 녜",
+      "mouthKo": "Tôi đã bị / tai nạn giao thông nhẹ 으로 끊습니다.",
+      "toneKo": "bị는 안 좋은 일을 당할 때 자주 씁니다."
+    }
+  ],
+  "quizSeeds": [
+    {
+      "id": "day08-note-q-001",
+      "type": "match-term",
+      "prompt": "기술 핵심 단어 매칭 1",
+      "sourcePage": 8,
+      "reviewNeeded": false,
+      "answerSet": [
+        "cũ-오래된/낡은",
+        "mới-새로운",
+        "lâu-오래",
+        "nhanh-빠르다",
+        "vào mạng-인터넷에 접속하다",
+        "lên mạng-인터넷에 접속하다"
+      ]
+    },
+    {
+      "id": "day08-note-q-002",
+      "type": "match-term",
+      "prompt": "기술 핵심 단어 매칭 2",
+      "sourcePage": 8,
+      "reviewNeeded": false,
+      "answerSet": [
+        "dùng AI-AI를 사용하다",
+        "tìm thông tin-정보를 찾다",
+        "tiết kiệm thời gian-시간을 절약하다",
+        "tiết kiệm tiền-돈을 절약하다",
+        "robot lau nhà-로봇청소기",
+        "máy rửa bát-식기세척기"
+      ]
+    },
+    {
+      "id": "day08-note-q-003",
+      "type": "match-term",
+      "prompt": "디지털 생활 단어 매칭",
+      "sourcePage": 8,
+      "reviewNeeded": false,
+      "answerSet": [
+        "máy tính bàn-데스크톱 컴퓨터",
+        "máy tính bảng-태블릿",
+        "chụp ảnh-사진을 찍다",
+        "gọi điện thoại-전화를 걸다",
+        "gọi đồ ăn-음식을 배달 주문하다",
+        "đặt hàng-주문하다"
+      ]
+    },
+    {
+      "id": "day08-note-q-004",
+      "type": "match-term",
+      "prompt": "장단점 표현 매칭",
+      "sourcePage": 8,
+      "reviewNeeded": false,
+      "answerSet": [
+        "ưu điểm-장점",
+        "nhược điểm-단점",
+        "tăng-증가하다/오르다",
+        "giảm-감소하다/내려가다",
+        "có lợi ích là-이점은 ~이다",
+        "tiện lợi-편리하다"
+      ]
+    },
+    {
+      "id": "day08-note-q-005",
+      "type": "match-term",
+      "prompt": "건강 단어 매칭",
+      "sourcePage": 8,
+      "reviewNeeded": false,
+      "answerSet": [
+        "khỏe-건강하다",
+        "sức khỏe-건강",
+        "bị ốm-아프다",
+        "bị bệnh-병에 걸리다",
+        "đau-아프다/통증이 있다",
+        "bệnh viện-병원"
+      ]
+    },
+    {
+      "id": "day08-note-q-006",
+      "type": "match-term",
+      "prompt": "건강 습관 단어 매칭",
+      "sourcePage": 8,
+      "reviewNeeded": false,
+      "answerSet": [
+        "đi ngủ sớm-일찍 자다",
+        "đi ngủ muộn-늦게 자다",
+        "thức khuya-늦게까지 깨어 있다",
+        "ăn uống đầy đủ-충분히 먹다",
+        "hút thuốc-담배를 피우다",
+        "uống rượu-술을 마시다"
+      ]
+    },
+    {
+      "id": "day08-note-q-007",
+      "type": "match-term",
+      "prompt": "환경 단어 매칭",
+      "sourcePage": 8,
+      "reviewNeeded": false,
+      "answerSet": [
+        "môi trường-환경",
+        "ô nhiễm-오염",
+        "ô nhiễm không khí-대기오염",
+        "ô nhiễm nước-수질오염",
+        "ô nhiễm đất-토양오염",
+        "ô nhiễm tiếng ồn-소음공해"
+      ]
+    },
+    {
+      "id": "day08-note-q-008",
+      "type": "match-term",
+      "prompt": "환경 실천 단어 매칭",
+      "sourcePage": 8,
+      "reviewNeeded": false,
+      "answerSet": [
+        "phân loại rác-쓰레기를 분리하다",
+        "vứt rác-쓰레기를 버리다",
+        "túi ni-lông-비닐봉지",
+        "sản phẩm tái chế-재활용 제품",
+        "bảo vệ môi trường-환경을 보호하다",
+        "tiết kiệm điện-전기를 절약하다"
+      ]
+    },
+    {
+      "id": "day08-note-q-009",
+      "type": "match-term",
+      "prompt": "교통 단어 매칭",
+      "sourcePage": 8,
+      "reviewNeeded": false,
+      "answerSet": [
+        "tắc đường-길이 막히다",
+        "lái xe riêng-자가용을 운전하다",
+        "xe đạp-자전거",
+        "đi xe đạp-자전거를 타다",
+        "xe đạp công cộng-공공자전거",
+        "tai nạn giao thông-교통사고"
+      ]
+    },
+    {
+      "id": "day08-note-q-010",
+      "type": "sentence-meaning",
+      "prompt": "기술 질문 뜻 고르기",
+      "sourcePage": 8,
+      "reviewNeeded": false,
+      "answerSet": [
+        "Anh dùng AI vào việc gì?-당신은 AI를 무엇에 사용하나요?",
+        "Anh thường mua điện thoại mới sau bao lâu?-얼마 후에 새 휴대폰을 사나요?",
+        "Anh có thể không dùng điện thoại trong một ngày không?-하루 동안 휴대폰을 사용하지 않을 수 있나요?",
+        "Công nghệ có lợi ích gì?-기술은 어떤 이점이 있나요?"
+      ]
+    },
+    {
+      "id": "day08-note-q-011",
+      "type": "sentence-meaning",
+      "prompt": "건강 질문 뜻 고르기",
+      "sourcePage": 8,
+      "reviewNeeded": false,
+      "answerSet": [
+        "Anh có khỏe không?-건강하세요?",
+        "Sức khỏe của anh thế nào?-건강 상태가 어떤가요?",
+        "Anh có hay thức khuya không?-늦게 자는 편인가요?",
+        "Anh làm gì để có sức khỏe tốt?-건강을 위해 무엇을 하나요?"
+      ]
+    },
+    {
+      "id": "day08-note-q-012",
+      "type": "sentence-meaning",
+      "prompt": "환경 질문 뜻 고르기",
+      "sourcePage": 8,
+      "reviewNeeded": false,
+      "answerSet": [
+        "Anh có quan tâm đến môi trường không?-환경에 관심이 있나요?",
+        "Anh làm gì để bảo vệ môi trường?-환경을 보호하기 위해 무엇을 하나요?",
+        "Ở Hàn Quốc có phải phân loại rác không?-한국에서는 쓰레기를 분리해야 하나요?",
+        "Môi trường ở Hàn Quốc có bị ô nhiễm không?-한국의 환경은 오염되어 있나요?"
+      ]
+    },
+    {
+      "id": "day08-note-q-013",
+      "type": "sentence-meaning",
+      "prompt": "교통 질문 뜻 고르기",
+      "sourcePage": 8,
+      "reviewNeeded": false,
+      "answerSet": [
+        "Anh đi làm bằng phương tiện gì?-어떤 교통수단으로 출근하나요?",
+        "Nếu khoảng cách gần, anh sẽ đi bộ hay đi taxi?-거리가 가까우면 걸어가나요, 택시를 타나요?",
+        "Anh đã bị tai nạn giao thông bao giờ chưa?-교통사고를 당한 적이 있나요?",
+        "Anh có tự lái xe không?-직접 운전하나요?"
+      ]
+    },
+    {
+      "id": "day08-note-q-014",
+      "type": "fill-blank",
+      "prompt": "빈칸 채우기: 저는 AI를 베트남어 공부에 사용합니다.",
+      "sourcePage": 8,
+      "reviewNeeded": false,
+      "question": "Tôi dùng AI vào việc ___ tiếng Việt.",
+      "answer": "học"
+    },
+    {
+      "id": "day08-note-q-015",
+      "type": "fill-blank",
+      "prompt": "빈칸 채우기: 기술은 시간을 절약하게 해줍니다.",
+      "sourcePage": 8,
+      "reviewNeeded": false,
+      "question": "Công nghệ giúp tôi tiết kiệm ___ ___.",
+      "answer": "thời gian"
+    },
+    {
+      "id": "day08-note-q-016",
+      "type": "fill-blank",
+      "prompt": "빈칸 채우기: 저는 2년마다 새 휴대폰을 삽니다.",
+      "sourcePage": 8,
+      "reviewNeeded": false,
+      "question": "Tôi mua điện thoại mới ___ hai năm.",
+      "answer": "mỗi"
+    },
+    {
+      "id": "day08-note-q-017",
+      "type": "fill-blank",
+      "prompt": "빈칸 채우기: 저는 건강을 위해 일찍 잡니다.",
+      "sourcePage": 8,
+      "reviewNeeded": false,
+      "question": "Tôi đi ngủ sớm để có ___ ___ tốt.",
+      "answer": "sức khỏe"
+    },
+    {
+      "id": "day08-note-q-018",
+      "type": "fill-blank",
+      "prompt": "빈칸 채우기: 환경은 점점 더 오염되고 있습니다.",
+      "sourcePage": 8,
+      "reviewNeeded": false,
+      "question": "Môi trường ___ ___ ___ ô nhiễm.",
+      "answer": "càng ngày càng"
+    },
+    {
+      "id": "day08-note-q-019",
+      "type": "fill-blank",
+      "prompt": "빈칸 채우기: 저는 쓰레기를 분리합니다.",
+      "sourcePage": 8,
+      "reviewNeeded": false,
+      "question": "Tôi ___ ___ rác.",
+      "answer": "phân loại"
+    },
+    {
+      "id": "day08-note-q-020",
+      "type": "fill-blank",
+      "prompt": "빈칸 채우기: 거리가 가까우면 저는 걸어갑니다.",
+      "sourcePage": 8,
+      "reviewNeeded": false,
+      "question": "Nếu khoảng cách gần, tôi sẽ ___ ___.",
+      "answer": "đi bộ"
+    },
+    {
+      "id": "day08-note-q-021",
+      "type": "match-term",
+      "prompt": "AI 답변 순서 맞추기",
+      "sourcePage": 8,
+      "reviewNeeded": false,
+      "answerSet": [
+        "1-Tôi thường dùng AI vào việc học tiếng Việt.",
+        "2-Khi tôi không biết một từ mới, tôi hỏi AI.",
+        "3-AI giúp tôi sửa lỗi và tìm ví dụ.",
+        "4-Ngoài ra, tôi dùng AI để tìm thông tin.",
+        "5-Nhờ AI, tôi có thể tiết kiệm thời gian.",
+        "6-Theo tôi, AI rất tiện lợi."
+      ]
+    },
+    {
+      "id": "day08-note-q-022",
+      "type": "match-term",
+      "prompt": "건강 답변 순서 맞추기",
+      "sourcePage": 8,
+      "reviewNeeded": false,
+      "answerSet": [
+        "1-Dạo này sức khỏe của tôi bình thường.",
+        "2-Đôi khi tôi hơi mệt vì công việc bận.",
+        "3-Vì vậy, tôi cố gắng đi ngủ sớm.",
+        "4-Tôi cũng ăn uống đầy đủ và uống nhiều nước.",
+        "5-Tôi không hút thuốc và không uống rượu nhiều.",
+        "6-Theo tôi, sức khỏe rất quan trọng."
+      ]
+    },
+    {
+      "id": "day08-note-q-023",
+      "type": "match-term",
+      "prompt": "환경 답변 순서 맞추기",
+      "sourcePage": 8,
+      "reviewNeeded": false,
+      "answerSet": [
+        "1-Tôi rất quan tâm đến môi trường.",
+        "2-Môi trường càng ngày càng ô nhiễm.",
+        "3-Tôi bảo vệ môi trường bằng cách tiết kiệm điện và nước.",
+        "4-Tôi cũng phân loại rác ở nhà.",
+        "5-Ngoài ra, tôi cố gắng sử dụng sản phẩm tái chế.",
+        "6-Tôi nghĩ mọi người nên cùng nhau bảo vệ môi trường."
+      ]
+    },
+    {
+      "id": "day08-note-q-024",
+      "type": "match-term",
+      "prompt": "교통 답변 순서 맞추기",
+      "sourcePage": 8,
+      "reviewNeeded": false,
+      "answerSet": [
+        "1-Tôi thường đi làm bằng ô tô riêng.",
+        "2-Nhưng vào giờ cao điểm, đường hay bị tắc.",
+        "3-Nếu khoảng cách gần, tôi sẽ đi bộ.",
+        "4-Nếu hơn bốn ki-lô-mét, tôi sẽ đi xe đạp công cộng.",
+        "5-Taxi cũng được, nhưng hơi đắt.",
+        "6-Vì vậy, tôi chọn phương tiện tùy theo tình huống."
+      ]
+    }
+  ],
+  "unlockCondition": "always",
+  "reviewNeeded": false
+    },
+    {
   "lessonId": "day-008-transportation",
   "unitLabel": "8일차",
   "titleKo": "8일차: 교통",
