@@ -19,6 +19,1117 @@
   },
   "lessons": [
     {
+  "lessonId": "day-008-health",
+  "unitLabel": "8일차",
+  "titleKo": "8일차: 건강",
+  "titleVi": "Ngày 8: Sức khỏe",
+  "pageRange": "8일차 / Chủ đề 19: Sức khỏe",
+  "goals": [
+    "건강 상태를 간단히 말할 수 있다",
+    "아픈지, 병이 있는지, 건강검진을 받는지 말할 수 있다",
+    "운동, 수면, 물 마시기, 식습관에 대해 말할 수 있다",
+    "담배, 술, 늦게 자기 같은 건강 습관을 말할 수 있다",
+    "건강을 유지하기 위해 무엇을 해야 하는지 의견을 말할 수 있다"
+  ],
+  "topicOverview": "건강 주제는 OPIC에서 일상 습관을 말하기 좋은 주제입니다. 어려운 의학 표현보다 '나는 건강한 편이다 → 운동한다 → 물을 많이 마신다 → 잠을 충분히 잔다 → 건강검진을 받는다 → 건강을 위해 노력한다' 순서로 말하면 안정적입니다. 특히 'Tôi cố gắng...' यानी '저는 노력합니다' 표현을 넣으면 초급 답변도 자연스럽고 성실하게 들립니다.",
+  "cultureTopics": [
+    "건강 상태",
+    "운동",
+    "식습관",
+    "수면 습관",
+    "물 마시기",
+    "영양제",
+    "건강검진",
+    "병",
+    "약",
+    "담배",
+    "술",
+    "늦게 자기",
+    "일찍 일어나기",
+    "건강한 생활습관",
+    "건강 관리"
+  ],
+  "vocabCards": [
+    {
+      "id": "day08-health-v-001",
+      "term": "khỏe",
+      "meaningKo": "건강하다",
+      "example": "Tôi rất khỏe.",
+      "exampleMeaningKo": "저는 매우 건강합니다.",
+      "audioSrc": "",
+      "sourcePage": 8,
+      "reviewNeeded": false,
+      "pronKo": "쾌",
+      "pronNoteKo": "건강 상태를 말할 때 가장 기본 단어입니다.",
+      "pronChunks": ["khỏe=쾌"]
+    },
+    {
+      "id": "day08-health-v-002",
+      "term": "sức khỏe",
+      "meaningKo": "건강",
+      "example": "Sức khỏe của tôi khá tốt.",
+      "exampleMeaningKo": "제 건강은 꽤 좋습니다.",
+      "audioSrc": "",
+      "sourcePage": 8,
+      "reviewNeeded": false,
+      "pronKo": "쓱 쾌",
+      "pronNoteKo": "sức khỏe của tôi는 '나의 건강'입니다.",
+      "pronChunks": ["sức=쓱", "khỏe=쾌"]
+    },
+    {
+      "id": "day08-health-v-003",
+      "term": "tốt",
+      "meaningKo": "좋다",
+      "example": "Sức khỏe của tôi tốt.",
+      "exampleMeaningKo": "제 건강은 좋습니다.",
+      "audioSrc": "",
+      "sourcePage": 8,
+      "reviewNeeded": false,
+      "pronKo": "똣",
+      "pronNoteKo": "건강, 날씨, 사람 평가 등에 두루 쓰는 기본 형용사입니다.",
+      "pronChunks": ["tốt=똣"]
+    },
+    {
+      "id": "day08-health-v-004",
+      "term": "ốm",
+      "meaningKo": "아프다",
+      "example": "Tôi không hay bị ốm.",
+      "exampleMeaningKo": "저는 자주 아프지 않습니다.",
+      "audioSrc": "",
+      "sourcePage": 8,
+      "reviewNeeded": false,
+      "pronKo": "옴",
+      "pronNoteKo": "bị ốm은 '아프게 되다'라는 느낌입니다.",
+      "pronChunks": ["ốm=옴"]
+    },
+    {
+      "id": "day08-health-v-005",
+      "term": "bệnh",
+      "meaningKo": "병",
+      "example": "Tôi không có bệnh gì.",
+      "exampleMeaningKo": "저는 특별한 병이 없습니다.",
+      "audioSrc": "",
+      "sourcePage": 8,
+      "reviewNeeded": false,
+      "pronKo": "벤",
+      "pronNoteKo": "có bệnh은 '병이 있다'입니다.",
+      "pronChunks": ["bệnh=벤"]
+    },
+    {
+      "id": "day08-health-v-006",
+      "term": "tập thể dục",
+      "meaningKo": "운동하다",
+      "example": "Tôi tập thể dục vào cuối tuần.",
+      "exampleMeaningKo": "저는 주말에 운동합니다.",
+      "audioSrc": "",
+      "sourcePage": 8,
+      "reviewNeeded": false,
+      "pronKo": "떱 테 죽",
+      "pronNoteKo": "운동 주제와 건강 주제 모두에서 핵심 표현입니다.",
+      "pronChunks": ["tập=떱", "thể dục=테 죽"]
+    },
+    {
+      "id": "day08-health-v-007",
+      "term": "ăn uống",
+      "meaningKo": "식사 / 음식 섭취",
+      "example": "Tôi cố gắng ăn uống đầy đủ.",
+      "exampleMeaningKo": "저는 충분히 잘 먹으려고 노력합니다.",
+      "audioSrc": "",
+      "sourcePage": 8,
+      "reviewNeeded": false,
+      "pronKo": "안 우옹",
+      "pronNoteKo": "먹고 마시는 습관 전체를 말할 때 씁니다.",
+      "pronChunks": ["ăn=안", "uống=우옹"]
+    },
+    {
+      "id": "day08-health-v-008",
+      "term": "đầy đủ",
+      "meaningKo": "충분하다 / 빠짐없다",
+      "example": "Tôi ăn uống đầy đủ.",
+      "exampleMeaningKo": "저는 충분히 식사합니다.",
+      "audioSrc": "",
+      "sourcePage": 8,
+      "reviewNeeded": false,
+      "pronKo": "더이 두",
+      "pronNoteKo": "ăn uống đầy đủ는 건강 답변에 아주 자주 쓰기 좋습니다.",
+      "pronChunks": ["đầy=더이", "đủ=두"]
+    },
+    {
+      "id": "day08-health-v-009",
+      "term": "ngủ",
+      "meaningKo": "자다",
+      "example": "Tôi ngủ khoảng bảy tiếng một ngày.",
+      "exampleMeaningKo": "저는 하루에 약 7시간 잡니다.",
+      "audioSrc": "",
+      "sourcePage": 8,
+      "reviewNeeded": false,
+      "pronKo": "응우",
+      "pronNoteKo": "수면 시간 질문에 필수입니다.",
+      "pronChunks": ["ngủ=응우"]
+    },
+    {
+      "id": "day08-health-v-010",
+      "term": "một ngày",
+      "meaningKo": "하루",
+      "example": "Một ngày tôi ngủ khoảng sáu tiếng.",
+      "exampleMeaningKo": "하루에 저는 약 6시간 잡니다.",
+      "audioSrc": "",
+      "sourcePage": 8,
+      "reviewNeeded": false,
+      "pronKo": "못 응아이",
+      "pronNoteKo": "빈도와 시간 표현에서 자주 씁니다.",
+      "pronChunks": ["một=못", "ngày=응아이"]
+    },
+    {
+      "id": "day08-health-v-011",
+      "term": "đủ",
+      "meaningKo": "충분하다",
+      "example": "Tôi nghĩ bảy tiếng là đủ.",
+      "exampleMeaningKo": "저는 7시간이면 충분하다고 생각합니다.",
+      "audioSrc": "",
+      "sourcePage": 8,
+      "reviewNeeded": false,
+      "pronKo": "두",
+      "pronNoteKo": "mấy tiếng là đủ는 '몇 시간이 충분한가'입니다.",
+      "pronChunks": ["đủ=두"]
+    },
+    {
+      "id": "day08-health-v-012",
+      "term": "nước",
+      "meaningKo": "물",
+      "example": "Tôi uống nhiều nước mỗi ngày.",
+      "exampleMeaningKo": "저는 매일 물을 많이 마십니다.",
+      "audioSrc": "",
+      "sourcePage": 8,
+      "reviewNeeded": false,
+      "pronKo": "느억",
+      "pronNoteKo": "건강 습관에서 가장 쉬운 답변 재료입니다.",
+      "pronChunks": ["nước=느억"]
+    },
+    {
+      "id": "day08-health-v-013",
+      "term": "thuốc",
+      "meaningKo": "약",
+      "example": "Khi bị ốm, tôi uống thuốc.",
+      "exampleMeaningKo": "아플 때 저는 약을 먹습니다.",
+      "audioSrc": "",
+      "sourcePage": 8,
+      "reviewNeeded": false,
+      "pronKo": "투옥",
+      "pronNoteKo": "uống thuốc은 직역하면 '약을 마시다'지만 한국어로는 '약을 먹다'입니다.",
+      "pronChunks": ["thuốc=투옥"]
+    },
+    {
+      "id": "day08-health-v-014",
+      "term": "uống thuốc",
+      "meaningKo": "약을 먹다",
+      "example": "Tôi không thường xuyên uống thuốc.",
+      "exampleMeaningKo": "저는 약을 자주 먹지 않습니다.",
+      "audioSrc": "",
+      "sourcePage": 8,
+      "reviewNeeded": false,
+      "pronKo": "우옹 투옥",
+      "pronNoteKo": "베트남어에서는 약도 uống을 사용합니다.",
+      "pronChunks": ["uống=우옹", "thuốc=투옥"]
+    },
+    {
+      "id": "day08-health-v-015",
+      "term": "thuốc bổ",
+      "meaningKo": "영양제",
+      "example": "Tôi thỉnh thoảng uống thuốc bổ.",
+      "exampleMeaningKo": "저는 가끔 영양제를 먹습니다.",
+      "audioSrc": "",
+      "sourcePage": 8,
+      "reviewNeeded": false,
+      "pronKo": "투옥 보",
+      "pronNoteKo": "건강 관리 습관을 말할 때 좋습니다.",
+      "pronChunks": ["thuốc=투옥", "bổ=보"]
+    },
+    {
+      "id": "day08-health-v-016",
+      "term": "quan tâm",
+      "meaningKo": "관심이 있다",
+      "example": "Tôi quan tâm nhiều đến sức khỏe.",
+      "exampleMeaningKo": "저는 건강에 관심이 많습니다.",
+      "audioSrc": "",
+      "sourcePage": 8,
+      "reviewNeeded": false,
+      "pronKo": "꽌 떰",
+      "pronNoteKo": "quan tâm đến은 '~에 관심이 있다'입니다.",
+      "pronChunks": ["quan=꽌", "tâm=떰"]
+    },
+    {
+      "id": "day08-health-v-017",
+      "term": "chế độ ăn uống",
+      "meaningKo": "식습관 / 식단",
+      "example": "Tôi quan tâm đến chế độ ăn uống.",
+      "exampleMeaningKo": "저는 식습관에 관심이 있습니다.",
+      "audioSrc": "",
+      "sourcePage": 8,
+      "reviewNeeded": false,
+      "pronKo": "쩨 도 안 우옹",
+      "pronNoteKo": "건강 주제에서 점수 올리기 좋은 표현입니다.",
+      "pronChunks": ["chế độ=쩨 도", "ăn uống=안 우옹"]
+    },
+    {
+      "id": "day08-health-v-018",
+      "term": "hút thuốc",
+      "meaningKo": "담배를 피우다",
+      "example": "Tôi không hút thuốc.",
+      "exampleMeaningKo": "저는 담배를 피우지 않습니다.",
+      "audioSrc": "",
+      "sourcePage": 8,
+      "reviewNeeded": false,
+      "pronKo": "훗 투옥",
+      "pronNoteKo": "건강 답변에서 '안 한다'고 말하기 좋은 표현입니다.",
+      "pronChunks": ["hút=훗", "thuốc=투옥"]
+    },
+    {
+      "id": "day08-health-v-019",
+      "term": "uống rượu",
+      "meaningKo": "술을 마시다",
+      "example": "Tôi thỉnh thoảng uống rượu.",
+      "exampleMeaningKo": "저는 가끔 술을 마십니다.",
+      "audioSrc": "",
+      "sourcePage": 8,
+      "reviewNeeded": false,
+      "pronKo": "우옹 르어우",
+      "pronNoteKo": "술을 마시다는 uống rượu입니다.",
+      "pronChunks": ["uống=우옹", "rượu=르어우"]
+    },
+    {
+      "id": "day08-health-v-020",
+      "term": "thức khuya",
+      "meaningKo": "늦게 자다 / 밤늦게까지 깨어 있다",
+      "example": "Tôi hay thức khuya vì công việc.",
+      "exampleMeaningKo": "저는 일 때문에 자주 늦게 잡니다.",
+      "audioSrc": "",
+      "sourcePage": 8,
+      "reviewNeeded": false,
+      "pronKo": "특 쿠야",
+      "pronNoteKo": "건강에 안 좋은 습관을 말할 때 좋습니다.",
+      "pronChunks": ["thức=특", "khuya=쿠야"]
+    },
+    {
+      "id": "day08-health-v-021",
+      "term": "dậy sớm",
+      "meaningKo": "일찍 일어나다",
+      "example": "Tôi cố gắng dậy sớm.",
+      "exampleMeaningKo": "저는 일찍 일어나려고 노력합니다.",
+      "audioSrc": "",
+      "sourcePage": 8,
+      "reviewNeeded": false,
+      "pronKo": "저이 썸",
+      "pronNoteKo": "좋은 생활 습관을 말할 때 씁니다.",
+      "pronChunks": ["dậy=저이", "sớm=썸"]
+    },
+    {
+      "id": "day08-health-v-022",
+      "term": "kiểm tra sức khỏe",
+      "meaningKo": "건강검진 / 건강 상태를 확인하다",
+      "example": "Tôi kiểm tra sức khỏe mỗi năm.",
+      "exampleMeaningKo": "저는 매년 건강검진을 받습니다.",
+      "audioSrc": "",
+      "sourcePage": 8,
+      "reviewNeeded": false,
+      "pronKo": "끼엠 짜 쓱 쾌",
+      "pronNoteKo": "건강검진 질문에 핵심 표현입니다.",
+      "pronChunks": ["kiểm tra=끼엠 짜", "sức khỏe=쓱 쾌"]
+    },
+    {
+      "id": "day08-health-v-023",
+      "term": "đi kiểm tra sức khỏe",
+      "meaningKo": "건강검진을 받으러 가다",
+      "example": "Tôi thường đi kiểm tra sức khỏe một năm một lần.",
+      "exampleMeaningKo": "저는 보통 1년에 한 번 건강검진을 받으러 갑니다.",
+      "audioSrc": "",
+      "sourcePage": 8,
+      "reviewNeeded": false,
+      "pronKo": "디 끼엠 짜 쓱 쾌",
+      "pronNoteKo": "đi + 동사는 '~하러 가다'입니다.",
+      "pronChunks": ["đi=디", "kiểm tra sức khỏe=끼엠 짜 쓱 쾌"]
+    },
+    {
+      "id": "day08-health-v-024",
+      "term": "có bệnh",
+      "meaningKo": "병이 있다",
+      "example": "Tôi không có bệnh.",
+      "exampleMeaningKo": "저는 병이 없습니다.",
+      "audioSrc": "",
+      "sourcePage": 8,
+      "reviewNeeded": false,
+      "pronKo": "꼬 벤",
+      "pronNoteKo": "질문에서는 Anh có bệnh gì không? 형태로 나옵니다.",
+      "pronChunks": ["có=꼬", "bệnh=벤"]
+    },
+    {
+      "id": "day08-health-v-025",
+      "term": "không có bệnh",
+      "meaningKo": "병이 없다",
+      "example": "May mắn là tôi không có bệnh gì.",
+      "exampleMeaningKo": "다행히 저는 특별한 병이 없습니다.",
+      "audioSrc": "",
+      "sourcePage": 8,
+      "reviewNeeded": false,
+      "pronKo": "콩 꼬 벤",
+      "pronNoteKo": "건강 상태 답변을 깔끔하게 끝내기 좋습니다.",
+      "pronChunks": ["không có=콩 꼬", "bệnh=벤"]
+    },
+    {
+      "id": "day08-health-v-026",
+      "term": "quan tâm đến sức khỏe",
+      "meaningKo": "건강에 관심이 있다",
+      "example": "Dạo này tôi quan tâm đến sức khỏe.",
+      "exampleMeaningKo": "요즘 저는 건강에 관심이 있습니다.",
+      "audioSrc": "",
+      "sourcePage": 8,
+      "reviewNeeded": false,
+      "pronKo": "꽌 떰 덴 쓱 쾌",
+      "pronNoteKo": "Dạo này와 같이 쓰면 자연스럽습니다.",
+      "pronChunks": ["quan tâm đến=꽌 떰 덴", "sức khỏe=쓱 쾌"]
+    },
+    {
+      "id": "day08-health-v-027",
+      "term": "theo anh",
+      "meaningKo": "당신 생각에는",
+      "example": "Theo anh, làm thế nào để có sức khỏe tốt?",
+      "exampleMeaningKo": "당신 생각에는 어떻게 해야 건강이 좋아지나요?",
+      "audioSrc": "",
+      "sourcePage": 8,
+      "reviewNeeded": false,
+      "pronKo": "테오 아인",
+      "pronNoteKo": "의견을 묻는 질문 시작 표현입니다.",
+      "pronChunks": ["theo=테오", "anh=아인"]
+    },
+    {
+      "id": "day08-health-v-028",
+      "term": "để",
+      "meaningKo": "~하기 위해",
+      "example": "Tôi tập thể dục để có sức khỏe tốt.",
+      "exampleMeaningKo": "저는 건강이 좋아지기 위해 운동합니다.",
+      "audioSrc": "",
+      "sourcePage": 8,
+      "reviewNeeded": false,
+      "pronKo": "데",
+      "pronNoteKo": "목적을 말할 때 매우 자주 씁니다.",
+      "pronChunks": ["để=데"]
+    },
+    {
+      "id": "day08-health-v-029",
+      "term": "sức khỏe tốt",
+      "meaningKo": "좋은 건강 / 건강이 좋음",
+      "example": "Tôi muốn có sức khỏe tốt.",
+      "exampleMeaningKo": "저는 건강이 좋고 싶습니다.",
+      "audioSrc": "",
+      "sourcePage": 8,
+      "reviewNeeded": false,
+      "pronKo": "쓱 쾌 똣",
+      "pronNoteKo": "có sức khỏe tốt은 '건강이 좋다'입니다.",
+      "pronChunks": ["sức khỏe=쓱 쾌", "tốt=똣"]
+    },
+    {
+      "id": "day08-health-v-030",
+      "term": "giữ gìn sức khỏe",
+      "meaningKo": "건강을 유지하다 / 건강을 챙기다",
+      "example": "Tôi cố gắng giữ gìn sức khỏe.",
+      "exampleMeaningKo": "저는 건강을 유지하려고 노력합니다.",
+      "audioSrc": "",
+      "sourcePage": 8,
+      "reviewNeeded": false,
+      "pronKo": "즈 진 쓱 쾌",
+      "pronNoteKo": "건강 주제 마무리 문장으로 좋습니다.",
+      "pronChunks": ["giữ gìn=즈 진", "sức khỏe=쓱 쾌"]
+    },
+    {
+      "id": "day08-health-v-031",
+      "term": "lối sống lành mạnh",
+      "meaningKo": "건강한 생활습관",
+      "example": "Tôi muốn có lối sống lành mạnh.",
+      "exampleMeaningKo": "저는 건강한 생활습관을 갖고 싶습니다.",
+      "audioSrc": "",
+      "sourcePage": 8,
+      "reviewNeeded": false,
+      "pronKo": "로이 송 라인 마인",
+      "pronNoteKo": "조금 고급스럽지만 건강 답변에 아주 좋습니다.",
+      "pronChunks": ["lối sống=로이 송", "lành mạnh=라인 마인"]
+    }
+  ],
+  "sentenceCards": [
+    {
+      "id": "day08-health-s-001",
+      "textVi": "Anh có khỏe không?",
+      "textKo": "건강하세요?",
+      "exampleAnswerVi": "Có, tôi khá khỏe. Dạo này tôi hơi bận, nhưng tôi cố gắng tập thể dục và ngủ đủ.",
+      "exampleAnswerKo": "네, 저는 꽤 건강합니다. 요즘 조금 바쁘지만 운동하고 충분히 자려고 노력합니다.",
+      "audioSrc": "",
+      "sourcePage": 8,
+      "reviewNeeded": false,
+      "pronKo": "아인 꼬 쾌 콩?",
+      "exampleAnswerPronKo": "꼬, 또이 카 쾌. 자오 나이 또이 허이 번, 느응 또이 꼬 강 떱 테 죽 바 응우 두.",
+      "pronNoteKo": "khá khỏe는 '꽤 건강하다'입니다."
+    },
+    {
+      "id": "day08-health-s-002",
+      "textVi": "Sức khỏe của anh tốt không?",
+      "textKo": "당신의 건강은 좋은가요?",
+      "exampleAnswerVi": "Sức khỏe của tôi khá tốt. Tôi không có bệnh gì đặc biệt. Tuy nhiên, tôi cần ngủ nhiều hơn.",
+      "exampleAnswerKo": "제 건강은 꽤 좋습니다. 특별한 병은 없습니다. 하지만 잠을 더 많이 자야 합니다.",
+      "audioSrc": "",
+      "sourcePage": 8,
+      "reviewNeeded": false,
+      "pronKo": "쓱 쾌 꾸어 아인 똣 콩?",
+      "exampleAnswerPronKo": "쓱 쾌 꾸어 또이 카 똣. 또이 콩 꼬 벤 지 닥 비엣.",
+      "pronNoteKo": "của tôi는 '나의'입니다."
+    },
+    {
+      "id": "day08-health-s-003",
+      "textVi": "Anh có hay bị ốm không?",
+      "textKo": "자주 아프나요?",
+      "exampleAnswerVi": "Không, tôi không hay bị ốm. Nhưng khi thời tiết thay đổi, tôi thỉnh thoảng bị cảm nhẹ.",
+      "exampleAnswerKo": "아니요, 저는 자주 아프지 않습니다. 하지만 날씨가 바뀔 때 가끔 가벼운 감기에 걸립니다.",
+      "audioSrc": "",
+      "sourcePage": 8,
+      "reviewNeeded": false,
+      "pronKo": "아인 꼬 하이 비 옴 콩?",
+      "exampleAnswerPronKo": "콩, 또이 콩 하이 비 옴. 느응 키 터이 띠엣 타이 도이, 또이 틴 토앙 비 깜 녜.",
+      "pronNoteKo": "hay bị ốm은 '자주 아프다'입니다."
+    },
+    {
+      "id": "day08-health-s-004",
+      "textVi": "Anh có tập thể dục không?",
+      "textKo": "운동하나요?",
+      "exampleAnswerVi": "Có, tôi tập thể dục vào cuối tuần. Tôi thường chạy bộ ở công viên hoặc đi bộ với gia đình.",
+      "exampleAnswerKo": "네, 저는 주말에 운동합니다. 보통 공원에서 조깅하거나 가족과 산책합니다.",
+      "audioSrc": "",
+      "sourcePage": 8,
+      "reviewNeeded": false,
+      "pronKo": "아인 꼬 떱 테 죽 콩?",
+      "exampleAnswerPronKo": "꼬, 또이 떱 테 죽 바오 꾸오이 뚜언. 또이 트엉 짜이 보 어 꽁 비엔 호악 디 보 버이 자 딘.",
+      "pronNoteKo": "운동 답변은 조깅/산책과 연결하면 쉽습니다."
+    },
+    {
+      "id": "day08-health-s-005",
+      "textVi": "Anh có ăn uống đầy đủ không?",
+      "textKo": "충분히 잘 먹나요?",
+      "exampleAnswerVi": "Có, tôi cố gắng ăn uống đầy đủ. Buổi sáng tôi ăn cơm hoặc bánh mì, và tôi cũng uống cà phê.",
+      "exampleAnswerKo": "네, 저는 충분히 먹으려고 노력합니다. 아침에는 밥이나 빵을 먹고 커피도 마십니다.",
+      "audioSrc": "",
+      "sourcePage": 8,
+      "reviewNeeded": false,
+      "pronKo": "아인 꼬 안 우옹 더이 두 콩?",
+      "exampleAnswerPronKo": "꼬, 또이 꼬 강 안 우옹 더이 두.",
+      "pronNoteKo": "ăn uống đầy đủ는 건강한 식습관을 말할 때 좋습니다."
+    },
+    {
+      "id": "day08-health-s-006",
+      "textVi": "Anh ngủ mấy tiếng một ngày?",
+      "textKo": "하루에 몇 시간 자나요?",
+      "exampleAnswerVi": "Một ngày tôi ngủ khoảng sáu hoặc bảy tiếng. Nếu công việc bận quá, tôi chỉ ngủ khoảng năm tiếng.",
+      "exampleAnswerKo": "저는 하루에 약 6시간 또는 7시간 잡니다. 일이 너무 바쁘면 약 5시간만 잡니다.",
+      "audioSrc": "",
+      "sourcePage": 8,
+      "reviewNeeded": false,
+      "pronKo": "아인 응우 머이 띠엥 못 응아이?",
+      "exampleAnswerPronKo": "못 응아이 또이 응우 코앙 싸우 호악 바이 띠엥.",
+      "pronNoteKo": "khoảng은 '약'입니다."
+    },
+    {
+      "id": "day08-health-s-007",
+      "textVi": "Anh nghĩ một ngày ngủ mấy tiếng là đủ?",
+      "textKo": "하루에 몇 시간 자는 것이 충분하다고 생각하나요?",
+      "exampleAnswerVi": "Tôi nghĩ một ngày ngủ bảy hoặc tám tiếng là đủ. Nếu ngủ ít quá, tôi cảm thấy rất mệt.",
+      "exampleAnswerKo": "저는 하루에 7시간이나 8시간 자는 것이 충분하다고 생각합니다. 너무 적게 자면 저는 매우 피곤합니다.",
+      "audioSrc": "",
+      "sourcePage": 8,
+      "reviewNeeded": false,
+      "pronKo": "아인 응이 못 응아이 응우 머이 띠엥 라 두?",
+      "exampleAnswerPronKo": "또이 응이 못 응아이 응우 바이 호악 땀 띠엥 라 두.",
+      "pronNoteKo": "A là đủ는 'A이면 충분하다'입니다."
+    },
+    {
+      "id": "day08-health-s-008",
+      "textVi": "Anh có uống nhiều nước không?",
+      "textKo": "물을 많이 마시나요?",
+      "exampleAnswerVi": "Có, tôi cố gắng uống nhiều nước mỗi ngày. Tôi nghĩ uống nước rất tốt cho sức khỏe.",
+      "exampleAnswerKo": "네, 저는 매일 물을 많이 마시려고 노력합니다. 저는 물을 마시는 것이 건강에 매우 좋다고 생각합니다.",
+      "audioSrc": "",
+      "sourcePage": 8,
+      "reviewNeeded": false,
+      "pronKo": "아인 꼬 우옹 니에우 느억 콩?",
+      "exampleAnswerPronKo": "꼬, 또이 꼬 강 우옹 니에우 느억 모이 응아이.",
+      "pronNoteKo": "건강 주제에서 가장 쉬운 답변입니다."
+    },
+    {
+      "id": "day08-health-s-009",
+      "textVi": "Anh có uống thuốc bổ không?",
+      "textKo": "영양제를 먹나요?",
+      "exampleAnswerVi": "Có, tôi thỉnh thoảng uống thuốc bổ. Đặc biệt là khi tôi mệt, tôi uống vitamin.",
+      "exampleAnswerKo": "네, 저는 가끔 영양제를 먹습니다. 특히 피곤할 때 비타민을 먹습니다.",
+      "audioSrc": "",
+      "sourcePage": 8,
+      "reviewNeeded": false,
+      "pronKo": "아인 꼬 우옹 투옥 보 콩?",
+      "exampleAnswerPronKo": "꼬, 또이 틴 토앙 우옹 투옥 보.",
+      "pronNoteKo": "thỉnh thoảng은 '가끔'입니다."
+    },
+    {
+      "id": "day08-health-s-010",
+      "textVi": "Anh có quan tâm đến chế độ ăn không?",
+      "textKo": "식습관에 관심이 있나요?",
+      "exampleAnswerVi": "Có, dạo này tôi quan tâm đến chế độ ăn. Tôi cố gắng ăn rau, uống nước và không ăn quá nhiều đồ ngọt.",
+      "exampleAnswerKo": "네, 요즘 저는 식습관에 관심이 있습니다. 채소를 먹고, 물을 마시고, 단 음식을 너무 많이 먹지 않으려고 노력합니다.",
+      "audioSrc": "",
+      "sourcePage": 8,
+      "reviewNeeded": false,
+      "pronKo": "아인 꼬 꽌 떰 덴 쩨 도 안 콩?",
+      "exampleAnswerPronKo": "꼬, 자오 나이 또이 꽌 떰 덴 쩨 도 안.",
+      "pronNoteKo": "quan tâm đến은 '~에 관심이 있다'입니다."
+    },
+    {
+      "id": "day08-health-s-011",
+      "textVi": "Anh có hút thuốc không?",
+      "textKo": "담배를 피우나요?",
+      "exampleAnswerVi": "Không, tôi không hút thuốc. Tôi nghĩ hút thuốc không tốt cho sức khỏe.",
+      "exampleAnswerKo": "아니요, 저는 담배를 피우지 않습니다. 저는 담배를 피우는 것이 건강에 좋지 않다고 생각합니다.",
+      "audioSrc": "",
+      "sourcePage": 8,
+      "reviewNeeded": false,
+      "pronKo": "아인 꼬 훗 투옥 콩?",
+      "exampleAnswerPronKo": "콩, 또이 콩 훗 투옥.",
+      "pronNoteKo": "không tốt cho sức khỏe는 '건강에 좋지 않다'입니다."
+    },
+    {
+      "id": "day08-health-s-012",
+      "textVi": "Anh có uống rượu không?",
+      "textKo": "술을 마시나요?",
+      "exampleAnswerVi": "Có, nhưng tôi không uống rượu nhiều. Tôi chỉ uống một chút khi gặp bạn bè hoặc ăn tối với đồng nghiệp.",
+      "exampleAnswerKo": "네, 하지만 술을 많이 마시지는 않습니다. 친구를 만나거나 동료와 저녁을 먹을 때 조금만 마십니다.",
+      "audioSrc": "",
+      "sourcePage": 8,
+      "reviewNeeded": false,
+      "pronKo": "아인 꼬 우옹 르어우 콩?",
+      "exampleAnswerPronKo": "꼬, 느응 또이 콩 우옹 르어우 니에우.",
+      "pronNoteKo": "chỉ uống một chút은 '조금만 마신다'입니다."
+    },
+    {
+      "id": "day08-health-s-013",
+      "textVi": "Anh có hay thức khuya không?",
+      "textKo": "자주 늦게 자나요?",
+      "exampleAnswerVi": "Có, tôi hay thức khuya vì công việc và học tiếng Việt. Nhưng tôi biết thức khuya không tốt, nên tôi cố gắng ngủ sớm hơn.",
+      "exampleAnswerKo": "네, 저는 일과 베트남어 공부 때문에 자주 늦게 잡니다. 하지만 늦게 자는 것이 좋지 않다는 것을 알아서 더 일찍 자려고 노력합니다.",
+      "audioSrc": "",
+      "sourcePage": 8,
+      "reviewNeeded": false,
+      "pronKo": "아인 꼬 하이 특 쿠야 콩?",
+      "exampleAnswerPronKo": "꼬, 또이 하이 특 쿠야 비 꽁 비엑 바 혹 띠엥 비엣.",
+      "pronNoteKo": "나쁜 습관을 말한 뒤 노력 문장을 붙이면 좋습니다."
+    },
+    {
+      "id": "day08-health-s-014",
+      "textVi": "Anh dậy có sớm không?",
+      "textKo": "일찍 일어나나요?",
+      "exampleAnswerVi": "Tôi không dậy quá sớm. Thường thì tôi dậy lúc sáu giờ rưỡi để chuẩn bị đi làm.",
+      "exampleAnswerKo": "저는 너무 일찍 일어나지는 않습니다. 보통 출근 준비를 하기 위해 6시 반에 일어납니다.",
+      "audioSrc": "",
+      "sourcePage": 8,
+      "reviewNeeded": false,
+      "pronKo": "아인 저이 꼬 썸 콩?",
+      "exampleAnswerPronKo": "또이 콩 저이 꽈 썸. 트엉 티 또이 저이 룩 싸우 저 르어이.",
+      "pronNoteKo": "dậy lúc sáu giờ rưỡi는 '6시 반에 일어나다'입니다."
+    },
+    {
+      "id": "day08-health-s-015",
+      "textVi": "Anh có thường xuyên đi kiểm tra sức khỏe không?",
+      "textKo": "건강검진을 자주 받으러 가나요?",
+      "exampleAnswerVi": "Có, tôi thường đi kiểm tra sức khỏe một năm một lần. Theo tôi, kiểm tra sức khỏe rất quan trọng.",
+      "exampleAnswerKo": "네, 저는 보통 1년에 한 번 건강검진을 받으러 갑니다. 제 생각에 건강검진은 매우 중요합니다.",
+      "audioSrc": "",
+      "sourcePage": 8,
+      "reviewNeeded": false,
+      "pronKo": "아인 꼬 트엉 쑤옌 디 끼엠 짜 쓱 쾌 콩?",
+      "exampleAnswerPronKo": "꼬, 또이 트엉 디 끼엠 짜 쓱 쾌 못 남 못 런.",
+      "pronNoteKo": "một năm một lần은 '1년에 한 번'입니다."
+    },
+    {
+      "id": "day08-health-s-016",
+      "textVi": "Anh có bệnh gì không?",
+      "textKo": "어떤 병이 있나요?",
+      "exampleAnswerVi": "May mắn là tôi không có bệnh gì đặc biệt. Nhưng dạo này tôi hơi mệt vì công việc nhiều.",
+      "exampleAnswerKo": "다행히 저는 특별한 병은 없습니다. 하지만 요즘 일이 많아서 조금 피곤합니다.",
+      "audioSrc": "",
+      "sourcePage": 8,
+      "reviewNeeded": false,
+      "pronKo": "아인 꼬 벤 지 콩?",
+      "exampleAnswerPronKo": "마이 만 라 또이 콩 꼬 벤 지 닥 비엣.",
+      "pronNoteKo": "May mắn là은 '다행히'입니다."
+    },
+    {
+      "id": "day08-health-s-017",
+      "textVi": "Anh có quan tâm nhiều đến sức khỏe không?",
+      "textKo": "건강에 관심이 많나요?",
+      "exampleAnswerVi": "Có, dạo này tôi quan tâm nhiều đến sức khỏe. Vì tôi bận và hơi mệt, nên tôi muốn có lối sống lành mạnh hơn.",
+      "exampleAnswerKo": "네, 요즘 저는 건강에 관심이 많습니다. 바쁘고 조금 피곤하기 때문에 더 건강한 생활습관을 갖고 싶습니다.",
+      "audioSrc": "",
+      "sourcePage": 8,
+      "reviewNeeded": false,
+      "pronKo": "아인 꼬 꽌 떰 니에우 덴 쓱 쾌 콩?",
+      "exampleAnswerPronKo": "꼬, 자오 나이 또이 꽌 떰 니에우 덴 쓱 쾌.",
+      "pronNoteKo": "많이 관심 있다고 말할 때 quan tâm nhiều를 씁니다."
+    },
+    {
+      "id": "day08-health-s-018",
+      "textVi": "Theo anh, làm thế nào để có sức khỏe tốt?",
+      "textKo": "당신 생각에는 어떻게 해야 건강이 좋아지나요?",
+      "exampleAnswerVi": "Theo tôi, để có sức khỏe tốt, chúng ta nên tập thể dục thường xuyên, ăn uống đầy đủ, uống nhiều nước và ngủ đủ. Ngoài ra, chúng ta không nên hút thuốc, không nên uống rượu quá nhiều và không nên thức khuya. Tôi nghĩ sức khỏe rất quan trọng, nên tôi cố gắng giữ gìn sức khỏe mỗi ngày.",
+      "exampleAnswerKo": "제 생각에는 건강이 좋아지기 위해 우리는 자주 운동하고, 충분히 먹고, 물을 많이 마시고, 충분히 자야 합니다. 또한 담배를 피우면 안 되고, 술을 너무 많이 마시면 안 되고, 늦게 자면 안 됩니다. 저는 건강이 매우 중요하다고 생각해서 매일 건강을 챙기려고 노력합니다.",
+      "audioSrc": "",
+      "sourcePage": 8,
+      "reviewNeeded": false,
+      "pronKo": "테오 아인, 람 테 나오 데 꼬 쓱 쾌 똣?",
+      "exampleAnswerPronKo": "테오 또이, 데 꼬 쓱 쾌 똣, 쭝 따 넨 떱 테 죽 트엉 쑤옌, 안 우옹 더이 두, 우옹 니에우 느억 바 응우 두.",
+      "pronNoteKo": "의견형 문제입니다. nên / không nên을 섞어서 말하면 좋습니다."
+    }
+  ],
+  "dialogues": [
+    {
+      "id": "day08-health-d-001",
+      "title": "건강 상태 묻기",
+      "audioSrc": "",
+      "sourcePage": 8,
+      "reviewNeeded": false,
+      "lines": [
+        {
+          "speaker": "A",
+          "vi": "Anh có khỏe không?",
+          "ko": "건강하세요?",
+          "pronKo": "아인 꼬 쾌 콩?"
+        },
+        {
+          "speaker": "B",
+          "vi": "Có, tôi khá khỏe.",
+          "ko": "네, 저는 꽤 건강합니다.",
+          "pronKo": "꼬, 또이 카 쾌."
+        },
+        {
+          "speaker": "A",
+          "vi": "Anh có hay bị ốm không?",
+          "ko": "자주 아프나요?",
+          "pronKo": "아인 꼬 하이 비 옴 콩?"
+        },
+        {
+          "speaker": "B",
+          "vi": "Không, tôi không hay bị ốm.",
+          "ko": "아니요, 저는 자주 아프지 않습니다.",
+          "pronKo": "콩, 또이 콩 하이 비 옴."
+        }
+      ]
+    },
+    {
+      "id": "day08-health-d-002",
+      "title": "건강한 습관",
+      "audioSrc": "",
+      "sourcePage": 8,
+      "reviewNeeded": false,
+      "lines": [
+        {
+          "speaker": "A",
+          "vi": "Anh có tập thể dục không?",
+          "ko": "운동하나요?",
+          "pronKo": "아인 꼬 떱 테 죽 콩?"
+        },
+        {
+          "speaker": "B",
+          "vi": "Có, tôi tập thể dục vào cuối tuần.",
+          "ko": "네, 저는 주말에 운동합니다.",
+          "pronKo": "꼬, 또이 떱 테 죽 바오 꾸오이 뚜언."
+        },
+        {
+          "speaker": "A",
+          "vi": "Anh có uống nhiều nước không?",
+          "ko": "물을 많이 마시나요?",
+          "pronKo": "아인 꼬 우옹 니에우 느억 콩?"
+        },
+        {
+          "speaker": "B",
+          "vi": "Có, tôi uống nhiều nước mỗi ngày.",
+          "ko": "네, 저는 매일 물을 많이 마십니다.",
+          "pronKo": "꼬, 또이 우옹 니에우 느억 모이 응아이."
+        }
+      ]
+    },
+    {
+      "id": "day08-health-d-003",
+      "title": "건강을 유지하는 방법",
+      "audioSrc": "",
+      "sourcePage": 8,
+      "reviewNeeded": false,
+      "lines": [
+        {
+          "speaker": "A",
+          "vi": "Theo anh, làm thế nào để có sức khỏe tốt?",
+          "ko": "당신 생각에는 어떻게 해야 건강이 좋아지나요?",
+          "pronKo": "테오 아인, 람 테 나오 데 꼬 쓱 쾌 똣?"
+        },
+        {
+          "speaker": "B",
+          "vi": "Theo tôi, chúng ta nên tập thể dục thường xuyên.",
+          "ko": "제 생각에는 우리는 자주 운동해야 합니다.",
+          "pronKo": "테오 또이, 쭝 따 넨 떱 테 죽 트엉 쑤옌."
+        },
+        {
+          "speaker": "A",
+          "vi": "Ngoài ra, chúng ta nên làm gì?",
+          "ko": "그 외에 우리는 무엇을 해야 하나요?",
+          "pronKo": "응오아이 자, 쭝 따 넨 람 지?"
+        },
+        {
+          "speaker": "B",
+          "vi": "Chúng ta nên ăn uống đầy đủ, uống nhiều nước và ngủ đủ.",
+          "ko": "우리는 충분히 먹고, 물을 많이 마시고, 충분히 자야 합니다.",
+          "pronKo": "쭝 따 넨 안 우옹 더이 두, 우옹 니에우 느억 바 응우 두."
+        }
+      ]
+    }
+  ],
+  "grammarPoints": [
+    {
+      "id": "day08-health-g-001",
+      "title": "건강하세요?",
+      "pattern": "Anh có khỏe không?",
+      "meaningKo": "건강하세요?",
+      "sourcePage": 8,
+      "reviewNeeded": false
+    },
+    {
+      "id": "day08-health-g-002",
+      "title": "건강이 좋은가요?",
+      "pattern": "Sức khỏe của anh tốt không?",
+      "meaningKo": "당신의 건강은 좋은가요?",
+      "sourcePage": 8,
+      "reviewNeeded": false
+    },
+    {
+      "id": "day08-health-g-003",
+      "title": "자주 ~하나요?",
+      "pattern": "Anh có hay bị ốm không?",
+      "meaningKo": "자주 아프나요?",
+      "sourcePage": 8,
+      "reviewNeeded": false
+    },
+    {
+      "id": "day08-health-g-004",
+      "title": "하루에 몇 시간 ~하나요?",
+      "pattern": "Anh ngủ mấy tiếng một ngày?",
+      "meaningKo": "하루에 몇 시간 자나요?",
+      "sourcePage": 8,
+      "reviewNeeded": false
+    },
+    {
+      "id": "day08-health-g-005",
+      "title": "몇 시간이 충분한가요?",
+      "pattern": "Anh nghĩ một ngày ngủ mấy tiếng là đủ?",
+      "meaningKo": "하루에 몇 시간 자는 것이 충분하다고 생각하나요?",
+      "sourcePage": 8,
+      "reviewNeeded": false
+    },
+    {
+      "id": "day08-health-g-006",
+      "title": "~에 관심이 있다",
+      "pattern": "Tôi quan tâm đến sức khỏe.",
+      "meaningKo": "저는 건강에 관심이 있습니다.",
+      "sourcePage": 8,
+      "reviewNeeded": false
+    },
+    {
+      "id": "day08-health-g-007",
+      "title": "~하러 가다",
+      "pattern": "Tôi đi kiểm tra sức khỏe.",
+      "meaningKo": "저는 건강검진을 받으러 갑니다.",
+      "sourcePage": 8,
+      "reviewNeeded": false
+    },
+    {
+      "id": "day08-health-g-008",
+      "title": "병이 있나요?",
+      "pattern": "Anh có bệnh gì không?",
+      "meaningKo": "어떤 병이 있나요?",
+      "sourcePage": 8,
+      "reviewNeeded": false
+    },
+    {
+      "id": "day08-health-g-009",
+      "title": "~하기 위해",
+      "pattern": "Tôi tập thể dục để có sức khỏe tốt.",
+      "meaningKo": "저는 건강이 좋아지기 위해 운동합니다.",
+      "sourcePage": 8,
+      "reviewNeeded": false
+    },
+    {
+      "id": "day08-health-g-010",
+      "title": "~해야 한다 / ~하지 말아야 한다",
+      "pattern": "Chúng ta nên tập thể dục và không nên thức khuya.",
+      "meaningKo": "우리는 운동해야 하고 늦게 자면 안 됩니다.",
+      "sourcePage": 8,
+      "reviewNeeded": false
+    }
+  ],
+  "pronunciationTargets": [
+    {
+      "id": "day08-health-p-001",
+      "text": "Anh có khỏe không?",
+      "hintKo": "건강하세요?",
+      "audioSrc": "",
+      "sourcePage": 8,
+      "reviewNeeded": false,
+      "pronKo": "아인 꼬 쾌 콩",
+      "mouthKo": "Anh có / khỏe không 으로 끊습니다.",
+      "toneKo": "khỏe는 건강하다는 뜻입니다."
+    },
+    {
+      "id": "day08-health-p-002",
+      "text": "Sức khỏe của anh tốt không?",
+      "hintKo": "당신의 건강은 좋은가요?",
+      "audioSrc": "",
+      "sourcePage": 8,
+      "reviewNeeded": false,
+      "pronKo": "쓱 쾌 꾸어 아인 똣 콩",
+      "mouthKo": "Sức khỏe của anh / tốt không 으로 끊습니다.",
+      "toneKo": "sức khỏe는 '건강'입니다."
+    },
+    {
+      "id": "day08-health-p-003",
+      "text": "Anh có hay bị ốm không?",
+      "hintKo": "자주 아프나요?",
+      "audioSrc": "",
+      "sourcePage": 8,
+      "reviewNeeded": false,
+      "pronKo": "아인 꼬 하이 비 옴 콩",
+      "mouthKo": "Anh có hay / bị ốm không 으로 끊습니다.",
+      "toneKo": "hay는 여기서 '자주'입니다."
+    },
+    {
+      "id": "day08-health-p-004",
+      "text": "Anh ngủ mấy tiếng một ngày?",
+      "hintKo": "하루에 몇 시간 자나요?",
+      "audioSrc": "",
+      "sourcePage": 8,
+      "reviewNeeded": false,
+      "pronKo": "아인 응우 머이 띠엥 못 응아이",
+      "mouthKo": "Anh ngủ / mấy tiếng / một ngày 으로 끊습니다.",
+      "toneKo": "mấy tiếng은 '몇 시간'입니다."
+    },
+    {
+      "id": "day08-health-p-005",
+      "text": "Anh có uống nhiều nước không?",
+      "hintKo": "물을 많이 마시나요?",
+      "audioSrc": "",
+      "sourcePage": 8,
+      "reviewNeeded": false,
+      "pronKo": "아인 꼬 우옹 니에우 느억 콩",
+      "mouthKo": "Anh có uống / nhiều nước không 으로 끊습니다.",
+      "toneKo": "nước는 물입니다."
+    },
+    {
+      "id": "day08-health-p-006",
+      "text": "Anh có quan tâm đến chế độ ăn không?",
+      "hintKo": "식습관에 관심이 있나요?",
+      "audioSrc": "",
+      "sourcePage": 8,
+      "reviewNeeded": false,
+      "pronKo": "아인 꼬 꽌 떰 덴 쩨 도 안 콩",
+      "mouthKo": "Anh có quan tâm đến / chế độ ăn không 으로 끊습니다.",
+      "toneKo": "quan tâm đến은 '~에 관심이 있다'입니다."
+    },
+    {
+      "id": "day08-health-p-007",
+      "text": "Anh có thường xuyên đi kiểm tra sức khỏe không?",
+      "hintKo": "건강검진을 자주 받으러 가나요?",
+      "audioSrc": "",
+      "sourcePage": 8,
+      "reviewNeeded": false,
+      "pronKo": "아인 꼬 트엉 쑤옌 디 끼엠 짜 쓱 쾌 콩",
+      "mouthKo": "Anh có thường xuyên / đi kiểm tra sức khỏe không 으로 끊습니다.",
+      "toneKo": "kiểm tra sức khỏe는 건강검진입니다."
+    },
+    {
+      "id": "day08-health-p-008",
+      "text": "Theo anh, làm thế nào để có sức khỏe tốt?",
+      "hintKo": "당신 생각에는 어떻게 해야 건강이 좋아지나요?",
+      "audioSrc": "",
+      "sourcePage": 8,
+      "reviewNeeded": false,
+      "pronKo": "테오 아인, 람 테 나오 데 꼬 쓱 쾌 똣",
+      "mouthKo": "Theo anh / làm thế nào / để có sức khỏe tốt 으로 끊습니다.",
+      "toneKo": "의견형 질문입니다. 답변은 Theo tôi로 시작하면 좋습니다."
+    }
+  ],
+  "quizSeeds": [
+    {
+      "id": "day08-health-q-001",
+      "type": "match-term",
+      "prompt": "건강 기본 단어 매칭 1",
+      "answerSet": [
+        "khỏe-건강하다",
+        "sức khỏe-건강",
+        "tốt-좋다",
+        "ốm-아프다",
+        "bệnh-병",
+        "tập thể dục-운동하다"
+      ],
+      "sourcePage": 8,
+      "reviewNeeded": false
+    },
+    {
+      "id": "day08-health-q-002",
+      "type": "match-term",
+      "prompt": "건강 습관 단어 매칭 2",
+      "answerSet": [
+        "ăn uống-식사/음식 섭취",
+        "đầy đủ-충분하다",
+        "ngủ-자다",
+        "nước-물",
+        "uống thuốc-약을 먹다",
+        "thuốc bổ-영양제"
+      ],
+      "sourcePage": 8,
+      "reviewNeeded": false
+    },
+    {
+      "id": "day08-health-q-003",
+      "type": "match-term",
+      "prompt": "건강 관리 단어 매칭 3",
+      "answerSet": [
+        "quan tâm-관심이 있다",
+        "chế độ ăn uống-식습관",
+        "hút thuốc-담배를 피우다",
+        "uống rượu-술을 마시다",
+        "thức khuya-늦게 자다",
+        "dậy sớm-일찍 일어나다"
+      ],
+      "sourcePage": 8,
+      "reviewNeeded": false
+    },
+    {
+      "id": "day08-health-q-004",
+      "type": "match-term",
+      "prompt": "건강검진/의견 단어 매칭",
+      "answerSet": [
+        "kiểm tra sức khỏe-건강검진",
+        "đi kiểm tra sức khỏe-건강검진을 받으러 가다",
+        "có bệnh-병이 있다",
+        "không có bệnh-병이 없다",
+        "giữ gìn sức khỏe-건강을 유지하다",
+        "lối sống lành mạnh-건강한 생활습관"
+      ],
+      "sourcePage": 8,
+      "reviewNeeded": false
+    },
+    {
+      "id": "day08-health-q-005",
+      "type": "sentence-meaning",
+      "prompt": "건강 질문 뜻 고르기 1",
+      "answerSet": [
+        "Anh có khỏe không?-건강하세요?",
+        "Sức khỏe của anh tốt không?-당신의 건강은 좋은가요?",
+        "Anh có hay bị ốm không?-자주 아프나요?",
+        "Anh có tập thể dục không?-운동하나요?"
+      ],
+      "sourcePage": 8,
+      "reviewNeeded": false
+    },
+    {
+      "id": "day08-health-q-006",
+      "type": "sentence-meaning",
+      "prompt": "건강 질문 뜻 고르기 2",
+      "answerSet": [
+        "Anh ngủ mấy tiếng một ngày?-하루에 몇 시간 자나요?",
+        "Anh có uống nhiều nước không?-물을 많이 마시나요?",
+        "Anh có hút thuốc không?-담배를 피우나요?",
+        "Anh có uống rượu không?-술을 마시나요?"
+      ],
+      "sourcePage": 8,
+      "reviewNeeded": false
+    },
+    {
+      "id": "day08-health-q-007",
+      "type": "fill-blank",
+      "prompt": "빈칸 채우기: 저는 꽤 건강합니다.",
+      "question": "Tôi khá ___.",
+      "answer": "khỏe",
+      "sourcePage": 8,
+      "reviewNeeded": false
+    },
+    {
+      "id": "day08-health-q-008",
+      "type": "fill-blank",
+      "prompt": "빈칸 채우기: 저는 운동합니다.",
+      "question": "Tôi ___ ___ ___.",
+      "answer": "tập thể dục",
+      "sourcePage": 8,
+      "reviewNeeded": false
+    },
+    {
+      "id": "day08-health-q-009",
+      "type": "fill-blank",
+      "prompt": "빈칸 채우기: 저는 물을 많이 마십니다.",
+      "question": "Tôi uống nhiều ___.",
+      "answer": "nước",
+      "sourcePage": 8,
+      "reviewNeeded": false
+    },
+    {
+      "id": "day08-health-q-010",
+      "type": "fill-blank",
+      "prompt": "빈칸 채우기: 저는 담배를 피우지 않습니다.",
+      "question": "Tôi không ___ ___.",
+      "answer": "hút thuốc",
+      "sourcePage": 8,
+      "reviewNeeded": false
+    },
+    {
+      "id": "day08-health-q-011",
+      "type": "fill-blank",
+      "prompt": "빈칸 채우기: 저는 건강에 관심이 있습니다.",
+      "question": "Tôi ___ ___ đến sức khỏe.",
+      "answer": "quan tâm",
+      "sourcePage": 8,
+      "reviewNeeded": false
+    },
+    {
+      "id": "day08-health-q-012",
+      "type": "match-term",
+      "prompt": "건강 답변 순서 맞추기",
+      "answerSet": [
+        "1-Sức khỏe của tôi khá tốt.",
+        "2-Tôi không có bệnh gì đặc biệt.",
+        "3-Tôi cố gắng tập thể dục vào cuối tuần.",
+        "4-Tôi uống nhiều nước và ngủ đủ.",
+        "5-Tôi không hút thuốc và không uống rượu nhiều.",
+        "6-Theo tôi, sức khỏe rất quan trọng."
+      ],
+      "sourcePage": 8,
+      "reviewNeeded": false
+    },
+    {
+      "id": "day08-health-q-013",
+      "type": "match-term",
+      "prompt": "건강 유지 방법 순서 맞추기",
+      "answerSet": [
+        "1-Theo tôi, để có sức khỏe tốt, chúng ta nên tập thể dục.",
+        "2-Chúng ta nên ăn uống đầy đủ.",
+        "3-Chúng ta nên uống nhiều nước.",
+        "4-Chúng ta nên ngủ đủ.",
+        "5-Chúng ta không nên thức khuya.",
+        "6-Vì vậy, tôi cố gắng giữ gìn sức khỏe mỗi ngày."
+      ],
+      "sourcePage": 8,
+      "reviewNeeded": false
+    }
+  ],
+  "unlockCondition": "always",
+  "reviewNeeded": false
+    },
+    {
   "lessonId": "day-008-technology",
   "unitLabel": "8일차",
   "titleKo": "8일차: 기술 / 테크",
