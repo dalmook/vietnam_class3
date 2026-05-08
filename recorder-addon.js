@@ -80,7 +80,7 @@
   }
 
   const textNow = () => ($('[data-change="ttsInput"]')?.value || '').trim();
-  const mime = () => ['audio/webm;codecs=opus', 'audio/webm', 'audio/mp4'].find(t => { try { return MediaRecorder.isTypeSupported(t); } catch { return false; } }) || '';
+  const mime = () => ['audio/mp4;codecs=mp4a.40.2', 'audio/mp4', 'audio/webm;codecs=opus', 'audio/webm'].find(t => { try { return MediaRecorder.isTypeSupported(t); } catch { return false; } }) || '';
   const urlFor = row => state.urls.get(row.id) || (state.urls.set(row.id, URL.createObjectURL(row.blob)), state.urls.get(row.id));
   const stopTimer = () => { if (state.timer) clearInterval(state.timer); state.timer = null; };
   const stopStream = () => { if (state.stream) state.stream.getTracks().forEach(t => t.stop()); state.stream = null; };
