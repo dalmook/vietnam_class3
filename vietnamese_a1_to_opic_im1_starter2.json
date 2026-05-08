@@ -17,7 +17,1256 @@
     "updatedAt": "2026-04-26",
     "earlyCoreExpansionNote": "기존 항목은 유지하고, l1~l3 초반부에 인칭대명사·호칭·핵심동사·의문사·지시어·소유/함께 표현을 추가함. 신규 항목의 audioSrc는 TTS 생성용으로 빈 문자열 처리."
   },
-  "lessons": [],
+  "lessons": [
+    {
+  "lessonId": "key-expressions-001-basic-opic-connectors",
+  "unitLabel": "주요표현",
+  "titleKo": "주요표현 1: OPIc 답변을 길게 만드는 기본 표현",
+  "titleVi": "Cụm từ quan trọng 1: Cách nói dài câu trả lời OPIc",
+  "pageRange": "주요표현 / 의견·연결·시간·습관 표현",
+  "goals": [
+    "자기 의견을 자연스럽게 말할 수 있다",
+    "과거와 현재를 비교해서 말할 수 있다",
+    "답변을 순서대로 연결할 수 있다",
+    "이유와 결과를 말할 수 있다",
+    "습관, 필요, 가능, 의무, 조언을 말할 수 있다",
+    "OPIc 답변에서 문장을 길게 이어 말할 수 있다"
+  ],
+  "topicOverview": "이번 단원은 특정 주제 단어가 아니라, 모든 OPIc 주제에 공통으로 사용할 수 있는 주요표현입니다. 초급자는 단어를 많이 몰라도 '제 생각에는', '예전에는', '요즘에는', '먼저', '그 다음에', '그래서' 같은 표현만 잘 써도 답변이 훨씬 자연스럽고 길어집니다. 특히 의견 표현, 비교 표현, 추가 설명 표현, 순서 표현, 시간 표현은 거의 모든 답변에 사용할 수 있습니다.",
+  "cultureTopics": [
+    "의견 말하기",
+    "과거와 현재 비교하기",
+    "추가 설명하기",
+    "반대 내용 말하기",
+    "습관 말하기",
+    "가능/불가능 말하기",
+    "필요/불필요 말하기",
+    "의무/금지 말하기",
+    "조언 말하기",
+    "순서대로 말하기",
+    "이유와 결과 말하기",
+    "시간 표현 말하기",
+    "매일/모두/항상 표현하기"
+  ],
+  "vocabCards": [
+    {
+      "id": "ke001-v-001",
+      "term": "Tôi nghĩ là ...",
+      "meaningKo": "저는 ...라고 생각합니다",
+      "example": "Tôi nghĩ là học tiếng Việt rất thú vị.",
+      "exampleMeaningKo": "저는 베트남어 공부가 매우 재미있다고 생각합니다.",
+      "audioSrc": "",
+      "sourcePage": 0,
+      "reviewNeeded": false,
+      "pronKo": "또이 응이 라",
+      "pronNoteKo": "의견을 말할 때 가장 기본 표현입니다. là는 생략해도 됩니다.",
+      "pronChunks": ["Tôi=또이", "nghĩ=응이", "là=라"]
+    },
+    {
+      "id": "ke001-v-002",
+      "term": "Tôi thấy là ...",
+      "meaningKo": "제가 보기에는 ... / 저는 ...라고 느낍니다",
+      "example": "Tôi thấy là công việc này hơi khó.",
+      "exampleMeaningKo": "제가 보기에는 이 일이 조금 어렵습니다.",
+      "audioSrc": "",
+      "sourcePage": 0,
+      "reviewNeeded": false,
+      "pronKo": "또이 터이 라",
+      "pronNoteKo": "nghĩ는 머리로 생각, thấy는 보고 느끼는 생각에 가깝습니다.",
+      "pronChunks": ["Tôi=또이", "thấy=터이", "là=라"]
+    },
+    {
+      "id": "ke001-v-003",
+      "term": "Theo tôi thì ...",
+      "meaningKo": "제 생각에는 ...",
+      "example": "Theo tôi thì gia đình rất quan trọng.",
+      "exampleMeaningKo": "제 생각에는 가족이 매우 중요합니다.",
+      "audioSrc": "",
+      "sourcePage": 0,
+      "reviewNeeded": false,
+      "pronKo": "테오 또이 티",
+      "pronNoteKo": "OPIc 답변에서 의견을 시작할 때 아주 좋습니다. thì는 강조 느낌입니다.",
+      "pronChunks": ["Theo=테오", "tôi=또이", "thì=티"]
+    },
+    {
+      "id": "ke001-v-004",
+      "term": "Đối với tôi thì ...",
+      "meaningKo": "저에게는 ... / 저의 경우에는 ...",
+      "example": "Đối với tôi thì sức khỏe là quan trọng nhất.",
+      "exampleMeaningKo": "저에게는 건강이 가장 중요합니다.",
+      "audioSrc": "",
+      "sourcePage": 0,
+      "reviewNeeded": false,
+      "pronKo": "도이 버이 또이 티",
+      "pronNoteKo": "개인적인 기준이나 취향을 말할 때 좋습니다.",
+      "pronChunks": ["Đối với=도이 버이", "tôi=또이", "thì=티"]
+    },
+    {
+      "id": "ke001-v-005",
+      "term": "Trước đây thì ..., nhưng bây giờ thì ...",
+      "meaningKo": "예전에는 ...했지만, 지금은 ...합니다",
+      "example": "Trước đây thì tôi không thích chạy bộ, nhưng bây giờ thì tôi thích chạy bộ.",
+      "exampleMeaningKo": "예전에는 조깅을 좋아하지 않았지만, 지금은 조깅을 좋아합니다.",
+      "audioSrc": "",
+      "sourcePage": 0,
+      "reviewNeeded": false,
+      "pronKo": "쯔억 더이 티, 니응 버이 저 티",
+      "pronNoteKo": "과거와 현재 비교 문제에서 바로 쓰면 좋습니다.",
+      "pronChunks": ["Trước đây=쯔억 더이", "nhưng=니응", "bây giờ=버이 저"]
+    },
+    {
+      "id": "ke001-v-006",
+      "term": "Trước đây thì ..., còn bây giờ thì ...",
+      "meaningKo": "예전에는 ...했고, 반면 지금은 ...합니다",
+      "example": "Trước đây thì tôi hay xem phim ở rạp, còn bây giờ thì tôi xem phim ở nhà.",
+      "exampleMeaningKo": "예전에는 영화관에서 영화를 자주 봤고, 반면 지금은 집에서 영화를 봅니다.",
+      "audioSrc": "",
+      "sourcePage": 0,
+      "reviewNeeded": false,
+      "pronKo": "쯔억 더이 티, 꼰 버이 저 티",
+      "pronNoteKo": "còn은 '반면에 / 그리고 지금은' 느낌으로 비교할 때 씁니다.",
+      "pronChunks": ["Trước đây=쯔억 더이", "còn=꼰", "bây giờ=버이 저"]
+    },
+    {
+      "id": "ke001-v-007",
+      "term": "Đặc biệt là ...",
+      "meaningKo": "특히 ...",
+      "example": "Tôi thích đồ ăn Việt Nam, đặc biệt là phở.",
+      "exampleMeaningKo": "저는 베트남 음식을 좋아합니다. 특히 쌀국수를 좋아합니다.",
+      "audioSrc": "",
+      "sourcePage": 0,
+      "reviewNeeded": false,
+      "pronKo": "닥 비엣 라",
+      "pronNoteKo": "여러 개 중 하나를 강조할 때 씁니다.",
+      "pronChunks": ["Đặc biệt=닥 비엣", "là=라"]
+    },
+    {
+      "id": "ke001-v-008",
+      "term": "Trong đó, ...",
+      "meaningKo": "그중에서 ...",
+      "example": "Tôi thích nhiều mùa, trong đó tôi thích mùa đông nhất.",
+      "exampleMeaningKo": "저는 여러 계절을 좋아하는데, 그중에서 겨울을 가장 좋아합니다.",
+      "audioSrc": "",
+      "sourcePage": 0,
+      "reviewNeeded": false,
+      "pronKo": "쫑 도",
+      "pronNoteKo": "여러 대상 중 하나를 고를 때 유용합니다.",
+      "pronChunks": ["Trong=쫑", "đó=도"]
+    },
+    {
+      "id": "ke001-v-009",
+      "term": "Ngoài ra, ...",
+      "meaningKo": "게다가 / 그 밖에도 / Besides",
+      "example": "Tôi thích xem phim. Ngoài ra, tôi cũng thích nghe nhạc.",
+      "exampleMeaningKo": "저는 영화를 보는 것을 좋아합니다. 게다가 음악 듣는 것도 좋아합니다.",
+      "audioSrc": "",
+      "sourcePage": 0,
+      "reviewNeeded": false,
+      "pronKo": "응오아이 자",
+      "pronNoteKo": "답변을 한 문장 더 늘릴 때 매우 좋습니다.",
+      "pronChunks": ["Ngoài=응오아이", "ra=자"]
+    },
+    {
+      "id": "ke001-v-010",
+      "term": "Ngược lại, ...",
+      "meaningKo": "반대로 ...",
+      "example": "Tôi thích mùa đông. Ngược lại, vợ tôi thích mùa hè.",
+      "exampleMeaningKo": "저는 겨울을 좋아합니다. 반대로 제 아내는 여름을 좋아합니다.",
+      "audioSrc": "",
+      "sourcePage": 0,
+      "reviewNeeded": false,
+      "pronKo": "응으억 라이",
+      "pronNoteKo": "반대 의견이나 비교를 말할 때 씁니다.",
+      "pronChunks": ["Ngược=응으억", "lại=라이"]
+    },
+    {
+      "id": "ke001-v-011",
+      "term": "Tôi có thói quen là ...",
+      "meaningKo": "저는 ...하는 습관이 있습니다",
+      "example": "Tôi có thói quen là uống cà phê vào buổi sáng.",
+      "exampleMeaningKo": "저는 아침에 커피를 마시는 습관이 있습니다.",
+      "audioSrc": "",
+      "sourcePage": 0,
+      "reviewNeeded": false,
+      "pronKo": "또이 꼬 토이 꾸엔 라",
+      "pronNoteKo": "일상생활, 카페, 운동, 인터넷 주제에 모두 좋습니다.",
+      "pronChunks": ["Tôi có=또이 꼬", "thói quen=토이 꾸엔", "là=라"]
+    },
+    {
+      "id": "ke001-v-012",
+      "term": "... yêu thích của tôi là ...",
+      "meaningKo": "제가 좋아하는 ...은 ...입니다",
+      "example": "Món ăn yêu thích của tôi là phở.",
+      "exampleMeaningKo": "제가 좋아하는 음식은 쌀국수입니다.",
+      "audioSrc": "",
+      "sourcePage": 0,
+      "reviewNeeded": false,
+      "pronKo": "이에우 틱 꾸어 또이 라",
+      "pronNoteKo": "취향을 말할 때 아주 자주 씁니다.",
+      "pronChunks": ["yêu thích=이에우 틱", "của tôi=꾸어 또이", "là=라"]
+    },
+    {
+      "id": "ke001-v-013",
+      "term": "Tôi có thể ...",
+      "meaningKo": "저는 ...할 수 있습니다",
+      "example": "Tôi có thể nói tiếng Việt một chút.",
+      "exampleMeaningKo": "저는 베트남어를 조금 말할 수 있습니다.",
+      "audioSrc": "",
+      "sourcePage": 0,
+      "reviewNeeded": false,
+      "pronKo": "또이 꼬 테",
+      "pronNoteKo": "가능 표현입니다.",
+      "pronChunks": ["Tôi=또이", "có thể=꼬 테"]
+    },
+    {
+      "id": "ke001-v-014",
+      "term": "Tôi không thể ...",
+      "meaningKo": "저는 ...할 수 없습니다",
+      "example": "Tôi không thể ăn cay nhiều.",
+      "exampleMeaningKo": "저는 매운 것을 많이 먹을 수 없습니다.",
+      "audioSrc": "",
+      "sourcePage": 0,
+      "reviewNeeded": false,
+      "pronKo": "또이 콩 테",
+      "pronNoteKo": "불가능 표현입니다.",
+      "pronChunks": ["Tôi=또이", "không thể=콩 테"]
+    },
+    {
+      "id": "ke001-v-015",
+      "term": "Tôi cần ...",
+      "meaningKo": "저는 ...이 필요합니다 / ...해야 합니다",
+      "example": "Tôi cần học tiếng Việt mỗi ngày.",
+      "exampleMeaningKo": "저는 매일 베트남어를 공부해야 합니다.",
+      "audioSrc": "",
+      "sourcePage": 0,
+      "reviewNeeded": false,
+      "pronKo": "또이 껀",
+      "pronNoteKo": "필요 표현입니다. 뒤에 명사나 동사가 올 수 있습니다.",
+      "pronChunks": ["Tôi=또이", "cần=껀"]
+    },
+    {
+      "id": "ke001-v-016",
+      "term": "Tôi không cần ...",
+      "meaningKo": "저는 ...이 필요 없습니다 / ...할 필요가 없습니다",
+      "example": "Tôi không cần mang nhiều tiền mặt.",
+      "exampleMeaningKo": "저는 현금을 많이 가지고 다닐 필요가 없습니다.",
+      "audioSrc": "",
+      "sourcePage": 0,
+      "reviewNeeded": false,
+      "pronKo": "또이 콩 껀",
+      "pronNoteKo": "불필요 표현입니다.",
+      "pronChunks": ["Tôi=또이", "không cần=콩 껀"]
+    },
+    {
+      "id": "ke001-v-017",
+      "term": "Tôi phải ...",
+      "meaningKo": "저는 ...해야 합니다",
+      "example": "Tôi phải đi làm vào buổi sáng.",
+      "exampleMeaningKo": "저는 아침에 출근해야 합니다.",
+      "audioSrc": "",
+      "sourcePage": 0,
+      "reviewNeeded": false,
+      "pronKo": "또이 파이",
+      "pronNoteKo": "의무 표현입니다. 꼭 해야 하는 일을 말합니다.",
+      "pronChunks": ["Tôi=또이", "phải=파이"]
+    },
+    {
+      "id": "ke001-v-018",
+      "term": "Tôi không được ...",
+      "meaningKo": "저는 ...하면 안 됩니다 / ...할 수 없습니다",
+      "example": "Tôi không được hút thuốc ở công ty.",
+      "exampleMeaningKo": "저는 회사에서 담배를 피우면 안 됩니다.",
+      "audioSrc": "",
+      "sourcePage": 0,
+      "reviewNeeded": false,
+      "pronKo": "또이 콩 드억",
+      "pronNoteKo": "금지 표현입니다. '능력이 없어서 못 한다'가 아니라 '허용되지 않는다'는 느낌입니다.",
+      "pronChunks": ["Tôi=또이", "không được=콩 드억"]
+    },
+    {
+      "id": "ke001-v-019",
+      "term": "Tôi nên ...",
+      "meaningKo": "저는 ...하는 것이 좋습니다 / ...해야겠습니다",
+      "example": "Tôi nên tập thể dục thường xuyên.",
+      "exampleMeaningKo": "저는 규칙적으로 운동하는 것이 좋습니다.",
+      "audioSrc": "",
+      "sourcePage": 0,
+      "reviewNeeded": false,
+      "pronKo": "또이 넨",
+      "pronNoteKo": "조언이나 스스로에게 하는 권유 표현입니다.",
+      "pronChunks": ["Tôi=또이", "nên=넨"]
+    },
+    {
+      "id": "ke001-v-020",
+      "term": "Tôi không nên ...",
+      "meaningKo": "저는 ...하지 않는 것이 좋습니다",
+      "example": "Tôi không nên dùng điện thoại quá nhiều.",
+      "exampleMeaningKo": "저는 휴대폰을 너무 많이 사용하지 않는 것이 좋습니다.",
+      "audioSrc": "",
+      "sourcePage": 0,
+      "reviewNeeded": false,
+      "pronKo": "또이 콩 넨",
+      "pronNoteKo": "하지 않는 편이 좋다는 조언 표현입니다.",
+      "pronChunks": ["Tôi=또이", "không nên=콩 넨"]
+    },
+    {
+      "id": "ke001-v-021",
+      "term": "Đầu tiên, ...",
+      "meaningKo": "먼저 / 첫째로",
+      "example": "Đầu tiên, tôi thức dậy lúc sáu giờ.",
+      "exampleMeaningKo": "먼저, 저는 6시에 일어납니다.",
+      "audioSrc": "",
+      "sourcePage": 0,
+      "reviewNeeded": false,
+      "pronKo": "더우 띠엔",
+      "pronNoteKo": "순서 설명의 시작입니다.",
+      "pronChunks": ["Đầu=더우", "tiên=띠엔"]
+    },
+    {
+      "id": "ke001-v-022",
+      "term": "Sau đó, ...",
+      "meaningKo": "그 후에",
+      "example": "Sau đó, tôi ăn sáng ở nhà.",
+      "exampleMeaningKo": "그 후에 저는 집에서 아침을 먹습니다.",
+      "audioSrc": "",
+      "sourcePage": 0,
+      "reviewNeeded": false,
+      "pronKo": "싸우 도",
+      "pronNoteKo": "순서 설명에서 두 번째 행동을 말할 때 씁니다.",
+      "pronChunks": ["Sau=싸우", "đó=도"]
+    },
+    {
+      "id": "ke001-v-023",
+      "term": "Tiếp theo, ...",
+      "meaningKo": "다음으로",
+      "example": "Tiếp theo, tôi đi làm bằng ô tô.",
+      "exampleMeaningKo": "다음으로 저는 자동차로 출근합니다.",
+      "audioSrc": "",
+      "sourcePage": 0,
+      "reviewNeeded": false,
+      "pronKo": "띠엡 테오",
+      "pronNoteKo": "여러 행동을 순서대로 나열할 때 씁니다.",
+      "pronChunks": ["Tiếp=띠엡", "theo=테오"]
+    },
+    {
+      "id": "ke001-v-024",
+      "term": "Cuối cùng, ...",
+      "meaningKo": "마지막으로",
+      "example": "Cuối cùng, tôi về nhà và nghỉ ngơi.",
+      "exampleMeaningKo": "마지막으로 저는 집에 돌아와 쉽니다.",
+      "audioSrc": "",
+      "sourcePage": 0,
+      "reviewNeeded": false,
+      "pronKo": "꾸오이 꿍",
+      "pronNoteKo": "순서 설명의 마무리입니다.",
+      "pronChunks": ["Cuối=꾸오이", "cùng=꿍"]
+    },
+    {
+      "id": "ke001-v-025",
+      "term": "Sau khi ...",
+      "meaningKo": "...한 후에",
+      "example": "Sau khi ăn tối, tôi xem phim.",
+      "exampleMeaningKo": "저녁을 먹은 후에 저는 영화를 봅니다.",
+      "audioSrc": "",
+      "sourcePage": 0,
+      "reviewNeeded": false,
+      "pronKo": "싸우 키",
+      "pronNoteKo": "동작 이후를 말할 때 씁니다.",
+      "pronChunks": ["Sau=싸우", "khi=키"]
+    },
+    {
+      "id": "ke001-v-026",
+      "term": "Trước khi ...",
+      "meaningKo": "...하기 전에",
+      "example": "Trước khi đi ngủ, tôi nghe nhạc.",
+      "exampleMeaningKo": "자기 전에 저는 음악을 듣습니다.",
+      "audioSrc": "",
+      "sourcePage": 0,
+      "reviewNeeded": false,
+      "pronKo": "쯔억 키",
+      "pronNoteKo": "동작 이전을 말할 때 씁니다.",
+      "pronChunks": ["Trước=쯔억", "khi=키"]
+    },
+    {
+      "id": "ke001-v-027",
+      "term": "Vì thế, ...",
+      "meaningKo": "그래서 / 그렇기 때문에",
+      "example": "Tôi rất bận. Vì thế, tôi không đi du lịch nhiều.",
+      "exampleMeaningKo": "저는 매우 바쁩니다. 그래서 여행을 많이 가지 않습니다.",
+      "audioSrc": "",
+      "sourcePage": 0,
+      "reviewNeeded": false,
+      "pronKo": "비 테",
+      "pronNoteKo": "앞 문장의 결과를 말할 때 씁니다.",
+      "pronChunks": ["Vì=비", "thế=테"]
+    },
+    {
+      "id": "ke001-v-028",
+      "term": "Cho nên, ...",
+      "meaningKo": "그래서",
+      "example": "Trời mưa. Cho nên, tôi mang ô.",
+      "exampleMeaningKo": "비가 옵니다. 그래서 저는 우산을 가져갑니다.",
+      "audioSrc": "",
+      "sourcePage": 0,
+      "reviewNeeded": false,
+      "pronKo": "쪼 넨",
+      "pronNoteKo": "vì thế와 비슷하게 결과를 말할 때 씁니다.",
+      "pronChunks": ["Cho=쪼", "nên=넨"]
+    },
+    {
+      "id": "ke001-v-029",
+      "term": "Trước đây, ...",
+      "meaningKo": "예전에",
+      "example": "Trước đây, tôi sống ở Seoul.",
+      "exampleMeaningKo": "예전에 저는 서울에 살았습니다.",
+      "audioSrc": "",
+      "sourcePage": 0,
+      "reviewNeeded": false,
+      "pronKo": "쯔억 더이",
+      "pronNoteKo": "과거 습관이나 과거 경험을 말할 때 씁니다.",
+      "pronChunks": ["Trước=쯔억", "đây=더이"]
+    },
+    {
+      "id": "ke001-v-030",
+      "term": "Gần đây, ...",
+      "meaningKo": "최근에",
+      "example": "Gần đây, tôi bắt đầu học tiếng Việt.",
+      "exampleMeaningKo": "최근에 저는 베트남어 공부를 시작했습니다.",
+      "audioSrc": "",
+      "sourcePage": 0,
+      "reviewNeeded": false,
+      "pronKo": "건 더이",
+      "pronNoteKo": "최근 경험을 말할 때 자주 씁니다.",
+      "pronChunks": ["Gần=건", "đây=더이"]
+    },
+    {
+      "id": "ke001-v-031",
+      "term": "Dạo này, ...",
+      "meaningKo": "요즘",
+      "example": "Dạo này, tôi rất bận.",
+      "exampleMeaningKo": "요즘 저는 매우 바쁩니다.",
+      "audioSrc": "",
+      "sourcePage": 0,
+      "reviewNeeded": false,
+      "pronKo": "자오 나이",
+      "pronNoteKo": "현재 근황을 말할 때 좋습니다.",
+      "pronChunks": ["Dạo=자오", "này=나이"]
+    },
+    {
+      "id": "ke001-v-032",
+      "term": "Bây giờ, ...",
+      "meaningKo": "지금",
+      "example": "Bây giờ, tôi sống ở Dongtan.",
+      "exampleMeaningKo": "지금 저는 동탄에 삽니다.",
+      "audioSrc": "",
+      "sourcePage": 0,
+      "reviewNeeded": false,
+      "pronKo": "버이 저",
+      "pronNoteKo": "현재 상태를 말할 때 씁니다.",
+      "pronChunks": ["Bây=버이", "giờ=저"]
+    },
+    {
+      "id": "ke001-v-033",
+      "term": "Sau này, ...",
+      "meaningKo": "나중에 / 앞으로",
+      "example": "Sau này, tôi muốn đi du lịch Việt Nam.",
+      "exampleMeaningKo": "나중에 저는 베트남 여행을 가고 싶습니다.",
+      "audioSrc": "",
+      "sourcePage": 0,
+      "reviewNeeded": false,
+      "pronKo": "싸우 나이",
+      "pronNoteKo": "미래 계획이나 바람을 말할 때 씁니다.",
+      "pronChunks": ["Sau=싸우", "này=나이"]
+    },
+    {
+      "id": "ke001-v-034",
+      "term": "ngày nào cũng ...",
+      "meaningKo": "매일 ...하다",
+      "example": "Tôi ngày nào cũng uống cà phê.",
+      "exampleMeaningKo": "저는 매일 커피를 마십니다.",
+      "audioSrc": "",
+      "sourcePage": 0,
+      "reviewNeeded": false,
+      "pronKo": "응아이 나오 꿍",
+      "pronNoteKo": "every day 느낌입니다. 습관 말하기에 좋습니다.",
+      "pronChunks": ["ngày nào=응아이 나오", "cũng=꿍"]
+    },
+    {
+      "id": "ke001-v-035",
+      "term": "ai cũng ...",
+      "meaningKo": "누구나 / 모두 ...하다",
+      "example": "Ai cũng cần nghỉ ngơi.",
+      "exampleMeaningKo": "누구나 휴식이 필요합니다.",
+      "audioSrc": "",
+      "sourcePage": 0,
+      "reviewNeeded": false,
+      "pronKo": "아이 꿍",
+      "pronNoteKo": "everyone 느낌입니다.",
+      "pronChunks": ["ai=아이", "cũng=꿍"]
+    },
+    {
+      "id": "ke001-v-036",
+      "term": "đâu cũng ...",
+      "meaningKo": "어디든 / 어디서나 ...하다",
+      "example": "Ở Hàn Quốc, đâu cũng có quán cà phê.",
+      "exampleMeaningKo": "한국에는 어디에나 카페가 있습니다.",
+      "audioSrc": "",
+      "sourcePage": 0,
+      "reviewNeeded": false,
+      "pronKo": "더우 꿍",
+      "pronNoteKo": "everywhere 느낌입니다.",
+      "pronChunks": ["đâu=더우", "cũng=꿍"]
+    },
+    {
+      "id": "ke001-v-037",
+      "term": "cái gì cũng ...",
+      "meaningKo": "무엇이든 / 뭐든지 ...하다",
+      "example": "Con tôi cái gì cũng thích ăn.",
+      "exampleMeaningKo": "제 아이는 뭐든지 먹는 것을 좋아합니다.",
+      "audioSrc": "",
+      "sourcePage": 0,
+      "reviewNeeded": false,
+      "pronKo": "까이 지 꿍",
+      "pronNoteKo": "everything 느낌입니다.",
+      "pronChunks": ["cái gì=까이 지", "cũng=꿍"]
+    },
+    {
+      "id": "ke001-v-038",
+      "term": "lúc nào cũng ...",
+      "meaningKo": "항상 / 언제나 ...하다",
+      "example": "Tôi lúc nào cũng bận.",
+      "exampleMeaningKo": "저는 항상 바쁩니다.",
+      "audioSrc": "",
+      "sourcePage": 0,
+      "reviewNeeded": false,
+      "pronKo": "룩 나오 꿍",
+      "pronNoteKo": "always 느낌입니다.",
+      "pronChunks": ["lúc nào=룩 나오", "cũng=꿍"]
+    }
+  ],
+  "sentenceCards": [
+    {
+      "id": "ke001-s-001",
+      "textVi": "Tôi nghĩ là gia đình rất quan trọng.",
+      "textKo": "저는 가족이 매우 중요하다고 생각합니다.",
+      "exampleAnswerVi": "Tôi nghĩ là gia đình rất quan trọng. Vì thế, cuối tuần tôi thường dành thời gian cho vợ và con. Đối với tôi thì gia đình là điều quan trọng nhất.",
+      "exampleAnswerKo": "저는 가족이 매우 중요하다고 생각합니다. 그래서 주말에 저는 보통 아내와 아이에게 시간을 씁니다. 저에게는 가족이 가장 중요한 것입니다.",
+      "audioSrc": "",
+      "sourcePage": 0,
+      "reviewNeeded": false,
+      "pronKo": "또이 응이 라 자 딩 젓 꽌 쫑",
+      "exampleAnswerPronKo": "또이 응이 라 자 딩 젓 꽌 쫑. 비 테, 꾸오이 뚜언 또이 트엉 잔 터이 잔 쪼 버 바 꼰.",
+      "pronNoteKo": "의견 → 이유/결과 → 개인 기준 순서로 말하면 자연스럽습니다."
+    },
+    {
+      "id": "ke001-s-002",
+      "textVi": "Theo tôi thì học tiếng Việt rất thú vị.",
+      "textKo": "제 생각에는 베트남어 공부가 매우 재미있습니다.",
+      "exampleAnswerVi": "Theo tôi thì học tiếng Việt rất thú vị. Lúc đầu hơi khó, nhưng bây giờ tôi thấy quen hơn. Ngoài ra, tôi có thể nói chuyện đơn giản bằng tiếng Việt.",
+      "exampleAnswerKo": "제 생각에는 베트남어 공부가 매우 재미있습니다. 처음에는 조금 어려웠지만 지금은 더 익숙해졌다고 느낍니다. 게다가 저는 베트남어로 간단한 대화를 할 수 있습니다.",
+      "audioSrc": "",
+      "sourcePage": 0,
+      "reviewNeeded": false,
+      "pronKo": "테오 또이 티 혹 띠엥 비엣 젓 투 비",
+      "exampleAnswerPronKo": "테오 또이 티 혹 띠엥 비엣 젓 투 비. 룩 더우 허이 코, 니응 버이 저 또이 터이 꾸엔 헌.",
+      "pronNoteKo": "theo tôi thì로 시작하면 답변이 조금 더 정리된 느낌이 납니다."
+    },
+    {
+      "id": "ke001-s-003",
+      "textVi": "Trước đây thì tôi không thích chạy bộ, nhưng bây giờ thì tôi thích chạy bộ.",
+      "textKo": "예전에는 조깅을 좋아하지 않았지만, 지금은 조깅을 좋아합니다.",
+      "exampleAnswerVi": "Trước đây thì tôi không thích chạy bộ, nhưng bây giờ thì tôi thích chạy bộ. Gần đây, tôi chạy bộ ở công viên vào cuối tuần. Sau khi chạy bộ, tôi cảm thấy rất thoải mái.",
+      "exampleAnswerKo": "예전에는 조깅을 좋아하지 않았지만, 지금은 조깅을 좋아합니다. 최근에 저는 주말에 공원에서 조깅을 합니다. 조깅을 한 후에는 매우 편안함을 느낍니다.",
+      "audioSrc": "",
+      "sourcePage": 0,
+      "reviewNeeded": false,
+      "pronKo": "쯔억 더이 티 또이 콩 틱 짜이 보, 니응 버이 저 티 또이 틱 짜이 보",
+      "exampleAnswerPronKo": "쯔억 더이 티 또이 콩 틱 짜이 보, 니응 버이 저 티 또이 틱 짜이 보.",
+      "pronNoteKo": "과거와 현재 비교 문제에 바로 사용할 수 있습니다."
+    },
+    {
+      "id": "ke001-s-004",
+      "textVi": "Tôi có thói quen là uống cà phê vào buổi sáng.",
+      "textKo": "저는 아침에 커피를 마시는 습관이 있습니다.",
+      "exampleAnswerVi": "Tôi có thói quen là uống cà phê vào buổi sáng. Ngày nào cũng vậy, sau khi ăn sáng, tôi uống một ly cà phê. Nhờ vậy, tôi cảm thấy tỉnh táo hơn.",
+      "exampleAnswerKo": "저는 아침에 커피를 마시는 습관이 있습니다. 매일 그렇습니다. 아침을 먹은 후 저는 커피 한 잔을 마십니다. 덕분에 저는 더 정신이 맑아지는 것을 느낍니다.",
+      "audioSrc": "",
+      "sourcePage": 0,
+      "reviewNeeded": false,
+      "pronKo": "또이 꼬 토이 꾸엔 라 우옹 까 페 바오 부오이 상",
+      "exampleAnswerPronKo": "또이 꼬 토이 꾸엔 라 우옹 까 페 바오 부오이 상.",
+      "pronNoteKo": "습관 표현은 일상생활 답변에 아주 좋습니다."
+    },
+    {
+      "id": "ke001-s-005",
+      "textVi": "Đầu tiên, tôi thức dậy. Sau đó, tôi ăn sáng. Tiếp theo, tôi đi làm. Cuối cùng, tôi về nhà.",
+      "textKo": "먼저 저는 일어납니다. 그 후 아침을 먹습니다. 다음으로 출근합니다. 마지막으로 집에 돌아옵니다.",
+      "exampleAnswerVi": "Đầu tiên, tôi thức dậy lúc sáu giờ. Sau đó, tôi ăn sáng và uống cà phê ở nhà. Tiếp theo, tôi đi làm bằng ô tô. Cuối cùng, tôi về nhà và nghỉ ngơi với gia đình.",
+      "exampleAnswerKo": "먼저 저는 6시에 일어납니다. 그 후 집에서 아침을 먹고 커피를 마십니다. 다음으로 자동차로 출근합니다. 마지막으로 집에 돌아와 가족과 쉽니다.",
+      "audioSrc": "",
+      "sourcePage": 0,
+      "reviewNeeded": false,
+      "pronKo": "더우 띠엔, 싸우 도, 띠엡 테오, 꾸오이 꿍",
+      "exampleAnswerPronKo": "더우 띠엔, 또이 특 저이 룩 싸우 저. 싸우 도, 또이 안 상 바 우옹 까 페 어 냐.",
+      "pronNoteKo": "순서 표현 4개만 외워도 일상 루틴 답변이 길어집니다."
+    },
+    {
+      "id": "ke001-s-006",
+      "textVi": "Sau khi ăn tối, tôi thường xem phim.",
+      "textKo": "저녁을 먹은 후에 저는 보통 영화를 봅니다.",
+      "exampleAnswerVi": "Sau khi ăn tối, tôi thường xem phim với gia đình. Trước khi đi ngủ, tôi cũng nghe nhạc một chút. Vì thế, tôi cảm thấy rất thoải mái.",
+      "exampleAnswerKo": "저녁을 먹은 후에 저는 보통 가족과 영화를 봅니다. 자기 전에는 음악도 조금 듣습니다. 그래서 저는 매우 편안함을 느낍니다.",
+      "audioSrc": "",
+      "sourcePage": 0,
+      "reviewNeeded": false,
+      "pronKo": "싸우 키 안 또이, 또이 트엉 쎔 핌",
+      "exampleAnswerPronKo": "싸우 키 안 또이, 또이 트엉 쎔 핌 버이 자 딩.",
+      "pronNoteKo": "Sau khi와 Trước khi는 답변을 자연스럽게 길게 만들어 줍니다."
+    },
+    {
+      "id": "ke001-s-007",
+      "textVi": "Tôi rất bận. Vì thế, tôi không đi du lịch nhiều.",
+      "textKo": "저는 매우 바쁩니다. 그래서 여행을 많이 가지 않습니다.",
+      "exampleAnswerVi": "Dạo này tôi rất bận. Vì thế, tôi không đi du lịch nhiều. Nhưng khi có thời gian rảnh, tôi muốn đi du lịch với gia đình.",
+      "exampleAnswerKo": "요즘 저는 매우 바쁩니다. 그래서 여행을 많이 가지 않습니다. 하지만 여유 시간이 있을 때는 가족과 여행을 가고 싶습니다.",
+      "audioSrc": "",
+      "sourcePage": 0,
+      "reviewNeeded": false,
+      "pronKo": "또이 젓 번. 비 테, 또이 콩 디 주 릭 니에우",
+      "exampleAnswerPronKo": "자오 나이 또이 젓 번. 비 테, 또이 콩 디 주 릭 니에우.",
+      "pronNoteKo": "이유와 결과를 연결할 때 사용합니다."
+    },
+    {
+      "id": "ke001-s-008",
+      "textVi": "Ngày nào tôi cũng học tiếng Việt.",
+      "textKo": "저는 매일 베트남어를 공부합니다.",
+      "exampleAnswerVi": "Ngày nào tôi cũng học tiếng Việt. Tôi học từ mới, luyện phát âm và nói câu đơn giản. Tôi nghĩ là học một chút mỗi ngày rất quan trọng.",
+      "exampleAnswerKo": "저는 매일 베트남어를 공부합니다. 새 단어를 공부하고, 발음을 연습하고, 간단한 문장을 말합니다. 저는 매일 조금씩 공부하는 것이 매우 중요하다고 생각합니다.",
+      "audioSrc": "",
+      "sourcePage": 0,
+      "reviewNeeded": false,
+      "pronKo": "응아이 나오 또이 꿍 혹 띠엥 비엣",
+      "exampleAnswerPronKo": "응아이 나오 또이 꿍 혹 띠엥 비엣.",
+      "pronNoteKo": "ngày nào cũng는 매일 하는 습관을 말할 때 씁니다."
+    },
+    {
+      "id": "ke001-s-009",
+      "textVi": "Ai cũng cần nghỉ ngơi.",
+      "textKo": "누구나 휴식이 필요합니다.",
+      "exampleAnswerVi": "Ai cũng cần nghỉ ngơi. Đối với tôi thì cuối tuần là thời gian rất quan trọng. Tôi thường ở nhà, xem phim và uống cà phê.",
+      "exampleAnswerKo": "누구나 휴식이 필요합니다. 저에게는 주말이 매우 중요한 시간입니다. 저는 보통 집에 있고, 영화를 보고, 커피를 마십니다.",
+      "audioSrc": "",
+      "sourcePage": 0,
+      "reviewNeeded": false,
+      "pronKo": "아이 꿍 껀 응이 응어이",
+      "exampleAnswerPronKo": "아이 꿍 껀 응이 응어이. 도이 버이 또이 티 꾸오이 뚜언 라 터이 잔 젓 꽌 쫑.",
+      "pronNoteKo": "ai cũng는 일반적인 의견을 말할 때 좋습니다."
+    },
+    {
+      "id": "ke001-s-010",
+      "textVi": "Ở Hàn Quốc, đâu cũng có quán cà phê.",
+      "textKo": "한국에는 어디에나 카페가 있습니다.",
+      "exampleAnswerVi": "Ở Hàn Quốc, đâu cũng có quán cà phê. Vì thế, tôi thường đi quán cà phê vào cuối tuần. Trong đó, tôi thích quán cà phê yên tĩnh nhất.",
+      "exampleAnswerKo": "한국에는 어디에나 카페가 있습니다. 그래서 저는 보통 주말에 카페에 갑니다. 그중에서 저는 조용한 카페를 가장 좋아합니다.",
+      "audioSrc": "",
+      "sourcePage": 0,
+      "reviewNeeded": false,
+      "pronKo": "어 한 꾸옥, 더우 꿍 꼬 꽌 까 페",
+      "exampleAnswerPronKo": "어 한 꾸옥, 더우 꿍 꼬 꽌 까 페.",
+      "pronNoteKo": "đâu cũng는 장소 설명에 좋습니다."
+    }
+  ],
+  "dialogues": [
+    {
+      "id": "ke001-d-001",
+      "title": "의견 말하기",
+      "audioSrc": "",
+      "sourcePage": 0,
+      "reviewNeeded": false,
+      "lines": [
+        {
+          "speaker": "A",
+          "vi": "Theo bạn thì gia đình có quan trọng không?",
+          "ko": "당신 생각에는 가족이 중요한가요?",
+          "pronKo": "테오 반 티 자 딩 꼬 꽌 쫑 콩?"
+        },
+        {
+          "speaker": "B",
+          "vi": "Theo tôi thì gia đình rất quan trọng.",
+          "ko": "제 생각에는 가족이 매우 중요합니다.",
+          "pronKo": "테오 또이 티 자 딩 젓 꽌 쫑."
+        },
+        {
+          "speaker": "A",
+          "vi": "Vì sao?",
+          "ko": "왜요?",
+          "pronKo": "비 싸오?"
+        },
+        {
+          "speaker": "B",
+          "vi": "Vì gia đình luôn giúp tôi cảm thấy hạnh phúc.",
+          "ko": "왜냐하면 가족은 항상 제가 행복함을 느끼게 해 주기 때문입니다.",
+          "pronKo": "비 자 딩 루온 줍 또이 깜 터이 하잉 푹."
+        }
+      ]
+    },
+    {
+      "id": "ke001-d-002",
+      "title": "과거와 현재 비교하기",
+      "audioSrc": "",
+      "sourcePage": 0,
+      "reviewNeeded": false,
+      "lines": [
+        {
+          "speaker": "A",
+          "vi": "Trước đây bạn có thích chạy bộ không?",
+          "ko": "예전에 조깅을 좋아했나요?",
+          "pronKo": "쯔억 더이 반 꼬 틱 짜이 보 콩?"
+        },
+        {
+          "speaker": "B",
+          "vi": "Trước đây thì tôi không thích chạy bộ, nhưng bây giờ thì tôi thích.",
+          "ko": "예전에는 조깅을 좋아하지 않았지만, 지금은 좋아합니다.",
+          "pronKo": "쯔억 더이 티 또이 콩 틱 짜이 보, 니응 버이 저 티 또이 틱."
+        },
+        {
+          "speaker": "A",
+          "vi": "Gần đây bạn chạy bộ ở đâu?",
+          "ko": "최근에는 어디에서 조깅하나요?",
+          "pronKo": "건 더이 반 짜이 보 어 더우?"
+        },
+        {
+          "speaker": "B",
+          "vi": "Gần đây, tôi chạy bộ ở công viên.",
+          "ko": "최근에 저는 공원에서 조깅합니다.",
+          "pronKo": "건 더이, 또이 짜이 보 어 꽁 비엔."
+        }
+      ]
+    },
+    {
+      "id": "ke001-d-003",
+      "title": "순서대로 말하기",
+      "audioSrc": "",
+      "sourcePage": 0,
+      "reviewNeeded": false,
+      "lines": [
+        {
+          "speaker": "A",
+          "vi": "Buổi sáng bạn thường làm gì?",
+          "ko": "아침에 보통 무엇을 하나요?",
+          "pronKo": "부오이 상 반 트엉 람 지?"
+        },
+        {
+          "speaker": "B",
+          "vi": "Đầu tiên, tôi thức dậy. Sau đó, tôi ăn sáng.",
+          "ko": "먼저 저는 일어납니다. 그 후 아침을 먹습니다.",
+          "pronKo": "더우 띠엔, 또이 특 저이. 싸우 도, 또이 안 상."
+        },
+        {
+          "speaker": "A",
+          "vi": "Tiếp theo thì sao?",
+          "ko": "다음에는요?",
+          "pronKo": "띠엡 테오 티 싸오?"
+        },
+        {
+          "speaker": "B",
+          "vi": "Tiếp theo, tôi đi làm. Cuối cùng, tôi uống cà phê ở công ty.",
+          "ko": "다음으로 저는 출근합니다. 마지막으로 회사에서 커피를 마십니다.",
+          "pronKo": "띠엡 테오, 또이 디 람. 꾸오이 꿍, 또이 우옹 까 페 어 꽁 ty."
+        }
+      ]
+    }
+  ],
+  "grammarPoints": [
+    {
+      "id": "ke001-g-001",
+      "title": "Tôi nghĩ là ...",
+      "pattern": "Tôi nghĩ là + 문장",
+      "meaningKo": "저는 ...라고 생각합니다",
+      "sourcePage": 0,
+      "reviewNeeded": false
+    },
+    {
+      "id": "ke001-g-002",
+      "title": "Tôi thấy là ...",
+      "pattern": "Tôi thấy là + 문장",
+      "meaningKo": "제가 보기에는 ... / 저는 ...라고 느낍니다",
+      "sourcePage": 0,
+      "reviewNeeded": false
+    },
+    {
+      "id": "ke001-g-003",
+      "title": "Theo tôi thì ...",
+      "pattern": "Theo tôi thì + 문장",
+      "meaningKo": "제 생각에는 ...",
+      "sourcePage": 0,
+      "reviewNeeded": false
+    },
+    {
+      "id": "ke001-g-004",
+      "title": "Đối với tôi thì ...",
+      "pattern": "Đối với tôi thì + 문장",
+      "meaningKo": "저에게는 ... / 저의 경우에는 ...",
+      "sourcePage": 0,
+      "reviewNeeded": false
+    },
+    {
+      "id": "ke001-g-005",
+      "title": "과거와 현재 비교",
+      "pattern": "Trước đây thì ..., nhưng/còn bây giờ thì ...",
+      "meaningKo": "예전에는 ...했지만/했고, 지금은 ...합니다",
+      "sourcePage": 0,
+      "reviewNeeded": false
+    },
+    {
+      "id": "ke001-g-006",
+      "title": "강조하기",
+      "pattern": "Đặc biệt là + 명사",
+      "meaningKo": "특히 ...",
+      "sourcePage": 0,
+      "reviewNeeded": false
+    },
+    {
+      "id": "ke001-g-007",
+      "title": "그중에서 말하기",
+      "pattern": "Trong đó, + 문장",
+      "meaningKo": "그중에서 ...",
+      "sourcePage": 0,
+      "reviewNeeded": false
+    },
+    {
+      "id": "ke001-g-008",
+      "title": "추가 설명",
+      "pattern": "Ngoài ra, + 문장",
+      "meaningKo": "게다가 / 그 밖에도 ...",
+      "sourcePage": 0,
+      "reviewNeeded": false
+    },
+    {
+      "id": "ke001-g-009",
+      "title": "반대 설명",
+      "pattern": "Ngược lại, + 문장",
+      "meaningKo": "반대로 ...",
+      "sourcePage": 0,
+      "reviewNeeded": false
+    },
+    {
+      "id": "ke001-g-010",
+      "title": "습관 말하기",
+      "pattern": "Tôi có thói quen là + 동사구",
+      "meaningKo": "저는 ...하는 습관이 있습니다",
+      "sourcePage": 0,
+      "reviewNeeded": false
+    },
+    {
+      "id": "ke001-g-011",
+      "title": "좋아하는 것 말하기",
+      "pattern": "명사 + yêu thích của tôi là + 명사",
+      "meaningKo": "제가 좋아하는 ...은 ...입니다",
+      "sourcePage": 0,
+      "reviewNeeded": false
+    },
+    {
+      "id": "ke001-g-012",
+      "title": "가능과 불가능",
+      "pattern": "Tôi có thể ... / Tôi không thể ...",
+      "meaningKo": "저는 ...할 수 있습니다 / ...할 수 없습니다",
+      "sourcePage": 0,
+      "reviewNeeded": false
+    },
+    {
+      "id": "ke001-g-013",
+      "title": "필요와 불필요",
+      "pattern": "Tôi cần ... / Tôi không cần ...",
+      "meaningKo": "저는 ...이 필요합니다 / ...할 필요가 없습니다",
+      "sourcePage": 0,
+      "reviewNeeded": false
+    },
+    {
+      "id": "ke001-g-014",
+      "title": "의무와 금지",
+      "pattern": "Tôi phải ... / Tôi không được ...",
+      "meaningKo": "저는 ...해야 합니다 / ...하면 안 됩니다",
+      "sourcePage": 0,
+      "reviewNeeded": false
+    },
+    {
+      "id": "ke001-g-015",
+      "title": "조언",
+      "pattern": "Tôi nên ... / Tôi không nên ...",
+      "meaningKo": "저는 ...하는 것이 좋습니다 / ...하지 않는 것이 좋습니다",
+      "sourcePage": 0,
+      "reviewNeeded": false
+    },
+    {
+      "id": "ke001-g-016",
+      "title": "순서 표현",
+      "pattern": "Đầu tiên ... Sau đó ... Tiếp theo ... Cuối cùng ...",
+      "meaningKo": "먼저 ... 그 후 ... 다음으로 ... 마지막으로 ...",
+      "sourcePage": 0,
+      "reviewNeeded": false
+    },
+    {
+      "id": "ke001-g-017",
+      "title": "전후 관계",
+      "pattern": "Sau khi ... / Trước khi ...",
+      "meaningKo": "...한 후에 / ...하기 전에",
+      "sourcePage": 0,
+      "reviewNeeded": false
+    },
+    {
+      "id": "ke001-g-018",
+      "title": "결과 말하기",
+      "pattern": "Vì thế, ... / Cho nên, ...",
+      "meaningKo": "그래서 ...",
+      "sourcePage": 0,
+      "reviewNeeded": false
+    },
+    {
+      "id": "ke001-g-019",
+      "title": "시간 표현",
+      "pattern": "Trước đây / Gần đây / Dạo này / Bây giờ / Sau này",
+      "meaningKo": "예전에 / 최근에 / 요즘 / 지금 / 나중에",
+      "sourcePage": 0,
+      "reviewNeeded": false
+    },
+    {
+      "id": "ke001-g-020",
+      "title": "cũng 강조 표현",
+      "pattern": "ngày nào cũng / ai cũng / đâu cũng / cái gì cũng / lúc nào cũng",
+      "meaningKo": "매일 / 누구나 / 어디든 / 무엇이든 / 항상",
+      "sourcePage": 0,
+      "reviewNeeded": false
+    }
+  ],
+  "pronunciationTargets": [
+    {
+      "id": "ke001-p-001",
+      "text": "Tôi nghĩ là ...",
+      "hintKo": "저는 ...라고 생각합니다",
+      "audioSrc": "",
+      "sourcePage": 0,
+      "reviewNeeded": false,
+      "pronKo": "또이 응이 라",
+      "mouthKo": "Tôi / nghĩ là 로 짧게 끊습니다.",
+      "toneKo": "의견 시작 표현입니다."
+    },
+    {
+      "id": "ke001-p-002",
+      "text": "Theo tôi thì ...",
+      "hintKo": "제 생각에는 ...",
+      "audioSrc": "",
+      "sourcePage": 0,
+      "reviewNeeded": false,
+      "pronKo": "테오 또이 티",
+      "mouthKo": "Theo tôi / thì 로 끊습니다.",
+      "toneKo": "답변 첫 문장에 쓰면 좋습니다."
+    },
+    {
+      "id": "ke001-p-003",
+      "text": "Đối với tôi thì ...",
+      "hintKo": "저에게는 ...",
+      "audioSrc": "",
+      "sourcePage": 0,
+      "reviewNeeded": false,
+      "pronKo": "도이 버이 또이 티",
+      "mouthKo": "Đối với tôi / thì 로 끊습니다.",
+      "toneKo": "개인적인 기준을 말할 때 씁니다."
+    },
+    {
+      "id": "ke001-p-004",
+      "text": "Trước đây thì ..., nhưng bây giờ thì ...",
+      "hintKo": "예전에는 ...했지만, 지금은 ...합니다",
+      "audioSrc": "",
+      "sourcePage": 0,
+      "reviewNeeded": false,
+      "pronKo": "쯔억 더이 티, 니응 버이 저 티",
+      "mouthKo": "Trước đây thì / nhưng bây giờ thì 로 크게 두 덩어리로 끊습니다.",
+      "toneKo": "과거와 현재 비교 표현입니다."
+    },
+    {
+      "id": "ke001-p-005",
+      "text": "Đặc biệt là ...",
+      "hintKo": "특히 ...",
+      "audioSrc": "",
+      "sourcePage": 0,
+      "reviewNeeded": false,
+      "pronKo": "닥 비엣 라",
+      "mouthKo": "Đặc biệt / là 로 끊습니다.",
+      "toneKo": "하나를 강조할 때 씁니다."
+    },
+    {
+      "id": "ke001-p-006",
+      "text": "Ngoài ra, ...",
+      "hintKo": "게다가 / 그 밖에도",
+      "audioSrc": "",
+      "sourcePage": 0,
+      "reviewNeeded": false,
+      "pronKo": "응오아이 자",
+      "mouthKo": "Ngoài ra 를 한 덩어리로 말합니다.",
+      "toneKo": "답변을 한 문장 더 늘릴 때 좋습니다."
+    },
+    {
+      "id": "ke001-p-007",
+      "text": "Tôi có thói quen là ...",
+      "hintKo": "저는 ...하는 습관이 있습니다",
+      "audioSrc": "",
+      "sourcePage": 0,
+      "reviewNeeded": false,
+      "pronKo": "또이 꼬 토이 꾸엔 라",
+      "mouthKo": "Tôi có / thói quen là 로 끊습니다.",
+      "toneKo": "일상 습관 답변에 좋습니다."
+    },
+    {
+      "id": "ke001-p-008",
+      "text": "Tôi có thể ... / Tôi không thể ...",
+      "hintKo": "저는 ...할 수 있습니다 / 할 수 없습니다",
+      "audioSrc": "",
+      "sourcePage": 0,
+      "reviewNeeded": false,
+      "pronKo": "또이 꼬 테 / 또이 콩 테",
+      "mouthKo": "có thể와 không thể를 한 덩어리로 말합니다.",
+      "toneKo": "가능/불가능 표현입니다."
+    },
+    {
+      "id": "ke001-p-009",
+      "text": "Tôi phải ... / Tôi không được ...",
+      "hintKo": "저는 ...해야 합니다 / ...하면 안 됩니다",
+      "audioSrc": "",
+      "sourcePage": 0,
+      "reviewNeeded": false,
+      "pronKo": "또이 파이 / 또이 콩 드억",
+      "mouthKo": "phải는 의무, không được는 금지입니다.",
+      "toneKo": "không được는 '하면 안 된다'에 가깝습니다."
+    },
+    {
+      "id": "ke001-p-010",
+      "text": "Đầu tiên, sau đó, tiếp theo, cuối cùng",
+      "hintKo": "먼저, 그 후에, 다음으로, 마지막으로",
+      "audioSrc": "",
+      "sourcePage": 0,
+      "reviewNeeded": false,
+      "pronKo": "더우 띠엔, 싸우 도, 띠엡 테오, 꾸오이 꿍",
+      "mouthKo": "네 개를 세트로 외웁니다.",
+      "toneKo": "루틴 설명에 필수입니다."
+    },
+    {
+      "id": "ke001-p-011",
+      "text": "Sau khi ... / Trước khi ...",
+      "hintKo": "...한 후에 / ...하기 전에",
+      "audioSrc": "",
+      "sourcePage": 0,
+      "reviewNeeded": false,
+      "pronKo": "싸우 키 / 쯔억 키",
+      "mouthKo": "Sau khi와 Trước khi를 반대 표현으로 같이 외웁니다.",
+      "toneKo": "시간 순서를 말할 때 씁니다."
+    },
+    {
+      "id": "ke001-p-012",
+      "text": "Vì thế, cho nên",
+      "hintKo": "그래서",
+      "audioSrc": "",
+      "sourcePage": 0,
+      "reviewNeeded": false,
+      "pronKo": "비 테, 쪼 넨",
+      "mouthKo": "둘 다 결과를 말할 때 씁니다.",
+      "toneKo": "이유 뒤에 연결하면 좋습니다."
+    },
+    {
+      "id": "ke001-p-013",
+      "text": "Trước đây, gần đây, dạo này, bây giờ, sau này",
+      "hintKo": "예전에, 최근에, 요즘, 지금, 나중에",
+      "audioSrc": "",
+      "sourcePage": 0,
+      "reviewNeeded": false,
+      "pronKo": "쯔억 더이, 건 더이, 자오 나이, 버이 저, 싸우 나이",
+      "mouthKo": "시간 표현을 세트로 외웁니다.",
+      "toneKo": "시제 느낌을 자연스럽게 만들어 줍니다."
+    },
+    {
+      "id": "ke001-p-014",
+      "text": "ngày nào cũng / ai cũng / đâu cũng / cái gì cũng / lúc nào cũng",
+      "hintKo": "매일 / 누구나 / 어디든 / 무엇이든 / 항상",
+      "audioSrc": "",
+      "sourcePage": 0,
+      "reviewNeeded": false,
+      "pronKo": "응아이 나오 꿍 / 아이 꿍 / 더우 꿍 / 까이 지 꿍 / 룩 나오 꿍",
+      "mouthKo": "cũng 앞에 오는 단어만 바꾸면 의미가 달라집니다.",
+      "toneKo": "cũng는 '도/역시' 느낌이지만 이 구조에서는 전체 강조 표현입니다."
+    }
+  ],
+  "quizSeeds": [
+    {
+      "id": "ke001-q-001",
+      "type": "match-term",
+      "prompt": "의견 표현 매칭",
+      "answerSet": [
+        "Tôi nghĩ là ...-저는 ...라고 생각합니다",
+        "Tôi thấy là ...-제가 보기에는 ...",
+        "Theo tôi thì ...-제 생각에는 ...",
+        "Đối với tôi thì ...-저에게는 ..."
+      ],
+      "sourcePage": 0,
+      "reviewNeeded": false
+    },
+    {
+      "id": "ke001-q-002",
+      "type": "match-term",
+      "prompt": "연결 표현 매칭",
+      "answerSet": [
+        "Đặc biệt là ...-특히 ...",
+        "Trong đó, ...-그중에서 ...",
+        "Ngoài ra, ...-게다가 / 그 밖에도",
+        "Ngược lại, ...-반대로 ..."
+      ],
+      "sourcePage": 0,
+      "reviewNeeded": false
+    },
+    {
+      "id": "ke001-q-003",
+      "type": "match-term",
+      "prompt": "가능/필요/의무 표현 매칭",
+      "answerSet": [
+        "Tôi có thể ...-저는 ...할 수 있습니다",
+        "Tôi không thể ...-저는 ...할 수 없습니다",
+        "Tôi cần ...-저는 ...이 필요합니다",
+        "Tôi không cần ...-저는 ...할 필요가 없습니다",
+        "Tôi phải ...-저는 ...해야 합니다",
+        "Tôi không được ...-저는 ...하면 안 됩니다"
+      ],
+      "sourcePage": 0,
+      "reviewNeeded": false
+    },
+    {
+      "id": "ke001-q-004",
+      "type": "match-term",
+      "prompt": "조언 표현 매칭",
+      "answerSet": [
+        "Tôi nên ...-저는 ...하는 것이 좋습니다",
+        "Tôi không nên ...-저는 ...하지 않는 것이 좋습니다"
+      ],
+      "sourcePage": 0,
+      "reviewNeeded": false
+    },
+    {
+      "id": "ke001-q-005",
+      "type": "match-term",
+      "prompt": "순서 표현 매칭",
+      "answerSet": [
+        "Đầu tiên, ...-먼저",
+        "Sau đó, ...-그 후에",
+        "Tiếp theo, ...-다음으로",
+        "Cuối cùng, ...-마지막으로"
+      ],
+      "sourcePage": 0,
+      "reviewNeeded": false
+    },
+    {
+      "id": "ke001-q-006",
+      "type": "match-term",
+      "prompt": "시간 표현 매칭",
+      "answerSet": [
+        "Trước đây-예전에",
+        "Gần đây-최근에",
+        "Dạo này-요즘",
+        "Bây giờ-지금",
+        "Sau này-나중에 / 앞으로"
+      ],
+      "sourcePage": 0,
+      "reviewNeeded": false
+    },
+    {
+      "id": "ke001-q-007",
+      "type": "match-term",
+      "prompt": "cũng 표현 매칭",
+      "answerSet": [
+        "ngày nào cũng-매일",
+        "ai cũng-누구나 / 모두",
+        "đâu cũng-어디든 / 어디서나",
+        "cái gì cũng-무엇이든 / 뭐든지",
+        "lúc nào cũng-항상 / 언제나"
+      ],
+      "sourcePage": 0,
+      "reviewNeeded": false
+    },
+    {
+      "id": "ke001-q-008",
+      "type": "fill-blank",
+      "prompt": "빈칸 채우기: 저는 가족이 중요하다고 생각합니다.",
+      "question": "Tôi ___ là gia đình rất quan trọng.",
+      "answer": "nghĩ",
+      "sourcePage": 0,
+      "reviewNeeded": false
+    },
+    {
+      "id": "ke001-q-009",
+      "type": "fill-blank",
+      "prompt": "빈칸 채우기: 제 생각에는 건강이 가장 중요합니다.",
+      "question": "Theo tôi ___ sức khỏe là quan trọng nhất.",
+      "answer": "thì",
+      "sourcePage": 0,
+      "reviewNeeded": false
+    },
+    {
+      "id": "ke001-q-010",
+      "type": "fill-blank",
+      "prompt": "빈칸 채우기: 저는 매일 커피를 마십니다.",
+      "question": "Tôi ngày nào ___ uống cà phê.",
+      "answer": "cũng",
+      "sourcePage": 0,
+      "reviewNeeded": false
+    },
+    {
+      "id": "ke001-q-011",
+      "type": "fill-blank",
+      "prompt": "빈칸 채우기: 저는 자기 전에 음악을 듣습니다.",
+      "question": "___ khi đi ngủ, tôi nghe nhạc.",
+      "answer": "Trước",
+      "sourcePage": 0,
+      "reviewNeeded": false
+    },
+    {
+      "id": "ke001-q-012",
+      "type": "fill-blank",
+      "prompt": "빈칸 채우기: 저녁을 먹은 후 저는 영화를 봅니다.",
+      "question": "___ khi ăn tối, tôi xem phim.",
+      "answer": "Sau",
+      "sourcePage": 0,
+      "reviewNeeded": false
+    },
+    {
+      "id": "ke001-q-013",
+      "type": "sentence-meaning",
+      "prompt": "문장 뜻 고르기",
+      "answerSet": [
+        "Tôi có thói quen là uống cà phê vào buổi sáng.-저는 아침에 커피를 마시는 습관이 있습니다",
+        "Tôi không được hút thuốc ở công ty.-저는 회사에서 담배를 피우면 안 됩니다",
+        "Ngoài ra, tôi cũng thích nghe nhạc.-게다가 저는 음악 듣는 것도 좋아합니다",
+        "Ngược lại, vợ tôi thích mùa hè.-반대로 제 아내는 여름을 좋아합니다"
+      ],
+      "sourcePage": 0,
+      "reviewNeeded": false
+    },
+    {
+      "id": "ke001-q-014",
+      "type": "match-term",
+      "prompt": "OPIc 답변 순서 맞추기",
+      "answerSet": [
+        "1-Theo tôi thì gia đình rất quan trọng.",
+        "2-Đặc biệt là vào cuối tuần, tôi muốn dành thời gian cho gia đình.",
+        "3-Ngoài ra, tôi cũng thích xem phim với gia đình.",
+        "4-Vì thế, tôi cảm thấy rất hạnh phúc.",
+        "5-Đối với tôi thì gia đình là điều quan trọng nhất."
+      ],
+      "sourcePage": 0,
+      "reviewNeeded": false
+    }
+  ],
+  "unlockCondition": "always",
+  "reviewNeeded": false
+    }
+    
+  ],
   "opicQuestionBank": [
   ],
   "mockTests": {}
