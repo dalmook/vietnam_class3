@@ -19,6 +19,1004 @@
   },
   "lessons": [
     {
+  "lessonId": "day-008-environment",
+  "unitLabel": "8일차",
+  "titleKo": "8일차: 환경",
+  "titleVi": "Ngày 8: Môi trường",
+  "pageRange": "8일차 / Chủ đề 20: Môi trường",
+  "goals": [
+    "환경에 관심이 있는지 말할 수 있다",
+    "한국의 공기 질과 거리 환경을 설명할 수 있다",
+    "쓰레기 분리수거와 재활용에 대해 말할 수 있다",
+    "플라스틱, 비닐봉지, 재활용 제품 사용에 대해 말할 수 있다",
+    "전기와 물을 절약하는 습관을 말할 수 있다",
+    "환경 보호를 위해 자신이 하는 일을 설명할 수 있다"
+  ],
+  "topicOverview": "환경 주제는 OPIC에서 생활습관과 한국 사회 문화를 함께 말하기 좋은 주제입니다. 답변은 '환경에 관심이 있다 → 한국의 공기와 거리 상태 → 분리수거 문화 → 플라스틱 줄이기 → 전기와 물 절약 → 환경 보호를 위해 노력한다' 순서로 말하면 좋습니다. 어려운 표현보다 'Tôi cố gắng...', 'Tôi nghĩ...', 'Ở Hàn Quốc...' 같은 쉬운 문장을 반복해서 쓰면 안정적인 답변이 됩니다.",
+  "cultureTopics": [
+    "환경",
+    "환경 보호",
+    "공기",
+    "공기 질",
+    "오염",
+    "쓰레기",
+    "길거리",
+    "분리수거",
+    "재활용",
+    "플라스틱 제품",
+    "비닐봉지",
+    "마트",
+    "전기 절약",
+    "물 절약",
+    "나무",
+    "친환경 습관",
+    "한국의 분리수거 문화",
+    "재활용 제품"
+  ],
+  "vocabCards": [
+    {
+      "id": "day08-env-v-001",
+      "term": "môi trường",
+      "meaningKo": "환경",
+      "example": "Tôi quan tâm đến môi trường.",
+      "exampleMeaningKo": "저는 환경에 관심이 있습니다.",
+      "audioSrc": "",
+      "sourcePage": 8,
+      "reviewNeeded": false,
+      "pronKo": "모이 쯔엉",
+      "pronNoteKo": "환경 주제의 가장 핵심 단어입니다.",
+      "pronChunks": ["môi=모이", "trường=쯔엉"]
+    },
+    {
+      "id": "day08-env-v-002",
+      "term": "quan tâm",
+      "meaningKo": "관심이 있다",
+      "example": "Dạo này tôi quan tâm đến môi trường.",
+      "exampleMeaningKo": "요즘 저는 환경에 관심이 있습니다.",
+      "audioSrc": "",
+      "sourcePage": 8,
+      "reviewNeeded": false,
+      "pronKo": "꽌 떰",
+      "pronNoteKo": "quan tâm đến은 '~에 관심이 있다'입니다.",
+      "pronChunks": ["quan=꽌", "tâm=떰"]
+    },
+    {
+      "id": "day08-env-v-003",
+      "term": "không khí",
+      "meaningKo": "공기",
+      "example": "Không khí ở Hàn Quốc khá tốt.",
+      "exampleMeaningKo": "한국의 공기는 꽤 좋습니다.",
+      "audioSrc": "",
+      "sourcePage": 8,
+      "reviewNeeded": false,
+      "pronKo": "콩 키",
+      "pronNoteKo": "공기 질을 말할 때 기본 단어입니다.",
+      "pronChunks": ["không=콩", "khí=키"]
+    },
+    {
+      "id": "day08-env-v-004",
+      "term": "chất lượng không khí",
+      "meaningKo": "공기 질",
+      "example": "Chất lượng không khí ở thành phố không phải lúc nào cũng tốt.",
+      "exampleMeaningKo": "도시의 공기 질이 항상 좋은 것은 아닙니다.",
+      "audioSrc": "",
+      "sourcePage": 8,
+      "reviewNeeded": false,
+      "pronKo": "쩟 르엉 콩 키",
+      "pronNoteKo": "질문에 나온 표현입니다. 공기 상태를 말할 때 씁니다.",
+      "pronChunks": ["chất lượng=쩟 르엉", "không khí=콩 키"]
+    },
+    {
+      "id": "day08-env-v-005",
+      "term": "tốt",
+      "meaningKo": "좋다",
+      "example": "Chất lượng không khí khá tốt.",
+      "exampleMeaningKo": "공기 질이 꽤 좋습니다.",
+      "audioSrc": "",
+      "sourcePage": 8,
+      "reviewNeeded": false,
+      "pronKo": "똣",
+      "pronNoteKo": "좋다, 괜찮다를 말할 때 자주 쓰는 기본 형용사입니다.",
+      "pronChunks": ["tốt=똣"]
+    },
+    {
+      "id": "day08-env-v-006",
+      "term": "xấu",
+      "meaningKo": "나쁘다",
+      "example": "Khi có bụi mịn, chất lượng không khí xấu.",
+      "exampleMeaningKo": "미세먼지가 있을 때 공기 질이 나쁩니다.",
+      "audioSrc": "",
+      "sourcePage": 8,
+      "reviewNeeded": false,
+      "pronKo": "써우",
+      "pronNoteKo": "tốt의 반대말입니다.",
+      "pronChunks": ["xấu=써우"]
+    },
+    {
+      "id": "day08-env-v-007",
+      "term": "rác",
+      "meaningKo": "쓰레기",
+      "example": "Tôi không thấy nhiều rác trên đường phố.",
+      "exampleMeaningKo": "저는 길거리에서 많은 쓰레기를 보지 못합니다.",
+      "audioSrc": "",
+      "sourcePage": 8,
+      "reviewNeeded": false,
+      "pronKo": "작",
+      "pronNoteKo": "재활용, 분리수거 주제의 기본 단어입니다.",
+      "pronChunks": ["rác=작"]
+    },
+    {
+      "id": "day08-env-v-008",
+      "term": "đường phố",
+      "meaningKo": "길거리 / 도로",
+      "example": "Đường phố ở Hàn Quốc khá sạch.",
+      "exampleMeaningKo": "한국의 길거리는 꽤 깨끗합니다.",
+      "audioSrc": "",
+      "sourcePage": 8,
+      "reviewNeeded": false,
+      "pronKo": "드엉 포",
+      "pronNoteKo": "도시 환경을 말할 때 좋습니다.",
+      "pronChunks": ["đường=드엉", "phố=포"]
+    },
+    {
+      "id": "day08-env-v-009",
+      "term": "thấy",
+      "meaningKo": "보다 / 보이다 / 느끼다",
+      "example": "Tôi thấy môi trường rất quan trọng.",
+      "exampleMeaningKo": "저는 환경이 매우 중요하다고 생각합니다.",
+      "audioSrc": "",
+      "sourcePage": 8,
+      "reviewNeeded": false,
+      "pronKo": "터이",
+      "pronNoteKo": "Tôi thấy는 '저는 ~라고 생각해요/느껴요'로도 자주 씁니다.",
+      "pronChunks": ["thấy=터이"]
+    },
+    {
+      "id": "day08-env-v-010",
+      "term": "trên",
+      "meaningKo": "~위에 / ~에서",
+      "example": "Có rác trên đường phố.",
+      "exampleMeaningKo": "길거리에 쓰레기가 있습니다.",
+      "audioSrc": "",
+      "sourcePage": 8,
+      "reviewNeeded": false,
+      "pronKo": "쩬",
+      "pronNoteKo": "trên đường phố는 '길거리에서/길 위에'입니다.",
+      "pronChunks": ["trên=쩬"]
+    },
+    {
+      "id": "day08-env-v-011",
+      "term": "phân loại rác",
+      "meaningKo": "쓰레기를 분리하다 / 분리수거하다",
+      "example": "Ở Hàn Quốc, người ta phải phân loại rác.",
+      "exampleMeaningKo": "한국에서는 사람들이 쓰레기를 분리수거해야 합니다.",
+      "audioSrc": "",
+      "sourcePage": 8,
+      "reviewNeeded": false,
+      "pronKo": "펀 로아이 작",
+      "pronNoteKo": "환경 주제에서 반드시 외우면 좋은 표현입니다.",
+      "pronChunks": ["phân loại=펀 로아이", "rác=작"]
+    },
+    {
+      "id": "day08-env-v-012",
+      "term": "phân loại",
+      "meaningKo": "분류하다 / 나누다",
+      "example": "Tôi phân loại giấy, nhựa và lon.",
+      "exampleMeaningKo": "저는 종이, 플라스틱, 캔을 분류합니다.",
+      "audioSrc": "",
+      "sourcePage": 8,
+      "reviewNeeded": false,
+      "pronKo": "펀 로아이",
+      "pronNoteKo": "쓰레기뿐 아니라 여러 물건을 분류할 때도 씁니다.",
+      "pronChunks": ["phân=펀", "loại=로아이"]
+    },
+    {
+      "id": "day08-env-v-013",
+      "term": "bắt buộc",
+      "meaningKo": "필수적이다 / 의무이다",
+      "example": "Ở Hàn Quốc, phân loại rác là bắt buộc.",
+      "exampleMeaningKo": "한국에서는 분리수거가 필수입니다.",
+      "audioSrc": "",
+      "sourcePage": 8,
+      "reviewNeeded": false,
+      "pronKo": "밧 부옥",
+      "pronNoteKo": "규칙이나 의무를 말할 때 씁니다.",
+      "pronChunks": ["bắt=밧", "buộc=부옥"]
+    },
+    {
+      "id": "day08-env-v-014",
+      "term": "đồ nhựa",
+      "meaningKo": "플라스틱 제품",
+      "example": "Tôi cố gắng không sử dụng nhiều đồ nhựa.",
+      "exampleMeaningKo": "저는 플라스틱 제품을 많이 사용하지 않으려고 노력합니다.",
+      "audioSrc": "",
+      "sourcePage": 8,
+      "reviewNeeded": false,
+      "pronKo": "도 느어",
+      "pronNoteKo": "đồ는 물건, nhựa는 플라스틱입니다.",
+      "pronChunks": ["đồ=도", "nhựa=느어"]
+    },
+    {
+      "id": "day08-env-v-015",
+      "term": "túi nilon",
+      "meaningKo": "비닐봉지",
+      "example": "Tôi không dùng túi nilon nhiều.",
+      "exampleMeaningKo": "저는 비닐봉지를 많이 사용하지 않습니다.",
+      "audioSrc": "",
+      "sourcePage": 8,
+      "reviewNeeded": false,
+      "pronKo": "뚜이 니롱",
+      "pronNoteKo": "마트, 장보기, 환경 문제에 자주 나오는 단어입니다.",
+      "pronChunks": ["túi=뚜이", "nilon=니롱"]
+    },
+    {
+      "id": "day08-env-v-016",
+      "term": "sử dụng",
+      "meaningKo": "사용하다",
+      "example": "Tôi sử dụng túi vải khi đi siêu thị.",
+      "exampleMeaningKo": "저는 마트에 갈 때 천 가방을 사용합니다.",
+      "audioSrc": "",
+      "sourcePage": 8,
+      "reviewNeeded": false,
+      "pronKo": "스 중",
+      "pronNoteKo": "dùng과 비슷하지만 조금 더 정식 표현입니다.",
+      "pronChunks": ["sử=스", "dụng=중"]
+    },
+    {
+      "id": "day08-env-v-017",
+      "term": "siêu thị",
+      "meaningKo": "마트 / 슈퍼마켓",
+      "example": "Tôi thường đi siêu thị vào cuối tuần.",
+      "exampleMeaningKo": "저는 보통 주말에 마트에 갑니다.",
+      "audioSrc": "",
+      "sourcePage": 8,
+      "reviewNeeded": false,
+      "pronKo": "씨에우 티",
+      "pronNoteKo": "장보기, 비닐봉지 질문과 연결됩니다.",
+      "pronChunks": ["siêu=씨에우", "thị=티"]
+    },
+    {
+      "id": "day08-env-v-018",
+      "term": "được cho",
+      "meaningKo": "제공받다 / 받게 되다",
+      "example": "Ở Hàn Quốc, không phải lúc nào cũng được cho túi nilon.",
+      "exampleMeaningKo": "한국에서는 항상 비닐봉지를 제공받는 것은 아닙니다.",
+      "audioSrc": "",
+      "sourcePage": 8,
+      "reviewNeeded": false,
+      "pronKo": "드억 쪼",
+      "pronNoteKo": "được는 수동 느낌, cho는 주다입니다.",
+      "pronChunks": ["được=드억", "cho=쪼"]
+    },
+    {
+      "id": "day08-env-v-019",
+      "term": "đựng đồ",
+      "meaningKo": "물건을 담다",
+      "example": "Túi nilon dùng để đựng đồ.",
+      "exampleMeaningKo": "비닐봉지는 물건을 담기 위해 사용됩니다.",
+      "audioSrc": "",
+      "sourcePage": 8,
+      "reviewNeeded": false,
+      "pronKo": "등 도",
+      "pronNoteKo": "để đựng đồ는 '물건을 담기 위해'입니다.",
+      "pronChunks": ["đựng=등", "đồ=도"]
+    },
+    {
+      "id": "day08-env-v-020",
+      "term": "tiết kiệm",
+      "meaningKo": "절약하다",
+      "example": "Tôi cố gắng tiết kiệm điện và nước.",
+      "exampleMeaningKo": "저는 전기와 물을 절약하려고 노력합니다.",
+      "audioSrc": "",
+      "sourcePage": 8,
+      "reviewNeeded": false,
+      "pronKo": "띠엣 끼엠",
+      "pronNoteKo": "환경 보호 답변에서 아주 좋은 표현입니다.",
+      "pronChunks": ["tiết=띠엣", "kiệm=끼엠"]
+    },
+    {
+      "id": "day08-env-v-021",
+      "term": "điện",
+      "meaningKo": "전기",
+      "example": "Tôi tắt đèn để tiết kiệm điện.",
+      "exampleMeaningKo": "저는 전기를 절약하기 위해 불을 끕니다.",
+      "audioSrc": "",
+      "sourcePage": 8,
+      "reviewNeeded": false,
+      "pronKo": "디엔",
+      "pronNoteKo": "điện thoại의 điện도 같은 전기/전자 느낌입니다.",
+      "pronChunks": ["điện=디엔"]
+    },
+    {
+      "id": "day08-env-v-022",
+      "term": "nước",
+      "meaningKo": "물",
+      "example": "Tôi tiết kiệm nước khi rửa bát.",
+      "exampleMeaningKo": "저는 설거지할 때 물을 절약합니다.",
+      "audioSrc": "",
+      "sourcePage": 8,
+      "reviewNeeded": false,
+      "pronKo": "느억",
+      "pronNoteKo": "환경과 건강 주제 둘 다에서 자주 씁니다.",
+      "pronChunks": ["nước=느억"]
+    },
+    {
+      "id": "day08-env-v-023",
+      "term": "cây xanh",
+      "meaningKo": "나무 / 녹색 식물",
+      "example": "Ở Hàn Quốc có nhiều cây xanh.",
+      "exampleMeaningKo": "한국에는 나무가 많습니다.",
+      "audioSrc": "",
+      "sourcePage": 8,
+      "reviewNeeded": false,
+      "pronKo": "꺼이 싸인",
+      "pronNoteKo": "공원, 도시 환경을 말할 때 좋습니다.",
+      "pronChunks": ["cây=꺼이", "xanh=싸인"]
+    },
+    {
+      "id": "day08-env-v-024",
+      "term": "góp phần",
+      "meaningKo": "기여하다 / 보탬이 되다",
+      "example": "Tôi muốn góp phần bảo vệ môi trường.",
+      "exampleMeaningKo": "저는 환경 보호에 기여하고 싶습니다.",
+      "audioSrc": "",
+      "sourcePage": 8,
+      "reviewNeeded": false,
+      "pronKo": "곱 펀",
+      "pronNoteKo": "OPIC 답변 마무리에 쓰면 좋아 보이는 표현입니다.",
+      "pronChunks": ["góp=곱", "phần=펀"]
+    },
+    {
+      "id": "day08-env-v-025",
+      "term": "sản phẩm",
+      "meaningKo": "제품",
+      "example": "Tôi thích sử dụng sản phẩm thân thiện với môi trường.",
+      "exampleMeaningKo": "저는 친환경 제품을 사용하는 것을 좋아합니다.",
+      "audioSrc": "",
+      "sourcePage": 8,
+      "reviewNeeded": false,
+      "pronKo": "산 펌",
+      "pronNoteKo": "제품, 물건을 말할 때 씁니다.",
+      "pronChunks": ["sản=산", "phẩm=펌"]
+    },
+    {
+      "id": "day08-env-v-026",
+      "term": "tái chế",
+      "meaningKo": "재활용하다 / 재활용",
+      "example": "Tái chế giúp bảo vệ môi trường.",
+      "exampleMeaningKo": "재활용은 환경 보호에 도움이 됩니다.",
+      "audioSrc": "",
+      "sourcePage": 8,
+      "reviewNeeded": false,
+      "pronKo": "따이 쩨",
+      "pronNoteKo": "환경 주제와 재활용 주제 공통 핵심 단어입니다.",
+      "pronChunks": ["tái=따이", "chế=쩨"]
+    },
+    {
+      "id": "day08-env-v-027",
+      "term": "sản phẩm tái chế",
+      "meaningKo": "재활용 제품",
+      "example": "Tôi thỉnh thoảng sử dụng sản phẩm tái chế.",
+      "exampleMeaningKo": "저는 가끔 재활용 제품을 사용합니다.",
+      "audioSrc": "",
+      "sourcePage": 8,
+      "reviewNeeded": false,
+      "pronKo": "산 펌 따이 쩨",
+      "pronNoteKo": "제품 사용 질문에 바로 쓸 수 있습니다.",
+      "pronChunks": ["sản phẩm=산 펌", "tái chế=따이 쩨"]
+    },
+    {
+      "id": "day08-env-v-028",
+      "term": "bảo vệ môi trường",
+      "meaningKo": "환경을 보호하다",
+      "example": "Chúng ta nên bảo vệ môi trường.",
+      "exampleMeaningKo": "우리는 환경을 보호해야 합니다.",
+      "audioSrc": "",
+      "sourcePage": 8,
+      "reviewNeeded": false,
+      "pronKo": "바오 베 모이 쯔엉",
+      "pronNoteKo": "환경 주제의 마무리 필수 표현입니다.",
+      "pronChunks": ["bảo vệ=바오 베", "môi trường=모이 쯔엉"]
+    },
+    {
+      "id": "day08-env-v-029",
+      "term": "ô nhiễm",
+      "meaningKo": "오염",
+      "example": "Ô nhiễm không khí là một vấn đề lớn.",
+      "exampleMeaningKo": "공기 오염은 큰 문제입니다.",
+      "audioSrc": "",
+      "sourcePage": 8,
+      "reviewNeeded": false,
+      "pronKo": "오 니엠",
+      "pronNoteKo": "ô nhiễm không khí는 '공기 오염'입니다.",
+      "pronChunks": ["ô=오", "nhiễm=니엠"]
+    },
+    {
+      "id": "day08-env-v-030",
+      "term": "giảm",
+      "meaningKo": "줄이다 / 감소하다",
+      "example": "Tôi cố gắng giảm rác nhựa.",
+      "exampleMeaningKo": "저는 플라스틱 쓰레기를 줄이려고 노력합니다.",
+      "audioSrc": "",
+      "sourcePage": 8,
+      "reviewNeeded": false,
+      "pronKo": "잠",
+      "pronNoteKo": "환경 보호 실천을 말할 때 좋습니다.",
+      "pronChunks": ["giảm=잠"]
+    }
+  ],
+  "sentenceCards": [
+    {
+      "id": "day08-env-s-001",
+      "textVi": "Anh có quan tâm đến môi trường không?",
+      "textKo": "환경에 관심이 있나요?",
+      "exampleAnswerVi": "Có, dạo này tôi quan tâm nhiều đến môi trường. Tôi nghĩ môi trường rất quan trọng, vì nó ảnh hưởng đến sức khỏe của chúng ta. Vì vậy, tôi cố gắng phân loại rác, tiết kiệm điện và nước, và giảm sử dụng đồ nhựa.",
+      "exampleAnswerKo": "네, 요즘 저는 환경에 관심이 많습니다. 환경은 우리의 건강에 영향을 주기 때문에 매우 중요하다고 생각합니다. 그래서 저는 분리수거를 하고, 전기와 물을 절약하고, 플라스틱 제품 사용을 줄이려고 노력합니다.",
+      "audioSrc": "",
+      "sourcePage": 8,
+      "reviewNeeded": false,
+      "pronKo": "아인 꼬 꽌 떰 덴 모이 쯔엉 콩?",
+      "exampleAnswerPronKo": "꼬, 자오 나이 또이 꽌 떰 니에우 덴 모이 쯔엉.",
+      "pronNoteKo": "환경 질문은 '관심 있다 → 중요하다 → 내가 하는 행동' 순서로 답하면 좋습니다."
+    },
+    {
+      "id": "day08-env-s-002",
+      "textVi": "Chất lượng không khí ở Hàn Quốc có tốt không?",
+      "textKo": "한국의 공기 질은 좋은가요?",
+      "exampleAnswerVi": "Theo tôi, chất lượng không khí ở Hàn Quốc khá tốt, nhưng không phải lúc nào cũng tốt. Đặc biệt là vào mùa xuân, đôi khi có bụi mịn nên không khí hơi xấu. Khi đó, tôi thường đeo khẩu trang và cố gắng không ra ngoài quá lâu.",
+      "exampleAnswerKo": "제 생각에 한국의 공기 질은 꽤 좋지만 항상 좋은 것은 아닙니다. 특히 봄에는 가끔 미세먼지가 있어서 공기가 조금 나쁩니다. 그럴 때 저는 보통 마스크를 쓰고 너무 오래 밖에 나가지 않으려고 합니다.",
+      "audioSrc": "",
+      "sourcePage": 8,
+      "reviewNeeded": false,
+      "pronKo": "쩟 르엉 콩 키 어 한 꾸옥 꼬 똣 콩?",
+      "exampleAnswerPronKo": "테오 또이, 쩟 르엉 콩 키 어 한 꾸옥 카 똣, 느응 콩 파이 룩 나오 꿍 똣.",
+      "pronNoteKo": "좋다만 말하지 말고 '하지만 항상 좋은 것은 아니다'를 넣으면 답변이 자연스럽습니다."
+    },
+    {
+      "id": "day08-env-s-003",
+      "textVi": "Ở Hàn Quốc có thấy rác trên đường phố không?",
+      "textKo": "한국에서는 길거리에서 쓰레기를 볼 수 있나요?",
+      "exampleAnswerVi": "Ở Hàn Quốc, tôi không thường thấy nhiều rác trên đường phố. Đường phố khá sạch vì nhiều người có ý thức giữ vệ sinh. Tuy nhiên, ở những nơi đông người, ví dụ như gần ga tàu hoặc khu vui chơi, đôi khi vẫn có rác.",
+      "exampleAnswerKo": "한국에서는 저는 길거리에서 많은 쓰레기를 자주 보지는 않습니다. 많은 사람들이 위생을 지키려는 의식이 있어서 길거리는 꽤 깨끗합니다. 하지만 역 근처나 놀이 공간처럼 사람이 많은 곳에는 가끔 쓰레기가 있습니다.",
+      "audioSrc": "",
+      "sourcePage": 8,
+      "reviewNeeded": false,
+      "pronKo": "어 한 꾸옥 꼬 터이 작 쩬 드엉 포 콩?",
+      "exampleAnswerPronKo": "어 한 꾸옥, 또이 콩 트엉 터이 니에우 작 쩬 드엉 포.",
+      "pronNoteKo": "đường phố khá sạch은 '길거리가 꽤 깨끗하다'입니다."
+    },
+    {
+      "id": "day08-env-s-004",
+      "textVi": "Ở Hàn Quốc có phải phân loại rác không?",
+      "textKo": "한국에서는 쓰레기를 분리해야 하나요?",
+      "exampleAnswerVi": "Có, ở Hàn Quốc phải phân loại rác. Người ta phân loại giấy, nhựa, lon, thủy tinh và rác thức ăn. Lúc đầu hơi khó, nhưng bây giờ tôi đã quen rồi. Tôi nghĩ phân loại rác hơi phiền, nhưng rất cần thiết để bảo vệ môi trường.",
+      "exampleAnswerKo": "네, 한국에서는 쓰레기를 분리해야 합니다. 사람들은 종이, 플라스틱, 캔, 유리, 음식물 쓰레기를 분리합니다. 처음에는 조금 어렵지만 지금은 익숙해졌습니다. 저는 분리수거가 조금 귀찮지만 환경을 보호하기 위해 매우 필요하다고 생각합니다.",
+      "audioSrc": "",
+      "sourcePage": 8,
+      "reviewNeeded": false,
+      "pronKo": "어 한 꾸옥 꼬 파이 펀 로아이 작 콩?",
+      "exampleAnswerPronKo": "꼬, 어 한 꾸옥 파이 펀 로아이 작.",
+      "pronNoteKo": "phải는 '~해야 한다'입니다. phân loại rác과 같이 외우면 좋습니다."
+    },
+    {
+      "id": "day08-env-s-005",
+      "textVi": "Anh có sử dụng nhiều đồ nhựa không?",
+      "textKo": "플라스틱 제품을 많이 사용하나요?",
+      "exampleAnswerVi": "Trước đây tôi sử dụng khá nhiều đồ nhựa, nhưng bây giờ tôi cố gắng sử dụng ít hơn. Khi mua cà phê, tôi cố gắng dùng cốc cá nhân. Ngoài ra, khi đi mua sắm, tôi mang túi riêng để giảm túi nilon.",
+      "exampleAnswerKo": "예전에는 플라스틱 제품을 꽤 많이 사용했지만 지금은 더 적게 사용하려고 노력합니다. 커피를 살 때는 개인 컵을 사용하려고 합니다. 또한 쇼핑하러 갈 때는 비닐봉지를 줄이기 위해 개인 가방을 가져갑니다.",
+      "audioSrc": "",
+      "sourcePage": 8,
+      "reviewNeeded": false,
+      "pronKo": "아인 꼬 스 중 니에우 도 느어 콩?",
+      "exampleAnswerPronKo": "쯔억 더이 또이 스 중 카 니에우 도 느어, 느응 버이 저 또이 꼬 강 스 중 잇 헌.",
+      "pronNoteKo": "Trước đây..., nhưng bây giờ... 패턴을 쓰면 변화 설명이 쉬워집니다."
+    },
+    {
+      "id": "day08-env-s-006",
+      "textVi": "Ở Hàn Quốc, khi đi siêu thị có được cho túi nilon đựng đồ không?",
+      "textKo": "한국에서는 마트에 갈 때 물건을 담는 비닐봉지를 제공받나요?",
+      "exampleAnswerVi": "Ở Hàn Quốc, khi đi siêu thị, người ta không được cho túi nilon miễn phí. Nếu cần túi, chúng ta phải mua. Vì vậy, nhiều người mang túi riêng khi đi mua sắm. Theo tôi, cách này hơi bất tiện một chút, nhưng tốt cho môi trường.",
+      "exampleAnswerKo": "한국에서는 마트에 갈 때 무료로 비닐봉지를 제공받지 않습니다. 봉지가 필요하면 사야 합니다. 그래서 많은 사람들은 쇼핑하러 갈 때 개인 가방을 가져갑니다. 제 생각에 이 방법은 조금 불편하지만 환경에는 좋습니다.",
+      "audioSrc": "",
+      "sourcePage": 8,
+      "reviewNeeded": false,
+      "pronKo": "어 한 꾸옥, 키 디 씨에우 티 꼬 드억 쪼 뚜이 니롱 등 도 콩?",
+      "exampleAnswerPronKo": "어 한 꾸옥, 키 디 씨에우 티, 응으어이 따 콩 드억 쪼 뚜이 니롱 미엔 피.",
+      "pronNoteKo": "miễn phí는 '무료'입니다. 한국 마트 문화 설명에 좋습니다."
+    },
+    {
+      "id": "day08-env-s-007",
+      "textVi": "Anh có tiết kiệm điện và nước không?",
+      "textKo": "전기와 물을 절약하나요?",
+      "exampleAnswerVi": "Có, tôi cố gắng tiết kiệm điện và nước trong cuộc sống hằng ngày. Khi ra khỏi phòng, tôi tắt đèn. Khi rửa bát hoặc đánh răng, tôi cố gắng không dùng nước quá nhiều. Những việc này nhỏ thôi, nhưng tôi nghĩ chúng giúp bảo vệ môi trường.",
+      "exampleAnswerKo": "네, 저는 일상생활에서 전기와 물을 절약하려고 노력합니다. 방에서 나갈 때 불을 끕니다. 설거지하거나 양치할 때 물을 너무 많이 쓰지 않으려고 합니다. 이런 일들은 작지만 환경 보호에 도움이 된다고 생각합니다.",
+      "audioSrc": "",
+      "sourcePage": 8,
+      "reviewNeeded": false,
+      "pronKo": "아인 꼬 띠엣 끼엠 디엔 바 느억 콩?",
+      "exampleAnswerPronKo": "꼬, 또이 꼬 강 띠엣 끼엠 디엔 바 느억 쫑 꾸옥 송 항 응아이.",
+      "pronNoteKo": "작은 실천을 여러 개 나열하면 답변이 길어집니다."
+    },
+    {
+      "id": "day08-env-s-008",
+      "textVi": "Ở Hàn Quốc có nhiều cây xanh không?",
+      "textKo": "한국에는 나무가 많나요?",
+      "exampleAnswerVi": "Có, ở Hàn Quốc có khá nhiều cây xanh. Đặc biệt là trong công viên, gần sông và trong khu chung cư có nhiều cây. Tôi thích cây xanh vì nó làm cho thành phố đẹp hơn và không khí dễ chịu hơn.",
+      "exampleAnswerKo": "네, 한국에는 꽤 많은 나무가 있습니다. 특히 공원, 강 근처, 아파트 단지 안에 나무가 많습니다. 저는 나무가 도시를 더 아름답게 만들고 공기를 더 쾌적하게 해주기 때문에 좋아합니다.",
+      "audioSrc": "",
+      "sourcePage": 8,
+      "reviewNeeded": false,
+      "pronKo": "어 한 꾸옥 꼬 니에우 꺼이 싸인 콩?",
+      "exampleAnswerPronKo": "꼬, 어 한 꾸옥 꼬 카 니에우 꺼이 싸인.",
+      "pronNoteKo": "cây xanh은 공원/환경 주제를 연결하기 좋은 단어입니다."
+    },
+    {
+      "id": "day08-env-s-009",
+      "textVi": "Anh có sử dụng những sản phẩm tái chế không?",
+      "textKo": "재활용 제품을 사용하나요?",
+      "exampleAnswerVi": "Có, tôi thỉnh thoảng sử dụng sản phẩm tái chế. Ví dụ, tôi dùng giấy tái chế hoặc túi tái sử dụng. Tôi không dùng nhiều, nhưng nếu có cơ hội, tôi muốn sử dụng nhiều hơn vì nó tốt cho môi trường.",
+      "exampleAnswerKo": "네, 저는 가끔 재활용 제품을 사용합니다. 예를 들어 재활용 종이나 재사용 가능한 가방을 씁니다. 많이 사용하지는 않지만 기회가 있으면 환경에 좋기 때문에 더 많이 사용하고 싶습니다.",
+      "audioSrc": "",
+      "sourcePage": 8,
+      "reviewNeeded": false,
+      "pronKo": "아인 꼬 스 중 느응 산 펌 따이 쩨 콩?",
+      "exampleAnswerPronKo": "꼬, 또이 틴 토앙 스 중 산 펌 따이 쩨.",
+      "pronNoteKo": "sản phẩm tái chế는 '재활용 제품'입니다."
+    },
+    {
+      "id": "day08-env-s-010",
+      "textVi": "Anh làm gì để góp phần bảo vệ môi trường?",
+      "textKo": "환경 보호에 기여하기 위해 무엇을 하나요?",
+      "exampleAnswerVi": "Để góp phần bảo vệ môi trường, tôi làm một số việc nhỏ mỗi ngày. Tôi phân loại rác, tái chế chai nhựa và lon, tiết kiệm điện và nước, và cố gắng không dùng túi nilon nhiều. Ngoài ra, tôi thường mang bình nước cá nhân. Theo tôi, mỗi người chỉ cần làm những việc nhỏ, nhưng nếu ai cũng làm thì môi trường sẽ tốt hơn.",
+      "exampleAnswerKo": "환경 보호에 기여하기 위해 저는 매일 몇 가지 작은 일을 합니다. 쓰레기를 분리수거하고, 플라스틱 병과 캔을 재활용하고, 전기와 물을 절약하고, 비닐봉지를 많이 사용하지 않으려고 노력합니다. 또한 저는 보통 개인 물병을 가지고 다닙니다. 제 생각에 각 사람이 작은 일만 해도 모두가 한다면 환경은 더 좋아질 것입니다.",
+      "audioSrc": "",
+      "sourcePage": 8,
+      "reviewNeeded": false,
+      "pronKo": "아인 람 지 데 곱 펀 바오 베 모이 쯔엉?",
+      "exampleAnswerPronKo": "데 곱 펀 바오 베 모이 쯔엉, 또이 람 못 소 비엑 녀 모이 응아이.",
+      "pronNoteKo": "마무리 답변용 핵심 문제입니다. 실천 행동을 여러 개 나열하면 좋습니다."
+    }
+  ],
+  "dialogues": [
+    {
+      "id": "day08-env-d-001",
+      "title": "환경에 관심이 있나요?",
+      "audioSrc": "",
+      "sourcePage": 8,
+      "reviewNeeded": false,
+      "lines": [
+        {
+          "speaker": "A",
+          "vi": "Anh có quan tâm đến môi trường không?",
+          "ko": "환경에 관심이 있나요?",
+          "pronKo": "아인 꼬 꽌 떰 덴 모이 쯔엉 콩?"
+        },
+        {
+          "speaker": "B",
+          "vi": "Có, tôi quan tâm nhiều đến môi trường.",
+          "ko": "네, 저는 환경에 관심이 많습니다.",
+          "pronKo": "꼬, 또이 꽌 떰 니에우 덴 모이 쯔엉."
+        },
+        {
+          "speaker": "A",
+          "vi": "Vì sao anh quan tâm đến môi trường?",
+          "ko": "왜 환경에 관심이 있나요?",
+          "pronKo": "비 사오 아인 꽌 떰 덴 모이 쯔엉?"
+        },
+        {
+          "speaker": "B",
+          "vi": "Vì môi trường ảnh hưởng đến sức khỏe của chúng ta.",
+          "ko": "환경은 우리의 건강에 영향을 주기 때문입니다.",
+          "pronKo": "비 모이 쯔엉 아인 흐엉 덴 쓱 쾌 꾸어 쭝 따."
+        }
+      ]
+    },
+    {
+      "id": "day08-env-d-002",
+      "title": "분리수거하기",
+      "audioSrc": "",
+      "sourcePage": 8,
+      "reviewNeeded": false,
+      "lines": [
+        {
+          "speaker": "A",
+          "vi": "Ở Hàn Quốc có phải phân loại rác không?",
+          "ko": "한국에서는 쓰레기를 분리해야 하나요?",
+          "pronKo": "어 한 꾸옥 꼬 파이 펀 로아이 작 콩?"
+        },
+        {
+          "speaker": "B",
+          "vi": "Có, ở Hàn Quốc phải phân loại rác.",
+          "ko": "네, 한국에서는 쓰레기를 분리해야 합니다.",
+          "pronKo": "꼬, 어 한 꾸옥 파이 펀 로아이 작."
+        },
+        {
+          "speaker": "A",
+          "vi": "Anh phân loại những gì?",
+          "ko": "무엇을 분리하나요?",
+          "pronKo": "아인 펀 로아이 느응 지?"
+        },
+        {
+          "speaker": "B",
+          "vi": "Tôi phân loại giấy, nhựa, lon và thủy tinh.",
+          "ko": "저는 종이, 플라스틱, 캔, 유리를 분리합니다.",
+          "pronKo": "또이 펀 로아이 저이, 느어, 론 바 투이 띤."
+        }
+      ]
+    },
+    {
+      "id": "day08-env-d-003",
+      "title": "환경 보호를 위해 하는 일",
+      "audioSrc": "",
+      "sourcePage": 8,
+      "reviewNeeded": false,
+      "lines": [
+        {
+          "speaker": "A",
+          "vi": "Anh làm gì để góp phần bảo vệ môi trường?",
+          "ko": "환경 보호에 기여하기 위해 무엇을 하나요?",
+          "pronKo": "아인 람 지 데 곱 펀 바오 베 모이 쯔엉?"
+        },
+        {
+          "speaker": "B",
+          "vi": "Tôi phân loại rác và tái chế.",
+          "ko": "저는 분리수거하고 재활용합니다.",
+          "pronKo": "또이 펀 로아이 작 바 따이 쩨."
+        },
+        {
+          "speaker": "A",
+          "vi": "Anh có tiết kiệm điện và nước không?",
+          "ko": "전기와 물을 절약하나요?",
+          "pronKo": "아인 꼬 띠엣 끼엠 디엔 바 느억 콩?"
+        },
+        {
+          "speaker": "B",
+          "vi": "Có, tôi cố gắng tiết kiệm điện và nước mỗi ngày.",
+          "ko": "네, 저는 매일 전기와 물을 절약하려고 노력합니다.",
+          "pronKo": "꼬, 또이 꼬 강 띠엣 끼엠 디엔 바 느억 모이 응아이."
+        }
+      ]
+    }
+  ],
+  "grammarPoints": [
+    {
+      "id": "day08-env-g-001",
+      "title": "~에 관심이 있나요?",
+      "pattern": "Anh có quan tâm đến môi trường không?",
+      "meaningKo": "환경에 관심이 있나요?",
+      "sourcePage": 8,
+      "reviewNeeded": false
+    },
+    {
+      "id": "day08-env-g-002",
+      "title": "공기 질이 좋은가요?",
+      "pattern": "Chất lượng không khí ở Hàn Quốc có tốt không?",
+      "meaningKo": "한국의 공기 질은 좋은가요?",
+      "sourcePage": 8,
+      "reviewNeeded": false
+    },
+    {
+      "id": "day08-env-g-003",
+      "title": "길거리에 쓰레기가 보이나요?",
+      "pattern": "Ở Hàn Quốc có thấy rác trên đường phố không?",
+      "meaningKo": "한국에서는 길거리에서 쓰레기를 볼 수 있나요?",
+      "sourcePage": 8,
+      "reviewNeeded": false
+    },
+    {
+      "id": "day08-env-g-004",
+      "title": "~해야 하나요?",
+      "pattern": "Ở Hàn Quốc có phải phân loại rác không?",
+      "meaningKo": "한국에서는 쓰레기를 분리해야 하나요?",
+      "sourcePage": 8,
+      "reviewNeeded": false
+    },
+    {
+      "id": "day08-env-g-005",
+      "title": "많이 사용하나요?",
+      "pattern": "Anh có sử dụng nhiều đồ nhựa không?",
+      "meaningKo": "플라스틱 제품을 많이 사용하나요?",
+      "sourcePage": 8,
+      "reviewNeeded": false
+    },
+    {
+      "id": "day08-env-g-006",
+      "title": "제공받나요?",
+      "pattern": "Khi đi siêu thị có được cho túi nilon không?",
+      "meaningKo": "마트에 갈 때 비닐봉지를 제공받나요?",
+      "sourcePage": 8,
+      "reviewNeeded": false
+    },
+    {
+      "id": "day08-env-g-007",
+      "title": "전기와 물을 절약하다",
+      "pattern": "Tôi tiết kiệm điện và nước.",
+      "meaningKo": "저는 전기와 물을 절약합니다.",
+      "sourcePage": 8,
+      "reviewNeeded": false
+    },
+    {
+      "id": "day08-env-g-008",
+      "title": "나무가 많다",
+      "pattern": "Ở Hàn Quốc có nhiều cây xanh.",
+      "meaningKo": "한국에는 나무가 많습니다.",
+      "sourcePage": 8,
+      "reviewNeeded": false
+    },
+    {
+      "id": "day08-env-g-009",
+      "title": "재활용 제품을 사용하다",
+      "pattern": "Tôi sử dụng sản phẩm tái chế.",
+      "meaningKo": "저는 재활용 제품을 사용합니다.",
+      "sourcePage": 8,
+      "reviewNeeded": false
+    },
+    {
+      "id": "day08-env-g-010",
+      "title": "~하기 위해 무엇을 하나요?",
+      "pattern": "Anh làm gì để góp phần bảo vệ môi trường?",
+      "meaningKo": "환경 보호에 기여하기 위해 무엇을 하나요?",
+      "sourcePage": 8,
+      "reviewNeeded": false
+    }
+  ],
+  "pronunciationTargets": [
+    {
+      "id": "day08-env-p-001",
+      "text": "Anh có quan tâm đến môi trường không?",
+      "hintKo": "환경에 관심이 있나요?",
+      "audioSrc": "",
+      "sourcePage": 8,
+      "reviewNeeded": false,
+      "pronKo": "아인 꼬 꽌 떰 덴 모이 쯔엉 콩",
+      "mouthKo": "Anh có / quan tâm đến / môi trường không 으로 끊습니다.",
+      "toneKo": "quan tâm đến은 '~에 관심이 있다'입니다."
+    },
+    {
+      "id": "day08-env-p-002",
+      "text": "Chất lượng không khí ở Hàn Quốc có tốt không?",
+      "hintKo": "한국의 공기 질은 좋은가요?",
+      "audioSrc": "",
+      "sourcePage": 8,
+      "reviewNeeded": false,
+      "pronKo": "쩟 르엉 콩 키 어 한 꾸옥 꼬 똣 콩",
+      "mouthKo": "Chất lượng không khí / ở Hàn Quốc / có tốt không 으로 끊습니다.",
+      "toneKo": "chất lượng không khí는 '공기 질'입니다."
+    },
+    {
+      "id": "day08-env-p-003",
+      "text": "Ở Hàn Quốc có thấy rác trên đường phố không?",
+      "hintKo": "한국에서는 길거리에서 쓰레기를 볼 수 있나요?",
+      "audioSrc": "",
+      "sourcePage": 8,
+      "reviewNeeded": false,
+      "pronKo": "어 한 꾸옥 꼬 터이 작 쩬 드엉 포 콩",
+      "mouthKo": "Ở Hàn Quốc / có thấy rác / trên đường phố không 으로 끊습니다.",
+      "toneKo": "trên đường phố는 길거리에서/길 위에입니다."
+    },
+    {
+      "id": "day08-env-p-004",
+      "text": "Ở Hàn Quốc có phải phân loại rác không?",
+      "hintKo": "한국에서는 쓰레기를 분리해야 하나요?",
+      "audioSrc": "",
+      "sourcePage": 8,
+      "reviewNeeded": false,
+      "pronKo": "어 한 꾸옥 꼬 파이 펀 로아이 작 콩",
+      "mouthKo": "Ở Hàn Quốc / có phải / phân loại rác không 으로 끊습니다.",
+      "toneKo": "phải는 '~해야 한다'입니다."
+    },
+    {
+      "id": "day08-env-p-005",
+      "text": "Anh có sử dụng nhiều đồ nhựa không?",
+      "hintKo": "플라스틱 제품을 많이 사용하나요?",
+      "audioSrc": "",
+      "sourcePage": 8,
+      "reviewNeeded": false,
+      "pronKo": "아인 꼬 스 중 니에우 도 느어 콩",
+      "mouthKo": "Anh có sử dụng / nhiều đồ nhựa không 으로 끊습니다.",
+      "toneKo": "đồ nhựa는 플라스틱 제품입니다."
+    },
+    {
+      "id": "day08-env-p-006",
+      "text": "Anh có tiết kiệm điện và nước không?",
+      "hintKo": "전기와 물을 절약하나요?",
+      "audioSrc": "",
+      "sourcePage": 8,
+      "reviewNeeded": false,
+      "pronKo": "아인 꼬 띠엣 끼엠 디엔 바 느억 콩",
+      "mouthKo": "Anh có tiết kiệm / điện và nước không 으로 끊습니다.",
+      "toneKo": "tiết kiệm은 절약하다입니다."
+    },
+    {
+      "id": "day08-env-p-007",
+      "text": "Anh có sử dụng những sản phẩm tái chế không?",
+      "hintKo": "재활용 제품을 사용하나요?",
+      "audioSrc": "",
+      "sourcePage": 8,
+      "reviewNeeded": false,
+      "pronKo": "아인 꼬 스 중 느응 산 펌 따이 쩨 콩",
+      "mouthKo": "Anh có sử dụng / những sản phẩm tái chế không 으로 끊습니다.",
+      "toneKo": "sản phẩm tái chế는 재활용 제품입니다."
+    },
+    {
+      "id": "day08-env-p-008",
+      "text": "Anh làm gì để góp phần bảo vệ môi trường?",
+      "hintKo": "환경 보호에 기여하기 위해 무엇을 하나요?",
+      "audioSrc": "",
+      "sourcePage": 8,
+      "reviewNeeded": false,
+      "pronKo": "아인 람 지 데 곱 펀 바오 베 모이 쯔엉",
+      "mouthKo": "Anh làm gì / để góp phần / bảo vệ môi trường 으로 끊습니다.",
+      "toneKo": "답변 마무리 연습에 가장 좋은 질문입니다."
+    }
+  ],
+  "quizSeeds": [
+    {
+      "id": "day08-env-q-001",
+      "type": "match-term",
+      "prompt": "환경 기본 단어 매칭 1",
+      "answerSet": [
+        "môi trường-환경",
+        "quan tâm-관심이 있다",
+        "không khí-공기",
+        "chất lượng không khí-공기 질",
+        "tốt-좋다",
+        "xấu-나쁘다"
+      ],
+      "sourcePage": 8,
+      "reviewNeeded": false
+    },
+    {
+      "id": "day08-env-q-002",
+      "type": "match-term",
+      "prompt": "쓰레기/분리수거 단어 매칭",
+      "answerSet": [
+        "rác-쓰레기",
+        "đường phố-길거리",
+        "phân loại rác-쓰레기를 분리하다",
+        "phân loại-분류하다",
+        "bắt buộc-필수적이다",
+        "tái chế-재활용"
+      ],
+      "sourcePage": 8,
+      "reviewNeeded": false
+    },
+    {
+      "id": "day08-env-q-003",
+      "type": "match-term",
+      "prompt": "플라스틱/마트 단어 매칭",
+      "answerSet": [
+        "đồ nhựa-플라스틱 제품",
+        "túi nilon-비닐봉지",
+        "sử dụng-사용하다",
+        "siêu thị-마트",
+        "được cho-제공받다",
+        "đựng đồ-물건을 담다"
+      ],
+      "sourcePage": 8,
+      "reviewNeeded": false
+    },
+    {
+      "id": "day08-env-q-004",
+      "type": "match-term",
+      "prompt": "환경 보호 단어 매칭",
+      "answerSet": [
+        "tiết kiệm-절약하다",
+        "điện-전기",
+        "nước-물",
+        "cây xanh-나무",
+        "góp phần-기여하다",
+        "bảo vệ môi trường-환경을 보호하다"
+      ],
+      "sourcePage": 8,
+      "reviewNeeded": false
+    },
+    {
+      "id": "day08-env-q-005",
+      "type": "sentence-meaning",
+      "prompt": "환경 질문 뜻 고르기 1",
+      "answerSet": [
+        "Anh có quan tâm đến môi trường không?-환경에 관심이 있나요?",
+        "Chất lượng không khí ở Hàn Quốc có tốt không?-한국의 공기 질은 좋은가요?",
+        "Ở Hàn Quốc có thấy rác trên đường phố không?-한국에서는 길거리에서 쓰레기를 볼 수 있나요?",
+        "Ở Hàn Quốc có phải phân loại rác không?-한국에서는 쓰레기를 분리해야 하나요?"
+      ],
+      "sourcePage": 8,
+      "reviewNeeded": false
+    },
+    {
+      "id": "day08-env-q-006",
+      "type": "sentence-meaning",
+      "prompt": "환경 질문 뜻 고르기 2",
+      "answerSet": [
+        "Anh có sử dụng nhiều đồ nhựa không?-플라스틱 제품을 많이 사용하나요?",
+        "Anh có tiết kiệm điện và nước không?-전기와 물을 절약하나요?",
+        "Ở Hàn Quốc có nhiều cây xanh không?-한국에는 나무가 많나요?",
+        "Anh làm gì để góp phần bảo vệ môi trường?-환경 보호에 기여하기 위해 무엇을 하나요?"
+      ],
+      "sourcePage": 8,
+      "reviewNeeded": false
+    },
+    {
+      "id": "day08-env-q-007",
+      "type": "fill-blank",
+      "prompt": "빈칸 채우기: 저는 환경에 관심이 있습니다.",
+      "question": "Tôi quan tâm đến ___ ___.",
+      "answer": "môi trường",
+      "sourcePage": 8,
+      "reviewNeeded": false
+    },
+    {
+      "id": "day08-env-q-008",
+      "type": "fill-blank",
+      "prompt": "빈칸 채우기: 한국에서는 쓰레기를 분리해야 합니다.",
+      "question": "Ở Hàn Quốc phải ___ ___ ___.",
+      "answer": "phân loại rác",
+      "sourcePage": 8,
+      "reviewNeeded": false
+    },
+    {
+      "id": "day08-env-q-009",
+      "type": "fill-blank",
+      "prompt": "빈칸 채우기: 저는 전기와 물을 절약합니다.",
+      "question": "Tôi ___ ___ điện và nước.",
+      "answer": "tiết kiệm",
+      "sourcePage": 8,
+      "reviewNeeded": false
+    },
+    {
+      "id": "day08-env-q-010",
+      "type": "fill-blank",
+      "prompt": "빈칸 채우기: 재활용은 환경 보호에 도움이 됩니다.",
+      "question": "Tái chế giúp ___ ___ môi trường.",
+      "answer": "bảo vệ",
+      "sourcePage": 8,
+      "reviewNeeded": false
+    },
+    {
+      "id": "day08-env-q-011",
+      "type": "fill-blank",
+      "prompt": "빈칸 채우기: 저는 플라스틱 제품을 줄이려고 노력합니다.",
+      "question": "Tôi cố gắng giảm ___ ___.",
+      "answer": "đồ nhựa",
+      "sourcePage": 8,
+      "reviewNeeded": false
+    },
+    {
+      "id": "day08-env-q-012",
+      "type": "match-term",
+      "prompt": "환경 답변 순서 맞추기",
+      "answerSet": [
+        "1-Dạo này tôi quan tâm nhiều đến môi trường.",
+        "2-Tôi nghĩ môi trường rất quan trọng.",
+        "3-Tôi cố gắng phân loại rác.",
+        "4-Tôi tiết kiệm điện và nước.",
+        "5-Tôi cố gắng không sử dụng nhiều đồ nhựa.",
+        "6-Theo tôi, những việc nhỏ cũng giúp bảo vệ môi trường."
+      ],
+      "sourcePage": 8,
+      "reviewNeeded": false
+    },
+    {
+      "id": "day08-env-q-013",
+      "type": "match-term",
+      "prompt": "한국 환경 설명 순서 맞추기",
+      "answerSet": [
+        "1-Ở Hàn Quốc, đường phố khá sạch.",
+        "2-Tuy nhiên, đôi khi chất lượng không khí không tốt.",
+        "3-Ở Hàn Quốc, người ta phải phân loại rác.",
+        "4-Khi đi siêu thị, người ta thường mang túi riêng.",
+        "5-Nhiều người cố gắng tiết kiệm điện và nước.",
+        "6-Tôi nghĩ những thói quen này rất tốt cho môi trường."
+      ],
+      "sourcePage": 8,
+      "reviewNeeded": false
+    }
+  ],
+  "unlockCondition": "always",
+  "reviewNeeded": false
+    },
+    {
   "lessonId": "day-008-health",
   "unitLabel": "8일차",
   "titleKo": "8일차: 건강",
