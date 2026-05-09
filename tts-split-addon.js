@@ -189,33 +189,33 @@ function enhanceHistory() {
   });
 }
 
-  function reopenTtsTab() {
-    if (sessionStorage.getItem('openTtsAfterSplit') !== '1') return;
 
-    sessionStorage.removeItem('openTtsAfterSplit');
+function init() {
+  addStyle();
 
-    setTimeout(() => {
-      document.querySelector('[data-tab="tts"]')?.click();
-    }, 300);
-  }
+  const runEnhance = () => {
+    setTimeout(enhanceHistory, 80);
+    setTimeout(enhanceHistory, 300);
+  };
 
-  function init() {
-    addStyle();
-    reopenTtsTab();
-    enhanceHistory();
+  runEnhance();
 
-    const app = document.getElementById('app');
-    if (app) {
-      new MutationObserver(enhanceHistory).observe(app, {
-        childList: true,
-        subtree: true
-      });
+  document.addEventListener('click', (e) => {
+    const ttsTab = e.target.closest('[data-tab="tts"]');
+    if (ttsTab) runEnhance();
+  });
+
+  document.addEventListener('click', (e) => {
+    const actionNode = e.target.closest('[data-action]');
+    if (actionNode) {
+      setTimeout(enhanceHistory, 150);
     }
-  }
+  });
+}
 
-  if (document.readyState === 'loading') {
-    document.addEventListener('DOMContentLoaded', init);
-  } else {
-    init();
-  }
+if (document.readyState === 'loading') {
+  document.addEventListener('DOMContentLoaded', init);
+} else {
+  init();
+}
 })();
