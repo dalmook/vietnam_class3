@@ -62,21 +62,25 @@
         padding-bottom: 18px !important;
       }
 
-      .rec-sticky {
-        position: sticky;
-        top: 8px;
-        z-index: 40;
-        display: grid;
-        gap: 10px;
-        padding: 14px;
-        margin: -4px -2px 4px;
-        border: 1px solid rgba(93, 109, 255, 0.14);
-        border-radius: 24px;
-        background: rgba(255, 255, 255, 0.92);
-        backdrop-filter: blur(14px);
-        box-shadow: 0 12px 30px rgba(15, 23, 42, 0.10);
-      }
-
+.rec-sticky {
+  position: fixed;
+  top: calc(env(safe-area-inset-top, 0px) + 74px);
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 80;
+  display: grid;
+  gap: 10px;
+  width: min( calc(100vw - 28px), 720px );
+  padding: 12px;
+  border: 1px solid rgba(93, 109, 255, 0.14);
+  border-radius: 24px;
+  background: rgba(255, 255, 255, 0.94);
+  backdrop-filter: blur(14px);
+  box-shadow: 0 12px 30px rgba(15, 23, 42, 0.12);
+}
+body.recorder-floating-on #app {
+  padding-top: 178px;
+}
       .rec-top {
         display: flex;
         align-items: center;
@@ -272,11 +276,12 @@
       }
 
       @media (max-width: 430px) {
-        .rec-sticky {
-          top: 6px;
-          padding: 12px;
-          border-radius: 22px;
-        }
+.rec-sticky {
+  top: calc(env(safe-area-inset-top, 0px) + 68px);
+  width: calc(100vw - 20px);
+  padding: 10px;
+  border-radius: 20px;
+}
 
         .rec-buttons button {
           font-size: 0.86rem;
@@ -807,8 +812,9 @@
       if (action === 'download' && id) downloadRecording(id);
     });
 
-    app.insertAdjacentElement('afterbegin', panel);
-    updateUi();
+document.body.classList.add('recorder-floating-on');
+app.insertAdjacentElement('afterbegin', panel);
+updateUi();
   }
 
   async function init() {
