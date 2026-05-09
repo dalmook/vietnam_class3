@@ -1,4 +1,4 @@
-const APP_VERSION = '2026-05-07-multi-json-1';
+const APP_VERSION = '2026-05-09-recorder-floating-fix-2';
 const CORE_CACHE = `vietnam-class3-core-${APP_VERSION}`;
 const DATA_CACHE = `vietnam-class3-data-${APP_VERSION}`;
 const AUDIO_CACHE = `vietnam-class3-audio-${APP_VERSION}`;
