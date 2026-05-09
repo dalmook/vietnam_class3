@@ -101,29 +101,48 @@
 
 function enhanceHistory() {
   const rows = read();
-  const speakButtons = document.querySelectorAll('[data-action^="ttsSpeakHistory:"]');
+
+  const speakButtons = Array.from(document.querySelectorAll('[data-action]'))
+    .filter((btn) => {
+      const action = btn.dataset.action || '';
+      const text = btn.textContent || '';
+      return action.includes('tts') && action.includes('History') && text.includes('다시');
+    });
 
   speakButtons.forEach((speakBtn, domIndex) => {
+    if (speakBtn.dataset.splitEnhanced === '1') return;
+
     const action = speakBtn.dataset.action || '';
-    const index = Number(action.split(':')[1] ?? domIndex);
+    const matched = action.match(/(\d+)/);
+    const index = matched ? Number(matched[1]) : domIndex;
 
-    const deleteBtn = document.querySelector(`[data-action="ttsDeleteHistory:${index}"]`);
-    if (!deleteBtn) return;
-
-    const box =
+    const container =
       speakBtn.closest('.history-item') ||
       speakBtn.closest('.card') ||
-      speakBtn.closest('.panel') ||
+      speakBtn.closest('.list-item') ||
+      speakBtn.closest('article') ||
+      speakBtn.closest('section') ||
       speakBtn.parentElement?.parentElement ||
       speakBtn.parentElement;
 
-    if (!box) return;
-    if (box.querySelector('.tts-split-btn')) return;
+    if (!container) return;
+    if (container.querySelector('.tts-split-btn')) return;
+
+    const buttons = Array.from(container.querySelectorAll('button'));
+    const deleteBtn =
+      buttons.find((btn) => (btn.textContent || '').includes('삭제')) ||
+      buttons[buttons.length - 1];
+
+    if (!deleteBtn) return;
 
     const row = rows[index];
 
     if (row?.splitNo) {
-      const p = box.querySelector('p');
+      const p =
+        container.querySelector('p') ||
+        container.querySelector('.history-text') ||
+        container.querySelector('.item-text');
+
       if (p && !p.querySelector('.tts-split-badge')) {
         p.insertAdjacentHTML(
           'afterbegin',
@@ -144,6 +163,7 @@ function enhanceHistory() {
     });
 
     deleteBtn.insertAdjacentElement('beforebegin', btn);
+    speakBtn.dataset.splitEnhanced = '1';
   });
 }
 
