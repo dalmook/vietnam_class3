@@ -39,35 +39,59 @@
     return rows;
   };
 
-  function splitHistory(index) {
-    const rows = read();
-    const item = rows[index];
-    const originalText = getText(item);
-    const parts = splitText(originalText);
+function splitHistory(index) {
+  const rows = read();
+  const item = rows[index];
+  const originalText = getText(item);
+  const parts = splitText(originalText);
 
-    if (!item || parts.length < 2) {
-      alert('나눌 문장이 없어요. 문장 끝에 . ? ! 표시가 있어야 잘 나뉩니다.');
-      return;
-    }
-
-    const base = typeof item === 'object' && item !== null ? item : {};
-    const now = new Date().toISOString();
-
-    const splitRows = parts.map((text, i) => ({
-      ...base,
-      text,
-      splitNo: i + 1,
-      splitTotal: parts.length,
-      splitFrom: originalText,
-      createdAt: now
-    }));
-
-    rows.splice(index, 1, ...splitRows);
-    save(rows);
-
-    sessionStorage.setItem('openTtsAfterSplit', '1');
-    location.reload();
+  if (!item || parts.length < 2) {
+    alert('나눌 문장이 없어요. 문장 끝에 . ? ! 표시가 있어야 잘 나뉩니다.');
+    return;
   }
+
+  const base = typeof item === 'object' && item !== null ? item : {};
+  const now = new Date().toISOString();
+
+  const sourceId =
+    base.ttsId ||
+    base.sourceId ||
+    `tts_${Date.now()}_${Math.random().toString(16).slice(2)}`;
+
+  const originalItem =
+    typeof item === 'object' && item !== null
+      ? { ...item, text: originalText, ttsId: sourceId, splitDone: true }
+      : { text: originalText, ttsId: sourceId, splitDone: true, createdAt: now };
+
+  const splitRows = parts.map((text, i) => ({
+    text,
+    splitNo: i + 1,
+    splitTotal: parts.length,
+    splitFrom: originalText,
+    splitSourceId: sourceId,
+    createdAt: now
+  }));
+
+  const cleanedRows = rows.filter((row, rowIndex) => {
+    if (rowIndex === index) return true;
+    return !(row && typeof row === 'object' && row.splitSourceId === sourceId);
+  });
+
+  const currentIndex = cleanedRows.findIndex((row, rowIndex) => {
+    if (rowIndex === index) return true;
+    return row && typeof row === 'object' && row.ttsId === sourceId;
+  });
+
+  const insertIndex = currentIndex >= 0 ? currentIndex : index;
+
+  cleanedRows[insertIndex] = originalItem;
+  cleanedRows.splice(insertIndex + 1, 0, ...splitRows);
+
+  save(cleanedRows);
+
+  sessionStorage.setItem('openTtsAfterSplit', '1');
+  location.reload();
+}
 
   function addStyle() {
     if (document.getElementById('tts-split-style')) return;
@@ -110,38 +134,37 @@ function enhanceHistory() {
     });
 
   speakButtons.forEach((speakBtn, domIndex) => {
-    if (speakBtn.dataset.splitEnhanced === '1') return;
-
     const action = speakBtn.dataset.action || '';
     const matched = action.match(/(\d+)/);
     const index = matched ? Number(matched[1]) : domIndex;
 
-    const container =
-      speakBtn.closest('.history-item') ||
-      speakBtn.closest('.card') ||
-      speakBtn.closest('.list-item') ||
-      speakBtn.closest('article') ||
-      speakBtn.closest('section') ||
-      speakBtn.parentElement?.parentElement ||
+    const actionRow =
+      speakBtn.closest('.action-row') ||
       speakBtn.parentElement;
 
-    if (!container) return;
-    if (container.querySelector('.tts-split-btn')) return;
+    if (!actionRow) return;
+    if (actionRow.querySelector('.tts-split-btn')) return;
 
-    const buttons = Array.from(container.querySelectorAll('button'));
+    const buttons = Array.from(actionRow.querySelectorAll('button'));
     const deleteBtn =
       buttons.find((btn) => (btn.textContent || '').includes('삭제')) ||
       buttons[buttons.length - 1];
 
     if (!deleteBtn) return;
 
+    const rowBox =
+      actionRow.closest('.history-item') ||
+      actionRow.closest('article') ||
+      actionRow.closest('.card') ||
+      actionRow.parentElement;
+
     const row = rows[index];
 
-    if (row?.splitNo) {
+    if (row?.splitNo && rowBox) {
       const p =
-        container.querySelector('p') ||
-        container.querySelector('.history-text') ||
-        container.querySelector('.item-text');
+        rowBox.querySelector('p') ||
+        rowBox.querySelector('.history-text') ||
+        rowBox.querySelector('.item-text');
 
       if (p && !p.querySelector('.tts-split-badge')) {
         p.insertAdjacentHTML(
@@ -163,7 +186,6 @@ function enhanceHistory() {
     });
 
     deleteBtn.insertAdjacentElement('beforebegin', btn);
-    speakBtn.dataset.splitEnhanced = '1';
   });
 }
 
