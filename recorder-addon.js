@@ -64,7 +64,7 @@
 
 .rec-sticky {
   position: fixed;
-  top: calc(env(safe-area-inset-top, 0px) + 74px);
+  top: calc(env(safe-area-inset-top, 0px) + 64px);
   left: 50%;
   transform: translateX(-50%);
   z-index: 80;
