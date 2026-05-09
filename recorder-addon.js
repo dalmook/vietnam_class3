@@ -741,16 +741,22 @@ body.recorder-floating-on #app {
     error.hidden = !error.textContent;
   }
 
-  function mount() {
+function mount() {
     const app = $('#app');
     const input = $('[data-change="ttsInput"]', app || document);
 
-    if (!app || !input) return;
+    if (!app || !input) {
+      document.body.classList.remove('recorder-floating-on');
+      return;
+    }
 
     if ($('#reading-recorder-addon')) {
+      document.body.classList.add('recorder-floating-on');
       updateUi();
       return;
     }
+
+    const panel = document.createElement('section');
 
     const panel = document.createElement('section');
     panel.id = 'reading-recorder-addon';
