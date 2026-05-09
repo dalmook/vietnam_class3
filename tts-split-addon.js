@@ -99,44 +99,53 @@
     document.head.appendChild(style);
   }
 
-  function enhanceHistory() {
-    const rows = read();
-    const items = document.querySelectorAll('.history-item');
+function enhanceHistory() {
+  const rows = read();
+  const speakButtons = document.querySelectorAll('[data-action^="ttsSpeakHistory:"]');
 
-    items.forEach((el, domIndex) => {
-      const speakBtn = el.querySelector('[data-action^="ttsSpeakHistory:"]');
-      const deleteBtn = el.querySelector('[data-action^="ttsDeleteHistory:"]');
+  speakButtons.forEach((speakBtn, domIndex) => {
+    const action = speakBtn.dataset.action || '';
+    const index = Number(action.split(':')[1] ?? domIndex);
 
-      if (!speakBtn || !deleteBtn) return;
-      if (el.querySelector('.tts-split-btn')) return;
+    const deleteBtn = document.querySelector(`[data-action="ttsDeleteHistory:${index}"]`);
+    if (!deleteBtn) return;
 
-      const index = Number((speakBtn.dataset.action || '').split(':')[1] ?? domIndex);
-      const row = rows[index];
+    const box =
+      speakBtn.closest('.history-item') ||
+      speakBtn.closest('.card') ||
+      speakBtn.closest('.panel') ||
+      speakBtn.parentElement?.parentElement ||
+      speakBtn.parentElement;
 
-      if (row?.splitNo) {
-        const p = el.querySelector('p');
-        if (p && !p.querySelector('.tts-split-badge')) {
-          p.insertAdjacentHTML(
-            'afterbegin',
-            `<span class="tts-split-badge">${row.splitNo}</span>`
-          );
-        }
+    if (!box) return;
+    if (box.querySelector('.tts-split-btn')) return;
+
+    const row = rows[index];
+
+    if (row?.splitNo) {
+      const p = box.querySelector('p');
+      if (p && !p.querySelector('.tts-split-badge')) {
+        p.insertAdjacentHTML(
+          'afterbegin',
+          `<span class="tts-split-badge">${row.splitNo}</span>`
+        );
       }
+    }
 
-      const btn = document.createElement('button');
-      btn.type = 'button';
-      btn.className = 'tts-split-btn';
-      btn.textContent = '문장나누기';
+    const btn = document.createElement('button');
+    btn.type = 'button';
+    btn.className = 'tts-split-btn';
+    btn.textContent = '문장나누기';
 
-      btn.addEventListener('click', (e) => {
-        e.preventDefault();
-        e.stopPropagation();
-        splitHistory(index);
-      });
-
-      deleteBtn.insertAdjacentElement('beforebegin', btn);
+    btn.addEventListener('click', (e) => {
+      e.preventDefault();
+      e.stopPropagation();
+      splitHistory(index);
     });
-  }
+
+    deleteBtn.insertAdjacentElement('beforebegin', btn);
+  });
+}
 
   function reopenTtsTab() {
     if (sessionStorage.getItem('openTtsAfterSplit') !== '1') return;
