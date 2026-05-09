@@ -741,108 +741,137 @@ body.recorder-floating-on #app {
     error.hidden = !error.textContent;
   }
 
+function cleanupFloatingRecorder() {
+  document.body.classList.remove('recorder-floating-on');
+
+  const recorder = document.getElementById('reading-recorder-addon');
+  if (recorder) recorder.remove();
+}
+
+function isReadingTabVisible() {
+  const app = $('#app');
+  if (!app) return false;
+
+  return !!$('[data-change="ttsInput"]', app);
+}
+
 function mount() {
-    const app = $('#app');
-    const input = $('[data-change="ttsInput"]', app || document);
+  const app = $('#app');
 
-    if (!app || !input) {
-      document.body.classList.remove('recorder-floating-on');
+  if (!app || !isReadingTabVisible()) {
+    cleanupFloatingRecorder();
+    return;
+  }
+
+  const existing = $('#reading-recorder-addon');
+  if (existing) {
+    document.body.classList.add('recorder-floating-on');
+    updateUi();
+    return;
+  }
+
+  const panel = document.createElement('section');
+  panel.id = 'reading-recorder-addon';
+  panel.className = 'panel recorder-addon-panel';
+
+  panel.innerHTML = `
+    <div class="rec-sticky">
+      <div class="rec-top">
+        <h2>내 발음 녹음</h2>
+        <span class="rec-chip"><span data-rec-count>${state.rows.length}</span>개</span>
+      </div>
+
+      <div class="rec-card">
+        <div class="rec-main">
+          <div class="rec-state">
+            <span class="rec-dot"></span>
+            <span data-rec-label>대기</span>
+          </div>
+          <strong class="rec-time" data-rec-time>00:00</strong>
+        </div>
+
+        <div class="rec-buttons">
+          <button class="primary" type="button" data-rec-action="start">녹음</button>
+          <button type="button" data-rec-action="pause" disabled>일시정지</button>
+          <button type="button" data-rec-action="done" disabled>완료</button>
+          <button class="danger" type="button" data-rec-action="cancel" disabled>취소</button>
+        </div>
+
+        <div class="rec-preview" data-rec-preview hidden>
+          <div class="rec-preview-title">
+            <span>미리듣기</span>
+            <span>마이크 해제됨</span>
+          </div>
+          <audio controls preload="metadata" data-rec-preview-audio></audio>
+        </div>
+
+        <p class="rec-warning" data-rec-error hidden></p>
+      </div>
+    </div>
+
+    <div class="rec-list-head">
+      <h3>녹음 목록</h3>
+    </div>
+
+    <div class="rec-list" data-rec-list>${renderListHtml()}</div>
+  `;
+
+  panel.addEventListener('click', (event) => {
+    const button = event.target.closest('[data-rec-action]');
+    if (!button) return;
+
+    const action = button.dataset.recAction;
+    const id = button.dataset.id;
+
+    if (action === 'start') startRecording();
+    if (action === 'pause') pauseOrResumeRecording();
+    if (action === 'done') finishRecording();
+    if (action === 'cancel') cancelRecording();
+    if (action === 'delete' && id) removeRecording(id);
+    if (action === 'download' && id) downloadRecording(id);
+  });
+
+  document.body.classList.add('recorder-floating-on');
+  app.insertAdjacentElement('afterbegin', panel);
+  updateUi();
+}
+
+async function init() {
+  injectStyle();
+
+  try {
+    if (state.ok) state.rows = await getAllRows();
+  } catch {
+    state.ok = false;
+  }
+
+  mount();
+
+  const app = $('#app');
+  if (app) {
+    new MutationObserver(() => {
+      setTimeout(mount, 0);
+    }).observe(app, { childList: true });
+  }
+
+  document.addEventListener('click', (event) => {
+    const tabButton = event.target.closest('[data-tab]');
+    if (!tabButton) return;
+
+    const tabName = tabButton.dataset.tab;
+
+    if (tabName !== 'tts') {
+      cleanupFloatingRecorder();
       return;
     }
 
-    if ($('#reading-recorder-addon')) {
-      document.body.classList.add('recorder-floating-on');
-      updateUi();
-      return;
-    }
+    setTimeout(mount, 80);
+  });
+}
 
-    const panel = document.createElement('section');
-
-    const panel = document.createElement('section');
-    panel.id = 'reading-recorder-addon';
-    panel.className = 'panel recorder-addon-panel';
-    panel.innerHTML = `
-      <div class="rec-sticky">
-        <div class="rec-top">
-          <h2>내 발음 녹음</h2>
-          <span class="rec-chip"><span data-rec-count>${state.rows.length}</span>개</span>
-        </div>
-
-        <div class="rec-card">
-          <div class="rec-main">
-            <div class="rec-state">
-              <span class="rec-dot"></span>
-              <span data-rec-label>대기</span>
-            </div>
-            <strong class="rec-time" data-rec-time>00:00</strong>
-          </div>
-
-          <div class="rec-buttons">
-            <button class="primary" type="button" data-rec-action="start">녹음</button>
-            <button type="button" data-rec-action="pause" disabled>일시정지</button>
-            <button type="button" data-rec-action="done" disabled>완료</button>
-            <button class="danger" type="button" data-rec-action="cancel" disabled>취소</button>
-          </div>
-
-          <div class="rec-preview" data-rec-preview hidden>
-            <div class="rec-preview-title">
-              <span>미리듣기</span>
-              <span>마이크 해제됨</span>
-            </div>
-            <audio controls preload="metadata" data-rec-preview-audio></audio>
-          </div>
-
-          <p class="rec-warning" data-rec-error hidden></p>
-        </div>
-      </div>
-
-      <div class="rec-list-head">
-        <h3>녹음 목록</h3>
-      </div>
-
-      <div class="rec-list" data-rec-list>${renderListHtml()}</div>
-    `;
-
-    panel.addEventListener('click', (event) => {
-      const button = event.target.closest('[data-rec-action]');
-      if (!button) return;
-
-      const action = button.dataset.recAction;
-      const id = button.dataset.id;
-
-      if (action === 'start') startRecording();
-      if (action === 'pause') pauseOrResumeRecording();
-      if (action === 'done') finishRecording();
-      if (action === 'cancel') cancelRecording();
-      if (action === 'delete' && id) removeRecording(id);
-      if (action === 'download' && id) downloadRecording(id);
-    });
-
-document.body.classList.add('recorder-floating-on');
-app.insertAdjacentElement('afterbegin', panel);
-updateUi();
-  }
-
-  async function init() {
-    injectStyle();
-
-    try {
-      if (state.ok) state.rows = await getAllRows();
-    } catch {
-      state.ok = false;
-    }
-
-    mount();
-
-    const app = $('#app');
-    if (app) {
-      new MutationObserver(() => mount()).observe(app, { childList: true });
-    }
-  }
-
-  if (document.readyState === 'loading') {
-    document.addEventListener('DOMContentLoaded', init);
-  } else {
-    init();
-  }
+if (document.readyState === 'loading') {
+  document.addEventListener('DOMContentLoaded', init);
+} else {
+  init();
+}
 })();
