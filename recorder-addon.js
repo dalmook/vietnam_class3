@@ -15,6 +15,7 @@
     rows: [],
     urls: new Map(),
     previewUrl: '',
+    previewPending: false,
     error: ''
   };
 
@@ -42,20 +43,16 @@
   const mime = () => ['audio/mp4;codecs=mp4a.40.2', 'audio/mp4', 'audio/webm;codecs=opus', 'audio/webm'].find(t => { try { return MediaRecorder.isTypeSupported(t); } catch { return false; } }) || '';
   const urlFor = row => state.urls.get(row.id) || (state.urls.set(row.id, URL.createObjectURL(row.blob)), state.urls.get(row.id));
   const stopTimer = () => { if (state.timer) clearInterval(state.timer); state.timer = null; };
-  const stopStream = () => { if (state.stream) state.stream.getTracks().forEach(t => t.stop()); state.stream = null; };
   const tick = () => { state.elapsed = Date.now() - state.started; updateUi(); };
+  function setMicEnabled(enabled) { if (state.stream) state.stream.getAudioTracks().forEach(t => { t.enabled = enabled; }); }
+  function stopStream() { if (state.stream) state.stream.getTracks().forEach(t => t.stop()); state.stream = null; }
 
-  function clearPreview() {
-    if (state.previewUrl) URL.revokeObjectURL(state.previewUrl);
-    state.previewUrl = '';
-  }
-
+  function clearPreview() { if (state.previewUrl) URL.revokeObjectURL(state.previewUrl); state.previewUrl = ''; state.previewPending = false; }
   function makePreview() {
     if (!state.mr || !state.chunks.length || state.status !== 'paused') return;
     clearPreview();
     const type = state.mr.mimeType || 'audio/webm';
-    const blob = new Blob(state.chunks, { type });
-    state.previewUrl = URL.createObjectURL(blob);
+    state.previewUrl = URL.createObjectURL(new Blob(state.chunks, { type }));
     updateUi();
   }
 
@@ -63,12 +60,15 @@
     if (!state.ok || state.status === 'recording' || state.status === 'paused') return;
     try {
       clearPreview(); state.error = ''; state.chunks = []; state.elapsed = 0; state.started = Date.now();
-      state.stream = await navigator.mediaDevices.getUserMedia({ audio: true });
+      state.stream = await navigator.mediaDevices.getUserMedia({ audio: { echoCancellation: false, noiseSuppression: false, autoGainControl: false } });
       const type = mime();
       state.mr = type ? new MediaRecorder(state.stream, { mimeType: type }) : new MediaRecorder(state.stream);
-      state.mr.ondataavailable = e => { if (e.data && e.data.size) state.chunks.push(e.data); };
+      state.mr.ondataavailable = e => {
+        if (e.data && e.data.size) state.chunks.push(e.data);
+        if (state.status === 'paused' && state.previewPending) setTimeout(makePreview, 0);
+      };
       state.mr.onerror = () => { state.error = '녹음 중 오류가 발생했습니다.'; state.status = 'idle'; stopTimer(); stopStream(); updateUi(); };
-      state.mr.start(); state.status = 'recording'; state.timer = setInterval(tick, 300); updateUi();
+      state.mr.start(1000); state.status = 'recording'; state.timer = setInterval(tick, 300); updateUi();
     } catch (e) {
       state.error = e && e.name === 'NotAllowedError' ? '마이크 권한이 거부되었습니다. 브라우저 설정에서 마이크 권한을 허용해주세요.' : '녹음을 시작할 수 없습니다. 브라우저/권한을 확인해주세요.';
       state.status = 'idle'; stopTimer(); stopStream(); updateUi();
@@ -79,11 +79,19 @@
     const mr = state.mr; if (!mr) return;
     if (state.status === 'recording' && mr.state === 'recording') {
       state.elapsed = Date.now() - state.started;
+      state.status = 'paused';
+      state.previewPending = true;
       try { mr.requestData(); } catch {}
-      mr.pause(); state.status = 'paused'; stopTimer(); updateUi();
-      setTimeout(makePreview, 180);
+      try { mr.pause(); } catch {}
+      setMicEnabled(false);
+      stopTimer(); updateUi();
+      setTimeout(makePreview, 700);
     } else if (state.status === 'paused' && mr.state === 'paused') {
-      clearPreview(); state.started = Date.now() - state.elapsed; mr.resume(); state.status = 'recording'; state.timer = setInterval(tick, 300); updateUi();
+      clearPreview();
+      setMicEnabled(true);
+      state.started = Date.now() - state.elapsed;
+      try { mr.resume(); } catch {}
+      state.status = 'recording'; state.timer = setInterval(tick, 300); updateUi();
     }
   }
 
@@ -91,7 +99,7 @@
   async function done() {
     if (!state.mr || !['recording', 'paused'].includes(state.status)) return;
     if (state.status === 'recording') state.elapsed = Date.now() - state.started;
-    state.status = 'saving'; stopTimer(); updateUi(); await stopMr(); stopStream();
+    setMicEnabled(true); state.status = 'saving'; stopTimer(); updateUi(); await stopMr(); stopStream();
     const type = state.mr.mimeType || 'audio/webm';
     const createdAt = new Date().toISOString();
     const text = textNow(); const ext = type.includes('mp4') ? 'm4a' : 'webm';
@@ -102,7 +110,7 @@
   }
 
   function cancel() {
-    try { if (state.mr && state.mr.state !== 'inactive') { state.mr.onstop = null; state.mr.stop(); } } catch {}
+    try { setMicEnabled(true); if (state.mr && state.mr.state !== 'inactive') { state.mr.onstop = null; state.mr.stop(); } } catch {}
     clearPreview(); stopTimer(); stopStream(); state.status = 'idle'; state.mr = null; state.chunks = []; state.elapsed = 0; state.error = ''; updateUi();
   }
 
