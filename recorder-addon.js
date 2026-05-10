@@ -277,7 +277,7 @@ body.recorder-floating-on #app {
 
       @media (max-width: 430px) {
 .rec-sticky {
-  top: calc(env(safe-area-inset-top, 0px) + 68px);
+  top: calc(env(safe-area-inset-top, 0px) + 88px);
   width: calc(100vw - 20px);
   padding: 10px;
   border-radius: 20px;
