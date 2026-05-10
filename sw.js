@@ -1,4 +1,4 @@
-const APP_VERSION = '2026-05-09-recorder-floating-fix-2';
+const APP_VERSION = '2026-05-11-autoplay-ko-option';
 const CORE_CACHE = `vietnam-class3-core-${APP_VERSION}`;
 const DATA_CACHE = `vietnam-class3-data-${APP_VERSION}`;
 const AUDIO_CACHE = `vietnam-class3-audio-${APP_VERSION}`;
@@ -9,6 +9,9 @@ const CORE_ASSETS = [
   './index.html',
   './styles.css',
   './app.js',
+  './recorder-addon.js',
+  './tts-split-addon.js',
+  './autoplay-ko-option.js',
   './manifest.webmanifest',
   './vietnamese_a1_to_opic_im1_starter.json'
 ];
