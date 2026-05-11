@@ -19,6 +19,1958 @@
   },
   "lessons": [
     {
+  "lessonId": "day08-movie-questions",
+  "unitLabel": "9일차",
+  "titleKo": "9일차: 영화 문제",
+  "titleVi": "Ngày 9: Câu hỏi về xem phim",
+  "pageRange": "9일차 / 영화 문제 / Xem phim",
+  "goals": [
+    "좋아하는 영화 장르와 그 이유를 말할 수 있다",
+    "자주 가는 영화관의 위치, 분위기, 장점을 묘사할 수 있다",
+    "최근 본 영화와 인상 깊었던 영화를 시간·장소·동행자와 함께 설명할 수 있다",
+    "영화관에서 보기와 집에서 보기의 차이를 비교할 수 있다",
+    "영화 관련 습관의 변화와 한국 사람들의 영화 관람 습관 변화를 말할 수 있다",
+    "좋아하는 배우와 그 배우에 대한 최근 소식을 설명할 수 있다",
+    "친구에게 영화를 보러 가자고 전화로 제안하고, 매진 상황에서 해결책을 제시할 수 있다"
+  ],
+  "topicOverview": "영화 주제는 OPIc에서 자주 나오는 취미 설명형 주제입니다. 기본 흐름은 '나는 영화를 좋아한다 → 좋아하는 장르 → 좋아하는 이유 → 자주 가는 장소 → 누구와 가는지 → 보기 전후 활동 → 기억에 남는 영화/경험' 순서로 잡으면 안정적입니다. 비교 문제에서는 '예전에는 영화관에 자주 갔지만, 요즘은 집에서 더 자주 본다'처럼 과거와 현재를 나누어 말하면 좋습니다. 역할극 문제는 친구에게 전화해서 영화 보러 가자고 제안하거나, 영화표가 매진된 상황을 설명하고 다른 시간/다른 영화/다른 영화관을 제안하는 식으로 답하면 됩니다.",
+  "cultureTopics": [
+    "영화 보기",
+    "영화 장르",
+    "영화관",
+    "CGV",
+    "액션 영화",
+    "코미디 영화",
+    "공포 영화",
+    "애니메이션",
+    "다큐멘터리",
+    "좋아하는 배우",
+    "최근 본 영화",
+    "인상 깊은 영화",
+    "영화관 분위기",
+    "팝콘",
+    "예매",
+    "매진",
+    "집에서 영화 보기",
+    "넷플릭스",
+    "영화 관람 습관 변화",
+    "친구에게 영화 보자고 제안하기"
+  ],
+  "vocabCards": [
+    {
+      "id": "d09-movie-v-001",
+      "term": "xem phim",
+      "meaningKo": "영화를 보다",
+      "example": "Tôi rất thích xem phim.",
+      "exampleMeaningKo": "저는 영화를 보는 것을 매우 좋아합니다.",
+      "audioSrc": "",
+      "sourcePage": 9,
+      "reviewNeeded": false,
+      "pronKo": "쎔 핌",
+      "pronNoteKo": "영화 주제의 가장 기본 표현입니다.",
+      "pronChunks": [
+        "xem=쎔",
+        "phim=핌"
+      ]
+    },
+    {
+      "id": "d09-movie-v-002",
+      "term": "đi xem phim",
+      "meaningKo": "영화를 보러 가다",
+      "example": "Cuối tuần tôi thường đi xem phim với gia đình.",
+      "exampleMeaningKo": "주말에 저는 보통 가족과 영화를 보러 갑니다.",
+      "audioSrc": "",
+      "sourcePage": 9,
+      "reviewNeeded": false,
+      "pronKo": "디 쎔 핌",
+      "pronNoteKo": "영화관에 가서 영화를 본다는 느낌입니다.",
+      "pronChunks": [
+        "đi=디",
+        "xem phim=쎔 핌"
+      ]
+    },
+    {
+      "id": "d09-movie-v-003",
+      "term": "thích đi xem phim",
+      "meaningKo": "영화 보러 가는 것을 좋아하다",
+      "example": "Trong bản khảo sát, tôi nói rằng tôi thích đi xem phim.",
+      "exampleMeaningKo": "설문에서 저는 영화 보러 가는 것을 좋아한다고 말했습니다.",
+      "audioSrc": "",
+      "sourcePage": 9,
+      "reviewNeeded": false,
+      "pronKo": "틱 디 쎔 핌",
+      "pronNoteKo": "문제 첫 문장에 자주 나오는 표현입니다.",
+      "pronChunks": [
+        "thích=틱",
+        "đi xem phim=디 쎔 핌"
+      ]
+    },
+    {
+      "id": "d09-movie-v-004",
+      "term": "thể loại phim",
+      "meaningKo": "영화 장르",
+      "example": "Thể loại phim tôi thích nhất là phim hành động.",
+      "exampleMeaningKo": "제가 가장 좋아하는 영화 장르는 액션 영화입니다.",
+      "audioSrc": "",
+      "sourcePage": 9,
+      "reviewNeeded": false,
+      "pronKo": "테 로아이 핌",
+      "pronNoteKo": "장르 질문의 핵심 표현입니다.",
+      "pronChunks": [
+        "thể loại=테 로아이",
+        "phim=핌"
+      ]
+    },
+    {
+      "id": "d09-movie-v-005",
+      "term": "phim hành động",
+      "meaningKo": "액션 영화",
+      "example": "Tôi thích phim hành động vì rất thú vị.",
+      "exampleMeaningKo": "저는 액션 영화가 매우 흥미로워서 좋아합니다.",
+      "audioSrc": "",
+      "sourcePage": 9,
+      "reviewNeeded": false,
+      "pronKo": "핌 하인 동",
+      "pronNoteKo": "Mission Impossible 같은 영화를 말할 때 쓰기 좋습니다.",
+      "pronChunks": [
+        "phim=핌",
+        "hành động=하인 동"
+      ]
+    },
+    {
+      "id": "d09-movie-v-006",
+      "term": "phim tình cảm",
+      "meaningKo": "로맨스 영화 / 멜로 영화",
+      "example": "Vợ tôi thích phim tình cảm.",
+      "exampleMeaningKo": "제 아내는 로맨스 영화를 좋아합니다.",
+      "audioSrc": "",
+      "sourcePage": 9,
+      "reviewNeeded": false,
+      "pronKo": "핌 띤 깜",
+      "pronNoteKo": "tình cảm은 감정, 애정의 느낌입니다.",
+      "pronChunks": [
+        "phim=핌",
+        "tình cảm=띤 깜"
+      ]
+    },
+    {
+      "id": "d09-movie-v-007",
+      "term": "phim hài",
+      "meaningKo": "코미디 영화",
+      "example": "Khi mệt, tôi thích xem phim hài.",
+      "exampleMeaningKo": "피곤할 때 저는 코미디 영화를 보는 것을 좋아합니다.",
+      "audioSrc": "",
+      "sourcePage": 9,
+      "reviewNeeded": false,
+      "pronKo": "핌 하이",
+      "pronNoteKo": "hài는 웃긴, 코미디라는 뜻입니다.",
+      "pronChunks": [
+        "phim=핌",
+        "hài=하이"
+      ]
+    },
+    {
+      "id": "d09-movie-v-008",
+      "term": "phim kinh dị",
+      "meaningKo": "공포 영화",
+      "example": "Tôi không thích phim kinh dị vì hơi sợ.",
+      "exampleMeaningKo": "저는 조금 무서워서 공포 영화를 좋아하지 않습니다.",
+      "audioSrc": "",
+      "sourcePage": 9,
+      "reviewNeeded": false,
+      "pronKo": "핌 낀 지",
+      "pronNoteKo": "kinh dị는 무섭고 기괴한 느낌입니다.",
+      "pronChunks": [
+        "phim=핌",
+        "kinh dị=낀 지"
+      ]
+    },
+    {
+      "id": "d09-movie-v-009",
+      "term": "phim hoạt hình",
+      "meaningKo": "애니메이션 영화",
+      "example": "Con tôi rất thích phim hoạt hình.",
+      "exampleMeaningKo": "제 아이는 애니메이션 영화를 매우 좋아합니다.",
+      "audioSrc": "",
+      "sourcePage": 9,
+      "reviewNeeded": false,
+      "pronKo": "핌 호앗 힌",
+      "pronNoteKo": "아이와 영화 보는 이야기에서 쓰기 좋습니다.",
+      "pronChunks": [
+        "phim=핌",
+        "hoạt hình=호앗 힌"
+      ]
+    },
+    {
+      "id": "d09-movie-v-010",
+      "term": "phim tài liệu",
+      "meaningKo": "다큐멘터리 영화",
+      "example": "Đôi khi tôi xem phim tài liệu để học thêm kiến thức.",
+      "exampleMeaningKo": "가끔 저는 지식을 더 배우기 위해 다큐멘터리를 봅니다.",
+      "audioSrc": "",
+      "sourcePage": 9,
+      "reviewNeeded": false,
+      "pronKo": "핌 따이 리에우",
+      "pronNoteKo": "tài liệu는 자료, 문서라는 뜻도 있습니다.",
+      "pronChunks": [
+        "phim=핌",
+        "tài liệu=따이 리에우"
+      ]
+    },
+    {
+      "id": "d09-movie-v-011",
+      "term": "rạp chiếu phim",
+      "meaningKo": "영화관",
+      "example": "Tôi thường đi đến rạp chiếu phim gần nhà.",
+      "exampleMeaningKo": "저는 보통 집 근처 영화관에 갑니다.",
+      "audioSrc": "",
+      "sourcePage": 9,
+      "reviewNeeded": false,
+      "pronKo": "잡 찌에우 핌",
+      "pronNoteKo": "영화관 묘사 문제의 핵심 단어입니다.",
+      "pronChunks": [
+        "rạp=잡",
+        "chiếu phim=찌에우 핌"
+      ]
+    },
+    {
+      "id": "d09-movie-v-012",
+      "term": "rạp phim",
+      "meaningKo": "영화관",
+      "example": "Rạp phim đó rất sạch và hiện đại.",
+      "exampleMeaningKo": "그 영화관은 매우 깨끗하고 현대적입니다.",
+      "audioSrc": "",
+      "sourcePage": 9,
+      "reviewNeeded": false,
+      "pronKo": "잡 핌",
+      "pronNoteKo": "rạp chiếu phim보다 짧게 말하는 표현입니다.",
+      "pronChunks": [
+        "rạp=잡",
+        "phim=핌"
+      ]
+    },
+    {
+      "id": "d09-movie-v-013",
+      "term": "ở rạp chiếu phim",
+      "meaningKo": "영화관에서",
+      "example": "Tôi thích xem phim ở rạp chiếu phim hơn ở nhà.",
+      "exampleMeaningKo": "저는 집보다 영화관에서 영화를 보는 것을 더 좋아합니다.",
+      "audioSrc": "",
+      "sourcePage": 9,
+      "reviewNeeded": false,
+      "pronKo": "어 잡 찌에우 핌",
+      "pronNoteKo": "장소를 말할 때 ở를 붙입니다.",
+      "pronChunks": [
+        "ở=어",
+        "rạp chiếu phim=잡 찌에우 핌"
+      ]
+    },
+    {
+      "id": "d09-movie-v-014",
+      "term": "ở nhà",
+      "meaningKo": "집에서",
+      "example": "Dạo này tôi thường xem phim ở nhà.",
+      "exampleMeaningKo": "요즘 저는 보통 집에서 영화를 봅니다.",
+      "audioSrc": "",
+      "sourcePage": 9,
+      "reviewNeeded": false,
+      "pronKo": "어 냐",
+      "pronNoteKo": "영화관과 비교할 때 자주 나옵니다.",
+      "pronChunks": [
+        "ở=어",
+        "nhà=냐"
+      ]
+    },
+    {
+      "id": "d09-movie-v-015",
+      "term": "ngoài rạp",
+      "meaningKo": "영화관에서 / 극장에서",
+      "example": "Một số người thích xem phim ngoài rạp.",
+      "exampleMeaningKo": "어떤 사람들은 영화관에서 영화를 보는 것을 좋아합니다.",
+      "audioSrc": "",
+      "sourcePage": 9,
+      "reviewNeeded": false,
+      "pronKo": "응오아이 잡",
+      "pronNoteKo": "집 밖의 영화관이라는 느낌입니다.",
+      "pronChunks": [
+        "ngoài=응오아이",
+        "rạp=잡"
+      ]
+    },
+    {
+      "id": "d09-movie-v-016",
+      "term": "không khí",
+      "meaningKo": "분위기 / 공기",
+      "example": "Không khí ở rạp chiếu phim đó rất thoải mái.",
+      "exampleMeaningKo": "그 영화관의 분위기는 매우 편안합니다.",
+      "audioSrc": "",
+      "sourcePage": 9,
+      "reviewNeeded": false,
+      "pronKo": "콩 키",
+      "pronNoteKo": "장소의 분위기를 묘사할 때 씁니다.",
+      "pronChunks": [
+        "không=콩",
+        "khí=키"
+      ]
+    },
+    {
+      "id": "d09-movie-v-017",
+      "term": "trông như thế nào",
+      "meaningKo": "어떻게 보이다 / 어떻게 생겼다",
+      "example": "Rạp phim đó trông như thế nào?",
+      "exampleMeaningKo": "그 영화관은 어떻게 생겼나요?",
+      "audioSrc": "",
+      "sourcePage": 9,
+      "reviewNeeded": false,
+      "pronKo": "쫑 느 테 나오",
+      "pronNoteKo": "묘사형 문제에서 매우 자주 나오는 표현입니다.",
+      "pronChunks": [
+        "trông=쫑",
+        "như thế nào=느 테 나오"
+      ]
+    },
+    {
+      "id": "d09-movie-v-018",
+      "term": "miêu tả",
+      "meaningKo": "묘사하다",
+      "example": "Bạn hãy miêu tả rạp chiếu phim mà bạn hay đi.",
+      "exampleMeaningKo": "당신이 자주 가는 영화관을 묘사해주세요.",
+      "audioSrc": "",
+      "sourcePage": 9,
+      "reviewNeeded": false,
+      "pronKo": "미에우 따",
+      "pronNoteKo": "OPIc 묘사 문제의 핵심 동사입니다.",
+      "pronChunks": [
+        "miêu=미에우",
+        "tả=따"
+      ]
+    },
+    {
+      "id": "d09-movie-v-019",
+      "term": "chi tiết",
+      "meaningKo": "자세하게 / 세부사항",
+      "example": "Hãy kể cho tôi chi tiết.",
+      "exampleMeaningKo": "저에게 자세히 이야기해주세요.",
+      "audioSrc": "",
+      "sourcePage": 9,
+      "reviewNeeded": false,
+      "pronKo": "찌 띠엣",
+      "pronNoteKo": "문제 끝에 자주 붙는 표현입니다.",
+      "pronChunks": [
+        "chi=찌",
+        "tiết=띠엣"
+      ]
+    },
+    {
+      "id": "d09-movie-v-020",
+      "term": "cốt truyện",
+      "meaningKo": "줄거리",
+      "example": "Cốt truyện của bộ phim đó rất hấp dẫn.",
+      "exampleMeaningKo": "그 영화의 줄거리는 매우 흥미진진합니다.",
+      "audioSrc": "",
+      "sourcePage": 9,
+      "reviewNeeded": false,
+      "pronKo": "꼿 쭈이엔",
+      "pronNoteKo": "영화 내용을 설명할 때 필수 표현입니다.",
+      "pronChunks": [
+        "cốt=꼿",
+        "truyện=쭈이엔"
+      ]
+    },
+    {
+      "id": "d09-movie-v-021",
+      "term": "nội dung phim",
+      "meaningKo": "영화 내용",
+      "example": "Nội dung phim rất ý nghĩa.",
+      "exampleMeaningKo": "영화 내용이 매우 의미 있습니다.",
+      "audioSrc": "",
+      "sourcePage": 9,
+      "reviewNeeded": false,
+      "pronKo": "노이 중 핌",
+      "pronNoteKo": "nội dung은 내용이라는 뜻입니다.",
+      "pronChunks": [
+        "nội dung=노이 중",
+        "phim=핌"
+      ]
+    },
+    {
+      "id": "d09-movie-v-022",
+      "term": "bộ phim",
+      "meaningKo": "영화 한 편 / 그 영화",
+      "example": "Bộ phim đó tên là Mission Impossible.",
+      "exampleMeaningKo": "그 영화의 이름은 미션 임파서블입니다.",
+      "audioSrc": "",
+      "sourcePage": 9,
+      "reviewNeeded": false,
+      "pronKo": "보 핌",
+      "pronNoteKo": "특정 영화 한 편을 말할 때 씁니다.",
+      "pronChunks": [
+        "bộ=보",
+        "phim=핌"
+      ]
+    },
+    {
+      "id": "d09-movie-v-023",
+      "term": "tên là",
+      "meaningKo": "이름이 ~이다",
+      "example": "Bộ phim đó tên là Top Gun.",
+      "exampleMeaningKo": "그 영화의 이름은 탑건입니다.",
+      "audioSrc": "",
+      "sourcePage": 9,
+      "reviewNeeded": false,
+      "pronKo": "뗀 라",
+      "pronNoteKo": "영화 제목, 배우 이름을 말할 때 씁니다.",
+      "pronChunks": [
+        "tên=뗀",
+        "là=라"
+      ]
+    },
+    {
+      "id": "d09-movie-v-024",
+      "term": "nói về",
+      "meaningKo": "~에 대해 말하다 / ~에 관한 내용이다",
+      "example": "Bộ phim đó nói về tình bạn.",
+      "exampleMeaningKo": "그 영화는 우정에 관한 내용입니다.",
+      "audioSrc": "",
+      "sourcePage": 9,
+      "reviewNeeded": false,
+      "pronKo": "노이 베",
+      "pronNoteKo": "영화 내용 설명의 핵심 표현입니다.",
+      "pronChunks": [
+        "nói=노이",
+        "về=베"
+      ]
+    },
+    {
+      "id": "d09-movie-v-025",
+      "term": "kể về",
+      "meaningKo": "~에 대해 이야기하다 / ~를 다루다",
+      "example": "Bộ phim kể về cuộc sống của sinh viên.",
+      "exampleMeaningKo": "그 영화는 학생들의 생활을 다룹니다.",
+      "audioSrc": "",
+      "sourcePage": 9,
+      "reviewNeeded": false,
+      "pronKo": "께 베",
+      "pronNoteKo": "nói về와 비슷하지만 이야기로 풀어낸다는 느낌입니다.",
+      "pronChunks": [
+        "kể=께",
+        "về=베"
+      ]
+    },
+    {
+      "id": "d09-movie-v-026",
+      "term": "cuộc đời",
+      "meaningKo": "인생 / 삶",
+      "example": "Bộ phim kể về cuộc đời của một bác sĩ.",
+      "exampleMeaningKo": "그 영화는 한 의사의 인생을 다룹니다.",
+      "audioSrc": "",
+      "sourcePage": 9,
+      "reviewNeeded": false,
+      "pronKo": "꾸옥 더이",
+      "pronNoteKo": "사람의 일생을 말할 때 씁니다.",
+      "pronChunks": [
+        "cuộc=꾸옥",
+        "đời=더이"
+      ]
+    },
+    {
+      "id": "d09-movie-v-027",
+      "term": "cuộc sống",
+      "meaningKo": "생활 / 삶",
+      "example": "Bộ phim nói về cuộc sống ở thành phố.",
+      "exampleMeaningKo": "그 영화는 도시에서의 삶에 관한 내용입니다.",
+      "audioSrc": "",
+      "sourcePage": 9,
+      "reviewNeeded": false,
+      "pronKo": "꾸옥 송",
+      "pronNoteKo": "일상생활이나 삶의 모습을 말할 때 씁니다.",
+      "pronChunks": [
+        "cuộc=꾸옥",
+        "sống=송"
+      ]
+    },
+    {
+      "id": "d09-movie-v-028",
+      "term": "tình bạn",
+      "meaningKo": "우정",
+      "example": "Bộ phim đó kể về tình bạn.",
+      "exampleMeaningKo": "그 영화는 우정을 다룹니다.",
+      "audioSrc": "",
+      "sourcePage": 9,
+      "reviewNeeded": false,
+      "pronKo": "띤 반",
+      "pronNoteKo": "영화 주제를 말할 때 쓰기 좋습니다.",
+      "pronChunks": [
+        "tình=띤",
+        "bạn=반"
+      ]
+    },
+    {
+      "id": "d09-movie-v-029",
+      "term": "tình yêu",
+      "meaningKo": "사랑",
+      "example": "Nội dung phim nói về tình yêu.",
+      "exampleMeaningKo": "영화 내용은 사랑에 관한 것입니다.",
+      "audioSrc": "",
+      "sourcePage": 9,
+      "reviewNeeded": false,
+      "pronKo": "띤 이에우",
+      "pronNoteKo": "로맨스 영화 설명에 씁니다.",
+      "pronChunks": [
+        "tình=띤",
+        "yêu=이에우"
+      ]
+    },
+    {
+      "id": "d09-movie-v-030",
+      "term": "hấp dẫn",
+      "meaningKo": "매력적인 / 흥미진진한",
+      "example": "Cốt truyện rất hấp dẫn.",
+      "exampleMeaningKo": "줄거리가 매우 흥미진진합니다.",
+      "audioSrc": "",
+      "sourcePage": 9,
+      "reviewNeeded": false,
+      "pronKo": "헙 전",
+      "pronNoteKo": "영화 줄거리 칭찬에 좋습니다.",
+      "pronChunks": [
+        "hấp=헙",
+        "dẫn=전"
+      ]
+    },
+    {
+      "id": "d09-movie-v-031",
+      "term": "thú vị",
+      "meaningKo": "흥미롭다 / 재미있다",
+      "example": "Bộ phim này rất thú vị.",
+      "exampleMeaningKo": "이 영화는 매우 흥미롭습니다.",
+      "audioSrc": "",
+      "sourcePage": 9,
+      "reviewNeeded": false,
+      "pronKo": "투 비",
+      "pronNoteKo": "hay보다 조금 더 흥미롭다는 느낌입니다.",
+      "pronChunks": [
+        "thú=투",
+        "vị=비"
+      ]
+    },
+    {
+      "id": "d09-movie-v-032",
+      "term": "lôi cuốn",
+      "meaningKo": "몰입하게 하는 / 끌어당기는",
+      "example": "Cốt truyện của phim rất lôi cuốn.",
+      "exampleMeaningKo": "그 영화의 줄거리는 매우 몰입감이 있습니다.",
+      "audioSrc": "",
+      "sourcePage": 9,
+      "reviewNeeded": false,
+      "pronKo": "로이 꾸온",
+      "pronNoteKo": "조금 고급스러운 영화 칭찬 표현입니다.",
+      "pronChunks": [
+        "lôi=로이",
+        "cuốn=꾸온"
+      ]
+    },
+    {
+      "id": "d09-movie-v-033",
+      "term": "ý nghĩa",
+      "meaningKo": "의미 있는",
+      "example": "Nội dung phim rất ý nghĩa.",
+      "exampleMeaningKo": "영화 내용이 매우 의미 있습니다.",
+      "audioSrc": "",
+      "sourcePage": 9,
+      "reviewNeeded": false,
+      "pronKo": "이 응이어",
+      "pronNoteKo": "감동적인 영화 설명에 좋습니다.",
+      "pronChunks": [
+        "ý=이",
+        "nghĩa=응이어"
+      ]
+    },
+    {
+      "id": "d09-movie-v-034",
+      "term": "kịch tính",
+      "meaningKo": "극적인 / 긴장감 있는",
+      "example": "Phim hành động có nhiều cảnh rất kịch tính.",
+      "exampleMeaningKo": "액션 영화에는 매우 긴장감 있는 장면이 많습니다.",
+      "audioSrc": "",
+      "sourcePage": 9,
+      "reviewNeeded": false,
+      "pronKo": "끼익 띤",
+      "pronNoteKo": "액션, 스릴러 설명에 좋습니다.",
+      "pronChunks": [
+        "kịch=끼익",
+        "tính=띤"
+      ]
+    },
+    {
+      "id": "d09-movie-v-035",
+      "term": "độc đáo",
+      "meaningKo": "독특한",
+      "example": "Cốt truyện của bộ phim rất độc đáo.",
+      "exampleMeaningKo": "그 영화의 줄거리는 매우 독특합니다.",
+      "audioSrc": "",
+      "sourcePage": 9,
+      "reviewNeeded": false,
+      "pronKo": "독 다오",
+      "pronNoteKo": "평범하지 않고 특별하다는 뜻입니다.",
+      "pronChunks": [
+        "độc=독",
+        "đáo=다오"
+      ]
+    },
+    {
+      "id": "d09-movie-v-036",
+      "term": "cảnh phim",
+      "meaningKo": "영화 장면",
+      "example": "Cảnh phim rất đẹp và ấn tượng.",
+      "exampleMeaningKo": "영화 장면이 매우 아름답고 인상적입니다.",
+      "audioSrc": "",
+      "sourcePage": 9,
+      "reviewNeeded": false,
+      "pronKo": "까인 핌",
+      "pronNoteKo": "영화의 특정 장면을 말할 때 씁니다.",
+      "pronChunks": [
+        "cảnh=까인",
+        "phim=핌"
+      ]
+    },
+    {
+      "id": "d09-movie-v-037",
+      "term": "ấn tượng",
+      "meaningKo": "인상적인 / 인상",
+      "example": "Tôi rất ấn tượng với bộ phim đó.",
+      "exampleMeaningKo": "저는 그 영화에 매우 인상을 받았습니다.",
+      "audioSrc": "",
+      "sourcePage": 9,
+      "reviewNeeded": false,
+      "pronKo": "언 뜨엉",
+      "pronNoteKo": "인상 깊은 영화 문제에서 필수입니다.",
+      "pronChunks": [
+        "ấn=언",
+        "tượng=뜨엉"
+      ]
+    },
+    {
+      "id": "d09-movie-v-038",
+      "term": "đặc biệt",
+      "meaningKo": "특별한",
+      "example": "Bộ phim đó đặc biệt đối với tôi.",
+      "exampleMeaningKo": "그 영화는 저에게 특별합니다.",
+      "audioSrc": "",
+      "sourcePage": 9,
+      "reviewNeeded": false,
+      "pronKo": "닥 비엣",
+      "pronNoteKo": "나에게 특별한 이유를 말할 때 씁니다.",
+      "pronChunks": [
+        "đặc=닥",
+        "biệt=비엣"
+      ]
+    },
+    {
+      "id": "d09-movie-v-039",
+      "term": "diễn viên",
+      "meaningKo": "배우",
+      "example": "Diễn viên tôi thích nhất là Tom Cruise.",
+      "exampleMeaningKo": "제가 가장 좋아하는 배우는 톰 크루즈입니다.",
+      "audioSrc": "",
+      "sourcePage": 9,
+      "reviewNeeded": false,
+      "pronKo": "지엔 비엔",
+      "pronNoteKo": "배우 질문의 핵심 단어입니다.",
+      "pronChunks": [
+        "diễn=지엔",
+        "viên=비엔"
+      ]
+    },
+    {
+      "id": "d09-movie-v-040",
+      "term": "diễn viên chính",
+      "meaningKo": "주연 배우",
+      "example": "Diễn viên chính trong phim đó diễn rất hay.",
+      "exampleMeaningKo": "그 영화의 주연 배우는 연기를 매우 잘합니다.",
+      "audioSrc": "",
+      "sourcePage": 9,
+      "reviewNeeded": false,
+      "pronKo": "지엔 비엔 찐",
+      "pronNoteKo": "chính은 주요한, 메인이라는 뜻입니다.",
+      "pronChunks": [
+        "diễn viên=지엔 비엔",
+        "chính=찐"
+      ]
+    },
+    {
+      "id": "d09-movie-v-041",
+      "term": "diễn viên nam",
+      "meaningKo": "남자 배우",
+      "example": "Diễn viên nam đó rất đẹp trai.",
+      "exampleMeaningKo": "그 남자 배우는 매우 잘생겼습니다.",
+      "audioSrc": "",
+      "sourcePage": 9,
+      "reviewNeeded": false,
+      "pronKo": "지엔 비엔 남",
+      "pronNoteKo": "nam은 남성이라는 뜻입니다.",
+      "pronChunks": [
+        "diễn viên=지엔 비엔",
+        "nam=남"
+      ]
+    },
+    {
+      "id": "d09-movie-v-042",
+      "term": "diễn viên nữ",
+      "meaningKo": "여자 배우",
+      "example": "Diễn viên nữ trong phim rất đẹp.",
+      "exampleMeaningKo": "그 영화의 여자 배우는 매우 아름답습니다.",
+      "audioSrc": "",
+      "sourcePage": 9,
+      "reviewNeeded": false,
+      "pronKo": "지엔 비엔 느",
+      "pronNoteKo": "nữ는 여성이라는 뜻입니다.",
+      "pronChunks": [
+        "diễn viên=지엔 비엔",
+        "nữ=느"
+      ]
+    },
+    {
+      "id": "d09-movie-v-043",
+      "term": "diễn rất hay",
+      "meaningKo": "연기를 매우 잘하다",
+      "example": "Anh ấy diễn rất hay.",
+      "exampleMeaningKo": "그는 연기를 매우 잘합니다.",
+      "audioSrc": "",
+      "sourcePage": 9,
+      "reviewNeeded": false,
+      "pronKo": "지엔 젓 하이",
+      "pronNoteKo": "배우를 칭찬할 때 바로 쓸 수 있습니다.",
+      "pronChunks": [
+        "diễn=지엔",
+        "rất hay=젓 하이"
+      ]
+    },
+    {
+      "id": "d09-movie-v-044",
+      "term": "đẹp trai",
+      "meaningKo": "잘생긴",
+      "example": "Tom Cruise vừa diễn hay vừa đẹp trai.",
+      "exampleMeaningKo": "톰 크루즈는 연기도 잘하고 잘생겼습니다.",
+      "audioSrc": "",
+      "sourcePage": 9,
+      "reviewNeeded": false,
+      "pronKo": "뎁 짜이",
+      "pronNoteKo": "남자에게 쓰는 표현입니다.",
+      "pronChunks": [
+        "đẹp=뎁",
+        "trai=짜이"
+      ]
+    },
+    {
+      "id": "d09-movie-v-045",
+      "term": "tin tức",
+      "meaningKo": "뉴스 / 소식",
+      "example": "Gần đây có tin tức gì về diễn viên đó không?",
+      "exampleMeaningKo": "최근 그 배우에 대한 어떤 소식이 있나요?",
+      "audioSrc": "",
+      "sourcePage": 9,
+      "reviewNeeded": false,
+      "pronKo": "띤 뜩",
+      "pronNoteKo": "배우 관련 최근 소식을 말할 때 씁니다.",
+      "pronChunks": [
+        "tin=띤",
+        "tức=뜩"
+      ]
+    },
+    {
+      "id": "d09-movie-v-046",
+      "term": "nhạc phim",
+      "meaningKo": "영화 음악 / OST",
+      "example": "Nhạc phim rất hay.",
+      "exampleMeaningKo": "영화 음악이 매우 좋습니다.",
+      "audioSrc": "",
+      "sourcePage": 9,
+      "reviewNeeded": false,
+      "pronKo": "냑 핌",
+      "pronNoteKo": "영화를 좋아하는 이유에 넣기 좋습니다.",
+      "pronChunks": [
+        "nhạc=냑",
+        "phim=핌"
+      ]
+    },
+    {
+      "id": "d09-movie-v-047",
+      "term": "buồn cười",
+      "meaningKo": "웃긴",
+      "example": "Xem phim đó tôi thấy rất buồn cười.",
+      "exampleMeaningKo": "그 영화를 보면서 저는 매우 웃겼습니다.",
+      "audioSrc": "",
+      "sourcePage": 9,
+      "reviewNeeded": false,
+      "pronKo": "부온 끄어이",
+      "pronNoteKo": "코미디 영화 이유로 좋습니다.",
+      "pronChunks": [
+        "buồn=부온",
+        "cười=끄어이"
+      ]
+    },
+    {
+      "id": "d09-movie-v-048",
+      "term": "cảm động",
+      "meaningKo": "감동적인",
+      "example": "Bộ phim đó rất cảm động.",
+      "exampleMeaningKo": "그 영화는 매우 감동적입니다.",
+      "audioSrc": "",
+      "sourcePage": 9,
+      "reviewNeeded": false,
+      "pronKo": "깜 동",
+      "pronNoteKo": "눈물 나는 영화 설명에 좋습니다.",
+      "pronChunks": [
+        "cảm=깜",
+        "động=동"
+      ]
+    },
+    {
+      "id": "d09-movie-v-049",
+      "term": "thư giãn",
+      "meaningKo": "편안해지다 / 휴식하다",
+      "example": "Tôi xem phim để thư giãn.",
+      "exampleMeaningKo": "저는 휴식하기 위해 영화를 봅니다.",
+      "audioSrc": "",
+      "sourcePage": 9,
+      "reviewNeeded": false,
+      "pronKo": "트 장",
+      "pronNoteKo": "영화 보는 이유로 가장 쉬운 표현입니다.",
+      "pronChunks": [
+        "thư=트",
+        "giãn=장"
+      ]
+    },
+    {
+      "id": "d09-movie-v-050",
+      "term": "giảm căng thẳng",
+      "meaningKo": "스트레스를 줄이다",
+      "example": "Xem phim giúp tôi giảm căng thẳng.",
+      "exampleMeaningKo": "영화를 보는 것은 제가 스트레스를 줄이는 데 도움이 됩니다.",
+      "audioSrc": "",
+      "sourcePage": 9,
+      "reviewNeeded": false,
+      "pronKo": "잠 깡 탕",
+      "pronNoteKo": "căng thẳng은 스트레스, 긴장이라는 뜻입니다.",
+      "pronChunks": [
+        "giảm=잠",
+        "căng thẳng=깡 탕"
+      ]
+    },
+    {
+      "id": "d09-movie-v-051",
+      "term": "giải tỏa căng thẳng",
+      "meaningKo": "스트레스를 풀다 / 해소하다",
+      "example": "Tôi xem phim để giải tỏa căng thẳng do công việc.",
+      "exampleMeaningKo": "저는 업무로 인한 스트레스를 풀기 위해 영화를 봅니다.",
+      "audioSrc": "",
+      "sourcePage": 9,
+      "reviewNeeded": false,
+      "pronKo": "자이 토아 깡 탕",
+      "pronNoteKo": "giảm보다 풀다, 해소하다의 느낌이 강합니다.",
+      "pronChunks": [
+        "giải tỏa=자이 토아",
+        "căng thẳng=깡 탕"
+      ]
+    },
+    {
+      "id": "d09-movie-v-052",
+      "term": "do công việc",
+      "meaningKo": "업무 때문에 / 일 때문에",
+      "example": "Tôi bị căng thẳng do công việc.",
+      "exampleMeaningKo": "저는 일 때문에 스트레스를 받습니다.",
+      "audioSrc": "",
+      "sourcePage": 9,
+      "reviewNeeded": false,
+      "pronKo": "조 꽁 비엑",
+      "pronNoteKo": "이유를 말할 때 do를 쓸 수 있습니다.",
+      "pronChunks": [
+        "do=조",
+        "công việc=꽁 비엑"
+      ]
+    },
+    {
+      "id": "d09-movie-v-053",
+      "term": "học ngoại ngữ",
+      "meaningKo": "외국어를 배우다",
+      "example": "Tôi xem phim để học ngoại ngữ.",
+      "exampleMeaningKo": "저는 외국어를 배우기 위해 영화를 봅니다.",
+      "audioSrc": "",
+      "sourcePage": 9,
+      "reviewNeeded": false,
+      "pronKo": "혹 응오아이 응으",
+      "pronNoteKo": "영화 보는 이유를 다양하게 만들 때 좋습니다.",
+      "pronChunks": [
+        "học=혹",
+        "ngoại ngữ=응오아이 응으"
+      ]
+    },
+    {
+      "id": "d09-movie-v-054",
+      "term": "một mình",
+      "meaningKo": "혼자",
+      "example": "Tôi đã xem bộ phim đó một mình.",
+      "exampleMeaningKo": "저는 그 영화를 혼자 봤습니다.",
+      "audioSrc": "",
+      "sourcePage": 9,
+      "reviewNeeded": false,
+      "pronKo": "못 민",
+      "pronNoteKo": "혼자 봤는지, 누구와 봤는지 말할 때 씁니다.",
+      "pronChunks": [
+        "một=못",
+        "mình=민"
+      ]
+    },
+    {
+      "id": "d09-movie-v-055",
+      "term": "cùng với ai",
+      "meaningKo": "누구와 함께",
+      "example": "Bạn đã xem cùng với ai?",
+      "exampleMeaningKo": "당신은 누구와 함께 봤나요?",
+      "audioSrc": "",
+      "sourcePage": 9,
+      "reviewNeeded": false,
+      "pronKo": "꿍 버이 아이",
+      "pronNoteKo": "동행자 질문입니다.",
+      "pronChunks": [
+        "cùng với=꿍 버이",
+        "ai=아이"
+      ]
+    },
+    {
+      "id": "d09-movie-v-056",
+      "term": "vợ của tôi",
+      "meaningKo": "내 아내",
+      "example": "Tôi đã xem bộ phim đó cùng với vợ của tôi.",
+      "exampleMeaningKo": "저는 그 영화를 제 아내와 함께 봤습니다.",
+      "audioSrc": "",
+      "sourcePage": 9,
+      "reviewNeeded": false,
+      "pronKo": "버 꾸어 또이",
+      "pronNoteKo": "가족과 영화를 봤다고 말할 때 쓸 수 있습니다.",
+      "pronChunks": [
+        "vợ=버",
+        "của tôi=꾸어 또이"
+      ]
+    },
+    {
+      "id": "d09-movie-v-057",
+      "term": "gần đây",
+      "meaningKo": "최근에",
+      "example": "Gần đây tôi đã xem một bộ phim hành động.",
+      "exampleMeaningKo": "최근에 저는 액션 영화 한 편을 봤습니다.",
+      "audioSrc": "",
+      "sourcePage": 9,
+      "reviewNeeded": false,
+      "pronKo": "건 더이",
+      "pronNoteKo": "최근 본 영화 문제에서 필수입니다.",
+      "pronChunks": [
+        "gần=건",
+        "đây=더이"
+      ]
+    },
+    {
+      "id": "d09-movie-v-058",
+      "term": "lần gần đây nhất",
+      "meaningKo": "가장 최근 번 / 가장 최근에",
+      "example": "Lần gần đây nhất bạn đi xem phim là khi nào?",
+      "exampleMeaningKo": "당신이 가장 최근에 영화를 보러 간 것은 언제인가요?",
+      "audioSrc": "",
+      "sourcePage": 9,
+      "reviewNeeded": false,
+      "pronKo": "런 건 더이 녓",
+      "pronNoteKo": "최근 경험 질문의 시작 표현입니다.",
+      "pronChunks": [
+        "lần=런",
+        "gần đây nhất=건 더이 녓"
+      ]
+    },
+    {
+      "id": "d09-movie-v-059",
+      "term": "trước khi xem phim",
+      "meaningKo": "영화를 보기 전에",
+      "example": "Trước khi xem phim, tôi thường mua bắp rang.",
+      "exampleMeaningKo": "영화를 보기 전에 저는 보통 팝콘을 삽니다.",
+      "audioSrc": "",
+      "sourcePage": 9,
+      "reviewNeeded": false,
+      "pronKo": "쯔억 키 쎔 핌",
+      "pronNoteKo": "영화 전 활동을 말할 때 필수입니다.",
+      "pronChunks": [
+        "trước khi=쯔억 키",
+        "xem phim=쎔 핌"
+      ]
+    },
+    {
+      "id": "d09-movie-v-060",
+      "term": "sau khi xem phim",
+      "meaningKo": "영화를 본 후에",
+      "example": "Sau khi xem phim, tôi thường ăn tối với gia đình.",
+      "exampleMeaningKo": "영화를 본 후에 저는 보통 가족과 저녁을 먹습니다.",
+      "audioSrc": "",
+      "sourcePage": 9,
+      "reviewNeeded": false,
+      "pronKo": "사우 키 쎔 핌",
+      "pronNoteKo": "영화 후 활동을 말할 때 필수입니다.",
+      "pronChunks": [
+        "sau khi=사우 키",
+        "xem phim=쎔 핌"
+      ]
+    },
+    {
+      "id": "d09-movie-v-061",
+      "term": "kỉ niệm đáng nhớ",
+      "meaningKo": "기억에 남는 추억",
+      "example": "Tôi có một kỉ niệm đáng nhớ khi đi xem phim.",
+      "exampleMeaningKo": "저는 영화를 보러 갔을 때 기억에 남는 추억이 하나 있습니다.",
+      "audioSrc": "",
+      "sourcePage": 9,
+      "reviewNeeded": false,
+      "pronKo": "끼 니엠 당 녀",
+      "pronNoteKo": "특별한 경험 문제의 핵심 표현입니다.",
+      "pronChunks": [
+        "kỉ niệm=끼 니엠",
+        "đáng nhớ=당 녀"
+      ]
+    },
+    {
+      "id": "d09-movie-v-062",
+      "term": "thói quen xem phim",
+      "meaningKo": "영화 보는 습관",
+      "example": "Thói quen xem phim của tôi đã thay đổi nhiều.",
+      "exampleMeaningKo": "저의 영화 보는 습관은 많이 변했습니다.",
+      "audioSrc": "",
+      "sourcePage": 9,
+      "reviewNeeded": false,
+      "pronKo": "토이 꿴 쎔 핌",
+      "pronNoteKo": "변화/비교 문제에서 중요합니다.",
+      "pronChunks": [
+        "thói quen=토이 꿴",
+        "xem phim=쎔 핌"
+      ]
+    },
+    {
+      "id": "d09-movie-v-063",
+      "term": "khác trước đây",
+      "meaningKo": "예전과 다르다",
+      "example": "Thói quen xem phim của tôi bây giờ khác trước đây.",
+      "exampleMeaningKo": "지금 저의 영화 보는 습관은 예전과 다릅니다.",
+      "audioSrc": "",
+      "sourcePage": 9,
+      "reviewNeeded": false,
+      "pronKo": "칵 쯔억 더이",
+      "pronNoteKo": "과거와 현재 비교에 씁니다.",
+      "pronChunks": [
+        "khác=칵",
+        "trước đây=쯔억 더이"
+      ]
+    },
+    {
+      "id": "d09-movie-v-064",
+      "term": "giống với trước đây",
+      "meaningKo": "예전과 같다",
+      "example": "Thói quen đó không giống với trước đây.",
+      "exampleMeaningKo": "그 습관은 예전과 같지 않습니다.",
+      "audioSrc": "",
+      "sourcePage": 9,
+      "reviewNeeded": false,
+      "pronKo": "종 버이 쯔억 더이",
+      "pronNoteKo": "giống với는 ~와 같다라는 뜻입니다.",
+      "pronChunks": [
+        "giống với=종 버이",
+        "trước đây=쯔억 더이"
+      ]
+    },
+    {
+      "id": "d09-movie-v-065",
+      "term": "sự thay đổi",
+      "meaningKo": "변화",
+      "example": "Hãy nói cho tôi về sự thay đổi đó.",
+      "exampleMeaningKo": "그 변화에 대해 저에게 말해주세요.",
+      "audioSrc": "",
+      "sourcePage": 9,
+      "reviewNeeded": false,
+      "pronKo": "스 타이 도이",
+      "pronNoteKo": "변화 설명 문제에서 나오는 표현입니다.",
+      "pronChunks": [
+        "sự=스",
+        "thay đổi=타이 도이"
+      ]
+    },
+    {
+      "id": "d09-movie-v-066",
+      "term": "diễn kịch",
+      "meaningKo": "역할극을 하다 / 연기하다",
+      "example": "Bạn hãy diễn kịch để giải quyết tình huống đó.",
+      "exampleMeaningKo": "그 상황을 해결하기 위해 역할극을 해주세요.",
+      "audioSrc": "",
+      "sourcePage": 9,
+      "reviewNeeded": false,
+      "pronKo": "지엔 끼익",
+      "pronNoteKo": "OPIc 역할극 문제에서 나오는 표현입니다.",
+      "pronChunks": [
+        "diễn=지엔",
+        "kịch=끼익"
+      ]
+    },
+    {
+      "id": "d09-movie-v-067",
+      "term": "giải quyết tình huống",
+      "meaningKo": "상황을 해결하다",
+      "example": "Tôi sẽ giải quyết tình huống này.",
+      "exampleMeaningKo": "저는 이 상황을 해결하겠습니다.",
+      "audioSrc": "",
+      "sourcePage": 9,
+      "reviewNeeded": false,
+      "pronKo": "자이 꾸엣 띤 후옹",
+      "pronNoteKo": "역할극/상황극 문제의 핵심 표현입니다.",
+      "pronChunks": [
+        "giải quyết=자이 꾸엣",
+        "tình huống=띤 후옹"
+      ]
+    },
+    {
+      "id": "d09-movie-v-068",
+      "term": "rủ bạn đi xem phim",
+      "meaningKo": "친구에게 영화 보러 가자고 권하다",
+      "example": "Tôi muốn rủ bạn đi xem phim.",
+      "exampleMeaningKo": "저는 친구에게 영화 보러 가자고 하고 싶습니다.",
+      "audioSrc": "",
+      "sourcePage": 9,
+      "reviewNeeded": false,
+      "pronKo": "주 반 디 쎔 핌",
+      "pronNoteKo": "rủ는 같이 하자고 제안하다라는 뜻입니다.",
+      "pronChunks": [
+        "rủ=주",
+        "bạn=반",
+        "đi xem phim=디 쎔 핌"
+      ]
+    },
+    {
+      "id": "d09-movie-v-069",
+      "term": "gọi điện",
+      "meaningKo": "전화하다",
+      "example": "Bạn hãy gọi điện cho bạn của bạn.",
+      "exampleMeaningKo": "당신의 친구에게 전화하세요.",
+      "audioSrc": "",
+      "sourcePage": 9,
+      "reviewNeeded": false,
+      "pronKo": "고이 디엔",
+      "pronNoteKo": "역할극에서 전화를 걸 때 씁니다.",
+      "pronChunks": [
+        "gọi=고이",
+        "điện=디엔"
+      ]
+    },
+    {
+      "id": "d09-movie-v-070",
+      "term": "hết vé",
+      "meaningKo": "표가 매진되다 / 표가 없다",
+      "example": "Bộ phim đó hết vé rồi.",
+      "exampleMeaningKo": "그 영화는 표가 이미 매진되었습니다.",
+      "audioSrc": "",
+      "sourcePage": 9,
+      "reviewNeeded": false,
+      "pronKo": "헷 베",
+      "pronNoteKo": "문제 16번의 핵심 상황입니다.",
+      "pronChunks": [
+        "hết=헷",
+        "vé=베"
+      ]
+    },
+    {
+      "id": "d09-movie-v-071",
+      "term": "phương án giải quyết",
+      "meaningKo": "해결 방안",
+      "example": "Tôi sẽ đưa ra phương án giải quyết.",
+      "exampleMeaningKo": "저는 해결 방안을 제시하겠습니다.",
+      "audioSrc": "",
+      "sourcePage": 9,
+      "reviewNeeded": false,
+      "pronKo": "프엉 안 자이 꾸엣",
+      "pronNoteKo": "상황극에서 대안을 제시할 때 좋습니다.",
+      "pronChunks": [
+        "phương án=프엉 안",
+        "giải quyết=자이 꾸엣"
+      ]
+    },
+    {
+      "id": "d09-movie-v-072",
+      "term": "đưa ra",
+      "meaningKo": "제시하다 / 내놓다",
+      "example": "Bạn hãy đưa ra phương án giải quyết.",
+      "exampleMeaningKo": "당신은 해결 방안을 제시해주세요.",
+      "audioSrc": "",
+      "sourcePage": 9,
+      "reviewNeeded": false,
+      "pronKo": "드어 자",
+      "pronNoteKo": "의견이나 해결책을 내놓는다는 뜻입니다.",
+      "pronChunks": [
+        "đưa=드어",
+        "ra=자"
+      ]
+    }
+  ],
+  "sentenceCards": [
+    {
+      "id": "d09-movie-s-001",
+      "textVi": "Trong bản khảo sát, bạn nói rằng bạn thích đi xem phim. Thể loại phim mà bạn yêu thích nhất là gì. Hãy nói cho tôi biết chi tiết lý do tại sao bạn thích thể loại phim đó nhất.",
+      "textKo": "설문에서 당신은 영화를 보러 가는 것을 좋아한다고 말했습니다. 당신이 가장 좋아하는 영화 장르는 무엇인가요? 왜 그 영화 장르를 가장 좋아하는지 이유를 자세히 말해주세요.",
+      "exampleAnswerVi": "Tôi rất thích đi xem phim. Thể loại phim tôi yêu thích nhất là phim hành động. Tôi thích thể loại này vì phim hành động rất thú vị và kịch tính. Khi xem phim hành động, tôi cảm thấy rất vui và có thể giải tỏa căng thẳng do công việc. Đặc biệt, tôi thích những bộ phim có cốt truyện hấp dẫn và cảnh phim đẹp. Diễn viên cũng rất quan trọng. Nếu diễn viên diễn hay, tôi có thể tập trung vào bộ phim hơn. Vì vậy, phim hành động là thể loại phim tôi thích nhất.",
+      "exampleAnswerKo": "저는 영화를 보러 가는 것을 매우 좋아합니다. 제가 가장 좋아하는 영화 장르는 액션 영화입니다. 저는 액션 영화가 매우 흥미롭고 긴장감 있어서 이 장르를 좋아합니다. 액션 영화를 볼 때 저는 매우 즐겁고 업무로 인한 스트레스를 풀 수 있습니다. 특히 저는 줄거리가 흥미롭고 장면이 아름다운 영화를 좋아합니다. 배우도 매우 중요합니다. 배우가 연기를 잘하면 저는 영화에 더 집중할 수 있습니다. 그래서 액션 영화는 제가 가장 좋아하는 영화 장르입니다.",
+      "audioSrc": "",
+      "sourcePage": 9,
+      "reviewNeeded": false,
+      "pronKo": "쫑 반 카오 삿, 반 노이 장 반 틱 디 쎔 핌. 테 로아이 핌 마 반 이에우 틱 녓 라 지. 하이 노이 쪼 또이 비엣 찌 띠엣 리 조 따이 사오 반 틱 테 로아이 핌 도 녓.",
+      "exampleAnswerPronKo": "또이 젓 틱 디 쎔 핌. 테 로아이 핌 또이 이에우 틱 녓 라 핌 하인 동.",
+      "pronNoteKo": "장르 문제는 '장르 → 이유 2개 → 느낌 → 마무리' 순서로 말하면 안정적입니다."
+    },
+    {
+      "id": "d09-movie-s-002",
+      "textVi": "Bạn thích xem phim ở đâu nhất? Rạp phim đó trông như thế nào? Không khí ở rạp chiếu phim đó thế nào? Tại sao bạn lại thích xem phim ở đó hơn những chỗ khác? Hãy miêu tả chi tiết cho tôi về chỗ xem phim đó.",
+      "textKo": "당신은 어디에서 영화를 보는 것을 가장 좋아하나요? 그 영화관은 어떻게 생겼나요? 그 영화관의 분위기는 어떤가요? 왜 다른 곳보다 그곳에서 영화 보는 것을 더 좋아하나요? 그 영화 보는 장소에 대해 저에게 자세히 묘사해주세요.",
+      "exampleAnswerVi": "Tôi thích xem phim ở rạp CGV gần nhà nhất. Rạp phim đó nằm trong một trung tâm thương mại lớn. Bên trong rạp rất sạch, rộng và hiện đại. Không khí ở đó rất thoải mái. Ghế ngồi mềm, màn hình lớn và âm thanh rất tốt. Tôi thích xem phim ở đó hơn những chỗ khác vì nó gần nhà tôi và rất tiện lợi. Trước khi xem phim, tôi có thể mua bắp rang và nước uống. Sau khi xem phim, tôi có thể ăn tối với gia đình ở trung tâm thương mại. Vì vậy, đó là chỗ xem phim tôi thích nhất.",
+      "exampleAnswerKo": "저는 집 근처 CGV 영화관에서 영화를 보는 것을 가장 좋아합니다. 그 영화관은 큰 쇼핑몰 안에 있습니다. 영화관 안은 매우 깨끗하고 넓고 현대적입니다. 그곳의 분위기는 매우 편안합니다. 좌석은 푹신하고 화면은 크고 음향은 매우 좋습니다. 저는 그곳이 집에서 가깝고 매우 편리하기 때문에 다른 곳보다 그곳에서 영화 보는 것을 더 좋아합니다. 영화를 보기 전에 팝콘과 음료를 살 수 있습니다. 영화를 본 후에는 쇼핑몰에서 가족과 저녁을 먹을 수 있습니다. 그래서 그곳은 제가 가장 좋아하는 영화 보는 장소입니다.",
+      "audioSrc": "",
+      "sourcePage": 9,
+      "reviewNeeded": false,
+      "pronKo": "반 틱 쎔 핌 어 더우 녓? 잡 핌 도 쫑 느 테 나오? 콩 키 어 잡 찌에우 핌 도 테 나오? 따이 사오 반 라이 틱 쎔 핌 어 도 헌 느응 쪼 칵? 하이 미에우 따 찌 띠엣 쪼 또이 베 쪼 쎔 핌 도.",
+      "exampleAnswerPronKo": "또이 틱 쎔 핌 어 잡 씨지브이 건 냐 녓.",
+      "pronNoteKo": "장소 묘사는 '위치 → 내부 모습 → 분위기 → 좋아하는 이유'로 말합니다."
+    },
+    {
+      "id": "d09-movie-s-003",
+      "textVi": "Bạn hãy miêu tả rạp chiếu phim mà bạn hay đi. Rạp chiếu phim đó ở đâu? Không khí ở rạp chiếu phim đó thế nào? Tại sao bạn thích đến rạp chiếu phim đó hơn đến những rạp chiếu phim khác?",
+      "textKo": "당신이 자주 가는 영화관을 묘사해주세요. 그 영화관은 어디에 있나요? 그 영화관의 분위기는 어떤가요? 왜 다른 영화관보다 그 영화관에 가는 것을 더 좋아하나요?",
+      "exampleAnswerVi": "Tôi thường đi đến một rạp chiếu phim gần nhà. Rạp chiếu phim đó ở trong trung tâm thương mại. Nó không quá lớn nhưng rất sạch và tiện lợi. Không khí ở rạp khá yên tĩnh và thoải mái. Nhân viên cũng thân thiện. Tôi thích đến rạp chiếu phim đó hơn những rạp khác vì từ nhà tôi đến đó chỉ mất khoảng mười phút. Ngoài ra, sau khi xem phim, tôi có thể ăn đồ ăn hoặc uống cà phê gần đó.",
+      "exampleAnswerKo": "저는 보통 집 근처의 한 영화관에 갑니다. 그 영화관은 쇼핑몰 안에 있습니다. 아주 크지는 않지만 매우 깨끗하고 편리합니다. 영화관 분위기는 꽤 조용하고 편안합니다. 직원들도 친절합니다. 저는 집에서 그곳까지 약 10분밖에 걸리지 않기 때문에 다른 영화관보다 그 영화관에 가는 것을 더 좋아합니다. 또한 영화를 본 후에 근처에서 음식을 먹거나 커피를 마실 수 있습니다.",
+      "audioSrc": "",
+      "sourcePage": 9,
+      "reviewNeeded": false,
+      "pronKo": "반 하이 미에우 따 잡 찌에우 핌 마 반 하이 디. 잡 찌에우 핌 도 어 더우? 콩 키 어 잡 찌에우 핌 도 테 나오? 따이 사오 반 틱 덴 잡 찌에우 핌 도 헌 덴 느응 잡 찌에우 핌 칵?",
+      "exampleAnswerPronKo": "또이 트엉 디 덴 못 잡 찌에우 핌 건 냐.",
+      "pronNoteKo": "2번과 비슷하지만 '자주 가는 영화관' 자체를 묘사하는 문제입니다."
+    },
+    {
+      "id": "d09-movie-s-004",
+      "textVi": "Bạn có hay đi xem phim không? Bạn thường đi xem phim ở đâu? Bạn thường đi cùng với ai? Hãy nói cho tôi biết về những việc mà bạn làm trước và sau khi xem phim.",
+      "textKo": "당신은 영화를 자주 보러 가나요? 당신은 보통 어디에서 영화를 보나요? 당신은 보통 누구와 함께 가나요? 영화를 보기 전과 본 후에 당신이 하는 일들에 대해 저에게 말해주세요.",
+      "exampleAnswerVi": "Tôi không đi xem phim quá thường xuyên, nhưng tôi rất thích xem phim. Tôi thường đi xem phim ở rạp CGV gần nhà. Tôi thường đi cùng với vợ và các con. Trước khi xem phim, tôi thường đặt vé trước trên điện thoại. Sau đó, tôi mua bắp rang và nước uống. Khi xem phim, tôi cố gắng tập trung vào nội dung phim. Sau khi xem phim, tôi thường ăn tối với gia đình hoặc nói chuyện về bộ phim. Tôi cảm thấy rất vui vì đó là thời gian tốt với gia đình.",
+      "exampleAnswerKo": "저는 영화를 아주 자주 보러 가는 것은 아니지만, 영화 보는 것을 매우 좋아합니다. 저는 보통 집 근처 CGV 영화관에 갑니다. 보통 아내와 아이들과 함께 갑니다. 영화를 보기 전에 저는 보통 휴대폰으로 미리 표를 예매합니다. 그 후 팝콘과 음료를 삽니다. 영화를 볼 때 저는 영화 내용에 집중하려고 합니다. 영화를 본 후에는 보통 가족과 저녁을 먹거나 영화에 대해 이야기합니다. 그것은 가족과 함께하는 좋은 시간이기 때문에 저는 매우 즐겁습니다.",
+      "audioSrc": "",
+      "sourcePage": 9,
+      "reviewNeeded": false,
+      "pronKo": "반 꼬 하이 디 쎔 핌 콩? 반 트엉 디 쎔 핌 어 더우? 반 트엉 디 꿍 버이 아이? 하이 노이 쪼 또이 비엣 베 느응 비엑 마 반 람 쯔억 바 사우 키 쎔 핌.",
+      "exampleAnswerPronKo": "또이 콩 디 쎔 핌 꽈 트엉 쑤엔, 느응 또이 젓 틱 쎔 핌.",
+      "pronNoteKo": "일상 루틴 문제입니다. 전/중/후 활동 순서가 좋습니다."
+    },
+    {
+      "id": "d09-movie-s-005",
+      "textVi": "Lần gần đây nhất bạn đi xem phim là khi nào? Bạn đã xem phim gì? Bạn đã xem ở đâu? Hôm đó bạn đã đi cùng với ai? Hãy kể cho tôi bạn đã làm những gì ngày hôm đó, trước khi xem phim bạn làm gì và sau khi xem phim bạn làm gì.",
+      "textKo": "당신이 가장 최근에 영화를 보러 간 것은 언제인가요? 당신은 어떤 영화를 봤나요? 어디에서 봤나요? 그날 누구와 함께 갔나요? 그날 당신이 무엇을 했는지, 영화를 보기 전에 무엇을 했고 영화를 본 후에 무엇을 했는지 저에게 이야기해주세요.",
+      "exampleAnswerVi": "Lần gần đây nhất tôi đi xem phim là cuối tuần trước. Tôi đã xem phim Mission Impossible ở rạp CGV gần nhà. Hôm đó tôi đi cùng với vợ của tôi. Trước khi xem phim, chúng tôi đặt vé bằng điện thoại và mua bắp rang. Bộ phim đó là phim hành động, nên có nhiều cảnh rất kịch tính. Sau khi xem phim, chúng tôi ăn tối ở một nhà hàng gần rạp phim. Hôm đó tôi rất vui vì tôi có thể nghỉ ngơi và giải tỏa căng thẳng.",
+      "exampleAnswerKo": "제가 가장 최근에 영화를 보러 간 것은 지난 주말이었습니다. 저는 집 근처 CGV 영화관에서 미션 임파서블을 봤습니다. 그날 저는 제 아내와 함께 갔습니다. 영화를 보기 전에 우리는 휴대폰으로 표를 예매하고 팝콘을 샀습니다. 그 영화는 액션 영화라서 긴장감 있는 장면이 많았습니다. 영화를 본 후에 우리는 영화관 근처 식당에서 저녁을 먹었습니다. 그날 저는 쉴 수 있고 스트레스를 풀 수 있어서 매우 즐거웠습니다.",
+      "audioSrc": "",
+      "sourcePage": 9,
+      "reviewNeeded": false,
+      "pronKo": "런 건 더이 녓 반 디 쎔 핌 라 키 나오? 반 다 쎔 핌 지? 반 다 쎔 어 더우? 홈 도 반 다 디 꿍 버이 아이? 하이 께 쪼 또이 반 다 람 느응 지 응아이 홈 도, 쯔억 키 쎔 핌 반 람 지 바 사우 키 쎔 핌 반 람 지.",
+      "exampleAnswerPronKo": "런 건 더이 녓 또이 디 쎔 핌 라 꾸오이 뚜언 쯔억.",
+      "pronNoteKo": "과거 경험 문제입니다. đã를 넣어 과거 느낌을 만들면 좋습니다."
+    },
+    {
+      "id": "d09-movie-s-006",
+      "textVi": "Tôi muốn biết về bộ phim gần đây bạn xem. Đó là khi nào? Bạn đã xem một mình hay xem cùng với ai? Bạn đã xem bộ phim đó ở đâu? Bạn có thích bộ phim đó không? Hãy kể cho tôi chi tiết về bộ phim đó.",
+      "textKo": "저는 당신이 최근에 본 영화에 대해 알고 싶습니다. 그것은 언제였나요? 당신은 혼자 봤나요, 아니면 누구와 함께 봤나요? 당신은 그 영화를 어디에서 봤나요? 당신은 그 영화를 좋아했나요? 그 영화에 대해 저에게 자세히 이야기해주세요.",
+      "exampleAnswerVi": "Sau đây tôi sẽ kể cho chị về bộ phim mà tôi xem gần đây. Bộ phim đó tên là Mission Impossible. Tôi đã xem bộ phim đó vào cuối tuần trước ở rạp chiếu phim gần nhà. Tôi đã xem bộ phim đó cùng với vợ của tôi. Thể loại của bộ phim đó là phim hành động. Diễn viên chính trong bộ phim đó tên là Tom Cruise. Bộ phim đó nói về một nhiệm vụ rất nguy hiểm. Tôi rất thích bộ phim đó vì cốt truyện hấp dẫn, cảnh phim kịch tính và diễn viên diễn rất hay.",
+      "exampleAnswerKo": "이제 제가 최근에 본 영화에 대해 이야기하겠습니다. 그 영화의 이름은 미션 임파서블입니다. 저는 지난 주말에 집 근처 영화관에서 그 영화를 봤습니다. 저는 그 영화를 제 아내와 함께 봤습니다. 그 영화의 장르는 액션 영화입니다. 그 영화의 주연 배우 이름은 톰 크루즈입니다. 그 영화는 매우 위험한 임무에 관한 내용입니다. 저는 줄거리가 흥미롭고, 장면이 긴장감 있고, 배우가 연기를 매우 잘해서 그 영화를 매우 좋아했습니다.",
+      "audioSrc": "",
+      "sourcePage": 9,
+      "reviewNeeded": false,
+      "pronKo": "또이 무온 비엣 베 보 핌 건 더이 반 쎔. 도 라 키 나오? 반 다 쎔 못 민 하이 쎔 꿍 버이 아이? 반 다 쎔 보 핌 도 어 더우? 반 꼬 틱 보 핌 도 콩? 하이 께 쪼 또이 찌 띠엣 베 보 핌 도.",
+      "exampleAnswerPronKo": "사우 더이 또이 세 께 쪼 찌 베 보 핌 마 또이 쎔 건 더이.",
+      "pronNoteKo": "이 문제는 제공된 답변 틀을 그대로 활용하면 좋습니다."
+    },
+    {
+      "id": "d09-movie-s-007",
+      "textVi": "Bạn hãy kể cho tôi về một bộ phim mà bạn ấn tượng nhất. Bộ phim đó tên là gì? Bộ phim đó có nội dung gì? Tại sao bạn lại ấn tượng với bộ phim đó nhất? Hãy kể cho tôi chi tiết.",
+      "textKo": "당신에게 가장 인상 깊었던 영화 한 편에 대해 저에게 이야기해주세요. 그 영화의 이름은 무엇인가요? 그 영화는 어떤 내용인가요? 왜 당신은 그 영화가 가장 인상 깊었나요? 저에게 자세히 이야기해주세요.",
+      "exampleAnswerVi": "Một bộ phim mà tôi ấn tượng nhất là Top Gun. Bộ phim đó nói về một phi công rất giỏi và cuộc sống của anh ấy. Tôi ấn tượng với bộ phim đó vì cảnh phim rất đẹp và âm nhạc rất hay. Đặc biệt, những cảnh máy bay rất mạnh mẽ và kịch tính. Khi xem bộ phim đó, tôi cảm thấy rất hồi hộp và thú vị. Ngoài ra, diễn viên chính diễn rất hay. Vì vậy, bộ phim đó vẫn còn ở trong trí nhớ của tôi.",
+      "exampleAnswerKo": "저에게 가장 인상 깊었던 영화는 탑건입니다. 그 영화는 매우 뛰어난 한 조종사와 그의 삶에 관한 내용입니다. 저는 영화 장면이 매우 아름답고 음악이 좋아서 그 영화에 깊은 인상을 받았습니다. 특히 비행기 장면들이 매우 강렬하고 긴장감 있었습니다. 그 영화를 볼 때 저는 매우 두근거리고 흥미로웠습니다. 또한 주연 배우가 연기를 매우 잘했습니다. 그래서 그 영화는 아직도 제 기억 속에 남아 있습니다.",
+      "audioSrc": "",
+      "sourcePage": 9,
+      "reviewNeeded": false,
+      "pronKo": "반 하이 께 쪼 또이 베 못 보 핌 마 반 언 뜨엉 녓. 보 핌 도 뗀 라 지? 보 핌 도 꼬 노이 중 지? 따이 사오 반 라이 언 뜨엉 버이 보 핌 도 녓? 하이 께 쪼 또이 찌 띠엣.",
+      "exampleAnswerPronKo": "못 보 핌 마 또이 언 뜨엉 녓 라 탑건.",
+      "pronNoteKo": "인상 깊은 이유는 장면, 음악, 배우, 줄거리 중 2개만 골라도 충분합니다."
+    },
+    {
+      "id": "d09-movie-s-008",
+      "textVi": "Bạn hãy nói về một bộ phim mà bạn đã xem trước đây. Bộ phim đó tên là gì? Bộ phim đó nói về cái gì? Điều gì khiến bộ phim đó đặc biệt đối với bạn? Hãy kể cho tôi chi tiết.",
+      "textKo": "당신이 예전에 봤던 영화 한 편에 대해 말해주세요. 그 영화의 이름은 무엇인가요? 그 영화는 무엇에 관한 내용인가요? 무엇이 그 영화를 당신에게 특별하게 만들었나요? 저에게 자세히 이야기해주세요.",
+      "exampleAnswerVi": "Trước đây tôi đã xem một bộ phim tên là About Time. Bộ phim đó nói về tình yêu và gia đình. Bộ phim này đặc biệt đối với tôi vì nội dung rất ấm áp và ý nghĩa. Sau khi xem phim, tôi nghĩ nhiều về gia đình của mình. Tôi nhận ra rằng thời gian với gia đình rất quan trọng. Cốt truyện không quá phức tạp, nhưng rất cảm động. Vì vậy, đối với tôi, đây là một bộ phim rất đặc biệt.",
+      "exampleAnswerKo": "예전에 저는 어바웃 타임이라는 영화를 봤습니다. 그 영화는 사랑과 가족에 관한 내용입니다. 이 영화는 내용이 매우 따뜻하고 의미 있어서 저에게 특별합니다. 영화를 본 후에 저는 제 가족에 대해 많이 생각했습니다. 저는 가족과 함께하는 시간이 매우 중요하다는 것을 깨달았습니다. 줄거리는 너무 복잡하지 않지만 매우 감동적입니다. 그래서 저에게 이 영화는 매우 특별한 영화입니다.",
+      "audioSrc": "",
+      "sourcePage": 9,
+      "reviewNeeded": false,
+      "pronKo": "반 하이 노이 베 못 보 핌 마 반 다 쎔 쯔억 더이. 보 핌 도 뗀 라 지? 보 핌 도 노이 베 까이 지? 디에우 지 키엔 보 핌 도 닥 비엣 도이 버이 반? 하이 께 쪼 또이 찌 띠엣.",
+      "exampleAnswerPronKo": "쯔억 더이 또이 다 쎔 못 보 핌 뗀 라 어바웃 타임.",
+      "pronNoteKo": "특별했던 이유를 '가족을 생각하게 했다'처럼 쉽게 잡으면 말하기 좋습니다."
+    },
+    {
+      "id": "d09-movie-s-009",
+      "textVi": "Bạn thích đi xem phim ở rạp chiếu phim hay xem phim ở nhà? Hãy cho tôi biết lý do tại sao.",
+      "textKo": "당신은 영화관에 가서 영화를 보는 것을 좋아하나요, 아니면 집에서 영화를 보는 것을 좋아하나요? 왜 그런지 이유를 알려주세요.",
+      "exampleAnswerVi": "Tôi thích xem phim ở rạp chiếu phim hơn ở nhà. Lý do là vì màn hình ở rạp rất lớn và âm thanh rất tốt. Khi xem phim hành động ở rạp, tôi có thể tập trung hơn và cảm thấy bộ phim thú vị hơn. Ngoài ra, đi xem phim ở rạp là một hoạt động vui với gia đình. Tuy nhiên, khi tôi bận hoặc mệt, tôi cũng thích xem phim ở nhà vì rất thoải mái và tiết kiệm thời gian.",
+      "exampleAnswerKo": "저는 집보다 영화관에서 영화를 보는 것을 더 좋아합니다. 이유는 영화관의 화면이 매우 크고 음향이 매우 좋기 때문입니다. 영화관에서 액션 영화를 볼 때 저는 더 집중할 수 있고 영화가 더 재미있게 느껴집니다. 또한 영화관에 가서 영화를 보는 것은 가족과 함께하는 즐거운 활동입니다. 하지만 바쁘거나 피곤할 때는 집에서 보는 것도 좋아합니다. 왜냐하면 매우 편안하고 시간을 절약할 수 있기 때문입니다.",
+      "audioSrc": "",
+      "sourcePage": 9,
+      "reviewNeeded": false,
+      "pronKo": "반 틱 디 쎔 핌 어 잡 찌에우 핌 하이 쎔 핌 어 냐? 하이 쪼 또이 비엣 리 조 따이 사오.",
+      "exampleAnswerPronKo": "또이 틱 쎔 핌 어 잡 찌에우 핌 헌 어 냐.",
+      "pronNoteKo": "비교 문제입니다. 한쪽을 선택한 뒤 반대쪽 장점도 한 문장 넣으면 자연스럽습니다."
+    },
+    {
+      "id": "d09-movie-s-010",
+      "textVi": "Bạn có kỉ niệm đáng nhớ nào khi đi xem phim không? Kỉ niệm đó là gì? Khi đó bạn đi cùng với ai? Hãy kể cho tôi biết chi tiết về kỉ niệm đó.",
+      "textKo": "당신은 영화를 보러 갔을 때 기억에 남는 추억이 있나요? 그 추억은 무엇인가요? 그때 당신은 누구와 함께 갔나요? 그 추억에 대해 저에게 자세히 이야기해주세요.",
+      "exampleAnswerVi": "Tôi có một kỉ niệm đáng nhớ khi đi xem phim với gia đình. Lúc đó là sinh nhật của con tôi. Chúng tôi đã đi xem một bộ phim hoạt hình ở rạp CGV. Trước khi xem phim, tôi mua bắp rang và nước uống cho các con. Khi xem phim, các con tôi cười rất nhiều. Sau khi xem phim, chúng tôi đi ăn tối và nói chuyện về bộ phim. Kỉ niệm đó rất đặc biệt vì cả gia đình tôi đã có thời gian rất vui bên nhau.",
+      "exampleAnswerKo": "저는 가족과 영화를 보러 갔을 때 기억에 남는 추억이 하나 있습니다. 그때는 제 아이의 생일이었습니다. 우리는 CGV 영화관에서 애니메이션 영화 한 편을 봤습니다. 영화를 보기 전에 저는 아이들을 위해 팝콘과 음료를 샀습니다. 영화를 보는 동안 제 아이들은 많이 웃었습니다. 영화를 본 후에 우리는 저녁을 먹고 영화에 대해 이야기했습니다. 그 추억은 우리 가족 모두가 함께 매우 즐거운 시간을 보냈기 때문에 매우 특별합니다.",
+      "audioSrc": "",
+      "sourcePage": 9,
+      "reviewNeeded": false,
+      "pronKo": "반 꼬 끼 니엠 당 녀 나오 키 디 쎔 핌 콩? 끼 니엠 도 라 지? 키 도 반 디 꿍 버이 아이? 하이 께 쪼 또이 비엣 찌 띠엣 베 끼 니엠 도.",
+      "exampleAnswerPronKo": "또이 꼬 못 끼 니엠 당 녀 키 디 쎔 핌 버이 자 딘.",
+      "pronNoteKo": "특별한 경험 문제입니다. 언제, 누구와, 무슨 일이 있었는지 순서로 말합니다."
+    },
+    {
+      "id": "d09-movie-s-011",
+      "textVi": "Một số người thích xem phim ở nhà, còn một số người lại thích đi xem phim ngoài rạp. Còn bạn, bạn thích xem phim ở nhà hơn hay thích xem phim ngoài rạp hơn? Hãy cho tôi biết lý do là gì.",
+      "textKo": "어떤 사람들은 집에서 영화를 보는 것을 좋아하고, 또 어떤 사람들은 영화관에서 영화를 보는 것을 좋아합니다. 당신은 어떤가요? 집에서 영화를 보는 것을 더 좋아하나요, 아니면 영화관에서 보는 것을 더 좋아하나요? 이유가 무엇인지 알려주세요.",
+      "exampleAnswerVi": "Theo tôi, mỗi cách đều có điểm tốt. Nhưng nếu phải chọn, tôi thích xem phim ngoài rạp hơn. Ở rạp chiếu phim, màn hình lớn và âm thanh tốt hơn, nên tôi cảm thấy bộ phim sống động hơn. Đặc biệt, khi xem phim hành động, tôi thích cảm giác hồi hộp ở rạp. Còn xem phim ở nhà thì thoải mái và rẻ hơn. Tuy nhiên, tôi dễ bị phân tâm ở nhà. Vì vậy, tôi thích xem phim ngoài rạp hơn.",
+      "exampleAnswerKo": "제 생각에는 각각의 방식에 좋은 점이 있습니다. 하지만 선택해야 한다면 저는 영화관에서 영화를 보는 것을 더 좋아합니다. 영화관에서는 화면이 크고 음향이 더 좋아서 영화가 더 생생하게 느껴집니다. 특히 액션 영화를 볼 때 저는 영화관에서의 긴장감 있는 느낌을 좋아합니다. 반면 집에서 보는 것은 편안하고 더 저렴합니다. 하지만 집에서는 쉽게 집중이 흐트러집니다. 그래서 저는 영화관에서 영화를 보는 것을 더 좋아합니다.",
+      "audioSrc": "",
+      "sourcePage": 9,
+      "reviewNeeded": false,
+      "pronKo": "못 소 응으어이 틱 쎔 핌 어 냐, 꼰 못 소 응으어이 라이 틱 디 쎔 핌 응오아이 잡. 꼰 반, 반 틱 쎔 핌 어 냐 헌 하이 틱 쎔 핌 응오아이 잡 헌? 하이 쪼 또이 비엣 리 조 라 지.",
+      "exampleAnswerPronKo": "테오 또이, 모이 까익 데우 꼬 디엠 똣.",
+      "pronNoteKo": "Một số người..., còn một số người... 구조는 비교 문제에서 자주 나옵니다."
+    },
+    {
+      "id": "d09-movie-s-012",
+      "textVi": "Thói quen xem phim của bạn bây giờ có khác trước đây không? Nếu có, hãy cho tôi biết thói quen đó đã thay đổi như thế nào?",
+      "textKo": "지금 당신의 영화 보는 습관은 예전과 다른가요? 만약 그렇다면, 그 습관이 어떻게 변했는지 저에게 알려주세요.",
+      "exampleAnswerVi": "Có, thói quen xem phim của tôi bây giờ khác trước đây khá nhiều. Trước đây, khi còn trẻ, tôi thường đi xem phim ở rạp với bạn bè. Lúc đó tôi có nhiều thời gian rảnh hơn. Nhưng bây giờ tôi bận vì công việc và gia đình, nên tôi không đi rạp thường xuyên. Dạo này tôi thường xem phim ở nhà bằng điện thoại hoặc TV. Tuy nhiên, khi có thời gian vào cuối tuần, tôi vẫn thích đi xem phim ở rạp với gia đình.",
+      "exampleAnswerKo": "네, 지금 저의 영화 보는 습관은 예전과 꽤 많이 다릅니다. 예전에는 젊었을 때 친구들과 영화관에 자주 갔습니다. 그때는 여가 시간이 더 많았습니다. 하지만 지금은 일과 가족 때문에 바빠서 영화관에 자주 가지 않습니다. 요즘은 보통 휴대폰이나 TV로 집에서 영화를 봅니다. 하지만 주말에 시간이 있을 때는 여전히 가족과 영화관에 가는 것을 좋아합니다.",
+      "audioSrc": "",
+      "sourcePage": 9,
+      "reviewNeeded": false,
+      "pronKo": "토이 꿴 쎔 핌 꾸어 반 버이 저 꼬 칵 쯔억 더이 콩? 네우 꼬, 하이 쪼 또이 비엣 토이 꿴 도 다 타이 도이 느 테 나오?",
+      "exampleAnswerPronKo": "꼬, 토이 꿴 쎔 핌 꾸어 또이 버이 저 칵 쯔억 더이 카 니에우.",
+      "pronNoteKo": "과거와 현재 변화 문제입니다. Trước đây..., nhưng bây giờ... 구조를 쓰면 좋습니다."
+    },
+    {
+      "id": "d09-movie-s-013",
+      "textVi": "Thói quen xem phim của người Hàn Quốc bây giờ có giống với trước đây hay không? Nếu có, hãy nói cho tôi về sự thay đổi đó.",
+      "textKo": "지금 한국 사람들의 영화 보는 습관은 예전과 같은가요, 같지 않은가요? 만약 변화가 있다면 그 변화에 대해 저에게 말해주세요.",
+      "exampleAnswerVi": "Theo tôi, thói quen xem phim của người Hàn Quốc bây giờ không giống với trước đây. Trước đây, nhiều người thường đi rạp chiếu phim để xem phim mới. Nhưng bây giờ, nhiều người xem phim ở nhà bằng Netflix hoặc các ứng dụng khác. Lý do là vì rất tiện lợi và có thể xem bất cứ lúc nào. Tuy nhiên, khi có phim nổi tiếng hoặc phim hành động lớn, người Hàn Quốc vẫn thích đi xem phim ngoài rạp. Vì vậy, tôi nghĩ thói quen xem phim đã thay đổi, nhưng rạp chiếu phim vẫn rất quan trọng.",
+      "exampleAnswerKo": "제 생각에 지금 한국 사람들의 영화 보는 습관은 예전과 같지 않습니다. 예전에는 많은 사람들이 새 영화를 보기 위해 영화관에 자주 갔습니다. 하지만 지금은 많은 사람들이 넷플릭스나 다른 앱으로 집에서 영화를 봅니다. 이유는 매우 편리하고 언제든지 볼 수 있기 때문입니다. 하지만 유명한 영화나 큰 액션 영화가 있을 때 한국 사람들은 여전히 영화관에서 보는 것을 좋아합니다. 그래서 저는 영화 보는 습관이 변했지만 영화관은 여전히 중요하다고 생각합니다.",
+      "audioSrc": "",
+      "sourcePage": 9,
+      "reviewNeeded": false,
+      "pronKo": "토이 꿴 쎔 핌 꾸어 응으어이 한 꾸옥 버이 저 꼬 종 버이 쯔억 더이 하이 콩? 네우 꼬, 하이 노이 쪼 또이 베 스 타이 도이 도.",
+      "exampleAnswerPronKo": "테오 또이, 토이 꿴 쎔 핌 꾸어 응으어이 한 꾸옥 버이 저 콩 종 버이 쯔억 더이.",
+      "pronNoteKo": "사회 변화 설명 문제입니다. 예전 영화관 중심 → 요즘 OTT/집 시청 흐름으로 답하면 쉽습니다."
+    },
+    {
+      "id": "d09-movie-s-014",
+      "textVi": "Diễn viên mà bạn yêu thích nhất là ai? Bạn đã thích diễn viên đó từ khi nào? Tại sao bạn lại thích diễn viên đó? Gần đây có tin tức gì về diễn viên đó không? Hãy kể cho tôi chi tiết thông tin mà bạn biết được về diễn viên đó.",
+      "textKo": "당신이 가장 좋아하는 배우는 누구인가요? 당신은 그 배우를 언제부터 좋아했나요? 왜 그 배우를 좋아하나요? 최근 그 배우에 대한 어떤 소식이 있나요? 당신이 알게 된 그 배우에 대한 정보를 저에게 자세히 이야기해주세요.",
+      "exampleAnswerVi": "Diễn viên mà tôi yêu thích nhất là Tom Cruise. Tôi đã thích anh ấy từ khi xem phim Mission Impossible. Tôi thích anh ấy vì anh ấy diễn rất hay và rất đẹp trai. Đặc biệt, trong phim hành động, anh ấy thường tự đóng nhiều cảnh nguy hiểm, nên tôi rất ấn tượng. Gần đây tôi nghe nói anh ấy vẫn tiếp tục tham gia nhiều bộ phim hành động. Tôi nghĩ anh ấy là một diễn viên rất chuyên nghiệp và nổi tiếng. Vì vậy, tôi rất thích xem phim của anh ấy.",
+      "exampleAnswerKo": "제가 가장 좋아하는 배우는 톰 크루즈입니다. 저는 미션 임파서블을 본 후부터 그를 좋아했습니다. 저는 그가 연기를 매우 잘하고 매우 잘생겨서 좋아합니다. 특히 액션 영화에서 그는 위험한 장면을 직접 많이 연기하기 때문에 저는 매우 인상 깊었습니다. 최근에 저는 그가 여전히 많은 액션 영화에 계속 참여하고 있다고 들었습니다. 저는 그가 매우 전문적이고 유명한 배우라고 생각합니다. 그래서 저는 그의 영화를 보는 것을 매우 좋아합니다.",
+      "audioSrc": "",
+      "sourcePage": 9,
+      "reviewNeeded": false,
+      "pronKo": "지엔 비엔 마 반 이에우 틱 녓 라 아이? 반 다 틱 지엔 비엔 도 뜨 키 나오? 따이 사오 반 라이 틱 지엔 비엔 도? 건 더이 꼬 띤 뜩 지 베 지엔 비엔 도 콩? 하이 께 쪼 또이 찌 띠엣 통 띤 마 반 비엣 드억 베 지엔 비엔 도.",
+      "exampleAnswerPronKo": "지엔 비엔 마 또이 이에우 틱 녓 라 톰 크루즈.",
+      "pronNoteKo": "배우 이름은 원어 그대로 말해도 괜찮습니다. 이유는 연기, 외모, 대표작으로 구성합니다."
+    },
+    {
+      "id": "d09-movie-s-015",
+      "textVi": "Trong bản khảo sát bạn nói là bạn thích xem phim. Sau đây tôi sẽ nói về một tình huống. Bạn hãy diễn kịch để giải quyết tình huống đó. Ngày mai bạn được nghỉ, bạn muốn rủ bạn của bạn đi xem phim. Bạn hãy gọi điện cho bạn của bạn để rủ bạn ấy đi xem phim.",
+      "textKo": "설문에서 당신은 영화를 보는 것을 좋아한다고 말했습니다. 이제 제가 한 가지 상황을 말하겠습니다. 그 상황을 해결하기 위해 역할극을 해주세요. 내일 당신은 쉽니다. 당신은 친구에게 영화를 보러 가자고 하고 싶습니다. 친구에게 전화해서 그 친구에게 영화를 보러 가자고 권해보세요.",
+      "exampleAnswerVi": "A lô, Minh à? Ngày mai cậu có rảnh không? Tớ được nghỉ ngày mai, nên tớ muốn đi xem phim. Cậu có muốn đi xem phim với tớ không? Có một bộ phim hành động mới rất hay. Bộ phim bắt đầu lúc bảy giờ tối ở rạp CGV gần nhà tớ. Nếu cậu có thời gian, chúng ta có thể gặp nhau lúc sáu giờ ba mươi, mua vé và mua bắp rang trước. Cậu thấy thế nào? Nếu cậu bận lúc đó, chúng ta có thể chọn giờ khác.",
+      "exampleAnswerKo": "여보세요, 민아? 내일 시간 있어? 나는 내일 쉬어서 영화를 보러 가고 싶어. 나랑 영화 보러 갈래? 새 액션 영화가 하나 있는데 아주 재미있어. 그 영화는 우리 집 근처 CGV 영화관에서 저녁 7시에 시작해. 네가 시간이 있으면 우리 6시 30분에 만나서 먼저 표와 팝콘을 살 수 있어. 어때? 만약 그때 바쁘면 다른 시간을 선택해도 돼.",
+      "audioSrc": "",
+      "sourcePage": 9,
+      "reviewNeeded": false,
+      "pronKo": "쫑 반 카오 삿 반 노이 라 반 틱 쎔 핌. 사우 더이 또이 세 노이 베 못 띤 후옹. 반 하이 지엔 끼익 데 자이 꾸엣 띤 후옹 도. 응아이 마이 반 드억 응이, 반 무온 주 반 꾸어 반 디 쎔 핌. 반 하이 고이 디엔 쪼 반 꾸어 반 데 주 반 어이 디 쎔 핌.",
+      "exampleAnswerPronKo": "아 로, 민 아? 응아이 마이 꺼우 꼬 자인 콩?",
+      "pronNoteKo": "역할극은 실제 전화처럼 시작하면 됩니다. 시간, 장소, 영화 종류를 제안하세요."
+    },
+    {
+      "id": "d09-movie-s-016",
+      "textVi": "Tôi xin lỗi, nhưng có một tình huống cần bạn phải giải quyết. Bạn và bạn của bạn dự định ngày mai đi xem phim. Nhưng bộ phim mà bạn và bạn của bạn muốn xem ngày mai hết vé. Bạn hãy gọi điện cho bạn của bạn để giải thích tình hình và đưa ra phương án giải quyết.",
+      "textKo": "죄송하지만 당신이 해결해야 할 상황이 하나 있습니다. 당신과 당신의 친구는 내일 영화를 보러 가기로 예정했습니다. 하지만 당신과 친구가 내일 보고 싶어 하는 영화가 매진되었습니다. 친구에게 전화해서 상황을 설명하고 해결 방안을 제시하세요.",
+      "exampleAnswerVi": "A lô, Minh à? Tớ có một vấn đề nhỏ. Bộ phim mà chúng ta muốn xem ngày mai hết vé rồi. Tớ rất tiếc. Nhưng đừng lo, chúng ta có vài phương án. Thứ nhất, chúng ta có thể xem bộ phim đó vào ngày kia. Thứ hai, chúng ta có thể đi rạp chiếu phim khác vì ở đó vẫn còn vé. Hoặc chúng ta có thể chọn một bộ phim hành động khác cũng rất hay. Cậu thích phương án nào? Theo tớ, chúng ta nên đi rạp khác để xem đúng bộ phim đó vào ngày mai.",
+      "exampleAnswerKo": "여보세요, 민아? 작은 문제가 하나 있어. 우리가 내일 보고 싶어 했던 영화가 이미 매진됐어. 정말 미안해. 하지만 걱정하지 마. 우리에게 몇 가지 방법이 있어. 첫째, 우리는 그 영화를 모레 볼 수 있어. 둘째, 다른 영화관에는 아직 표가 있으니까 다른 영화관에 갈 수 있어. 또는 다른 재미있는 액션 영화를 선택할 수도 있어. 너는 어떤 방법이 좋아? 내 생각에는 내일 그 영화를 보기 위해 다른 영화관에 가는 것이 좋겠어.",
+      "audioSrc": "",
+      "sourcePage": 9,
+      "reviewNeeded": false,
+      "pronKo": "또이 신 로이, 느응 꼬 못 띤 후옹 껀 반 파이 자이 꾸엣. 반 바 반 꾸어 반 즈 딘 응아이 마이 디 쎔 핌. 느응 보 핌 마 반 바 반 꾸어 반 무온 쎔 응아이 마이 헷 베. 반 하이 고이 디엔 쪼 반 꾸어 반 데 자이 틱 띤 힌 바 드어 자 프엉 안 자이 꾸엣.",
+      "exampleAnswerPronKo": "아 로, 민 아? 떠 꼬 못 번 데 녀.",
+      "pronNoteKo": "상황극은 '문제 설명 → 사과 → 대안 2~3개 → 선택 질문' 순서로 말하면 좋습니다."
+    }
+  ],
+  "dialogues": [
+    {
+      "id": "d09-movie-d-001",
+      "title": "좋아하는 영화 장르",
+      "audioSrc": "",
+      "sourcePage": 9,
+      "reviewNeeded": false,
+      "lines": [
+        {
+          "speaker": "A",
+          "vi": "Bạn thích thể loại phim gì nhất?",
+          "ko": "당신은 어떤 영화 장르를 가장 좋아하나요?",
+          "pronKo": "반 틱 테 로아이 핌 지 녓?"
+        },
+        {
+          "speaker": "B",
+          "vi": "Tôi thích phim hành động nhất.",
+          "ko": "저는 액션 영화를 가장 좋아합니다.",
+          "pronKo": "또이 틱 핌 하인 동 녓."
+        },
+        {
+          "speaker": "A",
+          "vi": "Tại sao bạn thích thể loại đó?",
+          "ko": "왜 그 장르를 좋아하나요?",
+          "pronKo": "따이 사오 반 틱 테 로아이 도?"
+        },
+        {
+          "speaker": "B",
+          "vi": "Vì phim hành động rất thú vị và giúp tôi giải tỏa căng thẳng.",
+          "ko": "액션 영화는 매우 재미있고 제가 스트레스를 푸는 데 도움이 되기 때문입니다.",
+          "pronKo": "비 핌 하인 동 젓 투 비 바 줍 또이 자이 토아 깡 탕."
+        }
+      ]
+    },
+    {
+      "id": "d09-movie-d-002",
+      "title": "영화관에서 영화 보기",
+      "audioSrc": "",
+      "sourcePage": 9,
+      "reviewNeeded": false,
+      "lines": [
+        {
+          "speaker": "A",
+          "vi": "Bạn thường đi xem phim ở đâu?",
+          "ko": "당신은 보통 어디에서 영화를 보나요?",
+          "pronKo": "반 트엉 디 쎔 핌 어 더우?"
+        },
+        {
+          "speaker": "B",
+          "vi": "Tôi thường đi xem phim ở rạp CGV gần nhà.",
+          "ko": "저는 보통 집 근처 CGV 영화관에서 영화를 봅니다.",
+          "pronKo": "또이 트엉 디 쎔 핌 어 잡 씨지브이 건 냐."
+        },
+        {
+          "speaker": "A",
+          "vi": "Không khí ở đó thế nào?",
+          "ko": "그곳의 분위기는 어떤가요?",
+          "pronKo": "콩 키 어 도 테 나오?"
+        },
+        {
+          "speaker": "B",
+          "vi": "Không khí rất thoải mái, rạp sạch và âm thanh rất tốt.",
+          "ko": "분위기는 매우 편안하고, 영화관은 깨끗하고 음향은 매우 좋습니다.",
+          "pronKo": "콩 키 젓 토아이 마이, 잡 사익 바 엄 타인 젓 똣."
+        }
+      ]
+    },
+    {
+      "id": "d09-movie-d-003",
+      "title": "친구에게 영화 보자고 전화하기",
+      "audioSrc": "",
+      "sourcePage": 9,
+      "reviewNeeded": false,
+      "lines": [
+        {
+          "speaker": "A",
+          "vi": "A lô, ngày mai bạn có rảnh không?",
+          "ko": "여보세요, 내일 시간 있어요?",
+          "pronKo": "아 로, 응아이 마이 반 꼬 자인 콩?"
+        },
+        {
+          "speaker": "B",
+          "vi": "Có, ngày mai tôi rảnh.",
+          "ko": "네, 내일 저는 시간이 있어요.",
+          "pronKo": "꼬, 응아이 마이 또이 자인."
+        },
+        {
+          "speaker": "A",
+          "vi": "Bạn có muốn đi xem phim với tôi không?",
+          "ko": "저와 영화 보러 가고 싶어요?",
+          "pronKo": "반 꼬 무온 디 쎔 핌 버이 또이 콩?"
+        },
+        {
+          "speaker": "B",
+          "vi": "Có, hay quá. Chúng ta gặp nhau lúc mấy giờ?",
+          "ko": "네, 너무 좋아요. 우리 몇 시에 만날까요?",
+          "pronKo": "꼬, 하이 꽈. 쭝 따 갑 냐우 룩 머이 저?"
+        }
+      ]
+    },
+    {
+      "id": "d09-movie-d-004",
+      "title": "영화표 매진 상황 해결하기",
+      "audioSrc": "",
+      "sourcePage": 9,
+      "reviewNeeded": false,
+      "lines": [
+        {
+          "speaker": "A",
+          "vi": "A lô, bộ phim chúng ta muốn xem hết vé rồi.",
+          "ko": "여보세요, 우리가 보고 싶은 영화가 매진됐어요.",
+          "pronKo": "아 로, 보 핌 쭝 따 무온 쎔 헷 베 조이."
+        },
+        {
+          "speaker": "B",
+          "vi": "Thật sao? Vậy chúng ta làm gì?",
+          "ko": "정말요? 그럼 우리 어떻게 해요?",
+          "pronKo": "텃 사오? 버이 쭝 따 람 지?"
+        },
+        {
+          "speaker": "A",
+          "vi": "Chúng ta có thể xem phim đó ở rạp khác.",
+          "ko": "우리는 그 영화를 다른 영화관에서 볼 수 있어요.",
+          "pronKo": "쭝 따 꼬 테 쎔 핌 도 어 잡 칵."
+        },
+        {
+          "speaker": "B",
+          "vi": "Được, vậy mình đi rạp khác nhé.",
+          "ko": "좋아요, 그럼 다른 영화관에 가요.",
+          "pronKo": "드억, 버이 민 디 잡 칵 녜."
+        }
+      ]
+    }
+  ],
+  "grammarPoints": [
+    {
+      "id": "d09-movie-g-001",
+      "title": "가장 좋아하는 장르 말하기",
+      "pattern": "Thể loại phim tôi thích nhất là phim hành động.",
+      "meaningKo": "제가 가장 좋아하는 영화 장르는 액션 영화입니다.",
+      "sourcePage": 9,
+      "reviewNeeded": false
+    },
+    {
+      "id": "d09-movie-g-002",
+      "title": "왜 좋아하는지 이유 말하기",
+      "pattern": "Tôi thích thể loại này vì phim hành động rất thú vị.",
+      "meaningKo": "저는 액션 영화가 매우 흥미롭기 때문에 이 장르를 좋아합니다.",
+      "sourcePage": 9,
+      "reviewNeeded": false
+    },
+    {
+      "id": "d09-movie-g-003",
+      "title": "장소 묘사하기",
+      "pattern": "Rạp phim đó trông rất sạch và hiện đại.",
+      "meaningKo": "그 영화관은 매우 깨끗하고 현대적으로 보입니다.",
+      "sourcePage": 9,
+      "reviewNeeded": false
+    },
+    {
+      "id": "d09-movie-g-004",
+      "title": "분위기 말하기",
+      "pattern": "Không khí ở rạp chiếu phim đó rất thoải mái.",
+      "meaningKo": "그 영화관의 분위기는 매우 편안합니다.",
+      "sourcePage": 9,
+      "reviewNeeded": false
+    },
+    {
+      "id": "d09-movie-g-005",
+      "title": "다른 곳보다 더 좋아하다",
+      "pattern": "Tôi thích xem phim ở đó hơn những chỗ khác.",
+      "meaningKo": "저는 다른 곳보다 그곳에서 영화 보는 것을 더 좋아합니다.",
+      "sourcePage": 9,
+      "reviewNeeded": false
+    },
+    {
+      "id": "d09-movie-g-006",
+      "title": "영화 전후 활동 말하기",
+      "pattern": "Trước khi xem phim, tôi mua bắp rang. Sau khi xem phim, tôi ăn tối.",
+      "meaningKo": "영화를 보기 전에 저는 팝콘을 삽니다. 영화를 본 후에 저는 저녁을 먹습니다.",
+      "sourcePage": 9,
+      "reviewNeeded": false
+    },
+    {
+      "id": "d09-movie-g-007",
+      "title": "최근 경험 말하기",
+      "pattern": "Lần gần đây nhất tôi đi xem phim là cuối tuần trước.",
+      "meaningKo": "제가 가장 최근에 영화를 보러 간 것은 지난 주말이었습니다.",
+      "sourcePage": 9,
+      "reviewNeeded": false
+    },
+    {
+      "id": "d09-movie-g-008",
+      "title": "영화 내용 말하기",
+      "pattern": "Bộ phim đó nói về tình bạn và gia đình.",
+      "meaningKo": "그 영화는 우정과 가족에 관한 내용입니다.",
+      "sourcePage": 9,
+      "reviewNeeded": false
+    },
+    {
+      "id": "d09-movie-g-009",
+      "title": "인상 깊었다고 말하기",
+      "pattern": "Tôi rất ấn tượng với bộ phim đó.",
+      "meaningKo": "저는 그 영화에 매우 인상을 받았습니다.",
+      "sourcePage": 9,
+      "reviewNeeded": false
+    },
+    {
+      "id": "d09-movie-g-010",
+      "title": "과거와 현재 비교하기",
+      "pattern": "Trước đây tôi thường đi rạp, nhưng bây giờ tôi thường xem phim ở nhà.",
+      "meaningKo": "예전에는 저는 자주 영화관에 갔지만, 지금은 보통 집에서 영화를 봅니다.",
+      "sourcePage": 9,
+      "reviewNeeded": false
+    },
+    {
+      "id": "d09-movie-g-011",
+      "title": "습관이 변했다고 말하기",
+      "pattern": "Thói quen xem phim của tôi đã thay đổi nhiều.",
+      "meaningKo": "저의 영화 보는 습관은 많이 변했습니다.",
+      "sourcePage": 9,
+      "reviewNeeded": false
+    },
+    {
+      "id": "d09-movie-g-012",
+      "title": "친구에게 제안하기",
+      "pattern": "Bạn có muốn đi xem phim với tôi không?",
+      "meaningKo": "저와 영화 보러 가고 싶어요?",
+      "sourcePage": 9,
+      "reviewNeeded": false
+    },
+    {
+      "id": "d09-movie-g-013",
+      "title": "상황 설명하기",
+      "pattern": "Bộ phim mà chúng ta muốn xem hết vé rồi.",
+      "meaningKo": "우리가 보고 싶어 하는 영화는 이미 매진되었습니다.",
+      "sourcePage": 9,
+      "reviewNeeded": false
+    },
+    {
+      "id": "d09-movie-g-014",
+      "title": "대안 제시하기",
+      "pattern": "Chúng ta có thể xem phim đó ở rạp khác.",
+      "meaningKo": "우리는 그 영화를 다른 영화관에서 볼 수 있습니다.",
+      "sourcePage": 9,
+      "reviewNeeded": false
+    }
+  ],
+  "pronunciationTargets": [
+    {
+      "id": "d09-movie-p-001",
+      "text": "Thể loại phim mà bạn yêu thích nhất là gì?",
+      "hintKo": "당신이 가장 좋아하는 영화 장르는 무엇인가요?",
+      "audioSrc": "",
+      "sourcePage": 9,
+      "reviewNeeded": false,
+      "pronKo": "테 로아이 핌 마 반 이에우 틱 녓 라 지",
+      "mouthKo": "Thể loại phim / mà bạn yêu thích nhất / là gì 로 끊습니다.",
+      "toneKo": "thể loại phim은 장르 문제의 핵심 덩어리입니다."
+    },
+    {
+      "id": "d09-movie-p-002",
+      "text": "Rạp phim đó trông như thế nào?",
+      "hintKo": "그 영화관은 어떻게 생겼나요?",
+      "audioSrc": "",
+      "sourcePage": 9,
+      "reviewNeeded": false,
+      "pronKo": "잡 핌 도 쫑 느 테 나오",
+      "mouthKo": "Rạp phim đó / trông như thế nào 로 끊습니다.",
+      "toneKo": "trông như thế nào는 묘사 문제에서 자주 나옵니다."
+    },
+    {
+      "id": "d09-movie-p-003",
+      "text": "Không khí ở rạp chiếu phim đó thế nào?",
+      "hintKo": "그 영화관의 분위기는 어떤가요?",
+      "audioSrc": "",
+      "sourcePage": 9,
+      "reviewNeeded": false,
+      "pronKo": "콩 키 어 잡 찌에우 핌 도 테 나오",
+      "mouthKo": "Không khí / ở rạp chiếu phim đó / thế nào 로 끊습니다.",
+      "toneKo": "không khí는 분위기라는 뜻으로 외워두면 좋습니다."
+    },
+    {
+      "id": "d09-movie-p-004",
+      "text": "Trước khi xem phim bạn làm gì và sau khi xem phim bạn làm gì?",
+      "hintKo": "영화를 보기 전에 무엇을 하고, 영화를 본 후에 무엇을 하나요?",
+      "audioSrc": "",
+      "sourcePage": 9,
+      "reviewNeeded": false,
+      "pronKo": "쯔억 키 쎔 핌 반 람 지 바 사우 키 쎔 핌 반 람 지",
+      "mouthKo": "Trước khi xem phim / bạn làm gì / và sau khi xem phim / bạn làm gì 로 끊습니다.",
+      "toneKo": "전후 활동 질문입니다. trước khi와 sau khi를 확실히 익히세요."
+    },
+    {
+      "id": "d09-movie-p-005",
+      "text": "Tôi rất ấn tượng với bộ phim đó.",
+      "hintKo": "저는 그 영화에 매우 인상을 받았습니다.",
+      "audioSrc": "",
+      "sourcePage": 9,
+      "reviewNeeded": false,
+      "pronKo": "또이 젓 언 뜨엉 버이 보 핌 도",
+      "mouthKo": "Tôi rất ấn tượng / với bộ phim đó 로 끊습니다.",
+      "toneKo": "인상 깊은 영화 답변의 핵심 문장입니다."
+    },
+    {
+      "id": "d09-movie-p-006",
+      "text": "Thói quen xem phim của tôi bây giờ khác trước đây.",
+      "hintKo": "지금 저의 영화 보는 습관은 예전과 다릅니다.",
+      "audioSrc": "",
+      "sourcePage": 9,
+      "reviewNeeded": false,
+      "pronKo": "토이 꿴 쎔 핌 꾸어 또이 버이 저 칵 쯔억 더이",
+      "mouthKo": "Thói quen xem phim của tôi / bây giờ / khác trước đây 로 끊습니다.",
+      "toneKo": "비교·변화 문제에서 그대로 쓸 수 있습니다."
+    },
+    {
+      "id": "d09-movie-p-007",
+      "text": "Bạn có muốn đi xem phim với tôi không?",
+      "hintKo": "저와 영화 보러 가고 싶어요?",
+      "audioSrc": "",
+      "sourcePage": 9,
+      "reviewNeeded": false,
+      "pronKo": "반 꼬 무온 디 쎔 핌 버이 또이 콩",
+      "mouthKo": "Bạn có muốn / đi xem phim / với tôi không 으로 끊습니다.",
+      "toneKo": "친구에게 제안하는 역할극에서 바로 씁니다."
+    },
+    {
+      "id": "d09-movie-p-008",
+      "text": "Bộ phim mà chúng ta muốn xem hết vé rồi.",
+      "hintKo": "우리가 보고 싶어 하는 영화는 이미 매진되었습니다.",
+      "audioSrc": "",
+      "sourcePage": 9,
+      "reviewNeeded": false,
+      "pronKo": "보 핌 마 쭝 따 무온 쎔 헷 베 조이",
+      "mouthKo": "Bộ phim / mà chúng ta muốn xem / hết vé rồi 로 끊습니다.",
+      "toneKo": "매진 상황 설명의 핵심 문장입니다."
+    }
+  ],
+  "quizSeeds": [
+    {
+      "id": "d09-movie-q-001",
+      "type": "match-term",
+      "prompt": "영화 기본 단어 매칭",
+      "answerSet": [
+        "xem phim-영화를 보다",
+        "đi xem phim-영화를 보러 가다",
+        "thể loại phim-영화 장르",
+        "rạp chiếu phim-영화관",
+        "bộ phim-영화 한 편",
+        "diễn viên-배우"
+      ],
+      "sourcePage": 9,
+      "reviewNeeded": false
+    },
+    {
+      "id": "d09-movie-q-002",
+      "type": "match-term",
+      "prompt": "영화 장르 단어 매칭",
+      "answerSet": [
+        "phim hành động-액션 영화",
+        "phim tình cảm-로맨스 영화",
+        "phim hài-코미디 영화",
+        "phim kinh dị-공포 영화",
+        "phim hoạt hình-애니메이션 영화",
+        "phim tài liệu-다큐멘터리 영화"
+      ],
+      "sourcePage": 9,
+      "reviewNeeded": false
+    },
+    {
+      "id": "d09-movie-q-003",
+      "type": "match-term",
+      "prompt": "영화 내용 설명 단어 매칭",
+      "answerSet": [
+        "cốt truyện-줄거리",
+        "nội dung phim-영화 내용",
+        "nói về-~에 관한 내용이다",
+        "kể về-~에 대해 이야기하다",
+        "cảnh phim-영화 장면",
+        "nhạc phim-영화 음악"
+      ],
+      "sourcePage": 9,
+      "reviewNeeded": false
+    },
+    {
+      "id": "d09-movie-q-004",
+      "type": "match-term",
+      "prompt": "영화 감상 표현 매칭",
+      "answerSet": [
+        "hấp dẫn-흥미진진한",
+        "thú vị-흥미로운",
+        "lôi cuốn-몰입하게 하는",
+        "ý nghĩa-의미 있는",
+        "kịch tính-긴장감 있는",
+        "cảm động-감동적인"
+      ],
+      "sourcePage": 9,
+      "reviewNeeded": false
+    },
+    {
+      "id": "d09-movie-q-005",
+      "type": "match-term",
+      "prompt": "영화 경험 단어 매칭",
+      "answerSet": [
+        "gần đây-최근에",
+        "lần gần đây nhất-가장 최근에",
+        "một mình-혼자",
+        "cùng với ai-누구와 함께",
+        "kỉ niệm đáng nhớ-기억에 남는 추억",
+        "ấn tượng-인상적인"
+      ],
+      "sourcePage": 9,
+      "reviewNeeded": false
+    },
+    {
+      "id": "d09-movie-q-006",
+      "type": "match-term",
+      "prompt": "역할극 핵심 단어 매칭",
+      "answerSet": [
+        "diễn kịch-역할극을 하다",
+        "giải quyết tình huống-상황을 해결하다",
+        "rủ bạn đi xem phim-친구에게 영화 보러 가자고 하다",
+        "gọi điện-전화하다",
+        "hết vé-표가 매진되다",
+        "phương án giải quyết-해결 방안"
+      ],
+      "sourcePage": 9,
+      "reviewNeeded": false
+    },
+    {
+      "id": "d09-movie-q-007",
+      "type": "sentence-meaning",
+      "prompt": "문제 뜻 고르기: 장르",
+      "answerSet": [
+        "Thể loại phim mà bạn yêu thích nhất là gì?-당신이 가장 좋아하는 영화 장르는 무엇인가요?",
+        "Hãy nói cho tôi biết chi tiết lý do tại sao bạn thích thể loại phim đó nhất.-왜 그 영화 장르를 가장 좋아하는지 이유를 자세히 말해주세요.",
+        "Bạn thích xem phim ở đâu nhất?-당신은 어디에서 영화를 보는 것을 가장 좋아하나요?",
+        "Rạp phim đó trông như thế nào?-그 영화관은 어떻게 생겼나요?"
+      ],
+      "sourcePage": 9,
+      "reviewNeeded": false
+    },
+    {
+      "id": "d09-movie-q-008",
+      "type": "sentence-meaning",
+      "prompt": "문제 뜻 고르기: 최근 경험",
+      "answerSet": [
+        "Lần gần đây nhất bạn đi xem phim là khi nào?-당신이 가장 최근에 영화를 보러 간 것은 언제인가요?",
+        "Bạn đã xem phim gì?-당신은 어떤 영화를 봤나요?",
+        "Hôm đó bạn đã đi cùng với ai?-그날 누구와 함께 갔나요?",
+        "Trước khi xem phim bạn làm gì và sau khi xem phim bạn làm gì?-영화 보기 전과 후에 무엇을 했나요?"
+      ],
+      "sourcePage": 9,
+      "reviewNeeded": false
+    },
+    {
+      "id": "d09-movie-q-009",
+      "type": "fill-blank",
+      "prompt": "빈칸 채우기: 제가 가장 좋아하는 영화 장르는 액션 영화입니다.",
+      "question": "Thể loại phim tôi thích nhất là ___ ___ ___.",
+      "answer": "phim hành động",
+      "sourcePage": 9,
+      "reviewNeeded": false
+    },
+    {
+      "id": "d09-movie-q-010",
+      "type": "fill-blank",
+      "prompt": "빈칸 채우기: 저는 영화관에서 영화 보는 것을 더 좋아합니다.",
+      "question": "Tôi thích xem phim ở ___ ___ ___ hơn.",
+      "answer": "rạp chiếu phim",
+      "sourcePage": 9,
+      "reviewNeeded": false
+    },
+    {
+      "id": "d09-movie-q-011",
+      "type": "fill-blank",
+      "prompt": "빈칸 채우기: 그 영화는 우정에 관한 내용입니다.",
+      "question": "Bộ phim đó ___ ___ tình bạn.",
+      "answer": "nói về",
+      "sourcePage": 9,
+      "reviewNeeded": false
+    },
+    {
+      "id": "d09-movie-q-012",
+      "type": "fill-blank",
+      "prompt": "빈칸 채우기: 저는 그 영화에 매우 인상을 받았습니다.",
+      "question": "Tôi rất ___ ___ với bộ phim đó.",
+      "answer": "ấn tượng",
+      "sourcePage": 9,
+      "reviewNeeded": false
+    },
+    {
+      "id": "d09-movie-q-013",
+      "type": "fill-blank",
+      "prompt": "빈칸 채우기: 그 영화는 매진되었습니다.",
+      "question": "Bộ phim đó ___ ___ rồi.",
+      "answer": "hết vé",
+      "sourcePage": 9,
+      "reviewNeeded": false
+    },
+    {
+      "id": "d09-movie-q-014",
+      "type": "match-term",
+      "prompt": "답변 순서 맞추기: 좋아하는 장르",
+      "answerSet": [
+        "1-Tôi rất thích đi xem phim.",
+        "2-Thể loại phim tôi thích nhất là phim hành động.",
+        "3-Tôi thích thể loại này vì rất thú vị và kịch tính.",
+        "4-Khi xem phim hành động, tôi có thể giải tỏa căng thẳng.",
+        "5-Đặc biệt, tôi thích cốt truyện hấp dẫn và cảnh phim đẹp.",
+        "6-Vì vậy, phim hành động là thể loại tôi thích nhất."
+      ],
+      "sourcePage": 9,
+      "reviewNeeded": false
+    },
+    {
+      "id": "d09-movie-q-015",
+      "type": "match-term",
+      "prompt": "답변 순서 맞추기: 최근 본 영화",
+      "answerSet": [
+        "1-Gần đây tôi đã xem phim Mission Impossible.",
+        "2-Tôi đã xem phim đó ở rạp CGV gần nhà.",
+        "3-Tôi đã xem cùng với vợ của tôi.",
+        "4-Thể loại của bộ phim đó là phim hành động.",
+        "5-Diễn viên chính là Tom Cruise.",
+        "6-Tôi thích bộ phim đó vì cốt truyện hấp dẫn."
+      ],
+      "sourcePage": 9,
+      "reviewNeeded": false
+    },
+    {
+      "id": "d09-movie-q-016",
+      "type": "match-term",
+      "prompt": "답변 순서 맞추기: 표 매진 상황",
+      "answerSet": [
+        "1-A lô, tớ có một vấn đề nhỏ.",
+        "2-Bộ phim mà chúng ta muốn xem hết vé rồi.",
+        "3-Tớ rất tiếc.",
+        "4-Chúng ta có thể xem ở rạp khác.",
+        "5-Hoặc chúng ta có thể chọn giờ khác.",
+        "6-Cậu thích phương án nào?"
+      ],
+      "sourcePage": 9,
+      "reviewNeeded": false
+    }
+  ],
+  "unlockCondition": "always",
+  "reviewNeeded": false
+},
+    {
   "lessonId": "day-008-study-note-tech-health-environment-transport",
   "unitLabel": "8일차",
   "titleKo": "8일차 학습노트: 기술·건강·환경·교통",
