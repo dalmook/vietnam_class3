@@ -19,6 +19,1971 @@
   },
   "lessons": [
     {
+  "lessonId": "day09-study-note-movie-expressions",
+  "unitLabel": "9일차 학습노트",
+  "titleKo": "9일차 학습노트: 영화 문제 핵심표현",
+  "titleVi": "Ngày 9: Ghi chú học tập - Mẫu câu chủ đề xem phim",
+  "pageRange": "9일차 / 영화 문제 핵심표현 / 5.11 학습노트",
+  "goals": [
+    "영화 문제에서 자주 나오는 핵심 단어를 정확히 구분할 수 있다",
+    "trước khi / trong khi / sau khi 구조로 영화 전·중·후 활동을 말할 수 있다",
+    "trông như thế nào? 구조로 사람, 물건, 장소의 외형을 묘사할 수 있다",
+    "nói về / kể về / miêu tả về의 차이를 이해하고 영화 내용 설명에 사용할 수 있다",
+    "V + lại 구조로 다시 보다, 다시 하다, 다시 만나다를 표현할 수 있다",
+    "hết + 명사 구조로 표가 매진되다, 돈이 다 떨어지다 같은 상황을 말할 수 있다",
+    "역할극에서 문제를 설명하고 해결 방안을 제시할 수 있다"
+  ],
+  "topicOverview": "이번 9일차 학습노트는 영화 문제를 풀 때 필요한 핵심 표현을 정리한 자료입니다. 단순히 단어만 외우는 것이 아니라, '영화관 묘사하기 → 영화 보기 전/중/후 활동 말하기 → 최근 본 영화 설명하기 → 배우 소식 말하기 → 역할극에서 문제 해결하기' 흐름으로 사용할 수 있게 구성했습니다. 특히 trông과 trong, vé와 về처럼 철자가 비슷해서 헷갈리는 표현, kể와 nói처럼 한국어로는 비슷하지만 쓰임이 다른 표현, hết vé처럼 상황극에서 바로 쓸 수 있는 표현을 따로 정리했습니다.",
+  "cultureTopics": [
+    "영화관",
+    "CGV",
+    "영화 장르",
+    "영화 내용",
+    "영화표",
+    "영화 보기 전 활동",
+    "영화 보는 중 활동",
+    "영화 본 후 활동",
+    "배우 묘사",
+    "남자 배우",
+    "여자 배우",
+    "배우 소식",
+    "영화관 묘사",
+    "장소 표현",
+    "역할극",
+    "문제 해결",
+    "매진 상황",
+    "대안 제시",
+    "계획 세우기"
+  ],
+  "vocabCards": [
+    {
+      "id": "d09-note-v-001",
+      "term": "vấn đề",
+      "meaningKo": "문제",
+      "example": "Tôi có một vấn đề nhỏ.",
+      "exampleMeaningKo": "저에게 작은 문제가 하나 있습니다.",
+      "audioSrc": "",
+      "sourcePage": 9,
+      "reviewNeeded": false,
+      "pronKo": "번 데",
+      "pronNoteKo": "상황극에서 문제가 생겼을 때 바로 쓰는 단어입니다.",
+      "pronChunks": [
+        "vấn=번",
+        "đề=데"
+      ]
+    },
+    {
+      "id": "d09-note-v-002",
+      "term": "có vấn đề",
+      "meaningKo": "문제가 있다",
+      "example": "Có vấn đề với vé xem phim.",
+      "exampleMeaningKo": "영화표에 문제가 있습니다.",
+      "audioSrc": "",
+      "sourcePage": 9,
+      "reviewNeeded": false,
+      "pronKo": "꼬 번 데",
+      "pronNoteKo": "có + 명사 = ~이 있다 구조입니다.",
+      "pronChunks": [
+        "có=꼬",
+        "vấn đề=번 데"
+      ]
+    },
+    {
+      "id": "d09-note-v-003",
+      "term": "trước khi",
+      "meaningKo": "~하기 전에",
+      "example": "Trước khi xem phim, tôi mua bắp rang.",
+      "exampleMeaningKo": "영화를 보기 전에 저는 팝콘을 삽니다.",
+      "audioSrc": "",
+      "sourcePage": 9,
+      "reviewNeeded": false,
+      "pronKo": "쯔억 키",
+      "pronNoteKo": "영화 보기 전 활동을 말할 때 필수 표현입니다.",
+      "pronChunks": [
+        "trước=쯔억",
+        "khi=키"
+      ]
+    },
+    {
+      "id": "d09-note-v-004",
+      "term": "trong khi",
+      "meaningKo": "~하는 동안",
+      "example": "Trong khi xem phim, tôi không dùng điện thoại.",
+      "exampleMeaningKo": "영화를 보는 동안 저는 휴대폰을 사용하지 않습니다.",
+      "audioSrc": "",
+      "sourcePage": 9,
+      "reviewNeeded": false,
+      "pronKo": "쫑 키",
+      "pronNoteKo": "영화 보는 중의 행동을 말할 때 씁니다.",
+      "pronChunks": [
+        "trong=쫑",
+        "khi=키"
+      ]
+    },
+    {
+      "id": "d09-note-v-005",
+      "term": "sau khi",
+      "meaningKo": "~한 후에",
+      "example": "Sau khi xem phim, tôi thường ăn tối.",
+      "exampleMeaningKo": "영화를 본 후에 저는 보통 저녁을 먹습니다.",
+      "audioSrc": "",
+      "sourcePage": 9,
+      "reviewNeeded": false,
+      "pronKo": "사우 키",
+      "pronNoteKo": "영화 본 후 활동을 말할 때 필수 표현입니다.",
+      "pronChunks": [
+        "sau=사우",
+        "khi=키"
+      ]
+    },
+    {
+      "id": "d09-note-v-006",
+      "term": "nam",
+      "meaningKo": "남자 / 남성의",
+      "example": "Anh ấy là diễn viên nam nổi tiếng.",
+      "exampleMeaningKo": "그는 유명한 남자 배우입니다.",
+      "audioSrc": "",
+      "sourcePage": 9,
+      "reviewNeeded": false,
+      "pronKo": "남",
+      "pronNoteKo": "성별을 나타낼 때 씁니다.",
+      "pronChunks": [
+        "nam=남"
+      ]
+    },
+    {
+      "id": "d09-note-v-007",
+      "term": "nữ",
+      "meaningKo": "여자 / 여성의",
+      "example": "Cô ấy là diễn viên nữ nổi tiếng.",
+      "exampleMeaningKo": "그녀는 유명한 여자 배우입니다.",
+      "audioSrc": "",
+      "sourcePage": 9,
+      "reviewNeeded": false,
+      "pronKo": "느",
+      "pronNoteKo": "여성 배우, 여성 가수 등을 말할 때 씁니다.",
+      "pronChunks": [
+        "nữ=느"
+      ]
+    },
+    {
+      "id": "d09-note-v-008",
+      "term": "diễn viên nam",
+      "meaningKo": "남자 배우",
+      "example": "Diễn viên nam đó rất đẹp trai.",
+      "exampleMeaningKo": "그 남자 배우는 매우 잘생겼습니다.",
+      "audioSrc": "",
+      "sourcePage": 9,
+      "reviewNeeded": false,
+      "pronKo": "지엔 비엔 남",
+      "pronNoteKo": "diễn viên은 배우, nam은 남성입니다.",
+      "pronChunks": [
+        "diễn viên=지엔 비엔",
+        "nam=남"
+      ]
+    },
+    {
+      "id": "d09-note-v-009",
+      "term": "diễn viên nữ",
+      "meaningKo": "여자 배우",
+      "example": "Diễn viên nữ trong phim đó diễn rất hay.",
+      "exampleMeaningKo": "그 영화의 여자 배우는 연기를 매우 잘합니다.",
+      "audioSrc": "",
+      "sourcePage": 9,
+      "reviewNeeded": false,
+      "pronKo": "지엔 비엔 느",
+      "pronNoteKo": "diễn viên + nữ = 여자 배우입니다.",
+      "pronChunks": [
+        "diễn viên=지엔 비엔",
+        "nữ=느"
+      ]
+    },
+    {
+      "id": "d09-note-v-010",
+      "term": "rạp chiếu phim",
+      "meaningKo": "영화관",
+      "example": "Tôi thường đi rạp chiếu phim gần nhà.",
+      "exampleMeaningKo": "저는 보통 집 근처 영화관에 갑니다.",
+      "audioSrc": "",
+      "sourcePage": 9,
+      "reviewNeeded": false,
+      "pronKo": "잡 찌에우 핌",
+      "pronNoteKo": "가장 정확한 '영화관' 표현입니다.",
+      "pronChunks": [
+        "rạp=잡",
+        "chiếu phim=찌에우 핌"
+      ]
+    },
+    {
+      "id": "d09-note-v-011",
+      "term": "rạp phim",
+      "meaningKo": "영화관",
+      "example": "Rạp phim đó rất sạch.",
+      "exampleMeaningKo": "그 영화관은 매우 깨끗합니다.",
+      "audioSrc": "",
+      "sourcePage": 9,
+      "reviewNeeded": false,
+      "pronKo": "잡 핌",
+      "pronNoteKo": "rạp chiếu phim을 짧게 말하는 표현입니다.",
+      "pronChunks": [
+        "rạp=잡",
+        "phim=핌"
+      ]
+    },
+    {
+      "id": "d09-note-v-012",
+      "term": "rạp",
+      "meaningKo": "극장 / 영화관",
+      "example": "Tôi thích xem phim ở rạp.",
+      "exampleMeaningKo": "저는 극장에서 영화를 보는 것을 좋아합니다.",
+      "audioSrc": "",
+      "sourcePage": 9,
+      "reviewNeeded": false,
+      "pronKo": "잡",
+      "pronNoteKo": "문맥상 영화관을 짧게 말할 때 씁니다.",
+      "pronChunks": [
+        "rạp=잡"
+      ]
+    },
+    {
+      "id": "d09-note-v-013",
+      "term": "CGV",
+      "meaningKo": "CGV 영화관",
+      "example": "Tôi thường xem phim ở rạp CGV.",
+      "exampleMeaningKo": "저는 보통 CGV 영화관에서 영화를 봅니다.",
+      "audioSrc": "",
+      "sourcePage": 9,
+      "reviewNeeded": false,
+      "pronKo": "씨지브이",
+      "pronNoteKo": "고유명사는 한국식/영어식 발음으로 말해도 괜찮습니다.",
+      "pronChunks": [
+        "CGV=씨지브이"
+      ]
+    },
+    {
+      "id": "d09-note-v-014",
+      "term": "bộ phim",
+      "meaningKo": "영화 한 편 / 그 영화",
+      "example": "Bộ phim gần đây tôi xem tên là Mission Impossible.",
+      "exampleMeaningKo": "최근에 제가 본 영화의 이름은 미션 임파서블입니다.",
+      "audioSrc": "",
+      "sourcePage": 9,
+      "reviewNeeded": false,
+      "pronKo": "보 핌",
+      "pronNoteKo": "특정 영화 한 편을 가리킬 때 씁니다.",
+      "pronChunks": [
+        "bộ=보",
+        "phim=핌"
+      ]
+    },
+    {
+      "id": "d09-note-v-015",
+      "term": "bộ phim gần đây",
+      "meaningKo": "최근 영화 / 최근 본 영화",
+      "example": "Bộ phim gần đây bạn mới xem tên là gì?",
+      "exampleMeaningKo": "최근에 당신이 새로 본 영화의 이름은 무엇인가요?",
+      "audioSrc": "",
+      "sourcePage": 9,
+      "reviewNeeded": false,
+      "pronKo": "보 핌 건 더이",
+      "pronNoteKo": "최근 본 영화 질문에서 바로 나오는 덩어리입니다.",
+      "pronChunks": [
+        "bộ phim=보 핌",
+        "gần đây=건 더이"
+      ]
+    },
+    {
+      "id": "d09-note-v-016",
+      "term": "mới xem",
+      "meaningKo": "막 보다 / 최근에 보다",
+      "example": "Bộ phim bạn mới xem tên là gì?",
+      "exampleMeaningKo": "당신이 최근에 본 영화 이름은 무엇인가요?",
+      "audioSrc": "",
+      "sourcePage": 9,
+      "reviewNeeded": false,
+      "pronKo": "머이 쎔",
+      "pronNoteKo": "mới + 동사 = 막 ~했다, 최근에 ~했다의 느낌입니다.",
+      "pronChunks": [
+        "mới=머이",
+        "xem=쎔"
+      ]
+    },
+    {
+      "id": "d09-note-v-017",
+      "term": "tên là gì",
+      "meaningKo": "이름이 무엇인가요",
+      "example": "Bộ phim đó tên là gì?",
+      "exampleMeaningKo": "그 영화의 이름은 무엇인가요?",
+      "audioSrc": "",
+      "sourcePage": 9,
+      "reviewNeeded": false,
+      "pronKo": "뗀 라 지",
+      "pronNoteKo": "영화 제목, 사람 이름을 물을 때 씁니다.",
+      "pronChunks": [
+        "tên=뗀",
+        "là=라",
+        "gì=지"
+      ]
+    },
+    {
+      "id": "d09-note-v-018",
+      "term": "miêu tả",
+      "meaningKo": "묘사하다",
+      "example": "Bạn hãy miêu tả rạp chiếu phim đó.",
+      "exampleMeaningKo": "그 영화관을 묘사해주세요.",
+      "audioSrc": "",
+      "sourcePage": 9,
+      "reviewNeeded": false,
+      "pronKo": "미에우 따",
+      "pronNoteKo": "외형, 분위기, 장소를 설명하는 묘사 문제에서 씁니다.",
+      "pronChunks": [
+        "miêu=미에우",
+        "tả=따"
+      ]
+    },
+    {
+      "id": "d09-note-v-019",
+      "term": "vé xem phim",
+      "meaningKo": "영화표",
+      "example": "Tôi đã mua vé xem phim trên điện thoại.",
+      "exampleMeaningKo": "저는 휴대폰으로 영화표를 샀습니다.",
+      "audioSrc": "",
+      "sourcePage": 9,
+      "reviewNeeded": false,
+      "pronKo": "베 쎔 핌",
+      "pronNoteKo": "vé phim이라고 짧게 말할 수도 있습니다.",
+      "pronChunks": [
+        "vé=베",
+        "xem phim=쎔 핌"
+      ]
+    },
+    {
+      "id": "d09-note-v-020",
+      "term": "vé phim",
+      "meaningKo": "영화표",
+      "example": "Vé phim hôm nay hết rồi.",
+      "exampleMeaningKo": "오늘 영화표는 다 팔렸습니다.",
+      "audioSrc": "",
+      "sourcePage": 9,
+      "reviewNeeded": false,
+      "pronKo": "베 핌",
+      "pronNoteKo": "vé xem phim보다 짧고 자연스럽게 쓸 수 있습니다.",
+      "pronChunks": [
+        "vé=베",
+        "phim=핌"
+      ]
+    },
+    {
+      "id": "d09-note-v-021",
+      "term": "nội dung",
+      "meaningKo": "내용",
+      "example": "Nội dung của bộ phim rất ý nghĩa.",
+      "exampleMeaningKo": "그 영화의 내용은 매우 의미 있습니다.",
+      "audioSrc": "",
+      "sourcePage": 9,
+      "reviewNeeded": false,
+      "pronKo": "노이 중",
+      "pronNoteKo": "영화 내용, 글 내용, 수업 내용을 말할 때 모두 씁니다.",
+      "pronChunks": [
+        "nội=노이",
+        "dung=중"
+      ]
+    },
+    {
+      "id": "d09-note-v-022",
+      "term": "kể",
+      "meaningKo": "이야기하다 / 들려주다",
+      "example": "Hãy kể cho tôi về bộ phim đó.",
+      "exampleMeaningKo": "그 영화에 대해 저에게 이야기해주세요.",
+      "audioSrc": "",
+      "sourcePage": 9,
+      "reviewNeeded": false,
+      "pronKo": "께",
+      "pronNoteKo": "story처럼 줄거리나 경험을 풀어서 말할 때 씁니다.",
+      "pronChunks": [
+        "kể=께"
+      ]
+    },
+    {
+      "id": "d09-note-v-023",
+      "term": "nói",
+      "meaningKo": "말하다",
+      "example": "Tôi muốn nói về bộ phim này.",
+      "exampleMeaningKo": "저는 이 영화에 대해 말하고 싶습니다.",
+      "audioSrc": "",
+      "sourcePage": 9,
+      "reviewNeeded": false,
+      "pronKo": "노이",
+      "pronNoteKo": "일반적으로 '말하다'라는 뜻입니다.",
+      "pronChunks": [
+        "nói=노이"
+      ]
+    },
+    {
+      "id": "d09-note-v-024",
+      "term": "trông",
+      "meaningKo": "보이다 / 생겨 보이다",
+      "example": "Anh ấy trông rất đẹp trai.",
+      "exampleMeaningKo": "그는 매우 잘생겨 보입니다.",
+      "audioSrc": "",
+      "sourcePage": 9,
+      "reviewNeeded": false,
+      "pronKo": "쫑",
+      "pronNoteKo": "외형을 묘사할 때 씁니다. trong과 철자가 비슷하지만 뜻이 다릅니다.",
+      "pronChunks": [
+        "trông=쫑"
+      ]
+    },
+    {
+      "id": "d09-note-v-025",
+      "term": "trong",
+      "meaningKo": "~안에 / ~속에",
+      "example": "Trong rạp chiếu phim có nhiều người.",
+      "exampleMeaningKo": "영화관 안에는 사람이 많습니다.",
+      "audioSrc": "",
+      "sourcePage": 9,
+      "reviewNeeded": false,
+      "pronKo": "쫑",
+      "pronNoteKo": "trông은 '보이다', trong은 '안에'입니다. 뜻으로 구분하세요.",
+      "pronChunks": [
+        "trong=쫑"
+      ]
+    },
+    {
+      "id": "d09-note-v-026",
+      "term": "trông như thế nào",
+      "meaningKo": "어떻게 생겼나요 / 어떻게 보이나요",
+      "example": "Rạp phim đó trông như thế nào?",
+      "exampleMeaningKo": "그 영화관은 어떻게 생겼나요?",
+      "audioSrc": "",
+      "sourcePage": 9,
+      "reviewNeeded": false,
+      "pronKo": "쫑 느 테 나오",
+      "pronNoteKo": "묘사 문제의 핵심 질문입니다.",
+      "pronChunks": [
+        "trông=쫑",
+        "như thế nào=느 테 나오"
+      ]
+    },
+    {
+      "id": "d09-note-v-027",
+      "term": "đẹp trai",
+      "meaningKo": "잘생긴",
+      "example": "Diễn viên nam đó trông rất đẹp trai.",
+      "exampleMeaningKo": "그 남자 배우는 매우 잘생겨 보입니다.",
+      "audioSrc": "",
+      "sourcePage": 9,
+      "reviewNeeded": false,
+      "pronKo": "뎁 짜이",
+      "pronNoteKo": "남자에게 쓰는 '잘생겼다' 표현입니다.",
+      "pronChunks": [
+        "đẹp=뎁",
+        "trai=짜이"
+      ]
+    },
+    {
+      "id": "d09-note-v-028",
+      "term": "xấu",
+      "meaningKo": "못생긴 / 나쁜",
+      "example": "Anh ấy trông rất xấu.",
+      "exampleMeaningKo": "그는 매우 못생겨 보입니다.",
+      "audioSrc": "",
+      "sourcePage": 9,
+      "reviewNeeded": false,
+      "pronKo": "싸우",
+      "pronNoteKo": "사람 외형에는 '못생긴', 상황에는 '나쁜' 의미가 될 수 있습니다.",
+      "pronChunks": [
+        "xấu=싸우"
+      ]
+    },
+    {
+      "id": "d09-note-v-029",
+      "term": "đơn giản",
+      "meaningKo": "간단한 / 단순한",
+      "example": "Cái đó trông rất đơn giản.",
+      "exampleMeaningKo": "그것은 매우 단순해 보입니다.",
+      "audioSrc": "",
+      "sourcePage": 9,
+      "reviewNeeded": false,
+      "pronKo": "던 잔",
+      "pronNoteKo": "물건이나 방법이 간단하다고 할 때 씁니다.",
+      "pronChunks": [
+        "đơn=던",
+        "giản=잔"
+      ]
+    },
+    {
+      "id": "d09-note-v-030",
+      "term": "nhỏ",
+      "meaningKo": "작은",
+      "example": "Ngôi nhà đó trông rất nhỏ.",
+      "exampleMeaningKo": "그 집은 매우 작아 보입니다.",
+      "audioSrc": "",
+      "sourcePage": 9,
+      "reviewNeeded": false,
+      "pronKo": "녀",
+      "pronNoteKo": "크기 묘사에 쓰는 기본 형용사입니다.",
+      "pronChunks": [
+        "nhỏ=녀"
+      ]
+    },
+    {
+      "id": "d09-note-v-031",
+      "term": "gặp lại",
+      "meaningKo": "다시 만나다",
+      "example": "Tôi muốn gặp lại bạn vào cuối tuần.",
+      "exampleMeaningKo": "저는 주말에 당신을 다시 만나고 싶습니다.",
+      "audioSrc": "",
+      "sourcePage": 9,
+      "reviewNeeded": false,
+      "pronKo": "갑 라이",
+      "pronNoteKo": "V + lại = 다시 ~하다 구조입니다.",
+      "pronChunks": [
+        "gặp=갑",
+        "lại=라이"
+      ]
+    },
+    {
+      "id": "d09-note-v-032",
+      "term": "làm lại",
+      "meaningKo": "다시 하다",
+      "example": "Tôi muốn làm lại bài tập này.",
+      "exampleMeaningKo": "저는 이 숙제를 다시 하고 싶습니다.",
+      "audioSrc": "",
+      "sourcePage": 9,
+      "reviewNeeded": false,
+      "pronKo": "람 라이",
+      "pronNoteKo": "lại가 동사 뒤에 오면 '다시'의 느낌이 됩니다.",
+      "pronChunks": [
+        "làm=람",
+        "lại=라이"
+      ]
+    },
+    {
+      "id": "d09-note-v-033",
+      "term": "nấu lại",
+      "meaningKo": "다시 요리하다 / 다시 끓이다",
+      "example": "Tôi sẽ nấu lại món này.",
+      "exampleMeaningKo": "저는 이 음식을 다시 요리할 것입니다.",
+      "audioSrc": "",
+      "sourcePage": 9,
+      "reviewNeeded": false,
+      "pronKo": "너우 라이",
+      "pronNoteKo": "nấu는 요리하다, lại는 다시입니다.",
+      "pronChunks": [
+        "nấu=너우",
+        "lại=라이"
+      ]
+    },
+    {
+      "id": "d09-note-v-034",
+      "term": "xem lại",
+      "meaningKo": "다시 보다",
+      "example": "Tôi muốn xem lại bộ phim đó.",
+      "exampleMeaningKo": "저는 그 영화를 다시 보고 싶습니다.",
+      "audioSrc": "",
+      "sourcePage": 9,
+      "reviewNeeded": false,
+      "pronKo": "쎔 라이",
+      "pronNoteKo": "영화 주제에서 바로 활용하기 좋습니다.",
+      "pronChunks": [
+        "xem=쎔",
+        "lại=라이"
+      ]
+    },
+    {
+      "id": "d09-note-v-035",
+      "term": "tại sao ... lại",
+      "meaningKo": "왜 하필 / 왜 ~하게",
+      "example": "Tại sao bạn lại không đến?",
+      "exampleMeaningKo": "왜 당신은 오지 않았나요?",
+      "audioSrc": "",
+      "sourcePage": 9,
+      "reviewNeeded": false,
+      "pronKo": "따이 사오 ... 라이",
+      "pronNoteKo": "lại는 여기서 놀람, 의외, 강조의 느낌을 줍니다.",
+      "pronChunks": [
+        "tại sao=따이 사오",
+        "lại=라이"
+      ]
+    },
+    {
+      "id": "d09-note-v-036",
+      "term": "vì sao ... lại",
+      "meaningKo": "왜 ~하게",
+      "example": "Vì sao anh ấy lại buồn?",
+      "exampleMeaningKo": "왜 그는 슬퍼하나요?",
+      "audioSrc": "",
+      "sourcePage": 9,
+      "reviewNeeded": false,
+      "pronKo": "비 사오 ... 라이",
+      "pronNoteKo": "tại sao와 비슷하게 이유를 물을 때 씁니다.",
+      "pronChunks": [
+        "vì sao=비 사오",
+        "lại=라이"
+      ]
+    },
+    {
+      "id": "d09-note-v-037",
+      "term": "địa điểm",
+      "meaningKo": "장소 / 지점",
+      "example": "Địa điểm xem phim của tôi là rạp CGV.",
+      "exampleMeaningKo": "제가 영화 보는 장소는 CGV 영화관입니다.",
+      "audioSrc": "",
+      "sourcePage": 9,
+      "reviewNeeded": false,
+      "pronKo": "디어 디엠",
+      "pronNoteKo": "격식 있게 '장소'를 말하는 표현입니다.",
+      "pronChunks": [
+        "địa=디어",
+        "điểm=디엠"
+      ]
+    },
+    {
+      "id": "d09-note-v-038",
+      "term": "nơi",
+      "meaningKo": "곳 / 장소",
+      "example": "Đây là nơi tôi thường xem phim.",
+      "exampleMeaningKo": "여기는 제가 보통 영화를 보는 곳입니다.",
+      "audioSrc": "",
+      "sourcePage": 9,
+      "reviewNeeded": false,
+      "pronKo": "너이",
+      "pronNoteKo": "조금 일반적인 '곳' 표현입니다.",
+      "pronChunks": [
+        "nơi=너이"
+      ]
+    },
+    {
+      "id": "d09-note-v-039",
+      "term": "chỗ",
+      "meaningKo": "곳 / 자리 / 장소",
+      "example": "Chỗ này rất tiện lợi.",
+      "exampleMeaningKo": "이곳은 매우 편리합니다.",
+      "audioSrc": "",
+      "sourcePage": 9,
+      "reviewNeeded": false,
+      "pronKo": "쪼",
+      "pronNoteKo": "일상 회화에서 자주 쓰는 '곳'입니다.",
+      "pronChunks": [
+        "chỗ=쪼"
+      ]
+    },
+    {
+      "id": "d09-note-v-040",
+      "term": "những chỗ khác",
+      "meaningKo": "다른 곳들",
+      "example": "Tôi thích rạp này hơn những chỗ khác.",
+      "exampleMeaningKo": "저는 다른 곳들보다 이 영화관을 더 좋아합니다.",
+      "audioSrc": "",
+      "sourcePage": 9,
+      "reviewNeeded": false,
+      "pronKo": "느응 쪼 칵",
+      "pronNoteKo": "비교 문제에서 쓰기 좋은 표현입니다.",
+      "pronChunks": [
+        "những=느응",
+        "chỗ=쪼",
+        "khác=칵"
+      ]
+    },
+    {
+      "id": "d09-note-v-041",
+      "term": "nói về",
+      "meaningKo": "~에 대해 말하다",
+      "example": "Tôi muốn nói về bộ phim này.",
+      "exampleMeaningKo": "저는 이 영화에 대해 말하고 싶습니다.",
+      "audioSrc": "",
+      "sourcePage": 9,
+      "reviewNeeded": false,
+      "pronKo": "노이 베",
+      "pronNoteKo": "주제에 대해 일반적으로 말할 때 씁니다.",
+      "pronChunks": [
+        "nói=노이",
+        "về=베"
+      ]
+    },
+    {
+      "id": "d09-note-v-042",
+      "term": "kể về",
+      "meaningKo": "~에 대해 이야기하다 / 들려주다",
+      "example": "Bộ phim kể về một gia đình hạnh phúc.",
+      "exampleMeaningKo": "그 영화는 한 행복한 가족에 대해 이야기합니다.",
+      "audioSrc": "",
+      "sourcePage": 9,
+      "reviewNeeded": false,
+      "pronKo": "께 베",
+      "pronNoteKo": "줄거리나 경험을 이야기처럼 풀어낼 때 씁니다.",
+      "pronChunks": [
+        "kể=께",
+        "về=베"
+      ]
+    },
+    {
+      "id": "d09-note-v-043",
+      "term": "miêu tả về",
+      "meaningKo": "~에 대해 묘사하다",
+      "example": "Tôi sẽ miêu tả về rạp chiếu phim đó.",
+      "exampleMeaningKo": "저는 그 영화관에 대해 묘사하겠습니다.",
+      "audioSrc": "",
+      "sourcePage": 9,
+      "reviewNeeded": false,
+      "pronKo": "미에우 따 베",
+      "pronNoteKo": "장소, 사람, 물건의 모습을 설명할 때 씁니다.",
+      "pronChunks": [
+        "miêu tả=미에우 따",
+        "về=베"
+      ]
+    },
+    {
+      "id": "d09-note-v-044",
+      "term": "chỗ học tiếng Việt",
+      "meaningKo": "베트남어를 배우는 곳",
+      "example": "Đây là chỗ học tiếng Việt của tôi.",
+      "exampleMeaningKo": "여기는 제가 베트남어를 배우는 곳입니다.",
+      "audioSrc": "",
+      "sourcePage": 9,
+      "reviewNeeded": false,
+      "pronKo": "쪼 혹 띠엥 비엣",
+      "pronNoteKo": "chỗ + 동사/명사 구조로 장소를 쉽게 만들 수 있습니다.",
+      "pronChunks": [
+        "chỗ=쪼",
+        "học tiếng Việt=혹 띠엥 비엣"
+      ]
+    },
+    {
+      "id": "d09-note-v-045",
+      "term": "chỗ chơi tennis",
+      "meaningKo": "테니스 치는 곳",
+      "example": "Gần nhà tôi có chỗ chơi tennis.",
+      "exampleMeaningKo": "제 집 근처에는 테니스 치는 곳이 있습니다.",
+      "audioSrc": "",
+      "sourcePage": 9,
+      "reviewNeeded": false,
+      "pronKo": "쪼 쩌이 테니스",
+      "pronNoteKo": "chơi tennis는 테니스를 치다입니다.",
+      "pronChunks": [
+        "chỗ=쪼",
+        "chơi tennis=쩌이 테니스"
+      ]
+    },
+    {
+      "id": "d09-note-v-046",
+      "term": "như tôi đã nói ở trên",
+      "meaningKo": "제가 위에서 말했듯이",
+      "example": "Như tôi đã nói ở trên, tôi rất thích xem phim.",
+      "exampleMeaningKo": "제가 위에서 말했듯이, 저는 영화를 보는 것을 매우 좋아합니다.",
+      "audioSrc": "",
+      "sourcePage": 9,
+      "reviewNeeded": false,
+      "pronKo": "느 또이 다 노이 어 쩬",
+      "pronNoteKo": "답변을 이어 말할 때 자연스럽게 연결하는 표현입니다.",
+      "pronChunks": [
+        "như=느",
+        "tôi đã nói=또이 다 노이",
+        "ở trên=어 쩬"
+      ]
+    },
+    {
+      "id": "d09-note-v-047",
+      "term": "cái gì",
+      "meaningKo": "무엇 / 어떤 것",
+      "example": "Bộ phim đó nói về cái gì?",
+      "exampleMeaningKo": "그 영화는 무엇에 관한 내용인가요?",
+      "audioSrc": "",
+      "sourcePage": 9,
+      "reviewNeeded": false,
+      "pronKo": "까이 지",
+      "pronNoteKo": "구체적인 물건이나 내용을 물을 때 자주 씁니다.",
+      "pronChunks": [
+        "cái=까이",
+        "gì=지"
+      ]
+    },
+    {
+      "id": "d09-note-v-048",
+      "term": "điều gì",
+      "meaningKo": "어떤 것 / 어떤 일",
+      "example": "Điều gì khiến bộ phim đó đặc biệt?",
+      "exampleMeaningKo": "무엇이 그 영화를 특별하게 만들었나요?",
+      "audioSrc": "",
+      "sourcePage": 9,
+      "reviewNeeded": false,
+      "pronKo": "디에우 지",
+      "pronNoteKo": "추상적인 일, 이유, 포인트를 물을 때 좋습니다.",
+      "pronChunks": [
+        "điều=디에우",
+        "gì=지"
+      ]
+    },
+    {
+      "id": "d09-note-v-049",
+      "term": "thứ gì",
+      "meaningKo": "어떤 것 / 무슨 것",
+      "example": "Bạn thường mang theo thứ gì?",
+      "exampleMeaningKo": "당신은 보통 어떤 것을 가지고 가나요?",
+      "audioSrc": "",
+      "sourcePage": 9,
+      "reviewNeeded": false,
+      "pronKo": "트 지",
+      "pronNoteKo": "물건을 물을 때 쓸 수 있습니다.",
+      "pronChunks": [
+        "thứ=트",
+        "gì=지"
+      ]
+    },
+    {
+      "id": "d09-note-v-050",
+      "term": "tiết kiệm",
+      "meaningKo": "절약하다 / 절약되는",
+      "example": "Xem phim ở nhà tiết kiệm thời gian.",
+      "exampleMeaningKo": "집에서 영화를 보는 것은 시간을 절약합니다.",
+      "audioSrc": "",
+      "sourcePage": 9,
+      "reviewNeeded": false,
+      "pronKo": "띠엣 끼엠",
+      "pronNoteKo": "돈, 시간, 에너지를 절약한다고 할 때 씁니다.",
+      "pronChunks": [
+        "tiết=띠엣",
+        "kiệm=끼엠"
+      ]
+    },
+    {
+      "id": "d09-note-v-051",
+      "term": "tình huống",
+      "meaningKo": "상황",
+      "example": "Tôi sẽ giải quyết tình huống này.",
+      "exampleMeaningKo": "저는 이 상황을 해결하겠습니다.",
+      "audioSrc": "",
+      "sourcePage": 9,
+      "reviewNeeded": false,
+      "pronKo": "띤 후옹",
+      "pronNoteKo": "OPIc 역할극에서 자주 나오는 단어입니다.",
+      "pronChunks": [
+        "tình=띤",
+        "huống=후옹"
+      ]
+    },
+    {
+      "id": "d09-note-v-052",
+      "term": "diễn kịch",
+      "meaningKo": "역할극을 하다 / 연기하다",
+      "example": "Bạn hãy diễn kịch để giải quyết tình huống đó.",
+      "exampleMeaningKo": "그 상황을 해결하기 위해 역할극을 해주세요.",
+      "audioSrc": "",
+      "sourcePage": 9,
+      "reviewNeeded": false,
+      "pronKo": "지엔 끼익",
+      "pronNoteKo": "시험에서 상황극을 하라고 할 때 나오는 표현입니다.",
+      "pronChunks": [
+        "diễn=지엔",
+        "kịch=끼익"
+      ]
+    },
+    {
+      "id": "d09-note-v-053",
+      "term": "đóng kịch",
+      "meaningKo": "연극하다 / 역할극을 하다",
+      "example": "Chúng ta sẽ đóng kịch trong lớp.",
+      "exampleMeaningKo": "우리는 수업에서 역할극을 할 것입니다.",
+      "audioSrc": "",
+      "sourcePage": 9,
+      "reviewNeeded": false,
+      "pronKo": "동 끼익",
+      "pronNoteKo": "diễn kịch과 비슷하지만 실제 연극/역할을 맡는 느낌입니다.",
+      "pronChunks": [
+        "đóng=동",
+        "kịch=끼익"
+      ]
+    },
+    {
+      "id": "d09-note-v-054",
+      "term": "giải quyết",
+      "meaningKo": "해결하다",
+      "example": "Tôi cần giải quyết vấn đề này.",
+      "exampleMeaningKo": "저는 이 문제를 해결해야 합니다.",
+      "audioSrc": "",
+      "sourcePage": 9,
+      "reviewNeeded": false,
+      "pronKo": "자이 꾸엣",
+      "pronNoteKo": "문제, 상황을 해결할 때 씁니다.",
+      "pronChunks": [
+        "giải=자이",
+        "quyết=꾸엣"
+      ]
+    },
+    {
+      "id": "d09-note-v-055",
+      "term": "giải quyết vấn đề",
+      "meaningKo": "문제를 해결하다",
+      "example": "Tôi muốn giải quyết vấn đề này nhanh.",
+      "exampleMeaningKo": "저는 이 문제를 빨리 해결하고 싶습니다.",
+      "audioSrc": "",
+      "sourcePage": 9,
+      "reviewNeeded": false,
+      "pronKo": "자이 꾸엣 번 데",
+      "pronNoteKo": "vấn đề와 함께 가장 많이 쓰는 조합입니다.",
+      "pronChunks": [
+        "giải quyết=자이 꾸엣",
+        "vấn đề=번 데"
+      ]
+    },
+    {
+      "id": "d09-note-v-056",
+      "term": "giải quyết tình huống",
+      "meaningKo": "상황을 해결하다",
+      "example": "Bạn hãy giải quyết tình huống đó.",
+      "exampleMeaningKo": "그 상황을 해결해주세요.",
+      "audioSrc": "",
+      "sourcePage": 9,
+      "reviewNeeded": false,
+      "pronKo": "자이 꾸엣 띤 후옹",
+      "pronNoteKo": "역할극 문제에서 거의 그대로 나오는 표현입니다.",
+      "pronChunks": [
+        "giải quyết=자이 꾸엣",
+        "tình huống=띤 후옹"
+      ]
+    },
+    {
+      "id": "d09-note-v-057",
+      "term": "gọi điện thoại",
+      "meaningKo": "전화하다",
+      "example": "Tôi sẽ gọi điện thoại cho bạn tôi.",
+      "exampleMeaningKo": "저는 제 친구에게 전화할 것입니다.",
+      "audioSrc": "",
+      "sourcePage": 9,
+      "reviewNeeded": false,
+      "pronKo": "고이 디엔 토아이",
+      "pronNoteKo": "gọi điện보다 조금 더 완전한 표현입니다.",
+      "pronChunks": [
+        "gọi=고이",
+        "điện thoại=디엔 토아이"
+      ]
+    },
+    {
+      "id": "d09-note-v-058",
+      "term": "gọi điện",
+      "meaningKo": "전화하다",
+      "example": "Bạn hãy gọi điện cho bạn của bạn.",
+      "exampleMeaningKo": "당신의 친구에게 전화하세요.",
+      "audioSrc": "",
+      "sourcePage": 9,
+      "reviewNeeded": false,
+      "pronKo": "고이 디엔",
+      "pronNoteKo": "회화에서 짧고 자연스럽게 쓰는 표현입니다.",
+      "pronChunks": [
+        "gọi=고이",
+        "điện=디엔"
+      ]
+    },
+    {
+      "id": "d09-note-v-059",
+      "term": "nhưng",
+      "meaningKo": "하지만 / 그런데",
+      "example": "Tôi muốn đi xem phim, nhưng tôi không có thời gian.",
+      "exampleMeaningKo": "저는 영화를 보러 가고 싶지만 시간이 없습니다.",
+      "audioSrc": "",
+      "sourcePage": 9,
+      "reviewNeeded": false,
+      "pronKo": "느응",
+      "pronNoteKo": "가장 기본적인 '하지만' 표현입니다.",
+      "pronChunks": [
+        "nhưng=느응"
+      ]
+    },
+    {
+      "id": "d09-note-v-060",
+      "term": "tuy nhiên",
+      "meaningKo": "그러나 / 하지만",
+      "example": "Tuy nhiên, vé phim đã hết rồi.",
+      "exampleMeaningKo": "그러나 영화표는 이미 매진되었습니다.",
+      "audioSrc": "",
+      "sourcePage": 9,
+      "reviewNeeded": false,
+      "pronKo": "뚜이 니엔",
+      "pronNoteKo": "nhưng보다 조금 더 글말 느낌의 '그러나'입니다.",
+      "pronChunks": [
+        "tuy=뚜이",
+        "nhiên=니엔"
+      ]
+    },
+    {
+      "id": "d09-note-v-061",
+      "term": "vé",
+      "meaningKo": "표 / 티켓",
+      "example": "Tôi đã mua vé xem phim.",
+      "exampleMeaningKo": "저는 영화표를 샀습니다.",
+      "audioSrc": "",
+      "sourcePage": 9,
+      "reviewNeeded": false,
+      "pronKo": "베",
+      "pronNoteKo": "영화표, 기차표, 입장권 등에 쓰는 단어입니다.",
+      "pronChunks": [
+        "vé=베"
+      ]
+    },
+    {
+      "id": "d09-note-v-062",
+      "term": "về",
+      "meaningKo": "~에 대해 / 돌아가다",
+      "example": "Tôi muốn nói về bộ phim đó.",
+      "exampleMeaningKo": "저는 그 영화에 대해 말하고 싶습니다.",
+      "audioSrc": "",
+      "sourcePage": 9,
+      "reviewNeeded": false,
+      "pronKo": "베",
+      "pronNoteKo": "vé는 표, về는 '~에 대해' 또는 '돌아가다'입니다. 철자와 성조가 다릅니다.",
+      "pronChunks": [
+        "về=베"
+      ]
+    },
+    {
+      "id": "d09-note-v-063",
+      "term": "hết",
+      "meaningKo": "다 떨어지다 / 끝나다",
+      "example": "Vé hết rồi.",
+      "exampleMeaningKo": "표가 다 팔렸습니다.",
+      "audioSrc": "",
+      "sourcePage": 9,
+      "reviewNeeded": false,
+      "pronKo": "헷",
+      "pronNoteKo": "hết + 명사 구조로 '다 떨어졌다'를 말합니다.",
+      "pronChunks": [
+        "hết=헷"
+      ]
+    },
+    {
+      "id": "d09-note-v-064",
+      "term": "hết rồi",
+      "meaningKo": "다 끝났다 / 다 떨어졌다",
+      "example": "Vé xem phim hết rồi.",
+      "exampleMeaningKo": "영화표가 다 팔렸습니다.",
+      "audioSrc": "",
+      "sourcePage": 9,
+      "reviewNeeded": false,
+      "pronKo": "헷 조이",
+      "pronNoteKo": "rồi를 붙이면 이미 그렇게 되었다는 완료 느낌입니다.",
+      "pronChunks": [
+        "hết=헷",
+        "rồi=조이"
+      ]
+    },
+    {
+      "id": "d09-note-v-065",
+      "term": "hết vé",
+      "meaningKo": "표가 매진되다",
+      "example": "Bộ phim ngày mai hết vé rồi.",
+      "exampleMeaningKo": "내일 영화는 표가 이미 매진되었습니다.",
+      "audioSrc": "",
+      "sourcePage": 9,
+      "reviewNeeded": false,
+      "pronKo": "헷 베",
+      "pronNoteKo": "영화 상황극에서 가장 중요한 표현입니다.",
+      "pronChunks": [
+        "hết=헷",
+        "vé=베"
+      ]
+    },
+    {
+      "id": "d09-note-v-066",
+      "term": "hết tiền",
+      "meaningKo": "돈이 다 떨어지다",
+      "example": "Tôi hết tiền rồi.",
+      "exampleMeaningKo": "저는 돈이 다 떨어졌습니다.",
+      "audioSrc": "",
+      "sourcePage": 9,
+      "reviewNeeded": false,
+      "pronKo": "헷 띠엔",
+      "pronNoteKo": "hết + tiền = 돈이 없다, 다 썼다.",
+      "pronChunks": [
+        "hết=헷",
+        "tiền=띠엔"
+      ]
+    },
+    {
+      "id": "d09-note-v-067",
+      "term": "hết ga",
+      "meaningKo": "가스가 다 떨어지다",
+      "example": "Nhà tôi hết ga rồi.",
+      "exampleMeaningKo": "우리 집 가스가 다 떨어졌습니다.",
+      "audioSrc": "",
+      "sourcePage": 9,
+      "reviewNeeded": false,
+      "pronKo": "헷 가",
+      "pronNoteKo": "ga는 가스입니다.",
+      "pronChunks": [
+        "hết=헷",
+        "ga=가"
+      ]
+    },
+    {
+      "id": "d09-note-v-068",
+      "term": "giải thích",
+      "meaningKo": "설명하다",
+      "example": "Tôi sẽ giải thích tình hình cho bạn tôi.",
+      "exampleMeaningKo": "저는 제 친구에게 상황을 설명할 것입니다.",
+      "audioSrc": "",
+      "sourcePage": 9,
+      "reviewNeeded": false,
+      "pronKo": "자이 틱",
+      "pronNoteKo": "giải thích은 설명하다, giải quyết은 해결하다입니다.",
+      "pronChunks": [
+        "giải=자이",
+        "thích=틱"
+      ]
+    },
+    {
+      "id": "d09-note-v-069",
+      "term": "phương án",
+      "meaningKo": "방안 / 선택지 / 대안",
+      "example": "Tôi có một phương án khác.",
+      "exampleMeaningKo": "저에게 다른 방안이 하나 있습니다.",
+      "audioSrc": "",
+      "sourcePage": 9,
+      "reviewNeeded": false,
+      "pronKo": "프엉 안",
+      "pronNoteKo": "문제 해결을 위한 대안을 말할 때 좋습니다.",
+      "pronChunks": [
+        "phương=프엉",
+        "án=안"
+      ]
+    },
+    {
+      "id": "d09-note-v-070",
+      "term": "đưa ra",
+      "meaningKo": "제시하다 / 내놓다",
+      "example": "Tôi sẽ đưa ra một phương án giải quyết.",
+      "exampleMeaningKo": "저는 해결 방안 하나를 제시하겠습니다.",
+      "audioSrc": "",
+      "sourcePage": 9,
+      "reviewNeeded": false,
+      "pronKo": "드어 자",
+      "pronNoteKo": "의견, 방안, 계획을 제시할 때 씁니다.",
+      "pronChunks": [
+        "đưa=드어",
+        "ra=자"
+      ]
+    },
+    {
+      "id": "d09-note-v-071",
+      "term": "kế hoạch",
+      "meaningKo": "계획",
+      "example": "Chúng ta cần một kế hoạch mới.",
+      "exampleMeaningKo": "우리는 새로운 계획이 필요합니다.",
+      "audioSrc": "",
+      "sourcePage": 9,
+      "reviewNeeded": false,
+      "pronKo": "께 호악",
+      "pronNoteKo": "계획을 말하는 기본 단어입니다.",
+      "pronChunks": [
+        "kế=께",
+        "hoạch=호악"
+      ]
+    },
+    {
+      "id": "d09-note-v-072",
+      "term": "lập kế hoạch",
+      "meaningKo": "계획을 세우다",
+      "example": "Tôi sẽ lập kế hoạch đi xem phim.",
+      "exampleMeaningKo": "저는 영화 보러 갈 계획을 세울 것입니다.",
+      "audioSrc": "",
+      "sourcePage": 9,
+      "reviewNeeded": false,
+      "pronKo": "럽 께 호악",
+      "pronNoteKo": "계획을 세우다는 lập kế hoạch이 자연스럽습니다.",
+      "pronChunks": [
+        "lập=럽",
+        "kế hoạch=께 호악"
+      ]
+    },
+    {
+      "id": "d09-note-v-073",
+      "term": "đưa ra kế hoạch",
+      "meaningKo": "계획을 제시하다",
+      "example": "Tôi sẽ đưa ra kế hoạch mới.",
+      "exampleMeaningKo": "저는 새로운 계획을 제시하겠습니다.",
+      "audioSrc": "",
+      "sourcePage": 9,
+      "reviewNeeded": false,
+      "pronKo": "드어 자 께 호악",
+      "pronNoteKo": "역할극에서 대안을 제시할 때 쓸 수 있습니다.",
+      "pronChunks": [
+        "đưa ra=드어 자",
+        "kế hoạch=께 호악"
+      ]
+    },
+    {
+      "id": "d09-note-v-074",
+      "term": "nghĩ ra kế hoạch",
+      "meaningKo": "계획을 생각해 내다",
+      "example": "Tôi sẽ nghĩ ra một kế hoạch khác.",
+      "exampleMeaningKo": "저는 다른 계획 하나를 생각해 보겠습니다.",
+      "audioSrc": "",
+      "sourcePage": 9,
+      "reviewNeeded": false,
+      "pronKo": "응이 자 께 호악",
+      "pronNoteKo": "학습노트의 'nghĩ kế hoạch'은 회화에서는 nghĩ ra kế hoạch이 더 자연스럽습니다.",
+      "pronChunks": [
+        "nghĩ ra=응이 자",
+        "kế hoạch=께 호악"
+      ]
+    }
+  ],
+  "sentenceCards": [
+    {
+      "id": "d09-note-s-001",
+      "textVi": "Bộ phim gần đây bạn mới xem tên là gì?",
+      "textKo": "최근에 당신이 새로 본 영화의 이름은 무엇인가요?",
+      "exampleAnswerVi": "Bộ phim gần đây tôi mới xem tên là Mission Impossible.",
+      "exampleAnswerKo": "최근에 제가 본 영화의 이름은 미션 임파서블입니다.",
+      "audioSrc": "",
+      "sourcePage": 9,
+      "reviewNeeded": false,
+      "pronKo": "보 핌 건 더이 반 머이 쎔 뗀 라 지",
+      "exampleAnswerPronKo": "보 핌 건 더이 또이 머이 쎔 뗀 라 미션 임파서블.",
+      "pronNoteKo": "최근 본 영화 제목을 묻는 문장입니다. tên là gì는 '이름이 뭐야?'입니다."
+    },
+    {
+      "id": "d09-note-s-002",
+      "textVi": "Trước khi xem phim, trong khi xem phim và sau khi xem phim, bạn thường làm gì?",
+      "textKo": "영화를 보기 전, 영화를 보는 동안, 영화를 본 후에 당신은 보통 무엇을 하나요?",
+      "exampleAnswerVi": "Trước khi xem phim, tôi mua vé và bắp rang. Trong khi xem phim, tôi tập trung vào nội dung. Sau khi xem phim, tôi thường ăn tối với gia đình.",
+      "exampleAnswerKo": "영화를 보기 전에 저는 표와 팝콘을 삽니다. 영화를 보는 동안 저는 내용에 집중합니다. 영화를 본 후에는 보통 가족과 저녁을 먹습니다.",
+      "audioSrc": "",
+      "sourcePage": 9,
+      "reviewNeeded": false,
+      "pronKo": "쯔억 키 쎔 핌, 쫑 키 쎔 핌 바 사우 키 쎔 핌, 반 트엉 람 지",
+      "exampleAnswerPronKo": "쯔억 키 쎔 핌, 또이 무어 베 바 밥 장.",
+      "pronNoteKo": "trước khi / trong khi / sau khi를 한 번에 묶어 연습합니다."
+    },
+    {
+      "id": "d09-note-s-003",
+      "textVi": "Rạp phim đó trông như thế nào?",
+      "textKo": "그 영화관은 어떻게 생겼나요?",
+      "exampleAnswerVi": "Rạp phim đó trông rất sạch, rộng và hiện đại.",
+      "exampleAnswerKo": "그 영화관은 매우 깨끗하고 넓고 현대적으로 보입니다.",
+      "audioSrc": "",
+      "sourcePage": 9,
+      "reviewNeeded": false,
+      "pronKo": "잡 핌 도 쫑 느 테 나오",
+      "exampleAnswerPronKo": "잡 핌 도 쫑 젓 사익, 종 바 히엔 다이.",
+      "pronNoteKo": "trông은 외형 묘사입니다. trong과 헷갈리지 마세요."
+    },
+    {
+      "id": "d09-note-s-004",
+      "textVi": "Anh ấy trông như thế nào?",
+      "textKo": "그는 어떻게 생겼나요?",
+      "exampleAnswerVi": "Anh ấy trông rất đẹp trai và thân thiện.",
+      "exampleAnswerKo": "그는 매우 잘생기고 친절해 보입니다.",
+      "audioSrc": "",
+      "sourcePage": 9,
+      "reviewNeeded": false,
+      "pronKo": "아인 어이 쫑 느 테 나오",
+      "exampleAnswerPronKo": "아인 어이 쫑 젓 뎁 짜이 바 턴 티엔.",
+      "pronNoteKo": "배우 외모 묘사에 바로 쓸 수 있습니다."
+    },
+    {
+      "id": "d09-note-s-005",
+      "textVi": "Cái đó trông rất đơn giản.",
+      "textKo": "그것은 매우 단순해 보입니다.",
+      "exampleAnswerVi": "Cách mua vé trên điện thoại trông rất đơn giản.",
+      "exampleAnswerKo": "휴대폰으로 표를 사는 방법은 매우 간단해 보입니다.",
+      "audioSrc": "",
+      "sourcePage": 9,
+      "reviewNeeded": false,
+      "pronKo": "까이 도 쫑 젓 던 잔",
+      "exampleAnswerPronKo": "까익 무어 베 쩬 디엔 토아이 쫑 젓 던 잔.",
+      "pronNoteKo": "cái đó는 물건이나 방법을 받을 때 쓰기 쉽습니다."
+    },
+    {
+      "id": "d09-note-s-006",
+      "textVi": "Ngôi nhà đó trông rất nhỏ.",
+      "textKo": "그 집은 매우 작아 보입니다.",
+      "exampleAnswerVi": "Rạp phim đó không nhỏ. Nó trông khá lớn.",
+      "exampleAnswerKo": "그 영화관은 작지 않습니다. 꽤 커 보입니다.",
+      "audioSrc": "",
+      "sourcePage": 9,
+      "reviewNeeded": false,
+      "pronKo": "응오이 냐 도 쫑 젓 녀",
+      "exampleAnswerPronKo": "잡 핌 도 콩 녀. 노 쫑 카 런.",
+      "pronNoteKo": "trông + 형용사 구조로 외형을 묘사합니다."
+    },
+    {
+      "id": "d09-note-s-007",
+      "textVi": "Tôi muốn xem lại bộ phim đó.",
+      "textKo": "저는 그 영화를 다시 보고 싶습니다.",
+      "exampleAnswerVi": "Bộ phim đó rất hay, nên tôi muốn xem lại.",
+      "exampleAnswerKo": "그 영화가 매우 좋아서 저는 다시 보고 싶습니다.",
+      "audioSrc": "",
+      "sourcePage": 9,
+      "reviewNeeded": false,
+      "pronKo": "또이 무온 쎔 라이 보 핌 도",
+      "exampleAnswerPronKo": "보 핌 도 젓 하이, 넨 또이 무온 쎔 라이.",
+      "pronNoteKo": "xem lại는 다시 보다입니다. 영화 답변 마무리에 좋습니다."
+    },
+    {
+      "id": "d09-note-s-008",
+      "textVi": "Tại sao bạn lại không đến?",
+      "textKo": "왜 당신은 오지 않았나요?",
+      "exampleAnswerVi": "Tôi không đến vì tôi có việc đột xuất.",
+      "exampleAnswerKo": "저는 갑작스러운 일이 있어서 가지 않았습니다.",
+      "audioSrc": "",
+      "sourcePage": 9,
+      "reviewNeeded": false,
+      "pronKo": "따이 사오 반 라이 콩 덴",
+      "exampleAnswerPronKo": "또이 콩 덴 비 또이 꼬 비엑 돗 쑤엇.",
+      "pronNoteKo": "lại는 의외라는 느낌을 더합니다."
+    },
+    {
+      "id": "d09-note-s-009",
+      "textVi": "Vì sao anh ấy lại buồn?",
+      "textKo": "왜 그는 슬퍼하나요?",
+      "exampleAnswerVi": "Anh ấy buồn vì không mua được vé phim.",
+      "exampleAnswerKo": "그는 영화표를 사지 못해서 슬퍼합니다.",
+      "audioSrc": "",
+      "sourcePage": 9,
+      "reviewNeeded": false,
+      "pronKo": "비 사오 아인 어이 라이 부온",
+      "exampleAnswerPronKo": "아인 어이 부온 비 콩 무어 드억 베 핌.",
+      "pronNoteKo": "vì sao와 tại sao는 둘 다 '왜'입니다."
+    },
+    {
+      "id": "d09-note-s-010",
+      "textVi": "Như tôi đã nói ở trên, tôi rất thích xem phim.",
+      "textKo": "제가 위에서 말했듯이, 저는 영화를 보는 것을 매우 좋아합니다.",
+      "exampleAnswerVi": "Như tôi đã nói ở trên, tôi thường xem phim để giải tỏa căng thẳng.",
+      "exampleAnswerKo": "제가 위에서 말했듯이, 저는 보통 스트레스를 풀기 위해 영화를 봅니다.",
+      "audioSrc": "",
+      "sourcePage": 9,
+      "reviewNeeded": false,
+      "pronKo": "느 또이 다 노이 어 쩬, 또이 젓 틱 쎔 핌",
+      "exampleAnswerPronKo": "느 또이 다 노이 어 쩬, 또이 트엉 쎔 핌 데 자이 토아 깡 탕.",
+      "pronNoteKo": "긴 답변에서 앞 내용을 다시 이어받을 때 좋습니다."
+    },
+    {
+      "id": "d09-note-s-011",
+      "textVi": "Bạn hãy diễn kịch để giải quyết tình huống đó.",
+      "textKo": "그 상황을 해결하기 위해 역할극을 해주세요.",
+      "exampleAnswerVi": "Tôi sẽ gọi điện cho bạn tôi để giải thích tình hình.",
+      "exampleAnswerKo": "저는 상황을 설명하기 위해 제 친구에게 전화하겠습니다.",
+      "audioSrc": "",
+      "sourcePage": 9,
+      "reviewNeeded": false,
+      "pronKo": "반 하이 지엔 끼익 데 자이 꾸엣 띤 후옹 도",
+      "exampleAnswerPronKo": "또이 세 고이 디엔 쪼 반 또이 데 자이 틱 띤 힌.",
+      "pronNoteKo": "역할극 안내문에 자주 나오는 문장입니다."
+    },
+    {
+      "id": "d09-note-s-012",
+      "textVi": "Bộ phim ngày mai hết vé rồi.",
+      "textKo": "내일 영화는 표가 이미 매진되었습니다.",
+      "exampleAnswerVi": "Bộ phim chúng ta muốn xem ngày mai hết vé rồi.",
+      "exampleAnswerKo": "우리가 내일 보고 싶어 하는 영화는 표가 이미 매진되었습니다.",
+      "audioSrc": "",
+      "sourcePage": 9,
+      "reviewNeeded": false,
+      "pronKo": "보 핌 응아이 마이 헷 베 조이",
+      "exampleAnswerPronKo": "보 핌 쭝 따 무온 쎔 응아이 마이 헷 베 조이.",
+      "pronNoteKo": "hết vé rồi는 매진 상황에서 꼭 외워두세요."
+    },
+    {
+      "id": "d09-note-s-013",
+      "textVi": "Bạn hãy giải thích tình hình và đưa ra phương án giải quyết.",
+      "textKo": "상황을 설명하고 해결 방안을 제시하세요.",
+      "exampleAnswerVi": "Tôi sẽ giải thích tình hình và đưa ra hai phương án giải quyết.",
+      "exampleAnswerKo": "저는 상황을 설명하고 두 가지 해결 방안을 제시하겠습니다.",
+      "audioSrc": "",
+      "sourcePage": 9,
+      "reviewNeeded": false,
+      "pronKo": "반 하이 자이 틱 띤 힌 바 드어 자 프엉 안 자이 꾸엣",
+      "exampleAnswerPronKo": "또이 세 자이 틱 띤 힌 바 드어 자 하이 프엉 안 자이 꾸엣.",
+      "pronNoteKo": "설명하다 giải thích, 해결하다 giải quyết을 구분하세요."
+    },
+    {
+      "id": "d09-note-s-014",
+      "textVi": "Chúng ta nên lập kế hoạch khác.",
+      "textKo": "우리는 다른 계획을 세우는 것이 좋겠습니다.",
+      "exampleAnswerVi": "Nếu vé phim hết rồi, chúng ta nên lập kế hoạch khác.",
+      "exampleAnswerKo": "영화표가 매진되었다면 우리는 다른 계획을 세우는 것이 좋겠습니다.",
+      "audioSrc": "",
+      "sourcePage": 9,
+      "reviewNeeded": false,
+      "pronKo": "쭝 따 넨 럽 께 호악 칵",
+      "exampleAnswerPronKo": "네우 베 핌 헷 조이, 쭝 따 넨 럽 께 호악 칵.",
+      "pronNoteKo": "lập kế hoạch은 계획을 세우다입니다."
+    }
+  ],
+  "dialogues": [
+    {
+      "id": "d09-note-d-001",
+      "title": "최근 본 영화 묻고 답하기",
+      "audioSrc": "",
+      "sourcePage": 9,
+      "reviewNeeded": false,
+      "lines": [
+        {
+          "speaker": "A",
+          "vi": "Bộ phim gần đây bạn mới xem tên là gì?",
+          "ko": "최근에 당신이 새로 본 영화의 이름은 무엇인가요?",
+          "pronKo": "보 핌 건 더이 반 머이 쎔 뗀 라 지?"
+        },
+        {
+          "speaker": "B",
+          "vi": "Bộ phim gần đây tôi mới xem tên là Mission Impossible.",
+          "ko": "최근에 제가 본 영화의 이름은 미션 임파서블입니다.",
+          "pronKo": "보 핌 건 더이 또이 머이 쎔 뗀 라 미션 임파서블."
+        },
+        {
+          "speaker": "A",
+          "vi": "Bộ phim đó nói về cái gì?",
+          "ko": "그 영화는 무엇에 관한 내용인가요?",
+          "pronKo": "보 핌 도 노이 베 까이 지?"
+        },
+        {
+          "speaker": "B",
+          "vi": "Bộ phim đó nói về một nhiệm vụ rất nguy hiểm.",
+          "ko": "그 영화는 매우 위험한 임무에 관한 내용입니다.",
+          "pronKo": "보 핌 도 노이 베 못 니엠 부 젓 응우이 히엠."
+        }
+      ]
+    },
+    {
+      "id": "d09-note-d-002",
+      "title": "영화관 묘사하기",
+      "audioSrc": "",
+      "sourcePage": 9,
+      "reviewNeeded": false,
+      "lines": [
+        {
+          "speaker": "A",
+          "vi": "Rạp phim đó trông như thế nào?",
+          "ko": "그 영화관은 어떻게 생겼나요?",
+          "pronKo": "잡 핌 도 쫑 느 테 나오?"
+        },
+        {
+          "speaker": "B",
+          "vi": "Rạp phim đó trông rất sạch và hiện đại.",
+          "ko": "그 영화관은 매우 깨끗하고 현대적으로 보입니다.",
+          "pronKo": "잡 핌 도 쫑 젓 사익 바 히엔 다이."
+        },
+        {
+          "speaker": "A",
+          "vi": "Bạn thích rạp đó hơn những chỗ khác không?",
+          "ko": "당신은 다른 곳들보다 그 영화관을 더 좋아하나요?",
+          "pronKo": "반 틱 잡 도 헌 느응 쪼 칵 콩?"
+        },
+        {
+          "speaker": "B",
+          "vi": "Có, vì rạp đó gần nhà và rất tiện lợi.",
+          "ko": "네, 그 영화관은 집에서 가깝고 매우 편리하기 때문입니다.",
+          "pronKo": "꼬, 비 잡 도 건 냐 바 젓 띠엔 러이."
+        }
+      ]
+    },
+    {
+      "id": "d09-note-d-003",
+      "title": "영화표 매진 상황",
+      "audioSrc": "",
+      "sourcePage": 9,
+      "reviewNeeded": false,
+      "lines": [
+        {
+          "speaker": "A",
+          "vi": "A lô, mình có một vấn đề.",
+          "ko": "여보세요, 나에게 문제가 하나 있어요.",
+          "pronKo": "아 로, 민 꼬 못 번 데."
+        },
+        {
+          "speaker": "B",
+          "vi": "Có vấn đề gì vậy?",
+          "ko": "무슨 문제예요?",
+          "pronKo": "꼬 번 데 지 버이?"
+        },
+        {
+          "speaker": "A",
+          "vi": "Bộ phim ngày mai hết vé rồi.",
+          "ko": "내일 영화는 표가 이미 매진되었어요.",
+          "pronKo": "보 핌 응아이 마이 헷 베 조이."
+        },
+        {
+          "speaker": "B",
+          "vi": "Vậy chúng ta nên làm gì?",
+          "ko": "그럼 우리는 어떻게 하는 것이 좋을까요?",
+          "pronKo": "버이 쭝 따 넨 람 지?"
+        },
+        {
+          "speaker": "A",
+          "vi": "Chúng ta có thể xem phim đó ở rạp khác.",
+          "ko": "우리는 그 영화를 다른 영화관에서 볼 수 있어요.",
+          "pronKo": "쭝 따 꼬 테 쎔 핌 도 어 잡 칵."
+        }
+      ]
+    },
+    {
+      "id": "d09-note-d-004",
+      "title": "전화로 해결 방안 제시하기",
+      "audioSrc": "",
+      "sourcePage": 9,
+      "reviewNeeded": false,
+      "lines": [
+        {
+          "speaker": "A",
+          "vi": "Tôi sẽ gọi điện cho bạn tôi.",
+          "ko": "저는 제 친구에게 전화할 것입니다.",
+          "pronKo": "또이 세 고이 디엔 쪼 반 또이."
+        },
+        {
+          "speaker": "B",
+          "vi": "Bạn sẽ nói gì?",
+          "ko": "당신은 무엇을 말할 건가요?",
+          "pronKo": "반 세 노이 지?"
+        },
+        {
+          "speaker": "A",
+          "vi": "Tôi sẽ giải thích tình hình và đưa ra phương án giải quyết.",
+          "ko": "저는 상황을 설명하고 해결 방안을 제시할 것입니다.",
+          "pronKo": "또이 세 자이 틱 띤 힌 바 드어 자 프엉 안 자이 꾸엣."
+        },
+        {
+          "speaker": "B",
+          "vi": "Đó là một kế hoạch tốt.",
+          "ko": "그것은 좋은 계획입니다.",
+          "pronKo": "도 라 못 께 호악 똣."
+        }
+      ]
+    }
+  ],
+  "grammarPoints": [
+    {
+      "id": "d09-note-g-001",
+      "title": "전·중·후 활동 말하기",
+      "pattern": "Trước khi / Trong khi / Sau khi + 동사",
+      "meaningKo": "동사하기 전에 / 동사하는 동안 / 동사한 후에",
+      "sourcePage": 9,
+      "reviewNeeded": false
+    },
+    {
+      "id": "d09-note-g-002",
+      "title": "영화관 표현 3단계",
+      "pattern": "rạp chiếu phim = rạp phim = rạp",
+      "meaningKo": "영화관 = 영화관 = 극장/영화관",
+      "sourcePage": 9,
+      "reviewNeeded": false
+    },
+    {
+      "id": "d09-note-g-003",
+      "title": "외형 묘사하기",
+      "pattern": "S + trông + 형용사",
+      "meaningKo": "S가 ~해 보이다",
+      "sourcePage": 9,
+      "reviewNeeded": false
+    },
+    {
+      "id": "d09-note-g-004",
+      "title": "어떻게 생겼나요?",
+      "pattern": "S + trông như thế nào?",
+      "meaningKo": "S는 어떻게 생겼나요? / 어떻게 보이나요?",
+      "sourcePage": 9,
+      "reviewNeeded": false
+    },
+    {
+      "id": "d09-note-g-005",
+      "title": "trông과 trong 구분",
+      "pattern": "trông = 보이다 / trong = 안에",
+      "meaningKo": "철자가 비슷하지만 뜻이 완전히 다릅니다.",
+      "sourcePage": 9,
+      "reviewNeeded": false
+    },
+    {
+      "id": "d09-note-g-006",
+      "title": "다시 ~하다",
+      "pattern": "V + lại",
+      "meaningKo": "다시 V하다",
+      "sourcePage": 9,
+      "reviewNeeded": false
+    },
+    {
+      "id": "d09-note-g-007",
+      "title": "강조 느낌의 lại",
+      "pattern": "Tại sao / Vì sao + S + lại + V?",
+      "meaningKo": "왜 S는 V하나요? / 왜 하필 V하나요?",
+      "sourcePage": 9,
+      "reviewNeeded": false
+    },
+    {
+      "id": "d09-note-g-008",
+      "title": "장소 표현 구분",
+      "pattern": "địa điểm / nơi / chỗ",
+      "meaningKo": "장소 / 곳 / 곳·자리",
+      "sourcePage": 9,
+      "reviewNeeded": false
+    },
+    {
+      "id": "d09-note-g-009",
+      "title": "~에 대해 말하다/이야기하다/묘사하다",
+      "pattern": "nói về / kể về / miêu tả về",
+      "meaningKo": "~에 대해 말하다 / ~에 대해 이야기하다 / ~에 대해 묘사하다",
+      "sourcePage": 9,
+      "reviewNeeded": false
+    },
+    {
+      "id": "d09-note-g-010",
+      "title": "무엇? 표현 구분",
+      "pattern": "cái gì / điều gì / thứ gì",
+      "meaningKo": "무엇 / 어떤 일·점 / 어떤 물건",
+      "sourcePage": 9,
+      "reviewNeeded": false
+    },
+    {
+      "id": "d09-note-g-011",
+      "title": "다 떨어졌다",
+      "pattern": "hết + 명사",
+      "meaningKo": "명사가 다 떨어지다 / 매진되다",
+      "sourcePage": 9,
+      "reviewNeeded": false
+    },
+    {
+      "id": "d09-note-g-012",
+      "title": "설명하다 vs 해결하다",
+      "pattern": "giải thích = 설명하다 / giải quyết = 해결하다",
+      "meaningKo": "상황을 설명할 때는 giải thích, 문제를 해결할 때는 giải quyết",
+      "sourcePage": 9,
+      "reviewNeeded": false
+    },
+    {
+      "id": "d09-note-g-013",
+      "title": "해결 방안 제시하기",
+      "pattern": "đưa ra + phương án giải quyết",
+      "meaningKo": "해결 방안을 제시하다",
+      "sourcePage": 9,
+      "reviewNeeded": false
+    },
+    {
+      "id": "d09-note-g-014",
+      "title": "계획 세우기",
+      "pattern": "lập kế hoạch / đưa ra kế hoạch / nghĩ ra kế hoạch",
+      "meaningKo": "계획을 세우다 / 계획을 제시하다 / 계획을 생각해 내다",
+      "sourcePage": 9,
+      "reviewNeeded": false
+    }
+  ],
+  "pronunciationTargets": [
+    {
+      "id": "d09-note-p-001",
+      "text": "Bộ phim gần đây bạn mới xem tên là gì?",
+      "hintKo": "최근에 당신이 새로 본 영화의 이름은 무엇인가요?",
+      "audioSrc": "",
+      "sourcePage": 9,
+      "reviewNeeded": false,
+      "pronKo": "보 핌 건 더이 / 반 머이 쎔 / 뗀 라 지",
+      "mouthKo": "Bộ phim gần đây / bạn mới xem / tên là gì 로 끊습니다.",
+      "toneKo": "최근 본 영화 질문의 시작 문장입니다."
+    },
+    {
+      "id": "d09-note-p-002",
+      "text": "Trước khi xem phim, tôi mua vé xem phim.",
+      "hintKo": "영화를 보기 전에 저는 영화표를 삽니다.",
+      "audioSrc": "",
+      "sourcePage": 9,
+      "reviewNeeded": false,
+      "pronKo": "쯔억 키 쎔 핌 / 또이 무어 베 쎔 핌",
+      "mouthKo": "Trước khi xem phim / tôi mua vé xem phim 으로 끊습니다.",
+      "toneKo": "trước khi는 '전에'입니다."
+    },
+    {
+      "id": "d09-note-p-003",
+      "text": "Trong khi xem phim, tôi tập trung vào nội dung.",
+      "hintKo": "영화를 보는 동안 저는 내용에 집중합니다.",
+      "audioSrc": "",
+      "sourcePage": 9,
+      "reviewNeeded": false,
+      "pronKo": "쫑 키 쎔 핌 / 또이 떱 쭝 바오 노이 중",
+      "mouthKo": "Trong khi xem phim / tôi tập trung / vào nội dung 으로 끊습니다.",
+      "toneKo": "trong khi는 '~하는 동안'입니다."
+    },
+    {
+      "id": "d09-note-p-004",
+      "text": "Sau khi xem phim, tôi thường ăn tối.",
+      "hintKo": "영화를 본 후 저는 보통 저녁을 먹습니다.",
+      "audioSrc": "",
+      "sourcePage": 9,
+      "reviewNeeded": false,
+      "pronKo": "사우 키 쎔 핌 / 또이 트엉 안 또이",
+      "mouthKo": "Sau khi xem phim / tôi thường ăn tối 으로 끊습니다.",
+      "toneKo": "sau khi는 '~한 후에'입니다."
+    },
+    {
+      "id": "d09-note-p-005",
+      "text": "Rạp phim đó trông như thế nào?",
+      "hintKo": "그 영화관은 어떻게 생겼나요?",
+      "audioSrc": "",
+      "sourcePage": 9,
+      "reviewNeeded": false,
+      "pronKo": "잡 핌 도 / 쫑 느 테 나오",
+      "mouthKo": "Rạp phim đó / trông như thế nào 로 끊습니다.",
+      "toneKo": "trông은 '보이다'입니다."
+    },
+    {
+      "id": "d09-note-p-006",
+      "text": "Anh ấy trông rất đẹp trai.",
+      "hintKo": "그는 매우 잘생겨 보입니다.",
+      "audioSrc": "",
+      "sourcePage": 9,
+      "reviewNeeded": false,
+      "pronKo": "아인 어이 / 쫑 젓 뎁 짜이",
+      "mouthKo": "Anh ấy / trông rất đẹp trai 로 끊습니다.",
+      "toneKo": "배우 외모 묘사에 좋습니다."
+    },
+    {
+      "id": "d09-note-p-007",
+      "text": "Tôi muốn xem lại bộ phim đó.",
+      "hintKo": "저는 그 영화를 다시 보고 싶습니다.",
+      "audioSrc": "",
+      "sourcePage": 9,
+      "reviewNeeded": false,
+      "pronKo": "또이 무온 / 쎔 라이 / 보 핌 도",
+      "mouthKo": "Tôi muốn / xem lại / bộ phim đó 로 끊습니다.",
+      "toneKo": "V + lại는 '다시 V하다'입니다."
+    },
+    {
+      "id": "d09-note-p-008",
+      "text": "Tại sao bạn lại không đến?",
+      "hintKo": "왜 당신은 오지 않았나요?",
+      "audioSrc": "",
+      "sourcePage": 9,
+      "reviewNeeded": false,
+      "pronKo": "따이 사오 / 반 라이 / 콩 덴",
+      "mouthKo": "Tại sao / bạn lại / không đến 으로 끊습니다.",
+      "toneKo": "lại는 여기서 의외, 강조의 느낌입니다."
+    },
+    {
+      "id": "d09-note-p-009",
+      "text": "Bộ phim ngày mai hết vé rồi.",
+      "hintKo": "내일 영화는 표가 이미 매진되었습니다.",
+      "audioSrc": "",
+      "sourcePage": 9,
+      "reviewNeeded": false,
+      "pronKo": "보 핌 응아이 마이 / 헷 베 조이",
+      "mouthKo": "Bộ phim ngày mai / hết vé rồi 로 끊습니다.",
+      "toneKo": "hết vé rồi는 통째로 외우면 좋습니다."
+    },
+    {
+      "id": "d09-note-p-010",
+      "text": "Tôi sẽ giải thích tình hình và đưa ra phương án giải quyết.",
+      "hintKo": "저는 상황을 설명하고 해결 방안을 제시하겠습니다.",
+      "audioSrc": "",
+      "sourcePage": 9,
+      "reviewNeeded": false,
+      "pronKo": "또이 세 / 자이 틱 띤 힌 / 바 드어 자 프엉 안 자이 꾸엣",
+      "mouthKo": "Tôi sẽ / giải thích tình hình / và đưa ra phương án giải quyết 로 끊습니다.",
+      "toneKo": "상황극 마무리 핵심 문장입니다."
+    }
+  ],
+  "quizSeeds": [
+    {
+      "id": "d09-note-q-001",
+      "type": "match-term",
+      "prompt": "전·중·후 표현 매칭",
+      "sourcePage": 9,
+      "reviewNeeded": false,
+      "answerSet": [
+        "trước khi-~하기 전에",
+        "trong khi-~하는 동안",
+        "sau khi-~한 후에",
+        "trước khi xem phim-영화를 보기 전에",
+        "trong khi xem phim-영화를 보는 동안",
+        "sau khi xem phim-영화를 본 후에"
+      ]
+    },
+    {
+      "id": "d09-note-q-002",
+      "type": "match-term",
+      "prompt": "영화관 표현 매칭",
+      "sourcePage": 9,
+      "reviewNeeded": false,
+      "answerSet": [
+        "rạp chiếu phim-영화관",
+        "rạp phim-영화관",
+        "rạp-극장/영화관",
+        "CGV-CGV",
+        "vé xem phim-영화표",
+        "vé phim-영화표"
+      ]
+    },
+    {
+      "id": "d09-note-q-003",
+      "type": "match-term",
+      "prompt": "묘사 표현 매칭",
+      "sourcePage": 9,
+      "reviewNeeded": false,
+      "answerSet": [
+        "trông-보이다",
+        "trong-안에",
+        "trông như thế nào-어떻게 생겼나요",
+        "đẹp trai-잘생긴",
+        "xấu-못생긴/나쁜",
+        "đơn giản-간단한"
+      ]
+    },
+    {
+      "id": "d09-note-q-004",
+      "type": "match-term",
+      "prompt": "말하기 동사 매칭",
+      "sourcePage": 9,
+      "reviewNeeded": false,
+      "answerSet": [
+        "kể-이야기하다/들려주다",
+        "nói-말하다",
+        "nói về-~에 대해 말하다",
+        "kể về-~에 대해 이야기하다",
+        "miêu tả-묘사하다",
+        "miêu tả về-~에 대해 묘사하다"
+      ]
+    },
+    {
+      "id": "d09-note-q-005",
+      "type": "match-term",
+      "prompt": "장소 표현 매칭",
+      "sourcePage": 9,
+      "reviewNeeded": false,
+      "answerSet": [
+        "địa điểm-장소/지점",
+        "nơi-곳",
+        "chỗ-곳/자리",
+        "những chỗ khác-다른 곳들",
+        "chỗ học tiếng Việt-베트남어 배우는 곳",
+        "chỗ chơi tennis-테니스 치는 곳"
+      ]
+    },
+    {
+      "id": "d09-note-q-006",
+      "type": "match-term",
+      "prompt": "역할극 문제 해결 표현 매칭",
+      "sourcePage": 9,
+      "reviewNeeded": false,
+      "answerSet": [
+        "tình huống-상황",
+        "diễn kịch-역할극을 하다",
+        "giải quyết-해결하다",
+        "giải thích-설명하다",
+        "phương án-방안/대안",
+        "đưa ra-제시하다"
+      ]
+    },
+    {
+      "id": "d09-note-q-007",
+      "type": "match-term",
+      "prompt": "hết + 명사 표현 매칭",
+      "sourcePage": 9,
+      "reviewNeeded": false,
+      "answerSet": [
+        "hết-다 떨어지다",
+        "hết rồi-다 떨어졌다",
+        "hết vé-표가 매진되다",
+        "hết tiền-돈이 다 떨어지다",
+        "hết ga-가스가 다 떨어지다",
+        "Bộ phim hết vé rồi.-영화표가 이미 매진되었습니다."
+      ]
+    },
+    {
+      "id": "d09-note-q-008",
+      "type": "sentence-meaning",
+      "prompt": "문장 뜻 고르기: 최근 본 영화",
+      "sourcePage": 9,
+      "reviewNeeded": false,
+      "answerSet": [
+        "Bộ phim gần đây bạn mới xem tên là gì?-최근에 당신이 새로 본 영화의 이름은 무엇인가요?",
+        "Bộ phim đó nói về cái gì?-그 영화는 무엇에 관한 내용인가요?",
+        "Hãy kể cho tôi về bộ phim đó.-그 영화에 대해 저에게 이야기해주세요.",
+        "Tôi muốn xem lại bộ phim đó.-저는 그 영화를 다시 보고 싶습니다."
+      ]
+    },
+    {
+      "id": "d09-note-q-009",
+      "type": "sentence-meaning",
+      "prompt": "문장 뜻 고르기: 역할극",
+      "sourcePage": 9,
+      "reviewNeeded": false,
+      "answerSet": [
+        "Bạn hãy diễn kịch để giải quyết tình huống đó.-그 상황을 해결하기 위해 역할극을 해주세요.",
+        "Tôi sẽ gọi điện cho bạn tôi.-저는 제 친구에게 전화할 것입니다.",
+        "Tôi sẽ giải thích tình hình.-저는 상황을 설명할 것입니다.",
+        "Tôi sẽ đưa ra phương án giải quyết.-저는 해결 방안을 제시할 것입니다."
+      ]
+    },
+    {
+      "id": "d09-note-q-010",
+      "type": "fill-blank",
+      "prompt": "빈칸 채우기: 영화를 보기 전에",
+      "sourcePage": 9,
+      "reviewNeeded": false,
+      "question": "___ ___ xem phim, tôi mua vé.",
+      "answer": "Trước khi"
+    },
+    {
+      "id": "d09-note-q-011",
+      "type": "fill-blank",
+      "prompt": "빈칸 채우기: 영화를 보는 동안",
+      "sourcePage": 9,
+      "reviewNeeded": false,
+      "question": "___ ___ xem phim, tôi không dùng điện thoại.",
+      "answer": "Trong khi"
+    },
+    {
+      "id": "d09-note-q-012",
+      "type": "fill-blank",
+      "prompt": "빈칸 채우기: 그 영화관은 어떻게 생겼나요?",
+      "sourcePage": 9,
+      "reviewNeeded": false,
+      "question": "Rạp phim đó ___ ___ ___ ___?",
+      "answer": "trông như thế nào"
+    },
+    {
+      "id": "d09-note-q-013",
+      "type": "fill-blank",
+      "prompt": "빈칸 채우기: 저는 그 영화를 다시 보고 싶습니다.",
+      "sourcePage": 9,
+      "reviewNeeded": false,
+      "question": "Tôi muốn ___ ___ bộ phim đó.",
+      "answer": "xem lại"
+    },
+    {
+      "id": "d09-note-q-014",
+      "type": "fill-blank",
+      "prompt": "빈칸 채우기: 내일 영화표가 매진되었습니다.",
+      "sourcePage": 9,
+      "reviewNeeded": false,
+      "question": "Bộ phim ngày mai ___ ___ rồi.",
+      "answer": "hết vé"
+    },
+    {
+      "id": "d09-note-q-015",
+      "type": "fill-blank",
+      "prompt": "빈칸 채우기: 저는 해결 방안을 제시하겠습니다.",
+      "sourcePage": 9,
+      "reviewNeeded": false,
+      "question": "Tôi sẽ ___ ___ phương án giải quyết.",
+      "answer": "đưa ra"
+    },
+    {
+      "id": "d09-note-q-016",
+      "type": "match-term",
+      "prompt": "역할극 답변 순서 맞추기",
+      "sourcePage": 9,
+      "reviewNeeded": false,
+      "answerSet": [
+        "1-A lô, mình có một vấn đề.",
+        "2-Bộ phim ngày mai hết vé rồi.",
+        "3-Mình rất tiếc.",
+        "4-Chúng ta có thể xem phim đó ở rạp khác.",
+        "5-Hoặc chúng ta có thể chọn giờ khác.",
+        "6-Bạn thích phương án nào?"
+      ]
+    }
+  ],
+  "unlockCondition": "always",
+  "reviewNeeded": false
+    },
+    {
   "lessonId": "day08-movie-questions",
   "unitLabel": "9일차",
   "titleKo": "9일차: 영화 문제",
