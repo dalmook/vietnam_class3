@@ -373,8 +373,9 @@ class VietnameseA1App {
 
 async fetchJson() {
   const paths = [
-    './vietnamese_a1_to_opic_im1_starter.json',
     './vietnamese_a1_to_opic_im1_starter2.json',
+    './vietnamese_a1_to_opic_im1_starter.json',
+    
 
     // 새로 추가할 JSON 파일들
     './question_bank_test.json',
