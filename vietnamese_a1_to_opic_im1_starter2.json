@@ -19,6 +19,2106 @@
   },
   "lessons": [
     {
+  "lessonId": "day11-beach-questions",
+  "unitLabel": "11일차",
+  "titleKo": "11일차: 해변 문제",
+  "titleVi": "Ngày 11: Câu hỏi chủ đề đi biển",
+  "pageRange": "11일차 / 해변 문제 / Đi biển",
+  "goals": [
+    "가 본 해변의 위치, 계절, 이동수단, 동행자를 설명할 수 있다",
+    "해변에서 자주 하는 활동과 가장 좋아하는 활동을 말할 수 있다",
+    "최근 해변 여행을 준비부터 귀가 후 느낌까지 시간 순서대로 설명할 수 있다",
+    "기억에 남는 해변 여행과 특별했던 이유를 말할 수 있다",
+    "해변에 가기 좋은 계절과 그때의 분위기·풍경을 묘사할 수 있다",
+    "날씨 악화, 큰 파도 등 문제 상황을 설명하고 해결 방안을 제시할 수 있다",
+    "친구에게 해변 여행을 제안하고 일정 조율 질문을 할 수 있다"
+  ],
+  "topicOverview": "해변 주제는 공원·여행 주제와 연결해서 말하기 좋은 OPIc 단골 주제입니다. 기본 답변 흐름은 '어디 해변인지 → 언제 가는지 → 누구와 가는지 → 무엇을 하는지 → 분위기와 풍경 → 왜 좋아하는지' 순서로 잡으면 좋습니다. 과거 경험 문제는 '준비한 것 → 이동 방법 → 도착 후 활동 → 사람이 많았는지 → 돌아온 후 느낌' 순서로 말하면 안정적입니다. 역할극 문제에서는 친구에게 전화해서 날짜, 장소, 교통수단, 준비물을 묻고, 비와 큰 파도 상황에서는 카페/식당 이동, 숙소 복귀, 다른 날로 변경 같은 대안을 제시하면 됩니다.",
+  "cultureTopics": [
+    "해변",
+    "바다",
+    "해변 여행",
+    "여름휴가",
+    "제주도",
+    "부산 해운대",
+    "강릉",
+    "속초",
+    "가족 여행",
+    "친구와 여행",
+    "바다 수영",
+    "해변 산책",
+    "일몰 감상",
+    "사진 찍기",
+    "해산물 먹기",
+    "선크림",
+    "수영복",
+    "수건",
+    "파도",
+    "비 오는 날",
+    "날씨 악화",
+    "여행 일정 조율",
+    "문제 해결 역할극"
+  ],
+  "vocabCards": [
+    {
+      "id": "d11-beach-v-001",
+      "term": "đi biển",
+      "meaningKo": "바다에 가다 / 해변에 가다",
+      "example": "Tôi rất thích đi biển vào mùa hè.",
+      "exampleMeaningKo": "저는 여름에 바다에 가는 것을 매우 좋아합니다.",
+      "audioSrc": "",
+      "sourcePage": 11,
+      "reviewNeeded": false,
+      "pronKo": "디 비엔",
+      "pronNoteKo": "해변 주제의 가장 기본 표현입니다.",
+      "pronChunks": [
+        "đi=디",
+        "biển=비엔"
+      ]
+    },
+    {
+      "id": "d11-beach-v-002",
+      "term": "biển",
+      "meaningKo": "바다",
+      "example": "Biển ở Jeju rất đẹp.",
+      "exampleMeaningKo": "제주의 바다는 매우 아름답습니다.",
+      "audioSrc": "",
+      "sourcePage": 11,
+      "reviewNeeded": false,
+      "pronKo": "비엔",
+      "pronNoteKo": "바다 자체를 말할 때 씁니다.",
+      "pronChunks": [
+        "biển=비엔"
+      ]
+    },
+    {
+      "id": "d11-beach-v-003",
+      "term": "bãi biển",
+      "meaningKo": "해변 / 바닷가",
+      "example": "Bãi biển đó rất sạch và đẹp.",
+      "exampleMeaningKo": "그 해변은 매우 깨끗하고 아름답습니다.",
+      "audioSrc": "",
+      "sourcePage": 11,
+      "reviewNeeded": false,
+      "pronKo": "바이 비엔",
+      "pronNoteKo": "문제에서 가장 많이 나오는 핵심 단어입니다.",
+      "pronChunks": [
+        "bãi=바이",
+        "biển=비엔"
+      ]
+    },
+    {
+      "id": "d11-beach-v-004",
+      "term": "bãi biển mà bạn đã đến",
+      "meaningKo": "당신이 가 본 해변",
+      "example": "Hãy nói cho tôi về bãi biển mà bạn đã đến.",
+      "exampleMeaningKo": "당신이 가 본 해변에 대해 저에게 말해주세요.",
+      "audioSrc": "",
+      "sourcePage": 11,
+      "reviewNeeded": false,
+      "pronKo": "바이 비엔 마 반 다 덴",
+      "pronNoteKo": "과거에 가 본 장소를 말하는 문제 표현입니다.",
+      "pronChunks": [
+        "bãi biển=바이 비엔",
+        "mà bạn đã đến=마 반 다 덴"
+      ]
+    },
+    {
+      "id": "d11-beach-v-005",
+      "term": "ở đâu",
+      "meaningKo": "어디에",
+      "example": "Bãi biển đó ở đâu?",
+      "exampleMeaningKo": "그 해변은 어디에 있나요?",
+      "audioSrc": "",
+      "sourcePage": 11,
+      "reviewNeeded": false,
+      "pronKo": "어 더우",
+      "pronNoteKo": "위치 질문의 핵심 표현입니다.",
+      "pronChunks": [
+        "ở=어",
+        "đâu=더우"
+      ]
+    },
+    {
+      "id": "d11-beach-v-006",
+      "term": "vào mùa nào",
+      "meaningKo": "어느 계절에",
+      "example": "Bạn thường đến đó vào mùa nào?",
+      "exampleMeaningKo": "당신은 보통 어느 계절에 그곳에 가나요?",
+      "audioSrc": "",
+      "sourcePage": 11,
+      "reviewNeeded": false,
+      "pronKo": "바오 무어 나오",
+      "pronNoteKo": "계절을 묻는 표현입니다.",
+      "pronChunks": [
+        "vào=바오",
+        "mùa nào=무어 나오"
+      ]
+    },
+    {
+      "id": "d11-beach-v-007",
+      "term": "mùa hè",
+      "meaningKo": "여름",
+      "example": "Tôi thường đi biển vào mùa hè.",
+      "exampleMeaningKo": "저는 보통 여름에 바다에 갑니다.",
+      "audioSrc": "",
+      "sourcePage": 11,
+      "reviewNeeded": false,
+      "pronKo": "무어 헤",
+      "pronNoteKo": "해변 주제에서 가장 쓰기 쉬운 계절입니다.",
+      "pronChunks": [
+        "mùa=무어",
+        "hè=헤"
+      ]
+    },
+    {
+      "id": "d11-beach-v-008",
+      "term": "mùa xuân",
+      "meaningKo": "봄",
+      "example": "Mùa xuân, biển khá yên tĩnh.",
+      "exampleMeaningKo": "봄에는 바다가 꽤 조용합니다.",
+      "audioSrc": "",
+      "sourcePage": 11,
+      "reviewNeeded": false,
+      "pronKo": "무어 쑤언",
+      "pronNoteKo": "한적한 바다를 말할 때 좋습니다.",
+      "pronChunks": [
+        "mùa=무어",
+        "xuân=쑤언"
+      ]
+    },
+    {
+      "id": "d11-beach-v-009",
+      "term": "mùa thu",
+      "meaningKo": "가을",
+      "example": "Tôi thích đi biển vào mùa thu vì thời tiết mát mẻ.",
+      "exampleMeaningKo": "저는 날씨가 시원해서 가을에 바다에 가는 것을 좋아합니다.",
+      "audioSrc": "",
+      "sourcePage": 11,
+      "reviewNeeded": false,
+      "pronKo": "무어 투",
+      "pronNoteKo": "여름보다 덜 붐비는 계절을 말할 때 좋습니다.",
+      "pronChunks": [
+        "mùa=무어",
+        "thu=투"
+      ]
+    },
+    {
+      "id": "d11-beach-v-010",
+      "term": "mùa đông",
+      "meaningKo": "겨울",
+      "example": "Mùa đông, biển rất lạnh nhưng yên tĩnh.",
+      "exampleMeaningKo": "겨울에는 바다가 매우 춥지만 조용합니다.",
+      "audioSrc": "",
+      "sourcePage": 11,
+      "reviewNeeded": false,
+      "pronKo": "무어 동",
+      "pronNoteKo": "겨울 바다의 분위기를 말할 때 씁니다.",
+      "pronChunks": [
+        "mùa=무어",
+        "đông=동"
+      ]
+    },
+    {
+      "id": "d11-beach-v-011",
+      "term": "bằng gì",
+      "meaningKo": "무엇을 타고 / 어떤 수단으로",
+      "example": "Bạn đã đi bằng gì đến đó?",
+      "exampleMeaningKo": "당신은 무엇을 타고 그곳에 갔나요?",
+      "audioSrc": "",
+      "sourcePage": 11,
+      "reviewNeeded": false,
+      "pronKo": "방 지",
+      "pronNoteKo": "교통수단 질문입니다.",
+      "pronChunks": [
+        "bằng=방",
+        "gì=지"
+      ]
+    },
+    {
+      "id": "d11-beach-v-012",
+      "term": "đến đó",
+      "meaningKo": "그곳에 도착하다 / 그곳에 가다",
+      "example": "Tôi đã đến đó bằng xe ô tô.",
+      "exampleMeaningKo": "저는 자동차를 타고 그곳에 갔습니다.",
+      "audioSrc": "",
+      "sourcePage": 11,
+      "reviewNeeded": false,
+      "pronKo": "덴 도",
+      "pronNoteKo": "đó는 앞에서 말한 장소를 받습니다.",
+      "pronChunks": [
+        "đến=덴",
+        "đó=도"
+      ]
+    },
+    {
+      "id": "d11-beach-v-013",
+      "term": "cùng ai",
+      "meaningKo": "누구와 함께",
+      "example": "Bạn đã đến đó cùng ai?",
+      "exampleMeaningKo": "당신은 누구와 함께 그곳에 갔나요?",
+      "audioSrc": "",
+      "sourcePage": 11,
+      "reviewNeeded": false,
+      "pronKo": "꿍 아이",
+      "pronNoteKo": "동행자를 묻는 표현입니다.",
+      "pronChunks": [
+        "cùng=꿍",
+        "ai=아이"
+      ]
+    },
+    {
+      "id": "d11-beach-v-014",
+      "term": "cùng với gia đình",
+      "meaningKo": "가족과 함께",
+      "example": "Tôi thường đi biển cùng với gia đình.",
+      "exampleMeaningKo": "저는 보통 가족과 함께 바다에 갑니다.",
+      "audioSrc": "",
+      "sourcePage": 11,
+      "reviewNeeded": false,
+      "pronKo": "꿍 버이 자 딘",
+      "pronNoteKo": "해변 답변에서 가장 안전한 동행자 표현입니다.",
+      "pronChunks": [
+        "cùng với=꿍 버이",
+        "gia đình=자 딘"
+      ]
+    },
+    {
+      "id": "d11-beach-v-015",
+      "term": "cùng với bạn bè",
+      "meaningKo": "친구들과 함께",
+      "example": "Tôi đã đi biển cùng với bạn bè.",
+      "exampleMeaningKo": "저는 친구들과 함께 바다에 갔습니다.",
+      "audioSrc": "",
+      "sourcePage": 11,
+      "reviewNeeded": false,
+      "pronKo": "꿍 버이 반 베",
+      "pronNoteKo": "친구와 여행한 경험을 말할 때 좋습니다.",
+      "pronChunks": [
+        "cùng với=꿍 버이",
+        "bạn bè=반 베"
+      ]
+    },
+    {
+      "id": "d11-beach-v-016",
+      "term": "nơi đó",
+      "meaningKo": "그곳",
+      "example": "Tôi thích nơi đó vì không khí rất trong lành.",
+      "exampleMeaningKo": "저는 공기가 매우 맑아서 그곳을 좋아합니다.",
+      "audioSrc": "",
+      "sourcePage": 11,
+      "reviewNeeded": false,
+      "pronKo": "너이 도",
+      "pronNoteKo": "앞에서 말한 해변을 자연스럽게 다시 받을 때 씁니다.",
+      "pronChunks": [
+        "nơi=너이",
+        "đó=도"
+      ]
+    },
+    {
+      "id": "d11-beach-v-017",
+      "term": "chi tiết",
+      "meaningKo": "자세히 / 세부사항",
+      "example": "Hãy nói cho tôi chi tiết.",
+      "exampleMeaningKo": "저에게 자세히 말해주세요.",
+      "audioSrc": "",
+      "sourcePage": 11,
+      "reviewNeeded": false,
+      "pronKo": "찌 띠엣",
+      "pronNoteKo": "문제 끝에 자주 붙는 표현입니다.",
+      "pronChunks": [
+        "chi=찌",
+        "tiết=띠엣"
+      ]
+    },
+    {
+      "id": "d11-beach-v-018",
+      "term": "một cách chi tiết",
+      "meaningKo": "자세하게",
+      "example": "Hãy nói cho tôi biết một cách chi tiết.",
+      "exampleMeaningKo": "저에게 자세하게 알려주세요.",
+      "audioSrc": "",
+      "sourcePage": 11,
+      "reviewNeeded": false,
+      "pronKo": "못 까익 찌 띠엣",
+      "pronNoteKo": "격식 있게 '자세하게'라고 말하는 표현입니다.",
+      "pronChunks": [
+        "một cách=못 까익",
+        "chi tiết=찌 띠엣"
+      ]
+    },
+    {
+      "id": "d11-beach-v-019",
+      "term": "hoạt động",
+      "meaningKo": "활동",
+      "example": "Hoạt động tôi thích nhất ở biển là bơi.",
+      "exampleMeaningKo": "제가 바다에서 가장 좋아하는 활동은 수영입니다.",
+      "audioSrc": "",
+      "sourcePage": 11,
+      "reviewNeeded": false,
+      "pronKo": "호앗 동",
+      "pronNoteKo": "해변에서 하는 일을 말할 때 핵심 단어입니다.",
+      "pronChunks": [
+        "hoạt=호앗",
+        "động=동"
+      ]
+    },
+    {
+      "id": "d11-beach-v-020",
+      "term": "hoạt động nào nhất",
+      "meaningKo": "어떤 활동을 가장",
+      "example": "Bạn thích hoạt động nào nhất ở biển?",
+      "exampleMeaningKo": "당신은 바다에서 어떤 활동을 가장 좋아하나요?",
+      "audioSrc": "",
+      "sourcePage": 11,
+      "reviewNeeded": false,
+      "pronKo": "호앗 동 나오 녓",
+      "pronNoteKo": "가장 좋아하는 활동을 묻는 표현입니다.",
+      "pronChunks": [
+        "hoạt động=호앗 동",
+        "nào nhất=나오 녓"
+      ]
+    },
+    {
+      "id": "d11-beach-v-021",
+      "term": "bơi",
+      "meaningKo": "수영하다",
+      "example": "Tôi thích bơi ở biển.",
+      "exampleMeaningKo": "저는 바다에서 수영하는 것을 좋아합니다.",
+      "audioSrc": "",
+      "sourcePage": 11,
+      "reviewNeeded": false,
+      "pronKo": "버이",
+      "pronNoteKo": "바다 활동에서 가장 기본입니다.",
+      "pronChunks": [
+        "bơi=버이"
+      ]
+    },
+    {
+      "id": "d11-beach-v-022",
+      "term": "tắm biển",
+      "meaningKo": "해수욕하다 / 바닷물에 들어가다",
+      "example": "Vào mùa hè, nhiều người tắm biển.",
+      "exampleMeaningKo": "여름에는 많은 사람들이 해수욕을 합니다.",
+      "audioSrc": "",
+      "sourcePage": 11,
+      "reviewNeeded": false,
+      "pronKo": "땀 비엔",
+      "pronNoteKo": "bơi보다 '바다에 들어가 즐기다'의 느낌입니다.",
+      "pronChunks": [
+        "tắm=땀",
+        "biển=비엔"
+      ]
+    },
+    {
+      "id": "d11-beach-v-023",
+      "term": "đi dạo trên bãi biển",
+      "meaningKo": "해변을 산책하다",
+      "example": "Tôi thích đi dạo trên bãi biển vào buổi sáng.",
+      "exampleMeaningKo": "저는 아침에 해변을 산책하는 것을 좋아합니다.",
+      "audioSrc": "",
+      "sourcePage": 11,
+      "reviewNeeded": false,
+      "pronKo": "디 자오 쩬 바이 비엔",
+      "pronNoteKo": "수영을 안 해도 쓸 수 있는 쉬운 해변 활동입니다.",
+      "pronChunks": [
+        "đi dạo=디 자오",
+        "trên bãi biển=쩬 바이 비엔"
+      ]
+    },
+    {
+      "id": "d11-beach-v-024",
+      "term": "ngắm biển",
+      "meaningKo": "바다를 감상하다 / 바라보다",
+      "example": "Tôi ngồi trên cát và ngắm biển.",
+      "exampleMeaningKo": "저는 모래 위에 앉아서 바다를 감상합니다.",
+      "audioSrc": "",
+      "sourcePage": 11,
+      "reviewNeeded": false,
+      "pronKo": "응암 비엔",
+      "pronNoteKo": "편안한 활동을 말할 때 좋습니다.",
+      "pronChunks": [
+        "ngắm=응암",
+        "biển=비엔"
+      ]
+    },
+    {
+      "id": "d11-beach-v-025",
+      "term": "ngắm hoàng hôn",
+      "meaningKo": "일몰을 감상하다",
+      "example": "Tôi thích ngắm hoàng hôn ở biển.",
+      "exampleMeaningKo": "저는 바다에서 일몰을 감상하는 것을 좋아합니다.",
+      "audioSrc": "",
+      "sourcePage": 11,
+      "reviewNeeded": false,
+      "pronKo": "응암 호앙 혼",
+      "pronNoteKo": "기억에 남는 여행 설명에 넣으면 좋습니다.",
+      "pronChunks": [
+        "ngắm=응암",
+        "hoàng hôn=호앙 혼"
+      ]
+    },
+    {
+      "id": "d11-beach-v-026",
+      "term": "chụp ảnh",
+      "meaningKo": "사진을 찍다",
+      "example": "Tôi chụp nhiều ảnh ở bãi biển.",
+      "exampleMeaningKo": "저는 해변에서 사진을 많이 찍었습니다.",
+      "audioSrc": "",
+      "sourcePage": 11,
+      "reviewNeeded": false,
+      "pronKo": "쭙 아인",
+      "pronNoteKo": "여행 경험에서 자주 쓰는 활동입니다.",
+      "pronChunks": [
+        "chụp=쭙",
+        "ảnh=아인"
+      ]
+    },
+    {
+      "id": "d11-beach-v-027",
+      "term": "ăn hải sản",
+      "meaningKo": "해산물을 먹다",
+      "example": "Sau khi chơi ở biển, tôi ăn hải sản với gia đình.",
+      "exampleMeaningKo": "바다에서 논 후 저는 가족과 해산물을 먹었습니다.",
+      "audioSrc": "",
+      "sourcePage": 11,
+      "reviewNeeded": false,
+      "pronKo": "안 하이 산",
+      "pronNoteKo": "해변 여행 후 활동으로 아주 좋습니다.",
+      "pronChunks": [
+        "ăn=안",
+        "hải sản=하이 산"
+      ]
+    },
+    {
+      "id": "d11-beach-v-028",
+      "term": "hải sản",
+      "meaningKo": "해산물",
+      "example": "Hải sản ở đó rất tươi và ngon.",
+      "exampleMeaningKo": "그곳의 해산물은 매우 신선하고 맛있습니다.",
+      "audioSrc": "",
+      "sourcePage": 11,
+      "reviewNeeded": false,
+      "pronKo": "하이 산",
+      "pronNoteKo": "바닷가 여행 답변에 넣기 좋습니다.",
+      "pronChunks": [
+        "hải=하이",
+        "sản=산"
+      ]
+    },
+    {
+      "id": "d11-beach-v-029",
+      "term": "chơi trên cát",
+      "meaningKo": "모래 위에서 놀다",
+      "example": "Con tôi thích chơi trên cát.",
+      "exampleMeaningKo": "제 아이는 모래 위에서 노는 것을 좋아합니다.",
+      "audioSrc": "",
+      "sourcePage": 11,
+      "reviewNeeded": false,
+      "pronKo": "쩌이 쩬 깟",
+      "pronNoteKo": "아이와 해변에 간 경험에 쓰기 좋습니다.",
+      "pronChunks": [
+        "chơi=쩌이",
+        "trên cát=쩬 깟"
+      ]
+    },
+    {
+      "id": "d11-beach-v-030",
+      "term": "cát",
+      "meaningKo": "모래",
+      "example": "Cát ở bãi biển đó rất mịn.",
+      "exampleMeaningKo": "그 해변의 모래는 매우 고운 편입니다.",
+      "audioSrc": "",
+      "sourcePage": 11,
+      "reviewNeeded": false,
+      "pronKo": "깟",
+      "pronNoteKo": "해변 풍경 묘사에 쓸 수 있습니다.",
+      "pronChunks": [
+        "cát=깟"
+      ]
+    },
+    {
+      "id": "d11-beach-v-031",
+      "term": "chuyến đi biển",
+      "meaningKo": "해변 여행 / 바다 여행",
+      "example": "Chuyến đi biển gần đây nhất của tôi rất vui.",
+      "exampleMeaningKo": "저의 가장 최근 바다 여행은 매우 즐거웠습니다.",
+      "audioSrc": "",
+      "sourcePage": 11,
+      "reviewNeeded": false,
+      "pronKo": "쭈옌 디 비엔",
+      "pronNoteKo": "여행 경험 문제의 핵심 표현입니다.",
+      "pronChunks": [
+        "chuyến đi=쭈옌 디",
+        "biển=비엔"
+      ]
+    },
+    {
+      "id": "d11-beach-v-032",
+      "term": "chuyến du lịch biển",
+      "meaningKo": "해변 관광 여행 / 바다 여행",
+      "example": "Tôi muốn kể về một chuyến du lịch biển đáng nhớ.",
+      "exampleMeaningKo": "저는 기억에 남는 바다 여행에 대해 이야기하고 싶습니다.",
+      "audioSrc": "",
+      "sourcePage": 11,
+      "reviewNeeded": false,
+      "pronKo": "쭈옌 주 릭 비엔",
+      "pronNoteKo": "chuyến đi biển보다 조금 더 여행 느낌이 강합니다.",
+      "pronChunks": [
+        "chuyến du lịch=쭈옌 주 릭",
+        "biển=비엔"
+      ]
+    },
+    {
+      "id": "d11-beach-v-033",
+      "term": "gần đây nhất",
+      "meaningKo": "가장 최근의",
+      "example": "Chuyến đi biển gần đây nhất là vào tháng trước.",
+      "exampleMeaningKo": "가장 최근 해변 여행은 지난달이었습니다.",
+      "audioSrc": "",
+      "sourcePage": 11,
+      "reviewNeeded": false,
+      "pronKo": "건 더이 녓",
+      "pronNoteKo": "최근 경험을 말할 때 씁니다.",
+      "pronChunks": [
+        "gần đây=건 더이",
+        "nhất=녓"
+      ]
+    },
+    {
+      "id": "d11-beach-v-034",
+      "term": "chuẩn bị",
+      "meaningKo": "준비하다",
+      "example": "Trước chuyến đi, tôi chuẩn bị đồ bơi và khăn tắm.",
+      "exampleMeaningKo": "여행 전에 저는 수영복과 수건을 준비했습니다.",
+      "audioSrc": "",
+      "sourcePage": 11,
+      "reviewNeeded": false,
+      "pronKo": "쭈언 비",
+      "pronNoteKo": "여행 전 준비물 설명에 필수입니다.",
+      "pronChunks": [
+        "chuẩn=쭈언",
+        "bị=비"
+      ]
+    },
+    {
+      "id": "d11-beach-v-035",
+      "term": "trước chuyến đi",
+      "meaningKo": "여행 전에",
+      "example": "Trước chuyến đi, tôi đặt khách sạn.",
+      "exampleMeaningKo": "여행 전에 저는 호텔을 예약했습니다.",
+      "audioSrc": "",
+      "sourcePage": 11,
+      "reviewNeeded": false,
+      "pronKo": "쯔억 쭈옌 디",
+      "pronNoteKo": "과거 경험을 시간순으로 말할 때 좋습니다.",
+      "pronChunks": [
+        "trước=쯔억",
+        "chuyến đi=쭈옌 디"
+      ]
+    },
+    {
+      "id": "d11-beach-v-036",
+      "term": "đồ bơi",
+      "meaningKo": "수영복",
+      "example": "Tôi mang đồ bơi khi đi biển.",
+      "exampleMeaningKo": "저는 바다에 갈 때 수영복을 가져갑니다.",
+      "audioSrc": "",
+      "sourcePage": 11,
+      "reviewNeeded": false,
+      "pronKo": "도 버이",
+      "pronNoteKo": "해변 준비물 핵심 단어입니다.",
+      "pronChunks": [
+        "đồ=도",
+        "bơi=버이"
+      ]
+    },
+    {
+      "id": "d11-beach-v-037",
+      "term": "khăn tắm",
+      "meaningKo": "수건 / 목욕 수건",
+      "example": "Tôi chuẩn bị khăn tắm và nước uống.",
+      "exampleMeaningKo": "저는 수건과 마실 물을 준비했습니다.",
+      "audioSrc": "",
+      "sourcePage": 11,
+      "reviewNeeded": false,
+      "pronKo": "칸 땀",
+      "pronNoteKo": "해변 준비물로 자주 말할 수 있습니다.",
+      "pronChunks": [
+        "khăn=칸",
+        "tắm=땀"
+      ]
+    },
+    {
+      "id": "d11-beach-v-038",
+      "term": "kem chống nắng",
+      "meaningKo": "선크림",
+      "example": "Tôi luôn mang kem chống nắng khi đi biển.",
+      "exampleMeaningKo": "저는 바다에 갈 때 항상 선크림을 가져갑니다.",
+      "audioSrc": "",
+      "sourcePage": 11,
+      "reviewNeeded": false,
+      "pronKo": "껨 쫑 낭",
+      "pronNoteKo": "nắng은 햇볕, chống은 막다입니다.",
+      "pronChunks": [
+        "kem=껨",
+        "chống nắng=쫑 낭"
+      ]
+    },
+    {
+      "id": "d11-beach-v-039",
+      "term": "mũ",
+      "meaningKo": "모자",
+      "example": "Tôi mang mũ vì trời nắng.",
+      "exampleMeaningKo": "날씨가 햇볕이 강해서 저는 모자를 가져갑니다.",
+      "audioSrc": "",
+      "sourcePage": 11,
+      "reviewNeeded": false,
+      "pronKo": "무",
+      "pronNoteKo": "햇빛이 강한 해변 준비물입니다.",
+      "pronChunks": [
+        "mũ=무"
+      ]
+    },
+    {
+      "id": "d11-beach-v-040",
+      "term": "kính râm",
+      "meaningKo": "선글라스",
+      "example": "Tôi chuẩn bị kính râm trước chuyến đi.",
+      "exampleMeaningKo": "저는 여행 전에 선글라스를 준비했습니다.",
+      "audioSrc": "",
+      "sourcePage": 11,
+      "reviewNeeded": false,
+      "pronKo": "낀 잠",
+      "pronNoteKo": "râm은 그늘/햇빛을 가리는 느낌입니다.",
+      "pronChunks": [
+        "kính=낀",
+        "râm=잠"
+      ]
+    },
+    {
+      "id": "d11-beach-v-041",
+      "term": "nước uống",
+      "meaningKo": "마실 물 / 음료",
+      "example": "Tôi mang nước uống và đồ ăn nhẹ.",
+      "exampleMeaningKo": "저는 음료와 간식을 가져갑니다.",
+      "audioSrc": "",
+      "sourcePage": 11,
+      "reviewNeeded": false,
+      "pronKo": "느억 우옹",
+      "pronNoteKo": "여행 준비물에 자주 넣습니다.",
+      "pronChunks": [
+        "nước=느억",
+        "uống=우옹"
+      ]
+    },
+    {
+      "id": "d11-beach-v-042",
+      "term": "đồ ăn nhẹ",
+      "meaningKo": "간식",
+      "example": "Trước chuyến đi, tôi mua đồ ăn nhẹ.",
+      "exampleMeaningKo": "여행 전에 저는 간식을 샀습니다.",
+      "audioSrc": "",
+      "sourcePage": 11,
+      "reviewNeeded": false,
+      "pronKo": "도 안 녜",
+      "pronNoteKo": "nhẹ는 가볍다는 뜻입니다.",
+      "pronChunks": [
+        "đồ ăn=도 안",
+        "nhẹ=녜"
+      ]
+    },
+    {
+      "id": "d11-beach-v-043",
+      "term": "đến đó như thế nào",
+      "meaningKo": "어떻게 그곳에 갔나요",
+      "example": "Bạn đã đến đó như thế nào?",
+      "exampleMeaningKo": "당신은 어떻게 그곳에 갔나요?",
+      "audioSrc": "",
+      "sourcePage": 11,
+      "reviewNeeded": false,
+      "pronKo": "덴 도 느 테 나오",
+      "pronNoteKo": "교통수단과 이동 방법을 묻는 표현입니다.",
+      "pronChunks": [
+        "đến đó=덴 도",
+        "như thế nào=느 테 나오"
+      ]
+    },
+    {
+      "id": "d11-beach-v-044",
+      "term": "bằng xe ô tô",
+      "meaningKo": "자동차로",
+      "example": "Tôi đến đó bằng xe ô tô.",
+      "exampleMeaningKo": "저는 자동차로 그곳에 갔습니다.",
+      "audioSrc": "",
+      "sourcePage": 11,
+      "reviewNeeded": false,
+      "pronKo": "방 쎄 오 또",
+      "pronNoteKo": "자가용/차로 갔다고 말할 때 씁니다.",
+      "pronChunks": [
+        "bằng=방",
+        "xe ô tô=쎄 오 또"
+      ]
+    },
+    {
+      "id": "d11-beach-v-045",
+      "term": "bằng máy bay",
+      "meaningKo": "비행기로",
+      "example": "Tôi đi Jeju bằng máy bay.",
+      "exampleMeaningKo": "저는 비행기로 제주도에 갔습니다.",
+      "audioSrc": "",
+      "sourcePage": 11,
+      "reviewNeeded": false,
+      "pronKo": "방 마이 바이",
+      "pronNoteKo": "제주도 해변을 말할 때 좋습니다.",
+      "pronChunks": [
+        "bằng=방",
+        "máy bay=마이 바이"
+      ]
+    },
+    {
+      "id": "d11-beach-v-046",
+      "term": "bằng tàu",
+      "meaningKo": "기차로 / 배로",
+      "example": "Tôi đến thành phố biển bằng tàu.",
+      "exampleMeaningKo": "저는 기차로 바닷가 도시에 갔습니다.",
+      "audioSrc": "",
+      "sourcePage": 11,
+      "reviewNeeded": false,
+      "pronKo": "방 따우",
+      "pronNoteKo": "문맥에 따라 기차 또는 배가 될 수 있습니다.",
+      "pronChunks": [
+        "bằng=방",
+        "tàu=따우"
+      ]
+    },
+    {
+      "id": "d11-beach-v-047",
+      "term": "đông người",
+      "meaningKo": "사람이 많은 / 붐비는",
+      "example": "Bãi biển đó rất đông người vào mùa hè.",
+      "exampleMeaningKo": "그 해변은 여름에 사람이 매우 많습니다.",
+      "audioSrc": "",
+      "sourcePage": 11,
+      "reviewNeeded": false,
+      "pronKo": "동 응으어이",
+      "pronNoteKo": "해변 분위기 설명에서 자주 씁니다.",
+      "pronChunks": [
+        "đông=동",
+        "người=응으어이"
+      ]
+    },
+    {
+      "id": "d11-beach-v-048",
+      "term": "không đông người",
+      "meaningKo": "사람이 많지 않은 / 붐비지 않는",
+      "example": "Bãi biển đó không đông người vào buổi sáng.",
+      "exampleMeaningKo": "그 해변은 아침에 사람이 많지 않습니다.",
+      "audioSrc": "",
+      "sourcePage": 11,
+      "reviewNeeded": false,
+      "pronKo": "콩 동 응으어이",
+      "pronNoteKo": "한적한 해변을 말할 때 좋습니다.",
+      "pronChunks": [
+        "không=콩",
+        "đông người=동 응으어이"
+      ]
+    },
+    {
+      "id": "d11-beach-v-049",
+      "term": "sau khi về",
+      "meaningKo": "돌아온 후에",
+      "example": "Sau khi về, tôi cảm thấy rất thoải mái.",
+      "exampleMeaningKo": "돌아온 후에 저는 매우 편안함을 느꼈습니다.",
+      "audioSrc": "",
+      "sourcePage": 11,
+      "reviewNeeded": false,
+      "pronKo": "사우 키 베",
+      "pronNoteKo": "여행 후 느낌을 말할 때 씁니다.",
+      "pronChunks": [
+        "sau khi=사우 키",
+        "về=베"
+      ]
+    },
+    {
+      "id": "d11-beach-v-050",
+      "term": "cảm thấy",
+      "meaningKo": "느끼다",
+      "example": "Tôi cảm thấy rất vui.",
+      "exampleMeaningKo": "저는 매우 즐겁다고 느꼈습니다.",
+      "audioSrc": "",
+      "sourcePage": 11,
+      "reviewNeeded": false,
+      "pronKo": "깜 터이",
+      "pronNoteKo": "여행 후 감정 표현에 필수입니다.",
+      "pronChunks": [
+        "cảm=깜",
+        "thấy=터이"
+      ]
+    },
+    {
+      "id": "d11-beach-v-051",
+      "term": "thoải mái",
+      "meaningKo": "편안한 / 기분 좋은",
+      "example": "Tôi cảm thấy rất thoải mái khi đi biển.",
+      "exampleMeaningKo": "저는 바다에 갈 때 매우 편안함을 느낍니다.",
+      "audioSrc": "",
+      "sourcePage": 11,
+      "reviewNeeded": false,
+      "pronKo": "토아이 마이",
+      "pronNoteKo": "해변에 가는 이유로 자주 씁니다.",
+      "pronChunks": [
+        "thoải=토아이",
+        "mái=마이"
+      ]
+    },
+    {
+      "id": "d11-beach-v-052",
+      "term": "đáng nhớ",
+      "meaningKo": "기억에 남는",
+      "example": "Đó là một chuyến du lịch biển đáng nhớ.",
+      "exampleMeaningKo": "그것은 기억에 남는 바다 여행이었습니다.",
+      "audioSrc": "",
+      "sourcePage": 11,
+      "reviewNeeded": false,
+      "pronKo": "당 녀",
+      "pronNoteKo": "특별한 경험 문제의 핵심 표현입니다.",
+      "pronChunks": [
+        "đáng=당",
+        "nhớ=녀"
+      ]
+    },
+    {
+      "id": "d11-beach-v-053",
+      "term": "đặc biệt",
+      "meaningKo": "특별한",
+      "example": "Chuyến đi đó rất đặc biệt đối với tôi.",
+      "exampleMeaningKo": "그 여행은 저에게 매우 특별했습니다.",
+      "audioSrc": "",
+      "sourcePage": 11,
+      "reviewNeeded": false,
+      "pronKo": "닥 비엣",
+      "pronNoteKo": "왜 기억에 남는지 설명할 때 씁니다.",
+      "pronChunks": [
+        "đặc=닥",
+        "biệt=비엣"
+      ]
+    },
+    {
+      "id": "d11-beach-v-054",
+      "term": "trở nên",
+      "meaningKo": "~하게 되다",
+      "example": "Điều đó làm cho chuyến đi trở nên đặc biệt.",
+      "exampleMeaningKo": "그것이 그 여행을 특별하게 만들었습니다.",
+      "audioSrc": "",
+      "sourcePage": 11,
+      "reviewNeeded": false,
+      "pronKo": "쩌 넨",
+      "pronNoteKo": "특별하게 되다, 좋아지다 같은 변화에 씁니다.",
+      "pronChunks": [
+        "trở=쩌",
+        "nên=넨"
+      ]
+    },
+    {
+      "id": "d11-beach-v-055",
+      "term": "từ lúc bắt đầu đến khi kết thúc",
+      "meaningKo": "시작할 때부터 끝날 때까지",
+      "example": "Hãy kể chi tiết từ lúc bắt đầu đến khi kết thúc chuyến đi.",
+      "exampleMeaningKo": "여행이 시작될 때부터 끝날 때까지 자세히 이야기해주세요.",
+      "audioSrc": "",
+      "sourcePage": 11,
+      "reviewNeeded": false,
+      "pronKo": "뜨 룩 밧 더우 덴 키 껫 툭",
+      "pronNoteKo": "긴 과거 경험을 시간 순서대로 말할 때 좋습니다.",
+      "pronChunks": [
+        "từ lúc bắt đầu=뜨 룩 밧 더우",
+        "đến khi kết thúc=덴 키 껫 툭"
+      ]
+    },
+    {
+      "id": "d11-beach-v-056",
+      "term": "bắt đầu",
+      "meaningKo": "시작하다",
+      "example": "Chuyến đi bắt đầu vào sáng thứ bảy.",
+      "exampleMeaningKo": "그 여행은 토요일 아침에 시작되었습니다.",
+      "audioSrc": "",
+      "sourcePage": 11,
+      "reviewNeeded": false,
+      "pronKo": "밧 더우",
+      "pronNoteKo": "여행 시작을 말할 때 씁니다.",
+      "pronChunks": [
+        "bắt=밧",
+        "đầu=더우"
+      ]
+    },
+    {
+      "id": "d11-beach-v-057",
+      "term": "kết thúc",
+      "meaningKo": "끝나다 / 끝내다",
+      "example": "Chuyến đi kết thúc vào buổi tối.",
+      "exampleMeaningKo": "그 여행은 저녁에 끝났습니다.",
+      "audioSrc": "",
+      "sourcePage": 11,
+      "reviewNeeded": false,
+      "pronKo": "껫 툭",
+      "pronNoteKo": "여행의 끝을 말할 때 씁니다.",
+      "pronChunks": [
+        "kết=껫",
+        "thúc=툭"
+      ]
+    },
+    {
+      "id": "d11-beach-v-058",
+      "term": "quang cảnh",
+      "meaningKo": "풍경 / 경치",
+      "example": "Quang cảnh ở biển vào mùa hè rất đẹp.",
+      "exampleMeaningKo": "여름 바다의 풍경은 매우 아름답습니다.",
+      "audioSrc": "",
+      "sourcePage": 11,
+      "reviewNeeded": false,
+      "pronKo": "꽝 까인",
+      "pronNoteKo": "해변의 풍경을 묘사할 때 필수입니다.",
+      "pronChunks": [
+        "quang=꽝",
+        "cảnh=까인"
+      ]
+    },
+    {
+      "id": "d11-beach-v-059",
+      "term": "không khí ở biển",
+      "meaningKo": "바다의 분위기 / 바닷가 공기",
+      "example": "Không khí ở biển rất mát mẻ.",
+      "exampleMeaningKo": "바다의 공기/분위기는 매우 시원합니다.",
+      "audioSrc": "",
+      "sourcePage": 11,
+      "reviewNeeded": false,
+      "pronKo": "콩 키 어 비엔",
+      "pronNoteKo": "không khí는 공기와 분위기 둘 다로 이해하면 됩니다.",
+      "pronChunks": [
+        "không khí=콩 키",
+        "ở biển=어 비엔"
+      ]
+    },
+    {
+      "id": "d11-beach-v-060",
+      "term": "mát mẻ",
+      "meaningKo": "시원한",
+      "example": "Gió biển rất mát mẻ.",
+      "exampleMeaningKo": "바닷바람은 매우 시원합니다.",
+      "audioSrc": "",
+      "sourcePage": 11,
+      "reviewNeeded": false,
+      "pronKo": "맛 메",
+      "pronNoteKo": "해변 분위기 묘사에 좋습니다.",
+      "pronChunks": [
+        "mát=맛",
+        "mẻ=메"
+      ]
+    },
+    {
+      "id": "d11-beach-v-061",
+      "term": "gió biển",
+      "meaningKo": "바닷바람",
+      "example": "Tôi thích gió biển vì rất mát mẻ.",
+      "exampleMeaningKo": "저는 바닷바람이 매우 시원해서 좋아합니다.",
+      "audioSrc": "",
+      "sourcePage": 11,
+      "reviewNeeded": false,
+      "pronKo": "요 비엔",
+      "pronNoteKo": "바다 분위기를 살리는 단어입니다.",
+      "pronChunks": [
+        "gió=요",
+        "biển=비엔"
+      ]
+    },
+    {
+      "id": "d11-beach-v-062",
+      "term": "nước biển",
+      "meaningKo": "바닷물",
+      "example": "Nước biển ở đó rất trong.",
+      "exampleMeaningKo": "그곳의 바닷물은 매우 맑습니다.",
+      "audioSrc": "",
+      "sourcePage": 11,
+      "reviewNeeded": false,
+      "pronKo": "느억 비엔",
+      "pronNoteKo": "해변 풍경 묘사에 자주 씁니다.",
+      "pronChunks": [
+        "nước=느억",
+        "biển=비엔"
+      ]
+    },
+    {
+      "id": "d11-beach-v-063",
+      "term": "trong",
+      "meaningKo": "맑은 / 투명한",
+      "example": "Nước biển rất trong.",
+      "exampleMeaningKo": "바닷물이 매우 맑습니다.",
+      "audioSrc": "",
+      "sourcePage": 11,
+      "reviewNeeded": false,
+      "pronKo": "쫑",
+      "pronNoteKo": "공기나 물이 맑다고 할 때 씁니다.",
+      "pronChunks": [
+        "trong=쫑"
+      ]
+    },
+    {
+      "id": "d11-beach-v-064",
+      "term": "trải nghiệm",
+      "meaningKo": "경험",
+      "example": "Tôi có một trải nghiệm đáng nhớ khi đi biển.",
+      "exampleMeaningKo": "저는 바다에 갔을 때 기억에 남는 경험이 하나 있습니다.",
+      "audioSrc": "",
+      "sourcePage": 11,
+      "reviewNeeded": false,
+      "pronKo": "짜이 니엠",
+      "pronNoteKo": "경험 문제의 핵심 단어입니다.",
+      "pronChunks": [
+        "trải=짜이",
+        "nghiệm=니엠"
+      ]
+    },
+    {
+      "id": "d11-beach-v-065",
+      "term": "không thể quên",
+      "meaningKo": "잊을 수 없는",
+      "example": "Đó là một trải nghiệm không thể quên.",
+      "exampleMeaningKo": "그것은 잊을 수 없는 경험이었습니다.",
+      "audioSrc": "",
+      "sourcePage": 11,
+      "reviewNeeded": false,
+      "pronKo": "콩 테 꾸엔",
+      "pronNoteKo": "특별했던 경험을 강조할 때 씁니다.",
+      "pronChunks": [
+        "không thể=콩 테",
+        "quên=꾸엔"
+      ]
+    },
+    {
+      "id": "d11-beach-v-066",
+      "term": "đáng sợ",
+      "meaningKo": "무서운",
+      "example": "Tôi có một trải nghiệm đáng sợ khi đi biển.",
+      "exampleMeaningKo": "저는 바다에 갔을 때 무서운 경험이 하나 있었습니다.",
+      "audioSrc": "",
+      "sourcePage": 11,
+      "reviewNeeded": false,
+      "pronKo": "당 서",
+      "pronNoteKo": "날씨가 나쁘거나 파도가 컸던 경험에 씁니다.",
+      "pronChunks": [
+        "đáng=당",
+        "sợ=서"
+      ]
+    },
+    {
+      "id": "d11-beach-v-067",
+      "term": "thời tiết xấu",
+      "meaningKo": "나쁜 날씨 / 날씨가 좋지 않음",
+      "example": "Chuyến đi bị cản trở vì thời tiết xấu.",
+      "exampleMeaningKo": "그 여행은 날씨가 좋지 않아서 방해를 받았습니다.",
+      "audioSrc": "",
+      "sourcePage": 11,
+      "reviewNeeded": false,
+      "pronKo": "터이 띠엣 싸우",
+      "pronNoteKo": "문제 상황 경험에서 핵심 표현입니다.",
+      "pronChunks": [
+        "thời tiết=터이 띠엣",
+        "xấu=싸우"
+      ]
+    },
+    {
+      "id": "d11-beach-v-068",
+      "term": "cản trở",
+      "meaningKo": "방해하다 / 가로막다",
+      "example": "Mưa to làm cản trở chuyến đi của tôi.",
+      "exampleMeaningKo": "큰비가 제 여행을 방해했습니다.",
+      "audioSrc": "",
+      "sourcePage": 11,
+      "reviewNeeded": false,
+      "pronKo": "깐 쩌",
+      "pronNoteKo": "문제에 나온 표현입니다. 여행을 망치거나 방해한다는 느낌입니다.",
+      "pronChunks": [
+        "cản=깐",
+        "trở=쩌"
+      ]
+    },
+    {
+      "id": "d11-beach-v-069",
+      "term": "chuyện gì đã xảy ra",
+      "meaningKo": "무슨 일이 일어났는지",
+      "example": "Hãy kể cho tôi chuyện gì đã xảy ra.",
+      "exampleMeaningKo": "무슨 일이 일어났는지 저에게 이야기해주세요.",
+      "audioSrc": "",
+      "sourcePage": 11,
+      "reviewNeeded": false,
+      "pronKo": "쭈옌 지 다 싸이 자",
+      "pronNoteKo": "경험 문제의 핵심 질문입니다.",
+      "pronChunks": [
+        "chuyện gì=쭈옌 지",
+        "đã xảy ra=다 싸이 자"
+      ]
+    },
+    {
+      "id": "d11-beach-v-070",
+      "term": "mọi người",
+      "meaningKo": "사람들 / 모두",
+      "example": "Ở Hàn Quốc, mọi người thường đi biển vào mùa hè.",
+      "exampleMeaningKo": "한국에서 사람들은 보통 여름에 바다에 갑니다.",
+      "audioSrc": "",
+      "sourcePage": 11,
+      "reviewNeeded": false,
+      "pronKo": "모이 응으어이",
+      "pronNoteKo": "한국 사람들의 일반적인 습관 설명에 씁니다.",
+      "pronChunks": [
+        "mọi=모이",
+        "người=응으어이"
+      ]
+    },
+    {
+      "id": "d11-beach-v-071",
+      "term": "bãi biển nổi tiếng",
+      "meaningKo": "유명한 해변",
+      "example": "Haeundae là một bãi biển nổi tiếng ở Hàn Quốc.",
+      "exampleMeaningKo": "해운대는 한국의 유명한 해변입니다.",
+      "audioSrc": "",
+      "sourcePage": 11,
+      "reviewNeeded": false,
+      "pronKo": "바이 비엔 노이 띠엥",
+      "pronNoteKo": "nổi tiếng은 유명하다는 뜻입니다.",
+      "pronChunks": [
+        "bãi biển=바이 비엔",
+        "nổi tiếng=노이 띠엥"
+      ]
+    },
+    {
+      "id": "d11-beach-v-072",
+      "term": "diễn kịch",
+      "meaningKo": "역할극을 하다 / 연기하다",
+      "example": "Bạn hãy diễn kịch để giải quyết tình huống đó.",
+      "exampleMeaningKo": "그 상황을 해결하기 위해 역할극을 해주세요.",
+      "audioSrc": "",
+      "sourcePage": 11,
+      "reviewNeeded": false,
+      "pronKo": "지엔 끼익",
+      "pronNoteKo": "OPIc 역할극 안내문에 나오는 표현입니다.",
+      "pronChunks": [
+        "diễn=지엔",
+        "kịch=끼익"
+      ]
+    },
+    {
+      "id": "d11-beach-v-073",
+      "term": "tình huống",
+      "meaningKo": "상황",
+      "example": "Có một tình huống cần phải giải quyết.",
+      "exampleMeaningKo": "해결해야 할 상황이 하나 있습니다.",
+      "audioSrc": "",
+      "sourcePage": 11,
+      "reviewNeeded": false,
+      "pronKo": "띤 후옹",
+      "pronNoteKo": "상황극 문제의 핵심 단어입니다.",
+      "pronChunks": [
+        "tình=띤",
+        "huống=후옹"
+      ]
+    },
+    {
+      "id": "d11-beach-v-074",
+      "term": "giải quyết",
+      "meaningKo": "해결하다",
+      "example": "Tôi cần giải quyết vấn đề này.",
+      "exampleMeaningKo": "저는 이 문제를 해결해야 합니다.",
+      "audioSrc": "",
+      "sourcePage": 11,
+      "reviewNeeded": false,
+      "pronKo": "자이 꾸엣",
+      "pronNoteKo": "문제나 상황을 해결할 때 씁니다.",
+      "pronChunks": [
+        "giải=자이",
+        "quyết=꾸엣"
+      ]
+    },
+    {
+      "id": "d11-beach-v-075",
+      "term": "gọi điện",
+      "meaningKo": "전화하다",
+      "example": "Bạn hãy gọi điện cho bạn của bạn.",
+      "exampleMeaningKo": "당신의 친구에게 전화하세요.",
+      "audioSrc": "",
+      "sourcePage": 11,
+      "reviewNeeded": false,
+      "pronKo": "고이 디엔",
+      "pronNoteKo": "역할극에서 전화를 걸 때 씁니다.",
+      "pronChunks": [
+        "gọi=고이",
+        "điện=디엔"
+      ]
+    },
+    {
+      "id": "d11-beach-v-076",
+      "term": "hỏi 3-4 câu hỏi",
+      "meaningKo": "질문 3~4개를 하다",
+      "example": "Bạn hãy hỏi 3-4 câu hỏi để sắp xếp lịch trình.",
+      "exampleMeaningKo": "일정을 조율하기 위해 질문 3~4개를 해주세요.",
+      "audioSrc": "",
+      "sourcePage": 11,
+      "reviewNeeded": false,
+      "pronKo": "호이 바 본 꺼우 호이",
+      "pronNoteKo": "역할극에서 꼭 해야 하는 행동입니다.",
+      "pronChunks": [
+        "hỏi=호이",
+        "3-4 câu hỏi=바 본 꺼우 호이"
+      ]
+    },
+    {
+      "id": "d11-beach-v-077",
+      "term": "sắp xếp lịch trình",
+      "meaningKo": "일정을 조율하다 / 일정을 정리하다",
+      "example": "Chúng ta cần sắp xếp lịch trình đi biển.",
+      "exampleMeaningKo": "우리는 해변 여행 일정을 조율해야 합니다.",
+      "audioSrc": "",
+      "sourcePage": 11,
+      "reviewNeeded": false,
+      "pronKo": "쌉 쎕 릭 찐",
+      "pronNoteKo": "역할극 9번의 핵심 표현입니다.",
+      "pronChunks": [
+        "sắp xếp=쌉 쎕",
+        "lịch trình=릭 찐"
+      ]
+    },
+    {
+      "id": "d11-beach-v-078",
+      "term": "cuối tuần này",
+      "meaningKo": "이번 주말",
+      "example": "Tôi muốn đi biển vào cuối tuần này.",
+      "exampleMeaningKo": "저는 이번 주말에 바다에 가고 싶습니다.",
+      "audioSrc": "",
+      "sourcePage": 11,
+      "reviewNeeded": false,
+      "pronKo": "꾸오이 뚜언 나이",
+      "pronNoteKo": "친구에게 제안할 때 자주 씁니다.",
+      "pronChunks": [
+        "cuối tuần=꾸오이 뚜언",
+        "này=나이"
+      ]
+    },
+    {
+      "id": "d11-beach-v-079",
+      "term": "có vấn đề xảy ra",
+      "meaningKo": "문제가 발생하다",
+      "example": "Có vấn đề xảy ra trong chuyến đi.",
+      "exampleMeaningKo": "여행 중에 문제가 발생했습니다.",
+      "audioSrc": "",
+      "sourcePage": 11,
+      "reviewNeeded": false,
+      "pronKo": "꼬 번 데 싸이 자",
+      "pronNoteKo": "상황극 10번의 시작 표현입니다.",
+      "pronChunks": [
+        "có vấn đề=꼬 번 데",
+        "xảy ra=싸이 자"
+      ]
+    },
+    {
+      "id": "d11-beach-v-080",
+      "term": "đang ở biển",
+      "meaningKo": "바다에 있는 중이다",
+      "example": "Bạn đang ở biển thì trời mưa.",
+      "exampleMeaningKo": "당신이 바다에 있는데 비가 옵니다.",
+      "audioSrc": "",
+      "sourcePage": 11,
+      "reviewNeeded": false,
+      "pronKo": "당 어 비엔",
+      "pronNoteKo": "đang은 진행 중을 나타냅니다.",
+      "pronChunks": [
+        "đang=당",
+        "ở biển=어 비엔"
+      ]
+    },
+    {
+      "id": "d11-beach-v-081",
+      "term": "trời đột nhiên mưa to",
+      "meaningKo": "갑자기 비가 많이 오다",
+      "example": "Chúng tôi đang ở biển thì trời đột nhiên mưa to.",
+      "exampleMeaningKo": "우리가 바다에 있는데 갑자기 비가 많이 왔습니다.",
+      "audioSrc": "",
+      "sourcePage": 11,
+      "reviewNeeded": false,
+      "pronKo": "쩌이 돗 니엔 므어 또",
+      "pronNoteKo": "문제 상황 설명의 핵심 표현입니다.",
+      "pronChunks": [
+        "trời=쩌이",
+        "đột nhiên=돗 니엔",
+        "mưa to=므어 또"
+      ]
+    },
+    {
+      "id": "d11-beach-v-082",
+      "term": "mưa to",
+      "meaningKo": "큰비가 오다 / 비가 많이 오다",
+      "example": "Hôm đó trời mưa to.",
+      "exampleMeaningKo": "그날 비가 많이 왔습니다.",
+      "audioSrc": "",
+      "sourcePage": 11,
+      "reviewNeeded": false,
+      "pronKo": "므어 또",
+      "pronNoteKo": "날씨 문제 상황에서 자주 씁니다.",
+      "pronChunks": [
+        "mưa=므어",
+        "to=또"
+      ]
+    },
+    {
+      "id": "d11-beach-v-083",
+      "term": "sóng lớn",
+      "meaningKo": "큰 파도",
+      "example": "Sóng lớn nên chúng tôi không thể bơi.",
+      "exampleMeaningKo": "파도가 커서 우리는 수영할 수 없었습니다.",
+      "audioSrc": "",
+      "sourcePage": 11,
+      "reviewNeeded": false,
+      "pronKo": "송 런",
+      "pronNoteKo": "해변 위험 상황의 핵심 표현입니다.",
+      "pronChunks": [
+        "sóng=송",
+        "lớn=런"
+      ]
+    },
+    {
+      "id": "d11-beach-v-084",
+      "term": "nói chuyện với bạn",
+      "meaningKo": "친구와 이야기하다",
+      "example": "Bạn hãy nói chuyện với bạn của bạn.",
+      "exampleMeaningKo": "당신의 친구와 이야기하세요.",
+      "audioSrc": "",
+      "sourcePage": 11,
+      "reviewNeeded": false,
+      "pronKo": "노이 쭈옌 버이 반",
+      "pronNoteKo": "문제 해결 역할극에서 대화 시작 표현입니다.",
+      "pronChunks": [
+        "nói chuyện=노이 쭈옌",
+        "với bạn=버이 반"
+      ]
+    },
+    {
+      "id": "d11-beach-v-085",
+      "term": "đưa ra phương án",
+      "meaningKo": "방안을 제시하다",
+      "example": "Tôi sẽ đưa ra 2-3 phương án.",
+      "exampleMeaningKo": "저는 두세 가지 방안을 제시하겠습니다.",
+      "audioSrc": "",
+      "sourcePage": 11,
+      "reviewNeeded": false,
+      "pronKo": "드어 자 프엉 안",
+      "pronNoteKo": "역할극 해결책 제시에 필요한 표현입니다.",
+      "pronChunks": [
+        "đưa ra=드어 자",
+        "phương án=프엉 안"
+      ]
+    },
+    {
+      "id": "d11-beach-v-086",
+      "term": "vào quán cà phê",
+      "meaningKo": "카페에 들어가다",
+      "example": "Khi trời mưa, chúng ta có thể vào quán cà phê.",
+      "exampleMeaningKo": "비가 오면 우리는 카페에 들어갈 수 있습니다.",
+      "audioSrc": "",
+      "sourcePage": 11,
+      "reviewNeeded": false,
+      "pronKo": "바오 꽌 까 페",
+      "pronNoteKo": "비 오는 상황의 안전한 대안입니다.",
+      "pronChunks": [
+        "vào=바오",
+        "quán cà phê=꽌 까 페"
+      ]
+    },
+    {
+      "id": "d11-beach-v-087",
+      "term": "quay về khách sạn",
+      "meaningKo": "호텔로 돌아가다",
+      "example": "Chúng ta nên quay về khách sạn.",
+      "exampleMeaningKo": "우리는 호텔로 돌아가는 것이 좋겠습니다.",
+      "audioSrc": "",
+      "sourcePage": 11,
+      "reviewNeeded": false,
+      "pronKo": "꽈이 베 카익 산",
+      "pronNoteKo": "비와 큰 파도 상황에서 좋은 해결책입니다.",
+      "pronChunks": [
+        "quay về=꽈이 베",
+        "khách sạn=카익 산"
+      ]
+    },
+    {
+      "id": "d11-beach-v-088",
+      "term": "đổi lịch",
+      "meaningKo": "일정을 바꾸다",
+      "example": "Nếu mưa to, chúng ta có thể đổi lịch.",
+      "exampleMeaningKo": "비가 많이 오면 우리는 일정을 바꿀 수 있습니다.",
+      "audioSrc": "",
+      "sourcePage": 11,
+      "reviewNeeded": false,
+      "pronKo": "도이 릭",
+      "pronNoteKo": "여행 일정 조율에 쓰기 좋습니다.",
+      "pronChunks": [
+        "đổi=도이",
+        "lịch=릭"
+      ]
+    },
+    {
+      "id": "d11-beach-v-089",
+      "term": "an toàn",
+      "meaningKo": "안전한",
+      "example": "Khi sóng lớn, an toàn là quan trọng nhất.",
+      "exampleMeaningKo": "파도가 클 때 안전이 가장 중요합니다.",
+      "audioSrc": "",
+      "sourcePage": 11,
+      "reviewNeeded": false,
+      "pronKo": "안 또안",
+      "pronNoteKo": "위험 상황 해결책의 마무리에 좋습니다.",
+      "pronChunks": [
+        "an=안",
+        "toàn=또안"
+      ]
+    }
+  ],
+  "sentenceCards": [
+    {
+      "id": "d11-beach-s-001",
+      "textVi": "Trong bản khảo sát bạn nói là bạn thích đi biển. Hãy nói cho tôi về bãi biển mà bạn đã đến. Bãi biển đó ở đâu? Bạn thường đến đó vào mùa nào? Bạn đã đi bằng gì đến đó? Bạn đã đến đó cùng ai? Tại sao bạn thích nơi đó? Hãy nói cho tôi chi tiết.",
+      "textKo": "설문에서 당신은 바다에 가는 것을 좋아한다고 말했습니다. 당신이 가 본 해변에 대해 저에게 말해주세요. 그 해변은 어디에 있나요? 당신은 보통 어느 계절에 그곳에 가나요? 당신은 무엇을 타고 그곳에 갔나요? 당신은 누구와 함께 그곳에 갔나요? 왜 그곳을 좋아하나요? 저에게 자세히 말해주세요.",
+      "exampleAnswerVi": "",
+      "exampleAnswerKo": "",
+      "audioSrc": "",
+      "sourcePage": 11,
+      "reviewNeeded": false,
+      "pronKo": "",
+      "exampleAnswerPronKo": "",
+      "pronNoteKo": "위치, 계절, 교통수단, 동행자, 좋아하는 이유 순서로 답하면 좋습니다."
+    },
+    {
+      "id": "d11-beach-s-002",
+      "textVi": "Khi đi biển bạn thường làm gì? Bạn thường đi cùng với ai? Bạn thích hoạt động nào nhất ở biển? Hãy nói cho tôi biết một cách chi tiết.",
+      "textKo": "바다에 갈 때 당신은 보통 무엇을 하나요? 당신은 보통 누구와 함께 가나요? 당신은 바다에서 어떤 활동을 가장 좋아하나요? 저에게 자세하게 알려주세요.",
+      "exampleAnswerVi": "",
+      "exampleAnswerKo": "",
+      "audioSrc": "",
+      "sourcePage": 11,
+      "reviewNeeded": false,
+      "pronKo": "",
+      "exampleAnswerPronKo": "",
+      "pronNoteKo": "해변 활동 문제입니다. 수영, 산책, 사진 찍기, 해산물 먹기를 연결하면 좋습니다."
+    },
+    {
+      "id": "d11-beach-s-003",
+      "textVi": "Bạn hãy kể cho tôi về chuyến đi biển gần đây nhất của bạn. Bạn đã chuẩn bị những gì trước chuyến đi? Bạn đã đến đó như thế nào? Bãi biển đó có đông người không? Bạn đã làm gì ở đó? Sau khi về bạn cảm thấy thế nào? Hãy kể chi tiết cho tôi nghe.",
+      "textKo": "당신의 가장 최근 해변 여행에 대해 저에게 이야기해주세요. 당신은 여행 전에 무엇을 준비했나요? 당신은 어떻게 그곳에 갔나요? 그 해변은 사람이 많았나요? 당신은 그곳에서 무엇을 했나요? 돌아온 후 당신은 기분이 어땠나요? 저에게 자세히 이야기해주세요.",
+      "exampleAnswerVi": "",
+      "exampleAnswerKo": "",
+      "audioSrc": "",
+      "sourcePage": 11,
+      "reviewNeeded": false,
+      "pronKo": "",
+      "exampleAnswerPronKo": "",
+      "pronNoteKo": "최근 여행 경험 문제입니다. 준비 → 이동 → 사람 많음 여부 → 활동 → 귀가 후 느낌 순서로 답합니다."
+    },
+    {
+      "id": "d11-beach-s-004",
+      "textVi": "Bạn hãy kể cho tôi về một chuyến du lịch biển đáng nhớ. Khi đó bạn đã đi cùng với ai? Điều gì làm cho chuyến đi đó trở nên đặc biệt? Hãy kể chi tiết từ lúc bắt đầu đến khi kết thúc chuyến đi.",
+      "textKo": "기억에 남는 해변 여행 하나에 대해 저에게 이야기해주세요. 그때 당신은 누구와 함께 갔나요? 무엇이 그 여행을 특별하게 만들었나요? 여행이 시작될 때부터 끝날 때까지 자세히 이야기해주세요.",
+      "exampleAnswerVi": "",
+      "exampleAnswerKo": "",
+      "audioSrc": "",
+      "sourcePage": 11,
+      "reviewNeeded": false,
+      "pronKo": "",
+      "exampleAnswerPronKo": "",
+      "pronNoteKo": "특별했던 해변 여행 문제입니다. 누구와 갔는지, 무엇이 특별했는지, 시작부터 끝까지 흐름이 중요합니다."
+    },
+    {
+      "id": "d11-beach-s-005",
+      "textVi": "Bạn thường đi biển khi nào? Bạn thích đi biển vào mùa nào nhất? Lý do là gì? Không khí và quang cảnh ở biển vào mùa đó như thế nào? Hãy nói cho tôi chi tiết những việc mà bạn đã làm khi bạn đến đó.",
+      "textKo": "당신은 보통 언제 바다에 가나요? 당신은 어느 계절에 바다에 가는 것을 가장 좋아하나요? 이유는 무엇인가요? 그 계절의 바다 분위기와 풍경은 어떤가요? 당신이 그곳에 갔을 때 했던 일들을 저에게 자세히 말해주세요.",
+      "exampleAnswerVi": "",
+      "exampleAnswerKo": "",
+      "audioSrc": "",
+      "sourcePage": 11,
+      "reviewNeeded": false,
+      "pronKo": "",
+      "exampleAnswerPronKo": "",
+      "pronNoteKo": "계절 묘사 문제입니다. 여름이면 활기차고 사람이 많다, 가을이면 시원하고 한적하다고 말할 수 있습니다."
+    },
+    {
+      "id": "d11-beach-s-006",
+      "textVi": "Bạn có trải nghiệm không thể quên hoặc trải nghiệm đáng sợ nào khi đi biển không? Ví dụ như thời tiết xấu hoặc có điều gì đó làm cản trở chuyến đi của bạn. Hãy kể cho tôi chi tiết chuyện gì đã xảy ra.",
+      "textKo": "당신은 바다에 갔을 때 잊을 수 없는 경험이나 무서운 경험이 있나요? 예를 들어 날씨가 나쁘거나 당신의 여행을 방해한 어떤 일이 있었던 것처럼요. 무슨 일이 일어났는지 저에게 자세히 이야기해주세요.",
+      "exampleAnswerVi": "",
+      "exampleAnswerKo": "",
+      "audioSrc": "",
+      "sourcePage": 11,
+      "reviewNeeded": false,
+      "pronKo": "",
+      "exampleAnswerPronKo": "",
+      "pronNoteKo": "문제 상황 경험입니다. 날씨 악화, 큰 파도, 갑작스러운 비를 소재로 쓰기 좋습니다."
+    },
+    {
+      "id": "d11-beach-s-007",
+      "textVi": "Ở Hàn Quốc, mọi người thường đi biển khi nào? Họ thường làm gì ở biển? Không khí ở các bãi biển nổi tiếng như thế nào? Hãy nói cho tôi chi tiết.",
+      "textKo": "한국에서 사람들은 보통 언제 바다에 가나요? 그들은 보통 바다에서 무엇을 하나요? 유명한 해변들의 분위기는 어떤가요? 저에게 자세히 말해주세요.",
+      "exampleAnswerVi": "",
+      "exampleAnswerKo": "",
+      "audioSrc": "",
+      "sourcePage": 11,
+      "reviewNeeded": false,
+      "pronKo": "",
+      "exampleAnswerPronKo": "",
+      "pronNoteKo": "한국 해변 문화 설명 문제입니다. 여름휴가, 해수욕, 해산물, 유명 해변의 붐비는 분위기를 말하면 좋습니다."
+    },
+    {
+      "id": "d11-beach-s-008",
+      "textVi": "Bạn hãy kể cho tôi nghe về một trải nghiệm khi bạn đi biển. Đó là trải nghiệm gì? Tại sao trải nghiệm đó lại đáng nhớ đối với bạn? Bạn hãy kể cho tôi chi tiết.",
+      "textKo": "당신이 바다에 갔을 때의 경험 하나에 대해 저에게 들려주세요. 그것은 어떤 경험인가요? 왜 그 경험이 당신에게 기억에 남나요? 저에게 자세히 이야기해주세요.",
+      "exampleAnswerVi": "",
+      "exampleAnswerKo": "",
+      "audioSrc": "",
+      "sourcePage": 11,
+      "reviewNeeded": false,
+      "pronKo": "",
+      "exampleAnswerPronKo": "",
+      "pronNoteKo": "일반 경험 문제입니다. 가족과 좋은 시간을 보낸 일, 예쁜 사진을 찍은 일, 일몰을 본 일을 소재로 쓰면 좋습니다."
+    },
+    {
+      "id": "d11-beach-s-009",
+      "textVi": "Trong bản khảo sát bạn nói rằng bạn thích đi biển. Sau đây tôi sẽ nói về một tình huống cần phải phải giải quyết. Bạn hãy diễn kịch để giải quyết tình huống đó. Bạn muốn đi biển với bạn của bạn vào cuối tuần này. Bạn hãy gọi điện cho bạn của bạn và hỏi 3-4 câu hỏi để sắp xếp lịch trình.",
+      "textKo": "설문에서 당신은 바다에 가는 것을 좋아한다고 말했습니다. 이제 제가 해결해야 할 상황 하나를 말하겠습니다. 그 상황을 해결하기 위해 역할극을 해주세요. 당신은 이번 주말에 친구와 바다에 가고 싶습니다. 친구에게 전화해서 일정을 조율하기 위해 질문 3~4개를 하세요.",
+      "exampleAnswerVi": "",
+      "exampleAnswerKo": "",
+      "audioSrc": "",
+      "sourcePage": 11,
+      "reviewNeeded": false,
+      "pronKo": "",
+      "exampleAnswerPronKo": "",
+      "pronNoteKo": "역할극 초대 문제입니다. 날짜, 해변 위치, 교통수단, 준비물, 출발 시간을 물으면 좋습니다."
+    },
+    {
+      "id": "d11-beach-s-010",
+      "textVi": "Tôi xin lỗi nhưng có vấn đề xảy ra và bạn cần phải giải quyết nó. Bạn đang ở biển thì trời đột nhiên mưa to và sóng lớn. Bạn hãy nói chuyện với bạn của bạn và đưa ra 2-3 phương án để giải quyết tình huống đó.",
+      "textKo": "죄송하지만 문제가 발생했고 당신은 그것을 해결해야 합니다. 당신이 바다에 있는데 갑자기 비가 많이 오고 파도가 큽니다. 친구와 이야기해서 그 상황을 해결하기 위한 방안 2~3가지를 제시하세요.",
+      "exampleAnswerVi": "",
+      "exampleAnswerKo": "",
+      "audioSrc": "",
+      "sourcePage": 11,
+      "reviewNeeded": false,
+      "pronKo": "",
+      "exampleAnswerPronKo": "",
+      "pronNoteKo": "문제 해결 역할극입니다. 안전을 우선으로 하고 카페 이동, 호텔 복귀, 일정 변경을 제안하면 좋습니다."
+    }
+  ],
+  "dialogues": [
+    {
+      "id": "d11-beach-d-001",
+      "title": "친구에게 해변 여행 제안하기",
+      "audioSrc": "",
+      "sourcePage": 11,
+      "reviewNeeded": false,
+      "lines": [
+        {
+          "speaker": "A",
+          "vi": "A lô, Minh à, cuối tuần này bạn có rảnh không?",
+          "ko": "여보세요, 민아, 이번 주말에 시간 있어?",
+          "pronKo": "아 로, 민 아, 꾸오이 뚜언 나이 반 꼬 자인 콩?"
+        },
+        {
+          "speaker": "B",
+          "vi": "Có, mình rảnh vào thứ bảy.",
+          "ko": "응, 나는 토요일에 시간이 있어.",
+          "pronKo": "꼬, 민 자인 바오 트 바이."
+        },
+        {
+          "speaker": "A",
+          "vi": "Bạn có muốn đi biển với mình không?",
+          "ko": "나랑 바다에 가고 싶어?",
+          "pronKo": "반 꼬 무온 디 비엔 버이 민 콩?"
+        },
+        {
+          "speaker": "B",
+          "vi": "Có, chúng ta đi bãi biển nào?",
+          "ko": "응, 우리 어떤 해변에 갈까?",
+          "pronKo": "꼬, 쭝 따 디 바이 비엔 나오?"
+        },
+        {
+          "speaker": "A",
+          "vi": "Chúng ta đi biển ở Gangneung nhé. Bạn muốn đi bằng xe ô tô hay tàu?",
+          "ko": "강릉 바다에 가자. 자동차로 갈래, 기차로 갈래?",
+          "pronKo": "쭝 따 디 비엔 어 강릉 녜. 반 무온 디 방 쎄 오 또 하이 따우?"
+        }
+      ]
+    },
+    {
+      "id": "d11-beach-d-002",
+      "title": "비와 큰 파도 상황 해결하기",
+      "audioSrc": "",
+      "sourcePage": 11,
+      "reviewNeeded": false,
+      "lines": [
+        {
+          "speaker": "A",
+          "vi": "Trời đột nhiên mưa to và sóng rất lớn.",
+          "ko": "갑자기 비가 많이 오고 파도가 매우 커.",
+          "pronKo": "쩌이 돗 니엔 므어 또 바 송 젓 런."
+        },
+        {
+          "speaker": "B",
+          "vi": "Vậy chúng ta không nên bơi nữa.",
+          "ko": "그럼 우리 더 이상 수영하지 않는 게 좋겠어.",
+          "pronKo": "버이 쭝 따 콩 넨 버이 느어."
+        },
+        {
+          "speaker": "A",
+          "vi": "Đúng rồi. Chúng ta nên vào quán cà phê trước.",
+          "ko": "맞아. 우리 먼저 카페에 들어가는 게 좋겠어.",
+          "pronKo": "둥 조이. 쭝 따 넨 바오 꽌 까 페 쯔억."
+        },
+        {
+          "speaker": "B",
+          "vi": "Hoặc chúng ta có thể quay về khách sạn.",
+          "ko": "아니면 우리는 호텔로 돌아갈 수 있어.",
+          "pronKo": "호악 쭝 따 꼬 테 꽈이 베 카익 산."
+        },
+        {
+          "speaker": "A",
+          "vi": "An toàn là quan trọng nhất.",
+          "ko": "안전이 가장 중요해.",
+          "pronKo": "안 또안 라 꽌 쫑 녓."
+        }
+      ]
+    },
+    {
+      "id": "d11-beach-d-003",
+      "title": "해변에서 하는 활동",
+      "audioSrc": "",
+      "sourcePage": 11,
+      "reviewNeeded": false,
+      "lines": [
+        {
+          "speaker": "A",
+          "vi": "Khi đi biển bạn thường làm gì?",
+          "ko": "바다에 갈 때 보통 무엇을 하나요?",
+          "pronKo": "키 디 비엔 반 트엉 람 지?"
+        },
+        {
+          "speaker": "B",
+          "vi": "Tôi thường đi dạo, chụp ảnh và ăn hải sản.",
+          "ko": "저는 보통 산책하고, 사진을 찍고, 해산물을 먹습니다.",
+          "pronKo": "또이 트엉 디 자오, 쭙 아인 바 안 하이 산."
+        },
+        {
+          "speaker": "A",
+          "vi": "Bạn thích hoạt động nào nhất ở biển?",
+          "ko": "바다에서 어떤 활동을 가장 좋아하나요?",
+          "pronKo": "반 틱 호앗 동 나오 녓 어 비엔?"
+        },
+        {
+          "speaker": "B",
+          "vi": "Tôi thích ngắm biển và ngắm hoàng hôn nhất.",
+          "ko": "저는 바다를 감상하고 일몰을 보는 것을 가장 좋아합니다.",
+          "pronKo": "또이 틱 응암 비엔 바 응암 호앙 혼 녓."
+        }
+      ]
+    }
+  ],
+  "grammarPoints": [
+    {
+      "id": "d11-beach-g-001",
+      "title": "가 본 해변 말하기",
+      "pattern": "bãi biển mà bạn đã đến",
+      "meaningKo": "당신이 가 본 해변",
+      "sourcePage": 11,
+      "reviewNeeded": false
+    },
+    {
+      "id": "d11-beach-g-002",
+      "title": "어느 계절에 가나요?",
+      "pattern": "Bạn thường đến đó vào mùa nào?",
+      "meaningKo": "당신은 보통 어느 계절에 그곳에 가나요?",
+      "sourcePage": 11,
+      "reviewNeeded": false
+    },
+    {
+      "id": "d11-beach-g-003",
+      "title": "무엇을 타고 갔나요?",
+      "pattern": "Bạn đã đi bằng gì đến đó?",
+      "meaningKo": "당신은 무엇을 타고 그곳에 갔나요?",
+      "sourcePage": 11,
+      "reviewNeeded": false
+    },
+    {
+      "id": "d11-beach-g-004",
+      "title": "해변에서 하는 활동 묻기",
+      "pattern": "Khi đi biển bạn thường làm gì?",
+      "meaningKo": "바다에 갈 때 당신은 보통 무엇을 하나요?",
+      "sourcePage": 11,
+      "reviewNeeded": false
+    },
+    {
+      "id": "d11-beach-g-005",
+      "title": "가장 좋아하는 활동",
+      "pattern": "Bạn thích hoạt động nào nhất ở biển?",
+      "meaningKo": "당신은 바다에서 어떤 활동을 가장 좋아하나요?",
+      "sourcePage": 11,
+      "reviewNeeded": false
+    },
+    {
+      "id": "d11-beach-g-006",
+      "title": "여행 전에 준비한 것",
+      "pattern": "Bạn đã chuẩn bị những gì trước chuyến đi?",
+      "meaningKo": "당신은 여행 전에 무엇을 준비했나요?",
+      "sourcePage": 11,
+      "reviewNeeded": false
+    },
+    {
+      "id": "d11-beach-g-007",
+      "title": "돌아온 후 느낌",
+      "pattern": "Sau khi về bạn cảm thấy thế nào?",
+      "meaningKo": "돌아온 후 당신은 기분이 어땠나요?",
+      "sourcePage": 11,
+      "reviewNeeded": false
+    },
+    {
+      "id": "d11-beach-g-008",
+      "title": "기억에 남는 여행",
+      "pattern": "một chuyến du lịch biển đáng nhớ",
+      "meaningKo": "기억에 남는 해변 여행 하나",
+      "sourcePage": 11,
+      "reviewNeeded": false
+    },
+    {
+      "id": "d11-beach-g-009",
+      "title": "특별하게 만들다",
+      "pattern": "Điều gì làm cho chuyến đi đó trở nên đặc biệt?",
+      "meaningKo": "무엇이 그 여행을 특별하게 만들었나요?",
+      "sourcePage": 11,
+      "reviewNeeded": false
+    },
+    {
+      "id": "d11-beach-g-010",
+      "title": "시작부터 끝까지",
+      "pattern": "từ lúc bắt đầu đến khi kết thúc chuyến đi",
+      "meaningKo": "여행이 시작될 때부터 끝날 때까지",
+      "sourcePage": 11,
+      "reviewNeeded": false
+    },
+    {
+      "id": "d11-beach-g-011",
+      "title": "계절의 분위기와 풍경",
+      "pattern": "Không khí và quang cảnh ở biển vào mùa đó như thế nào?",
+      "meaningKo": "그 계절의 바다 분위기와 풍경은 어떤가요?",
+      "sourcePage": 11,
+      "reviewNeeded": false
+    },
+    {
+      "id": "d11-beach-g-012",
+      "title": "잊을 수 없는 경험",
+      "pattern": "trải nghiệm không thể quên",
+      "meaningKo": "잊을 수 없는 경험",
+      "sourcePage": 11,
+      "reviewNeeded": false
+    },
+    {
+      "id": "d11-beach-g-013",
+      "title": "여행을 방해하다",
+      "pattern": "làm cản trở chuyến đi của bạn",
+      "meaningKo": "당신의 여행을 방해하다",
+      "sourcePage": 11,
+      "reviewNeeded": false
+    },
+    {
+      "id": "d11-beach-g-014",
+      "title": "일정을 조율하다",
+      "pattern": "hỏi 3-4 câu hỏi để sắp xếp lịch trình",
+      "meaningKo": "일정을 조율하기 위해 질문 3~4개를 하다",
+      "sourcePage": 11,
+      "reviewNeeded": false
+    },
+    {
+      "id": "d11-beach-g-015",
+      "title": "진행 중 상황",
+      "pattern": "Bạn đang ở biển thì trời đột nhiên mưa to.",
+      "meaningKo": "당신이 바다에 있는데 갑자기 비가 많이 옵니다.",
+      "sourcePage": 11,
+      "reviewNeeded": false
+    },
+    {
+      "id": "d11-beach-g-016",
+      "title": "해결 방안 제시",
+      "pattern": "đưa ra 2-3 phương án để giải quyết tình huống đó",
+      "meaningKo": "그 상황을 해결하기 위해 방안 2~3가지를 제시하다",
+      "sourcePage": 11,
+      "reviewNeeded": false
+    }
+  ],
+  "pronunciationTargets": [
+    {
+      "id": "d11-beach-p-001",
+      "text": "Hãy nói cho tôi về bãi biển mà bạn đã đến.",
+      "hintKo": "당신이 가 본 해변에 대해 저에게 말해주세요.",
+      "audioSrc": "",
+      "sourcePage": 11,
+      "reviewNeeded": false,
+      "pronKo": "하이 노이 쪼 또이 베 / 바이 비엔 마 반 다 덴",
+      "mouthKo": "Hãy nói cho tôi về / bãi biển mà bạn đã đến 으로 끊습니다.",
+      "toneKo": "bãi biển은 해변입니다."
+    },
+    {
+      "id": "d11-beach-p-002",
+      "text": "Bạn thường đến đó vào mùa nào?",
+      "hintKo": "당신은 보통 어느 계절에 그곳에 가나요?",
+      "audioSrc": "",
+      "sourcePage": 11,
+      "reviewNeeded": false,
+      "pronKo": "반 트엉 덴 도 / 바오 무어 나오",
+      "mouthKo": "Bạn thường đến đó / vào mùa nào 로 끊습니다.",
+      "toneKo": "mùa nào는 어느 계절입니다."
+    },
+    {
+      "id": "d11-beach-p-003",
+      "text": "Bạn đã đi bằng gì đến đó?",
+      "hintKo": "당신은 무엇을 타고 그곳에 갔나요?",
+      "audioSrc": "",
+      "sourcePage": 11,
+      "reviewNeeded": false,
+      "pronKo": "반 다 디 방 지 / 덴 도",
+      "mouthKo": "Bạn đã đi bằng gì / đến đó 로 끊습니다.",
+      "toneKo": "bằng gì는 어떤 수단으로라는 뜻입니다."
+    },
+    {
+      "id": "d11-beach-p-004",
+      "text": "Khi đi biển bạn thường làm gì?",
+      "hintKo": "바다에 갈 때 당신은 보통 무엇을 하나요?",
+      "audioSrc": "",
+      "sourcePage": 11,
+      "reviewNeeded": false,
+      "pronKo": "키 디 비엔 / 반 트엉 람 지",
+      "mouthKo": "Khi đi biển / bạn thường làm gì 로 끊습니다.",
+      "toneKo": "활동 질문의 기본 문장입니다."
+    },
+    {
+      "id": "d11-beach-p-005",
+      "text": "Bạn thích hoạt động nào nhất ở biển?",
+      "hintKo": "당신은 바다에서 어떤 활동을 가장 좋아하나요?",
+      "audioSrc": "",
+      "sourcePage": 11,
+      "reviewNeeded": false,
+      "pronKo": "반 틱 호앗 동 나오 녓 / 어 비엔",
+      "mouthKo": "Bạn thích hoạt động nào nhất / ở biển 로 끊습니다.",
+      "toneKo": "nào nhất는 어떤 것을 가장이라는 뜻입니다."
+    },
+    {
+      "id": "d11-beach-p-006",
+      "text": "Bạn đã chuẩn bị những gì trước chuyến đi?",
+      "hintKo": "당신은 여행 전에 무엇을 준비했나요?",
+      "audioSrc": "",
+      "sourcePage": 11,
+      "reviewNeeded": false,
+      "pronKo": "반 다 쭈언 비 느응 지 / 쯔억 쭈옌 디",
+      "mouthKo": "Bạn đã chuẩn bị những gì / trước chuyến đi 로 끊습니다.",
+      "toneKo": "chuẩn bị는 준비하다입니다."
+    },
+    {
+      "id": "d11-beach-p-007",
+      "text": "Sau khi về bạn cảm thấy thế nào?",
+      "hintKo": "돌아온 후 당신은 기분이 어땠나요?",
+      "audioSrc": "",
+      "sourcePage": 11,
+      "reviewNeeded": false,
+      "pronKo": "사우 키 베 / 반 깜 터이 테 나오",
+      "mouthKo": "Sau khi về / bạn cảm thấy thế nào 로 끊습니다.",
+      "toneKo": "여행 후 감정 질문입니다."
+    },
+    {
+      "id": "d11-beach-p-008",
+      "text": "Bạn có trải nghiệm không thể quên hoặc trải nghiệm đáng sợ nào khi đi biển không?",
+      "hintKo": "당신은 바다에 갔을 때 잊을 수 없는 경험이나 무서운 경험이 있나요?",
+      "audioSrc": "",
+      "sourcePage": 11,
+      "reviewNeeded": false,
+      "pronKo": "반 꼬 짜이 니엠 콩 테 꾸엔 / 호악 짜이 니엠 당 서 나오 / 키 디 비엔 콩",
+      "mouthKo": "Bạn có trải nghiệm không thể quên / hoặc trải nghiệm đáng sợ nào / khi đi biển không 으로 끊습니다.",
+      "toneKo": "긴 문제는 의미 단위로 끊어 읽습니다."
+    },
+    {
+      "id": "d11-beach-p-009",
+      "text": "Bạn hãy gọi điện cho bạn của bạn và hỏi 3-4 câu hỏi để sắp xếp lịch trình.",
+      "hintKo": "친구에게 전화해서 일정을 조율하기 위해 질문 3~4개를 하세요.",
+      "audioSrc": "",
+      "sourcePage": 11,
+      "reviewNeeded": false,
+      "pronKo": "반 하이 고이 디엔 쪼 반 꾸어 반 / 바 호이 바 본 꺼우 호이 / 데 쌉 쎕 릭 찐",
+      "mouthKo": "Bạn hãy gọi điện cho bạn của bạn / và hỏi 3-4 câu hỏi / để sắp xếp lịch trình 으로 끊습니다.",
+      "toneKo": "역할극에서 해야 할 일을 알려주는 문장입니다."
+    },
+    {
+      "id": "d11-beach-p-010",
+      "text": "Bạn đang ở biển thì trời đột nhiên mưa to và sóng lớn.",
+      "hintKo": "당신이 바다에 있는데 갑자기 비가 많이 오고 파도가 큽니다.",
+      "audioSrc": "",
+      "sourcePage": 11,
+      "reviewNeeded": false,
+      "pronKo": "반 당 어 비엔 티 / 쩌이 돗 니엔 므어 또 / 바 송 런",
+      "mouthKo": "Bạn đang ở biển thì / trời đột nhiên mưa to / và sóng lớn 로 끊습니다.",
+      "toneKo": "문제 상황 설명의 핵심 문장입니다."
+    }
+  ],
+  "quizSeeds": [
+    {
+      "id": "d11-beach-q-001",
+      "type": "match-term",
+      "prompt": "해변 기본 단어 매칭",
+      "answerSet": [
+        "đi biển-바다에 가다",
+        "biển-바다",
+        "bãi biển-해변",
+        "ở đâu-어디에",
+        "vào mùa nào-어느 계절에",
+        "cùng ai-누구와 함께"
+      ],
+      "sourcePage": 11,
+      "reviewNeeded": false
+    },
+    {
+      "id": "d11-beach-q-002",
+      "type": "match-term",
+      "prompt": "해변 활동 단어 매칭",
+      "answerSet": [
+        "bơi-수영하다",
+        "tắm biển-해수욕하다",
+        "đi dạo trên bãi biển-해변을 산책하다",
+        "ngắm biển-바다를 감상하다",
+        "ngắm hoàng hôn-일몰을 감상하다",
+        "ăn hải sản-해산물을 먹다"
+      ],
+      "sourcePage": 11,
+      "reviewNeeded": false
+    },
+    {
+      "id": "d11-beach-q-003",
+      "type": "match-term",
+      "prompt": "여행 준비물 단어 매칭",
+      "answerSet": [
+        "chuẩn bị-준비하다",
+        "đồ bơi-수영복",
+        "khăn tắm-수건",
+        "kem chống nắng-선크림",
+        "mũ-모자",
+        "kính râm-선글라스"
+      ],
+      "sourcePage": 11,
+      "reviewNeeded": false
+    },
+    {
+      "id": "d11-beach-q-004",
+      "type": "match-term",
+      "prompt": "해변 묘사 단어 매칭",
+      "answerSet": [
+        "quang cảnh-풍경",
+        "không khí ở biển-바다의 분위기/공기",
+        "mát mẻ-시원한",
+        "gió biển-바닷바람",
+        "nước biển-바닷물",
+        "trong-맑은"
+      ],
+      "sourcePage": 11,
+      "reviewNeeded": false
+    },
+    {
+      "id": "d11-beach-q-005",
+      "type": "match-term",
+      "prompt": "문제 상황 단어 매칭",
+      "answerSet": [
+        "thời tiết xấu-나쁜 날씨",
+        "cản trở-방해하다",
+        "mưa to-큰비가 오다",
+        "sóng lớn-큰 파도",
+        "an toàn-안전한",
+        "đổi lịch-일정을 바꾸다"
+      ],
+      "sourcePage": 11,
+      "reviewNeeded": false
+    },
+    {
+      "id": "d11-beach-q-006",
+      "type": "sentence-meaning",
+      "prompt": "문장 뜻 고르기: 기본 질문",
+      "answerSet": [
+        "Bãi biển đó ở đâu?-그 해변은 어디에 있나요?",
+        "Bạn thường đến đó vào mùa nào?-당신은 보통 어느 계절에 그곳에 가나요?",
+        "Bạn đã đi bằng gì đến đó?-당신은 무엇을 타고 그곳에 갔나요?",
+        "Bạn đã đến đó cùng ai?-당신은 누구와 함께 그곳에 갔나요?"
+      ],
+      "sourcePage": 11,
+      "reviewNeeded": false
+    },
+    {
+      "id": "d11-beach-q-007",
+      "type": "fill-blank",
+      "prompt": "빈칸 채우기: 저는 여름에 바다에 갑니다.",
+      "question": "Tôi đi biển vào ___ ___.",
+      "answer": "mùa hè",
+      "sourcePage": 11,
+      "reviewNeeded": false
+    },
+    {
+      "id": "d11-beach-q-008",
+      "type": "fill-blank",
+      "prompt": "빈칸 채우기: 저는 해변을 산책합니다.",
+      "question": "Tôi ___ ___ trên bãi biển.",
+      "answer": "đi dạo",
+      "sourcePage": 11,
+      "reviewNeeded": false
+    },
+    {
+      "id": "d11-beach-q-009",
+      "type": "fill-blank",
+      "prompt": "빈칸 채우기: 갑자기 큰비가 왔습니다.",
+      "question": "Trời đột nhiên ___ ___.",
+      "answer": "mưa to",
+      "sourcePage": 11,
+      "reviewNeeded": false
+    },
+    {
+      "id": "d11-beach-q-010",
+      "type": "match-term",
+      "prompt": "최근 해변 여행 답변 순서 맞추기",
+      "answerSet": [
+        "1-Chuyến đi biển gần đây nhất của tôi là tháng trước.",
+        "2-Trước chuyến đi, tôi chuẩn bị đồ bơi, khăn tắm và kem chống nắng.",
+        "3-Tôi đã đến đó bằng xe ô tô.",
+        "4-Bãi biển đó khá đông người.",
+        "5-Ở đó, tôi đi dạo, chụp ảnh và ăn hải sản.",
+        "6-Sau khi về, tôi cảm thấy rất vui và thoải mái."
+      ],
+      "sourcePage": 11,
+      "reviewNeeded": false
+    },
+    {
+      "id": "d11-beach-q-011",
+      "type": "match-term",
+      "prompt": "비와 큰 파도 상황 답변 순서 맞추기",
+      "answerSet": [
+        "1-Trời đột nhiên mưa to và sóng lớn.",
+        "2-Chúng ta không nên bơi nữa.",
+        "3-Trước hết, chúng ta nên vào quán cà phê.",
+        "4-Sau đó, nếu trời vẫn mưa, chúng ta quay về khách sạn.",
+        "5-Hoặc chúng ta có thể đổi lịch sang ngày mai.",
+        "6-An toàn là quan trọng nhất."
+      ],
+      "sourcePage": 11,
+      "reviewNeeded": false
+    }
+  ],
+  "unlockCondition": "always",
+  "reviewNeeded": false
+    },
+    {
   "lessonId": "day10-park-topic",
   "unitLabel": "10일차 학습노트",
   "titleKo": "10일차 학습노트: 공원 주제",
