@@ -19,6 +19,2077 @@
   },
   "lessons": [
     {
+  "lessonId": "day13-concert-questions",
+  "unitLabel": "13일차",
+  "titleKo": "13일차: 콘서트 문제",
+  "titleVi": "Ngày 13: Câu hỏi chủ đề xem biểu diễn / concert",
+  "pageRange": "13일차 / 콘서트·공연 문제 / Xem biểu diễn ca nhạc",
+  "goals": [
+    "좋아하는 공연 종류와 그 이유를 설명할 수 있다",
+    "공연 티켓을 어디서 어떻게 사는지 말할 수 있다",
+    "최근 본 공연을 공연 전·중·후 활동 순서로 설명할 수 있다",
+    "음악 공연의 가수/그룹, 동행자, 분위기를 묘사할 수 있다",
+    "스탠딩석과 좌석 중 선호하는 티켓 유형을 비교할 수 있다",
+    "기억에 남는 공연 경험과 인상 깊었던 이유를 설명할 수 있다",
+    "한국 사람들의 공연 관람 습관과 과거·현재 변화를 말할 수 있다",
+    "친구에게 공연을 보러 가자고 제안하고, 지각 상황에서 해결책을 제시할 수 있다"
+  ],
+  "topicOverview": "콘서트/공연 주제는 음악 주제와 연결해서 말하기 좋은 OPIc 주제입니다. 기본 흐름은 '공연 보는 것을 좋아한다 → 어떤 공연을 좋아한다 → 왜 좋아한다 → 누구와 간다 → 티켓을 어떻게 산다 → 공연 전·중·후에 무엇을 한다 → 공연 분위기와 기억에 남는 이유' 순서로 잡으면 안정적입니다.",
+  "cultureTopics": [
+    "콘서트",
+    "음악 공연",
+    "공연 관람",
+    "티켓 예매",
+    "온라인 예매",
+    "매표소",
+    "매진",
+    "스탠딩석",
+    "좌석",
+    "가수",
+    "그룹",
+    "팬",
+    "응원봉",
+    "라이브 음악",
+    "공연장 분위기",
+    "기억에 남는 공연",
+    "한국 공연 문화",
+    "교통 체증",
+    "지각 상황",
+    "역할극"
+  ],
+  "vocabCards": [
+    {
+      "id": "d13-concert-v-001",
+      "term": "xem biểu diễn",
+      "meaningKo": "공연을 보다",
+      "example": "Tôi rất thích xem biểu diễn.",
+      "exampleMeaningKo": "저는 공연 보는 것을 매우 좋아합니다.",
+      "audioSrc": "",
+      "sourcePage": 13,
+      "reviewNeeded": false,
+      "pronKo": "쎔 비에우 지엔",
+      "pronNoteKo": "공연 주제의 기본 표현입니다.",
+      "pronChunks": [
+        "xem biểu diễn=쎔 비에우 지엔"
+      ]
+    },
+    {
+      "id": "d13-concert-v-002",
+      "term": "đi xem biểu diễn",
+      "meaningKo": "공연을 보러 가다",
+      "example": "Cuối tuần này tôi muốn đi xem biểu diễn.",
+      "exampleMeaningKo": "이번 주말에 저는 공연을 보러 가고 싶습니다.",
+      "audioSrc": "",
+      "sourcePage": 13,
+      "reviewNeeded": false,
+      "pronKo": "디 쎔 비에우 지엔",
+      "pronNoteKo": "đi xem은 '~을 보러 가다'입니다.",
+      "pronChunks": [
+        "đi xem biểu diễn=디 쎔 비에우 지엔"
+      ]
+    },
+    {
+      "id": "d13-concert-v-003",
+      "term": "biểu diễn",
+      "meaningKo": "공연 / 공연하다",
+      "example": "Buổi biểu diễn đó rất hay.",
+      "exampleMeaningKo": "그 공연은 매우 좋았습니다.",
+      "audioSrc": "",
+      "sourcePage": 13,
+      "reviewNeeded": false,
+      "pronKo": "비에우 지엔",
+      "pronNoteKo": "공연이라는 명사와 공연하다라는 동사로 모두 쓰입니다.",
+      "pronChunks": [
+        "biểu diễn=비에우 지엔"
+      ]
+    },
+    {
+      "id": "d13-concert-v-004",
+      "term": "buổi biểu diễn",
+      "meaningKo": "공연 / 공연 한 회",
+      "example": "Tôi đã xem một buổi biểu diễn ca nhạc.",
+      "exampleMeaningKo": "저는 음악 공연 한 회를 봤습니다.",
+      "audioSrc": "",
+      "sourcePage": 13,
+      "reviewNeeded": false,
+      "pronKo": "부오이 비에우 지엔",
+      "pronNoteKo": "buổi는 어떤 행사나 활동 한 번을 말합니다.",
+      "pronChunks": [
+        "buổi biểu diễn=부오이 비에우 지엔"
+      ]
+    },
+    {
+      "id": "d13-concert-v-005",
+      "term": "biểu diễn ca nhạc",
+      "meaningKo": "음악 공연 / 콘서트",
+      "example": "Tôi thích xem biểu diễn ca nhạc.",
+      "exampleMeaningKo": "저는 음악 공연 보는 것을 좋아합니다.",
+      "audioSrc": "",
+      "sourcePage": 13,
+      "reviewNeeded": false,
+      "pronKo": "비에우 지엔 까 냑",
+      "pronNoteKo": "ca nhạc은 노래와 음악이라는 뜻입니다.",
+      "pronChunks": [
+        "biểu diễn ca nhạc=비에우 지엔 까 냑"
+      ]
+    },
+    {
+      "id": "d13-concert-v-006",
+      "term": "buổi biểu diễn ca nhạc",
+      "meaningKo": "음악 공연 / 콘서트",
+      "example": "Buổi biểu diễn ca nhạc đó rất ấn tượng.",
+      "exampleMeaningKo": "그 음악 공연은 매우 인상적이었습니다.",
+      "audioSrc": "",
+      "sourcePage": 13,
+      "reviewNeeded": false,
+      "pronKo": "부오이 비에우 지엔 까 냑",
+      "pronNoteKo": "문제에서 자주 나오는 표현입니다.",
+      "pronChunks": [
+        "buổi biểu diễn ca nhạc=부오이 비에우 지엔 까 냑"
+      ]
+    },
+    {
+      "id": "d13-concert-v-007",
+      "term": "loại hình biểu diễn",
+      "meaningKo": "공연 종류 / 공연 형태",
+      "example": "Bạn thích xem loại hình biểu diễn gì?",
+      "exampleMeaningKo": "당신은 어떤 종류의 공연을 보는 것을 좋아하나요?",
+      "audioSrc": "",
+      "sourcePage": 13,
+      "reviewNeeded": false,
+      "pronKo": "로아이 힌 비에우 지엔",
+      "pronNoteKo": "loại hình은 종류, 형태라는 뜻입니다.",
+      "pronChunks": [
+        "loại hình biểu diễn=로아이 힌 비에우 지엔"
+      ]
+    },
+    {
+      "id": "d13-concert-v-008",
+      "term": "ca sĩ",
+      "meaningKo": "가수",
+      "example": "Ca sĩ tôi thích nhất là IU.",
+      "exampleMeaningKo": "제가 가장 좋아하는 가수는 아이유입니다.",
+      "audioSrc": "",
+      "sourcePage": 13,
+      "reviewNeeded": false,
+      "pronKo": "까 시",
+      "pronNoteKo": "솔로 가수를 말할 때 씁니다.",
+      "pronChunks": [
+        "ca sĩ=까 시"
+      ]
+    },
+    {
+      "id": "d13-concert-v-009",
+      "term": "nhóm nhạc",
+      "meaningKo": "음악 그룹 / 아이돌 그룹",
+      "example": "Nhóm nhạc tôi thích nhất là BTS.",
+      "exampleMeaningKo": "제가 가장 좋아하는 그룹은 BTS입니다.",
+      "audioSrc": "",
+      "sourcePage": 13,
+      "reviewNeeded": false,
+      "pronKo": "뇸 냑",
+      "pronNoteKo": "BTS 같은 그룹을 말할 때 씁니다.",
+      "pronChunks": [
+        "nhóm nhạc=뇸 냑"
+      ]
+    },
+    {
+      "id": "d13-concert-v-010",
+      "term": "ca sĩ mà bạn yêu thích",
+      "meaningKo": "당신이 좋아하는 가수",
+      "example": "Có một buổi biểu diễn của ca sĩ mà tôi yêu thích.",
+      "exampleMeaningKo": "제가 좋아하는 가수의 공연이 하나 있습니다.",
+      "audioSrc": "",
+      "sourcePage": 13,
+      "reviewNeeded": false,
+      "pronKo": "까 시 마 반 이에우 틱",
+      "pronNoteKo": "mà는 앞의 명사를 설명합니다.",
+      "pronChunks": [
+        "ca sĩ mà bạn yêu thích=까 시 마 반 이에우 틱"
+      ]
+    },
+    {
+      "id": "d13-concert-v-011",
+      "term": "vé xem biểu diễn",
+      "meaningKo": "공연 티켓",
+      "example": "Tôi thường mua vé xem biểu diễn online.",
+      "exampleMeaningKo": "저는 보통 공연 티켓을 온라인으로 삽니다.",
+      "audioSrc": "",
+      "sourcePage": 13,
+      "reviewNeeded": false,
+      "pronKo": "베 쎔 비에우 지엔",
+      "pronNoteKo": "vé는 표/티켓입니다.",
+      "pronChunks": [
+        "vé xem biểu diễn=베 쎔 비에우 지엔"
+      ]
+    },
+    {
+      "id": "d13-concert-v-012",
+      "term": "mua vé",
+      "meaningKo": "표를 사다",
+      "example": "Tôi mua vé trước khi đi xem biểu diễn.",
+      "exampleMeaningKo": "저는 공연 보러 가기 전에 표를 삽니다.",
+      "audioSrc": "",
+      "sourcePage": 13,
+      "reviewNeeded": false,
+      "pronKo": "무어 베",
+      "pronNoteKo": "표 구매 행동입니다.",
+      "pronChunks": [
+        "mua vé=무어 베"
+      ]
+    },
+    {
+      "id": "d13-concert-v-013",
+      "term": "mua online",
+      "meaningKo": "온라인으로 사다",
+      "example": "Tôi thường mua vé online.",
+      "exampleMeaningKo": "저는 보통 온라인으로 표를 삽니다.",
+      "audioSrc": "",
+      "sourcePage": 13,
+      "reviewNeeded": false,
+      "pronKo": "무어 온라인",
+      "pronNoteKo": "online은 그대로 말해도 됩니다.",
+      "pronChunks": [
+        "mua online=무어 온라인"
+      ]
+    },
+    {
+      "id": "d13-concert-v-014",
+      "term": "mua tại quầy bán vé",
+      "meaningKo": "매표소에서 사다",
+      "example": "Trước đây tôi mua vé tại quầy bán vé.",
+      "exampleMeaningKo": "예전에는 매표소에서 표를 샀습니다.",
+      "audioSrc": "",
+      "sourcePage": 13,
+      "reviewNeeded": false,
+      "pronKo": "무어 따이 꿔이 반 베",
+      "pronNoteKo": "tại는 장소 '~에서'입니다.",
+      "pronChunks": [
+        "mua tại quầy bán vé=무어 따이 꿔이 반 베"
+      ]
+    },
+    {
+      "id": "d13-concert-v-015",
+      "term": "quầy bán vé",
+      "meaningKo": "매표소",
+      "example": "Quầy bán vé ở trước cửa nhà hát.",
+      "exampleMeaningKo": "매표소는 공연장 입구 앞에 있습니다.",
+      "audioSrc": "",
+      "sourcePage": 13,
+      "reviewNeeded": false,
+      "pronKo": "꿔이 반 베",
+      "pronNoteKo": "오프라인 티켓 구매 장소입니다.",
+      "pronChunks": [
+        "quầy bán vé=꿔이 반 베"
+      ]
+    },
+    {
+      "id": "d13-concert-v-016",
+      "term": "hết vé",
+      "meaningKo": "표가 매진되다",
+      "example": "Buổi biểu diễn đó hết vé rồi.",
+      "exampleMeaningKo": "그 공연은 표가 이미 매진되었습니다.",
+      "audioSrc": "",
+      "sourcePage": 13,
+      "reviewNeeded": false,
+      "pronKo": "헷 베",
+      "pronNoteKo": "콘서트 문제 핵심 표현입니다.",
+      "pronChunks": [
+        "hết vé=헷 베"
+      ]
+    },
+    {
+      "id": "d13-concert-v-017",
+      "term": "làm thế nào",
+      "meaningKo": "어떻게 하다 / 어떻게 할 것인가",
+      "example": "Nếu hết vé thì bạn sẽ làm thế nào?",
+      "exampleMeaningKo": "표가 매진되면 당신은 어떻게 할 건가요?",
+      "audioSrc": "",
+      "sourcePage": 13,
+      "reviewNeeded": false,
+      "pronKo": "람 테 나오",
+      "pronNoteKo": "해결 방법을 묻는 표현입니다.",
+      "pronChunks": [
+        "làm thế nào=람 테 나오"
+      ]
+    },
+    {
+      "id": "d13-concert-v-018",
+      "term": "đặt vé",
+      "meaningKo": "표를 예매하다",
+      "example": "Tôi thường đặt vé trên điện thoại.",
+      "exampleMeaningKo": "저는 보통 휴대폰으로 표를 예매합니다.",
+      "audioSrc": "",
+      "sourcePage": 13,
+      "reviewNeeded": false,
+      "pronKo": "닷 베",
+      "pronNoteKo": "예약/예매 느낌입니다.",
+      "pronChunks": [
+        "đặt vé=닷 베"
+      ]
+    },
+    {
+      "id": "d13-concert-v-019",
+      "term": "đặt vé online",
+      "meaningKo": "온라인으로 표를 예매하다",
+      "example": "Tôi đặt vé online vì rất tiện lợi.",
+      "exampleMeaningKo": "저는 매우 편리해서 온라인으로 표를 예매합니다.",
+      "audioSrc": "",
+      "sourcePage": 13,
+      "reviewNeeded": false,
+      "pronKo": "닷 베 온라인",
+      "pronNoteKo": "요즘 공연 티켓 구매 방식에 좋습니다.",
+      "pronChunks": [
+        "đặt vé online=닷 베 온라인"
+      ]
+    },
+    {
+      "id": "d13-concert-v-020",
+      "term": "vé đứng",
+      "meaningKo": "스탠딩 티켓 / 입석",
+      "example": "Tôi thích mua vé đứng khi đi xem concert.",
+      "exampleMeaningKo": "저는 콘서트를 보러 갈 때 스탠딩 티켓을 사는 것을 좋아합니다.",
+      "audioSrc": "",
+      "sourcePage": 13,
+      "reviewNeeded": false,
+      "pronKo": "베 등",
+      "pronNoteKo": "đứng은 서다입니다.",
+      "pronChunks": [
+        "vé đứng=베 등"
+      ]
+    },
+    {
+      "id": "d13-concert-v-021",
+      "term": "vé ngồi",
+      "meaningKo": "좌석 티켓",
+      "example": "Tôi thích vé ngồi hơn vì thoải mái.",
+      "exampleMeaningKo": "저는 편해서 좌석 티켓을 더 좋아합니다.",
+      "audioSrc": "",
+      "sourcePage": 13,
+      "reviewNeeded": false,
+      "pronKo": "베 응오이",
+      "pronNoteKo": "ngồi는 앉다입니다.",
+      "pronChunks": [
+        "vé ngồi=베 응오이"
+      ]
+    },
+    {
+      "id": "d13-concert-v-022",
+      "term": "đứng gần sân khấu",
+      "meaningKo": "무대 가까이에 서다",
+      "example": "Nếu mua vé đứng, tôi có thể đứng gần sân khấu.",
+      "exampleMeaningKo": "스탠딩 티켓을 사면 무대 가까이에 설 수 있습니다.",
+      "audioSrc": "",
+      "sourcePage": 13,
+      "reviewNeeded": false,
+      "pronKo": "등 건 선 카우",
+      "pronNoteKo": "스탠딩 티켓 장점 설명에 좋습니다.",
+      "pronChunks": [
+        "đứng gần sân khấu=등 건 선 카우"
+      ]
+    },
+    {
+      "id": "d13-concert-v-023",
+      "term": "sân khấu",
+      "meaningKo": "무대",
+      "example": "Sân khấu rất đẹp và lớn.",
+      "exampleMeaningKo": "무대는 매우 아름답고 컸습니다.",
+      "audioSrc": "",
+      "sourcePage": 13,
+      "reviewNeeded": false,
+      "pronKo": "선 카우",
+      "pronNoteKo": "공연장 묘사에 필요한 단어입니다.",
+      "pronChunks": [
+        "sân khấu=선 카우"
+      ]
+    },
+    {
+      "id": "d13-concert-v-024",
+      "term": "chỗ ngồi",
+      "meaningKo": "좌석 / 앉는 자리",
+      "example": "Chỗ ngồi của tôi khá xa sân khấu.",
+      "exampleMeaningKo": "제 좌석은 무대에서 꽤 멀었습니다.",
+      "audioSrc": "",
+      "sourcePage": 13,
+      "reviewNeeded": false,
+      "pronKo": "쪼 응오이",
+      "pronNoteKo": "좌석 위치를 설명할 때 씁니다.",
+      "pronChunks": [
+        "chỗ ngồi=쪼 응오이"
+      ]
+    },
+    {
+      "id": "d13-concert-v-025",
+      "term": "sân vận động",
+      "meaningKo": "경기장 / 스타디움",
+      "example": "Buổi biểu diễn được tổ chức ở sân vận động.",
+      "exampleMeaningKo": "그 공연은 경기장에서 열렸습니다.",
+      "audioSrc": "",
+      "sourcePage": 13,
+      "reviewNeeded": false,
+      "pronKo": "선 번 동",
+      "pronNoteKo": "대형 콘서트 장소를 말할 때 좋습니다.",
+      "pronChunks": [
+        "sân vận động=선 번 동"
+      ]
+    },
+    {
+      "id": "d13-concert-v-026",
+      "term": "nhà hát",
+      "meaningKo": "극장 / 공연장",
+      "example": "Tôi xem biểu diễn ở nhà hát.",
+      "exampleMeaningKo": "저는 극장에서 공연을 봅니다.",
+      "audioSrc": "",
+      "sourcePage": 13,
+      "reviewNeeded": false,
+      "pronKo": "냐 핫",
+      "pronNoteKo": "뮤지컬, 연극, 공연 장소입니다.",
+      "pronChunks": [
+        "nhà hát=냐 핫"
+      ]
+    },
+    {
+      "id": "d13-concert-v-027",
+      "term": "phòng hòa nhạc",
+      "meaningKo": "콘서트홀",
+      "example": "Buổi biểu diễn đó ở phòng hòa nhạc.",
+      "exampleMeaningKo": "그 공연은 콘서트홀에서 있었습니다.",
+      "audioSrc": "",
+      "sourcePage": 13,
+      "reviewNeeded": false,
+      "pronKo": "퐁 화 냑",
+      "pronNoteKo": "클래식 공연장 느낌입니다.",
+      "pronChunks": [
+        "phòng hòa nhạc=퐁 화 냑"
+      ]
+    },
+    {
+      "id": "d13-concert-v-028",
+      "term": "gần đây",
+      "meaningKo": "최근에",
+      "example": "Gần đây tôi đã xem một buổi biểu diễn ca nhạc.",
+      "exampleMeaningKo": "최근에 저는 음악 공연을 하나 봤습니다.",
+      "audioSrc": "",
+      "sourcePage": 13,
+      "reviewNeeded": false,
+      "pronKo": "건 더이",
+      "pronNoteKo": "최근 경험 문제에 자주 나옵니다.",
+      "pronChunks": [
+        "gần đây=건 더이"
+      ]
+    },
+    {
+      "id": "d13-concert-v-029",
+      "term": "trước buổi biểu diễn",
+      "meaningKo": "공연 전에",
+      "example": "Trước buổi biểu diễn, tôi mua nước uống.",
+      "exampleMeaningKo": "공연 전에 저는 음료를 샀습니다.",
+      "audioSrc": "",
+      "sourcePage": 13,
+      "reviewNeeded": false,
+      "pronKo": "쯔억 부오이 비에우 지엔",
+      "pronNoteKo": "공연 전 활동을 말할 때 씁니다.",
+      "pronChunks": [
+        "trước buổi biểu diễn=쯔억 부오이 비에우 지엔"
+      ]
+    },
+    {
+      "id": "d13-concert-v-030",
+      "term": "trong buổi biểu diễn",
+      "meaningKo": "공연 중에",
+      "example": "Trong buổi biểu diễn, tôi hát theo ca sĩ.",
+      "exampleMeaningKo": "공연 중에 저는 가수를 따라 노래했습니다.",
+      "audioSrc": "",
+      "sourcePage": 13,
+      "reviewNeeded": false,
+      "pronKo": "쫑 부오이 비에우 지엔",
+      "pronNoteKo": "공연 중 행동을 말할 때 씁니다.",
+      "pronChunks": [
+        "trong buổi biểu diễn=쫑 부오이 비에우 지엔"
+      ]
+    },
+    {
+      "id": "d13-concert-v-031",
+      "term": "sau buổi biểu diễn",
+      "meaningKo": "공연 후에",
+      "example": "Sau buổi biểu diễn, tôi ăn tối với bạn.",
+      "exampleMeaningKo": "공연 후에 저는 친구와 저녁을 먹었습니다.",
+      "audioSrc": "",
+      "sourcePage": 13,
+      "reviewNeeded": false,
+      "pronKo": "사우 부오이 비에우 지엔",
+      "pronNoteKo": "공연 후 활동을 말할 때 씁니다.",
+      "pronChunks": [
+        "sau buổi biểu diễn=사우 부오이 비에우 지엔"
+      ]
+    },
+    {
+      "id": "d13-concert-v-032",
+      "term": "trước, trong và sau",
+      "meaningKo": "전, 중, 후",
+      "example": "Bạn đã làm gì trước, trong và sau buổi biểu diễn?",
+      "exampleMeaningKo": "공연 전, 중, 후에 무엇을 했나요?",
+      "audioSrc": "",
+      "sourcePage": 13,
+      "reviewNeeded": false,
+      "pronKo": "쯔억, 쫑 바 사우",
+      "pronNoteKo": "시간 순서 답변에 중요합니다.",
+      "pronChunks": [
+        "trước, trong và sau=쯔억, 쫑 바 사우"
+      ]
+    },
+    {
+      "id": "d13-concert-v-033",
+      "term": "không khí",
+      "meaningKo": "분위기 / 공기",
+      "example": "Không khí của buổi biểu diễn rất sôi động.",
+      "exampleMeaningKo": "그 공연의 분위기는 매우 활기찼습니다.",
+      "audioSrc": "",
+      "sourcePage": 13,
+      "reviewNeeded": false,
+      "pronKo": "콩 키",
+      "pronNoteKo": "공연 분위기 핵심 단어입니다.",
+      "pronChunks": [
+        "không khí=콩 키"
+      ]
+    },
+    {
+      "id": "d13-concert-v-034",
+      "term": "không khí sôi động",
+      "meaningKo": "활기찬 분위기 / 신나는 분위기",
+      "example": "Không khí ở concert rất sôi động.",
+      "exampleMeaningKo": "콘서트 분위기는 매우 신났습니다.",
+      "audioSrc": "",
+      "sourcePage": 13,
+      "reviewNeeded": false,
+      "pronKo": "콩 키 소이 동",
+      "pronNoteKo": "콘서트 분위기 설명에 좋습니다.",
+      "pronChunks": [
+        "không khí sôi động=콩 키 소이 동"
+      ]
+    },
+    {
+      "id": "d13-concert-v-035",
+      "term": "sôi động",
+      "meaningKo": "활기찬 / 신나는",
+      "example": "Buổi biểu diễn rất sôi động.",
+      "exampleMeaningKo": "그 공연은 매우 활기찼습니다.",
+      "audioSrc": "",
+      "sourcePage": 13,
+      "reviewNeeded": false,
+      "pronKo": "소이 동",
+      "pronNoteKo": "음악 공연의 에너지를 말합니다.",
+      "pronChunks": [
+        "sôi động=소이 동"
+      ]
+    },
+    {
+      "id": "d13-concert-v-036",
+      "term": "náo nhiệt",
+      "meaningKo": "떠들썩한 / 활기찬",
+      "example": "Không khí rất náo nhiệt vì có nhiều fan.",
+      "exampleMeaningKo": "팬이 많아서 분위기가 매우 떠들썩했습니다.",
+      "audioSrc": "",
+      "sourcePage": 13,
+      "reviewNeeded": false,
+      "pronKo": "나오 니엣",
+      "pronNoteKo": "사람이 많고 분위기가 뜨거운 느낌입니다.",
+      "pronChunks": [
+        "náo nhiệt=나오 니엣"
+      ]
+    },
+    {
+      "id": "d13-concert-v-037",
+      "term": "ấn tượng",
+      "meaningKo": "인상 / 인상적인",
+      "example": "Buổi biểu diễn đó để lại ấn tượng đối với tôi.",
+      "exampleMeaningKo": "그 공연은 저에게 인상을 남겼습니다.",
+      "audioSrc": "",
+      "sourcePage": 13,
+      "reviewNeeded": false,
+      "pronKo": "언 뜨엉",
+      "pronNoteKo": "기억에 남는 공연 문제에서 필수입니다.",
+      "pronChunks": [
+        "ấn tượng=언 뜨엉"
+      ]
+    },
+    {
+      "id": "d13-concert-v-038",
+      "term": "để lại ấn tượng",
+      "meaningKo": "인상을 남기다",
+      "example": "Ánh sáng và âm thanh để lại ấn tượng đối với tôi.",
+      "exampleMeaningKo": "조명과 음향이 저에게 인상을 남겼습니다.",
+      "audioSrc": "",
+      "sourcePage": 13,
+      "reviewNeeded": false,
+      "pronKo": "데 라이 언 뜨엉",
+      "pronNoteKo": "무엇이 인상 깊었는지 말할 때 씁니다.",
+      "pronChunks": [
+        "để lại ấn tượng=데 라이 언 뜨엉"
+      ]
+    },
+    {
+      "id": "d13-concert-v-039",
+      "term": "đáng nhớ",
+      "meaningKo": "기억에 남는",
+      "example": "Đó là buổi biểu diễn đáng nhớ nhất.",
+      "exampleMeaningKo": "그것은 가장 기억에 남는 공연이었습니다.",
+      "audioSrc": "",
+      "sourcePage": 13,
+      "reviewNeeded": false,
+      "pronKo": "당 녀",
+      "pronNoteKo": "특별했던 공연 문제 핵심입니다.",
+      "pronChunks": [
+        "đáng nhớ=당 녀"
+      ]
+    },
+    {
+      "id": "d13-concert-v-040",
+      "term": "đáng nhớ nhất",
+      "meaningKo": "가장 기억에 남는",
+      "example": "Buổi biểu diễn đáng nhớ nhất là concert của BTS.",
+      "exampleMeaningKo": "가장 기억에 남는 공연은 BTS 콘서트입니다.",
+      "audioSrc": "",
+      "sourcePage": 13,
+      "reviewNeeded": false,
+      "pronKo": "당 녀 녓",
+      "pronNoteKo": "nhất는 최상급입니다.",
+      "pronChunks": [
+        "đáng nhớ nhất=당 녀 녓"
+      ]
+    },
+    {
+      "id": "d13-concert-v-041",
+      "term": "trở nên đặc biệt",
+      "meaningKo": "특별해지다",
+      "example": "Buổi biểu diễn đó trở nên đặc biệt đối với tôi.",
+      "exampleMeaningKo": "그 공연은 저에게 특별해졌습니다.",
+      "audioSrc": "",
+      "sourcePage": 13,
+      "reviewNeeded": false,
+      "pronKo": "쩌 넨 닥 비엣",
+      "pronNoteKo": "왜 특별한지 설명할 때 씁니다.",
+      "pronChunks": [
+        "trở nên đặc biệt=쩌 넨 닥 비엣"
+      ]
+    },
+    {
+      "id": "d13-concert-v-042",
+      "term": "đặc biệt đối với bạn",
+      "meaningKo": "당신에게 특별한",
+      "example": "Tại sao buổi biểu diễn đó đặc biệt đối với bạn?",
+      "exampleMeaningKo": "왜 그 공연이 당신에게 특별한가요?",
+      "audioSrc": "",
+      "sourcePage": 13,
+      "reviewNeeded": false,
+      "pronKo": "닥 비엣 도이 버이 반",
+      "pronNoteKo": "đối với는 '~에게'입니다.",
+      "pronChunks": [
+        "đặc biệt đối với bạn=닥 비엣 도이 버이 반"
+      ]
+    },
+    {
+      "id": "d13-concert-v-043",
+      "term": "trải nghiệm",
+      "meaningKo": "경험",
+      "example": "Tôi có một trải nghiệm rất vui khi đi xem concert.",
+      "exampleMeaningKo": "저는 콘서트를 보러 갔을 때 매우 즐거운 경험이 있었습니다.",
+      "audioSrc": "",
+      "sourcePage": 13,
+      "reviewNeeded": false,
+      "pronKo": "짜이 니엠",
+      "pronNoteKo": "경험 문제 핵심 단어입니다.",
+      "pronChunks": [
+        "trải nghiệm=짜이 니엠"
+      ]
+    },
+    {
+      "id": "d13-concert-v-044",
+      "term": "đi cùng với ai",
+      "meaningKo": "누구와 함께 가다",
+      "example": "Bạn đã đi cùng với ai?",
+      "exampleMeaningKo": "당신은 누구와 함께 갔나요?",
+      "audioSrc": "",
+      "sourcePage": 13,
+      "reviewNeeded": false,
+      "pronKo": "디 꿍 버이 아이",
+      "pronNoteKo": "동행자 질문입니다.",
+      "pronChunks": [
+        "đi cùng với ai=디 꿍 버이 아이"
+      ]
+    },
+    {
+      "id": "d13-concert-v-045",
+      "term": "cùng với bạn",
+      "meaningKo": "친구와 함께",
+      "example": "Tôi thường đi xem concert cùng với bạn.",
+      "exampleMeaningKo": "저는 보통 친구와 함께 콘서트를 보러 갑니다.",
+      "audioSrc": "",
+      "sourcePage": 13,
+      "reviewNeeded": false,
+      "pronKo": "꿍 버이 반",
+      "pronNoteKo": "친구 동행 표현입니다.",
+      "pronChunks": [
+        "cùng với bạn=꿍 버이 반"
+      ]
+    },
+    {
+      "id": "d13-concert-v-046",
+      "term": "cùng với gia đình",
+      "meaningKo": "가족과 함께",
+      "example": "Tôi đi xem biểu diễn cùng với gia đình.",
+      "exampleMeaningKo": "저는 가족과 함께 공연을 보러 갑니다.",
+      "audioSrc": "",
+      "sourcePage": 13,
+      "reviewNeeded": false,
+      "pronKo": "꿍 버이 자 딘",
+      "pronNoteKo": "가족 동행 표현입니다.",
+      "pronChunks": [
+        "cùng với gia đình=꿍 버이 자 딘"
+      ]
+    },
+    {
+      "id": "d13-concert-v-047",
+      "term": "chuẩn bị",
+      "meaningKo": "준비하다",
+      "example": "Trước khi đi, tôi chuẩn bị vé và điện thoại.",
+      "exampleMeaningKo": "가기 전에 저는 표와 휴대폰을 준비합니다.",
+      "audioSrc": "",
+      "sourcePage": 13,
+      "reviewNeeded": false,
+      "pronKo": "쭈언 비",
+      "pronNoteKo": "공연 전 준비물을 말할 때 씁니다.",
+      "pronChunks": [
+        "chuẩn bị=쭈언 비"
+      ]
+    },
+    {
+      "id": "d13-concert-v-048",
+      "term": "trước khi đi",
+      "meaningKo": "가기 전에",
+      "example": "Trước khi đi, tôi kiểm tra vé.",
+      "exampleMeaningKo": "가기 전에 저는 표를 확인합니다.",
+      "audioSrc": "",
+      "sourcePage": 13,
+      "reviewNeeded": false,
+      "pronKo": "쯔억 키 디",
+      "pronNoteKo": "공연장에 가기 전 행동입니다.",
+      "pronChunks": [
+        "trước khi đi=쯔억 키 디"
+      ]
+    },
+    {
+      "id": "d13-concert-v-049",
+      "term": "kiểm tra vé",
+      "meaningKo": "표를 확인하다",
+      "example": "Tôi kiểm tra vé trước khi đi.",
+      "exampleMeaningKo": "저는 가기 전에 표를 확인합니다.",
+      "audioSrc": "",
+      "sourcePage": 13,
+      "reviewNeeded": false,
+      "pronKo": "끼엠 짜 베",
+      "pronNoteKo": "공연 전 준비로 자연스럽습니다.",
+      "pronChunks": [
+        "kiểm tra vé=끼엠 짜 베"
+      ]
+    },
+    {
+      "id": "d13-concert-v-050",
+      "term": "mang theo",
+      "meaningKo": "챙겨가다 / 가지고 가다",
+      "example": "Tôi mang theo điện thoại và nước uống.",
+      "exampleMeaningKo": "저는 휴대폰과 음료를 챙겨갑니다.",
+      "audioSrc": "",
+      "sourcePage": 13,
+      "reviewNeeded": false,
+      "pronKo": "망 테오",
+      "pronNoteKo": "준비물 설명에 유용합니다.",
+      "pronChunks": [
+        "mang theo=망 테오"
+      ]
+    },
+    {
+      "id": "d13-concert-v-051",
+      "term": "điện thoại",
+      "meaningKo": "휴대폰 / 전화",
+      "example": "Tôi dùng điện thoại để vào cửa.",
+      "exampleMeaningKo": "저는 입장하기 위해 휴대폰을 사용합니다.",
+      "audioSrc": "",
+      "sourcePage": 13,
+      "reviewNeeded": false,
+      "pronKo": "디엔 토아이",
+      "pronNoteKo": "모바일 티켓과 연결됩니다.",
+      "pronChunks": [
+        "điện thoại=디엔 토아이"
+      ]
+    },
+    {
+      "id": "d13-concert-v-052",
+      "term": "nước uống",
+      "meaningKo": "음료 / 마실 물",
+      "example": "Tôi mua nước uống trước buổi biểu diễn.",
+      "exampleMeaningKo": "저는 공연 전에 음료를 삽니다.",
+      "audioSrc": "",
+      "sourcePage": 13,
+      "reviewNeeded": false,
+      "pronKo": "느억 우옹",
+      "pronNoteKo": "공연 전 준비 활동에 좋습니다.",
+      "pronChunks": [
+        "nước uống=느억 우옹"
+      ]
+    },
+    {
+      "id": "d13-concert-v-053",
+      "term": "gậy cổ vũ",
+      "meaningKo": "응원봉 / 응원 도구",
+      "example": "Tôi mang gậy cổ vũ khi đi xem concert.",
+      "exampleMeaningKo": "저는 콘서트를 보러 갈 때 응원봉을 가져갑니다.",
+      "audioSrc": "",
+      "sourcePage": 13,
+      "reviewNeeded": false,
+      "pronKo": "거이 꼬 부",
+      "pronNoteKo": "아이돌 콘서트 준비물입니다.",
+      "pronChunks": [
+        "gậy cổ vũ=거이 꼬 부"
+      ]
+    },
+    {
+      "id": "d13-concert-v-054",
+      "term": "fan",
+      "meaningKo": "팬",
+      "example": "Có rất nhiều fan ở buổi biểu diễn.",
+      "exampleMeaningKo": "공연장에는 팬이 매우 많았습니다.",
+      "audioSrc": "",
+      "sourcePage": 13,
+      "reviewNeeded": false,
+      "pronKo": "팬",
+      "pronNoteKo": "외래어라 fan이라고 말하면 됩니다.",
+      "pronChunks": [
+        "fan=팬"
+      ]
+    },
+    {
+      "id": "d13-concert-v-055",
+      "term": "khán giả",
+      "meaningKo": "관객",
+      "example": "Khán giả hát theo ca sĩ.",
+      "exampleMeaningKo": "관객들은 가수를 따라 노래했습니다.",
+      "audioSrc": "",
+      "sourcePage": 13,
+      "reviewNeeded": false,
+      "pronKo": "칸 자",
+      "pronNoteKo": "공연장 분위기 설명에 필요합니다.",
+      "pronChunks": [
+        "khán giả=칸 자"
+      ]
+    },
+    {
+      "id": "d13-concert-v-056",
+      "term": "hát theo",
+      "meaningKo": "따라 부르다",
+      "example": "Tôi hát theo ca sĩ trong buổi biểu diễn.",
+      "exampleMeaningKo": "저는 공연 중에 가수를 따라 불렀습니다.",
+      "audioSrc": "",
+      "sourcePage": 13,
+      "reviewNeeded": false,
+      "pronKo": "핫 테오",
+      "pronNoteKo": "콘서트 중 활동 설명에 좋습니다.",
+      "pronChunks": [
+        "hát theo=핫 테오"
+      ]
+    },
+    {
+      "id": "d13-concert-v-057",
+      "term": "nhảy theo",
+      "meaningKo": "따라 춤추다",
+      "example": "Nhiều fan nhảy theo bài hát.",
+      "exampleMeaningKo": "많은 팬들이 노래에 맞춰 따라 춤췄습니다.",
+      "audioSrc": "",
+      "sourcePage": 13,
+      "reviewNeeded": false,
+      "pronKo": "냐이 테오",
+      "pronNoteKo": "댄스 공연에 활용하기 좋습니다.",
+      "pronChunks": [
+        "nhảy theo=냐이 테오"
+      ]
+    },
+    {
+      "id": "d13-concert-v-058",
+      "term": "vỗ tay",
+      "meaningKo": "박수치다",
+      "example": "Khán giả vỗ tay rất nhiều.",
+      "exampleMeaningKo": "관객들이 박수를 많이 쳤습니다.",
+      "audioSrc": "",
+      "sourcePage": 13,
+      "reviewNeeded": false,
+      "pronKo": "보 따이",
+      "pronNoteKo": "공연 중 반응을 말할 때 좋습니다.",
+      "pronChunks": [
+        "vỗ tay=보 따이"
+      ]
+    },
+    {
+      "id": "d13-concert-v-059",
+      "term": "la hét",
+      "meaningKo": "소리 지르다 / 환호하다",
+      "example": "Fan la hét khi ca sĩ xuất hiện.",
+      "exampleMeaningKo": "가수가 등장했을 때 팬들이 환호했습니다.",
+      "audioSrc": "",
+      "sourcePage": 13,
+      "reviewNeeded": false,
+      "pronKo": "라 헷",
+      "pronNoteKo": "콘서트의 뜨거운 분위기를 표현합니다.",
+      "pronChunks": [
+        "la hét=라 헷"
+      ]
+    },
+    {
+      "id": "d13-concert-v-060",
+      "term": "âm thanh",
+      "meaningKo": "음향 / 소리",
+      "example": "Âm thanh ở buổi biểu diễn rất tốt.",
+      "exampleMeaningKo": "그 공연의 음향은 매우 좋았습니다.",
+      "audioSrc": "",
+      "sourcePage": 13,
+      "reviewNeeded": false,
+      "pronKo": "엄 타인",
+      "pronNoteKo": "공연 품질을 설명할 때 씁니다.",
+      "pronChunks": [
+        "âm thanh=엄 타인"
+      ]
+    },
+    {
+      "id": "d13-concert-v-061",
+      "term": "ánh sáng",
+      "meaningKo": "조명 / 빛",
+      "example": "Ánh sáng trên sân khấu rất đẹp.",
+      "exampleMeaningKo": "무대의 조명이 매우 아름다웠습니다.",
+      "audioSrc": "",
+      "sourcePage": 13,
+      "reviewNeeded": false,
+      "pronKo": "아인 상",
+      "pronNoteKo": "무대 묘사에 좋습니다.",
+      "pronChunks": [
+        "ánh sáng=아인 상"
+      ]
+    },
+    {
+      "id": "d13-concert-v-062",
+      "term": "màn hình lớn",
+      "meaningKo": "큰 화면",
+      "example": "Ở concert có màn hình lớn.",
+      "exampleMeaningKo": "콘서트에는 큰 화면이 있었습니다.",
+      "audioSrc": "",
+      "sourcePage": 13,
+      "reviewNeeded": false,
+      "pronKo": "만 힌 런",
+      "pronNoteKo": "대형 공연장 묘사에 좋습니다.",
+      "pronChunks": [
+        "màn hình lớn=만 힌 런"
+      ]
+    },
+    {
+      "id": "d13-concert-v-063",
+      "term": "nhạc sống",
+      "meaningKo": "라이브 음악",
+      "example": "Tôi thích nhạc sống vì rất chân thật.",
+      "exampleMeaningKo": "저는 매우 생생해서 라이브 음악을 좋아합니다.",
+      "audioSrc": "",
+      "sourcePage": 13,
+      "reviewNeeded": false,
+      "pronKo": "냑 송",
+      "pronNoteKo": "라이브 공연의 매력 표현입니다.",
+      "pronChunks": [
+        "nhạc sống=냑 송"
+      ]
+    },
+    {
+      "id": "d13-concert-v-064",
+      "term": "hát live",
+      "meaningKo": "라이브로 노래하다",
+      "example": "Ca sĩ đó hát live rất hay.",
+      "exampleMeaningKo": "그 가수는 라이브로 노래를 매우 잘합니다.",
+      "audioSrc": "",
+      "sourcePage": 13,
+      "reviewNeeded": false,
+      "pronKo": "핫 라이브",
+      "pronNoteKo": "live는 영어식으로 말해도 괜찮습니다.",
+      "pronChunks": [
+        "hát live=핫 라이브"
+      ]
+    },
+    {
+      "id": "d13-concert-v-065",
+      "term": "chất lượng",
+      "meaningKo": "품질",
+      "example": "Chất lượng âm thanh rất tốt.",
+      "exampleMeaningKo": "음향 품질이 매우 좋았습니다.",
+      "audioSrc": "",
+      "sourcePage": 13,
+      "reviewNeeded": false,
+      "pronKo": "쩟 르엉",
+      "pronNoteKo": "음향이나 공연 수준을 말합니다.",
+      "pronChunks": [
+        "chất lượng=쩟 르엉"
+      ]
+    },
+    {
+      "id": "d13-concert-v-066",
+      "term": "tổ chức",
+      "meaningKo": "개최하다 / 조직하다",
+      "example": "Buổi biểu diễn được tổ chức ở Seoul.",
+      "exampleMeaningKo": "그 공연은 서울에서 열렸습니다.",
+      "audioSrc": "",
+      "sourcePage": 13,
+      "reviewNeeded": false,
+      "pronKo": "또 쯕",
+      "pronNoteKo": "공연이 어디서 열렸는지 말할 때 씁니다.",
+      "pronChunks": [
+        "tổ chức=또 쯕"
+      ]
+    },
+    {
+      "id": "d13-concert-v-067",
+      "term": "được tổ chức",
+      "meaningKo": "개최되다 / 열리다",
+      "example": "Concert được tổ chức vào cuối tuần.",
+      "exampleMeaningKo": "콘서트는 주말에 열렸습니다.",
+      "audioSrc": "",
+      "sourcePage": 13,
+      "reviewNeeded": false,
+      "pronKo": "드억 또 쯕",
+      "pronNoteKo": "수동 느낌으로 '열리다'입니다.",
+      "pronChunks": [
+        "được tổ chức=드억 또 쯕"
+      ]
+    },
+    {
+      "id": "d13-concert-v-068",
+      "term": "đến muộn",
+      "meaningKo": "늦게 도착하다",
+      "example": "Tôi có thể sẽ đến muộn.",
+      "exampleMeaningKo": "저는 늦게 도착할 수도 있습니다.",
+      "audioSrc": "",
+      "sourcePage": 13,
+      "reviewNeeded": false,
+      "pronKo": "덴 무온",
+      "pronNoteKo": "지각 상황 핵심 표현입니다.",
+      "pronChunks": [
+        "đến muộn=덴 무온"
+      ]
+    },
+    {
+      "id": "d13-concert-v-069",
+      "term": "bị tắc đường",
+      "meaningKo": "교통 체증에 걸리다 / 길이 막히다",
+      "example": "Tôi bị tắc đường nên đến muộn.",
+      "exampleMeaningKo": "저는 길이 막혀서 늦게 도착했습니다.",
+      "audioSrc": "",
+      "sourcePage": 13,
+      "reviewNeeded": false,
+      "pronKo": "비 딱 드엉",
+      "pronNoteKo": "12번 상황극 핵심입니다.",
+      "pronChunks": [
+        "bị tắc đường=비 딱 드엉"
+      ]
+    },
+    {
+      "id": "d13-concert-v-070",
+      "term": "tắc đường",
+      "meaningKo": "교통 체증 / 길 막힘",
+      "example": "Hôm nay tắc đường rất nặng.",
+      "exampleMeaningKo": "오늘 길이 매우 많이 막힙니다.",
+      "audioSrc": "",
+      "sourcePage": 13,
+      "reviewNeeded": false,
+      "pronKo": "딱 드엉",
+      "pronNoteKo": "교통 문제를 말할 때 씁니다.",
+      "pronChunks": [
+        "tắc đường=딱 드엉"
+      ]
+    },
+    {
+      "id": "d13-concert-v-071",
+      "term": "sắp đến giờ",
+      "meaningKo": "곧 시간이 되다",
+      "example": "Sắp đến giờ xem biểu diễn.",
+      "exampleMeaningKo": "곧 공연을 볼 시간이 됩니다.",
+      "audioSrc": "",
+      "sourcePage": 13,
+      "reviewNeeded": false,
+      "pronKo": "쌉 덴 저",
+      "pronNoteKo": "시간이 임박했다는 표현입니다.",
+      "pronChunks": [
+        "sắp đến giờ=쌉 덴 저"
+      ]
+    },
+    {
+      "id": "d13-concert-v-072",
+      "term": "giờ xem biểu diễn",
+      "meaningKo": "공연 관람 시간",
+      "example": "Sắp đến giờ xem biểu diễn rồi.",
+      "exampleMeaningKo": "곧 공연 관람 시간이 됩니다.",
+      "audioSrc": "",
+      "sourcePage": 13,
+      "reviewNeeded": false,
+      "pronKo": "저 쎔 비에우 지엔",
+      "pronNoteKo": "공연 시작 시간에 가까운 느낌입니다.",
+      "pronChunks": [
+        "giờ xem biểu diễn=저 쎔 비에우 지엔"
+      ]
+    },
+    {
+      "id": "d13-concert-v-073",
+      "term": "giải thích tình hình",
+      "meaningKo": "상황을 설명하다",
+      "example": "Tôi sẽ gọi điện để giải thích tình hình.",
+      "exampleMeaningKo": "저는 상황을 설명하기 위해 전화할 것입니다.",
+      "audioSrc": "",
+      "sourcePage": 13,
+      "reviewNeeded": false,
+      "pronKo": "자이 틱 띤 힌",
+      "pronNoteKo": "역할극에서 필수입니다.",
+      "pronChunks": [
+        "giải thích tình hình=자이 틱 띤 힌"
+      ]
+    },
+    {
+      "id": "d13-concert-v-074",
+      "term": "tình hình hiện tại",
+      "meaningKo": "현재 상황",
+      "example": "Tôi sẽ giải thích tình hình hiện tại.",
+      "exampleMeaningKo": "저는 현재 상황을 설명하겠습니다.",
+      "audioSrc": "",
+      "sourcePage": 13,
+      "reviewNeeded": false,
+      "pronKo": "띤 힌 히엔 따이",
+      "pronNoteKo": "문제 원문 표현입니다.",
+      "pronChunks": [
+        "tình hình hiện tại=띤 힌 히엔 따이"
+      ]
+    },
+    {
+      "id": "d13-concert-v-075",
+      "term": "đưa ra phương án giải quyết",
+      "meaningKo": "해결 방안을 제시하다",
+      "example": "Tôi sẽ đưa ra phương án giải quyết.",
+      "exampleMeaningKo": "저는 해결 방안을 제시하겠습니다.",
+      "audioSrc": "",
+      "sourcePage": 13,
+      "reviewNeeded": false,
+      "pronKo": "드어 자 프엉 안 자이 꾸엣",
+      "pronNoteKo": "문제 해결 역할극에 자주 씁니다.",
+      "pronChunks": [
+        "đưa ra phương án giải quyết=드어 자 프엉 안 자이 꾸엣"
+      ]
+    },
+    {
+      "id": "d13-concert-v-076",
+      "term": "phương án giải quyết",
+      "meaningKo": "해결 방안",
+      "example": "Tôi có hai phương án giải quyết.",
+      "exampleMeaningKo": "저는 두 가지 해결 방안이 있습니다.",
+      "audioSrc": "",
+      "sourcePage": 13,
+      "reviewNeeded": false,
+      "pronKo": "프엉 안 자이 꾸엣",
+      "pronNoteKo": "대안을 제시할 때 씁니다.",
+      "pronChunks": [
+        "phương án giải quyết=프엉 안 자이 꾸엣"
+      ]
+    },
+    {
+      "id": "d13-concert-v-077",
+      "term": "vào trước",
+      "meaningKo": "먼저 들어가다",
+      "example": "Bạn có thể vào trước.",
+      "exampleMeaningKo": "당신은 먼저 들어갈 수 있습니다.",
+      "audioSrc": "",
+      "sourcePage": 13,
+      "reviewNeeded": false,
+      "pronKo": "바오 쯔억",
+      "pronNoteKo": "내가 늦을 때 친구에게 제안하기 좋습니다.",
+      "pronChunks": [
+        "vào trước=바오 쯔억"
+      ]
+    },
+    {
+      "id": "d13-concert-v-078",
+      "term": "đợi tôi",
+      "meaningKo": "나를 기다리다",
+      "example": "Bạn có thể đợi tôi ở cổng không?",
+      "exampleMeaningKo": "입구에서 저를 기다려줄 수 있나요?",
+      "audioSrc": "",
+      "sourcePage": 13,
+      "reviewNeeded": false,
+      "pronKo": "더이 또이",
+      "pronNoteKo": "친구와 만날 때 씁니다.",
+      "pronChunks": [
+        "đợi tôi=더이 또이"
+      ]
+    },
+    {
+      "id": "d13-concert-v-079",
+      "term": "gặp nhau ở cổng",
+      "meaningKo": "입구에서 만나다",
+      "example": "Chúng ta gặp nhau ở cổng sau buổi biểu diễn nhé.",
+      "exampleMeaningKo": "우리 공연 후에 입구에서 만나자.",
+      "audioSrc": "",
+      "sourcePage": 13,
+      "reviewNeeded": false,
+      "pronKo": "갑 냐우 어 꽁",
+      "pronNoteKo": "약속 장소를 말할 때 좋습니다.",
+      "pronChunks": [
+        "gặp nhau ở cổng=갑 냐우 어 꽁"
+      ]
+    },
+    {
+      "id": "d13-concert-v-080",
+      "term": "cổng",
+      "meaningKo": "입구 / 문",
+      "example": "Tôi sẽ đợi bạn ở cổng.",
+      "exampleMeaningKo": "저는 입구에서 당신을 기다리겠습니다.",
+      "audioSrc": "",
+      "sourcePage": 13,
+      "reviewNeeded": false,
+      "pronKo": "꽁",
+      "pronNoteKo": "공연장 입구를 말할 때 씁니다.",
+      "pronChunks": [
+        "cổng=꽁"
+      ]
+    },
+    {
+      "id": "d13-concert-v-081",
+      "term": "rủ bạn ấy đi xem",
+      "meaningKo": "그 친구에게 보러 가자고 권하다",
+      "example": "Tôi muốn rủ bạn ấy đi xem concert.",
+      "exampleMeaningKo": "저는 그 친구에게 콘서트 보러 가자고 하고 싶습니다.",
+      "audioSrc": "",
+      "sourcePage": 13,
+      "reviewNeeded": false,
+      "pronKo": "주 반 어이 디 쎔",
+      "pronNoteKo": "역할극 초대 핵심 표현입니다.",
+      "pronChunks": [
+        "rủ bạn ấy đi xem=주 반 어이 디 쎔"
+      ]
+    },
+    {
+      "id": "d13-concert-v-082",
+      "term": "diễn kịch",
+      "meaningKo": "역할극을 하다 / 연기하다",
+      "example": "Bạn hãy diễn kịch để giải quyết tình huống đó.",
+      "exampleMeaningKo": "그 상황을 해결하기 위해 역할극을 해주세요.",
+      "audioSrc": "",
+      "sourcePage": 13,
+      "reviewNeeded": false,
+      "pronKo": "지엔 끼익",
+      "pronNoteKo": "OPIc 역할극 문제의 핵심입니다.",
+      "pronChunks": [
+        "diễn kịch=지엔 끼익"
+      ]
+    },
+    {
+      "id": "d13-concert-v-083",
+      "term": "giải quyết tình huống",
+      "meaningKo": "상황을 해결하다",
+      "example": "Tôi cần giải quyết tình huống này.",
+      "exampleMeaningKo": "저는 이 상황을 해결해야 합니다.",
+      "audioSrc": "",
+      "sourcePage": 13,
+      "reviewNeeded": false,
+      "pronKo": "자이 꾸엣 띤 후옹",
+      "pronNoteKo": "문제 해결형 역할극에서 중요합니다.",
+      "pronChunks": [
+        "giải quyết tình huống=자이 꾸엣 띤 후옹"
+      ]
+    },
+    {
+      "id": "d13-concert-v-084",
+      "term": "người Hàn Quốc",
+      "meaningKo": "한국 사람",
+      "example": "Người Hàn Quốc thích đi xem concert.",
+      "exampleMeaningKo": "한국 사람들은 콘서트 보러 가는 것을 좋아합니다.",
+      "audioSrc": "",
+      "sourcePage": 13,
+      "reviewNeeded": false,
+      "pronKo": "응으어이 한 꾸옥",
+      "pronNoteKo": "한국 문화 설명 문제에 씁니다.",
+      "pronChunks": [
+        "người Hàn Quốc=응으어이 한 꾸옥"
+      ]
+    },
+    {
+      "id": "d13-concert-v-085",
+      "term": "thói quen đi xem biểu diễn",
+      "meaningKo": "공연 보러 가는 습관",
+      "example": "Thói quen đi xem biểu diễn đã thay đổi nhiều.",
+      "exampleMeaningKo": "공연 보러 가는 습관은 많이 변했습니다.",
+      "audioSrc": "",
+      "sourcePage": 13,
+      "reviewNeeded": false,
+      "pronKo": "토이 꿴 디 쎔 비에우 지엔",
+      "pronNoteKo": "변화 문제 핵심 표현입니다.",
+      "pronChunks": [
+        "thói quen đi xem biểu diễn=토이 꿴 디 쎔 비에우 지엔"
+      ]
+    },
+    {
+      "id": "d13-concert-v-086",
+      "term": "trước đây và bây giờ",
+      "meaningKo": "예전과 지금",
+      "example": "Thói quen trước đây và bây giờ không giống nhau.",
+      "exampleMeaningKo": "예전과 지금의 습관은 같지 않습니다.",
+      "audioSrc": "",
+      "sourcePage": 13,
+      "reviewNeeded": false,
+      "pronKo": "쯔억 더이 바 버이 저",
+      "pronNoteKo": "과거와 현재 비교에 씁니다.",
+      "pronChunks": [
+        "trước đây và bây giờ=쯔억 더이 바 버이 저"
+      ]
+    }
+  ],
+  "sentenceCards": [
+    {
+      "id": "d13-concert-s-001",
+      "textVi": "Trong bản khảo sát, bạn nói rằng bạn thích đi xem biểu diễn. Tôi muốn biết bạn thích xem loại hình biểu diễn gì. Tại sao bạn lại thích xem loại hình biểu diễn đó? Bạn thường đi xem biểu diễn với ai? Hãy nói cho tôi chi tiết.",
+      "textKo": "설문에서 당신은 공연 보러 가는 것을 좋아한다고 말했습니다. 저는 당신이 어떤 종류의 공연을 보는 것을 좋아하는지 알고 싶습니다. 왜 당신은 그 공연 종류를 보는 것을 좋아하나요? 당신은 보통 누구와 공연을 보러 가나요? 저에게 자세히 말해주세요.",
+      "exampleAnswerVi": "",
+      "exampleAnswerKo": "",
+      "audioSrc": "",
+      "sourcePage": 13,
+      "reviewNeeded": false,
+      "pronKo": "",
+      "exampleAnswerPronKo": "",
+      "pronNoteKo": "공연 종류, 이유, 동행자 순서로 답하면 좋습니다."
+    },
+    {
+      "id": "d13-concert-s-002",
+      "textVi": "Tôi muốn biết bạn thường mua vé xem biểu diễn ở đâu. Bạn mua online hay mua tại quầy bán vé? Nếu có buổi biểu diễn mà bạn rất muốn xem nhưng lại hết vé thì bạn sẽ làm thế nào?",
+      "textKo": "저는 당신이 보통 어디에서 공연 티켓을 사는지 알고 싶습니다. 당신은 온라인으로 사나요, 아니면 매표소에서 사나요? 만약 당신이 정말 보고 싶은 공연이 있는데 표가 매진되면 당신은 어떻게 할 건가요?",
+      "exampleAnswerVi": "",
+      "exampleAnswerKo": "",
+      "audioSrc": "",
+      "sourcePage": 13,
+      "reviewNeeded": false,
+      "pronKo": "",
+      "exampleAnswerPronKo": "",
+      "pronNoteKo": "티켓 구매 방식과 매진 상황 해결 문제입니다."
+    },
+    {
+      "id": "d13-concert-s-003",
+      "textVi": "Bạn hãy nói về một buổi biểu diễn mà bạn đã xem gần đây. Đó là buổi biểu diễn gì? Bạn đã làm gì trước, trong và sau buổi biểu diễn? Hãy nói cho tôi chi tiết.",
+      "textKo": "당신이 최근에 본 공연 하나에 대해 말해주세요. 그것은 어떤 공연이었나요? 당신은 공연 전, 중, 후에 무엇을 했나요? 저에게 자세히 말해주세요.",
+      "exampleAnswerVi": "",
+      "exampleAnswerKo": "",
+      "audioSrc": "",
+      "sourcePage": 13,
+      "reviewNeeded": false,
+      "pronKo": "",
+      "exampleAnswerPronKo": "",
+      "pronNoteKo": "최근 공연 경험 문제입니다. trước / trong / sau 구조로 답하면 좋습니다."
+    },
+    {
+      "id": "d13-concert-s-004",
+      "textVi": "Bạn hãy kể cho tôi về buổi biểu diễn ca nhạc mà bạn đã đi xem gần đây. Buổi biểu diễn đó của ca sĩ hay nhóm nhạc nào? Bạn đã đi cùng với ai? Không khí của buổi biểu diễn đó thế nào?",
+      "textKo": "당신이 최근에 보러 간 음악 공연에 대해 저에게 이야기해주세요. 그 공연은 어떤 가수나 그룹의 공연이었나요? 당신은 누구와 함께 갔나요? 그 공연의 분위기는 어땠나요?",
+      "exampleAnswerVi": "",
+      "exampleAnswerKo": "",
+      "audioSrc": "",
+      "sourcePage": 13,
+      "reviewNeeded": false,
+      "pronKo": "",
+      "exampleAnswerPronKo": "",
+      "pronNoteKo": "음악 공연 경험 문제입니다."
+    },
+    {
+      "id": "d13-concert-s-005",
+      "textVi": "Khi đi xem biểu diễn ca nhạc, bạn thích mua vé đứng hay vé ngồi. Hãy cho tôi biết lý do tại sao.",
+      "textKo": "음악 공연을 보러 갈 때, 당신은 스탠딩 티켓을 사는 것을 좋아하나요, 아니면 좌석 티켓을 사는 것을 좋아하나요? 이유가 무엇인지 저에게 알려주세요.",
+      "exampleAnswerVi": "",
+      "exampleAnswerKo": "",
+      "audioSrc": "",
+      "sourcePage": 13,
+      "reviewNeeded": false,
+      "pronKo": "",
+      "exampleAnswerPronKo": "",
+      "pronNoteKo": "티켓 유형 비교 문제입니다."
+    },
+    {
+      "id": "d13-concert-s-006",
+      "textVi": "Bạn hay đi xem buổi biểu diễn ca nhạc của ca sĩ nào? Hãy cho tôi biết lý do tại sao. Bạn thường đi với ai? Trước khi đi bạn chuẩn bị những gì? Hãy cho tôi biết chi tiết.",
+      "textKo": "당신은 어떤 가수의 음악 공연을 자주 보러 가나요? 이유가 무엇인지 저에게 알려주세요. 당신은 보통 누구와 가나요? 가기 전에 당신은 무엇을 준비하나요? 저에게 자세히 알려주세요.",
+      "exampleAnswerVi": "",
+      "exampleAnswerKo": "",
+      "audioSrc": "",
+      "sourcePage": 13,
+      "reviewNeeded": false,
+      "pronKo": "",
+      "exampleAnswerPronKo": "",
+      "pronNoteKo": "좋아하는 가수 공연과 준비물 문제입니다."
+    },
+    {
+      "id": "d13-concert-s-007",
+      "textVi": "Bạn hãy kể cho tôi về một trải nghiệm khi bạn đi xem một buổi biểu diễn ca nhạc. Bạn đã đi khi nào? Bạn có thích buổi biểu diễn đó không? Điều gì khiến buổi biểu diễn đó để lại ấn tượng đối với bạn?",
+      "textKo": "당신이 음악 공연을 보러 갔을 때의 경험 하나에 대해 저에게 이야기해주세요. 당신은 언제 갔나요? 당신은 그 공연을 좋아했나요? 무엇이 그 공연을 당신에게 인상 깊게 만들었나요?",
+      "exampleAnswerVi": "",
+      "exampleAnswerKo": "",
+      "audioSrc": "",
+      "sourcePage": 13,
+      "reviewNeeded": false,
+      "pronKo": "",
+      "exampleAnswerPronKo": "",
+      "pronNoteKo": "인상 깊었던 공연 경험입니다."
+    },
+    {
+      "id": "d13-concert-s-008",
+      "textVi": "Bạn hãy kể cho tôi về một buổi biểu diễn đáng nhớ nhất mà bạn đã xem. Buổi biểu diễn đó của ai? Không khí của buổi biểu diễn đó thế nào? Tại sao buổi biểu diễn đó trở nên đặc biệt đối với bạn?",
+      "textKo": "당신이 본 공연 중 가장 기억에 남는 공연 하나에 대해 저에게 이야기해주세요. 그 공연은 누구의 공연이었나요? 그 공연의 분위기는 어땠나요? 왜 그 공연이 당신에게 특별해졌나요?",
+      "exampleAnswerVi": "",
+      "exampleAnswerKo": "",
+      "audioSrc": "",
+      "sourcePage": 13,
+      "reviewNeeded": false,
+      "pronKo": "",
+      "exampleAnswerPronKo": "",
+      "pronNoteKo": "가장 기억에 남는 공연 문제입니다."
+    },
+    {
+      "id": "d13-concert-s-009",
+      "textVi": "Ở Hàn Quốc, mọi người có hay đi xem biểu diễn không? Mọi người thích xem những buổi biểu diễn như thế nào? Hãy nói cho tôi chi tiết.",
+      "textKo": "한국에서 사람들은 공연을 자주 보러 가나요? 사람들은 어떤 공연을 보는 것을 좋아하나요? 저에게 자세히 말해주세요.",
+      "exampleAnswerVi": "",
+      "exampleAnswerKo": "",
+      "audioSrc": "",
+      "sourcePage": 13,
+      "reviewNeeded": false,
+      "pronKo": "",
+      "exampleAnswerPronKo": "",
+      "pronNoteKo": "한국 공연 문화 설명 문제입니다."
+    },
+    {
+      "id": "d13-concert-s-010",
+      "textVi": "Thói quen đi xem biểu diễn của người Hàn Quốc trước đây và bây giờ có giống nhau không? Nếu có, hãy nói cho tôi sự thay đổi đó như thế nào.",
+      "textKo": "한국 사람들의 공연 보러 가는 습관은 예전과 지금이 서로 같나요? 만약 변화가 있다면 그 변화가 어떤지 저에게 말해주세요.",
+      "exampleAnswerVi": "",
+      "exampleAnswerKo": "",
+      "audioSrc": "",
+      "sourcePage": 13,
+      "reviewNeeded": false,
+      "pronKo": "",
+      "exampleAnswerPronKo": "",
+      "pronNoteKo": "과거와 현재 변화 문제입니다."
+    },
+    {
+      "id": "d13-concert-s-011",
+      "textVi": "Trong bảng khảo sát bạn nói rằng bạn thích xem biểu diễn ca nhạc. Sau đây tôi sẽ nói về một tình huống. Bạn hãy diễn kịch để giải quyết tình huống đó. Cuối tuần này có một buổi biểu diễn của ca sĩ mà bạn yêu thích. Bạn hãy gọi điện cho bạn của bạn để rủ bạn ấy đi xem buổi biểu diễn cùng bạn.",
+      "textKo": "설문에서 당신은 음악 공연을 보는 것을 좋아한다고 말했습니다. 이제 제가 한 상황을 말하겠습니다. 그 상황을 해결하기 위해 역할극을 해주세요. 이번 주말에 당신이 좋아하는 가수의 공연이 하나 있습니다. 친구에게 전화해서 그 친구에게 당신과 함께 그 공연을 보러 가자고 권해보세요.",
+      "exampleAnswerVi": "",
+      "exampleAnswerKo": "",
+      "audioSrc": "",
+      "sourcePage": 13,
+      "reviewNeeded": false,
+      "pronKo": "",
+      "exampleAnswerPronKo": "",
+      "pronNoteKo": "역할극 초대 문제입니다."
+    },
+    {
+      "id": "d13-concert-s-012",
+      "textVi": "Tôi xin lỗi nhưng có một tình huống mà bạn cần phải giải quyết. Bạn và bạn của bạn hẹn nhau đi xem biểu diễn ca nhạc. Sắp đến giờ xem biểu diễn nhưng bạn bị tắc đường nên có thể sẽ đến muộn. Bạn hãy gọi điện cho bạn của bạn để giải thích tình hình hiện tại và đưa ra phương án giải quyết.",
+      "textKo": "죄송하지만 당신이 해결해야 할 상황이 하나 있습니다. 당신과 친구는 음악 공연을 보러 가기로 약속했습니다. 곧 공연을 볼 시간이 되지만 당신은 교통 체증에 걸려서 늦게 도착할 수도 있습니다. 친구에게 전화해서 현재 상황을 설명하고 해결 방안을 제시하세요.",
+      "exampleAnswerVi": "",
+      "exampleAnswerKo": "",
+      "audioSrc": "",
+      "sourcePage": 13,
+      "reviewNeeded": false,
+      "pronKo": "",
+      "exampleAnswerPronKo": "",
+      "pronNoteKo": "문제 해결 역할극입니다."
+    }
+  ],
+  "dialogues": [
+    {
+      "id": "d13-concert-d-001",
+      "title": "친구에게 콘서트 보자고 전화하기",
+      "audioSrc": "",
+      "sourcePage": 13,
+      "reviewNeeded": false,
+      "lines": [
+        {
+          "speaker": "A",
+          "vi": "A lô, Minh à, cuối tuần này bạn có rảnh không?",
+          "ko": "여보세요, 민아, 이번 주말에 시간 있어?",
+          "pronKo": "아 로, 민 아, 꾸오이 뚜언 나이 반 꼬 자인 콩?"
+        },
+        {
+          "speaker": "B",
+          "vi": "Có, mình rảnh vào tối thứ bảy.",
+          "ko": "응, 나는 토요일 저녁에 시간 있어.",
+          "pronKo": "꼬, 민 자인 바오 또이 트 바이."
+        },
+        {
+          "speaker": "A",
+          "vi": "Cuối tuần này có một buổi biểu diễn của ca sĩ mình yêu thích.",
+          "ko": "이번 주말에 내가 좋아하는 가수의 공연이 있어.",
+          "pronKo": "꾸오이 뚜언 나이 꼬 못 부오이 비에우 지엔 꾸어 까 시 민 이에우 틱."
+        },
+        {
+          "speaker": "B",
+          "vi": "Hay quá. Chúng ta mua vé online nhé.",
+          "ko": "너무 좋다. 우리 온라인으로 표 사자.",
+          "pronKo": "하이 꽈. 쭝 따 무어 베 온라인 녜."
+        }
+      ]
+    },
+    {
+      "id": "d13-concert-d-002",
+      "title": "교통 체증으로 늦을 때",
+      "audioSrc": "",
+      "sourcePage": 13,
+      "reviewNeeded": false,
+      "lines": [
+        {
+          "speaker": "A",
+          "vi": "A lô, Minh à, mình đang bị tắc đường.",
+          "ko": "여보세요, 민아, 나 지금 길이 막혀.",
+          "pronKo": "아 로, 민 아, 민 당 비 딱 드엉."
+        },
+        {
+          "speaker": "B",
+          "vi": "Sắp đến giờ biểu diễn rồi. Bạn có đến kịp không?",
+          "ko": "곧 공연 시간이야. 너 제시간에 올 수 있어?",
+          "pronKo": "쌉 덴 저 비에우 지엔 조이. 반 꼬 덴 낍 콩?"
+        },
+        {
+          "speaker": "A",
+          "vi": "Có thể mình sẽ đến muộn khoảng mười phút.",
+          "ko": "아마 내가 10분 정도 늦게 도착할 것 같아.",
+          "pronKo": "꼬 테 민 세 덴 무온 코앙 므어이 풋."
+        },
+        {
+          "speaker": "B",
+          "vi": "Vậy mình vào trước nhé?",
+          "ko": "그럼 내가 먼저 들어갈까?",
+          "pronKo": "버이 민 바오 쯔억 녜?"
+        },
+        {
+          "speaker": "A",
+          "vi": "Ừ, bạn vào trước đi. Sau đó chúng ta gặp nhau ở cổng.",
+          "ko": "응, 너 먼저 들어가. 그 후에 우리 입구에서 만나자.",
+          "pronKo": "으, 반 바오 쯔억 디. 사우 도 쭝 따 갑 냐우 어 꽁."
+        }
+      ]
+    },
+    {
+      "id": "d13-concert-d-003",
+      "title": "스탠딩석과 좌석 비교",
+      "audioSrc": "",
+      "sourcePage": 13,
+      "reviewNeeded": false,
+      "lines": [
+        {
+          "speaker": "A",
+          "vi": "Khi đi xem biểu diễn ca nhạc, bạn thích vé đứng hay vé ngồi?",
+          "ko": "음악 공연을 보러 갈 때 스탠딩 티켓이 좋아요, 좌석 티켓이 좋아요?",
+          "pronKo": "키 디 쎔 비에우 지엔 까 냑, 반 틱 베 등 하이 베 응오이?"
+        },
+        {
+          "speaker": "B",
+          "vi": "Tôi thích vé ngồi hơn.",
+          "ko": "저는 좌석 티켓을 더 좋아합니다.",
+          "pronKo": "또이 틱 베 응오이 헌."
+        },
+        {
+          "speaker": "A",
+          "vi": "Tại sao?",
+          "ko": "왜요?",
+          "pronKo": "따이 사오?"
+        },
+        {
+          "speaker": "B",
+          "vi": "Vì vé ngồi thoải mái hơn và tôi có thể xem biểu diễn lâu.",
+          "ko": "좌석 티켓이 더 편하고 오래 공연을 볼 수 있기 때문입니다.",
+          "pronKo": "비 베 응오이 토아이 마이 헌 바 또이 꼬 테 쎔 비에우 지엔 러우."
+        }
+      ]
+    }
+  ],
+  "grammarPoints": [
+    {
+      "id": "d13-concert-g-001",
+      "title": "좋아하는 공연 종류 묻기",
+      "pattern": "Bạn thích xem loại hình biểu diễn gì?",
+      "meaningKo": "당신은 어떤 종류의 공연을 보는 것을 좋아하나요?",
+      "sourcePage": 13,
+      "reviewNeeded": false
+    },
+    {
+      "id": "d13-concert-g-002",
+      "title": "왜 좋아하는지 묻기",
+      "pattern": "Tại sao bạn lại thích xem loại hình biểu diễn đó?",
+      "meaningKo": "왜 당신은 그 공연 종류를 보는 것을 좋아하나요?",
+      "sourcePage": 13,
+      "reviewNeeded": false
+    },
+    {
+      "id": "d13-concert-g-003",
+      "title": "누구와 보러 가나요?",
+      "pattern": "Bạn thường đi xem biểu diễn với ai?",
+      "meaningKo": "당신은 보통 누구와 공연을 보러 가나요?",
+      "sourcePage": 13,
+      "reviewNeeded": false
+    },
+    {
+      "id": "d13-concert-g-004",
+      "title": "티켓 구매 장소 묻기",
+      "pattern": "Bạn thường mua vé xem biểu diễn ở đâu?",
+      "meaningKo": "당신은 보통 어디에서 공연 티켓을 사나요?",
+      "sourcePage": 13,
+      "reviewNeeded": false
+    },
+    {
+      "id": "d13-concert-g-005",
+      "title": "온라인/매표소 선택 질문",
+      "pattern": "Bạn mua online hay mua tại quầy bán vé?",
+      "meaningKo": "당신은 온라인으로 사나요, 아니면 매표소에서 사나요?",
+      "sourcePage": 13,
+      "reviewNeeded": false
+    },
+    {
+      "id": "d13-concert-g-006",
+      "title": "매진되면 어떻게 하나요?",
+      "pattern": "Nếu ... hết vé thì bạn sẽ làm thế nào?",
+      "meaningKo": "만약 ... 표가 매진되면 당신은 어떻게 할 건가요?",
+      "sourcePage": 13,
+      "reviewNeeded": false
+    },
+    {
+      "id": "d13-concert-g-007",
+      "title": "공연 전·중·후 활동",
+      "pattern": "trước, trong và sau buổi biểu diễn",
+      "meaningKo": "공연 전, 중, 후",
+      "sourcePage": 13,
+      "reviewNeeded": false
+    },
+    {
+      "id": "d13-concert-g-008",
+      "title": "공연 분위기 묻기",
+      "pattern": "Không khí của buổi biểu diễn đó thế nào?",
+      "meaningKo": "그 공연의 분위기는 어땠나요?",
+      "sourcePage": 13,
+      "reviewNeeded": false
+    },
+    {
+      "id": "d13-concert-g-009",
+      "title": "스탠딩석/좌석 비교",
+      "pattern": "vé đứng hay vé ngồi",
+      "meaningKo": "스탠딩 티켓 또는 좌석 티켓",
+      "sourcePage": 13,
+      "reviewNeeded": false
+    },
+    {
+      "id": "d13-concert-g-010",
+      "title": "무엇이 인상 깊게 만들었나요?",
+      "pattern": "Điều gì khiến buổi biểu diễn đó để lại ấn tượng đối với bạn?",
+      "meaningKo": "무엇이 그 공연을 당신에게 인상 깊게 만들었나요?",
+      "sourcePage": 13,
+      "reviewNeeded": false
+    },
+    {
+      "id": "d13-concert-g-011",
+      "title": "가장 기억에 남는 공연",
+      "pattern": "một buổi biểu diễn đáng nhớ nhất mà bạn đã xem",
+      "meaningKo": "당신이 본 가장 기억에 남는 공연 하나",
+      "sourcePage": 13,
+      "reviewNeeded": false
+    },
+    {
+      "id": "d13-concert-g-012",
+      "title": "한국 사람들의 공연 습관",
+      "pattern": "Ở Hàn Quốc, mọi người có hay đi xem biểu diễn không?",
+      "meaningKo": "한국에서 사람들은 공연을 자주 보러 가나요?",
+      "sourcePage": 13,
+      "reviewNeeded": false
+    },
+    {
+      "id": "d13-concert-g-013",
+      "title": "과거와 현재 비교",
+      "pattern": "trước đây và bây giờ có giống nhau không?",
+      "meaningKo": "예전과 지금이 서로 같나요?",
+      "sourcePage": 13,
+      "reviewNeeded": false
+    },
+    {
+      "id": "d13-concert-g-014",
+      "title": "친구에게 권유하기",
+      "pattern": "rủ bạn ấy đi xem buổi biểu diễn cùng bạn",
+      "meaningKo": "그 친구에게 당신과 함께 공연을 보러 가자고 권하다",
+      "sourcePage": 13,
+      "reviewNeeded": false
+    },
+    {
+      "id": "d13-concert-g-015",
+      "title": "교통 체증 때문에 늦다",
+      "pattern": "bị tắc đường nên có thể sẽ đến muộn",
+      "meaningKo": "교통 체증에 걸려서 늦게 도착할 수도 있다",
+      "sourcePage": 13,
+      "reviewNeeded": false
+    },
+    {
+      "id": "d13-concert-g-016",
+      "title": "현재 상황 설명과 해결책",
+      "pattern": "giải thích tình hình hiện tại và đưa ra phương án giải quyết",
+      "meaningKo": "현재 상황을 설명하고 해결 방안을 제시하다",
+      "sourcePage": 13,
+      "reviewNeeded": false
+    }
+  ],
+  "pronunciationTargets": [
+    {
+      "id": "d13-concert-p-001",
+      "text": "Bạn thích xem loại hình biểu diễn gì?",
+      "hintKo": "당신은 어떤 종류의 공연을 보는 것을 좋아하나요?",
+      "audioSrc": "",
+      "sourcePage": 13,
+      "reviewNeeded": false,
+      "pronKo": "반 틱 쎔 로아이 힌 비에우 지엔 지",
+      "mouthKo": "Bạn thích xem / loại hình biểu diễn gì 로 끊습니다.",
+      "toneKo": "loại hình biểu diễn은 공연 종류입니다."
+    },
+    {
+      "id": "d13-concert-p-002",
+      "text": "Bạn thường mua vé xem biểu diễn ở đâu?",
+      "hintKo": "당신은 보통 어디에서 공연 티켓을 사나요?",
+      "audioSrc": "",
+      "sourcePage": 13,
+      "reviewNeeded": false,
+      "pronKo": "반 트엉 무어 베 쎔 비에우 지엔 어 더우",
+      "mouthKo": "Bạn thường mua vé xem biểu diễn / ở đâu 로 끊습니다.",
+      "toneKo": "mua vé는 표를 사다입니다."
+    },
+    {
+      "id": "d13-concert-p-003",
+      "text": "Bạn mua online hay mua tại quầy bán vé?",
+      "hintKo": "당신은 온라인으로 사나요, 아니면 매표소에서 사나요?",
+      "audioSrc": "",
+      "sourcePage": 13,
+      "reviewNeeded": false,
+      "pronKo": "반 무어 온라인 하이 무어 따이 꿔이 반 베",
+      "mouthKo": "Bạn mua online / hay mua tại quầy bán vé 로 끊습니다.",
+      "toneKo": "hay는 선택 질문에서 또는입니다."
+    },
+    {
+      "id": "d13-concert-p-004",
+      "text": "Bạn đã làm gì trước, trong và sau buổi biểu diễn?",
+      "hintKo": "당신은 공연 전, 중, 후에 무엇을 했나요?",
+      "audioSrc": "",
+      "sourcePage": 13,
+      "reviewNeeded": false,
+      "pronKo": "반 다 람 지 쯔억 쫑 바 사우 부오이 비에우 지엔",
+      "mouthKo": "Bạn đã làm gì / trước, trong và sau / buổi biểu diễn 으로 끊습니다.",
+      "toneKo": "시간 순서 질문입니다."
+    },
+    {
+      "id": "d13-concert-p-005",
+      "text": "Không khí của buổi biểu diễn đó thế nào?",
+      "hintKo": "그 공연의 분위기는 어땠나요?",
+      "audioSrc": "",
+      "sourcePage": 13,
+      "reviewNeeded": false,
+      "pronKo": "콩 키 꾸어 부오이 비에우 지엔 도 테 나오",
+      "mouthKo": "Không khí của buổi biểu diễn đó / thế nào 로 끊습니다.",
+      "toneKo": "공연 분위기 묘사 질문입니다."
+    },
+    {
+      "id": "d13-concert-p-006",
+      "text": "Khi đi xem biểu diễn ca nhạc, bạn thích mua vé đứng hay vé ngồi?",
+      "hintKo": "음악 공연을 보러 갈 때, 스탠딩 티켓을 좋아하나요, 좌석 티켓을 좋아하나요?",
+      "audioSrc": "",
+      "sourcePage": 13,
+      "reviewNeeded": false,
+      "pronKo": "키 디 쎔 비에우 지엔 까 냑 반 틱 무어 베 등 하이 베 응오이",
+      "mouthKo": "Khi đi xem biểu diễn ca nhạc / bạn thích mua vé đứng hay vé ngồi 로 끊습니다.",
+      "toneKo": "vé đứng과 vé ngồi을 구분하세요."
+    },
+    {
+      "id": "d13-concert-p-007",
+      "text": "Điều gì khiến buổi biểu diễn đó để lại ấn tượng đối với bạn?",
+      "hintKo": "무엇이 그 공연을 당신에게 인상 깊게 만들었나요?",
+      "audioSrc": "",
+      "sourcePage": 13,
+      "reviewNeeded": false,
+      "pronKo": "디에우 지 키엔 부오이 비에우 지엔 도 데 라이 언 뜨엉 도이 버이 반",
+      "mouthKo": "Điều gì khiến buổi biểu diễn đó / để lại ấn tượng / đối với bạn 으로 끊습니다.",
+      "toneKo": "긴 문장은 의미 단위로 끊어 읽습니다."
+    },
+    {
+      "id": "d13-concert-p-008",
+      "text": "Cuối tuần này có một buổi biểu diễn của ca sĩ mà bạn yêu thích.",
+      "hintKo": "이번 주말에 당신이 좋아하는 가수의 공연이 하나 있습니다.",
+      "audioSrc": "",
+      "sourcePage": 13,
+      "reviewNeeded": false,
+      "pronKo": "꾸오이 뚜언 나이 꼬 못 부오이 비에우 지엔 꾸어 까 시 마 반 이에우 틱",
+      "mouthKo": "Cuối tuần này / có một buổi biểu diễn / của ca sĩ mà bạn yêu thích 로 끊습니다.",
+      "toneKo": "역할극 초대 문제의 상황 문장입니다."
+    },
+    {
+      "id": "d13-concert-p-009",
+      "text": "Sắp đến giờ xem biểu diễn nhưng bạn bị tắc đường nên có thể sẽ đến muộn.",
+      "hintKo": "곧 공연 시간이 되지만 교통 체증에 걸려 늦게 도착할 수도 있습니다.",
+      "audioSrc": "",
+      "sourcePage": 13,
+      "reviewNeeded": false,
+      "pronKo": "쌉 덴 저 쎔 비에우 지엔 느응 반 비 딱 드엉 넨 꼬 테 세 덴 무온",
+      "mouthKo": "Sắp đến giờ xem biểu diễn / nhưng bạn bị tắc đường / nên có thể sẽ đến muộn 으로 끊습니다.",
+      "toneKo": "교통 체증 상황의 핵심 문장입니다."
+    },
+    {
+      "id": "d13-concert-p-010",
+      "text": "Bạn hãy gọi điện cho bạn của bạn để giải thích tình hình hiện tại và đưa ra phương án giải quyết.",
+      "hintKo": "친구에게 전화해서 현재 상황을 설명하고 해결 방안을 제시하세요.",
+      "audioSrc": "",
+      "sourcePage": 13,
+      "reviewNeeded": false,
+      "pronKo": "반 하이 고이 디엔 쪼 반 꾸어 반 데 자이 틱 띤 힌 히엔 따이 바 드어 자 프엉 안 자이 꾸엣",
+      "mouthKo": "Bạn hãy gọi điện cho bạn của bạn / để giải thích tình hình hiện tại / và đưa ra phương án giải quyết 로 끊습니다.",
+      "toneKo": "역할극에서 해야 할 일을 알려주는 문장입니다."
+    }
+  ],
+  "quizSeeds": [
+    {
+      "id": "d13-concert-q-001",
+      "type": "match-term",
+      "prompt": "공연 기본 단어 매칭",
+      "answerSet": [
+        "xem biểu diễn-공연을 보다",
+        "đi xem biểu diễn-공연을 보러 가다",
+        "buổi biểu diễn-공연 한 회",
+        "biểu diễn ca nhạc-음악 공연",
+        "loại hình biểu diễn-공연 종류",
+        "ca sĩ-가수"
+      ],
+      "sourcePage": 13,
+      "reviewNeeded": false
+    },
+    {
+      "id": "d13-concert-q-002",
+      "type": "match-term",
+      "prompt": "티켓 단어 매칭",
+      "answerSet": [
+        "vé xem biểu diễn-공연 티켓",
+        "mua vé-표를 사다",
+        "mua online-온라인으로 사다",
+        "quầy bán vé-매표소",
+        "hết vé-표가 매진되다",
+        "đặt vé online-온라인으로 표를 예매하다"
+      ],
+      "sourcePage": 13,
+      "reviewNeeded": false
+    },
+    {
+      "id": "d13-concert-q-003",
+      "type": "match-term",
+      "prompt": "공연장/좌석 단어 매칭",
+      "answerSet": [
+        "vé đứng-스탠딩 티켓",
+        "vé ngồi-좌석 티켓",
+        "sân khấu-무대",
+        "chỗ ngồi-좌석",
+        "sân vận động-스타디움",
+        "nhà hát-극장/공연장"
+      ],
+      "sourcePage": 13,
+      "reviewNeeded": false
+    },
+    {
+      "id": "d13-concert-q-004",
+      "type": "match-term",
+      "prompt": "공연 분위기 표현 매칭",
+      "answerSet": [
+        "không khí-분위기",
+        "sôi động-활기찬",
+        "náo nhiệt-떠들썩한",
+        "ấn tượng-인상적인",
+        "để lại ấn tượng-인상을 남기다",
+        "đáng nhớ-기억에 남는"
+      ],
+      "sourcePage": 13,
+      "reviewNeeded": false
+    },
+    {
+      "id": "d13-concert-q-005",
+      "type": "match-term",
+      "prompt": "공연 중 활동 단어 매칭",
+      "answerSet": [
+        "khán giả-관객",
+        "fan-팬",
+        "hát theo-따라 부르다",
+        "nhảy theo-따라 춤추다",
+        "vỗ tay-박수치다",
+        "la hét-환호하다/소리 지르다"
+      ],
+      "sourcePage": 13,
+      "reviewNeeded": false
+    },
+    {
+      "id": "d13-concert-q-006",
+      "type": "match-term",
+      "prompt": "상황 해결 표현 매칭",
+      "answerSet": [
+        "bị tắc đường-교통 체증에 걸리다",
+        "đến muộn-늦게 도착하다",
+        "sắp đến giờ-곧 시간이 되다",
+        "giải thích tình hình-상황을 설명하다",
+        "phương án giải quyết-해결 방안",
+        "vào trước-먼저 들어가다"
+      ],
+      "sourcePage": 13,
+      "reviewNeeded": false
+    },
+    {
+      "id": "d13-concert-q-007",
+      "type": "sentence-meaning",
+      "prompt": "문장 뜻 고르기: 공연 종류",
+      "answerSet": [
+        "Bạn thích xem loại hình biểu diễn gì?-당신은 어떤 종류의 공연을 보는 것을 좋아하나요?",
+        "Tại sao bạn lại thích xem loại hình biểu diễn đó?-왜 그 공연 종류를 좋아하나요?",
+        "Bạn thường đi xem biểu diễn với ai?-누구와 공연을 보러 가나요?",
+        "Hãy nói cho tôi chi tiết.-저에게 자세히 말해주세요."
+      ],
+      "sourcePage": 13,
+      "reviewNeeded": false
+    },
+    {
+      "id": "d13-concert-q-008",
+      "type": "sentence-meaning",
+      "prompt": "문장 뜻 고르기: 티켓 구매",
+      "answerSet": [
+        "Bạn thường mua vé xem biểu diễn ở đâu?-어디에서 공연 티켓을 사나요?",
+        "Bạn mua online hay mua tại quầy bán vé?-온라인으로 사나요, 매표소에서 사나요?",
+        "Nếu hết vé thì bạn sẽ làm thế nào?-표가 매진되면 어떻게 할 건가요?",
+        "Tôi thường đặt vé online.-저는 보통 온라인으로 표를 예매합니다."
+      ],
+      "sourcePage": 13,
+      "reviewNeeded": false
+    },
+    {
+      "id": "d13-concert-q-009",
+      "type": "sentence-meaning",
+      "prompt": "문장 뜻 고르기: 역할극",
+      "answerSet": [
+        "Cuối tuần này có một buổi biểu diễn của ca sĩ mà bạn yêu thích.-이번 주말에 좋아하는 가수의 공연이 있습니다.",
+        "Bạn hãy gọi điện cho bạn của bạn.-친구에게 전화하세요.",
+        "Bạn bị tắc đường nên có thể sẽ đến muộn.-교통 체증 때문에 늦게 도착할 수도 있습니다.",
+        "Đưa ra phương án giải quyết.-해결 방안을 제시하세요."
+      ],
+      "sourcePage": 13,
+      "reviewNeeded": false
+    },
+    {
+      "id": "d13-concert-q-010",
+      "type": "fill-blank",
+      "prompt": "빈칸 채우기: 저는 공연을 보러 가는 것을 좋아합니다.",
+      "question": "Tôi thích ___ ___ ___.",
+      "answer": "đi xem biểu diễn",
+      "sourcePage": 13,
+      "reviewNeeded": false
+    },
+    {
+      "id": "d13-concert-q-011",
+      "type": "fill-blank",
+      "prompt": "빈칸 채우기: 저는 온라인으로 표를 삽니다.",
+      "question": "Tôi ___ ___ online.",
+      "answer": "mua vé",
+      "sourcePage": 13,
+      "reviewNeeded": false
+    },
+    {
+      "id": "d13-concert-q-012",
+      "type": "fill-blank",
+      "prompt": "빈칸 채우기: 그 공연은 표가 매진되었습니다.",
+      "question": "Buổi biểu diễn đó ___ ___ rồi.",
+      "answer": "hết vé",
+      "sourcePage": 13,
+      "reviewNeeded": false
+    },
+    {
+      "id": "d13-concert-q-013",
+      "type": "fill-blank",
+      "prompt": "빈칸 채우기: 저는 좌석 티켓을 더 좋아합니다.",
+      "question": "Tôi thích ___ ___ hơn.",
+      "answer": "vé ngồi",
+      "sourcePage": 13,
+      "reviewNeeded": false
+    },
+    {
+      "id": "d13-concert-q-014",
+      "type": "fill-blank",
+      "prompt": "빈칸 채우기: 저는 교통 체증에 걸렸습니다.",
+      "question": "Tôi ___ ___ ___.",
+      "answer": "bị tắc đường",
+      "sourcePage": 13,
+      "reviewNeeded": false
+    },
+    {
+      "id": "d13-concert-q-015",
+      "type": "fill-blank",
+      "prompt": "빈칸 채우기: 저는 상황을 설명하겠습니다.",
+      "question": "Tôi sẽ ___ ___ ___.",
+      "answer": "giải thích tình hình",
+      "sourcePage": 13,
+      "reviewNeeded": false
+    },
+    {
+      "id": "d13-concert-q-016",
+      "type": "match-term",
+      "prompt": "최근 공연 경험 답변 순서 맞추기",
+      "answerSet": [
+        "1-Gần đây tôi đã xem một buổi biểu diễn ca nhạc.",
+        "2-Đó là buổi biểu diễn của BTS.",
+        "3-Trước buổi biểu diễn, tôi kiểm tra vé và mua nước uống.",
+        "4-Trong buổi biểu diễn, tôi hát theo ca sĩ.",
+        "5-Sau buổi biểu diễn, tôi ăn tối với bạn.",
+        "6-Buổi biểu diễn đó rất sôi động và đáng nhớ."
+      ],
+      "sourcePage": 13,
+      "reviewNeeded": false
+    },
+    {
+      "id": "d13-concert-q-017",
+      "type": "match-term",
+      "prompt": "친구 초대 역할극 순서 맞추기",
+      "answerSet": [
+        "1-A lô, cuối tuần này bạn có rảnh không?",
+        "2-Có một buổi biểu diễn của ca sĩ mình yêu thích.",
+        "3-Bạn có muốn đi xem cùng mình không?",
+        "4-Chúng ta có thể mua vé online.",
+        "5-Buổi biểu diễn bắt đầu lúc bảy giờ tối.",
+        "6-Bạn thấy thế nào?"
+      ],
+      "sourcePage": 13,
+      "reviewNeeded": false
+    },
+    {
+      "id": "d13-concert-q-018",
+      "type": "match-term",
+      "prompt": "지각 상황 역할극 순서 맞추기",
+      "answerSet": [
+        "1-A lô, mình đang bị tắc đường.",
+        "2-Sắp đến giờ xem biểu diễn rồi.",
+        "3-Có thể mình sẽ đến muộn khoảng mười phút.",
+        "4-Bạn vào trước nhé.",
+        "5-Sau buổi biểu diễn, chúng ta gặp nhau ở cổng.",
+        "6-Mình rất xin lỗi."
+      ],
+      "sourcePage": 13,
+      "reviewNeeded": false
+    }
+  ],
+  "unlockCondition": "always",
+  "reviewNeeded": false
+    },
+    {
   "lessonId": "day12-music-questions",
   "unitLabel": "12일차",
   "titleKo": "12일차: 음악 문제",
