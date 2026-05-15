@@ -19,6 +19,3400 @@
   },
   "lessons": [
     {
+  "lessonId": "day14-overseas-travel-questions",
+  "unitLabel": "14일차",
+  "titleKo": "14일차: 해외여행 문제",
+  "titleVi": "Ngày 14: Câu hỏi chủ đề du lịch nước ngoài",
+  "pageRange": "14일차 / 해외여행 문제 / Du lịch nước ngoài",
+  "goals": [
+    "해외여행 경험과 방문한 나라·도시를 설명할 수 있다",
+    "여행 전 준비물과 공항 절차를 말할 수 있다",
+    "최근 해외여행과 가장 기억에 남는 해외여행을 설명할 수 있다",
+    "해외 도시의 분위기, 음식, 문화, 사람들을 묘사할 수 있다",
+    "해외여행 중 여권 분실, 길 잃음, 항공편 지연 같은 문제 상황을 설명할 수 있다",
+    "국내여행과 해외여행, 예전과 현재의 여행 습관을 비교할 수 있다",
+    "여행사와 공항 직원에게 전화해 질문하고 해결 방안을 제시할 수 있다"
+  ],
+  "topicOverview": "해외여행 주제는 여행 경험, 여행 준비, 공항 상황, 여행사 역할극까지 연결되는 중요한 주제입니다. 답변 흐름은 '어느 나라/도시에 갔는지 → 누구와 갔는지 → 무엇을 준비했는지 → 무엇을 했는지 → 무엇이 좋았는지 → 어떤 문제가 있었는지 → 어떻게 해결했는지' 순서로 잡으면 안정적입니다. 역할극은 여행사에 여행 정보 문의하기, 공항에서 항공편 지연 문의하기, 여권 분실 상황 해결하기를 준비하면 좋습니다.",
+  "cultureTopics": [
+    "해외여행",
+    "베트남 여행",
+    "여행 준비",
+    "공항",
+    "비행기",
+    "항공편 지연",
+    "여행사",
+    "여권",
+    "비자",
+    "짐",
+    "환전",
+    "여행자 보험",
+    "유심",
+    "관광지",
+    "현지 음식",
+    "현지 문화",
+    "현지인",
+    "언어 장벽",
+    "길 잃음",
+    "여권 분실",
+    "공항 역할극",
+    "여행사 역할극"
+  ],
+  "vocabCards": [
+    {
+      "id": "d14-overseas-travel-v-001",
+      "term": "du lịch nước ngoài",
+      "meaningKo": "해외여행",
+      "example": "Tôi rất thích đi du lịch nước ngoài.",
+      "exampleMeaningKo": "저는 해외여행 가는 것을 매우 좋아합니다.",
+      "audioSrc": "",
+      "sourcePage": 14,
+      "reviewNeeded": false,
+      "pronKo": "주 릭 느억 응오아이",
+      "pronNoteKo": "해외여행 주제의 핵심 표현입니다.",
+      "pronChunks": [
+        "du lịch nước ngoài=주 릭 느억 응오아이"
+      ]
+    },
+    {
+      "id": "d14-overseas-travel-v-002",
+      "term": "đi du lịch nước ngoài",
+      "meaningKo": "해외여행을 가다",
+      "example": "Tôi muốn đi du lịch nước ngoài vào mùa hè.",
+      "exampleMeaningKo": "저는 여름에 해외여행을 가고 싶습니다.",
+      "audioSrc": "",
+      "sourcePage": 14,
+      "reviewNeeded": false,
+      "pronKo": "디 주 릭 느억 응오아이",
+      "pronNoteKo": "đi + du lịch nước ngoài 구조로 외우면 좋습니다.",
+      "pronChunks": [
+        "đi du lịch nước ngoài=디 주 릭 느억 응오아이"
+      ]
+    },
+    {
+      "id": "d14-overseas-travel-v-003",
+      "term": "du lịch ở nước ngoài",
+      "meaningKo": "해외에서 여행하다 / 해외여행",
+      "example": "Tôi có một trải nghiệm đáng nhớ khi đi du lịch ở nước ngoài.",
+      "exampleMeaningKo": "저는 해외여행을 갔을 때 기억에 남는 경험이 하나 있습니다.",
+      "audioSrc": "",
+      "sourcePage": 14,
+      "reviewNeeded": false,
+      "pronKo": "주 릭 어 느억 응오아이",
+      "pronNoteKo": "경험 문제에서 자주 쓰기 좋습니다.",
+      "pronChunks": [
+        "du lịch ở nước ngoài=주 릭 어 느억 응오아이"
+      ]
+    },
+    {
+      "id": "d14-overseas-travel-v-004",
+      "term": "nước ngoài",
+      "meaningKo": "외국 / 해외",
+      "example": "Tôi muốn đến nước ngoài một lần nữa.",
+      "exampleMeaningKo": "저는 다시 외국에 가고 싶습니다.",
+      "audioSrc": "",
+      "sourcePage": 14,
+      "reviewNeeded": false,
+      "pronKo": "느억 응오아이",
+      "pronNoteKo": "해외여행과 관련된 기본 단어입니다.",
+      "pronChunks": [
+        "nước ngoài=느억 응오아이"
+      ]
+    },
+    {
+      "id": "d14-overseas-travel-v-005",
+      "term": "quốc gia",
+      "meaningKo": "국가 / 나라",
+      "example": "Bạn muốn đi du lịch ở quốc gia nào?",
+      "exampleMeaningKo": "당신은 어느 나라로 여행 가고 싶나요?",
+      "audioSrc": "",
+      "sourcePage": 14,
+      "reviewNeeded": false,
+      "pronKo": "꾸옥 자",
+      "pronNoteKo": "나라를 격식 있게 말하는 단어입니다.",
+      "pronChunks": [
+        "quốc gia=꾸옥 자"
+      ]
+    },
+    {
+      "id": "d14-overseas-travel-v-006",
+      "term": "đất nước",
+      "meaningKo": "나라",
+      "example": "Đất nước đó rất đẹp.",
+      "exampleMeaningKo": "그 나라는 매우 아름답습니다.",
+      "audioSrc": "",
+      "sourcePage": 14,
+      "reviewNeeded": false,
+      "pronKo": "덧 느억",
+      "pronNoteKo": "방문한 나라를 묘사할 때 씁니다.",
+      "pronChunks": [
+        "đất nước=덧 느억"
+      ]
+    },
+    {
+      "id": "d14-overseas-travel-v-007",
+      "term": "thành phố",
+      "meaningKo": "도시",
+      "example": "Tôi đã đi du lịch ở thành phố Đà Nẵng.",
+      "exampleMeaningKo": "저는 다낭 도시로 여행을 갔습니다.",
+      "audioSrc": "",
+      "sourcePage": 14,
+      "reviewNeeded": false,
+      "pronKo": "타인 포",
+      "pronNoteKo": "여행한 도시를 말할 때 핵심입니다.",
+      "pronChunks": [
+        "thành phố=타인 포"
+      ]
+    },
+    {
+      "id": "d14-overseas-travel-v-008",
+      "term": "thủ đô",
+      "meaningKo": "수도",
+      "example": "Hà Nội là thủ đô của Việt Nam.",
+      "exampleMeaningKo": "하노이는 베트남의 수도입니다.",
+      "audioSrc": "",
+      "sourcePage": 14,
+      "reviewNeeded": false,
+      "pronKo": "투 도",
+      "pronNoteKo": "나라/지리 설명에 좋습니다.",
+      "pronChunks": [
+        "thủ đô=투 도"
+      ]
+    },
+    {
+      "id": "d14-overseas-travel-v-009",
+      "term": "địa điểm du lịch",
+      "meaningKo": "여행지 / 관광지",
+      "example": "Đà Nẵng là địa điểm du lịch nổi tiếng.",
+      "exampleMeaningKo": "다낭은 유명한 여행지입니다.",
+      "audioSrc": "",
+      "sourcePage": 14,
+      "reviewNeeded": false,
+      "pronKo": "디아 디엠 주 릭",
+      "pronNoteKo": "여행지 묘사 핵심 표현입니다.",
+      "pronChunks": [
+        "địa điểm du lịch=디아 디엠 주 릭"
+      ]
+    },
+    {
+      "id": "d14-overseas-travel-v-010",
+      "term": "điểm du lịch",
+      "meaningKo": "관광지 / 여행지",
+      "example": "Điểm du lịch nào nhiều người yêu thích?",
+      "exampleMeaningKo": "많은 사람들이 좋아하는 관광지는 어디인가요?",
+      "audioSrc": "",
+      "sourcePage": 14,
+      "reviewNeeded": false,
+      "pronKo": "디엠 주 릭",
+      "pronNoteKo": "여행사 역할극 질문에 좋습니다.",
+      "pronChunks": [
+        "điểm du lịch=디엠 주 릭"
+      ]
+    },
+    {
+      "id": "d14-overseas-travel-v-011",
+      "term": "nơi du lịch",
+      "meaningKo": "여행지 / 여행하는 곳",
+      "example": "Bạn thích đến nơi du lịch nào?",
+      "exampleMeaningKo": "당신은 어떤 여행지에 가는 것을 좋아하나요?",
+      "audioSrc": "",
+      "sourcePage": 14,
+      "reviewNeeded": false,
+      "pronKo": "너이 주 릭",
+      "pronNoteKo": "쉬운 표현으로 여행지를 말할 때 씁니다.",
+      "pronChunks": [
+        "nơi du lịch=너이 주 릭"
+      ]
+    },
+    {
+      "id": "d14-overseas-travel-v-012",
+      "term": "nơi nổi tiếng",
+      "meaningKo": "유명한 곳",
+      "example": "Tôi thích đến những nơi nổi tiếng.",
+      "exampleMeaningKo": "저는 유명한 곳에 가는 것을 좋아합니다.",
+      "audioSrc": "",
+      "sourcePage": 14,
+      "reviewNeeded": false,
+      "pronKo": "너이 노이 띠엥",
+      "pronNoteKo": "관광지 설명에 좋습니다.",
+      "pronChunks": [
+        "nơi nổi tiếng=너이 노이 띠엥"
+      ]
+    },
+    {
+      "id": "d14-overseas-travel-v-013",
+      "term": "nổi tiếng",
+      "meaningKo": "유명한",
+      "example": "Thành phố đó rất nổi tiếng.",
+      "exampleMeaningKo": "그 도시는 매우 유명합니다.",
+      "audioSrc": "",
+      "sourcePage": 14,
+      "reviewNeeded": false,
+      "pronKo": "노이 띠엥",
+      "pronNoteKo": "여행지 특징 설명에 자주 씁니다.",
+      "pronChunks": [
+        "nổi tiếng=노이 띠엥"
+      ]
+    },
+    {
+      "id": "d14-overseas-travel-v-014",
+      "term": "nổi tiếng với",
+      "meaningKo": "~로 유명하다",
+      "example": "Việt Nam nổi tiếng với món ăn ngon.",
+      "exampleMeaningKo": "베트남은 맛있는 음식으로 유명합니다.",
+      "audioSrc": "",
+      "sourcePage": 14,
+      "reviewNeeded": false,
+      "pronKo": "노이 띠엥 버이",
+      "pronNoteKo": "무엇으로 유명한지 말할 때 씁니다.",
+      "pronChunks": [
+        "nổi tiếng với=노이 띠엥 버이"
+      ]
+    },
+    {
+      "id": "d14-overseas-travel-v-015",
+      "term": "Việt Nam",
+      "meaningKo": "베트남",
+      "example": "Bạn đã đến Việt Nam chưa?",
+      "exampleMeaningKo": "당신은 베트남에 가 본 적이 있나요?",
+      "audioSrc": "",
+      "sourcePage": 14,
+      "reviewNeeded": false,
+      "pronKo": "비엣 남",
+      "pronNoteKo": "해외여행 예시 국가로 쓰기 좋습니다.",
+      "pronChunks": [
+        "Việt Nam=비엣 남"
+      ]
+    },
+    {
+      "id": "d14-overseas-travel-v-016",
+      "term": "Đà Nẵng",
+      "meaningKo": "다낭",
+      "example": "Tôi đã đi Đà Nẵng cùng với gia đình.",
+      "exampleMeaningKo": "저는 가족과 함께 다낭에 갔습니다.",
+      "audioSrc": "",
+      "sourcePage": 14,
+      "reviewNeeded": false,
+      "pronKo": "다 낭",
+      "pronNoteKo": "베트남 여행 답변에 자주 쓰기 좋은 도시입니다.",
+      "pronChunks": [
+        "Đà Nẵng=다 낭"
+      ]
+    },
+    {
+      "id": "d14-overseas-travel-v-017",
+      "term": "Hà Nội",
+      "meaningKo": "하노이",
+      "example": "Tôi muốn tham quan Hà Nội.",
+      "exampleMeaningKo": "저는 하노이를 관광하고 싶습니다.",
+      "audioSrc": "",
+      "sourcePage": 14,
+      "reviewNeeded": false,
+      "pronKo": "하 노이",
+      "pronNoteKo": "베트남 수도입니다.",
+      "pronChunks": [
+        "Hà Nội=하 노이"
+      ]
+    },
+    {
+      "id": "d14-overseas-travel-v-018",
+      "term": "Hồ Chí Minh",
+      "meaningKo": "호찌민",
+      "example": "Hồ Chí Minh là một thành phố lớn.",
+      "exampleMeaningKo": "호찌민은 큰 도시입니다.",
+      "audioSrc": "",
+      "sourcePage": 14,
+      "reviewNeeded": false,
+      "pronKo": "호 찌 민",
+      "pronNoteKo": "베트남 대도시입니다.",
+      "pronChunks": [
+        "Hồ Chí Minh=호 찌 민"
+      ]
+    },
+    {
+      "id": "d14-overseas-travel-v-019",
+      "term": "Nhật Bản",
+      "meaningKo": "일본",
+      "example": "Tôi đã từng đi du lịch Nhật Bản.",
+      "exampleMeaningKo": "저는 일본으로 여행 가 본 적이 있습니다.",
+      "audioSrc": "",
+      "sourcePage": 14,
+      "reviewNeeded": false,
+      "pronKo": "녓 반",
+      "pronNoteKo": "해외여행 예시 국가입니다.",
+      "pronChunks": [
+        "Nhật Bản=녓 반"
+      ]
+    },
+    {
+      "id": "d14-overseas-travel-v-020",
+      "term": "Thái Lan",
+      "meaningKo": "태국",
+      "example": "Thái Lan có nhiều món ăn ngon.",
+      "exampleMeaningKo": "태국에는 맛있는 음식이 많습니다.",
+      "audioSrc": "",
+      "sourcePage": 14,
+      "reviewNeeded": false,
+      "pronKo": "타이 란",
+      "pronNoteKo": "해외여행 예시 국가입니다.",
+      "pronChunks": [
+        "Thái Lan=타이 란"
+      ]
+    },
+    {
+      "id": "d14-overseas-travel-v-021",
+      "term": "sân bay",
+      "meaningKo": "공항",
+      "example": "Tôi đến sân bay sớm.",
+      "exampleMeaningKo": "저는 공항에 일찍 도착합니다.",
+      "audioSrc": "",
+      "sourcePage": 14,
+      "reviewNeeded": false,
+      "pronKo": "선 바이",
+      "pronNoteKo": "해외여행과 공항 역할극의 핵심 단어입니다.",
+      "pronChunks": [
+        "sân bay=선 바이"
+      ]
+    },
+    {
+      "id": "d14-overseas-travel-v-022",
+      "term": "ở sân bay",
+      "meaningKo": "공항에서",
+      "example": "Bạn đang ở sân bay.",
+      "exampleMeaningKo": "당신은 공항에 있습니다.",
+      "audioSrc": "",
+      "sourcePage": 14,
+      "reviewNeeded": false,
+      "pronKo": "어 선 바이",
+      "pronNoteKo": "상황극에서 자주 나오는 표현입니다.",
+      "pronChunks": [
+        "ở sân bay=어 선 바이"
+      ]
+    },
+    {
+      "id": "d14-overseas-travel-v-023",
+      "term": "hãng hàng không",
+      "meaningKo": "항공사",
+      "example": "Hãng hàng không có cung cấp bữa ăn không?",
+      "exampleMeaningKo": "항공사에서 식사를 제공하나요?",
+      "audioSrc": "",
+      "sourcePage": 14,
+      "reviewNeeded": false,
+      "pronKo": "항 항 콩",
+      "pronNoteKo": "항공편 지연 역할극에 좋습니다.",
+      "pronChunks": [
+        "hãng hàng không=항 항 콩"
+      ]
+    },
+    {
+      "id": "d14-overseas-travel-v-024",
+      "term": "chuyến bay",
+      "meaningKo": "항공편 / 비행기편",
+      "example": "Chuyến bay của tôi bị hoãn.",
+      "exampleMeaningKo": "제 항공편이 지연되었습니다.",
+      "audioSrc": "",
+      "sourcePage": 14,
+      "reviewNeeded": false,
+      "pronKo": "쭈옌 바이",
+      "pronNoteKo": "공항 문제의 핵심 표현입니다.",
+      "pronChunks": [
+        "chuyến bay=쭈옌 바이"
+      ]
+    },
+    {
+      "id": "d14-overseas-travel-v-025",
+      "term": "vé máy bay",
+      "meaningKo": "비행기표",
+      "example": "Tôi đặt vé máy bay trước một tháng.",
+      "exampleMeaningKo": "저는 한 달 전에 비행기표를 예매합니다.",
+      "audioSrc": "",
+      "sourcePage": 14,
+      "reviewNeeded": false,
+      "pronKo": "베 마이 바이",
+      "pronNoteKo": "여행 준비물/예약에서 중요합니다.",
+      "pronChunks": [
+        "vé máy bay=베 마이 바이"
+      ]
+    },
+    {
+      "id": "d14-overseas-travel-v-026",
+      "term": "đặt vé máy bay",
+      "meaningKo": "비행기표를 예매하다",
+      "example": "Tôi đặt vé máy bay online.",
+      "exampleMeaningKo": "저는 온라인으로 비행기표를 예매합니다.",
+      "audioSrc": "",
+      "sourcePage": 14,
+      "reviewNeeded": false,
+      "pronKo": "닷 베 마이 바이",
+      "pronNoteKo": "해외여행 준비에 필수입니다.",
+      "pronChunks": [
+        "đặt vé máy bay=닷 베 마이 바이"
+      ]
+    },
+    {
+      "id": "d14-overseas-travel-v-027",
+      "term": "lên máy bay",
+      "meaningKo": "비행기에 타다",
+      "example": "Tôi lên máy bay lúc 10 giờ.",
+      "exampleMeaningKo": "저는 10시에 비행기에 탔습니다.",
+      "audioSrc": "",
+      "sourcePage": 14,
+      "reviewNeeded": false,
+      "pronKo": "렌 마이 바이",
+      "pronNoteKo": "공항 과정 설명에 씁니다.",
+      "pronChunks": [
+        "lên máy bay=렌 마이 바이"
+      ]
+    },
+    {
+      "id": "d14-overseas-travel-v-028",
+      "term": "xuống máy bay",
+      "meaningKo": "비행기에서 내리다",
+      "example": "Sau khi xuống máy bay, tôi đi lấy hành lý.",
+      "exampleMeaningKo": "비행기에서 내린 후 저는 짐을 찾으러 갑니다.",
+      "audioSrc": "",
+      "sourcePage": 14,
+      "reviewNeeded": false,
+      "pronKo": "쑤옹 마이 바이",
+      "pronNoteKo": "공항 절차 설명에 좋습니다.",
+      "pronChunks": [
+        "xuống máy bay=쑤옹 마이 바이"
+      ]
+    },
+    {
+      "id": "d14-overseas-travel-v-029",
+      "term": "quá cảnh",
+      "meaningKo": "경유하다 / 환승하다",
+      "example": "Tôi phải quá cảnh ở Bangkok.",
+      "exampleMeaningKo": "저는 방콕에서 경유해야 합니다.",
+      "audioSrc": "",
+      "sourcePage": 14,
+      "reviewNeeded": false,
+      "pronKo": "꽈 까인",
+      "pronNoteKo": "해외여행 교통 표현입니다.",
+      "pronChunks": [
+        "quá cảnh=꽈 까인"
+      ]
+    },
+    {
+      "id": "d14-overseas-travel-v-030",
+      "term": "chuyến bay thẳng",
+      "meaningKo": "직항편",
+      "example": "Tôi thích chuyến bay thẳng hơn.",
+      "exampleMeaningKo": "저는 직항편을 더 좋아합니다.",
+      "audioSrc": "",
+      "sourcePage": 14,
+      "reviewNeeded": false,
+      "pronKo": "쭈옌 바이 탕",
+      "pronNoteKo": "비행편 선택 이유에 좋습니다.",
+      "pronChunks": [
+        "chuyến bay thẳng=쭈옌 바이 탕"
+      ]
+    },
+    {
+      "id": "d14-overseas-travel-v-031",
+      "term": "chuyến bay bị hoãn",
+      "meaningKo": "항공편이 지연되다",
+      "example": "Chuyến bay của tôi bị hoãn hai tiếng.",
+      "exampleMeaningKo": "제 항공편은 두 시간 지연되었습니다.",
+      "audioSrc": "",
+      "sourcePage": 14,
+      "reviewNeeded": false,
+      "pronKo": "쭈옌 바이 비 호안",
+      "pronNoteKo": "공항 문제 해결 역할극 핵심입니다.",
+      "pronChunks": [
+        "chuyến bay bị hoãn=쭈옌 바이 비 호안"
+      ]
+    },
+    {
+      "id": "d14-overseas-travel-v-032",
+      "term": "bị trì hoãn",
+      "meaningKo": "지연되다",
+      "example": "Vì sao chuyến bay đó bị trì hoãn?",
+      "exampleMeaningKo": "왜 그 항공편이 지연되었나요?",
+      "audioSrc": "",
+      "sourcePage": 14,
+      "reviewNeeded": false,
+      "pronKo": "비 찌 호안",
+      "pronNoteKo": "항공편 지연 원인을 물을 때 씁니다.",
+      "pronChunks": [
+        "bị trì hoãn=비 찌 호안"
+      ]
+    },
+    {
+      "id": "d14-overseas-travel-v-033",
+      "term": "bị hủy",
+      "meaningKo": "취소되다",
+      "example": "Chuyến bay bị hủy vì thời tiết xấu.",
+      "exampleMeaningKo": "날씨가 나빠서 항공편이 취소되었습니다.",
+      "audioSrc": "",
+      "sourcePage": 14,
+      "reviewNeeded": false,
+      "pronKo": "비 후이",
+      "pronNoteKo": "돌발상황에 유용합니다.",
+      "pronChunks": [
+        "bị hủy=비 후이"
+      ]
+    },
+    {
+      "id": "d14-overseas-travel-v-034",
+      "term": "đổi chuyến bay",
+      "meaningKo": "항공편을 바꾸다",
+      "example": "Tôi có thể đổi chuyến bay khác không?",
+      "exampleMeaningKo": "다른 항공편으로 바꿀 수 있나요?",
+      "audioSrc": "",
+      "sourcePage": 14,
+      "reviewNeeded": false,
+      "pronKo": "도이 쭈옌 바이",
+      "pronNoteKo": "공항 역할극 해결책입니다.",
+      "pronChunks": [
+        "đổi chuyến bay=도이 쭈옌 바이"
+      ]
+    },
+    {
+      "id": "d14-overseas-travel-v-035",
+      "term": "chuyến bay khác",
+      "meaningKo": "다른 항공편",
+      "example": "Tôi muốn đổi sang chuyến bay khác.",
+      "exampleMeaningKo": "저는 다른 항공편으로 바꾸고 싶습니다.",
+      "audioSrc": "",
+      "sourcePage": 14,
+      "reviewNeeded": false,
+      "pronKo": "쭈옌 바이 칵",
+      "pronNoteKo": "지연/취소 상황에 씁니다.",
+      "pronChunks": [
+        "chuyến bay khác=쭈옌 바이 칵"
+      ]
+    },
+    {
+      "id": "d14-overseas-travel-v-036",
+      "term": "mấy tiếng",
+      "meaningKo": "몇 시간",
+      "example": "Chuyến bay bị hoãn mấy tiếng?",
+      "exampleMeaningKo": "항공편이 몇 시간 지연되나요?",
+      "audioSrc": "",
+      "sourcePage": 14,
+      "reviewNeeded": false,
+      "pronKo": "머이 띠엥",
+      "pronNoteKo": "지연 시간을 물을 때 씁니다.",
+      "pronChunks": [
+        "mấy tiếng=머이 띠엥"
+      ]
+    },
+    {
+      "id": "d14-overseas-travel-v-037",
+      "term": "hộ chiếu",
+      "meaningKo": "여권",
+      "example": "Tôi luôn kiểm tra hộ chiếu trước khi đi.",
+      "exampleMeaningKo": "저는 가기 전에 항상 여권을 확인합니다.",
+      "audioSrc": "",
+      "sourcePage": 14,
+      "reviewNeeded": false,
+      "pronKo": "호 찌에우",
+      "pronNoteKo": "해외여행 준비물 핵심입니다.",
+      "pronChunks": [
+        "hộ chiếu=호 찌에우"
+      ]
+    },
+    {
+      "id": "d14-overseas-travel-v-038",
+      "term": "visa",
+      "meaningKo": "비자",
+      "example": "Tôi cần visa để đi nước ngoài.",
+      "exampleMeaningKo": "저는 해외에 가기 위해 비자가 필요합니다.",
+      "audioSrc": "",
+      "sourcePage": 14,
+      "reviewNeeded": false,
+      "pronKo": "비자",
+      "pronNoteKo": "나라에 따라 필요한 서류입니다.",
+      "pronChunks": [
+        "visa=비자"
+      ]
+    },
+    {
+      "id": "d14-overseas-travel-v-039",
+      "term": "giấy tờ tùy thân",
+      "meaningKo": "신분증 / 신분 서류",
+      "example": "Tôi mang giấy tờ tùy thân khi đi du lịch.",
+      "exampleMeaningKo": "저는 여행할 때 신분증을 가져갑니다.",
+      "audioSrc": "",
+      "sourcePage": 14,
+      "reviewNeeded": false,
+      "pronKo": "저이 떠 뚜이 턴",
+      "pronNoteKo": "서류 준비에 좋습니다.",
+      "pronChunks": [
+        "giấy tờ tùy thân=저이 떠 뚜이 턴"
+      ]
+    },
+    {
+      "id": "d14-overseas-travel-v-040",
+      "term": "hành lý",
+      "meaningKo": "짐 / 수하물",
+      "example": "Tôi sắp xếp hành lý trước chuyến đi.",
+      "exampleMeaningKo": "저는 여행 전에 짐을 정리합니다.",
+      "audioSrc": "",
+      "sourcePage": 14,
+      "reviewNeeded": false,
+      "pronKo": "하인 리",
+      "pronNoteKo": "여행 준비 핵심 단어입니다.",
+      "pronChunks": [
+        "hành lý=하인 리"
+      ]
+    },
+    {
+      "id": "d14-overseas-travel-v-041",
+      "term": "vali",
+      "meaningKo": "캐리어 / 여행 가방",
+      "example": "Tôi chuẩn bị một vali lớn.",
+      "exampleMeaningKo": "저는 큰 캐리어 하나를 준비합니다.",
+      "audioSrc": "",
+      "sourcePage": 14,
+      "reviewNeeded": false,
+      "pronKo": "발리",
+      "pronNoteKo": "짐 설명에 자주 씁니다.",
+      "pronChunks": [
+        "vali=발리"
+      ]
+    },
+    {
+      "id": "d14-overseas-travel-v-042",
+      "term": "hành lý xách tay",
+      "meaningKo": "기내 수하물",
+      "example": "Tôi mang máy tính trong hành lý xách tay.",
+      "exampleMeaningKo": "저는 노트북을 기내 수하물에 넣습니다.",
+      "audioSrc": "",
+      "sourcePage": 14,
+      "reviewNeeded": false,
+      "pronKo": "하인 리 싸익 따이",
+      "pronNoteKo": "공항/비행기 준비물입니다.",
+      "pronChunks": [
+        "hành lý xách tay=하인 리 싸익 따이"
+      ]
+    },
+    {
+      "id": "d14-overseas-travel-v-043",
+      "term": "hành lý ký gửi",
+      "meaningKo": "위탁 수하물",
+      "example": "Tôi gửi hành lý ký gửi ở sân bay.",
+      "exampleMeaningKo": "저는 공항에서 위탁 수하물을 보냅니다.",
+      "audioSrc": "",
+      "sourcePage": 14,
+      "reviewNeeded": false,
+      "pronKo": "하인 리 끼 그이",
+      "pronNoteKo": "공항 절차 설명에 좋습니다.",
+      "pronChunks": [
+        "hành lý ký gửi=하인 리 끼 그이"
+      ]
+    },
+    {
+      "id": "d14-overseas-travel-v-044",
+      "term": "sắp xếp hành lý",
+      "meaningKo": "짐을 정리하다",
+      "example": "Tôi thường sắp xếp hành lý trước một ngày.",
+      "exampleMeaningKo": "저는 보통 하루 전에 짐을 정리합니다.",
+      "audioSrc": "",
+      "sourcePage": 14,
+      "reviewNeeded": false,
+      "pronKo": "쌉 쎕 하인 리",
+      "pronNoteKo": "여행 준비 문제 핵심입니다.",
+      "pronChunks": [
+        "sắp xếp hành lý=쌉 쎕 하인 리"
+      ]
+    },
+    {
+      "id": "d14-overseas-travel-v-045",
+      "term": "mang theo",
+      "meaningKo": "가지고 가다 / 챙겨가다",
+      "example": "Tôi mang theo hộ chiếu và ví tiền.",
+      "exampleMeaningKo": "저는 여권과 지갑을 챙겨갑니다.",
+      "audioSrc": "",
+      "sourcePage": 14,
+      "reviewNeeded": false,
+      "pronKo": "망 테오",
+      "pronNoteKo": "준비물 설명에 필수입니다.",
+      "pronChunks": [
+        "mang theo=망 테오"
+      ]
+    },
+    {
+      "id": "d14-overseas-travel-v-046",
+      "term": "liệt kê",
+      "meaningKo": "나열하다",
+      "example": "Hãy liệt kê những thứ bạn mang theo.",
+      "exampleMeaningKo": "당신이 가져가는 것들을 나열해주세요.",
+      "audioSrc": "",
+      "sourcePage": 14,
+      "reviewNeeded": false,
+      "pronKo": "리에엣 께",
+      "pronNoteKo": "문제 지시문에 나오는 표현입니다.",
+      "pronChunks": [
+        "liệt kê=리에엣 께"
+      ]
+    },
+    {
+      "id": "d14-overseas-travel-v-047",
+      "term": "quần áo",
+      "meaningKo": "옷",
+      "example": "Tôi mang quần áo thoải mái.",
+      "exampleMeaningKo": "저는 편한 옷을 가져갑니다.",
+      "audioSrc": "",
+      "sourcePage": 14,
+      "reviewNeeded": false,
+      "pronKo": "꿘 아오",
+      "pronNoteKo": "짐 준비물 기본입니다.",
+      "pronChunks": [
+        "quần áo=꿘 아오"
+      ]
+    },
+    {
+      "id": "d14-overseas-travel-v-048",
+      "term": "điện thoại",
+      "meaningKo": "휴대폰",
+      "example": "Tôi dùng điện thoại để đặt khách sạn.",
+      "exampleMeaningKo": "저는 호텔을 예약하기 위해 휴대폰을 사용합니다.",
+      "audioSrc": "",
+      "sourcePage": 14,
+      "reviewNeeded": false,
+      "pronKo": "디엔 토아이",
+      "pronNoteKo": "여행 필수품입니다.",
+      "pronChunks": [
+        "điện thoại=디엔 토아이"
+      ]
+    },
+    {
+      "id": "d14-overseas-travel-v-049",
+      "term": "sạc pin",
+      "meaningKo": "충전기 / 충전하다",
+      "example": "Tôi luôn mang sạc pin.",
+      "exampleMeaningKo": "저는 항상 충전기를 챙깁니다.",
+      "audioSrc": "",
+      "sourcePage": 14,
+      "reviewNeeded": false,
+      "pronKo": "삭 핀",
+      "pronNoteKo": "여행 준비물로 매우 중요합니다.",
+      "pronChunks": [
+        "sạc pin=삭 핀"
+      ]
+    },
+    {
+      "id": "d14-overseas-travel-v-050",
+      "term": "ví tiền",
+      "meaningKo": "지갑",
+      "example": "Tôi kiểm tra ví tiền trước khi đi.",
+      "exampleMeaningKo": "저는 가기 전에 지갑을 확인합니다.",
+      "audioSrc": "",
+      "sourcePage": 14,
+      "reviewNeeded": false,
+      "pronKo": "비 띠엔",
+      "pronNoteKo": "여행 전 확인할 물건입니다.",
+      "pronChunks": [
+        "ví tiền=비 띠엔"
+      ]
+    },
+    {
+      "id": "d14-overseas-travel-v-051",
+      "term": "tiền mặt",
+      "meaningKo": "현금",
+      "example": "Tôi đổi một ít tiền mặt trước chuyến đi.",
+      "exampleMeaningKo": "저는 여행 전에 현금을 조금 환전합니다.",
+      "audioSrc": "",
+      "sourcePage": 14,
+      "reviewNeeded": false,
+      "pronKo": "띠엔 맛",
+      "pronNoteKo": "해외여행 준비에 좋습니다.",
+      "pronChunks": [
+        "tiền mặt=띠엔 맛"
+      ]
+    },
+    {
+      "id": "d14-overseas-travel-v-052",
+      "term": "thẻ tín dụng",
+      "meaningKo": "신용카드",
+      "example": "Tôi mang thẻ tín dụng khi đi nước ngoài.",
+      "exampleMeaningKo": "저는 해외에 갈 때 신용카드를 가져갑니다.",
+      "audioSrc": "",
+      "sourcePage": 14,
+      "reviewNeeded": false,
+      "pronKo": "테 띤 중",
+      "pronNoteKo": "해외 결제 표현입니다.",
+      "pronChunks": [
+        "thẻ tín dụng=테 띤 중"
+      ]
+    },
+    {
+      "id": "d14-overseas-travel-v-053",
+      "term": "đổi tiền",
+      "meaningKo": "환전하다",
+      "example": "Tôi đổi tiền trước khi đi du lịch nước ngoài.",
+      "exampleMeaningKo": "저는 해외여행 가기 전에 환전합니다.",
+      "audioSrc": "",
+      "sourcePage": 14,
+      "reviewNeeded": false,
+      "pronKo": "도이 띠엔",
+      "pronNoteKo": "해외여행 준비 핵심입니다.",
+      "pronChunks": [
+        "đổi tiền=도이 띠엔"
+      ]
+    },
+    {
+      "id": "d14-overseas-travel-v-054",
+      "term": "ngoại tệ",
+      "meaningKo": "외화",
+      "example": "Tôi cần chuẩn bị ngoại tệ.",
+      "exampleMeaningKo": "저는 외화를 준비해야 합니다.",
+      "audioSrc": "",
+      "sourcePage": 14,
+      "reviewNeeded": false,
+      "pronKo": "응오아이 떼",
+      "pronNoteKo": "환전과 연결되는 단어입니다.",
+      "pronChunks": [
+        "ngoại tệ=응오아이 떼"
+      ]
+    },
+    {
+      "id": "d14-overseas-travel-v-055",
+      "term": "bảo hiểm du lịch",
+      "meaningKo": "여행자 보험",
+      "example": "Tôi mua bảo hiểm du lịch trước khi đi.",
+      "exampleMeaningKo": "저는 가기 전에 여행자 보험을 삽니다.",
+      "audioSrc": "",
+      "sourcePage": 14,
+      "reviewNeeded": false,
+      "pronKo": "바오 히엠 주 릭",
+      "pronNoteKo": "해외여행 준비물로 자연스럽습니다.",
+      "pronChunks": [
+        "bảo hiểm du lịch=바오 히엠 주 릭"
+      ]
+    },
+    {
+      "id": "d14-overseas-travel-v-056",
+      "term": "sim du lịch",
+      "meaningKo": "여행용 유심",
+      "example": "Tôi mua sim du lịch ở sân bay.",
+      "exampleMeaningKo": "저는 공항에서 여행용 유심을 삽니다.",
+      "audioSrc": "",
+      "sourcePage": 14,
+      "reviewNeeded": false,
+      "pronKo": "심 주 릭",
+      "pronNoteKo": "해외에서 인터넷 사용에 중요합니다.",
+      "pronChunks": [
+        "sim du lịch=심 주 릭"
+      ]
+    },
+    {
+      "id": "d14-overseas-travel-v-057",
+      "term": "wifi bỏ túi",
+      "meaningKo": "포켓 와이파이",
+      "example": "Tôi thuê wifi bỏ túi trước chuyến đi.",
+      "exampleMeaningKo": "저는 여행 전에 포켓 와이파이를 빌립니다.",
+      "audioSrc": "",
+      "sourcePage": 14,
+      "reviewNeeded": false,
+      "pronKo": "와이파이 보 뚜이",
+      "pronNoteKo": "해외여행 준비 표현입니다.",
+      "pronChunks": [
+        "wifi bỏ túi=와이파이 보 뚜이"
+      ]
+    },
+    {
+      "id": "d14-overseas-travel-v-058",
+      "term": "đại lý du lịch",
+      "meaningKo": "여행사 / 여행 대리점",
+      "example": "Tôi gọi điện cho đại lý du lịch.",
+      "exampleMeaningKo": "저는 여행사에 전화합니다.",
+      "audioSrc": "",
+      "sourcePage": 14,
+      "reviewNeeded": false,
+      "pronKo": "다이 리 주 릭",
+      "pronNoteKo": "역할극 핵심 표현입니다.",
+      "pronChunks": [
+        "đại lý du lịch=다이 리 주 릭"
+      ]
+    },
+    {
+      "id": "d14-overseas-travel-v-059",
+      "term": "công ty du lịch",
+      "meaningKo": "여행사",
+      "example": "Đó có phải là công ty du lịch ABC không?",
+      "exampleMeaningKo": "거기가 ABC 여행사인가요?",
+      "audioSrc": "",
+      "sourcePage": 14,
+      "reviewNeeded": false,
+      "pronKo": "꽁 띠 주 릭",
+      "pronNoteKo": "여행사에 전화할 때 씁니다.",
+      "pronChunks": [
+        "công ty du lịch=꽁 띠 주 릭"
+      ]
+    },
+    {
+      "id": "d14-overseas-travel-v-060",
+      "term": "nhân viên công ty du lịch",
+      "meaningKo": "여행사 직원",
+      "example": "Tôi hỏi nhân viên công ty du lịch.",
+      "exampleMeaningKo": "저는 여행사 직원에게 물어봅니다.",
+      "audioSrc": "",
+      "sourcePage": 14,
+      "reviewNeeded": false,
+      "pronKo": "년 비엔 꽁 띠 주 릭",
+      "pronNoteKo": "역할극 지시문에 나오는 표현입니다.",
+      "pronChunks": [
+        "nhân viên công ty du lịch=년 비엔 꽁 띠 주 릭"
+      ]
+    },
+    {
+      "id": "d14-overseas-travel-v-061",
+      "term": "tour du lịch",
+      "meaningKo": "여행 투어",
+      "example": "Tôi muốn biết thêm thông tin về tour du lịch.",
+      "exampleMeaningKo": "저는 여행 투어에 대한 추가 정보를 알고 싶습니다.",
+      "audioSrc": "",
+      "sourcePage": 14,
+      "reviewNeeded": false,
+      "pronKo": "뚜어 주 릭",
+      "pronNoteKo": "여행사 역할극 핵심입니다.",
+      "pronChunks": [
+        "tour du lịch=뚜어 주 릭"
+      ]
+    },
+    {
+      "id": "d14-overseas-travel-v-062",
+      "term": "thông tin",
+      "meaningKo": "정보",
+      "example": "Tôi muốn có thêm thông tin.",
+      "exampleMeaningKo": "저는 추가 정보를 얻고 싶습니다.",
+      "audioSrc": "",
+      "sourcePage": 14,
+      "reviewNeeded": false,
+      "pronKo": "통 띤",
+      "pronNoteKo": "질문 요청 표현에 좋습니다.",
+      "pronChunks": [
+        "thông tin=통 띤"
+      ]
+    },
+    {
+      "id": "d14-overseas-travel-v-063",
+      "term": "có thêm thông tin",
+      "meaningKo": "추가 정보를 얻다",
+      "example": "Tôi hỏi để có thêm thông tin.",
+      "exampleMeaningKo": "저는 추가 정보를 얻기 위해 질문합니다.",
+      "audioSrc": "",
+      "sourcePage": 14,
+      "reviewNeeded": false,
+      "pronKo": "꼬 템 통 띤",
+      "pronNoteKo": "역할극 목적 표현입니다.",
+      "pronChunks": [
+        "có thêm thông tin=꼬 템 통 띤"
+      ]
+    },
+    {
+      "id": "d14-overseas-travel-v-064",
+      "term": "lịch trình",
+      "meaningKo": "일정",
+      "example": "Lịch trình của chuyến đi rất hợp lý.",
+      "exampleMeaningKo": "여행 일정은 매우 합리적입니다.",
+      "audioSrc": "",
+      "sourcePage": 14,
+      "reviewNeeded": false,
+      "pronKo": "릭 찐",
+      "pronNoteKo": "여행 계획 설명에 좋습니다.",
+      "pronChunks": [
+        "lịch trình=릭 찐"
+      ]
+    },
+    {
+      "id": "d14-overseas-travel-v-065",
+      "term": "lên kế hoạch",
+      "meaningKo": "계획을 세우다",
+      "example": "Tôi đang lên kế hoạch đi du lịch nước ngoài.",
+      "exampleMeaningKo": "저는 해외여행 계획을 세우고 있습니다.",
+      "audioSrc": "",
+      "sourcePage": 14,
+      "reviewNeeded": false,
+      "pronKo": "렌 께 호아익",
+      "pronNoteKo": "역할극 지시문에 나오는 표현입니다.",
+      "pronChunks": [
+        "lên kế hoạch=렌 께 호아익"
+      ]
+    },
+    {
+      "id": "d14-overseas-travel-v-066",
+      "term": "chuẩn bị",
+      "meaningKo": "준비하다",
+      "example": "Tôi chuẩn bị hộ chiếu và hành lý.",
+      "exampleMeaningKo": "저는 여권과 짐을 준비합니다.",
+      "audioSrc": "",
+      "sourcePage": 14,
+      "reviewNeeded": false,
+      "pronKo": "쭈언 비",
+      "pronNoteKo": "여행 준비 기본 단어입니다.",
+      "pronChunks": [
+        "chuẩn bị=쭈언 비"
+      ]
+    },
+    {
+      "id": "d14-overseas-travel-v-067",
+      "term": "trước khi đi du lịch",
+      "meaningKo": "여행 가기 전에",
+      "example": "Trước khi đi du lịch, tôi kiểm tra hộ chiếu.",
+      "exampleMeaningKo": "여행 가기 전에 저는 여권을 확인합니다.",
+      "audioSrc": "",
+      "sourcePage": 14,
+      "reviewNeeded": false,
+      "pronKo": "쯔억 키 디 주 릭",
+      "pronNoteKo": "준비 문제 시작 표현입니다.",
+      "pronChunks": [
+        "trước khi đi du lịch=쯔억 키 디 주 릭"
+      ]
+    },
+    {
+      "id": "d14-overseas-travel-v-068",
+      "term": "chuyến đi",
+      "meaningKo": "여행 / 이동",
+      "example": "Chuyến đi đó rất vui.",
+      "exampleMeaningKo": "그 여행은 매우 즐거웠습니다.",
+      "audioSrc": "",
+      "sourcePage": 14,
+      "reviewNeeded": false,
+      "pronKo": "쭈옌 디",
+      "pronNoteKo": "여행 경험의 기본 표현입니다.",
+      "pronChunks": [
+        "chuyến đi=쭈옌 디"
+      ]
+    },
+    {
+      "id": "d14-overseas-travel-v-069",
+      "term": "chuyến du lịch",
+      "meaningKo": "여행 한 번",
+      "example": "Chuyến du lịch đó rất đáng nhớ.",
+      "exampleMeaningKo": "그 여행은 매우 기억에 남았습니다.",
+      "audioSrc": "",
+      "sourcePage": 14,
+      "reviewNeeded": false,
+      "pronKo": "쭈옌 주 릭",
+      "pronNoteKo": "경험 문제에서 자주 씁니다.",
+      "pronChunks": [
+        "chuyến du lịch=쭈옌 주 릭"
+      ]
+    },
+    {
+      "id": "d14-overseas-travel-v-070",
+      "term": "chuyến du lịch nước ngoài",
+      "meaningKo": "해외여행 한 번",
+      "example": "Đó là chuyến du lịch nước ngoài đầu tiên của tôi.",
+      "exampleMeaningKo": "그것은 제 첫 해외여행이었습니다.",
+      "audioSrc": "",
+      "sourcePage": 14,
+      "reviewNeeded": false,
+      "pronKo": "쭈옌 주 릭 느억 응오아이",
+      "pronNoteKo": "해외여행 경험을 말할 때 좋습니다.",
+      "pronChunks": [
+        "chuyến du lịch nước ngoài=쭈옌 주 릭 느억 응오아이"
+      ]
+    },
+    {
+      "id": "d14-overseas-travel-v-071",
+      "term": "lần đầu",
+      "meaningKo": "처음",
+      "example": "Tôi đi du lịch nước ngoài lần đầu vào năm ngoái.",
+      "exampleMeaningKo": "저는 작년에 처음 해외여행을 갔습니다.",
+      "audioSrc": "",
+      "sourcePage": 14,
+      "reviewNeeded": false,
+      "pronKo": "런 더우",
+      "pronNoteKo": "첫 해외여행 문제 핵심입니다.",
+      "pronChunks": [
+        "lần đầu=런 더우"
+      ]
+    },
+    {
+      "id": "d14-overseas-travel-v-072",
+      "term": "lần đầu tiên",
+      "meaningKo": "처음으로",
+      "example": "Lần đầu tiên tôi đi nước ngoài là khi tôi còn nhỏ.",
+      "exampleMeaningKo": "제가 처음 해외에 간 것은 어렸을 때였습니다.",
+      "audioSrc": "",
+      "sourcePage": 14,
+      "reviewNeeded": false,
+      "pronKo": "런 더우 띠엔",
+      "pronNoteKo": "과거 경험 시작 표현입니다.",
+      "pronChunks": [
+        "lần đầu tiên=런 더우 띠엔"
+      ]
+    },
+    {
+      "id": "d14-overseas-travel-v-073",
+      "term": "đã từng",
+      "meaningKo": "~해 본 적이 있다",
+      "example": "Tôi đã từng đến Việt Nam.",
+      "exampleMeaningKo": "저는 베트남에 가 본 적이 있습니다.",
+      "audioSrc": "",
+      "sourcePage": 14,
+      "reviewNeeded": false,
+      "pronKo": "다 뜽",
+      "pronNoteKo": "경험 유무를 말할 때 씁니다.",
+      "pronChunks": [
+        "đã từng=다 뜽"
+      ]
+    },
+    {
+      "id": "d14-overseas-travel-v-074",
+      "term": "Bạn đã đến Việt Nam chưa?",
+      "meaningKo": "베트남에 가 본 적이 있나요?",
+      "example": "Bạn đã đến Việt Nam chưa?",
+      "exampleMeaningKo": "당신은 베트남에 가 본 적이 있나요?",
+      "audioSrc": "",
+      "sourcePage": 14,
+      "reviewNeeded": false,
+      "pronKo": "반 다 덴 비엣 남 쯔어",
+      "pronNoteKo": "해외여행 경험 질문 원문입니다.",
+      "pronChunks": [
+        "Bạn đã đến Việt Nam chưa?=반 다 덴 비엣 남 쯔어"
+      ]
+    },
+    {
+      "id": "d14-overseas-travel-v-075",
+      "term": "đi đâu",
+      "meaningKo": "어디에 가다",
+      "example": "Bạn đã đi đâu?",
+      "exampleMeaningKo": "당신은 어디에 갔나요?",
+      "audioSrc": "",
+      "sourcePage": 14,
+      "reviewNeeded": false,
+      "pronKo": "디 더우",
+      "pronNoteKo": "여행지 질문의 기본입니다.",
+      "pronChunks": [
+        "đi đâu=디 더우"
+      ]
+    },
+    {
+      "id": "d14-overseas-travel-v-076",
+      "term": "với ai",
+      "meaningKo": "누구와",
+      "example": "Bạn đã đi với ai?",
+      "exampleMeaningKo": "당신은 누구와 갔나요?",
+      "audioSrc": "",
+      "sourcePage": 14,
+      "reviewNeeded": false,
+      "pronKo": "버이 아이",
+      "pronNoteKo": "동행자 질문입니다.",
+      "pronChunks": [
+        "với ai=버이 아이"
+      ]
+    },
+    {
+      "id": "d14-overseas-travel-v-077",
+      "term": "cùng với gia đình",
+      "meaningKo": "가족과 함께",
+      "example": "Tôi đi du lịch cùng với gia đình.",
+      "exampleMeaningKo": "저는 가족과 함께 여행합니다.",
+      "audioSrc": "",
+      "sourcePage": 14,
+      "reviewNeeded": false,
+      "pronKo": "꿍 버이 자 딘",
+      "pronNoteKo": "해외여행 답변에 안정적인 동행자입니다.",
+      "pronChunks": [
+        "cùng với gia đình=꿍 버이 자 딘"
+      ]
+    },
+    {
+      "id": "d14-overseas-travel-v-078",
+      "term": "cùng với bạn bè",
+      "meaningKo": "친구들과 함께",
+      "example": "Tôi đi nước ngoài cùng với bạn bè.",
+      "exampleMeaningKo": "저는 친구들과 함께 해외에 갔습니다.",
+      "audioSrc": "",
+      "sourcePage": 14,
+      "reviewNeeded": false,
+      "pronKo": "꿍 버이 반 베",
+      "pronNoteKo": "친구 동행 표현입니다.",
+      "pronChunks": [
+        "cùng với bạn bè=꿍 버이 반 베"
+      ]
+    },
+    {
+      "id": "d14-overseas-travel-v-079",
+      "term": "một mình",
+      "meaningKo": "혼자",
+      "example": "Tôi đã đi du lịch nước ngoài một mình.",
+      "exampleMeaningKo": "저는 혼자 해외여행을 갔습니다.",
+      "audioSrc": "",
+      "sourcePage": 14,
+      "reviewNeeded": false,
+      "pronKo": "못 민",
+      "pronNoteKo": "혼자 여행을 말할 때 씁니다.",
+      "pronChunks": [
+        "một mình=못 민"
+      ]
+    },
+    {
+      "id": "d14-overseas-travel-v-080",
+      "term": "hoạt động cụ thể",
+      "meaningKo": "구체적인 활동",
+      "example": "Hãy nói về các hoạt động cụ thể của bạn.",
+      "exampleMeaningKo": "당신의 구체적인 활동들에 대해 말해주세요.",
+      "audioSrc": "",
+      "sourcePage": 14,
+      "reviewNeeded": false,
+      "pronKo": "호앗 동 꾸 테",
+      "pronNoteKo": "문제 원문에 가까운 표현입니다.",
+      "pronChunks": [
+        "hoạt động cụ thể=호앗 동 꾸 테"
+      ]
+    },
+    {
+      "id": "d14-overseas-travel-v-081",
+      "term": "tham quan",
+      "meaningKo": "관광하다 / 둘러보다",
+      "example": "Tôi tham quan nhiều địa điểm nổi tiếng.",
+      "exampleMeaningKo": "저는 유명한 장소들을 많이 관광했습니다.",
+      "audioSrc": "",
+      "sourcePage": 14,
+      "reviewNeeded": false,
+      "pronKo": "탐 꽌",
+      "pronNoteKo": "여행 활동 핵심입니다.",
+      "pronChunks": [
+        "tham quan=탐 꽌"
+      ]
+    },
+    {
+      "id": "d14-overseas-travel-v-082",
+      "term": "đi dạo",
+      "meaningKo": "산책하다",
+      "example": "Tôi đi dạo ở gần khách sạn.",
+      "exampleMeaningKo": "저는 호텔 근처에서 산책했습니다.",
+      "audioSrc": "",
+      "sourcePage": 14,
+      "reviewNeeded": false,
+      "pronKo": "디 자오",
+      "pronNoteKo": "쉬운 여행 활동입니다.",
+      "pronChunks": [
+        "đi dạo=디 자오"
+      ]
+    },
+    {
+      "id": "d14-overseas-travel-v-083",
+      "term": "mua sắm",
+      "meaningKo": "쇼핑하다",
+      "example": "Tôi mua sắm ở chợ đêm.",
+      "exampleMeaningKo": "저는 야시장에서 쇼핑했습니다.",
+      "audioSrc": "",
+      "sourcePage": 14,
+      "reviewNeeded": false,
+      "pronKo": "무어 쌈",
+      "pronNoteKo": "해외여행 활동으로 좋습니다.",
+      "pronChunks": [
+        "mua sắm=무어 쌈"
+      ]
+    },
+    {
+      "id": "d14-overseas-travel-v-084",
+      "term": "chợ đêm",
+      "meaningKo": "야시장",
+      "example": "Tôi thích đi chợ đêm ở Việt Nam.",
+      "exampleMeaningKo": "저는 베트남에서 야시장에 가는 것을 좋아합니다.",
+      "audioSrc": "",
+      "sourcePage": 14,
+      "reviewNeeded": false,
+      "pronKo": "쩌 뎀",
+      "pronNoteKo": "동남아 여행 활동에 좋습니다.",
+      "pronChunks": [
+        "chợ đêm=쩌 뎀"
+      ]
+    },
+    {
+      "id": "d14-overseas-travel-v-085",
+      "term": "ăn món ăn địa phương",
+      "meaningKo": "현지 음식을 먹다",
+      "example": "Tôi thích ăn món ăn địa phương.",
+      "exampleMeaningKo": "저는 현지 음식을 먹는 것을 좋아합니다.",
+      "audioSrc": "",
+      "sourcePage": 14,
+      "reviewNeeded": false,
+      "pronKo": "안 몬 안 디아 프엉",
+      "pronNoteKo": "해외여행 활동 핵심입니다.",
+      "pronChunks": [
+        "ăn món ăn địa phương=안 몬 안 디아 프엉"
+      ]
+    },
+    {
+      "id": "d14-overseas-travel-v-086",
+      "term": "món ăn địa phương",
+      "meaningKo": "현지 음식",
+      "example": "Món ăn địa phương rất ngon.",
+      "exampleMeaningKo": "현지 음식은 매우 맛있습니다.",
+      "audioSrc": "",
+      "sourcePage": 14,
+      "reviewNeeded": false,
+      "pronKo": "몬 안 디아 프엉",
+      "pronNoteKo": "음식 경험을 말할 때 씁니다.",
+      "pronChunks": [
+        "món ăn địa phương=몬 안 디아 프엉"
+      ]
+    },
+    {
+      "id": "d14-overseas-travel-v-087",
+      "term": "đặc sản",
+      "meaningKo": "특산물 / 특산 음식",
+      "example": "Tôi đã ăn đặc sản ở Đà Nẵng.",
+      "exampleMeaningKo": "저는 다낭에서 특산 음식을 먹었습니다.",
+      "audioSrc": "",
+      "sourcePage": 14,
+      "reviewNeeded": false,
+      "pronKo": "닥 산",
+      "pronNoteKo": "현지 음식 설명에 좋습니다.",
+      "pronChunks": [
+        "đặc sản=닥 산"
+      ]
+    },
+    {
+      "id": "d14-overseas-travel-v-088",
+      "term": "ẩm thực",
+      "meaningKo": "음식 문화 / 요리",
+      "example": "Ẩm thực Việt Nam rất nổi tiếng.",
+      "exampleMeaningKo": "베트남 음식 문화는 매우 유명합니다.",
+      "audioSrc": "",
+      "sourcePage": 14,
+      "reviewNeeded": false,
+      "pronKo": "엄 특",
+      "pronNoteKo": "음식 문화를 말할 때 씁니다.",
+      "pronChunks": [
+        "ẩm thực=엄 특"
+      ]
+    },
+    {
+      "id": "d14-overseas-travel-v-089",
+      "term": "văn hóa",
+      "meaningKo": "문화",
+      "example": "Tôi muốn tìm hiểu văn hóa địa phương.",
+      "exampleMeaningKo": "저는 현지 문화를 알아보고 싶습니다.",
+      "audioSrc": "",
+      "sourcePage": 14,
+      "reviewNeeded": false,
+      "pronKo": "반 화",
+      "pronNoteKo": "해외여행의 의미를 말할 때 좋습니다.",
+      "pronChunks": [
+        "văn hóa=반 화"
+      ]
+    },
+    {
+      "id": "d14-overseas-travel-v-090",
+      "term": "văn hóa địa phương",
+      "meaningKo": "현지 문화",
+      "example": "Văn hóa địa phương rất thú vị.",
+      "exampleMeaningKo": "현지 문화는 매우 흥미롭습니다.",
+      "audioSrc": "",
+      "sourcePage": 14,
+      "reviewNeeded": false,
+      "pronKo": "반 화 디아 프엉",
+      "pronNoteKo": "해외여행 답변을 풍부하게 합니다.",
+      "pronChunks": [
+        "văn hóa địa phương=반 화 디아 프엉"
+      ]
+    },
+    {
+      "id": "d14-overseas-travel-v-091",
+      "term": "người địa phương",
+      "meaningKo": "현지인",
+      "example": "Người địa phương rất thân thiện.",
+      "exampleMeaningKo": "현지인들은 매우 친절했습니다.",
+      "audioSrc": "",
+      "sourcePage": 14,
+      "reviewNeeded": false,
+      "pronKo": "응으어이 디아 프엉",
+      "pronNoteKo": "여행지 인상 표현입니다.",
+      "pronChunks": [
+        "người địa phương=응으어이 디아 프엉"
+      ]
+    },
+    {
+      "id": "d14-overseas-travel-v-092",
+      "term": "người Việt Nam",
+      "meaningKo": "베트남 사람",
+      "example": "Người Việt Nam rất thân thiện.",
+      "exampleMeaningKo": "베트남 사람들은 매우 친절합니다.",
+      "audioSrc": "",
+      "sourcePage": 14,
+      "reviewNeeded": false,
+      "pronKo": "응으어이 비엣 남",
+      "pronNoteKo": "베트남 여행 답변에 좋습니다.",
+      "pronChunks": [
+        "người Việt Nam=응으어이 비엣 남"
+      ]
+    },
+    {
+      "id": "d14-overseas-travel-v-093",
+      "term": "thân thiện",
+      "meaningKo": "친절한 / 친근한",
+      "example": "Người ở đó rất thân thiện.",
+      "exampleMeaningKo": "그곳 사람들은 매우 친절했습니다.",
+      "audioSrc": "",
+      "sourcePage": 14,
+      "reviewNeeded": false,
+      "pronKo": "턴 티엔",
+      "pronNoteKo": "여행지 인상에 좋습니다.",
+      "pronChunks": [
+        "thân thiện=턴 티엔"
+      ]
+    },
+    {
+      "id": "d14-overseas-travel-v-094",
+      "term": "phong cảnh",
+      "meaningKo": "풍경 / 경치",
+      "example": "Phong cảnh ở đó rất đẹp.",
+      "exampleMeaningKo": "그곳의 풍경은 매우 아름답습니다.",
+      "audioSrc": "",
+      "sourcePage": 14,
+      "reviewNeeded": false,
+      "pronKo": "퐁 까인",
+      "pronNoteKo": "여행지 묘사 핵심입니다.",
+      "pronChunks": [
+        "phong cảnh=퐁 까인"
+      ]
+    },
+    {
+      "id": "d14-overseas-travel-v-095",
+      "term": "phong cảnh đẹp",
+      "meaningKo": "아름다운 풍경",
+      "example": "Tôi thích nơi đó vì phong cảnh đẹp.",
+      "exampleMeaningKo": "저는 풍경이 아름다워서 그곳을 좋아합니다.",
+      "audioSrc": "",
+      "sourcePage": 14,
+      "reviewNeeded": false,
+      "pronKo": "퐁 까인 뎁",
+      "pronNoteKo": "여행지 선호 이유입니다.",
+      "pronChunks": [
+        "phong cảnh đẹp=퐁 까인 뎁"
+      ]
+    },
+    {
+      "id": "d14-overseas-travel-v-096",
+      "term": "không khí",
+      "meaningKo": "분위기 / 공기",
+      "example": "Không khí ở thành phố đó rất sôi động.",
+      "exampleMeaningKo": "그 도시의 분위기는 매우 활기찼습니다.",
+      "audioSrc": "",
+      "sourcePage": 14,
+      "reviewNeeded": false,
+      "pronKo": "콩 키",
+      "pronNoteKo": "도시 묘사에 좋습니다.",
+      "pronChunks": [
+        "không khí=콩 키"
+      ]
+    },
+    {
+      "id": "d14-overseas-travel-v-097",
+      "term": "khí hậu",
+      "meaningKo": "기후",
+      "example": "Khí hậu ở đó rất nóng.",
+      "exampleMeaningKo": "그곳의 기후는 매우 덥습니다.",
+      "audioSrc": "",
+      "sourcePage": 14,
+      "reviewNeeded": false,
+      "pronKo": "키 허우",
+      "pronNoteKo": "나라/도시 설명에 씁니다.",
+      "pronChunks": [
+        "khí hậu=키 허우"
+      ]
+    },
+    {
+      "id": "d14-overseas-travel-v-098",
+      "term": "thời tiết",
+      "meaningKo": "날씨",
+      "example": "Thời tiết ở đó thế nào?",
+      "exampleMeaningKo": "그곳의 날씨는 어떤가요?",
+      "audioSrc": "",
+      "sourcePage": 14,
+      "reviewNeeded": false,
+      "pronKo": "터이 띠엣",
+      "pronNoteKo": "여행사 질문에 유용합니다.",
+      "pronChunks": [
+        "thời tiết=터이 띠엣"
+      ]
+    },
+    {
+      "id": "d14-overseas-travel-v-099",
+      "term": "giao thông",
+      "meaningKo": "교통",
+      "example": "Giao thông ở đó thế nào?",
+      "exampleMeaningKo": "그곳의 교통은 어떤가요?",
+      "audioSrc": "",
+      "sourcePage": 14,
+      "reviewNeeded": false,
+      "pronKo": "자오 통",
+      "pronNoteKo": "여행사 역할극 질문입니다.",
+      "pronChunks": [
+        "giao thông=자오 통"
+      ]
+    },
+    {
+      "id": "d14-overseas-travel-v-100",
+      "term": "phương tiện giao thông",
+      "meaningKo": "교통수단",
+      "example": "Phương tiện giao thông ở đó rất tiện lợi.",
+      "exampleMeaningKo": "그곳의 교통수단은 매우 편리합니다.",
+      "audioSrc": "",
+      "sourcePage": 14,
+      "reviewNeeded": false,
+      "pronKo": "프엉 띠엔 자오 통",
+      "pronNoteKo": "도시 묘사에 좋습니다.",
+      "pronChunks": [
+        "phương tiện giao thông=프엉 띠엔 자오 통"
+      ]
+    },
+    {
+      "id": "d14-overseas-travel-v-101",
+      "term": "khách sạn",
+      "meaningKo": "호텔",
+      "example": "Tôi ở khách sạn gần biển.",
+      "exampleMeaningKo": "저는 바다 근처 호텔에 묵었습니다.",
+      "audioSrc": "",
+      "sourcePage": 14,
+      "reviewNeeded": false,
+      "pronKo": "카익 산",
+      "pronNoteKo": "해외여행 숙소 기본 단어입니다.",
+      "pronChunks": [
+        "khách sạn=카익 산"
+      ]
+    },
+    {
+      "id": "d14-overseas-travel-v-102",
+      "term": "resort",
+      "meaningKo": "리조트",
+      "example": "Gia đình tôi ở resort gần biển.",
+      "exampleMeaningKo": "우리 가족은 바다 근처 리조트에 묵었습니다.",
+      "audioSrc": "",
+      "sourcePage": 14,
+      "reviewNeeded": false,
+      "pronKo": "리조트",
+      "pronNoteKo": "휴양지 여행 답변에 좋습니다.",
+      "pronChunks": [
+        "resort=리조트"
+      ]
+    },
+    {
+      "id": "d14-overseas-travel-v-103",
+      "term": "đặt khách sạn",
+      "meaningKo": "호텔을 예약하다",
+      "example": "Tôi đặt khách sạn trước chuyến đi.",
+      "exampleMeaningKo": "저는 여행 전에 호텔을 예약합니다.",
+      "audioSrc": "",
+      "sourcePage": 14,
+      "reviewNeeded": false,
+      "pronKo": "닷 카익 산",
+      "pronNoteKo": "여행 준비 표현입니다.",
+      "pronChunks": [
+        "đặt khách sạn=닷 카익 산"
+      ]
+    },
+    {
+      "id": "d14-overseas-travel-v-104",
+      "term": "phòng khách sạn",
+      "meaningKo": "호텔 방",
+      "example": "Phòng khách sạn rất sạch sẽ.",
+      "exampleMeaningKo": "호텔 방은 매우 깨끗했습니다.",
+      "audioSrc": "",
+      "sourcePage": 14,
+      "reviewNeeded": false,
+      "pronKo": "퐁 카익 산",
+      "pronNoteKo": "숙소 묘사에 좋습니다.",
+      "pronChunks": [
+        "phòng khách sạn=퐁 카익 산"
+      ]
+    },
+    {
+      "id": "d14-overseas-travel-v-105",
+      "term": "sạch sẽ",
+      "meaningKo": "깨끗한",
+      "example": "Khách sạn rất sạch sẽ.",
+      "exampleMeaningKo": "호텔은 매우 깨끗했습니다.",
+      "audioSrc": "",
+      "sourcePage": 14,
+      "reviewNeeded": false,
+      "pronKo": "사익 세",
+      "pronNoteKo": "숙소 만족 이유입니다.",
+      "pronChunks": [
+        "sạch sẽ=사익 세"
+      ]
+    },
+    {
+      "id": "d14-overseas-travel-v-106",
+      "term": "dịch vụ",
+      "meaningKo": "서비스",
+      "example": "Dịch vụ ở khách sạn rất tốt.",
+      "exampleMeaningKo": "호텔 서비스는 매우 좋았습니다.",
+      "audioSrc": "",
+      "sourcePage": 14,
+      "reviewNeeded": false,
+      "pronKo": "직 부",
+      "pronNoteKo": "숙소 평가 표현입니다.",
+      "pronChunks": [
+        "dịch vụ=직 부"
+      ]
+    },
+    {
+      "id": "d14-overseas-travel-v-107",
+      "term": "chi phí",
+      "meaningKo": "비용",
+      "example": "Chi phí du lịch nước ngoài khá cao.",
+      "exampleMeaningKo": "해외여행 비용은 꽤 높습니다.",
+      "audioSrc": "",
+      "sourcePage": 14,
+      "reviewNeeded": false,
+      "pronKo": "찌 피",
+      "pronNoteKo": "해외여행 단점 설명에 좋습니다.",
+      "pronChunks": [
+        "chi phí=찌 피"
+      ]
+    },
+    {
+      "id": "d14-overseas-travel-v-108",
+      "term": "đắt",
+      "meaningKo": "비싼",
+      "example": "Vé máy bay rất đắt.",
+      "exampleMeaningKo": "비행기표가 매우 비쌉니다.",
+      "audioSrc": "",
+      "sourcePage": 14,
+      "reviewNeeded": false,
+      "pronKo": "닷",
+      "pronNoteKo": "해외여행 비용을 말할 때 씁니다.",
+      "pronChunks": [
+        "đắt=닷"
+      ]
+    },
+    {
+      "id": "d14-overseas-travel-v-109",
+      "term": "rẻ",
+      "meaningKo": "저렴한",
+      "example": "Món ăn ở đó khá rẻ.",
+      "exampleMeaningKo": "그곳 음식은 꽤 저렴했습니다.",
+      "audioSrc": "",
+      "sourcePage": 14,
+      "reviewNeeded": false,
+      "pronKo": "제",
+      "pronNoteKo": "여행지 장점 설명입니다.",
+      "pronChunks": [
+        "rẻ=제"
+      ]
+    },
+    {
+      "id": "d14-overseas-travel-v-110",
+      "term": "an toàn",
+      "meaningKo": "안전한",
+      "example": "Tôi nghĩ an toàn là quan trọng nhất.",
+      "exampleMeaningKo": "저는 안전이 가장 중요하다고 생각합니다.",
+      "audioSrc": "",
+      "sourcePage": 14,
+      "reviewNeeded": false,
+      "pronKo": "안 또안",
+      "pronNoteKo": "문제 해결 마무리에 좋습니다.",
+      "pronChunks": [
+        "an toàn=안 또안"
+      ]
+    },
+    {
+      "id": "d14-overseas-travel-v-111",
+      "term": "bị mất hộ chiếu",
+      "meaningKo": "여권을 잃어버리다",
+      "example": "Tôi bị mất hộ chiếu khi đi du lịch ở nước ngoài.",
+      "exampleMeaningKo": "저는 해외여행 중 여권을 잃어버렸습니다.",
+      "audioSrc": "",
+      "sourcePage": 14,
+      "reviewNeeded": false,
+      "pronKo": "비 멋 호 찌에우",
+      "pronNoteKo": "해외여행 돌발 경험의 대표 소재입니다.",
+      "pronChunks": [
+        "bị mất hộ chiếu=비 멋 호 찌에우"
+      ]
+    },
+    {
+      "id": "d14-overseas-travel-v-112",
+      "term": "đánh mất hộ chiếu",
+      "meaningKo": "여권을 잃어버리다",
+      "example": "Tôi đã đánh mất hộ chiếu ở sân bay.",
+      "exampleMeaningKo": "저는 공항에서 여권을 잃어버렸습니다.",
+      "audioSrc": "",
+      "sourcePage": 14,
+      "reviewNeeded": false,
+      "pronKo": "다인 멋 호 찌에우",
+      "pronNoteKo": "bị mất와 비슷하지만 내가 잃어버린 느낌입니다.",
+      "pronChunks": [
+        "đánh mất hộ chiếu=다인 멋 호 찌에우"
+      ]
+    },
+    {
+      "id": "d14-overseas-travel-v-113",
+      "term": "lãnh sự quán",
+      "meaningKo": "영사관",
+      "example": "Tôi phải đến lãnh sự quán.",
+      "exampleMeaningKo": "저는 영사관에 가야 했습니다.",
+      "audioSrc": "",
+      "sourcePage": 14,
+      "reviewNeeded": false,
+      "pronKo": "라인 스 꽌",
+      "pronNoteKo": "여권 분실 해결책입니다.",
+      "pronChunks": [
+        "lãnh sự quán=라인 스 꽌"
+      ]
+    },
+    {
+      "id": "d14-overseas-travel-v-114",
+      "term": "đại sứ quán",
+      "meaningKo": "대사관",
+      "example": "Tôi gọi điện cho đại sứ quán.",
+      "exampleMeaningKo": "저는 대사관에 전화했습니다.",
+      "audioSrc": "",
+      "sourcePage": 14,
+      "reviewNeeded": false,
+      "pronKo": "다이 스 꽌",
+      "pronNoteKo": "해외 문제 해결에 중요합니다.",
+      "pronChunks": [
+        "đại sứ quán=다이 스 꽌"
+      ]
+    },
+    {
+      "id": "d14-overseas-travel-v-115",
+      "term": "xin cấp lại hộ chiếu",
+      "meaningKo": "여권 재발급을 신청하다",
+      "example": "Tôi phải xin cấp lại hộ chiếu.",
+      "exampleMeaningKo": "저는 여권 재발급을 신청해야 했습니다.",
+      "audioSrc": "",
+      "sourcePage": 14,
+      "reviewNeeded": false,
+      "pronKo": "씬 껍 라이 호 찌에우",
+      "pronNoteKo": "여권 분실 경험 답변에 좋습니다.",
+      "pronChunks": [
+        "xin cấp lại hộ chiếu=씬 껍 라이 호 찌에우"
+      ]
+    },
+    {
+      "id": "d14-overseas-travel-v-116",
+      "term": "hoang mang",
+      "meaningKo": "당황한 / 혼란스러운",
+      "example": "Khi đó tôi rất hoang mang.",
+      "exampleMeaningKo": "그때 저는 매우 당황했습니다.",
+      "audioSrc": "",
+      "sourcePage": 14,
+      "reviewNeeded": false,
+      "pronKo": "호앙 망",
+      "pronNoteKo": "문제 상황 감정 표현입니다.",
+      "pronChunks": [
+        "hoang mang=호앙 망"
+      ]
+    },
+    {
+      "id": "d14-overseas-travel-v-117",
+      "term": "bối rối",
+      "meaningKo": "어쩔 줄 모르는 / 난처한",
+      "example": "Tôi cảm thấy bối rối ở sân bay.",
+      "exampleMeaningKo": "저는 공항에서 난처함을 느꼈습니다.",
+      "audioSrc": "",
+      "sourcePage": 14,
+      "reviewNeeded": false,
+      "pronKo": "보이 조이",
+      "pronNoteKo": "돌발상황 감정 표현입니다.",
+      "pronChunks": [
+        "bối rối=보이 조이"
+      ]
+    },
+    {
+      "id": "d14-overseas-travel-v-118",
+      "term": "thiếu cẩn thận",
+      "meaningKo": "부주의한",
+      "example": "Tôi thiếu cẩn thận nên bị mất hộ chiếu.",
+      "exampleMeaningKo": "저는 부주의해서 여권을 잃어버렸습니다.",
+      "audioSrc": "",
+      "sourcePage": 14,
+      "reviewNeeded": false,
+      "pronKo": "티에우 껀 턴",
+      "pronNoteKo": "원인 설명에 씁니다.",
+      "pronChunks": [
+        "thiếu cẩn thận=티에우 껀 턴"
+      ]
+    },
+    {
+      "id": "d14-overseas-travel-v-119",
+      "term": "cẩn thận",
+      "meaningKo": "조심스러운 / 주의 깊은",
+      "example": "Từ sau đó, tôi luôn cẩn thận.",
+      "exampleMeaningKo": "그 후로 저는 항상 조심합니다.",
+      "audioSrc": "",
+      "sourcePage": 14,
+      "reviewNeeded": false,
+      "pronKo": "껀 턴",
+      "pronNoteKo": "경험 후 교훈 표현입니다.",
+      "pronChunks": [
+        "cẩn thận=껀 턴"
+      ]
+    },
+    {
+      "id": "d14-overseas-travel-v-120",
+      "term": "bị lạc đường",
+      "meaningKo": "길을 잃다",
+      "example": "Tôi bị lạc đường ở nước ngoài.",
+      "exampleMeaningKo": "저는 해외에서 길을 잃었습니다.",
+      "audioSrc": "",
+      "sourcePage": 14,
+      "reviewNeeded": false,
+      "pronKo": "비 락 드엉",
+      "pronNoteKo": "해외여행 문제 상황 소재입니다.",
+      "pronChunks": [
+        "bị lạc đường=비 락 드엉"
+      ]
+    },
+    {
+      "id": "d14-overseas-travel-v-121",
+      "term": "bị mất hành lý",
+      "meaningKo": "짐을 잃어버리다",
+      "example": "Tôi bị mất hành lý ở sân bay.",
+      "exampleMeaningKo": "저는 공항에서 짐을 잃어버렸습니다.",
+      "audioSrc": "",
+      "sourcePage": 14,
+      "reviewNeeded": false,
+      "pronKo": "비 멋 하인 리",
+      "pronNoteKo": "공항 문제 상황 소재입니다.",
+      "pronChunks": [
+        "bị mất hành lý=비 멋 하인 리"
+      ]
+    },
+    {
+      "id": "d14-overseas-travel-v-122",
+      "term": "trời mưa bất ngờ",
+      "meaningKo": "갑자기 비가 오다",
+      "example": "Khi chơi ở biển, trời mưa bất ngờ.",
+      "exampleMeaningKo": "해변에서 놀 때 갑자기 비가 왔습니다.",
+      "audioSrc": "",
+      "sourcePage": 14,
+      "reviewNeeded": false,
+      "pronKo": "쩌이 므어 벗 응어",
+      "pronNoteKo": "기억에 남는 경험 소재입니다.",
+      "pronChunks": [
+        "trời mưa bất ngờ=쩌이 므어 벗 응어"
+      ]
+    },
+    {
+      "id": "d14-overseas-travel-v-123",
+      "term": "bất ngờ",
+      "meaningKo": "뜻밖의 / 갑작스러운",
+      "example": "Tôi gặp một chuyện bất ngờ.",
+      "exampleMeaningKo": "저는 뜻밖의 일을 겪었습니다.",
+      "audioSrc": "",
+      "sourcePage": 14,
+      "reviewNeeded": false,
+      "pronKo": "벗 응어",
+      "pronNoteKo": "여행 경험에 자주 씁니다.",
+      "pronChunks": [
+        "bất ngờ=벗 응어"
+      ]
+    },
+    {
+      "id": "d14-overseas-travel-v-124",
+      "term": "không tạnh mưa",
+      "meaningKo": "비가 그치지 않다",
+      "example": "Trời không tạnh mưa nên chúng tôi về resort.",
+      "exampleMeaningKo": "비가 그치지 않아서 우리는 리조트로 돌아갔습니다.",
+      "audioSrc": "",
+      "sourcePage": 14,
+      "reviewNeeded": false,
+      "pronKo": "콩 타인 므어",
+      "pronNoteKo": "비 오는 경험 설명에 좋습니다.",
+      "pronChunks": [
+        "không tạnh mưa=콩 타인 므어"
+      ]
+    },
+    {
+      "id": "d14-overseas-travel-v-125",
+      "term": "gọi món ăn",
+      "meaningKo": "음식을 주문하다",
+      "example": "Sau khi về resort, chúng tôi gọi món ăn.",
+      "exampleMeaningKo": "리조트로 돌아온 후 우리는 음식을 주문했습니다.",
+      "audioSrc": "",
+      "sourcePage": 14,
+      "reviewNeeded": false,
+      "pronKo": "고이 몬 안",
+      "pronNoteKo": "비 때문에 대체 활동을 할 때 좋습니다.",
+      "pronChunks": [
+        "gọi món ăn=고이 몬 안"
+      ]
+    },
+    {
+      "id": "d14-overseas-travel-v-126",
+      "term": "đáng nhớ",
+      "meaningKo": "기억에 남는",
+      "example": "Đó là một kỷ niệm đáng nhớ.",
+      "exampleMeaningKo": "그것은 기억에 남는 추억이었습니다.",
+      "audioSrc": "",
+      "sourcePage": 14,
+      "reviewNeeded": false,
+      "pronKo": "당 녀",
+      "pronNoteKo": "경험 마무리 표현입니다.",
+      "pronChunks": [
+        "đáng nhớ=당 녀"
+      ]
+    },
+    {
+      "id": "d14-overseas-travel-v-127",
+      "term": "kỷ niệm",
+      "meaningKo": "추억",
+      "example": "Đó là kỷ niệm đáng nhớ nhất của tôi.",
+      "exampleMeaningKo": "그것은 저의 가장 기억에 남는 추억입니다.",
+      "audioSrc": "",
+      "sourcePage": 14,
+      "reviewNeeded": false,
+      "pronKo": "끼 니엠",
+      "pronNoteKo": "특별 경험 문제 핵심입니다.",
+      "pronChunks": [
+        "kỷ niệm=끼 니엠"
+      ]
+    },
+    {
+      "id": "d14-overseas-travel-v-128",
+      "term": "trải nghiệm đáng nhớ",
+      "meaningKo": "기억에 남는 경험",
+      "example": "Hãy kể về một trải nghiệm đáng nhớ.",
+      "exampleMeaningKo": "기억에 남는 경험에 대해 이야기해주세요.",
+      "audioSrc": "",
+      "sourcePage": 14,
+      "reviewNeeded": false,
+      "pronKo": "짜이 니엠 당 녀",
+      "pronNoteKo": "경험 문제 핵심 표현입니다.",
+      "pronChunks": [
+        "trải nghiệm đáng nhớ=짜이 니엠 당 녀"
+      ]
+    },
+    {
+      "id": "d14-overseas-travel-v-129",
+      "term": "trở nên đáng nhớ",
+      "meaningKo": "기억에 남게 되다",
+      "example": "Vì sao trải nghiệm đó trở nên đáng nhớ?",
+      "exampleMeaningKo": "왜 그 경험이 기억에 남게 되었나요?",
+      "audioSrc": "",
+      "sourcePage": 14,
+      "reviewNeeded": false,
+      "pronKo": "쩌 넨 당 녀",
+      "pronNoteKo": "문제 원문에 자주 나옵니다.",
+      "pronChunks": [
+        "trở nên đáng nhớ=쩌 넨 당 녀"
+      ]
+    },
+    {
+      "id": "d14-overseas-travel-v-130",
+      "term": "vui",
+      "meaningKo": "즐거운",
+      "example": "Chuyến đi đó rất vui.",
+      "exampleMeaningKo": "그 여행은 매우 즐거웠습니다.",
+      "audioSrc": "",
+      "sourcePage": 14,
+      "reviewNeeded": false,
+      "pronKo": "부이",
+      "pronNoteKo": "여행 감정 표현입니다.",
+      "pronChunks": [
+        "vui=부이"
+      ]
+    },
+    {
+      "id": "d14-overseas-travel-v-131",
+      "term": "thú vị",
+      "meaningKo": "흥미로운 / 재미있는",
+      "example": "Tôi thấy chuyến đi rất thú vị.",
+      "exampleMeaningKo": "저는 그 여행이 매우 흥미로웠다고 생각합니다.",
+      "audioSrc": "",
+      "sourcePage": 14,
+      "reviewNeeded": false,
+      "pronKo": "투 비",
+      "pronNoteKo": "해외여행 감상에 좋습니다.",
+      "pronChunks": [
+        "thú vị=투 비"
+      ]
+    },
+    {
+      "id": "d14-overseas-travel-v-132",
+      "term": "nhàm chán",
+      "meaningKo": "지루한",
+      "example": "Gia đình tôi không bị nhàm chán.",
+      "exampleMeaningKo": "우리 가족은 지루하지 않았습니다.",
+      "audioSrc": "",
+      "sourcePage": 14,
+      "reviewNeeded": false,
+      "pronKo": "냠 짠",
+      "pronNoteKo": "여행이 재미있었다고 말할 때 반대로 씁니다.",
+      "pronChunks": [
+        "nhàm chán=냠 짠"
+      ]
+    },
+    {
+      "id": "d14-overseas-travel-v-133",
+      "term": "luôn luôn",
+      "meaningKo": "항상",
+      "example": "Chúng tôi luôn luôn thấy thú vị.",
+      "exampleMeaningKo": "우리는 항상 재미있다고 느꼈습니다.",
+      "audioSrc": "",
+      "sourcePage": 14,
+      "reviewNeeded": false,
+      "pronKo": "루온 루온",
+      "pronNoteKo": "반복되는 느낌을 강조합니다.",
+      "pronChunks": [
+        "luôn luôn=루온 루온"
+      ]
+    },
+    {
+      "id": "d14-overseas-travel-v-134",
+      "term": "khác văn hóa",
+      "meaningKo": "문화가 다르다",
+      "example": "Du lịch nước ngoài thú vị vì khác văn hóa.",
+      "exampleMeaningKo": "해외여행은 문화가 달라서 흥미롭습니다.",
+      "audioSrc": "",
+      "sourcePage": 14,
+      "reviewNeeded": false,
+      "pronKo": "칵 반 화",
+      "pronNoteKo": "해외여행 장점 설명에 좋습니다.",
+      "pronChunks": [
+        "khác văn hóa=칵 반 화"
+      ]
+    },
+    {
+      "id": "d14-overseas-travel-v-135",
+      "term": "rào cản ngôn ngữ",
+      "meaningKo": "언어 장벽",
+      "example": "Rào cản ngôn ngữ là một vấn đề khi đi nước ngoài.",
+      "exampleMeaningKo": "언어 장벽은 해외에 갈 때 문제입니다.",
+      "audioSrc": "",
+      "sourcePage": 14,
+      "reviewNeeded": false,
+      "pronKo": "자오 깐 응온 응으",
+      "pronNoteKo": "해외여행 어려움 설명에 좋습니다.",
+      "pronChunks": [
+        "rào cản ngôn ngữ=자오 깐 응온 응으"
+      ]
+    },
+    {
+      "id": "d14-overseas-travel-v-136",
+      "term": "khó giao tiếp",
+      "meaningKo": "의사소통이 어렵다",
+      "example": "Tôi thấy khó giao tiếp ở nước ngoài.",
+      "exampleMeaningKo": "저는 해외에서 의사소통이 어렵다고 느꼈습니다.",
+      "audioSrc": "",
+      "sourcePage": 14,
+      "reviewNeeded": false,
+      "pronKo": "코 자오 띠엡",
+      "pronNoteKo": "해외여행 단점/문제입니다.",
+      "pronChunks": [
+        "khó giao tiếp=코 자오 띠엡"
+      ]
+    },
+    {
+      "id": "d14-overseas-travel-v-137",
+      "term": "tiếng Anh",
+      "meaningKo": "영어",
+      "example": "Tôi dùng tiếng Anh khi đi nước ngoài.",
+      "exampleMeaningKo": "저는 해외에 갈 때 영어를 사용합니다.",
+      "audioSrc": "",
+      "sourcePage": 14,
+      "reviewNeeded": false,
+      "pronKo": "띠엥 아인",
+      "pronNoteKo": "해외 의사소통 표현입니다.",
+      "pronChunks": [
+        "tiếng Anh=띠엥 아인"
+      ]
+    },
+    {
+      "id": "d14-overseas-travel-v-138",
+      "term": "tiếng Việt",
+      "meaningKo": "베트남어",
+      "example": "Tôi muốn luyện tiếng Việt ở Việt Nam.",
+      "exampleMeaningKo": "저는 베트남에서 베트남어를 연습하고 싶습니다.",
+      "audioSrc": "",
+      "sourcePage": 14,
+      "reviewNeeded": false,
+      "pronKo": "띠엥 비엣",
+      "pronNoteKo": "베트남 여행 답변에 좋습니다.",
+      "pronChunks": [
+        "tiếng Việt=띠엥 비엣"
+      ]
+    },
+    {
+      "id": "d14-overseas-travel-v-139",
+      "term": "hỏi đường",
+      "meaningKo": "길을 묻다",
+      "example": "Tôi hỏi đường người địa phương.",
+      "exampleMeaningKo": "저는 현지인에게 길을 물었습니다.",
+      "audioSrc": "",
+      "sourcePage": 14,
+      "reviewNeeded": false,
+      "pronKo": "호이 드엉",
+      "pronNoteKo": "길 잃은 상황 해결에 좋습니다.",
+      "pronChunks": [
+        "hỏi đường=호이 드엉"
+      ]
+    },
+    {
+      "id": "d14-overseas-travel-v-140",
+      "term": "bản đồ",
+      "meaningKo": "지도",
+      "example": "Tôi dùng bản đồ trên điện thoại.",
+      "exampleMeaningKo": "저는 휴대폰 지도 앱을 사용합니다.",
+      "audioSrc": "",
+      "sourcePage": 14,
+      "reviewNeeded": false,
+      "pronKo": "반 도",
+      "pronNoteKo": "여행 중 이동에 필요합니다.",
+      "pronChunks": [
+        "bản đồ=반 도"
+      ]
+    },
+    {
+      "id": "d14-overseas-travel-v-141",
+      "term": "ứng dụng dịch",
+      "meaningKo": "번역 앱",
+      "example": "Tôi dùng ứng dụng dịch khi đi nước ngoài.",
+      "exampleMeaningKo": "저는 해외에 갈 때 번역 앱을 사용합니다.",
+      "audioSrc": "",
+      "sourcePage": 14,
+      "reviewNeeded": false,
+      "pronKo": "응 중 직",
+      "pronNoteKo": "언어 문제 해결책입니다.",
+      "pronChunks": [
+        "ứng dụng dịch=응 중 직"
+      ]
+    },
+    {
+      "id": "d14-overseas-travel-v-142",
+      "term": "so với du lịch trong nước",
+      "meaningKo": "국내여행과 비교해서",
+      "example": "Du lịch nước ngoài đắt hơn so với du lịch trong nước.",
+      "exampleMeaningKo": "해외여행은 국내여행과 비교해서 더 비쌉니다.",
+      "audioSrc": "",
+      "sourcePage": 14,
+      "reviewNeeded": false,
+      "pronKo": "소 버이 주 릭 쫑 느억",
+      "pronNoteKo": "국내/해외 비교 문제에 좋습니다.",
+      "pronChunks": [
+        "so với du lịch trong nước=소 버이 주 릭 쫑 느억"
+      ]
+    },
+    {
+      "id": "d14-overseas-travel-v-143",
+      "term": "trước đây",
+      "meaningKo": "예전에",
+      "example": "Trước đây tôi ít đi nước ngoài.",
+      "exampleMeaningKo": "예전에는 저는 해외에 거의 가지 않았습니다.",
+      "audioSrc": "",
+      "sourcePage": 14,
+      "reviewNeeded": false,
+      "pronKo": "쯔억 더이",
+      "pronNoteKo": "변화 문제 시작 표현입니다.",
+      "pronChunks": [
+        "trước đây=쯔억 더이"
+      ]
+    },
+    {
+      "id": "d14-overseas-travel-v-144",
+      "term": "bây giờ",
+      "meaningKo": "지금",
+      "example": "Bây giờ tôi muốn đi nước ngoài nhiều hơn.",
+      "exampleMeaningKo": "지금은 해외에 더 많이 가고 싶습니다.",
+      "audioSrc": "",
+      "sourcePage": 14,
+      "reviewNeeded": false,
+      "pronKo": "버이 저",
+      "pronNoteKo": "현재 습관 설명입니다.",
+      "pronChunks": [
+        "bây giờ=버이 저"
+      ]
+    },
+    {
+      "id": "d14-overseas-travel-v-145",
+      "term": "thói quen đi du lịch",
+      "meaningKo": "여행 습관",
+      "example": "Thói quen đi du lịch của tôi đã thay đổi.",
+      "exampleMeaningKo": "제 여행 습관은 변했습니다.",
+      "audioSrc": "",
+      "sourcePage": 14,
+      "reviewNeeded": false,
+      "pronKo": "토이 꿴 디 주 릭",
+      "pronNoteKo": "비교/변화 문제 핵심입니다.",
+      "pronChunks": [
+        "thói quen đi du lịch=토이 꿴 디 주 릭"
+      ]
+    },
+    {
+      "id": "d14-overseas-travel-v-146",
+      "term": "sự thay đổi",
+      "meaningKo": "변화",
+      "example": "Hãy nói cho tôi biết sự thay đổi đó.",
+      "exampleMeaningKo": "그 변화에 대해 알려주세요.",
+      "audioSrc": "",
+      "sourcePage": 14,
+      "reviewNeeded": false,
+      "pronKo": "스 타이 도이",
+      "pronNoteKo": "변화 설명 문제에 자주 나옵니다.",
+      "pronChunks": [
+        "sự thay đổi=스 타이 도이"
+      ]
+    },
+    {
+      "id": "d14-overseas-travel-v-147",
+      "term": "người Hàn Quốc",
+      "meaningKo": "한국 사람",
+      "example": "Người Hàn Quốc thích đi du lịch nước ngoài.",
+      "exampleMeaningKo": "한국 사람들은 해외여행을 좋아합니다.",
+      "audioSrc": "",
+      "sourcePage": 14,
+      "reviewNeeded": false,
+      "pronKo": "응으어이 한 꾸옥",
+      "pronNoteKo": "한국 문화 설명 문제에 씁니다.",
+      "pronChunks": [
+        "người Hàn Quốc=응으어이 한 꾸옥"
+      ]
+    },
+    {
+      "id": "d14-overseas-travel-v-148",
+      "term": "kỳ nghỉ hè",
+      "meaningKo": "여름휴가",
+      "example": "Tôi muốn đi du lịch cùng gia đình vào kỳ nghỉ hè này.",
+      "exampleMeaningKo": "저는 이번 여름휴가에 가족과 함께 여행가고 싶습니다.",
+      "audioSrc": "",
+      "sourcePage": 14,
+      "reviewNeeded": false,
+      "pronKo": "끼 응이 헤",
+      "pronNoteKo": "여행사 역할극 예문에 좋습니다.",
+      "pronChunks": [
+        "kỳ nghỉ hè=끼 응이 헤"
+      ]
+    },
+    {
+      "id": "d14-overseas-travel-v-149",
+      "term": "cuối tuần",
+      "meaningKo": "주말",
+      "example": "Tôi thường chuẩn bị hành lý vào cuối tuần.",
+      "exampleMeaningKo": "저는 보통 주말에 짐을 준비합니다.",
+      "audioSrc": "",
+      "sourcePage": 14,
+      "reviewNeeded": false,
+      "pronKo": "꾸오이 뚜언",
+      "pronNoteKo": "시간 표현입니다.",
+      "pronChunks": [
+        "cuối tuần=꾸오이 뚜언"
+      ]
+    },
+    {
+      "id": "d14-overseas-travel-v-150",
+      "term": "mùa hè",
+      "meaningKo": "여름",
+      "example": "Mùa hè, nhiều người đi du lịch nước ngoài.",
+      "exampleMeaningKo": "여름에는 많은 사람들이 해외여행을 갑니다.",
+      "audioSrc": "",
+      "sourcePage": 14,
+      "reviewNeeded": false,
+      "pronKo": "무어 헤",
+      "pronNoteKo": "여행 계절 설명에 좋습니다.",
+      "pronChunks": [
+        "mùa hè=무어 헤"
+      ]
+    },
+    {
+      "id": "d14-overseas-travel-v-151",
+      "term": "mùa đông",
+      "meaningKo": "겨울",
+      "example": "Mùa đông, tôi muốn đi nước ấm.",
+      "exampleMeaningKo": "겨울에는 따뜻한 나라에 가고 싶습니다.",
+      "audioSrc": "",
+      "sourcePage": 14,
+      "reviewNeeded": false,
+      "pronKo": "무어 동",
+      "pronNoteKo": "계절 설명입니다.",
+      "pronChunks": [
+        "mùa đông=무어 동"
+      ]
+    },
+    {
+      "id": "d14-overseas-travel-v-152",
+      "term": "nước ấm",
+      "meaningKo": "따뜻한 나라",
+      "example": "Tôi thích đi nước ấm vào mùa đông.",
+      "exampleMeaningKo": "저는 겨울에 따뜻한 나라에 가는 것을 좋아합니다.",
+      "audioSrc": "",
+      "sourcePage": 14,
+      "reviewNeeded": false,
+      "pronKo": "느억 엄",
+      "pronNoteKo": "겨울 해외여행 설명에 좋습니다.",
+      "pronChunks": [
+        "nước ấm=느억 엄"
+      ]
+    },
+    {
+      "id": "d14-overseas-travel-v-153",
+      "term": "giá tour",
+      "meaningKo": "투어 가격",
+      "example": "Giá tour này là bao nhiêu?",
+      "exampleMeaningKo": "이 투어 가격은 얼마인가요?",
+      "audioSrc": "",
+      "sourcePage": 14,
+      "reviewNeeded": false,
+      "pronKo": "자 뚜어",
+      "pronNoteKo": "여행사 역할극 질문입니다.",
+      "pronChunks": [
+        "giá tour=자 뚜어"
+      ]
+    },
+    {
+      "id": "d14-overseas-travel-v-154",
+      "term": "bao nhiêu tiền",
+      "meaningKo": "얼마인가요",
+      "example": "Vé máy bay bao nhiêu tiền?",
+      "exampleMeaningKo": "비행기표는 얼마인가요?",
+      "audioSrc": "",
+      "sourcePage": 14,
+      "reviewNeeded": false,
+      "pronKo": "바오 니에우 띠엔",
+      "pronNoteKo": "가격 질문에 씁니다.",
+      "pronChunks": [
+        "bao nhiêu tiền=바오 니에우 띠엔"
+      ]
+    },
+    {
+      "id": "d14-overseas-travel-v-155",
+      "term": "bao gồm",
+      "meaningKo": "포함하다",
+      "example": "Tour này bao gồm khách sạn không?",
+      "exampleMeaningKo": "이 투어에 호텔이 포함되어 있나요?",
+      "audioSrc": "",
+      "sourcePage": 14,
+      "reviewNeeded": false,
+      "pronKo": "바오 곰",
+      "pronNoteKo": "여행사 질문에 좋습니다.",
+      "pronChunks": [
+        "bao gồm=바오 곰"
+      ]
+    },
+    {
+      "id": "d14-overseas-travel-v-156",
+      "term": "hoàn tiền",
+      "meaningKo": "환불하다 / 환불",
+      "example": "Tôi có thể hoàn tiền không?",
+      "exampleMeaningKo": "환불할 수 있나요?",
+      "audioSrc": "",
+      "sourcePage": 14,
+      "reviewNeeded": false,
+      "pronKo": "호안 띠엔",
+      "pronNoteKo": "취소/지연 상황에 유용합니다.",
+      "pronChunks": [
+        "hoàn tiền=호안 띠엔"
+      ]
+    },
+    {
+      "id": "d14-overseas-travel-v-157",
+      "term": "bữa ăn",
+      "meaningKo": "식사",
+      "example": "Hãng hàng không có cung cấp bữa ăn không?",
+      "exampleMeaningKo": "항공사에서 식사를 제공하나요?",
+      "audioSrc": "",
+      "sourcePage": 14,
+      "reviewNeeded": false,
+      "pronKo": "브어 안",
+      "pronNoteKo": "지연 상황 질문에 좋습니다.",
+      "pronChunks": [
+        "bữa ăn=브어 안"
+      ]
+    },
+    {
+      "id": "d14-overseas-travel-v-158",
+      "term": "cung cấp",
+      "meaningKo": "제공하다",
+      "example": "Hãng hàng không có cung cấp khách sạn không?",
+      "exampleMeaningKo": "항공사에서 호텔을 제공하나요?",
+      "audioSrc": "",
+      "sourcePage": 14,
+      "reviewNeeded": false,
+      "pronKo": "꿍 껍",
+      "pronNoteKo": "서비스 제공 여부를 묻습니다.",
+      "pronChunks": [
+        "cung cấp=꿍 껍"
+      ]
+    },
+    {
+      "id": "d14-overseas-travel-v-159",
+      "term": "khách sạn miễn phí",
+      "meaningKo": "무료 호텔",
+      "example": "Hãng hàng không có cung cấp khách sạn miễn phí không?",
+      "exampleMeaningKo": "항공사에서 무료 호텔을 제공하나요?",
+      "audioSrc": "",
+      "sourcePage": 14,
+      "reviewNeeded": false,
+      "pronKo": "카익 산 미엔 피",
+      "pronNoteKo": "항공편 지연 해결책에 좋습니다.",
+      "pronChunks": [
+        "khách sạn miễn phí=카익 산 미엔 피"
+      ]
+    },
+    {
+      "id": "d14-overseas-travel-v-160",
+      "term": "vấn đề",
+      "meaningKo": "문제",
+      "example": "Tôi có một vấn đề cần giải quyết.",
+      "exampleMeaningKo": "저는 해결해야 할 문제가 하나 있습니다.",
+      "audioSrc": "",
+      "sourcePage": 14,
+      "reviewNeeded": false,
+      "pronKo": "번 데",
+      "pronNoteKo": "역할극 상황 설명 핵심입니다.",
+      "pronChunks": [
+        "vấn đề=번 데"
+      ]
+    },
+    {
+      "id": "d14-overseas-travel-v-161",
+      "term": "giải quyết",
+      "meaningKo": "해결하다",
+      "example": "Tôi cần giải quyết vấn đề này.",
+      "exampleMeaningKo": "저는 이 문제를 해결해야 합니다.",
+      "audioSrc": "",
+      "sourcePage": 14,
+      "reviewNeeded": false,
+      "pronKo": "자이 꾸엣",
+      "pronNoteKo": "문제 해결 역할극 필수입니다.",
+      "pronChunks": [
+        "giải quyết=자이 꾸엣"
+      ]
+    },
+    {
+      "id": "d14-overseas-travel-v-162",
+      "term": "phương án",
+      "meaningKo": "방안 / 방법",
+      "example": "Tôi có hai phương án.",
+      "exampleMeaningKo": "저는 두 가지 방안이 있습니다.",
+      "audioSrc": "",
+      "sourcePage": 14,
+      "reviewNeeded": false,
+      "pronKo": "프엉 안",
+      "pronNoteKo": "대안 제시에 좋습니다.",
+      "pronChunks": [
+        "phương án=프엉 안"
+      ]
+    },
+    {
+      "id": "d14-overseas-travel-v-163",
+      "term": "đưa ra phương án",
+      "meaningKo": "방안을 제시하다",
+      "example": "Hãy đưa ra hai hoặc ba phương án.",
+      "exampleMeaningKo": "두세 가지 방안을 제시하세요.",
+      "audioSrc": "",
+      "sourcePage": 14,
+      "reviewNeeded": false,
+      "pronKo": "드어 자 프엉 안",
+      "pronNoteKo": "역할극 지시문 표현입니다.",
+      "pronChunks": [
+        "đưa ra phương án=드어 자 프엉 안"
+      ]
+    },
+    {
+      "id": "d14-overseas-travel-v-164",
+      "term": "gọi điện thoại",
+      "meaningKo": "전화하다",
+      "example": "Hãy gọi điện thoại cho đại lý du lịch.",
+      "exampleMeaningKo": "여행사에 전화하세요.",
+      "audioSrc": "",
+      "sourcePage": 14,
+      "reviewNeeded": false,
+      "pronKo": "고이 디엔 토아이",
+      "pronNoteKo": "역할극 핵심 표현입니다.",
+      "pronChunks": [
+        "gọi điện thoại=고이 디엔 토아이"
+      ]
+    },
+    {
+      "id": "d14-overseas-travel-v-165",
+      "term": "hỏi ba hoặc bốn câu hỏi",
+      "meaningKo": "세네 가지 질문을 하다",
+      "example": "Hãy hỏi ba hoặc bốn câu hỏi.",
+      "exampleMeaningKo": "세네 가지 질문을 하세요.",
+      "audioSrc": "",
+      "sourcePage": 14,
+      "reviewNeeded": false,
+      "pronKo": "호이 바 호악 본 꺼우 호이",
+      "pronNoteKo": "정보 요청 역할극 표현입니다.",
+      "pronChunks": [
+        "hỏi ba hoặc bốn câu hỏi=호이 바 호악 본 꺼우 호이"
+      ]
+    }
+  ],
+  "sentenceCards": [
+    {
+      "id": "d14-overseas-travel-s-001",
+      "textVi": "Bạn đã đến Việt Nam chưa? Nếu bạn đến Việt Nam rồi thì đã đi đâu? Thành phố đó thế nào? Bạn đã gặp ai? Hãy nói cho tôi biết về các hoạt động cụ thể của bạn.",
+      "textKo": "당신은 베트남에 가 본 적이 있나요? 만약 베트남에 가 봤다면 어디에 갔나요? 그 도시는 어땠나요? 당신은 누구를 만났나요? 당신의 구체적인 활동들에 대해 저에게 알려주세요.",
+      "exampleAnswerVi": "",
+      "exampleAnswerKo": "",
+      "audioSrc": "",
+      "sourcePage": 14,
+      "reviewNeeded": false,
+      "pronKo": "",
+      "exampleAnswerPronKo": "",
+      "pronNoteKo": "해외여행 경험 문제입니다. 방문 국가/도시, 만난 사람, 활동을 말합니다."
+    },
+    {
+      "id": "d14-overseas-travel-s-002",
+      "textVi": "Bạn đi du lịch ở nước ngoài lần đầu là bao giờ? Bạn đã đi đâu và với ai? Bạn làm gì trong chuyến đi đó? Hãy kể cho tôi thật chi tiết.",
+      "textKo": "당신이 처음 해외여행을 간 것은 언제였나요? 당신은 어디에 갔고 누구와 함께 갔나요? 그 여행에서 무엇을 했나요? 저에게 아주 자세히 이야기해주세요.",
+      "exampleAnswerVi": "",
+      "exampleAnswerKo": "",
+      "audioSrc": "",
+      "sourcePage": 14,
+      "reviewNeeded": false,
+      "pronKo": "",
+      "exampleAnswerPronKo": "",
+      "pronNoteKo": "첫 해외여행 경험 문제입니다."
+    },
+    {
+      "id": "d14-overseas-travel-s-003",
+      "textVi": "Trước khi đi du lịch, bạn thường chuẩn bị những thứ gì cho chuyến đi của mình? Bạn thường sắp xếp những thứ gì trong hành lý của bạn? Hãy liệt kê những thứ bạn mang theo khi đi du lịch.",
+      "textKo": "여행 가기 전에 당신은 보통 자신의 여행을 위해 어떤 것들을 준비하나요? 당신은 보통 당신의 짐 안에 어떤 것들을 정리하나요? 여행할 때 당신이 가져가는 것들을 나열해주세요.",
+      "exampleAnswerVi": "",
+      "exampleAnswerKo": "",
+      "audioSrc": "",
+      "sourcePage": 14,
+      "reviewNeeded": false,
+      "pronKo": "",
+      "exampleAnswerPronKo": "",
+      "pronNoteKo": "여행 준비물 문제입니다. 여권, 비자, 옷, 충전기, 지갑 등을 말합니다."
+    },
+    {
+      "id": "d14-overseas-travel-s-004",
+      "textVi": "Bạn hãy nói về chuyến du lịch nước ngoài gần đây nhất của bạn. Bạn đã đi nước nào? Bạn đã đi cùng với ai? Bạn đã làm gì ở đó? Bạn có thích chuyến đi đó không? Hãy nói cho tôi biết chi tiết.",
+      "textKo": "당신의 가장 최근 해외여행에 대해 말해주세요. 당신은 어느 나라에 갔나요? 누구와 함께 갔나요? 그곳에서 무엇을 했나요? 그 여행이 마음에 들었나요? 저에게 자세히 알려주세요.",
+      "exampleAnswerVi": "",
+      "exampleAnswerKo": "",
+      "audioSrc": "",
+      "sourcePage": 14,
+      "reviewNeeded": false,
+      "pronKo": "",
+      "exampleAnswerPronKo": "",
+      "pronNoteKo": "최근 해외여행 경험 문제입니다."
+    },
+    {
+      "id": "d14-overseas-travel-s-005",
+      "textVi": "Bạn hãy kể cho tôi về chuyến du lịch nước ngoài đáng nhớ nhất của bạn. Chuyến đi đó là khi nào? Bạn đã đi đâu và đi cùng ai? Tại sao chuyến đi đó lại đáng nhớ đối với bạn? Hãy nói cho tôi chi tiết.",
+      "textKo": "당신의 가장 기억에 남는 해외여행에 대해 저에게 이야기해주세요. 그 여행은 언제였나요? 당신은 어디에 갔고 누구와 함께 갔나요? 왜 그 여행이 당신에게 기억에 남나요? 저에게 자세히 말해주세요.",
+      "exampleAnswerVi": "",
+      "exampleAnswerKo": "",
+      "audioSrc": "",
+      "sourcePage": 14,
+      "reviewNeeded": false,
+      "pronKo": "",
+      "exampleAnswerPronKo": "",
+      "pronNoteKo": "가장 기억에 남는 해외여행 문제입니다."
+    },
+    {
+      "id": "d14-overseas-travel-s-006",
+      "textVi": "Hãy kể cho tôi nghe về một trải nghiệm đáng nhớ mà bạn có được khi đi du lịch. Việc đó xảy ra khi nào? Đã xảy ra chuyện gì? Vì sao trải nghiệm đó trở nên đáng nhớ?",
+      "textKo": "여행을 갔을 때 당신이 겪은 기억에 남는 경험 하나에 대해 저에게 이야기해주세요. 그 일은 언제 일어났나요? 무슨 일이 일어났나요? 왜 그 경험이 기억에 남게 되었나요?",
+      "exampleAnswerVi": "",
+      "exampleAnswerKo": "",
+      "audioSrc": "",
+      "sourcePage": 14,
+      "reviewNeeded": false,
+      "pronKo": "",
+      "exampleAnswerPronKo": "",
+      "pronNoteKo": "여행 중 사건/경험 문제입니다."
+    },
+    {
+      "id": "d14-overseas-travel-s-007",
+      "textVi": "Bạn có trải nghiệm không tốt nào khi đi du lịch nước ngoài không? Ví dụ như bị mất hộ chiếu, bị lạc đường hoặc bị mất hành lý. Hãy kể cho tôi chuyện gì đã xảy ra và bạn đã giải quyết như thế nào.",
+      "textKo": "해외여행을 갔을 때 좋지 않은 경험이 있었나요? 예를 들어 여권을 잃어버렸거나, 길을 잃었거나, 짐을 잃어버린 것처럼요. 무슨 일이 일어났고 어떻게 해결했는지 저에게 이야기해주세요.",
+      "exampleAnswerVi": "",
+      "exampleAnswerKo": "",
+      "audioSrc": "",
+      "sourcePage": 14,
+      "reviewNeeded": false,
+      "pronKo": "",
+      "exampleAnswerPronKo": "",
+      "pronNoteKo": "해외여행 돌발 경험 문제입니다."
+    },
+    {
+      "id": "d14-overseas-travel-s-008",
+      "textVi": "Bạn hãy miêu tả một thành phố ở nước ngoài mà bạn đã đến. Thành phố đó ở đâu? Không khí ở đó thế nào? Có gì nổi tiếng? Món ăn ở đó có ngon không? Hãy nói cho tôi biết chi tiết.",
+      "textKo": "당신이 가 본 해외 도시 하나를 묘사해주세요. 그 도시는 어디에 있나요? 그곳의 분위기는 어떤가요? 무엇이 유명한가요? 그곳 음식은 맛있나요? 저에게 자세히 알려주세요.",
+      "exampleAnswerVi": "",
+      "exampleAnswerKo": "",
+      "audioSrc": "",
+      "sourcePage": 14,
+      "reviewNeeded": false,
+      "pronKo": "",
+      "exampleAnswerPronKo": "",
+      "pronNoteKo": "해외 도시 묘사 문제입니다."
+    },
+    {
+      "id": "d14-overseas-travel-s-009",
+      "textVi": "Khi đi du lịch nước ngoài, bạn thường làm những hoạt động gì? Bạn thích hoạt động nào nhất? Tại sao bạn thích hoạt động đó? Hãy nói cho tôi biết chi tiết.",
+      "textKo": "해외여행을 갈 때 당신은 보통 어떤 활동들을 하나요? 어떤 활동을 가장 좋아하나요? 왜 그 활동을 좋아하나요? 저에게 자세히 알려주세요.",
+      "exampleAnswerVi": "",
+      "exampleAnswerKo": "",
+      "audioSrc": "",
+      "sourcePage": 14,
+      "reviewNeeded": false,
+      "pronKo": "",
+      "exampleAnswerPronKo": "",
+      "pronNoteKo": "해외여행 활동 문제입니다."
+    },
+    {
+      "id": "d14-overseas-travel-s-010",
+      "textVi": "Bạn thích đi du lịch trong nước hơn hay đi du lịch nước ngoài hơn? Hãy cho tôi biết lý do tại sao.",
+      "textKo": "당신은 국내여행을 더 좋아하나요, 아니면 해외여행을 더 좋아하나요? 그 이유를 저에게 알려주세요.",
+      "exampleAnswerVi": "",
+      "exampleAnswerKo": "",
+      "audioSrc": "",
+      "sourcePage": 14,
+      "reviewNeeded": false,
+      "pronKo": "",
+      "exampleAnswerPronKo": "",
+      "pronNoteKo": "국내여행과 해외여행 비교 문제입니다."
+    },
+    {
+      "id": "d14-overseas-travel-s-011",
+      "textVi": "Thói quen đi du lịch nước ngoài của bạn bây giờ có khác trước đây không? Nếu có, hãy nói cho tôi biết nó đã thay đổi như thế nào.",
+      "textKo": "지금 당신의 해외여행 습관은 예전과 다른가요? 만약 그렇다면 그것이 어떻게 변했는지 저에게 알려주세요.",
+      "exampleAnswerVi": "",
+      "exampleAnswerKo": "",
+      "audioSrc": "",
+      "sourcePage": 14,
+      "reviewNeeded": false,
+      "pronKo": "",
+      "exampleAnswerPronKo": "",
+      "pronNoteKo": "개인 해외여행 습관 변화 문제입니다."
+    },
+    {
+      "id": "d14-overseas-travel-s-012",
+      "textVi": "Người Hàn Quốc có thích đi du lịch nước ngoài không? Họ thường đi nước nào, đi vào mùa nào, đi bằng gì và làm những việc gì khi đi du lịch? Hãy cho tôi biết chi tiết.",
+      "textKo": "한국 사람들은 해외여행을 좋아하나요? 그들은 보통 어느 나라에 가고, 어느 계절에 가고, 무엇을 타고 가며, 여행할 때 어떤 일들을 하나요? 저에게 자세히 알려주세요.",
+      "exampleAnswerVi": "",
+      "exampleAnswerKo": "",
+      "audioSrc": "",
+      "sourcePage": 14,
+      "reviewNeeded": false,
+      "pronKo": "",
+      "exampleAnswerPronKo": "",
+      "pronNoteKo": "한국 사람들의 해외여행 문화 설명 문제입니다."
+    },
+    {
+      "id": "d14-overseas-travel-s-013",
+      "textVi": "Theo bạn, thói quen đi du lịch nước ngoài của người Hàn Quốc bây giờ có khác trước đây không? Hãy nói cho tôi biết sự thay đổi đó.",
+      "textKo": "당신 생각에는 한국 사람들의 해외여행 습관이 지금은 예전과 다른가요? 그 변화에 대해 저에게 알려주세요.",
+      "exampleAnswerVi": "",
+      "exampleAnswerKo": "",
+      "audioSrc": "",
+      "sourcePage": 14,
+      "reviewNeeded": false,
+      "pronKo": "",
+      "exampleAnswerPronKo": "",
+      "pronNoteKo": "한국 해외여행 습관 변화 문제입니다."
+    },
+    {
+      "id": "d14-overseas-travel-s-014",
+      "textVi": "Tôi muốn cho bạn một tình huống để diễn xuất. Bạn đang lên kế hoạch đi du lịch nước ngoài. Hãy gọi điện thoại cho đại lý du lịch và hỏi nhân viên công ty du lịch ba hoặc bốn câu hỏi để có thêm thông tin về tour du lịch của bạn.",
+      "textKo": "제가 역할극 상황을 하나 드리겠습니다. 당신은 해외여행을 계획하고 있습니다. 여행사에 전화해서 당신의 여행 투어에 대한 추가 정보를 얻기 위해 여행사 직원에게 세 가지 또는 네 가지 질문을 하세요.",
+      "exampleAnswerVi": "",
+      "exampleAnswerKo": "",
+      "audioSrc": "",
+      "sourcePage": 14,
+      "reviewNeeded": false,
+      "pronKo": "",
+      "exampleAnswerPronKo": "",
+      "pronNoteKo": "여행사 정보 요청 역할극입니다."
+    },
+    {
+      "id": "d14-overseas-travel-s-015",
+      "textVi": "Tôi sẽ cho bạn một tình huống để diễn xuất. Bạn đang ở sân bay và phát hiện ra rằng chuyến bay của bạn bị hoãn. Hãy hỏi nhân viên sân bay ba hoặc bốn câu hỏi để biết thêm thông tin về chuyến bay đó.",
+      "textKo": "제가 역할극 상황을 하나 드리겠습니다. 당신은 공항에 있고 당신의 항공편이 지연되었다는 것을 알게 됩니다. 그 항공편에 대한 추가 정보를 알기 위해 공항 직원에게 세 가지 또는 네 가지 질문을 하세요.",
+      "exampleAnswerVi": "",
+      "exampleAnswerKo": "",
+      "audioSrc": "",
+      "sourcePage": 14,
+      "reviewNeeded": false,
+      "pronKo": "",
+      "exampleAnswerPronKo": "",
+      "pronNoteKo": "항공편 지연 정보 요청 역할극입니다."
+    },
+    {
+      "id": "d14-overseas-travel-s-016",
+      "textVi": "Tôi xin lỗi nhưng có một vấn đề cần bạn giải quyết. Bạn đang ở sân bay để chuẩn bị đi du lịch, nhưng bỗng dưng bạn nhận được thông báo máy bay bị hoãn. Hãy gọi cho công ty du lịch để giải thích tình huống này và đưa ra 2 hoặc 3 phương án để giải quyết vấn đề này.",
+      "textKo": "죄송하지만 당신이 해결해야 할 문제가 하나 있습니다. 당신은 여행을 가기 위해 공항에 있는데, 갑자기 비행기가 지연된다는 통보를 받습니다. 여행사에 전화해서 이 상황을 설명하고 이 문제를 해결하기 위한 방안 2~3가지를 제시하세요.",
+      "exampleAnswerVi": "",
+      "exampleAnswerKo": "",
+      "audioSrc": "",
+      "sourcePage": 14,
+      "reviewNeeded": false,
+      "pronKo": "",
+      "exampleAnswerPronKo": "",
+      "pronNoteKo": "항공편 지연 문제 해결 역할극입니다."
+    },
+    {
+      "id": "d14-overseas-travel-s-017",
+      "textVi": "Bạn đang đi du lịch ở nước ngoài thì bị mất hộ chiếu. Bạn hãy gọi điện cho đại sứ quán hoặc lãnh sự quán để giải thích tình hình hiện tại và hỏi 2-3 câu hỏi để giải quyết vấn đề đó.",
+      "textKo": "당신은 해외여행 중 여권을 잃어버렸습니다. 현재 상황을 설명하고 그 문제를 해결하기 위해 대사관 또는 영사관에 전화해서 2~3가지 질문을 하세요.",
+      "exampleAnswerVi": "",
+      "exampleAnswerKo": "",
+      "audioSrc": "",
+      "sourcePage": 14,
+      "reviewNeeded": false,
+      "pronKo": "",
+      "exampleAnswerPronKo": "",
+      "pronNoteKo": "여권 분실 문제 해결 역할극입니다."
+    }
+  ],
+  "dialogues": [
+    {
+      "id": "d14-overseas-travel-d-001",
+      "title": "여행사에 해외여행 정보 문의하기",
+      "audioSrc": "",
+      "sourcePage": 14,
+      "reviewNeeded": false,
+      "lines": [
+        {
+          "speaker": "A",
+          "vi": "A lô, đó có phải là công ty du lịch ABC không?",
+          "ko": "여보세요, 거기가 ABC 여행사인가요?",
+          "pronKo": "아 로, 도 꼬 파이 라 꽁 띠 주 릭 ABC 콩?"
+        },
+        {
+          "speaker": "B",
+          "vi": "Vâng, đúng rồi. Tôi có thể giúp gì cho bạn?",
+          "ko": "네, 맞습니다. 무엇을 도와드릴까요?",
+          "pronKo": "벙, 둥 조이. 또이 꼬 테 줍 지 쪼 반?"
+        },
+        {
+          "speaker": "A",
+          "vi": "Tôi muốn đi du lịch nước ngoài cùng với gia đình vào kỳ nghỉ hè này.",
+          "ko": "저는 이번 여름휴가에 가족과 함께 해외여행을 가고 싶습니다.",
+          "pronKo": "또이 무온 디 주 릭 느억 응오아이 꿍 버이 자 딘 바오 끼 응이 헤 나이."
+        },
+        {
+          "speaker": "A",
+          "vi": "Điểm du lịch nào nhiều người yêu thích?",
+          "ko": "많은 사람들이 좋아하는 관광지는 어디인가요?",
+          "pronKo": "디엠 주 릭 나오 니에우 응으어이 이에우 틱?"
+        },
+        {
+          "speaker": "A",
+          "vi": "Thời tiết và giao thông ở đó thế nào?",
+          "ko": "그곳의 날씨와 교통은 어떤가요?",
+          "pronKo": "터이 띠엣 바 자오 통 어 도 테 나오?"
+        }
+      ]
+    },
+    {
+      "id": "d14-overseas-travel-d-002",
+      "title": "공항에서 항공편 지연 문의하기",
+      "audioSrc": "",
+      "sourcePage": 14,
+      "reviewNeeded": false,
+      "lines": [
+        {
+          "speaker": "A",
+          "vi": "Chào chị ạ. Cho tôi hỏi về việc trì hoãn của chuyến bay VN123 nhé.",
+          "ko": "안녕하세요. VN123 항공편 지연에 대해 질문드려도 될까요?",
+          "pronKo": "짜오 찌 아. 쪼 또이 호이 베 비엑 찌 호안 꾸어 쭈옌 바이 VN123 녜."
+        },
+        {
+          "speaker": "A",
+          "vi": "Vì sao chuyến bay đó bị trì hoãn ạ?",
+          "ko": "왜 그 항공편이 지연되었나요?",
+          "pronKo": "비 싸오 쭈옌 바이 도 비 찌 호안 아?"
+        },
+        {
+          "speaker": "A",
+          "vi": "Chuyến bay đó bị trì hoãn mấy tiếng?",
+          "ko": "그 항공편은 몇 시간 지연되나요?",
+          "pronKo": "쭈옌 바이 도 비 찌 호안 머이 띠엥?"
+        },
+        {
+          "speaker": "A",
+          "vi": "Tôi có thể đổi chuyến bay khác được không?",
+          "ko": "제가 다른 항공편으로 바꿀 수 있나요?",
+          "pronKo": "또이 꼬 테 도이 쭈옌 바이 칵 드억 콩?"
+        },
+        {
+          "speaker": "A",
+          "vi": "Hãng hàng không có cung cấp khách sạn hay bữa ăn không?",
+          "ko": "항공사에서 호텔이나 식사를 제공하나요?",
+          "pronKo": "항 항 콩 꼬 꿍 껍 카익 산 하이 브어 안 콩?"
+        }
+      ]
+    },
+    {
+      "id": "d14-overseas-travel-d-003",
+      "title": "여권을 잃어버렸을 때",
+      "audioSrc": "",
+      "sourcePage": 14,
+      "reviewNeeded": false,
+      "lines": [
+        {
+          "speaker": "A",
+          "vi": "A lô, tôi đang đi du lịch ở nước ngoài và bị mất hộ chiếu.",
+          "ko": "여보세요, 저는 해외여행 중이고 여권을 잃어버렸습니다.",
+          "pronKo": "아 로, 또이 당 디 주 릭 어 느억 응오아이 바 비 멋 호 찌에우."
+        },
+        {
+          "speaker": "B",
+          "vi": "Bạn đang ở đâu?",
+          "ko": "당신은 어디에 있나요?",
+          "pronKo": "반 당 어 더우?"
+        },
+        {
+          "speaker": "A",
+          "vi": "Tôi đang ở gần sân bay. Tôi rất hoang mang.",
+          "ko": "저는 공항 근처에 있습니다. 매우 당황했습니다.",
+          "pronKo": "또이 당 어 건 선 바이. 또이 젓 호앙 망."
+        },
+        {
+          "speaker": "A",
+          "vi": "Tôi cần làm gì để xin cấp lại hộ chiếu?",
+          "ko": "여권 재발급을 신청하려면 무엇을 해야 하나요?",
+          "pronKo": "또이 껀 람 지 데 씬 껍 라이 호 찌에우?"
+        },
+        {
+          "speaker": "B",
+          "vi": "Bạn hãy đến lãnh sự quán và mang giấy tờ tùy thân.",
+          "ko": "영사관에 오시고 신분증을 가져오세요.",
+          "pronKo": "반 하이 덴 라인 스 꽌 바 망 저이 떠 뚜이 턴."
+        }
+      ]
+    }
+  ],
+  "grammarPoints": [
+    {
+      "id": "d14-overseas-travel-g-001",
+      "title": "해외여행 가다",
+      "pattern": "đi du lịch nước ngoài",
+      "meaningKo": "해외여행을 가다",
+      "sourcePage": 14,
+      "reviewNeeded": false
+    },
+    {
+      "id": "d14-overseas-travel-g-002",
+      "title": "가 본 적 있나요?",
+      "pattern": "Bạn đã đến Việt Nam chưa?",
+      "meaningKo": "당신은 베트남에 가 본 적이 있나요?",
+      "sourcePage": 14,
+      "reviewNeeded": false
+    },
+    {
+      "id": "d14-overseas-travel-g-003",
+      "title": "어디에 갔나요?",
+      "pattern": "Bạn đã đi đâu?",
+      "meaningKo": "당신은 어디에 갔나요?",
+      "sourcePage": 14,
+      "reviewNeeded": false
+    },
+    {
+      "id": "d14-overseas-travel-g-004",
+      "title": "그 도시는 어땠나요?",
+      "pattern": "Thành phố đó thế nào?",
+      "meaningKo": "그 도시는 어땠나요?",
+      "sourcePage": 14,
+      "reviewNeeded": false
+    },
+    {
+      "id": "d14-overseas-travel-g-005",
+      "title": "구체적인 활동",
+      "pattern": "các hoạt động cụ thể của bạn",
+      "meaningKo": "당신의 구체적인 활동들",
+      "sourcePage": 14,
+      "reviewNeeded": false
+    },
+    {
+      "id": "d14-overseas-travel-g-006",
+      "title": "여행 전 준비",
+      "pattern": "Trước khi đi du lịch, bạn thường chuẩn bị những thứ gì?",
+      "meaningKo": "여행 가기 전에 당신은 보통 무엇을 준비하나요?",
+      "sourcePage": 14,
+      "reviewNeeded": false
+    },
+    {
+      "id": "d14-overseas-travel-g-007",
+      "title": "짐에 무엇을 정리하나요?",
+      "pattern": "Bạn thường sắp xếp những thứ gì trong hành lý của bạn?",
+      "meaningKo": "당신은 보통 짐 안에 어떤 것들을 정리하나요?",
+      "sourcePage": 14,
+      "reviewNeeded": false
+    },
+    {
+      "id": "d14-overseas-travel-g-008",
+      "title": "가져가는 것 나열하기",
+      "pattern": "Hãy liệt kê những thứ bạn mang theo.",
+      "meaningKo": "당신이 가져가는 것들을 나열해주세요.",
+      "sourcePage": 14,
+      "reviewNeeded": false
+    },
+    {
+      "id": "d14-overseas-travel-g-009",
+      "title": "기억에 남는 경험",
+      "pattern": "một trải nghiệm đáng nhớ",
+      "meaningKo": "기억에 남는 경험 하나",
+      "sourcePage": 14,
+      "reviewNeeded": false
+    },
+    {
+      "id": "d14-overseas-travel-g-010",
+      "title": "무슨 일이 일어났나요?",
+      "pattern": "Đã xảy ra chuyện gì?",
+      "meaningKo": "무슨 일이 일어났나요?",
+      "sourcePage": 14,
+      "reviewNeeded": false
+    },
+    {
+      "id": "d14-overseas-travel-g-011",
+      "title": "왜 기억에 남나요?",
+      "pattern": "Vì sao trải nghiệm đó trở nên đáng nhớ?",
+      "meaningKo": "왜 그 경험이 기억에 남게 되었나요?",
+      "sourcePage": 14,
+      "reviewNeeded": false
+    },
+    {
+      "id": "d14-overseas-travel-g-012",
+      "title": "여권을 잃어버리다",
+      "pattern": "bị mất hộ chiếu",
+      "meaningKo": "여권을 잃어버리다",
+      "sourcePage": 14,
+      "reviewNeeded": false
+    },
+    {
+      "id": "d14-overseas-travel-g-013",
+      "title": "해외 도시 묘사",
+      "pattern": "miêu tả một thành phố ở nước ngoài",
+      "meaningKo": "해외 도시 하나를 묘사하다",
+      "sourcePage": 14,
+      "reviewNeeded": false
+    },
+    {
+      "id": "d14-overseas-travel-g-014",
+      "title": "국내/해외 비교",
+      "pattern": "đi du lịch trong nước hơn hay đi du lịch nước ngoài hơn",
+      "meaningKo": "국내여행을 더 좋아하는지 해외여행을 더 좋아하는지",
+      "sourcePage": 14,
+      "reviewNeeded": false
+    },
+    {
+      "id": "d14-overseas-travel-g-015",
+      "title": "여행 습관 변화",
+      "pattern": "Thói quen đi du lịch nước ngoài của bạn bây giờ có khác trước đây không?",
+      "meaningKo": "지금 당신의 해외여행 습관은 예전과 다른가요?",
+      "sourcePage": 14,
+      "reviewNeeded": false
+    },
+    {
+      "id": "d14-overseas-travel-g-016",
+      "title": "여행사에 전화하기",
+      "pattern": "gọi điện thoại cho đại lý du lịch",
+      "meaningKo": "여행사에 전화하다",
+      "sourcePage": 14,
+      "reviewNeeded": false
+    },
+    {
+      "id": "d14-overseas-travel-g-017",
+      "title": "추가 정보를 얻기 위해 질문하기",
+      "pattern": "hỏi ba hoặc bốn câu hỏi để có thêm thông tin",
+      "meaningKo": "추가 정보를 얻기 위해 세네 가지 질문을 하다",
+      "sourcePage": 14,
+      "reviewNeeded": false
+    },
+    {
+      "id": "d14-overseas-travel-g-018",
+      "title": "항공편 지연",
+      "pattern": "chuyến bay của bạn bị hoãn",
+      "meaningKo": "당신의 항공편이 지연되다",
+      "sourcePage": 14,
+      "reviewNeeded": false
+    },
+    {
+      "id": "d14-overseas-travel-g-019",
+      "title": "지연 이유 묻기",
+      "pattern": "Vì sao chuyến bay đó bị trì hoãn?",
+      "meaningKo": "왜 그 항공편이 지연되었나요?",
+      "sourcePage": 14,
+      "reviewNeeded": false
+    },
+    {
+      "id": "d14-overseas-travel-g-020",
+      "title": "해결 방안 제시",
+      "pattern": "đưa ra 2 hoặc 3 phương án để giải quyết vấn đề này",
+      "meaningKo": "이 문제를 해결하기 위한 방안 2~3가지를 제시하다",
+      "sourcePage": 14,
+      "reviewNeeded": false
+    }
+  ],
+  "pronunciationTargets": [
+    {
+      "id": "d14-overseas-travel-p-001",
+      "text": "Bạn đã đến Việt Nam chưa?",
+      "hintKo": "당신은 베트남에 가 본 적이 있나요?",
+      "audioSrc": "",
+      "sourcePage": 14,
+      "reviewNeeded": false,
+      "pronKo": "반 다 덴 비엣 남 쯔어",
+      "mouthKo": "Bạn đã đến Việt Nam / chưa 로 끊습니다.",
+      "toneKo": "경험 유무 질문입니다."
+    },
+    {
+      "id": "d14-overseas-travel-p-002",
+      "text": "Bạn đã đi đâu và với ai?",
+      "hintKo": "당신은 어디에 갔고 누구와 함께 갔나요?",
+      "audioSrc": "",
+      "sourcePage": 14,
+      "reviewNeeded": false,
+      "pronKo": "반 다 디 더우 바 버이 아이",
+      "mouthKo": "Bạn đã đi đâu / và với ai 로 끊습니다.",
+      "toneKo": "여행지와 동행자 질문입니다."
+    },
+    {
+      "id": "d14-overseas-travel-p-003",
+      "text": "Trước khi đi du lịch, bạn thường chuẩn bị những thứ gì?",
+      "hintKo": "여행 가기 전에 당신은 보통 무엇을 준비하나요?",
+      "audioSrc": "",
+      "sourcePage": 14,
+      "reviewNeeded": false,
+      "pronKo": "쯔억 키 디 주 릭 반 트엉 쭈언 비 느응 트 지",
+      "mouthKo": "Trước khi đi du lịch / bạn thường chuẩn bị / những thứ gì 로 끊습니다.",
+      "toneKo": "여행 준비 질문입니다."
+    },
+    {
+      "id": "d14-overseas-travel-p-004",
+      "text": "Bạn thường sắp xếp những thứ gì trong hành lý của bạn?",
+      "hintKo": "당신은 보통 당신의 짐 안에 어떤 것들을 정리하나요?",
+      "audioSrc": "",
+      "sourcePage": 14,
+      "reviewNeeded": false,
+      "pronKo": "반 트엉 쌉 쎕 느응 트 지 쫑 하인 리 꾸어 반",
+      "mouthKo": "Bạn thường sắp xếp / những thứ gì / trong hành lý của bạn 으로 끊습니다.",
+      "toneKo": "hành lý는 짐입니다."
+    },
+    {
+      "id": "d14-overseas-travel-p-005",
+      "text": "Hãy kể cho tôi nghe về một trải nghiệm đáng nhớ.",
+      "hintKo": "기억에 남는 경험 하나에 대해 저에게 이야기해주세요.",
+      "audioSrc": "",
+      "sourcePage": 14,
+      "reviewNeeded": false,
+      "pronKo": "하이 께 쪼 또이 응에 베 못 짜이 니엠 당 녀",
+      "mouthKo": "Hãy kể cho tôi nghe / về một trải nghiệm đáng nhớ 로 끊습니다.",
+      "toneKo": "경험 문제 시작 문장입니다."
+    },
+    {
+      "id": "d14-overseas-travel-p-006",
+      "text": "Vì sao trải nghiệm đó trở nên đáng nhớ?",
+      "hintKo": "왜 그 경험이 기억에 남게 되었나요?",
+      "audioSrc": "",
+      "sourcePage": 14,
+      "reviewNeeded": false,
+      "pronKo": "비 싸오 짜이 니엠 도 쩌 넨 당 녀",
+      "mouthKo": "Vì sao / trải nghiệm đó / trở nên đáng nhớ 로 끊습니다.",
+      "toneKo": "이유 설명 질문입니다."
+    },
+    {
+      "id": "d14-overseas-travel-p-007",
+      "text": "Bạn đang lên kế hoạch đi du lịch nước ngoài.",
+      "hintKo": "당신은 해외여행을 계획하고 있습니다.",
+      "audioSrc": "",
+      "sourcePage": 14,
+      "reviewNeeded": false,
+      "pronKo": "반 당 렌 께 호아익 디 주 릭 느억 응오아이",
+      "mouthKo": "Bạn đang lên kế hoạch / đi du lịch nước ngoài 로 끊습니다.",
+      "toneKo": "여행사 역할극 상황 문장입니다."
+    },
+    {
+      "id": "d14-overseas-travel-p-008",
+      "text": "Hãy gọi điện thoại cho đại lý du lịch.",
+      "hintKo": "여행사에 전화하세요.",
+      "audioSrc": "",
+      "sourcePage": 14,
+      "reviewNeeded": false,
+      "pronKo": "하이 고이 디엔 토아이 쪼 다이 리 주 릭",
+      "mouthKo": "Hãy gọi điện thoại / cho đại lý du lịch 로 끊습니다.",
+      "toneKo": "역할극 지시문입니다."
+    },
+    {
+      "id": "d14-overseas-travel-p-009",
+      "text": "Chuyến bay của bạn bị hoãn.",
+      "hintKo": "당신의 항공편이 지연되었습니다.",
+      "audioSrc": "",
+      "sourcePage": 14,
+      "reviewNeeded": false,
+      "pronKo": "쭈옌 바이 꾸어 반 비 호안",
+      "mouthKo": "Chuyến bay của bạn / bị hoãn 으로 끊습니다.",
+      "toneKo": "공항 문제 상황 핵심 문장입니다."
+    },
+    {
+      "id": "d14-overseas-travel-p-010",
+      "text": "Vì sao chuyến bay đó bị trì hoãn?",
+      "hintKo": "왜 그 항공편이 지연되었나요?",
+      "audioSrc": "",
+      "sourcePage": 14,
+      "reviewNeeded": false,
+      "pronKo": "비 싸오 쭈옌 바이 도 비 찌 호안",
+      "mouthKo": "Vì sao / chuyến bay đó / bị trì hoãn 으로 끊습니다.",
+      "toneKo": "지연 이유를 묻습니다."
+    },
+    {
+      "id": "d14-overseas-travel-p-011",
+      "text": "Tôi có thể đổi chuyến bay khác được không?",
+      "hintKo": "제가 다른 항공편으로 바꿀 수 있나요?",
+      "audioSrc": "",
+      "sourcePage": 14,
+      "reviewNeeded": false,
+      "pronKo": "또이 꼬 테 도이 쭈옌 바이 칵 드억 콩",
+      "mouthKo": "Tôi có thể / đổi chuyến bay khác / được không 으로 끊습니다.",
+      "toneKo": "해결책 질문입니다."
+    },
+    {
+      "id": "d14-overseas-travel-p-012",
+      "text": "Tôi bị mất hộ chiếu khi đi du lịch ở nước ngoài.",
+      "hintKo": "저는 해외여행 중 여권을 잃어버렸습니다.",
+      "audioSrc": "",
+      "sourcePage": 14,
+      "reviewNeeded": false,
+      "pronKo": "또이 비 멋 호 찌에우 키 디 주 릭 어 느억 응오아이",
+      "mouthKo": "Tôi bị mất hộ chiếu / khi đi du lịch ở nước ngoài 로 끊습니다.",
+      "toneKo": "돌발 경험 소재입니다."
+    }
+  ],
+  "quizSeeds": [
+    {
+      "id": "d14-overseas-travel-q-001",
+      "type": "match-term",
+      "prompt": "해외여행 기본 단어 매칭",
+      "answerSet": [
+        "du lịch nước ngoài-해외여행",
+        "đi du lịch nước ngoài-해외여행을 가다",
+        "nước ngoài-외국/해외",
+        "quốc gia-국가",
+        "thành phố-도시",
+        "địa điểm du lịch-여행지"
+      ],
+      "sourcePage": 14,
+      "reviewNeeded": false
+    },
+    {
+      "id": "d14-overseas-travel-q-002",
+      "type": "match-term",
+      "prompt": "공항/항공 단어 매칭",
+      "answerSet": [
+        "sân bay-공항",
+        "chuyến bay-항공편",
+        "vé máy bay-비행기표",
+        "chuyến bay bị hoãn-항공편이 지연되다",
+        "đổi chuyến bay-항공편을 바꾸다",
+        "hãng hàng không-항공사"
+      ],
+      "sourcePage": 14,
+      "reviewNeeded": false
+    },
+    {
+      "id": "d14-overseas-travel-q-003",
+      "type": "match-term",
+      "prompt": "여행 준비물 단어 매칭",
+      "answerSet": [
+        "hộ chiếu-여권",
+        "visa-비자",
+        "hành lý-짐",
+        "vali-캐리어",
+        "sạc pin-충전기",
+        "bảo hiểm du lịch-여행자 보험"
+      ],
+      "sourcePage": 14,
+      "reviewNeeded": false
+    },
+    {
+      "id": "d14-overseas-travel-q-004",
+      "type": "match-term",
+      "prompt": "현지 활동 단어 매칭",
+      "answerSet": [
+        "tham quan-관광하다",
+        "mua sắm-쇼핑하다",
+        "chợ đêm-야시장",
+        "ăn món ăn địa phương-현지 음식을 먹다",
+        "văn hóa địa phương-현지 문화",
+        "người địa phương-현지인"
+      ],
+      "sourcePage": 14,
+      "reviewNeeded": false
+    },
+    {
+      "id": "d14-overseas-travel-q-005",
+      "type": "match-term",
+      "prompt": "문제 상황 단어 매칭",
+      "answerSet": [
+        "bị mất hộ chiếu-여권을 잃어버리다",
+        "bị lạc đường-길을 잃다",
+        "bị mất hành lý-짐을 잃어버리다",
+        "lãnh sự quán-영사관",
+        "đại sứ quán-대사관",
+        "xin cấp lại hộ chiếu-여권 재발급을 신청하다"
+      ],
+      "sourcePage": 14,
+      "reviewNeeded": false
+    },
+    {
+      "id": "d14-overseas-travel-q-006",
+      "type": "match-term",
+      "prompt": "여행사 역할극 단어 매칭",
+      "answerSet": [
+        "đại lý du lịch-여행사",
+        "công ty du lịch-여행사",
+        "tour du lịch-여행 투어",
+        "có thêm thông tin-추가 정보를 얻다",
+        "giá tour-투어 가격",
+        "bao gồm-포함하다"
+      ],
+      "sourcePage": 14,
+      "reviewNeeded": false
+    },
+    {
+      "id": "d14-overseas-travel-q-007",
+      "type": "sentence-meaning",
+      "prompt": "문장 뜻 고르기: 해외여행 경험",
+      "answerSet": [
+        "Bạn đã đến Việt Nam chưa?-당신은 베트남에 가 본 적이 있나요?",
+        "Bạn đã đi đâu và với ai?-당신은 어디에 갔고 누구와 함께 갔나요?",
+        "Thành phố đó thế nào?-그 도시는 어땠나요?",
+        "Hãy nói cho tôi biết về các hoạt động cụ thể của bạn.-당신의 구체적인 활동들에 대해 알려주세요."
+      ],
+      "sourcePage": 14,
+      "reviewNeeded": false
+    },
+    {
+      "id": "d14-overseas-travel-q-008",
+      "type": "sentence-meaning",
+      "prompt": "문장 뜻 고르기: 여행 준비",
+      "answerSet": [
+        "Trước khi đi du lịch, bạn thường chuẩn bị những thứ gì?-여행 가기 전에 보통 무엇을 준비하나요?",
+        "Bạn thường sắp xếp những thứ gì trong hành lý của bạn?-당신은 짐 안에 어떤 것들을 정리하나요?",
+        "Hãy liệt kê những thứ bạn mang theo.-가져가는 것들을 나열해주세요.",
+        "Tôi luôn kiểm tra hộ chiếu trước khi đi.-저는 가기 전에 항상 여권을 확인합니다."
+      ],
+      "sourcePage": 14,
+      "reviewNeeded": false
+    },
+    {
+      "id": "d14-overseas-travel-q-009",
+      "type": "sentence-meaning",
+      "prompt": "문장 뜻 고르기: 공항 역할극",
+      "answerSet": [
+        "Chuyến bay của bạn bị hoãn.-당신의 항공편이 지연되었습니다.",
+        "Vì sao chuyến bay đó bị trì hoãn?-왜 그 항공편이 지연되었나요?",
+        "Chuyến bay đó bị trì hoãn mấy tiếng?-그 항공편은 몇 시간 지연되나요?",
+        "Tôi có thể đổi chuyến bay khác được không?-다른 항공편으로 바꿀 수 있나요?"
+      ],
+      "sourcePage": 14,
+      "reviewNeeded": false
+    },
+    {
+      "id": "d14-overseas-travel-q-010",
+      "type": "fill-blank",
+      "prompt": "빈칸 채우기: 저는 해외여행을 좋아합니다.",
+      "question": "Tôi thích đi ___ ___ ___.",
+      "answer": "du lịch nước ngoài",
+      "sourcePage": 14,
+      "reviewNeeded": false
+    },
+    {
+      "id": "d14-overseas-travel-q-011",
+      "type": "fill-blank",
+      "prompt": "빈칸 채우기: 저는 여권을 확인합니다.",
+      "question": "Tôi kiểm tra ___ ___.",
+      "answer": "hộ chiếu",
+      "sourcePage": 14,
+      "reviewNeeded": false
+    },
+    {
+      "id": "d14-overseas-travel-q-012",
+      "type": "fill-blank",
+      "prompt": "빈칸 채우기: 제 항공편이 지연되었습니다.",
+      "question": "Chuyến bay của tôi ___ ___.",
+      "answer": "bị hoãn",
+      "sourcePage": 14,
+      "reviewNeeded": false
+    },
+    {
+      "id": "d14-overseas-travel-q-013",
+      "type": "fill-blank",
+      "prompt": "빈칸 채우기: 저는 여행사에 전화합니다.",
+      "question": "Tôi gọi điện cho ___ ___ ___.",
+      "answer": "đại lý du lịch",
+      "sourcePage": 14,
+      "reviewNeeded": false
+    },
+    {
+      "id": "d14-overseas-travel-q-014",
+      "type": "fill-blank",
+      "prompt": "빈칸 채우기: 저는 여권을 잃어버렸습니다.",
+      "question": "Tôi ___ ___ ___ ___.",
+      "answer": "bị mất hộ chiếu",
+      "sourcePage": 14,
+      "reviewNeeded": false
+    },
+    {
+      "id": "d14-overseas-travel-q-015",
+      "type": "match-term",
+      "prompt": "해외여행 경험 답변 순서 맞추기",
+      "answerSet": [
+        "1-Tôi đã từng đến Việt Nam.",
+        "2-Tôi đã đi Đà Nẵng cùng với gia đình.",
+        "3-Thành phố đó rất đẹp và sôi động.",
+        "4-Ở đó, tôi tham quan, chụp ảnh và ăn món ăn địa phương.",
+        "5-Người Việt Nam rất thân thiện.",
+        "6-Vì vậy, chuyến đi đó rất đáng nhớ."
+      ],
+      "sourcePage": 14,
+      "reviewNeeded": false
+    },
+    {
+      "id": "d14-overseas-travel-q-016",
+      "type": "match-term",
+      "prompt": "여행 준비 답변 순서 맞추기",
+      "answerSet": [
+        "1-Trước khi đi du lịch, tôi chuẩn bị nhiều thứ.",
+        "2-Trước hết, tôi kiểm tra hộ chiếu và visa.",
+        "3-Sau đó, tôi đặt vé máy bay và khách sạn.",
+        "4-Tôi cũng sắp xếp hành lý.",
+        "5-Tôi mang theo quần áo, sạc pin, ví tiền và điện thoại.",
+        "6-Theo tôi, chuẩn bị kỹ rất quan trọng."
+      ],
+      "sourcePage": 14,
+      "reviewNeeded": false
+    },
+    {
+      "id": "d14-overseas-travel-q-017",
+      "type": "match-term",
+      "prompt": "공항 지연 역할극 순서 맞추기",
+      "answerSet": [
+        "1-Chào chị ạ. Cho tôi hỏi về chuyến bay VN123.",
+        "2-Vì sao chuyến bay đó bị trì hoãn?",
+        "3-Chuyến bay đó bị trì hoãn mấy tiếng?",
+        "4-Tôi có thể đổi chuyến bay khác được không?",
+        "5-Hãng hàng không có cung cấp khách sạn hay bữa ăn không?",
+        "6-Cảm ơn chị đã giúp tôi."
+      ],
+      "sourcePage": 14,
+      "reviewNeeded": false
+    },
+    {
+      "id": "d14-overseas-travel-q-018",
+      "type": "match-term",
+      "prompt": "여권 분실 상황 답변 순서 맞추기",
+      "answerSet": [
+        "1-Khi đi du lịch ở nước ngoài, tôi bị mất hộ chiếu.",
+        "2-Lúc đó tôi rất hoang mang và bối rối.",
+        "3-Tôi gọi điện cho lãnh sự quán.",
+        "4-Sau đó, tôi đến lãnh sự quán để xin cấp lại hộ chiếu.",
+        "5-Từ sau đó, tôi luôn kiểm tra hộ chiếu cẩn thận.",
+        "6-Đó là một trải nghiệm rất đáng nhớ."
+      ],
+      "sourcePage": 14,
+      "reviewNeeded": false
+    }
+  ],
+  "unlockCondition": "always",
+  "reviewNeeded": false
+},
+    {
   "lessonId": "day14-domestic-travel-questions",
   "unitLabel": "14일차",
   "titleKo": "14일차: 국내여행 문제",
